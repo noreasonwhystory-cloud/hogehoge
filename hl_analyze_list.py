@@ -1,6 +1,6 @@
-"""指定アドレス群を Hyperliquid 約定で一括フォレンジック分析する。
+r"""指定アドレス群を Hyperliquid 約定で一括フォレンジック分析する。
 
-Nansen発の出金候補(残高<\$1k の個人)が「本当に取引で稼いだか」をHL側で検証:
+Nansen発の出金候補(残高<$1k の個人)が「本当に取引で稼いだか」をHL側で検証:
   実現損益(closedPnl) / 勝率 / majors比 / 取引数 / 活動期間 / 平均保有 / 現在建玉
 出力: data/hl_list_analysis.json （実現損益 降順）
 使い方: python hl_analyze_list.py [--maxpages 8] [--limit N]
