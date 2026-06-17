@@ -353,7 +353,7 @@ tr.inact td:first-child{{box-shadow:inset 3px 0 #6b5535}}
 </style></head><body>
 <h1>{esc(title)}</h1>
 <div class="sub">更新: {esc(reg.get('updated_at',''))} ／ 累計実行 {esc(reg.get('run_count'))}回 ／ 表示 {len(wallets)} ウォレット ／
-<a href="index.html" style="color:#4ea1ff">トップ</a> ・ <a href="registry.html" style="color:#4ea1ff">監視台帳</a> ・ <a href="pros.html" style="color:#4ea1ff">プロ一覧</a></div>
+<a href="index.html" style="color:#4ea1ff">トップ</a> ・ <a href="registry.html" style="color:#4ea1ff">インサイダー疑惑</a> ・ <a href="pros.html" style="color:#4ea1ff">プロ一覧</a></div>
 <div class="chips">{chips}</div>
 <div class="filterbar">{filterbar}
   <div style="margin-top:6px"><span id="clearf">✕ フィルタ解除</span><span id="cnt"></span>
@@ -407,7 +407,7 @@ EXCLUDED_POSITIONS = {"除外/低優先", "偽陽性(数値疑惑→否定)"}
 def render_all(reg):
     """4ページ生成: メイン台帳(インサイダー/疑惑) / プロ / Nansen未検証候補 / 除外・低優先。"""
     render_html(reg, out="registry.html",
-                title="perp ウォレット監視台帳（インサイダー/疑惑 中心）",
+                title="🔴 インサイダー疑惑（要監視）",
                 drop=PRO_POSITIONS | CANDIDATE_POSITIONS | EXCLUDED_POSITIONS)
     render_html(reg, out="pros.html",
                 title="プロ一覧（HL行動で検証した実力層・Vault運用者）", only=PRO_POSITIONS)
