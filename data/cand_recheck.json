@@ -1,0 +1,120 @@
+{
+  "generated_at": "2026-06-17T19:35:55.876149+00:00",
+  "n": 5,
+  "wallets": [
+    {
+      "address": "0x2373962eec8ed3764ddc1142244ac1e0fa38d0d8",
+      "account_value": 0,
+      "n_fills": 5325,
+      "capped": false,
+      "n_closes": 2315,
+      "win_rate": 0.4661,
+      "realized_pnl": 893116,
+      "majors_fills": 5323,
+      "majors_realized": 893117,
+      "majors_pct": 1.0,
+      "active_from": "2025-12-21",
+      "active_to": "2026-04-21",
+      "avg_hold_h": 1445.38,
+      "top_coins": {
+        "SOL": 2890,
+        "BTC": 1596,
+        "ETH": 837,
+        "HYPE": 2
+      },
+      "nansen_label": "",
+      "lb_pnl": null
+    },
+    {
+      "address": "0xb69eec8fea0081343c3b09e652ba1fa7dcf7033a",
+      "account_value": 0,
+      "n_fills": 10587,
+      "capped": false,
+      "n_closes": 5067,
+      "win_rate": 0.5267,
+      "realized_pnl": 816027,
+      "majors_fills": 2854,
+      "majors_realized": 573128,
+      "majors_pct": 0.27,
+      "active_from": "2026-02-14",
+      "active_to": "2026-06-13",
+      "avg_hold_h": 93.32,
+      "top_coins": {
+        "HYPE": 1934,
+        "ETH": 1373,
+        "BTC": 971,
+        "xyz:HOOD": 846
+      },
+      "nansen_label": "High Balance",
+      "lb_pnl": null
+    },
+    {
+      "address": "0xd866a2d14a6dc92bdb1fdeac32c0f8ec322b3605",
+      "account_value": 0,
+      "n_fills": 2464,
+      "capped": false,
+      "n_closes": 931,
+      "win_rate": 0.4608,
+      "realized_pnl": 715203,
+      "majors_fills": 784,
+      "majors_realized": 735718,
+      "majors_pct": 0.32,
+      "active_from": "2026-05-27",
+      "active_to": "2026-06-04",
+      "avg_hold_h": 130.28,
+      "top_coins": {
+        "xyz:SP500": 868,
+        "xyz:XYZ100": 812,
+        "BTC": 784
+      },
+      "nansen_label": "",
+      "lb_pnl": null
+    },
+    {
+      "address": "0xaa3f51a8095d030e38317e917839c87315300bee",
+      "account_value": 0,
+      "n_fills": 601,
+      "capped": false,
+      "n_closes": 242,
+      "win_rate": 0.5041,
+      "realized_pnl": 626724,
+      "majors_fills": 553,
+      "majors_realized": 609754,
+      "majors_pct": 0.92,
+      "active_from": "2025-07-30",
+      "active_to": "2026-04-27",
+      "avg_hold_h": 2544.91,
+      "top_coins": {
+        "BTC": 438,
+        "ETH": 88,
+        "BNB": 48,
+        "SOL": 27
+      },
+      "nansen_label": "",
+      "lb_pnl": null
+    },
+    {
+      "address": "0xbcc7fd5f27cba04dca862b94509133c453dde764",
+      "account_value": 1038,
+      "n_fills": 4400,
+      "capped": false,
+      "n_closes": 1865,
+      "win_rate": 0.5072,
+      "realized_pnl": 553556,
+      "majors_fills": 3551,
+      "majors_realized": 494099,
+      "majors_pct": 0.81,
+      "active_from": "2026-01-14",
+      "active_to": "2026-03-16",
+      "avg_hold_h": 82.13,
+      "top_coins": {
+        "BTC": 2040,
+        "ETH": 1321,
+        "UNI": 253,
+        "MELANIA": 239
+      },
+      "nansen_label": "",
+      "lb_pnl": null
+    }
+  ]
+}

@@ -368,7 +368,7 @@
       "active_to": "2026-06-07",
       "trade_days": 387,
       "active14": true,
-      "pro_score_old": 0.443,
+      "pro_score_old": 0.401,
       "pro_tier_old": "B"
     },
     "0x128fae9d18a2f70d98a03c26bf17b67d97ce1f3c": {
@@ -1265,7 +1265,7 @@
       "active_to": "2026-06-15",
       "trade_days": 523,
       "active14": true,
-      "pro_score_old": 0.375,
+      "pro_score_old": 0.37,
       "pro_tier_old": "C"
     },
     "0x4d3980ac9d84fc34adcd025ee2337786846343c4": {
@@ -1389,7 +1389,7 @@
       "active_to": "2026-06-17",
       "trade_days": 30,
       "active14": true,
-      "pro_score_old": 0.335,
+      "pro_score_old": 0.261,
       "pro_tier_old": "C"
     },
     "0xa72dc2d42398e54634fc28e6769f8ce3ae011807": {
@@ -1537,8 +1537,8 @@
       "active_to": "2026-06-13",
       "trade_days": 21,
       "active14": true,
-      "pro_score_old": 0.369,
-      "pro_tier_old": "C"
+      "pro_score_old": 0.189,
+      "pro_tier_old": "D"
     },
     "0x8463d6ffcbfb56bf20ab2e1111f9a0e8359533f2": {
       "address": "0x8463d6ffcbfb56bf20ab2e1111f9a0e8359533f2",
@@ -1658,7 +1658,7 @@
       "active_to": "2026-06-17",
       "active_from": "2026-06-17",
       "active14": true,
-      "pro_score_old": 0.338,
+      "pro_score_old": 0.283,
       "pro_tier_old": "C"
     },
     "0xd117b0459ba2af1a397e76baa5efd580a3f7f99f": {
@@ -1867,7 +1867,7 @@
       "active_to": "2026-06-16",
       "trade_days": 281,
       "active14": true,
-      "pro_score_old": 0.369,
+      "pro_score_old": 0.348,
       "pro_tier_old": "C"
     },
     "0xd05808946809c180d190608e13f473db30aa8524": {
@@ -2182,7 +2182,7 @@
       "trade_days": 243,
       "active14": true,
       "nansen_errors": [],
-      "pro_score_old": 0.276,
+      "pro_score_old": 0.343,
       "pro_tier_old": "C"
     },
     "0x5875d72130981b18692a3d29545e4038f7eb0c38": {
@@ -2514,8 +2514,8 @@
       "active_to": "2026-04-06",
       "trade_days": 26,
       "active14": false,
-      "pro_score_old": 0.256,
-      "pro_tier_old": "C"
+      "pro_score_old": 0.147,
+      "pro_tier_old": "D"
     },
     "0x103e9d15f8a102ef9333ad8b66ffe25b0db448a4": {
       "address": "0x103e9d15f8a102ef9333ad8b66ffe25b0db448a4",
@@ -5366,8 +5366,8 @@
       "active_to": "2026-06-17",
       "active_from": "2026-06-17",
       "active14": true,
-      "pro_score_old": 0.382,
-      "pro_tier_old": "B"
+      "pro_score_old": 0.271,
+      "pro_tier_old": "C"
     },
     "0x535191d6d49922d69cc7829dbb73e48694840db7": {
       "address": "0x535191d6d49922d69cc7829dbb73e48694840db7",
@@ -6987,8 +6987,8 @@
       "pro_span_days": 91,
       "pro_tier": "C",
       "active14": false,
-      "pro_score_old": 0.442,
-      "pro_tier_old": "B"
+      "pro_score_old": 0.328,
+      "pro_tier_old": "C"
     },
     "0x0a7097d919b7421ecc03aed3aac68a13e7ef1f46": {
       "address": "0x0a7097d919b7421ecc03aed3aac68a13e7ef1f46",
@@ -7331,8 +7331,8 @@
       "active_to": "2026-06-16",
       "active_from": "2026-06-16",
       "active14": true,
-      "pro_score_old": 0.413,
-      "pro_tier_old": "B"
+      "pro_score_old": 0.19,
+      "pro_tier_old": "D"
     },
     "0x159d148acd970eaf88bed8feac4ad6d38e7c3665": {
       "address": "0x159d148acd970eaf88bed8feac4ad6d38e7c3665",
@@ -7595,8 +7595,8 @@
       "active_to": "2026-06-14",
       "active_from": "2026-06-14",
       "active14": true,
-      "pro_score_old": 0.391,
-      "pro_tier_old": "B"
+      "pro_score_old": 0.19,
+      "pro_tier_old": "D"
     },
     "0x321f7193eadbacb67eff00f76b975a487e5b1c84": {
       "address": "0x321f7193eadbacb67eff00f76b975a487e5b1c84",
@@ -8105,8 +8105,8 @@
       "active_to": "2026-05-18",
       "trade_days": 35,
       "active14": false,
-      "pro_score_old": 0.335,
-      "pro_tier_old": "C"
+      "pro_score_old": 0.154,
+      "pro_tier_old": "D"
     },
     "0x2f394ae1ca45071bc222e7124b5d125637942be2": {
       "address": "0x2f394ae1ca45071bc222e7124b5d125637942be2",
@@ -10021,7 +10021,7 @@
       "active_to": "2026-06-17",
       "active_from": "2026-06-17",
       "active14": true,
-      "pro_score_old": 0.074,
+      "pro_score_old": 0.19,
       "pro_tier_old": "D"
     },
     "0x39b07015ca813075bbce6f475767d5b4b9d518b0": {
@@ -10259,8 +10259,8 @@
       "pro_span_days": 526,
       "pro_tier": "C",
       "active14": false,
-      "pro_score_old": 0.089,
-      "pro_tier_old": "D"
+      "pro_score_old": 0.258,
+      "pro_tier_old": "C"
     },
     "0xe1edc766cfb0e8e6894bde26bcb5a94d1777d16c": {
       "address": "0xe1edc766cfb0e8e6894bde26bcb5a94d1777d16c",
@@ -10424,7 +10424,7 @@
       "pro_span_days": 2,
       "pro_tier": "D",
       "active14": false,
-      "pro_score_old": 0.051,
+      "pro_score_old": 0.138,
       "pro_tier_old": "D"
     },
     "0x68a24ccf099422806f1e73248517f3389c29c104": {
@@ -10607,7 +10607,7 @@
       "pro_span_days": 28,
       "pro_tier": "B",
       "active14": true,
-      "pro_score_old": 0.436,
+      "pro_score_old": 0.383,
       "pro_tier_old": "B"
     },
     "0x2607a3909cee65aa8205ca26f7db2d9244389577": {
@@ -11360,8 +11360,8 @@
         }
       ],
       "nansen_errors": [],
-      "pro_score_old": 0.838,
-      "pro_tier_old": "S"
+      "pro_score_old": 0.605,
+      "pro_tier_old": "A"
     },
     "0x4196dc4a1dc7d3bfd5434adf04c829f4ccaf480d": {
       "address": "0x4196dc4a1dc7d3bfd5434adf04c829f4ccaf480d",
@@ -11710,7 +11710,7 @@
         }
       ],
       "nansen_errors": [],
-      "pro_score_old": 0.777,
+      "pro_score_old": 0.805,
       "pro_tier_old": "S"
     },
     "0x0b00c540bc5f203d97ac87da62164d3d37e19798": {
@@ -11837,7 +11837,7 @@
       "active_to": "2026-06-10",
       "trade_days": 190,
       "active14": true,
-      "pro_score_old": 0.892,
+      "pro_score_old": 0.942,
       "pro_tier_old": "S"
     },
     "0xed41a12ea862f31df054e9bd3af1dd59486c6029": {
@@ -11987,8 +11987,8 @@
         }
       ],
       "nansen_errors": [],
-      "pro_score_old": 0.518,
-      "pro_tier_old": "A"
+      "pro_score_old": 0.456,
+      "pro_tier_old": "B"
     },
     "0x5bc43f38c2ddcd85857f218674cd384f172c3b0c": {
       "address": "0x5bc43f38c2ddcd85857f218674cd384f172c3b0c",
@@ -12399,7 +12399,7 @@
       "active_to": "2026-06-17",
       "trade_days": 384,
       "active14": true,
-      "pro_score_old": 0.781,
+      "pro_score_old": 0.763,
       "pro_tier_old": "S"
     },
     "0x833b99b27dac651d02080f5e220e929df891db06": {
@@ -12665,8 +12665,8 @@
         }
       ],
       "nansen_errors": [],
-      "pro_score_old": 0.482,
-      "pro_tier_old": "B"
+      "pro_score_old": 0.368,
+      "pro_tier_old": "C"
     },
     "0x84abc08c0ea62e687c370154de1f38ea462f4d37": {
       "address": "0x84abc08c0ea62e687c370154de1f38ea462f4d37",
@@ -13167,8 +13167,8 @@
       "active_to": "2026-05-06",
       "trade_days": 55,
       "active14": false,
-      "pro_score_old": 0.51,
-      "pro_tier_old": "A"
+      "pro_score_old": 0.447,
+      "pro_tier_old": "B"
     },
     "0xd82f7d84a524b8e82de0cb3df1f04e338604fd8e": {
       "address": "0xd82f7d84a524b8e82de0cb3df1f04e338604fd8e",
@@ -13570,8 +13570,8 @@
         }
       ],
       "nansen_errors": [],
-      "pro_score_old": 0.615,
-      "pro_tier_old": "A"
+      "pro_score_old": 0.485,
+      "pro_tier_old": "B"
     },
     "0x36ac01de9bc76c0d744b38c3e13a0538d55c7568": {
       "address": "0x36ac01de9bc76c0d744b38c3e13a0538d55c7568",
@@ -13688,8 +13688,8 @@
         }
       ],
       "nansen_errors": [],
-      "pro_score_old": 0.558,
-      "pro_tier_old": "A"
+      "pro_score_old": 0.465,
+      "pro_tier_old": "B"
     },
     "0x7da85a334e43a6b1c2c0da9623409d9ee9047747": {
       "address": "0x7da85a334e43a6b1c2c0da9623409d9ee9047747",
@@ -13990,8 +13990,8 @@
         }
       ],
       "nansen_errors": [],
-      "pro_score_old": 0.54,
-      "pro_tier_old": "A"
+      "pro_score_old": 0.373,
+      "pro_tier_old": "C"
     },
     "0xe091330c53b971ed4e886f902f18e8544a8d6705": {
       "address": "0xe091330c53b971ed4e886f902f18e8544a8d6705",
@@ -14263,8 +14263,8 @@
       "active_to": "2026-05-14",
       "trade_days": 9,
       "active14": false,
-      "pro_score_old": 0.483,
-      "pro_tier_old": "B"
+      "pro_score_old": 0.241,
+      "pro_tier_old": "D"
     },
     "0x99b3ba1c1b7ad83d0164d996e3d271ae8c842551": {
       "address": "0x99b3ba1c1b7ad83d0164d996e3d271ae8c842551",
@@ -14387,8 +14387,8 @@
       "active_to": "2026-04-22",
       "trade_days": 15,
       "active14": false,
-      "pro_score_old": 0.385,
-      "pro_tier_old": "B"
+      "pro_score_old": 0.306,
+      "pro_tier_old": "C"
     },
     "0x05904930cae1e9a48c055f4a8a83480ba7fc6abf": {
       "address": "0x05904930cae1e9a48c055f4a8a83480ba7fc6abf",
@@ -14540,7 +14540,7 @@
       "trade_days": 71,
       "active14": true,
       "nansen_errors": [],
-      "pro_score_old": 0.444,
+      "pro_score_old": 0.406,
       "pro_tier_old": "B"
     },
     "0x5846ac5619d2a762751b1663d86a402085505765": {
@@ -14664,8 +14664,8 @@
       "active_to": "2026-03-23",
       "trade_days": 153,
       "active14": false,
-      "pro_score_old": 0.646,
-      "pro_tier_old": "A"
+      "pro_score_old": 0.488,
+      "pro_tier_old": "B"
     },
     "0xa3d843b6a057504284006bef6f34a2e9bc80fb6b": {
       "address": "0xa3d843b6a057504284006bef6f34a2e9bc80fb6b",
@@ -14814,7 +14814,7 @@
         }
       ],
       "nansen_errors": [],
-      "pro_score_old": 0.543,
+      "pro_score_old": 0.527,
       "pro_tier_old": "A"
     },
     "0x9836e286fbf4f71998827d4bd6ea3b470c26457e": {
@@ -14872,9 +14872,9 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL先行検出",
         "Nansen発見",
-        "取引なし(14d)",
-        "稼ぎ確認・先行不明(要精査)"
+        "取引なし(14d)"
       ],
       "notes": "",
       "history": [
@@ -14886,28 +14886,42 @@
           "dir_accuracy": null,
           "insider_likelihood": null,
           "avg_hold_h": null
+        },
+        {
+          "date": "2026-06-17",
+          "metric_category": "hl-verified",
+          "total_pnl": 553556,
+          "win_rate": 0.5072,
+          "dir_accuracy": 0.5866,
+          "insider_likelihood": null,
+          "avg_hold_h": 82.13,
+          "event_lead_notional": 1430714
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
-      "metric_category": "nansen-pro",
+      "position": "弱い疑惑(監視継続)",
+      "metric_category": "hl-verified",
       "labels": [],
       "roi_alltime": 0.2130902802958409,
       "nansen_checked": "2026-06-17",
       "auto_tags": [
         "ROI:中(10-100%)",
         "PnL:中($100k-1M)",
-        "方向:無/フラット"
+        "頻度:HFT(>3000)",
+        "保有:長期(>48h)",
+        "方向:無/フラット",
+        "銘柄:マルチ"
       ],
-      "notes_jp": "【判定】保留(勝率低 or alt中心で判定不能)\n【HL実測】実現益$553,556・勝率0.5072・majors比0.81・急変先行$0\n【資金源】🤖 DLN: DlnDestination [0xe7351f] ＝ ブリッジ/サービス(隠蔽)",
+      "notes_jp": "【判定】弱い疑惑(監視継続)\n【HL実測】実現益$553,556・勝率0.5072・majors比0.81・急変先行$1,430,714・平均保有82.13h\n【根拠】単発(N=1)の好タイミング先行: ETHロングを4.35%急騰の36分前。ただし全先行は同一約定(分割)で1イベントのみ＝水増し。勝率49%。反復確認できず弱疑惑止まり",
       "current": {
         "date": "2026-06-17",
-        "metric_category": "nansen-pro",
-        "total_pnl": 964506.292594,
-        "win_rate": null,
-        "dir_accuracy": null,
+        "metric_category": "hl-verified",
+        "total_pnl": 553556,
+        "win_rate": 0.5072,
+        "dir_accuracy": 0.5866,
         "insider_likelihood": null,
-        "avg_hold_h": null
+        "avg_hold_h": 82.13,
+        "event_lead_notional": 1430714
       },
       "first_funders": [
         {
@@ -14921,7 +14935,10 @@
       "active_from": "2026-01-14",
       "active_to": "2026-03-16",
       "trade_days": 61,
-      "active14": false
+      "active14": false,
+      "hl_checked": "2026-06-17",
+      "n_fills": 4400,
+      "avg_hold_h": 82.13
     },
     "0x143c28ae5b8642f58c98b8a6f82a0f314d23f6ab": {
       "address": "0x143c28ae5b8642f58c98b8a6f82a0f314d23f6ab",
@@ -14996,7 +15013,7 @@
       "active_to": "2026-06-17",
       "trade_days": 203,
       "active14": true,
-      "pro_score_old": 0.458,
+      "pro_score_old": 0.48,
       "pro_tier_old": "B"
     },
     "0x06466f9ac08e872064950cec3812b57d6feafa7f": {
@@ -15146,7 +15163,7 @@
         }
       ],
       "nansen_errors": [],
-      "pro_score_old": 0.375,
+      "pro_score_old": 0.342,
       "pro_tier_old": "C"
     },
     "0xef70339934261ca3524bddfa7d02e0a69107a84c": {
@@ -15397,9 +15414,10 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL検証済プロ",
         "Nansen発見",
-        "取引なし(14d)",
-        "稼ぎ確認・先行不明(要精査)"
+        "Tier-C",
+        "取引なし(14d)"
       ],
       "notes": "",
       "history": [
@@ -15411,35 +15429,58 @@
           "dir_accuracy": null,
           "insider_likelihood": null,
           "avg_hold_h": null
+        },
+        {
+          "date": "2026-06-17",
+          "metric_category": "hl-verified",
+          "total_pnl": 893116,
+          "win_rate": 0.4661,
+          "dir_accuracy": 0.4472,
+          "insider_likelihood": null,
+          "avg_hold_h": 1445.38,
+          "event_lead_notional": 0
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
-      "metric_category": "nansen-pro",
+      "position": "プロトレーダー(本物)",
+      "metric_category": "hl-verified",
       "labels": [],
       "roi_alltime": 5.739874009291859,
       "nansen_checked": "2026-06-17",
       "auto_tags": [
         "ROI:高(100-1000%)",
         "PnL:中($100k-1M)",
-        "方向:無/フラット"
+        "頻度:HFT(>3000)",
+        "保有:長期(>48h)",
+        "方向:無/フラット",
+        "銘柄:マルチ"
       ],
-      "notes_jp": "【判定】保留(勝率低 or alt中心で判定不能)\n【HL実測】実現益$893,116・勝率0.4661・majors比1.0・急変先行$0\n【資金源】不明 ＝ 不明",
+      "notes_jp": "【判定】プロトレーダー(本物)\n【HL実測】実現益$893,116・勝率0.4661・majors比1.0・急変先行$0・平均保有1445.38h\n【根拠】長期ポジション保有型(平均60日保有)。majors100%で実現益93k。急変先行ゼロ＝情報優位でなく相場張り",
       "current": {
         "date": "2026-06-17",
-        "metric_category": "nansen-pro",
-        "total_pnl": 893257.380002,
-        "win_rate": null,
-        "dir_accuracy": null,
+        "metric_category": "hl-verified",
+        "total_pnl": 893116,
+        "win_rate": 0.4661,
+        "dir_accuracy": 0.4472,
         "insider_likelihood": null,
-        "avg_hold_h": null
+        "avg_hold_h": 1445.38,
+        "event_lead_notional": 0
       },
       "first_funders": [],
       "counterparties": [],
       "active_from": "2025-12-21",
       "active_to": "2026-04-21",
       "trade_days": 121,
-      "active14": false
+      "active14": false,
+      "hl_checked": "2026-06-17",
+      "n_fills": 5325,
+      "avg_hold_h": 1445.38,
+      "pro_score_old": null,
+      "pro_score": 0.338,
+      "pro_realized": 893116,
+      "pro_span_days": 121,
+      "pro_tier_old": null,
+      "pro_tier": "C"
     },
     "0xdc38f7ee386b7eea3842643e56b08ee5bb40f625": {
       "address": "0xdc38f7ee386b7eea3842643e56b08ee5bb40f625",
@@ -15790,9 +15831,10 @@
       "first_seen": "2026-06-17",
       "times_seen": 2,
       "tags": [
+        "HL検証済プロ",
         "Nansen発見",
-        "取引あり(14d)",
-        "稼ぎ確認・先行不明(要精査)"
+        "Tier-B",
+        "取引あり(14d)"
       ],
       "notes": "",
       "history": [
@@ -15804,10 +15846,20 @@
           "dir_accuracy": null,
           "insider_likelihood": null,
           "avg_hold_h": null
+        },
+        {
+          "date": "2026-06-17",
+          "metric_category": "hl-verified",
+          "total_pnl": 816027,
+          "win_rate": 0.5267,
+          "dir_accuracy": 0.2342,
+          "insider_likelihood": null,
+          "avg_hold_h": 93.32,
+          "event_lead_notional": 0
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "プロトレーダー(本物)",
       "metric_category": "hl-verified",
       "labels": [
         "High Balance"
@@ -15817,18 +15869,21 @@
       "auto_tags": [
         "ROI:低(<10%)",
         "PnL:中($100k-1M)",
-        "方向:無/フラット"
+        "頻度:HFT(>3000)",
+        "保有:長期(>48h)",
+        "方向:無/フラット",
+        "銘柄:マルチ"
       ],
-      "notes_jp": "【判定】保留(勝率低 or alt中心で判定不能)\n【HL実測】実現益$801,953・勝率0.5111・majors比0.27・急変先行$0\n【資金源】kytcyber.eth [0x435ca9] ＝ 別ウォレット\n【注】alt中心ゆえBTC/ETH/SOLのインサイダー検証は限定的。alt側は未検証。",
+      "notes_jp": "【判定】プロトレーダー(本物)\n【HL実測】実現益$816,027・勝率0.5267・majors比0.27・急変先行$0・平均保有93.32h\n【根拠】多資産アクティブトレーダー(HYPE/株perp/majors、平均4日保有)。勝率57%・実現益16k。先行ゼロ",
       "current": {
         "date": "2026-06-17",
         "metric_category": "hl-verified",
-        "win_rate": 0.5749,
+        "total_pnl": 816027,
+        "win_rate": 0.5267,
         "dir_accuracy": 0.2342,
-        "total_pnl": 573128.26,
-        "event_lead_notional": 0,
         "insider_likelihood": null,
-        "avg_hold_h": null
+        "avg_hold_h": 93.32,
+        "event_lead_notional": 0
       },
       "n_fills_14d": null,
       "lead_examples": [],
@@ -15903,9 +15958,18 @@
         }
       ],
       "active_from": "2026-02-14",
-      "active_to": "2026-06-05",
-      "trade_days": 111,
-      "active14": true
+      "active_to": "2026-06-13",
+      "trade_days": 119,
+      "active14": true,
+      "hl_checked": "2026-06-17",
+      "n_fills": 10587,
+      "avg_hold_h": 93.32,
+      "pro_score_old": null,
+      "pro_score": 0.439,
+      "pro_realized": 801953,
+      "pro_span_days": 111,
+      "pro_tier_old": null,
+      "pro_tier": "B"
     },
     "0x500bea59133e20dc63b7e88913b30348494b84ba": {
       "address": "0x500bea59133e20dc63b7e88913b30348494b84ba",
@@ -16207,9 +16271,10 @@
       "first_seen": "2026-06-17",
       "times_seen": 2,
       "tags": [
+        "HL検証済プロ",
         "Nansen発見",
-        "取引あり(14d)",
-        "稼ぎ確認・先行不明(要精査)"
+        "Tier-B",
+        "取引あり(14d)"
       ],
       "notes": "",
       "history": [
@@ -16221,10 +16286,20 @@
           "dir_accuracy": null,
           "insider_likelihood": null,
           "avg_hold_h": null
+        },
+        {
+          "date": "2026-06-17",
+          "metric_category": "hl-verified",
+          "total_pnl": 715203,
+          "win_rate": 0.4608,
+          "dir_accuracy": 0.2702,
+          "insider_likelihood": null,
+          "avg_hold_h": 130.28,
+          "event_lead_notional": 0
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "プロトレーダー(本物)",
       "metric_category": "hl-verified",
       "labels": [],
       "roi_alltime": 236.2763419846327,
@@ -16232,18 +16307,21 @@
       "auto_tags": [
         "ROI:超高(>1000%)",
         "PnL:中($100k-1M)",
-        "方向:無/フラット"
+        "頻度:多(500+)",
+        "保有:長期(>48h)",
+        "方向:無/フラット",
+        "銘柄:xyz:SP500主"
       ],
-      "notes_jp": "【判定】保留(勝率低 or alt中心で判定不能)\n【HL実測】実現益$715,203・勝率0.4608・majors比0.32・急変先行$0\n【資金源】👤 hyperliquidated [0x7c9309] ＝ 別ウォレット",
+      "notes_jp": "【判定】プロトレーダー(本物)\n【HL実測】実現益$715,203・勝率0.4608・majors比0.32・急変先行$0・平均保有130.28h\n【根拠】株perp(SP500/XYZ100)中心、勝率76%・実現益15k。ただし活動8日と短期。先行ゼロ",
       "current": {
         "date": "2026-06-17",
         "metric_category": "hl-verified",
-        "win_rate": 0.5241,
-        "dir_accuracy": 0.0,
-        "total_pnl": 25067.1,
-        "event_lead_notional": 0,
+        "total_pnl": 715203,
+        "win_rate": 0.4608,
+        "dir_accuracy": 0.2702,
         "insider_likelihood": null,
-        "avg_hold_h": null
+        "avg_hold_h": 130.28,
+        "event_lead_notional": 0
       },
       "n_fills_14d": null,
       "lead_examples": [],
@@ -16278,7 +16356,16 @@
       "active_from": "2026-05-27",
       "active_to": "2026-06-04",
       "trade_days": 8,
-      "active14": true
+      "active14": true,
+      "hl_checked": "2026-06-17",
+      "n_fills": 2464,
+      "avg_hold_h": 130.28,
+      "pro_score_old": null,
+      "pro_score": 0.383,
+      "pro_realized": 715203,
+      "pro_span_days": 8,
+      "pro_tier_old": null,
+      "pro_tier": "B"
     },
     "0xd8d0358919a944d4efa98713795d49b030e43ef9": {
       "address": "0xd8d0358919a944d4efa98713795d49b030e43ef9",
@@ -16765,8 +16852,8 @@
         }
       ],
       "nansen_errors": [],
-      "pro_score_old": 0.439,
-      "pro_tier_old": "B"
+      "pro_score_old": 0.291,
+      "pro_tier_old": "C"
     },
     "0x1fe06653816cd53afb36a18f059b0ada2a3c8f20": {
       "address": "0x1fe06653816cd53afb36a18f059b0ada2a3c8f20",
@@ -16883,8 +16970,8 @@
       "active_to": "2026-06-01",
       "trade_days": 220,
       "active14": false,
-      "pro_score_old": 0.445,
-      "pro_tier_old": "B"
+      "pro_score_old": 0.372,
+      "pro_tier_old": "C"
     },
     "0x0980b34ade9476dba81bcdb0f865a333793ad1c2": {
       "address": "0x0980b34ade9476dba81bcdb0f865a333793ad1c2",
@@ -17034,8 +17121,8 @@
       "active_to": "2026-05-15",
       "trade_days": 275,
       "active14": false,
-      "pro_score_old": 0.395,
-      "pro_tier_old": "B"
+      "pro_score_old": 0.328,
+      "pro_tier_old": "C"
     },
     "0xa99c9e5484e5b26635c07876d0859a1819ff40d5": {
       "address": "0xa99c9e5484e5b26635c07876d0859a1819ff40d5",
@@ -17162,7 +17249,7 @@
       "active_to": "2026-06-16",
       "trade_days": 313,
       "active14": true,
-      "pro_score_old": 0.44,
+      "pro_score_old": 0.478,
       "pro_tier_old": "B"
     },
     "0xaa3f51a8095d030e38317e917839c87315300bee": {
@@ -17170,9 +17257,10 @@
       "first_seen": "2026-06-17",
       "times_seen": 2,
       "tags": [
+        "HL検証済プロ",
         "Nansen発見",
-        "取引なし(14d)",
-        "稼ぎ確認・先行不明(要精査)"
+        "Tier-C",
+        "取引なし(14d)"
       ],
       "notes": "",
       "history": [
@@ -17184,10 +17272,20 @@
           "dir_accuracy": null,
           "insider_likelihood": null,
           "avg_hold_h": null
+        },
+        {
+          "date": "2026-06-17",
+          "metric_category": "hl-verified",
+          "total_pnl": 626724,
+          "win_rate": 0.5041,
+          "dir_accuracy": 0.0,
+          "insider_likelihood": null,
+          "avg_hold_h": 2544.91,
+          "event_lead_notional": 0
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "プロトレーダー(本物)",
       "metric_category": "hl-verified",
       "labels": [],
       "roi_alltime": 359.2360331380091,
@@ -17195,18 +17293,21 @@
       "auto_tags": [
         "ROI:超高(>1000%)",
         "PnL:中($100k-1M)",
-        "方向:無/フラット"
+        "頻度:多(500+)",
+        "保有:長期(>48h)",
+        "方向:無/フラット",
+        "銘柄:マルチ"
       ],
-      "notes_jp": "【判定】保留(勝率低 or alt中心で判定不能)\n【HL実測】実現益$626,724・勝率0.5041・majors比0.92・急変先行$0\n【資金源】🏦 Bybit: Hot Wallet [0xf89d7b] ＝ CEX(身元割れる)",
+      "notes_jp": "【判定】プロトレーダー(本物)\n【HL実測】実現益$626,724・勝率0.5041・majors比0.92・急変先行$0・平均保有2544.91h\n【根拠】長期BTC保有型(平均106日保有)、実現益26k。先行ゼロ＝順張りホールド",
       "current": {
         "date": "2026-06-17",
         "metric_category": "hl-verified",
-        "win_rate": 0.4936,
+        "total_pnl": 626724,
+        "win_rate": 0.5041,
         "dir_accuracy": 0.0,
-        "total_pnl": 609754.4,
-        "event_lead_notional": 0,
         "insider_likelihood": null,
-        "avg_hold_h": null
+        "avg_hold_h": 2544.91,
+        "event_lead_notional": 0
       },
       "n_fills_14d": null,
       "lead_examples": [],
@@ -17283,7 +17384,16 @@
       "active_from": "2025-07-30",
       "active_to": "2026-04-27",
       "trade_days": 271,
-      "active14": false
+      "active14": false,
+      "hl_checked": "2026-06-17",
+      "n_fills": 601,
+      "avg_hold_h": 2544.91,
+      "pro_score_old": null,
+      "pro_score": 0.299,
+      "pro_realized": 626724,
+      "pro_span_days": 271,
+      "pro_tier_old": null,
+      "pro_tier": "C"
     },
     "0x6a02aedceac5a6813d960e4dae1910d9c458e77c": {
       "address": "0x6a02aedceac5a6813d960e4dae1910d9c458e77c",
@@ -17345,7 +17455,7 @@
       "active_to": "2026-06-17",
       "trade_days": 100,
       "active14": true,
-      "pro_score_old": 0.459,
+      "pro_score_old": 0.415,
       "pro_tier_old": "B"
     },
     "0x39761615093bbd473af359068d075a2b03b99857": {
@@ -17506,8 +17616,8 @@
       "active_to": "2026-03-01",
       "trade_days": 168,
       "active14": false,
-      "pro_score_old": 0.486,
-      "pro_tier_old": "B"
+      "pro_score_old": 0.335,
+      "pro_tier_old": "C"
     },
     "0x8554501f855388039f2bc86110462adfbbde46dc": {
       "address": "0x8554501f855388039f2bc86110462adfbbde46dc",
@@ -18155,7 +18265,7 @@
         }
       ],
       "nansen_errors": [],
-      "pro_score_old": 0.404,
+      "pro_score_old": 0.407,
       "pro_tier_old": "B"
     },
     "0x1f67d79afc8d0e7609ddba6c9b657cc635f69981": {
@@ -18378,7 +18488,7 @@
       "active_to": "2026-05-26",
       "trade_days": 470,
       "active14": false,
-      "pro_score_old": 0.462,
+      "pro_score_old": 0.383,
       "pro_tier_old": "B"
     },
     "0xb9eb061e64d32c8e0a6c6992a7dc32a32df9cb74": {
@@ -18578,8 +18688,8 @@
         }
       ],
       "nansen_errors": [],
-      "pro_score_old": 0.41,
-      "pro_tier_old": "B"
+      "pro_score_old": 0.525,
+      "pro_tier_old": "A"
     },
     "0x4c7a572ad38aed2c1d33fbfeba7bd69a83ec0e30": {
       "address": "0x4c7a572ad38aed2c1d33fbfeba7bd69a83ec0e30",
@@ -18970,7 +19080,7 @@
         }
       ],
       "nansen_errors": [],
-      "pro_score_old": 0.426,
+      "pro_score_old": 0.457,
       "pro_tier_old": "B"
     },
     "0x039405fa4636364e6023df1e06b085a462b9cdc9": {
@@ -19563,7 +19673,7 @@
         }
       ],
       "nansen_errors": [],
-      "pro_score_old": 0.389,
+      "pro_score_old": 0.44,
       "pro_tier_old": "B"
     },
     "0x4b563051258ade30122940b80f575363baa4445b": {
@@ -19754,8 +19864,8 @@
         }
       ],
       "nansen_errors": [],
-      "pro_score_old": 0.421,
-      "pro_tier_old": "B"
+      "pro_score_old": 0.501,
+      "pro_tier_old": "A"
     },
     "0x2c5dc7e67fce4bc252221c46c1cdc7651838b2d8": {
       "address": "0x2c5dc7e67fce4bc252221c46c1cdc7651838b2d8",
@@ -20257,8 +20367,8 @@
       "trade_days": 213,
       "active14": false,
       "nansen_errors": [],
-      "pro_score_old": 0.518,
-      "pro_tier_old": "A"
+      "pro_score_old": 0.461,
+      "pro_tier_old": "B"
     },
     "0xf780adb6ca4a737d2a8def6dd445b0c0276d70e1": {
       "address": "0xf780adb6ca4a737d2a8def6dd445b0c0276d70e1",
@@ -20858,8 +20968,8 @@
         }
       ],
       "nansen_errors": [],
-      "pro_score_old": 0.464,
-      "pro_tier_old": "B"
+      "pro_score_old": 0.548,
+      "pro_tier_old": "A"
     },
     "0x0ed73f6d6f0ad13f3cfd915575390f92e0d49761": {
       "address": "0x0ed73f6d6f0ad13f3cfd915575390f92e0d49761",
@@ -21344,8 +21454,8 @@
       "active_to": "2026-06-16",
       "trade_days": 867,
       "active14": true,
-      "pro_score_old": 0.426,
-      "pro_tier_old": "B"
+      "pro_score_old": 0.503,
+      "pro_tier_old": "A"
     },
     "0xbf55d2d31c193e475d9d52006359f1fe51ecb7ce": {
       "address": "0xbf55d2d31c193e475d9d52006359f1fe51ecb7ce",
@@ -22279,7 +22389,7 @@
       "trade_days": 474,
       "active14": false,
       "nansen_errors": [],
-      "pro_score_old": 0.642,
+      "pro_score_old": 0.548,
       "pro_tier_old": "A"
     },
     "0x14246f4bbafb87ccebac17609054c6a188ed8cfd": {
@@ -22414,7 +22524,7 @@
         }
       ],
       "nansen_errors": [],
-      "pro_score_old": 0.427,
+      "pro_score_old": 0.481,
       "pro_tier_old": "B"
     },
     "0xf2efcd0bedf771dc63eb655d395c15a9d753550a": {
@@ -23397,7 +23507,7 @@
         }
       ],
       "nansen_errors": [],
-      "pro_score_old": 0.819,
+      "pro_score_old": 0.87,
       "pro_tier_old": "S"
     },
     "0xd13552538def5cecc78a20aa2236573f0bee6443": {
@@ -23797,8 +23907,8 @@
       "trade_days": 16,
       "active14": false,
       "nansen_errors": [],
-      "pro_score_old": 0.401,
-      "pro_tier_old": "B"
+      "pro_score_old": 0.273,
+      "pro_tier_old": "C"
     },
     "0x3480d3f9b45a5669cb3c7a576b092798fd5db5d8": {
       "address": "0x3480d3f9b45a5669cb3c7a576b092798fd5db5d8",
@@ -28548,8 +28658,8 @@
       "trade_days": 227,
       "active14": false,
       "nansen_errors": [],
-      "pro_score_old": 0.438,
-      "pro_tier_old": "B"
+      "pro_score_old": 0.353,
+      "pro_tier_old": "C"
     },
     "0x0949d8893c5a82030ad361499377a7d4f30af52a": {
       "address": "0x0949d8893c5a82030ad361499377a7d4f30af52a",
@@ -32229,7 +32339,7 @@
         }
       ],
       "nansen_errors": [],
-      "pro_score_old": 0.9,
+      "pro_score_old": 0.83,
       "pro_tier_old": "S"
     },
     "0x55999a9124b976d05a7fd98d414e185d95e9e940": {
@@ -32839,7 +32949,7 @@
         }
       ],
       "nansen_errors": [],
-      "pro_score_old": 0.834,
+      "pro_score_old": 0.651,
       "pro_tier_old": "S"
     },
     "0x8cfe4bc352deb10ed41c5f0f89bc57674cee1e22": {
@@ -32892,7 +33002,7 @@
         }
       ],
       "nansen_errors": [],
-      "pro_score_old": 0.884,
+      "pro_score_old": 0.774,
       "pro_tier_old": "S"
     },
     "0xd7a678fcf72c1b602850ef2f3e2d668ec41fa0ed": {
@@ -32981,7 +33091,7 @@
         }
       ],
       "nansen_errors": [],
-      "pro_score_old": 0.804,
+      "pro_score_old": 0.713,
       "pro_tier_old": "S"
     },
     "0xb632c6580173a16154f17cdafc6eb27e95cf73b7": {
@@ -33100,8 +33210,8 @@
       "trade_days": 79,
       "active14": false,
       "nansen_errors": [],
-      "pro_score_old": 0.708,
-      "pro_tier_old": "S"
+      "pro_score_old": 0.546,
+      "pro_tier_old": "A"
     },
     "0x41206f8efb51e5039e5b46e04e7866a4849f72d2": {
       "address": "0x41206f8efb51e5039e5b46e04e7866a4849f72d2",
@@ -33179,8 +33289,8 @@
         }
       ],
       "nansen_errors": [],
-      "pro_score_old": 0.63,
-      "pro_tier_old": "A"
+      "pro_score_old": 0.457,
+      "pro_tier_old": "B"
     },
     "0x6979dde2781dc4ec843641b10b2a2f2e0f4bda62": {
       "address": "0x6979dde2781dc4ec843641b10b2a2f2e0f4bda62",
@@ -33224,8 +33334,8 @@
       "trade_days": 242,
       "active14": false,
       "nansen_errors": [],
-      "pro_score_old": 0.617,
-      "pro_tier_old": "A"
+      "pro_score_old": 0.468,
+      "pro_tier_old": "B"
     },
     "0xcefd7652228a8619d0af5b95389cd49387cd30e0": {
       "address": "0xcefd7652228a8619d0af5b95389cd49387cd30e0",
@@ -33277,7 +33387,7 @@
         }
       ],
       "nansen_errors": [],
-      "pro_score_old": 0.587,
+      "pro_score_old": 0.595,
       "pro_tier_old": "A"
     },
     "0x3b11267dfc4b9ebe8427e8f557056b4b6ce98112": {
@@ -33458,8 +33568,8 @@
         }
       ],
       "nansen_errors": [],
-      "pro_score_old": 0.598,
-      "pro_tier_old": "A"
+      "pro_score_old": 0.42,
+      "pro_tier_old": "B"
     },
     "0x5638484ba2d2f1d1d35020572b0aa439a9869192": {
       "address": "0x5638484ba2d2f1d1d35020572b0aa439a9869192",
@@ -33541,8 +33651,8 @@
         }
       ],
       "nansen_errors": [],
-      "pro_score_old": 0.574,
-      "pro_tier_old": "A"
+      "pro_score_old": 0.448,
+      "pro_tier_old": "B"
     },
     "0x4b4bdd734b87bc48683d24f1dc6159e3ab6d6409": {
       "address": "0x4b4bdd734b87bc48683d24f1dc6159e3ab6d6409",
@@ -33636,8 +33746,8 @@
         }
       ],
       "nansen_errors": [],
-      "pro_score_old": 0.509,
-      "pro_tier_old": "A"
+      "pro_score_old": 0.357,
+      "pro_tier_old": "C"
     },
     "0x1e5b1efd99c89d39b59b28a19e6b42bbeb98433b": {
       "address": "0x1e5b1efd99c89d39b59b28a19e6b42bbeb98433b",
@@ -33689,8 +33799,8 @@
         }
       ],
       "nansen_errors": [],
-      "pro_score_old": 0.421,
-      "pro_tier_old": "B"
+      "pro_score_old": 0.287,
+      "pro_tier_old": "C"
     },
     "0x7de07bb8a43c1953a019906cf2c8287dae478be9": {
       "address": "0x7de07bb8a43c1953a019906cf2c8287dae478be9",
@@ -33824,7 +33934,7 @@
         }
       ],
       "nansen_errors": [],
-      "pro_score_old": 0.427,
+      "pro_score_old": 0.388,
       "pro_tier_old": "B"
     },
     "0xc604faf510aa5b617c9fb1556d02d6d22c9644be": {
@@ -33877,8 +33987,8 @@
         }
       ],
       "nansen_errors": [],
-      "pro_score_old": 0.474,
-      "pro_tier_old": "B"
+      "pro_score_old": 0.306,
+      "pro_tier_old": "C"
     },
     "0x7c9063122c01837fe83da2521056e10c9b6dd129": {
       "address": "0x7c9063122c01837fe83da2521056e10c9b6dd129",
@@ -33985,8 +34095,8 @@
       "active_to": "2026-06-15",
       "trade_days": 222,
       "active14": true,
-      "pro_score_old": 0.547,
-      "pro_tier_old": "A"
+      "pro_score_old": 0.385,
+      "pro_tier_old": "B"
     },
     "0xae551d73161bac3315c5ade0e2d499a44ebe2236": {
       "address": "0xae551d73161bac3315c5ade0e2d499a44ebe2236",
@@ -34038,7 +34148,7 @@
         }
       ],
       "nansen_errors": [],
-      "pro_score_old": 0.465,
+      "pro_score_old": 0.444,
       "pro_tier_old": "B"
     },
     "0x0d9654172413fa8bcd2f5738a7b2fa6d19864125": {
@@ -34091,8 +34201,8 @@
         }
       ],
       "nansen_errors": [],
-      "pro_score_old": 0.493,
-      "pro_tier_old": "B"
+      "pro_score_old": 0.214,
+      "pro_tier_old": "D"
     },
     "0x9b804150c9a4f6db44ba4fd67704eadb5be360c1": {
       "address": "0x9b804150c9a4f6db44ba4fd67704eadb5be360c1",
@@ -34136,8 +34246,8 @@
       "trade_days": 1,
       "active14": false,
       "nansen_errors": [],
-      "pro_score_old": 0.405,
-      "pro_tier_old": "B"
+      "pro_score_old": 0.16,
+      "pro_tier_old": "D"
     },
     "0xf3362789cecf25c6a31288d172880d7ad9b81801": {
       "address": "0xf3362789cecf25c6a31288d172880d7ad9b81801",
@@ -34189,8 +34299,8 @@
         }
       ],
       "nansen_errors": [],
-      "pro_score_old": 0.44,
-      "pro_tier_old": "B"
+      "pro_score_old": 0.311,
+      "pro_tier_old": "C"
     },
     "0x69b05701f8175c276ecd0138387a197948e240bb": {
       "address": "0x69b05701f8175c276ecd0138387a197948e240bb",
@@ -34253,8 +34363,8 @@
       "active_to": "2026-06-16",
       "trade_days": 376,
       "active14": true,
-      "pro_score_old": 0.407,
-      "pro_tier_old": "B"
+      "pro_score_old": 0.508,
+      "pro_tier_old": "A"
     },
     "0x5198eff88dea32108605bcdb109a99dc397190d8": {
       "address": "0x5198eff88dea32108605bcdb109a99dc397190d8",
@@ -34298,8 +34408,8 @@
       "trade_days": 142,
       "active14": false,
       "nansen_errors": [],
-      "pro_score_old": 0.523,
-      "pro_tier_old": "A"
+      "pro_score_old": 0.176,
+      "pro_tier_old": "D"
     },
     "0xa906355beaf1d69a5fe73ce55899c49c6e67916c": {
       "address": "0xa906355beaf1d69a5fe73ce55899c49c6e67916c",
@@ -34414,7 +34524,7 @@
         }
       ],
       "nansen_errors": [],
-      "pro_score_old": 0.393,
+      "pro_score_old": 0.387,
       "pro_tier_old": "B"
     },
     "0x8250a7f9fca9c33e68eead8c05c1d58c8fd70d13": {
@@ -34483,7 +34593,7 @@
       "active_to": "2026-05-05",
       "trade_days": 909,
       "active14": false,
-      "pro_score_old": 0.418,
+      "pro_score_old": 0.386,
       "pro_tier_old": "B"
     },
     "0x3adaa1d2d0598c9b661a746649d20e1e8aad9b3a": {
@@ -34536,8 +34646,8 @@
         }
       ],
       "nansen_errors": [],
-      "pro_score_old": 0.383,
-      "pro_tier_old": "B"
+      "pro_score_old": 0.212,
+      "pro_tier_old": "D"
     },
     "0x8a48dcaffdf71c547cd0fd0434ae40fa57bcbf0f": {
       "address": "0x8a48dcaffdf71c547cd0fd0434ae40fa57bcbf0f",
@@ -34647,7 +34757,7 @@
         }
       ],
       "nansen_errors": [],
-      "pro_score_old": 0.451,
+      "pro_score_old": 0.385,
       "pro_tier_old": "B"
     }
   },

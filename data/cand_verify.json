@@ -1,0 +1,116 @@
+{
+  "generated_at": "2026-06-17T19:37:08.109042+00:00",
+  "wallets": [
+    {
+      "address": "0xbcc7fd5f27cba04dca862b94509133c453dde764",
+      "majors": 3551,
+      "active_from": "2026-01-14",
+      "active_to": "2026-03-16",
+      "n_events": 287,
+      "win_rate": 0.4897,
+      "dir_accuracy": 0.5866,
+      "event_lead_notional": 1430714,
+      "lead_examples": [
+        {
+          "coin": "ETH",
+          "dir": "long",
+          "entry_time": "2026-02-05 20:24",
+          "notional_usd": 119168,
+          "event_move_pct": 4.35,
+          "event_time": "2026-02-05 21:00",
+          "hash": "0x70091c6acbb2f60271820434bee4140227e7005066b614d413d1c7bd8ab6cfed"
+        },
+        {
+          "coin": "ETH",
+          "dir": "long",
+          "entry_time": "2026-02-05 20:24",
+          "notional_usd": 149740,
+          "event_move_pct": 4.35,
+          "event_time": "2026-02-05 21:00",
+          "hash": "0x70091c6acbb2f60271820434bee4140227e7005066b614d413d1c7bd8ab6cfed"
+        },
+        {
+          "coin": "ETH",
+          "dir": "long",
+          "entry_time": "2026-02-05 20:24",
+          "notional_usd": 149764,
+          "event_move_pct": 4.35,
+          "event_time": "2026-02-05 21:00",
+          "hash": "0x70091c6acbb2f60271820434bee4140227e7005066b614d413d1c7bd8ab6cfed"
+        },
+        {
+          "coin": "ETH",
+          "dir": "long",
+          "entry_time": "2026-02-05 20:24",
+          "notional_usd": 100099,
+          "event_move_pct": 4.35,
+          "event_time": "2026-02-05 21:00",
+          "hash": "0x70091c6acbb2f60271820434bee4140227e7005066b614d413d1c7bd8ab6cfed"
+        },
+        {
+          "coin": "ETH",
+          "dir": "long",
+          "entry_time": "2026-02-05 20:24",
+          "notional_usd": 420840,
+          "event_move_pct": 4.35,
+          "event_time": "2026-02-05 21:00",
+          "hash": "0x70091c6acbb2f60271820434bee4140227e7005066b614d413d1c7bd8ab6cfed"
+        }
+      ],
+      "realized_pnl": 494098.93,
+      "verdict": "insider-leaning(先行建玉あり)"
+    },
+    {
+      "address": "0x2373962eec8ed3764ddc1142244ac1e0fa38d0d8",
+      "majors": 5323,
+      "active_from": "2025-12-21",
+      "active_to": "2026-04-21",
+      "n_events": 378,
+      "win_rate": 0.4665,
+      "dir_accuracy": 0.4472,
+      "event_lead_notional": 0,
+      "lead_examples": [],
+      "realized_pnl": 893116.65,
+      "verdict": "判定保留"
+    },
+    {
+      "address": "0xb69eec8fea0081343c3b09e652ba1fa7dcf7033a",
+      "majors": 2854,
+      "active_from": "2026-03-23",
+      "active_to": "2026-06-08",
+      "n_events": 107,
+      "win_rate": 0.5749,
+      "dir_accuracy": 0.2342,
+      "event_lead_notional": 0,
+      "lead_examples": [],
+      "realized_pnl": 573128.26,
+      "verdict": "判定保留"
+    },
+    {
+      "address": "0xd866a2d14a6dc92bdb1fdeac32c0f8ec322b3605",
+      "majors": 784,
+      "active_from": "2026-05-27",
+      "active_to": "2026-06-04",
+      "n_events": 12,
+      "win_rate": 0.7569,
+      "dir_accuracy": 0.2702,
+      "event_lead_notional": 0,
+      "lead_examples": [],
+      "realized_pnl": 735718.05,
+      "verdict": "pro(実力・先行なし)"
+    },
+    {
+      "address": "0xaa3f51a8095d030e38317e917839c87315300bee",
+      "majors": 553,
+      "active_from": "2025-07-30",
+      "active_to": "2026-04-27",
+      "n_events": 513,
+      "win_rate": 0.4936,
+      "dir_accuracy": 0.0,
+      "event_lead_notional": 0,
+      "lead_examples": [],
+      "realized_pnl": 609754.4,
+      "verdict": "判定保留"
+    }
+  ]
+}
