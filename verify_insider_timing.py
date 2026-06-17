@@ -70,9 +70,14 @@ def main():
     ap.add_argument("--src", default=f"{config.DATA_DIR}/hl_classified.json")
     ap.add_argument("--limit", type=int, default=0)
     ap.add_argument("--addr", nargs="*", default=[])
+    ap.add_argument("--position", default=None, help="台帳のこのpositionの全件を対象に")
+    ap.add_argument("--out", default="insider_verified.json")
     args = ap.parse_args()
 
-    if args.addr:
+    if args.position:
+        reg = json.load(open(f"{config.DATA_DIR}/wallet_registry.json", encoding="utf-8"))["wallets"]
+        addrs = [e["address"] for e in reg.values() if e.get("position") == args.position]
+    elif args.addr:
         addrs = args.addr
     else:
         import os
@@ -96,7 +101,7 @@ def main():
 
     out.sort(key=lambda r: r.get("event_lead_notional", 0) or 0, reverse=True)
     json.dump({"generated_at": datetime.now(timezone.utc).isoformat(), "wallets": out},
-              open(f"{config.DATA_DIR}/insider_verified.json", "w", encoding="utf-8"),
+              open(f"{config.DATA_DIR}/{args.out}", "w", encoding="utf-8"),
               ensure_ascii=False, indent=2)
     from collections import Counter
     print("判定内訳:", dict(Counter(r.get("verdict", "?") for r in out)))
