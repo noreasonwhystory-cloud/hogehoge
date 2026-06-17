@@ -1,0 +1,94 @@
+{
+  "generated_at": "2026-06-17T23:24:30.198984+00:00",
+  "wallets": [
+    {
+      "address": "0xefcace57934a753d66c48a31b880ba806d4c0869",
+      "win_rate": 0.5449,
+      "dir_accuracy": 0.3718,
+      "n_closes": 3586,
+      "n_opens": 1845,
+      "active_days": 813.7,
+      "realized_majors": 84383,
+      "account_value": 75176,
+      "total_unrealized": -13184,
+      "underwater_loss": 13184,
+      "worst_bag": -8086,
+      "underwater": [
+        {
+          "coin": "BTC",
+          "unrl": -8086,
+          "value": 2305027
+        },
+        {
+          "coin": "ETH",
+          "unrl": -5098,
+          "value": 795790
+        }
+      ],
+      "bag_ratio": 0.175,
+      "no_bag": false,
+      "qualifies": false,
+      "position": "除外/低優先",
+      "labels": []
+    },
+    {
+      "address": "0x10b6f072fabe21bc72ffd77ff5d4414e6cef2980",
+      "win_rate": 0.88,
+      "dir_accuracy": 0.5125,
+      "n_closes": 1183,
+      "n_opens": 1284,
+      "active_days": 228.0,
+      "realized_majors": 358215,
+      "account_value": 481843,
+      "total_unrealized": 52747,
+      "underwater_loss": 0,
+      "worst_bag": 0,
+      "underwater": [],
+      "bag_ratio": 0.0,
+      "no_bag": true,
+      "qualifies": false,
+      "position": "除外/低優先",
+      "labels": []
+    },
+    {
+      "address": "0x230963164d9637a4c536270a06b4e3636d44a2d9",
+      "win_rate": 0.3732,
+      "dir_accuracy": 0.3788,
+      "n_closes": 351,
+      "n_opens": 462,
+      "active_days": 73.4,
+      "realized_majors": 418854,
+      "account_value": 176067,
+      "total_unrealized": 86309,
+      "underwater_loss": 0,
+      "worst_bag": 0,
+      "underwater": [],
+      "bag_ratio": 0.0,
+      "no_bag": true,
+      "qualifies": false,
+      "position": "プロトレーダー(未精査)",
+      "labels": [
+        "High Balance"
+      ]
+    },
+    {
+      "address": "0x5aadb434293b4e1b8fb2e84007e567506fe65a96",
+      "win_rate": 0.5982,
+      "dir_accuracy": null,
+      "n_closes": 219,
+      "n_opens": 0,
+      "active_days": 60.2,
+      "realized_majors": -7367,
+      "account_value": 128139,
+      "total_unrealized": 0,
+      "underwater_loss": 0,
+      "worst_bag": 0,
+      "underwater": [],
+      "bag_ratio": 0.0,
+      "no_bag": true,
+      "qualifies": false,
+      "position": "プロトレーダー(本物)",
+      "labels": []
+    }
+  ]
+}
