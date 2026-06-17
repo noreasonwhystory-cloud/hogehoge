@@ -88,23 +88,33 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--maxpages", type=int, default=8)
     ap.add_argument("--limit", type=int, default=0)
+    ap.add_argument("--candidates", action="store_true",
+                    help="台帳の『Nansen候補(HL未検証)』(=元プロ枠に戻した383件)を対象にする")
+    ap.add_argument("--out", default="hl_list_analysis.json")
     args = ap.parse_args()
 
-    d = json.load(open(f"{config.DATA_DIR}/nansen_candidates.json", encoding="utf-8"))["candidates"]
-    PROTO = ["Liquidator", "HLP", "Collateral", "Deployer", "Bridge", "Spoke",
-             ": Pool", "Router", "Factory", "🤖", "Proxy", "Mastercopy", "Vault"]
-    INST = ["Galaxy", "GSR", "Abraxas", "Wintermute", "Jump", "DWF", "Amber",
-            "Cumberland", "Capital", "Fund", "Flow Traders", "B2C2"]
+    if args.candidates:
+        reg = json.load(open(f"{config.DATA_DIR}/wallet_registry.json", encoding="utf-8"))["wallets"]
+        targets = [{"address": e["address"], "label": (e.get("labels") or [""])[0],
+                    "pnl": None, "account_value": None}
+                   for e in reg.values() if e.get("position") == "Nansen候補(HL未検証)"]
+        print(f"HL分析対象: {len(targets)} 件（Nansen候補・元プロ枠の383件）")
+    else:
+        d = json.load(open(f"{config.DATA_DIR}/nansen_candidates.json", encoding="utf-8"))["candidates"]
+        PROTO = ["Liquidator", "HLP", "Collateral", "Deployer", "Bridge", "Spoke",
+                 ": Pool", "Router", "Factory", "🤖", "Proxy", "Mastercopy", "Vault"]
+        INST = ["Galaxy", "GSR", "Abraxas", "Wintermute", "Jump", "DWF", "Amber",
+                "Cumberland", "Capital", "Fund", "Flow Traders", "B2C2"]
 
-    def is_indiv(c):
-        s = c.get("label") or ""
-        return not (any(k in s for k in PROTO) or any(k in s for k in INST) or "Smart" in s)
+        def is_indiv(c):
+            s = c.get("label") or ""
+            return not (any(k in s for k in PROTO) or any(k in s for k in INST) or "Smart" in s)
 
-    targets = [c for c in d if c.get("is_new") and is_indiv(c)
-               and (c.get("account_value") or 0) < 1000]
+        targets = [c for c in d if c.get("is_new") and is_indiv(c)
+                   and (c.get("account_value") or 0) < 1000]
+        print(f"HL分析対象: {len(targets)} 件（個人・残高<$1k）")
     if args.limit:
         targets = targets[:args.limit]
-    print(f"HL分析対象: {len(targets)} 件（個人・残高<$1k）")
 
     results = []
     for i, c in enumerate(targets, 1):
@@ -121,7 +131,7 @@ def main():
     results.sort(key=lambda r: r.get("realized_pnl", 0) or 0, reverse=True)
     out = {"generated_at": datetime.now(timezone.utc).isoformat(),
            "n": len(results), "wallets": results}
-    path = f"{config.DATA_DIR}/hl_list_analysis.json"
+    path = f"{config.DATA_DIR}/{args.out}"
     json.dump(out, open(path, "w", encoding="utf-8"), ensure_ascii=False, indent=2)
 
     have = [r for r in results if r.get("n_fills", 0) > 0]
