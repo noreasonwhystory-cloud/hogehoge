@@ -2173,7 +2173,8 @@
       "active_from": "2025-10-17",
       "active_to": "2026-06-17",
       "trade_days": 243,
-      "active14": true
+      "active14": true,
+      "nansen_errors": []
     },
     "0x5875d72130981b18692a3d29545e4038f7eb0c38": {
       "address": "0x5875d72130981b18692a3d29545e4038f7eb0c38",
@@ -14280,7 +14281,8 @@
       "active_from": "2026-03-25",
       "active_to": "2026-06-04",
       "trade_days": 71,
-      "active14": true
+      "active14": true,
+      "nansen_errors": []
     },
     "0x5846ac5619d2a762751b1663d86a402085505765": {
       "address": "0x5846ac5619d2a762751b1663d86a402085505765",
@@ -21381,7 +21383,8 @@
       "active_from": "2024-12-04",
       "active_to": "2026-03-23",
       "trade_days": 474,
-      "active14": false
+      "active14": false,
+      "nansen_errors": []
     },
     "0x14246f4bbafb87ccebac17609054c6a188ed8cfd": {
       "address": "0x14246f4bbafb87ccebac17609054c6a188ed8cfd",
@@ -22802,7 +22805,8 @@
       "active_from": "2025-11-14",
       "active_to": "2025-11-30",
       "trade_days": 16,
-      "active14": false
+      "active14": false,
+      "nansen_errors": []
     },
     "0x3480d3f9b45a5669cb3c7a576b092798fd5db5d8": {
       "address": "0x3480d3f9b45a5669cb3c7a576b092798fd5db5d8",
@@ -31628,7 +31632,8 @@
       "trade_days": 8,
       "active14": false,
       "wf_confidence": 0.2,
-      "wf_verdict": "weak-suspect"
+      "wf_verdict": "weak-suspect",
+      "nansen_errors": []
     },
     "0xbdd243d77a59a3b38d21bf61e78a6ba4702f2bbc": {
       "address": "0xbdd243d77a59a3b38d21bf61e78a6ba4702f2bbc",
@@ -33182,5 +33187,5 @@
       "active14": false
     }
   },
-  "updated_at": "2026-06-17T18:23:33.351482+00:00"
+  "updated_at": "2026-06-17T18:37:51.563720+00:00"
 }
