@@ -1,435 +1,448 @@
 {
-  "generated_at": "2026-06-17T15:08:02.941008+00:00",
+  "generated_at": "2026-06-17T15:50:12.157221+00:00",
   "wallets": [
     {
-      "address": "0x74da055d4ccf9dca3f15789c603e1a88a1d2d81f",
-      "majors": 22909,
-      "active_from": "2026-01-22",
-      "active_to": "2026-02-10",
-      "n_events": 137,
-      "win_rate": 0.7009,
-      "dir_accuracy": 0.5653,
-      "event_lead_notional": 13478564,
-      "lead_examples": [
-        {
-          "coin": "BTC",
-          "dir": "short",
-          "entry_time": "2026-02-05 09:21",
-          "notional_usd": 225387,
-          "event_move_pct": -4.03,
-          "event_time": "2026-02-05 11:00",
-          "hash": "0xa5e0a30d778a9a41a75a0434b7750b020b9900f3128db91349a94e60368e742c"
-        },
-        {
-          "coin": "BTC",
-          "dir": "short",
-          "entry_time": "2026-02-05 09:21",
-          "notional_usd": 190002,
-          "event_move_pct": -4.03,
-          "event_time": "2026-02-05 11:00",
-          "hash": "0xa5e0a30d778a9a41a75a0434b7750b020b9900f3128db91349a94e60368e742c"
-        },
-        {
-          "coin": "BTC",
-          "dir": "short",
-          "entry_time": "2026-02-05 09:21",
-          "notional_usd": 100161,
-          "event_move_pct": -4.03,
-          "event_time": "2026-02-05 11:00",
-          "hash": "0xa5e0a30d778a9a41a75a0434b7750b020b9900f3128db91349a94e60368e742c"
-        },
-        {
-          "coin": "BTC",
-          "dir": "short",
-          "entry_time": "2026-02-05 09:21",
-          "notional_usd": 150246,
-          "event_move_pct": -4.03,
-          "event_time": "2026-02-05 11:00",
-          "hash": "0xa5e0a30d778a9a41a75a0434b7750b020b9900f3128db91349a94e60368e742c"
-        },
-        {
-          "coin": "BTC",
-          "dir": "long",
-          "entry_time": "2026-02-05 17:38",
-          "notional_usd": 600820,
-          "event_move_pct": 3.88,
-          "event_time": "2026-02-05 21:00",
-          "hash": "0xdde498688bed4311df5e0434bd08f60207f8004e26e061e381ad43bb4ae11cfc"
-        }
-      ],
-      "realized_pnl": 5035484.61,
-      "verdict": "insider-leaning(先行建玉あり)"
-    },
-    {
-      "address": "0xbdd243d77a59a3b38d21bf61e78a6ba4702f2bbc",
-      "majors": 919,
-      "active_from": "2026-02-05",
-      "active_to": "2026-02-25",
-      "n_events": 68,
-      "win_rate": 1.0,
-      "dir_accuracy": 0.0918,
-      "event_lead_notional": 2691427,
-      "lead_examples": [
-        {
-          "coin": "BTC",
-          "dir": "long",
-          "entry_time": "2026-02-05 18:25",
-          "notional_usd": 100189,
-          "event_move_pct": 3.88,
-          "event_time": "2026-02-05 21:00",
-          "hash": "0xf79371cef16e8435f90d0434bd8d960218f000b48c61a3089b5c1d21b0625e20"
-        },
-        {
-          "coin": "BTC",
-          "dir": "long",
-          "entry_time": "2026-02-05 18:25",
-          "notional_usd": 300307,
-          "event_move_pct": 3.88,
-          "event_time": "2026-02-05 21:00",
-          "hash": "0xf79371cef16e8435f90d0434bd8d960218f000b48c61a3089b5c1d21b0625e20"
-        },
-        {
-          "coin": "BTC",
-          "dir": "long",
-          "entry_time": "2026-02-05 18:54",
-          "notional_usd": 207327,
-          "event_move_pct": 3.88,
-          "event_time": "2026-02-05 21:00",
-          "hash": "0x69026092135274ab6a7c0434bde2a802048d0077ae55937d0ccb0be4d2564e96"
-        },
-        {
-          "coin": "BTC",
-          "dir": "long",
-          "entry_time": "2026-02-05 18:54",
-          "notional_usd": 300094,
-          "event_move_pct": 3.88,
-          "event_time": "2026-02-05 21:00",
-          "hash": "0x69026092135274ab6a7c0434bde2a802048d0077ae55937d0ccb0be4d2564e96"
-        },
-        {
-          "coin": "BTC",
-          "dir": "long",
-          "entry_time": "2026-02-05 18:54",
-          "notional_usd": 100191,
-          "event_move_pct": 3.88,
-          "event_time": "2026-02-05 21:00",
-          "hash": "0x69026092135274ab6a7c0434bde2a802048d0077ae55937d0ccb0be4d2564e96"
-        }
-      ],
-      "realized_pnl": 589418.23,
-      "verdict": "insider-leaning(先行建玉あり)"
-    },
-    {
-      "address": "0xb19e03768f72cb1b47fcd68f7fb99460b1e789b9",
-      "majors": 1638,
-      "active_from": "2025-10-22",
-      "active_to": "2026-05-13",
-      "n_events": 524,
-      "win_rate": 0.6089,
-      "dir_accuracy": 0.3522,
-      "event_lead_notional": 300002,
-      "lead_examples": [
-        {
-          "coin": "BTC",
-          "dir": "short",
-          "entry_time": "2026-04-01 18:38",
-          "notional_usd": 100001,
-          "event_move_pct": -3.32,
-          "event_time": "2026-04-02 00:00",
-          "hash": "0xc0e6955d60480b3ec26004382f834002023c0042fb4b2a1064af40b01f4be529"
-        },
-        {
-          "coin": "BTC",
-          "dir": "short",
-          "entry_time": "2026-04-01 18:38",
-          "notional_usd": 100001,
-          "event_move_pct": -3.32,
-          "event_time": "2026-04-02 00:00",
-          "hash": "0xc0e6955d60480b3ec26004382f834002023c0042fb4b2a1064af40b01f4be529"
-        },
-        {
-          "coin": "BTC",
-          "dir": "short",
-          "entry_time": "2026-04-01 18:38",
-          "notional_usd": 100001,
-          "event_move_pct": -3.32,
-          "event_time": "2026-04-02 00:00",
-          "hash": "0xc0e6955d60480b3ec26004382f834002023c0042fb4b2a1064af40b01f4be529"
-        }
-      ],
-      "realized_pnl": 147381.7,
-      "verdict": "insider-leaning(先行建玉あり)"
-    },
-    {
-      "address": "0x6f7d75c18e8ca7f486eb4d2690abf7b329087062",
-      "majors": 2239,
-      "active_from": "2025-09-21",
-      "active_to": "2026-04-01",
-      "n_events": 472,
-      "win_rate": 0.9047,
-      "dir_accuracy": 0.5636,
-      "event_lead_notional": 225423,
+      "address": "0x298629982613bf36c48d0b31afd2fe7d1b4604dc",
+      "majors": 5717,
+      "active_from": "2025-07-16",
+      "active_to": "2026-03-29",
+      "n_events": 466,
+      "win_rate": 0.8651,
+      "dir_accuracy": 0.1256,
+      "event_lead_notional": 4181358,
       "lead_examples": [
         {
           "coin": "ETH",
           "dir": "short",
-          "entry_time": "2025-12-15 10:08",
-          "notional_usd": 104384,
-          "event_move_pct": -4.61,
-          "event_time": "2025-12-15 11:00",
-          "hash": "0xda21f9b40fc6a94adb9b04316d8bbd0202c30099aac9c81c7deaa506ceca8335"
+          "entry_time": "2025-12-07 17:24",
+          "notional_usd": 105829,
+          "event_move_pct": -3.03,
+          "event_time": "2025-12-07 18:00",
+          "hash": "0xcb4df4d3400cfc60ccc70430ef8fdc02158c00b8db001b326f16a025ff00d64b"
         },
         {
           "coin": "ETH",
           "dir": "short",
-          "entry_time": "2025-12-15 10:11",
-          "notional_usd": 121038,
-          "event_move_pct": -4.61,
-          "event_time": "2025-12-15 11:00",
-          "hash": "0xc51395b0582e7d94c68d04316d947b0203030095f3219c6668dc41031722577f"
+          "entry_time": "2025-12-07 17:24",
+          "notional_usd": 296342,
+          "event_move_pct": -3.03,
+          "event_time": "2025-12-07 18:00",
+          "hash": "0xcb4df4d3400cfc60ccc70430ef8fdc02158c00b8db001b326f16a025ff00d64b"
+        },
+        {
+          "coin": "ETH",
+          "dir": "short",
+          "entry_time": "2025-12-07 17:24",
+          "notional_usd": 419910,
+          "event_move_pct": -3.03,
+          "event_time": "2025-12-07 18:00",
+          "hash": "0xcb4df4d3400cfc60ccc70430ef8fdc02158c00b8db001b326f16a025ff00d64b"
+        },
+        {
+          "coin": "ETH",
+          "dir": "short",
+          "entry_time": "2025-12-07 17:24",
+          "notional_usd": 329931,
+          "event_move_pct": -3.03,
+          "event_time": "2025-12-07 18:00",
+          "hash": "0xcb4df4d3400cfc60ccc70430ef8fdc02158c00b8db001b326f16a025ff00d64b"
+        },
+        {
+          "coin": "ETH",
+          "dir": "short",
+          "entry_time": "2025-12-07 17:24",
+          "notional_usd": 329933,
+          "event_move_pct": -3.03,
+          "event_time": "2025-12-07 18:00",
+          "hash": "0xcb4df4d3400cfc60ccc70430ef8fdc02158c00b8db001b326f16a025ff00d64b"
         }
       ],
-      "realized_pnl": 3634965.0,
+      "realized_pnl": 1765895.18,
       "verdict": "insider-leaning(先行建玉あり)"
     },
     {
-      "address": "0x4eebd8d39e82efb958e0fa9f694435c910c8518f",
-      "majors": 1098,
-      "active_from": "2025-10-26",
-      "active_to": "2026-02-06",
-      "n_events": 274,
+      "address": "0x18cd4597e06b7fe0a8cd33dda499121b3a145a8b",
+      "majors": 2675,
+      "active_from": "2026-02-02",
+      "active_to": "2026-06-15",
+      "n_events": 363,
+      "win_rate": 0.7309,
+      "dir_accuracy": 0.5897,
+      "event_lead_notional": 651496,
+      "lead_examples": [
+        {
+          "coin": "ETH",
+          "dir": "long",
+          "entry_time": "2026-02-02 09:50",
+          "notional_usd": 104327,
+          "event_move_pct": 3.93,
+          "event_time": "2026-02-02 11:00",
+          "hash": "0x4fa96f721fb0df815123043486b0020203010057bab3fe53f3721ac4deb4b96b"
+        },
+        {
+          "coin": "ETH",
+          "dir": "long",
+          "entry_time": "2026-02-02 09:50",
+          "notional_usd": 104340,
+          "event_move_pct": 3.93,
+          "event_time": "2026-02-02 11:00",
+          "hash": "0x4fa96f721fb0df815123043486b0020203010057bab3fe53f3721ac4deb4b96b"
+        },
+        {
+          "coin": "ETH",
+          "dir": "long",
+          "entry_time": "2026-02-06 06:26",
+          "notional_usd": 133171,
+          "event_move_pct": 5.95,
+          "event_time": "2026-02-06 12:00",
+          "hash": "0x880bb136c8c9914b89850434c5aa02020cba001c63ccb01d2bd45c8987cd6b36"
+        },
+        {
+          "coin": "ETH",
+          "dir": "long",
+          "entry_time": "2026-02-06 06:26",
+          "notional_usd": 112624,
+          "event_move_pct": 5.95,
+          "event_time": "2026-02-06 12:00",
+          "hash": "0x880bb136c8c9914b89850434c5aa02020cba001c63ccb01d2bd45c8987cd6b36"
+        },
+        {
+          "coin": "BTC",
+          "dir": "long",
+          "entry_time": "2026-02-06 06:31",
+          "notional_usd": 197034,
+          "event_move_pct": 3.34,
+          "event_time": "2026-02-06 10:00",
+          "hash": "0xc2f7022e6b969db9c4700434c5b618020b8100140699bc8b66bfad812a9a77a4"
+        }
+      ],
+      "realized_pnl": 332258.79,
+      "verdict": "insider-leaning(先行建玉あり)"
+    },
+    {
+      "address": "0x07642cbbd81e075d3bf14e0f6c1017f20c525572",
+      "majors": 5275,
+      "active_from": "2026-04-06",
+      "active_to": "2026-04-18",
+      "n_events": 36,
+      "win_rate": 0.683,
+      "dir_accuracy": 0.4105,
+      "event_lead_notional": 641731,
+      "lead_examples": [
+        {
+          "coin": "ETH",
+          "dir": "long",
+          "entry_time": "2026-04-13 12:36",
+          "notional_usd": 424171,
+          "event_move_pct": 5.39,
+          "event_time": "2026-04-13 18:00",
+          "hash": "0x992ab17e6ee7efb99aa404390d5ace020270006409eb0e8b3cf35cd12debc9a4"
+        },
+        {
+          "coin": "ETH",
+          "dir": "long",
+          "entry_time": "2026-04-13 12:43",
+          "notional_usd": 217560,
+          "event_move_pct": 5.39,
+          "event_time": "2026-04-13 18:00",
+          "hash": "0xff1caf708007772f009604390d703f02025d00561b0a9602a2e55ac33f0b511a"
+        }
+      ],
+      "realized_pnl": 703628.96,
+      "verdict": "insider-leaning(先行建玉あり)"
+    },
+    {
+      "address": "0x906d31b2ee92c4bc720232112274a0e1ffb0ad6e",
+      "majors": 509,
+      "active_from": "2025-11-26",
+      "active_to": "2026-06-07",
+      "n_events": 453,
+      "win_rate": 1.0,
+      "dir_accuracy": 0.6199,
+      "event_lead_notional": 350298,
+      "lead_examples": [
+        {
+          "coin": "ETH",
+          "dir": "short",
+          "entry_time": "2025-12-10 18:31",
+          "notional_usd": 202921,
+          "event_move_pct": -4.02,
+          "event_time": "2025-12-10 22:00",
+          "hash": "0xd880bbe0e04f0a68d9fa0431215f4102047700c67b42293a7c4967339f42e453"
+        },
+        {
+          "coin": "ETH",
+          "dir": "short",
+          "entry_time": "2025-12-10 18:31",
+          "notional_usd": 147378,
+          "event_move_pct": -4.02,
+          "event_time": "2025-12-10 22:00",
+          "hash": "0x0975838379a6994f0aef0431215f4102047d006914a9b821ad3e2ed638aa7339"
+        }
+      ],
+      "realized_pnl": 2774849.25,
+      "verdict": "insider-leaning(先行建玉あり)"
+    },
+    {
+      "address": "0x8e096995c3e4a3f0bc5b3ea1cba94de2aa4d70c9",
+      "majors": 18112,
+      "active_from": "2026-01-31",
+      "active_to": "2026-06-05",
+      "n_events": 54,
+      "win_rate": 0.8818,
+      "dir_accuracy": 0.0682,
+      "event_lead_notional": 0,
+      "lead_examples": [],
+      "realized_pnl": 8312518.87,
+      "verdict": "pro(実力・先行なし)"
+    },
+    {
+      "address": "0x0b00c540bc5f203d97ac87da62164d3d37e19798",
+      "majors": 0
+    },
+    {
+      "address": "0x1e6db0fdf1a0f6edb78753184eb0fe5485c2eef2",
+      "majors": 346,
+      "active_from": "2025-02-27",
+      "active_to": "2025-06-07",
+      "n_events": 0,
       "win_rate": 1.0,
       "dir_accuracy": 0.0,
       "event_lead_notional": 0,
       "lead_examples": [],
-      "realized_pnl": 5802012.81,
+      "realized_pnl": 328867.94,
       "verdict": "pro(実力・先行なし)"
     },
     {
-      "address": "0x8cfe4bc352deb10ed41c5f0f89bc57674cee1e22",
-      "majors": 6074,
-      "active_from": "2025-07-02",
-      "active_to": "2026-03-13",
-      "n_events": 433,
-      "win_rate": 0.9628,
-      "dir_accuracy": 0.1203,
-      "event_lead_notional": 0,
-      "lead_examples": [],
-      "realized_pnl": 4809093.9,
-      "verdict": "pro(実力・先行なし)"
-    },
-    {
-      "address": "0xd7a678fcf72c1b602850ef2f3e2d668ec41fa0ed",
-      "majors": 2222,
-      "active_from": "2025-10-06",
-      "active_to": "2026-01-31",
-      "n_events": 210,
-      "win_rate": 1.0,
-      "dir_accuracy": 0.1269,
-      "event_lead_notional": 0,
-      "lead_examples": [],
-      "realized_pnl": 4117205.8,
-      "verdict": "pro(実力・先行なし)"
-    },
-    {
-      "address": "0xb632c6580173a16154f17cdafc6eb27e95cf73b7",
-      "majors": 13644,
-      "active_from": "2025-10-28",
-      "active_to": "2026-04-29",
-      "n_events": 232,
-      "win_rate": 0.4055,
+      "address": "0x203f4c410f3c35cead9f35b6de2f66e773d7f26e",
+      "majors": 838,
+      "active_from": "2025-07-06",
+      "active_to": "2025-10-10",
+      "n_events": 0,
+      "win_rate": 0.8266,
       "dir_accuracy": 0.0,
       "event_lead_notional": 0,
       "lead_examples": [],
-      "realized_pnl": 2879779.04,
+      "realized_pnl": -32538.41,
+      "verdict": "pro(実力・先行なし)"
+    },
+    {
+      "address": "0x782e432267376f377585fc78092d998f8442ab83",
+      "majors": 606,
+      "active_from": "2025-05-29",
+      "active_to": "2026-06-05",
+      "n_events": 555,
+      "win_rate": 0.5489,
+      "dir_accuracy": 0.0,
+      "event_lead_notional": 0,
+      "lead_examples": [],
+      "realized_pnl": 1194991.99,
       "verdict": "判定保留"
     },
     {
-      "address": "0x24eeb5249ce20cfb667e26b463c0ef394588d65f",
-      "majors": 552,
-      "active_from": "2024-12-03",
+      "address": "0xc7290b4b308431a985fa9e3e8a335c2f7650517c",
+      "majors": 2397,
+      "active_from": "2025-11-10",
+      "active_to": "2026-06-05",
+      "n_events": 555,
+      "win_rate": 1.0,
+      "dir_accuracy": 0.3992,
+      "event_lead_notional": 0,
+      "lead_examples": [],
+      "realized_pnl": 3315529.5,
+      "verdict": "pro(実力・先行なし)"
+    },
+    {
+      "address": "0x5846ac5619d2a762751b1663d86a402085505765",
+      "majors": 0
+    },
+    {
+      "address": "0xac03fc4c21902e4e934b4367cb1a6c6e3f0d8037",
+      "majors": 4,
+      "active_from": "2026-03-16",
+      "active_to": "2026-03-16",
+      "n_events": 0,
+      "win_rate": 1.0,
+      "dir_accuracy": 0.0,
+      "event_lead_notional": 0,
+      "lead_examples": [],
+      "realized_pnl": 2.53,
+      "verdict": "判定保留"
+    },
+    {
+      "address": "0x7ee069137842a195d06b533d714ba507290a3956",
+      "majors": 0
+    },
+    {
+      "address": "0xed41a12ea862f31df054e9bd3af1dd59486c6029",
+      "majors": 4084,
+      "active_from": "2025-12-10",
+      "active_to": "2026-04-27",
+      "n_events": 434,
+      "win_rate": 0.9928,
+      "dir_accuracy": 0.0956,
+      "event_lead_notional": 0,
+      "lead_examples": [],
+      "realized_pnl": 2150195.0,
+      "verdict": "pro(実力・先行なし)"
+    },
+    {
+      "address": "0xe4d83945c0322f3d340203a7129b7eb5cacae847",
+      "majors": 3998,
+      "active_from": "2025-09-09",
+      "active_to": "2026-05-22",
+      "n_events": 529,
+      "win_rate": 0.8349,
+      "dir_accuracy": 0.2206,
+      "event_lead_notional": 0,
+      "lead_examples": [],
+      "realized_pnl": 1733820.22,
+      "verdict": "pro(実力・先行なし)"
+    },
+    {
+      "address": "0xb1694de2324433778487999bd86b1acb3335ebc4",
+      "majors": 5804,
+      "active_from": "2025-08-26",
+      "active_to": "2026-04-07",
+      "n_events": 481,
+      "win_rate": 0.75,
+      "dir_accuracy": 0.0905,
+      "event_lead_notional": 0,
+      "lead_examples": [],
+      "realized_pnl": 1928778.11,
+      "verdict": "pro(実力・先行なし)"
+    },
+    {
+      "address": "0x8eadef1db48d9a682da64d74a69c5ac78d0ee175",
+      "majors": 698,
+      "active_from": "2025-10-10",
+      "active_to": "2026-01-31",
+      "n_events": 208,
+      "win_rate": 1.0,
+      "dir_accuracy": 0.0,
+      "event_lead_notional": 0,
+      "lead_examples": [],
+      "realized_pnl": 58096.68,
+      "verdict": "pro(実力・先行なし)"
+    },
+    {
+      "address": "0xa3d843b6a057504284006bef6f34a2e9bc80fb6b",
+      "majors": 5228,
+      "active_from": "2026-04-08",
+      "active_to": "2026-06-04",
+      "n_events": 47,
+      "win_rate": 0.9967,
+      "dir_accuracy": 0.0155,
+      "event_lead_notional": 0,
+      "lead_examples": [],
+      "realized_pnl": 1423967.36,
+      "verdict": "pro(実力・先行なし)"
+    },
+    {
+      "address": "0x56cd86d6ef24a3f51ce6992b7f1db751b0a0276a",
+      "majors": 1501,
+      "active_from": "2024-12-01",
+      "active_to": "2026-02-06",
+      "n_events": 272,
+      "win_rate": 0.8201,
+      "dir_accuracy": 0.0,
+      "event_lead_notional": 0,
+      "lead_examples": [],
+      "realized_pnl": 2219377.13,
+      "verdict": "pro(実力・先行なし)"
+    },
+    {
+      "address": "0x406073860818ecfb7dca0706a6bac73faa95bd3e",
+      "majors": 797,
+      "active_from": "2025-10-07",
+      "active_to": "2026-05-12",
+      "n_events": 522,
+      "win_rate": 0.9971,
+      "dir_accuracy": 0.0,
+      "event_lead_notional": 0,
+      "lead_examples": [],
+      "realized_pnl": 713340.83,
+      "verdict": "pro(実力・先行なし)"
+    },
+    {
+      "address": "0xba0495c92ab69b1151ecf422851a06b602cea764",
+      "majors": 0
+    },
+    {
+      "address": "0x98256d1a9e3012398237a1720c27a3d7ed1ad905",
+      "majors": 0
+    },
+    {
+      "address": "0x99b3ba1c1b7ad83d0164d996e3d271ae8c842551",
+      "majors": 0
+    },
+    {
+      "address": "0x143c28ae5b8642f58c98b8a6f82a0f314d23f6ab",
+      "majors": 0
+    },
+    {
+      "address": "0x95e2687b07f0dec34462fdab6bbebcc0b3ab49c6",
+      "majors": 0
+    },
+    {
+      "address": "0x1fe06653816cd53afb36a18f059b0ada2a3c8f20",
+      "majors": 0
+    },
+    {
+      "address": "0x2373962eec8ed3764ddc1142244ac1e0fa38d0d8",
+      "majors": 0
+    },
+    {
+      "address": "0x79399dac99daa4a77d2bcd8ef6f5abf5966468e7",
+      "majors": 99,
+      "active_from": "2025-02-03",
       "active_to": "2025-02-03",
       "n_events": 0,
-      "win_rate": 0.5645,
+      "win_rate": 1.0,
       "dir_accuracy": 0.0,
       "event_lead_notional": 0,
       "lead_examples": [],
-      "realized_pnl": -262531.93,
+      "realized_pnl": 20933.35,
+      "verdict": "pro(実力・先行なし)"
+    },
+    {
+      "address": "0xb69eec8fea0081343c3b09e652ba1fa7dcf7033a",
+      "majors": 2854,
+      "active_from": "2026-03-23",
+      "active_to": "2026-06-08",
+      "n_events": 107,
+      "win_rate": 0.5749,
+      "dir_accuracy": 0.2342,
+      "event_lead_notional": 0,
+      "lead_examples": [],
+      "realized_pnl": 573128.26,
       "verdict": "判定保留"
     },
     {
-      "address": "0x258886f9a27d38743ab45b8658871a37e2c3f51a",
-      "majors": 4623,
-      "active_from": "2025-11-18",
-      "active_to": "2026-02-05",
-      "n_events": 252,
-      "win_rate": 0.991,
+      "address": "0x4cc390eada38741fe9c77036b7c38537fb5f38ea",
+      "majors": 2306,
+      "active_from": "2024-08-12",
+      "active_to": "2026-03-19",
+      "n_events": 447,
+      "win_rate": 0.9414,
       "dir_accuracy": 0.0,
       "event_lead_notional": 0,
       "lead_examples": [],
-      "realized_pnl": 3359608.26,
+      "realized_pnl": 395196.21,
       "verdict": "pro(実力・先行なし)"
     },
     {
-      "address": "0x36f336c0b29ff5acc3a4558bb8486b25b41b8033",
-      "majors": 0
-    },
-    {
-      "address": "0x41206f8efb51e5039e5b46e04e7866a4849f72d2",
-      "majors": 22506,
-      "active_from": "2024-12-20",
-      "active_to": "2026-01-27",
-      "n_events": 179,
-      "win_rate": 0.7003,
-      "dir_accuracy": 0.0488,
-      "event_lead_notional": 0,
-      "lead_examples": [],
-      "realized_pnl": 8723731.42,
-      "verdict": "pro(実力・先行なし)"
-    },
-    {
-      "address": "0xcb8e1b769091ca2c8a321892481e41eb42ff1bab",
-      "majors": 0
-    },
-    {
-      "address": "0x6979dde2781dc4ec843641b10b2a2f2e0f4bda62",
-      "majors": 2000,
-      "active_from": "2025-09-30",
-      "active_to": "2026-01-20",
-      "n_events": 77,
-      "win_rate": 1.0,
+      "address": "0x06466f9ac08e872064950cec3812b57d6feafa7f",
+      "majors": 495,
+      "active_from": "2025-07-18",
+      "active_to": "2026-03-05",
+      "n_events": 259,
+      "win_rate": 0.8754,
       "dir_accuracy": 0.0,
       "event_lead_notional": 0,
       "lead_examples": [],
-      "realized_pnl": 104837.61,
+      "realized_pnl": 940932.92,
       "verdict": "pro(実力・先行なし)"
-    },
-    {
-      "address": "0x860b15d380b19ca3d37ea7c3af0e2bb26b420c27",
-      "majors": 0
-    },
-    {
-      "address": "0xcefd7652228a8619d0af5b95389cd49387cd30e0",
-      "majors": 1616,
-      "active_from": "2025-04-22",
-      "active_to": "2026-03-18",
-      "n_events": 449,
-      "win_rate": 0.6196,
-      "dir_accuracy": 0.382,
-      "event_lead_notional": 0,
-      "lead_examples": [],
-      "realized_pnl": -77161.79,
-      "verdict": "pro(実力・先行なし)"
-    },
-    {
-      "address": "0x67d90011a761066651c60944609ab920f42b212f",
-      "majors": 0
-    },
-    {
-      "address": "0x3b11267dfc4b9ebe8427e8f557056b4b6ce98112",
-      "majors": 940,
-      "active_from": "2026-03-15",
-      "active_to": "2026-06-10",
-      "n_events": 138,
-      "win_rate": 0.9973,
-      "dir_accuracy": 0.8487,
-      "event_lead_notional": 0,
-      "lead_examples": [],
-      "realized_pnl": 376811.62,
-      "verdict": "pro(実力・先行なし)"
-    },
-    {
-      "address": "0xf929122994e177079c924631ba13fb280f5cd1f9",
-      "majors": 0
-    },
-    {
-      "address": "0xe7e3cdba6cc8a60c31c09279e69a0bec6e392901",
-      "majors": 0
-    },
-    {
-      "address": "0x5638484ba2d2f1d1d35020572b0aa439a9869192",
-      "majors": 3065,
-      "active_from": "2025-10-16",
-      "active_to": "2026-01-14",
-      "n_events": 154,
-      "win_rate": 1.0,
-      "dir_accuracy": 0.1381,
-      "event_lead_notional": 0,
-      "lead_examples": [],
-      "realized_pnl": 1088294.64,
-      "verdict": "pro(実力・先行なし)"
-    },
-    {
-      "address": "0x4b4bdd734b87bc48683d24f1dc6159e3ab6d6409",
-      "majors": 1740,
-      "active_from": "2026-05-22",
-      "active_to": "2026-05-31",
-      "n_events": 1,
-      "win_rate": 1.0,
-      "dir_accuracy": 0.1287,
-      "event_lead_notional": 0,
-      "lead_examples": [],
-      "realized_pnl": 268250.54,
-      "verdict": "pro(実力・先行なし)"
-    },
-    {
-      "address": "0x1e5b1efd99c89d39b59b28a19e6b42bbeb98433b",
-      "majors": 575,
-      "active_from": "2025-09-30",
-      "active_to": "2026-01-30",
-      "n_events": 101,
-      "win_rate": 1.0,
-      "dir_accuracy": 0.0,
-      "event_lead_notional": 0,
-      "lead_examples": [],
-      "realized_pnl": 1026143.47,
-      "verdict": "pro(実力・先行なし)"
-    },
-    {
-      "address": "0xc171aca4843aa4765e88ebf2b35d0808a623815d",
-      "majors": 0
-    },
-    {
-      "address": "0x7de07bb8a43c1953a019906cf2c8287dae478be9",
-      "majors": 1455,
-      "active_from": "2024-12-06",
-      "active_to": "2026-02-03",
-      "n_events": 193,
-      "win_rate": 0.6887,
-      "dir_accuracy": 0.0,
-      "event_lead_notional": 0,
-      "lead_examples": [],
-      "realized_pnl": 1016224.58,
-      "verdict": "pro(実力・先行なし)"
-    },
-    {
-      "address": "0x47e2c54c18cf7005de84a35b20d078be74a7af48",
-      "majors": 0
-    },
-    {
-      "address": "0x4ce423197edc972896d16cdb410b212c2b675633",
-      "majors": 0
-    },
-    {
-      "address": "0xc604faf510aa5b617c9fb1556d02d6d22c9644be",
-      "majors": 452,
-      "active_from": "2025-07-31",
-      "active_to": "2026-03-14",
-      "n_events": 0,
-      "win_rate": 1.0,
-      "dir_accuracy": 0.0,
-      "event_lead_notional": 0,
-      "lead_examples": [],
-      "realized_pnl": 911248.09,
-      "verdict": "pro(実力・先行なし)"
-    },
-    {
-      "address": "0xa65ce1d604fa901c13aa29f2126a57d9032e412b",
-      "majors": 0
-    },
-    {
-      "address": "0xfe40fa3decfc6dc555f4ad7736d0dd65ccbd4743",
-      "majors": 0
     },
     {
       "address": "0x7c9063122c01837fe83da2521056e10c9b6dd129",
@@ -445,171 +458,184 @@
       "verdict": "判定保留"
     },
     {
-      "address": "0x0686d3fda80f7b16a4d283c2b3d15f167aab6a98",
-      "majors": 0
-    },
-    {
-      "address": "0xae551d73161bac3315c5ade0e2d499a44ebe2236",
-      "majors": 286,
-      "active_from": "2024-03-05",
-      "active_to": "2026-06-14",
-      "n_events": 572,
-      "win_rate": 0.9338,
-      "dir_accuracy": 0.2,
+      "address": "0xd866a2d14a6dc92bdb1fdeac32c0f8ec322b3605",
+      "majors": 625,
+      "active_from": "2026-05-27",
+      "active_to": "2026-06-04",
+      "n_events": 0,
+      "win_rate": 0.5241,
+      "dir_accuracy": 0.0,
       "event_lead_notional": 0,
       "lead_examples": [],
-      "realized_pnl": 98108.16,
+      "realized_pnl": 25067.1,
+      "verdict": "判定保留"
+    },
+    {
+      "address": "0x5049695d6faacffd34f2d24f3f0ff8c64d88f71c",
+      "majors": 927,
+      "active_from": "2025-07-21",
+      "active_to": "2026-04-18",
+      "n_events": 515,
+      "win_rate": 0.7043,
+      "dir_accuracy": 0.2341,
+      "event_lead_notional": 0,
+      "lead_examples": [],
+      "realized_pnl": 332298.71,
       "verdict": "pro(実力・先行なし)"
     },
     {
-      "address": "0x0d9654172413fa8bcd2f5738a7b2fa6d19864125",
-      "majors": 8579,
-      "active_from": "2026-02-19",
-      "active_to": "2026-02-25",
-      "n_events": 34,
-      "win_rate": 1.0,
-      "dir_accuracy": 0.5112,
+      "address": "0x0d8d5b2d87d36b99d28c321ff7a4a6d206a9c2aa",
+      "majors": 954,
+      "active_from": "2025-06-02",
+      "active_to": "2025-12-27",
+      "n_events": 137,
+      "win_rate": 0.6613,
+      "dir_accuracy": 0.0,
       "event_lead_notional": 0,
       "lead_examples": [],
-      "realized_pnl": 710349.5,
+      "realized_pnl": 219496.16,
       "verdict": "pro(実力・先行なし)"
     },
     {
-      "address": "0x4535b3157efa05466d5095309c6f12fe3be237dc",
-      "majors": 0
+      "address": "0x24a44aef48aeb27c7708dabfccda14b41fbf0ae1",
+      "majors": 176,
+      "active_from": "2024-11-14",
+      "active_to": "2026-06-11",
+      "n_events": 570,
+      "win_rate": 0.9432,
+      "dir_accuracy": 0.0,
+      "event_lead_notional": 0,
+      "lead_examples": [],
+      "realized_pnl": -16052.79,
+      "verdict": "pro(実力・先行なし)"
     },
     {
-      "address": "0x9b804150c9a4f6db44ba4fd67704eadb5be360c1",
-      "majors": 1109,
-      "active_from": "2026-03-07",
-      "active_to": "2026-03-08",
+      "address": "0x01b7e73cdad95d407e8696e04194a75f19744801",
+      "majors": 185,
+      "active_from": "2025-05-23",
+      "active_to": "2025-06-22",
       "n_events": 0,
       "win_rate": 1.0,
       "dir_accuracy": 0.0,
       "event_lead_notional": 0,
       "lead_examples": [],
-      "realized_pnl": 700722.29,
+      "realized_pnl": 77255.96,
       "verdict": "pro(実力・先行なし)"
-    },
-    {
-      "address": "0xf3362789cecf25c6a31288d172880d7ad9b81801",
-      "majors": 6601,
-      "active_from": "2026-01-07",
-      "active_to": "2026-04-16",
-      "n_events": 367,
-      "win_rate": 0.607,
-      "dir_accuracy": 0.5708,
-      "event_lead_notional": 0,
-      "lead_examples": [],
-      "realized_pnl": 658338.25,
-      "verdict": "pro(実力・先行なし)"
-    },
-    {
-      "address": "0xd5c7757d91cbd59543c8ef64738d806e57d2212b",
-      "majors": 0
-    },
-    {
-      "address": "0xe9bf81b432e5bf34995afae08747c530c8406c4d",
-      "majors": 0
     },
     {
       "address": "0x69b05701f8175c276ecd0138387a197948e240bb",
-      "majors": 4445,
+      "majors": 4796,
       "active_from": "2025-06-05",
-      "active_to": "2026-05-18",
-      "n_events": 445,
-      "win_rate": 0.5657,
-      "dir_accuracy": 0.0217,
+      "active_to": "2026-06-15",
+      "n_events": 587,
+      "win_rate": 0.5656,
+      "dir_accuracy": 0.2194,
       "event_lead_notional": 0,
       "lead_examples": [],
-      "realized_pnl": 352721.85,
+      "realized_pnl": 396580.65,
       "verdict": "判定保留"
     },
     {
-      "address": "0xcba2680d2fc87cd6ee404fafbd7a5efbd26b099c",
-      "majors": 0
-    },
-    {
-      "address": "0x5198eff88dea32108605bcdb109a99dc397190d8",
-      "majors": 232,
-      "active_from": "2025-12-12",
-      "active_to": "2026-05-03",
-      "n_events": 421,
-      "win_rate": 1.0,
-      "dir_accuracy": 1.0,
+      "address": "0x807ddb66768050ee457165ad6d21cc1275a896ac",
+      "majors": 839,
+      "active_from": "2025-10-28",
+      "active_to": "2026-06-04",
+      "n_events": 541,
+      "win_rate": 0.8799,
+      "dir_accuracy": 0.0915,
       "event_lead_notional": 0,
       "lead_examples": [],
-      "realized_pnl": 613831.78,
+      "realized_pnl": 477996.81,
       "verdict": "pro(実力・先行なし)"
     },
     {
-      "address": "0x342f75d8522b7b6dabb16435ae3f8186b8607e03",
-      "majors": 0
-    },
-    {
-      "address": "0xa906355beaf1d69a5fe73ce55899c49c6e67916c",
-      "majors": 3755,
-      "active_from": "2025-07-29",
-      "active_to": "2026-01-20",
-      "n_events": 166,
-      "win_rate": 0.4986,
-      "dir_accuracy": 0.0398,
+      "address": "0xaa3f51a8095d030e38317e917839c87315300bee",
+      "majors": 553,
+      "active_from": "2025-07-30",
+      "active_to": "2026-04-27",
+      "n_events": 517,
+      "win_rate": 0.4936,
+      "dir_accuracy": 0.0,
       "event_lead_notional": 0,
       "lead_examples": [],
-      "realized_pnl": 29437.05,
+      "realized_pnl": 609754.4,
       "verdict": "判定保留"
     },
     {
-      "address": "0xdb79fe310ea2972137d2a23658db0234902b517d",
-      "majors": 1496,
-      "active_from": "2025-03-14",
-      "active_to": "2026-05-08",
-      "n_events": 522,
-      "win_rate": 0.733,
-      "dir_accuracy": 0.1298,
+      "address": "0x8ccee825f44c99fbdaa79464d5eb8beed9313da2",
+      "majors": 0
+    },
+    {
+      "address": "0x3e6805e8694bb2b717a828c1bfa32df5d6580cc9",
+      "majors": 0
+    },
+    {
+      "address": "0x6a02aedceac5a6813d960e4dae1910d9c458e77c",
+      "majors": 0
+    },
+    {
+      "address": "0x7cc0b0049faddc405da8494ac67737975c757480",
+      "majors": 0
+    },
+    {
+      "address": "0xbcc7fd5f27cba04dca862b94509133c453dde764",
+      "majors": 0
+    },
+    {
+      "address": "0x747932275df815ae819944e57ebb5b3e115ad68b",
+      "majors": 3240,
+      "active_from": "2025-10-22",
+      "active_to": "2026-05-07",
+      "n_events": 516,
+      "win_rate": 0.9139,
+      "dir_accuracy": 0.2022,
       "event_lead_notional": 0,
       "lead_examples": [],
-      "realized_pnl": 402300.36,
+      "realized_pnl": 483617.52,
       "verdict": "pro(実力・先行なし)"
     },
     {
       "address": "0x8250a7f9fca9c33e68eead8c05c1d58c8fd70d13",
-      "majors": 365,
+      "majors": 873,
       "active_from": "2023-11-08",
-      "active_to": "2024-01-30",
-      "n_events": 0,
-      "win_rate": 0.475,
-      "dir_accuracy": 0.0,
+      "active_to": "2026-05-03",
+      "n_events": 515,
+      "win_rate": 0.509,
+      "dir_accuracy": 0.2617,
       "event_lead_notional": 0,
       "lead_examples": [],
-      "realized_pnl": 6352.57,
+      "realized_pnl": -70044.9,
       "verdict": "判定保留"
     },
     {
-      "address": "0x3adaa1d2d0598c9b661a746649d20e1e8aad9b3a",
-      "majors": 307,
-      "active_from": "2025-11-21",
-      "active_to": "2026-01-14",
-      "n_events": 0,
-      "win_rate": 1.0,
-      "dir_accuracy": 0.0,
+      "address": "0xa99c9e5484e5b26635c07876d0859a1819ff40d5",
+      "majors": 486,
+      "active_from": "2025-08-07",
+      "active_to": "2026-06-16",
+      "n_events": 585,
+      "win_rate": 0.4419,
+      "dir_accuracy": 0.3782,
       "event_lead_notional": 0,
       "lead_examples": [],
-      "realized_pnl": 540758.1,
+      "realized_pnl": 2404.0,
+      "verdict": "判定保留"
+    },
+    {
+      "address": "0xb58e1eb8256689e47f589ba6f6a28657d997bf2f",
+      "majors": 1398,
+      "active_from": "2026-03-23",
+      "active_to": "2026-03-28",
+      "n_events": 5,
+      "win_rate": 1.0,
+      "dir_accuracy": 0.4768,
+      "event_lead_notional": 0,
+      "lead_examples": [],
+      "realized_pnl": 248595.26,
       "verdict": "pro(実力・先行なし)"
     },
     {
-      "address": "0x8a48dcaffdf71c547cd0fd0434ae40fa57bcbf0f",
-      "majors": 805,
-      "active_from": "2025-10-27",
-      "active_to": "2026-02-18",
-      "n_events": 330,
-      "win_rate": 1.0,
-      "dir_accuracy": 0.2066,
-      "event_lead_notional": 0,
-      "lead_examples": [],
-      "realized_pnl": 402849.6,
-      "verdict": "pro(実力・先行なし)"
+      "address": "0x66d3b80a7c6dc33801414dd22cde23f25d3de4d6",
+      "majors": 0
     }
   ]
 }
