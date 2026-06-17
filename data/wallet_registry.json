@@ -27120,7 +27120,1132 @@
         "insider_likelihood": null,
         "avg_hold_h": null
       }
+    },
+    "0x74da055d4ccf9dca3f15789c603e1a88a1d2d81f": {
+      "address": "0x74da055d4ccf9dca3f15789c603e1a88a1d2d81f",
+      "first_seen": "2026-06-17",
+      "times_seen": 1,
+      "tags": [
+        "HL先行検出",
+        "Nansen発見"
+      ],
+      "notes": "",
+      "history": [],
+      "last_seen": "2026-06-17",
+      "position": "インサイダー疑惑(要監視)",
+      "metric_category": "hl-verified",
+      "labels": [
+        "HL Perps Day Trader [0x74da05]"
+      ],
+      "roi_alltime": 0.0036018123204748995,
+      "n_fills_14d": 6000,
+      "nansen_checked": "2026-06-17",
+      "notes_jp": "【ひとことで】🔴 急変イベントの直前に大口を先行建玉していた（HL実測）。インサイダー疑い。 ただし方向的中率は57%と高くなく、先行は出来高由来の偶然の可能性も残る（要人間レビュー）。\n【HL実測】実現益$957,166・勝率0.7009・方向的中率0.5653・急変先行$13,478,564\n【活動期間】2026-01-22〜2026-02-10（majors 22909約定）\n【正体(Nansen)】HL Perps Day Trader [0x74da05]",
+      "current": {
+        "date": "2026-06-17",
+        "metric_category": "hl-verified",
+        "win_rate": 0.7009,
+        "dir_accuracy": 0.5653,
+        "total_pnl": 957166,
+        "event_lead_notional": 13478564,
+        "insider_likelihood": null,
+        "avg_hold_h": null
+      },
+      "lead_examples": [
+        {
+          "coin": "BTC",
+          "dir": "short",
+          "entry_time": "2026-02-05 09:21",
+          "notional_usd": 225387,
+          "event_move_pct": -4.03,
+          "event_time": "2026-02-05 11:00",
+          "hash": "0xa5e0a30d778a9a41a75a0434b7750b020b9900f3128db91349a94e60368e742c"
+        },
+        {
+          "coin": "BTC",
+          "dir": "short",
+          "entry_time": "2026-02-05 09:21",
+          "notional_usd": 190002,
+          "event_move_pct": -4.03,
+          "event_time": "2026-02-05 11:00",
+          "hash": "0xa5e0a30d778a9a41a75a0434b7750b020b9900f3128db91349a94e60368e742c"
+        },
+        {
+          "coin": "BTC",
+          "dir": "short",
+          "entry_time": "2026-02-05 09:21",
+          "notional_usd": 100161,
+          "event_move_pct": -4.03,
+          "event_time": "2026-02-05 11:00",
+          "hash": "0xa5e0a30d778a9a41a75a0434b7750b020b9900f3128db91349a94e60368e742c"
+        },
+        {
+          "coin": "BTC",
+          "dir": "short",
+          "entry_time": "2026-02-05 09:21",
+          "notional_usd": 150246,
+          "event_move_pct": -4.03,
+          "event_time": "2026-02-05 11:00",
+          "hash": "0xa5e0a30d778a9a41a75a0434b7750b020b9900f3128db91349a94e60368e742c"
+        },
+        {
+          "coin": "BTC",
+          "dir": "long",
+          "entry_time": "2026-02-05 17:38",
+          "notional_usd": 600820,
+          "event_move_pct": 3.88,
+          "event_time": "2026-02-05 21:00",
+          "hash": "0xdde498688bed4311df5e0434bd08f60207f8004e26e061e381ad43bb4ae11cfc"
+        }
+      ]
+    },
+    "0xbdd243d77a59a3b38d21bf61e78a6ba4702f2bbc": {
+      "address": "0xbdd243d77a59a3b38d21bf61e78a6ba4702f2bbc",
+      "first_seen": "2026-06-17",
+      "times_seen": 1,
+      "tags": [
+        "HL先行検出",
+        "Nansen発見"
+      ],
+      "notes": "",
+      "history": [],
+      "last_seen": "2026-06-17",
+      "position": "インサイダー疑惑(要監視)",
+      "metric_category": "hl-verified",
+      "labels": [
+        "👤 Dxrant [0xbdd243]"
+      ],
+      "roi_alltime": 0.008930001630256002,
+      "n_fills_14d": 4247,
+      "nansen_checked": "2026-06-17",
+      "notes_jp": "【ひとことで】🔴 急変イベントの直前に大口を先行建玉していた（HL実測）。インサイダー疑い。 ただし方向的中率は9%と高くなく、先行は出来高由来の偶然の可能性も残る（要人間レビュー）。\n【HL実測】実現益$2,135,735・勝率1.0・方向的中率0.0918・急変先行$2,691,427\n【活動期間】2026-02-05〜2026-02-25（majors 919約定）\n【正体(Nansen)】👤 Dxrant [0xbdd243]",
+      "current": {
+        "date": "2026-06-17",
+        "metric_category": "hl-verified",
+        "win_rate": 1.0,
+        "dir_accuracy": 0.0918,
+        "total_pnl": 2135735,
+        "event_lead_notional": 2691427,
+        "insider_likelihood": null,
+        "avg_hold_h": null
+      },
+      "lead_examples": [
+        {
+          "coin": "BTC",
+          "dir": "long",
+          "entry_time": "2026-02-05 18:25",
+          "notional_usd": 100189,
+          "event_move_pct": 3.88,
+          "event_time": "2026-02-05 21:00",
+          "hash": "0xf79371cef16e8435f90d0434bd8d960218f000b48c61a3089b5c1d21b0625e20"
+        },
+        {
+          "coin": "BTC",
+          "dir": "long",
+          "entry_time": "2026-02-05 18:25",
+          "notional_usd": 300307,
+          "event_move_pct": 3.88,
+          "event_time": "2026-02-05 21:00",
+          "hash": "0xf79371cef16e8435f90d0434bd8d960218f000b48c61a3089b5c1d21b0625e20"
+        },
+        {
+          "coin": "BTC",
+          "dir": "long",
+          "entry_time": "2026-02-05 18:54",
+          "notional_usd": 207327,
+          "event_move_pct": 3.88,
+          "event_time": "2026-02-05 21:00",
+          "hash": "0x69026092135274ab6a7c0434bde2a802048d0077ae55937d0ccb0be4d2564e96"
+        },
+        {
+          "coin": "BTC",
+          "dir": "long",
+          "entry_time": "2026-02-05 18:54",
+          "notional_usd": 300094,
+          "event_move_pct": 3.88,
+          "event_time": "2026-02-05 21:00",
+          "hash": "0x69026092135274ab6a7c0434bde2a802048d0077ae55937d0ccb0be4d2564e96"
+        },
+        {
+          "coin": "BTC",
+          "dir": "long",
+          "entry_time": "2026-02-05 18:54",
+          "notional_usd": 100191,
+          "event_move_pct": 3.88,
+          "event_time": "2026-02-05 21:00",
+          "hash": "0x69026092135274ab6a7c0434bde2a802048d0077ae55937d0ccb0be4d2564e96"
+        }
+      ]
+    },
+    "0xb19e03768f72cb1b47fcd68f7fb99460b1e789b9": {
+      "address": "0xb19e03768f72cb1b47fcd68f7fb99460b1e789b9",
+      "first_seen": "2026-06-17",
+      "times_seen": 1,
+      "tags": [
+        "HL先行検出",
+        "Nansen発見"
+      ],
+      "notes": "",
+      "history": [],
+      "last_seen": "2026-06-17",
+      "position": "インサイダー疑惑(要監視)",
+      "metric_category": "hl-verified",
+      "labels": [
+        "HL Perps Altcoin Trader [0xb19e03]"
+      ],
+      "roi_alltime": 0.00011420059435360711,
+      "n_fills_14d": 9998,
+      "nansen_checked": "2026-06-17",
+      "notes_jp": "【ひとことで】🔴 急変イベントの直前に大口を先行建玉していた（HL実測）。インサイダー疑い。 ただし方向的中率は35%と高くなく、先行は出来高由来の偶然の可能性も残る（要人間レビュー）。\n【HL実測】実現益$985,536・勝率0.6089・方向的中率0.3522・急変先行$300,002\n【活動期間】2025-10-22〜2026-05-13（majors 1638約定）\n【正体(Nansen)】HL Perps Altcoin Trader [0xb19e03]",
+      "current": {
+        "date": "2026-06-17",
+        "metric_category": "hl-verified",
+        "win_rate": 0.6089,
+        "dir_accuracy": 0.3522,
+        "total_pnl": 985536,
+        "event_lead_notional": 300002,
+        "insider_likelihood": null,
+        "avg_hold_h": null
+      },
+      "lead_examples": [
+        {
+          "coin": "BTC",
+          "dir": "short",
+          "entry_time": "2026-04-01 18:38",
+          "notional_usd": 100001,
+          "event_move_pct": -3.32,
+          "event_time": "2026-04-02 00:00",
+          "hash": "0xc0e6955d60480b3ec26004382f834002023c0042fb4b2a1064af40b01f4be529"
+        },
+        {
+          "coin": "BTC",
+          "dir": "short",
+          "entry_time": "2026-04-01 18:38",
+          "notional_usd": 100001,
+          "event_move_pct": -3.32,
+          "event_time": "2026-04-02 00:00",
+          "hash": "0xc0e6955d60480b3ec26004382f834002023c0042fb4b2a1064af40b01f4be529"
+        },
+        {
+          "coin": "BTC",
+          "dir": "short",
+          "entry_time": "2026-04-01 18:38",
+          "notional_usd": 100001,
+          "event_move_pct": -3.32,
+          "event_time": "2026-04-02 00:00",
+          "hash": "0xc0e6955d60480b3ec26004382f834002023c0042fb4b2a1064af40b01f4be529"
+        }
+      ]
+    },
+    "0x6f7d75c18e8ca7f486eb4d2690abf7b329087062": {
+      "address": "0x6f7d75c18e8ca7f486eb4d2690abf7b329087062",
+      "first_seen": "2026-06-17",
+      "times_seen": 1,
+      "tags": [
+        "HL先行検出",
+        "Nansen発見"
+      ],
+      "notes": "",
+      "history": [],
+      "last_seen": "2026-06-17",
+      "position": "インサイダー疑惑(要監視)",
+      "metric_category": "hl-verified",
+      "labels": [
+        "frankfrankbank.eth [0x6f7d75]"
+      ],
+      "roi_alltime": 389.0227123979876,
+      "n_fills_14d": 2284,
+      "nansen_checked": "2026-06-17",
+      "notes_jp": "【ひとことで】🔴 急変イベントの直前に大口を先行建玉していた（HL実測）。インサイダー疑い。 ただし方向的中率は56%と高くなく、先行は出来高由来の偶然の可能性も残る（要人間レビュー）。\n【HL実測】実現益$3,634,965・勝率0.9047・方向的中率0.5636・急変先行$225,423\n【活動期間】2025-09-21〜2026-04-01（majors 2239約定）\n【正体(Nansen)】frankfrankbank.eth [0x6f7d75]",
+      "current": {
+        "date": "2026-06-17",
+        "metric_category": "hl-verified",
+        "win_rate": 0.9047,
+        "dir_accuracy": 0.5636,
+        "total_pnl": 3634965,
+        "event_lead_notional": 225423,
+        "insider_likelihood": null,
+        "avg_hold_h": null
+      },
+      "lead_examples": [
+        {
+          "coin": "ETH",
+          "dir": "short",
+          "entry_time": "2025-12-15 10:08",
+          "notional_usd": 104384,
+          "event_move_pct": -4.61,
+          "event_time": "2025-12-15 11:00",
+          "hash": "0xda21f9b40fc6a94adb9b04316d8bbd0202c30099aac9c81c7deaa506ceca8335"
+        },
+        {
+          "coin": "ETH",
+          "dir": "short",
+          "entry_time": "2025-12-15 10:11",
+          "notional_usd": 121038,
+          "event_move_pct": -4.61,
+          "event_time": "2025-12-15 11:00",
+          "hash": "0xc51395b0582e7d94c68d04316d947b0203030095f3219c6668dc41031722577f"
+        }
+      ]
+    },
+    "0x4eebd8d39e82efb958e0fa9f694435c910c8518f": {
+      "address": "0x4eebd8d39e82efb958e0fa9f694435c910c8518f",
+      "first_seen": "2026-06-17",
+      "times_seen": 1,
+      "tags": [
+        "HL検証済プロ",
+        "Nansen発見"
+      ],
+      "notes": "",
+      "history": [],
+      "last_seen": "2026-06-17",
+      "position": "プロトレーダー(本物)",
+      "metric_category": "hl-verified",
+      "labels": [
+        "[0x4eebd8]"
+      ],
+      "roi_alltime": 34390.951725562496,
+      "n_fills_14d": 1098,
+      "nansen_checked": "2026-06-17",
+      "notes_jp": "【ひとことで】🟢 多数の取引で安定して稼ぎ、急変直前の先行建玉は検出されず＝実力のプロ（HL行動で確認）。\n【HL実測】実現益$5,802,013・勝率1.0・方向的中率0.0・急変先行$0\n【活動期間】2025-10-26〜2026-02-06（majors 1098約定）\n【正体(Nansen)】[0x4eebd8]",
+      "current": {
+        "date": "2026-06-17",
+        "metric_category": "hl-verified",
+        "win_rate": 1.0,
+        "dir_accuracy": 0.0,
+        "total_pnl": 5802013,
+        "event_lead_notional": 0,
+        "insider_likelihood": null,
+        "avg_hold_h": null
+      },
+      "lead_examples": []
+    },
+    "0x8cfe4bc352deb10ed41c5f0f89bc57674cee1e22": {
+      "address": "0x8cfe4bc352deb10ed41c5f0f89bc57674cee1e22",
+      "first_seen": "2026-06-17",
+      "times_seen": 1,
+      "tags": [
+        "HL検証済プロ",
+        "Nansen発見"
+      ],
+      "notes": "",
+      "history": [],
+      "last_seen": "2026-06-17",
+      "position": "プロトレーダー(本物)",
+      "metric_category": "hl-verified",
+      "labels": [
+        "HL Perps Position Trader [0x8cfe4b]"
+      ],
+      "roi_alltime": 7077.495512691958,
+      "n_fills_14d": 6074,
+      "nansen_checked": "2026-06-17",
+      "notes_jp": "【ひとことで】🟢 多数の取引で安定して稼ぎ、急変直前の先行建玉は検出されず＝実力のプロ（HL行動で確認）。\n【HL実測】実現益$4,809,094・勝率0.9628・方向的中率0.1203・急変先行$0\n【活動期間】2025-07-02〜2026-03-13（majors 6074約定）\n【正体(Nansen)】HL Perps Position Trader [0x8cfe4b]",
+      "current": {
+        "date": "2026-06-17",
+        "metric_category": "hl-verified",
+        "win_rate": 0.9628,
+        "dir_accuracy": 0.1203,
+        "total_pnl": 4809094,
+        "event_lead_notional": 0,
+        "insider_likelihood": null,
+        "avg_hold_h": null
+      },
+      "lead_examples": []
+    },
+    "0xd7a678fcf72c1b602850ef2f3e2d668ec41fa0ed": {
+      "address": "0xd7a678fcf72c1b602850ef2f3e2d668ec41fa0ed",
+      "first_seen": "2026-06-17",
+      "times_seen": 1,
+      "tags": [
+        "HL検証済プロ",
+        "Nansen発見"
+      ],
+      "notes": "",
+      "history": [],
+      "last_seen": "2026-06-17",
+      "position": "プロトレーダー(本物)",
+      "metric_category": "hl-verified",
+      "labels": [
+        "\"yantngz\" on OpenSea [0xd7a678]"
+      ],
+      "roi_alltime": 55.81457982286894,
+      "n_fills_14d": 2928,
+      "nansen_checked": "2026-06-17",
+      "notes_jp": "【ひとことで】🟢 多数の取引で安定して稼ぎ、急変直前の先行建玉は検出されず＝実力のプロ（HL行動で確認）。\n【HL実測】実現益$4,190,469・勝率1.0・方向的中率0.1269・急変先行$0\n【活動期間】2025-10-06〜2026-01-31（majors 2222約定）\n【正体(Nansen)】\"yantngz\" on OpenSea [0xd7a678]",
+      "current": {
+        "date": "2026-06-17",
+        "metric_category": "hl-verified",
+        "win_rate": 1.0,
+        "dir_accuracy": 0.1269,
+        "total_pnl": 4190469,
+        "event_lead_notional": 0,
+        "insider_likelihood": null,
+        "avg_hold_h": null
+      },
+      "lead_examples": []
+    },
+    "0xb632c6580173a16154f17cdafc6eb27e95cf73b7": {
+      "address": "0xb632c6580173a16154f17cdafc6eb27e95cf73b7",
+      "first_seen": "2026-06-17",
+      "times_seen": 1,
+      "tags": [
+        "Nansen発見"
+      ],
+      "notes": "",
+      "history": [],
+      "last_seen": "2026-06-17",
+      "position": "Nansen候補(HL未検証)",
+      "metric_category": "hl-verified",
+      "labels": [
+        "HL Perps Majors Trader [0xb632c6]"
+      ],
+      "roi_alltime": 3.283346669180575,
+      "n_fills_14d": 6000,
+      "nansen_checked": "2026-06-17",
+      "notes_jp": "【ひとことで】⚪ HL行動では insider/pro を確定できず（保留）。\n【HL実測】実現益$3,485,763・勝率0.4055・方向的中率0.0・急変先行$0\n【活動期間】2025-10-28〜2026-04-29（majors 13644約定）\n【正体(Nansen)】HL Perps Majors Trader [0xb632c6]",
+      "current": {
+        "date": "2026-06-17",
+        "metric_category": "hl-verified",
+        "win_rate": 0.4055,
+        "dir_accuracy": 0.0,
+        "total_pnl": 3485763,
+        "event_lead_notional": 0,
+        "insider_likelihood": null,
+        "avg_hold_h": null
+      },
+      "lead_examples": []
+    },
+    "0x24eeb5249ce20cfb667e26b463c0ef394588d65f": {
+      "address": "0x24eeb5249ce20cfb667e26b463c0ef394588d65f",
+      "first_seen": "2026-06-17",
+      "times_seen": 1,
+      "tags": [
+        "Nansen発見"
+      ],
+      "notes": "",
+      "history": [],
+      "last_seen": "2026-06-17",
+      "position": "Nansen候補(HL未検証)",
+      "metric_category": "hl-verified",
+      "labels": [
+        "High Balance [0x24eeb5]"
+      ],
+      "roi_alltime": 0.1776723781938291,
+      "n_fills_14d": 6029,
+      "nansen_checked": "2026-06-17",
+      "notes_jp": "【ひとことで】⚪ HL行動では insider/pro を確定できず（保留）。\n【HL実測】実現益$3,372,842・勝率0.5645・方向的中率0.0・急変先行$0\n【活動期間】2024-12-03〜2025-02-03（majors 552約定）\n【正体(Nansen)】High Balance [0x24eeb5]",
+      "current": {
+        "date": "2026-06-17",
+        "metric_category": "hl-verified",
+        "win_rate": 0.5645,
+        "dir_accuracy": 0.0,
+        "total_pnl": 3372842,
+        "event_lead_notional": 0,
+        "insider_likelihood": null,
+        "avg_hold_h": null
+      },
+      "lead_examples": []
+    },
+    "0x258886f9a27d38743ab45b8658871a37e2c3f51a": {
+      "address": "0x258886f9a27d38743ab45b8658871a37e2c3f51a",
+      "first_seen": "2026-06-17",
+      "times_seen": 1,
+      "tags": [
+        "HL検証済プロ",
+        "Nansen発見"
+      ],
+      "notes": "",
+      "history": [],
+      "last_seen": "2026-06-17",
+      "position": "プロトレーダー(本物)",
+      "metric_category": "hl-verified",
+      "labels": [
+        "[0x258886]"
+      ],
+      "roi_alltime": 17401.087282220044,
+      "n_fills_14d": 4623,
+      "nansen_checked": "2026-06-17",
+      "notes_jp": "【ひとことで】🟢 多数の取引で安定して稼ぎ、急変直前の先行建玉は検出されず＝実力のプロ（HL行動で確認）。\n【HL実測】実現益$3,359,608・勝率0.991・方向的中率0.0・急変先行$0\n【活動期間】2025-11-18〜2026-02-05（majors 4623約定）\n【正体(Nansen)】[0x258886]",
+      "current": {
+        "date": "2026-06-17",
+        "metric_category": "hl-verified",
+        "win_rate": 0.991,
+        "dir_accuracy": 0.0,
+        "total_pnl": 3359608,
+        "event_lead_notional": 0,
+        "insider_likelihood": null,
+        "avg_hold_h": null
+      },
+      "lead_examples": []
+    },
+    "0x41206f8efb51e5039e5b46e04e7866a4849f72d2": {
+      "address": "0x41206f8efb51e5039e5b46e04e7866a4849f72d2",
+      "first_seen": "2026-06-17",
+      "times_seen": 1,
+      "tags": [
+        "HL検証済プロ",
+        "Nansen発見"
+      ],
+      "notes": "",
+      "history": [],
+      "last_seen": "2026-06-17",
+      "position": "プロトレーダー(本物)",
+      "metric_category": "hl-verified",
+      "labels": [
+        ": Boros Trader [0x41206f]"
+      ],
+      "roi_alltime": 130.52634149224113,
+      "n_fills_14d": 6000,
+      "nansen_checked": "2026-06-17",
+      "notes_jp": "【ひとことで】🟢 多数の取引で安定して稼ぎ、急変直前の先行建玉は検出されず＝実力のプロ（HL行動で確認）。\n【HL実測】実現益$2,154,796・勝率0.7003・方向的中率0.0488・急変先行$0\n【活動期間】2024-12-20〜2026-01-27（majors 22506約定）\n【正体(Nansen)】: Boros Trader [0x41206f]",
+      "current": {
+        "date": "2026-06-17",
+        "metric_category": "hl-verified",
+        "win_rate": 0.7003,
+        "dir_accuracy": 0.0488,
+        "total_pnl": 2154796,
+        "event_lead_notional": 0,
+        "insider_likelihood": null,
+        "avg_hold_h": null
+      },
+      "lead_examples": []
+    },
+    "0x6979dde2781dc4ec843641b10b2a2f2e0f4bda62": {
+      "address": "0x6979dde2781dc4ec843641b10b2a2f2e0f4bda62",
+      "first_seen": "2026-06-17",
+      "times_seen": 1,
+      "tags": [
+        "HL検証済プロ",
+        "Nansen発見"
+      ],
+      "notes": "",
+      "history": [],
+      "last_seen": "2026-06-17",
+      "position": "プロトレーダー(本物)",
+      "metric_category": "hl-verified",
+      "labels": [
+        "HL Perps Whale [0x6979dd]"
+      ],
+      "roi_alltime": 6453.490607829462,
+      "n_fills_14d": 11928,
+      "nansen_checked": "2026-06-17",
+      "notes_jp": "【ひとことで】🟢 多数の取引で安定して稼ぎ、急変直前の先行建玉は検出されず＝実力のプロ（HL行動で確認）。\n【HL実測】実現益$1,902,418・勝率1.0・方向的中率0.0・急変先行$0\n【活動期間】2025-09-30〜2026-01-20（majors 2000約定）\n【正体(Nansen)】HL Perps Whale [0x6979dd]",
+      "current": {
+        "date": "2026-06-17",
+        "metric_category": "hl-verified",
+        "win_rate": 1.0,
+        "dir_accuracy": 0.0,
+        "total_pnl": 1902418,
+        "event_lead_notional": 0,
+        "insider_likelihood": null,
+        "avg_hold_h": null
+      },
+      "lead_examples": []
+    },
+    "0xcefd7652228a8619d0af5b95389cd49387cd30e0": {
+      "address": "0xcefd7652228a8619d0af5b95389cd49387cd30e0",
+      "first_seen": "2026-06-17",
+      "times_seen": 1,
+      "tags": [
+        "HL検証済プロ",
+        "Nansen発見"
+      ],
+      "notes": "",
+      "history": [],
+      "last_seen": "2026-06-17",
+      "position": "プロトレーダー(本物)",
+      "metric_category": "hl-verified",
+      "labels": [
+        "HL Perps Day Trader [0xcefd76]"
+      ],
+      "roi_alltime": 0.07890574668268768,
+      "n_fills_14d": 11937,
+      "nansen_checked": "2026-06-17",
+      "notes_jp": "【ひとことで】🟢 多数の取引で安定して稼ぎ、急変直前の先行建玉は検出されず＝実力のプロ（HL行動で確認）。\n【HL実測】実現益$1,612,233・勝率0.6196・方向的中率0.382・急変先行$0\n【活動期間】2025-04-22〜2026-03-18（majors 1616約定）\n【正体(Nansen)】HL Perps Day Trader [0xcefd76]",
+      "current": {
+        "date": "2026-06-17",
+        "metric_category": "hl-verified",
+        "win_rate": 0.6196,
+        "dir_accuracy": 0.382,
+        "total_pnl": 1612233,
+        "event_lead_notional": 0,
+        "insider_likelihood": null,
+        "avg_hold_h": null
+      },
+      "lead_examples": []
+    },
+    "0x3b11267dfc4b9ebe8427e8f557056b4b6ce98112": {
+      "address": "0x3b11267dfc4b9ebe8427e8f557056b4b6ce98112",
+      "first_seen": "2026-06-17",
+      "times_seen": 1,
+      "tags": [
+        "HL検証済プロ",
+        "Nansen発見"
+      ],
+      "notes": "",
+      "history": [],
+      "last_seen": "2026-06-17",
+      "position": "プロトレーダー(本物)",
+      "metric_category": "hl-verified",
+      "labels": [
+        "🤓 9015.eth* [0x3b1126]"
+      ],
+      "roi_alltime": 0.20855044602625342,
+      "n_fills_14d": 8000,
+      "nansen_checked": "2026-06-17",
+      "notes_jp": "【ひとことで】🟢 多数の取引で安定して稼ぎ、急変直前の先行建玉は検出されず＝実力のプロ（HL行動で確認）。\n【HL実測】実現益$1,448,890・勝率0.9973・方向的中率0.8487・急変先行$0\n【活動期間】2026-03-15〜2026-06-10（majors 940約定）\n【正体(Nansen)】🤓 9015.eth* [0x3b1126]",
+      "current": {
+        "date": "2026-06-17",
+        "metric_category": "hl-verified",
+        "win_rate": 0.9973,
+        "dir_accuracy": 0.8487,
+        "total_pnl": 1448890,
+        "event_lead_notional": 0,
+        "insider_likelihood": null,
+        "avg_hold_h": null
+      },
+      "lead_examples": []
+    },
+    "0x5638484ba2d2f1d1d35020572b0aa439a9869192": {
+      "address": "0x5638484ba2d2f1d1d35020572b0aa439a9869192",
+      "first_seen": "2026-06-17",
+      "times_seen": 1,
+      "tags": [
+        "HL検証済プロ",
+        "Nansen発見"
+      ],
+      "notes": "",
+      "history": [],
+      "last_seen": "2026-06-17",
+      "position": "プロトレーダー(本物)",
+      "metric_category": "hl-verified",
+      "labels": [
+        "👤 Dxrant [0x563848]"
+      ],
+      "roi_alltime": 10718.306534858411,
+      "n_fills_14d": 3978,
+      "nansen_checked": "2026-06-17",
+      "notes_jp": "【ひとことで】🟢 多数の取引で安定して稼ぎ、急変直前の先行建玉は検出されず＝実力のプロ（HL行動で確認）。\n【HL実測】実現益$1,224,633・勝率1.0・方向的中率0.1381・急変先行$0\n【活動期間】2025-10-16〜2026-01-14（majors 3065約定）\n【正体(Nansen)】👤 Dxrant [0x563848]",
+      "current": {
+        "date": "2026-06-17",
+        "metric_category": "hl-verified",
+        "win_rate": 1.0,
+        "dir_accuracy": 0.1381,
+        "total_pnl": 1224633,
+        "event_lead_notional": 0,
+        "insider_likelihood": null,
+        "avg_hold_h": null
+      },
+      "lead_examples": []
+    },
+    "0x4b4bdd734b87bc48683d24f1dc6159e3ab6d6409": {
+      "address": "0x4b4bdd734b87bc48683d24f1dc6159e3ab6d6409",
+      "first_seen": "2026-06-17",
+      "times_seen": 1,
+      "tags": [
+        "HL検証済プロ",
+        "Nansen発見"
+      ],
+      "notes": "",
+      "history": [],
+      "last_seen": "2026-06-17",
+      "position": "プロトレーダー(本物)",
+      "metric_category": "hl-verified",
+      "labels": [
+        "HL Perps Whale [0x4b4bdd]"
+      ],
+      "roi_alltime": 10.365010623272322,
+      "n_fills_14d": 5589,
+      "nansen_checked": "2026-06-17",
+      "notes_jp": "【ひとことで】🟢 多数の取引で安定して稼ぎ、急変直前の先行建玉は検出されず＝実力のプロ（HL行動で確認）。\n【HL実測】実現益$1,094,901・勝率1.0・方向的中率0.1287・急変先行$0\n【活動期間】2026-05-22〜2026-05-31（majors 1740約定）\n【正体(Nansen)】HL Perps Whale [0x4b4bdd]",
+      "current": {
+        "date": "2026-06-17",
+        "metric_category": "hl-verified",
+        "win_rate": 1.0,
+        "dir_accuracy": 0.1287,
+        "total_pnl": 1094901,
+        "event_lead_notional": 0,
+        "insider_likelihood": null,
+        "avg_hold_h": null
+      },
+      "lead_examples": []
+    },
+    "0x1e5b1efd99c89d39b59b28a19e6b42bbeb98433b": {
+      "address": "0x1e5b1efd99c89d39b59b28a19e6b42bbeb98433b",
+      "first_seen": "2026-06-17",
+      "times_seen": 1,
+      "tags": [
+        "HL検証済プロ",
+        "Nansen発見"
+      ],
+      "notes": "",
+      "history": [],
+      "last_seen": "2026-06-17",
+      "position": "プロトレーダー(本物)",
+      "metric_category": "hl-verified",
+      "labels": [
+        "​​Yield Farmer [0x1e5b1e]"
+      ],
+      "roi_alltime": 30378.65746374681,
+      "n_fills_14d": 639,
+      "nansen_checked": "2026-06-17",
+      "notes_jp": "【ひとことで】🟢 多数の取引で安定して稼ぎ、急変直前の先行建玉は検出されず＝実力のプロ（HL行動で確認）。\n【HL実測】実現益$1,025,999・勝率1.0・方向的中率0.0・急変先行$0\n【活動期間】2025-09-30〜2026-01-30（majors 575約定）\n【正体(Nansen)】​​Yield Farmer [0x1e5b1e]",
+      "current": {
+        "date": "2026-06-17",
+        "metric_category": "hl-verified",
+        "win_rate": 1.0,
+        "dir_accuracy": 0.0,
+        "total_pnl": 1025999,
+        "event_lead_notional": 0,
+        "insider_likelihood": null,
+        "avg_hold_h": null
+      },
+      "lead_examples": []
+    },
+    "0x7de07bb8a43c1953a019906cf2c8287dae478be9": {
+      "address": "0x7de07bb8a43c1953a019906cf2c8287dae478be9",
+      "first_seen": "2026-06-17",
+      "times_seen": 1,
+      "tags": [
+        "HL検証済プロ",
+        "Nansen発見"
+      ],
+      "notes": "",
+      "history": [],
+      "last_seen": "2026-06-17",
+      "position": "プロトレーダー(本物)",
+      "metric_category": "hl-verified",
+      "labels": [
+        "Token Millionaire [0x7de07b]"
+      ],
+      "roi_alltime": 1017.7372848750185,
+      "n_fills_14d": 1482,
+      "nansen_checked": "2026-06-17",
+      "notes_jp": "【ひとことで】🟢 多数の取引で安定して稼ぎ、急変直前の先行建玉は検出されず＝実力のプロ（HL行動で確認）。\n【HL実測】実現益$1,016,230・勝率0.6887・方向的中率0.0・急変先行$0\n【活動期間】2024-12-06〜2026-02-03（majors 1455約定）\n【正体(Nansen)】Token Millionaire [0x7de07b]",
+      "current": {
+        "date": "2026-06-17",
+        "metric_category": "hl-verified",
+        "win_rate": 0.6887,
+        "dir_accuracy": 0.0,
+        "total_pnl": 1016230,
+        "event_lead_notional": 0,
+        "insider_likelihood": null,
+        "avg_hold_h": null
+      },
+      "lead_examples": []
+    },
+    "0xc604faf510aa5b617c9fb1556d02d6d22c9644be": {
+      "address": "0xc604faf510aa5b617c9fb1556d02d6d22c9644be",
+      "first_seen": "2026-06-17",
+      "times_seen": 1,
+      "tags": [
+        "HL検証済プロ",
+        "Nansen発見"
+      ],
+      "notes": "",
+      "history": [],
+      "last_seen": "2026-06-17",
+      "position": "プロトレーダー(本物)",
+      "metric_category": "hl-verified",
+      "labels": [
+        "[0xc604fa]"
+      ],
+      "roi_alltime": 1769.413771067961,
+      "n_fills_14d": 452,
+      "nansen_checked": "2026-06-17",
+      "notes_jp": "【ひとことで】🟢 多数の取引で安定して稼ぎ、急変直前の先行建玉は検出されず＝実力のプロ（HL行動で確認）。\n【HL実測】実現益$911,248・勝率1.0・方向的中率0.0・急変先行$0\n【活動期間】2025-07-31〜2026-03-14（majors 452約定）\n【正体(Nansen)】[0xc604fa]",
+      "current": {
+        "date": "2026-06-17",
+        "metric_category": "hl-verified",
+        "win_rate": 1.0,
+        "dir_accuracy": 0.0,
+        "total_pnl": 911248,
+        "event_lead_notional": 0,
+        "insider_likelihood": null,
+        "avg_hold_h": null
+      },
+      "lead_examples": []
+    },
+    "0x7c9063122c01837fe83da2521056e10c9b6dd129": {
+      "address": "0x7c9063122c01837fe83da2521056e10c9b6dd129",
+      "first_seen": "2026-06-17",
+      "times_seen": 1,
+      "tags": [
+        "Nansen発見"
+      ],
+      "notes": "",
+      "history": [],
+      "last_seen": "2026-06-17",
+      "position": "Nansen候補(HL未検証)",
+      "metric_category": "hl-verified",
+      "labels": [
+        "🤓 : Boros Trader [0x7c9063]"
+      ],
+      "roi_alltime": 0.7785063609834054,
+      "n_fills_14d": 2452,
+      "nansen_checked": "2026-06-17",
+      "notes_jp": "【ひとことで】⚪ HL行動では insider/pro を確定できず（保留）。\n【HL実測】実現益$745,231・勝率0.0・方向的中率1.0・急変先行$0\n【活動期間】2026-02-06〜2026-02-07（majors 31約定）\n【正体(Nansen)】🤓 : Boros Trader [0x7c9063]",
+      "current": {
+        "date": "2026-06-17",
+        "metric_category": "hl-verified",
+        "win_rate": 0.0,
+        "dir_accuracy": 1.0,
+        "total_pnl": 745231,
+        "event_lead_notional": 0,
+        "insider_likelihood": null,
+        "avg_hold_h": null
+      },
+      "lead_examples": []
+    },
+    "0xae551d73161bac3315c5ade0e2d499a44ebe2236": {
+      "address": "0xae551d73161bac3315c5ade0e2d499a44ebe2236",
+      "first_seen": "2026-06-17",
+      "times_seen": 1,
+      "tags": [
+        "HL検証済プロ",
+        "Nansen発見"
+      ],
+      "notes": "",
+      "history": [],
+      "last_seen": "2026-06-17",
+      "position": "プロトレーダー(本物)",
+      "metric_category": "hl-verified",
+      "labels": [
+        "HL Perps Perma-Bull [0xae551d]"
+      ],
+      "roi_alltime": 0.002399481245954089,
+      "n_fills_14d": 10313,
+      "nansen_checked": "2026-06-17",
+      "notes_jp": "【ひとことで】🟢 多数の取引で安定して稼ぎ、急変直前の先行建玉は検出されず＝実力のプロ（HL行動で確認）。\n【HL実測】実現益$713,720・勝率0.9338・方向的中率0.2・急変先行$0\n【活動期間】2024-03-05〜2026-06-14（majors 286約定）\n【正体(Nansen)】HL Perps Perma-Bull [0xae551d]",
+      "current": {
+        "date": "2026-06-17",
+        "metric_category": "hl-verified",
+        "win_rate": 0.9338,
+        "dir_accuracy": 0.2,
+        "total_pnl": 713720,
+        "event_lead_notional": 0,
+        "insider_likelihood": null,
+        "avg_hold_h": null
+      },
+      "lead_examples": []
+    },
+    "0x0d9654172413fa8bcd2f5738a7b2fa6d19864125": {
+      "address": "0x0d9654172413fa8bcd2f5738a7b2fa6d19864125",
+      "first_seen": "2026-06-17",
+      "times_seen": 1,
+      "tags": [
+        "HL検証済プロ",
+        "Nansen発見"
+      ],
+      "notes": "",
+      "history": [],
+      "last_seen": "2026-06-17",
+      "position": "プロトレーダー(本物)",
+      "metric_category": "hl-verified",
+      "labels": [
+        "[0x0d9654]"
+      ],
+      "roi_alltime": 11.704754391059929,
+      "n_fills_14d": 8612,
+      "nansen_checked": "2026-06-17",
+      "notes_jp": "【ひとことで】🟢 多数の取引で安定して稼ぎ、急変直前の先行建玉は検出されず＝実力のプロ（HL行動で確認）。\n【HL実測】実現益$710,350・勝率1.0・方向的中率0.5112・急変先行$0\n【活動期間】2026-02-19〜2026-02-25（majors 8579約定）\n【正体(Nansen)】[0x0d9654]",
+      "current": {
+        "date": "2026-06-17",
+        "metric_category": "hl-verified",
+        "win_rate": 1.0,
+        "dir_accuracy": 0.5112,
+        "total_pnl": 710350,
+        "event_lead_notional": 0,
+        "insider_likelihood": null,
+        "avg_hold_h": null
+      },
+      "lead_examples": []
+    },
+    "0x9b804150c9a4f6db44ba4fd67704eadb5be360c1": {
+      "address": "0x9b804150c9a4f6db44ba4fd67704eadb5be360c1",
+      "first_seen": "2026-06-17",
+      "times_seen": 1,
+      "tags": [
+        "HL検証済プロ",
+        "Nansen発見"
+      ],
+      "notes": "",
+      "history": [],
+      "last_seen": "2026-06-17",
+      "position": "プロトレーダー(本物)",
+      "metric_category": "hl-verified",
+      "labels": [
+        "[0x9b8041]"
+      ],
+      "roi_alltime": 949.9967696500723,
+      "n_fills_14d": 1109,
+      "nansen_checked": "2026-06-17",
+      "notes_jp": "【ひとことで】🟢 多数の取引で安定して稼ぎ、急変直前の先行建玉は検出されず＝実力のプロ（HL行動で確認）。\n【HL実測】実現益$700,722・勝率1.0・方向的中率0.0・急変先行$0\n【活動期間】2026-03-07〜2026-03-08（majors 1109約定）\n【正体(Nansen)】[0x9b8041]",
+      "current": {
+        "date": "2026-06-17",
+        "metric_category": "hl-verified",
+        "win_rate": 1.0,
+        "dir_accuracy": 0.0,
+        "total_pnl": 700722,
+        "event_lead_notional": 0,
+        "insider_likelihood": null,
+        "avg_hold_h": null
+      },
+      "lead_examples": []
+    },
+    "0xf3362789cecf25c6a31288d172880d7ad9b81801": {
+      "address": "0xf3362789cecf25c6a31288d172880d7ad9b81801",
+      "first_seen": "2026-06-17",
+      "times_seen": 1,
+      "tags": [
+        "HL検証済プロ",
+        "Nansen発見"
+      ],
+      "notes": "",
+      "history": [],
+      "last_seen": "2026-06-17",
+      "position": "プロトレーダー(本物)",
+      "metric_category": "hl-verified",
+      "labels": [
+        ": Boros Trader [0xf33627]"
+      ],
+      "roi_alltime": 8.905734582525394,
+      "n_fills_14d": 7791,
+      "nansen_checked": "2026-06-17",
+      "notes_jp": "【ひとことで】🟢 多数の取引で安定して稼ぎ、急変直前の先行建玉は検出されず＝実力のプロ（HL行動で確認）。\n【HL実測】実現益$679,129・勝率0.607・方向的中率0.5708・急変先行$0\n【活動期間】2026-01-07〜2026-04-16（majors 6601約定）\n【正体(Nansen)】: Boros Trader [0xf33627]",
+      "current": {
+        "date": "2026-06-17",
+        "metric_category": "hl-verified",
+        "win_rate": 0.607,
+        "dir_accuracy": 0.5708,
+        "total_pnl": 679129,
+        "event_lead_notional": 0,
+        "insider_likelihood": null,
+        "avg_hold_h": null
+      },
+      "lead_examples": []
+    },
+    "0x69b05701f8175c276ecd0138387a197948e240bb": {
+      "address": "0x69b05701f8175c276ecd0138387a197948e240bb",
+      "first_seen": "2026-06-17",
+      "times_seen": 1,
+      "tags": [
+        "Nansen発見"
+      ],
+      "notes": "",
+      "history": [],
+      "last_seen": "2026-06-17",
+      "position": "Nansen候補(HL未検証)",
+      "metric_category": "hl-verified",
+      "labels": [
+        "HL Perps Altcoin Trader [0x69b057]"
+      ],
+      "roi_alltime": 0.0014563915842021834,
+      "n_fills_14d": 10683,
+      "nansen_checked": "2026-06-17",
+      "notes_jp": "【ひとことで】⚪ HL行動では insider/pro を確定できず（保留）。\n【HL実測】実現益$641,300・勝率0.5657・方向的中率0.0217・急変先行$0\n【活動期間】2025-06-05〜2026-05-18（majors 4445約定）\n【正体(Nansen)】HL Perps Altcoin Trader [0x69b057]",
+      "current": {
+        "date": "2026-06-17",
+        "metric_category": "hl-verified",
+        "win_rate": 0.5657,
+        "dir_accuracy": 0.0217,
+        "total_pnl": 641300,
+        "event_lead_notional": 0,
+        "insider_likelihood": null,
+        "avg_hold_h": null
+      },
+      "lead_examples": []
+    },
+    "0x5198eff88dea32108605bcdb109a99dc397190d8": {
+      "address": "0x5198eff88dea32108605bcdb109a99dc397190d8",
+      "first_seen": "2026-06-17",
+      "times_seen": 1,
+      "tags": [
+        "HL検証済プロ",
+        "Nansen発見"
+      ],
+      "notes": "",
+      "history": [],
+      "last_seen": "2026-06-17",
+      "position": "プロトレーダー(本物)",
+      "metric_category": "hl-verified",
+      "labels": [
+        "[0x5198ef]"
+      ],
+      "roi_alltime": 911.1554740400297,
+      "n_fills_14d": 232,
+      "nansen_checked": "2026-06-17",
+      "notes_jp": "【ひとことで】🟢 多数の取引で安定して稼ぎ、急変直前の先行建玉は検出されず＝実力のプロ（HL行動で確認）。\n【HL実測】実現益$613,832・勝率1.0・方向的中率1.0・急変先行$0\n【活動期間】2025-12-12〜2026-05-03（majors 232約定）\n【正体(Nansen)】[0x5198ef]",
+      "current": {
+        "date": "2026-06-17",
+        "metric_category": "hl-verified",
+        "win_rate": 1.0,
+        "dir_accuracy": 1.0,
+        "total_pnl": 613832,
+        "event_lead_notional": 0,
+        "insider_likelihood": null,
+        "avg_hold_h": null
+      },
+      "lead_examples": []
+    },
+    "0xa906355beaf1d69a5fe73ce55899c49c6e67916c": {
+      "address": "0xa906355beaf1d69a5fe73ce55899c49c6e67916c",
+      "first_seen": "2026-06-17",
+      "times_seen": 1,
+      "tags": [
+        "Nansen発見"
+      ],
+      "notes": "",
+      "history": [],
+      "last_seen": "2026-06-17",
+      "position": "Nansen候補(HL未検証)",
+      "metric_category": "hl-verified",
+      "labels": [
+        "HL Perps Day Trader [0xa90635]"
+      ],
+      "roi_alltime": 0.014558380406056748,
+      "n_fills_14d": 10000,
+      "nansen_checked": "2026-06-17",
+      "notes_jp": "【ひとことで】⚪ HL行動では insider/pro を確定できず（保留）。\n【HL実測】実現益$565,284・勝率0.4986・方向的中率0.0398・急変先行$0\n【活動期間】2025-07-29〜2026-01-20（majors 3755約定）\n【正体(Nansen)】HL Perps Day Trader [0xa90635]",
+      "current": {
+        "date": "2026-06-17",
+        "metric_category": "hl-verified",
+        "win_rate": 0.4986,
+        "dir_accuracy": 0.0398,
+        "total_pnl": 565284,
+        "event_lead_notional": 0,
+        "insider_likelihood": null,
+        "avg_hold_h": null
+      },
+      "lead_examples": []
+    },
+    "0xdb79fe310ea2972137d2a23658db0234902b517d": {
+      "address": "0xdb79fe310ea2972137d2a23658db0234902b517d",
+      "first_seen": "2026-06-17",
+      "times_seen": 1,
+      "tags": [
+        "HL検証済プロ",
+        "Nansen発見"
+      ],
+      "notes": "",
+      "history": [],
+      "last_seen": "2026-06-17",
+      "position": "プロトレーダー(本物)",
+      "metric_category": "hl-verified",
+      "labels": [
+        "HL Perps Altcoin Trader [0xdb79fe]"
+      ],
+      "roi_alltime": 0.2534217956204652,
+      "n_fills_14d": 10743,
+      "nansen_checked": "2026-06-17",
+      "notes_jp": "【ひとことで】🟢 多数の取引で安定して稼ぎ、急変直前の先行建玉は検出されず＝実力のプロ（HL行動で確認）。\n【HL実測】実現益$551,893・勝率0.733・方向的中率0.1298・急変先行$0\n【活動期間】2025-03-14〜2026-05-08（majors 1496約定）\n【正体(Nansen)】HL Perps Altcoin Trader [0xdb79fe]",
+      "current": {
+        "date": "2026-06-17",
+        "metric_category": "hl-verified",
+        "win_rate": 0.733,
+        "dir_accuracy": 0.1298,
+        "total_pnl": 551893,
+        "event_lead_notional": 0,
+        "insider_likelihood": null,
+        "avg_hold_h": null
+      },
+      "lead_examples": []
+    },
+    "0x8250a7f9fca9c33e68eead8c05c1d58c8fd70d13": {
+      "address": "0x8250a7f9fca9c33e68eead8c05c1d58c8fd70d13",
+      "first_seen": "2026-06-17",
+      "times_seen": 1,
+      "tags": [
+        "Nansen発見"
+      ],
+      "notes": "",
+      "history": [],
+      "last_seen": "2026-06-17",
+      "position": "Nansen候補(HL未検証)",
+      "metric_category": "hl-verified",
+      "labels": [
+        "🤓 blackmonkey.eth [0x8250a7]"
+      ],
+      "roi_alltime": 0.4765221130075824,
+      "n_fills_14d": 6899,
+      "nansen_checked": "2026-06-17",
+      "notes_jp": "【ひとことで】⚪ HL行動では insider/pro を確定できず（保留）。\n【HL実測】実現益$540,966・勝率0.475・方向的中率0.0・急変先行$0\n【活動期間】2023-11-08〜2024-01-30（majors 365約定）\n【正体(Nansen)】🤓 blackmonkey.eth [0x8250a7]",
+      "current": {
+        "date": "2026-06-17",
+        "metric_category": "hl-verified",
+        "win_rate": 0.475,
+        "dir_accuracy": 0.0,
+        "total_pnl": 540966,
+        "event_lead_notional": 0,
+        "insider_likelihood": null,
+        "avg_hold_h": null
+      },
+      "lead_examples": []
+    },
+    "0x3adaa1d2d0598c9b661a746649d20e1e8aad9b3a": {
+      "address": "0x3adaa1d2d0598c9b661a746649d20e1e8aad9b3a",
+      "first_seen": "2026-06-17",
+      "times_seen": 1,
+      "tags": [
+        "HL検証済プロ",
+        "Nansen発見"
+      ],
+      "notes": "",
+      "history": [],
+      "last_seen": "2026-06-17",
+      "position": "プロトレーダー(本物)",
+      "metric_category": "hl-verified",
+      "labels": [
+        "[0x3adaa1]"
+      ],
+      "roi_alltime": 12676.7,
+      "n_fills_14d": 307,
+      "nansen_checked": "2026-06-17",
+      "notes_jp": "【ひとことで】🟢 多数の取引で安定して稼ぎ、急変直前の先行建玉は検出されず＝実力のプロ（HL行動で確認）。\n【HL実測】実現益$540,758・勝率1.0・方向的中率0.0・急変先行$0\n【活動期間】2025-11-21〜2026-01-14（majors 307約定）\n【正体(Nansen)】[0x3adaa1]",
+      "current": {
+        "date": "2026-06-17",
+        "metric_category": "hl-verified",
+        "win_rate": 1.0,
+        "dir_accuracy": 0.0,
+        "total_pnl": 540758,
+        "event_lead_notional": 0,
+        "insider_likelihood": null,
+        "avg_hold_h": null
+      },
+      "lead_examples": []
+    },
+    "0x8a48dcaffdf71c547cd0fd0434ae40fa57bcbf0f": {
+      "address": "0x8a48dcaffdf71c547cd0fd0434ae40fa57bcbf0f",
+      "first_seen": "2026-06-17",
+      "times_seen": 1,
+      "tags": [
+        "HL検証済プロ",
+        "Nansen発見"
+      ],
+      "notes": "",
+      "history": [],
+      "last_seen": "2026-06-17",
+      "position": "プロトレーダー(本物)",
+      "metric_category": "hl-verified",
+      "labels": [
+        ": Boros Trader [0x8a48dc]"
+      ],
+      "roi_alltime": 4.368054777804795,
+      "n_fills_14d": 5567,
+      "nansen_checked": "2026-06-17",
+      "notes_jp": "【ひとことで】🟢 多数の取引で安定して稼ぎ、急変直前の先行建玉は検出されず＝実力のプロ（HL行動で確認）。\n【HL実測】実現益$523,699・勝率1.0・方向的中率0.2066・急変先行$0\n【活動期間】2025-10-27〜2026-02-18（majors 805約定）\n【正体(Nansen)】: Boros Trader [0x8a48dc]",
+      "current": {
+        "date": "2026-06-17",
+        "metric_category": "hl-verified",
+        "win_rate": 1.0,
+        "dir_accuracy": 0.2066,
+        "total_pnl": 523699,
+        "event_lead_notional": 0,
+        "insider_likelihood": null,
+        "avg_hold_h": null
+      },
+      "lead_examples": []
     }
   },
-  "updated_at": "2026-06-17T12:19:24.417136+00:00"
+  "updated_at": "2026-06-17T15:10:28.881588+00:00"
 }
