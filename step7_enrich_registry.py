@@ -104,7 +104,7 @@ def main():
     reg["updated_at"] = datetime.now(timezone.utc).isoformat()
     with open(REGISTRY, "w", encoding="utf-8") as f:
         json.dump(reg, f, ensure_ascii=False, indent=2)
-    reg6.render_html(reg)
+    reg6.render_all(reg)
     print(f"台帳更新＋Nansen統合 → {REGISTRY} / registry.html")
     if credit_dead:
         print("  ⚠ 一部 403（クレジット不足の可能性）。残高を確認せよ。")

@@ -159,7 +159,7 @@ def main():
     with open(REGISTRY, "w", encoding="utf-8") as f:
         json.dump(reg, f, ensure_ascii=False, indent=2)
 
-    render_html(reg)
+    render_all(reg)
 
     # サマリ
     from collections import Counter
@@ -193,8 +193,13 @@ HL_ADDR = "https://app.hyperliquid.xyz/explorer/address/{a}"
 NANSEN = "https://app.nansen.ai/profiler?address={a}"
 
 
-def render_html(reg):
+def render_html(reg, out="registry.html",
+                title="perp ウォレット監視台帳（蓄積データ）", only=None, drop=None):
     wallets = list(reg["wallets"].values())
+    if only:
+        wallets = [w for w in wallets if w.get("position") in only]
+    if drop:
+        wallets = [w for w in wallets if w.get("position") not in drop]
 
     def sortkey(e):
         try:
@@ -263,7 +268,7 @@ def render_html(reg):
 </tr>"""
 
     from collections import Counter
-    pos = Counter(e["position"] for e in reg["wallets"].values())
+    pos = Counter(e["position"] for e in wallets)
     chips = ""
     for p in POS_ORDER:
         c = pos.get(p)
@@ -274,7 +279,7 @@ def render_html(reg):
 
     # フィルタバー: 全タグをカテゴリ別に集計して clickable chip 化
     tagcount = Counter()
-    for e in reg["wallets"].values():
+    for e in wallets:
         for t in list(e.get("auto_tags", [])) + [x for x in e.get("tags", []) if not x.startswith("funder:")]:
             tagcount[t] += 1
     CAT_ORDER = ["位置", "ROI:", "PnL:", "頻度:", "保有:", "方向:", "レバ:", "銘柄:", "ID:", "cluster", "手動"]
@@ -302,9 +307,9 @@ def render_html(reg):
         )
         filterbar += f"<div class='grp'><span class='glabel'>{GLABEL.get(c,c)}</span>{chipshtml}</div>"
 
-    out = f"""<!doctype html><html lang="ja"><head><meta charset="utf-8">
+    html_doc = f"""<!doctype html><html lang="ja"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>ウォレット監視台帳</title>
+<title>{esc(title)}</title>
 <style>
 body{{font-family:system-ui,"Segoe UI",sans-serif;background:#0e1116;color:#e6edf3;margin:0;padding:24px;font-size:13px}}
 h1{{font-size:20px;margin:0 0 4px}}
@@ -333,8 +338,9 @@ code{{background:#0b0f14;padding:1px 4px;border-radius:4px;font-size:11px}}
 .notejp{{font-size:12px;line-height:1.65;padding:7px 9px;background:#0f1b17;border-left:3px solid #3fb950;border-radius:5px;color:#d7e6dd}}
 .verdict{{max-width:440px}}
 </style></head><body>
-<h1>perp ウォレット監視台帳（蓄積データ）</h1>
-<div class="sub">更新: {esc(reg.get('updated_at',''))} ／ 累計実行 {esc(reg.get('run_count'))}回 ／ 登録 {len(wallets)} ウォレット ／ 多角分析の位置づけ込み</div>
+<h1>{esc(title)}</h1>
+<div class="sub">更新: {esc(reg.get('updated_at',''))} ／ 累計実行 {esc(reg.get('run_count'))}回 ／ 表示 {len(wallets)} ウォレット ／
+<a href="index.html" style="color:#4ea1ff">トップ</a> ・ <a href="registry.html" style="color:#4ea1ff">監視台帳</a> ・ <a href="pros.html" style="color:#4ea1ff">プロ一覧</a></div>
 <div class="chips">{chips}</div>
 <div class="filterbar">{filterbar}
   <div style="margin-top:6px"><span id="clearf">✕ フィルタ解除</span><span id="cnt"></span>
@@ -371,9 +377,22 @@ document.getElementById('clearf').addEventListener('click',()=>{{
 </script>
 </body></html>"""
 
-    path = os.path.join(config.HERE, "registry.html")
+    path = os.path.join(config.HERE, out)
     with open(path, "w", encoding="utf-8") as f:
-        f.write(out)
+        f.write(html_doc)
+
+
+# プロ系ポジション（専用ページへ分離）
+PRO_POSITIONS = {"プロトレーダー(本物)", "プロトレーダー(未精査)",
+                 "プロ格付け過大(要再検証)", "高頻度HFT/MM(手動追加)"}
+
+
+def render_all(reg):
+    """メイン台帳（インサイダー/疑惑中心）と プロ専用ページ を両方生成。"""
+    render_html(reg, out="registry.html",
+                title="perp ウォレット監視台帳（インサイダー/疑惑 中心）", drop=PRO_POSITIONS)
+    render_html(reg, out="pros.html",
+                title="プロ／プロかも 一覧（実力で勝つ層・Vault運用者）", only=PRO_POSITIONS)
 
 
 if __name__ == "__main__":

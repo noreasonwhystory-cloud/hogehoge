@@ -80,9 +80,9 @@ def main():
         time.sleep(config.NANSEN_SLEEP)
     print(f"  取得 {len(rows)} 行")
 
-    # 個人でないラベル（vault/プロトコル/コントラクト）は除外
-    EXCLUDE = ["Vault", "Collateral", "Deployer", "Pool", "Protocol", "Contract",
-               "Factory", "🤖", "Router", "Bridge", "Spoke", "Mastercopy", "Proxy"]
+    # 真のプロトコル/システムのみ除外（人でない）。Vault Leader は個人運用＝プロ扱いで残す。
+    EXCLUDE = ["Liquidator", "HLP", "Collateral", "Deployer", "Protocol", "Contract",
+               "Factory", "🤖", "Router", "Bridge", "Spoke", "Mastercopy", "Proxy", "Pool"]
     # screen: 怪しい signature
     cands = []
     excluded_nonperson = 0
