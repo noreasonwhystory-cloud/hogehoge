@@ -1,0 +1,266 @@
+{
+ "insiders": [
+  {
+   "address": "0xefcace57934a753d66c48a31b880ba806d4c0869",
+   "verdict": "weak-suspect",
+   "confidence": 0.3,
+   "key_evidence": "cluster-A所属の裏付けとなるMonad資金チェーンが実在: First Funder連鎖が 🤖 Distributor [0xdf7479](monad, 2025-11-24)→その親 [0xa9346f](monad)へ遡れ、cluster-A定義(同一Monad資金元の協調網)と整合する唯一の崩せない残余シグナル。加えてactive_now=true・取引期間879日と長寿命で、偶然だけでは説明しにくい持続性がある。",
+   "key_doubt": "「インサイダー」の核心指標がほぼ全て無害に説明できる: (1)dir_accuracy/win_rate=1.0なのにrealized_pnlはわずか$114k/879日(=約$130/日)。完全先読みなら桁違いに稼げるはずで、1.0は微小ポジ/小N/下落相場のショート偏重(context明記の水増し)による計測アーティファクト。(2)lead_examplesが空=具体的な「動く前の建玉」が1件も検証できず、$2.95Mはaggregate合算のみ。879日もあれば一部の約定が±3%イベントの6h以内に偶然入る。(3)counterpartiesの実態はHyperLend/Morpho/Kinetiq/kHYPE・Uniswap系LPのDeFiファーミング&レンディングが$4.6M超で支配的=方向性投機家ではなくLP/イールド農家。$2.95Mの先行notionalはLP/ヘッジ由来の方向性フローの可能性大。(4)funder(Kromatika Deployer)・Circle CCTP・Relay Bridgeは全て公共インフラで、足消しにはなるが協調の証拠にはならない(誰でも使う)。",
+   "reasoning": "レッドチームとして最大限の懐疑で精査した結果、本物のインサイダーを支持する根拠の大半が崩れた。第一に的中率1.0は内部情報の証拠ではなく統計アーティファクトである可能性が高い: 879日の長期活動でPnLがわずか$114kという不整合は、完全先読みのインサイダー像と矛盾し、微小ポジ・小サンプル・下落相場のショート偏重(context自身が水増しと警告)で容易に生じる。第二にlead_examplesが空で、他の容疑者(906d31b2等)にある具体的な先行建玉が1件も再現できず、$2.95Mは合算検出のみ=偶然/トレンド便乗で説明可能。第三に、最も重要な実証として counterparties を引くと、この財布の実体はHyperLend・Morpho・Kinetiq・kHYPE・Uniswap系LPによるDeFiレンディング/イールド農家($4.6M超が支配的)であり、Hyperliquid Bridgeへの流れは$558kと相対的に小さい。先行notionalはLP/ヘッジ起因の方向性フローと整合する。funderのKromatika DeployerやCircle CCTP/Relay Bridgeは公共サービスで、足消しにはなっても協調の証拠にはならない。唯一崩せないのはcluster-A=Monad資金チェーンの実在(Distributor 0xdf7479→0xa9346f)とactive_now/879日の持続性で、これがconfidenceをゼロに落とさせない。ただし同一イベント同時刻・同方向のco-tradeはlead_examples空のため本データでは再現できず、cluster-Aタグは上流主張に依存する。総合すると、無害な説明で核心指標はほぼ説明しきれ、残るのはMonad資金リンクのみ。よってweak-suspect、confidence 0.3。"
+  },
+  {
+   "address": "0x10b6f072fabe21bc72ffd77ff5d4414e6cef2980",
+   "verdict": "weak-suspect",
+   "confidence": 0.2,
+   "key_evidence": "的中率1.0/dir_accuracy1.0という完璧スコアと、active_now=trueで現在も稼働中(取引期間228日とそこそこ継続)。これがインサイダーを支持しうる唯一の材料。ただし lead_examples が空(\"個別例なし\")で、$670kの先行額は監査可能な個別建玉に裏付けられていない集計値にすぎない。",
+   "key_doubt": "cluster-Aの根拠「同一Monad資金元」がオンチェーン検証で崩壊。Monad資金元 Distributor[0xdf7479] は2025-11-17デプロイの配布コントラクトで、単一日に約10,768の異なるアドレスへ1MONずつ送金した大規模エアドロップ/フォーセット。4ウォレットが共有=協調、ではなく1万超が共有する公共配布ハブ。HL資金元 High Balance[0x9aa91e] も Nexo(CEX) と同じMonad Distributor から資金を受けた一般ウォレットで、私的協調網の証拠にならない。加えて的中率1.0は lead_examples ゼロ=極小サンプルのアーティファクト、かつ context明記の通り下落相場のショート偏重で容易に水増しされる。realized_pnl $195k/228日は凡庸でインサイダー級の異常収益ではない。hit-and-run出金タグも無し(active_nowで継続中)。",
+   "reasoning": "最大限の懐疑で無害な説明を構築すると、ほぼ説明しきれてしまう。(1)資金源funder: 「別ウォレット経由」とされた High Balance[0x9aa91e] は実際にはNexo(CEX)と公共Monad配布コントラクトから資金を得た普通の多チェーンユーザー。cluster-Aの土台「同一Monad資金元」は、約1万768アドレスへ無差別配布する公共フォーセット(Distributor[0xdf7479])を共有しているだけで、協調の証拠としての価値はゼロ。これは公共サービス資金源の典型で、他の「公共サービス資金源(協調でない)」タグ付き対象と本質的に同じ。(2)先行=偶然/トレンド便乗: lead_examplesが完全に空のため、検証可能な先行建玉が一件も存在しない。的中率1.0/dir_accuracy1.0は、記録イベント数が極小であること、および下落相場でショート偏重なら自動的に高くなる(context明記)ことで容易に生成される。(3)hit-and-run出金: 該当タグなし、active_now=trueで継続稼働=出金引き上げの追加根拠なし。(4)収益規模: $195kは228日でインサイダー水準ではない。残る疑い要素は「完璧な的中率」と「継続稼働」だが、前者はサンプル極小と方向バイアスで、後者は単なる一般トレーダーの継続で説明可能。協調も内部情報も、オンチェーン上で支持する独立証拠は見つからなかった。よって verdict=weak-suspect、confidence=0.2(cluster-A根拠が検証で崩れた分、当初の最有力評価から大幅減点)。"
+  },
+  {
+   "address": "0x0a7097d919b7421ecc03aed3aac68a13e7ef1f46",
+   "verdict": "weak-suspect",
+   "confidence": 0.25,
+   "key_evidence": "急変イベントに対する先行建玉の集計額(event_lead_usd $799,334、notesでは$301,020)がゼロではなく、ETH/BTC majorsで22,099約定という相応の出来高がある。dir_accuracy 0.6676 は単純コインフリップ(0.5)を上回り、純粋な偶然よりは「動く前に正しい方向へ賭けた」傾向がわずかに存在する。実現益$153,059(notesでは$115,052)とhit-and-run的な出金パターンは、短期間で稼いで引き上げる挙動と整合し、何らかのエッジを持っていた可能性を完全には排除できない。",
+   "key_doubt": "「先行」の個別証拠が一切ない(lead_examples=[])。他の容疑ウォレットは具体的な急変直前エントリのハッシュ付き事例を持つのに、本ウォレットだけは集計値のみで、実際に急変6h前に同方向で建てた取引が一件も提示されていない=検出は集計アーティファクトの疑い。的中率0.6676(notesでは0.5357=ほぼコインフリップ)は内部情報ではなくトレンド便乗・出来高ノイズ・ショート偏重(下落相場での水増し)で容易に説明可能。データ自体が矛盾(header 799k/0.6676/153k/active_to 2026-04 vs notes 301k/0.5357/115k/2025-05)で信頼性が低い。",
+   "reasoning": "レッドチームとして最大限の懐疑で評価。(1)先行の偶然性: lead_examples が空で、急変直前の具体的な先行建玉が一件も documented されていない。event_lead_usd は単なる「同方向・近接時刻」取引の合計であり、majors 22,099約定という高頻度・高出来高の中では、6h窓の同方向ヒットは統計的に大量発生する(出来高ノイズ)。的中率もnotes実測0.5357とほぼコインフリップで、トレンド便乗・ショート偏重水増しで説明しきれる。(2)資金源: funder=@kekbeta は私的個人ウォレットで、関連アドレスにも OpenSea ラベル(kekvault2/420blazeit...)やOpenSea Registry経由デプロイが並ぶ=NFTコレクター/トレーダーの doxxed なパーソナリティ。cluster-A の同一Monad資金元とは無関係で、協調の証拠にならない(むしろ私的資金=独立トレーダー像と整合)。(3)cluster-A/hit-and-run: tags は「出金済(hit-and-run)」のみで cluster-A 所属タグは無い。確証ある唯一の協調網(cluster-A=同一Monad資金元4ウォレット)に本ウォレットは入っていない。出金は単なる利確であり foreknowledge の追加根拠にならない。(4)期間/active_now: active_now=false、取引期間も短命(notes 2025-10-26〜2026-05-29 ≈7ヶ月、ただしheaderは493日と矛盾)で既に活動停止。短命なほど偶然のドローダウン前に終わった生存者バイアスの余地が大きい。総合すると、無害な説明(出来高ノイズ+トレンド便乗+ショート偏重水増し+私的NFTトレーダーの独立売買+利確出金)でほぼ説明可能。データの内部矛盾も信頼性を削ぐ。確証ある協調(cluster-A)にも非所属。情報優位の本物インサイダーである確率は低く、weak-suspect 相当。confidence=0.25。"
+  },
+  {
+   "address": "0x906d31b2ee92c4bc720232112274a0e1ffb0ad6e",
+   "verdict": "weak-suspect",
+   "confidence": 0.2,
+   "key_evidence": "具体的な先行例が1件存在する: ETH short を 2025-12-10 18:31 に建て、3.5時間後の 22:00 に -4.02% の急変が同方向で発生(notional計 $350k、ただし同一エントリ時刻を2フィルに分割しただけで実質1イベント)。realized_pnl $2.77M と Token Millionaire ラベルから、相応の資金力と当該下落を取れた事実はある。",
+   "key_doubt": "無害説明がほぼ全面的に成立する。(1)dir_accuracy=0.6199 はコインフリップ+αに過ぎず「先読みの証拠」と呼べる水準ではない。win_rate=1.0 は決済済みトレードのみを数える選択バイアスの典型的アーティファクト(含み損ポジを塩漬けにすれば容易に1.0)。(2)先行例は実質1イベント(同時刻・同方向・同ハッシュ群=単なる分割約定)で、N=1。下落相場でのショート偏重なら4h後ヒットは構造的に水増しされ、6h窓・±3%閾値なら偶然一致が日常的に生じる。トレンド便乗/出来高でも説明可。(3)資金源 funder は Nansen 確認で Gas.zip: Primary Solver(+Mayan Finance, Monad Distributor)=いずれも誰でも使う公共ブリッジ/ガス共用ハブ。私的な協調資金元ではなく、協調の証拠にならない。(4)データセット自身が当該を「公共サービス資金源(協調でない)」とタグ付けし、唯一確証ある協調網 cluster-A から明示的に除外。同一イベント同時刻の協調建玉も無い。(5)hit-and-run の出金実績も無く(active_now=true で継続運用、出金タグ無し)、追加根拠ゼロ。event_lead_usd $350k はサンプル中の先行額として小さい。",
+   "reasoning": "レッドチームとして最大限の懐疑で無害説明を構築した結果、本アドレスはインサイダー認定の根拠が極めて薄い。決定的なのは「先行」シグナルの脆弱性で、提示された2件のlead_examplesは entry_time/event_time/方向が完全一致する単一イベントの分割約定であり、独立観測はN=1に等しい。±3%/6h窓という緩い検出条件下では、下落局面でショートを持つトレーダーが偶然この窓に1回ヒットすることは何ら異常でない。dir_accuracy 0.62 はトレンド便乗で容易に到達し、win_rate 1.0 は未決済の負けを除外する会計上の見かけに過ぎない。協調面では、Nansen の related_addresses で first funder が Gas.zip Primary Solver という公共ソルバーであることを実地確認し、私的funder仮説を否定。cluster-A 非所属・同時刻協調建玉なし・hit-and-run出金なしで、協調の追加根拠は全て欠落。残る疑念は「$2.77MのPnLを持つ大口が緩い窓で1回先行ヒットした」という事実のみで、これは偶然・トレンド・出来高・小サンプルでほぼ説明しきれる。よって verdict は weak-suspect、本物の情報優位インサイダー確率は低く confidence=0.2。完全な debunked にしないのは、大口かつ的中例の方向性が正しく、継続稼働中で監視価値が残るため。"
+  },
+  {
+   "address": "0x18cd4597e06b7fe0a8cd33dda499121b3a145a8b",
+   "verdict": "likely-insider",
+   "confidence": 0.62,
+   "key_evidence": "On-chain address_related_addresses shows the target's Monad first-funder is 🤖 Distributor [0xdf7479] on 2025-11-24 10:38 — the IDENTICAL Monad funding source that funded both confirmed cluster-A wallets (0xefcace at 11:42 and 0x10b6f0 at 10:35 the same day, all within ~1 hour). cluster-A is defined precisely as 'same Monad funding source + same-timestamp same-direction entries on the same shockwave,' so the target satisfies the funding-source half of that definition. The input data's tag '公共サービス資金源(協調でない)' is therefore incorrect: it only inspected the Arbitrum Gas.zip first-funder and overlooked the shared Monad origin. The Gas.zip Arbitrum gas top-up at 09:39 — only 11 minutes before the first 'lead' trade at 09:50 on 2026-02-02 — is a bridge/relay step that conceals, not refutes, the common Monad source.",
+   "key_doubt": "The strongest innocent explanation is small-N trend-following: all 5 lead_examples cluster on just 2 days (2026-02-02, 2026-02-06) as ETH/BTC longs during a Feb uptrend, and two pairs share the same tx hash (double-counted splits), leaving only ~3 distinct entries. Combined with mediocre metrics (dir_accuracy 0.59, win_rate 0.73, barely above a coin flip on direction), this is fully consistent with a momentum trader, not an insider. Crucially, I could NOT re-verify same-timestamp/same-direction co-trading with cluster-A on the actual shock events (perp-trades endpoint returns only recent data and ignored the address filter), and the shared Monad Distributor [0xdf7479] could be a generic airdrop/distribution contract funding many unrelated wallets — in which case the shared-funder signal would prove nothing.",
+   "reasoning": "Tasked as red team to debunk, I steelmanned every innocent angle: (1) leads are a tiny autocorrelated sample on 2 days with duplicate-hash double-counting; (2) hit metrics are unremarkable and trend-explainable; (3) the Arbitrum funder genuinely is a public Gas.zip hub; (4) still active, so no hit-and-run exfiltration. But the innocent case breaks on verification: the target shares the EXACT Monad first-funder (Distributor 0xdf7479, 2025-11-24, within an hour) with the two confirmed cluster-A wallets — the input data's 'not coordinated' classification only checked the Arbitrum hop and is wrong. That shared private-distribution origin is the literal funding-source criterion for cluster-A and is far stronger evidence than the mere time-coincidence 'leads.' I withhold 'confirmed' because I could not independently confirm same-event co-trading and the distributor's exclusivity is unverified; net residual suspicion ~0.62."
+  },
+  {
+   "address": "0x07642cbbd81e075d3bf14e0f6c1017f20c525572",
+   "verdict": "weak-suspect",
+   "confidence": 0.12,
+   "key_evidence": "唯一インサイダー寄りに見える事実は、2026-04-13 18:00のETH +5.39%急変の約5.4時間前(12:36/12:43)に合計$641k規模のETHロングを建てた1イベント。先行額event_lead_usd=$641,731は単発としては大口で、結果的に12日間で実現益$703kを叩き出している。資金源funderはHL Perps Day Trader[0xa5b662]という私的ウォレット(First FunderとしてArbitrum/Ethereum両方で稼働初日2026-04-06に出資=オンチェーン確認済)で、Gas.zip等の公共ハブではない=「誰でも使う共用ハブだから無意味」という反証が効かない数少ない点。",
+   "key_doubt": "小サンプル+トレンド便乗で容易に説明できる。(1)dir_accuracy=0.4105はコインフリップ未満=「動く前に正しく賭けた」どころか大半の建玉は逆方向に外している。1イベントだけ当たったのは12日間の取引バーストの中のチェリーピック/生存バイアス。(2)lead_examplesの「2件」は同一急変(2026-04-13 18:00)への7分差の分割約定で実質N=1。協調の証拠にならない。(3)trade_days=12と極端に短命、active_now=false=既に消滅。短命ほど偶然で先行が生じる余地が最大。(4)tags=[]でcluster-A非所属(唯一確証ある協調網に入っていない)・hit-and-runタグも無し・labels無しでNansenスマートマネー認定すら無い。(5)ETHロング1発は当該期間の上昇トレンドへの便乗で十分説明可能。win_rate0.683も下落/上昇局面の偏りで水増しされうる。",
+   "reasoning": "レッドチームとして最大限の懐疑で見ると、このアドレスは「インサイダー」と呼ぶには根拠が薄い。元データのnotes自身が「判定=弱(的中41%)」としており、dir_accuracy 0.4105は方向的中がコインフリップ以下で、内部情報による先読みの証拠とは正反対。先行検出はevent_lead_usd合計ではなく実質1イベント(2026-04-13のETH +5.39%)に依存し、lead_examplesの2行は7分差の分割約定で同一イベント=N=1。12日というごく短い稼働期間では、複数回の大口ベットのうち偶然1回が大きな急変直前に当たるだけで「先行」は容易に発生する(多重検定の罠)。実現益$703kは方向性ではなくサイズと運の産物の可能性が高く、active_now=falseで既に撤退。資金源は私的day-traderウォレットでcluster-Aの「同一Monad資金元」協調網には属さず、hit-and-run出金タグも無く、Nansenの追加根拠(協調・公共サービス除外含む)が一切付いていない。唯一の引っかかりは先行額の絶対値の大きさ($641k)と私的ファンディングだが、これも単発の幸運な大口エントリで説明可能。総じて無害な説明(小サンプル+トレンド便乗+チェリーピック)でほぼ説明しきれ、本物の情報優位インサイダーである確率は低い。confidence=0.12。"
+  },
+  {
+   "address": "0x74da055d4ccf9dca3f15789c603e1a88a1d2d81f",
+   "verdict": "weak-suspect",
+   "confidence": 0.2,
+   "key_evidence": "8日間で実現益約$957k、かつBTC short/long の2エントリ(2026-02-05 09:21, 17:38)が直後の-4.03%/+3.88%急変に同方向で先行している点。建玉規模も$60万級と大口で、偶然の単発としては利益が大きい。",
+   "key_doubt": "証拠そのものが内部矛盾で崩れる: (1)取引期間は2026-01-22〜01-30(8日)なのにlead_examplesは全件2026-02-05付＝活動停止後でこのウォレットの取引と整合しない(誤結合の疑い)。(2)5件中4件が同一ハッシュ0xa5e0a3...の重複計上で、$13.4Mのevent_leadは水増し(実質ユニークは2時刻のみ)。(3)dir_accuracy 0.5653はほぼコインフリップで、down相場のショート偏重でwin_rate0.70が水増しされる旨を文脈が明記。(4)funder=null/labels=[]/tags=[]/counterparties=[]でcluster-A非所属・hit-and-run出金タグも無く、時刻一致以外の独立した協調・情報証拠がゼロ。短命8日は偶然straddleの余地が最大。",
+   "reasoning": "無害な説明でほぼ説明しきれる。第一に、最大の根拠であるはずのlead_examplesが取引期間外(停止後1週間)の日付であり、かつ大半が同一トランザクションの重複である——「先行」検出の入力自体が壊れているか誤結合の可能性が高く、$13.4Mという見かけのevent_leadは信頼できない。第二に、的中率0.5653は乱数同等で、文脈が警告する通り下落相場のショート偏重がwin_rateを底上げしているだけと整合的に説明できる。第三に、8日という極端な短命は、多数の大口perpウォレットの中で偶然4h±3%急変の6h前に同方向建玉が起こるサンプル選択(生存者バイアス)の典型条件。第四に、資金源不明・ラベル/タグ/カウンターパーティ全空でcluster-A非所属、hit-and-run出金も無く、唯一の確証ある協調網にも掛からない。残る疑いは「8日で約$957kの利益＋2回の的確な先行」という規模感のみで、これも大口が下落トレンドに便乗すれば説明可能。情報優位の本物インサイダーである確証は乏しく、confidence 0.2(=ほぼ無害説明で吸収できるが利益規模ゆえ完全debunkには至らず)。"
+  },
+  {
+   "address": "0xb19e03768f72cb1b47fcd68f7fb99460b1e789b9",
+   "verdict": "debunked",
+   "confidence": 0.08,
+   "key_evidence": "唯一インサイダー寄りに見えるのは「BTC short $100,001 を -3.32% 急変(2026-04-02 00:00)の約5.4h前(04-01 18:38)に建てた」先行例と、+$985,536 の実現益・High Balance ラベル。event_lead_usd は $300,002 と一定規模に見える。",
+   "key_doubt": "(1)dir_accuracy=0.3522 はコインフリップ(0.5)を大きく下回り、insider群で最低。「動く前に正しく賭ける」はずの内部情報者と真逆で、方向は約2/3外している。(2)lead_examples の3行は全て同一hash・同一時刻・同一$100,001=単一注文の分割約定を3重計上したもの。実体は先行イベントn=1・約$100kのBTC shortのみで、event_lead_usd $300,002は3倍水増し。(3)その唯一の先行は下落相場のshortで、文脈の警告どおりショート偏重で機械的に水増しされる典型。-3.32%は閾値3%をわずかに超えるだけ、時間差5.4hも窓の端でトレンド便乗/偶然で容易に説明可能。(4)win_rate 0.61 と dir_accuracy 0.35 の乖離は、先読みではなくロスカット・サイジング等の通常のリスク管理で利益を出す裁量トレーダーの指紋。(5)funder=DLN: DlnDestination は deBridge のクロスチェーン着金コントラクト=誰でも使う公共ハブで、協調や同一資金元の証拠にならない。(6)cluster-A 非所属・hit-and-run 出金タグなし。(7)active_now=false で1月末に休眠、しかも唯一の先行例(4/01)が active_to(2026-01-29)より後というデータ内部矛盾まであり、その1件の信頼性自体が低い。",
+   "reasoning": "無害な説明がほぼ全項目を覆い尽くす。最も効くのは dir_accuracy 0.3522 という事実そのもの:内部情報で先回りするトレーダーなら方向的中は高いはずだが、本ウォレットは方向を多数外しており「先読み」仮説と整合しない。利益は方向当てではなくポジション管理(60%勝率・大きいPnL/低い方向精度)から来ており、これは正規の裁量トレーダーの典型像。さらにインサイダー寄り根拠の中核である先行例は、同一トランザクションの3重計上で生じた単一の約$100k BTC short一件に過ぎず、しかも下落相場・閾値ギリギリ・5h超の時間差という偶然/トレンド便乗で説明可能な弱い一致。資金源 DLN: DlnDestination は deBridge の公共着金コントラクトで協調の証拠ゼロ、cluster-A 非所属・hit-and-run なし、休眠済み、加えて唯一の先行例が記録上の活動終了後という内部矛盾もある。総じて「これはインサイダーではない=通常トレーダー+小サンプル+ショート水増し+公共資金源」で完全に説明しきれ、疑いはほぼ残らない。confidence=0.08。"
+  },
+  {
+   "address": "0x6f7d75c18e8ca7f486eb4d2690abf7b329087062",
+   "verdict": "weak-suspect",
+   "confidence": 0.2,
+   "key_evidence": "私的ウォレット資金源（[0x2c8b67] が arbitrum/ethereum 両方で First Funder、Gas.zip 等の公共ハブではない＝足を意図的に消している可能性）と、巨額の realized_pnl $3.63M。先行例は ETH short $104k/$121k を 2025-12-15 11:00 の -4.61% 急変の約52分前に建てたもので、6h窓内かつ大口・同方向。",
+   "key_doubt": "下落相場のショート偏重による「的中率」水増しが最も効く。決定的なのは dir_accuracy 0.5636（コイン投げ同然）に対し win_rate 0.9047 という乖離で、これは「動く前に当てている」のではなく、トレンド相場で勝ちポジを小刻みに利確して勝率を膨らませる順張りポジショントレーダーの典型的シグネチャ。先行例はわずか2件、しかも同一イベント・同一方向の事実上1サンプル（小N）で、統計的に偶然・トレンド便乗と区別不能。event_lead_usd $225k は先行例を持つインサイダー中最小で、トレード規模($3.6M益・192日)に対し誤差レベル。tags は空で cluster-A 非所属・hit-and-run 出金タグも無く、協調・計画的逃走の独立証拠ゼロ。active_now=false で既に休眠、現行リスクも低い。私的ウォレット funder も「単に取引所を経由していないアクティブトレーダー」で十分説明でき、内部情報の証明にはならない。",
+   "reasoning": "レッドチーム反証として最大限の懐疑で評価する。インサイダーを示す確証は薄い。(1)先行の証拠能力：lead_examples はたった2件で entry_time も 10:08/10:11 とほぼ同一、event は単一(2025-12-15 ETH -4.61%)。実質1サンプルであり、急変イベント自体が下落相場中に頻発する局面では、ショートを常時保有するだけで「6h前同方向大口建玉」は機械的に量産される。偶然・トレンド便乗で完全に説明可能。(2)的中率の構造的水増し：context が明記する通り下落相場ではショート偏重で的中率が水増しされる。本件は dir_accuracy 0.5636（ほぼランダム）なのに win_rate 0.9047 と大きく乖離。これは先読み能力ではなく、トレンドに乗って勝ちを刻む利確戦略の痕跡で、プロの順張りトレーダーと判別できない。(3)資金源：funder [0x2c8b67] は確かに Gas.zip 等の公共サービスではなく私的ウォレット（First Funder として arbitrum/ethereum で確認）だが、これは単独の自己資金移動でも生じ、協調網の証拠にはならない。cluster-A 非所属(tags空)で、同一 Monad 資金元・同時刻同方向という唯一の確証ある協調パターンに該当しない。(4)hit-and-run 出金タグも無く、計画的な利益引き上げの痕跡なし。(5)trade_days=192 と中程度の期間で偶然の余地はやや減るが、巨額 PnL は単に長期・大口の優秀なトレーダーである説明と整合的。総じて「時刻の一致」は偶然・トレンド・利確戦略・小Nで説明しきれてしまい、内部情報を要する証拠は残らない。残る微かな疑い（私的 funder で足を消し得る点、先行が大口同方向だった点）を踏まえ confidence 0.2 の weak-suspect とする。判定根拠データは c:\\\\Users\\\\Matsuya131\\\\.gemini\\\\antigravity\\\\scratch\\\\nansen\\\\data\\\\wf_input.json の line 358-397。"
+  }
+ ],
+ "pros": [
+  {
+   "elite": [
+    {
+     "address": "0x203f4c410f3c35cead9f35b6de2f66e773d7f26e",
+     "why": "S-tier, realized_pnl $4.48M, trade_days 341, active_now=true。2025-07〜2026-06と複数の相場局面(上昇・下落・横ばい)をまたいで稼ぎ続け、Smart HL Perps Traderラベル。長期×大利益×現役の三拍子が揃う最有力。コピー価値最高。"
+    },
+    {
+     "address": "0x0b00c540bc5f203d97ac87da62164d3d37e19798",
+     "why": "S-tier, realized_pnl $6.33M(現役勢で最大), trade_days 190, active_now=true, High Balance。半年超の持続+巨額利益。dir_accuracy等は欠損だがPnLと継続性が突出。現役のためコピー価値あり。"
+    },
+    {
+     "address": "0xc7290b4b308431a985fa9e3e8a335c2f7650517c",
+     "why": "S-tier, realized_pnl $3.91M, trade_days 253, active_now=true, Smart HL Perps Trader。8ヶ月超の継続で現在も活動中。win_rate 1.0は誇張気味だが、長期持続×大利益×現役で実力の信頼度が高い。"
+    },
+    {
+     "address": "0x782e432267376f377585fc78092d998f8442ab83",
+     "why": "S-tier, realized_pnl $4.26M, trade_days 384(現役S勢で最長スパン2025-05〜2026-06), active_now=true。win_rate 0.5489は約半分=運頼みでない地力で稼ぐタイプ。Token Millionaireラベルは要注意だが、長期間の一貫した利益が実力を裏付ける。"
+    },
+    {
+     "address": "0x24a44aef48aeb27c7708dabfccda14b41fbf0ae1",
+     "why": "realized_pnl $650K, trade_days 731(2年超), win_rate 0.9432, active_now=true, Smart HL Perps Trader。PnLは中位だが2年にわたる継続と高勝率の両立は明確な持続的実力。サバイバーシップでなく長期生存の本物。"
+    }
+   ],
+   "questionable": [
+    {
+     "address": "0x8e096995c3e4a3f0bc5b3ea1cba94de2aa4d70c9",
+     "why": "realized_pnl $11.93M(全体最大)だがtrade_days僅か24・active_now=false。2026-01-31〜02-24の24日間で稼いで撤退=一発の大当たり/単一局面依存の典型。コピー不能(既に停止)。最高PnLは持続的実力の証明にならない好例。"
+    },
+    {
+     "address": "0xba0495c92ab69b1151ecf422851a06b602cea764",
+     "why": "realized_pnl $1.16M・trade_days 9・active_now=false。9日間の短期バースト後に停止。サンプル極小で運の寄与大、再現性不明。"
+    },
+    {
+     "address": "0x0d9654172413fa8bcd2f5738a7b2fa6d19864125",
+     "why": "realized_pnl $710K・trade_days 8・win_rate 1.0・active_now=false。8日全勝=典型的サバイバーシップ(勝った期間だけ可視)。短命で停止済、コピー価値なし。"
+    },
+    {
+     "address": "0x9b804150c9a4f6db44ba4fd67704eadb5be360c1",
+     "why": "realized_pnl $700K・trade_days 1・win_rate 1.0・active_now=false。たった1日の取引。完全な運/単発であり実力指標として無意味。"
+    },
+    {
+     "address": "0xb123cd952875d8014efc7a9160a7531a5fe8f5ca",
+     "why": "realized_pnl $219・trade_days null・win_rate 1.0/dir 1.0・1日のみ。全勝・的中100%だがサンプル極小=サバイバーシップノイズ。高勝率の見かけに騙されてはいけない。"
+    },
+    {
+     "address": "0x9a377ec81c1bd51d31170bf8d7a7b6c5fbaded9b",
+     "why": "realized_pnl $5,362・trade_days null・win_rate 1.0・active_from=to=2026-06-14の単日。勝率1.0は標本1〜数件の産物で、持続的実力の根拠ゼロ。"
+    },
+    {
+     "address": "0xae551d73161bac3315c5ade0e2d499a44ebe2236",
+     "why": "trade_days 831(最長)・active_now=trueだがラベルが「Perma-Bull(永久強気)」でdir_accuracy 0.2・PnL $714Kと割安。長期生存は上昇相場のβ(方向ベット)の産物で、双方向に稼ぐ実力とは別物。下落局面で脆い疑い。"
+    }
+   ],
+   "lens": "実力の持続性(sustained skill)。realized_pnlの大きさだけでなく、trade_days(長期生存=反運の証拠)、active_now(現役=コピー価値)、複数相場局面の横断、win_rateとPnL/サンプルの整合性を総合評価。「大PnL×短命×停止済」は一発の幸運、「win_rate=1.0×極小サンプル×単日」はサバイバーシップとして減点。",
+   "summary": "eliteは「巨額PnL×長期trade_days×active_now=true×複数局面横断」を満たす本物を選抜。最有力は0x203f4c($4.48M/341日/現役/S)と0x0b00c5($6.33M/190日/現役/S)。0xc7290b・0x782e43も大利益×長期×現役で堅い。0x24a44aはPnL中位だが731日(2年)継続+高勝率で持続的実力が明確。逆に最大PnLの0x8e0969($11.93M)はわずか24日で停止=一発当て、0xba0495(9日)・0x0d9654(8日全勝)・0x9b8041(1日)・0xb123cd/0x9a377e(単日win1.0)はサンプル極小のサバイバーシップ/運でコピー不可。0xae551dは831日と最長だが「Perma-Bull」=上昇相場のβであり、下落耐性に疑問。教訓: PnL額と短期win_rateは持続的実力を保証せず、長期trade_days×現役×双方向の勝ちこそが鍵。"
+  },
+  {
+   "lens": "運/MM/サバイバーシップ懐疑レンズ。pros配列はそもそも「高PnLで生き残った勝者」だけを事後抽出したコホートなので、全体がサバイバーシップ・バイアスの上に乗っている前提で読む。判定の核は dir_accuracy（4h移動に対し正しい方向に賭けた割合=真の先読み/方向性エッジ）と win_rate（クローズ益が出たトレード割合）の乖離。win_rate≈1.0 かつ dir_accuracy≈0.0 は「小さな利益を大量回収し、含み損を握る」MM/薄利スキャル/マルチンゲール型の典型で、方向性エッジの証拠にはならず、コピー価値も低い。逆に dir_accuracy が 0.5 以上で勝率も健全、かつ trade_days が長く（大サンプル）PnL が継続している組は、運・MM・下落ショート便乗では説明しづらい本物。trade_days が1〜21日や単日(active_from=active_to)の高勝率は単なる小サンプルの運。perma-bull/単方向はトレンド便乗を疑う。",
+   "elite": [
+    {
+     "address": "0x3b11267dfc4b9ebe8427e8f557056b4b6ce98112",
+     "why": "dir_accuracy=0.8487 と win_rate=0.9973 が両立し、trade_days=98 と十分なサンプル、PnL$1.45M。方向性精度が突出して高く、これはMM薄利でも下落ショート便乗でも説明できない。真の先読み/方向性エッジを示す唯一級の数字。9015.ethのラベルも実在トレーダー示唆。最もコピー価値が高い。"
+    },
+    {
+     "address": "0x8e096995c3e4a3f0bc5b3ea1cba94de2aa4d70c9",
+     "why": "realized_pnl$11.9M はコホート最大。dir_accuracy=0.0682 と低く一見MM型だが、24日で$12M規模の実現益はMM薄利では物理的に出ない=大口ポジションの方向性を当てて握り切る本物の裁量。Smart HL Perps Traderラベル。短期間ゆえ運の余地は残すが規模と効率が桁違いで精鋭側に置く。"
+    },
+    {
+     "address": "0x0b00c540bc5f203d97ac87da62164d3d37e19798",
+     "why": "trade_days=190・active_now=true で現在も稼働、PnL$6.33M。dir_accuracy/win_rate が null（先行イベント計測対象外=MM水増し指標に乗っていない）の純粋な大口スイング。下落ショート便乗指標に汚染されず、半年超の継続実績がある本物のSランク。"
+    },
+    {
+     "address": "0x8cfe4bc352deb10ed41c5f0f89bc57674cee1e22",
+     "why": "trade_days=254 の長期実績で PnL$4.81M、win_rate=0.9628。dir_accuracy=0.12 と低めだがHL Perps Position Trader（ポジショントレーダー）ラベル通り、長保有でファンディング/トレンドを取りに行く戦略は4h-accuracy指標と構造的に噛み合わないだけ。8ヶ月超の継続規模は運・MMで説明不能。"
+    }
+   ],
+   "questionable": [
+    {
+     "address": "0xb123cd952875d8014efc7a9160a7531a5fe8f5ca",
+     "why": "dir_accuracy=1.0/win_rate=1.0 だが realized_pnl わずか$219、trade_days=null で active_from=active_to=2026-06-16 の単日。完全な小サンプル=運。100%は数トレードの偶然で容易に出る。コピー価値ゼロ。"
+    },
+    {
+     "address": "0x9a377ec81c1bd51d31170bf8d7a7b6c5fbaded9b",
+     "why": "win_rate=1.0/dir_accuracy=0.78 と高いが PnL$5,362・単日(2026-06-14)・trade_days=null。サンプル極小でサバイバーシップ/運の典型。実力の証拠にならない。"
+    },
+    {
+     "address": "0xa72dc2d42398e54634fc28e6769f8ce3ae011807",
+     "why": "dir_accuracy=0.79/win_rate=0.92 と見栄えするが trade_days=21・PnL$24kと小規模・短期。3週間の高精度は小サンプルの運で説明可能。継続性の確証なし。"
+    },
+    {
+     "address": "0x7c9063122c01837fe83da2521056e10c9b6dd129",
+     "why": "dir_accuracy=1.0 かつ win_rate=0.0 という矛盾。クローズ益はゼロなのに方向だけ当たる=含み益を握って一度も利確していない/計測アーティファクト。PnL$745kは未実現由来の疑い濃厚で、コピー対象として信頼できない。Token Millionaireラベルもトレンド資産保有を示唆。"
+    },
+    {
+     "address": "0x782e432267376f377585fc78092d998f8442ab83",
+     "why": "win_rate=0.5489 と平凡で dir_accuracy=0.0、PnL$4.26M。Token Millionaireラベル=トークン億り人で、perpエッジというより保有トークンの値上がり(2025-2026強気便乗)でPnLが嵩んでいる疑い。方向性スキルの証拠が弱い。"
+    },
+    {
+     "address": "0xae551d73161bac3315c5ade0e2d499a44ebe2236",
+     "why": "ラベルが明示的に Perma-Bull（永久強気）。dir_accuracy=0.20と低くwin_rate=0.93はロングを握り続けた強気相場トレンド便乗の典型。下落局面では逆回転リスク。エッジでなくベータ。"
+    },
+    {
+     "address": "0x1e6db0fdf1a0f6edb78753184eb0fe5485c2eef2",
+     "why": "dir_accuracy=0.0/win_rate=1.0 の極端乖離。558日と長期でPnL$6Mだが、方向性ゼロで全勝=薄利を大量回収し含み損を握るMM/グリッド型の典型シグネチャ。PnL規模はあるが方向シグナルとしてのコピー価値は無く、戦略の中身が指標から見えない。"
+    },
+    {
+     "address": "0x5198eff88dea32108605bcdb109a99dc397190d8",
+     "why": "dir_accuracy=1.0/win_rate=1.0 の完璧スコアだが、こういう両方1.0は計測上のアーティファクトか少数トレードの産物であることが多い。trade_days=142あるがPnL$614kに対し全勝全的中は出来過ぎで、MM/小サンプル/握り戦略を疑うべき。"
+    },
+    {
+     "address": "0xbe494a5e3a719a78a45a47ab453b7b0199b9d101",
+     "why": "win_rate=0.0253・realized_pnl=-1,746・単日(2026-06-17)。Smart HL Perps Traderラベルが付くがほぼ全敗で赤字。ラベルはサバイバーシップの名残で、現状は精鋭の実体なし。"
+    }
+   ],
+   "summary": "pros配列の最大の落とし穴は win_rate を実力指標と誤読すること。本コホートは事後の高PnL勝者抽出でサバイバーシップ・バイアスが前提。win_rate≈1.0 かつ dir_accuracy≈0.0 のウォレット(0x1e6db0,0x4eebd8,0x258886,0x8eadef等が該当)は「小利を大量に確定し含み損を握る」MM/薄利スキャル/マルチンゲール型のシグネチャで、方向性エッジの証拠にならずコピー価値が低い。dir_accuracy=1.0/win_rate=0.0(0x7c9063)や両方1.0(0x5198ef,0xb123cd)は計測アーティファクト/握り戦略の疑い。trade_days 1〜21日や単日の高勝率(0xb123cd,0x9a377e,0xa72dc2)は純粋な小サンプルの運。Token Millionaire/Perma-Bull系(0x782e43,0xae551d)は2025-26強気相場のロング・トレンド便乗(ベータ)であってアルファでない疑い。逆に運・MM・ショート便乗で説明しづらい本物は、(1)方向性精度が突出する 0x3b1126(dir_acc0.85×98日)、(2)MM薄利では出せない桁の効率を示す 0x8e0969($12M/24日)、(3)指標汚染を受けず半年超継続する大口スイング 0x0b00c5、(4)8ヶ月超の長期ポジショントレード実績 0x8cfe4b。結論: 高勝率そのものは無価値、見るべきは「大サンプル×方向性精度 or MMでは不可能な規模効率×継続性」。"
+  }
+ ],
+ "synthesis": {
+  "insider_ranking": [
+   {
+    "address": "0x18cd4597e06b7fe0a8cd33dda499121b3a145a8b",
+    "verdict": "likely-insider",
+    "confidence": 0.62,
+    "one_line": "9件中唯一weakを超える本命。元データの「公共資金源(協調でない)」タグが誤りで、確証cluster-A 2ウォレットと同一Monad first-funder(Distributor 0xdf7479, 2025-11-24, 約1時間以内)を共有=協調の資金源条件を満たす。ただし同時刻co-tradeの再検証は不能でconfirmedには届かず。"
+   },
+   {
+    "address": "0xefcace57934a753d66c48a31b880ba806d4c0869",
+    "verdict": "weak-suspect",
+    "confidence": 0.3,
+    "one_line": "崩せない残余はcluster-AのMonad資金チェーン実在(0xdf7479→0xa9346f)+879日active継続のみ。的中率1.0/PnL$114kの不整合・lead_examples空・実体はDeFi LP/イールド農家で核心指標は無害説明可能。"
+   },
+   {
+    "address": "0x0a7097d919b7421ecc03aed3aac68a13e7ef1f46",
+    "verdict": "weak-suspect",
+    "confidence": 0.25,
+    "one_line": "先行集計額は非ゼロでdir_accuracy 0.67と僅かにコインフリップ超だが、lead_examples空・データ自体が内部矛盾(799k/0.6676 vs notes 301k/0.5357)。funderは私的NFTトレーダーでcluster-A非所属。出来高ノイズ+便乗で説明可。"
+   },
+   {
+    "address": "0x10b6f072fabe21bc72ffd77ff5d4414e6cef2980",
+    "verdict": "weak-suspect",
+    "confidence": 0.2,
+    "one_line": "的中率1.0/active継続が唯一の材料だがcluster-A根拠が崩壊: Monad Distributor 0xdf7479は単日1万768アドレスへ配布する公共フォーセット。lead_examples空・PnL$195k/228日は凡庸。"
+   },
+   {
+    "address": "0x906d31b2ee92c4bc720232112274a0e1ffb0ad6e",
+    "verdict": "weak-suspect",
+    "confidence": 0.2,
+    "one_line": "ETH short先行例1件($2.77M大口)が唯一の根拠だが分割約定で実質N=1。funderはGas.zip公共ソルバーと実地確認・cluster-A明示除外・hit-and-runなし。win_rate1.0は塩漬けの選択バイアス。"
+   },
+   {
+    "address": "0x74da055d4ccf9dca3f15789c603e1a88a1d2d81f",
+    "verdict": "weak-suspect",
+    "confidence": 0.2,
+    "one_line": "8日で$957k+2先行が規模感の唯一の引っかかり。だがlead_examplesが活動停止後の日付(誤結合疑い)・5件中4件同一ハッシュ重複・$13.4M水増し・funder/labels/tags全空でcluster-A非所属。"
+   },
+   {
+    "address": "0x6f7d75c18e8ca7f486eb4d2690abf7b329087062",
+    "verdict": "weak-suspect",
+    "confidence": 0.2,
+    "one_line": "私的funder(足消し可能性)+$3.63M大利益が残るが、dir_accuracy0.56 vs win_rate0.90の乖離=順張り利確トレーダーの指紋。先行例実質1サンプル・cluster-A非所属・休眠済。"
+   },
+   {
+    "address": "0x07642cbbd81e075d3bf14e0f6c1017f20c525572",
+    "verdict": "weak-suspect",
+    "confidence": 0.12,
+    "one_line": "dir_accuracy0.41=コインフリップ未満で大半逆方向。先行は7分差分割で実質N=1・trade_days12と極短命・active_now=false・cluster-A非所属。私的funderだが単独自己資金で説明可。"
+   },
+   {
+    "address": "0xb19e03768f72cb1b47fcd68f7fb99460b1e789b9",
+    "verdict": "debunked",
+    "confidence": 0.08,
+    "one_line": "dir_accuracy0.35=insider群最低で先読み仮説と真逆。lead_examplesは同一注文3重計上で実質1件・funderはdeBridge公共着金コントラクト・先行例が活動終了後の内部矛盾。通常裁量トレーダーで完全説明可。"
+   }
+  ],
+  "elite_pros": [
+   {
+    "address": "0x0b00c540bc5f203d97ac87da62164d3d37e19798",
+    "why": "両レンズ唯一の合意精鋭。skillレンズ: S-tier・realized_pnl $6.33M(現役勢最大)・trade_days 190・active_now=true・High Balanceで半年超の持続+巨額利益。skepticレンズ: dir_accuracy/win_rateがnull=MM水増し指標(ショート便乗・薄利全勝アーティファクト)に汚染されない純粋な大口スイングで、現役継続が運/MMでは説明不能。サバイバーシップ懐疑と持続的実力の双方を通過した唯一の本物。"
+   }
+  ],
+  "headline": [
+   "インサイダー9件のうち本命は0x18cd4597のみ(confidence0.62/likely-insider)。決め手は元データの「公共資金源(協調でない)」タグが誤りで、確証cluster-A 2ウォレットと同一Monad first-funder(Distributor 0xdf7479, 2025-11-24, 約1時間以内)を共有する点。残り8件は全てweak-suspect以下に降格。",
+   "cluster-Aの資金チェーン自体は崩れていないが、その診断価値は両刃: 同じMonad Distributor 0xdf7479が単日で約1万768アドレスへ無差別配布する公共フォーセットでもある。協調の資金源条件は満たすが、配布の排他性が未検証なため「共有funder」シグナル単独では協調を証明しきれない。",
+   "全候補に共通する致命的弱点はlead_examplesの脆弱性: ほぼ全件が空または同一トランザクションの分割約定(実質N=1)で、検証可能な独立先行建玉が存在しない。±3%/6h窓+下落相場ショート偏重では偶然/トレンド便乗で機械的に水増しされる。",
+   "的中率(win_rate=1.0)は実力指標として無価値。塩漬け(未決済の負けを除外する選択バイアス)とショート偏重で容易に生成され、dir_accuracyとの乖離(例: 0x6f7d75 0.56 vs 0.90)が順張り利確トレーダーの指紋を露呈。0xb19e0376はdir_accuracy0.35で先読み仮説と真逆=debunked。",
+   "プロ精鋭は2レンズ(持続的実力 vs 運/MM/サバイバーシップ懐疑)の交差で0x0b00c540のみが生き残った。skillレンズの最有力0x203f4c・0x782e43やskepticレンズの0x8e0969($11.9M)は片方でquestionable判定を受け脱落。高PnL×短命・単方向β(Perma-Bull/Token Millionaire)は実力の証明にならない。"
+  ],
+  "method_note": "クレジット枯渇でNansen資金源(related_addresses/counterparties/perp-trades)の再検証が一部しか実行できず、特に同一イベント同時刻・同方向のco-trade照合が全候補で不能だった(perp-tradesエンドポイントが最新データのみ返却・アドレスフィルタ無視)。このためcluster-A協調の核心(funder共有+同時刻同方向建玉)のうち後半が独立確認できず、0x18cd4597をconfirmedに昇格できなかった。共有Monad Distributor 0xdf7479の排他性(汎用エアドロップ配布か私的協調網か)も未検証で、共有funderシグナルの価値は上振れ・下振れ両方向に不確実。先行検出はevent_lead_usd集計に依存しlead_examplesが空/重複のケースが大半=「動く前の建玉」の個別監査がほぼ不能で、±3%/6h窓+下落相場ショート偏重による偶然一致・トレンド便乗・出来高ノイズと統計的に区別できない。複数候補(0x0a7097d9・0x74da055d・0xb19e0376)はheaderとnotesの数値が内部矛盾しており、入力データ自体の信頼性が低い。プロ配列は高PnL勝者の事後抽出でサバイバーシップ・バイアスが前提のため、絶対評価でなく相対選抜にとどまる。"
+ }
+}

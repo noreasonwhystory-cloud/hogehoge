@@ -93,6 +93,7 @@
       "first_seen": "2026-06-16",
       "times_seen": 4,
       "tags": [
+        "WF:weak-suspect",
         "cluster-A",
         "funder:0xdf747918",
         "取引あり(14d)"
@@ -134,7 +135,7 @@
         "trend_vs_edge"
       ],
       "alt_reasoning": "4レンズ全てが指摘。協調(同Monad funder・6/3 BTCショート$2.95M先行・10b6f0と7分差)と event-timing(全体最大lead2.95M)が核。trendはrider扱いだがcandle検証で本格下落前の集中大口建玉という残差をred-teamも消しきれず(survives0.45)。541クローズの体系的デスクで偶然性は低い。score根拠が的中率→協調+先行へ質的に変わり、疑惑の中身が格上げ。",
-      "position": "インサイダー疑惑(要監視)",
+      "position": "弱い疑惑(監視継続)",
       "current": {
         "date": "2026-06-17",
         "metric_category": "insider_suspect",
@@ -177,19 +178,22 @@
         "保有:スイング(<48h)",
         "方向:無/フラット"
       ],
-      "notes_jp": "【判定】★最有力(的中ほぼ100%)\n【資金源】🏦 Kromatika: Deployer [0xb4b8b6] ＝ ブリッジ/サービス経由(足を消す)\n【先行建玉】個別例なし(event_lead合計で検出)\n【的中率】1.0（高いほど“動く前に正しく賭けた”＝先読みの証拠）",
+      "notes_jp": "【workflowレッドチーム検証】weak-suspect（確度0.3）\n【支持根拠】cluster-A所属の裏付けとなるMonad資金チェーンが実在: First Funder連鎖が 🤖 Distributor [0xdf7479](monad, 2025-11-24)→その親 [0xa9346f](monad)へ遡れ、cluster-A定義(同一Monad資金元の協調網)と整合する唯一の崩せない残余\n【反証(無害説明)】「インサイダー」の核心指標がほぼ全て無害に説明できる: (1)dir_accuracy/win_rate=1.0なのにrealized_pnlはわずか$114k/879日(=約$130/日)。完全先読みなら桁違いに稼げるはずで、1.0は微小ポジ/小N/下落相場のショート偏重(context明記の水増し)による計測アーティファクト。(2)lead_examplesが空=具体的な「動く前の建玉」が1件も検証できず、$2.95Mはaggreg",
       "roi_alltime": 4.2163714294,
       "n_fills_14d": 773,
       "active_from": "2024-01-19",
       "active_to": "2026-06-16",
       "trade_days": 879,
-      "active14": true
+      "active14": true,
+      "wf_confidence": 0.3,
+      "wf_verdict": "weak-suspect"
     },
     "0x10b6f072fabe21bc72ffd77ff5d4414e6cef2980": {
       "address": "0x10b6f072fabe21bc72ffd77ff5d4414e6cef2980",
       "first_seen": "2026-06-16",
       "times_seen": 11,
       "tags": [
+        "WF:weak-suspect",
         "cluster-A",
         "funder:0xdf747918",
         "取引あり(14d)"
@@ -231,7 +235,7 @@
         "trend_vs_edge"
       ],
       "alt_reasoning": "efcaceと同funder・6/3 17:44に独立してBTCショート$670k先行(7分差)。単独なら弱いが『同funder×近同時×大口』のクラスタ性が便乗仮説を棄却。ただし現保有BTCショートが含み損-3,558で『完璧な先読み』像とは矛盾し、red-teamはsurvives(0.4)止まり。efcaceより規模小で確信はやや低い。",
-      "position": "インサイダー疑惑(要監視)",
+      "position": "弱い疑惑(監視継続)",
       "current": {
         "date": "2026-06-17",
         "metric_category": "insider_suspect",
@@ -263,14 +267,16 @@
         "レバ:中(3-10x)",
         "銘柄:BTC専"
       ],
-      "notes_jp": "【判定】★最有力(的中ほぼ100%)\n【資金源】High Balance [0x9aa91e] ＝ 別ウォレット経由\n【先行建玉】個別例なし(event_lead合計で検出)\n【的中率】1.0（高いほど“動く前に正しく賭けた”＝先読みの証拠）",
+      "notes_jp": "【workflowレッドチーム検証】weak-suspect（確度0.2）\n【支持根拠】的中率1.0/dir_accuracy1.0という完璧スコアと、active_now=trueで現在も稼働中(取引期間228日とそこそこ継続)。これがインサイダーを支持しうる唯一の材料。ただし lead_examples が空(\"個別例なし\")で、$670kの先行額は監査可能な個別建玉に裏付けられていない集計値にすぎな\n【反証(無害説明)】cluster-Aの根拠「同一Monad資金元」がオンチェーン検証で崩壊。Monad資金元 Distributor[0xdf7479] は2025-11-17デプロイの配布コントラクトで、単一日に約10,768の異なるアドレスへ1MONずつ送金した大規模エアドロップ/フォーセット。4ウォレットが共有=協調、ではなく1万超が共有する公共配布ハブ。HL資金元 High Balance[0x9aa91e] も Nexo(CEX) と同じMon",
       "roi_alltime": 4.6704985213,
       "roi_month": 2.1442328436,
       "n_fills_14d": 644,
       "active_from": "2025-10-30",
       "active_to": "2026-06-15",
       "trade_days": 228,
-      "active14": true
+      "active14": true,
+      "wf_confidence": 0.2,
+      "wf_verdict": "weak-suspect"
     },
     "0x230963164d9637a4c536270a06b4e3636d44a2d9": {
       "address": "0x230963164d9637a4c536270a06b4e3636d44a2d9",
@@ -6977,6 +6983,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 7,
       "tags": [
+        "WF:weak-suspect",
         "出金:先行検出(hit-and-run候補)",
         "出金済(hit-and-run)",
         "取引なし(14d)"
@@ -6998,7 +7005,7 @@
       "last_seen": "2026-06-17",
       "metric_category": "pro_trader",
       "insider_likelihood": null,
-      "position": "インサイダー疑惑(要監視)",
+      "position": "弱い疑惑(監視継続)",
       "auto_tags": [
         "ROI:高(100-1000%)",
         "PnL:大($1-10M)",
@@ -7063,14 +7070,16 @@
         }
       ],
       "nansen_checked": "2026-06-17",
-      "notes_jp": "【ひとことで】💰🔴稼いで引き上げ＋急変直前の先行あり＝hit-and-runインサイダー候補(要精査)\n【HL実測】実現益$115,052・的中0.5357・急変先行$301,020・majors22099約定\n【取引期間】2025-10-26〜2026-05-29",
+      "notes_jp": "【workflowレッドチーム検証】weak-suspect（確度0.25）\n【支持根拠】急変イベントに対する先行建玉の集計額(event_lead_usd $799,334、notesでは$301,020)がゼロではなく、ETH/BTC majorsで22,099約定という相応の出来高がある。dir_accuracy 0.6676 は単純コインフリップ(0.5)を上回り、純粋な偶然よりは「動く前に正しい方\n【反証(無害説明)】「先行」の個別証拠が一切ない(lead_examples=[])。他の容疑ウォレットは具体的な急変直前エントリのハッシュ付き事例を持つのに、本ウォレットだけは集計値のみで、実際に急変6h前に同方向で建てた取引が一件も提示されていない=検出は集計アーティファクトの疑い。的中率0.6676(notesでは0.5357=ほぼコインフリップ)は内部情報ではなくトレンド便乗・出来高ノイズ・ショート偏重(下落相場での水増し)で容易に説明可能。データ",
       "roi_alltime": 4.9687891229,
       "roi_month": 0.1365549105,
       "n_fills_14d": 1898,
       "active_from": "2024-11-30",
       "active_to": "2026-04-07",
       "trade_days": 493,
-      "active14": false
+      "active14": false,
+      "wf_confidence": 0.25,
+      "wf_verdict": "weak-suspect"
     },
     "0x2a304155f0c751217f2bedc1769be8398151eca4": {
       "address": "0x2a304155f0c751217f2bedc1769be8398151eca4",
@@ -12655,6 +12664,7 @@
         "HL先行検出",
         "Nansen発見",
         "SmartMoney",
+        "WF:weak-suspect",
         "公共サービス資金源(協調でない)",
         "取引あり(14d)"
       ],
@@ -12671,7 +12681,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "インサイダー疑惑(要監視)",
+      "position": "弱い疑惑(監視継続)",
       "metric_category": "hl-verified",
       "labels": [
         "Token Millionaire"
@@ -12683,7 +12693,7 @@
         "PnL:大($1-10M)",
         "方向:無/フラット"
       ],
-      "notes_jp": "【判定】中(的中62%・具体的な先行あり)\n【資金源】Gas.zip: Primary Solver [0x8c826f]＝Gas.zip/deBridge等の公共サービス（誰でも使う共用ハブ）。同一イベント同時刻の取引も無く、協調の証拠は無い。独立した先行トレーダーとして要監視。\n【的中率】0.6199",
+      "notes_jp": "【workflowレッドチーム検証】weak-suspect（確度0.2）\n【支持根拠】具体的な先行例が1件存在する: ETH short を 2025-12-10 18:31 に建て、3.5時間後の 22:00 に -4.02% の急変が同方向で発生(notional計 $350k、ただし同一エントリ時刻を2フィルに分割しただけで実質1イベント)。realized_pnl $2.77M と Token \n【反証(無害説明)】無害説明がほぼ全面的に成立する。(1)dir_accuracy=0.6199 はコインフリップ+αに過ぎず「先読みの証拠」と呼べる水準ではない。win_rate=1.0 は決済済みトレードのみを数える選択バイアスの典型的アーティファクト(含み損ポジを塩漬けにすれば容易に1.0)。(2)先行例は実質1イベント(同時刻・同方向・同ハッシュ群=単なる分割約定)で、N=1。下落相場でのショート偏重なら4h後ヒットは構造的に水増しされ、6h窓・±",
       "current": {
         "date": "2026-06-17",
         "metric_category": "hl-verified",
@@ -12740,7 +12750,9 @@
       "active_from": "2025-11-14",
       "active_to": "2026-06-07",
       "trade_days": 205,
-      "active14": true
+      "active14": true,
+      "wf_confidence": 0.2,
+      "wf_verdict": "weak-suspect"
     },
     "0xf5629393e446a103a4be1c49a956255e7c87c1d3": {
       "address": "0xf5629393e446a103a4be1c49a956255e7c87c1d3",
@@ -15048,6 +15060,7 @@
         "HL先行検出",
         "Nansen発見",
         "SmartMoney",
+        "WF:likely-insider",
         "公共サービス資金源(協調でない)",
         "取引あり(14d)"
       ],
@@ -15074,7 +15087,7 @@
         "PnL:中($100k-1M)",
         "方向:無/フラット"
       ],
-      "notes_jp": "【判定】中(的中59%・具体的な先行あり)\n【資金源】Gas.zip: Primary Solver [0x8c826f]＝Gas.zip/deBridge等の公共サービス（誰でも使う共用ハブ）。同一イベント同時刻の取引も無く、協調の証拠は無い。独立した先行トレーダーとして要監視。\n【的中率】0.5897",
+      "notes_jp": "【workflowレッドチーム検証】likely-insider（確度0.62）\n【支持根拠】On-chain address_related_addresses shows the target's Monad first-funder is 🤖 Distributor [0xdf7479] on 2025-11-24 10:38 — the IDENTICAL Monad funding source th\n【反証(無害説明)】The strongest innocent explanation is small-N trend-following: all 5 lead_examples cluster on just 2 days (2026-02-02, 2026-02-06) as ETH/BTC longs during a Feb uptrend, and two pairs share the same tx hash (double-count",
       "current": {
         "date": "2026-06-17",
         "metric_category": "hl-verified",
@@ -15182,7 +15195,9 @@
       "active_from": "2026-02-02",
       "active_to": "2026-06-16",
       "trade_days": 134,
-      "active14": true
+      "active14": true,
+      "wf_confidence": 0.62,
+      "wf_verdict": "likely-insider"
     },
     "0xbfc79c444c41a74516bf31237ebf586a231480b4": {
       "address": "0xbfc79c444c41a74516bf31237ebf586a231480b4",
@@ -15615,6 +15630,7 @@
         "HL先行検出",
         "Nansen発見",
         "SmartMoney",
+        "WF:weak-suspect",
         "取引なし(14d)"
       ],
       "notes": "",
@@ -15630,7 +15646,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "インサイダー疑惑(要監視)",
+      "position": "除外/低優先",
       "metric_category": "hl-verified",
       "labels": [],
       "roi_alltime": 6.074543676603644,
@@ -15640,7 +15656,7 @@
         "PnL:中($100k-1M)",
         "方向:無/フラット"
       ],
-      "notes_jp": "【判定】弱(的中41%)\n【資金源】HL Perps Day Trader [0xa5b662] ＝ 別ウォレット経由\n【先行建玉】ETH long $424,171 を、2026-04-13 18:00の5.39%急変の直前(2026-04-13 12:36)に建てた\n【的中率】0.4105（高いほど“動く前に正しく賭けた”＝先読みの証拠）",
+      "notes_jp": "【workflowレッドチーム検証】weak-suspect（確度0.12）\n【支持根拠】唯一インサイダー寄りに見える事実は、2026-04-13 18:00のETH +5.39%急変の約5.4時間前(12:36/12:43)に合計$641k規模のETHロングを建てた1イベント。先行額event_lead_usd=$641,731は単発としては大口で、結果的に12日間で実現益$703kを叩き出している。資金\n【反証(無害説明)】小サンプル+トレンド便乗で容易に説明できる。(1)dir_accuracy=0.4105はコインフリップ未満=「動く前に正しく賭けた」どころか大半の建玉は逆方向に外している。1イベントだけ当たったのは12日間の取引バーストの中のチェリーピック/生存バイアス。(2)lead_examplesの「2件」は同一急変(2026-04-13 18:00)への7分差の分割約定で実質N=1。協調の証拠にならない。(3)trade_days=12と極端",
       "current": {
         "date": "2026-06-17",
         "metric_category": "hl-verified",
@@ -15703,7 +15719,9 @@
       "active_from": "2026-04-06",
       "active_to": "2026-04-18",
       "trade_days": 12,
-      "active14": false
+      "active14": false,
+      "wf_confidence": 0.12,
+      "wf_verdict": "weak-suspect"
     },
     "0x44a3e107c375c1abfa28c1ac5e92bc85f0b435dd": {
       "address": "0x44a3e107c375c1abfa28c1ac5e92bc85f0b435dd",
@@ -31533,18 +31551,19 @@
       "tags": [
         "HL先行検出",
         "Nansen発見",
+        "WF:weak-suspect",
         "取引なし(14d)"
       ],
       "notes": "",
       "history": [],
       "last_seen": "2026-06-17",
-      "position": "インサイダー疑惑(要監視)",
+      "position": "弱い疑惑(監視継続)",
       "metric_category": "hl-verified",
       "labels": [],
       "roi_alltime": 0.0036018123204748995,
       "n_fills_14d": 6000,
       "nansen_checked": "2026-06-17",
-      "notes_jp": "【判定】中(的中57%・具体的な先行あり)\n【資金源】不明 ＝ 不明\n【先行建玉】BTC short $225,387 を、2026-02-05 11:00の-4.03%急変の直前(2026-02-05 09:21)に建てた\n【的中率】0.5653（高いほど“動く前に正しく賭けた”＝先読みの証拠）",
+      "notes_jp": "【workflowレッドチーム検証】weak-suspect（確度0.2）\n【支持根拠】8日間で実現益約$957k、かつBTC short/long の2エントリ(2026-02-05 09:21, 17:38)が直後の-4.03%/+3.88%急変に同方向で先行している点。建玉規模も$60万級と大口で、偶然の単発としては利益が大きい。\n【反証(無害説明)】証拠そのものが内部矛盾で崩れる: (1)取引期間は2026-01-22〜01-30(8日)なのにlead_examplesは全件2026-02-05付＝活動停止後でこのウォレットの取引と整合しない(誤結合の疑い)。(2)5件中4件が同一ハッシュ0xa5e0a3...の重複計上で、$13.4Mのevent_leadは水増し(実質ユニークは2時刻のみ)。(3)dir_accuracy 0.5653はほぼコインフリップで、down相場のショー",
       "current": {
         "date": "2026-06-17",
         "metric_category": "hl-verified",
@@ -31607,7 +31626,9 @@
       "active_from": "2026-01-22",
       "active_to": "2026-01-30",
       "trade_days": 8,
-      "active14": false
+      "active14": false,
+      "wf_confidence": 0.2,
+      "wf_verdict": "weak-suspect"
     },
     "0xbdd243d77a59a3b38d21bf61e78a6ba4702f2bbc": {
       "address": "0xbdd243d77a59a3b38d21bf61e78a6ba4702f2bbc",
@@ -31768,13 +31789,14 @@
       "tags": [
         "HL先行検出",
         "Nansen発見",
+        "WF:debunked",
         "公共サービス資金源(協調でない)",
         "取引なし(14d)"
       ],
       "notes": "",
       "history": [],
       "last_seen": "2026-06-17",
-      "position": "インサイダー疑惑(要監視)",
+      "position": "除外/低優先",
       "metric_category": "hl-verified",
       "labels": [
         "High Balance"
@@ -31782,7 +31804,7 @@
       "roi_alltime": 0.00011420059435360711,
       "n_fills_14d": 9998,
       "nansen_checked": "2026-06-17",
-      "notes_jp": "【判定】弱(的中35%)\n【資金源】🤖 DLN: DlnDestination [0xe7351f]＝Gas.zip/deBridge等の公共サービス（誰でも使う共用ハブ）。同一イベント同時刻の取引も無く、協調の証拠は無い。独立した先行トレーダーとして要監視。\n【的中率】0.3522",
+      "notes_jp": "【workflowレッドチーム検証】debunked（確度0.08）\n【支持根拠】唯一インサイダー寄りに見えるのは「BTC short $100,001 を -3.32% 急変(2026-04-02 00:00)の約5.4h前(04-01 18:38)に建てた」先行例と、+$985,536 の実現益・High Balance ラベル。event_lead_usd は $300,002 と一定規模に見\n【反証(無害説明)】(1)dir_accuracy=0.3522 はコインフリップ(0.5)を大きく下回り、insider群で最低。「動く前に正しく賭ける」はずの内部情報者と真逆で、方向は約2/3外している。(2)lead_examples の3行は全て同一hash・同一時刻・同一$100,001=単一注文の分割約定を3重計上したもの。実体は先行イベントn=1・約$100kのBTC shortのみで、event_lead_usd $300,002は3倍水増",
       "current": {
         "date": "2026-06-17",
         "metric_category": "hl-verified",
@@ -31859,7 +31881,9 @@
       "active_from": "2025-09-07",
       "active_to": "2026-01-29",
       "trade_days": 144,
-      "active14": false
+      "active14": false,
+      "wf_confidence": 0.08,
+      "wf_verdict": "debunked"
     },
     "0x6f7d75c18e8ca7f486eb4d2690abf7b329087062": {
       "address": "0x6f7d75c18e8ca7f486eb4d2690abf7b329087062",
@@ -31868,12 +31892,13 @@
       "tags": [
         "HL先行検出",
         "Nansen発見",
+        "WF:weak-suspect",
         "取引なし(14d)"
       ],
       "notes": "",
       "history": [],
       "last_seen": "2026-06-17",
-      "position": "インサイダー疑惑(要監視)",
+      "position": "弱い疑惑(監視継続)",
       "metric_category": "hl-verified",
       "labels": [
         "High Activity"
@@ -31881,7 +31906,7 @@
       "roi_alltime": 389.0227123979876,
       "n_fills_14d": 2284,
       "nansen_checked": "2026-06-17",
-      "notes_jp": "【判定】中(的中56%・具体的な先行あり)\n【資金源】[0x2c8b67] ＝ 別ウォレット経由\n【先行建玉】ETH short $104,384 を、2025-12-15 11:00の-4.61%急変の直前(2025-12-15 10:08)に建てた\n【的中率】0.5636（高いほど“動く前に正しく賭けた”＝先読みの証拠）",
+      "notes_jp": "【workflowレッドチーム検証】weak-suspect（確度0.2）\n【支持根拠】私的ウォレット資金源（[0x2c8b67] が arbitrum/ethereum 両方で First Funder、Gas.zip 等の公共ハブではない＝足を意図的に消している可能性）と、巨額の realized_pnl $3.63M。先行例は ETH short $104k/$121k を 2025-12-15 1\n【反証(無害説明)】下落相場のショート偏重による「的中率」水増しが最も効く。決定的なのは dir_accuracy 0.5636（コイン投げ同然）に対し win_rate 0.9047 という乖離で、これは「動く前に当てている」のではなく、トレンド相場で勝ちポジを小刻みに利確して勝率を膨らませる順張りポジショントレーダーの典型的シグネチャ。先行例はわずか2件、しかも同一イベント・同一方向の事実上1サンプル（小N）で、統計的に偶然・トレンド便乗と区別不能。e",
       "current": {
         "date": "2026-06-17",
         "metric_category": "hl-verified",
@@ -31924,7 +31949,9 @@
       "active_from": "2025-09-21",
       "active_to": "2026-04-01",
       "trade_days": 192,
-      "active14": false
+      "active14": false,
+      "wf_confidence": 0.2,
+      "wf_verdict": "weak-suspect"
     },
     "0x4eebd8d39e82efb958e0fa9f694435c910c8518f": {
       "address": "0x4eebd8d39e82efb958e0fa9f694435c910c8518f",
@@ -33155,5 +33182,5 @@
       "active14": false
     }
   },
-  "updated_at": "2026-06-17T16:58:55.673373+00:00"
+  "updated_at": "2026-06-17T18:23:33.351482+00:00"
 }
