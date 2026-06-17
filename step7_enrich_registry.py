@@ -80,36 +80,60 @@ def main():
         targets = list(wallets)
     else:
         targets = [k for k, e in wallets.items() if e.get("position") in WATCH]
+    # 既にエンリッチ済みは再取得しない（クレジット節約）。--refresh で強制再取得。
+    if "--refresh" not in sys.argv and not explicit:
+        before = len(targets)
+        targets = [k for k in targets
+                   if not (wallets[k].get("nansen_checked")
+                           and (wallets[k].get("first_funders") or wallets[k].get("labels")))]
+        if before != len(targets):
+            print(f"  （エンリッチ済み {before - len(targets)} 件をスキップ。--refresh で再取得可）")
 
     today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
     print(f"Nansen照会対象: {len(targets)} 件")
-    credit_dead = False
+
+    def save():
+        reg["updated_at"] = datetime.now(timezone.utc).isoformat()
+        with open(REGISTRY, "w", encoding="utf-8") as f:
+            json.dump(reg, f, ensure_ascii=False, indent=2)
+
+    consec403 = 0
+    updated = skipped = 0
     for i, key in enumerate(targets, 1):
         e = wallets[key]
         info = fetch_nansen(e["address"])
-        e["labels"] = info["labels"]
-        e["first_funders"] = info["first_funders"]
-        e["counterparties"] = info["counterparties"]
+        is403 = any(str(x.get("error")) == "403" for x in info["nansen_errors"])
+        got = info["labels"] or info["first_funders"] or info["counterparties"]
+        if is403 and not got:
+            # クレジット不足: 既存データは絶対に上書きしない（保持してスキップ）
+            consec403 += 1
+            skipped += 1
+            print(f"  [{i}/{len(targets)}] {e['address'][:12]}.. ⚠403 スキップ(既存保持)")
+            if consec403 >= 5:
+                print("  ⚠ 403が連続。クレジット枯渇とみなし中断（ここまで逐次保存済み）。")
+                break
+            continue
+        consec403 = 0
+        # 取得できたフィールドのみ更新（空で良データを潰さない）
+        if info["labels"]:
+            e["labels"] = info["labels"]
+        if info["first_funders"]:
+            e["first_funders"] = info["first_funders"]
+        if info["counterparties"]:
+            e["counterparties"] = info["counterparties"]
         e["nansen_checked"] = today
-        if info["nansen_errors"]:
-            e["nansen_errors"] = info["nansen_errors"]
+        e["nansen_errors"] = info["nansen_errors"] or []
+        updated += 1
         labs = ", ".join(info["labels"]) or "ラベル無"
         ff = ", ".join((f.get("label") or (f.get("address") or "")[:10]) for f in info["first_funders"]) or "—"
-        warn = ""
-        if info["nansen_errors"]:
-            codes = {str(x["error"]) for x in info["nansen_errors"]}
-            warn = f"  ⚠ {codes}"
-            if "403" in codes:
-                credit_dead = True
-        print(f"  [{i}/{len(targets)}] {e['address'][:12]}.. [{labs}] 資金源:{ff}{warn}")
+        print(f"  [{i}/{len(targets)}] {e['address'][:12]}.. [{labs}] 資金源:{ff}")
+        if i % 25 == 0:        # 逐次保存（途中停止でも進捗が残る）
+            save()
+            print(f"    …{i}件まで保存")
 
-    reg["updated_at"] = datetime.now(timezone.utc).isoformat()
-    with open(REGISTRY, "w", encoding="utf-8") as f:
-        json.dump(reg, f, ensure_ascii=False, indent=2)
+    save()
     reg6.render_all(reg)
-    print(f"台帳更新＋Nansen統合 → {REGISTRY} / registry.html")
-    if credit_dead:
-        print("  ⚠ 一部 403（クレジット不足の可能性）。残高を確認せよ。")
+    print(f"完了 → {REGISTRY} / 更新{updated} / 403スキップ{skipped}（既存データは保持）")
 
 
 if __name__ == "__main__":
