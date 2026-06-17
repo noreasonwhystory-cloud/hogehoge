@@ -8,7 +8,6 @@
       "times_seen": 12,
       "tags": [
         "Nansen発見",
-        "SmartMoney",
         "取引あり(14d)"
       ],
       "notes": "",
@@ -607,8 +606,7 @@
       "times_seen": 12,
       "tags": [
         "Nansen発見",
-        "取引あり(14d)",
-        "機関"
+        "取引あり(14d)"
       ],
       "notes": "",
       "history": [
@@ -1878,7 +1876,6 @@
       "times_seen": 12,
       "tags": [
         "Nansen発見",
-        "SmartMoney",
         "取引あり(14d)"
       ],
       "notes": "",
@@ -1955,7 +1952,6 @@
       "times_seen": 12,
       "tags": [
         "Nansen発見",
-        "SmartMoney",
         "取引あり(14d)"
       ],
       "notes": "",
@@ -2058,7 +2054,6 @@
       "tags": [
         "HL検証:非該当",
         "Nansen発見",
-        "SmartMoney",
         "取引あり(14d)"
       ],
       "notes": "",
@@ -3042,7 +3037,6 @@
       "tags": [
         "HL検証:非該当",
         "Nansen発見",
-        "SmartMoney",
         "取引あり(14d)"
       ],
       "notes": "",
@@ -4671,7 +4665,6 @@
       "tags": [
         "HL検証:非該当",
         "Nansen発見",
-        "SmartMoney",
         "取引あり(14d)"
       ],
       "notes": "",
@@ -5111,7 +5104,6 @@
       "times_seen": 12,
       "tags": [
         "Nansen発見",
-        "SmartMoney",
         "取引あり(14d)"
       ],
       "notes": "",
@@ -6060,7 +6052,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 2,
       "tags": [
-        "HFT/MM",
+        "MM/HFT",
         "取引なし(14d)",
         "手動追加CA"
       ],
@@ -6220,7 +6212,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 2,
       "tags": [
-        "HFT/MM",
+        "MM/HFT",
         "取引なし(14d)",
         "手動追加CA"
       ],
@@ -6393,7 +6385,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 2,
       "tags": [
-        "HFT/MM",
+        "MM/HFT",
         "取引なし(14d)",
         "手動追加CA"
       ],
@@ -6554,7 +6546,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 2,
       "tags": [
-        "HFT/MM",
+        "MM/HFT",
         "取引あり(14d)",
         "手動追加CA"
       ],
@@ -6868,7 +6860,6 @@
       "times_seen": 8,
       "tags": [
         "Nansen発見",
-        "SmartMoney",
         "Tier-C",
         "出金:実力プロ型",
         "出金済",
@@ -7006,7 +6997,7 @@
       "tags": [
         "WF:weak-suspect",
         "出金:先行検出(hit-and-run候補)",
-        "出金済(hit-and-run)",
+        "出金済",
         "取引なし(14d)"
       ],
       "notes": "",
@@ -7399,7 +7390,6 @@
       "times_seen": 8,
       "tags": [
         "Nansen発見",
-        "SmartMoney",
         "出金:先行は偶然濃厚",
         "取引あり(14d)"
       ],
@@ -7870,7 +7860,6 @@
       "times_seen": 8,
       "tags": [
         "Nansen発見",
-        "SmartMoney",
         "出金:保留",
         "取引あり(14d)"
       ],
@@ -8239,7 +8228,6 @@
       "times_seen": 8,
       "tags": [
         "Nansen発見",
-        "SmartMoney",
         "出金:保留",
         "取引なし(14d)"
       ],
@@ -9296,7 +9284,6 @@
       "times_seen": 8,
       "tags": [
         "Nansen発見",
-        "SmartMoney",
         "取引あり(14d)"
       ],
       "notes": "",
@@ -9405,7 +9392,6 @@
       "times_seen": 8,
       "tags": [
         "Nansen発見",
-        "SmartMoney",
         "取引あり(14d)"
       ],
       "notes": "",
@@ -9907,7 +9893,6 @@
       "times_seen": 8,
       "tags": [
         "Nansen発見",
-        "SmartMoney",
         "Tier-D",
         "出金:実力プロ型",
         "出金済",
@@ -10683,7 +10668,6 @@
       "times_seen": 8,
       "tags": [
         "Nansen発見",
-        "SmartMoney",
         "取引なし(14d)"
       ],
       "notes": "",
@@ -11167,7 +11151,6 @@
       "tags": [
         "MM/HFT",
         "Nansen発見",
-        "SmartMoney",
         "取引なし(14d)"
       ],
       "notes": "",
@@ -11218,8 +11201,7 @@
       "tags": [
         "HL検証:非該当",
         "Nansen発見",
-        "取引あり(14d)",
-        "機関"
+        "取引あり(14d)"
       ],
       "notes": "",
       "history": [
@@ -11269,7 +11251,6 @@
       "tags": [
         "MM/HFT",
         "Nansen発見",
-        "SmartMoney",
         "取引なし(14d)"
       ],
       "notes": "",
@@ -11320,7 +11301,6 @@
       "tags": [
         "HL検証済プロ",
         "Nansen発見",
-        "SmartMoney",
         "Tier-A",
         "取引なし(14d)"
       ],
@@ -11390,7 +11370,6 @@
       "tags": [
         "HL検証:非該当",
         "Nansen発見",
-        "SmartMoney",
         "取引なし(14d)"
       ],
       "notes": "",
@@ -11441,7 +11420,6 @@
       "tags": [
         "HL検証:非該当",
         "Nansen発見",
-        "SmartMoney",
         "取引なし(14d)"
       ],
       "notes": "",
@@ -11491,7 +11469,6 @@
       "tags": [
         "HL検証:非該当",
         "Nansen発見",
-        "SmartMoney",
         "取引あり(14d)"
       ],
       "notes": "",
@@ -11542,7 +11519,6 @@
       "tags": [
         "MM/HFT",
         "Nansen発見",
-        "SmartMoney",
         "取引なし(14d)"
       ],
       "notes": "",
@@ -11593,7 +11569,6 @@
       "tags": [
         "HL検証済プロ",
         "Nansen発見",
-        "SmartMoney",
         "Tier-S",
         "取引あり(14d)"
       ],
@@ -11744,7 +11719,6 @@
       "times_seen": 1,
       "tags": [
         "Nansen発見",
-        "SmartMoney",
         "Tier-S",
         "取引あり(14d)",
         "稼ぎ確認・先行不明(要精査)"
@@ -11873,7 +11847,6 @@
       "tags": [
         "HL検証済プロ",
         "Nansen発見",
-        "SmartMoney",
         "Tier-B",
         "取引なし(14d)"
       ],
@@ -12024,7 +11997,6 @@
       "tags": [
         "MM/HFT",
         "Nansen発見",
-        "SmartMoney",
         "取引あり(14d)"
       ],
       "notes": "",
@@ -12075,7 +12047,6 @@
       "tags": [
         "HL検証:非該当",
         "Nansen発見",
-        "SmartMoney",
         "取引なし(14d)"
       ],
       "notes": "",
@@ -12125,7 +12096,6 @@
       "tags": [
         "HL検証:非該当",
         "Nansen発見",
-        "SmartMoney",
         "取引なし(14d)"
       ],
       "notes": "",
@@ -12175,7 +12145,6 @@
       "tags": [
         "HL検証:非該当",
         "Nansen発見",
-        "SmartMoney",
         "取引なし(14d)"
       ],
       "notes": "",
@@ -12226,7 +12195,6 @@
       "tags": [
         "HL検証:非該当",
         "Nansen発見",
-        "SmartMoney",
         "取引なし(14d)"
       ],
       "notes": "",
@@ -12276,7 +12244,6 @@
       "tags": [
         "HL履歴なし",
         "Nansen発見",
-        "SmartMoney",
         "取引あり(14d)"
       ],
       "notes": "",
@@ -12324,7 +12291,6 @@
       "times_seen": 2,
       "tags": [
         "Nansen発見",
-        "SmartMoney",
         "Tier-S",
         "取引あり(14d)",
         "稼ぎ確認・先行不明(要精査)"
@@ -12443,7 +12409,6 @@
       "tags": [
         "MM/HFT",
         "Nansen発見",
-        "SmartMoney",
         "取引なし(14d)"
       ],
       "notes": "",
@@ -12494,7 +12459,6 @@
       "tags": [
         "MM/HFT",
         "Nansen発見",
-        "SmartMoney",
         "取引なし(14d)"
       ],
       "notes": "",
@@ -12544,7 +12508,6 @@
       "tags": [
         "MM/HFT",
         "Nansen発見",
-        "SmartMoney",
         "取引なし(14d)"
       ],
       "notes": "",
@@ -12594,7 +12557,6 @@
       "tags": [
         "MM/HFT",
         "Nansen発見",
-        "SmartMoney",
         "取引なし(14d)"
       ],
       "notes": "",
@@ -12645,8 +12607,7 @@
         "HL検証済プロ",
         "Nansen発見",
         "Tier-C",
-        "取引なし(14d)",
-        "機関"
+        "取引なし(14d)"
       ],
       "notes": "",
       "history": [
@@ -12714,7 +12675,6 @@
       "tags": [
         "HL履歴なし",
         "Nansen発見",
-        "SmartMoney",
         "取引あり(14d)"
       ],
       "notes": "",
@@ -12763,7 +12723,6 @@
       "tags": [
         "HL履歴なし",
         "Nansen発見",
-        "SmartMoney",
         "取引なし(14d)"
       ],
       "notes": "",
@@ -12810,7 +12769,6 @@
       "tags": [
         "MM/HFT",
         "Nansen発見",
-        "SmartMoney",
         "取引なし(14d)"
       ],
       "notes": "",
@@ -12860,7 +12818,6 @@
       "tags": [
         "MM/HFT",
         "Nansen発見",
-        "SmartMoney",
         "取引なし(14d)"
       ],
       "notes": "",
@@ -12910,7 +12867,6 @@
       "tags": [
         "HL先行検出",
         "Nansen発見",
-        "SmartMoney",
         "WF:weak-suspect",
         "公共サービス資金源(協調でない)",
         "取引あり(14d)"
@@ -13008,7 +12964,6 @@
       "tags": [
         "MM/HFT",
         "Nansen発見",
-        "SmartMoney",
         "取引なし(14d)"
       ],
       "notes": "",
@@ -13058,7 +13013,6 @@
       "tags": [
         "MM/HFT",
         "Nansen発見",
-        "SmartMoney",
         "取引なし(14d)"
       ],
       "notes": "",
@@ -13107,7 +13061,6 @@
       "times_seen": 2,
       "tags": [
         "Nansen発見",
-        "SmartMoney",
         "Tier-B",
         "取引なし(14d)",
         "稼ぎ確認・先行不明(要精査)"
@@ -13224,7 +13177,6 @@
       "tags": [
         "HL履歴なし",
         "Nansen発見",
-        "SmartMoney",
         "取引なし(14d)"
       ],
       "notes": "",
@@ -13271,7 +13223,6 @@
       "tags": [
         "HL検証:非該当",
         "Nansen発見",
-        "SmartMoney",
         "取引なし(14d)"
       ],
       "notes": "",
@@ -13321,7 +13272,6 @@
       "tags": [
         "HL履歴なし",
         "Nansen発見",
-        "SmartMoney",
         "取引なし(14d)"
       ],
       "notes": "",
@@ -13368,7 +13318,6 @@
       "tags": [
         "HL履歴なし",
         "Nansen発見",
-        "SmartMoney",
         "取引なし(14d)"
       ],
       "notes": "",
@@ -13415,7 +13364,6 @@
       "tags": [
         "MM/HFT",
         "Nansen発見",
-        "SmartMoney",
         "取引なし(14d)"
       ],
       "notes": "",
@@ -13465,7 +13413,6 @@
       "tags": [
         "MM/HFT",
         "Nansen発見",
-        "SmartMoney",
         "取引なし(14d)"
       ],
       "notes": "",
@@ -13516,7 +13463,6 @@
       "tags": [
         "MM/HFT",
         "Nansen発見",
-        "SmartMoney",
         "取引なし(14d)"
       ],
       "notes": "",
@@ -13566,7 +13512,6 @@
       "tags": [
         "HL検証済プロ",
         "Nansen発見",
-        "SmartMoney",
         "Tier-B",
         "取引なし(14d)"
       ],
@@ -13635,7 +13580,6 @@
       "tags": [
         "MM/HFT",
         "Nansen発見",
-        "SmartMoney",
         "取引あり(14d)"
       ],
       "notes": "",
@@ -13686,7 +13630,6 @@
       "tags": [
         "HL検証済プロ",
         "Nansen発見",
-        "SmartMoney",
         "Tier-B",
         "取引なし(14d)"
       ],
@@ -13755,7 +13698,6 @@
       "tags": [
         "HL履歴なし",
         "Nansen発見",
-        "SmartMoney",
         "取引あり(14d)"
       ],
       "notes": "",
@@ -13804,7 +13746,6 @@
       "tags": [
         "HL検証:非該当",
         "Nansen発見",
-        "SmartMoney",
         "取引なし(14d)"
       ],
       "notes": "",
@@ -13854,7 +13795,6 @@
       "tags": [
         "HL履歴なし",
         "Nansen発見",
-        "SmartMoney",
         "取引なし(14d)"
       ],
       "notes": "",
@@ -13901,7 +13841,6 @@
       "tags": [
         "MM/HFT",
         "Nansen発見",
-        "SmartMoney",
         "取引なし(14d)"
       ],
       "notes": "",
@@ -13951,7 +13890,6 @@
       "tags": [
         "HL検証済プロ",
         "Nansen発見",
-        "SmartMoney",
         "Tier-C",
         "取引なし(14d)"
       ],
@@ -14062,7 +14000,6 @@
       "tags": [
         "MM/HFT",
         "Nansen発見",
-        "SmartMoney",
         "取引なし(14d)"
       ],
       "notes": "",
@@ -14113,7 +14050,6 @@
       "tags": [
         "MM/HFT",
         "Nansen発見",
-        "SmartMoney",
         "取引なし(14d)"
       ],
       "notes": "",
@@ -14164,7 +14100,6 @@
       "tags": [
         "MM/HFT",
         "Nansen発見",
-        "SmartMoney",
         "取引なし(14d)"
       ],
       "notes": "",
@@ -14213,7 +14148,6 @@
       "times_seen": 1,
       "tags": [
         "Nansen発見",
-        "SmartMoney",
         "Tier-D",
         "取引なし(14d)",
         "稼ぎ確認・先行不明(要精査)"
@@ -14338,7 +14272,6 @@
       "times_seen": 1,
       "tags": [
         "Nansen発見",
-        "SmartMoney",
         "Tier-C",
         "取引なし(14d)",
         "稼ぎ確認・先行不明(要精査)"
@@ -14464,7 +14397,6 @@
       "tags": [
         "HL履歴なし",
         "Nansen発見",
-        "SmartMoney",
         "取引あり(14d)"
       ],
       "notes": "",
@@ -14514,7 +14446,6 @@
       "tags": [
         "HL履歴なし",
         "Nansen発見",
-        "SmartMoney",
         "取引なし(14d)"
       ],
       "notes": "",
@@ -14561,7 +14492,6 @@
       "times_seen": 1,
       "tags": [
         "Nansen発見",
-        "SmartMoney",
         "Tier-B",
         "取引あり(14d)",
         "稼ぎ確認・先行不明(要精査)"
@@ -14619,7 +14549,6 @@
       "times_seen": 1,
       "tags": [
         "Nansen発見",
-        "SmartMoney",
         "Tier-B",
         "取引なし(14d)",
         "稼ぎ確認・先行不明(要精査)"
@@ -14745,7 +14674,6 @@
       "tags": [
         "HL検証済プロ",
         "Nansen発見",
-        "SmartMoney",
         "Tier-A",
         "取引あり(14d)"
       ],
@@ -14896,7 +14824,6 @@
       "tags": [
         "MM/HFT",
         "Nansen発見",
-        "SmartMoney",
         "取引なし(14d)"
       ],
       "notes": "",
@@ -14946,7 +14873,6 @@
       "times_seen": 1,
       "tags": [
         "Nansen発見",
-        "SmartMoney",
         "取引なし(14d)",
         "稼ぎ確認・先行不明(要精査)"
       ],
@@ -15003,7 +14929,6 @@
       "times_seen": 1,
       "tags": [
         "Nansen発見",
-        "SmartMoney",
         "Tier-B",
         "取引あり(14d)",
         "稼ぎ確認・先行不明(要精査)"
@@ -15081,7 +15006,6 @@
       "tags": [
         "HL検証済プロ",
         "Nansen発見",
-        "SmartMoney",
         "Tier-C",
         "取引なし(14d)"
       ],
@@ -15232,7 +15156,6 @@
       "tags": [
         "HL検証:非該当",
         "Nansen発見",
-        "SmartMoney",
         "取引なし(14d)"
       ],
       "notes": "",
@@ -15282,7 +15205,6 @@
       "tags": [
         "HL検証:非該当",
         "Nansen発見",
-        "SmartMoney",
         "取引なし(14d)"
       ],
       "notes": "",
@@ -15332,7 +15254,6 @@
       "tags": [
         "HL検証:非該当",
         "Nansen発見",
-        "SmartMoney",
         "取引なし(14d)"
       ],
       "notes": "",
@@ -15382,7 +15303,6 @@
       "tags": [
         "HL履歴なし",
         "Nansen発見",
-        "SmartMoney",
         "取引あり(14d)"
       ],
       "notes": "",
@@ -15431,7 +15351,6 @@
       "tags": [
         "HL履歴なし",
         "Nansen発見",
-        "SmartMoney",
         "取引あり(14d)"
       ],
       "notes": "",
@@ -15479,7 +15398,6 @@
       "times_seen": 1,
       "tags": [
         "Nansen発見",
-        "SmartMoney",
         "取引なし(14d)",
         "稼ぎ確認・先行不明(要精査)"
       ],
@@ -15530,7 +15448,6 @@
       "tags": [
         "HL検証:非該当",
         "Nansen発見",
-        "SmartMoney",
         "取引あり(14d)"
       ],
       "notes": "",
@@ -15580,7 +15497,6 @@
       "tags": [
         "HL先行検出",
         "Nansen発見",
-        "SmartMoney",
         "WF:likely-insider",
         "公共サービス資金源(協調でない)",
         "取引あり(14d)"
@@ -15727,7 +15643,6 @@
       "tags": [
         "MM/HFT",
         "Nansen発見",
-        "SmartMoney",
         "取引なし(14d)"
       ],
       "notes": "",
@@ -15778,7 +15693,6 @@
       "tags": [
         "MM/HFT",
         "Nansen発見",
-        "SmartMoney",
         "取引なし(14d)"
       ],
       "notes": "",
@@ -15828,7 +15742,6 @@
       "tags": [
         "MM/HFT",
         "Nansen発見",
-        "SmartMoney",
         "取引あり(14d)"
       ],
       "notes": "",
@@ -15878,7 +15791,6 @@
       "times_seen": 2,
       "tags": [
         "Nansen発見",
-        "SmartMoney",
         "取引あり(14d)",
         "稼ぎ確認・先行不明(要精査)"
       ],
@@ -16002,7 +15914,6 @@
       "tags": [
         "HL検証:非該当",
         "Nansen発見",
-        "SmartMoney",
         "取引なし(14d)"
       ],
       "notes": "",
@@ -16052,7 +15963,6 @@
       "tags": [
         "HL履歴なし",
         "Nansen発見",
-        "SmartMoney",
         "取引あり(14d)"
       ],
       "notes": "",
@@ -16101,7 +16011,6 @@
       "tags": [
         "HL履歴なし",
         "Nansen発見",
-        "SmartMoney",
         "取引あり(14d)"
       ],
       "notes": "",
@@ -16150,7 +16059,6 @@
       "tags": [
         "HL先行検出",
         "Nansen発見",
-        "SmartMoney",
         "WF:weak-suspect",
         "取引なし(14d)"
       ],
@@ -16251,8 +16159,7 @@
       "tags": [
         "MM/HFT",
         "Nansen発見",
-        "取引あり(14d)",
-        "機関"
+        "取引あり(14d)"
       ],
       "notes": "",
       "history": [
@@ -16301,7 +16208,6 @@
       "times_seen": 2,
       "tags": [
         "Nansen発見",
-        "SmartMoney",
         "取引あり(14d)",
         "稼ぎ確認・先行不明(要精査)"
       ],
@@ -16381,7 +16287,6 @@
       "tags": [
         "MM/HFT",
         "Nansen発見",
-        "SmartMoney",
         "取引なし(14d)"
       ],
       "notes": "",
@@ -16431,7 +16336,6 @@
       "tags": [
         "MM/HFT",
         "Nansen発見",
-        "SmartMoney",
         "取引あり(14d)"
       ],
       "notes": "",
@@ -16482,7 +16386,6 @@
       "tags": [
         "MM/HFT",
         "Nansen発見",
-        "SmartMoney",
         "取引なし(14d)"
       ],
       "notes": "",
@@ -16532,7 +16435,6 @@
       "tags": [
         "HL検証:非該当",
         "Nansen発見",
-        "SmartMoney",
         "取引なし(14d)"
       ],
       "notes": "",
@@ -16582,7 +16484,6 @@
       "tags": [
         "HL履歴なし",
         "Nansen発見",
-        "SmartMoney",
         "取引なし(14d)"
       ],
       "notes": "",
@@ -16629,7 +16530,6 @@
       "tags": [
         "HL履歴なし",
         "Nansen発見",
-        "SmartMoney",
         "取引なし(14d)"
       ],
       "notes": "",
@@ -16676,7 +16576,6 @@
       "tags": [
         "HL検証:非該当",
         "Nansen発見",
-        "SmartMoney",
         "取引あり(14d)"
       ],
       "notes": "",
@@ -16726,7 +16625,6 @@
       "tags": [
         "HL検証済プロ",
         "Nansen発見",
-        "SmartMoney",
         "Tier-C",
         "取引なし(14d)"
       ],
@@ -16876,7 +16774,6 @@
       "times_seen": 1,
       "tags": [
         "Nansen発見",
-        "SmartMoney",
         "Tier-C",
         "取引なし(14d)",
         "稼ぎ確認・先行不明(要精査)"
@@ -16996,7 +16893,6 @@
       "tags": [
         "HL検証:非該当",
         "Nansen発見",
-        "SmartMoney",
         "取引あり(14d)"
       ],
       "notes": "",
@@ -17046,7 +16942,6 @@
       "times_seen": 1,
       "tags": [
         "Nansen発見",
-        "SmartMoney",
         "Tier-C",
         "取引なし(14d)",
         "稼ぎ確認・先行不明(要精査)"
@@ -17148,7 +17043,6 @@
       "times_seen": 2,
       "tags": [
         "Nansen発見",
-        "SmartMoney",
         "Tier-B",
         "取引あり(14d)",
         "稼ぎ確認・先行不明(要精査)"
@@ -17277,7 +17171,6 @@
       "times_seen": 2,
       "tags": [
         "Nansen発見",
-        "SmartMoney",
         "取引なし(14d)",
         "稼ぎ確認・先行不明(要精査)"
       ],
@@ -17398,7 +17291,6 @@
       "times_seen": 1,
       "tags": [
         "Nansen発見",
-        "SmartMoney",
         "Tier-B",
         "取引あり(14d)",
         "稼ぎ確認・先行不明(要精査)"
@@ -17463,7 +17355,6 @@
       "tags": [
         "HL検証:非該当",
         "Nansen発見",
-        "SmartMoney",
         "取引なし(14d)"
       ],
       "notes": "",
@@ -17513,7 +17404,6 @@
       "tags": [
         "MM/HFT",
         "Nansen発見",
-        "SmartMoney",
         "取引なし(14d)"
       ],
       "notes": "",
@@ -17562,7 +17452,6 @@
       "times_seen": 1,
       "tags": [
         "Nansen発見",
-        "SmartMoney",
         "Tier-C",
         "取引なし(14d)",
         "稼ぎ確認・先行不明(要精査)"
@@ -17627,7 +17516,6 @@
       "tags": [
         "HL検証:非該当",
         "Nansen発見",
-        "SmartMoney",
         "取引なし(14d)"
       ],
       "notes": "",
@@ -17677,7 +17565,6 @@
       "tags": [
         "HL検証:非該当",
         "Nansen発見",
-        "SmartMoney",
         "取引なし(14d)"
       ],
       "notes": "",
@@ -17727,7 +17614,6 @@
       "tags": [
         "HL履歴なし",
         "Nansen発見",
-        "SmartMoney",
         "取引あり(14d)"
       ],
       "notes": "",
@@ -17776,7 +17662,6 @@
       "tags": [
         "HL履歴なし",
         "Nansen発見",
-        "SmartMoney",
         "取引なし(14d)"
       ],
       "notes": "",
@@ -17823,7 +17708,6 @@
       "tags": [
         "MM/HFT",
         "Nansen発見",
-        "SmartMoney",
         "取引なし(14d)"
       ],
       "notes": "",
@@ -17873,7 +17757,6 @@
       "tags": [
         "MM/HFT",
         "Nansen発見",
-        "SmartMoney",
         "取引なし(14d)"
       ],
       "notes": "",
@@ -17923,7 +17806,6 @@
       "tags": [
         "HL先行検出",
         "Nansen発見",
-        "SmartMoney",
         "取引なし(14d)"
       ],
       "notes": "",
@@ -18091,7 +17973,6 @@
       "tags": [
         "MM/HFT",
         "Nansen発見",
-        "SmartMoney",
         "取引なし(14d)"
       ],
       "notes": "",
@@ -18141,7 +18022,6 @@
       "tags": [
         "HL検証:非該当",
         "Nansen発見",
-        "SmartMoney",
         "取引なし(14d)"
       ],
       "notes": "",
@@ -18191,7 +18071,6 @@
       "tags": [
         "HL検証済プロ",
         "Nansen発見",
-        "SmartMoney",
         "Tier-B",
         "取引なし(14d)"
       ],
@@ -18286,7 +18165,6 @@
       "tags": [
         "HL検証:非該当",
         "Nansen発見",
-        "SmartMoney",
         "取引なし(14d)"
       ],
       "notes": "",
@@ -18337,7 +18215,6 @@
       "tags": [
         "MM/HFT",
         "Nansen発見",
-        "SmartMoney",
         "取引なし(14d)"
       ],
       "notes": "",
@@ -18386,7 +18263,6 @@
       "times_seen": 1,
       "tags": [
         "Nansen発見",
-        "SmartMoney",
         "Tier-B",
         "取引なし(14d)",
         "稼ぎ確認・先行不明(要精査)"
@@ -18512,7 +18388,6 @@
       "tags": [
         "HL検証:非該当",
         "Nansen発見",
-        "SmartMoney",
         "取引なし(14d)"
       ],
       "notes": "",
@@ -18562,7 +18437,6 @@
       "tags": [
         "MM/HFT",
         "Nansen発見",
-        "SmartMoney",
         "取引なし(14d)"
       ],
       "notes": "",
@@ -18612,7 +18486,6 @@
       "tags": [
         "HL検証済プロ",
         "Nansen発見",
-        "SmartMoney",
         "Tier-A",
         "取引あり(14d)"
       ],
@@ -18715,7 +18588,6 @@
       "tags": [
         "MM/HFT",
         "Nansen発見",
-        "SmartMoney",
         "取引なし(14d)"
       ],
       "notes": "",
@@ -18765,7 +18637,6 @@
       "tags": [
         "HL検証:非該当",
         "Nansen発見",
-        "SmartMoney",
         "取引あり(14d)"
       ],
       "notes": "",
@@ -18815,8 +18686,7 @@
       "tags": [
         "HL検証:非該当",
         "Nansen発見",
-        "取引なし(14d)",
-        "機関"
+        "取引なし(14d)"
       ],
       "notes": "",
       "history": [
@@ -18865,7 +18735,6 @@
       "tags": [
         "HL検証:非該当",
         "Nansen発見",
-        "SmartMoney",
         "取引なし(14d)"
       ],
       "notes": "",
@@ -18915,7 +18784,6 @@
       "tags": [
         "HL履歴なし",
         "Nansen発見",
-        "SmartMoney",
         "取引なし(14d)"
       ],
       "notes": "",
@@ -18962,7 +18830,6 @@
       "tags": [
         "HL検証済プロ",
         "Nansen発見",
-        "SmartMoney",
         "Tier-B",
         "取引あり(14d)"
       ],
@@ -19113,7 +18980,6 @@
       "tags": [
         "MM/HFT",
         "Nansen発見",
-        "SmartMoney",
         "取引なし(14d)"
       ],
       "notes": "",
@@ -19163,7 +19029,6 @@
       "tags": [
         "MM/HFT",
         "Nansen発見",
-        "SmartMoney",
         "取引あり(14d)"
       ],
       "notes": "",
@@ -19213,7 +19078,6 @@
       "tags": [
         "MM/HFT",
         "Nansen発見",
-        "SmartMoney",
         "取引なし(14d)"
       ],
       "notes": "",
@@ -19264,7 +19128,6 @@
       "tags": [
         "MM/HFT",
         "Nansen発見",
-        "SmartMoney",
         "取引なし(14d)"
       ],
       "notes": "",
@@ -19314,7 +19177,6 @@
       "tags": [
         "HL履歴なし",
         "Nansen発見",
-        "SmartMoney",
         "取引あり(14d)"
       ],
       "notes": "",
@@ -19364,7 +19226,6 @@
       "tags": [
         "HL検証:非該当",
         "Nansen発見",
-        "SmartMoney",
         "取引あり(14d)"
       ],
       "notes": "",
@@ -19414,7 +19275,6 @@
       "tags": [
         "HL検証:非該当",
         "Nansen発見",
-        "SmartMoney",
         "取引なし(14d)"
       ],
       "notes": "",
@@ -19465,7 +19325,6 @@
       "tags": [
         "HL検証:非該当",
         "Nansen発見",
-        "SmartMoney",
         "取引なし(14d)"
       ],
       "notes": "",
@@ -19515,7 +19374,6 @@
       "tags": [
         "HL検証:非該当",
         "Nansen発見",
-        "SmartMoney",
         "取引なし(14d)"
       ],
       "notes": "",
@@ -19565,7 +19423,6 @@
       "tags": [
         "HL検証済プロ",
         "Nansen発見",
-        "SmartMoney",
         "Tier-B",
         "取引あり(14d)"
       ],
@@ -19716,7 +19573,6 @@
       "tags": [
         "HL検証:非該当",
         "Nansen発見",
-        "SmartMoney",
         "取引あり(14d)"
       ],
       "notes": "",
@@ -19766,7 +19622,6 @@
       "tags": [
         "HL検証済プロ",
         "Nansen発見",
-        "SmartMoney",
         "Tier-A",
         "取引あり(14d)"
       ],
@@ -19909,7 +19764,6 @@
       "tags": [
         "HL検証:非該当",
         "Nansen発見",
-        "SmartMoney",
         "取引あり(14d)"
       ],
       "notes": "",
@@ -19960,7 +19814,6 @@
       "tags": [
         "HL検証:非該当",
         "Nansen発見",
-        "SmartMoney",
         "取引あり(14d)"
       ],
       "notes": "",
@@ -20010,7 +19863,6 @@
       "tags": [
         "HL検証:非該当",
         "Nansen発見",
-        "SmartMoney",
         "取引あり(14d)"
       ],
       "notes": "",
@@ -20061,7 +19913,6 @@
       "tags": [
         "HL検証:非該当",
         "Nansen発見",
-        "SmartMoney",
         "取引あり(14d)"
       ],
       "notes": "",
@@ -20111,7 +19962,6 @@
       "tags": [
         "HL検証:非該当",
         "Nansen発見",
-        "SmartMoney",
         "取引なし(14d)"
       ],
       "notes": "",
@@ -20161,7 +20011,6 @@
       "tags": [
         "HL検証:非該当",
         "Nansen発見",
-        "SmartMoney",
         "取引あり(14d)"
       ],
       "notes": "",
@@ -20211,7 +20060,6 @@
       "tags": [
         "HL検証:非該当",
         "Nansen発見",
-        "SmartMoney",
         "取引なし(14d)"
       ],
       "notes": "",
@@ -20261,7 +20109,6 @@
       "tags": [
         "HL検証:非該当",
         "Nansen発見",
-        "SmartMoney",
         "取引なし(14d)"
       ],
       "notes": "",
@@ -20311,7 +20158,6 @@
       "tags": [
         "HL検証:非該当",
         "Nansen発見",
-        "SmartMoney",
         "取引あり(14d)"
       ],
       "notes": "",
@@ -20361,7 +20207,6 @@
       "tags": [
         "HL検証済プロ",
         "Nansen発見",
-        "SmartMoney",
         "Tier-B",
         "取引なし(14d)"
       ],
@@ -20422,7 +20267,6 @@
       "tags": [
         "HL検証:非該当",
         "Nansen発見",
-        "SmartMoney",
         "取引なし(14d)"
       ],
       "notes": "",
@@ -20473,7 +20317,6 @@
       "tags": [
         "HL履歴なし",
         "Nansen発見",
-        "SmartMoney",
         "取引なし(14d)"
       ],
       "notes": "",
@@ -20520,7 +20363,6 @@
       "tags": [
         "HL履歴なし",
         "Nansen発見",
-        "SmartMoney",
         "取引あり(14d)"
       ],
       "notes": "",
@@ -20569,7 +20411,6 @@
       "tags": [
         "MM/HFT",
         "Nansen発見",
-        "SmartMoney",
         "取引なし(14d)"
       ],
       "notes": "",
@@ -20619,7 +20460,6 @@
       "tags": [
         "HL検証:非該当",
         "Nansen発見",
-        "SmartMoney",
         "取引なし(14d)"
       ],
       "notes": "",
@@ -20669,7 +20509,6 @@
       "tags": [
         "HL検証:非該当",
         "Nansen発見",
-        "SmartMoney",
         "取引なし(14d)"
       ],
       "notes": "",
@@ -20720,7 +20559,6 @@
       "tags": [
         "HL検証:非該当",
         "Nansen発見",
-        "SmartMoney",
         "取引なし(14d)"
       ],
       "notes": "",
@@ -20770,7 +20608,6 @@
       "tags": [
         "HL検証:非該当",
         "Nansen発見",
-        "SmartMoney",
         "取引なし(14d)"
       ],
       "notes": "",
@@ -20820,7 +20657,6 @@
       "tags": [
         "HL検証:非該当",
         "Nansen発見",
-        "SmartMoney",
         "取引あり(14d)"
       ],
       "notes": "",
@@ -20870,7 +20706,6 @@
       "tags": [
         "HL検証済プロ",
         "Nansen発見",
-        "SmartMoney",
         "Tier-A",
         "取引あり(14d)"
       ],
@@ -21033,7 +20868,6 @@
       "tags": [
         "HL検証:非該当",
         "Nansen発見",
-        "SmartMoney",
         "取引なし(14d)"
       ],
       "notes": "",
@@ -21083,7 +20917,6 @@
       "tags": [
         "MM/HFT",
         "Nansen発見",
-        "SmartMoney",
         "取引なし(14d)"
       ],
       "notes": "",
@@ -21133,7 +20966,6 @@
       "tags": [
         "HL検証:非該当",
         "Nansen発見",
-        "SmartMoney",
         "取引あり(14d)"
       ],
       "notes": "",
@@ -21183,7 +21015,6 @@
       "tags": [
         "HL履歴なし",
         "Nansen発見",
-        "SmartMoney",
         "取引あり(14d)"
       ],
       "notes": "",
@@ -21232,7 +21063,6 @@
       "tags": [
         "HL検証:非該当",
         "Nansen発見",
-        "SmartMoney",
         "取引なし(14d)"
       ],
       "notes": "",
@@ -21283,7 +21113,6 @@
       "tags": [
         "HL履歴なし",
         "Nansen発見",
-        "SmartMoney",
         "取引あり(14d)"
       ],
       "notes": "",
@@ -21332,7 +21161,6 @@
       "tags": [
         "HL検証:非該当",
         "Nansen発見",
-        "SmartMoney",
         "取引なし(14d)"
       ],
       "notes": "",
@@ -21382,7 +21210,6 @@
       "tags": [
         "HL検証:非該当",
         "Nansen発見",
-        "SmartMoney",
         "取引なし(14d)"
       ],
       "notes": "",
@@ -21431,7 +21258,6 @@
       "times_seen": 1,
       "tags": [
         "Nansen発見",
-        "SmartMoney",
         "Tier-A",
         "取引あり(14d)",
         "稼ぎ確認・先行不明(要精査)"
@@ -21528,7 +21354,6 @@
       "tags": [
         "HL検証:非該当",
         "Nansen発見",
-        "SmartMoney",
         "取引なし(14d)"
       ],
       "notes": "",
@@ -21578,7 +21403,6 @@
       "tags": [
         "HL検証:非該当",
         "Nansen発見",
-        "SmartMoney",
         "取引あり(14d)"
       ],
       "notes": "",
@@ -21628,8 +21452,7 @@
       "tags": [
         "MM/HFT",
         "Nansen発見",
-        "取引あり(14d)",
-        "機関"
+        "取引あり(14d)"
       ],
       "notes": "",
       "history": [
@@ -21679,7 +21502,6 @@
       "tags": [
         "MM/HFT",
         "Nansen発見",
-        "SmartMoney",
         "取引なし(14d)"
       ],
       "notes": "",
@@ -21729,7 +21551,6 @@
       "tags": [
         "MM/HFT",
         "Nansen発見",
-        "SmartMoney",
         "取引なし(14d)"
       ],
       "notes": "",
@@ -21779,7 +21600,6 @@
       "tags": [
         "HL検証:非該当",
         "Nansen発見",
-        "SmartMoney",
         "取引なし(14d)"
       ],
       "notes": "",
@@ -21829,7 +21649,6 @@
       "tags": [
         "HL履歴なし",
         "Nansen発見",
-        "SmartMoney",
         "取引なし(14d)"
       ],
       "notes": "",
@@ -21876,7 +21695,6 @@
       "tags": [
         "HL履歴なし",
         "Nansen発見",
-        "SmartMoney",
         "取引あり(14d)"
       ],
       "notes": "",
@@ -21926,7 +21744,6 @@
       "tags": [
         "MM/HFT",
         "Nansen発見",
-        "SmartMoney",
         "取引なし(14d)"
       ],
       "notes": "",
@@ -21976,7 +21793,6 @@
       "tags": [
         "HL検証:非該当",
         "Nansen発見",
-        "SmartMoney",
         "取引あり(14d)"
       ],
       "notes": "",
@@ -22026,7 +21842,6 @@
       "tags": [
         "HL検証:非該当",
         "Nansen発見",
-        "SmartMoney",
         "取引なし(14d)"
       ],
       "notes": "",
@@ -22077,7 +21892,6 @@
       "tags": [
         "HL検証:非該当",
         "Nansen発見",
-        "SmartMoney",
         "取引あり(14d)"
       ],
       "notes": "",
@@ -22127,7 +21941,6 @@
       "tags": [
         "MM/HFT",
         "Nansen発見",
-        "SmartMoney",
         "取引なし(14d)"
       ],
       "notes": "",
@@ -22177,7 +21990,6 @@
       "tags": [
         "HL検証:非該当",
         "Nansen発見",
-        "SmartMoney",
         "取引あり(14d)"
       ],
       "notes": "",
@@ -22227,7 +22039,6 @@
       "tags": [
         "MM/HFT",
         "Nansen発見",
-        "SmartMoney",
         "取引なし(14d)"
       ],
       "notes": "",
@@ -22277,7 +22088,6 @@
       "tags": [
         "HL検証:非該当",
         "Nansen発見",
-        "SmartMoney",
         "取引なし(14d)"
       ],
       "notes": "",
@@ -22327,7 +22137,6 @@
       "tags": [
         "HL検証:非該当",
         "Nansen発見",
-        "SmartMoney",
         "取引なし(14d)"
       ],
       "notes": "",
@@ -22377,7 +22186,6 @@
       "tags": [
         "HL履歴なし",
         "Nansen発見",
-        "SmartMoney",
         "取引なし(14d)"
       ],
       "notes": "",
@@ -22423,7 +22231,6 @@
       "times_seen": 1,
       "tags": [
         "Nansen発見",
-        "SmartMoney",
         "Tier-A",
         "取引なし(14d)",
         "稼ぎ確認・先行不明(要精査)"
@@ -22482,7 +22289,6 @@
       "tags": [
         "HL検証:非該当",
         "Nansen発見",
-        "SmartMoney",
         "取引あり(14d)"
       ],
       "notes": "",
@@ -22532,7 +22338,6 @@
       "tags": [
         "HL検証済プロ",
         "Nansen発見",
-        "SmartMoney",
         "Tier-B",
         "取引あり(14d)"
       ],
@@ -22619,7 +22424,6 @@
       "tags": [
         "HL検証:非該当",
         "Nansen発見",
-        "SmartMoney",
         "取引なし(14d)"
       ],
       "notes": "",
@@ -22669,7 +22473,6 @@
       "tags": [
         "HL検証:非該当",
         "Nansen発見",
-        "SmartMoney",
         "取引あり(14d)"
       ],
       "notes": "",
@@ -22720,7 +22523,6 @@
       "tags": [
         "HL検証:非該当",
         "Nansen発見",
-        "SmartMoney",
         "取引あり(14d)"
       ],
       "notes": "",
@@ -22770,7 +22572,6 @@
       "tags": [
         "HL検証:非該当",
         "Nansen発見",
-        "SmartMoney",
         "取引あり(14d)"
       ],
       "notes": "",
@@ -22820,7 +22621,6 @@
       "tags": [
         "HL検証:非該当",
         "Nansen発見",
-        "SmartMoney",
         "取引あり(14d)"
       ],
       "notes": "",
@@ -22870,7 +22670,6 @@
       "tags": [
         "HL検証:非該当",
         "Nansen発見",
-        "SmartMoney",
         "取引あり(14d)"
       ],
       "notes": "",
@@ -22920,8 +22719,7 @@
       "tags": [
         "MM/HFT",
         "Nansen発見",
-        "取引なし(14d)",
-        "機関"
+        "取引なし(14d)"
       ],
       "notes": "",
       "history": [
@@ -22970,7 +22768,6 @@
       "tags": [
         "HL検証:非該当",
         "Nansen発見",
-        "SmartMoney",
         "取引なし(14d)"
       ],
       "notes": "",
@@ -23020,7 +22817,6 @@
       "tags": [
         "HL履歴なし",
         "Nansen発見",
-        "SmartMoney",
         "取引あり(14d)"
       ],
       "notes": "",
@@ -23070,7 +22866,6 @@
       "tags": [
         "HL検証:非該当",
         "Nansen発見",
-        "SmartMoney",
         "取引なし(14d)"
       ],
       "notes": "",
@@ -23120,7 +22915,6 @@
       "tags": [
         "HL検証:非該当",
         "Nansen発見",
-        "SmartMoney",
         "取引あり(14d)"
       ],
       "notes": "",
@@ -23170,7 +22964,6 @@
       "tags": [
         "HL検証:非該当",
         "Nansen発見",
-        "SmartMoney",
         "取引あり(14d)"
       ],
       "notes": "",
@@ -23220,7 +23013,6 @@
       "tags": [
         "HL履歴なし",
         "Nansen発見",
-        "SmartMoney",
         "取引あり(14d)"
       ],
       "notes": "",
@@ -23269,7 +23061,6 @@
       "tags": [
         "MM/HFT",
         "Nansen発見",
-        "SmartMoney",
         "取引なし(14d)"
       ],
       "notes": "",
@@ -23319,7 +23110,6 @@
       "tags": [
         "HL検証:非該当",
         "Nansen発見",
-        "SmartMoney",
         "取引なし(14d)"
       ],
       "notes": "",
@@ -23369,7 +23159,6 @@
       "tags": [
         "HL検証:非該当",
         "Nansen発見",
-        "SmartMoney",
         "取引あり(14d)"
       ],
       "notes": "",
@@ -23419,7 +23208,6 @@
       "tags": [
         "HL検証:非該当",
         "Nansen発見",
-        "SmartMoney",
         "取引あり(14d)"
       ],
       "notes": "",
@@ -23469,7 +23257,6 @@
       "tags": [
         "HL検証済プロ",
         "Nansen発見",
-        "SmartMoney",
         "Tier-S",
         "取引あり(14d)"
       ],
@@ -23620,7 +23407,6 @@
       "tags": [
         "HL検証:非該当",
         "Nansen発見",
-        "SmartMoney",
         "取引あり(14d)"
       ],
       "notes": "",
@@ -23670,7 +23456,6 @@
       "tags": [
         "MM/HFT",
         "Nansen発見",
-        "SmartMoney",
         "取引あり(14d)"
       ],
       "notes": "",
@@ -23720,7 +23505,6 @@
       "tags": [
         "HL検証:非該当",
         "Nansen発見",
-        "SmartMoney",
         "取引あり(14d)"
       ],
       "notes": "",
@@ -23770,7 +23554,6 @@
       "tags": [
         "HL検証:非該当",
         "Nansen発見",
-        "SmartMoney",
         "取引あり(14d)"
       ],
       "notes": "",
@@ -23820,7 +23603,6 @@
       "tags": [
         "HL検証:非該当",
         "Nansen発見",
-        "SmartMoney",
         "取引あり(14d)"
       ],
       "notes": "",
@@ -23870,7 +23652,6 @@
       "tags": [
         "HL検証:非該当",
         "Nansen発見",
-        "SmartMoney",
         "取引あり(14d)"
       ],
       "notes": "",
@@ -23920,7 +23701,6 @@
       "tags": [
         "HL検証:非該当",
         "Nansen発見",
-        "SmartMoney",
         "取引あり(14d)"
       ],
       "notes": "",
@@ -23969,7 +23749,6 @@
       "times_seen": 1,
       "tags": [
         "Nansen発見",
-        "SmartMoney",
         "Tier-C",
         "取引なし(14d)",
         "稼ぎ確認・先行不明(要精査)"
@@ -24028,7 +23807,6 @@
       "tags": [
         "HL履歴なし",
         "Nansen発見",
-        "SmartMoney",
         "取引なし(14d)"
       ],
       "notes": "",
@@ -24075,7 +23853,6 @@
       "tags": [
         "HL履歴なし",
         "Nansen発見",
-        "SmartMoney",
         "取引あり(14d)"
       ],
       "notes": "",
@@ -24124,7 +23901,6 @@
       "tags": [
         "HL検証:非該当",
         "Nansen発見",
-        "SmartMoney",
         "取引あり(14d)"
       ],
       "notes": "",
@@ -24174,7 +23950,6 @@
       "tags": [
         "HL検証:非該当",
         "Nansen発見",
-        "SmartMoney",
         "取引あり(14d)"
       ],
       "notes": "",
@@ -24224,7 +23999,6 @@
       "tags": [
         "HL検証:非該当",
         "Nansen発見",
-        "SmartMoney",
         "取引あり(14d)"
       ],
       "notes": "",
@@ -24274,7 +24048,6 @@
       "tags": [
         "HL検証:非該当",
         "Nansen発見",
-        "SmartMoney",
         "取引あり(14d)"
       ],
       "notes": "",
@@ -24324,7 +24097,6 @@
       "tags": [
         "HL検証:非該当",
         "Nansen発見",
-        "SmartMoney",
         "取引あり(14d)"
       ],
       "notes": "",
@@ -24374,7 +24146,6 @@
       "tags": [
         "HL検証:非該当",
         "Nansen発見",
-        "SmartMoney",
         "取引あり(14d)"
       ],
       "notes": "",
@@ -24424,7 +24195,6 @@
       "tags": [
         "HL検証:非該当",
         "Nansen発見",
-        "SmartMoney",
         "取引あり(14d)"
       ],
       "notes": "",
@@ -24474,7 +24244,6 @@
       "tags": [
         "MM/HFT",
         "Nansen発見",
-        "SmartMoney",
         "取引あり(14d)"
       ],
       "notes": "",
@@ -24524,7 +24293,6 @@
       "tags": [
         "HL検証:非該当",
         "Nansen発見",
-        "SmartMoney",
         "取引なし(14d)"
       ],
       "notes": "",
@@ -24574,7 +24342,6 @@
       "tags": [
         "HL検証:非該当",
         "Nansen発見",
-        "SmartMoney",
         "取引あり(14d)"
       ],
       "notes": "",
@@ -24625,7 +24392,6 @@
       "tags": [
         "HL検証:非該当",
         "Nansen発見",
-        "SmartMoney",
         "取引なし(14d)"
       ],
       "notes": "",
@@ -24675,7 +24441,6 @@
       "tags": [
         "HL検証:非該当",
         "Nansen発見",
-        "SmartMoney",
         "取引なし(14d)"
       ],
       "notes": "",
@@ -24725,7 +24490,6 @@
       "tags": [
         "HL検証:非該当",
         "Nansen発見",
-        "SmartMoney",
         "取引なし(14d)"
       ],
       "notes": "",
@@ -24775,7 +24539,6 @@
       "tags": [
         "HL検証:非該当",
         "Nansen発見",
-        "SmartMoney",
         "取引なし(14d)"
       ],
       "notes": "",
@@ -24825,7 +24588,6 @@
       "tags": [
         "HL履歴なし",
         "Nansen発見",
-        "SmartMoney",
         "取引なし(14d)"
       ],
       "notes": "",
@@ -24872,7 +24634,6 @@
       "tags": [
         "MM/HFT",
         "Nansen発見",
-        "SmartMoney",
         "取引あり(14d)"
       ],
       "notes": "",
@@ -24923,7 +24684,6 @@
       "tags": [
         "MM/HFT",
         "Nansen発見",
-        "SmartMoney",
         "取引なし(14d)"
       ],
       "notes": "",
@@ -24973,7 +24733,6 @@
       "tags": [
         "HL検証:非該当",
         "Nansen発見",
-        "SmartMoney",
         "取引あり(14d)"
       ],
       "notes": "",
@@ -25023,7 +24782,6 @@
       "tags": [
         "HL検証:非該当",
         "Nansen発見",
-        "SmartMoney",
         "取引あり(14d)"
       ],
       "notes": "",
@@ -25073,7 +24831,6 @@
       "tags": [
         "HL検証:非該当",
         "Nansen発見",
-        "SmartMoney",
         "取引あり(14d)"
       ],
       "notes": "",
@@ -25123,7 +24880,6 @@
       "tags": [
         "HL検証:非該当",
         "Nansen発見",
-        "SmartMoney",
         "取引あり(14d)"
       ],
       "notes": "",
@@ -25173,7 +24929,6 @@
       "tags": [
         "HL検証:非該当",
         "Nansen発見",
-        "SmartMoney",
         "取引あり(14d)"
       ],
       "notes": "",
@@ -25223,7 +24978,6 @@
       "tags": [
         "HL検証:非該当",
         "Nansen発見",
-        "SmartMoney",
         "取引なし(14d)"
       ],
       "notes": "",
@@ -25273,7 +25027,6 @@
       "tags": [
         "HL検証:非該当",
         "Nansen発見",
-        "SmartMoney",
         "取引なし(14d)"
       ],
       "notes": "",
@@ -25323,7 +25076,6 @@
       "tags": [
         "MM/HFT",
         "Nansen発見",
-        "SmartMoney",
         "取引なし(14d)"
       ],
       "notes": "",
@@ -25373,7 +25125,6 @@
       "tags": [
         "HL検証:非該当",
         "Nansen発見",
-        "SmartMoney",
         "取引なし(14d)"
       ],
       "notes": "",
@@ -25423,7 +25174,6 @@
       "tags": [
         "HL履歴なし",
         "Nansen発見",
-        "SmartMoney",
         "取引なし(14d)"
       ],
       "notes": "",
@@ -25470,7 +25220,6 @@
       "tags": [
         "HL検証:非該当",
         "Nansen発見",
-        "SmartMoney",
         "取引なし(14d)"
       ],
       "notes": "",
@@ -25520,7 +25269,6 @@
       "tags": [
         "HL履歴なし",
         "Nansen発見",
-        "SmartMoney",
         "取引あり(14d)"
       ],
       "notes": "",
@@ -25569,7 +25317,6 @@
       "tags": [
         "HL検証:非該当",
         "Nansen発見",
-        "SmartMoney",
         "取引あり(14d)"
       ],
       "notes": "",
@@ -25619,7 +25366,6 @@
       "tags": [
         "MM/HFT",
         "Nansen発見",
-        "SmartMoney",
         "取引なし(14d)"
       ],
       "notes": "",
@@ -25669,7 +25415,6 @@
       "tags": [
         "MM/HFT",
         "Nansen発見",
-        "SmartMoney",
         "取引あり(14d)"
       ],
       "notes": "",
@@ -25720,7 +25465,6 @@
       "tags": [
         "HL検証:非該当",
         "Nansen発見",
-        "SmartMoney",
         "取引あり(14d)"
       ],
       "notes": "",
@@ -25770,7 +25514,6 @@
       "tags": [
         "HL検証:非該当",
         "Nansen発見",
-        "SmartMoney",
         "取引あり(14d)"
       ],
       "notes": "",
@@ -25820,7 +25563,6 @@
       "tags": [
         "HL検証:非該当",
         "Nansen発見",
-        "SmartMoney",
         "取引あり(14d)"
       ],
       "notes": "",
@@ -25870,7 +25612,6 @@
       "tags": [
         "HL検証:非該当",
         "Nansen発見",
-        "SmartMoney",
         "取引あり(14d)"
       ],
       "notes": "",
@@ -25921,7 +25662,6 @@
       "tags": [
         "HL検証:非該当",
         "Nansen発見",
-        "SmartMoney",
         "取引なし(14d)"
       ],
       "notes": "",
@@ -25971,7 +25711,6 @@
       "tags": [
         "HL履歴なし",
         "Nansen発見",
-        "SmartMoney",
         "取引あり(14d)"
       ],
       "notes": "",
@@ -26020,7 +25759,6 @@
       "tags": [
         "HL検証:非該当",
         "Nansen発見",
-        "SmartMoney",
         "取引あり(14d)"
       ],
       "notes": "",
@@ -26070,7 +25808,6 @@
       "tags": [
         "HL検証:非該当",
         "Nansen発見",
-        "SmartMoney",
         "取引あり(14d)"
       ],
       "notes": "",
@@ -26120,7 +25857,6 @@
       "tags": [
         "HL検証:非該当",
         "Nansen発見",
-        "SmartMoney",
         "取引なし(14d)"
       ],
       "notes": "",
@@ -26170,7 +25906,6 @@
       "tags": [
         "HL検証:非該当",
         "Nansen発見",
-        "SmartMoney",
         "取引あり(14d)"
       ],
       "notes": "",
@@ -26220,7 +25955,6 @@
       "tags": [
         "HL検証:非該当",
         "Nansen発見",
-        "SmartMoney",
         "取引なし(14d)"
       ],
       "notes": "",
@@ -26270,7 +26004,6 @@
       "tags": [
         "HL検証:非該当",
         "Nansen発見",
-        "SmartMoney",
         "取引あり(14d)"
       ],
       "notes": "",
@@ -26320,7 +26053,6 @@
       "tags": [
         "HL検証:非該当",
         "Nansen発見",
-        "SmartMoney",
         "取引あり(14d)"
       ],
       "notes": "",
@@ -26370,7 +26102,6 @@
       "tags": [
         "HL検証:非該当",
         "Nansen発見",
-        "SmartMoney",
         "取引あり(14d)"
       ],
       "notes": "",
@@ -26420,7 +26151,6 @@
       "tags": [
         "HL検証:非該当",
         "Nansen発見",
-        "SmartMoney",
         "取引あり(14d)"
       ],
       "notes": "",
@@ -26470,7 +26200,6 @@
       "tags": [
         "MM/HFT",
         "Nansen発見",
-        "SmartMoney",
         "取引なし(14d)"
       ],
       "notes": "",
@@ -26520,7 +26249,6 @@
       "tags": [
         "HL検証:非該当",
         "Nansen発見",
-        "SmartMoney",
         "取引なし(14d)"
       ],
       "notes": "",
@@ -26570,7 +26298,6 @@
       "tags": [
         "HL検証:非該当",
         "Nansen発見",
-        "SmartMoney",
         "取引なし(14d)"
       ],
       "notes": "",
@@ -26620,7 +26347,6 @@
       "tags": [
         "HL検証:非該当",
         "Nansen発見",
-        "SmartMoney",
         "取引なし(14d)"
       ],
       "notes": "",
@@ -26670,7 +26396,6 @@
       "tags": [
         "HL検証:非該当",
         "Nansen発見",
-        "SmartMoney",
         "取引なし(14d)"
       ],
       "notes": "",
@@ -26720,8 +26445,7 @@
       "tags": [
         "MM/HFT",
         "Nansen発見",
-        "取引なし(14d)",
-        "機関"
+        "取引なし(14d)"
       ],
       "notes": "",
       "history": [
@@ -26771,7 +26495,6 @@
       "tags": [
         "HL検証:非該当",
         "Nansen発見",
-        "SmartMoney",
         "取引なし(14d)"
       ],
       "notes": "",
@@ -26821,7 +26544,6 @@
       "tags": [
         "HL検証:非該当",
         "Nansen発見",
-        "SmartMoney",
         "取引なし(14d)"
       ],
       "notes": "",
@@ -26871,7 +26593,6 @@
       "tags": [
         "HL検証:非該当",
         "Nansen発見",
-        "SmartMoney",
         "取引なし(14d)"
       ],
       "notes": "",
@@ -26921,7 +26642,6 @@
       "tags": [
         "HL履歴なし",
         "Nansen発見",
-        "SmartMoney",
         "取引あり(14d)"
       ],
       "notes": "",
@@ -26970,7 +26690,6 @@
       "tags": [
         "HL検証:非該当",
         "Nansen発見",
-        "SmartMoney",
         "取引あり(14d)"
       ],
       "notes": "",
@@ -27020,7 +26739,6 @@
       "tags": [
         "HL検証:非該当",
         "Nansen発見",
-        "SmartMoney",
         "取引なし(14d)"
       ],
       "notes": "",
@@ -27070,7 +26788,6 @@
       "tags": [
         "HL検証:非該当",
         "Nansen発見",
-        "SmartMoney",
         "取引あり(14d)"
       ],
       "notes": "",
@@ -27120,7 +26837,6 @@
       "tags": [
         "HL検証:非該当",
         "Nansen発見",
-        "SmartMoney",
         "取引なし(14d)"
       ],
       "notes": "",
@@ -27170,7 +26886,6 @@
       "tags": [
         "MM/HFT",
         "Nansen発見",
-        "SmartMoney",
         "取引なし(14d)"
       ],
       "notes": "",
@@ -27220,7 +26935,6 @@
       "tags": [
         "HL検証:非該当",
         "Nansen発見",
-        "SmartMoney",
         "取引あり(14d)"
       ],
       "notes": "",
@@ -27270,7 +26984,6 @@
       "tags": [
         "HL検証:非該当",
         "Nansen発見",
-        "SmartMoney",
         "取引なし(14d)"
       ],
       "notes": "",
@@ -27320,7 +27033,6 @@
       "tags": [
         "HL検証:非該当",
         "Nansen発見",
-        "SmartMoney",
         "取引なし(14d)"
       ],
       "notes": "",
@@ -27370,7 +27082,6 @@
       "tags": [
         "HL検証:非該当",
         "Nansen発見",
-        "SmartMoney",
         "取引あり(14d)"
       ],
       "notes": "",
@@ -27420,8 +27131,7 @@
       "tags": [
         "MM/HFT",
         "Nansen発見",
-        "取引なし(14d)",
-        "機関"
+        "取引なし(14d)"
       ],
       "notes": "",
       "history": [
@@ -27470,7 +27180,6 @@
       "tags": [
         "HL検証:非該当",
         "Nansen発見",
-        "SmartMoney",
         "取引あり(14d)"
       ],
       "notes": "",
@@ -27520,7 +27229,6 @@
       "tags": [
         "HL検証:非該当",
         "Nansen発見",
-        "SmartMoney",
         "取引あり(14d)"
       ],
       "notes": "",
@@ -27570,8 +27278,7 @@
       "tags": [
         "HL検証:非該当",
         "Nansen発見",
-        "取引あり(14d)",
-        "機関"
+        "取引あり(14d)"
       ],
       "notes": "",
       "history": [
@@ -27620,7 +27327,6 @@
       "tags": [
         "HL検証:非該当",
         "Nansen発見",
-        "SmartMoney",
         "取引あり(14d)"
       ],
       "notes": "",
@@ -27670,7 +27376,6 @@
       "tags": [
         "HL検証:非該当",
         "Nansen発見",
-        "SmartMoney",
         "取引あり(14d)"
       ],
       "notes": "",
@@ -27720,7 +27425,6 @@
       "tags": [
         "HL履歴なし",
         "Nansen発見",
-        "SmartMoney",
         "取引なし(14d)"
       ],
       "notes": "",
@@ -27767,7 +27471,6 @@
       "tags": [
         "HL履歴なし",
         "Nansen発見",
-        "SmartMoney",
         "取引あり(14d)"
       ],
       "notes": "",
@@ -27816,7 +27519,6 @@
       "tags": [
         "HL検証:非該当",
         "Nansen発見",
-        "SmartMoney",
         "取引あり(14d)"
       ],
       "notes": "",
@@ -27866,7 +27568,6 @@
       "tags": [
         "HL検証:非該当",
         "Nansen発見",
-        "SmartMoney",
         "取引あり(14d)"
       ],
       "notes": "",
@@ -27916,7 +27617,6 @@
       "tags": [
         "MM/HFT",
         "Nansen発見",
-        "SmartMoney",
         "取引あり(14d)"
       ],
       "notes": "",
@@ -27966,7 +27666,6 @@
       "tags": [
         "HL検証:非該当",
         "Nansen発見",
-        "SmartMoney",
         "取引あり(14d)"
       ],
       "notes": "",
@@ -28016,7 +27715,6 @@
       "tags": [
         "MM/HFT",
         "Nansen発見",
-        "SmartMoney",
         "取引なし(14d)"
       ],
       "notes": "",
@@ -28066,7 +27764,6 @@
       "tags": [
         "MM/HFT",
         "Nansen発見",
-        "SmartMoney",
         "取引なし(14d)"
       ],
       "notes": "",
@@ -28117,7 +27814,6 @@
       "tags": [
         "HL検証:非該当",
         "Nansen発見",
-        "SmartMoney",
         "取引なし(14d)"
       ],
       "notes": "",
@@ -28167,7 +27863,6 @@
       "tags": [
         "HL検証:非該当",
         "Nansen発見",
-        "SmartMoney",
         "取引なし(14d)"
       ],
       "notes": "",
@@ -28217,7 +27912,6 @@
       "tags": [
         "HL検証:非該当",
         "Nansen発見",
-        "SmartMoney",
         "取引あり(14d)"
       ],
       "notes": "",
@@ -28267,7 +27961,6 @@
       "tags": [
         "HL検証:非該当",
         "Nansen発見",
-        "SmartMoney",
         "取引あり(14d)"
       ],
       "notes": "",
@@ -28317,7 +28010,6 @@
       "tags": [
         "HL履歴なし",
         "Nansen発見",
-        "SmartMoney",
         "取引あり(14d)"
       ],
       "notes": "",
@@ -28366,7 +28058,6 @@
       "tags": [
         "MM/HFT",
         "Nansen発見",
-        "SmartMoney",
         "取引あり(14d)"
       ],
       "notes": "",
@@ -28416,7 +28107,6 @@
       "tags": [
         "HL検証:非該当",
         "Nansen発見",
-        "SmartMoney",
         "取引あり(14d)"
       ],
       "notes": "",
@@ -28466,7 +28156,6 @@
       "tags": [
         "HL検証:非該当",
         "Nansen発見",
-        "SmartMoney",
         "取引あり(14d)"
       ],
       "notes": "",
@@ -28516,7 +28205,6 @@
       "tags": [
         "MM/HFT",
         "Nansen発見",
-        "SmartMoney",
         "取引なし(14d)"
       ],
       "notes": "",
@@ -28566,7 +28254,6 @@
       "tags": [
         "MM/HFT",
         "Nansen発見",
-        "SmartMoney",
         "取引なし(14d)"
       ],
       "notes": "",
@@ -28616,7 +28303,6 @@
       "tags": [
         "HL検証:非該当",
         "Nansen発見",
-        "SmartMoney",
         "取引あり(14d)"
       ],
       "notes": "",
@@ -28666,7 +28352,6 @@
       "tags": [
         "HL検証:非該当",
         "Nansen発見",
-        "SmartMoney",
         "取引あり(14d)"
       ],
       "notes": "",
@@ -28716,7 +28401,6 @@
       "tags": [
         "HL履歴なし",
         "Nansen発見",
-        "SmartMoney",
         "取引あり(14d)"
       ],
       "notes": "",
@@ -28765,7 +28449,6 @@
       "tags": [
         "HL履歴なし",
         "Nansen発見",
-        "SmartMoney",
         "取引あり(14d)"
       ],
       "notes": "",
@@ -28815,7 +28498,6 @@
       "tags": [
         "HL検証済プロ",
         "Nansen発見",
-        "SmartMoney",
         "Tier-C",
         "取引なし(14d)"
       ],
@@ -28876,7 +28558,6 @@
       "tags": [
         "MM/HFT",
         "Nansen発見",
-        "SmartMoney",
         "取引なし(14d)"
       ],
       "notes": "",
@@ -28926,7 +28607,6 @@
       "tags": [
         "HL検証:非該当",
         "Nansen発見",
-        "SmartMoney",
         "取引なし(14d)"
       ],
       "notes": "",
@@ -28976,7 +28656,6 @@
       "tags": [
         "HL検証:非該当",
         "Nansen発見",
-        "SmartMoney",
         "取引あり(14d)"
       ],
       "notes": "",
@@ -29027,7 +28706,6 @@
       "tags": [
         "HL検証:非該当",
         "Nansen発見",
-        "SmartMoney",
         "取引あり(14d)"
       ],
       "notes": "",
@@ -29077,7 +28755,6 @@
       "tags": [
         "HL検証:非該当",
         "Nansen発見",
-        "SmartMoney",
         "取引あり(14d)"
       ],
       "notes": "",
@@ -29127,7 +28804,6 @@
       "tags": [
         "HL検証:非該当",
         "Nansen発見",
-        "SmartMoney",
         "取引なし(14d)"
       ],
       "notes": "",
@@ -29177,7 +28853,6 @@
       "tags": [
         "MM/HFT",
         "Nansen発見",
-        "SmartMoney",
         "取引あり(14d)"
       ],
       "notes": "",
@@ -29228,7 +28903,6 @@
       "tags": [
         "HL検証:非該当",
         "Nansen発見",
-        "SmartMoney",
         "取引あり(14d)"
       ],
       "notes": "",
@@ -29278,7 +28952,6 @@
       "tags": [
         "HL検証:非該当",
         "Nansen発見",
-        "SmartMoney",
         "取引なし(14d)"
       ],
       "notes": "",
@@ -29328,7 +29001,6 @@
       "tags": [
         "HL履歴なし",
         "Nansen発見",
-        "SmartMoney",
         "取引あり(14d)"
       ],
       "notes": "",
@@ -29377,7 +29049,6 @@
       "tags": [
         "HL検証:非該当",
         "Nansen発見",
-        "SmartMoney",
         "取引なし(14d)"
       ],
       "notes": "",
@@ -29427,7 +29098,6 @@
       "tags": [
         "HL検証:非該当",
         "Nansen発見",
-        "SmartMoney",
         "取引あり(14d)"
       ],
       "notes": "",
@@ -29477,7 +29147,6 @@
       "tags": [
         "HL検証:非該当",
         "Nansen発見",
-        "SmartMoney",
         "取引あり(14d)"
       ],
       "notes": "",
@@ -29527,7 +29196,6 @@
       "tags": [
         "HL検証:非該当",
         "Nansen発見",
-        "SmartMoney",
         "取引あり(14d)"
       ],
       "notes": "",
@@ -29577,7 +29245,6 @@
       "tags": [
         "HL検証:非該当",
         "Nansen発見",
-        "SmartMoney",
         "取引あり(14d)"
       ],
       "notes": "",
@@ -29627,7 +29294,6 @@
       "tags": [
         "HL検証:非該当",
         "Nansen発見",
-        "SmartMoney",
         "取引なし(14d)"
       ],
       "notes": "",
@@ -29677,7 +29343,6 @@
       "tags": [
         "HL検証:非該当",
         "Nansen発見",
-        "SmartMoney",
         "取引なし(14d)"
       ],
       "notes": "",
@@ -29727,7 +29392,6 @@
       "tags": [
         "HL検証:非該当",
         "Nansen発見",
-        "SmartMoney",
         "取引あり(14d)"
       ],
       "notes": "",
@@ -29777,7 +29441,6 @@
       "tags": [
         "MM/HFT",
         "Nansen発見",
-        "SmartMoney",
         "取引なし(14d)"
       ],
       "notes": "",
@@ -29827,7 +29490,6 @@
       "tags": [
         "HL検証:非該当",
         "Nansen発見",
-        "SmartMoney",
         "取引あり(14d)"
       ],
       "notes": "",
@@ -29877,7 +29539,6 @@
       "tags": [
         "HL検証:非該当",
         "Nansen発見",
-        "SmartMoney",
         "取引なし(14d)"
       ],
       "notes": "",
@@ -29927,7 +29588,6 @@
       "tags": [
         "HL検証:非該当",
         "Nansen発見",
-        "SmartMoney",
         "取引なし(14d)"
       ],
       "notes": "",
@@ -29977,7 +29637,6 @@
       "tags": [
         "HL検証:非該当",
         "Nansen発見",
-        "SmartMoney",
         "取引なし(14d)"
       ],
       "notes": "",
@@ -30027,7 +29686,6 @@
       "tags": [
         "HL検証:非該当",
         "Nansen発見",
-        "SmartMoney",
         "取引なし(14d)"
       ],
       "notes": "",
@@ -30077,7 +29735,6 @@
       "tags": [
         "HL検証:非該当",
         "Nansen発見",
-        "SmartMoney",
         "取引なし(14d)"
       ],
       "notes": "",
@@ -30127,7 +29784,6 @@
       "tags": [
         "HL検証:非該当",
         "Nansen発見",
-        "SmartMoney",
         "取引なし(14d)"
       ],
       "notes": "",
@@ -30177,7 +29833,6 @@
       "tags": [
         "HL履歴なし",
         "Nansen発見",
-        "SmartMoney",
         "取引なし(14d)"
       ],
       "notes": "",
@@ -30224,7 +29879,6 @@
       "tags": [
         "MM/HFT",
         "Nansen発見",
-        "SmartMoney",
         "取引なし(14d)"
       ],
       "notes": "",
@@ -30274,7 +29928,6 @@
       "tags": [
         "HL検証:非該当",
         "Nansen発見",
-        "SmartMoney",
         "取引あり(14d)"
       ],
       "notes": "",
@@ -30324,7 +29977,6 @@
       "tags": [
         "MM/HFT",
         "Nansen発見",
-        "SmartMoney",
         "取引なし(14d)"
       ],
       "notes": "",
@@ -30374,7 +30026,6 @@
       "tags": [
         "HL検証:非該当",
         "Nansen発見",
-        "SmartMoney",
         "取引あり(14d)"
       ],
       "notes": "",
@@ -30424,7 +30075,6 @@
       "tags": [
         "HL検証:非該当",
         "Nansen発見",
-        "SmartMoney",
         "取引あり(14d)"
       ],
       "notes": "",
@@ -30474,8 +30124,7 @@
       "tags": [
         "MM/HFT",
         "Nansen発見",
-        "取引なし(14d)",
-        "機関"
+        "取引なし(14d)"
       ],
       "notes": "",
       "history": [
@@ -30524,7 +30173,6 @@
       "tags": [
         "HL検証:非該当",
         "Nansen発見",
-        "SmartMoney",
         "取引なし(14d)"
       ],
       "notes": "",
@@ -30574,7 +30222,6 @@
       "tags": [
         "HL履歴なし",
         "Nansen発見",
-        "SmartMoney",
         "取引あり(14d)"
       ],
       "notes": "",
@@ -30623,7 +30270,6 @@
       "tags": [
         "HL履歴なし",
         "Nansen発見",
-        "SmartMoney",
         "取引なし(14d)"
       ],
       "notes": "",
@@ -30670,7 +30316,6 @@
       "tags": [
         "MM/HFT",
         "Nansen発見",
-        "SmartMoney",
         "取引なし(14d)"
       ],
       "notes": "",
@@ -30720,7 +30365,6 @@
       "tags": [
         "MM/HFT",
         "Nansen発見",
-        "SmartMoney",
         "取引なし(14d)"
       ],
       "notes": "",
@@ -30770,7 +30414,6 @@
       "tags": [
         "HL検証:非該当",
         "Nansen発見",
-        "SmartMoney",
         "取引あり(14d)"
       ],
       "notes": "",
@@ -30820,7 +30463,6 @@
       "tags": [
         "HL検証:非該当",
         "Nansen発見",
-        "SmartMoney",
         "取引あり(14d)"
       ],
       "notes": "",
@@ -30870,7 +30512,6 @@
       "tags": [
         "MM/HFT",
         "Nansen発見",
-        "SmartMoney",
         "取引なし(14d)"
       ],
       "notes": "",
@@ -30920,7 +30561,6 @@
       "tags": [
         "HL検証:非該当",
         "Nansen発見",
-        "SmartMoney",
         "取引あり(14d)"
       ],
       "notes": "",
@@ -30970,7 +30610,6 @@
       "tags": [
         "HL検証:非該当",
         "Nansen発見",
-        "SmartMoney",
         "取引なし(14d)"
       ],
       "notes": "",
@@ -31021,7 +30660,6 @@
       "tags": [
         "HL履歴なし",
         "Nansen発見",
-        "SmartMoney",
         "取引あり(14d)"
       ],
       "notes": "",
@@ -31070,7 +30708,6 @@
       "tags": [
         "HL検証:非該当",
         "Nansen発見",
-        "SmartMoney",
         "取引あり(14d)"
       ],
       "notes": "",
@@ -31121,7 +30758,6 @@
       "tags": [
         "MM/HFT",
         "Nansen発見",
-        "SmartMoney",
         "取引あり(14d)"
       ],
       "notes": "",
@@ -31171,7 +30807,6 @@
       "tags": [
         "HL検証:非該当",
         "Nansen発見",
-        "SmartMoney",
         "取引なし(14d)"
       ],
       "notes": "",
@@ -31221,7 +30856,6 @@
       "tags": [
         "HL検証:非該当",
         "Nansen発見",
-        "SmartMoney",
         "取引あり(14d)"
       ],
       "notes": "",
@@ -31271,7 +30905,6 @@
       "tags": [
         "HL検証:非該当",
         "Nansen発見",
-        "SmartMoney",
         "取引あり(14d)"
       ],
       "notes": "",
@@ -31321,7 +30954,6 @@
       "tags": [
         "HL検証:非該当",
         "Nansen発見",
-        "SmartMoney",
         "取引なし(14d)"
       ],
       "notes": "",
@@ -31371,7 +31003,6 @@
       "tags": [
         "HL検証:非該当",
         "Nansen発見",
-        "SmartMoney",
         "取引あり(14d)"
       ],
       "notes": "",
@@ -31421,7 +31052,6 @@
       "tags": [
         "HL検証:非該当",
         "Nansen発見",
-        "SmartMoney",
         "取引あり(14d)"
       ],
       "notes": "",
@@ -31471,7 +31101,6 @@
       "tags": [
         "HL検証:非該当",
         "Nansen発見",
-        "SmartMoney",
         "取引なし(14d)"
       ],
       "notes": "",
@@ -31521,7 +31150,6 @@
       "tags": [
         "HL検証:非該当",
         "Nansen発見",
-        "SmartMoney",
         "取引なし(14d)"
       ],
       "notes": "",
@@ -31571,7 +31199,6 @@
       "tags": [
         "HL検証:非該当",
         "Nansen発見",
-        "SmartMoney",
         "取引なし(14d)"
       ],
       "notes": "",
@@ -31621,7 +31248,6 @@
       "tags": [
         "HL検証:非該当",
         "Nansen発見",
-        "SmartMoney",
         "取引あり(14d)"
       ],
       "notes": "",
@@ -31671,8 +31297,7 @@
       "tags": [
         "HL検証:非該当",
         "Nansen発見",
-        "取引あり(14d)",
-        "機関"
+        "取引あり(14d)"
       ],
       "notes": "",
       "history": [
@@ -31721,7 +31346,6 @@
       "tags": [
         "HL検証:非該当",
         "Nansen発見",
-        "SmartMoney",
         "取引なし(14d)"
       ],
       "notes": "",
@@ -31771,7 +31395,6 @@
       "tags": [
         "HL履歴なし",
         "Nansen発見",
-        "SmartMoney",
         "取引なし(14d)"
       ],
       "notes": "",
@@ -31818,7 +31441,6 @@
       "tags": [
         "HL履歴なし",
         "Nansen発見",
-        "SmartMoney",
         "取引あり(14d)"
       ],
       "notes": "",
@@ -31867,7 +31489,6 @@
       "tags": [
         "HL検証:非該当",
         "Nansen発見",
-        "SmartMoney",
         "取引なし(14d)"
       ],
       "notes": "",
@@ -31917,7 +31538,6 @@
       "tags": [
         "MM/HFT",
         "Nansen発見",
-        "SmartMoney",
         "取引なし(14d)"
       ],
       "notes": "",
@@ -31967,7 +31587,6 @@
       "tags": [
         "HL検証:非該当",
         "Nansen発見",
-        "SmartMoney",
         "取引なし(14d)"
       ],
       "notes": "",
@@ -32017,7 +31636,6 @@
       "tags": [
         "HL検証:非該当",
         "Nansen発見",
-        "SmartMoney",
         "取引あり(14d)"
       ],
       "notes": "",
@@ -32067,7 +31685,6 @@
       "tags": [
         "MM/HFT",
         "Nansen発見",
-        "SmartMoney",
         "取引なし(14d)"
       ],
       "notes": "",
@@ -32117,8 +31734,7 @@
       "tags": [
         "MM/HFT",
         "Nansen発見",
-        "取引あり(14d)",
-        "機関"
+        "取引あり(14d)"
       ],
       "notes": "",
       "history": [
@@ -32167,8 +31783,7 @@
       "tags": [
         "HL検証:非該当",
         "Nansen発見",
-        "取引なし(14d)",
-        "機関"
+        "取引なし(14d)"
       ],
       "notes": "",
       "history": [
@@ -32218,7 +31833,6 @@
       "tags": [
         "HL履歴なし",
         "Nansen発見",
-        "SmartMoney",
         "取引なし(14d)"
       ],
       "notes": "",
@@ -32265,8 +31879,7 @@
       "tags": [
         "HL履歴なし",
         "Nansen発見",
-        "取引なし(14d)",
-        "機関"
+        "取引なし(14d)"
       ],
       "notes": "",
       "history": [
@@ -32312,7 +31925,6 @@
       "tags": [
         "HL検証:非該当",
         "Nansen発見",
-        "SmartMoney",
         "取引なし(14d)"
       ],
       "notes": "",
@@ -32362,7 +31974,6 @@
       "tags": [
         "HL検証:非該当",
         "Nansen発見",
-        "SmartMoney",
         "取引あり(14d)"
       ],
       "notes": "",
@@ -32412,7 +32023,6 @@
       "tags": [
         "HL検証:非該当",
         "Nansen発見",
-        "SmartMoney",
         "取引なし(14d)"
       ],
       "notes": "",
@@ -32462,7 +32072,6 @@
       "tags": [
         "HL検証:非該当",
         "Nansen発見",
-        "SmartMoney",
         "取引なし(14d)"
       ],
       "notes": "",
@@ -32512,7 +32121,6 @@
       "tags": [
         "HL検証:非該当",
         "Nansen発見",
-        "SmartMoney",
         "取引あり(14d)"
       ],
       "notes": "",
@@ -32563,7 +32171,6 @@
       "tags": [
         "HL検証済プロ",
         "Nansen発見",
-        "SmartMoney",
         "Tier-S",
         "取引あり(14d)"
       ],
@@ -32632,7 +32239,6 @@
       "tags": [
         "MM/HFT",
         "Nansen発見",
-        "SmartMoney",
         "取引なし(14d)"
       ],
       "notes": "",
@@ -32682,8 +32288,7 @@
       "tags": [
         "HL検証:非該当",
         "Nansen発見",
-        "取引なし(14d)",
-        "機関"
+        "取引なし(14d)"
       ],
       "notes": "",
       "history": [
@@ -32732,7 +32337,6 @@
       "tags": [
         "HL検証:非該当",
         "Nansen発見",
-        "SmartMoney",
         "取引なし(14d)"
       ],
       "notes": "",

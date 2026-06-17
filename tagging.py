@@ -134,12 +134,26 @@ def derive_tags(d):
 
 
 # タグの色（カテゴリ接頭辞で決定）。registry.html 用。
+TIER_COLOR = {"Tier-S": "#ffd24a", "Tier-A": "#3fb950", "Tier-B": "#4ea1ff",
+              "Tier-C": "#9aa3ad", "Tier-D": "#5c636d"}
+
+
 def tag_color(tag):
+    if tag in TIER_COLOR:
+        return TIER_COLOR[tag]
+    if tag.startswith("取引あり"):
+        return "#3fb950"
+    if tag.startswith("取引なし"):
+        return "#d29922"
     table = {
         "ROI:": "#c77dff", "PnL:": "#3fb950", "頻度:": "#4ea1ff",
         "保有:": "#2dd4bf", "方向:": "#ffb454", "レバ:": "#ff7d6c",
         "銘柄:": "#9aa3ad", "ID:": "#ffd24a", "cluster": "#ff5d6c",
         "手動": "#8b5cf6", "funder": "#5c636d",
+        "WF:": "#a78bfa", "HL先行検出": "#ff5d6c", "HL検証済プロ": "#3fb950",
+        "出金": "#ff9e64", "資金": "#ff9e64", "Nansen発見": "#56b6c2",
+        "MM/HFT": "#6e7681", "HFT/MM": "#6e7681", "HL履歴なし": "#6e7681",
+        "HL検証:非該当": "#6e7681",
     }
     for k, v in table.items():
         if tag.startswith(k):

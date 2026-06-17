@@ -293,22 +293,35 @@ def render_html(reg, out="registry.html",
     for e in wallets:
         for t in list(e.get("auto_tags", [])) + [x for x in e.get("tags", []) if not x.startswith("funder:")]:
             tagcount[t] += 1
-    CAT_ORDER = ["位置", "ROI:", "PnL:", "頻度:", "保有:", "方向:", "レバ:", "銘柄:", "ID:", "cluster", "手動"]
+    CAT_ORDER = ["位置", "Tier", "活動", "ROI:", "PnL:", "頻度:", "保有:", "方向:",
+                 "レバ:", "銘柄:", "ID:", "検証", "資金/出金", "区分", "他"]
+    AXIS = ["ROI:", "PnL:", "頻度:", "保有:", "方向:", "レバ:", "銘柄:", "ID:"]
     def cat_of(t):
-        for c in CAT_ORDER:
-            if c != "位置" and t.startswith(c):
+        if t.startswith("Tier-"):
+            return "Tier"
+        if t.startswith("取引あり") or t.startswith("取引なし"):
+            return "活動"
+        for c in AXIS:
+            if t.startswith(c):
                 return c
+        if t.startswith("WF:") or t in ("HL先行検出", "HL検証済プロ", "稼ぎ確認・先行不明(要精査)"):
+            return "検証"
+        if (t.startswith("出金") or t.startswith("資金") or "資金源" in t
+                or t == "cluster-A" or t == "Nansen発見"):
+            return "資金/出金"
+        if t in ("MM/HFT", "HL履歴なし", "HL検証:非該当", "手動追加CA", "HFT/MM"):
+            return "区分"
         return "他"
     groups = {}
     for t, c in tagcount.items():
         groups.setdefault(cat_of(t), []).append((t, c))
-    # 位置づけもフィルタ対象に
     groups["位置"] = [(p, pos[p]) for p in POS_ORDER if pos.get(p)]
-    GLABEL = {"位置": "位置づけ", "ROI:": "ROI", "PnL:": "PnL", "頻度:": "頻度",
-              "保有:": "保有", "方向:": "方向", "レバ:": "レバ", "銘柄:": "銘柄",
-              "ID:": "正体", "cluster": "クラスタ", "手動": "手動", "他": "他"}
+    GLABEL = {"位置": "位置づけ", "Tier": "Tier(プロ格)", "活動": "活動(14日)",
+              "ROI:": "ROI", "PnL:": "PnL", "頻度:": "頻度", "保有:": "保有",
+              "方向:": "方向", "レバ:": "レバ", "銘柄:": "銘柄", "ID:": "正体",
+              "検証": "検証/疑い", "資金/出金": "資金/出金", "区分": "区分", "他": "他"}
     filterbar = ""
-    for c in CAT_ORDER + ["他"]:
+    for c in CAT_ORDER:
         if c not in groups:
             continue
         items = sorted(groups[c], key=lambda x: -x[1])
