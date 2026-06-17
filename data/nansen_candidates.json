@@ -1,0 +1,201 @@
+{
+  "generated_at": "2026-06-17T11:44:58.521385+00:00",
+  "params": {
+    "days": 30,
+    "min_pnl": 1000000.0
+  },
+  "candidates": [
+    {
+      "address": "0x4f12b217aa59e6d3e1f91ca2dc96f9543576618b",
+      "label": "Token Millionaire [0x4f12b2]",
+      "pnl": 1477036.707532,
+      "roi": 11312.347580297672,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true,
+      "funder_label": "[0x6023b2]",
+      "fund_class": "汎用ウォレット"
+    },
+    {
+      "address": "0x906d31b2ee92c4bc720232112274a0e1ffb0ad6e",
+      "label": "Former Smart Trader [0x906d31]",
+      "pnl": 2774849.250292,
+      "roi": 1736.8063475277177,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true,
+      "funder_label": "Gas.zip: Primary Solver [0x8c826f]",
+      "fund_class": "汎用ウォレット"
+    },
+    {
+      "address": "0xc7290b4b308431a985fa9e3e8a335c2f7650517c",
+      "label": "🤓 Smart HL Perps Trader [0xc7290b]",
+      "pnl": 1064335.2764,
+      "roi": 1478.2434394444447,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true,
+      "funder_label": "[0x0a1a4b]",
+      "fund_class": "汎用ウォレット"
+    },
+    {
+      "address": "0x20c2d95a3dfdca9e9ad12794d5fa6fad99da44f5",
+      "label": "Resolv USR: Collateral [0x20c2d9]",
+      "pnl": 1779957.276862,
+      "roi": 433.83363437446815,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true,
+      "funder_label": "​​Bridge User [0x7635f1]",
+      "fund_class": "ブリッジ/コントラクト(隠蔽)"
+    },
+    {
+      "address": "0x5e8e18557c0df89fb79a41941c03768da69100af",
+      "label": "\"Up-Only Long/Short\" HL Vault Leader [0x5e8e18]",
+      "pnl": 1207514.771831,
+      "roi": 64.72376792468921,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true,
+      "funder_label": "👤 hyperliquidated [0x7c9309]",
+      "fund_class": "汎用ウォレット"
+    },
+    {
+      "address": "0x782e432267376f377585fc78092d998f8442ab83",
+      "label": "🤓 Smart HL Perps Trader [0x782e43]",
+      "pnl": 3840913.068124,
+      "roi": 59.62069557278763,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true,
+      "funder_label": "High Activity [0x91604f]",
+      "fund_class": "汎用ウォレット"
+    },
+    {
+      "address": "0x6f490ff069c117a74727be3a61f54fc7b7d6f104",
+      "label": "🤓 Smart HL Perps Trader [0x6f490f]",
+      "pnl": 1966679.834281,
+      "roi": 36.96149515565841,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true,
+      "funder_label": "🏦 Binance: Wallet [0x25681a]",
+      "fund_class": "CEX(追跡可)"
+    },
+    {
+      "address": "0x19d84c22dd017448efd6324df108c6bc01040a2b",
+      "label": "🤓 Smart HL Perps Trader [0x19d84c]",
+      "pnl": 2280175.401676,
+      "roi": 29.186717284471094,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true,
+      "funder_label": "🤓 Smart HL Perps Trader [0x6f490f]",
+      "fund_class": "汎用ウォレット"
+    },
+    {
+      "address": "0x015354106478dda69c4aae3c0cf801290b738052",
+      "label": "🤓 Smart HL Perps Trader [0x015354]",
+      "pnl": 1013575.873633,
+      "roi": 22.13258695142015,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true,
+      "funder_label": "Former Smart Trader [0x999dec]",
+      "fund_class": "汎用ウォレット"
+    },
+    {
+      "address": "0x577ae91c7b74f04ddb3a5b399ded8318e9895fd2",
+      "label": "🤓 Smart HL Perps Trader [0x577ae9]",
+      "pnl": 10930335.601363,
+      "roi": 21.560705005206593,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true,
+      "funder_label": "🏦 Binance: Wallet [0x3931da]",
+      "fund_class": "CEX(追跡可)"
+    },
+    {
+      "address": "0x5ae7fe9df15590e286152908112b82969f41c8b8",
+      "label": "HL Perps Majors Trader [0x5ae7fe]",
+      "pnl": 2269233.8264479996,
+      "roi": 19.838235310918726,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true,
+      "funder_label": "[0xf3f020]",
+      "fund_class": "汎用ウォレット"
+    },
+    {
+      "address": "0x98256d1a9e3012398237a1720c27a3d7ed1ad905",
+      "label": "🤓 Smart HL Perps Trader [0x98256d]",
+      "pnl": 1055623.27869,
+      "roi": 11.660108041287538,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true,
+      "funder_label": null,
+      "fund_class": "不明"
+    },
+    {
+      "address": "0xa2e81e888f4a757bbad012ea9b193e7ab93f1468",
+      "label": "HL Perps Majors Trader [0xa2e81e]",
+      "pnl": 3628255.788792,
+      "roi": 5.959595419120471,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true,
+      "funder_label": "NEAR Intents: Bridge Hot Wallet [0x2cff89]",
+      "fund_class": "ブリッジ/コントラクト(隠蔽)"
+    },
+    {
+      "address": "0xf5629393e446a103a4be1c49a956255e7c87c1d3",
+      "label": "🤓 Smart HL Perps Trader [0xf56293]",
+      "pnl": 2480675.554474,
+      "roi": 4.576417757223362,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true,
+      "funder_label": "🤖 DLN: DlnDestination [0xe7351f]",
+      "fund_class": "ブリッジ/コントラクト(隠蔽)"
+    },
+    {
+      "address": "0x7d54a6772903c4f45f05c9b4e89f1dd2a0f52794",
+      "label": "HL Perps Macro Trader [0x7d54a6]",
+      "pnl": 1769779.741286,
+      "roi": 3.054238515933711,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true,
+      "funder_label": "🏦 Binance: Hot Wallet [0xf92402]",
+      "fund_class": "CEX(追跡可)"
+    },
+    {
+      "address": "0xfce053a5e461683454bf37ad66d20344c0e3f4c0",
+      "label": "🤓 Smart HL Perps Trader [0xfce053]",
+      "pnl": 4435936.920941,
+      "roi": 1.054796444146563,
+      "account_value": 260774.809093,
+      "ratio": 17.0,
+      "is_new": true
+    },
+    {
+      "address": "0x90326fa293578c6c9ef945aaab0b57f886aca6ec",
+      "label": "🤓 Smart HL Perps Trader [0x90326f]",
+      "pnl": 1094751.4765320001,
+      "roi": 1.0269805869370332,
+      "account_value": 73378.297602,
+      "ratio": 14.9,
+      "is_new": true
+    },
+    {
+      "address": "0xfeec88b13fc0be31695069f02bac18538a154e9c",
+      "label": "🤓 : Boros Trader [0xfeec88]",
+      "pnl": 1366007.800789,
+      "roi": 7.539205303800643,
+      "account_value": 30927.329023,
+      "ratio": 44.2,
+      "is_new": false
+    }
+  ]
+}
