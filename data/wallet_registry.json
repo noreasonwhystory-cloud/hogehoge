@@ -10789,10 +10789,10 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "プロトレーダー(本物)",
       "metric_category": "nansen-pro",
       "labels": [
-        "🤓 Smart HL Perps Trader [0x0b00c5]"
+        "High Balance"
       ],
       "roi_alltime": 1.5024583913715324,
       "nansen_checked": "2026-06-17",
@@ -10802,7 +10802,7 @@
         "方向:無/フラット",
         "資金:出金疑い(10x+)"
       ],
-      "notes_jp": "【ひとことで】🤓 Nansenが『常勝(Smart Money)』認定したトレーダー。たぶんプロ、未精査。\n【正体】🤓 Smart HL Perps Trader [0x0b00c5]（Nansenラベル）\n【成績】通算PnL $6,022,074・ROI 150%・現在残高 $216,308",
+      "notes_jp": "【判定】実力で安定黒字・majors先行なし＝プロ確定\n【HL実測】実現益$6,329,149・勝率0.9728・majors比0.87・急変先行$0\n【資金源】[0xc0778a] ＝ 別ウォレット",
       "current": {
         "date": "2026-06-17",
         "metric_category": "nansen-pro",
@@ -10811,7 +10811,77 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "first_funders": [
+        {
+          "address": "0xc0778aa3961508c53fa39ddb789fa78c8dd87587",
+          "label": "[0xc0778a]",
+          "relation": "First Funder",
+          "time": "2025-12-02T12:24:09"
+        }
+      ],
+      "counterparties": [
+        {
+          "label": "🤖 Hyperliquid: Bridge 2 [0x2df1c5]",
+          "address": "0x2df1c51e09aecf9cacb7bc98cb1742757f163df7",
+          "volume_usd": 10982507.104615528,
+          "count": 29
+        },
+        {
+          "label": "Burn Address [0x000000]",
+          "address": "0x0000000000000000000000000000000000000000",
+          "volume_usd": 10610042.32526118,
+          "count": 63
+        },
+        {
+          "label": "🤖 Morpho: Morpho [0x6c247b]",
+          "address": "0x6c247b1f6182318877311737bac0844baa518f5e",
+          "volume_usd": 7023303.956919415,
+          "count": 15
+        },
+        {
+          "label": "🤖 GeneralAdapter1 [0x9954af]",
+          "address": "0x9954afb60bb5a222714c478ac86990f221788b88",
+          "volume_usd": 6275128.056837683,
+          "count": 21
+        },
+        {
+          "label": "🤖 Circle: Token Minter [0xe7ed1f]",
+          "address": "0xe7ed1fa7f45d05c508232aa32649d89b73b8ba48",
+          "volume_usd": 4941577.790041353,
+          "count": 10
+        },
+        {
+          "label": "🤖 CoW Protocol: Settlement [0x9008d1]",
+          "address": "0x9008d19f58aabd9ed0d60971565aa8510560ab41",
+          "volume_usd": 4242510.752683267,
+          "count": 29
+        },
+        {
+          "label": "​​Bridge User [0x6a2abf]",
+          "address": "0x6a2abff960b663462cbc46a2cfcf85063fe8ae14",
+          "volume_usd": 3919522.1345327515,
+          "count": 8
+        },
+        {
+          "label": "[0xc0778a]",
+          "address": "0xc0778aa3961508c53fa39ddb789fa78c8dd87587",
+          "volume_usd": 3152222.0816142387,
+          "count": 17
+        },
+        {
+          "label": "​​🤖 Relay Protocol: Router [0xb92fe9]",
+          "address": "0xb92fe925dc43a0ecde6c8b1a2709c170ec4fff4f",
+          "volume_usd": 3109315.6797886263,
+          "count": 4
+        },
+        {
+          "label": "🤖 Relay Protocol: Depository [0x4cd00e]",
+          "address": "0x4cd00e387622c35bddb9b4c962c136462338bc31",
+          "volume_usd": 1624696.278377963,
+          "count": 6
+        }
+      ]
     },
     "0xed41a12ea862f31df054e9bd3af1dd59486c6029": {
       "address": "0xed41a12ea862f31df054e9bd3af1dd59486c6029",
@@ -11155,10 +11225,10 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "プロトレーダー(本物)",
       "metric_category": "hl-verified",
       "labels": [
-        "🤓 Smart HL Perps Trader [0x782e43]"
+        "Token Millionaire"
       ],
       "roi_alltime": 2.0645739309639057,
       "nansen_checked": "2026-06-17",
@@ -11167,7 +11237,7 @@
         "PnL:大($1-10M)",
         "方向:無/フラット"
       ],
-      "notes_jp": "【ひとことで】⚪ HL行動では insider/pro を確定できず（保留）。\n【HL実測】実現益$1,194,992・勝率0.5489・方向的中率0.0・急変先行$0\n【活動期間】2025-05-29〜2026-06-05（majors 606約定）\n【正体(Nansen)】🤓 Smart HL Perps Trader [0x782e43]",
+      "notes_jp": "【判定】実力で安定黒字・majors先行なし＝プロ確定\n【HL実測】実現益$4,258,658・勝率0.8263・majors比0.06・急変先行$0\n【資金源】High Activity [0x91604f] ＝ 別ウォレット\n【注】alt中心ゆえBTC/ETH/SOLのインサイダー検証は限定的。alt側は未検証。",
       "current": {
         "date": "2026-06-17",
         "metric_category": "hl-verified",
@@ -11179,7 +11249,65 @@
         "avg_hold_h": null
       },
       "n_fills_14d": null,
-      "lead_examples": []
+      "lead_examples": [],
+      "first_funders": [
+        {
+          "address": "0x91604f590d66ace8975eed6bd16cf55647d1c499",
+          "label": "High Activity [0x91604f]",
+          "relation": "First Funder",
+          "time": "2025-04-24T16:06:05"
+        }
+      ],
+      "counterparties": [
+        {
+          "label": "🤖 Hyperliquid: Bridge 2 [0x2df1c5]",
+          "address": "0x2df1c51e09aecf9cacb7bc98cb1742757f163df7",
+          "volume_usd": 2000408.5181685013,
+          "count": 2
+        },
+        {
+          "label": "[0x92e4f3]",
+          "address": "0x92e4f38dd6f75cabeb8b074b21dac38ec4189de6",
+          "volume_usd": 1999415.7927948001,
+          "count": 2
+        },
+        {
+          "label": "Burn Address [0x000000]",
+          "address": "0x0000000000000000000000000000000000000000",
+          "volume_usd": 1394816.7489454919,
+          "count": 1
+        },
+        {
+          "label": "High Activity [0x2df191]",
+          "address": "0x2df19176593d6bb31345017a1ea1b0957f163df7",
+          "volume_usd": 0.000998723606084141,
+          "count": 1
+        },
+        {
+          "label": "[0x92e701]",
+          "address": "0x92e7016d2abd518ee82db77beb62c088c0c7bde6",
+          "volume_usd": 0.0006987940725966011,
+          "count": 2
+        },
+        {
+          "label": "[0x92e5c3]",
+          "address": "0x92e5c38adfc57fd256603ede0a9b0ff497289de6",
+          "volume_usd": 0.00019994107942678145,
+          "count": 4
+        },
+        {
+          "label": "[0x92e4b2]",
+          "address": "0x92e4b247a806e11a7d2c8512ef263cbba4d29de6",
+          "volume_usd": 0.00014995580957008608,
+          "count": 6
+        },
+        {
+          "label": "[0x92e476]",
+          "address": "0x92e476710cce0793fde4ef1586a15bdc065d2de6",
+          "volume_usd": 1.9994107942678144e-05,
+          "count": 1
+        }
+      ]
     },
     "0x833b99b27dac651d02080f5e220e929df891db06": {
       "address": "0x833b99b27dac651d02080f5e220e929df891db06",
@@ -11793,11 +11921,9 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "プロトレーダー(本物)",
       "metric_category": "hl-verified",
-      "labels": [
-        "Former Smart Trader [0xac03fc]"
-      ],
+      "labels": [],
       "roi_alltime": 1.8886487530694798,
       "nansen_checked": "2026-06-17",
       "auto_tags": [
@@ -11805,7 +11931,7 @@
         "PnL:大($1-10M)",
         "方向:無/フラット"
       ],
-      "notes_jp": "【ひとことで】⚪ HL行動では insider/pro を確定できず（保留）。\n【HL実測】実現益$3・勝率1.0・方向的中率0.0・急変先行$0\n【活動期間】2026-03-16〜2026-03-16（majors 4約定）\n【正体(Nansen)】Former Smart Trader [0xac03fc]",
+      "notes_jp": "【判定】実力で安定黒字・majors先行なし＝プロ確定\n【HL実測】実現益$2,348,016・勝率0.6699・majors比0.0・急変先行$0\n【資金源】🏦 Binance: Wallet [0x25681a] ＝ CEX(身元割れる)\n【注】alt中心ゆえBTC/ETH/SOLのインサイダー検証は限定的。alt側は未検証。",
       "current": {
         "date": "2026-06-17",
         "metric_category": "hl-verified",
@@ -11817,7 +11943,65 @@
         "avg_hold_h": null
       },
       "n_fills_14d": null,
-      "lead_examples": []
+      "lead_examples": [],
+      "first_funders": [
+        {
+          "address": "0x25681ab599b4e2ceea31f8b498052c53fc2d74db",
+          "label": "🏦 Binance: Wallet [0x25681a]",
+          "relation": "First Funder",
+          "time": "2026-03-12T15:04:52"
+        }
+      ],
+      "counterparties": [
+        {
+          "label": "🤖 Hyperliquid: Bridge 2 [0x2df1c5]",
+          "address": "0x2df1c51e09aecf9cacb7bc98cb1742757f163df7",
+          "volume_usd": 5149483.628576906,
+          "count": 3
+        },
+        {
+          "label": "🤖 🏦 Binance: Hot Wallet [0xee7ae8]",
+          "address": "0xee7ae85f2fe2239e27d9c1e23fffe168d63b4055",
+          "volume_usd": 2699474.1431313735,
+          "count": 2
+        },
+        {
+          "label": "HL Perps Stocks Trader [0x985f02]",
+          "address": "0x985f02b19dbc062e565c981aac5614baf2cf501f",
+          "volume_usd": 2450009.4874621737,
+          "count": 1
+        },
+        {
+          "label": "[0x985f36]",
+          "address": "0x985f36b57d0b0224a369aca9f341749af2cf501f",
+          "volume_usd": 2.3759208231128636e-06,
+          "count": 1
+        },
+        {
+          "label": "[0x985f86]",
+          "address": "0x985f868e585584fc7b53aff91840e0ff0dff501f",
+          "volume_usd": 2.3759208231128636e-06,
+          "count": 1
+        },
+        {
+          "label": "[0x985fbd]",
+          "address": "0x985fbdbc3ce9f7f89c934909fbb4c66ab965501f",
+          "volume_usd": 9.998220050258896e-07,
+          "count": 1
+        },
+        {
+          "label": "[0x985f4a]",
+          "address": "0x985f4a269e5897f8e129c0be7713cafebdf3501f",
+          "volume_usd": 0.0,
+          "count": 1
+        },
+        {
+          "label": "High Activity [0x2df1df]",
+          "address": "0x2df1df582d0a1efc7178fd78b2bcd9aa08a73df7",
+          "volume_usd": 0.0,
+          "count": 2
+        }
+      ]
     },
     "0xd82f7d84a524b8e82de0cb3df1f04e338604fd8e": {
       "address": "0xd82f7d84a524b8e82de0cb3df1f04e338604fd8e",
@@ -12664,11 +12848,9 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "プロトレーダー(本物)",
       "metric_category": "nansen-pro",
-      "labels": [
-        "🤓 Smart HL Perps Trader [0xba0495]"
-      ],
+      "labels": [],
       "roi_alltime": 34.47506305074361,
       "nansen_checked": "2026-06-17",
       "auto_tags": [
@@ -12676,7 +12858,7 @@
         "PnL:大($1-10M)",
         "方向:無/フラット"
       ],
-      "notes_jp": "【ひとことで】🤓 Nansenが『常勝(Smart Money)』認定したトレーダー。たぶんプロ、未精査。\n【正体】🤓 Smart HL Perps Trader [0xba0495]（Nansenラベル）\n【成績】通算PnL $1,162,455・ROI 3,448%・現在残高 $0\n【補足】残高が小さい＝稼ぎを引き上げ済の可能性（出金）。",
+      "notes_jp": "【判定】実力で安定黒字・majors先行なし＝プロ確定\n【HL実測】実現益$1,162,455・勝率1.0・majors比0.0・急変先行$0\n【資金源】🤓 Smart HL Perps Trader [0x66d3b8] ＝ 別ウォレット\n【注】alt中心ゆえBTC/ETH/SOLのインサイダー検証は限定的。alt側は未検証。",
       "current": {
         "date": "2026-06-17",
         "metric_category": "nansen-pro",
@@ -12685,7 +12867,77 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "first_funders": [
+        {
+          "address": "0x66d3b80a7c6dc33801414dd22cde23f25d3de4d6",
+          "label": "🤓 Smart HL Perps Trader [0x66d3b8]",
+          "relation": "First Funder",
+          "time": "2026-05-05T08:35:11"
+        }
+      ],
+      "counterparties": [
+        {
+          "label": "[0xaeb09b]",
+          "address": "0xaeb09b3a0b5d4123aade6570215f20889109be49",
+          "volume_usd": 7902536.977530831,
+          "count": 10
+        },
+        {
+          "label": "🤓 Smart HL Perps Trader [0x66d3b8]",
+          "address": "0x66d3b80a7c6dc33801414dd22cde23f25d3de4d6",
+          "volume_usd": 6908315.8173274305,
+          "count": 9
+        },
+        {
+          "label": "🤖 Hyperliquid: Bridge 2 [0x2df1c5]",
+          "address": "0x2df1c51e09aecf9cacb7bc98cb1742757f163df7",
+          "volume_usd": 6412015.659703145,
+          "count": 13
+        },
+        {
+          "label": "[0x3c4214]",
+          "address": "0x3c4214e8fd067e050dd1a14adafc6673a025891c",
+          "volume_usd": 119969.59041711199,
+          "count": 1
+        },
+        {
+          "label": "[0xd8c00b]",
+          "address": "0xd8c00b08ed6d8c0907b08b249cfa86de40b48d55",
+          "volume_usd": 14688.288710769739,
+          "count": 2
+        },
+        {
+          "label": "[0xd8c0e9]",
+          "address": "0xd8c0e9f40fd66523a20d4256cdaa948a2dc38d55",
+          "volume_usd": 0.00919767602362385,
+          "count": 1
+        },
+        {
+          "label": "[0x66d388]",
+          "address": "0x66d388eee2aced6781ff61545dea31f36fc684d8",
+          "volume_usd": 0.0047676400790058,
+          "count": 8
+        },
+        {
+          "label": "[0xd8c062]",
+          "address": "0xd8c0625716046ac0cf9ed28d0f7cf92b3e0f8d55",
+          "volume_usd": 0.0014596311950533499,
+          "count": 2
+        },
+        {
+          "label": "High Activity [0x2df1f8]",
+          "address": "0x2df1f8de1c44ebb6eea52582f1892cd57f163df7",
+          "volume_usd": 0.0010988424568828662,
+          "count": 2
+        },
+        {
+          "label": "[0x6609a6]",
+          "address": "0x6609a6f7633ce958b8309392a42e2dc27d2fe4d6",
+          "volume_usd": 0.0009798590628898479,
+          "count": 1
+        }
+      ]
     },
     "0x99b3ba1c1b7ad83d0164d996e3d271ae8c842551": {
       "address": "0x99b3ba1c1b7ad83d0164d996e3d271ae8c842551",
@@ -12709,11 +12961,9 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "プロトレーダー(本物)",
       "metric_category": "nansen-pro",
-      "labels": [
-        "Former Smart Trader [0x99b3ba]"
-      ],
+      "labels": [],
       "roi_alltime": 6.670384805762966,
       "nansen_checked": "2026-06-17",
       "auto_tags": [
@@ -12721,7 +12971,7 @@
         "PnL:大($1-10M)",
         "方向:無/フラット"
       ],
-      "notes_jp": "【ひとことで】🤓 Nansenが『常勝(Smart Money)』認定したトレーダー。たぶんプロ、未精査。\n【正体】Former Smart Trader [0x99b3ba]（Nansenラベル）\n【成績】通算PnL $1,153,173・ROI 667%・現在残高 $0\n【補足】残高が小さい＝稼ぎを引き上げ済の可能性（出金）。",
+      "notes_jp": "【判定】実力で安定黒字・majors先行なし＝プロ確定\n【HL実測】実現益$933,423・勝率0.7326・majors比0.83・急変先行$0\n【資金源】HL Perps Swing Trader [0xecb785] ＝ 別ウォレット",
       "current": {
         "date": "2026-06-17",
         "metric_category": "nansen-pro",
@@ -12730,7 +12980,77 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "first_funders": [
+        {
+          "address": "0xecb785a15937656d69ae909a741eea66203b8363",
+          "label": "HL Perps Swing Trader [0xecb785]",
+          "relation": "First Funder",
+          "time": "2026-04-07T02:29:50"
+        }
+      ],
+      "counterparties": [
+        {
+          "label": "🤖 Hyperliquid: Bridge 2 [0x2df1c5]",
+          "address": "0x2df1c51e09aecf9cacb7bc98cb1742757f163df7",
+          "volume_usd": 983545.6840103627,
+          "count": 16
+        },
+        {
+          "label": "🤖 DLN: DlnSource [0xef4fb2]",
+          "address": "0xef4fb24ad0916217251f553c0596f8edc630eb66",
+          "volume_usd": 938774.6907867442,
+          "count": 21
+        },
+        {
+          "label": "​​deBridge: Trading Bot [0x555ce2]",
+          "address": "0x555ce236c0220695b68341bc48c68d52210cc35b",
+          "volume_usd": 99903.50876687937,
+          "count": 2
+        },
+        {
+          "label": "🤖 🏦 Binance: Hot Wallet [0xee7ae8]",
+          "address": "0xee7ae85f2fe2239e27d9c1e23fffe168d63b4055",
+          "volume_usd": 38564.29834550468,
+          "count": 1
+        },
+        {
+          "label": "HL Perps Day Trader [0xbced70]",
+          "address": "0xbced70469e8751aa432b3cac6c957acbbbc2afeb",
+          "volume_usd": 36265.026022264814,
+          "count": 1
+        },
+        {
+          "label": "[0xe867a2]",
+          "address": "0xe867a2a2d33667ec89460a5a7efa358ac36a5e60",
+          "volume_usd": 9995.3411393417,
+          "count": 2
+        },
+        {
+          "label": "🤖 MEV Bot [0x0a2854]",
+          "address": "0x0a2854fbbd9b3ef66f17d47284e7f899b9509330",
+          "volume_usd": 79.70436119388523,
+          "count": 4
+        },
+        {
+          "label": "​​🤖 MetaMask: Bridge [0x23981f]",
+          "address": "0x23981fc34e69eedfe2bd9a0a9fcb0719fe09dbfc",
+          "volume_usd": 30.24772516382789,
+          "count": 3
+        },
+        {
+          "label": "​​🤖 ETH Bridge [0x7a70cb]",
+          "address": "0x7a70cb77a12fa2dc3fa1bc1dcbca4c79db71a289",
+          "volume_usd": 29.99170477762748,
+          "count": 1
+        },
+        {
+          "label": "🤖 DLN: CrosschainForwarder [0x663dc1]",
+          "address": "0x663dc15d3c1ac63ff12e45ab68fea3f0a883c251",
+          "volume_usd": 2.999170477762748,
+          "count": 1
+        }
+      ]
     },
     "0x05904930cae1e9a48c055f4a8a83480ba7fc6abf": {
       "address": "0x05904930cae1e9a48c055f4a8a83480ba7fc6abf",
@@ -12846,11 +13166,9 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "プロトレーダー(本物)",
       "metric_category": "nansen-pro",
-      "labels": [
-        "🤓 Smart HL Perps Trader [0x98256d]"
-      ],
+      "labels": [],
       "roi_alltime": 7.7312469125129555,
       "nansen_checked": "2026-06-17",
       "auto_tags": [
@@ -12858,7 +13176,7 @@
         "PnL:大($1-10M)",
         "方向:無/フラット"
       ],
-      "notes_jp": "【ひとことで】🤓 Nansenが『常勝(Smart Money)』認定したトレーダー。たぶんプロ、未精査。\n【正体】🤓 Smart HL Perps Trader [0x98256d]（Nansenラベル）\n【成績】通算PnL $1,054,733・ROI 773%・現在残高 $0\n【補足】残高が小さい＝稼ぎを引き上げ済の可能性（出金）。",
+      "notes_jp": "【判定】実力で安定黒字・majors先行なし＝プロ確定\n【HL実測】実現益$1,049,066・勝率0.8889・majors比0.0・急変先行$0\n【資金源】不明 ＝ 不明\n【注】alt中心ゆえBTC/ETH/SOLのインサイダー検証は限定的。alt側は未検証。",
       "current": {
         "date": "2026-06-17",
         "metric_category": "nansen-pro",
@@ -12867,7 +13185,9 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "first_funders": [],
+      "counterparties": []
     },
     "0x5846ac5619d2a762751b1663d86a402085505765": {
       "address": "0x5846ac5619d2a762751b1663d86a402085505765",
@@ -12891,11 +13211,9 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "プロトレーダー(本物)",
       "metric_category": "nansen-pro",
-      "labels": [
-        "Former Smart Trader [0x5846ac]"
-      ],
+      "labels": [],
       "roi_alltime": 0.059097417979624645,
       "nansen_checked": "2026-06-17",
       "auto_tags": [
@@ -12903,7 +13221,7 @@
         "PnL:大($1-10M)",
         "方向:無/フラット"
       ],
-      "notes_jp": "【ひとことで】🤓 Nansenが『常勝(Smart Money)』認定したトレーダー。たぶんプロ、未精査。\n【正体】Former Smart Trader [0x5846ac]（Nansenラベル）\n【成績】通算PnL $1,048,804・ROI 6%・現在残高 $0\n【補足】残高が小さい＝稼ぎを引き上げ済の可能性（出金）。",
+      "notes_jp": "【判定】実力で安定黒字・majors先行なし＝プロ確定\n【HL実測】実現益$2,445,741・勝率0.9586・majors比0.0・急変先行$0\n【資金源】🏦 Bybit [0x7da0b9] ＝ CEX(身元割れる)\n【注】alt中心ゆえBTC/ETH/SOLのインサイダー検証は限定的。alt側は未検証。",
       "current": {
         "date": "2026-06-17",
         "metric_category": "nansen-pro",
@@ -12912,7 +13230,77 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "first_funders": [
+        {
+          "address": "0x7da0b9211020d3775b18116fe751c555b9a7058c",
+          "label": "🏦 Bybit [0x7da0b9]",
+          "relation": "First Funder",
+          "time": "2025-10-21T03:54:38"
+        }
+      ],
+      "counterparties": [
+        {
+          "label": "[0x6f1d1b]",
+          "address": "0x6f1d1b3c049a07935b0977e6532153a430a6628f",
+          "volume_usd": 500.6430026009906,
+          "count": 3
+        },
+        {
+          "label": "​​🤖 🏦 KyberSwap: DEX Aggregator [0x8f10b4]",
+          "address": "0x8f10b468b06c6fd214b65f87778827f7d113f996",
+          "volume_usd": 315.6551961361632,
+          "count": 2
+        },
+        {
+          "label": "🤖 CoW Protocol: Settlement [0x9008d1]",
+          "address": "0x9008d19f58aabd9ed0d60971565aa8510560ab41",
+          "volume_usd": 208.3730279417584,
+          "count": 4
+        },
+        {
+          "label": "🤖 Token Millionaire [0x42b6d0]",
+          "address": "0x42b6d0829f83d3e064ce4c8a1ec044b22ffa05d7",
+          "volume_usd": 159.2400857647785,
+          "count": 8
+        },
+        {
+          "label": "🤖 Ethena Labs: EnaSilo [0x4655b6]",
+          "address": "0x4655b6a10c83d6beff1dc7116436cfd8b4f8d48a",
+          "volume_usd": 72.22609262202286,
+          "count": 1
+        },
+        {
+          "label": "🤖 ParaSwap: Augustus V.2 [0x6a000f]",
+          "address": "0x6a000f20005980200259b80c5102003040001068",
+          "volume_usd": 62.087181706548904,
+          "count": 2
+        },
+        {
+          "label": "Burn Address [0x000000]",
+          "address": "0x0000000000000000000000000000000000000000",
+          "volume_usd": 60.096601593001076,
+          "count": 1
+        },
+        {
+          "label": "🤖 High Activity [0x8faa00]",
+          "address": "0x8faa0000c10015610005ca010ee000d006e0e820",
+          "volume_usd": 38.589128571884814,
+          "count": 1
+        },
+        {
+          "label": "🤖 🏦 1inch: Aggregation Router V6 [0x111111]",
+          "address": "0x111111125421ca6dc452d289314280a0f8842a65",
+          "volume_usd": 35.8473723834605,
+          "count": 1
+        },
+        {
+          "label": "🤖 High Activity [0x7f51c1]",
+          "address": "0x7f51c134230eb9e5aba42bc364d3d3eba26d9712",
+          "volume_usd": 35.39541631037246,
+          "count": 1
+        }
+      ]
     },
     "0xa3d843b6a057504284006bef6f34a2e9bc80fb6b": {
       "address": "0xa3d843b6a057504284006bef6f34a2e9bc80fb6b",
@@ -13032,9 +13420,7 @@
       "last_seen": "2026-06-17",
       "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
-      "labels": [
-        "Former Smart Trader [0xbcc7fd]"
-      ],
+      "labels": [],
       "roi_alltime": 0.2130902802958409,
       "nansen_checked": "2026-06-17",
       "auto_tags": [
@@ -13042,7 +13428,7 @@
         "PnL:中($100k-1M)",
         "方向:無/フラット"
       ],
-      "notes_jp": "【ひとことで】🤓 Nansenが『常勝(Smart Money)』認定したトレーダー。たぶんプロ、未精査。\n【正体】Former Smart Trader [0xbcc7fd]（Nansenラベル）\n【成績】通算PnL $964,506・ROI 21%・現在残高 $0\n【補足】残高が小さい＝稼ぎを引き上げ済の可能性（出金）。",
+      "notes_jp": "【判定】保留(勝率低 or alt中心で判定不能)\n【HL実測】実現益$553,556・勝率0.5072・majors比0.81・急変先行$0\n【資金源】🤖 DLN: DlnDestination [0xe7351f] ＝ ブリッジ/サービス(隠蔽)",
       "current": {
         "date": "2026-06-17",
         "metric_category": "nansen-pro",
@@ -13051,7 +13437,16 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "first_funders": [
+        {
+          "address": "0xe7351fd770a37282b91d153ee690b63579d6dd7f",
+          "label": "🤖 DLN: DlnDestination [0xe7351f]",
+          "relation": "First Funder",
+          "time": "2026-01-14T16:22:37"
+        }
+      ],
+      "counterparties": []
     },
     "0x143c28ae5b8642f58c98b8a6f82a0f314d23f6ab": {
       "address": "0x143c28ae5b8642f58c98b8a6f82a0f314d23f6ab",
@@ -13075,11 +13470,9 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "プロトレーダー(本物)",
       "metric_category": "nansen-pro",
-      "labels": [
-        "🤓 Smart HL Perps Trader [0x143c28]"
-      ],
+      "labels": [],
       "roi_alltime": 0.46207923672310747,
       "nansen_checked": "2026-06-17",
       "auto_tags": [
@@ -13087,7 +13480,7 @@
         "PnL:中($100k-1M)",
         "方向:無/フラット"
       ],
-      "notes_jp": "【ひとことで】🤓 Nansenが『常勝(Smart Money)』認定したトレーダー。たぶんプロ、未精査。\n【正体】🤓 Smart HL Perps Trader [0x143c28]（Nansenラベル）\n【成績】通算PnL $960,470・ROI 46%・現在残高 $0\n【補足】残高が小さい＝稼ぎを引き上げ済の可能性（出金）。",
+      "notes_jp": "【判定】実力で安定黒字・majors先行なし＝プロ確定\n【HL実測】実現益$923,593・勝率0.7484・majors比0.0・急変先行$0\n【資金源】Relay Protocol: EOA Bridge [0xf70da9] ＝ ブリッジ/サービス(隠蔽)\n【注】alt中心ゆえBTC/ETH/SOLのインサイダー検証は限定的。alt側は未検証。",
       "current": {
         "date": "2026-06-17",
         "metric_category": "nansen-pro",
@@ -13096,7 +13489,29 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "first_funders": [
+        {
+          "address": "0xf70da97812cb96acdf810712aa562db8dfa3dbef",
+          "label": "Relay Protocol: EOA Bridge [0xf70da9]",
+          "relation": "First Funder",
+          "time": "2025-11-26T16:52:17"
+        }
+      ],
+      "counterparties": [
+        {
+          "label": "High Activity [0x2df174]",
+          "address": "0x2df17470c5de6a5d2d41feb8fcf5fb0deeb43df7",
+          "volume_usd": 0.00012997923686409836,
+          "count": 13
+        },
+        {
+          "label": "High Activity [0x2df1df]",
+          "address": "0x2df1df582d0a1efc7178fd78b2bcd9aa08a73df7",
+          "volume_usd": 0.00011998083402839848,
+          "count": 12
+        }
+      ]
     },
     "0x06466f9ac08e872064950cec3812b57d6feafa7f": {
       "address": "0x06466f9ac08e872064950cec3812b57d6feafa7f",
@@ -13395,9 +13810,7 @@
       "last_seen": "2026-06-17",
       "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
-      "labels": [
-        "Former Smart Trader [0x237396]"
-      ],
+      "labels": [],
       "roi_alltime": 5.739874009291859,
       "nansen_checked": "2026-06-17",
       "auto_tags": [
@@ -13405,7 +13818,7 @@
         "PnL:中($100k-1M)",
         "方向:無/フラット"
       ],
-      "notes_jp": "【ひとことで】🤓 Nansenが『常勝(Smart Money)』認定したトレーダー。たぶんプロ、未精査。\n【正体】Former Smart Trader [0x237396]（Nansenラベル）\n【成績】通算PnL $893,257・ROI 574%・現在残高 $0\n【補足】残高が小さい＝稼ぎを引き上げ済の可能性（出金）。",
+      "notes_jp": "【判定】保留(勝率低 or alt中心で判定不能)\n【HL実測】実現益$893,116・勝率0.4661・majors比1.0・急変先行$0\n【資金源】不明 ＝ 不明",
       "current": {
         "date": "2026-06-17",
         "metric_category": "nansen-pro",
@@ -13414,7 +13827,9 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "first_funders": [],
+      "counterparties": []
     },
     "0xdc38f7ee386b7eea3842643e56b08ee5bb40f625": {
       "address": "0xdc38f7ee386b7eea3842643e56b08ee5bb40f625",
@@ -13762,7 +14177,7 @@
       "position": "Nansen候補(HL未検証)",
       "metric_category": "hl-verified",
       "labels": [
-        "Former Smart Trader [0xb69eec]"
+        "High Balance"
       ],
       "roi_alltime": 0.00764675264162284,
       "nansen_checked": "2026-06-17",
@@ -13771,7 +14186,7 @@
         "PnL:中($100k-1M)",
         "方向:無/フラット"
       ],
-      "notes_jp": "【ひとことで】⚪ HL行動では insider/pro を確定できず（保留）。\n【HL実測】実現益$573,128・勝率0.5749・方向的中率0.2342・急変先行$0\n【活動期間】2026-03-23〜2026-06-08（majors 2854約定）\n【正体(Nansen)】Former Smart Trader [0xb69eec]",
+      "notes_jp": "【判定】保留(勝率低 or alt中心で判定不能)\n【HL実測】実現益$801,953・勝率0.5111・majors比0.27・急変先行$0\n【資金源】kytcyber.eth [0x435ca9] ＝ 別ウォレット\n【注】alt中心ゆえBTC/ETH/SOLのインサイダー検証は限定的。alt側は未検証。",
       "current": {
         "date": "2026-06-17",
         "metric_category": "hl-verified",
@@ -13783,7 +14198,77 @@
         "avg_hold_h": null
       },
       "n_fills_14d": null,
-      "lead_examples": []
+      "lead_examples": [],
+      "first_funders": [
+        {
+          "address": "0x435ca93a2b2c9407d47ab61f44f78d6a67db81c1",
+          "label": "kytcyber.eth [0x435ca9]",
+          "relation": "First Funder",
+          "time": "2026-01-05T04:26:01"
+        }
+      ],
+      "counterparties": [
+        {
+          "label": "🤖 Hyperliquid: Bridge 2 [0x2df1c5]",
+          "address": "0x2df1c51e09aecf9cacb7bc98cb1742757f163df7",
+          "volume_usd": 1859475.8640494589,
+          "count": 15
+        },
+        {
+          "label": "🏦 OKX: Deposit [0x218325]",
+          "address": "0x218325ec29e2152fc60699aae233532c125187e9",
+          "volume_usd": 199946.8121492639,
+          "count": 1
+        },
+        {
+          "label": "🏦 Bybit: Deposit [0x321fef]",
+          "address": "0x321fef4ae276db715f7b66892e906099f5152d70",
+          "volume_usd": 199937.83370505561,
+          "count": 1
+        },
+        {
+          "label": "High Activity [0x2df185]",
+          "address": "0x2df1852390b0ffac5728a244c8019e657f163df7",
+          "volume_usd": 0.0004988876418716158,
+          "count": 1
+        },
+        {
+          "label": "[0x3213d2]",
+          "address": "0x3213d2b3b3fb36ba2bd9702f766798f414e52d70",
+          "volume_usd": 0.00019993783370505561,
+          "count": 3
+        },
+        {
+          "label": "High Activity [0x2df1df]",
+          "address": "0x2df1df582d0a1efc7178fd78b2bcd9aa08a73df7",
+          "volume_usd": 0.00016795172246748417,
+          "count": 10
+        },
+        {
+          "label": "[0x2183aa]",
+          "address": "0x2183aa3c22b965bcfd3d30f2cef2423d250a87e9",
+          "volume_usd": 3.998936242985278e-05,
+          "count": 5
+        },
+        {
+          "label": "[0x321fd2]",
+          "address": "0x321fd2bf83790831f22712755e64504c71112d70",
+          "volume_usd": 3.998846458543195e-05,
+          "count": 5
+        },
+        {
+          "label": "[0x321f19]",
+          "address": "0x321f1971715473d29ddbc7e5ed9d8dfd2fafcd70",
+          "volume_usd": 1.999468121492639e-05,
+          "count": 1
+        },
+        {
+          "label": "[0x2185f8]",
+          "address": "0x2185f8b53956be95a0ae21321b5110faabb187e9",
+          "volume_usd": 1.999468121492639e-05,
+          "count": 3
+        }
+      ]
     },
     "0x500bea59133e20dc63b7e88913b30348494b84ba": {
       "address": "0x500bea59133e20dc63b7e88913b30348494b84ba",
@@ -14083,9 +14568,7 @@
       "last_seen": "2026-06-17",
       "position": "Nansen候補(HL未検証)",
       "metric_category": "hl-verified",
-      "labels": [
-        "🤓 Smart HL Perps Trader [0xd866a2]"
-      ],
+      "labels": [],
       "roi_alltime": 236.2763419846327,
       "nansen_checked": "2026-06-17",
       "auto_tags": [
@@ -14093,7 +14576,7 @@
         "PnL:中($100k-1M)",
         "方向:無/フラット"
       ],
-      "notes_jp": "【ひとことで】⚪ HL行動では insider/pro を確定できず（保留）。\n【HL実測】実現益$25,067・勝率0.5241・方向的中率0.0・急変先行$0\n【活動期間】2026-05-27〜2026-06-04（majors 625約定）\n【正体(Nansen)】🤓 Smart HL Perps Trader [0xd866a2]",
+      "notes_jp": "【判定】保留(勝率低 or alt中心で判定不能)\n【HL実測】実現益$715,203・勝率0.4608・majors比0.32・急変先行$0\n【資金源】👤 hyperliquidated [0x7c9309] ＝ 別ウォレット",
       "current": {
         "date": "2026-06-17",
         "metric_category": "hl-verified",
@@ -14105,7 +14588,35 @@
         "avg_hold_h": null
       },
       "n_fills_14d": null,
-      "lead_examples": []
+      "lead_examples": [],
+      "first_funders": [
+        {
+          "address": "0x7c930969fcf3e5a5c78bcf2e1cefda3f53e3c8fd",
+          "label": "👤 hyperliquidated [0x7c9309]",
+          "relation": "First Funder",
+          "time": "2026-05-27T02:51:27"
+        }
+      ],
+      "counterparties": [
+        {
+          "label": "👤 hyperliquidated [0x7c9309]",
+          "address": "0x7c930969fcf3e5a5c78bcf2e1cefda3f53e3c8fd",
+          "volume_usd": 649818.6869255882,
+          "count": 6
+        },
+        {
+          "label": "🤖 Circle: USDC Bridge [0xa95d9c]",
+          "address": "0xa95d9c1f655341597c94393fddc30cf3c08e4fce",
+          "volume_usd": 649817.6522758217,
+          "count": 5
+        },
+        {
+          "label": "[0x7c9373]",
+          "address": "0x7c9373ac32032d6bd41fa6cb35f271ef53e3c8fd",
+          "volume_usd": 2.0692995330607036e-06,
+          "count": 1
+        }
+      ]
     },
     "0xd8d0358919a944d4efa98713795d49b030e43ef9": {
       "address": "0xd8d0358919a944d4efa98713795d49b030e43ef9",
@@ -14493,11 +15004,9 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "プロトレーダー(本物)",
       "metric_category": "nansen-pro",
-      "labels": [
-        "Former Smart Trader [0x1fe066]"
-      ],
+      "labels": [],
       "roi_alltime": 1.3619095677256903,
       "nansen_checked": "2026-06-17",
       "auto_tags": [
@@ -14505,7 +15014,7 @@
         "PnL:中($100k-1M)",
         "方向:無/フラット"
       ],
-      "notes_jp": "【ひとことで】🤓 Nansenが『常勝(Smart Money)』認定したトレーダー。たぶんプロ、未精査。\n【正体】Former Smart Trader [0x1fe066]（Nansenラベル）\n【成績】通算PnL $697,616・ROI 136%・現在残高 $0\n【補足】残高が小さい＝稼ぎを引き上げ済の可能性（出金）。",
+      "notes_jp": "【判定】実力で安定黒字・majors先行なし＝プロ確定\n【HL実測】実現益$916,344・勝率0.7087・majors比0.17・急変先行$0\n【資金源】Former Smart Trader [0xa8dc22] ＝ 別ウォレット\n【注】alt中心ゆえBTC/ETH/SOLのインサイダー検証は限定的。alt側は未検証。",
       "current": {
         "date": "2026-06-17",
         "metric_category": "nansen-pro",
@@ -14514,7 +15023,71 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "first_funders": [
+        {
+          "address": "0xa8dc22b6cc18fc27dc695bbc6e9a17603b9b095b",
+          "label": "Former Smart Trader [0xa8dc22]",
+          "relation": "First Funder",
+          "time": "2025-10-23T06:12:23"
+        }
+      ],
+      "counterparties": [
+        {
+          "label": "🤖 Hyperliquid: Bridge 2 [0x2df1c5]",
+          "address": "0x2df1c51e09aecf9cacb7bc98cb1742757f163df7",
+          "volume_usd": 1174688.5075773965,
+          "count": 7
+        },
+        {
+          "label": "🤓 Smart HL Perps Trader [0x8fbb1a]",
+          "address": "0x8fbb1aad00013c4e32bb033337b7cb792ab2fc4e",
+          "volume_usd": 1150981.2320193683,
+          "count": 6
+        },
+        {
+          "label": "Burn Address [0x000000]",
+          "address": "0x0000000000000000000000000000000000000000",
+          "volume_usd": 116937.63784150346,
+          "count": 1
+        },
+        {
+          "label": "🤖 🏦 Aster: Treasury [0x9e36cb]",
+          "address": "0x9e36cb86a159d479ced94fa05036f235ac40e1d5",
+          "volume_usd": 93240.41780401718,
+          "count": 2
+        },
+        {
+          "label": "[0x8fbb07]",
+          "address": "0x8fbb072b42b0d5df177ce1881180c4c86d6efc4e",
+          "volume_usd": 0.00021991957962933434,
+          "count": 10
+        },
+        {
+          "label": "High Activity [0x9e3668]",
+          "address": "0x9e36686b196436db60bbf9cb86f430d5ac40e1d5",
+          "volume_usd": 0.00014995849941203313,
+          "count": 1
+        },
+        {
+          "label": "[0x8fbb9c]",
+          "address": "0x8fbb9cb13ed8cee554efe7d57b6f7d19fe20fc4e",
+          "volume_usd": 9.696454192747924e-05,
+          "count": 1
+        },
+        {
+          "label": "High Activity [0x2df1df]",
+          "address": "0x2df1df582d0a1efc7178fd78b2bcd9aa08a73df7",
+          "volume_usd": 0.0,
+          "count": 1
+        },
+        {
+          "label": "🤖 Disperse.app: Disperse [0xd152f5]",
+          "address": "0xd152f549545093347a162dce210e7293f1452150",
+          "volume_usd": 0.0,
+          "count": 1
+        }
+      ]
     },
     "0x0980b34ade9476dba81bcdb0f865a333793ad1c2": {
       "address": "0x0980b34ade9476dba81bcdb0f865a333793ad1c2",
@@ -14584,11 +15157,9 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "プロトレーダー(本物)",
       "metric_category": "nansen-pro",
-      "labels": [
-        "🤓 Smart HL Perps Trader [0x8ccee8]"
-      ],
+      "labels": [],
       "roi_alltime": 2.0606228726176585,
       "nansen_checked": "2026-06-17",
       "auto_tags": [
@@ -14597,7 +15168,7 @@
         "方向:無/フラット",
         "資金:出金疑い(10x+)"
       ],
-      "notes_jp": "【ひとことで】🤓 Nansenが『常勝(Smart Money)』認定したトレーダー。たぶんプロ、未精査。\n【正体】🤓 Smart HL Perps Trader [0x8ccee8]（Nansenラベル）\n【成績】通算PnL $649,893・ROI 206%・現在残高 $41,808\n【補足】残高が小さい＝稼ぎを引き上げ済の可能性（出金）。",
+      "notes_jp": "【判定】実力で安定黒字・majors先行なし＝プロ確定\n【HL実測】実現益$602,600・勝率0.6679・majors比0.05・急変先行$0\n【資金源】🤖 Mayan Finance: Swift [0xc38e4e] ＝ ブリッジ/サービス(隠蔽)\n【注】alt中心ゆえBTC/ETH/SOLのインサイダー検証は限定的。alt側は未検証。",
       "current": {
         "date": "2026-06-17",
         "metric_category": "nansen-pro",
@@ -14606,7 +15177,53 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "first_funders": [
+        {
+          "address": "0xc38e4e6a15593f908255214653d3d947ca1c2338",
+          "label": "🤖 Mayan Finance: Swift [0xc38e4e]",
+          "relation": "First Funder",
+          "time": "2025-08-10T17:11:23"
+        }
+      ],
+      "counterparties": [
+        {
+          "label": "​​🏦 Coinsquare [0xc7f8df]",
+          "address": "0xc7f8df7b32cb89bb4ea5673f04695b87ed11f9b9",
+          "volume_usd": 10812.390744659708,
+          "count": 4
+        },
+        {
+          "label": "🤖 Relay Protocol: Depository [0x4cd00e]",
+          "address": "0x4cd00e387622c35bddb9b4c962c136462338bc31",
+          "volume_usd": 6589.627403254672,
+          "count": 9
+        },
+        {
+          "label": "🤖 DLN: DlnSource [0xef4fb2]",
+          "address": "0xef4fb24ad0916217251f553c0596f8edc630eb66",
+          "volume_usd": 4234.322969125864,
+          "count": 10
+        },
+        {
+          "label": "[0xbeedaf]",
+          "address": "0xbeedaf337ecfbd61c09ade102f1cad3c97eb2e65",
+          "volume_usd": 43.108835962201354,
+          "count": 1
+        },
+        {
+          "label": "HL Perps Day Trader [0xae5aa1]",
+          "address": "0xae5aa11fbc1d10bee0d0e7adcc7c0249e7de020f",
+          "volume_usd": 23.92615041297825,
+          "count": 1
+        },
+        {
+          "label": "High Activity [0x4ef0c6]",
+          "address": "0x4ef0c60a8f728291e6d8adc9807be42c8bb78946",
+          "volume_usd": 0.053529800587332046,
+          "count": 1
+        }
+      ]
     },
     "0xa99c9e5484e5b26635c07876d0859a1819ff40d5": {
       "address": "0xa99c9e5484e5b26635c07876d0859a1819ff40d5",
@@ -14630,11 +15247,9 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "プロトレーダー(本物)",
       "metric_category": "hl-verified",
-      "labels": [
-        "🤓 Smart HL Perps Trader [0xa99c9e]"
-      ],
+      "labels": [],
       "roi_alltime": 0.4675679966991742,
       "nansen_checked": "2026-06-17",
       "auto_tags": [
@@ -14643,7 +15258,7 @@
         "方向:無/フラット",
         "資金:出金疑い(10x+)"
       ],
-      "notes_jp": "【ひとことで】⚪ HL行動では insider/pro を確定できず（保留）。\n【HL実測】実現益$2,404・勝率0.4419・方向的中率0.3782・急変先行$0\n【活動期間】2025-08-07〜2026-06-16（majors 486約定）\n【正体(Nansen)】🤓 Smart HL Perps Trader [0xa99c9e]",
+      "notes_jp": "【判定】実力で安定黒字・majors先行なし＝プロ確定\n【HL実測】実現益$505,072・勝率0.6902・majors比0.06・急変先行$0\n【資金源】🤖 High Activity [0x31cae3] ＝ ブリッジ/サービス(隠蔽)\n【注】alt中心ゆえBTC/ETH/SOLのインサイダー検証は限定的。alt側は未検証。",
       "current": {
         "date": "2026-06-17",
         "metric_category": "hl-verified",
@@ -14655,7 +15270,77 @@
         "avg_hold_h": null
       },
       "n_fills_14d": null,
-      "lead_examples": []
+      "lead_examples": [],
+      "first_funders": [
+        {
+          "address": "0x31cae3b7fb82d847621859fb1585353c5720660d",
+          "label": "🤖 High Activity [0x31cae3]",
+          "relation": "First Funder",
+          "time": "2025-08-07T00:10:17"
+        }
+      ],
+      "counterparties": [
+        {
+          "label": "🤖 LI.FI: Diamond Facet Bridge [0x1231de]",
+          "address": "0x1231deb6f5749ef6ce6943a275a1d3e7486f4eae",
+          "volume_usd": 4155.342935898476,
+          "count": 2
+        },
+        {
+          "label": "🤖 Hyperliquid: Bridge 2 [0x2df1c5]",
+          "address": "0x2df1c51e09aecf9cacb7bc98cb1742757f163df7",
+          "volume_usd": 2077.6824301323477,
+          "count": 1
+        },
+        {
+          "label": "[0xa751f4]",
+          "address": "0xa751f4bf99a375891f3cdbb01855913e38f94c19",
+          "volume_usd": 2077.6600918382305,
+          "count": 1
+        },
+        {
+          "label": "[0x90b975]",
+          "address": "0x90b9757d5bd7c55154959dec8b2891be38f94c19",
+          "volume_usd": 0.0002069640809421396,
+          "count": 1
+        },
+        {
+          "label": "[0xa7be91]",
+          "address": "0xa7be91d5b284f70ac0332f30235a516dc4f94c19",
+          "volume_usd": 0.00020696394889491726,
+          "count": 1
+        },
+        {
+          "label": "[0xa75187]",
+          "address": "0xa75187b4ac17299e61d55aa15a20875e38f94c19",
+          "volume_usd": 0.00020696394889491726,
+          "count": 1
+        },
+        {
+          "label": "[0xa7514b]",
+          "address": "0xa7514b8956381ad1562cd33fac7d7fce38f94c19",
+          "volume_usd": 2.3759208231128636e-06,
+          "count": 1
+        },
+        {
+          "label": "[0x2df123]",
+          "address": "0x2df123d54193f295c8e10814d5d0f1557f163df7",
+          "volume_usd": 2.3759208231128636e-06,
+          "count": 1
+        },
+        {
+          "label": "[0xa7beee]",
+          "address": "0xa7beee63cabb4d7a1e96798d2865331990994c19",
+          "volume_usd": 0.0,
+          "count": 1
+        },
+        {
+          "label": "High Activity [0x2df1df]",
+          "address": "0x2df1df582d0a1efc7178fd78b2bcd9aa08a73df7",
+          "volume_usd": 0.0,
+          "count": 1
+        }
+      ]
     },
     "0xaa3f51a8095d030e38317e917839c87315300bee": {
       "address": "0xaa3f51a8095d030e38317e917839c87315300bee",
@@ -14681,9 +15366,7 @@
       "last_seen": "2026-06-17",
       "position": "Nansen候補(HL未検証)",
       "metric_category": "hl-verified",
-      "labels": [
-        "Former Smart Trader [0xaa3f51]"
-      ],
+      "labels": [],
       "roi_alltime": 359.2360331380091,
       "nansen_checked": "2026-06-17",
       "auto_tags": [
@@ -14691,7 +15374,7 @@
         "PnL:中($100k-1M)",
         "方向:無/フラット"
       ],
-      "notes_jp": "【ひとことで】⚪ HL行動では insider/pro を確定できず（保留）。\n【HL実測】実現益$609,754・勝率0.4936・方向的中率0.0・急変先行$0\n【活動期間】2025-07-30〜2026-04-27（majors 553約定）\n【正体(Nansen)】Former Smart Trader [0xaa3f51]",
+      "notes_jp": "【判定】保留(勝率低 or alt中心で判定不能)\n【HL実測】実現益$626,724・勝率0.5041・majors比0.92・急変先行$0\n【資金源】🏦 Bybit: Hot Wallet [0xf89d7b] ＝ CEX(身元割れる)",
       "current": {
         "date": "2026-06-17",
         "metric_category": "hl-verified",
@@ -14703,7 +15386,77 @@
         "avg_hold_h": null
       },
       "n_fills_14d": null,
-      "lead_examples": []
+      "lead_examples": [],
+      "first_funders": [
+        {
+          "address": "0xf89d7b9c864f589bbf53a82105107622b35eaa40",
+          "label": "🏦 Bybit: Hot Wallet [0xf89d7b]",
+          "relation": "First Funder",
+          "time": "2025-07-30T17:53:21"
+        }
+      ],
+      "counterparties": [
+        {
+          "label": "🤖 Hyperliquid: Bridge 2 [0x2df1c5]",
+          "address": "0x2df1c51e09aecf9cacb7bc98cb1742757f163df7",
+          "volume_usd": 395510.76480604167,
+          "count": 3
+        },
+        {
+          "label": "HL Perps Macro Trader [0x6caff6]",
+          "address": "0x6caff63a22add988449b0edb262e5a41086873de",
+          "volume_usd": 249962.20028286497,
+          "count": 3
+        },
+        {
+          "label": "🏦 Bybit: Deposit [0x9ae39d]",
+          "address": "0x9ae39dc8d0d06750bcea712d46625a9d24800f45",
+          "volume_usd": 195548.26788221413,
+          "count": 1
+        },
+        {
+          "label": "🏦 Bybit [0x7da0b9]",
+          "address": "0x7da0b9211020d3775b18116fe751c555b9a7058c",
+          "volume_usd": 149958.5238881374,
+          "count": 1
+        },
+        {
+          "label": "🏦 Bybit [0x9d271a]",
+          "address": "0x9d271a4e9523d74572b618ec10419a0a330e1bf0",
+          "volume_usd": 99981.74848264146,
+          "count": 1
+        },
+        {
+          "label": "High Activity [0x2df103]",
+          "address": "0x2df1030e85c0f55deca9eb55cd88c7557f163df7",
+          "volume_usd": 0.0001949743627990582,
+          "count": 1
+        },
+        {
+          "label": "[0x6ca134]",
+          "address": "0x6ca134e6c2c6d5dc2146ca9b6c1fe4462568c3de",
+          "volume_usd": 4.57882552593279e-06,
+          "count": 2
+        },
+        {
+          "label": "[0x9ae362]",
+          "address": "0x9ae362ff983f6571c25c66586ebda71deedf0f45",
+          "volume_usd": 2.317135498443686e-06,
+          "count": 1
+        },
+        {
+          "label": "[0x9ae2db]",
+          "address": "0x9ae2dbc69d5c8949f85027c53beaad1269840f45",
+          "volume_usd": 2.317135498443686e-06,
+          "count": 1
+        },
+        {
+          "label": "[0x2df17d]",
+          "address": "0x2df17d916b24c9e37bd5840c80e0b3b57f163df7",
+          "volume_usd": 2.292772957094976e-06,
+          "count": 1
+        }
+      ]
     },
     "0x6a02aedceac5a6813d960e4dae1910d9c458e77c": {
       "address": "0x6a02aedceac5a6813d960e4dae1910d9c458e77c",
@@ -14727,11 +15480,9 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "プロトレーダー(本物)",
       "metric_category": "nansen-pro",
-      "labels": [
-        "🤓 Smart HL Perps Trader [0x6a02ae]"
-      ],
+      "labels": [],
       "roi_alltime": 1.4430227314775295,
       "nansen_checked": "2026-06-17",
       "auto_tags": [
@@ -14739,7 +15490,7 @@
         "PnL:中($100k-1M)",
         "方向:無/フラット"
       ],
-      "notes_jp": "【ひとことで】🤓 Nansenが『常勝(Smart Money)』認定したトレーダー。たぶんプロ、未精査。\n【正体】🤓 Smart HL Perps Trader [0x6a02ae]（Nansenラベル）\n【成績】通算PnL $584,771・ROI 144%・現在残高 $0\n【補足】残高が小さい＝稼ぎを引き上げ済の可能性（出金）。",
+      "notes_jp": "【判定】実力で安定黒字・majors先行なし＝プロ確定\n【HL実測】実現益$581,086・勝率0.9677・majors比0.48・急変先行$0\n【資金源】🏦 Binance: Hot Wallet [0xb38e8c] ＝ CEX(身元割れる)",
       "current": {
         "date": "2026-06-17",
         "metric_category": "nansen-pro",
@@ -14748,7 +15499,16 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "first_funders": [
+        {
+          "address": "0xb38e8c17e38363af6ebdcb3dae12e0243582891d",
+          "label": "🏦 Binance: Hot Wallet [0xb38e8c]",
+          "relation": "First Funder",
+          "time": "2026-03-09T18:26:46"
+        }
+      ],
+      "counterparties": []
     },
     "0x39761615093bbd473af359068d075a2b03b99857": {
       "address": "0x39761615093bbd473af359068d075a2b03b99857",
@@ -14862,11 +15622,9 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "プロトレーダー(本物)",
       "metric_category": "nansen-pro",
-      "labels": [
-        "Former Smart Trader [0x95e268]"
-      ],
+      "labels": [],
       "roi_alltime": 22.466189060768915,
       "nansen_checked": "2026-06-17",
       "auto_tags": [
@@ -14874,7 +15632,7 @@
         "PnL:中($100k-1M)",
         "方向:無/フラット"
       ],
-      "notes_jp": "【ひとことで】🤓 Nansenが『常勝(Smart Money)』認定したトレーダー。たぶんプロ、未精査。\n【正体】Former Smart Trader [0x95e268]（Nansenラベル）\n【成績】通算PnL $574,870・ROI 2,247%・現在残高 $0\n【補足】残高が小さい＝稼ぎを引き上げ済の可能性（出金）。",
+      "notes_jp": "【判定】実力で安定黒字・majors先行なし＝プロ確定\n【HL実測】実現益$919,385・勝率0.8599・majors比1.0・急変先行$0\n【資金源】ETH Millionaire [0xb7101c] ＝ 別ウォレット",
       "current": {
         "date": "2026-06-17",
         "metric_category": "nansen-pro",
@@ -14883,7 +15641,16 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "first_funders": [
+        {
+          "address": "0xb7101cb060f50b2631ea98f3e68e7f39adbc213f",
+          "label": "ETH Millionaire [0xb7101c]",
+          "relation": "First Funder",
+          "time": "2025-09-11T04:06:00"
+        }
+      ],
+      "counterparties": []
     },
     "0x8554501f855388039f2bc86110462adfbbde46dc": {
       "address": "0x8554501f855388039f2bc86110462adfbbde46dc",
@@ -15569,11 +16336,9 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "プロトレーダー(本物)",
       "metric_category": "nansen-pro",
-      "labels": [
-        "🤓 Smart HL Perps Trader [0x66d3b8]"
-      ],
+      "labels": [],
       "roi_alltime": 0.8115408443405534,
       "nansen_checked": "2026-06-17",
       "auto_tags": [
@@ -15581,7 +16346,7 @@
         "PnL:中($100k-1M)",
         "方向:無/フラット"
       ],
-      "notes_jp": "【ひとことで】🤓 Nansenが『常勝(Smart Money)』認定したトレーダー。たぶんプロ、未精査。\n【正体】🤓 Smart HL Perps Trader [0x66d3b8]（Nansenラベル）\n【成績】通算PnL $493,902・ROI 81%・現在残高 $0\n【補足】残高が小さい＝稼ぎを引き上げ済の可能性（出金）。",
+      "notes_jp": "【判定】実力で安定黒字・majors先行なし＝プロ確定\n【HL実測】実現益$502,220・勝率0.8885・majors比0.0・急変先行$0\n【資金源】🏦 Binance: Wallet [0x1b5b4e] ＝ CEX(身元割れる)\n【注】alt中心ゆえBTC/ETH/SOLのインサイダー検証は限定的。alt側は未検証。",
       "current": {
         "date": "2026-06-17",
         "metric_category": "nansen-pro",
@@ -15590,7 +16355,77 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "first_funders": [
+        {
+          "address": "0x1b5b4e441f5a22bfd91b7772c780463f66a74b35",
+          "label": "🏦 Binance: Wallet [0x1b5b4e]",
+          "relation": "First Funder",
+          "time": "2025-02-10T08:15:49"
+        }
+      ],
+      "counterparties": [
+        {
+          "label": "🤖 🏦 Binance: Hot Wallet [0xee7ae8]",
+          "address": "0xee7ae85f2fe2239e27d9c1e23fffe168d63b4055",
+          "volume_usd": 7298090.800681318,
+          "count": 5
+        },
+        {
+          "label": "[0x3c4214]",
+          "address": "0x3c4214e8fd067e050dd1a14adafc6673a025891c",
+          "volume_usd": 6997799.747096395,
+          "count": 4
+        },
+        {
+          "label": "🤓 Smart HL Perps Trader [0xba0495]",
+          "address": "0xba0495c92ab69b1151ecf422851a06b602cea764",
+          "volume_usd": 6908315.8173274305,
+          "count": 9
+        },
+        {
+          "label": "🏦 Binance: Deposit [0xe124cf]",
+          "address": "0xe124cf69c1d364d5db3ce994bf461152a0ea01fd",
+          "volume_usd": 4998285.352439769,
+          "count": 2
+        },
+        {
+          "label": "🤖 Hyperliquid: Bridge 2 [0x2df1c5]",
+          "address": "0x2df1c51e09aecf9cacb7bc98cb1742757f163df7",
+          "volume_usd": 1650848.1713314848,
+          "count": 4
+        },
+        {
+          "label": "[0xba03a5]",
+          "address": "0xba03a53a2487c9def39010d665af64b571a3a764",
+          "volume_usd": 0.004769968941417429,
+          "count": 9
+        },
+        {
+          "label": "[0xba0529]",
+          "address": "0xba05290069954216ab693b2b635476005a2ea764",
+          "volume_usd": 0.0014096096089113565,
+          "count": 4
+        },
+        {
+          "label": "[0xba54f2]",
+          "address": "0xba54f2b0c6f3585c7f4f8b610a764cd8c5d5a764",
+          "volume_usd": 0.0010098547484885167,
+          "count": 2
+        },
+        {
+          "label": "[0x96c98b]",
+          "address": "0x96c98b736ab3b7bccc6200aecc6b46c502cea764",
+          "volume_usd": 0.0009740953451304916,
+          "count": 3
+        },
+        {
+          "label": "[0xbabb33]",
+          "address": "0xbabb3387aa5688bb7761924ab0d5975944cea764",
+          "volume_usd": 0.0004999280933111469,
+          "count": 1
+        }
+      ]
     },
     "0xb9eb061e64d32c8e0a6c6992a7dc32a32df9cb74": {
       "address": "0xb9eb061e64d32c8e0a6c6992a7dc32a32df9cb74",
@@ -17845,11 +18680,9 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "プロトレーダー(本物)",
       "metric_category": "nansen-pro",
-      "labels": [
-        "🤓 Smart HL Perps Trader [0x3e6805]"
-      ],
+      "labels": [],
       "roi_alltime": 0.03422820723783036,
       "nansen_checked": "2026-06-17",
       "auto_tags": [
@@ -17858,7 +18691,7 @@
         "方向:無/フラット",
         "資金:出金疑い(10x+)"
       ],
-      "notes_jp": "【ひとことで】🤓 Nansenが『常勝(Smart Money)』認定したトレーダー。たぶんプロ、未精査。\n【正体】🤓 Smart HL Perps Trader [0x3e6805]（Nansenラベル）\n【成績】通算PnL $302,601・ROI 3%・現在残高 $25,820\n【補足】残高が小さい＝稼ぎを引き上げ済の可能性（出金）。",
+      "notes_jp": "【判定】実力で安定黒字・majors先行なし＝プロ確定\n【HL実測】実現益$591,463・勝率0.7432・majors比0.03・急変先行$0\n【資金源】🏦 Coinbase [0x3dd1d1] ＝ CEX(身元割れる)\n【注】alt中心ゆえBTC/ETH/SOLのインサイダー検証は限定的。alt側は未検証。",
       "current": {
         "date": "2026-06-17",
         "metric_category": "nansen-pro",
@@ -17867,7 +18700,47 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "first_funders": [
+        {
+          "address": "0x3dd1d15b3c78d6acfd75a254e857cbe5b9ff0af2",
+          "label": "🏦 Coinbase [0x3dd1d1]",
+          "relation": "First Funder",
+          "time": "2024-01-16T23:00:58"
+        }
+      ],
+      "counterparties": [
+        {
+          "label": "🏦 Kraken: Deposit [0x5b9ae1]",
+          "address": "0x5b9ae1c6c9f46e56786426b12c8ddaa662de78ab",
+          "volume_usd": 329911.24031222466,
+          "count": 2
+        },
+        {
+          "label": "🤖 Hyperliquid: Bridge 2 [0x2df1c5]",
+          "address": "0x2df1c51e09aecf9cacb7bc98cb1742757f163df7",
+          "volume_usd": 329911.24031222466,
+          "count": 1
+        },
+        {
+          "label": "[0x5b9a85]",
+          "address": "0x5b9a850464baa561941a575716ca9273302878ab",
+          "volume_usd": 6.198351176627181e-05,
+          "count": 7
+        },
+        {
+          "label": "[0x5b9d95]",
+          "address": "0x5b9d95d6d48697ad4798c9f227b38c89ed8e78ab",
+          "volume_usd": 4.698750085507702e-05,
+          "count": 6
+        },
+        {
+          "label": "[0x5b9af8]",
+          "address": "0x5b9af8e79ddbdb4d92c88766ddb76770345e78ab",
+          "volume_usd": 0.0,
+          "count": 1
+        }
+      ]
     },
     "0xbf55d2d31c193e475d9d52006359f1fe51ecb7ce": {
       "address": "0xbf55d2d31c193e475d9d52006359f1fe51ecb7ce",
@@ -18704,11 +19577,9 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "プロトレーダー(本物)",
       "metric_category": "nansen-pro",
-      "labels": [
-        "Former Smart Trader [0x7ee069]"
-      ],
+      "labels": [],
       "roi_alltime": 0.0006433581498288183,
       "nansen_checked": "2026-06-17",
       "auto_tags": [
@@ -18716,7 +19587,7 @@
         "PnL:中($100k-1M)",
         "方向:無/フラット"
       ],
-      "notes_jp": "【ひとことで】🤓 Nansenが『常勝(Smart Money)』認定したトレーダー。たぶんプロ、未精査。\n【正体】Former Smart Trader [0x7ee069]（Nansenラベル）\n【成績】通算PnL $274,405・ROI 0%・現在残高 $0\n【補足】残高が小さい＝稼ぎを引き上げ済の可能性（出金）。",
+      "notes_jp": "【判定】実力で安定黒字・majors先行なし＝プロ確定\n【HL実測】実現益$2,338,551・勝率0.9391・majors比0.08・急変先行$0\n【資金源】不明 ＝ 不明\n【注】alt中心ゆえBTC/ETH/SOLのインサイダー検証は限定的。alt側は未検証。",
       "current": {
         "date": "2026-06-17",
         "metric_category": "nansen-pro",
@@ -18725,7 +19596,9 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "first_funders": [],
+      "counterparties": []
     },
     "0x14246f4bbafb87ccebac17609054c6a188ed8cfd": {
       "address": "0x14246f4bbafb87ccebac17609054c6a188ed8cfd",
@@ -19972,11 +20845,9 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "プロトレーダー(本物)",
       "metric_category": "nansen-pro",
-      "labels": [
-        "Former Smart Trader [0x7cc0b0]"
-      ],
+      "labels": [],
       "roi_alltime": 20.527316344253165,
       "nansen_checked": "2026-06-17",
       "auto_tags": [
@@ -19984,7 +20855,7 @@
         "PnL:中($100k-1M)",
         "方向:無/フラット"
       ],
-      "notes_jp": "【ひとことで】🤓 Nansenが『常勝(Smart Money)』認定したトレーダー。たぶんプロ、未精査。\n【正体】Former Smart Trader [0x7cc0b0]（Nansenラベル）\n【成績】通算PnL $207,068・ROI 2,053%・現在残高 $0\n【補足】残高が小さい＝稼ぎを引き上げ済の可能性（出金）。",
+      "notes_jp": "【判定】実力で安定黒字・majors先行なし＝プロ確定\n【HL実測】実現益$562,804・勝率0.8967・majors比0.0・急変先行$0\n【資金源】不明 ＝ 不明\n【注】alt中心ゆえBTC/ETH/SOLのインサイダー検証は限定的。alt側は未検証。",
       "current": {
         "date": "2026-06-17",
         "metric_category": "nansen-pro",
@@ -19993,7 +20864,9 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "first_funders": [],
+      "counterparties": []
     },
     "0x3480d3f9b45a5669cb3c7a576b092798fd5db5d8": {
       "address": "0x3480d3f9b45a5669cb3c7a576b092798fd5db5d8",
@@ -28760,15 +29633,15 @@
       "notes": "",
       "history": [],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "プロトレーダー(本物)",
       "metric_category": "hl-verified",
       "labels": [
-        "🤓 : Boros Trader [0x7c9063]"
+        "Token Millionaire"
       ],
       "roi_alltime": 0.7785063609834054,
       "n_fills_14d": 2452,
       "nansen_checked": "2026-06-17",
-      "notes_jp": "【ひとことで】⚪ HL行動では insider/pro を確定できず（保留）。\n【HL実測】実現益$745,231・勝率0.0・方向的中率1.0・急変先行$0\n【活動期間】2026-02-06〜2026-02-07（majors 31約定）\n【正体(Nansen)】🤓 : Boros Trader [0x7c9063]",
+      "notes_jp": "【判定】実力で安定黒字・majors先行なし＝プロ確定\n【HL実測】実現益$745,231・勝率0.7667・majors比0.01・急変先行$0\n【資金源】🤖 Across Protocol: Spoke Pool [0xe35e98] ＝ ブリッジ/サービス(隠蔽)\n【注】alt中心ゆえBTC/ETH/SOLのインサイダー検証は限定的。alt側は未検証。",
       "current": {
         "date": "2026-06-17",
         "metric_category": "hl-verified",
@@ -28779,7 +29652,71 @@
         "insider_likelihood": null,
         "avg_hold_h": null
       },
-      "lead_examples": []
+      "lead_examples": [],
+      "first_funders": [
+        {
+          "address": "0xe35e9842fceaca96570b734083f4a58e8f7c5f2a",
+          "label": "🤖 Across Protocol: Spoke Pool [0xe35e98]",
+          "relation": "First Funder",
+          "time": "2025-11-04T23:02:44"
+        }
+      ],
+      "counterparties": [
+        {
+          "label": "🤖 ArbitrumSettler [0xfeea2a]",
+          "address": "0xfeea2a79d7d3d36753c8917af744d71f13c9b02a",
+          "volume_usd": 17973666.43074785,
+          "count": 8
+        },
+        {
+          "label": "Burn Address [0x000000]",
+          "address": "0x0000000000000000000000000000000000000000",
+          "volume_usd": 3791464.700342656,
+          "count": 2
+        },
+        {
+          "label": "🤖 Hyperliquid: Bridge 2 [0x2df1c5]",
+          "address": "0x2df1c51e09aecf9cacb7bc98cb1742757f163df7",
+          "volume_usd": 3759345.5590116475,
+          "count": 2
+        },
+        {
+          "label": "​​🤖 🏦 USDC - USDS Liquidity Pool [0x2b05f8]",
+          "address": "0x2b05f8e1cacc6974fd79a673a341fe1f58d27266",
+          "volume_usd": 3580230.2187870434,
+          "count": 2
+        },
+        {
+          "label": "🤖 Circle: USDC Bridge [0xa95d9c]",
+          "address": "0xa95d9c1f655341597c94393fddc30cf3c08e4fce",
+          "volume_usd": 2389935.966578269,
+          "count": 1
+        },
+        {
+          "label": "🤖 Circle: CCTP TokenMinterV2 [0xfd78ee]",
+          "address": "0xfd78ee919681417d192449715b2594ab58f5d002",
+          "volume_usd": 1790430.4360084264,
+          "count": 1
+        },
+        {
+          "label": "Relay Protocol: EOA Bridge [0xf70da9]",
+          "address": "0xf70da97812cb96acdf810712aa562db8dfa3dbef",
+          "volume_usd": 93.47404559897838,
+          "count": 1
+        },
+        {
+          "label": "High Activity [0x2df1df]",
+          "address": "0x2df1df582d0a1efc7178fd78b2bcd9aa08a73df7",
+          "volume_usd": 1.2994585241888025e-05,
+          "count": 2
+        },
+        {
+          "label": "🤖 Disperse.app: Disperse [0xd152f5]",
+          "address": "0xd152f549545093347a162dce210e7293f1452150",
+          "volume_usd": 0.0,
+          "count": 1
+        }
+      ]
     },
     "0xae551d73161bac3315c5ade0e2d499a44ebe2236": {
       "address": "0xae551d73161bac3315c5ade0e2d499a44ebe2236",
@@ -28920,15 +29857,13 @@
       "notes": "",
       "history": [],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "プロトレーダー(本物)",
       "metric_category": "hl-verified",
-      "labels": [
-        "HL Perps Altcoin Trader [0x69b057]"
-      ],
+      "labels": [],
       "roi_alltime": 0.0014563915842021834,
       "n_fills_14d": 10683,
       "nansen_checked": "2026-06-17",
-      "notes_jp": "【ひとことで】⚪ HL行動では insider/pro を確定できず（保留）。\n【HL実測】実現益$641,300・勝率0.5656・方向的中率0.2194・急変先行$0\n【活動期間】2025-06-05〜2026-06-15（majors 4796約定）\n【正体(Nansen)】HL Perps Altcoin Trader [0x69b057]",
+      "notes_jp": "【判定】実力で安定黒字・majors先行なし＝プロ確定\n【HL実測】実現益$641,300・勝率0.5914・majors比0.45・急変先行$0\n【資金源】[0x7ac157] ＝ 別ウォレット",
       "current": {
         "date": "2026-06-17",
         "metric_category": "hl-verified",
@@ -28939,7 +29874,29 @@
         "insider_likelihood": null,
         "avg_hold_h": null
       },
-      "lead_examples": []
+      "lead_examples": [],
+      "first_funders": [
+        {
+          "address": "0x7ac15701f8175c276ecd0138387a197948e251cc",
+          "label": "[0x7ac157]",
+          "relation": "First Funder",
+          "time": "2025-06-05T09:39:52"
+        }
+      ],
+      "counterparties": [
+        {
+          "label": "🤖 Hyperliquid: Bridge 2 [0x2df1c5]",
+          "address": "0x2df1c51e09aecf9cacb7bc98cb1742757f163df7",
+          "volume_usd": 159965.41264465987,
+          "count": 2
+        },
+        {
+          "label": "🤖 Circle: Token Minter [0xe7ed1f]",
+          "address": "0xe7ed1fa7f45d05c508232aa32649d89b73b8ba48",
+          "volume_usd": 159961.47735762192,
+          "count": 3
+        }
+      ]
     },
     "0x5198eff88dea32108605bcdb109a99dc397190d8": {
       "address": "0x5198eff88dea32108605bcdb109a99dc397190d8",
@@ -29048,15 +30005,13 @@
       "notes": "",
       "history": [],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "プロトレーダー(本物)",
       "metric_category": "hl-verified",
-      "labels": [
-        "🤓 blackmonkey.eth [0x8250a7]"
-      ],
+      "labels": [],
       "roi_alltime": 0.4765221130075824,
       "n_fills_14d": 6899,
       "nansen_checked": "2026-06-17",
-      "notes_jp": "【ひとことで】⚪ HL行動では insider/pro を確定できず（保留）。\n【HL実測】実現益$540,966・勝率0.509・方向的中率0.2617・急変先行$0\n【活動期間】2023-11-08〜2026-05-03（majors 873約定）\n【正体(Nansen)】🤓 blackmonkey.eth [0x8250a7]",
+      "notes_jp": "【判定】実力で安定黒字・majors先行なし＝プロ確定\n【HL実測】実現益$540,966・勝率0.6422・majors比0.13・急変先行$0\n【資金源】🏦 Bybit: Hot Wallet [0xf89d7b] ＝ CEX(身元割れる)\n【注】alt中心ゆえBTC/ETH/SOLのインサイダー検証は限定的。alt側は未検証。",
       "current": {
         "date": "2026-06-17",
         "metric_category": "hl-verified",
@@ -29067,7 +30022,34 @@
         "insider_likelihood": null,
         "avg_hold_h": null
       },
-      "lead_examples": []
+      "lead_examples": [],
+      "first_funders": [
+        {
+          "address": "0xf89d7b9c864f589bbf53a82105107622b35eaa40",
+          "label": "🏦 Bybit: Hot Wallet [0xf89d7b]",
+          "relation": "First Funder",
+          "time": "2023-05-18T04:06:05"
+        }
+      ],
+      "counterparties": [],
+      "nansen_errors": [
+        {
+          "field": "labels",
+          "error": 403
+        },
+        {
+          "field": "labels",
+          "error": 403
+        },
+        {
+          "field": "counterparties",
+          "error": 403
+        },
+        {
+          "field": "counterparties",
+          "error": 403
+        }
+      ]
     },
     "0x3adaa1d2d0598c9b661a746649d20e1e8aad9b3a": {
       "address": "0x3adaa1d2d0598c9b661a746649d20e1e8aad9b3a",
@@ -29134,5 +30116,5 @@
       "lead_examples": []
     }
   },
-  "updated_at": "2026-06-17T16:04:50.315158+00:00"
+  "updated_at": "2026-06-17T16:20:48.785570+00:00"
 }
