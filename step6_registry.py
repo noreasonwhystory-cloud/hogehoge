@@ -208,7 +208,7 @@ def render_html(reg, out="registry.html",
             i = POS_ORDER.index(e["position"])
         except ValueError:
             i = len(POS_ORDER)
-        return (i, -(e.get("insider_likelihood") or 0))
+        return (i, -(e.get("insider_likelihood") or 0), -(e.get("pro_score") or 0))
 
     wallets.sort(key=sortkey)
 

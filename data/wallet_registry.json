@@ -262,7 +262,9 @@
       "address": "0x230963164d9637a4c536270a06b4e3636d44a2d9",
       "first_seen": "2026-06-16",
       "times_seen": 4,
-      "tags": [],
+      "tags": [
+        "Tier-B"
+      ],
       "notes": "",
       "history": [
         {
@@ -337,7 +339,11 @@
       ],
       "notes_jp": "【ひとことで】🔵 たぶんプロ。まだ詳しく調べていない。\n【正体】High Balance（Nansenが付けた名前/ラベル）\n【お金はどこから？】別の財布（[0x341a63]）から\n【よく取引する相手】🤖 LI.FI: Diamond Facet Bridge [0x1231de]、🤖 Hyperliquid: Bridge 2 [0x2df1c5]",
       "roi_alltime": 4.5881849966,
-      "n_fills_14d": 3
+      "n_fills_14d": 3,
+      "pro_score": 0.443,
+      "pro_realized": 339822,
+      "pro_span_days": 30,
+      "pro_tier": "B"
     },
     "0x128fae9d18a2f70d98a03c26bf17b67d97ce1f3c": {
       "address": "0x128fae9d18a2f70d98a03c26bf17b67d97ce1f3c",
@@ -1059,7 +1065,9 @@
       "address": "0x5aadb434293b4e1b8fb2e84007e567506fe65a96",
       "first_seen": "2026-06-16",
       "times_seen": 10,
-      "tags": [],
+      "tags": [
+        "Tier-C"
+      ],
       "notes": "",
       "history": [
         {
@@ -1188,13 +1196,19 @@
       "notes_jp": "【ひとことで】🟢 ちゃんと実力で勝っている本物のプロ。\n【正体】名前は分からない（匿名）。\n【お金はどこから？】名前付きの個人財布（kwerty.eth [0x71056c]）から\n【よく取引する相手】High Balance [0xe1f57f]、🤖 Hyperliquid: Bridge 2 [0x2df1c5]、🤖 Circle: CCTP TokenMinterV2 [0xfd78ee]\n【詳しい判定】格上げ: 両方向スカルパー(ベータ非依存)",
       "roi_alltime": 8.9143407607,
       "roi_month": 1.9444922072,
-      "n_fills_14d": 199
+      "n_fills_14d": 199,
+      "pro_score": 0.375,
+      "pro_realized": 4283,
+      "pro_span_days": 30,
+      "pro_tier": "C"
     },
     "0x4d3980ac9d84fc34adcd025ee2337786846343c4": {
       "address": "0x4d3980ac9d84fc34adcd025ee2337786846343c4",
       "first_seen": "2026-06-16",
       "times_seen": 10,
-      "tags": [],
+      "tags": [
+        "Tier-C"
+      ],
       "notes": "",
       "history": [
         {
@@ -1299,13 +1313,19 @@
       "notes_jp": "【ひとことで】🔵 たぶんプロ。まだ詳しく調べていない。\n【正体】名前は分からない（匿名）。\n【お金はどこから？】Bitget(取引所)から入金 → 取引所が『この人が誰か』を知っている\n【よく取引する相手】🤖 Hyperliquid: Bridge 2 [0x2df1c5]、[0x42ea75]、​​Distributor [0xf96d9b]",
       "roi_alltime": 7.5124460508,
       "roi_month": 6.7566047115,
-      "n_fills_14d": 142
+      "n_fills_14d": 142,
+      "pro_score": 0.335,
+      "pro_realized": 11957,
+      "pro_span_days": 30,
+      "pro_tier": "C"
     },
     "0xa72dc2d42398e54634fc28e6769f8ce3ae011807": {
       "address": "0xa72dc2d42398e54634fc28e6769f8ce3ae011807",
       "first_seen": "2026-06-16",
       "times_seen": 4,
-      "tags": [],
+      "tags": [
+        "Tier-C"
+      ],
       "notes": "",
       "history": [
         {
@@ -1434,13 +1454,19 @@
       ],
       "notes_jp": "【ひとことで】🟢 ちゃんと実力で勝っている本物のプロ。\n【正体】名前は分からない（匿名）。\n【お金はどこから？】別の財布（High Balance [0xb02a9b]）から\n【よく取引する相手】🤖 Circle: USDC Bridge [0xa95d9c]、High Balance [0xb02a9b]、Burn Address [0x000000]\n【詳しい判定】格上げ: 高回転スカルパー(リスク管理良好)",
       "roi_alltime": 2.3359099975,
-      "n_fills_14d": 275
+      "n_fills_14d": 275,
+      "pro_score": 0.369,
+      "pro_realized": 24242,
+      "pro_span_days": 30,
+      "pro_tier": "C"
     },
     "0x8463d6ffcbfb56bf20ab2e1111f9a0e8359533f2": {
       "address": "0x8463d6ffcbfb56bf20ab2e1111f9a0e8359533f2",
       "first_seen": "2026-06-16",
       "times_seen": 4,
-      "tags": [],
+      "tags": [
+        "Tier-C"
+      ],
       "notes": "",
       "history": [
         {
@@ -1543,7 +1569,11 @@
       ],
       "notes_jp": "【ひとことで】🟢 ちゃんと実力で勝っている本物のプロ。\n【正体】\"homerfan33\" on OpenSea、High Activity、coolwaterxyz-hf.eth*、homerfan33.eth、squigglesherpa.eth、stimmyfund.eth（Nansenが付けた名前/ラベル）\n【お金はどこから？】別の財布（[0x9574d6]）から\n【よく取引する相手】🤖 Hyperliquid: Bridge 2 [0x2df1c5]、🏦 Kraken: Deposit [0xbe5afd]、​​🤖 USDC Bridge [0xc6868e]\n【詳しい判定】格上げ: トレンド非依存の規律型本物。最優良候補",
       "roi_alltime": 37.7674856312,
-      "n_fills_14d": 547
+      "n_fills_14d": 547,
+      "pro_score": 0.338,
+      "pro_realized": 258596,
+      "pro_span_days": 30,
+      "pro_tier": "C"
     },
     "0xd117b0459ba2af1a397e76baa5efd580a3f7f99f": {
       "address": "0xd117b0459ba2af1a397e76baa5efd580a3f7f99f",
@@ -1602,7 +1632,9 @@
       "address": "0x72a7837428320ec3c0c072b0c0fc192d6df0c83f",
       "first_seen": "2026-06-16",
       "times_seen": 4,
-      "tags": [],
+      "tags": [
+        "Tier-C"
+      ],
       "notes": "",
       "history": [
         {
@@ -1734,7 +1766,11 @@
       ],
       "notes_jp": "【ひとことで】🟢 ちゃんと実力で勝っている本物のプロ。\n【正体】High Balance（Nansenが付けた名前/ラベル）\n【お金はどこから？】Binance(取引所)から入金 → 取引所が『この人が誰か』を知っている\n【よく取引する相手】🤖 🏦 Binance: Hot Wallet [0xee7ae8]、🏦 Binance: Deposit [0x9663ca]、[0x71a20c]\n【詳しい判定】格上げ: 押し目選別力のある規律型本物",
       "roi_alltime": 1.8603936966,
-      "n_fills_14d": 598
+      "n_fills_14d": 598,
+      "pro_score": 0.369,
+      "pro_realized": 57460,
+      "pro_span_days": 30,
+      "pro_tier": "C"
     },
     "0xd05808946809c180d190608e13f473db30aa8524": {
       "address": "0xd05808946809c180d190608e13f473db30aa8524",
@@ -1968,7 +2004,9 @@
       "address": "0xdd08886cb92c689c7d89c88f048028293296ead1",
       "first_seen": "2026-06-16",
       "times_seen": 10,
-      "tags": [],
+      "tags": [
+        "Tier-C"
+      ],
       "notes": "",
       "history": [
         {
@@ -2025,7 +2063,11 @@
       "notes_jp": "【ひとことで】🔵 たぶんプロ。まだ詳しく調べていない。\n【正体】名前は分からない（匿名）。\n【お金はどこから？】不明。",
       "roi_alltime": 1.8537510935,
       "roi_month": 3.4045197681,
-      "n_fills_14d": 509
+      "n_fills_14d": 509,
+      "pro_score": 0.276,
+      "pro_realized": 145747,
+      "pro_span_days": 30,
+      "pro_tier": "C"
     },
     "0x5875d72130981b18692a3d29545e4038f7eb0c38": {
       "address": "0x5875d72130981b18692a3d29545e4038f7eb0c38",
@@ -2207,7 +2249,9 @@
       "address": "0x36eaaca5159a1dcbe60aaad12faaadb0fce6c58b",
       "first_seen": "2026-06-16",
       "times_seen": 4,
-      "tags": [],
+      "tags": [
+        "Tier-C"
+      ],
       "notes": "",
       "history": [
         {
@@ -2329,7 +2373,11 @@
       ],
       "notes_jp": "【ひとことで】🔵 たぶんプロ。まだ詳しく調べていない。\n【正体】名前は分からない（匿名）。\n【お金はどこから？】別の財布（HL Perps Day Trader [0x0b1ba7]）から\n【よく取引する相手】🤖 Hyperliquid: Bridge 2 [0x2df1c5]、🤖 Across Protocol: Spoke Pool [0xe35e98]、🤖 Circle: CCTP TokenMinterV2 [0xfd78ee]",
       "roi_alltime": 2.2322574706,
-      "n_fills_14d": 405
+      "n_fills_14d": 405,
+      "pro_score": 0.256,
+      "pro_realized": 8256,
+      "pro_span_days": 30,
+      "pro_tier": "C"
     },
     "0x103e9d15f8a102ef9333ad8b66ffe25b0db448a4": {
       "address": "0x103e9d15f8a102ef9333ad8b66ffe25b0db448a4",
@@ -4852,7 +4900,9 @@
       "address": "0xeff7fe671d9a7acf86f48994bc5d5161042415b6",
       "first_seen": "2026-06-16",
       "times_seen": 10,
-      "tags": [],
+      "tags": [
+        "Tier-B"
+      ],
       "notes": "",
       "history": [
         {
@@ -4975,7 +5025,11 @@
       "notes_jp": "【ひとことで】🔵 たぶんプロ。まだ詳しく調べていない。\n【正体】名前は分からない（匿名）。\n【お金はどこから？】別チェーンからの『橋(ブリッジ)』経由 → 足を消しており追いにくい\n【よく取引する相手】🤖 Hyperliquid: Bridge 2 [0x2df1c5]、🏦 Nexo: Deposit [0xee2f18]、High Balance [0x5600a3]",
       "roi_alltime": 2.4755103409,
       "roi_month": 2.3496646138,
-      "n_fills_14d": 2000
+      "n_fills_14d": 2000,
+      "pro_score": 0.382,
+      "pro_realized": 126722,
+      "pro_span_days": 30,
+      "pro_tier": "B"
     },
     "0x535191d6d49922d69cc7829dbb73e48694840db7": {
       "address": "0x535191d6d49922d69cc7829dbb73e48694840db7",
@@ -7438,7 +7492,9 @@
       "address": "0x48b1a8f92e403bc9dc7500b9cbcc4cadf35c7ac0",
       "first_seen": "2026-06-17",
       "times_seen": 6,
-      "tags": [],
+      "tags": [
+        "Tier-C"
+      ],
       "notes": "",
       "history": [
         {
@@ -7550,7 +7606,11 @@
       "notes_jp": "【ひとことで】🔵 たぶんプロ。まだ詳しく調べていない。\n【正体】名前は分からない（匿名）。\n【お金はどこから？】プログラム(コントラクト)経由 → 人の財布までは見えない\n【よく取引する相手】🤖 Hyperliquid: Bridge 2 [0x2df1c5]、🤖 LI.FI: Contract [0x89c634]、HL Perps Altcoin Trader [0xdb2205]",
       "roi_alltime": 0.5119070008,
       "roi_month": 1.7929730013,
-      "n_fills_14d": 978
+      "n_fills_14d": 978,
+      "pro_score": 0.335,
+      "pro_realized": 51356,
+      "pro_span_days": 30,
+      "pro_tier": "C"
     },
     "0x2f394ae1ca45071bc222e7124b5d125637942be2": {
       "address": "0x2f394ae1ca45071bc222e7124b5d125637942be2",
@@ -10493,7 +10553,8 @@
       "tags": [
         "HL検証済プロ",
         "Nansen発見",
-        "SmartMoney"
+        "SmartMoney",
+        "Tier-S"
       ],
       "notes": "",
       "history": [
@@ -10533,7 +10594,11 @@
         "avg_hold_h": null
       },
       "n_fills_14d": null,
-      "lead_examples": []
+      "lead_examples": [],
+      "pro_score": 0.838,
+      "pro_realized": 11927977,
+      "pro_span_days": 24,
+      "pro_tier": "S"
     },
     "0x4196dc4a1dc7d3bfd5434adf04c829f4ccaf480d": {
       "address": "0x4196dc4a1dc7d3bfd5434adf04c829f4ccaf480d",
@@ -10725,7 +10790,8 @@
       "tags": [
         "HL検証済プロ",
         "Nansen発見",
-        "SmartMoney"
+        "SmartMoney",
+        "Tier-S"
       ],
       "notes": "",
       "history": [
@@ -10765,7 +10831,11 @@
         "avg_hold_h": null
       },
       "n_fills_14d": null,
-      "lead_examples": []
+      "lead_examples": [],
+      "pro_score": 0.777,
+      "pro_realized": 3905400,
+      "pro_span_days": 253,
+      "pro_tier": "S"
     },
     "0x0b00c540bc5f203d97ac87da62164d3d37e19798": {
       "address": "0x0b00c540bc5f203d97ac87da62164d3d37e19798",
@@ -10774,6 +10844,7 @@
       "tags": [
         "Nansen発見",
         "SmartMoney",
+        "Tier-S",
         "稼ぎ確認・先行不明(要精査)"
       ],
       "notes": "",
@@ -10881,7 +10952,11 @@
           "volume_usd": 1624696.278377963,
           "count": 6
         }
-      ]
+      ],
+      "pro_score": 0.892,
+      "pro_realized": 6329149,
+      "pro_span_days": 190,
+      "pro_tier": "S"
     },
     "0xed41a12ea862f31df054e9bd3af1dd59486c6029": {
       "address": "0xed41a12ea862f31df054e9bd3af1dd59486c6029",
@@ -10890,7 +10965,8 @@
       "tags": [
         "HL検証済プロ",
         "Nansen発見",
-        "SmartMoney"
+        "SmartMoney",
+        "Tier-A"
       ],
       "notes": "",
       "history": [
@@ -10929,7 +11005,11 @@
         "avg_hold_h": null
       },
       "n_fills_14d": null,
-      "lead_examples": []
+      "lead_examples": [],
+      "pro_score": 0.518,
+      "pro_realized": 2142600,
+      "pro_span_days": 138,
+      "pro_tier": "A"
     },
     "0x5bc43f38c2ddcd85857f218674cd384f172c3b0c": {
       "address": "0x5bc43f38c2ddcd85857f218674cd384f172c3b0c",
@@ -11210,6 +11290,7 @@
       "tags": [
         "Nansen発見",
         "SmartMoney",
+        "Tier-S",
         "稼ぎ確認・先行不明(要精査)"
       ],
       "notes": "",
@@ -11307,7 +11388,11 @@
           "volume_usd": 1.9994107942678144e-05,
           "count": 1
         }
-      ]
+      ],
+      "pro_score": 0.781,
+      "pro_realized": 4258658,
+      "pro_span_days": 384,
+      "pro_tier": "S"
     },
     "0x833b99b27dac651d02080f5e220e929df891db06": {
       "address": "0x833b99b27dac651d02080f5e220e929df891db06",
@@ -11497,6 +11582,7 @@
       "tags": [
         "HL検証済プロ",
         "Nansen発見",
+        "Tier-B",
         "機関"
       ],
       "notes": "",
@@ -11537,7 +11623,11 @@
         "avg_hold_h": null
       },
       "n_fills_14d": null,
-      "lead_examples": []
+      "lead_examples": [],
+      "pro_score": 0.482,
+      "pro_realized": 1372915,
+      "pro_span_days": 164,
+      "pro_tier": "B"
     },
     "0x84abc08c0ea62e687c370154de1f38ea462f4d37": {
       "address": "0x84abc08c0ea62e687c370154de1f38ea462f4d37",
@@ -11906,6 +11996,7 @@
       "tags": [
         "Nansen発見",
         "SmartMoney",
+        "Tier-A",
         "稼ぎ確認・先行不明(要精査)"
       ],
       "notes": "",
@@ -12001,7 +12092,11 @@
           "volume_usd": 0.0,
           "count": 2
         }
-      ]
+      ],
+      "pro_score": 0.51,
+      "pro_realized": 2348016,
+      "pro_span_days": 55,
+      "pro_tier": "A"
     },
     "0xd82f7d84a524b8e82de0cb3df1f04e338604fd8e": {
       "address": "0xd82f7d84a524b8e82de0cb3df1f04e338604fd8e",
@@ -12326,7 +12421,8 @@
       "tags": [
         "HL検証済プロ",
         "Nansen発見",
-        "SmartMoney"
+        "SmartMoney",
+        "Tier-A"
       ],
       "notes": "",
       "history": [
@@ -12365,7 +12461,11 @@
         "avg_hold_h": null
       },
       "n_fills_14d": null,
-      "lead_examples": []
+      "lead_examples": [],
+      "pro_score": 0.615,
+      "pro_realized": 2031004,
+      "pro_span_days": 257,
+      "pro_tier": "A"
     },
     "0x36ac01de9bc76c0d744b38c3e13a0538d55c7568": {
       "address": "0x36ac01de9bc76c0d744b38c3e13a0538d55c7568",
@@ -12420,7 +12520,8 @@
       "tags": [
         "HL検証済プロ",
         "Nansen発見",
-        "SmartMoney"
+        "SmartMoney",
+        "Tier-A"
       ],
       "notes": "",
       "history": [
@@ -12459,7 +12560,11 @@
         "avg_hold_h": null
       },
       "n_fills_14d": null,
-      "lead_examples": []
+      "lead_examples": [],
+      "pro_score": 0.558,
+      "pro_realized": 1928778,
+      "pro_span_days": 224,
+      "pro_tier": "A"
     },
     "0x7da85a334e43a6b1c2c0da9623409d9ee9047747": {
       "address": "0x7da85a334e43a6b1c2c0da9623409d9ee9047747",
@@ -12648,7 +12753,8 @@
       "tags": [
         "HL検証済プロ",
         "Nansen発見",
-        "SmartMoney"
+        "SmartMoney",
+        "Tier-A"
       ],
       "notes": "",
       "history": [
@@ -12687,7 +12793,11 @@
         "avg_hold_h": null
       },
       "n_fills_14d": null,
-      "lead_examples": []
+      "lead_examples": [],
+      "pro_score": 0.54,
+      "pro_realized": 1226127,
+      "pro_span_days": 217,
+      "pro_tier": "A"
     },
     "0xe091330c53b971ed4e886f902f18e8544a8d6705": {
       "address": "0xe091330c53b971ed4e886f902f18e8544a8d6705",
@@ -12833,6 +12943,7 @@
       "tags": [
         "Nansen発見",
         "SmartMoney",
+        "Tier-B",
         "稼ぎ確認・先行不明(要精査)"
       ],
       "notes": "",
@@ -12937,7 +13048,11 @@
           "volume_usd": 0.0009798590628898479,
           "count": 1
         }
-      ]
+      ],
+      "pro_score": 0.483,
+      "pro_realized": 1162455,
+      "pro_span_days": 9,
+      "pro_tier": "B"
     },
     "0x99b3ba1c1b7ad83d0164d996e3d271ae8c842551": {
       "address": "0x99b3ba1c1b7ad83d0164d996e3d271ae8c842551",
@@ -12946,6 +13061,7 @@
       "tags": [
         "Nansen発見",
         "SmartMoney",
+        "Tier-B",
         "稼ぎ確認・先行不明(要精査)"
       ],
       "notes": "",
@@ -13050,7 +13166,11 @@
           "volume_usd": 2.999170477762748,
           "count": 1
         }
-      ]
+      ],
+      "pro_score": 0.385,
+      "pro_realized": 933423,
+      "pro_span_days": 15,
+      "pro_tier": "B"
     },
     "0x05904930cae1e9a48c055f4a8a83480ba7fc6abf": {
       "address": "0x05904930cae1e9a48c055f4a8a83480ba7fc6abf",
@@ -13151,6 +13271,7 @@
       "tags": [
         "Nansen発見",
         "SmartMoney",
+        "Tier-B",
         "稼ぎ確認・先行不明(要精査)"
       ],
       "notes": "",
@@ -13187,7 +13308,11 @@
         "avg_hold_h": null
       },
       "first_funders": [],
-      "counterparties": []
+      "counterparties": [],
+      "pro_score": 0.444,
+      "pro_realized": 1049066,
+      "pro_span_days": 71,
+      "pro_tier": "B"
     },
     "0x5846ac5619d2a762751b1663d86a402085505765": {
       "address": "0x5846ac5619d2a762751b1663d86a402085505765",
@@ -13196,6 +13321,7 @@
       "tags": [
         "Nansen発見",
         "SmartMoney",
+        "Tier-A",
         "稼ぎ確認・先行不明(要精査)"
       ],
       "notes": "",
@@ -13300,7 +13426,11 @@
           "volume_usd": 35.39541631037246,
           "count": 1
         }
-      ]
+      ],
+      "pro_score": 0.646,
+      "pro_realized": 2445741,
+      "pro_span_days": 153,
+      "pro_tier": "A"
     },
     "0xa3d843b6a057504284006bef6f34a2e9bc80fb6b": {
       "address": "0xa3d843b6a057504284006bef6f34a2e9bc80fb6b",
@@ -13309,7 +13439,8 @@
       "tags": [
         "HL検証済プロ",
         "Nansen発見",
-        "SmartMoney"
+        "SmartMoney",
+        "Tier-A"
       ],
       "notes": "",
       "history": [
@@ -13348,7 +13479,11 @@
         "avg_hold_h": null
       },
       "n_fills_14d": null,
-      "lead_examples": []
+      "lead_examples": [],
+      "pro_score": 0.543,
+      "pro_realized": 1444379,
+      "pro_span_days": 205,
+      "pro_tier": "A"
     },
     "0x9836e286fbf4f71998827d4bd6ea3b470c26457e": {
       "address": "0x9836e286fbf4f71998827d4bd6ea3b470c26457e",
@@ -13455,6 +13590,7 @@
       "tags": [
         "Nansen発見",
         "SmartMoney",
+        "Tier-B",
         "稼ぎ確認・先行不明(要精査)"
       ],
       "notes": "",
@@ -13511,7 +13647,11 @@
           "volume_usd": 0.00011998083402839848,
           "count": 12
         }
-      ]
+      ],
+      "pro_score": 0.458,
+      "pro_realized": 923593,
+      "pro_span_days": 203,
+      "pro_tier": "B"
     },
     "0x06466f9ac08e872064950cec3812b57d6feafa7f": {
       "address": "0x06466f9ac08e872064950cec3812b57d6feafa7f",
@@ -13520,7 +13660,8 @@
       "tags": [
         "HL検証済プロ",
         "Nansen発見",
-        "SmartMoney"
+        "SmartMoney",
+        "Tier-C"
       ],
       "notes": "",
       "history": [
@@ -13559,7 +13700,11 @@
         "avg_hold_h": null
       },
       "n_fills_14d": null,
-      "lead_examples": []
+      "lead_examples": [],
+      "pro_score": 0.375,
+      "pro_realized": 758334,
+      "pro_span_days": 230,
+      "pro_tier": "C"
     },
     "0xef70339934261ca3524bddfa7d02e0a69107a84c": {
       "address": "0xef70339934261ca3524bddfa7d02e0a69107a84c",
@@ -14941,7 +15086,8 @@
       "tags": [
         "HL検証済プロ",
         "Nansen発見",
-        "SmartMoney"
+        "SmartMoney",
+        "Tier-B"
       ],
       "notes": "",
       "history": [
@@ -14980,7 +15126,11 @@
         "avg_hold_h": null
       },
       "n_fills_14d": null,
-      "lead_examples": []
+      "lead_examples": [],
+      "pro_score": 0.439,
+      "pro_realized": 502874,
+      "pro_span_days": 85,
+      "pro_tier": "B"
     },
     "0x1fe06653816cd53afb36a18f059b0ada2a3c8f20": {
       "address": "0x1fe06653816cd53afb36a18f059b0ada2a3c8f20",
@@ -14989,6 +15139,7 @@
       "tags": [
         "Nansen発見",
         "SmartMoney",
+        "Tier-B",
         "稼ぎ確認・先行不明(要精査)"
       ],
       "notes": "",
@@ -15087,7 +15238,11 @@
           "volume_usd": 0.0,
           "count": 1
         }
-      ]
+      ],
+      "pro_score": 0.445,
+      "pro_realized": 916344,
+      "pro_span_days": 220,
+      "pro_tier": "B"
     },
     "0x0980b34ade9476dba81bcdb0f865a333793ad1c2": {
       "address": "0x0980b34ade9476dba81bcdb0f865a333793ad1c2",
@@ -15142,6 +15297,7 @@
       "tags": [
         "Nansen発見",
         "SmartMoney",
+        "Tier-B",
         "稼ぎ確認・先行不明(要精査)"
       ],
       "notes": "",
@@ -15223,7 +15379,11 @@
           "volume_usd": 0.053529800587332046,
           "count": 1
         }
-      ]
+      ],
+      "pro_score": 0.395,
+      "pro_realized": 602600,
+      "pro_span_days": 275,
+      "pro_tier": "B"
     },
     "0xa99c9e5484e5b26635c07876d0859a1819ff40d5": {
       "address": "0xa99c9e5484e5b26635c07876d0859a1819ff40d5",
@@ -15232,6 +15392,7 @@
       "tags": [
         "Nansen発見",
         "SmartMoney",
+        "Tier-B",
         "稼ぎ確認・先行不明(要精査)"
       ],
       "notes": "",
@@ -15340,7 +15501,11 @@
           "volume_usd": 0.0,
           "count": 1
         }
-      ]
+      ],
+      "pro_score": 0.44,
+      "pro_realized": 505072,
+      "pro_span_days": 313,
+      "pro_tier": "B"
     },
     "0xaa3f51a8095d030e38317e917839c87315300bee": {
       "address": "0xaa3f51a8095d030e38317e917839c87315300bee",
@@ -15465,6 +15630,7 @@
       "tags": [
         "Nansen発見",
         "SmartMoney",
+        "Tier-B",
         "稼ぎ確認・先行不明(要精査)"
       ],
       "notes": "",
@@ -15508,7 +15674,11 @@
           "time": "2026-03-09T18:26:46"
         }
       ],
-      "counterparties": []
+      "counterparties": [],
+      "pro_score": 0.459,
+      "pro_realized": 581086,
+      "pro_span_days": 100,
+      "pro_tier": "B"
     },
     "0x39761615093bbd473af359068d075a2b03b99857": {
       "address": "0x39761615093bbd473af359068d075a2b03b99857",
@@ -15607,6 +15777,7 @@
       "tags": [
         "Nansen発見",
         "SmartMoney",
+        "Tier-B",
         "稼ぎ確認・先行不明(要精査)"
       ],
       "notes": "",
@@ -15650,7 +15821,11 @@
           "time": "2025-09-11T04:06:00"
         }
       ],
-      "counterparties": []
+      "counterparties": [],
+      "pro_score": 0.486,
+      "pro_realized": 919385,
+      "pro_span_days": 168,
+      "pro_tier": "B"
     },
     "0x8554501f855388039f2bc86110462adfbbde46dc": {
       "address": "0x8554501f855388039f2bc86110462adfbbde46dc",
@@ -16182,7 +16357,8 @@
       "tags": [
         "HL検証済プロ",
         "Nansen発見",
-        "SmartMoney"
+        "SmartMoney",
+        "Tier-B"
       ],
       "notes": "",
       "history": [
@@ -16221,7 +16397,11 @@
         "avg_hold_h": null
       },
       "n_fills_14d": null,
-      "lead_examples": []
+      "lead_examples": [],
+      "pro_score": 0.404,
+      "pro_realized": 771354,
+      "pro_span_days": 445,
+      "pro_tier": "B"
     },
     "0x1f67d79afc8d0e7609ddba6c9b657cc635f69981": {
       "address": "0x1f67d79afc8d0e7609ddba6c9b657cc635f69981",
@@ -16321,6 +16501,7 @@
       "tags": [
         "Nansen発見",
         "SmartMoney",
+        "Tier-B",
         "稼ぎ確認・先行不明(要精査)"
       ],
       "notes": "",
@@ -16425,7 +16606,11 @@
           "volume_usd": 0.0004999280933111469,
           "count": 1
         }
-      ]
+      ],
+      "pro_score": 0.462,
+      "pro_realized": 502220,
+      "pro_span_days": 470,
+      "pro_tier": "B"
     },
     "0xb9eb061e64d32c8e0a6c6992a7dc32a32df9cb74": {
       "address": "0xb9eb061e64d32c8e0a6c6992a7dc32a32df9cb74",
@@ -16524,7 +16709,8 @@
       "tags": [
         "HL検証済プロ",
         "Nansen発見",
-        "SmartMoney"
+        "SmartMoney",
+        "Tier-B"
       ],
       "notes": "",
       "history": [
@@ -16563,7 +16749,11 @@
         "avg_hold_h": null
       },
       "n_fills_14d": null,
-      "lead_examples": []
+      "lead_examples": [],
+      "pro_score": 0.41,
+      "pro_realized": 844004,
+      "pro_span_days": 541,
+      "pro_tier": "B"
     },
     "0x4c7a572ad38aed2c1d33fbfeba7bd69a83ec0e30": {
       "address": "0x4c7a572ad38aed2c1d33fbfeba7bd69a83ec0e30",
@@ -16797,7 +16987,8 @@
       "tags": [
         "HL検証済プロ",
         "Nansen発見",
-        "SmartMoney"
+        "SmartMoney",
+        "Tier-B"
       ],
       "notes": "",
       "history": [
@@ -16836,7 +17027,11 @@
         "avg_hold_h": null
       },
       "n_fills_14d": null,
-      "lead_examples": []
+      "lead_examples": [],
+      "pro_score": 0.426,
+      "pro_realized": 547385,
+      "pro_span_days": 237,
+      "pro_tier": "B"
     },
     "0x039405fa4636364e6023df1e06b085a462b9cdc9": {
       "address": "0x039405fa4636364e6023df1e06b085a462b9cdc9",
@@ -17253,7 +17448,8 @@
       "tags": [
         "HL検証済プロ",
         "Nansen発見",
-        "SmartMoney"
+        "SmartMoney",
+        "Tier-B"
       ],
       "notes": "",
       "history": [
@@ -17292,7 +17488,11 @@
         "avg_hold_h": null
       },
       "n_fills_14d": null,
-      "lead_examples": []
+      "lead_examples": [],
+      "pro_score": 0.389,
+      "pro_realized": 641213,
+      "pro_span_days": 226,
+      "pro_tier": "B"
     },
     "0x4b563051258ade30122940b80f575363baa4445b": {
       "address": "0x4b563051258ade30122940b80f575363baa4445b",
@@ -17346,7 +17546,8 @@
       "tags": [
         "HL検証済プロ",
         "Nansen発見",
-        "SmartMoney"
+        "SmartMoney",
+        "Tier-B"
       ],
       "notes": "",
       "history": [
@@ -17385,7 +17586,11 @@
         "avg_hold_h": null
       },
       "n_fills_14d": null,
-      "lead_examples": []
+      "lead_examples": [],
+      "pro_score": 0.421,
+      "pro_realized": 677972,
+      "pro_span_days": 334,
+      "pro_tier": "B"
     },
     "0x2c5dc7e67fce4bc252221c46c1cdc7651838b2d8": {
       "address": "0x2c5dc7e67fce4bc252221c46c1cdc7651838b2d8",
@@ -17801,7 +18006,8 @@
       "tags": [
         "HL検証済プロ",
         "Nansen発見",
-        "SmartMoney"
+        "SmartMoney",
+        "Tier-A"
       ],
       "notes": "",
       "history": [
@@ -17840,7 +18046,11 @@
         "avg_hold_h": null
       },
       "n_fills_14d": null,
-      "lead_examples": []
+      "lead_examples": [],
+      "pro_score": 0.518,
+      "pro_realized": 1928662,
+      "pro_span_days": 213,
+      "pro_tier": "A"
     },
     "0xf780adb6ca4a737d2a8def6dd445b0c0276d70e1": {
       "address": "0xf780adb6ca4a737d2a8def6dd445b0c0276d70e1",
@@ -18256,7 +18466,8 @@
       "tags": [
         "HL検証済プロ",
         "Nansen発見",
-        "SmartMoney"
+        "SmartMoney",
+        "Tier-B"
       ],
       "notes": "",
       "history": [
@@ -18295,7 +18506,11 @@
         "avg_hold_h": null
       },
       "n_fills_14d": null,
-      "lead_examples": []
+      "lead_examples": [],
+      "pro_score": 0.464,
+      "pro_realized": 649739,
+      "pro_span_days": 731,
+      "pro_tier": "B"
     },
     "0x0ed73f6d6f0ad13f3cfd915575390f92e0d49761": {
       "address": "0x0ed73f6d6f0ad13f3cfd915575390f92e0d49761",
@@ -18665,6 +18880,7 @@
       "tags": [
         "Nansen発見",
         "SmartMoney",
+        "Tier-B",
         "稼ぎ確認・先行不明(要精査)"
       ],
       "notes": "",
@@ -18740,7 +18956,11 @@
           "volume_usd": 0.0,
           "count": 1
         }
-      ]
+      ],
+      "pro_score": 0.426,
+      "pro_realized": 591463,
+      "pro_span_days": 867,
+      "pro_tier": "B"
     },
     "0xbf55d2d31c193e475d9d52006359f1fe51ecb7ce": {
       "address": "0xbf55d2d31c193e475d9d52006359f1fe51ecb7ce",
@@ -19562,6 +19782,7 @@
       "tags": [
         "Nansen発見",
         "SmartMoney",
+        "Tier-A",
         "稼ぎ確認・先行不明(要精査)"
       ],
       "notes": "",
@@ -19598,7 +19819,11 @@
         "avg_hold_h": null
       },
       "first_funders": [],
-      "counterparties": []
+      "counterparties": [],
+      "pro_score": 0.642,
+      "pro_realized": 2338551,
+      "pro_span_days": 474,
+      "pro_tier": "A"
     },
     "0x14246f4bbafb87ccebac17609054c6a188ed8cfd": {
       "address": "0x14246f4bbafb87ccebac17609054c6a188ed8cfd",
@@ -19652,7 +19877,8 @@
       "tags": [
         "HL検証済プロ",
         "Nansen発見",
-        "SmartMoney"
+        "SmartMoney",
+        "Tier-B"
       ],
       "notes": "",
       "history": [
@@ -19691,7 +19917,11 @@
         "avg_hold_h": null
       },
       "n_fills_14d": null,
-      "lead_examples": []
+      "lead_examples": [],
+      "pro_score": 0.427,
+      "pro_realized": 646718,
+      "pro_span_days": 795,
+      "pro_tier": "B"
     },
     "0xf2efcd0bedf771dc63eb655d395c15a9d753550a": {
       "address": "0xf2efcd0bedf771dc63eb655d395c15a9d753550a",
@@ -20467,7 +20697,8 @@
       "tags": [
         "HL検証済プロ",
         "Nansen発見",
-        "SmartMoney"
+        "SmartMoney",
+        "Tier-S"
       ],
       "notes": "",
       "history": [
@@ -20506,7 +20737,11 @@
         "avg_hold_h": null
       },
       "n_fills_14d": null,
-      "lead_examples": []
+      "lead_examples": [],
+      "pro_score": 0.819,
+      "pro_realized": 4475068,
+      "pro_span_days": 341,
+      "pro_tier": "S"
     },
     "0xd13552538def5cecc78a20aa2236573f0bee6443": {
       "address": "0xd13552538def5cecc78a20aa2236573f0bee6443",
@@ -20830,6 +21065,7 @@
       "tags": [
         "Nansen発見",
         "SmartMoney",
+        "Tier-B",
         "稼ぎ確認・先行不明(要精査)"
       ],
       "notes": "",
@@ -20866,7 +21102,11 @@
         "avg_hold_h": null
       },
       "first_funders": [],
-      "counterparties": []
+      "counterparties": [],
+      "pro_score": 0.401,
+      "pro_realized": 562804,
+      "pro_span_days": 16,
+      "pro_tier": "B"
     },
     "0x3480d3f9b45a5669cb3c7a576b092798fd5db5d8": {
       "address": "0x3480d3f9b45a5669cb3c7a576b092798fd5db5d8",
@@ -25202,7 +25442,8 @@
       "tags": [
         "HL検証済プロ",
         "Nansen発見",
-        "SmartMoney"
+        "SmartMoney",
+        "Tier-B"
       ],
       "notes": "",
       "history": [
@@ -25241,7 +25482,11 @@
         "avg_hold_h": null
       },
       "n_fills_14d": null,
-      "lead_examples": []
+      "lead_examples": [],
+      "pro_score": 0.438,
+      "pro_realized": 674231,
+      "pro_span_days": 227,
+      "pro_tier": "B"
     },
     "0x0949d8893c5a82030ad361499377a7d4f30af52a": {
       "address": "0x0949d8893c5a82030ad361499377a7d4f30af52a",
@@ -28586,7 +28831,8 @@
       "tags": [
         "HL検証済プロ",
         "Nansen発見",
-        "SmartMoney"
+        "SmartMoney",
+        "Tier-S"
       ],
       "notes": "",
       "history": [
@@ -28625,7 +28871,11 @@
         "avg_hold_h": null
       },
       "n_fills_14d": null,
-      "lead_examples": []
+      "lead_examples": [],
+      "pro_score": 0.9,
+      "pro_realized": 6015385,
+      "pro_span_days": 558,
+      "pro_tier": "S"
     },
     "0x55999a9124b976d05a7fd98d414e185d95e9e940": {
       "address": "0x55999a9124b976d05a7fd98d414e185d95e9e940",
@@ -29148,7 +29398,8 @@
       "times_seen": 1,
       "tags": [
         "HL検証済プロ",
-        "Nansen発見"
+        "Nansen発見",
+        "Tier-S"
       ],
       "notes": "",
       "history": [],
@@ -29172,7 +29423,11 @@
         "insider_likelihood": null,
         "avg_hold_h": null
       },
-      "lead_examples": []
+      "lead_examples": [],
+      "pro_score": 0.834,
+      "pro_realized": 5802013,
+      "pro_span_days": 103,
+      "pro_tier": "S"
     },
     "0x8cfe4bc352deb10ed41c5f0f89bc57674cee1e22": {
       "address": "0x8cfe4bc352deb10ed41c5f0f89bc57674cee1e22",
@@ -29180,7 +29435,8 @@
       "times_seen": 1,
       "tags": [
         "HL検証済プロ",
-        "Nansen発見"
+        "Nansen発見",
+        "Tier-S"
       ],
       "notes": "",
       "history": [],
@@ -29204,7 +29460,11 @@
         "insider_likelihood": null,
         "avg_hold_h": null
       },
-      "lead_examples": []
+      "lead_examples": [],
+      "pro_score": 0.884,
+      "pro_realized": 4809094,
+      "pro_span_days": 254,
+      "pro_tier": "S"
     },
     "0xd7a678fcf72c1b602850ef2f3e2d668ec41fa0ed": {
       "address": "0xd7a678fcf72c1b602850ef2f3e2d668ec41fa0ed",
@@ -29212,7 +29472,8 @@
       "times_seen": 1,
       "tags": [
         "HL検証済プロ",
-        "Nansen発見"
+        "Nansen発見",
+        "Tier-S"
       ],
       "notes": "",
       "history": [],
@@ -29236,7 +29497,11 @@
         "insider_likelihood": null,
         "avg_hold_h": null
       },
-      "lead_examples": []
+      "lead_examples": [],
+      "pro_score": 0.804,
+      "pro_realized": 4190469,
+      "pro_span_days": 428,
+      "pro_tier": "S"
     },
     "0xb632c6580173a16154f17cdafc6eb27e95cf73b7": {
       "address": "0xb632c6580173a16154f17cdafc6eb27e95cf73b7",
@@ -29308,7 +29573,8 @@
       "times_seen": 1,
       "tags": [
         "HL検証済プロ",
-        "Nansen発見"
+        "Nansen発見",
+        "Tier-S"
       ],
       "notes": "",
       "history": [],
@@ -29332,7 +29598,11 @@
         "insider_likelihood": null,
         "avg_hold_h": null
       },
-      "lead_examples": []
+      "lead_examples": [],
+      "pro_score": 0.708,
+      "pro_realized": 3359608,
+      "pro_span_days": 79,
+      "pro_tier": "S"
     },
     "0x41206f8efb51e5039e5b46e04e7866a4849f72d2": {
       "address": "0x41206f8efb51e5039e5b46e04e7866a4849f72d2",
@@ -29340,7 +29610,8 @@
       "times_seen": 1,
       "tags": [
         "HL検証済プロ",
-        "Nansen発見"
+        "Nansen発見",
+        "Tier-A"
       ],
       "notes": "",
       "history": [],
@@ -29364,7 +29635,11 @@
         "insider_likelihood": null,
         "avg_hold_h": null
       },
-      "lead_examples": []
+      "lead_examples": [],
+      "pro_score": 0.63,
+      "pro_realized": 2154796,
+      "pro_span_days": 139,
+      "pro_tier": "A"
     },
     "0x6979dde2781dc4ec843641b10b2a2f2e0f4bda62": {
       "address": "0x6979dde2781dc4ec843641b10b2a2f2e0f4bda62",
@@ -29372,7 +29647,8 @@
       "times_seen": 1,
       "tags": [
         "HL検証済プロ",
-        "Nansen発見"
+        "Nansen発見",
+        "Tier-A"
       ],
       "notes": "",
       "history": [],
@@ -29396,7 +29672,11 @@
         "insider_likelihood": null,
         "avg_hold_h": null
       },
-      "lead_examples": []
+      "lead_examples": [],
+      "pro_score": 0.617,
+      "pro_realized": 1902418,
+      "pro_span_days": 242,
+      "pro_tier": "A"
     },
     "0xcefd7652228a8619d0af5b95389cd49387cd30e0": {
       "address": "0xcefd7652228a8619d0af5b95389cd49387cd30e0",
@@ -29404,7 +29684,8 @@
       "times_seen": 1,
       "tags": [
         "HL検証済プロ",
-        "Nansen発見"
+        "Nansen発見",
+        "Tier-A"
       ],
       "notes": "",
       "history": [],
@@ -29428,7 +29709,11 @@
         "insider_likelihood": null,
         "avg_hold_h": null
       },
-      "lead_examples": []
+      "lead_examples": [],
+      "pro_score": 0.587,
+      "pro_realized": 1612233,
+      "pro_span_days": 553,
+      "pro_tier": "A"
     },
     "0x3b11267dfc4b9ebe8427e8f557056b4b6ce98112": {
       "address": "0x3b11267dfc4b9ebe8427e8f557056b4b6ce98112",
@@ -29436,7 +29721,8 @@
       "times_seen": 1,
       "tags": [
         "HL検証済プロ",
-        "Nansen発見"
+        "Nansen発見",
+        "Tier-A"
       ],
       "notes": "",
       "history": [],
@@ -29460,7 +29746,11 @@
         "insider_likelihood": null,
         "avg_hold_h": null
       },
-      "lead_examples": []
+      "lead_examples": [],
+      "pro_score": 0.598,
+      "pro_realized": 1448890,
+      "pro_span_days": 98,
+      "pro_tier": "A"
     },
     "0x5638484ba2d2f1d1d35020572b0aa439a9869192": {
       "address": "0x5638484ba2d2f1d1d35020572b0aa439a9869192",
@@ -29468,7 +29758,8 @@
       "times_seen": 1,
       "tags": [
         "HL検証済プロ",
-        "Nansen発見"
+        "Nansen発見",
+        "Tier-A"
       ],
       "notes": "",
       "history": [],
@@ -29492,7 +29783,11 @@
         "insider_likelihood": null,
         "avg_hold_h": null
       },
-      "lead_examples": []
+      "lead_examples": [],
+      "pro_score": 0.574,
+      "pro_realized": 1224633,
+      "pro_span_days": 709,
+      "pro_tier": "A"
     },
     "0x4b4bdd734b87bc48683d24f1dc6159e3ab6d6409": {
       "address": "0x4b4bdd734b87bc48683d24f1dc6159e3ab6d6409",
@@ -29500,7 +29795,8 @@
       "times_seen": 1,
       "tags": [
         "HL検証済プロ",
-        "Nansen発見"
+        "Nansen発見",
+        "Tier-A"
       ],
       "notes": "",
       "history": [],
@@ -29524,7 +29820,11 @@
         "insider_likelihood": null,
         "avg_hold_h": null
       },
-      "lead_examples": []
+      "lead_examples": [],
+      "pro_score": 0.509,
+      "pro_realized": 1094901,
+      "pro_span_days": 124,
+      "pro_tier": "A"
     },
     "0x1e5b1efd99c89d39b59b28a19e6b42bbeb98433b": {
       "address": "0x1e5b1efd99c89d39b59b28a19e6b42bbeb98433b",
@@ -29532,7 +29832,8 @@
       "times_seen": 1,
       "tags": [
         "HL検証済プロ",
-        "Nansen発見"
+        "Nansen発見",
+        "Tier-B"
       ],
       "notes": "",
       "history": [],
@@ -29556,7 +29857,11 @@
         "insider_likelihood": null,
         "avg_hold_h": null
       },
-      "lead_examples": []
+      "lead_examples": [],
+      "pro_score": 0.421,
+      "pro_realized": 1025999,
+      "pro_span_days": 122,
+      "pro_tier": "B"
     },
     "0x7de07bb8a43c1953a019906cf2c8287dae478be9": {
       "address": "0x7de07bb8a43c1953a019906cf2c8287dae478be9",
@@ -29564,7 +29869,8 @@
       "times_seen": 1,
       "tags": [
         "HL検証済プロ",
-        "Nansen発見"
+        "Nansen発見",
+        "Tier-B"
       ],
       "notes": "",
       "history": [],
@@ -29588,7 +29894,11 @@
         "insider_likelihood": null,
         "avg_hold_h": null
       },
-      "lead_examples": []
+      "lead_examples": [],
+      "pro_score": 0.427,
+      "pro_realized": 1016230,
+      "pro_span_days": 559,
+      "pro_tier": "B"
     },
     "0xc604faf510aa5b617c9fb1556d02d6d22c9644be": {
       "address": "0xc604faf510aa5b617c9fb1556d02d6d22c9644be",
@@ -29596,7 +29906,8 @@
       "times_seen": 1,
       "tags": [
         "HL検証済プロ",
-        "Nansen発見"
+        "Nansen発見",
+        "Tier-B"
       ],
       "notes": "",
       "history": [],
@@ -29620,7 +29931,11 @@
         "insider_likelihood": null,
         "avg_hold_h": null
       },
-      "lead_examples": []
+      "lead_examples": [],
+      "pro_score": 0.474,
+      "pro_realized": 911248,
+      "pro_span_days": 226,
+      "pro_tier": "B"
     },
     "0x7c9063122c01837fe83da2521056e10c9b6dd129": {
       "address": "0x7c9063122c01837fe83da2521056e10c9b6dd129",
@@ -29628,6 +29943,7 @@
       "times_seen": 2,
       "tags": [
         "Nansen発見",
+        "Tier-A",
         "稼ぎ確認・先行不明(要精査)"
       ],
       "notes": "",
@@ -29716,7 +30032,11 @@
           "volume_usd": 0.0,
           "count": 1
         }
-      ]
+      ],
+      "pro_score": 0.547,
+      "pro_realized": 745231,
+      "pro_span_days": 222,
+      "pro_tier": "A"
     },
     "0xae551d73161bac3315c5ade0e2d499a44ebe2236": {
       "address": "0xae551d73161bac3315c5ade0e2d499a44ebe2236",
@@ -29724,7 +30044,8 @@
       "times_seen": 1,
       "tags": [
         "HL検証済プロ",
-        "Nansen発見"
+        "Nansen発見",
+        "Tier-B"
       ],
       "notes": "",
       "history": [],
@@ -29748,7 +30069,11 @@
         "insider_likelihood": null,
         "avg_hold_h": null
       },
-      "lead_examples": []
+      "lead_examples": [],
+      "pro_score": 0.465,
+      "pro_realized": 713720,
+      "pro_span_days": 831,
+      "pro_tier": "B"
     },
     "0x0d9654172413fa8bcd2f5738a7b2fa6d19864125": {
       "address": "0x0d9654172413fa8bcd2f5738a7b2fa6d19864125",
@@ -29756,7 +30081,8 @@
       "times_seen": 1,
       "tags": [
         "HL検証済プロ",
-        "Nansen発見"
+        "Nansen発見",
+        "Tier-B"
       ],
       "notes": "",
       "history": [],
@@ -29780,7 +30106,11 @@
         "insider_likelihood": null,
         "avg_hold_h": null
       },
-      "lead_examples": []
+      "lead_examples": [],
+      "pro_score": 0.493,
+      "pro_realized": 710350,
+      "pro_span_days": 8,
+      "pro_tier": "B"
     },
     "0x9b804150c9a4f6db44ba4fd67704eadb5be360c1": {
       "address": "0x9b804150c9a4f6db44ba4fd67704eadb5be360c1",
@@ -29788,7 +30118,8 @@
       "times_seen": 1,
       "tags": [
         "HL検証済プロ",
-        "Nansen発見"
+        "Nansen発見",
+        "Tier-B"
       ],
       "notes": "",
       "history": [],
@@ -29812,7 +30143,11 @@
         "insider_likelihood": null,
         "avg_hold_h": null
       },
-      "lead_examples": []
+      "lead_examples": [],
+      "pro_score": 0.405,
+      "pro_realized": 700722,
+      "pro_span_days": 1,
+      "pro_tier": "B"
     },
     "0xf3362789cecf25c6a31288d172880d7ad9b81801": {
       "address": "0xf3362789cecf25c6a31288d172880d7ad9b81801",
@@ -29820,7 +30155,8 @@
       "times_seen": 1,
       "tags": [
         "HL検証済プロ",
-        "Nansen発見"
+        "Nansen発見",
+        "Tier-B"
       ],
       "notes": "",
       "history": [],
@@ -29844,7 +30180,11 @@
         "insider_likelihood": null,
         "avg_hold_h": null
       },
-      "lead_examples": []
+      "lead_examples": [],
+      "pro_score": 0.44,
+      "pro_realized": 679129,
+      "pro_span_days": 99,
+      "pro_tier": "B"
     },
     "0x69b05701f8175c276ecd0138387a197948e240bb": {
       "address": "0x69b05701f8175c276ecd0138387a197948e240bb",
@@ -29852,6 +30192,7 @@
       "times_seen": 2,
       "tags": [
         "Nansen発見",
+        "Tier-B",
         "稼ぎ確認・先行不明(要精査)"
       ],
       "notes": "",
@@ -29896,7 +30237,11 @@
           "volume_usd": 159961.47735762192,
           "count": 3
         }
-      ]
+      ],
+      "pro_score": 0.407,
+      "pro_realized": 641300,
+      "pro_span_days": 376,
+      "pro_tier": "B"
     },
     "0x5198eff88dea32108605bcdb109a99dc397190d8": {
       "address": "0x5198eff88dea32108605bcdb109a99dc397190d8",
@@ -29904,7 +30249,8 @@
       "times_seen": 1,
       "tags": [
         "HL検証済プロ",
-        "Nansen発見"
+        "Nansen発見",
+        "Tier-A"
       ],
       "notes": "",
       "history": [],
@@ -29928,7 +30274,11 @@
         "insider_likelihood": null,
         "avg_hold_h": null
       },
-      "lead_examples": []
+      "lead_examples": [],
+      "pro_score": 0.523,
+      "pro_realized": 613832,
+      "pro_span_days": 142,
+      "pro_tier": "A"
     },
     "0xa906355beaf1d69a5fe73ce55899c49c6e67916c": {
       "address": "0xa906355beaf1d69a5fe73ce55899c49c6e67916c",
@@ -29968,7 +30318,8 @@
       "times_seen": 1,
       "tags": [
         "HL検証済プロ",
-        "Nansen発見"
+        "Nansen発見",
+        "Tier-B"
       ],
       "notes": "",
       "history": [],
@@ -29992,7 +30343,11 @@
         "insider_likelihood": null,
         "avg_hold_h": null
       },
-      "lead_examples": []
+      "lead_examples": [],
+      "pro_score": 0.393,
+      "pro_realized": 551893,
+      "pro_span_days": 487,
+      "pro_tier": "B"
     },
     "0x8250a7f9fca9c33e68eead8c05c1d58c8fd70d13": {
       "address": "0x8250a7f9fca9c33e68eead8c05c1d58c8fd70d13",
@@ -30000,6 +30355,7 @@
       "times_seen": 2,
       "tags": [
         "Nansen発見",
+        "Tier-B",
         "稼ぎ確認・先行不明(要精査)"
       ],
       "notes": "",
@@ -30049,7 +30405,11 @@
           "field": "counterparties",
           "error": 403
         }
-      ]
+      ],
+      "pro_score": 0.418,
+      "pro_realized": 540966,
+      "pro_span_days": 909,
+      "pro_tier": "B"
     },
     "0x3adaa1d2d0598c9b661a746649d20e1e8aad9b3a": {
       "address": "0x3adaa1d2d0598c9b661a746649d20e1e8aad9b3a",
@@ -30057,7 +30417,8 @@
       "times_seen": 1,
       "tags": [
         "HL検証済プロ",
-        "Nansen発見"
+        "Nansen発見",
+        "Tier-B"
       ],
       "notes": "",
       "history": [],
@@ -30081,7 +30442,11 @@
         "insider_likelihood": null,
         "avg_hold_h": null
       },
-      "lead_examples": []
+      "lead_examples": [],
+      "pro_score": 0.383,
+      "pro_realized": 540758,
+      "pro_span_days": 54,
+      "pro_tier": "B"
     },
     "0x8a48dcaffdf71c547cd0fd0434ae40fa57bcbf0f": {
       "address": "0x8a48dcaffdf71c547cd0fd0434ae40fa57bcbf0f",
@@ -30089,7 +30454,8 @@
       "times_seen": 1,
       "tags": [
         "HL検証済プロ",
-        "Nansen発見"
+        "Nansen発見",
+        "Tier-B"
       ],
       "notes": "",
       "history": [],
@@ -30113,7 +30479,11 @@
         "insider_likelihood": null,
         "avg_hold_h": null
       },
-      "lead_examples": []
+      "lead_examples": [],
+      "pro_score": 0.451,
+      "pro_realized": 523699,
+      "pro_span_days": 483,
+      "pro_tier": "B"
     }
   },
   "updated_at": "2026-06-17T16:20:48.785570+00:00"
