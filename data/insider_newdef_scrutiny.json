@@ -1,0 +1,360 @@
+{
+  "judged": [
+    {
+      "address": "0xae551d73161bac3315c5ade0e2d499a44ebe2236",
+      "insider_signal_strength": 0.12,
+      "best_case_for_insider": "2026-02-05のBTC long(entry $63,500, perfect=0.883=ほぼ底)が建玉後24hで+12.5%(fwd_favorable=0.1252)伸びており、「底取り+大きめ順方向の伸び」が同時成立した唯一の例。conviction_liftも+0.0052と符号は正(big_hit=1.0)。底だけでなく実際に動いたという点は他候補(伸び2-3%)より一段強い。",
+      "strongest_harmless_explanation": "これは典型的な「下落regimeでのBTC押し目買い1発(N=1)」。ラベルが Perma-Bull で major(BTC)のみ、defC(alt/株perp)が完全にnull=決算/上場/カタリスト前の情報優位が出る土俵に一切いない。top3_share=0.998は実質1トレードが口座そのもので、サバイバーシップ(たまたま当たった1回の急反発)を集中度が美化しているだけ。2026年2月の$63.5kは明らかにドローダウン局面の底値圏で、急反発便乗=モメンタム/regime便乗で完全に説明可能。+12.5%も急落後の自律反発として珍しくない。",
+      "key_numbers": "top3_share=0.998(実質N=1), mean_top_perfect=0.883, 主トレードfwd=0.1252だが2番手perfect=0.882でfwd=0.0238(底は取れたが伸びず), defC全null(alt/株perp不在), conviction_lift=+0.0052/4h(ノイズ域<観測上限0.0093, n=48), 主益$104,352/total$98,108=単発依存, event 2026-02-05(下落regime), major only",
+      "verdict": "no-change",
+      "recommended_position": "現状維持",
+      "one_line": "下落regimeでのBTC押し目買い1発(N=1)を極端な集中度が美化しているだけ。alt/株perp不在・conviction liftノイズ域で情報優位の痕跡なし、現状維持。",
+      "reasoning": "defBの完璧度0.883は高いが、口座を支配する単一BTC long(top3_share=0.998, 益$104k≈total$98kの全て)に依存したN=1。確かに建玉後+12.5%伸びた点は「底だけ取って伸びず」の無害パターンよりは強いが、これは2026-02-05という下落局面の底値圏($63.5k)での急反発便乗で十分説明でき、情報優位を示さない。決定的なのはdefCが完全null=alt/米国株perp(決算・上場・カタリスト前に情報優位が顕在化する土俵)に一切ポジションがないこと。Perma-Bullラベル通りmajorの順張り押し目買いに終始しており、これはモメンタム/regime便乗の教科書。conviction_lift=+0.0052/4hは観測上限0.0093(それ自体ノイズ域)を下回り、big_hit=1.0もn=48・実質5トレードでは同じBTC押し目買いが「大口群」を構成しているだけで意味を持たない。2番手の完璧トレード(perfect=0.882)はfwd=0.0238と『底は取れたが大相場は来ていない』無エッジの署名そのもの。総じて、たまたま当たった1回のBTC反発を集中度が増幅した像であり、情報優位とregime便乗を区別する材料がない。デフォルトの懐疑を維持し現状維持(no-change)。"
+    },
+    {
+      "address": "0x5638484ba2d2f1d1d35020572b0aa439a9869192",
+      "insider_signal_strength": 0.12,
+      "best_case_for_insider": "defBでmean_top_perfect=1.0かつentry_pctile=0.0、すなわち大勝ち上位トレード(BTC $524k/ETH $257k)を「建玉前24hレンジの最底」で完璧に建てている。底を寸分違わず捉える精度が3本ともperfect=1.0で揃うのは偶然のタイミングとしては出来すぎ、という点が唯一のインサイダー論拠。",
+      "strongest_harmless_explanation": "完璧エントリは「2025-12-01の暴落後リバウンド局面での逆張り底建て」にすぎず、建玉後の伸び(fwd_favorable)はBTC 2.5%/ETH 3.3%と小さい。情報優位なら建玉後に大相場が来るはずだが来ていない=「底は取れたが大相場は来ていない」典型。さらに大勝ち2本は2025-12-01 00:58と01:01のほぼ同時刻・同方向longで、独立した3度の予知ではなく単一カタリスト(暴落後反発)へのN=1的な分割約定。altのZECはlong+short両建てでMM高回転/ボラ回収=方向予知ではない。これらregime便乗+モメンタム+MM回転で全軸を説明可能。",
+      "key_numbers": "top3_share=1.0(n=3のみ集中), mean_top_perfect=1.0/entry_pctile=0.0(完璧), だがmean_top_fwd=0.0292・fwd BTC0.025/ETH0.0334(伸び2-3%=情報優位の核心を欠く); 大勝ち日付2025-12-01 00:58&01:01(ほぼ同時刻=単一カタリスト); alt_win_share=0.114(majors中心、altは主戦場でない); defA conviction_lift=+0.0078(ノイズ域<0.01)・big_fwd=-0.0013/small_fwd=-0.0091(両負=下落regime)・big_hit=0.458(5割割れ)。株perp(xyz:)取引ゼロ=カタリスト前建玉の証跡なし。",
+      "verdict": "no-change",
+      "recommended_position": "現状維持",
+      "one_line": "完璧エントリ(perfect=1.0)も建玉後の伸びが2-3%しかなく、大勝ちは2025-12-01暴落後リバウンドへの同時刻N=1便乗+conviction liftもノイズ域(+0.0078)で、情報優位の核心を全て欠く=昇格根拠なし。",
+      "reasoning": "3定義すべてで情報優位の核心が欠落。(1)完璧エントリ問題: mean_top_perfect=1.0/entry_pctile=0.0は底建てを示すが、fwd_favorableがBTC2.5%・ETH3.3%(mean_top_fwd=0.0292)と小さく、「底は取れたが大相場は来ていない」。情報優位なら建玉後に順方向の大相場が来るはずで、来ていない。(2)時期/銘柄偏り: 大勝ち2本($524k BTC・$257k ETH)は2025-12-01 00:58と01:01のほぼ同時刻・同方向longで、2025年11月末-12月初の暴落後リバウンドという単一regimeへの便乗。独立した3度の予知ではなくN=1的な分割約定で、サバイバーシップ/モメンタム順張りで説明可能。(3)alt/株perp: alt_win_share=0.114とmajors中心でaltは主戦場でない。altのZECはlong+short両建てで方向予知ではなくMM的ボラ回収。株perp(xyz:)取引はゼロで、決算/上場カタリスト前建玉の証跡が一切ない。(4)conviction lift: +0.0078はノイズ域(基準+0.01)未満、big_fwd/small_fwd双方が負、big_hit=0.458で5割割れ=確信して大きく賭ける時の優位なし。無害な説明(下落regime便乗+同時刻N=1分割約定+ZEC両建てMM高回転+ノイズ域lift)が全軸を説明しきり、新定義でも昇格を正当化する情報優位シグナルは検出されない。既存ポジション(プロ/本物、往復定義でも未debunkedだがプロ扱い)から動かす根拠なし。デフォルトの懐疑どおり現状維持。"
+    },
+    {
+      "address": "0x782e432267376f377585fc78092d998f8442ab83",
+      "insider_signal_strength": 0.15,
+      "best_case_for_insider": "表面上の数値だけ拾えば「完璧エントリ」が複数ある: xyz:CL short の perfect=0.975(直近24hレンジの天井近くで的確にショート), xyz:BRENTOIL short も含め原油perp(米国市場の情報優位余地)に集中して$230k/$213kを取り、defB mean_top_fwd=0.1978 と高い伸び、top3_share=0.995/0.821 の極端な集中で総益$4.26Mを少数トレードで叩き出している。alt_win_share=0.659 と alt 寄りで、決算/カタリスト前建玉の体裁は装える。",
+      "strongest_harmless_explanation": "PnLの実体(HYPE long $2.34M + BTC short $1.77M = 全益の約9割)には perfect/fwd 指標が一切付かず、エントリ精度の証拠ゼロ。BTC/SOL/ETHショート群は2025Q4→2026の下落レジームへの順張りモメンタム便乗で説明十分。defB の高い mean_top_fwd=0.1978 は唯一指標が付いた極小トレード(ETH short $12k)1件のアーティファクト。原油perpは perfect が高くても fwd は +0.7%/−1.1% と伸びゼロ〜マイナス=「底/天は取れたが大相場来ず=情報優位でない」の典型。win_rate=0.5489 の正の歪み(大きく勝ち小さく負ける)＝サバイバーシップ型プロで、precision insider ではない。",
+      "key_numbers": "集中top3_share=0.995(majors)/0.821(alt) ・ 完璧mean_top_perfect=0.567(majors)/0.487(alt), 巨大PnLトレードは全てperfect欠損 ・ 伸びmean_top_fwd=0.1978だが付与は$12k ETH 1件のみ; 実体PnLのHYPE$2.34M/BTC$1.77MはN/A ・ xyz:CL perfect0.975/fwd+0.0071, BRENTOIL perfect0.0/fwd−0.0108 ・ alt比0.659 ・ conviction lift=null(算出不能) ・ 既存往復精査: n_events=555/event_lead_notional=0/lead_examples=[]/dir_accuracy=0.0/win_rate0.5489 ・ 期間2025-05-29〜2026-06-05(384日)",
+      "verdict": "no-change",
+      "recommended_position": "現状維持",
+      "one_line": "完璧エントリは極小トレードと原油perpに限られ伸びゼロ、巨大PnL(HYPE/BTC=全益9割)は精度指標皆無で下落レジーム順張り+サバイバーシップで説明十分、conviction算出不能・往復ではevent_lead=0。昇格根拠なし、現状維持。",
+      "reasoning": "新3定義の各観点で精査した。(1)完璧エントリ×伸び: top_trades で perfect と fwd が両方付くのは defB の ETH short($12k, perfect0.567/fwd0.1978)と defC の xyz:CL(perfect0.975/fwd+0.0071)・xyz:BRENTOIL(perfect0.0/fwd−0.0108)のみ。CLは「天井近くで的確に入ったが順方向の大相場は+0.7%しか来ていない」=底/天取りはできても情報優位ではない、BRENTOILは完璧でも伸びでもなく利益はパス/タイミング由来。defB の mean_top_fwd=0.1978 は唯一指標付与された極小1件のアーティファクトで全体の伸びを代表しない。最重要: PnL実体である HYPE long $2.34M と BTC short $1.77M(合計で全益$4.26Mの約9割)には perfect/fwd が一切なく、エントリ精度の証拠が存在しない。(2)レジーム/モメンタム: BTC/SOL/ETH のショートは2025Q4以降の下落局面への順張りで、極端な集中(top3_share0.995)は win_rate0.5489 の正の歪み=大勝ち少数+小負け多数のサバイバーシップで説明できる。(3)alt/株perp: alt_win_share0.659 だが中身は HYPE(単一大型方向ベット)と原油先物perp(CL/BRENTOIL)で、米国株決算系xyz:名(NVDA/INTC等)は無く、原油の建玉日(2026-04-30,05-17)も明確なカタリスト前建玉のパターンを示さず伸びも小〜負。(4)conviction lift: defA=null で算出不能、確信ベットの優位を一切示せない。加えて既存往復精査(insider_verified)で n_events=555 に対し event_lead_notional=0・lead_examples空・dir_accuracy=0.0 と、カタリスト先取りの痕跡ゼロが既に確認済み。総合すると、情報優位を示すいかなる新シグナルも懐疑に耐えず、無害な説明(下落順張り・サバイバーシップ・小ペイオフ・指標付与の偏り)が全てを覆う。デフォルト通り現状維持(プロ/判定保留)。insider_signal_strength=0.15。"
+    },
+    {
+      "address": "0x29eb62882a8bd104a64400a2971d0d6881777043",
+      "insider_signal_strength": 0.08,
+      "best_case_for_insider": "defBでmean_top_perfect=0.998・top3_share=0.949と「上位益トレードがほぼ建玉前24hレンジの底で完璧に入っている」点だけは表面的に強い。SOL($85.24)/BTC/ETHのlongをperfect=1.0で連発しており、もし建玉後に大相場が続いていれば底の先読み=情報優位の候補になり得た。これがインサイダー論の唯一の足場。",
+      "strongest_harmless_explanation": "「下落regime中の安値ディップ拾い＋高回転MM」で全数値が説明できる。(a)defBの完璧エントリは全て建玉後fwd=2-7%(最大7.5%)に留まり、定義が明示する『底は取れたが大相場は来ていない=情報優位でない』に完全合致。(b)n_trades=97・defA n=358の高回転で、total_realized=$15,603と極小ペイオフ=小ペイオフ/MM高回転のサバイバーシップ。(c)defCの大勝ちalt(OM $15.3k/ZEC $7.1k/STABLE)はperfect=0.0かつfwd_favorableが-0.19〜-0.45と大幅逆行＝先回り建玉ではなく既存ポジの手仕舞い益/集計アーティファクトで、情報優位の真逆。",
+      "key_numbers": "defB: top3_share=0.949, mean_top_perfect=0.998, mean_top_fwd=0.032(最大fwd=0.0753), n_trades=97, total_realized=$15,603 / defC: alt_win_share=0.812だがmean_top_perfect=0.22, 大勝ちOM perfect=0.0 fwd=-0.1903, ZEC perfect=0.0 fwd=-0.454, STABLE perfect=0.0 fwd=-0.0383, 株perp(xyz)=0件 / defA: conviction_lift=0.0001(観測最大0.0093の約1/100=ノイズ域), big_hit=0.286, n=358 / 日付は2026-02〜03に集中(下落regime)",
+      "verdict": "no-change",
+      "recommended_position": "現状維持",
+      "one_line": "完璧エントリは高いが建玉後の伸びが2-7%止まり、alt大勝ちは完璧0.0かつfwd大幅マイナス、conviction liftもノイズ域0.0001＝情報優位は全方向で否定され現状維持。",
+      "reasoning": "三定義すべてが昇格を否定する。(1)defB: mean_top_perfect=0.998は高いが、これは情報優位の十分条件ではない。建玉後の順方向の伸び(mean_top_fwd)が0.032、top_tradesでも2-7%(最大SOL 7.5%)に留まり、定義が明示する『完璧高&伸び小=底は取れたが大相場は来ていない=情報優位でない』に教科書的に一致。下落regime(日付2026-02〜03に集中)で安値圏のディップを拾えば完璧エントリは機械的に達成でき、n_trades=97の高回転とtotal_realized$15,603の極小ペイオフはMM的高回転/小ペイオフ説で完全説明可能。(2)defC: alt_win_share=0.812でaltで稼ぐが、mean_top_perfect=0.22と低く、最大勝ちのOM($15.3k)はperfect=0.0・fwd=-0.1903、ZEC($7.1k)はperfect=0.0・fwd=-0.454、STABLEもfwd=-0.0383。つまり大勝ちトレードは『建玉後に大きく逆行したのに利益確定』しており、カタリスト前先回りの真逆＝既存ポジ手仕舞い/分割約定の集計アーティファクト。情報優位の本場であるalt・株perpで、xyz株perpは1件もなく決算/上場先回りの痕跡なし。(3)defA: conviction_lift=0.0001は観測上最大0.0093のさらに1/100で完全にノイズ域、big_hit=0.286と大口の的中率はむしろ低い(n=358)。確信ベットの優位なし。以上より、唯一の足場(defBの完璧エントリ)は無害な下落regime+高回転で説明され尽くし、defC/defAは積極的に情報優位を否定。往復定義debunkedに加え新定義でも昇格根拠ゼロ。デフォルトの懐疑どおり現状維持(no-change)。"
+    },
+    {
+      "address": "0x8ccee825f44c99fbdaa79464d5eb8beed9313da2",
+      "insider_signal_strength": 0.05,
+      "best_case_for_insider": "唯一の論拠はmean_top_perfect=0.883と高く、トップ建玉が建玉前24hレンジの底(entry_pctile 0.10-0.133)で入っているように見える点。だが伸び(fwd 0.032-0.053)も払い(最大$1016)も極小で情報優位の証拠にはならない。実質「なし」。",
+      "strongest_harmless_explanation": "レンジ内の逆張り(ディップバイ)スキャルピング。2025-12-17/18にBTC$85-86kで底拾い、entry_pctileが低い=「完璧」に見えるのは平均回帰スキャルの構造的副産物。BTC long/ETH shortが混在し方向確信なし。altや株perpの建玉ゼロ(defC全null)でカタリスト前取りの面が一切ない。結果は薄利・低ペイオフかつ通算赤字。",
+      "key_numbers": "total_realized -10,132(通算赤字)/net_efficiency -3.335/conviction_lift -0.0133(データ内最悪・big_hit 0.0=大口は全敗)/mean_top_perfect 0.883だがmean_top_fwd 0.0424・最大払い$1016/top3_share 0.877・n=17/defC全null/トップ建玉日2025-12-17,12-18(BTC押し目)",
+      "verdict": "no-change",
+      "recommended_position": "現状維持",
+      "one_line": "高「完璧」は底拾いスキャルの副産物にすぎず、伸び極小・通算赤字・conviction_lift最悪(大口全敗)で情報優位は皆無、昇格根拠なし。",
+      "reasoning": "defBはmean_top_perfect=0.883と一見鋭いが、mean_top_fwd=0.0424(4.2%)かつトップ建玉の払いが$1016/$1015/$633/$289/$76と極小。これはまさに「底は取れたが大相場は来ていない」=情報優位ではないパターン。さらにtotal_realized=-10,132(通算赤字)・net_efficiency=-3.335で、書全体は負け。高「完璧」は負け本の中の数少ない勝ち建玉を平均回帰スキャルで拾った結果のサバイバーシップに過ぎない。\n\n時期/銘柄面: トップ建玉は2025-12-17/18のBTC$85-86k押し目買いに集中。下落局面のディップバイ(regime/モメンタム便乗)であり、非対称な前取りではない。BTC long と ETH short が混在し方向の確信もない。\n\nalt/株perp: defCが完全にnull。altや xyz: 株perp の建玉が一切なく、決算/上場カタリスト前取りの面がゼロ。defCで昇格余地なし。\n\nconviction lift: -0.0133はデータ内で最も悪い負値、かつ big_hit=0.0。大きく賭けるほど外す(確信と正答が逆相関)=インサイダーの真逆。±0.01のノイズ域すら下回る明確な負。\n\n総合: 4観点すべてが反証側。プロ/出金疑い等の既存分類を超えてインサイダー昇格させる根拠は皆無。デフォルト通り現状維持(no-change)。"
+    },
+    {
+      "address": "0x74da055d4ccf9dca3f15789c603e1a88a1d2d81f",
+      "insider_signal_strength": 0.12,
+      "best_case_for_insider": "最善の論拠でも弱い。defCの上位5勝が全て2026-02-01〜02-06のショートで、合計約500万ドル超の巨益。XRPショートのfwd_favorable=0.2446(24.5%)とBTCショート0.145(14.5%)は大きく、「下落が来ると知って先回りした」ように見え得る。さらに2026-02-04 23:50/23:52にBTC・XRPを同時に大口ショートしたタイミングの良さは、何らかの先行情報を示唆する余地がゼロではない。",
+      "strongest_harmless_explanation": "下落regime便乗+モメンタム順張り。最大の2勝(BTC 2.0M/XRP 1.2M、02-04同時刻)はperfect=0.17/0.111と低く、「天井で先回りショート」ではなく『既に進行中の暴落へ売り乗せ』の典型。インサイダーなら高値(高perfect)で仕込むはず。逆に高perfect=0.911のトレード(02-06)はfwd=0.0452と伸び小=情報優位の逆プロファイル。全勝ち益が2月頭の約5日間の単一暴落regimeに集中=反復可能なクロス時間edgeではない。N=17,154の超高回転(MM的)も裏付け。",
+      "key_numbers": "defB: top3_share=1.0だがperfect=0.724(27.6%tile=底でない)/fwd=0.033(3.3%のみ)。defC: alt_win_share=0.249(低), 上位2勝perfect=0.17/0.111(低=暴落へ売り乗せ), event_date全て2026-02-01〜02-06に集中。高perfect=0.911の勝ちはfwd=0.045(小)。defA: conviction_lift=0.0013(ノイズ域±0.01内), n=17,154(超高回転), big_hit=0.623。wf2_verdict=debunked。",
+      "verdict": "no-change",
+      "recommended_position": "現状維持",
+      "one_line": "巨益は2月頭の単一暴落regimeへの売り乗せ(低perfect・高回転)で、conviction liftもノイズ域=情報優位の痕跡なし。debunked維持。",
+      "reasoning": "4観点すべてが情報優位を否定する。(1)完璧エントリ: defB最良トレードでもperfect=0.724(底でなく27.6%tile)かつfwd=3.3%のみ。defCの最大2勝(BTC 2.0M/XRP 1.2M)はperfect=0.17/0.111と低く、底/天での先回りではなく進行中の下落へ売り乗せた証跡。逆に高perfect=0.911のトレードはfwd=4.5%と伸び小=インサイダーの逆プロファイル。(2)regime/時期偏り: defC上位5勝(合計500万ドル超)が全て2026-02-01〜02-06の約5日間に集中、全てショート。市場全体の早期2月暴落という単一regimeを捉えただけ=反復不能・便乗の典型。(3)alt/株カタリスト: alt_win_share=0.249と低く、altはXRP(流動的メジャー隣接)のみ。xyz株perpゼロ、決算/上場カタリストの痕跡なし。(4)conviction lift: 0.0013はノイズ域(観測最大0.0093)内、しかもn=17,154の超大標本=実質ゼロedgeを高確度で確認。高回転(17k件)・net_efficiency=0.693はMM/高回転スタイルでありconvictionベットではない。02-04 23:50/23:52の2分差ペアは分割約定/同時執行のN=1で独立シグナルにならない。無害な説明(暴落regime便乗・モメンタム順張り・MM高回転・小ペイオフ・サバイバーシップ)が全数値を説明し尽くす。wf2のdebunked判定を補強。デフォルトの懐疑を維持し現状維持(no-change)。"
+    },
+    {
+      "address": "0x72a7837428320ec3c0c072b0c0fc192d6df0c83f",
+      "insider_signal_strength": 0.05,
+      "best_case_for_insider": "唯一の論拠は mean_top_perfect 0.802 と top3_share 0.981 の組み合わせ、すなわち上位トレードがどれも建玉前24hレンジの天井近く(BTCショート、entry_pctile 0.886/0.695/0.912)で入っており「狙って高値で売っている」ように見える点のみ。だが follow-through も net も伴わず、論拠として成立しない(実質「なし」)。",
+      "strongest_harmless_explanation": "下落/レンジregime内のモメンタム・平均回帰スキャルピング。2026-03-11〜03-15のわずか4日間にBTCショート3本が集中し、全て$70-72k付近の局所高値で約定。これは1週間の単一ショートregimeに便乗した高回転の値ごろ売りで、情報優位ではなく相場つきへの便乗。加えて完璧な上位トレードは、net_efficiency -1.525 / total_realized -16,880 という負け越し口座から勝ちトレードだけを抜き出したサバイバーシップ錯覚。",
+      "key_numbers": "集中top3_share=0.981 / 完璧mean_top_perfect=0.802 / 伸びmean_top_fwd=0.014(全top_tradeが0.6〜2.1%の極小follow-through) / net_efficiency=-1.525・total_realized=-16,880(純損失) / 日付3本が2026-03-11〜03-15に集中(全BTCショート) / defC=全null(alt/株perp無し) / defA=null(conviction lift未算出) / N=4(dated)",
+      "verdict": "no-change",
+      "recommended_position": "現状維持",
+      "one_line": "完璧エントリ0.80でも伸びは1.4%・口座は純損失・BTCショート1週間集中・alt/株/conviction全欠落=情報優位ゼロ、現状維持(プロ/出金疑い据え置き)。",
+      "reasoning": "defBの定義そのものが本ウォレットを失格にする:高い完璧(0.802)+極小の伸び(mean_top_fwd 0.014、個別も0.6〜2.1%)=「底/天は取れたが大相場は来ていない」典型で情報優位ではない。(1)follow-throwは全トレードで2.1%以下、カタリスト由来の大相場が一度も発生していない。(2)時期/銘柄が偏在:dated 4本中3本が2026-03-11〜03-15のわずか4日に集中、全てBTCショート$70-72k帯=単一の短期ショートregimeへの便乗・モメンタムスキャルプ。entry_pctileが0.69〜0.91と局所高値売りなのも平均回帰スキャルプと整合。(3)defCが完全にnull=alt/xyz株perpゼロ、決算/上場/カタリスト前建玉という情報優位の本場が存在しない。(4)defAがnull=conviction edgeの証拠ゼロ、観測上限+0.0093のノイズ域にすら到達しない。決定打はnet_efficiency -1.525・total_realized -16,880の純損失で、上位トレードは負け越し口座からの勝ちトレード抜き出し=サバイバーシップ錯覚(N=4)。候補中で最弱のインサイダー論拠。無害な説明(regime便乗・モメンタム順張り/逆張りスキャルプ・小ペイオフ・サバイバーシップ・低N)が全観測を過不足なく説明する。デフォルトの懐疑どおり現状維持。"
+    },
+    {
+      "address": "0x6a02aedceac5a6813d960e4dae1910d9c458e77c",
+      "insider_signal_strength": 0.18,
+      "best_case_for_insider": "defCの xyz:SKHX ショート(perfect 0.939, fwd +10.88%, 2026-06-01)と xyz:GOLD ロング(perfect 0.935, fwd +7.44%, 2026-03-23)は『高精度エントリ＋大きな順方向の伸び』が両立する稀な型で、米国株/商品perp=決算・カタリスト前の情報優位余地がある市場。新定義で唯一『底だけでなく大相場が来た』に該当するトレード。ただし各N=1で散発的。",
+      "strongest_harmless_explanation": "defA conviction_lift が **負**(-0.0052, n=619, big_hit 0.246)=大きく賭けるほど成績が悪化。情報優位の真逆。加えて defB の勝ちは2026年3月のETHに集中し、同一週内で long と short の両建て的回転(3-16 short / 3-18 long+short / 3-29 short)=単一ボラ相場でのmean-reversion高回転スキャル。mean_top_fwd=3.86%と小さく『完璧エントリでwickは取るがその後動かない』=新定義が明示する『情報優位でない』型。xyz:CL(原油)は本コホート多数(0x782e/0x3b11/0x8250/0xba04)が触る人気市場で privileged ではない。",
+      "key_numbers": "defB: top3_share=0.68, perfect=0.839, fwd=0.0386(小), n=10, realized=272,994 / defC: alt_win_share=0.536, perfect=0.873, top3_share=0.418(低集中) / defA: conviction_lift=-0.0052(負), big_hit=0.246, n=619 / 最強トレード SKHX fwd=0.1088・GOLD fwd=0.0744(各N=1) / defB勝ちは2026-03のETH集中・両建て回転",
+      "verdict": "no-change",
+      "recommended_position": "現状維持",
+      "one_line": "完璧エントリは高いが伸びは小(3.86%)・3月ETH両建て回転に偏り、何より conviction_lift が負(n=619)で確信ベットほど負ける=情報優位の真逆。SKHX/GOLDの好例はN=1で覆せず、現状維持。",
+      "reasoning": "新定義4観点で精査。(1)mean_top_perfect=0.839と高精度だが mean_top_fwd=0.0386と小さく、top_tradesも+1.06%/+1.15%/+1.87%が並ぶ=『底は取れたが大相場は来ていない』=定義上 情報優位でない型。例外は ETH 3-29 short(fwd+9.76%)のみ。(2)defB勝ちは2026年3月のETHに集中し 3-16 short/3-18 long+short/3-29 short と同週内で両方向=単一ボラregimeのmean-reversion高回転、方向性の先見ではない。(3)alt/株perpで perfect&伸び大は SKHX short(+10.88%,0.939)と GOLD long(+7.44%,0.935)が該当し決算/カタリスト前の余地は理論上あるが、各N=1で gold/crude/個別株とバラバラ・単一銘柄への事前集中ロードなし、CLは本コホート多数が触る人気市場。(4)決定打: defA conviction_lift=-0.0052(n=619, big_hit 0.246)が負=大きく賭けるほど先取りリターンが悪化、これは情報優位の正反対。無害な説明(3月ETHボラ両建て回転・wick捕捉で小ペイオフ・CL人気市場・負の確信エッジ)が観測を完全に説明し、SKHXのN=1では負のconviction liftを覆せない。デフォルトの懐疑を維持し no-change。"
+    },
+    {
+      "address": "0xcefd7652228a8619d0af5b95389cd49387cd30e0",
+      "insider_signal_strength": 0.12,
+      "best_case_for_insider": "defCで alt_win_share=0.94・top3_share=0.881・mean_top_perfect=0.948 と「alt集中＋完璧エントリ」3点が揃って高く、唯一perfect/fwd両方が揃うBTC long(2026-02-06)は perfect=0.948(ほぼ底)かつ fwd_favorable=0.181(18.1%伸び)で『完璧×大相場』が一致している。これが新定義defBの『完璧高&伸び小=非優位』の例外(完璧高&伸び大)に当たり、唯一のインサイダー寄り論拠。",
+      "strongest_harmless_explanation": "トップライン利益の実体は@107 long +1,342,323 の単一ポジ(open_at_end=true=未実現・perfect/fwdデータ無し)で、alt_win_share=0.94はこのN=1の含み益が作っている=保有貫通(survivorship/ホールド)であり、エントリ・タイミング優位の証拠ではない。残るHYPE long(+168k/+75k)はHLネイティブ銘柄の典型的エコシステム順張りで perfect/fwd 無し。perfect&fwd両揃いの唯一例=BTC long 2026-02-06 は、本ファイル他ウォレットも大勝ちしている2026年2月のBTC急落・底圏での『押し目買い→18%リバウンド』というregime/モメンタム便乗で説明でき、しかも+56kと@107比で小さく単発(N=1)。ラベルも「HL Perps Day Trader」=高回転デイトレ/MM気質。",
+      "key_numbers": "defB=全null(majors集中データ無し)。defC: alt_win_share0.94/top3_share0.881/mean_top_perfect0.948、但し最大益@107+1.34M=open_at_end=true(未実現,perfect/fwd無し)。perfect&fwd両揃いはBTC longのみ=perfect0.948/fwd0.181/2026-02-06。HYPE+168k/+75kはfwd無し。defA: lift0.0041/4h(観測上限0.0093=ノイズ域以下)、big_hit0.509(コインフリップ)、n530。xyz株perp露出=ゼロ。",
+      "verdict": "no-change",
+      "recommended_position": "現状維持",
+      "one_line": "頭打ち利益は未実現@107のN=1保有、完璧×大伸びの唯一例はFeb-2026底のBTCリバ便乗、conviction liftはノイズ域以下—情報優位の証拠なし、現状維持。",
+      "reasoning": "新3定義で精査。(1)defBは全null=majors集中/完璧データが存在せず、定義B観点での昇格材料ゼロ。(2)defCの見かけ上強い数値(alt0.94/集中0.881/完璧0.948)は、トップ益@107 long +1.34Mが open_at_end=true の未実現単一ポジで作られており、これはエントリ精度ではなく保有貫通(N=1・サバイバーシップ)。完璧&順方向伸びが両方記録された唯一の確定トレードはBTC long(perfect0.948,fwd0.181,2026-02-06)だが、本ファイル他ウォレット(0x74da等)も2026年2月に大勝ちしている通り同時期はBTC急落の底圏regimeで、ほぼ底での押し目買い→18%リバウンドは『下落regime便乗・モメンタム順張り』で十分説明可能、かつ+56kと小規模・単発。(3)カタリスト型インサイダーの本場であるxyz:株perp露出はこのウォレットの上位トレードに皆無で、altは@107とHYPE(=HLエコシステム順張り)のみ。決算/上場前建玉の痕跡なし。(4)defA conviction_lift=0.0041/4hは文脈が示すノイズ上限0.0093をも下回り、big_hit0.509はコインフリップ=確信ベットの優位なし。ラベル「HL Perps Day Trader」も高回転デイトレ/MM気質と整合。以上、無害な説明(未実現保有N=1・regime便乗・ノイズ域lift・ecosystem順張り)が情報優位仮説を上回る。デフォルトの懐疑どおり現状維持(no-change)。データ: c:\\Users\\Matsuya131\\.gemini\\antigravity\\scratch\\nansen\\data\\wf_newdef_candidates.json"
+    },
+    {
+      "address": "0x3b11267dfc4b9ebe8427e8f557056b4b6ce98112",
+      "insider_signal_strength": 0.12,
+      "best_case_for_insider": "defCのalt_win_share=0.948・top3_share=0.925と高集中で、xyz:CL(原油perp)の高perfectトレード2本(perfect0.933→fwd13.0%、perfect0.969→fwd5.8%)は「天底近くで入り、その後実際に大きく順方向へ伸びた」テンプレに合致する。原油は決算ではないがOPEC/在庫統計/地政学というカタリスト前ポジ取りの余地がある市場であり、xyz(TradFiミラー)perpで一銘柄に張り続けて大勝ちしている点は、情報優位の論拠として唯一拾える材料。",
+      "strongest_harmless_explanation": "原油(xyz:CL)に張る単一商品マクロ・ディスクレ裁量トレーダー。alt益の大半(~70%)を稼いだ最大ポジ=CLロング$923,603はperfect=0.625と凡庸かつfwd=0.0142(わずか1.4%)で、「天底精度」でも「大相場の伸び」でもなく『大きいサイズで緩やかなトレンドを握り続けた』勝ち方。最大確信を最も非完璧・最低伸びのトレードに置いている=情報優位の逆。高いtop3_shareはこのN=1巨大ポジ+サバイバーシップ(上位勝ちのみ可視)で説明可能。",
+      "key_numbers": "conviction_lift=-0.0154(負・ノイズ上限+0.0093を逆方向に突破/big_fwd0.0056<small_fwd0.021,big_hit0.737,n575); alt_win_share0.948; top3_share0.925; mean_top_perfect0.615; 最大勝ちCL$923,603 perfect0.625 fwd0.0142(1.4%); 高perfect群はCL$205,750 perfect0.933 fwd0.1297 / CL$100,400 perfect0.969 fwd0.0583; 上位5本中4本xyz:CL(原油); 日付Feb-Apr2026分散; defB全null",
+      "verdict": "no-change",
+      "recommended_position": "現状維持",
+      "one_line": "最大確信ポジが最も非完璧・最低伸び(1.4%)で、conviction_liftが負(-0.0154)=確信して張るほど外している。原油単一銘柄のマクロ裁量で情報優位の痕跡なし、現状維持。",
+      "reasoning": "新3定義で精査。(1)完璧×伸び: 高perfectのCL2本(0.933→13%,0.969→5.8%)は底取り後に伸びておりテンプレに合うが、これらは中型ポジ。一方alt益の主柱である最大ポジCLロング$923,603はperfect=0.625と凡庸でfwd=0.0142(1.4%)しかなく、『底だけ取って大相場は来ていない』どころか底も精度低い。最大確信=最も非完璧・最低伸びという、情報優位とは逆の配分。(2)regime/銘柄偏り: 上位5本中4本がxyz:CL(原油先物perp)。これは暗号インサイダー余地のない、世界的に深く流動的な規制市場で、HL上のリテール情報優位は非現実的。Feb-Apr2026に分散しており単一カタリストへの集中もない=単一商品マクロ・ディスクレ裁量の張り。(3)カタリスト前建玉: 原油は決算型イベント venueではなく、日付クラスタも特定カタリストに紐付かない。株perp(NVDA/INTC等の決算余地銘柄)ではない。(4)conviction lift: -0.0154。これが決定打。big_fwd(0.0056)がsmall_fwd(0.021)を大きく下回り、確信して大きく賭けるほどリターンが悪化。ゼロでもノイズでもなく、観測上限+0.0093を逆方向に明確に超える負値=確信ベットの優位は存在せず逆相関。総合: 最大ポジの低精度・低伸び、原油単一銘柄集中、負のconviction lift、defB欠損(majorでの完璧データなし)から、情報優位の痕跡なし。無害な説明(マクロ商品裁量+N=1巨大ポジ+サバイバーシップ)が全数値を説明する。デフォルトの懐疑どおり現状維持。"
+    },
+    {
+      "address": "0x8250a7f9fca9c33e68eead8c05c1d58c8fd70d13",
+      "insider_signal_strength": 0.12,
+      "best_case_for_insider": "defCで alt_win_share=0.918(勝ち益のほぼ全てがalt由来)かつ mean_top_perfect=0.887 と高く、altで集中・完璧。唯一fwdが検証できた xyz:CL long は perfect=0.887/fwd=0.0681 で底を高精度に取れている。@107 long 479849 という突出した最大勝ちも存在する。「altで集中&完璧=情報優位の本場」という定義に表面上は合致する点が最強の論拠。",
+      "strongest_harmless_explanation": "最大勝ち @107(479849)は open_at_end=true でエントリ精度データすら無く、HYPE系インデックスの長期保有=MM/順張りの含み益で説明できる(情報優位の証拠ゼロ)。検証可能な唯一のトレード xyz:CL は完璧0.887でも伸びはわずか6.8%=「底は取れたが大相場は来ていない」=情報優位ではない域。majorsのtop_tradesは perfect/fwd が全てnullで検証不能、実現益も小さい(最大ETH 54667)。USUAL/SUI short はモメンタム順張りで十分説明可能。",
+      "key_numbers": "defB: top3_share=0.918, perfect=null, fwd=null(majors検証不能), net_eff=0.467, total=32193, n=28。defC: alt_win_share=0.918, top3_share=0.636, perfect=0.887。検証可能fwdは xyz:CL の1件のみ=perfect0.887/fwd0.0681(2026-03-22)。最大勝ち@107 479849はopen_at_end=true/精度null。defA: conviction_lift=-0.0003(ノイズ域どころかゼロ・大口が僅かに劣る), big_fwd0.0065/small_fwd0.0067, n=112。",
+      "verdict": "no-change",
+      "recommended_position": "現状維持",
+      "one_line": "altで完璧0.887だが検証可能な唯一の伸びは6.8%・最大勝ちは精度不明の含み益・conviction liftはゼロ=新定義でも情報優位シグナルは立たず現状維持。",
+      "reasoning": "新3定義のいずれも独立した情報優位シグナルを立てられない。(1)完璧エントリ後の伸び: defB majorsはperfect/fwdが全てnullで検証不能、defCで唯一fwdが付いた xyz:CL は perfect=0.887と高精度だが fwd=0.0681 にとどまり「底は取れたが大相場は来ていない」=情報優位の定義に該当しない。最大勝ち @107(479849)は open_at_end=true・perfect/fwd欠落で、インデックスの長期保有(MM/順張り含み益)で説明でき証拠価値ゼロ。(2)偏り: 勝ち益の91.8%がalt由来でmajors実現益は小さく、@107/CL/USUAL/SUIに散る。特定カタリスト前への集中パターンは読めず、USUAL/SUI shortはモメンタム順張りで無害に説明可能。(3)株perpカタリスト: 保有altは xyz:CL(原油=個別情報優位の余地が薄いコモディティ)で、決算系株perp(xyz:NVDA等)は無し。上場/決算前建玉の痕跡なし。(4)conviction lift=-0.0003=完全にノイズ域(基準±0.01未満どころかゼロ、大口がむしろ僅かに劣る)=確信ベットの優位皆無。total_realized=32193・n=28と規模も小さくサバイバーシップ/小ペイオフの域。以上より、デフォルトの懐疑(プロ/出金疑い/除外圏)を覆す根拠は無く、昇格は不可。現状維持が妥当。"
+    },
+    {
+      "address": "0xb123cd952875d8014efc7a9160a7531a5fe8f5ca",
+      "insider_signal_strength": 0.12,
+      "best_case_for_insider": "唯一の論拠はalt_win_share=0.935と、HLネイティブ銘柄@107で$98k/PURRで$25.6k+$5.1k等の集中利益。PURRトレードはperfect 0.679・fwd 0.0813(8%)で「中程度の完璧度+それなりの伸び」を一応満たす。\"M1NER\"/miner35.ethというオンチェーン界隈の素性とHLエコシステム銘柄への偏りは、何らかの早耳(ローンチ/リスティング情報)を示唆するとも読める。",
+      "strongest_harmless_explanation": "最大利益源@107・PURR・WはいずれもHyperliquidネイティブ/エコシステムのコミュニティ銘柄。\"M1NER\"/miner35.ethというNFT・オンチェーン界隈の素性は、非公開情報ではなくコミュニティ精通によるモメンタム順張り/ローテーションを示すだけ。メジャー(BTC/ETH/SOL)ではnet_efficiency -0.515・total_realized -5,568・top3_share 0.257の高回転スキャルで小負けしており、これは情報優位の真逆。完璧エントリ証拠は薄く(最大の@107にperfect/fwd記録なし)、唯一記録のPURRもperfect 0.679・fwd 8%でalt基準では平凡。株perp(xyz:)の決算カタリスト関与もゼロ。",
+      "key_numbers": "defB: top3_share=0.257, net_eff=-0.515, total_realized=-5,568, n=150, perfect/fwd=null(全て) | defC: alt_win_share=0.935, top3_share=0.781, mean_perfect=0.679, 利益源=@107($98k)/PURR($25.6k+$5.1k)/W($5.8k+$3.6k), PURRのみperfect0.679/fwd0.0813(2026-02-06) | defA: null(測定不能) | 株perp: 0件",
+      "verdict": "no-change",
+      "recommended_position": "現状維持",
+      "one_line": "メジャーでは赤字の高回転スキャル、利益はHLネイティブalt(@107/PURR/W)のコミュニティ便乗で、完璧エントリ証拠も薄く情報優位シグナルなし=現状維持。",
+      "reasoning": "新定義3観点すべてで情報優位のシグナルが立たない。(1)完璧エントリ後の伸び: defBはperfect/fwdが全件nullで底取り精度の証拠ゼロ、メジャーでnet_efficiency -0.515・通算-5,568の負け。defCで唯一fwd記録のあるPURR(perfect 0.679/fwd 8%)は完璧度中程度・伸び平凡で、最大利益源@107($98k)には精度データすら無い=「底だけ取って大相場が来た」証拠が無い。(2)時期/銘柄偏り: 利益はalt_win_share 0.935と一銘柄群(@107/PURR/W=HLネイティブ/エコシステムmeme)に偏り、これはモメンタム順張り・コミュニティローテーションで完全に説明可能。\"M1NER\"/miner35.ethの素性もオンチェーン界隈の精通を示すだけで非公開情報ではない。(3)株perp: xyz:銘柄(決算/上場の情報優位余地)の取引は一切なし=カタリスト前建玉の仮説が成立しない。(4)conviction lift: defA=nullで確信ベットの優位を測れず、昇格を支える定量根拠が無い。以上より、無害な説明(HLネイティブのモメンタム便乗+メジャーでの高回転小負け)が全データを覆い、デフォルトの懐疑を覆す材料は皆無。promote-insider/weakいずれも不適、現状維持(no-change)が妥当。"
+    },
+    {
+      "address": "0x79399dac99daa4a77d2bcd8ef6f5abf5966468e7",
+      "insider_signal_strength": 0.18,
+      "best_case_for_insider": "defC で alt_win_share=0.977(ほぼ全益が非majors)＋top3_share=0.782 と高集中、かつ 2026-06-05 ZEC long が perfect=0.786 と高精度の底入れで fwd_favorable=0.2712(+27%)、2025-12-02 ZEC long も perfect=0.808/fwd=0.1574 と「好エントリ＋大きな順方向伸び」を両立。新定義(defC)が探す『altで集中＆完璧＆伸び大』のプロファイルに表面上は最も近い。「Smart HL Perps Trader」ラベルも付く。",
+      "strongest_harmless_explanation": "高ボラ単一alt(ZEC)の暴落後ディップ買い=平均回帰トレード。OHLCVで検証すると、2026-06-05 のエントリは ZEC が6/4の$627から6/5朝の安値$246(-50%超)へ崩れた『後』の底値圏買いで、+27%はリクイデーション・カスケード後のデッドキャットバウンス。2025-12-02も$465→$305圏への下落『後』の買い戻し。いずれもカタリスト『前』の建玉ではなく可視化された暴落『後』の順張り逆張り。さらに6/6 ZEC long は perfect=0.106(高値掴み)なのに勝ち=エントリ技術でなくZECのトレンド/regime継続が勝因。『完璧』が高いのは勝ちトレード上澄みを後知恵で『24h安値近辺』判定したサバイバーシップ選択の副産物。@107はHL vault/index銘柄でperfect/fwdデータ無し=評価不能の長期モメンタム保有。",
+      "key_numbers": "alt_win_share=0.977, top3_share=0.782, mean_top_perfect=0.567(凡庸); ZEC 2026-06-05 perfect=0.786/fwd=0.2712 だが当日ZECは$627→安値$246.87(-50%超)からの底反発; ZEC 2025-12-02 perfect=0.808/fwd=0.1574 も$465→$305下落後の買い; ZEC 2026-06-06 perfect=0.106/fwd=0.0708(悪エントリでも勝ち=regime); defB全null, defA全null(単一軸エビデンス)",
+      "verdict": "no-change",
+      "recommended_position": "弱い疑惑(監視継続)",
+      "one_line": "ZEC暴落後ディップ買い=平均回帰で説明十分。完璧エントリはカタリスト前でなく可視化済み暴落後の底拾い、defB/defA欠落の単一軸証拠。昇格せず現状維持。",
+      "reasoning": "対象0x79399dac99はdefCのみデータが存在し(defB/defA全null)、新定義の評価軸が1本しかない弱い証拠基盤。最強の論拠であるZEC longの高perfect×大fwdは、OHLCV検証により無害な説明で消える: (1)2026-06-05のZECは$627→朝安値$246.87へ-50%超の暴落を起こしており、wallet の『底値圏long(perfect0.786)』はこの暴落が可視化された『後』の建玉=デッドキャットバウンス取り。カタリスト前の先回りではない。(2)2025-12-02も同様に$465→$305圏への下落後の買い戻し。(3)決定的なのは2026-06-06 ZEC long が perfect=0.106(高値掴み)なのに fwd=0.0708で勝っている点で、勝因はエントリ精度ではなくZECというボラ・トレンド銘柄のregime継続。つまりエッジの本質は『高ボラ単一altの平均回帰ディップ買い+モメンタム継続』であり、情報優位ではない。mean_top_perfect=0.567も凡庸で、near-1.0の不自然な底/天精度ではない。@107はHL vault/index系でperfect/fwd無し=評価不能。背景の指示通り最大限の懐疑(暴落regime便乗・モメンタム順張り・サバイバーシップ選択・単一銘柄N偏重)を当てると全て無害側に倒れる。新定義(完璧高でも伸びの源泉が情報でなくregimeなら不可)の基準でもインサイダー昇格は不適。よってデフォルトの現状維持(no-change)。ただしZEC一極集中の異常な勝率自体は弱い違和感として監視継続レベルに留める(弱い疑惑)。promote-weakには証拠軸が単一(defCのみ)で不足。"
+    },
+    {
+      "address": "0x71b117d68974aa4c5615669ae70e8e13ce7479c8",
+      "insider_signal_strength": 0.28,
+      "best_case_for_insider": "2026-05-19 13:31 に INTC と SNDK を同一分・同方向(long)で建てる「メモリ/半導体セクター・バスケット」を組み、INTC fwd +14.7%・SNDK +10.8% という二桁の順方向の伸びを取った。利益の95.5%が alt、その中身は全て xyz: 米国株perp(NVDA/INTC/SNDK/CBRS)で、決算・ガイダンス・M&A など情報優位の余地が構造的に存在する領域。完璧エントリ平均0.857と高く、CBRS・NVDAは perfect=1.0。決算/材料前の先回り建玉として最も筋が通るのは、この同一分メモリ2銘柄バスケット。",
+      "strongest_harmless_explanation": "2026年5月は NVDA/INTC/SNDK/MU 等のメモリ・AI半導体 xyz株perp がセクター全体で上昇したregime。本データ内の別ウォレット(0xba0495 が同5月に xyz:MU +$1.14M)も同テーマで勝っており、コホート全体が同じ上げ波に便乗=モメンタム順張りで説明可能。完璧エントリが高いのに NVDA は fwd +4%/+1.8% と伸びが小さく、これは『底は取れたが大相場は来ていない』=情報優位ではなくレンジ底の逆張りスキャルプ。同一分2銘柄建玉もセクター・テーマ買いとして自然で、リーク必須ではない。top3_share=0.461と分散しており少数の神トレード型でもない。",
+      "key_numbers": "alt_win_share=0.955, top3_share=0.461(低集中), mean_top_perfect=0.857; top_trades(全xyz株perp/long/2026-05): INTC perfect0.863 fwd+0.147(05-19), SNDK perfect0.598 fwd+0.108(05-19同一分), CBRS perfect1.0 fwd+0.060, NVDA perfect1.0 fwd+0.040, NVDA perfect0.822 fwd+0.018; defA conviction_lift=+0.0021(ノイズ域・観測上限+0.0093未満), big_hit=0.0(n=185 大口は方向的に勝てていない)。defBはmajors全null。",
+      "verdict": "no-change",
+      "recommended_position": "現状維持",
+      "one_line": "米国株perpでの完璧エントリは目立つが、低集中・NVDAの完璧でも伸び小・conviction_lift ノイズ域&big_hit=0.0 が情報優位を否定。5月の半導体セクターregime便乗で説明でき、出金疑いのまま現状維持。",
+      "reasoning": "新定義で精査。(1)完璧エントリ後の伸び: mean_top_perfect=0.857と高いが内訳が割れる。INTC(+14.7%)/SNDK(+10.8%)は伸び大だが、perfect=1.0のNVDA2件は fwd +4.0%/+1.8% と『底は取れたが大相場が来ていない』典型で、高perfectはレンジ底の逆張りスキャルプに引き上げられている。完璧と伸びが連動していない=情報優位の署名としては弱い。(2)時期/銘柄偏在: 上位勝ち5件全てが2026年5月の xyz米国株perp long に集中。同月は NVDA/INTC/SNDK/MU のメモリ・AI半導体が市場全体で上昇したregimeで、本データの別ウォレット0xba0495も xyz:MU で同月+$1.14M。コホート全体が同じセクター上げに便乗=モメンタム順張りで無害に説明可能。(3)株perpのカタリスト前建玉か: 2026-05-19 13:31にINTC+SNDKを同一分longするバスケットは決算/材料先回りとして最も怪しいが、テーマ買いとしても等しく自然で、同一分=分割約定/手動バスケット執行とも整合。リークを要しない。(4)conviction lift: +0.0021は観測上限+0.0093すら下回るノイズ域。決定的なのは big_hit=0.0(n=185)で、大口サイズ時に方向的勝率ゼロ=『確信して大きく賭ける時ほど当てる』の真逆。情報を持って大張りする挙動と矛盾。加えて top3_share=0.461と低集中で少数の神トレード型でもなく、defB(majors)は全null。総合: 唯一の情報優位っぽい痕跡(5/19メモリ2銘柄同一分バスケット)はN=1で薄く、低集中・perfectと伸びの非連動・conviction否定(big_hit=0.0)・5月半導体regime便乗という無害な説明が上回る。デフォルトの懐疑を覆す根拠なし。出金疑い(要監視)のまま現状維持とする。"
+    },
+    {
+      "address": "0x98256d1a9e3012398237a1720c27a3d7ed1ad905",
+      "insider_signal_strength": 0.08,
+      "best_case_for_insider": "強いて言えば alt_win_share=1.0 / top3_share=1.0 で「altに完全集中して$1.05MのHYPE longを単発で大きく当てた」点。HYPEはHyperliquidネイティブ銘柄で、上場/エコシステム関連のカタリストやアンロック情報に対する情報優位の余地は理論上ありうる。ただしこのトレードには perfect/fwd_favorable/event_date が全欠落しており、その仮説を裏付ける数値は一切存在しない。",
+      "strongest_harmless_explanation": "大勝ちは単一HYPEトレード1本(N=1)が総益のほぼ全て。残り2本はTAO $2・@166 $0と実質ゼロペイオフ。top3_share=1.0/alt_win_share=1.0という極端な「集中」は情報優位ではなく単に観測トレード数が極小(=分割約定または単発)であることのアーティファクト。HYPEはネイティブトークンへの一発順張りで十分説明でき、サバイバーシップ(たまたま当たった1本だけが残っている)バイアスそのもの。",
+      "key_numbers": "defB: 全null/n_trades=0(majors往復実績なし)。defC: alt_win_share=1.0, top3_share=1.0, mean_top_perfect=0.37(低・非完璧)。top_trades: HYPE long $1,055,623(perfect/fwd/date 全欠落), TAO $2(perfect0.051,fwd0.097,2026-03-25), @166 $0(perfect0.69,fwd0.0002,2026-03-25)。defA: null(conviction lift測定不能)。xyz株perp: 0件。",
+      "verdict": "no-change",
+      "recommended_position": "現状維持",
+      "one_line": "大勝ちはHYPE単発$1.05MのN=1で、その完璧度・建玉後の伸び・日付が全て欠落=情報優位の核心指標がブラックボックス。残2本は$0-2のゼロペイオフ。新定義のどの軸でも信号は立たず現状維持。",
+      "reasoning": "1) 完璧エントリ: mean_top_perfect=0.37と低く「完璧」ではない。perfect値の付く2件(TAO0.051/@166 0.69)はペイオフが$2と$0で無意味。完璧かつ伸び大の建玉は存在しない。2) regime/銘柄偏り: 総益の事実上100%が単一HYPE longで、これは分割約定または単発のN=1。alt_win_share=1.0・top3_share=1.0は情報優位ではなくトレード数極小によるアーティファクトで、サバイバーシップの典型。3) alt/株perpカタリスト: xyz株perpは0件。HYPE/TAOはcryptoネイティブで伝統的決算カタリストに該当せず、しかも唯一の大勝ちHYPEにevent_dateすら無いためカタリスト前建玉かの推測すら不可能。4) conviction lift: defA=nullで測定不能、確信ベットの優位を示す材料なし。defBも全null/n_trades=0でmajors往復の評価対象が存在しない。総じて新定義3軸のうち2軸が評価不能、残るdefCも実体N=1で、唯一意味を持つトレードの情報優位指標が完全欠落。最強の無害説明(HYPE一発順張りのサバイバーシップ)を覆す数値がゼロのため、懐疑デフォルト通り昇格不可。現状維持。"
+    },
+    {
+      "address": "0xba0495c92ab69b1151ecf422851a06b602cea764",
+      "insider_signal_strength": 0.12,
+      "best_case_for_insider": "最大の win が xyz:MU(Micron、米国半導体株perp)の long で、株perp は決算/業績の情報優位余地がある銘柄。2026-05-05 建玉で +7.9% 取れており、決算カタリスト前のロングだった可能性は理屈上は残る。alt_win_share=1.0/top3_share=1.0 と「alt(株含む)集中」の形は満たす。",
+      "strongest_harmless_explanation": "利益の約99%を生んだ唯一の決定的トレード xyz:MU の perfect=0.0(建玉前24hレンジの『天井』で入った=最悪のタイミング)であり、情報優位者なら取るはずの「静かな底で先回り」と正反対。すでに動意づいた半導体株(2026年中AI/メモリ相場)へのモメンタム順張りを、たまたま伸びた局面で握っただけ。top3_share=1.0/alt_win_share=1.0 は N=1 の支配トレードに機械的に強制された値で、再現性のあるエッジではなくサバイバーシップ/単一銘柄アーティファクト。CL/CBRS は$19k/$62と微小で裏付けクラスタなし。",
+      "key_numbers": "alt_win_share=1.0, top3_share=1.0(共に支配トレード由来), mean_top_perfect=0.358(低), 支配 xyz:MU realized=$1,142,788(全体の約99%)・perfect=0.0・fwd=+7.92%・2026-05-05。defB全null(n=0), defA=null(conviction lift測定不能), 補助CL=$19,605/perfect0.73/fwd7.19%(05-07), CBRS=$62/fwd10.11%(05-14)。",
+      "verdict": "no-change",
+      "recommended_position": "現状維持",
+      "one_line": "利益99%が単一の xyz:MU ロングで、その entry が perfect=0.0(天井買い)=情報優位の真逆。N=1サバイバーシップ+半導体モメンタム順張りで説明可能、昇格根拠なし。",
+      "reasoning": "4軸で精査。【軸1 完璧×伸び】mean_top_perfect=0.358 と低く、決定的な xyz:MU(利益の約99%)は perfect=0.0 で建玉前24hレンジの最悪点(天井)で入っている。情報優位者の「静かな底で先回り→大相場」という署名と正反対で、伸び(+7.9%)も中程度。完璧エントリの証拠なし。【軸2 集中/regime】top3_share=1.0・alt_win_share=1.0 は単一支配トレードにより機械的に1.0へ強制された値で、独立した複数の的中ではない=典型的なサバイバーシップ/N=1アーティファクト。defB が全 null(n_trades=0)で majors 側の裏付けもゼロ。【軸3 カタリスト】xyz:MU=Micron の株perp で決算情報優位の余地は理屈上あるのが唯一の pro-insider 要素だが、perfect=0.0(動意後に飛び乗り)はカタリスト前の先回り建玉と矛盾し、2026年中の半導体/メモリ相場へのモメンタム順張りで自然に説明できる。補助の CL($19,605)・CBRS($62)は微小でカタリスト前クラスタを形成しない。【軸4 conviction lift】defA=null で測定不能、確信ベットの優位を示す証拠なし(±0.01のノイズ域すら出せない)。総合: 情報優位を支持する唯一の点は「株perp である」という器の話だけで、肝心のエントリ精度が最悪・再現性ゼロ・defA/defB欠損。無害な説明(単一銘柄モメンタム便乗+サバイバーシップ)が圧倒的に優勢。デフォルトの懐疑を維持し no-change。"
+    },
+    {
+      "address": "0xbe494a5e3a719a78a45a47ab453b7b0199b9d101",
+      "insider_signal_strength": 0.12,
+      "best_case_for_insider": "唯一それらしいのは defA の conviction_lift = +0.0093/4h が「大きく張る時ほど当てている」方向で、観測上の最大値かつ big_hit=1.0、n=666 とサンプルも厚い点。すなわち「確信ベットが当たる傾向」が形式的には最高水準で出ている。さらに total_realized 130万ドルを実質2トレードで稼ぐ集中度(top3_share=1.0)は、限られた局面に巨額を投じて当てる=情報に基づく一撃の体裁を持つ。ただしこの lift 値は context が明記する『観測上の最大=ノイズ域』そのものであり、論拠としては最弱。",
+      "strongest_harmless_explanation": "2026年2月クラッシュ regime への下落便乗+ポジション保有の含み益。SOL short(entry 83.317, perfect=0.0)とETH short(perfect=0.123)はいずれも2026-02-09〜02-10にクラスタし、レンジの底付近(=精密な先回りと真逆)で建てている。完璧エントリでないのに巨額利益が出たのは、カタリスト先回りではなく『下落途中の追随ショート(モメンタム順張り)を長く保有し大波に乗った』ため。fwd_favorable が0.6%/1.8%と固定24h伸びが皆無なのも、利益の源泉が短期カタリストではなく中長期保有の方向便乗であることと整合。conviction_lift もトレンド regime で全ポジが同方向に動いた残差で説明できる(small_fwd=0.0332も高い)。",
+      "key_numbers": "defB: top3_share=1.0, mean_top_perfect=0.061(候補中最低クラス), mean_top_fwd=0.0122(1.2%), total_realized=1,298,047, n_trades=4。top_trades: SOL short 114.3万 perfect=0.0 fwd=0.006 (2026-02-09), ETH short 15.5万 perfect=0.123 fwd=0.018 (2026-02-10)。defC: 全てnull(alt/株perp勝ち益なし)。defA: conviction_lift=0.0093/4h(=観測上限ノイズ域), big_fwd=0.0425, small_fwd=0.0332, big_hit=1.0, n=666。利益クラスタは2026年2月の2日間のみ。",
+      "verdict": "no-change",
+      "recommended_position": "現状維持",
+      "one_line": "完璧エントリ0.061(=精密先回りの真逆)・伸び1.2%・2月クラッシュ便乗・alt/株perp不在・conviction liftはノイズ域。情報優位の証拠なし、現状維持。",
+      "reasoning": "新定義3観点すべてでインサイダー的情報優位のシグナルが弱い/不在。(1)mean_top_perfect=0.061は候補中最低クラスで、建玉前24hレンジの底/天と真逆の位置で入っている=精密な先回りではない。それでも130万ドル稼げたのはポジションを保有して2月の大波に乗ったからで、mean_top_fwd=1.2%が示す通り固定24h順方向の伸びは皆無=短期カタリスト型の情報優位とは整合しない。(2)巨額利益(SOL short 114万+ETH short 15.5万)は2026-02-09〜02-10の2日間にクラスタし、下落regimeへの追随ショート(モメンタム順張り)+保有で説明できる典型的な便乗パターン。perfect=0.0は下落途中で建てたことと整合。(3)defCが全null=alt/xyz株perpでの勝ち益がなく、決算/上場カタリスト前建玉の証拠ゼロ。情報優位の本場に不在。(4)conviction_lift=0.0093/4hはcontextが明記する観測上の最大=ノイズ域そのもので、small_fwd=0.0332も高くトレンドregimeの残差で説明可能。big_hit=1.0は大口群Nが小さいことによるサバイバーシップの疑いもある。本物のプロトレーダー(regimeを読んで集中ベットできる)である点は labels の Smart HL Perps Trader と整合するが、それはインサイダー昇格の根拠にならない。デフォルトの懐疑方針に従い現状維持(no-change)。"
+    },
+    {
+      "address": "0x906d31b2ee92c4bc720232112274a0e1ffb0ad6e",
+      "insider_signal_strength": 0.18,
+      "best_case_for_insider": "defBでmean_top_perfect=1.0かつentry_pctile=1.0、すなわち2本のショートがいずれも建玉前24hレンジの『天井』で約定=タイミングが理論上完璧。総益$2.77MのうちETHショート$2.52Mを2025-11-26に天井ショートで取り、BTCショート$252kも2026-04-17に完璧エントリ。これだけ見れば「決定前に天井を知っていた」ように映る。",
+      "strongest_harmless_explanation": "完璧エントリにもかかわらずfwd_favorableがETH=0.0738/BTC=0.0339(mean_top_fwd=0.0539)と2-7%の小幅帯に収まる=「天井は取れたが大相場は来ていない」。最大益のETHショート$2.52M(全益の91%)は2025年末の下落regime(2025-11-26)の天井ショートで、下落便乗+順張りショートで説明十分。defBはN=2(実質ETH1本)でサバイバーシップ濃厚。alt_win_share=0.178と低くxyz株perpも皆無=決算/上場カタリスト前の情報優位venueの痕跡なし。conviction_lift=0.0058/4hは観測ノイズ上限0.0093を下回り、big_fwd≒0・big_hit=0.552(コインフリップ)で確信ベットの優位なし。",
+      "key_numbers": "defB: top3_share=1.0, perfect=1.0, mean_top_fwd=0.0539(2-7%帯), n=2, total=$2.77M / ETH短0.0738@2025-11-26(全益91%), BTC短0.0339@2026-04-17 / defC: alt_win_share=0.178(低,株perp無), perfect=1.0だがfwd小 / defA: lift=0.0058(<ノイズ上限0.0093), big_fwd=0.0003, big_hit=0.552, n=292 / wf2=debunked",
+      "verdict": "no-change",
+      "recommended_position": "現状維持",
+      "one_line": "完璧エントリ(perfect=1.0)は派手だが伸びは2-7%の小幅でN=1の下落regime天井ショート、alt/株venue無し・lift=0.0058はノイズ域、wf2 debunkedを覆す材料なし=現状維持。",
+      "reasoning": "新定義4観点すべてが無害説明に収束。(1)完璧エントリ後の伸び: mean_top_fwd=0.0539、各完璧トレードもETH0.0738/BTC0.0339と2-7%帯=defB設計が明示的に警告する「底/天は取れたが大相場は来ていない」=情報優位の signature ではない。情報を持つなら完璧エントリ後に大幅順方向(>10%)が出るはずだが出ていない。(2)時期/銘柄偏り: 総益$2.77Mの91%が単一のETHショート$2.52M(2025-11-26)で、2025年末の下落regime天井ショート=下落便乗+順張り。BTCも同方向ショート。双方向の情報edgeでなく一方向のregimeライディング。defBはN=2(実質1本)でTokenMillionaireが上位PnLに浮上=結果選抜のサバイバーシップ。(3)alt/株カタリスト: alt_win_share=0.178と低く、xyz株perpは top_trades に皆無。決算/上場前の情報優位venue(例: 0x71b117のxyz:NVDA/INTC決算クラスタ)とは正反対のメジャー中心プロファイル。(4)conviction lift: 0.0058/4hは観測ノイズ上限0.0093を下回り、big_fwd=0.0003(大口ベットの先取りリターン実質ゼロ)、big_hit=0.552(コインフリップ)=確信ベットの優位なし。最も怖い数値であるperfect=1.0は、まさにdefBが「完璧高&伸び小=底取れたが情報でない」と注意喚起したケースに合致。既存wf2 debunkedを覆す根拠は新定義でも見出せず、デフォルトの懐疑(現状維持/除外)を維持する。"
+    },
+    {
+      "address": "0xaa3f51a8095d030e38317e917839c87315300bee",
+      "insider_signal_strength": 0.12,
+      "best_case_for_insider": "majors同時ショート(BTC/ETH/SOL全て)で総額60万ドル超を集中的に稼ぎ、top3_share=1.0・net_efficiency=0.872という完璧な集中度。大きな下落局面を事前に確信していた可能性は否定はできない。しかしこれは「下落方向を当てた」というだけで、銘柄固有のインサイダー情報を示すものではない。",
+      "strongest_harmless_explanation": "BTC/ETH/SOLを全て同時ショートするのは単一のマクロ下落regimeへの順張り/便乗の典型パターン。alt_win_share=0.025(情報優位が最も出やすいalt/株perpでの勝ち益がほぼゼロ)が、これが銘柄固有の情報優位ではなくマクロ方向への便乗であることを強く裏付ける。N=5でサバイバーシップの余地大、conviction liftもノイズ域。",
+      "key_numbers": "top3_share=1.0(N=5), mean_top_perfect=null, mean_top_fwd=null(完璧/伸び指標は全欠損), alt_win_share=0.025, defC top_coins=BTC/ETH/SOL/BNB(xyz株perpゼロ), conviction_lift=+0.0049/4h(最大+0.0093未満=ノイズ域), big_fwd=-0.0007, big_hit=0.8(N=53), total_realized=609,754, 全top_tradesでperfect/fwd_favorable/event_date欠落",
+      "verdict": "no-change",
+      "recommended_position": "現状維持",
+      "one_line": "完璧/伸び指標が全欠損、altでの優位なし(2.5%)、majors同時ショート=下落regime便乗の典型、conviction liftもノイズ域 — 新定義での昇格根拠ゼロ、現状維持。",
+      "reasoning": "新定義3つすべてで昇格根拠が立たない。(1)完璧エントリ検証不能: defB/defCともにmean_top_perfect=null、全top_tradesでperfect/fwd_favorable/event_dateが欠落しており、「建玉前24hの底/天で入ったか」「建玉後に伸びたか」という情報優位の核心指標が一切存在しない。データが無い以上、完璧エントリを根拠とした昇格はできない。(2)regime/モメンタム便乗: top_tradesはBTC/ETH/SOLを全て同時ショート(N=5、top3_share=1.0)。これは銘柄固有情報ではなく単一のマクロ下落局面への順張り/便乗の古典パターン。event_dateが無く時期特定はできないが、majors一斉ショートという構成自体が方向便乗を示す。(3)alt/株perpで優位なし: alt_win_share=0.025しかなく、情報優位が最も出やすいalt/xyz株perp(決算・上場カタリスト)での勝ち益がほぼゼロ。top_coins_winはBTC/ETH/SOL/BNBのみでxyzゼロ。インサイダーらしさの本場が完全に空白で、(2)のマクロ便乗説を補強する。(4)conviction liftはノイズ域: +0.0049/4hはcontext明記の観測最大+0.0093すら下回り、big_fwd≈-0.0007・N=53。確信して大きく賭ける時ほど当てているという優位は無い。総合すると、集中度(top3_share=1.0)とnet_efficiency=0.872は高いが、これらはmajors下落便乗+N=5のサバイバーシップで容易に説明でき、新定義の決定的指標(完璧×伸び大、alt本場での優位、有意なconviction edge)はいずれも満たさない・または検証不能。デフォルトの懐疑を覆す材料が無く、現状(プロ/本物)のまま昇格せず維持が妥当。データ取得元: c:\\Users\\Matsuya131\\.gemini\\antigravity\\scratch\\nansen\\data\\wf_newdef_candidates.json"
+    },
+    {
+      "address": "0x0d9654172413fa8bcd2f5738a7b2fa6d19864125",
+      "insider_signal_strength": 0.08,
+      "best_case_for_insider": "conviction_lift が +0.0045/4h と符号は正で、かつ単発の巨大ETHロング実現益(約$54万)に top3_share 0.958 という極端な集中がある。確信して大きく賭ける方向と最大の勝ちが一致している、という一点のみがインサイダー寄りの材料。ただし +0.0045 はコンテキストの観測上限 +0.0093(=ノイズ域)の約半分で、しかも big_fwd は -0.0035(順方向リターンは平均マイナス)、big_hit も 0.288 とコインフリップ未満。優位の証拠としては成立しない。",
+      "strongest_harmless_explanation": "「ETHロング一本足の方向性トレーダー(サバイバーシップ+集中)」で全て説明できる。alt_win_share=0.0 でalt/米国株perpの益はゼロ、top_trades は全てETHロングで perfect も fwd_favorable も event_date も付いておらず、レンジ端での建玉や建玉後の伸び・カタリスト日付を一切示せない。defB(完璧エントリ)指標は丸ごと null。巨大実現益はタイミング精度の裏付けを欠く N=1 の大勝ち+集中アーティファクトに過ぎず、ETH上昇regimeに乗っただけと区別できない。",
+      "key_numbers": "集中: top3_share=0.958(ETHロング一極) / 完璧: mean_top_perfect=null(defB全null・perfect欠落) / 伸び: top_tradesにfwd_favorableなし、defA big_fwd=-0.0035・small_fwd=-0.008(共に負) / alt比: alt_win_share=0.0 / lift: conviction_lift=+0.0045(ノイズ上限0.0093の半分・n=2953)・big_hit=0.288 / 日付: top_trades全て event_date なし",
+      "verdict": "no-change",
+      "recommended_position": "現状維持",
+      "one_line": "完璧エントリ指標は全null、alt/株perp益ゼロ、conviction liftはノイズ域(+0.0045)かつ順方向リターン負・hit0.288。ETHロング一本足の集中×サバイバーシップで完全に説明でき、情報優位の痕跡なし。現状維持。",
+      "reasoning": "対象は data 末尾 0x0d9654172413fa8bcd2f5738a7b2fa6d19864125(prefix 0x0d96541724 一致)。4観点で精査した。(1)完璧エントリ×伸び: defB は top3_share/mean_top_perfect/mean_top_fwd/top_trades が全て null、defC でも mean_top_perfect=null、top_trades の4本(ETHロング)に perfect も fwd_favorable も付与されていない。つまりレンジ端での建玉精度も建玉後の順方向の伸びも一切示せず、「底/天を取った」証拠がゼロ。defA の big_fwd=-0.0035/small_fwd=-0.008 と建玉後4hは平均で逆行しており、底取り情報優位の反証。(2)regime/モメンタム偏り: event_date が全trade欠落のため特定カタリストに紐付けられず、top3_share 0.958 でETHロング一極=方向性ベットの典型。ETH上昇regime便乗と区別不能。(3)alt/株perp: alt_win_share=0.0 で非majors/xyz:株perp の益はゼロ。情報優位が最も出やすい「本場」のエクスポージャー自体が存在しない=決算/上場前建玉の手掛かりなし。(4)conviction lift: +0.0045/4h はコンテキスト明記のノイズ上限 +0.0093 の約半分、n=2953 で精度高くほぼゼロと確定、big_hit 0.288 はコインフリップ未満、big_fwd 負。確信ベットの優位なし。総合すると、巨大ETH実現益($54万等)はタイミング精度の裏付けを欠くN=1大勝ち+極端な集中というサバイバーシップ・アーティファクトで、無害な方向性ブル説明が最も効く。新定義のどの観点でも情報優位の閾値に届かず、デフォルトの懐疑通り昇格根拠なし。現状維持(no-change)。"
+    }
+  ],
+  "synthesis": {
+    "promote_insider": [],
+    "promote_weak": [],
+    "ranking": [
+      {
+        "address": "0x71b117d68974aa4c5615669ae70e8e13ce7479c8",
+        "strength": 0.28,
+        "verdict": "no-change",
+        "one_line": "xyz米国株perpで完璧エントリ目立つが低集中(0.461)・NVDA完璧でも伸び小・conviction_liftノイズ域&big_hit=0.0で否定、5月半導体regime便乗。出金疑いのまま現状維持。"
+      },
+      {
+        "address": "0x6a02aedceac5a6813d960e4dae1910d9c458e77c",
+        "strength": 0.18,
+        "verdict": "no-change",
+        "one_line": "SKHX/GOLDの完璧×大伸びはN=1の好例だが、3月ETH両建て回転偏重でconviction_lift負(-0.0052,n=619)=確信ベットほど負ける、情報優位の真逆。"
+      },
+      {
+        "address": "0x79399dac99daa4a77d2bcd8ef6f5abf5966468e7",
+        "strength": 0.18,
+        "verdict": "no-change",
+        "one_line": "ZEC暴落後ディップ買い=平均回帰。完璧エントリは可視化済み暴落後の底拾い(カタリスト前でない)、defB/defA全null単一軸。弱い違和感のみ監視。"
+      },
+      {
+        "address": "0x906d31b2ee92c4bc720232112274a0e1ffb0ad6e",
+        "strength": 0.18,
+        "verdict": "no-change",
+        "one_line": "perfect=1.0は派手だが伸び2-7%・総益91%が単一ETH天井ショート(2025末下落regime)、alt/株venue無し・lift=0.0058ノイズ域、wf2 debunked維持。"
+      },
+      {
+        "address": "0x782e432267376f377585fc78092d998f8442ab83",
+        "strength": 0.15,
+        "verdict": "no-change",
+        "one_line": "完璧エントリは極小トレード/原油perpに限られ伸びゼロ、巨大PnL(HYPE/BTC=全益9割)は精度指標皆無、conviction算出不能・往復event_lead=0。"
+      },
+      {
+        "address": "0xae551d73161bac3315c5ade0e2d499a44ebe2236",
+        "strength": 0.12,
+        "verdict": "no-change",
+        "one_line": "下落regimeでのBTC押し目買い1発(top3_share=0.998=実質N=1)を集中度が美化、alt/株perp不在・lift+0.0052ノイズ域で情報優位の痕跡なし。"
+      },
+      {
+        "address": "0x5638484ba2d2f1d1d35020572b0aa439a9869192",
+        "strength": 0.12,
+        "verdict": "no-change",
+        "one_line": "完璧エントリ1.0も伸び2-3%止まり、大勝ちは2025-12-01暴落後リバへの同時刻N=1便乗、lift+0.0078ノイズ域、情報優位の核心欠落。"
+      },
+      {
+        "address": "0x74da055d4ccf9dca3f15789c603e1a88a1d2d81f",
+        "strength": 0.12,
+        "verdict": "no-change",
+        "one_line": "巨益は2月頭の単一暴落regimeへの売り乗せ(低perfect0.17/0.111・超高回転n=17,154)、lift0.0013ノイズ域、debunked維持。"
+      },
+      {
+        "address": "0xcefd7652228a8619d0af5b95389cd49387cd30e0",
+        "strength": 0.12,
+        "verdict": "no-change",
+        "one_line": "頭打ち利益は未実現@107のN=1保有、完璧×大伸びの唯一例はFeb-2026底のBTCリバ便乗、liftノイズ域以下=証拠なし。"
+      },
+      {
+        "address": "0x3b11267dfc4b9ebe8427e8f557056b4b6ce98112",
+        "strength": 0.12,
+        "verdict": "no-change",
+        "one_line": "最大確信ポジ(CL$923k)が最も非完璧・最低伸び(1.4%)、conviction_lift負(-0.0154)=確信して張るほど外す。原油単一銘柄マクロ裁量。"
+      },
+      {
+        "address": "0x8250a7f9fca9c33e68eead8c05c1d58c8fd70d13",
+        "strength": 0.12,
+        "verdict": "no-change",
+        "one_line": "altで完璧0.887だが検証可能な唯一の伸び6.8%・最大勝ちは精度不明の含み益(@107)・conviction_liftゼロ(-0.0003)。"
+      },
+      {
+        "address": "0xb123cd952875d8014efc7a9160a7531a5fe8f5ca",
+        "strength": 0.12,
+        "verdict": "no-change",
+        "one_line": "メジャーで赤字の高回転スキャル、利益はHLネイティブalt(@107/PURR/W)のコミュニティ便乗、完璧エントリ証拠薄・株perp0件。"
+      },
+      {
+        "address": "0xba0495c92ab69b1151ecf422851a06b602cea764",
+        "strength": 0.12,
+        "verdict": "no-change",
+        "one_line": "利益99%が単一xyz:MUロングでentryがperfect=0.0(天井買い)=情報優位の真逆、N=1サバイバーシップ+半導体モメンタム順張り。"
+      },
+      {
+        "address": "0xbe494a5e3a719a78a45a47ab453b7b0199b9d101",
+        "strength": 0.12,
+        "verdict": "no-change",
+        "one_line": "完璧0.061(精密先回りの真逆)・伸び1.2%・2月クラッシュ便乗・alt/株perp不在・lift=0.0093は観測上限=ノイズ域そのもの。"
+      },
+      {
+        "address": "0xaa3f51a8095d030e38317e917839c87315300bee",
+        "strength": 0.12,
+        "verdict": "no-change",
+        "one_line": "完璧/伸び指標が全欠損、altでの優位なし(2.5%)、majors同時ショート=下落regime便乗、lift+0.0049ノイズ域。"
+      },
+      {
+        "address": "0x29eb62882a8bd104a64400a2971d0d6881777043",
+        "strength": 0.08,
+        "verdict": "no-change",
+        "one_line": "完璧高いが伸び2-7%止まり、alt大勝ち(OM/ZEC)は完璧0.0かつfwd大幅マイナス=手仕舞いアーティファクト、lift0.0001ノイズ域。"
+      },
+      {
+        "address": "0x8ccee825f44c99fbdaa79464d5eb8beed9313da2",
+        "strength": 0.05,
+        "verdict": "no-change",
+        "one_line": "高完璧は底拾いスキャルの副産物、伸び極小・通算赤字-10,132・conviction_lift最悪-0.0133(big_hit=0.0=大口全敗)。"
+      },
+      {
+        "address": "0x72a7837428320ec3c0c072b0c0fc192d6df0c83f",
+        "strength": 0.05,
+        "verdict": "no-change",
+        "one_line": "完璧0.80でも伸び1.4%・口座純損失-16,880・BTCショート1週間集中・alt/株/conviction全欠落=情報優位ゼロ。"
+      },
+      {
+        "address": "0x98256d1a9e3012398237a1720c27a3d7ed1ad905",
+        "strength": 0.08,
+        "verdict": "no-change",
+        "one_line": "大勝ちはHYPE単発$1.05MのN=1で完璧度/伸び/日付が全欠落、残2本は$0-2のゼロペイオフ、conviction測定不能。"
+      },
+      {
+        "address": "0x0d9654172413fa8bcd2f5738a7b2fa6d19864125",
+        "strength": 0.08,
+        "verdict": "no-change",
+        "one_line": "完璧エントリ指標全null・alt/株perp益ゼロ・liftノイズ域(+0.0045)かつ順方向リターン負・hit0.288、ETHロング一本足の集中×サバイバーシップ。"
+      }
+    ],
+    "headline": [
+      "20候補全件で新定義(集中度/完璧エントリ/alt/conviction lift)が情報優位の閾値を越えず、全件 no-change。昇格(insider/weak)はゼロ。",
+      "『完璧エントリ高 × 建玉後の伸び小(1-7%)』が全候補に共通する支配パターン=『底/天は取れたが大相場は来ていない』。perfect は底拾い/天井売りスキャルの構造的副産物で、情報優位を示さない。",
+      "conviction_lift は全件で無効。正でも観測上限0.0093以下のノイズ域(0xbe494が上限ぴったり0.0093)、3件は明確な負(0x6a02 -0.0052/0x3b11 -0.0154/0x8ccee -0.0133=確信して大きく賭けるほど負ける=情報優位の真逆)、残りは null/ゼロ。",
+      "最強候補 0x71b117(0.28)でも、xyz米国株perp(NVDA/INTC/SNDK)という唯一の本物カタリスト土俵に居ながら、低集中・perfectと伸びの非連動・big_hit=0.0・5月半導体セクターregime便乗で説明され、昇格に届かず。",
+      "『完璧×大伸び×カタリスト土俵』の好例(0x6a02 SKHX/GOLD、0x71b117 INTC/SNDK、0x79399 ZEC)は全て N=1 で散発、しかも負/ノイズの conviction や暴落後ディップという無害説明に覆される。",
+      "巨大PnLトレードの多く(0xcefd @107、0xba04 MU、0x98256 HYPE、0x0d96 ETH)は open_at_end の含み益や精度指標欠落の単発で、集中度1.0は N=1 アーティファクト=サバイバーシップ。"
+    ],
+    "method_note": "新定義は『集中度の美化』と『完璧エントリの誤読』を見抜く点で有効だった。最大の収穫は完璧エントリ(perfect)と建玉後の伸び(fwd_favorable)の乖離を可視化したこと:20件中ほぼ全てで perfect が高くても fwd が1-7%に留まり、これは底/天での平均回帰スキャル(逆張り)の機械的副産物であって情報優位ではない、と明確に切り分けられた。conviction_lift は確信ベットの優位を測る軸として機能したが、観測上限自体が0.0093とノイズ域に張り付いており、正値はほぼ無意味・負値(3件)だけが弱い反証として有効だった。限界:(1)最大PnLトレードに perfect/fwd/event_date が欠落するケースが頻発(@107/MU/HYPE/巨大ETH long等)し、肝心の決定打トレードが評価不能=ブラックボックス。(2)open_at_end=true の未実現含み益が alt_win_share/top3_share を1.0に押し上げ、保有貫通(HL長期ホールド)とエントリ精度を混同させる。(3)top3_share=1.0/N=1 が『集中』と『標本極小』を区別できず、サバイバーシップを集中度が美化する構図が残る。(4)alt/株perp 軸は xyz米国株perp(0x71b117/0xba04)を拾えた点は前進だが、原油perp(CL/BRENTOIL)は本コホート多数が触る人気市場で privileged ではなく、altもHLネイティブ(@107/HYPE/PURR)はエコシステム順張りで、いずれもカタリスト前先取りの証跡(event_lead)に結びつかなかった。",
+    "verdict_overall": "新定義(集中度/完璧エントリ×伸び/alt・株perp/conviction lift)を20候補全件に適用しても、個人インサイダー(カタリスト前の情報優位による先回り)は検出できなかった。往復定義での全件debunked、regime頑健性Aでもconviction edge無しという前提は、別定義でも覆らなかった。決定的な構造的事実は3つ:(1)完璧エントリは普遍的に小さい伸びとしか連動せず=底/天取りスキャルであって大相場の先読みではない、(2)conviction_lift は全件ノイズ域以下、複数件で負=『大きく確信して賭けるほど当たる』という情報優位の中核挙動が一切観測されない、むしろ逆相関、(3)情報優位の本場である xyz米国株perp に実際に居る数少ない候補(0x71b117/0xba04)でさえ、エントリ精度の非連動(big_hit=0.0)や天井買い(perfect=0.0)・2026年5月の半導体セクターregime全体の上げ波への便乗(コホート複数が同テーマで勝利)で無害に説明され、リークを要さない。全候補の利益は『下落/上昇regime便乗+モメンタム順張り+少数の神トレードのサバイバーシップ+MM高回転』の組合せで過不足なく説明され、いずれも反復可能なクロス時間edgeや銘柄固有の非公開情報の痕跡を示さない。よって昇格(insider/weak)はゼロ、全件現状維持(no-change)。デフォルトの懐疑を維持する。0x79399(ZEC一極集中の異常勝率)のみ弱い違和感として監視継続レベルに留めるが、証拠軸が defC 単一で promote-weak には不足。"
+  }
+}
