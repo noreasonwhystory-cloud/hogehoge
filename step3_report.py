@@ -121,7 +121,7 @@ def render_wallet(rank, d, hl_only=False):
 
     cat = hl.get("category", "")
     cat_label = {"insider_suspect": "インサイダー疑惑", "pro_trader": "プロ",
-                 "excluded": "除外"}.get(cat, cat)
+                 "excluded": "除外", "manual-CA": "手動追加CA"}.get(cat, cat)
     hold = hl.get("avg_hold_h")
     hold_disp = f"{hold:.1f}h" if isinstance(hold, (int, float)) else "—"
 
@@ -153,6 +153,41 @@ def render_wallet(rank, d, hl_only=False):
   {cols_block}
   <div><b>急変イベント先行エントリ</b>{lead_tbl}</div>
 </div>"""
+
+
+def manual_to_dossier(e):
+    """registry の手動追加CAエントリを render_wallet が読める dossier 形に変換。"""
+    hp = e.get("hl_profile", {}) or {}
+    hl = {
+        "category": "manual-CA",
+        "category_reason": e.get("alt_verdict", ""),
+        "win_rate": hp.get("win_rate"),
+        "dir_accuracy": None,                 # 手動CAは全銘柄ゆえ majors的中率は未算出
+        "realized_pnl": hp.get("realized_pnl"),
+        "unrealized_pnl": hp.get("unrealized_pnl"),
+        "total_pnl": hp.get("total_pnl"),
+        "account_value": hp.get("account_value"),
+        "n_fills": hp.get("n_fills_recent"),
+        "avg_hold_h": hp.get("avg_hold_h"),
+        "lb_windows": {"month": e.get("lb_month"), "allTime": e.get("lb_allTime")},
+        "held_positions": e.get("held_positions", []),
+        "lead_examples": [],
+        "likely_mm": hp.get("likely_mm"),
+        # insider_score / n_positions は持たない → 表示は '-'
+    }
+    return {"address": e["address"], "hl": hl, "labels": [],
+            "related_wallets": [], "first_funders": [], "counterparties": []}
+
+
+def load_manual_cas():
+    """registry から手動追加CAを読み出す（無ければ空）。"""
+    regp = f"{config.DATA_DIR}/wallet_registry.json"
+    if not os.path.exists(regp):
+        return []
+    reg = json.load(open(regp, encoding="utf-8")).get("wallets", {})
+    cas = [e for e in reg.values() if "手動追加CA" in e.get("tags", [])]
+    cas.sort(key=lambda e: (e.get("lb_allTime") or {}).get("roi", 0), reverse=True)
+    return [manual_to_dossier(e) for e in cas]
 
 
 def main():
@@ -207,6 +242,9 @@ def main():
 
     insider_cards = render_group(insiders)
     pro_cards = render_group(pros)
+    # 手動追加CA（registry由来・ranked.jsonに無い分）
+    manual_cas = load_manual_cas()
+    manual_cards = render_group(manual_cas)
 
     gen = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
     mode_note = ("Hyperliquid 単独（Nansen未連携）" if args.hl_only
@@ -225,6 +263,8 @@ def main():
         f"{insider_cards or '<p class=muted>該当なし</p>'}"
         f"<h2 class='sec'>🔵 プロトレーダー（{len(pros)}件）</h2>"
         f"{pro_cards or '<p class=muted>該当なし</p>'}"
+        + (f"<h2 class='sec'>🟢 手動追加CA（{len(manual_cas)}件・高頻度プロ/HFT）</h2>{manual_cards}"
+           if manual_cas else "")
     )
 
     htmlout = f"""<!doctype html><html lang="ja"><head><meta charset="utf-8">
@@ -261,6 +301,7 @@ code{{background:#0b0f14;padding:1px 4px;border-radius:4px}}
 .badge.insider_suspect{{background:#3a1620;color:#ff7088;border:1px solid #6b2233}}
 .badge.pro_trader{{background:#16263a;color:#5ca8ff;border:1px solid #224a6b}}
 .badge.excluded{{background:#23262b;color:#9aa3ad;border:1px solid #343a42}}
+.badge.manual-CA{{background:#11302c;color:#2dd4bf;border:1px solid #1c5249}}
 .reason{{font-size:12px;color:#c9d1d9;background:#10151c;border-radius:6px;padding:6px 10px;margin-bottom:10px}}
 .summary{{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-bottom:14px}}
 .sbox{{display:flex;align-items:center;gap:12px;background:var(--card);border:1px solid #232a34;border-radius:10px;padding:14px 16px;font-size:13px}}
