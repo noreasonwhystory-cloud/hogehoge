@@ -80,14 +80,12 @@ def main():
         targets = list(wallets)
     else:
         targets = [k for k, e in wallets.items() if e.get("position") in WATCH]
-    # 既にエンリッチ済みは再取得しない（クレジット節約）。--refresh で強制再取得。
+    # 資金源(first_funders)まで取得済みのものだけスキップ（ラベルのみは資金源未取得ゆえ対象に残す）。
     if "--refresh" not in sys.argv and not explicit:
         before = len(targets)
-        targets = [k for k in targets
-                   if not (wallets[k].get("nansen_checked")
-                           and (wallets[k].get("first_funders") or wallets[k].get("labels")))]
+        targets = [k for k in targets if not wallets[k].get("first_funders")]
         if before != len(targets):
-            print(f"  （エンリッチ済み {before - len(targets)} 件をスキップ。--refresh で再取得可）")
+            print(f"  （資金源取得済み {before - len(targets)} 件をスキップ。--refresh で再取得可）")
 
     today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
     print(f"Nansen照会対象: {len(targets)} 件")
