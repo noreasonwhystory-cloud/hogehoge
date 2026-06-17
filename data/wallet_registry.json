@@ -73,7 +73,8 @@
         "方向:混在",
         "レバ:低(<3x)",
         "銘柄:BTC主"
-      ]
+      ],
+      "notes_jp": "【ひとことで】⚪ 数字だけ見ると怪しかったが、調べたらシロだった。\n【正体】名前は分からない（匿名）。\n【お金はどこから？】別の財布（High Activity）から\n【詳しい判定】格下げ: 偽インサイダー(下げ相場の規律的ベータ便乗)。インサイダー性ほぼ無し、優良トレーダーではある"
     },
     "0xefcace57934a753d66c48a31b880ba806d4c0869": {
       "address": "0xefcace57934a753d66c48a31b880ba806d4c0869",
@@ -162,7 +163,8 @@
         "頻度:多(500+)",
         "保有:スイング(<48h)",
         "方向:無/フラット"
-      ]
+      ],
+      "notes_jp": "【ひとことで】🔴 インサイダー（内部情報で先回り）が一番疑わしいウォレット。\n【正体】名前は分からない（匿名）。\n【お金はどこから？】プログラム(コントラクト)経由 → 人の財布までは見えない\n【もう一段たどると】お金の出どころは Kromatika というプログラム(コントラクト)経由で、人の財布までは遡れなかった（足を消している）。\n【よく取引する相手】🤖 Circle: CCTP TokenMinterV2 [0xfd78ee]、Relay Protocol: EOA Bridge [0xf70da9]\n【グループ】同じ資金元から同時に動いた『協調クラスタA』の一員。\n【詳しい判定】格上げ(質的転換): 協調クラスタAの中核・先行性最有力。ただしトレンド入りでも一部説明可で確信は中"
     },
     "0x10b6f072fabe21bc72ffd77ff5d4414e6cef2980": {
       "address": "0x10b6f072fabe21bc72ffd77ff5d4414e6cef2980",
@@ -240,7 +242,8 @@
         "方向:ショート",
         "レバ:中(3-10x)",
         "銘柄:BTC専"
-      ]
+      ],
+      "notes_jp": "【ひとことで】🔴 インサイダー（内部情報で先回り）が一番疑わしいウォレット。\n【正体】名前は分からない（匿名）。\n【お金はどこから？】別の財布（High Balance [0x9aa91e]）から\n【もう一段たどると】お金は『お金持ち財布(0x9aa91e)』から来ていて、その財布はさらに Nexo(取引所)から入金され、Binance・Bybit・KuCoin と数百万ドル規模でやり取りしている。→ 実体は複数の取引所を使う大口の個人/組織。\n【グループ】同じ資金元から同時に動いた『協調クラスタA』の一員。\n【詳しい判定】格上げ(質的転換): クラスタA同時先行ペア。efcaceと連動する独立2本目"
     },
     "0x230963164d9637a4c536270a06b4e3636d44a2d9": {
       "address": "0x230963164d9637a4c536270a06b4e3636d44a2d9",
@@ -318,7 +321,8 @@
         "PnL:中($100k-1M)",
         "頻度:少(<50)",
         "方向:無/フラット"
-      ]
+      ],
+      "notes_jp": "【ひとことで】🔵 たぶんプロ。まだ詳しく調べていない。\n【正体】High Balance（Nansenが付けた名前/ラベル）\n【お金はどこから？】別の財布（[0x341a63]）から\n【よく取引する相手】🤖 LI.FI: Diamond Facet Bridge [0x1231de]、🤖 Hyperliquid: Bridge 2 [0x2df1c5]"
     },
     "0x128fae9d18a2f70d98a03c26bf17b67d97ce1f3c": {
       "address": "0x128fae9d18a2f70d98a03c26bf17b67d97ce1f3c",
@@ -421,7 +425,8 @@
         "方向:ロング",
         "レバ:低(<3x)",
         "銘柄:BTC専"
-      ]
+      ],
+      "notes_jp": "【ひとことで】⚪ 数字だけ見ると怪しかったが、調べたらシロだった。\n【正体】名前は分からない（匿名）。\n【お金はどこから？】別の財布（Token Millionaire）から\n【よく取引する相手】sbeGMX、sbGMX、sbfGMX\n【詳しい判定】格下げ: 偽インサイダー。逆張りBTCロング含み益はあるが先行性ゼロ"
     },
     "0xe392e9008c49e7f82e7927a741fcb12799ebdb2b": {
       "address": "0xe392e9008c49e7f82e7927a741fcb12799ebdb2b",
@@ -531,7 +536,8 @@
         "方向:ロング",
         "レバ:低(<3x)",
         "銘柄:BTC専"
-      ]
+      ],
+      "notes_jp": "【ひとことで】⚪ 数字だけ見ると怪しかったが、調べたらシロだった。\n【正体】名前は分からない（匿名）。\n【お金はどこから？】別の財布（High Activity）から\n【よく取引する相手】Token Millionaire、0x113dc983、0xfffc7416\n【詳しい判定】格下げ: MM/HFT残滓。インサイダー性無し"
     },
     "0x83b00972aafcc3d06d45b1b823079f9a414da46e": {
       "address": "0x83b00972aafcc3d06d45b1b823079f9a414da46e",
@@ -629,7 +635,8 @@
         "方向:ショート",
         "レバ:低(<3x)",
         "銘柄:ETH専"
-      ]
+      ],
+      "notes_jp": "【ひとことで】⚪ 数字だけ見ると怪しかったが、調べたらシロだった。\n【正体】名前は分からない（匿名）。\n【お金はどこから？】別の財布（High Activity）から\n【よく取引する相手】Token Millionaire、Token Millionaire、Token Millionaire\n【詳しい判定】格下げ: 偽インサイダー(小N・ポジ構築中)"
     },
     "0x9b5ae497fd1bf885a40d6f99d0c57245761e053c": {
       "address": "0x9b5ae497fd1bf885a40d6f99d0c57245761e053c",
@@ -766,7 +773,8 @@
         "保有:スキャルプ(<2h)",
         "方向:無/フラット",
         "ID:ENS有"
-      ]
+      ],
+      "notes_jp": "【ひとことで】⚪ 数字だけ見ると怪しかったが、調べたらシロだった。\n【正体】\"kazuya-eth\" on OpenSea、kazuya.eth*、terry.eth（Nansenが付けた名前/ラベル）\n【お金はどこから？】別の財布（High Activity）から\n【よく取引する相手】Token Millionaire、High Activity、High Activity\n【詳しい判定】格下げ: 偽インサイダー(スカルパー・見かけ倒しROI)"
     },
     "0x388b3ea2d5fa291e47ecb9f5570012d84a891180": {
       "address": "0x388b3ea2d5fa291e47ecb9f5570012d84a891180",
@@ -1007,7 +1015,8 @@
         "保有:スキャルプ(<2h)",
         "方向:無/フラット",
         "ID:ENS有"
-      ]
+      ],
+      "notes_jp": "【ひとことで】⚪ 数字だけ見ると怪しかったが、調べたらシロだった。\n【正体】2rabbits.eth（Nansenが付けた名前/ラベル）\n【お金はどこから？】別の財布（High Balance）から\n【よく取引する相手】Token Millionaire、Token Millionaire、High Activity\n【詳しい判定】格下げ(最強): 統計的に無意味な微小サンプル。完全に偽陽性"
     },
     "0x5aadb434293b4e1b8fb2e84007e567506fe65a96": {
       "address": "0x5aadb434293b4e1b8fb2e84007e567506fe65a96",
@@ -1138,7 +1147,8 @@
         "頻度:中(50+)",
         "保有:スキャルプ(<2h)",
         "方向:無/フラット"
-      ]
+      ],
+      "notes_jp": "【ひとことで】🟢 ちゃんと実力で勝っている本物のプロ。\n【正体】名前は分からない（匿名）。\n【お金はどこから？】名前付きの個人財布（kwerty.eth [0x71056c]）から\n【よく取引する相手】High Balance [0xe1f57f]、🤖 Hyperliquid: Bridge 2 [0x2df1c5]、🤖 Circle: CCTP TokenMinterV2 [0xfd78ee]\n【詳しい判定】格上げ: 両方向スカルパー(ベータ非依存)"
     },
     "0x4d3980ac9d84fc34adcd025ee2337786846343c4": {
       "address": "0x4d3980ac9d84fc34adcd025ee2337786846343c4",
@@ -1245,7 +1255,8 @@
         "頻度:中(50+)",
         "保有:短期(<12h)",
         "方向:無/フラット"
-      ]
+      ],
+      "notes_jp": "【ひとことで】🔵 たぶんプロ。まだ詳しく調べていない。\n【正体】名前は分からない（匿名）。\n【お金はどこから？】Bitget(取引所)から入金 → 取引所が『この人が誰か』を知っている\n【よく取引する相手】🤖 Hyperliquid: Bridge 2 [0x2df1c5]、[0x42ea75]、​​Distributor [0xf96d9b]"
     },
     "0xa72dc2d42398e54634fc28e6769f8ce3ae011807": {
       "address": "0xa72dc2d42398e54634fc28e6769f8ce3ae011807",
@@ -1377,7 +1388,8 @@
         "頻度:多(500+)",
         "保有:短期(<12h)",
         "方向:無/フラット"
-      ]
+      ],
+      "notes_jp": "【ひとことで】🟢 ちゃんと実力で勝っている本物のプロ。\n【正体】名前は分からない（匿名）。\n【お金はどこから？】別の財布（High Balance [0xb02a9b]）から\n【よく取引する相手】🤖 Circle: USDC Bridge [0xa95d9c]、High Balance [0xb02a9b]、Burn Address [0x000000]\n【詳しい判定】格上げ: 高回転スカルパー(リスク管理良好)"
     },
     "0x8463d6ffcbfb56bf20ab2e1111f9a0e8359533f2": {
       "address": "0x8463d6ffcbfb56bf20ab2e1111f9a0e8359533f2",
@@ -1483,7 +1495,8 @@
         "レバ:低(<3x)",
         "銘柄:BTC専",
         "ID:ENS有"
-      ]
+      ],
+      "notes_jp": "【ひとことで】🟢 ちゃんと実力で勝っている本物のプロ。\n【正体】\"homerfan33\" on OpenSea、High Activity、coolwaterxyz-hf.eth*、homerfan33.eth、squigglesherpa.eth、stimmyfund.eth（Nansenが付けた名前/ラベル）\n【お金はどこから？】別の財布（[0x9574d6]）から\n【よく取引する相手】🤖 Hyperliquid: Bridge 2 [0x2df1c5]、🏦 Kraken: Deposit [0xbe5afd]、​​🤖 USDC Bridge [0xc6868e]\n【詳しい判定】格上げ: トレンド非依存の規律型本物。最優良候補"
     },
     "0xd117b0459ba2af1a397e76baa5efd580a3f7f99f": {
       "address": "0xd117b0459ba2af1a397e76baa5efd580a3f7f99f",
@@ -1671,7 +1684,8 @@
         "方向:ロング",
         "レバ:低(<3x)",
         "銘柄:BTC専"
-      ]
+      ],
+      "notes_jp": "【ひとことで】🟢 ちゃんと実力で勝っている本物のプロ。\n【正体】High Balance（Nansenが付けた名前/ラベル）\n【お金はどこから？】Binance(取引所)から入金 → 取引所が『この人が誰か』を知っている\n【よく取引する相手】🤖 🏦 Binance: Hot Wallet [0xee7ae8]、🏦 Binance: Deposit [0x9663ca]、[0x71a20c]\n【詳しい判定】格上げ: 押し目選別力のある規律型本物"
     },
     "0xd05808946809c180d190608e13f473db30aa8524": {
       "address": "0xd05808946809c180d190608e13f473db30aa8524",
@@ -1735,7 +1749,8 @@
         "頻度:中(50+)",
         "保有:長期(>48h)",
         "方向:無/フラット"
-      ]
+      ],
+      "notes_jp": "【ひとことで】⚪ 数字だけ見ると怪しかったが、調べたらシロだった。\n【正体】名前は分からない（匿名）。\n【お金はどこから？】不明。\n【詳しい判定】格上げ: 利確規律で稼ぐ本物(現在フラット)"
     },
     "0xfe4dec8543b0b9cec0c897a689f7af7bddb02192": {
       "address": "0xfe4dec8543b0b9cec0c897a689f7af7bddb02192",
@@ -1826,7 +1841,8 @@
         "頻度:中(50+)",
         "保有:スイング(<48h)",
         "方向:無/フラット"
-      ]
+      ],
+      "notes_jp": "【ひとことで】⚪ 数字だけ見ると怪しかったが、調べたらシロだった。\n【正体】High Balance（Nansenが付けた名前/ラベル）\n【お金はどこから？】別の財布（0xe94667d85ae6050dbb41e63109bc303759876cba）から\n【よく取引する相手】Token Millionaire、High Activity、0xe94667d8\n【詳しい判定】維持〜微格上げ: 執行優位ありの本物"
     },
     "0x5b1efd32c62000cbeba7cccbc49fabdc57b2eb80": {
       "address": "0x5b1efd32c62000cbeba7cccbc49fabdc57b2eb80",
@@ -1939,7 +1955,8 @@
         "方向:ショート",
         "レバ:低(<3x)",
         "銘柄:BTC専"
-      ]
+      ],
+      "notes_jp": "【ひとことで】🔵 たぶんプロ。まだ詳しく調べていない。\n【正体】名前は分からない（匿名）。\n【お金はどこから？】不明。"
     },
     "0x5875d72130981b18692a3d29545e4038f7eb0c38": {
       "address": "0x5875d72130981b18692a3d29545e4038f7eb0c38",
@@ -2233,7 +2250,8 @@
         "頻度:中(50+)",
         "保有:短期(<12h)",
         "方向:無/フラット"
-      ]
+      ],
+      "notes_jp": "【ひとことで】🔵 たぶんプロ。まだ詳しく調べていない。\n【正体】名前は分からない（匿名）。\n【お金はどこから？】別の財布（HL Perps Day Trader [0x0b1ba7]）から\n【よく取引する相手】🤖 Hyperliquid: Bridge 2 [0x2df1c5]、🤖 Across Protocol: Spoke Pool [0xe35e98]、🤖 Circle: CCTP TokenMinterV2 [0xfd78ee]"
     },
     "0x103e9d15f8a102ef9333ad8b66ffe25b0db448a4": {
       "address": "0x103e9d15f8a102ef9333ad8b66ffe25b0db448a4",
@@ -2476,7 +2494,8 @@
         "方向:ショート",
         "レバ:中(3-10x)",
         "銘柄:SOL専"
-      ]
+      ],
+      "notes_jp": "【ひとことで】🟣 プロ扱いだったが、実は無謀な賭けで稼いだだけかも。\n【正体】名前は分からない（匿名）。\n【お金はどこから？】別の財布（Token Millionaire）から\n【よく取引する相手】Token Millionaire、High Activity、Token Millionaire\n【詳しい判定】格下げ: 博打的サイジング。pro_trader格付けは過大"
     },
     "0xec9045405a878d01cdb836f82a6dd2abd49a169c": {
       "address": "0xec9045405a878d01cdb836f82a6dd2abd49a169c",
@@ -4382,7 +4401,8 @@
         "方向:ロング",
         "レバ:低(<3x)",
         "銘柄:BTC専"
-      ]
+      ],
+      "notes_jp": "【ひとことで】🟠 ちょっと怪しい。様子見で監視するウォレット。\n【正体】High Activity（Nansenが付けた名前/ラベル）\n【お金はどこから？】別チェーンからの『橋(ブリッジ)』経由 → 足を消しており追いにくい\n【よく取引する相手】🏦 Binance: Deposit [0x73bb78]、🤖 Hyperliquid: Bridge 2 [0x2df1c5]、🤖 🏦 Binance: Hot Wallet [0xee7ae8]\n【詳しい判定】部分格上げ(要監視): 下落トレンド下の逆張りロング先行という質的に希少なシグナル"
     },
     "0xb8243756956e722bff5c763971b562ac551bfbd2": {
       "address": "0xb8243756956e722bff5c763971b562ac551bfbd2",
@@ -4775,7 +4795,8 @@
           "count": 23
         }
       ],
-      "nansen_checked": "2026-06-17"
+      "nansen_checked": "2026-06-17",
+      "notes_jp": "【ひとことで】🔵 たぶんプロ。まだ詳しく調べていない。\n【正体】名前は分からない（匿名）。\n【お金はどこから？】別チェーンからの『橋(ブリッジ)』経由 → 足を消しており追いにくい\n【よく取引する相手】🤖 Hyperliquid: Bridge 2 [0x2df1c5]、🏦 Nexo: Deposit [0xee2f18]、High Balance [0x5600a3]"
     },
     "0x535191d6d49922d69cc7829dbb73e48694840db7": {
       "address": "0x535191d6d49922d69cc7829dbb73e48694840db7",
@@ -5081,7 +5102,8 @@
         "方向:ショート",
         "レバ:低(<3x)",
         "銘柄:BTC主"
-      ]
+      ],
+      "notes_jp": "【ひとことで】🟠 ちょっと怪しい。様子見で監視するウォレット。\n【正体】名前は分からない（匿名）。\n【お金はどこから？】別チェーンからの『橋(ブリッジ)』経由 → 足を消しており追いにくい\n【もう一段たどると】お金は Across という別チェーンからの『橋(ブリッジ)』を渡ってきており、橋の向こう側は別チェーンなのでこの先は辿れない（足を消している）。\n【よく取引する相手】🤖 LI.FI: Contract [0x89c634]、🤖 Hyperliquid: Bridge 2 [0x2df1c5]\n【グループ】同じ資金元から同時に動いた『協調クラスタA』の一員。\n【詳しい判定】部分格上げ: メトリクスはMMとして除外も協調クラスタAの一員。資金網先行という別シグナル"
     },
     "0xd67ca2c6f8bc84acf4fa4472b82a8740dc0a53ff": {
       "address": "0xd67ca2c6f8bc84acf4fa4472b82a8740dc0a53ff",
@@ -5221,7 +5243,8 @@
         "保有:短期(<12h)",
         "方向:無/フラット",
         "ID:ENS有"
-      ]
+      ],
+      "notes_jp": "【ひとことで】・優先度は低い。\n【正体】0x3x6.eth*、gritsa.eth*、shahna.eth*（Nansenが付けた名前/ラベル）\n【お金はどこから？】別の財布（0xe78da2c6f8bc84acf4fa4472b82a8740dc0a6510）から\n【よく取引する相手】Token Millionaire、Token Millionaire、High Activity\n【グループ】同じ資金元から同時に動いた『協調クラスタA』の一員。\n【詳しい判定】維持(弱い再評価): クラスタA資金連結はあるがHFTで先読みではない"
     },
     "0x91f564e80ed5e98eb22fde0857e1a87047f2df13": {
       "address": "0x91f564e80ed5e98eb22fde0857e1a87047f2df13",
@@ -5548,7 +5571,8 @@
         "方向:ショート",
         "レバ:高(>10x)",
         "銘柄:BTC主"
-      ]
+      ],
+      "notes_jp": "【ひとことで】⚙ 1日何千回も売買する自動bot/マーケットメイカー。手動で追加。\n【正体】名前は分からない（匿名）。\n【お金はどこから？】名前付きの個人財布（testnetfaucets.eth）から\n【よく取引する相手】Token Millionaire、High Activity、Token Millionaire\n【詳しい判定】苦戦中の高頻度BTC勢。allTime -10%。大型BTCショート含み損"
     },
     "0x50b309f78e774a756a2230e1769729094cac9f20": {
       "address": "0x50b309f78e774a756a2230e1769729094cac9f20",
@@ -5718,7 +5742,8 @@
         "方向:ロング",
         "レバ:高(>10x)",
         "銘柄:BTC主"
-      ]
+      ],
+      "notes_jp": "【ひとことで】⚙ 1日何千回も売買する自動bot/マーケットメイカー。手動で追加。\n【正体】High Balance（Nansenが付けた名前/ラベル）\n【お金はどこから？】別の財布（0xecfdd0e505043a67991c5b8e3713f9266ebc3309）から\n【よく取引する相手】Token Millionaire、0xb8b5bc2c、HL Perps Shark\n【詳しい判定】自動HFT/MM。月+$4.8M/ROI126%。約定が多すぎ履歴取得は頭打ち"
     },
     "0xa864144d507da1f5a90aae0147b8cba6d93a21cb": {
       "address": "0xa864144d507da1f5a90aae0147b8cba6d93a21cb",
@@ -5876,7 +5901,8 @@
         "方向:混在",
         "レバ:中(3-10x)",
         "銘柄:マルチ"
-      ]
+      ],
+      "notes_jp": "【ひとことで】⚙ 1日何千回も売買する自動bot/マーケットメイカー。手動で追加。\n【正体】名前は分からない（匿名）。\n【お金はどこから？】別の財布（High Balance）から\n【詳しい判定】分散・超高レバ(BTC40x)の多資産プロ。allTime +143%"
     },
     "0x350e33a777d510616fbdb483d1de3b50d1edfcfb": {
       "address": "0x350e33a777d510616fbdb483d1de3b50d1edfcfb",
@@ -6133,7 +6159,8 @@
         "方向:ショート",
         "レバ:中(3-10x)",
         "銘柄:マルチ"
-      ]
+      ],
+      "notes_jp": "【ひとことで】⚙ 1日何千回も売買する自動bot/マーケットメイカー。手動で追加。\n【正体】High Balance（Nansenが付けた名前/ラベル）\n【お金はどこから？】別の財布（High Activity）から\n【よく取引する相手】High Activity、Token Millionaire、Token Millionaire\n【詳しい判定】HYPE中心の怪物プロ。allTime ROI 10,637%。現在9銘柄全空で含み損"
     },
     "0xc6758a779bccee1ef0190dbe8292fdf44076795d": {
       "address": "0xc6758a779bccee1ef0190dbe8292fdf44076795d",
@@ -6290,7 +6317,8 @@
           "count": 8
         }
       ],
-      "nansen_checked": "2026-06-17"
+      "nansen_checked": "2026-06-17",
+      "notes_jp": "【ひとことで】💰 大きく稼いで、お金をほぼ全部 外に引き出したっぽいウォレット。\n【正体】名前は分からない（匿名）。\n【お金はどこから？】別の財布（[0xba52af]）から\n【よく取引する相手】🤖 Hyperliquid: Bridge 2 [0x2df1c5]、🤖 🏦 Binance: Hot Wallet [0xee7ae8]、🏦 Binance: Deposit [0xfccb79]\n【出金の話】今までに合計 $26,458,745 稼いだのに、今の残高は $211,552 しかない（=稼ぎをほぼ外に出した。比 125倍）。"
     },
     "0x0a7097d919b7421ecc03aed3aac68a13e7ef1f46": {
       "address": "0x0a7097d919b7421ecc03aed3aac68a13e7ef1f46",
@@ -6378,7 +6406,8 @@
           "count": 3
         }
       ],
-      "nansen_checked": "2026-06-17"
+      "nansen_checked": "2026-06-17",
+      "notes_jp": "【ひとことで】💰 大きく稼いで、お金をほぼ全部 外に引き出したっぽいウォレット。\n【正体】\"kekvault2\" on OpenSea（Nansenが付けた名前/ラベル）\n【お金はどこから？】別の財布（@kekbeta [0xbe69e0]）から\n【よく取引する相手】🏦 Binance: Deposit [0xe5ef5c]、🤖 ParaSwap: Augustus V.2 [0x6a000f]、🤖 High Activity [0x6f0538]\n【出金の話】今までに合計 $1,673,525 稼いだのに、今の残高は $13,944 しかない（=稼ぎをほぼ外に出した。比 120倍）。"
     },
     "0x2a304155f0c751217f2bedc1769be8398151eca4": {
       "address": "0x2a304155f0c751217f2bedc1769be8398151eca4",
@@ -6593,7 +6622,8 @@
           "count": 1
         }
       ],
-      "nansen_checked": "2026-06-17"
+      "nansen_checked": "2026-06-17",
+      "notes_jp": "【ひとことで】💰 大きく稼いで、お金をほぼ全部 外に引き出したっぽいウォレット。\n【正体】\"M1NER\" on OpenSea、miner35.eth、miner35.eth*（Nansenが付けた名前/ラベル）\n【お金はどこから？】別チェーンからの『橋(ブリッジ)』経由 → 足を消しており追いにくい\n【よく取引する相手】[0x0d47a1]、Burn Address [0x000000]、🤖 UniversalRouter [0x8b844f]\n【出金の話】今までに合計 $359,978 稼いだのに、今の残高は $20,000 しかない（=稼ぎをほぼ外に出した。比 18倍）。"
     },
     "0x159d148acd970eaf88bed8feac4ad6d38e7c3665": {
       "address": "0x159d148acd970eaf88bed8feac4ad6d38e7c3665",
@@ -6703,7 +6733,8 @@
           "count": 1
         }
       ],
-      "nansen_checked": "2026-06-17"
+      "nansen_checked": "2026-06-17",
+      "notes_jp": "【ひとことで】💰 大きく稼いで、お金をほぼ全部 外に引き出したっぽいウォレット。\n【正体】名前は分からない（匿名）。\n【お金はどこから？】Binance(取引所)から入金 → 取引所が『この人が誰か』を知っている\n【よく取引する相手】🤖 Hyperliquid: Bridge 2 [0x2df1c5]、🤖 🏦 Binance: Hot Wallet [0xee7ae8]\n【出金の話】今までに合計 $1,364,583 稼いだのに、今の残高は $53,352 しかない（=稼ぎをほぼ外に出した。比 26倍）。"
     },
     "0x9a377ec81c1bd51d31170bf8d7a7b6c5fbaded9b": {
       "address": "0x9a377ec81c1bd51d31170bf8d7a7b6c5fbaded9b",
@@ -6818,7 +6849,8 @@
           "count": 1
         }
       ],
-      "nansen_checked": "2026-06-17"
+      "nansen_checked": "2026-06-17",
+      "notes_jp": "【ひとことで】💰 大きく稼いで、お金をほぼ全部 外に引き出したっぽいウォレット。\n【正体】名前は分からない（匿名）。\n【お金はどこから？】別の財布（[0xd2ae30]）から\n【よく取引する相手】🤖 Circle: USDC Bridge [0xa95d9c]、Burn Address [0x000000]、🏦 Bybit: Deposit [0xc6cfd3]\n【出金の話】今までに合計 $478,330 稼いだのに、今の残高は $10,068 しかない（=稼ぎをほぼ外に出した。比 48倍）。"
     },
     "0x321f7193eadbacb67eff00f76b975a487e5b1c84": {
       "address": "0x321f7193eadbacb67eff00f76b975a487e5b1c84",
@@ -7145,7 +7177,8 @@
           "count": 2
         }
       ],
-      "nansen_checked": "2026-06-17"
+      "nansen_checked": "2026-06-17",
+      "notes_jp": "【ひとことで】💰 大きく稼いで、お金をほぼ全部 外に引き出したっぽいウォレット。\n【正体】High Balance（Nansenが付けた名前/ラベル）\n【お金はどこから？】プログラム(コントラクト)経由 → 人の財布までは見えない\n【よく取引する相手】🤖 Hyperliquid: Bridge 2 [0x2df1c5]、🏦 Coinbase: Deposit [0xf5ddde]、Relay Protocol: EOA Bridge [0xf70da9]\n【出金の話】今までに合計 $983,412 稼いだのに、今の残高は $83,398 しかない（=稼ぎをほぼ外に出した。比 12倍）。"
     },
     "0x48b1a8f92e403bc9dc7500b9cbcc4cadf35c7ac0": {
       "address": "0x48b1a8f92e403bc9dc7500b9cbcc4cadf35c7ac0",
@@ -7259,7 +7292,8 @@
           "count": 1
         }
       ],
-      "nansen_checked": "2026-06-17"
+      "nansen_checked": "2026-06-17",
+      "notes_jp": "【ひとことで】🔵 たぶんプロ。まだ詳しく調べていない。\n【正体】名前は分からない（匿名）。\n【お金はどこから？】プログラム(コントラクト)経由 → 人の財布までは見えない\n【よく取引する相手】🤖 Hyperliquid: Bridge 2 [0x2df1c5]、🤖 LI.FI: Contract [0x89c634]、HL Perps Altcoin Trader [0xdb2205]"
     },
     "0x2f394ae1ca45071bc222e7124b5d125637942be2": {
       "address": "0x2f394ae1ca45071bc222e7124b5d125637942be2",
@@ -7362,7 +7396,8 @@
           "count": 1
         }
       ],
-      "nansen_checked": "2026-06-17"
+      "nansen_checked": "2026-06-17",
+      "notes_jp": "【ひとことで】💰 大きく稼いで、お金をほぼ全部 外に引き出したっぽいウォレット。\n【正体】名前は分からない（匿名）。\n【お金はどこから？】Gate(取引所)から入金 → 取引所が『この人が誰か』を知っている\n【よく取引する相手】Burn Address [0x000000]、🏦 Kraken: Deposit [0xac1eed]、🏦 Kraken: Deposit [0x4613e2]\n【出金の話】今までに合計 $863,182 稼いだのに、今の残高は $12,890 しかない（=稼ぎをほぼ外に出した。比 67倍）。"
     },
     "0x6bea81d7a0c5939a5ce5552e125ab57216cc597f": {
       "address": "0x6bea81d7a0c5939a5ce5552e125ab57216cc597f",
@@ -7418,7 +7453,8 @@
         }
       ],
       "counterparties": [],
-      "nansen_checked": "2026-06-17"
+      "nansen_checked": "2026-06-17",
+      "notes_jp": "【ひとことで】💰 大きく稼いで、お金をほぼ全部 外に引き出したっぽいウォレット。\n【正体】名前は分からない（匿名）。\n【お金はどこから？】Binance(取引所)から入金 → 取引所が『この人が誰か』を知っている\n【出金の話】今までに合計 $8,217,777 稼いだのに、今の残高は $146,964 しかない（=稼ぎをほぼ外に出した。比 56倍）。"
     },
     "0x9bd2ee53f6c6aa778209b8673f6c7df754830c88": {
       "address": "0x9bd2ee53f6c6aa778209b8673f6c7df754830c88",
@@ -7575,7 +7611,8 @@
           "count": 14
         }
       ],
-      "nansen_checked": "2026-06-17"
+      "nansen_checked": "2026-06-17",
+      "notes_jp": "【ひとことで】💰 大きく稼いで、お金をほぼ全部 外に引き出したっぽいウォレット。\n【正体】名前は分からない（匿名）。\n【お金はどこから？】Coinbase(取引所)から入金 → 取引所が『この人が誰か』を知っている\n【よく取引する相手】🤖 🏦 Coinbase: Deposit [0x755509]、🤖 ArbitrumSettlerIntent [0x97c82f]、🤖 Hyperliquid: Bridge 2 [0x2df1c5]\n【出金の話】今までに合計 $1,173,278 稼いだのに、今の残高は $45,031 しかない（=稼ぎをほぼ外に出した。比 26倍）。"
     },
     "0x6a2cb9b34ba6ca342ec787b70cd1878e71810231": {
       "address": "0x6a2cb9b34ba6ca342ec787b70cd1878e71810231",
@@ -7840,7 +7877,8 @@
           "count": 1
         }
       ],
-      "nansen_checked": "2026-06-17"
+      "nansen_checked": "2026-06-17",
+      "notes_jp": "【ひとことで】💰 大きく稼いで、お金をほぼ全部 外に引き出したっぽいウォレット。\n【正体】名前は分からない（匿名）。\n【お金はどこから？】Binance(取引所)から入金 → 取引所が『この人が誰か』を知っている\n【よく取引する相手】🤖 Hyperliquid: Bridge 2 [0x2df1c5]、🤖 Circle: CCTP TokenMinterV2 [0xfd78ee]、Burn Address [0x000000]\n【出金の話】今までに合計 $1,223,801 稼いだのに、今の残高は $31,001 しかない（=稼ぎをほぼ外に出した。比 40倍）。"
     },
     "0x9f6fed26339789725b0751f57aeac23367ceee57": {
       "address": "0x9f6fed26339789725b0751f57aeac23367ceee57",
@@ -8070,7 +8108,8 @@
           "count": 1
         }
       ],
-      "nansen_checked": "2026-06-17"
+      "nansen_checked": "2026-06-17",
+      "notes_jp": "【ひとことで】💰 大きく稼いで、お金をほぼ全部 外に引き出したっぽいウォレット。\n【正体】\"H2_\" on OpenSea（Nansenが付けた名前/ラベル）\n【お金はどこから？】名前付きの個人財布（\"v_haya_v\" on OpenSea [0x2dafbc]）から\n【よく取引する相手】🤖 High Activity [0x2e69a9]、🤖 ForwarderV4 [0xe1348c]、🤖 Staked USDai [0x0b2b2b]\n【出金の話】今までに合計 $635,632 稼いだのに、今の残高は $24,287 しかない（=稼ぎをほぼ外に出した。比 26倍）。"
     },
     "0x30e3784b28332b7cb268988f9e81eeff9e3bf2dc": {
       "address": "0x30e3784b28332b7cb268988f9e81eeff9e3bf2dc",
@@ -8282,7 +8321,8 @@
           "count": 1
         }
       ],
-      "nansen_checked": "2026-06-17"
+      "nansen_checked": "2026-06-17",
+      "notes_jp": "【ひとことで】💰 大きく稼いで、お金をほぼ全部 外に引き出したっぽいウォレット。\n【正体】High Activity（Nansenが付けた名前/ラベル）\n【お金はどこから？】別の財布（[0x991bc4]）から\n【よく取引する相手】🤖 Hyperliquid: Bridge 2 [0x2df1c5]、🤖 Circle: Token Minter [0xe7ed1f]、High Activity [0xa1bc47]\n【出金の話】今までに合計 $114,834,358 稼いだのに、今の残高は $2,865,251 しかない（=稼ぎをほぼ外に出した。比 40倍）。"
     },
     "0xa0d669521cb00bfe43e5fa3bd573dc01dfe6567c": {
       "address": "0xa0d669521cb00bfe43e5fa3bd573dc01dfe6567c",
@@ -8616,7 +8656,8 @@
           "count": 1
         }
       ],
-      "nansen_checked": "2026-06-17"
+      "nansen_checked": "2026-06-17",
+      "notes_jp": "【ひとことで】💰 大きく稼いで、お金をほぼ全部 外に引き出したっぽいウォレット。\n【正体】名前は分からない（匿名）。\n【お金はどこから？】別の財布（​​GSR [0xb06cf2]）から\n【よく取引する相手】🤖 🏦 Binance: Hot Wallet [0xee7ae8]、🤖 Hyperliquid: Bridge 2 [0x2df1c5]、[0x2df1dc]\n【出金の話】今までに合計 $1,233,653 稼いだのに、今の残高は $20,471 しかない（=稼ぎをほぼ外に出した。比 60倍）。"
     },
     "0x08bf75d17046412ae08c95b6106993f714487872": {
       "address": "0x08bf75d17046412ae08c95b6106993f714487872",
@@ -8904,7 +8945,8 @@
           "count": 2
         }
       ],
-      "nansen_checked": "2026-06-17"
+      "nansen_checked": "2026-06-17",
+      "notes_jp": "【ひとことで】💰 大きく稼いで、お金をほぼ全部 外に引き出したっぽいウォレット。\n【正体】名前は分からない（匿名）。\n【お金はどこから？】Binance(取引所)から入金 → 取引所が『この人が誰か』を知っている\n【よく取引する相手】🤖 🏦 Binance: Hot Wallet [0xee7ae8]、🤖 Hyperliquid: Bridge 2 [0x2df1c5]、🤖 Circle: USDC Bridge [0xa95d9c]\n【出金の話】今までに合計 $2,896,056 稼いだのに、今の残高は $50,537 しかない（=稼ぎをほぼ外に出した。比 57倍）。"
     },
     "0x39b07015ca813075bbce6f475767d5b4b9d518b0": {
       "address": "0x39b07015ca813075bbce6f475767d5b4b9d518b0",
@@ -9115,7 +9157,8 @@
           "count": 1
         }
       ],
-      "nansen_checked": "2026-06-17"
+      "nansen_checked": "2026-06-17",
+      "notes_jp": "【ひとことで】💰 大きく稼いで、お金をほぼ全部 外に引き出したっぽいウォレット。\n【正体】High Activity（Nansenが付けた名前/ラベル）\n【お金はどこから？】プログラム(コントラクト)経由 → 人の財布までは見えない\n【よく取引する相手】🤖 Hyperliquid: Bridge 2 [0x2df1c5]、[0x483a92]、Burn Address [0x000000]\n【出金の話】今までに合計 $911,872 稼いだのに、今の残高は $33,602 しかない（=稼ぎをほぼ外に出した。比 27倍）。"
     },
     "0xe1edc766cfb0e8e6894bde26bcb5a94d1777d16c": {
       "address": "0xe1edc766cfb0e8e6894bde26bcb5a94d1777d16c",
@@ -9253,7 +9296,8 @@
           "count": 1
         }
       ],
-      "nansen_checked": "2026-06-17"
+      "nansen_checked": "2026-06-17",
+      "notes_jp": "【ひとことで】💰 大きく稼いで、お金をほぼ全部 外に引き出したっぽいウォレット。\n【正体】High Activity（Nansenが付けた名前/ラベル）\n【お金はどこから？】Binance(取引所)から入金 → 取引所が『この人が誰か』を知っている\n【よく取引する相手】🏦 Bybit: Deposit [0x6e710b]、🏦 Bybit: Deposit [0x33ad23]、[0x6e7177]\n【出金の話】今までに合計 $7,795,755 稼いだのに、今の残高は $180,120 しかない（=稼ぎをほぼ外に出した。比 43倍）。"
     },
     "0x68a24ccf099422806f1e73248517f3389c29c104": {
       "address": "0x68a24ccf099422806f1e73248517f3389c29c104",
@@ -9409,7 +9453,8 @@
           "count": 12
         }
       ],
-      "nansen_checked": "2026-06-17"
+      "nansen_checked": "2026-06-17",
+      "notes_jp": "【ひとことで】💰 大きく稼いで、お金をほぼ全部 外に引き出したっぽいウォレット。\n【正体】名前は分からない（匿名）。\n【お金はどこから？】別の財布（HL Perps Swing Trader [0x507561]）から\n【よく取引する相手】🤖 Hyperliquid: Bridge 2 [0x2df1c5]、🏦 Bybit: Deposit [0x56b31c]、🏦 Bybit: Hot Wallet [0xf89d7b]\n【出金の話】今までに合計 $11,384,547 稼いだのに、今の残高は $102,793 しかない（=稼ぎをほぼ外に出した。比 111倍）。"
     },
     "0x2607a3909cee65aa8205ca26f7db2d9244389577": {
       "address": "0x2607a3909cee65aa8205ca26f7db2d9244389577",
@@ -9667,7 +9712,8 @@
           "count": 1
         }
       ],
-      "nansen_checked": "2026-06-17"
+      "nansen_checked": "2026-06-17",
+      "notes_jp": "【ひとことで】💰 大きく稼いで、お金をほぼ全部 外に引き出したっぽいウォレット。\n【正体】High Balance（Nansenが付けた名前/ラベル）\n【お金はどこから？】別チェーンからの『橋(ブリッジ)』経由 → 足を消しており追いにくい\n【よく取引する相手】🤖 Hyperliquid: Bridge 2 [0x2df1c5]、🤖 ERC1967Proxy [0x6d4d4a]、🤖 LI.FI: Diamond Facet Bridge [0x1231de]\n【出金の話】今までに合計 $649,800 稼いだのに、今の残高は $48,721 しかない（=稼ぎをほぼ外に出した。比 13倍）。"
     },
     "0x0e3f5bb797e3953fed2a319544d0e821b4a11e1c": {
       "address": "0x0e3f5bb797e3953fed2a319544d0e821b4a11e1c",
@@ -9747,7 +9793,8 @@
           "count": 1
         }
       ],
-      "nansen_checked": "2026-06-17"
+      "nansen_checked": "2026-06-17",
+      "notes_jp": "【ひとことで】💰 大きく稼いで、お金をほぼ全部 外に引き出したっぽいウォレット。\n【正体】名前は分からない（匿名）。\n【お金はどこから？】Coinbase(取引所)から入金 → 取引所が『この人が誰か』を知っている\n【よく取引する相手】🤖 HTLCCoordinator [0x5b7cda]、[0xf34c5a]、HL Perps Day Trader [0x0fe28b]\n【出金の話】今までに合計 $2,400,159 稼いだのに、今の残高は $18,192 しかない（=稼ぎをほぼ外に出した。比 132倍）。"
     },
     "0xce43a7498e65b6f6c8741fd9a7efc3f78efc78c4": {
       "address": "0xce43a7498e65b6f6c8741fd9a7efc3f78efc78c4",
@@ -9881,7 +9928,8 @@
           "count": 1
         }
       ],
-      "nansen_checked": "2026-06-17"
+      "nansen_checked": "2026-06-17",
+      "notes_jp": "【ひとことで】💰 大きく稼いで、お金をほぼ全部 外に引き出したっぽいウォレット。\n【正体】caledor.eth*、carolineplz.eth*、drachenfels.eth*、saintmarcus.eth*（Nansenが付けた名前/ラベル）\n【お金はどこから？】別の財布（[0xdf54a7]）から\n【よく取引する相手】Relay Protocol: EOA Bridge [0xf70da9]、🤖 Relay Protocol: Depository [0x4cd00e]、HL Perps Swing Trader [0x488bd1]\n【出金の話】今までに合計 $361,867 稼いだのに、今の残高は $15,510 しかない（=稼ぎをほぼ外に出した。比 23倍）。"
     }
   },
   "updated_at": "2026-06-17T09:35:59.748417+00:00"

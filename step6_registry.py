@@ -227,6 +227,11 @@ def render_html(reg):
             nansen_html = (f"<div class='nansen'>🔎 <b>{esc(labs)}</b>"
                            f" ／ 資金源: {esc(ff)} ／ 相手: {esc(cps)}"
                            f" <span class='muted'>({esc(e.get('nansen_checked'))})</span></div>")
+        # 猿でもわかる平易な説明
+        note_jp = e.get("notes_jp")
+        note_html = ""
+        if note_jp:
+            note_html = "<div class='notejp'>" + esc(note_jp).replace("\n", "<br>") + "</div>"
         rows += f"""
 <tr data-tags="{data_tags}">
   <td><span class="pos" style="--c:{color}">{esc(e['position'])}</span></td>
@@ -238,7 +243,7 @@ def render_html(reg):
   <td>{esc(cur.get('avg_hold_h'))}</td>
   <td>{tags}</td>
   <td class="seen">{esc(e.get('times_seen'))}回<br><span class="muted">{esc(e.get('first_seen'))}→{esc(e.get('last_seen'))}</span></td>
-  <td class="verdict">{esc(e.get('alt_verdict') or '')}{nansen_html}<div class="spark muted">{esc(spark)}</div></td>
+  <td class="verdict">{note_html}{nansen_html}<div class="spark muted">{esc(spark)}</div></td>
 </tr>"""
 
     from collections import Counter
@@ -309,6 +314,8 @@ code{{background:#0b0f14;padding:1px 4px;border-radius:4px;font-size:11px}}
 .verdict{{font-size:11px;max-width:360px}}
 .spark{{font-size:10px;margin-top:3px}}
 .nansen{{font-size:11px;margin-top:4px;padding:3px 6px;background:#16142a;border-left:2px solid #7c5cff;border-radius:4px}}
+.notejp{{font-size:12px;line-height:1.65;padding:7px 9px;background:#0f1b17;border-left:3px solid #3fb950;border-radius:5px;color:#d7e6dd}}
+.verdict{{max-width:440px}}
 </style></head><body>
 <h1>perp ウォレット監視台帳（蓄積データ）</h1>
 <div class="sub">更新: {esc(reg.get('updated_at',''))} ／ 累計実行 {esc(reg.get('run_count'))}回 ／ 登録 {len(wallets)} ウォレット ／ 多角分析の位置づけ込み</div>
