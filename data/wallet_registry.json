@@ -1,11 +1,11 @@
 {
   "created_at": "2026-06-16T09:30:44.025402+00:00",
-  "run_count": 4,
+  "run_count": 5,
   "wallets": {
     "0x72988778525f0ce15c5ac1804ac460606a987d6c": {
       "address": "0x72988778525f0ce15c5ac1804ac460606a987d6c",
       "first_seen": "2026-06-16",
-      "times_seen": 4,
+      "times_seen": 5,
       "tags": [],
       "notes": "",
       "history": [
@@ -23,10 +23,10 @@
         {
           "date": "2026-06-17",
           "metric_category": "insider_suspect",
-          "insider_score": 0.8,
+          "insider_score": 0.6742,
           "win_rate": 1.0,
           "dir_accuracy": 1.0,
-          "total_pnl": 1038333.81,
+          "total_pnl": 1034739.59,
           "avg_hold_h": null,
           "event_lead_notional": 0,
           "insider_likelihood": 0.12
@@ -47,10 +47,10 @@
       "current": {
         "date": "2026-06-17",
         "metric_category": "insider_suspect",
-        "insider_score": 0.8,
+        "insider_score": 0.6742,
         "win_rate": 1.0,
         "dir_accuracy": 1.0,
-        "total_pnl": 1038333.81,
+        "total_pnl": 1034739.59,
         "avg_hold_h": null,
         "event_lead_notional": 0,
         "insider_likelihood": 0.12
@@ -167,7 +167,7 @@
     "0x10b6f072fabe21bc72ffd77ff5d4414e6cef2980": {
       "address": "0x10b6f072fabe21bc72ffd77ff5d4414e6cef2980",
       "first_seen": "2026-06-16",
-      "times_seen": 4,
+      "times_seen": 5,
       "tags": [
         "cluster-A",
         "funder:0xdf747918"
@@ -188,10 +188,10 @@
         {
           "date": "2026-06-17",
           "metric_category": "insider_suspect",
-          "insider_score": 0.6223,
+          "insider_score": 0.6556,
           "win_rate": 1.0,
           "dir_accuracy": 1.0,
-          "total_pnl": 266074.89,
+          "total_pnl": 195756.89,
           "avg_hold_h": 15.24,
           "event_lead_notional": 670091,
           "insider_likelihood": 0.5
@@ -213,10 +213,10 @@
       "current": {
         "date": "2026-06-17",
         "metric_category": "insider_suspect",
-        "insider_score": 0.6223,
+        "insider_score": 0.6556,
         "win_rate": 1.0,
         "dir_accuracy": 1.0,
-        "total_pnl": 266074.89,
+        "total_pnl": 195756.89,
         "avg_hold_h": 15.24,
         "event_lead_notional": 670091,
         "insider_likelihood": 0.5
@@ -323,7 +323,7 @@
     "0x128fae9d18a2f70d98a03c26bf17b67d97ce1f3c": {
       "address": "0x128fae9d18a2f70d98a03c26bf17b67d97ce1f3c",
       "first_seen": "2026-06-16",
-      "times_seen": 4,
+      "times_seen": 5,
       "tags": [],
       "notes": "",
       "history": [
@@ -341,10 +341,10 @@
         {
           "date": "2026-06-17",
           "metric_category": "insider_suspect",
-          "insider_score": 0.5434,
+          "insider_score": 0.5228,
           "win_rate": 1.0,
           "dir_accuracy": 1.0,
-          "total_pnl": 150220.78,
+          "total_pnl": 135554.11,
           "avg_hold_h": null,
           "event_lead_notional": 0,
           "insider_likelihood": 0.2
@@ -364,10 +364,10 @@
       "current": {
         "date": "2026-06-17",
         "metric_category": "insider_suspect",
-        "insider_score": 0.5434,
+        "insider_score": 0.5228,
         "win_rate": 1.0,
         "dir_accuracy": 1.0,
-        "total_pnl": 150220.78,
+        "total_pnl": 135554.11,
         "avg_hold_h": null,
         "event_lead_notional": 0,
         "insider_likelihood": 0.2
@@ -536,7 +536,7 @@
     "0x83b00972aafcc3d06d45b1b823079f9a414da46e": {
       "address": "0x83b00972aafcc3d06d45b1b823079f9a414da46e",
       "first_seen": "2026-06-16",
-      "times_seen": 4,
+      "times_seen": 5,
       "tags": [],
       "notes": "",
       "history": [
@@ -554,10 +554,10 @@
         {
           "date": "2026-06-17",
           "metric_category": "insider_suspect",
-          "insider_score": 0.5124,
+          "insider_score": 0.5078,
           "win_rate": 1.0,
           "dir_accuracy": 1.0,
-          "total_pnl": 42761.77,
+          "total_pnl": 46305.96,
           "avg_hold_h": 36.16,
           "event_lead_notional": 0,
           "insider_likelihood": 0.15
@@ -577,10 +577,10 @@
       "current": {
         "date": "2026-06-17",
         "metric_category": "insider_suspect",
-        "insider_score": 0.5124,
+        "insider_score": 0.5078,
         "win_rate": 1.0,
         "dir_accuracy": 1.0,
-        "total_pnl": 42761.77,
+        "total_pnl": 46305.96,
         "avg_hold_h": 36.16,
         "event_lead_notional": 0,
         "insider_likelihood": 0.15
@@ -634,7 +634,7 @@
     "0x9b5ae497fd1bf885a40d6f99d0c57245761e053c": {
       "address": "0x9b5ae497fd1bf885a40d6f99d0c57245761e053c",
       "first_seen": "2026-06-16",
-      "times_seen": 4,
+      "times_seen": 5,
       "tags": [],
       "notes": "",
       "history": [
@@ -652,7 +652,7 @@
         {
           "date": "2026-06-17",
           "metric_category": "insider_suspect",
-          "insider_score": 0.5059,
+          "insider_score": 0.5034,
           "win_rate": 1.0,
           "dir_accuracy": 1.0,
           "total_pnl": 20453.59,
@@ -675,7 +675,7 @@
       "current": {
         "date": "2026-06-17",
         "metric_category": "insider_suspect",
-        "insider_score": 0.5059,
+        "insider_score": 0.5034,
         "win_rate": 1.0,
         "dir_accuracy": 1.0,
         "total_pnl": 20453.59,
@@ -824,7 +824,7 @@
     "0xdd54150be70967523a256f92db193845acf58714": {
       "address": "0xdd54150be70967523a256f92db193845acf58714",
       "first_seen": "2026-06-16",
-      "times_seen": 4,
+      "times_seen": 5,
       "tags": [],
       "notes": "",
       "history": [
@@ -842,7 +842,7 @@
         {
           "date": "2026-06-17",
           "metric_category": "excluded",
-          "insider_score": 0.5009,
+          "insider_score": 0.5005,
           "win_rate": 1.0,
           "dir_accuracy": 1.0,
           "total_pnl": 3078.23,
@@ -858,7 +858,7 @@
       "current": {
         "date": "2026-06-17",
         "metric_category": "excluded",
-        "insider_score": 0.5009,
+        "insider_score": 0.5005,
         "win_rate": 1.0,
         "dir_accuracy": 1.0,
         "total_pnl": 3078.23,
@@ -877,7 +877,7 @@
     "0xbde047d965a1b13fe37d11e5df31ed110ffbb92b": {
       "address": "0xbde047d965a1b13fe37d11e5df31ed110ffbb92b",
       "first_seen": "2026-06-16",
-      "times_seen": 4,
+      "times_seen": 5,
       "tags": [],
       "notes": "",
       "history": [
@@ -895,7 +895,7 @@
         {
           "date": "2026-06-17",
           "metric_category": "insider_suspect",
-          "insider_score": 0.5002,
+          "insider_score": 0.5001,
           "win_rate": 1.0,
           "dir_accuracy": 1.0,
           "total_pnl": 622.58,
@@ -918,7 +918,7 @@
       "current": {
         "date": "2026-06-17",
         "metric_category": "insider_suspect",
-        "insider_score": 0.5002,
+        "insider_score": 0.5001,
         "win_rate": 1.0,
         "dir_accuracy": 1.0,
         "total_pnl": 622.58,
@@ -1012,7 +1012,7 @@
     "0x5aadb434293b4e1b8fb2e84007e567506fe65a96": {
       "address": "0x5aadb434293b4e1b8fb2e84007e567506fe65a96",
       "first_seen": "2026-06-16",
-      "times_seen": 4,
+      "times_seen": 5,
       "tags": [],
       "notes": "",
       "history": [
@@ -1030,11 +1030,11 @@
         {
           "date": "2026-06-17",
           "metric_category": "pro_trader",
-          "insider_score": 0.4462,
+          "insider_score": 0.407,
           "win_rate": 1.0,
-          "dir_accuracy": 0.7771,
-          "total_pnl": 6529.99,
-          "avg_hold_h": 0.9,
+          "dir_accuracy": 0.625,
+          "total_pnl": 4282.91,
+          "avg_hold_h": 1.12,
           "event_lead_notional": 0,
           "insider_likelihood": 0.1
         }
@@ -1052,11 +1052,11 @@
       "current": {
         "date": "2026-06-17",
         "metric_category": "pro_trader",
-        "insider_score": 0.4462,
+        "insider_score": 0.407,
         "win_rate": 1.0,
-        "dir_accuracy": 0.7771,
-        "total_pnl": 6529.99,
-        "avg_hold_h": 0.9,
+        "dir_accuracy": 0.625,
+        "total_pnl": 4282.91,
+        "avg_hold_h": 1.12,
         "event_lead_notional": 0,
         "insider_likelihood": 0.1
       },
@@ -1143,7 +1143,7 @@
     "0x4d3980ac9d84fc34adcd025ee2337786846343c4": {
       "address": "0x4d3980ac9d84fc34adcd025ee2337786846343c4",
       "first_seen": "2026-06-16",
-      "times_seen": 4,
+      "times_seen": 5,
       "tags": [],
       "notes": "",
       "history": [
@@ -1161,7 +1161,7 @@
         {
           "date": "2026-06-17",
           "metric_category": "pro_trader",
-          "insider_score": 0.4377,
+          "insider_score": 0.4362,
           "win_rate": 0.7368,
           "dir_accuracy": 1.0,
           "total_pnl": 11957.4,
@@ -1177,7 +1177,7 @@
       "current": {
         "date": "2026-06-17",
         "metric_category": "pro_trader",
-        "insider_score": 0.4377,
+        "insider_score": 0.4362,
         "win_rate": 0.7368,
         "dir_accuracy": 1.0,
         "total_pnl": 11957.4,
@@ -1676,7 +1676,7 @@
     "0xd05808946809c180d190608e13f473db30aa8524": {
       "address": "0xd05808946809c180d190608e13f473db30aa8524",
       "first_seen": "2026-06-16",
-      "times_seen": 4,
+      "times_seen": 5,
       "tags": [],
       "notes": "",
       "history": [
@@ -1693,18 +1693,18 @@
         },
         {
           "date": "2026-06-17",
-          "metric_category": "pro_trader",
-          "insider_score": 0.4184,
-          "win_rate": 0.9844,
-          "dir_accuracy": 0.5887,
-          "total_pnl": 86853.23,
-          "avg_hold_h": 284.14,
+          "metric_category": "insider_suspect",
+          "insider_score": 0.4698,
+          "win_rate": 0.9821,
+          "dir_accuracy": 0.8391,
+          "total_pnl": 86386.39,
+          "avg_hold_h": 245.8,
           "event_lead_notional": 0,
           "insider_likelihood": 0.12
         }
       ],
       "last_seen": "2026-06-17",
-      "metric_category": "pro_trader",
+      "metric_category": "insider_suspect",
       "insider_likelihood": 0.12,
       "alt_verdict": "格上げ: 利確規律で稼ぐ本物(現在フラット)",
       "agreement": "agree",
@@ -1713,15 +1713,15 @@
         "risk_profile"
       ],
       "alt_reasoning": "dir=0.59<ベータなのに勝率0.98(128クローズ)・realized+87k。現在建玉0でキャッシュ化済み。trendがgenuine-edge(0.72)、riskがdisciplined-pro(0.6)。利確/損切り規律型で2レンズ一致。トレンド便乗でなく管理型の優位。",
-      "position": "プロトレーダー(本物)",
+      "position": "偽陽性(数値疑惑→否定)",
       "current": {
         "date": "2026-06-17",
-        "metric_category": "pro_trader",
-        "insider_score": 0.4184,
-        "win_rate": 0.9844,
-        "dir_accuracy": 0.5887,
-        "total_pnl": 86853.23,
-        "avg_hold_h": 284.14,
+        "metric_category": "insider_suspect",
+        "insider_score": 0.4698,
+        "win_rate": 0.9821,
+        "dir_accuracy": 0.8391,
+        "total_pnl": 86386.39,
+        "avg_hold_h": 245.8,
         "event_lead_notional": 0,
         "insider_likelihood": 0.12
       },
@@ -1731,7 +1731,7 @@
       "nansen_checked": "2026-06-17",
       "auto_tags": [
         "ROI:高(100-1000%)",
-        "PnL:中($100k-1M)",
+        "PnL:大($1-10M)",
         "頻度:中(50+)",
         "保有:長期(>48h)",
         "方向:無/フラット"
@@ -1740,7 +1740,7 @@
     "0xfe4dec8543b0b9cec0c897a689f7af7bddb02192": {
       "address": "0xfe4dec8543b0b9cec0c897a689f7af7bddb02192",
       "first_seen": "2026-06-16",
-      "times_seen": 4,
+      "times_seen": 5,
       "tags": [],
       "notes": "",
       "history": [
@@ -1757,18 +1757,18 @@
         },
         {
           "date": "2026-06-17",
-          "metric_category": "pro_trader",
-          "insider_score": 0.3895,
-          "win_rate": 0.84,
-          "dir_accuracy": 0.6867,
-          "total_pnl": 27089.08,
+          "metric_category": "insider_suspect",
+          "insider_score": 0.5069,
+          "win_rate": 1.0,
+          "dir_accuracy": 1.0,
+          "total_pnl": 41114.08,
           "avg_hold_h": 24.99,
           "event_lead_notional": 0,
           "insider_likelihood": 0.12
         }
       ],
       "last_seen": "2026-06-17",
-      "metric_category": "pro_trader",
+      "metric_category": "insider_suspect",
       "insider_likelihood": 0.12,
       "alt_verdict": "維持〜微格上げ: 執行優位ありの本物",
       "agreement": "agree",
@@ -1776,14 +1776,14 @@
         "trend_vs_edge"
       ],
       "alt_reasoning": "dir=0.69<ベータなのに勝率0.84(125クローズ)黒字。trendがgenuine-edge(0.62)。方向一辺倒でなく執行優位。pro_trader維持が妥当で大きな再評価不要。",
-      "position": "プロトレーダー(本物)",
+      "position": "偽陽性(数値疑惑→否定)",
       "current": {
         "date": "2026-06-17",
-        "metric_category": "pro_trader",
-        "insider_score": 0.3895,
-        "win_rate": 0.84,
-        "dir_accuracy": 0.6867,
-        "total_pnl": 27089.08,
+        "metric_category": "insider_suspect",
+        "insider_score": 0.5069,
+        "win_rate": 1.0,
+        "dir_accuracy": 1.0,
+        "total_pnl": 41114.08,
         "avg_hold_h": 24.99,
         "event_lead_notional": 0,
         "insider_likelihood": 0.12
@@ -1885,7 +1885,7 @@
     "0xdd08886cb92c689c7d89c88f048028293296ead1": {
       "address": "0xdd08886cb92c689c7d89c88f048028293296ead1",
       "first_seen": "2026-06-16",
-      "times_seen": 4,
+      "times_seen": 5,
       "tags": [],
       "notes": "",
       "history": [
@@ -1903,10 +1903,10 @@
         {
           "date": "2026-06-17",
           "metric_category": "pro_trader",
-          "insider_score": 0.3765,
+          "insider_score": 0.3614,
           "win_rate": 0.5782,
           "dir_accuracy": 0.7692,
-          "total_pnl": 137225.51,
+          "total_pnl": 145747.13,
           "avg_hold_h": 20.83,
           "event_lead_notional": 0,
           "insider_likelihood": null
@@ -1919,10 +1919,10 @@
       "current": {
         "date": "2026-06-17",
         "metric_category": "pro_trader",
-        "insider_score": 0.3765,
+        "insider_score": 0.3614,
         "win_rate": 0.5782,
         "dir_accuracy": 0.7692,
-        "total_pnl": 137225.51,
+        "total_pnl": 145747.13,
         "avg_hold_h": 20.83,
         "event_lead_notional": 0,
         "insider_likelihood": null
@@ -1944,7 +1944,7 @@
     "0x5875d72130981b18692a3d29545e4038f7eb0c38": {
       "address": "0x5875d72130981b18692a3d29545e4038f7eb0c38",
       "first_seen": "2026-06-16",
-      "times_seen": 4,
+      "times_seen": 5,
       "tags": [],
       "notes": "",
       "history": [
@@ -1961,43 +1961,45 @@
         },
         {
           "date": "2026-06-17",
-          "metric_category": "excluded",
-          "insider_score": 0.3605,
-          "win_rate": 0.6952,
-          "dir_accuracy": 0.7469,
-          "total_pnl": -122293.13,
-          "avg_hold_h": 5.69,
+          "metric_category": "insider_suspect",
+          "insider_score": 0.4584,
+          "win_rate": 0.8257,
+          "dir_accuracy": 0.962,
+          "total_pnl": 68177.75,
+          "avg_hold_h": 3.81,
           "event_lead_notional": 0,
           "insider_likelihood": null
         }
       ],
       "last_seen": "2026-06-17",
-      "metric_category": "excluded",
+      "metric_category": "insider_suspect",
       "insider_likelihood": null,
-      "position": "除外/低優先",
+      "position": "要再検証(数値疑惑・未レビュー)",
       "current": {
         "date": "2026-06-17",
-        "metric_category": "excluded",
-        "insider_score": 0.3605,
-        "win_rate": 0.6952,
-        "dir_accuracy": 0.7469,
-        "total_pnl": -122293.13,
-        "avg_hold_h": 5.69,
+        "metric_category": "insider_suspect",
+        "insider_score": 0.4584,
+        "win_rate": 0.8257,
+        "dir_accuracy": 0.962,
+        "total_pnl": 68177.75,
+        "avg_hold_h": 3.81,
         "event_lead_notional": 0,
         "insider_likelihood": null
       },
       "auto_tags": [
         "ROI:中(10-100%)",
-        "PnL:中($100k-1M)",
+        "PnL:大($1-10M)",
         "頻度:多(500+)",
         "保有:短期(<12h)",
-        "方向:無/フラット"
+        "方向:ショート",
+        "レバ:低(<3x)",
+        "銘柄:BTC専"
       ]
     },
     "0x2a934d40944e2b686ee9cdce74a3f67d32cd0347": {
       "address": "0x2a934d40944e2b686ee9cdce74a3f67d32cd0347",
       "first_seen": "2026-06-16",
-      "times_seen": 4,
+      "times_seen": 5,
       "tags": [],
       "notes": "",
       "history": [
@@ -2015,10 +2017,10 @@
         {
           "date": "2026-06-17",
           "metric_category": "excluded",
-          "insider_score": 0.3582,
+          "insider_score": 0.316,
           "win_rate": 0.0,
           "dir_accuracy": 1.0,
-          "total_pnl": 374622.8,
+          "total_pnl": 392178.8,
           "avg_hold_h": null,
           "event_lead_notional": 0,
           "insider_likelihood": 0.05
@@ -2037,10 +2039,10 @@
       "current": {
         "date": "2026-06-17",
         "metric_category": "excluded",
-        "insider_score": 0.3582,
+        "insider_score": 0.316,
         "win_rate": 0.0,
         "dir_accuracy": 1.0,
-        "total_pnl": 374622.8,
+        "total_pnl": 392178.8,
         "avg_hold_h": null,
         "event_lead_notional": 0,
         "insider_likelihood": 0.05
@@ -2050,7 +2052,7 @@
         "PnL:中($100k-1M)",
         "頻度:少(<50)",
         "方向:ショート",
-        "レバ:中(3-10x)",
+        "レバ:高(>10x)",
         "銘柄:ETH専"
       ]
     },
@@ -2290,7 +2292,7 @@
     "0x5a5ed3083d79f31f295bcdd71fdfb7a188132538": {
       "address": "0x5a5ed3083d79f31f295bcdd71fdfb7a188132538",
       "first_seen": "2026-06-16",
-      "times_seen": 4,
+      "times_seen": 5,
       "tags": [],
       "notes": "",
       "history": [
@@ -2308,10 +2310,10 @@
         {
           "date": "2026-06-17",
           "metric_category": "excluded",
-          "insider_score": 0.3226,
+          "insider_score": 0.2991,
           "win_rate": 0.7963,
-          "dir_accuracy": 0.3957,
-          "total_pnl": 85149.16,
+          "dir_accuracy": 0.3468,
+          "total_pnl": 79038.0,
           "avg_hold_h": 24.68,
           "event_lead_notional": 0,
           "insider_likelihood": null
@@ -2324,10 +2326,10 @@
       "current": {
         "date": "2026-06-17",
         "metric_category": "excluded",
-        "insider_score": 0.3226,
+        "insider_score": 0.2991,
         "win_rate": 0.7963,
-        "dir_accuracy": 0.3957,
-        "total_pnl": 85149.16,
+        "dir_accuracy": 0.3468,
+        "total_pnl": 79038.0,
         "avg_hold_h": 24.68,
         "event_lead_notional": 0,
         "insider_likelihood": null
@@ -2533,7 +2535,7 @@
     "0x8c783a3877bfab4e318a7dc521157cc89f85202c": {
       "address": "0x8c783a3877bfab4e318a7dc521157cc89f85202c",
       "first_seen": "2026-06-16",
-      "times_seen": 4,
+      "times_seen": 5,
       "tags": [],
       "notes": "",
       "history": [
@@ -2551,11 +2553,11 @@
         {
           "date": "2026-06-17",
           "metric_category": "excluded",
-          "insider_score": 0.3159,
-          "win_rate": 0.7517,
-          "dir_accuracy": 0.4095,
-          "total_pnl": 88741.24,
-          "avg_hold_h": 10.16,
+          "insider_score": 0.3075,
+          "win_rate": 0.7003,
+          "dir_accuracy": 0.4954,
+          "total_pnl": 50877.35,
+          "avg_hold_h": 10.62,
           "event_lead_notional": 0,
           "insider_likelihood": null
         }
@@ -2567,11 +2569,11 @@
       "current": {
         "date": "2026-06-17",
         "metric_category": "excluded",
-        "insider_score": 0.3159,
-        "win_rate": 0.7517,
-        "dir_accuracy": 0.4095,
-        "total_pnl": 88741.24,
-        "avg_hold_h": 10.16,
+        "insider_score": 0.3075,
+        "win_rate": 0.7003,
+        "dir_accuracy": 0.4954,
+        "total_pnl": 50877.35,
+        "avg_hold_h": 10.62,
         "event_lead_notional": 0,
         "insider_likelihood": null
       },
@@ -2588,7 +2590,7 @@
     "0x48ec0004494081e8332589faf0747d568da79faf": {
       "address": "0x48ec0004494081e8332589faf0747d568da79faf",
       "first_seen": "2026-06-16",
-      "times_seen": 4,
+      "times_seen": 5,
       "tags": [],
       "notes": "",
       "history": [
@@ -2606,11 +2608,11 @@
         {
           "date": "2026-06-17",
           "metric_category": "excluded",
-          "insider_score": 0.312,
-          "win_rate": 0.5897,
-          "dir_accuracy": 0.5355,
-          "total_pnl": 106371.97,
-          "avg_hold_h": 14.43,
+          "insider_score": 0.2689,
+          "win_rate": 0.5458,
+          "dir_accuracy": 0.4779,
+          "total_pnl": 76929.77,
+          "avg_hold_h": 15.27,
           "event_lead_notional": 0,
           "insider_likelihood": null
         }
@@ -2622,11 +2624,11 @@
       "current": {
         "date": "2026-06-17",
         "metric_category": "excluded",
-        "insider_score": 0.312,
-        "win_rate": 0.5897,
-        "dir_accuracy": 0.5355,
-        "total_pnl": 106371.97,
-        "avg_hold_h": 14.43,
+        "insider_score": 0.2689,
+        "win_rate": 0.5458,
+        "dir_accuracy": 0.4779,
+        "total_pnl": 76929.77,
+        "avg_hold_h": 15.27,
         "event_lead_notional": 0,
         "insider_likelihood": null
       },
@@ -2643,7 +2645,7 @@
     "0x96abd7547c7ef5a0c4f2bf04dcd74dd96a461b56": {
       "address": "0x96abd7547c7ef5a0c4f2bf04dcd74dd96a461b56",
       "first_seen": "2026-06-16",
-      "times_seen": 4,
+      "times_seen": 5,
       "tags": [],
       "notes": "",
       "history": [
@@ -2661,11 +2663,11 @@
         {
           "date": "2026-06-17",
           "metric_category": "excluded",
-          "insider_score": 0.2948,
-          "win_rate": 0.5164,
-          "dir_accuracy": 0.6113,
-          "total_pnl": 44492.75,
-          "avg_hold_h": 11.22,
+          "insider_score": 0.2738,
+          "win_rate": 0.4919,
+          "dir_accuracy": 0.5771,
+          "total_pnl": 39130.69,
+          "avg_hold_h": 6.31,
           "event_lead_notional": 0,
           "insider_likelihood": null
         }
@@ -2677,22 +2679,22 @@
       "current": {
         "date": "2026-06-17",
         "metric_category": "excluded",
-        "insider_score": 0.2948,
-        "win_rate": 0.5164,
-        "dir_accuracy": 0.6113,
-        "total_pnl": 44492.75,
-        "avg_hold_h": 11.22,
+        "insider_score": 0.2738,
+        "win_rate": 0.4919,
+        "dir_accuracy": 0.5771,
+        "total_pnl": 39130.69,
+        "avg_hold_h": 6.31,
         "event_lead_notional": 0,
         "insider_likelihood": null
       },
       "auto_tags": [
-        "ROI:中(10-100%)",
+        "ROI:高(100-1000%)",
         "PnL:小(<$100k)",
         "頻度:多(500+)",
         "保有:短期(<12h)",
         "方向:ショート",
         "レバ:低(<3x)",
-        "銘柄:BTC専"
+        "銘柄:BTC主"
       ]
     },
     "0x2385aae82b8ff5ec9e72f122f3462b9a1b9db98a": {
@@ -2963,7 +2965,7 @@
     "0x136c473f6d88c1ec17c2ed6b6cb273983e028458": {
       "address": "0x136c473f6d88c1ec17c2ed6b6cb273983e028458",
       "first_seen": "2026-06-16",
-      "times_seen": 4,
+      "times_seen": 5,
       "tags": [],
       "notes": "",
       "history": [
@@ -2981,10 +2983,10 @@
         {
           "date": "2026-06-17",
           "metric_category": "excluded",
-          "insider_score": 0.2761,
+          "insider_score": 0.267,
           "win_rate": 1.0,
           "dir_accuracy": 0.0,
-          "total_pnl": 90258.99,
+          "total_pnl": 100950.38,
           "avg_hold_h": null,
           "event_lead_notional": 0,
           "insider_likelihood": null
@@ -2997,10 +2999,10 @@
       "current": {
         "date": "2026-06-17",
         "metric_category": "excluded",
-        "insider_score": 0.2761,
+        "insider_score": 0.267,
         "win_rate": 1.0,
         "dir_accuracy": 0.0,
-        "total_pnl": 90258.99,
+        "total_pnl": 100950.38,
         "avg_hold_h": null,
         "event_lead_notional": 0,
         "insider_likelihood": null
@@ -3017,7 +3019,7 @@
     "0x51b97ab1e4381e22dd6cd04d6f67393964fe3bc1": {
       "address": "0x51b97ab1e4381e22dd6cd04d6f67393964fe3bc1",
       "first_seen": "2026-06-16",
-      "times_seen": 4,
+      "times_seen": 5,
       "tags": [],
       "notes": "",
       "history": [
@@ -3035,10 +3037,10 @@
         {
           "date": "2026-06-17",
           "metric_category": "excluded",
-          "insider_score": 0.275,
+          "insider_score": 0.2667,
           "win_rate": 1.0,
           "dir_accuracy": 0.0,
-          "total_pnl": 86556.86,
+          "total_pnl": 99272.2,
           "avg_hold_h": null,
           "event_lead_notional": 0,
           "insider_likelihood": null
@@ -3051,10 +3053,10 @@
       "current": {
         "date": "2026-06-17",
         "metric_category": "excluded",
-        "insider_score": 0.275,
+        "insider_score": 0.2667,
         "win_rate": 1.0,
         "dir_accuracy": 0.0,
-        "total_pnl": 86556.86,
+        "total_pnl": 99272.2,
         "avg_hold_h": null,
         "event_lead_notional": 0,
         "insider_likelihood": null
@@ -3071,7 +3073,7 @@
     "0xa46aba5584adb38d458710902f7fc6677f7ab914": {
       "address": "0xa46aba5584adb38d458710902f7fc6677f7ab914",
       "first_seen": "2026-06-16",
-      "times_seen": 4,
+      "times_seen": 5,
       "tags": [],
       "notes": "",
       "history": [
@@ -3089,7 +3091,7 @@
         {
           "date": "2026-06-17",
           "metric_category": "excluded",
-          "insider_score": 0.2703,
+          "insider_score": 0.2661,
           "win_rate": 0.7589,
           "dir_accuracy": 0.2821,
           "total_pnl": 34733.77,
@@ -3105,7 +3107,7 @@
       "current": {
         "date": "2026-06-17",
         "metric_category": "excluded",
-        "insider_score": 0.2703,
+        "insider_score": 0.2661,
         "win_rate": 0.7589,
         "dir_accuracy": 0.2821,
         "total_pnl": 34733.77,
@@ -3178,7 +3180,7 @@
     "0xf47fe5f0f6c3ebfde365e34e6d15fb2ed4c39cdb": {
       "address": "0xf47fe5f0f6c3ebfde365e34e6d15fb2ed4c39cdb",
       "first_seen": "2026-06-16",
-      "times_seen": 4,
+      "times_seen": 5,
       "tags": [],
       "notes": "",
       "history": [
@@ -3196,11 +3198,11 @@
         {
           "date": "2026-06-17",
           "metric_category": "excluded",
-          "insider_score": 0.2601,
-          "win_rate": 0.7288,
-          "dir_accuracy": 0.3105,
-          "total_pnl": 838.62,
-          "avg_hold_h": 3.33,
+          "insider_score": 0.2362,
+          "win_rate": 0.6768,
+          "dir_accuracy": 0.268,
+          "total_pnl": -395.74,
+          "avg_hold_h": 3.7,
           "event_lead_notional": 0,
           "insider_likelihood": null
         }
@@ -3212,11 +3214,11 @@
       "current": {
         "date": "2026-06-17",
         "metric_category": "excluded",
-        "insider_score": 0.2601,
-        "win_rate": 0.7288,
-        "dir_accuracy": 0.3105,
-        "total_pnl": 838.62,
-        "avg_hold_h": 3.33,
+        "insider_score": 0.2362,
+        "win_rate": 0.6768,
+        "dir_accuracy": 0.268,
+        "total_pnl": -395.74,
+        "avg_hold_h": 3.7,
         "event_lead_notional": 0,
         "insider_likelihood": null
       },
@@ -3225,7 +3227,9 @@
         "PnL:中($100k-1M)",
         "頻度:中(50+)",
         "保有:短期(<12h)",
-        "方向:無/フラット"
+        "方向:混在",
+        "レバ:中(3-10x)",
+        "銘柄:BTC主"
       ]
     },
     "0x823c6b20c03f2e962da20a0024624473e7ca53a4": {
@@ -3285,7 +3289,7 @@
     "0x7806eeb0cdfb52dbe14ed12359526eea55612cf3": {
       "address": "0x7806eeb0cdfb52dbe14ed12359526eea55612cf3",
       "first_seen": "2026-06-16",
-      "times_seen": 4,
+      "times_seen": 5,
       "tags": [],
       "notes": "",
       "history": [
@@ -3303,11 +3307,11 @@
         {
           "date": "2026-06-17",
           "metric_category": "excluded",
-          "insider_score": 0.2535,
-          "win_rate": 0.5042,
-          "dir_accuracy": 0.5083,
-          "total_pnl": 1263.56,
-          "avg_hold_h": 2.59,
+          "insider_score": 0.2383,
+          "win_rate": 0.4679,
+          "dir_accuracy": 0.4854,
+          "total_pnl": -362.15,
+          "avg_hold_h": 3.28,
           "event_lead_notional": 0,
           "insider_likelihood": null
         }
@@ -3319,11 +3323,11 @@
       "current": {
         "date": "2026-06-17",
         "metric_category": "excluded",
-        "insider_score": 0.2535,
-        "win_rate": 0.5042,
-        "dir_accuracy": 0.5083,
-        "total_pnl": 1263.56,
-        "avg_hold_h": 2.59,
+        "insider_score": 0.2383,
+        "win_rate": 0.4679,
+        "dir_accuracy": 0.4854,
+        "total_pnl": -362.15,
+        "avg_hold_h": 3.28,
         "event_lead_notional": 0,
         "insider_likelihood": null
       },
@@ -3338,7 +3342,7 @@
     "0x97b1419998d4c804336c6c22519d28277bacebd7": {
       "address": "0x97b1419998d4c804336c6c22519d28277bacebd7",
       "first_seen": "2026-06-16",
-      "times_seen": 4,
+      "times_seen": 5,
       "tags": [],
       "notes": "",
       "history": [
@@ -3359,7 +3363,7 @@
           "insider_score": 0.2502,
           "win_rate": 0.0,
           "dir_accuracy": 1.0,
-          "total_pnl": 646.38,
+          "total_pnl": 953.16,
           "avg_hold_h": null,
           "event_lead_notional": 0,
           "insider_likelihood": null
@@ -3375,7 +3379,7 @@
         "insider_score": 0.2502,
         "win_rate": 0.0,
         "dir_accuracy": 1.0,
-        "total_pnl": 646.38,
+        "total_pnl": 953.16,
         "avg_hold_h": null,
         "event_lead_notional": 0,
         "insider_likelihood": null
@@ -3445,7 +3449,7 @@
     "0x56654885ad39155235336c0ff01b3337693c3882": {
       "address": "0x56654885ad39155235336c0ff01b3337693c3882",
       "first_seen": "2026-06-16",
-      "times_seen": 4,
+      "times_seen": 5,
       "tags": [],
       "notes": "",
       "history": [
@@ -3466,7 +3470,7 @@
           "insider_score": 0.25,
           "win_rate": 0.0,
           "dir_accuracy": 1.0,
-          "total_pnl": -8207.35,
+          "total_pnl": -1095.0,
           "avg_hold_h": null,
           "event_lead_notional": 0,
           "insider_likelihood": null
@@ -3482,7 +3486,7 @@
         "insider_score": 0.25,
         "win_rate": 0.0,
         "dir_accuracy": 1.0,
-        "total_pnl": -8207.35,
+        "total_pnl": -1095.0,
         "avg_hold_h": null,
         "event_lead_notional": 0,
         "insider_likelihood": null
@@ -3659,7 +3663,7 @@
     "0x696adb8693ed15f14f8a80bb4f9fe061f58868db": {
       "address": "0x696adb8693ed15f14f8a80bb4f9fe061f58868db",
       "first_seen": "2026-06-16",
-      "times_seen": 4,
+      "times_seen": 5,
       "tags": [],
       "notes": "",
       "history": [
@@ -3677,11 +3681,11 @@
         {
           "date": "2026-06-17",
           "metric_category": "excluded",
-          "insider_score": 0.2369,
-          "win_rate": 0.252,
-          "dir_accuracy": 0.6909,
-          "total_pnl": 3935.28,
-          "avg_hold_h": 2.97,
+          "insider_score": 0.2442,
+          "win_rate": 0.1505,
+          "dir_accuracy": 0.8261,
+          "total_pnl": 228.83,
+          "avg_hold_h": 3.78,
           "event_lead_notional": 0,
           "insider_likelihood": null
         }
@@ -3693,11 +3697,11 @@
       "current": {
         "date": "2026-06-17",
         "metric_category": "excluded",
-        "insider_score": 0.2369,
-        "win_rate": 0.252,
-        "dir_accuracy": 0.6909,
-        "total_pnl": 3935.28,
-        "avg_hold_h": 2.97,
+        "insider_score": 0.2442,
+        "win_rate": 0.1505,
+        "dir_accuracy": 0.8261,
+        "total_pnl": 228.83,
+        "avg_hold_h": 3.78,
         "event_lead_notional": 0,
         "insider_likelihood": null
       },
@@ -3872,7 +3876,7 @@
     "0xfe8c8076596dd917a20a31007ced69ce339129a1": {
       "address": "0xfe8c8076596dd917a20a31007ced69ce339129a1",
       "first_seen": "2026-06-16",
-      "times_seen": 4,
+      "times_seen": 5,
       "tags": [],
       "notes": "",
       "history": [
@@ -3890,11 +3894,11 @@
         {
           "date": "2026-06-17",
           "metric_category": "excluded",
-          "insider_score": 0.2245,
+          "insider_score": 0.2296,
           "win_rate": 0.3315,
-          "dir_accuracy": 0.5667,
+          "dir_accuracy": 0.587,
           "total_pnl": -19708.6,
-          "avg_hold_h": 7.31,
+          "avg_hold_h": 2.51,
           "event_lead_notional": 0,
           "insider_likelihood": null
         }
@@ -3906,11 +3910,11 @@
       "current": {
         "date": "2026-06-17",
         "metric_category": "excluded",
-        "insider_score": 0.2245,
+        "insider_score": 0.2296,
         "win_rate": 0.3315,
-        "dir_accuracy": 0.5667,
+        "dir_accuracy": 0.587,
         "total_pnl": -19708.6,
-        "avg_hold_h": 7.31,
+        "avg_hold_h": 2.51,
         "event_lead_notional": 0,
         "insider_likelihood": null
       },
@@ -3925,7 +3929,7 @@
     "0x79f2bb1fc86a1f0592fb30aa6a369a24a7fd2361": {
       "address": "0x79f2bb1fc86a1f0592fb30aa6a369a24a7fd2361",
       "first_seen": "2026-06-16",
-      "times_seen": 4,
+      "times_seen": 5,
       "tags": [],
       "notes": "",
       "history": [
@@ -3943,10 +3947,10 @@
         {
           "date": "2026-06-17",
           "metric_category": "excluded",
-          "insider_score": 0.2239,
+          "insider_score": 0.2222,
           "win_rate": 0.8889,
           "dir_accuracy": 0.0,
-          "total_pnl": 5810.24,
+          "total_pnl": -9011.23,
           "avg_hold_h": 21.82,
           "event_lead_notional": 0,
           "insider_likelihood": null
@@ -3959,16 +3963,16 @@
       "current": {
         "date": "2026-06-17",
         "metric_category": "excluded",
-        "insider_score": 0.2239,
+        "insider_score": 0.2222,
         "win_rate": 0.8889,
         "dir_accuracy": 0.0,
-        "total_pnl": 5810.24,
+        "total_pnl": -9011.23,
         "avg_hold_h": 21.82,
         "event_lead_notional": 0,
         "insider_likelihood": null
       },
       "auto_tags": [
-        "ROI:高(100-1000%)",
+        "ROI:中(10-100%)",
         "PnL:小(<$100k)",
         "頻度:中(50+)",
         "保有:スイング(<48h)",
@@ -3980,7 +3984,7 @@
     "0x51651b81c895e654e5402a3fc371e3b60b0dfb1e": {
       "address": "0x51651b81c895e654e5402a3fc371e3b60b0dfb1e",
       "first_seen": "2026-06-16",
-      "times_seen": 4,
+      "times_seen": 5,
       "tags": [],
       "notes": "",
       "history": [
@@ -3998,11 +4002,11 @@
         {
           "date": "2026-06-17",
           "metric_category": "excluded",
-          "insider_score": 0.2161,
-          "win_rate": 0.3653,
-          "dir_accuracy": 0.4609,
-          "total_pnl": 9100.87,
-          "avg_hold_h": 5.71,
+          "insider_score": 0.2432,
+          "win_rate": 0.3863,
+          "dir_accuracy": 0.5,
+          "total_pnl": 17508.15,
+          "avg_hold_h": 8.07,
           "event_lead_notional": 102020,
           "insider_likelihood": null
         }
@@ -4014,11 +4018,11 @@
       "current": {
         "date": "2026-06-17",
         "metric_category": "excluded",
-        "insider_score": 0.2161,
-        "win_rate": 0.3653,
-        "dir_accuracy": 0.4609,
-        "total_pnl": 9100.87,
-        "avg_hold_h": 5.71,
+        "insider_score": 0.2432,
+        "win_rate": 0.3863,
+        "dir_accuracy": 0.5,
+        "total_pnl": 17508.15,
+        "avg_hold_h": 8.07,
         "event_lead_notional": 102020,
         "insider_likelihood": null
       },
@@ -4027,9 +4031,7 @@
         "PnL:中($100k-1M)",
         "頻度:多(500+)",
         "保有:短期(<12h)",
-        "方向:ロング",
-        "レバ:低(<3x)",
-        "銘柄:SOL専"
+        "方向:無/フラット"
       ]
     },
     "0x8e6f0cd563201cae5095795d691cda21d1fbed09": {
@@ -4088,7 +4090,7 @@
     "0x014bd1b946287bfdd8afe1d8833103c3baa36d74": {
       "address": "0x014bd1b946287bfdd8afe1d8833103c3baa36d74",
       "first_seen": "2026-06-16",
-      "times_seen": 4,
+      "times_seen": 5,
       "tags": [],
       "notes": "",
       "history": [
@@ -4250,7 +4252,7 @@
     "0x0c349d9b92fbd172bbb5a17a9db0a673a6a10ad3": {
       "address": "0x0c349d9b92fbd172bbb5a17a9db0a673a6a10ad3",
       "first_seen": "2026-06-16",
-      "times_seen": 4,
+      "times_seen": 5,
       "tags": [],
       "notes": "",
       "history": [
@@ -4268,11 +4270,11 @@
         {
           "date": "2026-06-17",
           "metric_category": "excluded",
-          "insider_score": 0.1498,
-          "win_rate": 0.0,
-          "dir_accuracy": 0.3032,
-          "total_pnl": -13146.59,
-          "avg_hold_h": 5.38,
+          "insider_score": 0.4401,
+          "win_rate": 0.3557,
+          "dir_accuracy": 0.526,
+          "total_pnl": 116709.15,
+          "avg_hold_h": 13.85,
           "event_lead_notional": 1092863,
           "insider_likelihood": 0.3
         }
@@ -4290,11 +4292,11 @@
       "current": {
         "date": "2026-06-17",
         "metric_category": "excluded",
-        "insider_score": 0.1498,
-        "win_rate": 0.0,
-        "dir_accuracy": 0.3032,
-        "total_pnl": -13146.59,
-        "avg_hold_h": 5.38,
+        "insider_score": 0.4401,
+        "win_rate": 0.3557,
+        "dir_accuracy": 0.526,
+        "total_pnl": 116709.15,
+        "avg_hold_h": 13.85,
         "event_lead_notional": 1092863,
         "insider_likelihood": 0.3
       },
@@ -4376,8 +4378,10 @@
         "ROI:高(100-1000%)",
         "PnL:大($1-10M)",
         "頻度:多(500+)",
-        "保有:短期(<12h)",
-        "方向:無/フラット"
+        "保有:スイング(<48h)",
+        "方向:ロング",
+        "レバ:低(<3x)",
+        "銘柄:BTC専"
       ]
     },
     "0xb8243756956e722bff5c763971b562ac551bfbd2": {
@@ -4437,7 +4441,7 @@
     "0x6f97b7de6be7b7771e975e46bae96c35e332e172": {
       "address": "0x6f97b7de6be7b7771e975e46bae96c35e332e172",
       "first_seen": "2026-06-16",
-      "times_seen": 4,
+      "times_seen": 5,
       "tags": [],
       "notes": "",
       "history": [
@@ -4458,7 +4462,7 @@
           "insider_score": 0.0978,
           "win_rate": 0.0,
           "dir_accuracy": 0.3913,
-          "total_pnl": -5777.76,
+          "total_pnl": -5936.9,
           "avg_hold_h": null,
           "event_lead_notional": 0,
           "insider_likelihood": null
@@ -4474,7 +4478,7 @@
         "insider_score": 0.0978,
         "win_rate": 0.0,
         "dir_accuracy": 0.3913,
-        "total_pnl": -5777.76,
+        "total_pnl": -5936.9,
         "avg_hold_h": null,
         "event_lead_notional": 0,
         "insider_likelihood": null
@@ -4489,7 +4493,7 @@
     "0x3d356173b633d4390ac31dff045c4e20234ebbbd": {
       "address": "0x3d356173b633d4390ac31dff045c4e20234ebbbd",
       "first_seen": "2026-06-16",
-      "times_seen": 4,
+      "times_seen": 5,
       "tags": [],
       "notes": "",
       "history": [
@@ -4507,10 +4511,10 @@
         {
           "date": "2026-06-17",
           "metric_category": "excluded",
-          "insider_score": 0.0762,
+          "insider_score": 0.0736,
           "win_rate": 0.0,
           "dir_accuracy": 0.2941,
-          "total_pnl": 9315.13,
+          "total_pnl": 150.13,
           "avg_hold_h": null,
           "event_lead_notional": 0,
           "insider_likelihood": null
@@ -4523,10 +4527,10 @@
       "current": {
         "date": "2026-06-17",
         "metric_category": "excluded",
-        "insider_score": 0.0762,
+        "insider_score": 0.0736,
         "win_rate": 0.0,
         "dir_accuracy": 0.2941,
-        "total_pnl": 9315.13,
+        "total_pnl": 150.13,
         "avg_hold_h": null,
         "event_lead_notional": 0,
         "insider_likelihood": null
@@ -4543,7 +4547,7 @@
     "0xd7a01b2fc57149507a1848ae142aa308bdbe05a2": {
       "address": "0xd7a01b2fc57149507a1848ae142aa308bdbe05a2",
       "first_seen": "2026-06-16",
-      "times_seen": 4,
+      "times_seen": 5,
       "tags": [],
       "notes": "",
       "history": [
@@ -4596,7 +4600,7 @@
     "0x8c96e5a2d770f9f2c9d2464ce4e741df0b2bca57": {
       "address": "0x8c96e5a2d770f9f2c9d2464ce4e741df0b2bca57",
       "first_seen": "2026-06-16",
-      "times_seen": 4,
+      "times_seen": 5,
       "tags": [],
       "notes": "",
       "history": [
@@ -4614,11 +4618,11 @@
         {
           "date": "2026-06-17",
           "metric_category": "excluded",
-          "insider_score": 0.0567,
-          "win_rate": 0.8431,
-          "dir_accuracy": 0.6679,
-          "total_pnl": 675982.01,
-          "avg_hold_h": 6.03,
+          "insider_score": 0.0556,
+          "win_rate": 0.7998,
+          "dir_accuracy": 0.6836,
+          "total_pnl": 459977.26,
+          "avg_hold_h": 10.98,
           "event_lead_notional": 0,
           "insider_likelihood": null
         }
@@ -4630,11 +4634,11 @@
       "current": {
         "date": "2026-06-17",
         "metric_category": "excluded",
-        "insider_score": 0.0567,
-        "win_rate": 0.8431,
-        "dir_accuracy": 0.6679,
-        "total_pnl": 675982.01,
-        "avg_hold_h": 6.03,
+        "insider_score": 0.0556,
+        "win_rate": 0.7998,
+        "dir_accuracy": 0.6836,
+        "total_pnl": 459977.26,
+        "avg_hold_h": 10.98,
         "event_lead_notional": 0,
         "insider_likelihood": null
       },
@@ -4651,7 +4655,7 @@
     "0xeff7fe671d9a7acf86f48994bc5d5161042415b6": {
       "address": "0xeff7fe671d9a7acf86f48994bc5d5161042415b6",
       "first_seen": "2026-06-16",
-      "times_seen": 4,
+      "times_seen": 5,
       "tags": [],
       "notes": "",
       "history": [
@@ -4668,39 +4672,37 @@
         },
         {
           "date": "2026-06-17",
-          "metric_category": "excluded",
-          "insider_score": 0.0552,
-          "win_rate": 0.9087,
-          "dir_accuracy": 0.5633,
-          "total_pnl": 239044.13,
-          "avg_hold_h": 10.04,
-          "event_lead_notional": 123786,
+          "metric_category": "pro_trader",
+          "insider_score": 0.4369,
+          "win_rate": 0.9618,
+          "dir_accuracy": 0.7005,
+          "total_pnl": 126721.64,
+          "avg_hold_h": 2.88,
+          "event_lead_notional": 0,
           "insider_likelihood": null
         }
       ],
       "last_seen": "2026-06-17",
-      "metric_category": "excluded",
+      "metric_category": "pro_trader",
       "insider_likelihood": null,
-      "position": "除外/低優先",
+      "position": "プロトレーダー(未精査)",
       "current": {
         "date": "2026-06-17",
-        "metric_category": "excluded",
-        "insider_score": 0.0552,
-        "win_rate": 0.9087,
-        "dir_accuracy": 0.5633,
-        "total_pnl": 239044.13,
-        "avg_hold_h": 10.04,
-        "event_lead_notional": 123786,
+        "metric_category": "pro_trader",
+        "insider_score": 0.4369,
+        "win_rate": 0.9618,
+        "dir_accuracy": 0.7005,
+        "total_pnl": 126721.64,
+        "avg_hold_h": 2.88,
+        "event_lead_notional": 0,
         "insider_likelihood": null
       },
       "auto_tags": [
         "ROI:高(100-1000%)",
         "PnL:中($100k-1M)",
-        "頻度:HFT(>3000)",
+        "頻度:多(500+)",
         "保有:短期(<12h)",
-        "方向:ショート",
-        "レバ:中(3-10x)",
-        "銘柄:BTC専"
+        "方向:無/フラット"
       ]
     },
     "0x535191d6d49922d69cc7829dbb73e48694840db7": {
@@ -4760,7 +4762,7 @@
     "0x5f2c263aa195ddad2886fc5a6b7d4f33d1a72983": {
       "address": "0x5f2c263aa195ddad2886fc5a6b7d4f33d1a72983",
       "first_seen": "2026-06-16",
-      "times_seen": 4,
+      "times_seen": 5,
       "tags": [],
       "notes": "",
       "history": [
@@ -4778,10 +4780,10 @@
         {
           "date": "2026-06-17",
           "metric_category": "excluded",
-          "insider_score": 0.0472,
+          "insider_score": 0.0481,
           "win_rate": 0.7646,
-          "dir_accuracy": 0.4949,
-          "total_pnl": 55321.33,
+          "dir_accuracy": 0.5172,
+          "total_pnl": 56476.16,
           "avg_hold_h": null,
           "event_lead_notional": 0,
           "insider_likelihood": null
@@ -4794,10 +4796,10 @@
       "current": {
         "date": "2026-06-17",
         "metric_category": "excluded",
-        "insider_score": 0.0472,
+        "insider_score": 0.0481,
         "win_rate": 0.7646,
-        "dir_accuracy": 0.4949,
-        "total_pnl": 55321.33,
+        "dir_accuracy": 0.5172,
+        "total_pnl": 56476.16,
         "avg_hold_h": null,
         "event_lead_notional": 0,
         "insider_likelihood": null
@@ -4814,7 +4816,7 @@
     "0x57f2819c959abbcf22623d5ec1d3164b213e9711": {
       "address": "0x57f2819c959abbcf22623d5ec1d3164b213e9711",
       "first_seen": "2026-06-16",
-      "times_seen": 4,
+      "times_seen": 5,
       "tags": [],
       "notes": "",
       "history": [
@@ -4832,10 +4834,10 @@
         {
           "date": "2026-06-17",
           "metric_category": "excluded",
-          "insider_score": 0.0467,
-          "win_rate": 0.0,
-          "dir_accuracy": 0.1867,
-          "total_pnl": -183986.52,
+          "insider_score": 0.1507,
+          "win_rate": 0.3808,
+          "dir_accuracy": 0.2219,
+          "total_pnl": -228024.97,
           "avg_hold_h": 2.72,
           "event_lead_notional": 0,
           "insider_likelihood": null
@@ -4848,10 +4850,10 @@
       "current": {
         "date": "2026-06-17",
         "metric_category": "excluded",
-        "insider_score": 0.0467,
-        "win_rate": 0.0,
-        "dir_accuracy": 0.1867,
-        "total_pnl": -183986.52,
+        "insider_score": 0.1507,
+        "win_rate": 0.3808,
+        "dir_accuracy": 0.2219,
+        "total_pnl": -228024.97,
         "avg_hold_h": 2.72,
         "event_lead_notional": 0,
         "insider_likelihood": null
@@ -4869,7 +4871,7 @@
     "0xa516541e599129095d14f7faf8b11ae670c837b0": {
       "address": "0xa516541e599129095d14f7faf8b11ae670c837b0",
       "first_seen": "2026-06-16",
-      "times_seen": 4,
+      "times_seen": 5,
       "tags": [],
       "notes": "",
       "history": [
@@ -4887,11 +4889,11 @@
         {
           "date": "2026-06-17",
           "metric_category": "excluded",
-          "insider_score": 0.0434,
-          "win_rate": 0.509,
-          "dir_accuracy": 0.6475,
-          "total_pnl": 26482.72,
-          "avg_hold_h": 28.23,
+          "insider_score": 0.0462,
+          "win_rate": 0.5722,
+          "dir_accuracy": 0.6588,
+          "total_pnl": 323694.02,
+          "avg_hold_h": 31.57,
           "event_lead_notional": 0,
           "insider_likelihood": null
         }
@@ -4903,11 +4905,11 @@
       "current": {
         "date": "2026-06-17",
         "metric_category": "excluded",
-        "insider_score": 0.0434,
-        "win_rate": 0.509,
-        "dir_accuracy": 0.6475,
-        "total_pnl": 26482.72,
-        "avg_hold_h": 28.23,
+        "insider_score": 0.0462,
+        "win_rate": 0.5722,
+        "dir_accuracy": 0.6588,
+        "total_pnl": 323694.02,
+        "avg_hold_h": 31.57,
         "event_lead_notional": 0,
         "insider_likelihood": null
       },
@@ -5012,7 +5014,7 @@
     "0xd67ca2c6f8bc84acf4fa4472b82a8740dc0a53ff": {
       "address": "0xd67ca2c6f8bc84acf4fa4472b82a8740dc0a53ff",
       "first_seen": "2026-06-16",
-      "times_seen": 4,
+      "times_seen": 5,
       "tags": [
         "cluster-A",
         "funder:0xdf747918"
@@ -5033,12 +5035,12 @@
         {
           "date": "2026-06-17",
           "metric_category": "excluded",
-          "insider_score": 0.0376,
-          "win_rate": 0.3863,
-          "dir_accuracy": 0.6171,
-          "total_pnl": 714126.75,
-          "avg_hold_h": 3.09,
-          "event_lead_notional": 3430574,
+          "insider_score": 0.0391,
+          "win_rate": 0.4641,
+          "dir_accuracy": 0.5778,
+          "total_pnl": 721245.58,
+          "avg_hold_h": 5.87,
+          "event_lead_notional": 2591161,
           "insider_likelihood": 0.22
         }
       ],
@@ -5056,12 +5058,12 @@
       "current": {
         "date": "2026-06-17",
         "metric_category": "excluded",
-        "insider_score": 0.0376,
-        "win_rate": 0.3863,
-        "dir_accuracy": 0.6171,
-        "total_pnl": 714126.75,
-        "avg_hold_h": 3.09,
-        "event_lead_notional": 3430574,
+        "insider_score": 0.0391,
+        "win_rate": 0.4641,
+        "dir_accuracy": 0.5778,
+        "total_pnl": 721245.58,
+        "avg_hold_h": 5.87,
+        "event_lead_notional": 2591161,
         "insider_likelihood": 0.22
       },
       "labels": [
@@ -5214,7 +5216,7 @@
     "0x8be0b9c4dbfb90f47fb94e8968dce08d3152326c": {
       "address": "0x8be0b9c4dbfb90f47fb94e8968dce08d3152326c",
       "first_seen": "2026-06-16",
-      "times_seen": 4,
+      "times_seen": 5,
       "tags": [],
       "notes": "",
       "history": [
@@ -6060,7 +6062,2451 @@
         "レバ:中(3-10x)",
         "銘柄:マルチ"
       ]
+    },
+    "0xc6758a779bccee1ef0190dbe8292fdf44076795d": {
+      "address": "0xc6758a779bccee1ef0190dbe8292fdf44076795d",
+      "first_seen": "2026-06-17",
+      "times_seen": 1,
+      "tags": [],
+      "notes": "",
+      "history": [
+        {
+          "date": "2026-06-17",
+          "metric_category": "excluded",
+          "insider_score": 0.5466,
+          "win_rate": 1.0,
+          "dir_accuracy": 0.0,
+          "total_pnl": 1761487.68,
+          "avg_hold_h": null,
+          "event_lead_notional": 0,
+          "insider_likelihood": null
+        }
+      ],
+      "last_seen": "2026-06-17",
+      "metric_category": "excluded",
+      "insider_likelihood": null,
+      "position": "除外/低優先",
+      "auto_tags": [
+        "ROI:超高(>1000%)",
+        "PnL:大($1-10M)",
+        "頻度:中(50+)",
+        "方向:ショート",
+        "レバ:低(<3x)",
+        "銘柄:BTC主"
+      ],
+      "current": {
+        "date": "2026-06-17",
+        "metric_category": "excluded",
+        "insider_score": 0.5466,
+        "win_rate": 1.0,
+        "dir_accuracy": 0.0,
+        "total_pnl": 1761487.68,
+        "avg_hold_h": null,
+        "event_lead_notional": 0,
+        "insider_likelihood": null
+      }
+    },
+    "0x99b1098d9d50aa076f78bd26ab22e6abd3710729": {
+      "address": "0x99b1098d9d50aa076f78bd26ab22e6abd3710729",
+      "first_seen": "2026-06-17",
+      "times_seen": 1,
+      "tags": [],
+      "notes": "",
+      "history": [
+        {
+          "date": "2026-06-17",
+          "metric_category": "excluded",
+          "insider_score": 0.5239,
+          "win_rate": 0.8957,
+          "dir_accuracy": 0.0,
+          "total_pnl": 1781588.51,
+          "avg_hold_h": null,
+          "event_lead_notional": 0,
+          "insider_likelihood": null
+        }
+      ],
+      "last_seen": "2026-06-17",
+      "metric_category": "excluded",
+      "insider_likelihood": null,
+      "position": "除外/低優先",
+      "auto_tags": [
+        "ROI:超高(>1000%)",
+        "PnL:メガ(>$10M)",
+        "頻度:多(500+)",
+        "方向:無/フラット",
+        "資金:大型出金疑い(50x+)"
+      ],
+      "current": {
+        "date": "2026-06-17",
+        "metric_category": "excluded",
+        "insider_score": 0.5239,
+        "win_rate": 0.8957,
+        "dir_accuracy": 0.0,
+        "total_pnl": 1781588.51,
+        "avg_hold_h": null,
+        "event_lead_notional": 0,
+        "insider_likelihood": null
+      }
+    },
+    "0x0a7097d919b7421ecc03aed3aac68a13e7ef1f46": {
+      "address": "0x0a7097d919b7421ecc03aed3aac68a13e7ef1f46",
+      "first_seen": "2026-06-17",
+      "times_seen": 1,
+      "tags": [],
+      "notes": "",
+      "history": [
+        {
+          "date": "2026-06-17",
+          "metric_category": "pro_trader",
+          "insider_score": 0.5064,
+          "win_rate": 0.6697,
+          "dir_accuracy": 0.6676,
+          "total_pnl": 153059.49,
+          "avg_hold_h": 31.82,
+          "event_lead_notional": 799334,
+          "insider_likelihood": null
+        }
+      ],
+      "last_seen": "2026-06-17",
+      "metric_category": "pro_trader",
+      "insider_likelihood": null,
+      "position": "プロトレーダー(未精査)",
+      "auto_tags": [
+        "ROI:高(100-1000%)",
+        "PnL:大($1-10M)",
+        "頻度:多(500+)",
+        "保有:スイング(<48h)",
+        "方向:無/フラット",
+        "資金:大型出金疑い(50x+)"
+      ],
+      "current": {
+        "date": "2026-06-17",
+        "metric_category": "pro_trader",
+        "insider_score": 0.5064,
+        "win_rate": 0.6697,
+        "dir_accuracy": 0.6676,
+        "total_pnl": 153059.49,
+        "avg_hold_h": 31.82,
+        "event_lead_notional": 799334,
+        "insider_likelihood": null
+      }
+    },
+    "0x2a304155f0c751217f2bedc1769be8398151eca4": {
+      "address": "0x2a304155f0c751217f2bedc1769be8398151eca4",
+      "first_seen": "2026-06-17",
+      "times_seen": 1,
+      "tags": [],
+      "notes": "",
+      "history": [
+        {
+          "date": "2026-06-17",
+          "metric_category": "excluded",
+          "insider_score": 0.5003,
+          "win_rate": 1.0,
+          "dir_accuracy": 1.0,
+          "total_pnl": 1626.74,
+          "avg_hold_h": null,
+          "event_lead_notional": 0,
+          "insider_likelihood": null
+        }
+      ],
+      "last_seen": "2026-06-17",
+      "metric_category": "excluded",
+      "insider_likelihood": null,
+      "position": "除外/低優先",
+      "auto_tags": [
+        "ROI:高(100-1000%)",
+        "PnL:中($100k-1M)",
+        "頻度:少(<50)",
+        "方向:無/フラット"
+      ],
+      "current": {
+        "date": "2026-06-17",
+        "metric_category": "excluded",
+        "insider_score": 0.5003,
+        "win_rate": 1.0,
+        "dir_accuracy": 1.0,
+        "total_pnl": 1626.74,
+        "avg_hold_h": null,
+        "event_lead_notional": 0,
+        "insider_likelihood": null
+      }
+    },
+    "0xb123cd952875d8014efc7a9160a7531a5fe8f5ca": {
+      "address": "0xb123cd952875d8014efc7a9160a7531a5fe8f5ca",
+      "first_seen": "2026-06-17",
+      "times_seen": 1,
+      "tags": [],
+      "notes": "",
+      "history": [
+        {
+          "date": "2026-06-17",
+          "metric_category": "excluded",
+          "insider_score": 0.5,
+          "win_rate": 1.0,
+          "dir_accuracy": 1.0,
+          "total_pnl": 219.18,
+          "avg_hold_h": 0.61,
+          "event_lead_notional": 0,
+          "insider_likelihood": null
+        }
+      ],
+      "last_seen": "2026-06-17",
+      "metric_category": "excluded",
+      "insider_likelihood": null,
+      "position": "除外/低優先",
+      "auto_tags": [
+        "ROI:超高(>1000%)",
+        "PnL:中($100k-1M)",
+        "頻度:少(<50)",
+        "保有:スキャルプ(<2h)",
+        "方向:無/フラット",
+        "資金:出金疑い(10x+)"
+      ],
+      "current": {
+        "date": "2026-06-17",
+        "metric_category": "excluded",
+        "insider_score": 0.5,
+        "win_rate": 1.0,
+        "dir_accuracy": 1.0,
+        "total_pnl": 219.18,
+        "avg_hold_h": 0.61,
+        "event_lead_notional": 0,
+        "insider_likelihood": null
+      }
+    },
+    "0x159d148acd970eaf88bed8feac4ad6d38e7c3665": {
+      "address": "0x159d148acd970eaf88bed8feac4ad6d38e7c3665",
+      "first_seen": "2026-06-17",
+      "times_seen": 1,
+      "tags": [],
+      "notes": "",
+      "history": [
+        {
+          "date": "2026-06-17",
+          "metric_category": "excluded",
+          "insider_score": 0.5,
+          "win_rate": 1.0,
+          "dir_accuracy": 1.0,
+          "total_pnl": 0.23,
+          "avg_hold_h": 0.01,
+          "event_lead_notional": 0,
+          "insider_likelihood": null
+        }
+      ],
+      "last_seen": "2026-06-17",
+      "metric_category": "excluded",
+      "insider_likelihood": null,
+      "position": "除外/低優先",
+      "auto_tags": [
+        "ROI:高(100-1000%)",
+        "PnL:小(<$100k)",
+        "頻度:少(<50)",
+        "保有:スキャルプ(<2h)",
+        "方向:無/フラット"
+      ],
+      "current": {
+        "date": "2026-06-17",
+        "metric_category": "excluded",
+        "insider_score": 0.5,
+        "win_rate": 1.0,
+        "dir_accuracy": 1.0,
+        "total_pnl": 0.23,
+        "avg_hold_h": 0.01,
+        "event_lead_notional": 0,
+        "insider_likelihood": null
+      }
+    },
+    "0xa4be91acc74feabab71b8878b66b8f5277212520": {
+      "address": "0xa4be91acc74feabab71b8878b66b8f5277212520",
+      "first_seen": "2026-06-17",
+      "times_seen": 1,
+      "tags": [],
+      "notes": "",
+      "history": [
+        {
+          "date": "2026-06-17",
+          "metric_category": "pro_trader",
+          "insider_score": 0.4503,
+          "win_rate": 0.9663,
+          "dir_accuracy": 0.7835,
+          "total_pnl": 76339.34,
+          "avg_hold_h": null,
+          "event_lead_notional": 0,
+          "insider_likelihood": null
+        }
+      ],
+      "last_seen": "2026-06-17",
+      "metric_category": "pro_trader",
+      "insider_likelihood": null,
+      "position": "プロトレーダー(未精査)",
+      "auto_tags": [
+        "ROI:高(100-1000%)",
+        "PnL:大($1-10M)",
+        "頻度:中(50+)",
+        "方向:ショート",
+        "レバ:中(3-10x)",
+        "銘柄:BTC主",
+        "資金:出金疑い(10x+)"
+      ],
+      "current": {
+        "date": "2026-06-17",
+        "metric_category": "pro_trader",
+        "insider_score": 0.4503,
+        "win_rate": 0.9663,
+        "dir_accuracy": 0.7835,
+        "total_pnl": 76339.34,
+        "avg_hold_h": null,
+        "event_lead_notional": 0,
+        "insider_likelihood": null
+      }
+    },
+    "0x9a377ec81c1bd51d31170bf8d7a7b6c5fbaded9b": {
+      "address": "0x9a377ec81c1bd51d31170bf8d7a7b6c5fbaded9b",
+      "first_seen": "2026-06-17",
+      "times_seen": 1,
+      "tags": [],
+      "notes": "",
+      "history": [
+        {
+          "date": "2026-06-17",
+          "metric_category": "pro_trader",
+          "insider_score": 0.4462,
+          "win_rate": 1.0,
+          "dir_accuracy": 0.7812,
+          "total_pnl": 5362.42,
+          "avg_hold_h": 0.53,
+          "event_lead_notional": 0,
+          "insider_likelihood": null
+        }
+      ],
+      "last_seen": "2026-06-17",
+      "metric_category": "pro_trader",
+      "insider_likelihood": null,
+      "position": "プロトレーダー(未精査)",
+      "auto_tags": [
+        "ROI:高(100-1000%)",
+        "PnL:中($100k-1M)",
+        "頻度:中(50+)",
+        "保有:スキャルプ(<2h)",
+        "方向:無/フラット",
+        "資金:出金疑い(10x+)"
+      ],
+      "current": {
+        "date": "2026-06-17",
+        "metric_category": "pro_trader",
+        "insider_score": 0.4462,
+        "win_rate": 1.0,
+        "dir_accuracy": 0.7812,
+        "total_pnl": 5362.42,
+        "avg_hold_h": 0.53,
+        "event_lead_notional": 0,
+        "insider_likelihood": null
+      }
+    },
+    "0x321f7193eadbacb67eff00f76b975a487e5b1c84": {
+      "address": "0x321f7193eadbacb67eff00f76b975a487e5b1c84",
+      "first_seen": "2026-06-17",
+      "times_seen": 1,
+      "tags": [],
+      "notes": "",
+      "history": [
+        {
+          "date": "2026-06-17",
+          "metric_category": "excluded",
+          "insider_score": 0.4402,
+          "win_rate": 1.0,
+          "dir_accuracy": 0.4713,
+          "total_pnl": 430002.34,
+          "avg_hold_h": 39.76,
+          "event_lead_notional": 0,
+          "insider_likelihood": null
+        }
+      ],
+      "last_seen": "2026-06-17",
+      "metric_category": "excluded",
+      "insider_likelihood": null,
+      "position": "除外/低優先",
+      "auto_tags": [
+        "ROI:高(100-1000%)",
+        "PnL:中($100k-1M)",
+        "頻度:多(500+)",
+        "保有:スイング(<48h)",
+        "方向:ロング",
+        "レバ:低(<3x)",
+        "銘柄:BTC主"
+      ],
+      "current": {
+        "date": "2026-06-17",
+        "metric_category": "excluded",
+        "insider_score": 0.4402,
+        "win_rate": 1.0,
+        "dir_accuracy": 0.4713,
+        "total_pnl": 430002.34,
+        "avg_hold_h": 39.76,
+        "event_lead_notional": 0,
+        "insider_likelihood": null
+      }
+    },
+    "0xf211dd718de25bcad861e53a7b10dd5b3b9d5c6c": {
+      "address": "0xf211dd718de25bcad861e53a7b10dd5b3b9d5c6c",
+      "first_seen": "2026-06-17",
+      "times_seen": 1,
+      "tags": [],
+      "notes": "",
+      "history": [
+        {
+          "date": "2026-06-17",
+          "metric_category": "insider_suspect",
+          "insider_score": 0.4359,
+          "win_rate": 0.8051,
+          "dir_accuracy": 0.8896,
+          "total_pnl": 72642.04,
+          "avg_hold_h": 39.61,
+          "event_lead_notional": 0,
+          "insider_likelihood": null
+        }
+      ],
+      "last_seen": "2026-06-17",
+      "metric_category": "insider_suspect",
+      "insider_likelihood": null,
+      "position": "要再検証(数値疑惑・未レビュー)",
+      "auto_tags": [
+        "ROI:高(100-1000%)",
+        "PnL:小(<$100k)",
+        "頻度:中(50+)",
+        "保有:スイング(<48h)",
+        "方向:ショート",
+        "レバ:中(3-10x)",
+        "銘柄:BTC専"
+      ],
+      "current": {
+        "date": "2026-06-17",
+        "metric_category": "insider_suspect",
+        "insider_score": 0.4359,
+        "win_rate": 0.8051,
+        "dir_accuracy": 0.8896,
+        "total_pnl": 72642.04,
+        "avg_hold_h": 39.61,
+        "event_lead_notional": 0,
+        "insider_likelihood": null
+      }
+    },
+    "0x5421e7c6ce37b6c5a6a428018a451071a6fd3ab2": {
+      "address": "0x5421e7c6ce37b6c5a6a428018a451071a6fd3ab2",
+      "first_seen": "2026-06-17",
+      "times_seen": 1,
+      "tags": [],
+      "notes": "",
+      "history": [
+        {
+          "date": "2026-06-17",
+          "metric_category": "excluded",
+          "insider_score": 0.4224,
+          "win_rate": 0.8836,
+          "dir_accuracy": 0.5103,
+          "total_pnl": 95744.78,
+          "avg_hold_h": 15.06,
+          "event_lead_notional": 316049,
+          "insider_likelihood": null
+        }
+      ],
+      "last_seen": "2026-06-17",
+      "metric_category": "excluded",
+      "insider_likelihood": null,
+      "position": "除外/低優先",
+      "auto_tags": [
+        "ROI:高(100-1000%)",
+        "PnL:小(<$100k)",
+        "頻度:多(500+)",
+        "保有:スイング(<48h)",
+        "方向:無/フラット"
+      ],
+      "current": {
+        "date": "2026-06-17",
+        "metric_category": "excluded",
+        "insider_score": 0.4224,
+        "win_rate": 0.8836,
+        "dir_accuracy": 0.5103,
+        "total_pnl": 95744.78,
+        "avg_hold_h": 15.06,
+        "event_lead_notional": 316049,
+        "insider_likelihood": null
+      }
+    },
+    "0xcdbd79aafd6d0618e3fc6aecb11e1a61908a9169": {
+      "address": "0xcdbd79aafd6d0618e3fc6aecb11e1a61908a9169",
+      "first_seen": "2026-06-17",
+      "times_seen": 1,
+      "tags": [],
+      "notes": "",
+      "history": [
+        {
+          "date": "2026-06-17",
+          "metric_category": "excluded",
+          "insider_score": 0.4143,
+          "win_rate": 0.6697,
+          "dir_accuracy": 0.3577,
+          "total_pnl": 50337.55,
+          "avg_hold_h": 56.66,
+          "event_lead_notional": 813781,
+          "insider_likelihood": null
+        }
+      ],
+      "last_seen": "2026-06-17",
+      "metric_category": "excluded",
+      "insider_likelihood": null,
+      "position": "除外/低優先",
+      "auto_tags": [
+        "ROI:中(10-100%)",
+        "PnL:小(<$100k)",
+        "頻度:中(50+)",
+        "保有:長期(>48h)",
+        "方向:ショート",
+        "レバ:中(3-10x)",
+        "銘柄:BTC専"
+      ],
+      "current": {
+        "date": "2026-06-17",
+        "metric_category": "excluded",
+        "insider_score": 0.4143,
+        "win_rate": 0.6697,
+        "dir_accuracy": 0.3577,
+        "total_pnl": 50337.55,
+        "avg_hold_h": 56.66,
+        "event_lead_notional": 813781,
+        "insider_likelihood": null
+      }
+    },
+    "0x920abbd8a5f5d39e87ed802d73e5aa902dc71d89": {
+      "address": "0x920abbd8a5f5d39e87ed802d73e5aa902dc71d89",
+      "first_seen": "2026-06-17",
+      "times_seen": 1,
+      "tags": [],
+      "notes": "",
+      "history": [
+        {
+          "date": "2026-06-17",
+          "metric_category": "excluded",
+          "insider_score": 0.4064,
+          "win_rate": 1.0,
+          "dir_accuracy": 0.625,
+          "total_pnl": 952.0,
+          "avg_hold_h": 44.82,
+          "event_lead_notional": 0,
+          "insider_likelihood": null
+        }
+      ],
+      "last_seen": "2026-06-17",
+      "metric_category": "excluded",
+      "insider_likelihood": null,
+      "position": "除外/低優先",
+      "auto_tags": [
+        "ROI:高(100-1000%)",
+        "PnL:中($100k-1M)",
+        "頻度:少(<50)",
+        "保有:スイング(<48h)",
+        "方向:無/フラット"
+      ],
+      "current": {
+        "date": "2026-06-17",
+        "metric_category": "excluded",
+        "insider_score": 0.4064,
+        "win_rate": 1.0,
+        "dir_accuracy": 0.625,
+        "total_pnl": 952.0,
+        "avg_hold_h": 44.82,
+        "event_lead_notional": 0,
+        "insider_likelihood": null
+      }
+    },
+    "0x71b117d68974aa4c5615669ae70e8e13ce7479c8": {
+      "address": "0x71b117d68974aa4c5615669ae70e8e13ce7479c8",
+      "first_seen": "2026-06-17",
+      "times_seen": 1,
+      "tags": [],
+      "notes": "",
+      "history": [
+        {
+          "date": "2026-06-17",
+          "metric_category": "pro_trader",
+          "insider_score": 0.3998,
+          "win_rate": 0.8852,
+          "dir_accuracy": 0.674,
+          "total_pnl": 59186.87,
+          "avg_hold_h": 6.97,
+          "event_lead_notional": 0,
+          "insider_likelihood": null
+        }
+      ],
+      "last_seen": "2026-06-17",
+      "metric_category": "pro_trader",
+      "insider_likelihood": null,
+      "position": "プロトレーダー(未精査)",
+      "auto_tags": [
+        "ROI:高(100-1000%)",
+        "PnL:中($100k-1M)",
+        "頻度:多(500+)",
+        "保有:短期(<12h)",
+        "方向:無/フラット",
+        "資金:出金疑い(10x+)"
+      ],
+      "current": {
+        "date": "2026-06-17",
+        "metric_category": "pro_trader",
+        "insider_score": 0.3998,
+        "win_rate": 0.8852,
+        "dir_accuracy": 0.674,
+        "total_pnl": 59186.87,
+        "avg_hold_h": 6.97,
+        "event_lead_notional": 0,
+        "insider_likelihood": null
+      }
+    },
+    "0x48b1a8f92e403bc9dc7500b9cbcc4cadf35c7ac0": {
+      "address": "0x48b1a8f92e403bc9dc7500b9cbcc4cadf35c7ac0",
+      "first_seen": "2026-06-17",
+      "times_seen": 1,
+      "tags": [],
+      "notes": "",
+      "history": [
+        {
+          "date": "2026-06-17",
+          "metric_category": "pro_trader",
+          "insider_score": 0.3762,
+          "win_rate": 0.8529,
+          "dir_accuracy": 0.6175,
+          "total_pnl": 51356.0,
+          "avg_hold_h": 6.95,
+          "event_lead_notional": 0,
+          "insider_likelihood": null
+        }
+      ],
+      "last_seen": "2026-06-17",
+      "metric_category": "pro_trader",
+      "insider_likelihood": null,
+      "position": "プロトレーダー(未精査)",
+      "auto_tags": [
+        "ROI:中(10-100%)",
+        "PnL:中($100k-1M)",
+        "頻度:多(500+)",
+        "保有:短期(<12h)",
+        "方向:無/フラット"
+      ],
+      "current": {
+        "date": "2026-06-17",
+        "metric_category": "pro_trader",
+        "insider_score": 0.3762,
+        "win_rate": 0.8529,
+        "dir_accuracy": 0.6175,
+        "total_pnl": 51356.0,
+        "avg_hold_h": 6.95,
+        "event_lead_notional": 0,
+        "insider_likelihood": null
+      }
+    },
+    "0x2f394ae1ca45071bc222e7124b5d125637942be2": {
+      "address": "0x2f394ae1ca45071bc222e7124b5d125637942be2",
+      "first_seen": "2026-06-17",
+      "times_seen": 1,
+      "tags": [],
+      "notes": "",
+      "history": [
+        {
+          "date": "2026-06-17",
+          "metric_category": "excluded",
+          "insider_score": 0.3747,
+          "win_rate": 0.5154,
+          "dir_accuracy": 0.2846,
+          "total_pnl": -5354.34,
+          "avg_hold_h": 4.92,
+          "event_lead_notional": 954577,
+          "insider_likelihood": null
+        }
+      ],
+      "last_seen": "2026-06-17",
+      "metric_category": "excluded",
+      "insider_likelihood": null,
+      "position": "除外/低優先",
+      "auto_tags": [
+        "ROI:中(10-100%)",
+        "PnL:中($100k-1M)",
+        "頻度:多(500+)",
+        "保有:短期(<12h)",
+        "方向:無/フラット",
+        "資金:大型出金疑い(50x+)"
+      ],
+      "current": {
+        "date": "2026-06-17",
+        "metric_category": "excluded",
+        "insider_score": 0.3747,
+        "win_rate": 0.5154,
+        "dir_accuracy": 0.2846,
+        "total_pnl": -5354.34,
+        "avg_hold_h": 4.92,
+        "event_lead_notional": 954577,
+        "insider_likelihood": null
+      }
+    },
+    "0x6bea81d7a0c5939a5ce5552e125ab57216cc597f": {
+      "address": "0x6bea81d7a0c5939a5ce5552e125ab57216cc597f",
+      "first_seen": "2026-06-17",
+      "times_seen": 1,
+      "tags": [],
+      "notes": "",
+      "history": [
+        {
+          "date": "2026-06-17",
+          "metric_category": "excluded",
+          "insider_score": 0.3663,
+          "win_rate": 0.5677,
+          "dir_accuracy": 0.5275,
+          "total_pnl": 549027.13,
+          "avg_hold_h": 5.84,
+          "event_lead_notional": 0,
+          "insider_likelihood": null
+        }
+      ],
+      "last_seen": "2026-06-17",
+      "metric_category": "excluded",
+      "insider_likelihood": null,
+      "position": "除外/低優先",
+      "auto_tags": [
+        "ROI:高(100-1000%)",
+        "PnL:大($1-10M)",
+        "頻度:多(500+)",
+        "保有:短期(<12h)",
+        "方向:ショート",
+        "レバ:中(3-10x)",
+        "銘柄:BTC主",
+        "資金:大型出金疑い(50x+)"
+      ],
+      "current": {
+        "date": "2026-06-17",
+        "metric_category": "excluded",
+        "insider_score": 0.3663,
+        "win_rate": 0.5677,
+        "dir_accuracy": 0.5275,
+        "total_pnl": 549027.13,
+        "avg_hold_h": 5.84,
+        "event_lead_notional": 0,
+        "insider_likelihood": null
+      }
+    },
+    "0x9bd2ee53f6c6aa778209b8673f6c7df754830c88": {
+      "address": "0x9bd2ee53f6c6aa778209b8673f6c7df754830c88",
+      "first_seen": "2026-06-17",
+      "times_seen": 1,
+      "tags": [],
+      "notes": "",
+      "history": [
+        {
+          "date": "2026-06-17",
+          "metric_category": "excluded",
+          "insider_score": 0.3323,
+          "win_rate": 0.1367,
+          "dir_accuracy": 0.4544,
+          "total_pnl": -42943.21,
+          "avg_hold_h": 2.94,
+          "event_lead_notional": 1008316,
+          "insider_likelihood": null
+        }
+      ],
+      "last_seen": "2026-06-17",
+      "metric_category": "excluded",
+      "insider_likelihood": null,
+      "position": "除外/低優先",
+      "auto_tags": [
+        "ROI:高(100-1000%)",
+        "PnL:中($100k-1M)",
+        "頻度:多(500+)",
+        "保有:短期(<12h)",
+        "方向:無/フラット"
+      ],
+      "current": {
+        "date": "2026-06-17",
+        "metric_category": "excluded",
+        "insider_score": 0.3323,
+        "win_rate": 0.1367,
+        "dir_accuracy": 0.4544,
+        "total_pnl": -42943.21,
+        "avg_hold_h": 2.94,
+        "event_lead_notional": 1008316,
+        "insider_likelihood": null
+      }
+    },
+    "0x935729ae51eef975ccdeb481d513c75986227bfd": {
+      "address": "0x935729ae51eef975ccdeb481d513c75986227bfd",
+      "first_seen": "2026-06-17",
+      "times_seen": 1,
+      "tags": [],
+      "notes": "",
+      "history": [
+        {
+          "date": "2026-06-17",
+          "metric_category": "excluded",
+          "insider_score": 0.3219,
+          "win_rate": 0.4804,
+          "dir_accuracy": 0.807,
+          "total_pnl": -5180.66,
+          "avg_hold_h": 9.88,
+          "event_lead_notional": 0,
+          "insider_likelihood": null
+        }
+      ],
+      "last_seen": "2026-06-17",
+      "metric_category": "excluded",
+      "insider_likelihood": null,
+      "position": "除外/低優先",
+      "auto_tags": [
+        "ROI:超高(>1000%)",
+        "PnL:大($1-10M)",
+        "頻度:中(50+)",
+        "保有:短期(<12h)",
+        "方向:無/フラット",
+        "資金:出金疑い(10x+)"
+      ],
+      "current": {
+        "date": "2026-06-17",
+        "metric_category": "excluded",
+        "insider_score": 0.3219,
+        "win_rate": 0.4804,
+        "dir_accuracy": 0.807,
+        "total_pnl": -5180.66,
+        "avg_hold_h": 9.88,
+        "event_lead_notional": 0,
+        "insider_likelihood": null
+      }
+    },
+    "0x6a2cb9b34ba6ca342ec787b70cd1878e71810231": {
+      "address": "0x6a2cb9b34ba6ca342ec787b70cd1878e71810231",
+      "first_seen": "2026-06-17",
+      "times_seen": 1,
+      "tags": [],
+      "notes": "",
+      "history": [
+        {
+          "date": "2026-06-17",
+          "metric_category": "excluded",
+          "insider_score": 0.3215,
+          "win_rate": 1.0,
+          "dir_accuracy": 0.2857,
+          "total_pnl": 366.4,
+          "avg_hold_h": 4.96,
+          "event_lead_notional": 0,
+          "insider_likelihood": null
+        }
+      ],
+      "last_seen": "2026-06-17",
+      "metric_category": "excluded",
+      "insider_likelihood": null,
+      "position": "除外/低優先",
+      "auto_tags": [
+        "ROI:中(10-100%)",
+        "PnL:小(<$100k)",
+        "頻度:少(<50)",
+        "保有:短期(<12h)",
+        "方向:無/フラット"
+      ],
+      "current": {
+        "date": "2026-06-17",
+        "metric_category": "excluded",
+        "insider_score": 0.3215,
+        "win_rate": 1.0,
+        "dir_accuracy": 0.2857,
+        "total_pnl": 366.4,
+        "avg_hold_h": 4.96,
+        "event_lead_notional": 0,
+        "insider_likelihood": null
+      }
+    },
+    "0xa9f12ca1b27941c05e3998279c06b81b8e33ca81": {
+      "address": "0xa9f12ca1b27941c05e3998279c06b81b8e33ca81",
+      "first_seen": "2026-06-17",
+      "times_seen": 1,
+      "tags": [],
+      "notes": "",
+      "history": [
+        {
+          "date": "2026-06-17",
+          "metric_category": "excluded",
+          "insider_score": 0.3158,
+          "win_rate": 0.7647,
+          "dir_accuracy": 0.4947,
+          "total_pnl": 5821.16,
+          "avg_hold_h": 12.19,
+          "event_lead_notional": 0,
+          "insider_likelihood": null
+        }
+      ],
+      "last_seen": "2026-06-17",
+      "metric_category": "excluded",
+      "insider_likelihood": null,
+      "position": "除外/低優先",
+      "auto_tags": [
+        "ROI:超高(>1000%)",
+        "PnL:小(<$100k)",
+        "頻度:中(50+)",
+        "保有:スイング(<48h)",
+        "方向:無/フラット"
+      ],
+      "current": {
+        "date": "2026-06-17",
+        "metric_category": "excluded",
+        "insider_score": 0.3158,
+        "win_rate": 0.7647,
+        "dir_accuracy": 0.4947,
+        "total_pnl": 5821.16,
+        "avg_hold_h": 12.19,
+        "event_lead_notional": 0,
+        "insider_likelihood": null
+      }
+    },
+    "0x473717d2be2084d64e888d29056e36577f3d9469": {
+      "address": "0x473717d2be2084d64e888d29056e36577f3d9469",
+      "first_seen": "2026-06-17",
+      "times_seen": 1,
+      "tags": [],
+      "notes": "",
+      "history": [
+        {
+          "date": "2026-06-17",
+          "metric_category": "excluded",
+          "insider_score": 0.3069,
+          "win_rate": 0.35,
+          "dir_accuracy": 0.8769,
+          "total_pnl": 936.52,
+          "avg_hold_h": 3.65,
+          "event_lead_notional": 0,
+          "insider_likelihood": null
+        }
+      ],
+      "last_seen": "2026-06-17",
+      "metric_category": "excluded",
+      "insider_likelihood": null,
+      "position": "除外/低優先",
+      "auto_tags": [
+        "ROI:超高(>1000%)",
+        "PnL:小(<$100k)",
+        "頻度:中(50+)",
+        "保有:短期(<12h)",
+        "方向:無/フラット"
+      ],
+      "current": {
+        "date": "2026-06-17",
+        "metric_category": "excluded",
+        "insider_score": 0.3069,
+        "win_rate": 0.35,
+        "dir_accuracy": 0.8769,
+        "total_pnl": 936.52,
+        "avg_hold_h": 3.65,
+        "event_lead_notional": 0,
+        "insider_likelihood": null
+      }
+    },
+    "0x1c75b586b9779532f65c32487af40286a0d88d88": {
+      "address": "0x1c75b586b9779532f65c32487af40286a0d88d88",
+      "first_seen": "2026-06-17",
+      "times_seen": 1,
+      "tags": [],
+      "notes": "",
+      "history": [
+        {
+          "date": "2026-06-17",
+          "metric_category": "excluded",
+          "insider_score": 0.3057,
+          "win_rate": 0.2222,
+          "dir_accuracy": 1.0,
+          "total_pnl": 779.21,
+          "avg_hold_h": 0.23,
+          "event_lead_notional": 0,
+          "insider_likelihood": null
+        }
+      ],
+      "last_seen": "2026-06-17",
+      "metric_category": "excluded",
+      "insider_likelihood": null,
+      "position": "除外/低優先",
+      "auto_tags": [
+        "ROI:超高(>1000%)",
+        "PnL:中($100k-1M)",
+        "頻度:中(50+)",
+        "保有:スキャルプ(<2h)",
+        "方向:無/フラット"
+      ],
+      "current": {
+        "date": "2026-06-17",
+        "metric_category": "excluded",
+        "insider_score": 0.3057,
+        "win_rate": 0.2222,
+        "dir_accuracy": 1.0,
+        "total_pnl": 779.21,
+        "avg_hold_h": 0.23,
+        "event_lead_notional": 0,
+        "insider_likelihood": null
+      }
+    },
+    "0x55ee7523bcc783e774c3a8b1004b5abdb735ac5d": {
+      "address": "0x55ee7523bcc783e774c3a8b1004b5abdb735ac5d",
+      "first_seen": "2026-06-17",
+      "times_seen": 1,
+      "tags": [],
+      "notes": "",
+      "history": [
+        {
+          "date": "2026-06-17",
+          "metric_category": "excluded",
+          "insider_score": 0.2893,
+          "win_rate": 0.54,
+          "dir_accuracy": 0.6167,
+          "total_pnl": 901.58,
+          "avg_hold_h": 11.81,
+          "event_lead_notional": 0,
+          "insider_likelihood": null
+        }
+      ],
+      "last_seen": "2026-06-17",
+      "metric_category": "excluded",
+      "insider_likelihood": null,
+      "position": "除外/低優先",
+      "auto_tags": [
+        "ROI:高(100-1000%)",
+        "PnL:大($1-10M)",
+        "頻度:中(50+)",
+        "保有:短期(<12h)",
+        "方向:無/フラット",
+        "資金:出金疑い(10x+)"
+      ],
+      "current": {
+        "date": "2026-06-17",
+        "metric_category": "excluded",
+        "insider_score": 0.2893,
+        "win_rate": 0.54,
+        "dir_accuracy": 0.6167,
+        "total_pnl": 901.58,
+        "avg_hold_h": 11.81,
+        "event_lead_notional": 0,
+        "insider_likelihood": null
+      }
+    },
+    "0x9f6fed26339789725b0751f57aeac23367ceee57": {
+      "address": "0x9f6fed26339789725b0751f57aeac23367ceee57",
+      "first_seen": "2026-06-17",
+      "times_seen": 1,
+      "tags": [],
+      "notes": "",
+      "history": [
+        {
+          "date": "2026-06-17",
+          "metric_category": "excluded",
+          "insider_score": 0.2889,
+          "win_rate": 0.3719,
+          "dir_accuracy": 0.6416,
+          "total_pnl": 68380.16,
+          "avg_hold_h": 23.52,
+          "event_lead_notional": 131249,
+          "insider_likelihood": null
+        }
+      ],
+      "last_seen": "2026-06-17",
+      "metric_category": "excluded",
+      "insider_likelihood": null,
+      "position": "除外/低優先",
+      "auto_tags": [
+        "ROI:中(10-100%)",
+        "PnL:大($1-10M)",
+        "頻度:多(500+)",
+        "保有:スイング(<48h)",
+        "方向:無/フラット"
+      ],
+      "current": {
+        "date": "2026-06-17",
+        "metric_category": "excluded",
+        "insider_score": 0.2889,
+        "win_rate": 0.3719,
+        "dir_accuracy": 0.6416,
+        "total_pnl": 68380.16,
+        "avg_hold_h": 23.52,
+        "event_lead_notional": 131249,
+        "insider_likelihood": null
+      }
+    },
+    "0x9803e982c4eb6d9b9e416966814e7f9fa4363bce": {
+      "address": "0x9803e982c4eb6d9b9e416966814e7f9fa4363bce",
+      "first_seen": "2026-06-17",
+      "times_seen": 1,
+      "tags": [],
+      "notes": "",
+      "history": [
+        {
+          "date": "2026-06-17",
+          "metric_category": "excluded",
+          "insider_score": 0.2728,
+          "win_rate": 1.0,
+          "dir_accuracy": 0.0602,
+          "total_pnl": 46306.68,
+          "avg_hold_h": null,
+          "event_lead_notional": 0,
+          "insider_likelihood": null
+        }
+      ],
+      "last_seen": "2026-06-17",
+      "metric_category": "excluded",
+      "insider_likelihood": null,
+      "position": "除外/低優先",
+      "auto_tags": [
+        "ROI:高(100-1000%)",
+        "PnL:中($100k-1M)",
+        "頻度:中(50+)",
+        "方向:ロング",
+        "レバ:中(3-10x)",
+        "銘柄:BTC主"
+      ],
+      "current": {
+        "date": "2026-06-17",
+        "metric_category": "excluded",
+        "insider_score": 0.2728,
+        "win_rate": 1.0,
+        "dir_accuracy": 0.0602,
+        "total_pnl": 46306.68,
+        "avg_hold_h": null,
+        "event_lead_notional": 0,
+        "insider_likelihood": null
+      }
+    },
+    "0x25dacd8a27eac9ad6eba5eb88e3b68f707eb1397": {
+      "address": "0x25dacd8a27eac9ad6eba5eb88e3b68f707eb1397",
+      "first_seen": "2026-06-17",
+      "times_seen": 1,
+      "tags": [],
+      "notes": "",
+      "history": [
+        {
+          "date": "2026-06-17",
+          "metric_category": "excluded",
+          "insider_score": 0.2665,
+          "win_rate": 1.0,
+          "dir_accuracy": 0.0,
+          "total_pnl": 98175.47,
+          "avg_hold_h": null,
+          "event_lead_notional": 0,
+          "insider_likelihood": null
+        }
+      ],
+      "last_seen": "2026-06-17",
+      "metric_category": "excluded",
+      "insider_likelihood": null,
+      "position": "除外/低優先",
+      "auto_tags": [
+        "ROI:高(100-1000%)",
+        "PnL:中($100k-1M)",
+        "頻度:少(<50)",
+        "方向:ショート",
+        "レバ:中(3-10x)",
+        "銘柄:BTC専"
+      ],
+      "current": {
+        "date": "2026-06-17",
+        "metric_category": "excluded",
+        "insider_score": 0.2665,
+        "win_rate": 1.0,
+        "dir_accuracy": 0.0,
+        "total_pnl": 98175.47,
+        "avg_hold_h": null,
+        "event_lead_notional": 0,
+        "insider_likelihood": null
+      }
+    },
+    "0xc2c060e3309461ec7c4291b1aac6c89aa228727e": {
+      "address": "0xc2c060e3309461ec7c4291b1aac6c89aa228727e",
+      "first_seen": "2026-06-17",
+      "times_seen": 1,
+      "tags": [],
+      "notes": "",
+      "history": [
+        {
+          "date": "2026-06-17",
+          "metric_category": "excluded",
+          "insider_score": 0.264,
+          "win_rate": 0.3226,
+          "dir_accuracy": 0.7333,
+          "total_pnl": 178.25,
+          "avg_hold_h": 14.72,
+          "event_lead_notional": 0,
+          "insider_likelihood": null
+        }
+      ],
+      "last_seen": "2026-06-17",
+      "metric_category": "excluded",
+      "insider_likelihood": null,
+      "position": "除外/低優先",
+      "auto_tags": [
+        "ROI:超高(>1000%)",
+        "PnL:中($100k-1M)",
+        "頻度:中(50+)",
+        "保有:スイング(<48h)",
+        "方向:ショート",
+        "レバ:低(<3x)",
+        "銘柄:BTC専",
+        "資金:出金疑い(10x+)"
+      ],
+      "current": {
+        "date": "2026-06-17",
+        "metric_category": "excluded",
+        "insider_score": 0.264,
+        "win_rate": 0.3226,
+        "dir_accuracy": 0.7333,
+        "total_pnl": 178.25,
+        "avg_hold_h": 14.72,
+        "event_lead_notional": 0,
+        "insider_likelihood": null
+      }
+    },
+    "0x30e3784b28332b7cb268988f9e81eeff9e3bf2dc": {
+      "address": "0x30e3784b28332b7cb268988f9e81eeff9e3bf2dc",
+      "first_seen": "2026-06-17",
+      "times_seen": 1,
+      "tags": [],
+      "notes": "",
+      "history": [
+        {
+          "date": "2026-06-17",
+          "metric_category": "excluded",
+          "insider_score": 0.2518,
+          "win_rate": 1.0,
+          "dir_accuracy": 0.0,
+          "total_pnl": 10547.2,
+          "avg_hold_h": null,
+          "event_lead_notional": 0,
+          "insider_likelihood": null
+        }
+      ],
+      "last_seen": "2026-06-17",
+      "metric_category": "excluded",
+      "insider_likelihood": null,
+      "position": "除外/低優先",
+      "auto_tags": [
+        "ROI:超高(>1000%)",
+        "PnL:中($100k-1M)",
+        "頻度:少(<50)",
+        "方向:無/フラット"
+      ],
+      "current": {
+        "date": "2026-06-17",
+        "metric_category": "excluded",
+        "insider_score": 0.2518,
+        "win_rate": 1.0,
+        "dir_accuracy": 0.0,
+        "total_pnl": 10547.2,
+        "avg_hold_h": null,
+        "event_lead_notional": 0,
+        "insider_likelihood": null
+      }
+    },
+    "0x7632be1bdb486be27a1c39ff4208ffd5853c59ed": {
+      "address": "0x7632be1bdb486be27a1c39ff4208ffd5853c59ed",
+      "first_seen": "2026-06-17",
+      "times_seen": 1,
+      "tags": [],
+      "notes": "",
+      "history": [
+        {
+          "date": "2026-06-17",
+          "metric_category": "excluded",
+          "insider_score": 0.25,
+          "win_rate": 1.0,
+          "dir_accuracy": 0.0,
+          "total_pnl": 35.55,
+          "avg_hold_h": 25.51,
+          "event_lead_notional": 0,
+          "insider_likelihood": null
+        }
+      ],
+      "last_seen": "2026-06-17",
+      "metric_category": "excluded",
+      "insider_likelihood": null,
+      "position": "除外/低優先",
+      "auto_tags": [
+        "ROI:高(100-1000%)",
+        "PnL:小(<$100k)",
+        "頻度:少(<50)",
+        "保有:スイング(<48h)",
+        "方向:無/フラット"
+      ],
+      "current": {
+        "date": "2026-06-17",
+        "metric_category": "excluded",
+        "insider_score": 0.25,
+        "win_rate": 1.0,
+        "dir_accuracy": 0.0,
+        "total_pnl": 35.55,
+        "avg_hold_h": 25.51,
+        "event_lead_notional": 0,
+        "insider_likelihood": null
+      }
+    },
+    "0xf19c933aee749ea5286892100ddf2b7876b1f99e": {
+      "address": "0xf19c933aee749ea5286892100ddf2b7876b1f99e",
+      "first_seen": "2026-06-17",
+      "times_seen": 1,
+      "tags": [],
+      "notes": "",
+      "history": [
+        {
+          "date": "2026-06-17",
+          "metric_category": "excluded",
+          "insider_score": 0.25,
+          "win_rate": 0.0,
+          "dir_accuracy": 1.0,
+          "total_pnl": -1529.14,
+          "avg_hold_h": 2.6,
+          "event_lead_notional": 0,
+          "insider_likelihood": null
+        }
+      ],
+      "last_seen": "2026-06-17",
+      "metric_category": "excluded",
+      "insider_likelihood": null,
+      "position": "除外/低優先",
+      "auto_tags": [
+        "ROI:高(100-1000%)",
+        "PnL:小(<$100k)",
+        "頻度:中(50+)",
+        "保有:短期(<12h)",
+        "方向:無/フラット"
+      ],
+      "current": {
+        "date": "2026-06-17",
+        "metric_category": "excluded",
+        "insider_score": 0.25,
+        "win_rate": 0.0,
+        "dir_accuracy": 1.0,
+        "total_pnl": -1529.14,
+        "avg_hold_h": 2.6,
+        "event_lead_notional": 0,
+        "insider_likelihood": null
+      }
+    },
+    "0x880ac484a1743862989a441d6d867238c7aa311c": {
+      "address": "0x880ac484a1743862989a441d6d867238c7aa311c",
+      "first_seen": "2026-06-17",
+      "times_seen": 1,
+      "tags": [],
+      "notes": "",
+      "history": [
+        {
+          "date": "2026-06-17",
+          "metric_category": "excluded",
+          "insider_score": 0.25,
+          "win_rate": 1.0,
+          "dir_accuracy": 0.0,
+          "total_pnl": 30.5,
+          "avg_hold_h": 0.01,
+          "event_lead_notional": 0,
+          "insider_likelihood": null
+        }
+      ],
+      "last_seen": "2026-06-17",
+      "metric_category": "excluded",
+      "insider_likelihood": null,
+      "position": "除外/低優先",
+      "auto_tags": [
+        "ROI:高(100-1000%)",
+        "PnL:メガ(>$10M)",
+        "頻度:中(50+)",
+        "保有:スキャルプ(<2h)",
+        "方向:無/フラット",
+        "資金:出金疑い(10x+)"
+      ],
+      "current": {
+        "date": "2026-06-17",
+        "metric_category": "excluded",
+        "insider_score": 0.25,
+        "win_rate": 1.0,
+        "dir_accuracy": 0.0,
+        "total_pnl": 30.5,
+        "avg_hold_h": 0.01,
+        "event_lead_notional": 0,
+        "insider_likelihood": null
+      }
+    },
+    "0xa0d669521cb00bfe43e5fa3bd573dc01dfe6567c": {
+      "address": "0xa0d669521cb00bfe43e5fa3bd573dc01dfe6567c",
+      "first_seen": "2026-06-17",
+      "times_seen": 1,
+      "tags": [],
+      "notes": "",
+      "history": [
+        {
+          "date": "2026-06-17",
+          "metric_category": "excluded",
+          "insider_score": 0.2397,
+          "win_rate": 0.7754,
+          "dir_accuracy": 0.039,
+          "total_pnl": 214177.19,
+          "avg_hold_h": 19.6,
+          "event_lead_notional": 0,
+          "insider_likelihood": null
+        }
+      ],
+      "last_seen": "2026-06-17",
+      "metric_category": "excluded",
+      "insider_likelihood": null,
+      "position": "除外/低優先",
+      "auto_tags": [
+        "ROI:高(100-1000%)",
+        "PnL:中($100k-1M)",
+        "頻度:中(50+)",
+        "保有:スイング(<48h)",
+        "方向:ショート",
+        "レバ:低(<3x)",
+        "銘柄:ETH専"
+      ],
+      "current": {
+        "date": "2026-06-17",
+        "metric_category": "excluded",
+        "insider_score": 0.2397,
+        "win_rate": 0.7754,
+        "dir_accuracy": 0.039,
+        "total_pnl": 214177.19,
+        "avg_hold_h": 19.6,
+        "event_lead_notional": 0,
+        "insider_likelihood": null
+      }
+    },
+    "0x3db5a674b22cf6479367ae31be33204ae8701f33": {
+      "address": "0x3db5a674b22cf6479367ae31be33204ae8701f33",
+      "first_seen": "2026-06-17",
+      "times_seen": 1,
+      "tags": [],
+      "notes": "",
+      "history": [
+        {
+          "date": "2026-06-17",
+          "metric_category": "excluded",
+          "insider_score": 0.2262,
+          "win_rate": 0.3617,
+          "dir_accuracy": 0.5431,
+          "total_pnl": -2940.76,
+          "avg_hold_h": 23.76,
+          "event_lead_notional": 0,
+          "insider_likelihood": null
+        }
+      ],
+      "last_seen": "2026-06-17",
+      "metric_category": "excluded",
+      "insider_likelihood": null,
+      "position": "除外/低優先",
+      "auto_tags": [
+        "ROI:中(10-100%)",
+        "PnL:中($100k-1M)",
+        "頻度:多(500+)",
+        "保有:スイング(<48h)",
+        "方向:無/フラット"
+      ],
+      "current": {
+        "date": "2026-06-17",
+        "metric_category": "excluded",
+        "insider_score": 0.2262,
+        "win_rate": 0.3617,
+        "dir_accuracy": 0.5431,
+        "total_pnl": -2940.76,
+        "avg_hold_h": 23.76,
+        "event_lead_notional": 0,
+        "insider_likelihood": null
+      }
+    },
+    "0x20cf6f56ef057157ab8a48c82ed97258148c403c": {
+      "address": "0x20cf6f56ef057157ab8a48c82ed97258148c403c",
+      "first_seen": "2026-06-17",
+      "times_seen": 1,
+      "tags": [],
+      "notes": "",
+      "history": [
+        {
+          "date": "2026-06-17",
+          "metric_category": "excluded",
+          "insider_score": 0.223,
+          "win_rate": 0.7353,
+          "dir_accuracy": 0.125,
+          "total_pnl": 47022.23,
+          "avg_hold_h": 20.53,
+          "event_lead_notional": 0,
+          "insider_likelihood": null
+        }
+      ],
+      "last_seen": "2026-06-17",
+      "metric_category": "excluded",
+      "insider_likelihood": null,
+      "position": "除外/低優先",
+      "auto_tags": [
+        "ROI:高(100-1000%)",
+        "PnL:小(<$100k)",
+        "頻度:中(50+)",
+        "保有:スイング(<48h)",
+        "方向:無/フラット"
+      ],
+      "current": {
+        "date": "2026-06-17",
+        "metric_category": "excluded",
+        "insider_score": 0.223,
+        "win_rate": 0.7353,
+        "dir_accuracy": 0.125,
+        "total_pnl": 47022.23,
+        "avg_hold_h": 20.53,
+        "event_lead_notional": 0,
+        "insider_likelihood": null
+      }
+    },
+    "0xa0d149c9e3fee0a9f920058c4139c73894c2be98": {
+      "address": "0xa0d149c9e3fee0a9f920058c4139c73894c2be98",
+      "first_seen": "2026-06-17",
+      "times_seen": 1,
+      "tags": [],
+      "notes": "",
+      "history": [
+        {
+          "date": "2026-06-17",
+          "metric_category": "excluded",
+          "insider_score": 0.2179,
+          "win_rate": 0.349,
+          "dir_accuracy": 0.5225,
+          "total_pnl": -3995.69,
+          "avg_hold_h": 2.29,
+          "event_lead_notional": 0,
+          "insider_likelihood": null
+        }
+      ],
+      "last_seen": "2026-06-17",
+      "metric_category": "excluded",
+      "insider_likelihood": null,
+      "position": "除外/低優先",
+      "auto_tags": [
+        "ROI:高(100-1000%)",
+        "PnL:中($100k-1M)",
+        "頻度:中(50+)",
+        "保有:短期(<12h)",
+        "方向:無/フラット"
+      ],
+      "current": {
+        "date": "2026-06-17",
+        "metric_category": "excluded",
+        "insider_score": 0.2179,
+        "win_rate": 0.349,
+        "dir_accuracy": 0.5225,
+        "total_pnl": -3995.69,
+        "avg_hold_h": 2.29,
+        "event_lead_notional": 0,
+        "insider_likelihood": null
+      }
+    },
+    "0xdf4b79c5cebf5be025f9a0658a38a5440689c147": {
+      "address": "0xdf4b79c5cebf5be025f9a0658a38a5440689c147",
+      "first_seen": "2026-06-17",
+      "times_seen": 1,
+      "tags": [],
+      "notes": "",
+      "history": [
+        {
+          "date": "2026-06-17",
+          "metric_category": "excluded",
+          "insider_score": 0.2148,
+          "win_rate": 0.0,
+          "dir_accuracy": 0.8571,
+          "total_pnl": 3211.63,
+          "avg_hold_h": null,
+          "event_lead_notional": 0,
+          "insider_likelihood": null
+        }
+      ],
+      "last_seen": "2026-06-17",
+      "metric_category": "excluded",
+      "insider_likelihood": null,
+      "position": "除外/低優先",
+      "auto_tags": [
+        "ROI:中(10-100%)",
+        "PnL:小(<$100k)",
+        "頻度:少(<50)",
+        "方向:ロング",
+        "レバ:低(<3x)",
+        "銘柄:BTC専"
+      ],
+      "current": {
+        "date": "2026-06-17",
+        "metric_category": "excluded",
+        "insider_score": 0.2148,
+        "win_rate": 0.0,
+        "dir_accuracy": 0.8571,
+        "total_pnl": 3211.63,
+        "avg_hold_h": null,
+        "event_lead_notional": 0,
+        "insider_likelihood": null
+      }
+    },
+    "0xa4dedda59f2908b92ae192cfd494839373bcb3c4": {
+      "address": "0xa4dedda59f2908b92ae192cfd494839373bcb3c4",
+      "first_seen": "2026-06-17",
+      "times_seen": 1,
+      "tags": [],
+      "notes": "",
+      "history": [
+        {
+          "date": "2026-06-17",
+          "metric_category": "excluded",
+          "insider_score": 0.209,
+          "win_rate": 0.1253,
+          "dir_accuracy": 0.7107,
+          "total_pnl": -1735.16,
+          "avg_hold_h": 4.21,
+          "event_lead_notional": 0,
+          "insider_likelihood": null
+        }
+      ],
+      "last_seen": "2026-06-17",
+      "metric_category": "excluded",
+      "insider_likelihood": null,
+      "position": "除外/低優先",
+      "auto_tags": [
+        "ROI:超高(>1000%)",
+        "PnL:メガ(>$10M)",
+        "頻度:多(500+)",
+        "保有:短期(<12h)",
+        "方向:無/フラット"
+      ],
+      "current": {
+        "date": "2026-06-17",
+        "metric_category": "excluded",
+        "insider_score": 0.209,
+        "win_rate": 0.1253,
+        "dir_accuracy": 0.7107,
+        "total_pnl": -1735.16,
+        "avg_hold_h": 4.21,
+        "event_lead_notional": 0,
+        "insider_likelihood": null
+      }
+    },
+    "0xc7ebe10d3568c52b3f43dc50320167db9d10ce4f": {
+      "address": "0xc7ebe10d3568c52b3f43dc50320167db9d10ce4f",
+      "first_seen": "2026-06-17",
+      "times_seen": 1,
+      "tags": [],
+      "notes": "",
+      "history": [
+        {
+          "date": "2026-06-17",
+          "metric_category": "excluded",
+          "insider_score": 0.2089,
+          "win_rate": 0.5926,
+          "dir_accuracy": 0.2424,
+          "total_pnl": 725.06,
+          "avg_hold_h": 0.02,
+          "event_lead_notional": 0,
+          "insider_likelihood": null
+        }
+      ],
+      "last_seen": "2026-06-17",
+      "metric_category": "excluded",
+      "insider_likelihood": null,
+      "position": "除外/低優先",
+      "auto_tags": [
+        "ROI:中(10-100%)",
+        "PnL:大($1-10M)",
+        "頻度:中(50+)",
+        "保有:スキャルプ(<2h)",
+        "方向:無/フラット",
+        "資金:大型出金疑い(50x+)"
+      ],
+      "current": {
+        "date": "2026-06-17",
+        "metric_category": "excluded",
+        "insider_score": 0.2089,
+        "win_rate": 0.5926,
+        "dir_accuracy": 0.2424,
+        "total_pnl": 725.06,
+        "avg_hold_h": 0.02,
+        "event_lead_notional": 0,
+        "insider_likelihood": null
+      }
+    },
+    "0x08bf75d17046412ae08c95b6106993f714487872": {
+      "address": "0x08bf75d17046412ae08c95b6106993f714487872",
+      "first_seen": "2026-06-17",
+      "times_seen": 1,
+      "tags": [],
+      "notes": "",
+      "history": [
+        {
+          "date": "2026-06-17",
+          "metric_category": "excluded",
+          "insider_score": 0.1707,
+          "win_rate": 0.0,
+          "dir_accuracy": 0.2273,
+          "total_pnl": 676343.7,
+          "avg_hold_h": null,
+          "event_lead_notional": 0,
+          "insider_likelihood": null
+        }
+      ],
+      "last_seen": "2026-06-17",
+      "metric_category": "excluded",
+      "insider_likelihood": null,
+      "position": "除外/低優先",
+      "auto_tags": [
+        "ROI:低(<10%)",
+        "PnL:中($100k-1M)",
+        "頻度:少(<50)",
+        "方向:ショート",
+        "レバ:中(3-10x)",
+        "銘柄:ETH専"
+      ],
+      "current": {
+        "date": "2026-06-17",
+        "metric_category": "excluded",
+        "insider_score": 0.1707,
+        "win_rate": 0.0,
+        "dir_accuracy": 0.2273,
+        "total_pnl": 676343.7,
+        "avg_hold_h": null,
+        "event_lead_notional": 0,
+        "insider_likelihood": null
+      }
+    },
+    "0xc8378d5bd334b984b5ada4e8ee09a49fe4d8d97d": {
+      "address": "0xc8378d5bd334b984b5ada4e8ee09a49fe4d8d97d",
+      "first_seen": "2026-06-17",
+      "times_seen": 1,
+      "tags": [],
+      "notes": "",
+      "history": [
+        {
+          "date": "2026-06-17",
+          "metric_category": "excluded",
+          "insider_score": 0.1651,
+          "win_rate": 0.2482,
+          "dir_accuracy": 0.3937,
+          "total_pnl": 27431.94,
+          "avg_hold_h": 7.31,
+          "event_lead_notional": 0,
+          "insider_likelihood": null
+        }
+      ],
+      "last_seen": "2026-06-17",
+      "metric_category": "excluded",
+      "insider_likelihood": null,
+      "position": "除外/低優先",
+      "auto_tags": [
+        "ROI:高(100-1000%)",
+        "PnL:中($100k-1M)",
+        "頻度:中(50+)",
+        "保有:短期(<12h)",
+        "方向:ショート",
+        "レバ:中(3-10x)",
+        "銘柄:ETH専"
+      ],
+      "current": {
+        "date": "2026-06-17",
+        "metric_category": "excluded",
+        "insider_score": 0.1651,
+        "win_rate": 0.2482,
+        "dir_accuracy": 0.3937,
+        "total_pnl": 27431.94,
+        "avg_hold_h": 7.31,
+        "event_lead_notional": 0,
+        "insider_likelihood": null
+      }
+    },
+    "0xd4fb7eef06db5dc70dcba58c9c4ba1e3ab8c19f1": {
+      "address": "0xd4fb7eef06db5dc70dcba58c9c4ba1e3ab8c19f1",
+      "first_seen": "2026-06-17",
+      "times_seen": 1,
+      "tags": [],
+      "notes": "",
+      "history": [
+        {
+          "date": "2026-06-17",
+          "metric_category": "excluded",
+          "insider_score": 0.1485,
+          "win_rate": 0.0,
+          "dir_accuracy": 0.0,
+          "total_pnl": 881723.41,
+          "avg_hold_h": null,
+          "event_lead_notional": 0,
+          "insider_likelihood": null
+        }
+      ],
+      "last_seen": "2026-06-17",
+      "metric_category": "excluded",
+      "insider_likelihood": null,
+      "position": "除外/低優先",
+      "auto_tags": [
+        "ROI:高(100-1000%)",
+        "PnL:大($1-10M)",
+        "頻度:中(50+)",
+        "方向:ロング",
+        "レバ:中(3-10x)",
+        "銘柄:ETH専"
+      ],
+      "current": {
+        "date": "2026-06-17",
+        "metric_category": "excluded",
+        "insider_score": 0.1485,
+        "win_rate": 0.0,
+        "dir_accuracy": 0.0,
+        "total_pnl": 881723.41,
+        "avg_hold_h": null,
+        "event_lead_notional": 0,
+        "insider_likelihood": null
+      }
+    },
+    "0xfbeaa12ce05b8baf12189d38974af90a2a82776e": {
+      "address": "0xfbeaa12ce05b8baf12189d38974af90a2a82776e",
+      "first_seen": "2026-06-17",
+      "times_seen": 1,
+      "tags": [],
+      "notes": "",
+      "history": [
+        {
+          "date": "2026-06-17",
+          "metric_category": "excluded",
+          "insider_score": 0.1453,
+          "win_rate": 0.2055,
+          "dir_accuracy": 0.3757,
+          "total_pnl": -8737.8,
+          "avg_hold_h": 4.52,
+          "event_lead_notional": 0,
+          "insider_likelihood": null
+        }
+      ],
+      "last_seen": "2026-06-17",
+      "metric_category": "excluded",
+      "insider_likelihood": null,
+      "position": "除外/低優先",
+      "auto_tags": [
+        "ROI:高(100-1000%)",
+        "PnL:小(<$100k)",
+        "頻度:多(500+)",
+        "保有:短期(<12h)",
+        "方向:無/フラット"
+      ],
+      "current": {
+        "date": "2026-06-17",
+        "metric_category": "excluded",
+        "insider_score": 0.1453,
+        "win_rate": 0.2055,
+        "dir_accuracy": 0.3757,
+        "total_pnl": -8737.8,
+        "avg_hold_h": 4.52,
+        "event_lead_notional": 0,
+        "insider_likelihood": null
+      }
+    },
+    "0xbe494a5e3a719a78a45a47ab453b7b0199b9d101": {
+      "address": "0xbe494a5e3a719a78a45a47ab453b7b0199b9d101",
+      "first_seen": "2026-06-17",
+      "times_seen": 1,
+      "tags": [],
+      "notes": "",
+      "history": [
+        {
+          "date": "2026-06-17",
+          "metric_category": "excluded",
+          "insider_score": 0.1409,
+          "win_rate": 0.0253,
+          "dir_accuracy": 0.5385,
+          "total_pnl": -1745.81,
+          "avg_hold_h": null,
+          "event_lead_notional": 0,
+          "insider_likelihood": null
+        }
+      ],
+      "last_seen": "2026-06-17",
+      "metric_category": "excluded",
+      "insider_likelihood": null,
+      "position": "除外/低優先",
+      "auto_tags": [
+        "ROI:高(100-1000%)",
+        "PnL:大($1-10M)",
+        "頻度:中(50+)",
+        "方向:ショート",
+        "レバ:低(<3x)",
+        "銘柄:ETH主",
+        "資金:大型出金疑い(50x+)"
+      ],
+      "current": {
+        "date": "2026-06-17",
+        "metric_category": "excluded",
+        "insider_score": 0.1409,
+        "win_rate": 0.0253,
+        "dir_accuracy": 0.5385,
+        "total_pnl": -1745.81,
+        "avg_hold_h": null,
+        "event_lead_notional": 0,
+        "insider_likelihood": null
+      }
+    },
+    "0x39b07015ca813075bbce6f475767d5b4b9d518b0": {
+      "address": "0x39b07015ca813075bbce6f475767d5b4b9d518b0",
+      "first_seen": "2026-06-17",
+      "times_seen": 1,
+      "tags": [],
+      "notes": "",
+      "history": [
+        {
+          "date": "2026-06-17",
+          "metric_category": "excluded",
+          "insider_score": 0.1361,
+          "win_rate": 0.5446,
+          "dir_accuracy": 0.0,
+          "total_pnl": -3880.21,
+          "avg_hold_h": 2.41,
+          "event_lead_notional": 0,
+          "insider_likelihood": null
+        }
+      ],
+      "last_seen": "2026-06-17",
+      "metric_category": "excluded",
+      "insider_likelihood": null,
+      "position": "除外/低優先",
+      "auto_tags": [
+        "ROI:高(100-1000%)",
+        "PnL:中($100k-1M)",
+        "頻度:中(50+)",
+        "保有:短期(<12h)",
+        "方向:ロング",
+        "レバ:中(3-10x)",
+        "銘柄:SOL専"
+      ],
+      "current": {
+        "date": "2026-06-17",
+        "metric_category": "excluded",
+        "insider_score": 0.1361,
+        "win_rate": 0.5446,
+        "dir_accuracy": 0.0,
+        "total_pnl": -3880.21,
+        "avg_hold_h": 2.41,
+        "event_lead_notional": 0,
+        "insider_likelihood": null
+      }
+    },
+    "0x2f04ed87b5ac8b703565469311341b0b44e315d7": {
+      "address": "0x2f04ed87b5ac8b703565469311341b0b44e315d7",
+      "first_seen": "2026-06-17",
+      "times_seen": 1,
+      "tags": [],
+      "notes": "",
+      "history": [
+        {
+          "date": "2026-06-17",
+          "metric_category": "excluded",
+          "insider_score": 0.119,
+          "win_rate": 0.1429,
+          "dir_accuracy": 0.3333,
+          "total_pnl": -9088.82,
+          "avg_hold_h": 7.41,
+          "event_lead_notional": 0,
+          "insider_likelihood": null
+        }
+      ],
+      "last_seen": "2026-06-17",
+      "metric_category": "excluded",
+      "insider_likelihood": null,
+      "position": "除外/低優先",
+      "auto_tags": [
+        "ROI:高(100-1000%)",
+        "PnL:中($100k-1M)",
+        "頻度:少(<50)",
+        "保有:短期(<12h)",
+        "方向:混在",
+        "レバ:低(<3x)",
+        "銘柄:BTC主",
+        "資金:出金疑い(10x+)"
+      ],
+      "current": {
+        "date": "2026-06-17",
+        "metric_category": "excluded",
+        "insider_score": 0.119,
+        "win_rate": 0.1429,
+        "dir_accuracy": 0.3333,
+        "total_pnl": -9088.82,
+        "avg_hold_h": 7.41,
+        "event_lead_notional": 0,
+        "insider_likelihood": null
+      }
+    },
+    "0xe1edc766cfb0e8e6894bde26bcb5a94d1777d16c": {
+      "address": "0xe1edc766cfb0e8e6894bde26bcb5a94d1777d16c",
+      "first_seen": "2026-06-17",
+      "times_seen": 1,
+      "tags": [],
+      "notes": "",
+      "history": [
+        {
+          "date": "2026-06-17",
+          "metric_category": "excluded",
+          "insider_score": 0.1135,
+          "win_rate": 0.0641,
+          "dir_accuracy": 0.3846,
+          "total_pnl": 8102.88,
+          "avg_hold_h": 93.2,
+          "event_lead_notional": 0,
+          "insider_likelihood": null
+        }
+      ],
+      "last_seen": "2026-06-17",
+      "metric_category": "excluded",
+      "insider_likelihood": null,
+      "position": "除外/低優先",
+      "auto_tags": [
+        "ROI:中(10-100%)",
+        "PnL:小(<$100k)",
+        "頻度:中(50+)",
+        "保有:長期(>48h)",
+        "方向:ショート",
+        "レバ:低(<3x)",
+        "銘柄:BTC専"
+      ],
+      "current": {
+        "date": "2026-06-17",
+        "metric_category": "excluded",
+        "insider_score": 0.1135,
+        "win_rate": 0.0641,
+        "dir_accuracy": 0.3846,
+        "total_pnl": 8102.88,
+        "avg_hold_h": 93.2,
+        "event_lead_notional": 0,
+        "insider_likelihood": null
+      }
+    },
+    "0x29eb62882a8bd104a64400a2971d0d6881777043": {
+      "address": "0x29eb62882a8bd104a64400a2971d0d6881777043",
+      "first_seen": "2026-06-17",
+      "times_seen": 1,
+      "tags": [],
+      "notes": "",
+      "history": [
+        {
+          "date": "2026-06-17",
+          "metric_category": "excluded",
+          "insider_score": 0.0961,
+          "win_rate": 0.0,
+          "dir_accuracy": 0.3846,
+          "total_pnl": -948.72,
+          "avg_hold_h": null,
+          "event_lead_notional": 0,
+          "insider_likelihood": null
+        }
+      ],
+      "last_seen": "2026-06-17",
+      "metric_category": "excluded",
+      "insider_likelihood": null,
+      "position": "除外/低優先",
+      "auto_tags": [
+        "ROI:高(100-1000%)",
+        "PnL:大($1-10M)",
+        "頻度:少(<50)",
+        "方向:混在",
+        "レバ:低(<3x)",
+        "銘柄:BTC主",
+        "資金:出金疑い(10x+)"
+      ],
+      "current": {
+        "date": "2026-06-17",
+        "metric_category": "excluded",
+        "insider_score": 0.0961,
+        "win_rate": 0.0,
+        "dir_accuracy": 0.3846,
+        "total_pnl": -948.72,
+        "avg_hold_h": null,
+        "event_lead_notional": 0,
+        "insider_likelihood": null
+      }
+    },
+    "0x68a24ccf099422806f1e73248517f3389c29c104": {
+      "address": "0x68a24ccf099422806f1e73248517f3389c29c104",
+      "first_seen": "2026-06-17",
+      "times_seen": 1,
+      "tags": [],
+      "notes": "",
+      "history": [
+        {
+          "date": "2026-06-17",
+          "metric_category": "excluded",
+          "insider_score": 0.0918,
+          "win_rate": 0.2396,
+          "dir_accuracy": 0.1277,
+          "total_pnl": -3773.86,
+          "avg_hold_h": 14.36,
+          "event_lead_notional": 0,
+          "insider_likelihood": null
+        }
+      ],
+      "last_seen": "2026-06-17",
+      "metric_category": "excluded",
+      "insider_likelihood": null,
+      "position": "除外/低優先",
+      "auto_tags": [
+        "ROI:超高(>1000%)",
+        "PnL:中($100k-1M)",
+        "頻度:中(50+)",
+        "保有:スイング(<48h)",
+        "方向:無/フラット"
+      ],
+      "current": {
+        "date": "2026-06-17",
+        "metric_category": "excluded",
+        "insider_score": 0.0918,
+        "win_rate": 0.2396,
+        "dir_accuracy": 0.1277,
+        "total_pnl": -3773.86,
+        "avg_hold_h": 14.36,
+        "event_lead_notional": 0,
+        "insider_likelihood": null
+      }
+    },
+    "0xfeec88b13fc0be31695069f02bac18538a154e9c": {
+      "address": "0xfeec88b13fc0be31695069f02bac18538a154e9c",
+      "first_seen": "2026-06-17",
+      "times_seen": 1,
+      "tags": [],
+      "notes": "",
+      "history": [
+        {
+          "date": "2026-06-17",
+          "metric_category": "excluded",
+          "insider_score": 0.0375,
+          "win_rate": 1.0,
+          "dir_accuracy": 0.0,
+          "total_pnl": 1376095.5,
+          "avg_hold_h": null,
+          "event_lead_notional": 0,
+          "insider_likelihood": null
+        }
+      ],
+      "last_seen": "2026-06-17",
+      "metric_category": "excluded",
+      "insider_likelihood": null,
+      "position": "除外/低優先",
+      "auto_tags": [
+        "ROI:高(100-1000%)",
+        "PnL:メガ(>$10M)",
+        "頻度:HFT(>3000)",
+        "方向:無/フラット",
+        "資金:大型出金疑い(50x+)"
+      ],
+      "current": {
+        "date": "2026-06-17",
+        "metric_category": "excluded",
+        "insider_score": 0.0375,
+        "win_rate": 1.0,
+        "dir_accuracy": 0.0,
+        "total_pnl": 1376095.5,
+        "avg_hold_h": null,
+        "event_lead_notional": 0,
+        "insider_likelihood": null
+      }
+    },
+    "0x2607a3909cee65aa8205ca26f7db2d9244389577": {
+      "address": "0x2607a3909cee65aa8205ca26f7db2d9244389577",
+      "first_seen": "2026-06-17",
+      "times_seen": 1,
+      "tags": [],
+      "notes": "",
+      "history": [
+        {
+          "date": "2026-06-17",
+          "metric_category": "excluded",
+          "insider_score": 0.0356,
+          "win_rate": 0.5217,
+          "dir_accuracy": 0.4272,
+          "total_pnl": 203669.57,
+          "avg_hold_h": 3.97,
+          "event_lead_notional": 4398705,
+          "insider_likelihood": null
+        }
+      ],
+      "last_seen": "2026-06-17",
+      "metric_category": "excluded",
+      "insider_likelihood": null,
+      "position": "除外/低優先",
+      "auto_tags": [
+        "ROI:高(100-1000%)",
+        "PnL:中($100k-1M)",
+        "頻度:HFT(>3000)",
+        "保有:短期(<12h)",
+        "方向:ショート",
+        "レバ:中(3-10x)",
+        "銘柄:BTC専"
+      ],
+      "current": {
+        "date": "2026-06-17",
+        "metric_category": "excluded",
+        "insider_score": 0.0356,
+        "win_rate": 0.5217,
+        "dir_accuracy": 0.4272,
+        "total_pnl": 203669.57,
+        "avg_hold_h": 3.97,
+        "event_lead_notional": 4398705,
+        "insider_likelihood": null
+      }
+    },
+    "0x5b5f798b94f54d33ba316c8b1c837e930c90c052": {
+      "address": "0x5b5f798b94f54d33ba316c8b1c837e930c90c052",
+      "first_seen": "2026-06-17",
+      "times_seen": 1,
+      "tags": [],
+      "notes": "",
+      "history": [
+        {
+          "date": "2026-06-17",
+          "metric_category": "excluded",
+          "insider_score": 0.0252,
+          "win_rate": 0.2802,
+          "dir_accuracy": 0.3925,
+          "total_pnl": -147016.28,
+          "avg_hold_h": 0.51,
+          "event_lead_notional": 1517422,
+          "insider_likelihood": null
+        }
+      ],
+      "last_seen": "2026-06-17",
+      "metric_category": "excluded",
+      "insider_likelihood": null,
+      "position": "除外/低優先",
+      "auto_tags": [
+        "ROI:高(100-1000%)",
+        "PnL:中($100k-1M)",
+        "頻度:HFT(>3000)",
+        "保有:スキャルプ(<2h)",
+        "方向:無/フラット"
+      ],
+      "current": {
+        "date": "2026-06-17",
+        "metric_category": "excluded",
+        "insider_score": 0.0252,
+        "win_rate": 0.2802,
+        "dir_accuracy": 0.3925,
+        "total_pnl": -147016.28,
+        "avg_hold_h": 0.51,
+        "event_lead_notional": 1517422,
+        "insider_likelihood": null
+      }
+    },
+    "0xcb5c2f378860437fad512c3aec09efce1c470283": {
+      "address": "0xcb5c2f378860437fad512c3aec09efce1c470283",
+      "first_seen": "2026-06-17",
+      "times_seen": 1,
+      "tags": [],
+      "notes": "",
+      "history": [
+        {
+          "date": "2026-06-17",
+          "metric_category": "excluded",
+          "insider_score": 0.0,
+          "win_rate": 0.0,
+          "dir_accuracy": 0.0,
+          "total_pnl": -29504.17,
+          "avg_hold_h": null,
+          "event_lead_notional": 0,
+          "insider_likelihood": null
+        }
+      ],
+      "last_seen": "2026-06-17",
+      "metric_category": "excluded",
+      "insider_likelihood": null,
+      "position": "除外/低優先",
+      "auto_tags": [
+        "ROI:超高(>1000%)",
+        "PnL:中($100k-1M)",
+        "頻度:少(<50)",
+        "方向:無/フラット"
+      ],
+      "current": {
+        "date": "2026-06-17",
+        "metric_category": "excluded",
+        "insider_score": 0.0,
+        "win_rate": 0.0,
+        "dir_accuracy": 0.0,
+        "total_pnl": -29504.17,
+        "avg_hold_h": null,
+        "event_lead_notional": 0,
+        "insider_likelihood": null
+      }
+    },
+    "0x469bc5524456efa6932cac83294f31a09b8159b8": {
+      "address": "0x469bc5524456efa6932cac83294f31a09b8159b8",
+      "first_seen": "2026-06-17",
+      "times_seen": 1,
+      "tags": [],
+      "notes": "",
+      "history": [
+        {
+          "date": "2026-06-17",
+          "metric_category": "excluded",
+          "insider_score": 0.0,
+          "win_rate": 0.0,
+          "dir_accuracy": 0.0,
+          "total_pnl": -1596.6,
+          "avg_hold_h": null,
+          "event_lead_notional": 0,
+          "insider_likelihood": null
+        }
+      ],
+      "last_seen": "2026-06-17",
+      "metric_category": "excluded",
+      "insider_likelihood": null,
+      "position": "除外/低優先",
+      "auto_tags": [
+        "ROI:高(100-1000%)",
+        "PnL:中($100k-1M)",
+        "頻度:少(<50)",
+        "方向:ロング",
+        "レバ:低(<3x)",
+        "銘柄:BTC専"
+      ],
+      "current": {
+        "date": "2026-06-17",
+        "metric_category": "excluded",
+        "insider_score": 0.0,
+        "win_rate": 0.0,
+        "dir_accuracy": 0.0,
+        "total_pnl": -1596.6,
+        "avg_hold_h": null,
+        "event_lead_notional": 0,
+        "insider_likelihood": null
+      }
+    },
+    "0x05c6959d997cde99d2f967367e5e9f1959ba9706": {
+      "address": "0x05c6959d997cde99d2f967367e5e9f1959ba9706",
+      "first_seen": "2026-06-17",
+      "times_seen": 1,
+      "tags": [],
+      "notes": "",
+      "history": [
+        {
+          "date": "2026-06-17",
+          "metric_category": "excluded",
+          "insider_score": 0.0,
+          "win_rate": 0.0,
+          "dir_accuracy": 0.0,
+          "total_pnl": 227.59,
+          "avg_hold_h": null,
+          "event_lead_notional": 0,
+          "insider_likelihood": null
+        }
+      ],
+      "last_seen": "2026-06-17",
+      "metric_category": "excluded",
+      "insider_likelihood": null,
+      "position": "除外/低優先",
+      "auto_tags": [
+        "ROI:高(100-1000%)",
+        "PnL:中($100k-1M)",
+        "頻度:少(<50)",
+        "方向:ロング",
+        "レバ:低(<3x)",
+        "銘柄:ETH専",
+        "資金:出金疑い(10x+)"
+      ],
+      "current": {
+        "date": "2026-06-17",
+        "metric_category": "excluded",
+        "insider_score": 0.0,
+        "win_rate": 0.0,
+        "dir_accuracy": 0.0,
+        "total_pnl": 227.59,
+        "avg_hold_h": null,
+        "event_lead_notional": 0,
+        "insider_likelihood": null
+      }
+    },
+    "0x0e3f5bb797e3953fed2a319544d0e821b4a11e1c": {
+      "address": "0x0e3f5bb797e3953fed2a319544d0e821b4a11e1c",
+      "first_seen": "2026-06-17",
+      "times_seen": 1,
+      "tags": [],
+      "notes": "",
+      "history": [
+        {
+          "date": "2026-06-17",
+          "metric_category": "excluded",
+          "insider_score": 0.0,
+          "win_rate": 0.0,
+          "dir_accuracy": 0.0,
+          "total_pnl": -927.49,
+          "avg_hold_h": null,
+          "event_lead_notional": 0,
+          "insider_likelihood": null
+        }
+      ],
+      "last_seen": "2026-06-17",
+      "metric_category": "excluded",
+      "insider_likelihood": null,
+      "position": "除外/低優先",
+      "auto_tags": [
+        "ROI:高(100-1000%)",
+        "PnL:大($1-10M)",
+        "頻度:少(<50)",
+        "方向:ロング",
+        "レバ:低(<3x)",
+        "銘柄:BTC専",
+        "資金:大型出金疑い(50x+)"
+      ],
+      "current": {
+        "date": "2026-06-17",
+        "metric_category": "excluded",
+        "insider_score": 0.0,
+        "win_rate": 0.0,
+        "dir_accuracy": 0.0,
+        "total_pnl": -927.49,
+        "avg_hold_h": null,
+        "event_lead_notional": 0,
+        "insider_likelihood": null
+      }
+    },
+    "0xce43a7498e65b6f6c8741fd9a7efc3f78efc78c4": {
+      "address": "0xce43a7498e65b6f6c8741fd9a7efc3f78efc78c4",
+      "first_seen": "2026-06-17",
+      "times_seen": 1,
+      "tags": [],
+      "notes": "",
+      "history": [
+        {
+          "date": "2026-06-17",
+          "metric_category": "excluded",
+          "insider_score": 0.0,
+          "win_rate": 0.0,
+          "dir_accuracy": 0.0,
+          "total_pnl": -128.3,
+          "avg_hold_h": null,
+          "event_lead_notional": 0,
+          "insider_likelihood": null
+        }
+      ],
+      "last_seen": "2026-06-17",
+      "metric_category": "excluded",
+      "insider_likelihood": null,
+      "position": "除外/低優先",
+      "auto_tags": [
+        "ROI:高(100-1000%)",
+        "PnL:中($100k-1M)",
+        "頻度:少(<50)",
+        "方向:ショート",
+        "レバ:低(<3x)",
+        "銘柄:ETH専",
+        "資金:出金疑い(10x+)"
+      ],
+      "current": {
+        "date": "2026-06-17",
+        "metric_category": "excluded",
+        "insider_score": 0.0,
+        "win_rate": 0.0,
+        "dir_accuracy": 0.0,
+        "total_pnl": -128.3,
+        "avg_hold_h": null,
+        "event_lead_notional": 0,
+        "insider_likelihood": null
+      }
     }
   },
-  "updated_at": "2026-06-17T07:51:22.434877+00:00"
+  "updated_at": "2026-06-17T08:49:07.545630+00:00"
 }
