@@ -6507,7 +6507,9 @@
       "tags": [
         "Nansen発見",
         "SmartMoney",
-        "出金:実力プロ型"
+        "Tier-B",
+        "出金:実力プロ型",
+        "出金済"
       ],
       "notes": "",
       "history": [
@@ -6526,7 +6528,7 @@
       "last_seen": "2026-06-17",
       "metric_category": "excluded",
       "insider_likelihood": null,
-      "position": "💸 出金疑い(要監視)",
+      "position": "プロトレーダー(本物)",
       "auto_tags": [
         "ROI:超高(>1000%)",
         "PnL:メガ(>$10M)",
@@ -6625,14 +6627,19 @@
       "n_fills_14d": 1352,
       "active_from": "2026-02-05",
       "active_to": "2026-05-07",
-      "trade_days": 91
+      "trade_days": 91,
+      "pro_score": 0.442,
+      "pro_realized": 1781589,
+      "pro_span_days": 30,
+      "pro_tier": "B"
     },
     "0x0a7097d919b7421ecc03aed3aac68a13e7ef1f46": {
       "address": "0x0a7097d919b7421ecc03aed3aac68a13e7ef1f46",
       "first_seen": "2026-06-17",
       "times_seen": 7,
       "tags": [
-        "出金:先行検出(hit-and-run候補)"
+        "出金:先行検出(hit-and-run候補)",
+        "出金済(hit-and-run)"
       ],
       "notes": "",
       "history": [
@@ -6651,7 +6658,7 @@
       "last_seen": "2026-06-17",
       "metric_category": "pro_trader",
       "insider_likelihood": null,
-      "position": "💸 出金疑い(要監視)",
+      "position": "インサイダー疑惑(要監視)",
       "auto_tags": [
         "ROI:高(100-1000%)",
         "PnL:大($1-10M)",
@@ -6773,7 +6780,9 @@
       "first_seen": "2026-06-17",
       "times_seen": 7,
       "tags": [
-        "出金:実力プロ型"
+        "Tier-B",
+        "出金:実力プロ型",
+        "出金済"
       ],
       "notes": "",
       "history": [
@@ -6792,7 +6801,7 @@
       "last_seen": "2026-06-17",
       "metric_category": "excluded",
       "insider_likelihood": null,
-      "position": "💸 出金疑い(要監視)",
+      "position": "プロトレーダー(本物)",
       "auto_tags": [
         "ROI:超高(>1000%)",
         "PnL:中($100k-1M)",
@@ -6946,7 +6955,11 @@
       "notes_jp": "【ひとことで】💰🟢稼いで引き上げたが、多数取引で安定・先行なし＝実力プロが出金しただけ\n【HL実測】実現益$-5,568・的中0.0567・急変先行$0・majors782約定\n【取引期間】2023-11-26〜2026-06-14",
       "roi_alltime": 29.9789054811,
       "roi_month": 2.0168047399,
-      "n_fills_14d": 3
+      "n_fills_14d": 3,
+      "pro_score": 0.413,
+      "pro_realized": 219,
+      "pro_span_days": 30,
+      "pro_tier": "B"
     },
     "0x159d148acd970eaf88bed8feac4ad6d38e7c3665": {
       "address": "0x159d148acd970eaf88bed8feac4ad6d38e7c3665",
@@ -7076,7 +7089,9 @@
       "first_seen": "2026-06-17",
       "times_seen": 7,
       "tags": [
-        "出金:実力プロ型"
+        "Tier-B",
+        "出金:実力プロ型",
+        "出金済"
       ],
       "notes": "",
       "history": [
@@ -7095,7 +7110,7 @@
       "last_seen": "2026-06-17",
       "metric_category": "pro_trader",
       "insider_likelihood": null,
-      "position": "💸 出金疑い(要監視)",
+      "position": "プロトレーダー(本物)",
       "auto_tags": [
         "ROI:高(100-1000%)",
         "PnL:中($100k-1M)",
@@ -7190,7 +7205,11 @@
       "notes_jp": "【ひとことで】💰🟢稼いで引き上げたが、多数取引で安定・先行なし＝実力プロが出金しただけ\n【HL実測】実現益$52,247・的中0.0・急変先行$0・majors1255約定\n【取引期間】2025-01-09〜2025-04-16",
       "roi_alltime": 1.6132943693,
       "roi_month": 0.1649500895,
-      "n_fills_14d": 219
+      "n_fills_14d": 219,
+      "pro_score": 0.391,
+      "pro_realized": 5362,
+      "pro_span_days": 30,
+      "pro_tier": "B"
     },
     "0x321f7193eadbacb67eff00f76b975a487e5b1c84": {
       "address": "0x321f7193eadbacb67eff00f76b975a487e5b1c84",
@@ -9348,7 +9367,9 @@
       "tags": [
         "Nansen発見",
         "SmartMoney",
-        "出金:実力プロ型"
+        "Tier-D",
+        "出金:実力プロ型",
+        "出金済"
       ],
       "notes": "",
       "history": [
@@ -9367,7 +9388,7 @@
       "last_seen": "2026-06-17",
       "metric_category": "excluded",
       "insider_likelihood": null,
-      "position": "💸 出金疑い(要監視)",
+      "position": "プロトレーダー(本物)",
       "auto_tags": [
         "ROI:高(100-1000%)",
         "PnL:大($1-10M)",
@@ -9465,7 +9486,11 @@
       "notes_jp": "【ひとことで】💰🟢稼いで引き上げたが、多数取引で安定・先行なし＝実力プロが出金しただけ\n【HL実測】実現益$1,197,959・的中0.6664・急変先行$0・majors8000約定\n【取引期間】2026-02-09〜2026-04-01",
       "roi_alltime": 5.1398555956,
       "roi_month": 0.1259725637,
-      "n_fills_14d": 171
+      "n_fills_14d": 171,
+      "pro_score": 0.074,
+      "pro_realized": -1746,
+      "pro_span_days": 30,
+      "pro_tier": "D"
     },
     "0x39b07015ca813075bbce6f475767d5b4b9d518b0": {
       "address": "0x39b07015ca813075bbce6f475767d5b4b9d518b0",
@@ -9519,7 +9544,9 @@
       "first_seen": "2026-06-17",
       "times_seen": 7,
       "tags": [
-        "出金:実力プロ型"
+        "Tier-D",
+        "出金:実力プロ型",
+        "出金済"
       ],
       "notes": "",
       "history": [
@@ -9538,7 +9565,7 @@
       "last_seen": "2026-06-17",
       "metric_category": "excluded",
       "insider_likelihood": null,
-      "position": "💸 出金疑い(要監視)",
+      "position": "プロトレーダー(本物)",
       "auto_tags": [
         "ROI:高(100-1000%)",
         "PnL:中($100k-1M)",
@@ -9688,7 +9715,11 @@
       "n_fills_14d": 22,
       "active_from": "2023-09-16",
       "active_to": "2025-02-23",
-      "trade_days": 526
+      "trade_days": 526,
+      "pro_score": 0.089,
+      "pro_realized": -9089,
+      "pro_span_days": 30,
+      "pro_tier": "D"
     },
     "0xe1edc766cfb0e8e6894bde26bcb5a94d1777d16c": {
       "address": "0xe1edc766cfb0e8e6894bde26bcb5a94d1777d16c",
@@ -9742,7 +9773,9 @@
       "first_seen": "2026-06-17",
       "times_seen": 7,
       "tags": [
-        "出金:実力プロ型"
+        "Tier-D",
+        "出金:実力プロ型",
+        "出金済"
       ],
       "notes": "",
       "history": [
@@ -9761,7 +9794,7 @@
       "last_seen": "2026-06-17",
       "metric_category": "excluded",
       "insider_likelihood": null,
-      "position": "💸 出金疑い(要監視)",
+      "position": "プロトレーダー(本物)",
       "auto_tags": [
         "ROI:高(100-1000%)",
         "PnL:大($1-10M)",
@@ -9838,7 +9871,11 @@
       "n_fills_14d": 13,
       "active_from": "2026-02-09",
       "active_to": "2026-02-11",
-      "trade_days": 2
+      "trade_days": 2,
+      "pro_score": 0.051,
+      "pro_realized": -949,
+      "pro_span_days": 30,
+      "pro_tier": "D"
     },
     "0x68a24ccf099422806f1e73248517f3389c29c104": {
       "address": "0x68a24ccf099422806f1e73248517f3389c29c104",
@@ -9890,7 +9927,9 @@
       "first_seen": "2026-06-17",
       "times_seen": 7,
       "tags": [
-        "出金:実力プロ型"
+        "Tier-B",
+        "出金:実力プロ型",
+        "出金済"
       ],
       "notes": "",
       "history": [
@@ -9909,7 +9948,7 @@
       "last_seen": "2026-06-17",
       "metric_category": "excluded",
       "insider_likelihood": null,
-      "position": "💸 出金疑い(要監視)",
+      "position": "プロトレーダー(本物)",
       "auto_tags": [
         "ROI:高(100-1000%)",
         "PnL:メガ(>$10M)",
@@ -10006,7 +10045,11 @@
       "n_fills_14d": 6827,
       "active_from": "2026-05-11",
       "active_to": "2026-06-08",
-      "trade_days": 28
+      "trade_days": 28,
+      "pro_score": 0.436,
+      "pro_realized": 1376096,
+      "pro_span_days": 30,
+      "pro_tier": "B"
     },
     "0x2607a3909cee65aa8205ca26f7db2d9244389577": {
       "address": "0x2607a3909cee65aa8205ca26f7db2d9244389577",
