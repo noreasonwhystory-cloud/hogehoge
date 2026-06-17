@@ -33115,7 +33115,16 @@
       "active_from": "2025-10-26",
       "active_to": "2026-02-06",
       "trade_days": 103,
-      "active14": false
+      "active14": false,
+      "first_funders": [
+        {
+          "address": "0x8c826f795466e39acbff1bb4eeeb759609377ba1",
+          "label": "Gas.zip: Primary Solver [0x8c826f]",
+          "relation": "First Funder",
+          "time": "2025-10-14T16:13:50"
+        }
+      ],
+      "nansen_errors": []
     },
     "0x8cfe4bc352deb10ed41c5f0f89bc57674cee1e22": {
       "address": "0x8cfe4bc352deb10ed41c5f0f89bc57674cee1e22",
@@ -33157,7 +33166,16 @@
       "active_from": "2025-07-02",
       "active_to": "2026-03-13",
       "trade_days": 254,
-      "active14": false
+      "active14": false,
+      "first_funders": [
+        {
+          "address": "0xb685760ebd368a891f27ae547391f4e2a289895b",
+          "label": "🤖 SwftCoin: Bridgers [0xb68576]",
+          "relation": "First Funder",
+          "time": "2025-07-02T19:42:52"
+        }
+      ],
+      "nansen_errors": []
     },
     "0xd7a678fcf72c1b602850ef2f3e2d668ec41fa0ed": {
       "address": "0xd7a678fcf72c1b602850ef2f3e2d668ec41fa0ed",
@@ -33175,7 +33193,7 @@
       "position": "プロトレーダー(本物)",
       "metric_category": "hl-verified",
       "labels": [
-        "\"yantngz\" on OpenSea [0xd7a678]"
+        "\"yantngz\" on OpenSea"
       ],
       "roi_alltime": 55.81457982286894,
       "n_fills_14d": 2928,
@@ -33199,7 +33217,52 @@
       "active_from": "2024-11-29",
       "active_to": "2026-01-31",
       "trade_days": 428,
-      "active14": false
+      "active14": false,
+      "first_funders": [
+        {
+          "address": "0xbfe6633ae9512e1f2f18d4cf3ad56e8767e80ae0",
+          "label": "[0xbfe663]",
+          "relation": "Deployed Contract",
+          "time": "2023-10-23T03:16:25"
+        },
+        {
+          "address": "0xac33a3556ad06fd272f413ee0a3bf6fb7f22ce81",
+          "label": "[0xac33a3]",
+          "relation": "Deployed Contract",
+          "time": "2023-10-23T03:20:05"
+        },
+        {
+          "address": "0x69d86600ed143daa010540ac3d14c51aaeff0494",
+          "label": "[0x69d866]",
+          "relation": "Deployed Contract",
+          "time": "2023-10-23T03:20:05"
+        },
+        {
+          "address": "0x51840c4ad45573743fbd39908d5a2e15baf6dd24",
+          "label": "🤖 FlatRoleManager [0x51840c]",
+          "relation": "Deployed Contract",
+          "time": "2023-10-23T03:20:05"
+        },
+        {
+          "address": "0x8939cb6426cd1993097ee3b3d776750d8d91e34d",
+          "label": "[0x8939cb]",
+          "relation": "Deployed Contract",
+          "time": "2023-10-23T03:42:40"
+        },
+        {
+          "address": "0xa6b71e26c5e0845f74c812102ca7114b6a896ab2",
+          "label": "🤖 Safe: Proxy Factory 1.3.0 [0xa6b71e]",
+          "relation": "Deployed via",
+          "time": "2023-10-23T03:16:25"
+        },
+        {
+          "address": "0xc0b00000e19d71fa50a9bb1fcac2ec92fac9549c",
+          "label": "🤖 CoboFactory [0xc0b000]",
+          "relation": "Deployed via",
+          "time": "2023-10-23T03:20:05"
+        }
+      ],
+      "nansen_errors": []
     },
     "0xb632c6580173a16154f17cdafc6eb27e95cf73b7": {
       "address": "0xb632c6580173a16154f17cdafc6eb27e95cf73b7",
@@ -33315,7 +33378,8 @@
       "active_from": "2025-11-18",
       "active_to": "2026-02-05",
       "trade_days": 79,
-      "active14": false
+      "active14": false,
+      "nansen_errors": []
     },
     "0x41206f8efb51e5039e5b46e04e7866a4849f72d2": {
       "address": "0x41206f8efb51e5039e5b46e04e7866a4849f72d2",
@@ -33333,7 +33397,7 @@
       "position": "プロトレーダー(本物)",
       "metric_category": "hl-verified",
       "labels": [
-        ": Boros Trader [0x41206f]"
+        "High Activity"
       ],
       "roi_alltime": 130.52634149224113,
       "n_fills_14d": 6000,
@@ -33357,7 +33421,42 @@
       "active_from": "2024-12-20",
       "active_to": "2025-05-08",
       "trade_days": 139,
-      "active14": false
+      "active14": false,
+      "first_funders": [
+        {
+          "address": "0xf7626459234e9249808a06aa08dc6b67c8e0a2fc",
+          "label": "Token Millionaire [0xf76264]",
+          "relation": "First Funder",
+          "time": "2022-10-08T22:41:33"
+        }
+      ],
+      "counterparties": [
+        {
+          "label": "[0x25b4ea]",
+          "address": "0x25b4ea59b04583b2f55341c4b120fcfe0d8bace8",
+          "volume_usd": 2299.3293696925844,
+          "volume_in": 0.0,
+          "volume_out": 2299.3293696925844,
+          "count": 1
+        },
+        {
+          "label": "[0x25b48e]",
+          "address": "0x25b48e697737f5ac004aee63868f27b4adb1ace8",
+          "volume_usd": 0.002298529533404318,
+          "volume_in": 0.002298529533404318,
+          "volume_out": 0.0,
+          "count": 1
+        },
+        {
+          "label": "[0x25b445]",
+          "address": "0x25b445c298aa7f16d5354807ca8334ac8bf0ace8",
+          "volume_usd": 9.998202052575099e-06,
+          "volume_in": 9.998202052575099e-06,
+          "volume_out": 0.0,
+          "count": 2
+        }
+      ],
+      "nansen_errors": []
     },
     "0x6979dde2781dc4ec843641b10b2a2f2e0f4bda62": {
       "address": "0x6979dde2781dc4ec843641b10b2a2f2e0f4bda62",
@@ -33399,7 +33498,8 @@
       "active_from": "2025-09-30",
       "active_to": "2026-05-30",
       "trade_days": 242,
-      "active14": false
+      "active14": false,
+      "nansen_errors": []
     },
     "0xcefd7652228a8619d0af5b95389cd49387cd30e0": {
       "address": "0xcefd7652228a8619d0af5b95389cd49387cd30e0",
@@ -33441,7 +33541,16 @@
       "active_from": "2024-11-29",
       "active_to": "2026-06-05",
       "trade_days": 553,
-      "active14": true
+      "active14": true,
+      "first_funders": [
+        {
+          "address": "0xe7351fd770a37282b91d153ee690b63579d6dd7f",
+          "label": "🤖 DLN: DlnDestination [0xe7351f]",
+          "relation": "First Funder",
+          "time": "2024-11-29T02:28:45"
+        }
+      ],
+      "nansen_errors": []
     },
     "0x3b11267dfc4b9ebe8427e8f557056b4b6ce98112": {
       "address": "0x3b11267dfc4b9ebe8427e8f557056b4b6ce98112",
@@ -33459,7 +33568,7 @@
       "position": "プロトレーダー(本物)",
       "metric_category": "hl-verified",
       "labels": [
-        "🤓 9015.eth* [0x3b1126]"
+        "High Balance"
       ],
       "roi_alltime": 0.20855044602625342,
       "n_fills_14d": 8000,
@@ -33483,7 +33592,144 @@
       "active_from": "2026-02-23",
       "active_to": "2026-06-01",
       "trade_days": 98,
-      "active14": false
+      "active14": false,
+      "first_funders": [
+        {
+          "address": "0xdfd5293d8e347dfe59e90efd55b2956a1343963d",
+          "label": "🏦 Binance [0xdfd529]",
+          "relation": "First Funder",
+          "time": "2021-07-26T10:15:38"
+        },
+        {
+          "address": "Dztk8WaXz3v1H1J3PDA28h7cVK4gjh8L1yhekvvyxvkT",
+          "label": "🤓 pincas.eth on Ethereum [Dztk8WaX]",
+          "relation": "Bridged to Solana",
+          "time": "2022-10-25T17:16:34"
+        },
+        {
+          "address": "0x43dcc0be57478001d97e2229d7a88ae5035ecffb",
+          "label": "🤖 Gnosis Safe Proxy [0x43dcc0]",
+          "relation": "Multisig Signer of",
+          "time": "2024-03-08T14:09:23"
+        },
+        {
+          "address": "0x90b8e455488ec78dcf325be350edf24d323e2a6d",
+          "label": "🤖 OpenSea Account [0x90b8e4]",
+          "relation": "Deployed Contract",
+          "time": "2021-10-05T18:43:27"
+        },
+        {
+          "address": "0x5e7deebcbd54aaa1a5fc4532ae09bc199af12ebf",
+          "label": "🤖 DSProxy [0x5e7dee]",
+          "relation": "Deployed Contract",
+          "time": "2022-04-17T10:15:51"
+        },
+        {
+          "address": "0xf2d1014816b436746cb65a8fff97818716c7671d",
+          "label": "🤖 UrnHandler [0xf2d101]",
+          "relation": "Deployed Contract",
+          "time": "2022-04-17T10:21:26"
+        },
+        {
+          "address": "0xa0541a170f1d4a3d28e1ec35688db49966ce1d42",
+          "label": "🤖 StakeProxy [0xa0541a]",
+          "relation": "Deployed Contract",
+          "time": "2022-12-11T16:00:23"
+        },
+        {
+          "address": "0x7e3d6d5f66ee72eb1c7eab95652bda064a381c54",
+          "label": "🤖 StakeProxy [0x7e3d6d]",
+          "relation": "Deployed Contract",
+          "time": "2022-12-11T19:52:59"
+        },
+        {
+          "address": "0x645873be886550eb35c8be794abdd15975462ea6",
+          "label": "🤖 StakeProxy [0x645873]",
+          "relation": "Deployed Contract",
+          "time": "2022-12-11T20:28:35"
+        },
+        {
+          "address": "0xb0cdcae7310441455392a0d6aa38c3655e7993cf",
+          "label": "🤖 StakeProxy [0xb0cdca]",
+          "relation": "Deployed Contract",
+          "time": "2022-12-12T06:38:11"
+        }
+      ],
+      "counterparties": [
+        {
+          "label": "🤖 Hyperliquid: Bridge 2 [0x2df1c5]",
+          "address": "0x2df1c51e09aecf9cacb7bc98cb1742757f163df7",
+          "volume_usd": 1978085.830986549,
+          "volume_in": 599814.9124809883,
+          "volume_out": 1378270.9185055606,
+          "count": 5
+        },
+        {
+          "label": "Burn Address [0x000000]",
+          "address": "0x0000000000000000000000000000000000000000",
+          "volume_usd": 649820.1641188103,
+          "volume_in": 649820.1641188103,
+          "volume_out": 0.0,
+          "count": 1
+        },
+        {
+          "label": "​​🤖 Mayan Finance: USDC Bridge [0x875d6d]",
+          "address": "0x875d6d37ec55c8cf220b9e5080717549d8aa8eca",
+          "volume_usd": 428518.3578980327,
+          "volume_in": 428518.3578980327,
+          "volume_out": 0.0,
+          "count": 1
+        },
+        {
+          "label": "🤖 LI.FI: Contract [0x89c634]",
+          "address": "0x89c6340b1a1f4b25d36cd8b063d49045caf3f818",
+          "volume_usd": 343891.3310429347,
+          "volume_in": 0.0,
+          "volume_out": 343891.3310429347,
+          "count": 2
+        },
+        {
+          "label": "Relay Protocol: EOA Bridge [0xf70da9]",
+          "address": "0xf70da97812cb96acdf810712aa562db8dfa3dbef",
+          "volume_usd": 299932.39701186604,
+          "volume_in": 299932.39701186604,
+          "volume_out": 0.0,
+          "count": 1
+        },
+        {
+          "label": "High Activity [0x2df1d0]",
+          "address": "0x2df1d033385a3256500211ef302a7aa57f163df7",
+          "volume_usd": 2.3586407728059585e-06,
+          "volume_in": 2.3586407728059585e-06,
+          "volume_out": 0.0,
+          "count": 1
+        },
+        {
+          "label": "[0x2df1b0]",
+          "address": "0x2df1b072337f3388a817054d4dc3e5557f163df7",
+          "volume_usd": 2.304758500297151e-06,
+          "volume_in": 2.304758500297151e-06,
+          "volume_out": 0.0,
+          "count": 1
+        },
+        {
+          "label": "[0x2df13c]",
+          "address": "0x2df13ca034149c3f8d40fdb5da9d89e57f163df7",
+          "volume_usd": 2.2585862032445777e-06,
+          "volume_in": 2.2585862032445777e-06,
+          "volume_out": 0.0,
+          "count": 1
+        },
+        {
+          "label": "High Activity [0x2df1df]",
+          "address": "0x2df1df582d0a1efc7178fd78b2bcd9aa08a73df7",
+          "volume_usd": 0.0,
+          "volume_in": 0.0,
+          "volume_out": 0.0,
+          "count": 3
+        }
+      ],
+      "nansen_errors": []
     },
     "0x5638484ba2d2f1d1d35020572b0aa439a9869192": {
       "address": "0x5638484ba2d2f1d1d35020572b0aa439a9869192",
@@ -33501,7 +33747,11 @@
       "position": "プロトレーダー(本物)",
       "metric_category": "hl-verified",
       "labels": [
-        "👤 Dxrant [0x563848]"
+        "ASTEROID Whale",
+        "High Activity",
+        "High Balance",
+        "stayawayfromridiculouslyprettygirls.eca.eth",
+        "stayawayfromridiculouslyprettygirls.eca.eth*"
       ],
       "roi_alltime": 10718.306534858411,
       "n_fills_14d": 3978,
@@ -33525,7 +33775,42 @@
       "active_from": "2024-04-16",
       "active_to": "2026-03-26",
       "trade_days": 709,
-      "active14": false
+      "active14": false,
+      "first_funders": [
+        {
+          "address": "0x84a21710101bd3227ffee5e5e7daa01a526037d1",
+          "label": "👤 Dxrant [0x84a217]",
+          "relation": "First Funder",
+          "time": "2024-02-09T16:29:52"
+        }
+      ],
+      "counterparties": [
+        {
+          "label": "[0xfbd08d]",
+          "address": "0xfbd08d4cb2e0a40a38bb3aba0b439fadd5149833",
+          "volume_usd": 1205047.321215714,
+          "volume_in": 0.0,
+          "volume_out": 1205047.321215714,
+          "count": 1
+        },
+        {
+          "label": "Burn Address [0x000000]",
+          "address": "0x0000000000000000000000000000000000000000",
+          "volume_usd": 1199758.5723183642,
+          "volume_in": 1199758.5723183642,
+          "volume_out": 0.0,
+          "count": 1
+        },
+        {
+          "label": "🤖 DLN: CrosschainForwarder [0x663dc1]",
+          "address": "0x663dc15d3c1ac63ff12e45ab68fea3f0a883c251",
+          "volume_usd": 33.08336616941803,
+          "volume_in": 33.08336616941803,
+          "volume_out": 0.0,
+          "count": 1
+        }
+      ],
+      "nansen_errors": []
     },
     "0x4b4bdd734b87bc48683d24f1dc6159e3ab6d6409": {
       "address": "0x4b4bdd734b87bc48683d24f1dc6159e3ab6d6409",
@@ -33567,7 +33852,58 @@
       "active_from": "2026-01-28",
       "active_to": "2026-06-01",
       "trade_days": 124,
-      "active14": false
+      "active14": false,
+      "first_funders": [
+        {
+          "address": "0x12715a66773bd9c54534a01abf01d05f6b4bd35e",
+          "label": "🤖 Synapse: CCTP [0x12715a]",
+          "relation": "First Funder",
+          "time": "2026-01-28T01:07:54"
+        }
+      ],
+      "counterparties": [
+        {
+          "label": "🤖 Hyperliquid: Bridge 2 [0x2df1c5]",
+          "address": "0x2df1c51e09aecf9cacb7bc98cb1742757f163df7",
+          "volume_usd": 1819687.9276152882,
+          "volume_in": 1819687.9276152882,
+          "volume_out": 0.0,
+          "count": 5
+        },
+        {
+          "label": "🤖 TransparentUpgradeableProxy [0xb3fa26]",
+          "address": "0xb3fa262d0fb521cc93be83d87b322b8a23daf3f0",
+          "volume_usd": 1819637.9514736044,
+          "volume_in": 0.0,
+          "volume_out": 1819637.9514736044,
+          "count": 4
+        },
+        {
+          "label": "🤖 Relay Protocol: Depository [0x4cd00e]",
+          "address": "0x4cd00e387622c35bddb9b4c962c136462338bc31",
+          "volume_usd": 49.98172264303054,
+          "volume_in": 0.0,
+          "volume_out": 49.98172264303054,
+          "count": 1
+        },
+        {
+          "label": "​​🤖 Relay Protocol: Router [0xb92fe9]",
+          "address": "0xb92fe925dc43a0ecde6c8b1a2709c170ec4fff4f",
+          "volume_usd": 30.913389901631252,
+          "volume_in": 30.913389901631252,
+          "volume_out": 0.0,
+          "count": 1
+        },
+        {
+          "label": "🤖 Disperse.app: Disperse [0xd152f5]",
+          "address": "0xd152f549545093347a162dce210e7293f1452150",
+          "volume_usd": 0.0,
+          "volume_in": 0.0,
+          "volume_out": 0.0,
+          "count": 1
+        }
+      ],
+      "nansen_errors": []
     },
     "0x1e5b1efd99c89d39b59b28a19e6b42bbeb98433b": {
       "address": "0x1e5b1efd99c89d39b59b28a19e6b42bbeb98433b",
@@ -33609,7 +33945,16 @@
       "active_from": "2025-09-30",
       "active_to": "2026-01-30",
       "trade_days": 122,
-      "active14": false
+      "active14": false,
+      "first_funders": [
+        {
+          "address": "0x9008d19f58aabd9ed0d60971565aa8510560ab41",
+          "label": "🤖 CoW Protocol: Settlement [0x9008d1]",
+          "relation": "First Funder",
+          "time": "2025-09-30T15:31:11"
+        }
+      ],
+      "nansen_errors": []
     },
     "0x7de07bb8a43c1953a019906cf2c8287dae478be9": {
       "address": "0x7de07bb8a43c1953a019906cf2c8287dae478be9",
@@ -33627,7 +33972,7 @@
       "position": "プロトレーダー(本物)",
       "metric_category": "hl-verified",
       "labels": [
-        "Token Millionaire [0x7de07b]"
+        "Token Millionaire"
       ],
       "roi_alltime": 1017.7372848750185,
       "n_fills_14d": 1482,
@@ -33651,7 +33996,98 @@
       "active_from": "2024-07-24",
       "active_to": "2026-02-03",
       "trade_days": 559,
-      "active14": false
+      "active14": false,
+      "first_funders": [
+        {
+          "address": "0x6f4e8eba4d337f874ab57478acc2cb5bacdc19c9",
+          "label": "🤖 Synapse: Bridge [0x6f4e8e]",
+          "relation": "First Funder",
+          "time": "2021-10-14T06:29:14"
+        }
+      ],
+      "counterparties": [
+        {
+          "label": "Burn Address [0x000000]",
+          "address": "0x0000000000000000000000000000000000000000",
+          "volume_usd": 14230396.245460402,
+          "volume_in": 6180266.636268226,
+          "volume_out": 8050129.609192177,
+          "count": 14
+        },
+        {
+          "label": "🤖 Aave: aEthWBTC Token [0x5ee5bf]",
+          "address": "0x5ee5bf7ae06d1be5997a1a72006fe6c607ec6de8",
+          "volume_usd": 14054832.603966534,
+          "volume_in": 7883618.077168853,
+          "volume_out": 6171214.526797681,
+          "count": 13
+        },
+        {
+          "label": "🤖 Aave: aUSDT Token [0x238789]",
+          "address": "0x23878914efe38d27c4d67ab83ed1b93a74d4086a",
+          "volume_usd": 8625435.398607682,
+          "volume_in": 4109226.593279524,
+          "volume_out": 4516208.805328158,
+          "count": 18
+        },
+        {
+          "label": "🤖 SimpleSettlement [0x399740]",
+          "address": "0x399740157391a9f1bf4e9921a8834f9bc8f2678e",
+          "volume_usd": 6772084.1705838675,
+          "volume_in": 6772084.1705838675,
+          "volume_out": 0.0,
+          "count": 31
+        },
+        {
+          "label": "🤖 MEV Bot [0xa8c1c9]",
+          "address": "0xa8c1c98aaf99a5dfc907d61b892b2ad624901185",
+          "volume_usd": 5307637.081585296,
+          "volume_in": 0.0,
+          "volume_out": 5307637.081585296,
+          "count": 21
+        },
+        {
+          "label": "High Balance [0x8e5e08]",
+          "address": "0x8e5e08c11cfd46130672ccad0363fe5500722888",
+          "volume_usd": 4427490.767232534,
+          "volume_in": 1330446.9812308853,
+          "volume_out": 3097043.786001648,
+          "count": 9
+        },
+        {
+          "label": "High Balance [0xdaaa80]",
+          "address": "0xdaaa80ca3f2718b1bae4528518e8d02a1dc92d2a",
+          "volume_usd": 2596461.1284912014,
+          "volume_in": 2596461.1284912014,
+          "volume_out": 0.0,
+          "count": 6
+        },
+        {
+          "label": "[0x66e262]",
+          "address": "0x66e2626e1a51945380e807412f78d50a0cc05636",
+          "volume_usd": 714620.4350283737,
+          "volume_in": 0.0,
+          "volume_out": 714620.4350283737,
+          "count": 5
+        },
+        {
+          "label": "High Balance [0x7b5ae2]",
+          "address": "0x7b5ae288a74f8f4216434d595f0289d8fb51b821",
+          "volume_usd": 665269.91973976,
+          "volume_in": 0.0,
+          "volume_out": 665269.91973976,
+          "count": 1
+        },
+        {
+          "label": "🤖 High Activity [0x000000]",
+          "address": "0x00000000008d5f1200332af8a6813cb8377b5bfd",
+          "volume_usd": 641392.8177609288,
+          "volume_in": 0.0,
+          "volume_out": 641392.8177609288,
+          "count": 3
+        }
+      ],
+      "nansen_errors": []
     },
     "0xc604faf510aa5b617c9fb1556d02d6d22c9644be": {
       "address": "0xc604faf510aa5b617c9fb1556d02d6d22c9644be",
@@ -33693,7 +34129,16 @@
       "active_from": "2025-07-31",
       "active_to": "2026-03-14",
       "trade_days": 226,
-      "active14": false
+      "active14": false,
+      "first_funders": [
+        {
+          "address": "0x91604f590d66ace8975eed6bd16cf55647d1c499",
+          "label": "High Activity [0x91604f]",
+          "relation": "First Funder",
+          "time": "2025-07-28T09:02:56"
+        }
+      ],
+      "nansen_errors": []
     },
     "0x7c9063122c01837fe83da2521056e10c9b6dd129": {
       "address": "0x7c9063122c01837fe83da2521056e10c9b6dd129",
@@ -33841,7 +34286,16 @@
       "active_from": "2024-03-05",
       "active_to": "2026-06-14",
       "trade_days": 831,
-      "active14": true
+      "active14": true,
+      "first_funders": [
+        {
+          "address": "0x177d36dbe2271a4ddb2ad8304d82628eb921d790",
+          "label": "🤖 LayerZero: Relayer [0x177d36]",
+          "relation": "First Funder",
+          "time": "2024-03-05T20:06:20"
+        }
+      ],
+      "nansen_errors": []
     },
     "0x0d9654172413fa8bcd2f5738a7b2fa6d19864125": {
       "address": "0x0d9654172413fa8bcd2f5738a7b2fa6d19864125",
@@ -33883,7 +34337,16 @@
       "active_from": "2026-02-19",
       "active_to": "2026-02-27",
       "trade_days": 8,
-      "active14": false
+      "active14": false,
+      "first_funders": [
+        {
+          "address": "0xe35e9842fceaca96570b734083f4a58e8f7c5f2a",
+          "label": "🤖 Across Protocol: Spoke Pool [0xe35e98]",
+          "relation": "First Funder",
+          "time": "2026-02-27T17:46:41"
+        }
+      ],
+      "nansen_errors": []
     },
     "0x9b804150c9a4f6db44ba4fd67704eadb5be360c1": {
       "address": "0x9b804150c9a4f6db44ba4fd67704eadb5be360c1",
@@ -33925,7 +34388,8 @@
       "active_from": "2026-03-07",
       "active_to": "2026-03-08",
       "trade_days": 1,
-      "active14": false
+      "active14": false,
+      "nansen_errors": []
     },
     "0xf3362789cecf25c6a31288d172880d7ad9b81801": {
       "address": "0xf3362789cecf25c6a31288d172880d7ad9b81801",
@@ -33967,7 +34431,16 @@
       "active_from": "2026-01-07",
       "active_to": "2026-04-16",
       "trade_days": 99,
-      "active14": false
+      "active14": false,
+      "first_funders": [
+        {
+          "address": "0x3931dab967c3e2dbb492fe12460a66d0fe4cc857",
+          "label": "🏦 Binance: Wallet [0x3931da]",
+          "relation": "First Funder",
+          "time": "2025-12-22T09:49:53"
+        }
+      ],
+      "nansen_errors": []
     },
     "0x69b05701f8175c276ecd0138387a197948e240bb": {
       "address": "0x69b05701f8175c276ecd0138387a197948e240bb",
@@ -34071,7 +34544,8 @@
       "active_from": "2025-12-12",
       "active_to": "2026-05-03",
       "trade_days": 142,
-      "active14": false
+      "active14": false,
+      "nansen_errors": []
     },
     "0xa906355beaf1d69a5fe73ce55899c49c6e67916c": {
       "address": "0xa906355beaf1d69a5fe73ce55899c49c6e67916c",
@@ -34150,7 +34624,42 @@
       "active_from": "2025-01-06",
       "active_to": "2026-05-08",
       "trade_days": 487,
-      "active14": false
+      "active14": false,
+      "first_funders": [
+        {
+          "address": "0x6f384433976e91da3e9330f7f6e0404647cacdd6",
+          "label": "​​Trading Bot [0x6f3844]",
+          "relation": "First Funder",
+          "time": "2025-01-06T17:57:49"
+        }
+      ],
+      "counterparties": [
+        {
+          "label": "​​Yield Farmer [0xdb6e6e]",
+          "address": "0xdb6e6e1986d7d35ec2f300c59dab135994cb0639",
+          "volume_usd": 29993.917605208073,
+          "volume_in": 29993.917605208073,
+          "volume_out": 0.0,
+          "count": 2
+        },
+        {
+          "label": "🤖 Hyperliquid: Bridge 2 [0x2df1c5]",
+          "address": "0x2df1c51e09aecf9cacb7bc98cb1742757f163df7",
+          "volume_usd": 29993.9156056137,
+          "volume_in": 0.0,
+          "volume_out": 29993.9156056137,
+          "count": 2
+        },
+        {
+          "label": "High Activity [0x2df1df]",
+          "address": "0x2df1df582d0a1efc7178fd78b2bcd9aa08a73df7",
+          "volume_usd": 0.0,
+          "volume_in": 0.0,
+          "volume_out": 0.0,
+          "count": 2
+        }
+      ],
+      "nansen_errors": []
     },
     "0x8250a7f9fca9c33e68eead8c05c1d58c8fd70d13": {
       "address": "0x8250a7f9fca9c33e68eead8c05c1d58c8fd70d13",
@@ -34259,7 +34768,16 @@
       "active_from": "2025-11-21",
       "active_to": "2026-01-14",
       "trade_days": 54,
-      "active14": false
+      "active14": false,
+      "first_funders": [
+        {
+          "address": "0xe35e9842fceaca96570b734083f4a58e8f7c5f2a",
+          "label": "🤖 Across Protocol: Spoke Pool [0xe35e98]",
+          "relation": "First Funder",
+          "time": "2025-11-21T17:05:43"
+        }
+      ],
+      "nansen_errors": []
     },
     "0x8a48dcaffdf71c547cd0fd0434ae40fa57bcbf0f": {
       "address": "0x8a48dcaffdf71c547cd0fd0434ae40fa57bcbf0f",
@@ -34301,8 +34819,75 @@
       "active_from": "2025-01-21",
       "active_to": "2026-05-19",
       "trade_days": 483,
-      "active14": false
+      "active14": false,
+      "first_funders": [
+        {
+          "address": "0x0938c63109801ee4243a487ab84dffa2bba4589e",
+          "label": "🏦 OKX: Hot Wallet [0x0938c6]",
+          "relation": "First Funder",
+          "time": "2023-10-29T06:41:26"
+        }
+      ],
+      "counterparties": [
+        {
+          "label": "🤖 Hyperliquid: Bridge 2 [0x2df1c5]",
+          "address": "0x2df1c51e09aecf9cacb7bc98cb1742757f163df7",
+          "volume_usd": 393507.9448228908,
+          "volume_in": 0.0,
+          "volume_out": 393507.9448228908,
+          "count": 8
+        },
+        {
+          "label": "🏦 Bybit [0x9d271a]",
+          "address": "0x9d271a4e9523d74572b618ec10419a0a330e1bf0",
+          "volume_usd": 300533.7271832417,
+          "volume_in": 300533.7271832417,
+          "volume_out": 0.0,
+          "count": 6
+        },
+        {
+          "label": "🏦 Bybit [0x7da0b9]",
+          "address": "0x7da0b9211020d3775b18116fe751c555b9a7058c",
+          "volume_usd": 72248.60979492037,
+          "volume_in": 72248.60979492037,
+          "volume_out": 0.0,
+          "count": 2
+        },
+        {
+          "label": "🏦 Bybit: Hot Wallet [0xf89d7b]",
+          "address": "0xf89d7b9c864f589bbf53a82105107622b35eaa40",
+          "volume_usd": 47983.03071295131,
+          "volume_in": 47983.03071295131,
+          "volume_out": 0.0,
+          "count": 1
+        },
+        {
+          "label": "🤖 Circle: USDC Bridge [0xa95d9c]",
+          "address": "0xa95d9c1f655341597c94393fddc30cf3c08e4fce",
+          "volume_usd": 27257.422868222602,
+          "volume_in": 0.0,
+          "volume_out": 27257.422868222602,
+          "count": 1
+        },
+        {
+          "label": "[0x2df123]",
+          "address": "0x2df123d54193f295c8e10814d5d0f1557f163df7",
+          "volume_usd": 2.3211716967507864e-06,
+          "volume_in": 2.3211716967507864e-06,
+          "volume_out": 0.0,
+          "count": 1
+        },
+        {
+          "label": "[0x2df13c]",
+          "address": "0x2df13ca034149c3f8d40fdb5da9d89e57f163df7",
+          "volume_usd": 2.292772957094976e-06,
+          "volume_in": 2.292772957094976e-06,
+          "volume_out": 0.0,
+          "count": 1
+        }
+      ],
+      "nansen_errors": []
     }
   },
-  "updated_at": "2026-06-17T18:55:34.431066+00:00"
+  "updated_at": "2026-06-17T18:57:53.443226+00:00"
 }
