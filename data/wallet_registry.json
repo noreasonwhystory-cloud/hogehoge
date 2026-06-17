@@ -1,11 +1,11 @@
 {
   "created_at": "2026-06-16T09:30:44.025402+00:00",
-  "run_count": 6,
+  "run_count": 7,
   "wallets": {
     "0x72988778525f0ce15c5ac1804ac460606a987d6c": {
       "address": "0x72988778525f0ce15c5ac1804ac460606a987d6c",
       "first_seen": "2026-06-16",
-      "times_seen": 6,
+      "times_seen": 7,
       "tags": [],
       "notes": "",
       "history": [
@@ -136,20 +136,20 @@
       "first_funders": [
         {
           "address": "0xb4b8b6f88361f48403514059f1f16c8e78d61ffd",
-          "label": "High Activity",
+          "label": "🏦 Kromatika: Deployer [0xb4b8b6]",
           "relation": "First Funder",
           "time": "2023-11-29T22:51:27"
         }
       ],
       "counterparties": [
         {
-          "label": "High Activity",
+          "label": "🤖 Circle: CCTP TokenMinterV2 [0xfd78ee]",
           "address": "0xfd78ee919681417d192449715b2594ab58f5d002",
           "volume_usd": 2578.342839675731,
           "count": 1
         },
         {
-          "label": "Token Millionaire",
+          "label": "Relay Protocol: EOA Bridge [0xf70da9]",
           "address": "0xf70da97812cb96acdf810712aa562db8dfa3dbef",
           "volume_usd": 2577.9837463176304,
           "count": 1
@@ -167,7 +167,7 @@
     "0x10b6f072fabe21bc72ffd77ff5d4414e6cef2980": {
       "address": "0x10b6f072fabe21bc72ffd77ff5d4414e6cef2980",
       "first_seen": "2026-06-16",
-      "times_seen": 6,
+      "times_seen": 7,
       "tags": [
         "cluster-A",
         "funder:0xdf747918"
@@ -225,7 +225,7 @@
       "first_funders": [
         {
           "address": "0x9aa91e3efcb53bac3bef9b25a148c998f79db70e",
-          "label": "High Balance",
+          "label": "High Balance [0x9aa91e]",
           "relation": "First Funder",
           "time": "2025-06-05T22:22:03"
         }
@@ -293,20 +293,20 @@
       "first_funders": [
         {
           "address": "0x341a63164d9637a4c536270a06b4e3636d44b3ea",
-          "label": "",
+          "label": "[0x341a63]",
           "relation": "First Funder",
           "time": "2025-05-16T16:16:49"
         }
       ],
       "counterparties": [
         {
-          "label": "High Activity",
+          "label": "🤖 LI.FI: Diamond Facet Bridge [0x1231de]",
           "address": "0x1231deb6f5749ef6ce6943a275a1d3e7486f4eae",
           "volume_usd": 399886.81760020356,
           "count": 6
         },
         {
-          "label": "Token Millionaire",
+          "label": "🤖 Hyperliquid: Bridge 2 [0x2df1c5]",
           "address": "0x2df1c51e09aecf9cacb7bc98cb1742757f163df7",
           "volume_usd": 399886.8139443403,
           "count": 4
@@ -323,7 +323,7 @@
     "0x128fae9d18a2f70d98a03c26bf17b67d97ce1f3c": {
       "address": "0x128fae9d18a2f70d98a03c26bf17b67d97ce1f3c",
       "first_seen": "2026-06-16",
-      "times_seen": 6,
+      "times_seen": 7,
       "tags": [],
       "notes": "",
       "history": [
@@ -536,7 +536,7 @@
     "0x83b00972aafcc3d06d45b1b823079f9a414da46e": {
       "address": "0x83b00972aafcc3d06d45b1b823079f9a414da46e",
       "first_seen": "2026-06-16",
-      "times_seen": 6,
+      "times_seen": 7,
       "tags": [],
       "notes": "",
       "history": [
@@ -634,7 +634,7 @@
     "0x9b5ae497fd1bf885a40d6f99d0c57245761e053c": {
       "address": "0x9b5ae497fd1bf885a40d6f99d0c57245761e053c",
       "first_seen": "2026-06-16",
-      "times_seen": 6,
+      "times_seen": 7,
       "tags": [],
       "notes": "",
       "history": [
@@ -824,7 +824,7 @@
     "0xdd54150be70967523a256f92db193845acf58714": {
       "address": "0xdd54150be70967523a256f92db193845acf58714",
       "first_seen": "2026-06-16",
-      "times_seen": 6,
+      "times_seen": 7,
       "tags": [],
       "notes": "",
       "history": [
@@ -877,7 +877,7 @@
     "0xbde047d965a1b13fe37d11e5df31ed110ffbb92b": {
       "address": "0xbde047d965a1b13fe37d11e5df31ed110ffbb92b",
       "first_seen": "2026-06-16",
-      "times_seen": 6,
+      "times_seen": 7,
       "tags": [],
       "notes": "",
       "history": [
@@ -1012,7 +1012,7 @@
     "0x5aadb434293b4e1b8fb2e84007e567506fe65a96": {
       "address": "0x5aadb434293b4e1b8fb2e84007e567506fe65a96",
       "first_seen": "2026-06-16",
-      "times_seen": 6,
+      "times_seen": 7,
       "tags": [],
       "notes": "",
       "history": [
@@ -1064,68 +1064,68 @@
       "first_funders": [
         {
           "address": "0x71056c16c5423227371e86c65fe825dd7fbf877e",
-          "label": "kwerty.eth",
+          "label": "kwerty.eth [0x71056c]",
           "relation": "First Funder",
           "time": "2023-05-05T19:49:05"
         }
       ],
       "counterparties": [
         {
-          "label": "High Balance",
+          "label": "High Balance [0xe1f57f]",
           "address": "0xe1f57fb4d6987f5044c14f2775d64c625c9a89f3",
           "volume_usd": 952791.6046680878,
           "count": 11
         },
         {
-          "label": "Token Millionaire",
+          "label": "🤖 Hyperliquid: Bridge 2 [0x2df1c5]",
           "address": "0x2df1c51e09aecf9cacb7bc98cb1742757f163df7",
           "volume_usd": 762834.3342573403,
           "count": 8
         },
         {
-          "label": "High Activity",
+          "label": "🤖 Circle: CCTP TokenMinterV2 [0xfd78ee]",
           "address": "0xfd78ee919681417d192449715b2594ab58f5d002",
           "volume_usd": 209930.8756645783,
           "count": 4
         },
         {
-          "label": "High Balance",
+          "label": "High Balance [0xa91ad8]",
           "address": "0xa91ad8b5f80a0700e6841e43e0bcb9058d31d9d0",
           "volume_usd": 19980.21457617325,
           "count": 2
         },
         {
-          "label": "kwerty.eth",
+          "label": "kwerty.eth [0x71056c]",
           "address": "0x71056c16c5423227371e86c65fe825dd7fbf877e",
           "volume_usd": 17.72064999468605,
           "count": 1
         },
         {
-          "label": null,
+          "label": "[0xe1f5c4]",
           "address": "0xe1f5c4c87df880d56deff68f323043a25c9a89f3",
           "volume_usd": 0.0006088514826183901,
           "count": 3
         },
         {
-          "label": null,
+          "label": "[0xe1f663]",
           "address": "0xe1f66376611107d07906dda5d4680601c39a89f3",
           "volume_usd": 0.0004998065119977435,
           "count": 1
         },
         {
-          "label": null,
+          "label": "[0x52498b]",
           "address": "0x52498bb10b72af48415a57a5a214476f5c9a89f3",
           "volume_usd": 0.00029994660150776687,
           "count": 1
         },
         {
-          "label": null,
+          "label": "[0x04ab38]",
           "address": "0x04ab3801a3dedc51207025c142808a825c9a89f3",
           "volume_usd": 0.0002999443138627461,
           "count": 1
         },
         {
-          "label": null,
+          "label": "[0xa914ac]",
           "address": "0xa914ace65d8359dfbcec95dab9e720102631d9d0",
           "volume_usd": 0.00019895984132344815,
           "count": 1
@@ -1143,7 +1143,7 @@
     "0x4d3980ac9d84fc34adcd025ee2337786846343c4": {
       "address": "0x4d3980ac9d84fc34adcd025ee2337786846343c4",
       "first_seen": "2026-06-16",
-      "times_seen": 6,
+      "times_seen": 7,
       "tags": [],
       "notes": "",
       "history": [
@@ -1189,50 +1189,50 @@
       "first_funders": [
         {
           "address": "0x5bdf85216ec1e38d6458c870992a69e38e03f7ef",
-          "label": "Token Millionaire",
+          "label": "🏦 Bitget [0x5bdf85]",
           "relation": "First Funder",
           "time": "2026-03-07T14:49:02"
         }
       ],
       "counterparties": [
         {
-          "label": "Token Millionaire",
+          "label": "🤖 Hyperliquid: Bridge 2 [0x2df1c5]",
           "address": "0x2df1c51e09aecf9cacb7bc98cb1742757f163df7",
           "volume_usd": 71848.3778346181,
           "count": 4
         },
         {
-          "label": null,
+          "label": "[0x42ea75]",
           "address": "0x42ea75042585d4e8524aa6df185155230999bb33",
           "volume_usd": 39938.375992754714,
           "count": 2
         },
         {
-          "label": "Token Millionaire",
+          "label": "​​Distributor [0xf96d9b]",
           "address": "0xf96d9b5ff9ddc67ffd58921398795b83a9e50001",
           "volume_usd": 30900.86603033132,
           "count": 1
         },
         {
-          "label": "Token Millionaire",
+          "label": "🏦 Bitget: Main Wallet [0x1ab497]",
           "address": "0x1ab4973a48dc892cd9971ece8e01dcc7688f8f23",
           "volume_usd": 959.4498596148055,
           "count": 1
         },
         {
-          "label": null,
+          "label": "[0x42ea48]",
           "address": "0x42ea482ebc42ab9a3ca7f58818798bd50c1cbb33",
           "volume_usd": 3.898962836910646e-05,
           "count": 2
         },
         {
-          "label": "High Activity",
+          "label": "High Activity [0x2df1d0]",
           "address": "0x2df1d033385a3256500211ef302a7aa57f163df7",
           "volume_usd": 2.3211716967507864e-06,
           "count": 1
         },
         {
-          "label": "High Activity",
+          "label": "High Activity [0x2df1df]",
           "address": "0x2df1df582d0a1efc7178fd78b2bcd9aa08a73df7",
           "volume_usd": 0.0,
           "count": 1
@@ -1303,68 +1303,68 @@
       "first_funders": [
         {
           "address": "0xb02a9b7400545925746d8b9b985bc74a0601fb8d",
-          "label": "High Balance",
+          "label": "High Balance [0xb02a9b]",
           "relation": "First Funder",
           "time": "2026-05-22T22:46:58"
         }
       ],
       "counterparties": [
         {
-          "label": "High Activity",
+          "label": "🤖 Circle: USDC Bridge [0xa95d9c]",
           "address": "0xa95d9c1f655341597c94393fddc30cf3c08e4fce",
           "volume_usd": 33606.443111700486,
           "count": 3
         },
         {
-          "label": "High Balance",
+          "label": "High Balance [0xb02a9b]",
           "address": "0xb02a9b7400545925746d8b9b985bc74a0601fb8d",
           "volume_usd": 19969.487418900397,
           "count": 3
         },
         {
-          "label": null,
+          "label": "Burn Address [0x000000]",
           "address": "0x0000000000000000000000000000000000000000",
           "volume_usd": 13047.042519086126,
           "count": 3
         },
         {
-          "label": null,
+          "label": "[0xb3f4a9]",
           "address": "0xb3f4a9cbd1632e7f7563a7e940266f09ed4f3ac6",
           "volume_usd": 10047.807952729268,
           "count": 3
         },
         {
-          "label": "Token Millionaire",
+          "label": "🤖 Meson: Stablecoin Bridge Deposit Contract [0x25ab3e]",
           "address": "0x25ab3efd52e6470681ce037cd546dc60726948d3",
           "volume_usd": 7043.960910229427,
           "count": 1
         },
         {
-          "label": "Token Millionaire",
+          "label": "Relay Protocol: EOA Bridge [0xf70da9]",
           "address": "0xf70da97812cb96acdf810712aa562db8dfa3dbef",
           "volume_usd": 6598.063044424318,
           "count": 2
         },
         {
-          "label": "Token Millionaire",
+          "label": "🤖 Hyperliquid: Bridge 2 [0x2df1c5]",
           "address": "0x2df1c51e09aecf9cacb7bc98cb1742757f163df7",
           "volume_usd": 2999.2397604277994,
           "count": 1
         },
         {
-          "label": null,
+          "label": "[0xb3f49d]",
           "address": "0xb3f49d187f4994093a22bd7ed125adee226a3ac6",
           "volume_usd": 0.00489912369819951,
           "count": 1
         },
         {
-          "label": null,
+          "label": "[0xb3f46d]",
           "address": "0xb3f46d5eb3ecb73a371563baef9a34edfd563ac6",
           "volume_usd": 0.00029494724305486843,
           "count": 10
         },
         {
-          "label": null,
+          "label": "[0xb3f14a]",
           "address": "0xb3f14a77c72bad33adb4bcd98a9e303abb8f3ac6",
           "volume_usd": 0.00019796459025377613,
           "count": 9
@@ -1442,32 +1442,32 @@
       "first_funders": [
         {
           "address": "0x9574d6ffcbfb56bf20ab2e1111f9a0e835954503",
-          "label": "",
+          "label": "[0x9574d6]",
           "relation": "First Funder",
           "time": "2022-12-29T22:53:13"
         }
       ],
       "counterparties": [
         {
-          "label": "Token Millionaire",
+          "label": "🤖 Hyperliquid: Bridge 2 [0x2df1c5]",
           "address": "0x2df1c51e09aecf9cacb7bc98cb1742757f163df7",
           "volume_usd": 49987.64052085929,
           "count": 2
         },
         {
-          "label": null,
+          "label": "🏦 Kraken: Deposit [0xbe5afd]",
           "address": "0xbe5afd3358093eeeea8d2a966a3a74952dab23d0",
           "volume_usd": 29993.477126350637,
           "count": 1
         },
         {
-          "label": "High Balance",
+          "label": "​​🤖 USDC Bridge [0xc6868e]",
           "address": "0xc6868edf1d2a7a8b759856cb8afa333210dfeda6",
           "volume_usd": 19994.16339450865,
           "count": 1
         },
         {
-          "label": null,
+          "label": "[0xd2edcc]",
           "address": "0xd2edcc4bac1e8f1f4c6a0da3239706cf270674d6",
           "volume_usd": 1.8953078348218735,
           "count": 1
@@ -1595,68 +1595,68 @@
       "first_funders": [
         {
           "address": "0x25681ab599b4e2ceea31f8b498052c53fc2d74db",
-          "label": "High Activity",
+          "label": "🏦 Binance: Wallet [0x25681a]",
           "relation": "First Funder",
           "time": "2025-09-08T14:17:09"
         }
       ],
       "counterparties": [
         {
-          "label": "Token Millionaire",
+          "label": "🤖 🏦 Binance: Hot Wallet [0xee7ae8]",
           "address": "0xee7ae85f2fe2239e27d9c1e23fffe168d63b4055",
-          "volume_usd": 454126.1568837387,
+          "volume_usd": 454126.15688373864,
           "count": 8
         },
         {
-          "label": null,
+          "label": "🏦 Binance: Deposit [0x9663ca]",
           "address": "0x9663ca0b6710f2d434d187e03445af7927a6323e",
-          "volume_usd": 195948.7135518488,
+          "volume_usd": 195948.71355184884,
           "count": 3
         },
         {
-          "label": null,
+          "label": "[0x71a20c]",
           "address": "0x71a20cb9832d9d819083e840b7c7edc4063ed61c",
           "volume_usd": 89975.09964721989,
           "count": 1
         },
         {
-          "label": "High Activity",
+          "label": "🏦 Binance: Wallet [0x3931da]",
           "address": "0x3931dab967c3e2dbb492fe12460a66d0fe4cc857",
           "volume_usd": 4.895861580143024,
           "count": 1
         },
         {
-          "label": null,
+          "label": "[0x9663e0]",
           "address": "0x9663e01fe5206bb8c1dd071b984d7622d85ca23e",
           "volume_usd": 0.009996780578219138,
           "count": 1
         },
         {
-          "label": null,
+          "label": "[0x966340]",
           "address": "0x966340346cfa982a8b7f33e5011b5a7927a6323e",
           "volume_usd": 0.00017995022866576488,
           "count": 1
         },
         {
-          "label": null,
+          "label": "[0x9663fb]",
           "address": "0x9663fb747ab817bc76aa8adb4647cdbcce55323e",
-          "volume_usd": 7.297759786029686e-05,
+          "volume_usd": 7.297759786029688e-05,
           "count": 7
         },
         {
-          "label": null,
+          "label": "[0x9663af]",
           "address": "0x9663af6c6ee53564365813b02788e26c50c4423e",
           "volume_usd": 2.7990985619013584e-05,
           "count": 1
         },
         {
-          "label": null,
+          "label": "[0x9663c9]",
           "address": "0x9663c93b24c056a2913dd8c3fa23bd1927a6323e",
           "volume_usd": 6.5437300843228635e-06,
           "count": 3
         },
         {
-          "label": null,
+          "label": "[0x71a2bb]",
           "address": "0x71a2bbd800451d5ad019bb38d49be114063ed61c",
           "volume_usd": 2.2585862032445777e-06,
           "count": 1
@@ -1676,7 +1676,7 @@
     "0xd05808946809c180d190608e13f473db30aa8524": {
       "address": "0xd05808946809c180d190608e13f473db30aa8524",
       "first_seen": "2026-06-16",
-      "times_seen": 6,
+      "times_seen": 7,
       "tags": [],
       "notes": "",
       "history": [
@@ -1740,7 +1740,7 @@
     "0xfe4dec8543b0b9cec0c897a689f7af7bddb02192": {
       "address": "0xfe4dec8543b0b9cec0c897a689f7af7bddb02192",
       "first_seen": "2026-06-16",
-      "times_seen": 6,
+      "times_seen": 7,
       "tags": [],
       "notes": "",
       "history": [
@@ -1885,7 +1885,7 @@
     "0xdd08886cb92c689c7d89c88f048028293296ead1": {
       "address": "0xdd08886cb92c689c7d89c88f048028293296ead1",
       "first_seen": "2026-06-16",
-      "times_seen": 6,
+      "times_seen": 7,
       "tags": [],
       "notes": "",
       "history": [
@@ -1944,7 +1944,7 @@
     "0x5875d72130981b18692a3d29545e4038f7eb0c38": {
       "address": "0x5875d72130981b18692a3d29545e4038f7eb0c38",
       "first_seen": "2026-06-16",
-      "times_seen": 6,
+      "times_seen": 7,
       "tags": [],
       "notes": "",
       "history": [
@@ -1999,7 +1999,7 @@
     "0x2a934d40944e2b686ee9cdce74a3f67d32cd0347": {
       "address": "0x2a934d40944e2b686ee9cdce74a3f67d32cd0347",
       "first_seen": "2026-06-16",
-      "times_seen": 6,
+      "times_seen": 7,
       "tags": [],
       "notes": "",
       "history": [
@@ -2159,68 +2159,68 @@
       "first_funders": [
         {
           "address": "0x0b1ba75e8757c1c4aab8da45ffd0ed8316f998ec",
-          "label": "HL Perps Profitable",
+          "label": "HL Perps Day Trader [0x0b1ba7]",
           "relation": "First Funder",
           "time": "2026-03-11T01:21:02"
         }
       ],
       "counterparties": [
         {
-          "label": "Token Millionaire",
+          "label": "🤖 Hyperliquid: Bridge 2 [0x2df1c5]",
           "address": "0x2df1c51e09aecf9cacb7bc98cb1742757f163df7",
-          "volume_usd": 50682.37790644927,
+          "volume_usd": 50682.37790644928,
           "count": 9
         },
         {
-          "label": "High Balance",
+          "label": "🤖 Across Protocol: Spoke Pool [0xe35e98]",
           "address": "0xe35e9842fceaca96570b734083f4a58e8f7c5f2a",
           "volume_usd": 21310.684442300015,
           "count": 5
         },
         {
-          "label": "High Activity",
+          "label": "🤖 Circle: CCTP TokenMinterV2 [0xfd78ee]",
           "address": "0xfd78ee919681417d192449715b2594ab58f5d002",
           "volume_usd": 17036.305013473153,
           "count": 1
         },
         {
-          "label": "HL Perps Flat",
+          "label": "HL Perps Stocks Trader [0xe59aa2]",
           "address": "0xe59aa281621f4f90a9e5e67ea90de39be8a0564d",
           "volume_usd": 8506.493224212416,
           "count": 1
         },
         {
-          "label": "High Activity",
+          "label": "​​🤖 🏦 KyberSwap: DEX Aggregator [0x8f10b4]",
           "address": "0x8f10b468b06c6fd214b65f87778827f7d113f996",
           "volume_usd": 8035.350371802357,
           "count": 4
         },
         {
-          "label": "Token Millionaire",
+          "label": "​​deBridge: Trading Bot [0x555ce2]",
           "address": "0x555ce236c0220695b68341bc48c68d52210cc35b",
           "volume_usd": 7227.907543742543,
           "count": 2
         },
         {
-          "label": "High Activity",
+          "label": "@winterz on Farcaster [Verified] [0xca077a]",
           "address": "0xca077a26544657b08508e1f02236fc10bac86bf3",
           "volume_usd": 5000.762978477107,
           "count": 1
         },
         {
-          "label": null,
+          "label": "🤖 NexusProxy [0xa1e6b4]",
           "address": "0xa1e6b4585314d2f98735af6052c225e5381866e2",
           "volume_usd": 4017.6529202642373,
           "count": 2
         },
         {
-          "label": null,
+          "label": "Burn Address [0x000000]",
           "address": "0x0000000000000000000000000000000000000000",
           "volume_usd": 2520.113930003716,
           "count": 2
         },
         {
-          "label": "Token Millionaire",
+          "label": "🤖 Relay Protocol: Depository [0x4cd00e]",
           "address": "0x4cd00e387622c35bddb9b4c962c136462338bc31",
           "volume_usd": 2038.3435598988822,
           "count": 1
@@ -2292,7 +2292,7 @@
     "0x5a5ed3083d79f31f295bcdd71fdfb7a188132538": {
       "address": "0x5a5ed3083d79f31f295bcdd71fdfb7a188132538",
       "first_seen": "2026-06-16",
-      "times_seen": 6,
+      "times_seen": 7,
       "tags": [],
       "notes": "",
       "history": [
@@ -2535,7 +2535,7 @@
     "0x8c783a3877bfab4e318a7dc521157cc89f85202c": {
       "address": "0x8c783a3877bfab4e318a7dc521157cc89f85202c",
       "first_seen": "2026-06-16",
-      "times_seen": 6,
+      "times_seen": 7,
       "tags": [],
       "notes": "",
       "history": [
@@ -2590,7 +2590,7 @@
     "0x48ec0004494081e8332589faf0747d568da79faf": {
       "address": "0x48ec0004494081e8332589faf0747d568da79faf",
       "first_seen": "2026-06-16",
-      "times_seen": 6,
+      "times_seen": 7,
       "tags": [],
       "notes": "",
       "history": [
@@ -2645,7 +2645,7 @@
     "0x96abd7547c7ef5a0c4f2bf04dcd74dd96a461b56": {
       "address": "0x96abd7547c7ef5a0c4f2bf04dcd74dd96a461b56",
       "first_seen": "2026-06-16",
-      "times_seen": 6,
+      "times_seen": 7,
       "tags": [],
       "notes": "",
       "history": [
@@ -2965,7 +2965,7 @@
     "0x136c473f6d88c1ec17c2ed6b6cb273983e028458": {
       "address": "0x136c473f6d88c1ec17c2ed6b6cb273983e028458",
       "first_seen": "2026-06-16",
-      "times_seen": 6,
+      "times_seen": 7,
       "tags": [],
       "notes": "",
       "history": [
@@ -3019,7 +3019,7 @@
     "0x51b97ab1e4381e22dd6cd04d6f67393964fe3bc1": {
       "address": "0x51b97ab1e4381e22dd6cd04d6f67393964fe3bc1",
       "first_seen": "2026-06-16",
-      "times_seen": 6,
+      "times_seen": 7,
       "tags": [],
       "notes": "",
       "history": [
@@ -3073,7 +3073,7 @@
     "0xa46aba5584adb38d458710902f7fc6677f7ab914": {
       "address": "0xa46aba5584adb38d458710902f7fc6677f7ab914",
       "first_seen": "2026-06-16",
-      "times_seen": 6,
+      "times_seen": 7,
       "tags": [],
       "notes": "",
       "history": [
@@ -3180,7 +3180,7 @@
     "0xf47fe5f0f6c3ebfde365e34e6d15fb2ed4c39cdb": {
       "address": "0xf47fe5f0f6c3ebfde365e34e6d15fb2ed4c39cdb",
       "first_seen": "2026-06-16",
-      "times_seen": 6,
+      "times_seen": 7,
       "tags": [],
       "notes": "",
       "history": [
@@ -3289,7 +3289,7 @@
     "0x7806eeb0cdfb52dbe14ed12359526eea55612cf3": {
       "address": "0x7806eeb0cdfb52dbe14ed12359526eea55612cf3",
       "first_seen": "2026-06-16",
-      "times_seen": 6,
+      "times_seen": 7,
       "tags": [],
       "notes": "",
       "history": [
@@ -3342,7 +3342,7 @@
     "0x97b1419998d4c804336c6c22519d28277bacebd7": {
       "address": "0x97b1419998d4c804336c6c22519d28277bacebd7",
       "first_seen": "2026-06-16",
-      "times_seen": 6,
+      "times_seen": 7,
       "tags": [],
       "notes": "",
       "history": [
@@ -3449,7 +3449,7 @@
     "0x56654885ad39155235336c0ff01b3337693c3882": {
       "address": "0x56654885ad39155235336c0ff01b3337693c3882",
       "first_seen": "2026-06-16",
-      "times_seen": 6,
+      "times_seen": 7,
       "tags": [],
       "notes": "",
       "history": [
@@ -3663,7 +3663,7 @@
     "0x696adb8693ed15f14f8a80bb4f9fe061f58868db": {
       "address": "0x696adb8693ed15f14f8a80bb4f9fe061f58868db",
       "first_seen": "2026-06-16",
-      "times_seen": 6,
+      "times_seen": 7,
       "tags": [],
       "notes": "",
       "history": [
@@ -3876,7 +3876,7 @@
     "0xfe8c8076596dd917a20a31007ced69ce339129a1": {
       "address": "0xfe8c8076596dd917a20a31007ced69ce339129a1",
       "first_seen": "2026-06-16",
-      "times_seen": 6,
+      "times_seen": 7,
       "tags": [],
       "notes": "",
       "history": [
@@ -3929,7 +3929,7 @@
     "0x79f2bb1fc86a1f0592fb30aa6a369a24a7fd2361": {
       "address": "0x79f2bb1fc86a1f0592fb30aa6a369a24a7fd2361",
       "first_seen": "2026-06-16",
-      "times_seen": 6,
+      "times_seen": 7,
       "tags": [],
       "notes": "",
       "history": [
@@ -3984,7 +3984,7 @@
     "0x51651b81c895e654e5402a3fc371e3b60b0dfb1e": {
       "address": "0x51651b81c895e654e5402a3fc371e3b60b0dfb1e",
       "first_seen": "2026-06-16",
-      "times_seen": 6,
+      "times_seen": 7,
       "tags": [],
       "notes": "",
       "history": [
@@ -4090,7 +4090,7 @@
     "0x014bd1b946287bfdd8afe1d8833103c3baa36d74": {
       "address": "0x014bd1b946287bfdd8afe1d8833103c3baa36d74",
       "first_seen": "2026-06-16",
-      "times_seen": 6,
+      "times_seen": 7,
       "tags": [],
       "notes": "",
       "history": [
@@ -4252,7 +4252,7 @@
     "0x0c349d9b92fbd172bbb5a17a9db0a673a6a10ad3": {
       "address": "0x0c349d9b92fbd172bbb5a17a9db0a673a6a10ad3",
       "first_seen": "2026-06-16",
-      "times_seen": 6,
+      "times_seen": 7,
       "tags": [],
       "notes": "",
       "history": [
@@ -4306,68 +4306,68 @@
       "first_funders": [
         {
           "address": "0xa383a72e000c056cceaa9305b7b5d2d90887fbfd",
-          "label": "High Activity",
+          "label": "Orbiter Finance: Wallet [0xa383a7]",
           "relation": "First Funder",
           "time": "2025-01-22T16:27:53"
         }
       ],
       "counterparties": [
         {
-          "label": null,
+          "label": "🏦 Binance: Deposit [0x73bb78]",
           "address": "0x73bb786a3414c3f517449f5d0f509a0380000941",
           "volume_usd": 2187129.0319537204,
           "count": 19
         },
         {
-          "label": "Token Millionaire",
+          "label": "🤖 Hyperliquid: Bridge 2 [0x2df1c5]",
           "address": "0x2df1c51e09aecf9cacb7bc98cb1742757f163df7",
           "volume_usd": 1657637.2967606906,
           "count": 11
         },
         {
-          "label": "Token Millionaire",
+          "label": "🤖 🏦 Binance: Hot Wallet [0xee7ae8]",
           "address": "0xee7ae85f2fe2239e27d9c1e23fffe168d63b4055",
-          "volume_usd": 1350378.151767363,
+          "volume_usd": 1350378.1517673633,
           "count": 8
         },
         {
-          "label": "High Activity",
+          "label": "🤖 Circle: USDC Bridge [0xa95d9c]",
           "address": "0xa95d9c1f655341597c94393fddc30cf3c08e4fce",
           "volume_usd": 1350378.126259241,
           "count": 8
         },
         {
-          "label": null,
+          "label": "Burn Address [0x000000]",
           "address": "0x0000000000000000000000000000000000000000",
-          "volume_usd": 645351.5580217353,
+          "volume_usd": 645351.5580217354,
           "count": 12
         },
         {
-          "label": "High Activity",
+          "label": "🤖 LI.FI: Diamond Facet Bridge [0x1231de]",
           "address": "0x1231deb6f5749ef6ce6943a275a1d3e7486f4eae",
           "volume_usd": 103759.26827952938,
           "count": 2
         },
         {
-          "label": "High Activity",
+          "label": "🤖 DexRouter [0x7cf6b3]",
           "address": "0x7cf6b330b437e9fb432b1400de17b03357cf049a",
           "volume_usd": 64234.68316023276,
           "count": 3
         },
         {
-          "label": "Token Millionaire",
+          "label": "🤖 Token Millionaire [0x77652d]",
           "address": "0x77652d5aba086137b595875263fc200182919b92",
           "volume_usd": 63953.69937832049,
           "count": 4
         },
         {
-          "label": "High Activity",
+          "label": "🏦 Binance: Wallet [0x3931da]",
           "address": "0x3931dab967c3e2dbb492fe12460a66d0fe4cc857",
           "volume_usd": 51881.04131071949,
           "count": 1
         },
         {
-          "label": "High Activity",
+          "label": "🤖 AngstromAdapter [0x536b39]",
           "address": "0x536b3998ea56b26f95c9d3f6a99e783987fa5621",
           "volume_usd": 43598.87045056006,
           "count": 2
@@ -4441,7 +4441,7 @@
     "0x6f97b7de6be7b7771e975e46bae96c35e332e172": {
       "address": "0x6f97b7de6be7b7771e975e46bae96c35e332e172",
       "first_seen": "2026-06-16",
-      "times_seen": 6,
+      "times_seen": 7,
       "tags": [],
       "notes": "",
       "history": [
@@ -4493,7 +4493,7 @@
     "0x3d356173b633d4390ac31dff045c4e20234ebbbd": {
       "address": "0x3d356173b633d4390ac31dff045c4e20234ebbbd",
       "first_seen": "2026-06-16",
-      "times_seen": 6,
+      "times_seen": 7,
       "tags": [],
       "notes": "",
       "history": [
@@ -4547,7 +4547,7 @@
     "0xd7a01b2fc57149507a1848ae142aa308bdbe05a2": {
       "address": "0xd7a01b2fc57149507a1848ae142aa308bdbe05a2",
       "first_seen": "2026-06-16",
-      "times_seen": 6,
+      "times_seen": 7,
       "tags": [],
       "notes": "",
       "history": [
@@ -4600,7 +4600,7 @@
     "0x8c96e5a2d770f9f2c9d2464ce4e741df0b2bca57": {
       "address": "0x8c96e5a2d770f9f2c9d2464ce4e741df0b2bca57",
       "first_seen": "2026-06-16",
-      "times_seen": 6,
+      "times_seen": 7,
       "tags": [],
       "notes": "",
       "history": [
@@ -4655,7 +4655,7 @@
     "0xeff7fe671d9a7acf86f48994bc5d5161042415b6": {
       "address": "0xeff7fe671d9a7acf86f48994bc5d5161042415b6",
       "first_seen": "2026-06-16",
-      "times_seen": 6,
+      "times_seen": 7,
       "tags": [],
       "notes": "",
       "history": [
@@ -4703,7 +4703,79 @@
         "頻度:多(500+)",
         "保有:短期(<12h)",
         "方向:無/フラット"
-      ]
+      ],
+      "labels": [],
+      "first_funders": [
+        {
+          "address": "0xb92fe925dc43a0ecde6c8b1a2709c170ec4fff4f",
+          "label": "​​🤖 Relay Protocol: Router [0xb92fe9]",
+          "relation": "First Funder",
+          "time": "2026-05-16T12:22:50"
+        }
+      ],
+      "counterparties": [
+        {
+          "label": "🤖 Hyperliquid: Bridge 2 [0x2df1c5]",
+          "address": "0x2df1c51e09aecf9cacb7bc98cb1742757f163df7",
+          "volume_usd": 346246.1259967908,
+          "count": 51
+        },
+        {
+          "label": "🏦 Nexo: Deposit [0xee2f18]",
+          "address": "0xee2f18640685eed8d5fe18cdc90e94b680c4c7ea",
+          "volume_usd": 162169.64880880553,
+          "count": 6
+        },
+        {
+          "label": "High Balance [0x5600a3]",
+          "address": "0x5600a3988ff9359ab1a7c3b3707c867c2ea91f2b",
+          "volume_usd": 122909.20598304953,
+          "count": 21
+        },
+        {
+          "label": "High Activity [0xbcfcdf]",
+          "address": "0xbcfcdf43163a9e056daded84aeb65a6a6c350130",
+          "volume_usd": 61937.75940555787,
+          "count": 14
+        },
+        {
+          "label": "​​🤖 ETH Bridge [0x7a70cb]",
+          "address": "0x7a70cb77a12fa2dc3fa1bc1dcbca4c79db71a289",
+          "volume_usd": 219.95922638973954,
+          "count": 2
+        },
+        {
+          "label": "High Activity [0xd40e9c]",
+          "address": "0xd40e9c8ce75615c91e6d3c56f9a16c65a6bd3b35",
+          "volume_usd": 96.76149749228249,
+          "count": 1
+        },
+        {
+          "label": "​​🤖 Relay Protocol: Router [0xb92fe9]",
+          "address": "0xb92fe925dc43a0ecde6c8b1a2709c170ec4fff4f",
+          "volume_usd": 19.431544439942073,
+          "count": 1
+        },
+        {
+          "label": "​​Gas Station Swap: MetaMask [0xe3478b]",
+          "address": "0xe3478b0bb1a5084567c319096437924948be1964",
+          "volume_usd": 0.32191669777090354,
+          "count": 21
+        },
+        {
+          "label": "[0xee2f0b]",
+          "address": "0xee2f0b8e11add0d998d05dfbbf12149c0414c7ea",
+          "volume_usd": 0.009965929513786918,
+          "count": 1
+        },
+        {
+          "label": "[0x2df147]",
+          "address": "0x2df147db484e94278c75eda4e272e32c883f3df7",
+          "volume_usd": 0.0016985769951701278,
+          "count": 23
+        }
+      ],
+      "nansen_checked": "2026-06-17"
     },
     "0x535191d6d49922d69cc7829dbb73e48694840db7": {
       "address": "0x535191d6d49922d69cc7829dbb73e48694840db7",
@@ -4762,7 +4834,7 @@
     "0x5f2c263aa195ddad2886fc5a6b7d4f33d1a72983": {
       "address": "0x5f2c263aa195ddad2886fc5a6b7d4f33d1a72983",
       "first_seen": "2026-06-16",
-      "times_seen": 6,
+      "times_seen": 7,
       "tags": [],
       "notes": "",
       "history": [
@@ -4816,7 +4888,7 @@
     "0x57f2819c959abbcf22623d5ec1d3164b213e9711": {
       "address": "0x57f2819c959abbcf22623d5ec1d3164b213e9711",
       "first_seen": "2026-06-16",
-      "times_seen": 6,
+      "times_seen": 7,
       "tags": [],
       "notes": "",
       "history": [
@@ -4871,7 +4943,7 @@
     "0xa516541e599129095d14f7faf8b11ae670c837b0": {
       "address": "0xa516541e599129095d14f7faf8b11ae670c837b0",
       "first_seen": "2026-06-16",
-      "times_seen": 6,
+      "times_seen": 7,
       "tags": [],
       "notes": "",
       "history": [
@@ -4981,20 +5053,20 @@
       "first_funders": [
         {
           "address": "0xe35e9842fceaca96570b734083f4a58e8f7c5f2a",
-          "label": "High Balance",
+          "label": "🤖 Across Protocol: Spoke Pool [0xe35e98]",
           "relation": "First Funder",
           "time": "2024-12-13T19:47:57"
         }
       ],
       "counterparties": [
         {
-          "label": "High Activity",
+          "label": "🤖 LI.FI: Contract [0x89c634]",
           "address": "0x89c6340b1a1f4b25d36cd8b063d49045caf3f818",
           "volume_usd": 499843.58457347046,
           "count": 1
         },
         {
-          "label": "Token Millionaire",
+          "label": "🤖 Hyperliquid: Bridge 2 [0x2df1c5]",
           "address": "0x2df1c51e09aecf9cacb7bc98cb1742757f163df7",
           "volume_usd": 499843.58457347046,
           "count": 1
@@ -5014,7 +5086,7 @@
     "0xd67ca2c6f8bc84acf4fa4472b82a8740dc0a53ff": {
       "address": "0xd67ca2c6f8bc84acf4fa4472b82a8740dc0a53ff",
       "first_seen": "2026-06-16",
-      "times_seen": 6,
+      "times_seen": 7,
       "tags": [
         "cluster-A",
         "funder:0xdf747918"
@@ -5216,7 +5288,7 @@
     "0x8be0b9c4dbfb90f47fb94e8968dce08d3152326c": {
       "address": "0x8be0b9c4dbfb90f47fb94e8968dce08d3152326c",
       "first_seen": "2026-06-16",
-      "times_seen": 6,
+      "times_seen": 7,
       "tags": [],
       "notes": "",
       "history": [
@@ -6066,7 +6138,7 @@
     "0xc6758a779bccee1ef0190dbe8292fdf44076795d": {
       "address": "0xc6758a779bccee1ef0190dbe8292fdf44076795d",
       "first_seen": "2026-06-17",
-      "times_seen": 2,
+      "times_seen": 3,
       "tags": [],
       "notes": "",
       "history": [
@@ -6109,7 +6181,7 @@
     "0x99b1098d9d50aa076f78bd26ab22e6abd3710729": {
       "address": "0x99b1098d9d50aa076f78bd26ab22e6abd3710729",
       "first_seen": "2026-06-17",
-      "times_seen": 2,
+      "times_seen": 3,
       "tags": [],
       "notes": "",
       "history": [
@@ -6146,12 +6218,84 @@
         "avg_hold_h": null,
         "event_lead_notional": 0,
         "insider_likelihood": null
-      }
+      },
+      "labels": [],
+      "first_funders": [
+        {
+          "address": "0xba52afee37e1580ce86bde285e6fa16334341aa5",
+          "label": "[0xba52af]",
+          "relation": "First Funder",
+          "time": "2025-09-05T07:12:45"
+        }
+      ],
+      "counterparties": [
+        {
+          "label": "🤖 Hyperliquid: Bridge 2 [0x2df1c5]",
+          "address": "0x2df1c51e09aecf9cacb7bc98cb1742757f163df7",
+          "volume_usd": 5308477.2470427565,
+          "count": 18
+        },
+        {
+          "label": "🤖 🏦 Binance: Hot Wallet [0xee7ae8]",
+          "address": "0xee7ae85f2fe2239e27d9c1e23fffe168d63b4055",
+          "volume_usd": 2119469.423212562,
+          "count": 11
+        },
+        {
+          "label": "🏦 Binance: Deposit [0xfccb79]",
+          "address": "0xfccb79e372fe53523c3a5fadb943e8cb092d5559",
+          "volume_usd": 2019400.204702388,
+          "count": 9
+        },
+        {
+          "label": "🏦 Binance: Deposit [0x5cfabd]",
+          "address": "0x5cfabd6b228bbfda9e4c6ef51f39ae0a856bad6d",
+          "volume_usd": 1799427.449814546,
+          "count": 4
+        },
+        {
+          "label": "🤖 Circle: USDC Bridge [0xa95d9c]",
+          "address": "0xa95d9c1f655341597c94393fddc30cf3c08e4fce",
+          "volume_usd": 509844.51954065636,
+          "count": 3
+        },
+        {
+          "label": "Burn Address [0x000000]",
+          "address": "0x0000000000000000000000000000000000000000",
+          "volume_usd": 119976.72967829442,
+          "count": 2
+        },
+        {
+          "label": "[0xfccb6c]",
+          "address": "0xfccb6c38b548e5a17f76fdbef973ea19c92d5559",
+          "volume_usd": 0.00039892719210078096,
+          "count": 1
+        },
+        {
+          "label": "[0xfcccce]",
+          "address": "0xfcccce6e9d179b63de26c567f9a695fe582d5559",
+          "volume_usd": 0.00039892719210078096,
+          "count": 1
+        },
+        {
+          "label": "[0xfccb8b]",
+          "address": "0xfccb8b4d3e59e5b89b8600a472000db7b9765559",
+          "volume_usd": 0.00019994841955369558,
+          "count": 17
+        },
+        {
+          "label": "[0x5cfa5f]",
+          "address": "0x5cfa5f9673ddef79c0bfe6c3367616b8bfd8ad6d",
+          "volume_usd": 0.00017594438746194706,
+          "count": 8
+        }
+      ],
+      "nansen_checked": "2026-06-17"
     },
     "0x0a7097d919b7421ecc03aed3aac68a13e7ef1f46": {
       "address": "0x0a7097d919b7421ecc03aed3aac68a13e7ef1f46",
       "first_seen": "2026-06-17",
-      "times_seen": 2,
+      "times_seen": 3,
       "tags": [],
       "notes": "",
       "history": [
@@ -6177,6 +6321,7 @@
         "頻度:多(500+)",
         "保有:スイング(<48h)",
         "方向:無/フラット",
+        "ID:ENS有",
         "資金:大型出金疑い(50x+)"
       ],
       "current": {
@@ -6189,12 +6334,56 @@
         "avg_hold_h": 31.82,
         "event_lead_notional": 799334,
         "insider_likelihood": null
-      }
+      },
+      "labels": [
+        "\"kekvault2\" on OpenSea"
+      ],
+      "first_funders": [
+        {
+          "address": "0xbe69e095e738eb7260ad795c554aba288e1f2adc",
+          "label": "@kekbeta [0xbe69e0]",
+          "relation": "First Funder",
+          "time": "2025-01-24T14:29:40"
+        }
+      ],
+      "counterparties": [
+        {
+          "label": "🏦 Binance: Deposit [0xe5ef5c]",
+          "address": "0xe5ef5c93dc205f85c46819df340b0d41b463ba7a",
+          "volume_usd": 358797.30433591554,
+          "count": 2
+        },
+        {
+          "label": "🤖 ParaSwap: Augustus V.2 [0x6a000f]",
+          "address": "0x6a000f20005980200259b80c5102003040001068",
+          "volume_usd": 358797.3042759476,
+          "count": 1
+        },
+        {
+          "label": "🤖 High Activity [0x6f0538]",
+          "address": "0x6f0538001f90d0a5f0000060d01d34c002030900",
+          "volume_usd": 358739.89932318707,
+          "count": 1
+        },
+        {
+          "label": "🤖 Hyperliquid: Bridge 2 [0x2df1c5]",
+          "address": "0x2df1c51e09aecf9cacb7bc98cb1742757f163df7",
+          "volume_usd": 358739.89690293954,
+          "count": 1
+        },
+        {
+          "label": "[0xe5efef]",
+          "address": "0xe5efef12c9d7482f489bb63052a9bdc97253ba7a",
+          "volume_usd": 8.495457131355589e-05,
+          "count": 3
+        }
+      ],
+      "nansen_checked": "2026-06-17"
     },
     "0x2a304155f0c751217f2bedc1769be8398151eca4": {
       "address": "0x2a304155f0c751217f2bedc1769be8398151eca4",
       "first_seen": "2026-06-17",
-      "times_seen": 2,
+      "times_seen": 3,
       "tags": [],
       "notes": "",
       "history": [
@@ -6235,7 +6424,7 @@
     "0xb123cd952875d8014efc7a9160a7531a5fe8f5ca": {
       "address": "0xb123cd952875d8014efc7a9160a7531a5fe8f5ca",
       "first_seen": "2026-06-17",
-      "times_seen": 2,
+      "times_seen": 3,
       "tags": [],
       "notes": "",
       "history": [
@@ -6261,6 +6450,7 @@
         "頻度:少(<50)",
         "保有:スキャルプ(<2h)",
         "方向:無/フラット",
+        "ID:ENS有",
         "資金:出金疑い(10x+)"
       ],
       "current": {
@@ -6273,12 +6463,142 @@
         "avg_hold_h": 0.61,
         "event_lead_notional": 0,
         "insider_likelihood": null
-      }
+      },
+      "labels": [
+        "\"M1NER\" on OpenSea",
+        "miner35.eth",
+        "miner35.eth*"
+      ],
+      "first_funders": [
+        {
+          "address": "0xc0e02aa55d10e38855e13b64a8e1387a04681a00",
+          "label": "🤖 Socket: Refuel Contract [0xc0e02a]",
+          "relation": "First Funder",
+          "time": "2023-10-24T10:47:18"
+        },
+        {
+          "address": "0x266508d097aa68a9c576c60ab88f62cf986fc4d8",
+          "label": "[0x266508]",
+          "relation": "Deployed Contract",
+          "time": "2023-11-11T16:37:32"
+        },
+        {
+          "address": "0xc6a0ca5eb41a0f18c00eee545c2c08cd30de1d58",
+          "label": "[0xc6a0ca]",
+          "relation": "Deployed Contract",
+          "time": "2023-11-11T16:37:32"
+        },
+        {
+          "address": "0xcc3f50ce24e7a830d633a779866a01bff24a58da",
+          "label": "[0xcc3f50]",
+          "relation": "Deployed Contract",
+          "time": "2024-01-22T20:56:35"
+        },
+        {
+          "address": "0x86e35e2b723d82a17fccdbed0d3e7db836668cbb",
+          "label": "[0x86e35e]",
+          "relation": "Deployed Contract",
+          "time": "2024-01-27T20:59:31"
+        },
+        {
+          "address": "0x79e92e5c62a8ab533b3a7cfb5c77fcafd337835d",
+          "label": "[0x79e92e]",
+          "relation": "Deployed Contract",
+          "time": "2024-02-16T22:44:32"
+        },
+        {
+          "address": "0x5ceb89540547a282068ecdd0fdf475f0d339d8eb",
+          "label": "🤖 25 [0x5ceb89]",
+          "relation": "Deployed Contract",
+          "time": "2024-03-16T11:00:51"
+        },
+        {
+          "address": "0x871a3509398fa1a99fb0ae62697c58953ffacc73",
+          "label": "🤖 GnosisSafeProxy [0x871a35]",
+          "relation": "Deployed Contract",
+          "time": "2024-05-18T19:42:06"
+        },
+        {
+          "address": "0xdfdf12ac6aead471736b9ffaf948da73986311ee",
+          "label": "🤖 ParlayMarketMastercopy [0xdfdf12]",
+          "relation": "Deployed Contract",
+          "time": "2024-06-15T14:33:14"
+        },
+        {
+          "address": "0x79b5754c9ffa827c05c7be95ed6c5cd8ee4031a4",
+          "label": "[0x79b575]",
+          "relation": "Deployed Contract",
+          "time": "2024-06-21T16:58:45"
+        }
+      ],
+      "counterparties": [
+        {
+          "label": "[0x0d47a1]",
+          "address": "0x0d47a1ccb88207a902b7e9c8f401443d39f7b1ae",
+          "volume_usd": 16618.62078499435,
+          "count": 6
+        },
+        {
+          "label": "Burn Address [0x000000]",
+          "address": "0x0000000000000000000000000000000000000000",
+          "volume_usd": 15246.198040846168,
+          "count": 4
+        },
+        {
+          "label": "🤖 UniversalRouter [0x8b844f]",
+          "address": "0x8b844f885672f333bc0042cb669255f93a4c1e6b",
+          "volume_usd": 12338.13776992886,
+          "count": 3
+        },
+        {
+          "label": "🤖 Hyperliquid: Bridge 2 [0x2df1c5]",
+          "address": "0x2df1c51e09aecf9cacb7bc98cb1742757f163df7",
+          "volume_usd": 8940.794035475328,
+          "count": 5
+        },
+        {
+          "label": "​​🤖 USDC Bridge [0xc6868e]",
+          "address": "0xc6868edf1d2a7a8b759856cb8afa333210dfeda6",
+          "volume_usd": 5085.980208469272,
+          "count": 1
+        },
+        {
+          "label": "​​🤖 Stargate: Native Token Bridge [0xa45b51]",
+          "address": "0xa45b5130f36cdca45667738e2a258ab09f4a5f7f",
+          "volume_usd": 2177.5934825437257,
+          "count": 1
+        },
+        {
+          "label": "🤖 🏦 Uniswap: V3 WETH-USDC (0.05%) Liquidity Pool  [0xc69620]",
+          "address": "0xc6962004f452be9203591991d15f6b388e09e8d0",
+          "volume_usd": 2176.8471642279073,
+          "count": 1
+        },
+        {
+          "label": "🤖 Relay Protocol: Depository [0x4cd00e]",
+          "address": "0x4cd00e387622c35bddb9b4c962c136462338bc31",
+          "volume_usd": 297.9304103749585,
+          "count": 1
+        },
+        {
+          "label": "[0x0d490b]",
+          "address": "0x0d490bc8638255a0cd2d6980eb3d9a9a8ff261ae",
+          "volume_usd": 1.1028118556122998e-05,
+          "count": 6
+        },
+        {
+          "label": "[0x2df123]",
+          "address": "0x2df123d54193f295c8e10814d5d0f1557f163df7",
+          "volume_usd": 2.304758500297151e-06,
+          "count": 1
+        }
+      ],
+      "nansen_checked": "2026-06-17"
     },
     "0x159d148acd970eaf88bed8feac4ad6d38e7c3665": {
       "address": "0x159d148acd970eaf88bed8feac4ad6d38e7c3665",
       "first_seen": "2026-06-17",
-      "times_seen": 2,
+      "times_seen": 3,
       "tags": [],
       "notes": "",
       "history": [
@@ -6320,7 +6640,7 @@
     "0xa4be91acc74feabab71b8878b66b8f5277212520": {
       "address": "0xa4be91acc74feabab71b8878b66b8f5277212520",
       "first_seen": "2026-06-17",
-      "times_seen": 2,
+      "times_seen": 3,
       "tags": [],
       "notes": "",
       "history": [
@@ -6359,12 +6679,36 @@
         "avg_hold_h": null,
         "event_lead_notional": 0,
         "insider_likelihood": null
-      }
+      },
+      "labels": [],
+      "first_funders": [
+        {
+          "address": "0x1b5b4e441f5a22bfd91b7772c780463f66a74b35",
+          "label": "🏦 Binance: Wallet [0x1b5b4e]",
+          "relation": "First Funder",
+          "time": "2025-09-19T09:36:27"
+        }
+      ],
+      "counterparties": [
+        {
+          "label": "🤖 Hyperliquid: Bridge 2 [0x2df1c5]",
+          "address": "0x2df1c51e09aecf9cacb7bc98cb1742757f163df7",
+          "volume_usd": 29.792448286916144,
+          "count": 1
+        },
+        {
+          "label": "🤖 🏦 Binance: Hot Wallet [0xee7ae8]",
+          "address": "0xee7ae85f2fe2239e27d9c1e23fffe168d63b4055",
+          "volume_usd": 29.792448286916144,
+          "count": 1
+        }
+      ],
+      "nansen_checked": "2026-06-17"
     },
     "0x9a377ec81c1bd51d31170bf8d7a7b6c5fbaded9b": {
       "address": "0x9a377ec81c1bd51d31170bf8d7a7b6c5fbaded9b",
       "first_seen": "2026-06-17",
-      "times_seen": 2,
+      "times_seen": 3,
       "tags": [],
       "notes": "",
       "history": [
@@ -6402,12 +6746,84 @@
         "avg_hold_h": 0.53,
         "event_lead_notional": 0,
         "insider_likelihood": null
-      }
+      },
+      "labels": [],
+      "first_funders": [
+        {
+          "address": "0xd2ae3077cf1c30b07d33705b332191172803bc74",
+          "label": "[0xd2ae30]",
+          "relation": "First Funder",
+          "time": "2024-12-23T01:26:45"
+        }
+      ],
+      "counterparties": [
+        {
+          "label": "🤖 Circle: USDC Bridge [0xa95d9c]",
+          "address": "0xa95d9c1f655341597c94393fddc30cf3c08e4fce",
+          "volume_usd": 109959.1130087179,
+          "count": 2
+        },
+        {
+          "label": "Burn Address [0x000000]",
+          "address": "0x0000000000000000000000000000000000000000",
+          "volume_usd": 101038.11336331234,
+          "count": 2
+        },
+        {
+          "label": "🏦 Bybit: Deposit [0xc6cfd3]",
+          "address": "0xc6cfd30ac04a248e29aa527e3ab58e9442e99506",
+          "volume_usd": 99976.95752547034,
+          "count": 2
+        },
+        {
+          "label": "🏦 Bybit [0x9d271a]",
+          "address": "0x9d271a4e9523d74572b618ec10419a0a330e1bf0",
+          "volume_usd": 89989.03016225966,
+          "count": 1
+        },
+        {
+          "label": "🏦 Bybit: Hot Wallet [0xf89d7b]",
+          "address": "0xf89d7b9c864f589bbf53a82105107622b35eaa40",
+          "volume_usd": 19970.089063037518,
+          "count": 1
+        },
+        {
+          "label": "🤖 Hyperliquid: Bridge 2 [0x2df1c5]",
+          "address": "0x2df1c51e09aecf9cacb7bc98cb1742757f163df7",
+          "volume_usd": 1061.1563280060172,
+          "count": 1
+        },
+        {
+          "label": "[0xc6c512]",
+          "address": "0xc6c5124f9890739c1fe2e10a5fbb95ff89499506",
+          "volume_usd": 0.0010987488923824976,
+          "count": 6
+        },
+        {
+          "label": "[0xc6cfd9]",
+          "address": "0xc6cfd924b79c244ac0af9c512227bdc715bb6506",
+          "volume_usd": 9.997715126319362e-06,
+          "count": 1
+        },
+        {
+          "label": "[0xc6cfff]",
+          "address": "0xc6cfff9a0aae56098b4cea2fc048125211289506",
+          "volume_usd": 9.997532652514031e-06,
+          "count": 3
+        },
+        {
+          "label": "[0x2df13c]",
+          "address": "0x2df13ca034149c3f8d40fdb5da9d89e57f163df7",
+          "volume_usd": 2.2585862032445777e-06,
+          "count": 1
+        }
+      ],
+      "nansen_checked": "2026-06-17"
     },
     "0x321f7193eadbacb67eff00f76b975a487e5b1c84": {
       "address": "0x321f7193eadbacb67eff00f76b975a487e5b1c84",
       "first_seen": "2026-06-17",
-      "times_seen": 2,
+      "times_seen": 3,
       "tags": [],
       "notes": "",
       "history": [
@@ -6451,7 +6867,7 @@
     "0xf211dd718de25bcad861e53a7b10dd5b3b9d5c6c": {
       "address": "0xf211dd718de25bcad861e53a7b10dd5b3b9d5c6c",
       "first_seen": "2026-06-17",
-      "times_seen": 2,
+      "times_seen": 3,
       "tags": [],
       "notes": "",
       "history": [
@@ -6495,7 +6911,7 @@
     "0x5421e7c6ce37b6c5a6a428018a451071a6fd3ab2": {
       "address": "0x5421e7c6ce37b6c5a6a428018a451071a6fd3ab2",
       "first_seen": "2026-06-17",
-      "times_seen": 2,
+      "times_seen": 3,
       "tags": [],
       "notes": "",
       "history": [
@@ -6537,7 +6953,7 @@
     "0xcdbd79aafd6d0618e3fc6aecb11e1a61908a9169": {
       "address": "0xcdbd79aafd6d0618e3fc6aecb11e1a61908a9169",
       "first_seen": "2026-06-17",
-      "times_seen": 2,
+      "times_seen": 3,
       "tags": [],
       "notes": "",
       "history": [
@@ -6581,7 +6997,7 @@
     "0x920abbd8a5f5d39e87ed802d73e5aa902dc71d89": {
       "address": "0x920abbd8a5f5d39e87ed802d73e5aa902dc71d89",
       "first_seen": "2026-06-17",
-      "times_seen": 2,
+      "times_seen": 3,
       "tags": [],
       "notes": "",
       "history": [
@@ -6623,7 +7039,7 @@
     "0x71b117d68974aa4c5615669ae70e8e13ce7479c8": {
       "address": "0x71b117d68974aa4c5615669ae70e8e13ce7479c8",
       "first_seen": "2026-06-17",
-      "times_seen": 2,
+      "times_seen": 3,
       "tags": [],
       "notes": "",
       "history": [
@@ -6661,12 +7077,80 @@
         "avg_hold_h": 6.97,
         "event_lead_notional": 0,
         "insider_likelihood": null
-      }
+      },
+      "labels": [
+        "High Balance"
+      ],
+      "first_funders": [
+        {
+          "address": "0x8c826f795466e39acbff1bb4eeeb759609377ba1",
+          "label": "Gas.zip: Primary Solver [0x8c826f]",
+          "relation": "First Funder",
+          "time": "2025-03-29T08:45:02"
+        }
+      ],
+      "counterparties": [
+        {
+          "label": "🤖 Hyperliquid: Bridge 2 [0x2df1c5]",
+          "address": "0x2df1c51e09aecf9cacb7bc98cb1742757f163df7",
+          "volume_usd": 999768.4949524496,
+          "count": 1
+        },
+        {
+          "label": "🏦 Coinbase: Deposit [0xf5ddde]",
+          "address": "0xf5ddde589a158ffc17f99d34067e2a4adbf27670",
+          "volume_usd": 199953.89894438884,
+          "count": 2
+        },
+        {
+          "label": "Relay Protocol: EOA Bridge [0xf70da9]",
+          "address": "0xf70da97812cb96acdf810712aa562db8dfa3dbef",
+          "volume_usd": 88.10973294753744,
+          "count": 1
+        },
+        {
+          "label": "[0xf5d874]",
+          "address": "0xf5d8744dc162f38bcc1dc2ad807648ee29f14670",
+          "volume_usd": 0.0019995389894438887,
+          "count": 2
+        },
+        {
+          "label": "[0xf5ddb0]",
+          "address": "0xf5ddb087eed9edb2bfce077757fd2003cb627670",
+          "volume_usd": 0.0003909098724362804,
+          "count": 25
+        },
+        {
+          "label": "[0xf5ddf0]",
+          "address": "0xf5ddf026d1bb357bc187210540a4e7a0e8a09670",
+          "volume_usd": 0.0002089518243968863,
+          "count": 20
+        },
+        {
+          "label": "[0xf5dd39]",
+          "address": "0xf5dd39b2601ccf9d8a89b69241e670f2040e7670",
+          "volume_usd": 9.997694947219442e-07,
+          "count": 1
+        },
+        {
+          "label": "[0xf5d852]",
+          "address": "0xf5d8528ebf6943d2210276aa39b539fa55d14670",
+          "volume_usd": 0.0,
+          "count": 2
+        },
+        {
+          "label": "[0xf5dd46]",
+          "address": "0xf5dd46d24353585867a679cbddcd3f1c6f227670",
+          "volume_usd": 0.0,
+          "count": 2
+        }
+      ],
+      "nansen_checked": "2026-06-17"
     },
     "0x48b1a8f92e403bc9dc7500b9cbcc4cadf35c7ac0": {
       "address": "0x48b1a8f92e403bc9dc7500b9cbcc4cadf35c7ac0",
       "first_seen": "2026-06-17",
-      "times_seen": 2,
+      "times_seen": 3,
       "tags": [],
       "notes": "",
       "history": [
@@ -6703,12 +7187,84 @@
         "avg_hold_h": 6.95,
         "event_lead_notional": 0,
         "insider_likelihood": null
-      }
+      },
+      "labels": [],
+      "first_funders": [
+        {
+          "address": "0x66c68b5a77d009609c2a1c0797cf991d0d0e9126",
+          "label": "\"Parity\" HL Vault Leader [0x66c68b]",
+          "relation": "First Funder",
+          "time": "2024-02-03T13:44:29"
+        }
+      ],
+      "counterparties": [
+        {
+          "label": "🤖 Hyperliquid: Bridge 2 [0x2df1c5]",
+          "address": "0x2df1c51e09aecf9cacb7bc98cb1742757f163df7",
+          "volume_usd": 736195.9410740905,
+          "count": 11
+        },
+        {
+          "label": "🤖 LI.FI: Contract [0x89c634]",
+          "address": "0x89c6340b1a1f4b25d36cd8b063d49045caf3f818",
+          "volume_usd": 589352.3038151604,
+          "count": 8
+        },
+        {
+          "label": "HL Perps Altcoin Trader [0xdb2205]",
+          "address": "0xdb2205886dc7179c61bb7638249f9a4899747cb0",
+          "volume_usd": 199959.07206649135,
+          "count": 1
+        },
+        {
+          "label": "🤖 Circle: USDC Bridge [0xa95d9c]",
+          "address": "0xa95d9c1f655341597c94393fddc30cf3c08e4fce",
+          "volume_usd": 167428.7444351501,
+          "count": 2
+        },
+        {
+          "label": "🤖 High Activity [0xeba53d]",
+          "address": "0xeba53db3b53e2ae621faae3bed4e7fcd11877eac",
+          "volume_usd": 49983.71996197923,
+          "count": 1
+        },
+        {
+          "label": "[0x8fbc8d]",
+          "address": "0x8fbc8d342a6789e5edbe0be989887aa55ad9878a",
+          "volume_usd": 18288.649007899723,
+          "count": 1
+        },
+        {
+          "label": "Burn Address [0x000000]",
+          "address": "0x0000000000000000000000000000000000000000",
+          "volume_usd": 9997.340680724934,
+          "count": 2
+        },
+        {
+          "label": "[0xa06fff]",
+          "address": "0xa06fff6dc925cf7a3bf35639b7d298dd053bad89",
+          "volume_usd": 1009.7078477154384,
+          "count": 2
+        },
+        {
+          "label": "[0xa06a89]",
+          "address": "0xa06a8992879881703d2649e8699e43b046cbad89",
+          "volume_usd": 0.0019994214806246307,
+          "count": 6
+        },
+        {
+          "label": "[0xa06f15]",
+          "address": "0xa06f15ec1ccc9878727ad2fb8ab76e796b0b8d89",
+          "volume_usd": 9.997107403123155e-06,
+          "count": 1
+        }
+      ],
+      "nansen_checked": "2026-06-17"
     },
     "0x2f394ae1ca45071bc222e7124b5d125637942be2": {
       "address": "0x2f394ae1ca45071bc222e7124b5d125637942be2",
       "first_seen": "2026-06-17",
-      "times_seen": 2,
+      "times_seen": 3,
       "tags": [],
       "notes": "",
       "history": [
@@ -6746,12 +7302,72 @@
         "avg_hold_h": 4.92,
         "event_lead_notional": 954577,
         "insider_likelihood": null
-      }
+      },
+      "labels": [],
+      "first_funders": [
+        {
+          "address": "0xa45b5130f36cdca45667738e2a258ab09f4a5f7f",
+          "label": "​​🤖 Stargate: Native Token Bridge [0xa45b51]",
+          "relation": "First Funder",
+          "time": "2024-09-06T16:07:27"
+        }
+      ],
+      "counterparties": [
+        {
+          "label": "Burn Address [0x000000]",
+          "address": "0x0000000000000000000000000000000000000000",
+          "volume_usd": 55387.79510426178,
+          "count": 3
+        },
+        {
+          "label": "🏦 Kraken: Deposit [0xac1eed]",
+          "address": "0xac1eed31ff436733cbec72e7c6f7ec8aeaf316dc",
+          "volume_usd": 30394.163477620103,
+          "count": 2
+        },
+        {
+          "label": "🏦 Kraken: Deposit [0x4613e2]",
+          "address": "0x4613e2c61ececc20a6a394efe45123681ad0a652",
+          "volume_usd": 24993.631680632025,
+          "count": 1
+        },
+        {
+          "label": "​​Distributor [0xf96d9b]",
+          "address": "0xf96d9b5ff9ddc67ffd58921398795b83a9e50001",
+          "volume_usd": 19989.682203707824,
+          "count": 1
+        },
+        {
+          "label": "🤖 Circle: USDC Bridge [0xa95d9c]",
+          "address": "0xa95d9c1f655341597c94393fddc30cf3c08e4fce",
+          "volume_usd": 19989.682203707824,
+          "count": 1
+        },
+        {
+          "label": "[0xac1e46]",
+          "address": "0xac1e461de579666db3f170e794ea317ede2616dc",
+          "volume_usd": 2.999463488693578e-05,
+          "count": 3
+        },
+        {
+          "label": "[0x4613de]",
+          "address": "0x4613de0ae7f1777a65b4021ed14c727e7bffa652",
+          "volume_usd": 2.3995707909548624e-05,
+          "count": 2
+        },
+        {
+          "label": "[0xac1e08]",
+          "address": "0xac1e082ba3386497801f3128be057c7e7cc316dc",
+          "volume_usd": 0.0,
+          "count": 1
+        }
+      ],
+      "nansen_checked": "2026-06-17"
     },
     "0x6bea81d7a0c5939a5ce5552e125ab57216cc597f": {
       "address": "0x6bea81d7a0c5939a5ce5552e125ab57216cc597f",
       "first_seen": "2026-06-17",
-      "times_seen": 2,
+      "times_seen": 3,
       "tags": [],
       "notes": "",
       "history": [
@@ -6791,12 +7407,23 @@
         "avg_hold_h": 5.84,
         "event_lead_notional": 0,
         "insider_likelihood": null
-      }
+      },
+      "labels": [],
+      "first_funders": [
+        {
+          "address": "0x25681ab599b4e2ceea31f8b498052c53fc2d74db",
+          "label": "🏦 Binance: Wallet [0x25681a]",
+          "relation": "First Funder",
+          "time": "2025-08-12T04:22:52"
+        }
+      ],
+      "counterparties": [],
+      "nansen_checked": "2026-06-17"
     },
     "0x9bd2ee53f6c6aa778209b8673f6c7df754830c88": {
       "address": "0x9bd2ee53f6c6aa778209b8673f6c7df754830c88",
       "first_seen": "2026-06-17",
-      "times_seen": 2,
+      "times_seen": 3,
       "tags": [],
       "notes": "",
       "history": [
@@ -6838,7 +7465,7 @@
     "0x935729ae51eef975ccdeb481d513c75986227bfd": {
       "address": "0x935729ae51eef975ccdeb481d513c75986227bfd",
       "first_seen": "2026-06-17",
-      "times_seen": 2,
+      "times_seen": 3,
       "tags": [],
       "notes": "",
       "history": [
@@ -6876,12 +7503,84 @@
         "avg_hold_h": 9.88,
         "event_lead_notional": 0,
         "insider_likelihood": null
-      }
+      },
+      "labels": [],
+      "first_funders": [
+        {
+          "address": "0x3dd1d15b3c78d6acfd75a254e857cbe5b9ff0af2",
+          "label": "🏦 Coinbase [0x3dd1d1]",
+          "relation": "First Funder",
+          "time": "2024-05-07T03:30:11"
+        }
+      ],
+      "counterparties": [
+        {
+          "label": "🤖 🏦 Coinbase: Deposit [0x755509]",
+          "address": "0x75550913a299a6e8ac140e1fe558a81357e0309c",
+          "volume_usd": 122996.83988667518,
+          "count": 6
+        },
+        {
+          "label": "🤖 ArbitrumSettlerIntent [0x97c82f]",
+          "address": "0x97c82fcf108e0055c84fe3899ab479df0687fb58",
+          "volume_usd": 88104.8432559332,
+          "count": 26
+        },
+        {
+          "label": "🤖 Hyperliquid: Bridge 2 [0x2df1c5]",
+          "address": "0x2df1c51e09aecf9cacb7bc98cb1742757f163df7",
+          "volume_usd": 58861.28491806387,
+          "count": 3
+        },
+        {
+          "label": "🤖 🏦 Uniswap: Universal Router V4 [0xa51afa]",
+          "address": "0xa51afafe0263b40edaef0df8781ea9aa03e381a3",
+          "volume_usd": 54766.322471312174,
+          "count": 15
+        },
+        {
+          "label": "Burn Address [0x000000]",
+          "address": "0x0000000000000000000000000000000000000000",
+          "volume_usd": 51362.10134305032,
+          "count": 1
+        },
+        {
+          "label": "🏦 Coinbase: Hot Wallet [0x05e3a7]",
+          "address": "0x05e3a758fdd29d28435019ac453297ea37b61b62",
+          "volume_usd": 34993.00446263924,
+          "count": 1
+        },
+        {
+          "label": "🏦 Coinbase [0x3dd1d1]",
+          "address": "0x3dd1d15b3c78d6acfd75a254e857cbe5b9ff0af2",
+          "volume_usd": 24995.25523822151,
+          "count": 1
+        },
+        {
+          "label": "🤖 🏦 Uniswap: V3 CHIP-USDC (0.3%) Liquidity Pool  [0x560093]",
+          "address": "0x560093b297e9c149e8566f329122c1790b4da306",
+          "volume_usd": 21456.27171064166,
+          "count": 15
+        },
+        {
+          "label": "🤖 🏦 Uniswap: V3 CHIP-USDC (0.01%) Liquidity Pool  [0x49340d]",
+          "address": "0x49340dbb8fb5ece2f9b594e77ab774e65725e9d8",
+          "volume_usd": 16497.837767632598,
+          "count": 15
+        },
+        {
+          "label": "🤖 🏦 Uniswap: PoolManager V4 [0x360e68]",
+          "address": "0x360e68faccca8ca495c1b759fd9eee466db9fb32",
+          "volume_usd": 11521.288932853051,
+          "count": 14
+        }
+      ],
+      "nansen_checked": "2026-06-17"
     },
     "0x6a2cb9b34ba6ca342ec787b70cd1878e71810231": {
       "address": "0x6a2cb9b34ba6ca342ec787b70cd1878e71810231",
       "first_seen": "2026-06-17",
-      "times_seen": 2,
+      "times_seen": 3,
       "tags": [],
       "notes": "",
       "history": [
@@ -6923,7 +7622,7 @@
     "0xa9f12ca1b27941c05e3998279c06b81b8e33ca81": {
       "address": "0xa9f12ca1b27941c05e3998279c06b81b8e33ca81",
       "first_seen": "2026-06-17",
-      "times_seen": 2,
+      "times_seen": 3,
       "tags": [],
       "notes": "",
       "history": [
@@ -6965,7 +7664,7 @@
     "0x473717d2be2084d64e888d29056e36577f3d9469": {
       "address": "0x473717d2be2084d64e888d29056e36577f3d9469",
       "first_seen": "2026-06-17",
-      "times_seen": 2,
+      "times_seen": 3,
       "tags": [],
       "notes": "",
       "history": [
@@ -7007,7 +7706,7 @@
     "0x1c75b586b9779532f65c32487af40286a0d88d88": {
       "address": "0x1c75b586b9779532f65c32487af40286a0d88d88",
       "first_seen": "2026-06-17",
-      "times_seen": 2,
+      "times_seen": 3,
       "tags": [],
       "notes": "",
       "history": [
@@ -7049,7 +7748,7 @@
     "0x55ee7523bcc783e774c3a8b1004b5abdb735ac5d": {
       "address": "0x55ee7523bcc783e774c3a8b1004b5abdb735ac5d",
       "first_seen": "2026-06-17",
-      "times_seen": 2,
+      "times_seen": 3,
       "tags": [],
       "notes": "",
       "history": [
@@ -7087,12 +7786,66 @@
         "avg_hold_h": 11.81,
         "event_lead_notional": 0,
         "insider_likelihood": null
-      }
+      },
+      "labels": [],
+      "first_funders": [
+        {
+          "address": "0xf92402bb795fd7cd08fb83839689db79099c8c9c",
+          "label": "🏦 Binance: Hot Wallet [0xf92402]",
+          "relation": "First Funder",
+          "time": "2024-01-29T03:20:45"
+        }
+      ],
+      "counterparties": [
+        {
+          "label": "🤖 Hyperliquid: Bridge 2 [0x2df1c5]",
+          "address": "0x2df1c51e09aecf9cacb7bc98cb1742757f163df7",
+          "volume_usd": 24383.23412829273,
+          "count": 2
+        },
+        {
+          "label": "🤖 Circle: CCTP TokenMinterV2 [0xfd78ee]",
+          "address": "0xfd78ee919681417d192449715b2594ab58f5d002",
+          "volume_usd": 14997.216248034285,
+          "count": 1
+        },
+        {
+          "label": "Burn Address [0x000000]",
+          "address": "0x0000000000000000000000000000000000000000",
+          "volume_usd": 9386.02839563871,
+          "count": 1
+        },
+        {
+          "label": "🤖 Circle: USDC Bridge [0xa95d9c]",
+          "address": "0xa95d9c1f655341597c94393fddc30cf3c08e4fce",
+          "volume_usd": 272.94103600103773,
+          "count": 1
+        },
+        {
+          "label": "itsjustswings.eth [0xad3783]",
+          "address": "0xad3783fa8a979e1191d5434cf5e48fe40421a496",
+          "volume_usd": 272.93131145813754,
+          "count": 1
+        },
+        {
+          "label": "High Activity [0x2df1df]",
+          "address": "0x2df1df582d0a1efc7178fd78b2bcd9aa08a73df7",
+          "volume_usd": 9.297650763011065e-05,
+          "count": 2
+        },
+        {
+          "label": "[0xad3703]",
+          "address": "0xad37031a359cd1292334f2a120e643040421a496",
+          "volume_usd": 2.11678636029797e-06,
+          "count": 1
+        }
+      ],
+      "nansen_checked": "2026-06-17"
     },
     "0x9f6fed26339789725b0751f57aeac23367ceee57": {
       "address": "0x9f6fed26339789725b0751f57aeac23367ceee57",
       "first_seen": "2026-06-17",
-      "times_seen": 2,
+      "times_seen": 3,
       "tags": [],
       "notes": "",
       "history": [
@@ -7134,7 +7887,7 @@
     "0x9803e982c4eb6d9b9e416966814e7f9fa4363bce": {
       "address": "0x9803e982c4eb6d9b9e416966814e7f9fa4363bce",
       "first_seen": "2026-06-17",
-      "times_seen": 2,
+      "times_seen": 3,
       "tags": [],
       "notes": "",
       "history": [
@@ -7177,7 +7930,7 @@
     "0x25dacd8a27eac9ad6eba5eb88e3b68f707eb1397": {
       "address": "0x25dacd8a27eac9ad6eba5eb88e3b68f707eb1397",
       "first_seen": "2026-06-17",
-      "times_seen": 2,
+      "times_seen": 3,
       "tags": [],
       "notes": "",
       "history": [
@@ -7220,7 +7973,7 @@
     "0xc2c060e3309461ec7c4291b1aac6c89aa228727e": {
       "address": "0xc2c060e3309461ec7c4291b1aac6c89aa228727e",
       "first_seen": "2026-06-17",
-      "times_seen": 2,
+      "times_seen": 3,
       "tags": [],
       "notes": "",
       "history": [
@@ -7248,6 +8001,7 @@
         "方向:ショート",
         "レバ:低(<3x)",
         "銘柄:BTC専",
+        "ID:ENS有",
         "資金:出金疑い(10x+)"
       ],
       "current": {
@@ -7260,12 +8014,68 @@
         "avg_hold_h": 14.72,
         "event_lead_notional": 0,
         "insider_likelihood": null
-      }
+      },
+      "labels": [
+        "\"H2_\" on OpenSea"
+      ],
+      "first_funders": [
+        {
+          "address": "0x2dafbc6e546d8f40a94dd0dac3fee0aee02c1311",
+          "label": "\"v_haya_v\" on OpenSea [0x2dafbc]",
+          "relation": "First Funder",
+          "time": "2024-02-24T16:17:47"
+        }
+      ],
+      "counterparties": [
+        {
+          "label": "🤖 High Activity [0x2e69a9]",
+          "address": "0x2e69a970a75375001420464ebda70ec9a13abcb3",
+          "volume_usd": 2014.3010619360289,
+          "count": 2
+        },
+        {
+          "label": "🤖 ForwarderV4 [0xe1348c]",
+          "address": "0xe1348cf68747a68a2b353198ec5d97cfcff472f7",
+          "volume_usd": 1152.7000263656873,
+          "count": 1
+        },
+        {
+          "label": "🤖 Staked USDai [0x0b2b2b]",
+          "address": "0x0b2b2b2076d95dda7817e785989fe353fe955ef9",
+          "volume_usd": 1007.2785835915871,
+          "count": 1
+        },
+        {
+          "label": "🤖 🏦 Uniswap: V3 CHIP-USDC (0.01%) Liquidity Pool  [0x49340d]",
+          "address": "0x49340dbb8fb5ece2f9b594e77ab774e65725e9d8",
+          "volume_usd": 123.87546978975513,
+          "count": 2
+        },
+        {
+          "label": "🤖 High Activity [0x411290]",
+          "address": "0x411290b28508947fbe3283bde48686414a683646",
+          "volume_usd": 82.07029959474966,
+          "count": 1
+        },
+        {
+          "label": "🤖 High Balance [0x05aaa5]",
+          "address": "0x05aaa50341ed57f0f654a789bf28ef6fbc909b0e",
+          "volume_usd": 0.026008766943214516,
+          "count": 1
+        },
+        {
+          "label": "[0xe13419]",
+          "address": "0xe134194fa9fdae4b8c3f9669f2568e03318872f7",
+          "volume_usd": 1.099694795219991e-05,
+          "count": 1
+        }
+      ],
+      "nansen_checked": "2026-06-17"
     },
     "0x30e3784b28332b7cb268988f9e81eeff9e3bf2dc": {
       "address": "0x30e3784b28332b7cb268988f9e81eeff9e3bf2dc",
       "first_seen": "2026-06-17",
-      "times_seen": 2,
+      "times_seen": 3,
       "tags": [],
       "notes": "",
       "history": [
@@ -7306,7 +8116,7 @@
     "0x7632be1bdb486be27a1c39ff4208ffd5853c59ed": {
       "address": "0x7632be1bdb486be27a1c39ff4208ffd5853c59ed",
       "first_seen": "2026-06-17",
-      "times_seen": 2,
+      "times_seen": 3,
       "tags": [],
       "notes": "",
       "history": [
@@ -7348,7 +8158,7 @@
     "0xf19c933aee749ea5286892100ddf2b7876b1f99e": {
       "address": "0xf19c933aee749ea5286892100ddf2b7876b1f99e",
       "first_seen": "2026-06-17",
-      "times_seen": 2,
+      "times_seen": 3,
       "tags": [],
       "notes": "",
       "history": [
@@ -7390,7 +8200,7 @@
     "0x880ac484a1743862989a441d6d867238c7aa311c": {
       "address": "0x880ac484a1743862989a441d6d867238c7aa311c",
       "first_seen": "2026-06-17",
-      "times_seen": 2,
+      "times_seen": 3,
       "tags": [],
       "notes": "",
       "history": [
@@ -7428,12 +8238,56 @@
         "avg_hold_h": 0.01,
         "event_lead_notional": 0,
         "insider_likelihood": null
-      }
+      },
+      "labels": [
+        "High Activity"
+      ],
+      "first_funders": [
+        {
+          "address": "0x991bc484a1743862989a441d6d867238c7aa422d",
+          "label": "[0x991bc4]",
+          "relation": "First Funder",
+          "time": "2024-10-21T23:49:00"
+        }
+      ],
+      "counterparties": [
+        {
+          "label": "🤖 Hyperliquid: Bridge 2 [0x2df1c5]",
+          "address": "0x2df1c51e09aecf9cacb7bc98cb1742757f163df7",
+          "volume_usd": 27006200.21835178,
+          "count": 16
+        },
+        {
+          "label": "🤖 Circle: Token Minter [0xe7ed1f]",
+          "address": "0xe7ed1fa7f45d05c508232aa32649d89b73b8ba48",
+          "volume_usd": 21126911.452421006,
+          "count": 26
+        },
+        {
+          "label": "High Activity [0xa1bc47]",
+          "address": "0xa1bc47fb5ef51e0427a393adf131ee420d1a2c86",
+          "volume_usd": 4689036.062636501,
+          "count": 1
+        },
+        {
+          "label": "[0x749198]",
+          "address": "0x749198a59f00cb3eec587acd2ffd34e92a466631",
+          "volume_usd": 188399.36963186454,
+          "count": 1
+        },
+        {
+          "label": "[0xa1bc4f]",
+          "address": "0xa1bc4fb856c92a699b2d72131783de620d1a2c86",
+          "volume_usd": 2.32599780981421e-06,
+          "count": 1
+        }
+      ],
+      "nansen_checked": "2026-06-17"
     },
     "0xa0d669521cb00bfe43e5fa3bd573dc01dfe6567c": {
       "address": "0xa0d669521cb00bfe43e5fa3bd573dc01dfe6567c",
       "first_seen": "2026-06-17",
-      "times_seen": 2,
+      "times_seen": 3,
       "tags": [],
       "notes": "",
       "history": [
@@ -7477,7 +8331,7 @@
     "0x3db5a674b22cf6479367ae31be33204ae8701f33": {
       "address": "0x3db5a674b22cf6479367ae31be33204ae8701f33",
       "first_seen": "2026-06-17",
-      "times_seen": 2,
+      "times_seen": 3,
       "tags": [],
       "notes": "",
       "history": [
@@ -7519,7 +8373,7 @@
     "0x20cf6f56ef057157ab8a48c82ed97258148c403c": {
       "address": "0x20cf6f56ef057157ab8a48c82ed97258148c403c",
       "first_seen": "2026-06-17",
-      "times_seen": 2,
+      "times_seen": 3,
       "tags": [],
       "notes": "",
       "history": [
@@ -7561,7 +8415,7 @@
     "0xa0d149c9e3fee0a9f920058c4139c73894c2be98": {
       "address": "0xa0d149c9e3fee0a9f920058c4139c73894c2be98",
       "first_seen": "2026-06-17",
-      "times_seen": 2,
+      "times_seen": 3,
       "tags": [],
       "notes": "",
       "history": [
@@ -7603,7 +8457,7 @@
     "0xdf4b79c5cebf5be025f9a0658a38a5440689c147": {
       "address": "0xdf4b79c5cebf5be025f9a0658a38a5440689c147",
       "first_seen": "2026-06-17",
-      "times_seen": 2,
+      "times_seen": 3,
       "tags": [],
       "notes": "",
       "history": [
@@ -7646,7 +8500,7 @@
     "0xa4dedda59f2908b92ae192cfd494839373bcb3c4": {
       "address": "0xa4dedda59f2908b92ae192cfd494839373bcb3c4",
       "first_seen": "2026-06-17",
-      "times_seen": 2,
+      "times_seen": 3,
       "tags": [],
       "notes": "",
       "history": [
@@ -7688,7 +8542,7 @@
     "0xc7ebe10d3568c52b3f43dc50320167db9d10ce4f": {
       "address": "0xc7ebe10d3568c52b3f43dc50320167db9d10ce4f",
       "first_seen": "2026-06-17",
-      "times_seen": 2,
+      "times_seen": 3,
       "tags": [],
       "notes": "",
       "history": [
@@ -7726,12 +8580,48 @@
         "avg_hold_h": 0.02,
         "event_lead_notional": 0,
         "insider_likelihood": null
-      }
+      },
+      "labels": [],
+      "first_funders": [
+        {
+          "address": "0xb06cf21bb0a6d0de5304827b8176e884f635b7c0",
+          "label": "​​GSR [0xb06cf2]",
+          "relation": "First Funder",
+          "time": "2025-06-03T15:31:17"
+        }
+      ],
+      "counterparties": [
+        {
+          "label": "🤖 🏦 Binance: Hot Wallet [0xee7ae8]",
+          "address": "0xee7ae85f2fe2239e27d9c1e23fffe168d63b4055",
+          "volume_usd": 20001.628878462074,
+          "count": 1
+        },
+        {
+          "label": "🤖 Hyperliquid: Bridge 2 [0x2df1c5]",
+          "address": "0x2df1c51e09aecf9cacb7bc98cb1742757f163df7",
+          "volume_usd": 20001.628878462074,
+          "count": 1
+        },
+        {
+          "label": "[0x2df1dc]",
+          "address": "0x2df1dcf91b68aa474ea7d15520f083557f163df7",
+          "volume_usd": 2.286596888125004e-06,
+          "count": 1
+        },
+        {
+          "label": "High Activity [0x2df1df]",
+          "address": "0x2df1df582d0a1efc7178fd78b2bcd9aa08a73df7",
+          "volume_usd": 0.0,
+          "count": 1
+        }
+      ],
+      "nansen_checked": "2026-06-17"
     },
     "0x08bf75d17046412ae08c95b6106993f714487872": {
       "address": "0x08bf75d17046412ae08c95b6106993f714487872",
       "first_seen": "2026-06-17",
-      "times_seen": 2,
+      "times_seen": 3,
       "tags": [],
       "notes": "",
       "history": [
@@ -7774,7 +8664,7 @@
     "0xc8378d5bd334b984b5ada4e8ee09a49fe4d8d97d": {
       "address": "0xc8378d5bd334b984b5ada4e8ee09a49fe4d8d97d",
       "first_seen": "2026-06-17",
-      "times_seen": 2,
+      "times_seen": 3,
       "tags": [],
       "notes": "",
       "history": [
@@ -7818,7 +8708,7 @@
     "0xd4fb7eef06db5dc70dcba58c9c4ba1e3ab8c19f1": {
       "address": "0xd4fb7eef06db5dc70dcba58c9c4ba1e3ab8c19f1",
       "first_seen": "2026-06-17",
-      "times_seen": 2,
+      "times_seen": 3,
       "tags": [],
       "notes": "",
       "history": [
@@ -7861,7 +8751,7 @@
     "0xfbeaa12ce05b8baf12189d38974af90a2a82776e": {
       "address": "0xfbeaa12ce05b8baf12189d38974af90a2a82776e",
       "first_seen": "2026-06-17",
-      "times_seen": 2,
+      "times_seen": 3,
       "tags": [],
       "notes": "",
       "history": [
@@ -7903,7 +8793,7 @@
     "0xbe494a5e3a719a78a45a47ab453b7b0199b9d101": {
       "address": "0xbe494a5e3a719a78a45a47ab453b7b0199b9d101",
       "first_seen": "2026-06-17",
-      "times_seen": 2,
+      "times_seen": 3,
       "tags": [],
       "notes": "",
       "history": [
@@ -7942,12 +8832,84 @@
         "avg_hold_h": null,
         "event_lead_notional": 0,
         "insider_likelihood": null
-      }
+      },
+      "labels": [],
+      "first_funders": [
+        {
+          "address": "0xb38e8c17e38363af6ebdcb3dae12e0243582891d",
+          "label": "🏦 Binance: Hot Wallet [0xb38e8c]",
+          "relation": "First Funder",
+          "time": "2025-09-15T07:05:06"
+        }
+      ],
+      "counterparties": [
+        {
+          "label": "🤖 🏦 Binance: Hot Wallet [0xee7ae8]",
+          "address": "0xee7ae85f2fe2239e27d9c1e23fffe168d63b4055",
+          "volume_usd": 1186500.744819128,
+          "count": 223
+        },
+        {
+          "label": "🤖 Hyperliquid: Bridge 2 [0x2df1c5]",
+          "address": "0x2df1c51e09aecf9cacb7bc98cb1742757f163df7",
+          "volume_usd": 1154133.283176124,
+          "count": 215
+        },
+        {
+          "label": "🤖 Circle: USDC Bridge [0xa95d9c]",
+          "address": "0xa95d9c1f655341597c94393fddc30cf3c08e4fce",
+          "volume_usd": 32367.066168934834,
+          "count": 1
+        },
+        {
+          "label": "[0x2df123]",
+          "address": "0x2df123d54193f295c8e10814d5d0f1557f163df7",
+          "volume_usd": 8.703274996090765e-06,
+          "count": 4
+        },
+        {
+          "label": "High Activity [0x2df1d0]",
+          "address": "0x2df1d033385a3256500211ef302a7aa57f163df7",
+          "volume_usd": 4.651460373277101e-06,
+          "count": 2
+        },
+        {
+          "label": "[0x2df1b0]",
+          "address": "0x2df1b072337f3388a817054d4dc3e5557f163df7",
+          "volume_usd": 4.650443794464354e-06,
+          "count": 2
+        },
+        {
+          "label": "[0x2df183]",
+          "address": "0x2df18389db7dd8d49b917b58d46400b57f163df7",
+          "volume_usd": 4.642343393501573e-06,
+          "count": 2
+        },
+        {
+          "label": "[0x2df1dc]",
+          "address": "0x2df1dcfc7ffca27f1486d28f58de75c57f163df7",
+          "volume_usd": 2.3586407728059585e-06,
+          "count": 1
+        },
+        {
+          "label": "[0x2df118]",
+          "address": "0x2df118cd9af430543d2c33ab6153ea39a9a13df7",
+          "volume_usd": 9.99689168525278e-07,
+          "count": 1
+        },
+        {
+          "label": "🤖 Disperse.app: Disperse [0xd152f5]",
+          "address": "0xd152f549545093347a162dce210e7293f1452150",
+          "volume_usd": 0.0,
+          "count": 2
+        }
+      ],
+      "nansen_checked": "2026-06-17"
     },
     "0x39b07015ca813075bbce6f475767d5b4b9d518b0": {
       "address": "0x39b07015ca813075bbce6f475767d5b4b9d518b0",
       "first_seen": "2026-06-17",
-      "times_seen": 2,
+      "times_seen": 3,
       "tags": [],
       "notes": "",
       "history": [
@@ -7991,7 +8953,7 @@
     "0x2f04ed87b5ac8b703565469311341b0b44e315d7": {
       "address": "0x2f04ed87b5ac8b703565469311341b0b44e315d7",
       "first_seen": "2026-06-17",
-      "times_seen": 2,
+      "times_seen": 3,
       "tags": [],
       "notes": "",
       "history": [
@@ -8031,12 +8993,134 @@
         "avg_hold_h": 7.41,
         "event_lead_notional": 0,
         "insider_likelihood": null
-      }
+      },
+      "labels": [
+        "High Activity"
+      ],
+      "first_funders": [
+        {
+          "address": "0x33ecb74c443f72c6297861e50a0cd73cf3b62c07",
+          "label": "Enzyme Finance Vault Owner [0x33ecb7]",
+          "relation": "First Funder",
+          "time": "2022-08-03T09:47:03"
+        },
+        {
+          "address": "0x8768db52647ba8f44bede123642301a9c772caf2",
+          "label": "[0x8768db]",
+          "relation": "Deployed Contract",
+          "time": "2022-10-24T04:00:17"
+        },
+        {
+          "address": "0xd79e69da62a2e3994723a4e79ce225d554b3a6bc",
+          "label": "[0xd79e69]",
+          "relation": "Deployed Contract",
+          "time": "2022-11-08T03:07:37"
+        },
+        {
+          "address": "0x073799f55d8bd606816dfe4140254d63239546c8",
+          "label": "[0x073799]",
+          "relation": "Deployed Contract",
+          "time": "2023-02-14T13:26:35"
+        },
+        {
+          "address": "0xf07bae10b7fd9d862d9adf2244caea705f9a4b4a",
+          "label": "🤖 FluidWallet [0xf07bae]",
+          "relation": "Deployed Contract",
+          "time": "2024-08-14T08:32:38"
+        },
+        {
+          "address": "0xce7df51aa782d2c5cee2a2a18568b105b1db9814",
+          "label": "🤖 Sentiment: Account Factory [0xce7df5]",
+          "relation": "Deployed via",
+          "time": "2022-10-24T04:00:17"
+        },
+        {
+          "address": "0xf0dbf74cef39e5cd4e54d0ffd59075024c7d8857",
+          "label": "🤖 Vendor Finance: Pool Factory [0xf0dbf7]",
+          "relation": "Deployed via",
+          "time": "2022-11-08T03:07:37"
+        },
+        {
+          "address": "0xa6b71e26c5e0845f74c812102ca7114b6a896ab2",
+          "label": "🤖 Safe: Proxy Factory 1.3.0 [0xa6b71e]",
+          "relation": "Deployed via",
+          "time": "2023-02-14T13:26:35"
+        },
+        {
+          "address": "0xd8ae986159e350b6535539b8a1e488658452f25e",
+          "label": "​​🤖 Fluid: Deployer [0xd8ae98]",
+          "relation": "Deployed via",
+          "time": "2024-08-14T08:32:38"
+        }
+      ],
+      "counterparties": [
+        {
+          "label": "🤖 Hyperliquid: Bridge 2 [0x2df1c5]",
+          "address": "0x2df1c51e09aecf9cacb7bc98cb1742757f163df7",
+          "volume_usd": 24992.95418267522,
+          "count": 1
+        },
+        {
+          "label": "[0x483a92]",
+          "address": "0x483a92443e4f2d6d67e4bc1a2d91e8c9eed01c17",
+          "volume_usd": 24992.95418267522,
+          "count": 1
+        },
+        {
+          "label": "Burn Address [0x000000]",
+          "address": "0x0000000000000000000000000000000000000000",
+          "volume_usd": 7148.002818237906,
+          "count": 2
+        },
+        {
+          "label": "🤖 Across Protocol: Spoke Pool [0xe35e98]",
+          "address": "0xe35e9842fceaca96570b734083f4a58e8f7c5f2a",
+          "volume_usd": 6998.236282743327,
+          "count": 1
+        },
+        {
+          "label": "@philipp668 on Farcaster [Verified] [0x3aef50]",
+          "address": "0x3aef500f0e728e0a85efb461974412d7e72f5c77",
+          "volume_usd": 3149.28738620454,
+          "count": 2
+        },
+        {
+          "label": "🤖 High Activity [0xeba53d]",
+          "address": "0xeba53db3b53e2ae621faae3bed4e7fcd11877eac",
+          "volume_usd": 2999.5208507099615,
+          "count": 1
+        },
+        {
+          "label": "[0x3aefdd]",
+          "address": "0x3aefddb404add00b5ca1f04a2f9a5de7e72f5c77",
+          "volume_usd": 2.363056862321296e-06,
+          "count": 1
+        },
+        {
+          "label": "[0x3aef2b]",
+          "address": "0x3aef2bf39d04230d29e992431882ffa7e72f5c77",
+          "volume_usd": 1.7912968759754092e-06,
+          "count": 1
+        },
+        {
+          "label": "[0x3aeffa]",
+          "address": "0x3aeffa9ebc474bfb2cbbc093d4d3b268cecf5c77",
+          "volume_usd": 0.0,
+          "count": 2
+        },
+        {
+          "label": "[0x3aef95]",
+          "address": "0x3aef958496844fae9f55a8260a477617a9da5c77",
+          "volume_usd": 0.0,
+          "count": 1
+        }
+      ],
+      "nansen_checked": "2026-06-17"
     },
     "0xe1edc766cfb0e8e6894bde26bcb5a94d1777d16c": {
       "address": "0xe1edc766cfb0e8e6894bde26bcb5a94d1777d16c",
       "first_seen": "2026-06-17",
-      "times_seen": 2,
+      "times_seen": 3,
       "tags": [],
       "notes": "",
       "history": [
@@ -8080,7 +9164,7 @@
     "0x29eb62882a8bd104a64400a2971d0d6881777043": {
       "address": "0x29eb62882a8bd104a64400a2971d0d6881777043",
       "first_seen": "2026-06-17",
-      "times_seen": 2,
+      "times_seen": 3,
       "tags": [],
       "notes": "",
       "history": [
@@ -8119,12 +9203,62 @@
         "avg_hold_h": null,
         "event_lead_notional": 0,
         "insider_likelihood": null
-      }
+      },
+      "labels": [
+        "High Activity"
+      ],
+      "first_funders": [
+        {
+          "address": "0xf92402bb795fd7cd08fb83839689db79099c8c9c",
+          "label": "🏦 Binance: Hot Wallet [0xf92402]",
+          "relation": "First Funder",
+          "time": "2023-12-12T10:59:26"
+        }
+      ],
+      "counterparties": [
+        {
+          "label": "🏦 Bybit: Deposit [0x6e710b]",
+          "address": "0x6e710b00138cdedd9b8a10ad92551587b6823584",
+          "volume_usd": 22768.788543870545,
+          "count": 2
+        },
+        {
+          "label": "🏦 Bybit: Deposit [0x33ad23]",
+          "address": "0x33ad2367700019dd34025530222d1463a1dbabb1",
+          "volume_usd": 3580.845278921244,
+          "count": 1
+        },
+        {
+          "label": "[0x6e7177]",
+          "address": "0x6e717752cf504a68e577753f4b8e2f31b9903584",
+          "volume_usd": 0.00022695572993521583,
+          "count": 1
+        },
+        {
+          "label": "[0x6e712e]",
+          "address": "0x6e712ea8e50728ecbcf018641f02508064883584",
+          "volume_usd": 1.1349181559423304e-05,
+          "count": 5
+        },
+        {
+          "label": "[0x6e71f5]",
+          "address": "0x6e71f546d656fc702680b7c77680c5624cad3584",
+          "volume_usd": 1.1349181559423304e-05,
+          "count": 5
+        },
+        {
+          "label": "[0x6e7135]",
+          "address": "0x6e7135e3ed1ae59b4964ae1582e192324eb33584",
+          "volume_usd": 0.0,
+          "count": 1
+        }
+      ],
+      "nansen_checked": "2026-06-17"
     },
     "0x68a24ccf099422806f1e73248517f3389c29c104": {
       "address": "0x68a24ccf099422806f1e73248517f3389c29c104",
       "first_seen": "2026-06-17",
-      "times_seen": 2,
+      "times_seen": 3,
       "tags": [],
       "notes": "",
       "history": [
@@ -8166,7 +9300,7 @@
     "0xfeec88b13fc0be31695069f02bac18538a154e9c": {
       "address": "0xfeec88b13fc0be31695069f02bac18538a154e9c",
       "first_seen": "2026-06-17",
-      "times_seen": 2,
+      "times_seen": 3,
       "tags": [],
       "notes": "",
       "history": [
@@ -8203,12 +9337,84 @@
         "avg_hold_h": null,
         "event_lead_notional": 0,
         "insider_likelihood": null
-      }
+      },
+      "labels": [],
+      "first_funders": [
+        {
+          "address": "0x50756105d6bcd7586a6fa09ab13362fac06624f3",
+          "label": "HL Perps Swing Trader [0x507561]",
+          "relation": "First Funder",
+          "time": "2025-08-23T06:31:06"
+        }
+      ],
+      "counterparties": [
+        {
+          "label": "🤖 Hyperliquid: Bridge 2 [0x2df1c5]",
+          "address": "0x2df1c51e09aecf9cacb7bc98cb1742757f163df7",
+          "volume_usd": 3254825.3243891103,
+          "count": 28
+        },
+        {
+          "label": "🏦 Bybit: Deposit [0x56b31c]",
+          "address": "0x56b31c395f1fb6e796dd0993687a38de18bcd4bb",
+          "volume_usd": 2455264.9947634274,
+          "count": 20
+        },
+        {
+          "label": "🏦 Bybit: Hot Wallet [0xf89d7b]",
+          "address": "0xf89d7b9c864f589bbf53a82105107622b35eaa40",
+          "volume_usd": 599604.8993409375,
+          "count": 5
+        },
+        {
+          "label": "🏦 Bybit [0x9d271a]",
+          "address": "0x9d271a4e9523d74572b618ec10419a0a330e1bf0",
+          "volume_usd": 484795.25090108323,
+          "count": 6
+        },
+        {
+          "label": "🤖 Circle: USDC Bridge [0xa95d9c]",
+          "address": "0xa95d9c1f655341597c94393fddc30cf3c08e4fce",
+          "volume_usd": 324592.1181166868,
+          "count": 5
+        },
+        {
+          "label": "🏦 Bybit [0x7da0b9]",
+          "address": "0x7da0b9211020d3775b18116fe751c555b9a7058c",
+          "volume_usd": 39752.39822259689,
+          "count": 2
+        },
+        {
+          "label": "[0x56b31d]",
+          "address": "0x56b31d9818a7df6b7694f84eeb522c53ab24d4bb",
+          "volume_usd": 0.08994184522326745,
+          "count": 15
+        },
+        {
+          "label": "[0x56b31c]",
+          "address": "0x56b31c60d51b7b825a15970572713a1cbc77d4bb",
+          "volume_usd": 0.0006318215358365926,
+          "count": 42
+        },
+        {
+          "label": "[0x56bed4]",
+          "address": "0x56bed474e4e3622db5f201c57116b49604bcd4bb",
+          "volume_usd": 0.00024894865457445885,
+          "count": 1
+        },
+        {
+          "label": "High Activity [0x2df1df]",
+          "address": "0x2df1df582d0a1efc7178fd78b2bcd9aa08a73df7",
+          "volume_usd": 0.00020695327731907928,
+          "count": 12
+        }
+      ],
+      "nansen_checked": "2026-06-17"
     },
     "0x2607a3909cee65aa8205ca26f7db2d9244389577": {
       "address": "0x2607a3909cee65aa8205ca26f7db2d9244389577",
       "first_seen": "2026-06-17",
-      "times_seen": 2,
+      "times_seen": 3,
       "tags": [],
       "notes": "",
       "history": [
@@ -8252,7 +9458,7 @@
     "0x5b5f798b94f54d33ba316c8b1c837e930c90c052": {
       "address": "0x5b5f798b94f54d33ba316c8b1c837e930c90c052",
       "first_seen": "2026-06-17",
-      "times_seen": 2,
+      "times_seen": 3,
       "tags": [],
       "notes": "",
       "history": [
@@ -8294,7 +9500,7 @@
     "0xcb5c2f378860437fad512c3aec09efce1c470283": {
       "address": "0xcb5c2f378860437fad512c3aec09efce1c470283",
       "first_seen": "2026-06-17",
-      "times_seen": 2,
+      "times_seen": 3,
       "tags": [],
       "notes": "",
       "history": [
@@ -8335,7 +9541,7 @@
     "0x469bc5524456efa6932cac83294f31a09b8159b8": {
       "address": "0x469bc5524456efa6932cac83294f31a09b8159b8",
       "first_seen": "2026-06-17",
-      "times_seen": 2,
+      "times_seen": 3,
       "tags": [],
       "notes": "",
       "history": [
@@ -8378,7 +9584,7 @@
     "0x05c6959d997cde99d2f967367e5e9f1959ba9706": {
       "address": "0x05c6959d997cde99d2f967367e5e9f1959ba9706",
       "first_seen": "2026-06-17",
-      "times_seen": 2,
+      "times_seen": 3,
       "tags": [],
       "notes": "",
       "history": [
@@ -8417,12 +9623,56 @@
         "avg_hold_h": null,
         "event_lead_notional": 0,
         "insider_likelihood": null
-      }
+      },
+      "labels": [
+        "High Balance"
+      ],
+      "first_funders": [
+        {
+          "address": "0x33ceb27b39d2bb7d2e61f7564d3df29344020417",
+          "label": "🤖 Hop Protocol: L2 AMM Wrapper [0x33ceb2]",
+          "relation": "First Funder",
+          "time": "2022-06-25T18:38:53"
+        }
+      ],
+      "counterparties": [
+        {
+          "label": "🤖 Hyperliquid: Bridge 2 [0x2df1c5]",
+          "address": "0x2df1c51e09aecf9cacb7bc98cb1742757f163df7",
+          "volume_usd": 214918.73026030438,
+          "count": 4
+        },
+        {
+          "label": "🤖 ERC1967Proxy [0x6d4d4a]",
+          "address": "0x6d4d4a979d766e8b87c985a61b262cfcdf8d6446",
+          "volume_usd": 44981.35528768185,
+          "count": 2
+        },
+        {
+          "label": "🤖 LI.FI: Diamond Facet Bridge [0x1231de]",
+          "address": "0x1231deb6f5749ef6ce6943a275a1d3e7486f4eae",
+          "volume_usd": 21397.2325966847,
+          "count": 3
+        },
+        {
+          "label": "🤖 Axelar Network: Gas Service [0x2d5d7d]",
+          "address": "0x2d5d7d31f671f86c782533cc367f14109a082712",
+          "volume_usd": 1.5436610269309856,
+          "count": 1
+        },
+        {
+          "label": "High Activity [0x2df12d]",
+          "address": "0x2df12de5aea0d33a15b41e023be511057f163df7",
+          "volume_usd": 0.00024896061423977406,
+          "count": 1
+        }
+      ],
+      "nansen_checked": "2026-06-17"
     },
     "0x0e3f5bb797e3953fed2a319544d0e821b4a11e1c": {
       "address": "0x0e3f5bb797e3953fed2a319544d0e821b4a11e1c",
       "first_seen": "2026-06-17",
-      "times_seen": 2,
+      "times_seen": 3,
       "tags": [],
       "notes": "",
       "history": [
@@ -8461,12 +9711,48 @@
         "avg_hold_h": null,
         "event_lead_notional": 0,
         "insider_likelihood": null
-      }
+      },
+      "labels": [],
+      "first_funders": [
+        {
+          "address": "0x3dd1d15b3c78d6acfd75a254e857cbe5b9ff0af2",
+          "label": "🏦 Coinbase [0x3dd1d1]",
+          "relation": "First Funder",
+          "time": "2023-09-25T16:11:51"
+        }
+      ],
+      "counterparties": [
+        {
+          "label": "🤖 HTLCCoordinator [0x5b7cda]",
+          "address": "0x5b7cda892cf870156bcb9a710249830fa1fc67be",
+          "volume_usd": 4998.368825164692,
+          "count": 1
+        },
+        {
+          "label": "[0xf34c5a]",
+          "address": "0xf34c5a16221b7e9545493af650e91c239a99029b",
+          "volume_usd": 4998.368825164692,
+          "count": 1
+        },
+        {
+          "label": "HL Perps Day Trader [0x0fe28b]",
+          "address": "0x0fe28b4950ce9abe91301d8d44e719387f652785",
+          "volume_usd": 3.2370298426167996,
+          "count": 1
+        },
+        {
+          "label": "HL Perps Altcoin Trader [0x13b012]",
+          "address": "0x13b012b971da6eaab1f92c9a1c8497aab6c17659",
+          "volume_usd": 1.1331364665885062,
+          "count": 1
+        }
+      ],
+      "nansen_checked": "2026-06-17"
     },
     "0xce43a7498e65b6f6c8741fd9a7efc3f78efc78c4": {
       "address": "0xce43a7498e65b6f6c8741fd9a7efc3f78efc78c4",
       "first_seen": "2026-06-17",
-      "times_seen": 2,
+      "times_seen": 3,
       "tags": [],
       "notes": "",
       "history": [
@@ -8493,6 +9779,7 @@
         "方向:ショート",
         "レバ:低(<3x)",
         "銘柄:ETH専",
+        "ID:ENS有",
         "資金:出金疑い(10x+)"
       ],
       "current": {
@@ -8505,8 +9792,97 @@
         "avg_hold_h": null,
         "event_lead_notional": 0,
         "insider_likelihood": null
-      }
+      },
+      "labels": [
+        "caledor.eth*",
+        "carolineplz.eth*",
+        "drachenfels.eth*",
+        "saintmarcus.eth*"
+      ],
+      "first_funders": [
+        {
+          "address": "0xdf54a7498e65b6f6c8741fd9a7efc3f78efc89d5",
+          "label": "[0xdf54a7]",
+          "relation": "First Funder",
+          "time": "2022-12-02T01:58:52"
+        },
+        {
+          "address": "0x35c5dddad09870f8c8acfad0a713b1d7fb520e1f",
+          "label": "[0x35c5dd]",
+          "relation": "Deployed Contract",
+          "time": "2024-10-02T15:41:52"
+        },
+        {
+          "address": "0x6273242a7e88b3de90822b31648c212215caafe4",
+          "label": "​​🤖 Symmio: Smart Account [0x627324]",
+          "relation": "Deployed via",
+          "time": "2024-10-02T15:41:52"
+        }
+      ],
+      "counterparties": [
+        {
+          "label": "Relay Protocol: EOA Bridge [0xf70da9]",
+          "address": "0xf70da97812cb96acdf810712aa562db8dfa3dbef",
+          "volume_usd": 16494.258573902265,
+          "count": 3
+        },
+        {
+          "label": "🤖 Relay Protocol: Depository [0x4cd00e]",
+          "address": "0x4cd00e387622c35bddb9b4c962c136462338bc31",
+          "volume_usd": 15993.686513989207,
+          "count": 6
+        },
+        {
+          "label": "HL Perps Swing Trader [0x488bd1]",
+          "address": "0x488bd1a22011f30967428b1f5f6c52dac7876aba",
+          "volume_usd": 14624.715990049946,
+          "count": 3
+        },
+        {
+          "label": "🤖 Hyperliquid: Bridge 2 [0x2df1c5]",
+          "address": "0x2df1c51e09aecf9cacb7bc98cb1742757f163df7",
+          "volume_usd": 14242.806144852007,
+          "count": 6
+        },
+        {
+          "label": "🤖 Circle: USDC Bridge [0xa95d9c]",
+          "address": "0xa95d9c1f655341597c94393fddc30cf3c08e4fce",
+          "volume_usd": 10000.154380176458,
+          "count": 1
+        },
+        {
+          "label": "🤖 BeaconProxy [0xf81a2f]",
+          "address": "0xf81a2fe29d72acd264e970673e4ddecf691ced92",
+          "volume_usd": 8871.778212838366,
+          "count": 6
+        },
+        {
+          "label": "🤖 Across Protocol: Spoke Pool [0xe35e98]",
+          "address": "0xe35e9842fceaca96570b734083f4a58e8f7c5f2a",
+          "volume_usd": 3992.518839161028,
+          "count": 3
+        },
+        {
+          "label": "​​Bridge User [0x6a2abf]",
+          "address": "0x6a2abff960b663462cbc46a2cfcf85063fe8ae14",
+          "volume_usd": 3500.7560897944036,
+          "count": 1
+        },
+        {
+          "label": "🏦 Kraken: Deposit [0xef54f1]",
+          "address": "0xef54f131fa199b71154d55cb5164b5ac72f3aa9c",
+          "volume_usd": 2999.2397604277994,
+          "count": 1
+        },
+        {
+          "label": "Burn Address [0x000000]",
+          "address": "0x0000000000000000000000000000000000000000",
+          "volume_usd": 2999.108530266889,
+          "count": 1
+        }
+      ],
+      "nansen_checked": "2026-06-17"
     }
   },
-  "updated_at": "2026-06-17T08:58:23.595572+00:00"
+  "updated_at": "2026-06-17T09:35:59.748417+00:00"
 }
