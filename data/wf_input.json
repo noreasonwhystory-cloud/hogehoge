@@ -1,0 +1,1681 @@
+{
+ "insiders": [
+  {
+   "address": "0xefcace57934a753d66c48a31b880ba806d4c0869",
+   "position": "インサイダー疑惑(要監視)",
+   "dir_accuracy": 1.0,
+   "win_rate": 1.0,
+   "event_lead_usd": 2952207,
+   "realized_pnl": 114185.74,
+   "trade_days": 879,
+   "active_from": "2024-01-19",
+   "active_to": "2026-06-16",
+   "active_now": true,
+   "labels": [],
+   "funder": "🏦 Kromatika: Deployer [0xb4b8b6]",
+   "tier": null,
+   "tags": [
+    "cluster-A"
+   ],
+   "lead_examples": [],
+   "counterparties": [
+    "🤖 Circle: CCTP TokenMinterV2 [0xfd78ee]",
+    "Relay Protocol: EOA Bridge [0xf70da9]"
+   ],
+   "notes": "【判定】★最有力(的中ほぼ100%)\n【資金源】🏦 Kromatika: Deployer [0xb4b8b6] ＝ ブリッジ/サービス経由(足を消す)\n【先行建玉】個別例なし(event_lead合計で検出)\n【的中率】1.0（高いほど“動く前に正しく賭けた”＝先読みの証拠）"
+  },
+  {
+   "address": "0x10b6f072fabe21bc72ffd77ff5d4414e6cef2980",
+   "position": "インサイダー疑惑(要監視)",
+   "dir_accuracy": 1.0,
+   "win_rate": 1.0,
+   "event_lead_usd": 670091,
+   "realized_pnl": 195756.89,
+   "trade_days": 228,
+   "active_from": "2025-10-30",
+   "active_to": "2026-06-15",
+   "active_now": true,
+   "labels": [],
+   "funder": "High Balance [0x9aa91e]",
+   "tier": null,
+   "tags": [
+    "cluster-A"
+   ],
+   "lead_examples": [],
+   "counterparties": [],
+   "notes": "【判定】★最有力(的中ほぼ100%)\n【資金源】High Balance [0x9aa91e] ＝ 別ウォレット経由\n【先行建玉】個別例なし(event_lead合計で検出)\n【的中率】1.0（高いほど“動く前に正しく賭けた”＝先読みの証拠）"
+  },
+  {
+   "address": "0x0a7097d919b7421ecc03aed3aac68a13e7ef1f46",
+   "position": "インサイダー疑惑(要監視)",
+   "dir_accuracy": 0.6676,
+   "win_rate": 0.6697,
+   "event_lead_usd": 799334,
+   "realized_pnl": 153059.49,
+   "trade_days": 493,
+   "active_from": "2024-11-30",
+   "active_to": "2026-04-07",
+   "active_now": false,
+   "labels": [
+    "\"kekvault2\" on OpenSea"
+   ],
+   "funder": "@kekbeta [0xbe69e0]",
+   "tier": null,
+   "tags": [
+    "出金済(hit-and-run)"
+   ],
+   "lead_examples": [],
+   "counterparties": [
+    "🏦 Binance: Deposit [0xe5ef5c]",
+    "🤖 ParaSwap: Augustus V.2 [0x6a000f]",
+    "🤖 High Activity [0x6f0538]",
+    "🤖 Hyperliquid: Bridge 2 [0x2df1c5]",
+    "[0xe5efef]"
+   ],
+   "notes": "【ひとことで】💰🔴稼いで引き上げ＋急変直前の先行あり＝hit-and-runインサイダー候補(要精査)\n【HL実測】実現益$115,052・的中0.5357・急変先行$301,020・majors22099約定\n【取引期間】2025-10-26〜2026-05-29"
+  },
+  {
+   "address": "0x906d31b2ee92c4bc720232112274a0e1ffb0ad6e",
+   "position": "インサイダー疑惑(要監視)",
+   "dir_accuracy": 0.6199,
+   "win_rate": 1.0,
+   "event_lead_usd": 350298,
+   "realized_pnl": 2774849.25,
+   "trade_days": 205,
+   "active_from": "2025-11-14",
+   "active_to": "2026-06-07",
+   "active_now": true,
+   "labels": [
+    "Token Millionaire"
+   ],
+   "funder": "Gas.zip: Primary Solver [0x8c826f]",
+   "tier": null,
+   "tags": [
+    "公共サービス資金源(協調でない)"
+   ],
+   "lead_examples": [
+    {
+     "coin": "ETH",
+     "dir": "short",
+     "entry_time": "2025-12-10 18:31",
+     "notional_usd": 202921,
+     "event_move_pct": -4.02,
+     "event_time": "2025-12-10 22:00",
+     "hash": "0xd880bbe0e04f0a68d9fa0431215f4102047700c67b42293a7c4967339f42e453"
+    },
+    {
+     "coin": "ETH",
+     "dir": "short",
+     "entry_time": "2025-12-10 18:31",
+     "notional_usd": 147378,
+     "event_move_pct": -4.02,
+     "event_time": "2025-12-10 22:00",
+     "hash": "0x0975838379a6994f0aef0431215f4102047d006914a9b821ad3e2ed638aa7339"
+    }
+   ],
+   "counterparties": [
+    "🤖 Hyperliquid: Bridge 2 [0x2df1c5]",
+    "🤖 Circle: CCTP TokenMinterV2 [0xfd78ee]"
+   ],
+   "notes": "【判定】中(的中62%・具体的な先行あり)\n【資金源】Gas.zip: Primary Solver [0x8c826f]＝Gas.zip/deBridge等の公共サービス（誰でも使う共用ハブ）。同一イベント同時刻の取引も無く、協調の証拠は無い。独立した先行トレーダーとして要監視。\n【的中率】0.6199"
+  },
+  {
+   "address": "0x18cd4597e06b7fe0a8cd33dda499121b3a145a8b",
+   "position": "インサイダー疑惑(要監視)",
+   "dir_accuracy": 0.5897,
+   "win_rate": 0.7309,
+   "event_lead_usd": 651496,
+   "realized_pnl": 332258.79,
+   "trade_days": 134,
+   "active_from": "2026-02-02",
+   "active_to": "2026-06-16",
+   "active_now": true,
+   "labels": [],
+   "funder": "Gas.zip: Primary Solver [0x8c826f]",
+   "tier": null,
+   "tags": [
+    "公共サービス資金源(協調でない)"
+   ],
+   "lead_examples": [
+    {
+     "coin": "ETH",
+     "dir": "long",
+     "entry_time": "2026-02-02 09:50",
+     "notional_usd": 104327,
+     "event_move_pct": 3.93,
+     "event_time": "2026-02-02 11:00",
+     "hash": "0x4fa96f721fb0df815123043486b0020203010057bab3fe53f3721ac4deb4b96b"
+    },
+    {
+     "coin": "ETH",
+     "dir": "long",
+     "entry_time": "2026-02-02 09:50",
+     "notional_usd": 104340,
+     "event_move_pct": 3.93,
+     "event_time": "2026-02-02 11:00",
+     "hash": "0x4fa96f721fb0df815123043486b0020203010057bab3fe53f3721ac4deb4b96b"
+    },
+    {
+     "coin": "ETH",
+     "dir": "long",
+     "entry_time": "2026-02-06 06:26",
+     "notional_usd": 133171,
+     "event_move_pct": 5.95,
+     "event_time": "2026-02-06 12:00",
+     "hash": "0x880bb136c8c9914b89850434c5aa02020cba001c63ccb01d2bd45c8987cd6b36"
+    },
+    {
+     "coin": "ETH",
+     "dir": "long",
+     "entry_time": "2026-02-06 06:26",
+     "notional_usd": 112624,
+     "event_move_pct": 5.95,
+     "event_time": "2026-02-06 12:00",
+     "hash": "0x880bb136c8c9914b89850434c5aa02020cba001c63ccb01d2bd45c8987cd6b36"
+    },
+    {
+     "coin": "BTC",
+     "dir": "long",
+     "entry_time": "2026-02-06 06:31",
+     "notional_usd": 197034,
+     "event_move_pct": 3.34,
+     "event_time": "2026-02-06 10:00",
+     "hash": "0xc2f7022e6b969db9c4700434c5b618020b8100140699bc8b66bfad812a9a77a4"
+    }
+   ],
+   "counterparties": [
+    "🤖 Circle: CCTP TokenMinterV2 [0xfd78ee]",
+    "Burn Address [0x000000]",
+    "🤖 Hyperliquid: Bridge 2 [0x2df1c5]",
+    "🤖 Circle: USDC Bridge [0xa95d9c]",
+    "🤖 Circle: Token Minter [0xe7ed1f]"
+   ],
+   "notes": "【判定】中(的中59%・具体的な先行あり)\n【資金源】Gas.zip: Primary Solver [0x8c826f]＝Gas.zip/deBridge等の公共サービス（誰でも使う共用ハブ）。同一イベント同時刻の取引も無く、協調の証拠は無い。独立した先行トレーダーとして要監視。\n【的中率】0.5897"
+  },
+  {
+   "address": "0x07642cbbd81e075d3bf14e0f6c1017f20c525572",
+   "position": "インサイダー疑惑(要監視)",
+   "dir_accuracy": 0.4105,
+   "win_rate": 0.683,
+   "event_lead_usd": 641731,
+   "realized_pnl": 703628.96,
+   "trade_days": 12,
+   "active_from": "2026-04-06",
+   "active_to": "2026-04-18",
+   "active_now": false,
+   "labels": [],
+   "funder": "HL Perps Day Trader [0xa5b662]",
+   "tier": null,
+   "tags": [],
+   "lead_examples": [
+    {
+     "coin": "ETH",
+     "dir": "long",
+     "entry_time": "2026-04-13 12:36",
+     "notional_usd": 424171,
+     "event_move_pct": 5.39,
+     "event_time": "2026-04-13 18:00",
+     "hash": "0x992ab17e6ee7efb99aa404390d5ace020270006409eb0e8b3cf35cd12debc9a4"
+    },
+    {
+     "coin": "ETH",
+     "dir": "long",
+     "entry_time": "2026-04-13 12:43",
+     "notional_usd": 217560,
+     "event_move_pct": 5.39,
+     "event_time": "2026-04-13 18:00",
+     "hash": "0xff1caf708007772f009604390d703f02025d00561b0a9602a2e55ac33f0b511a"
+    }
+   ],
+   "counterparties": [
+    "🤖 Hyperliquid: Bridge 2 [0x2df1c5]",
+    "🤖 DLN: DlnSource [0xef4fb2]",
+    "🤖 DLN: CrosschainForwarder [0x663dc1]"
+   ],
+   "notes": "【判定】弱(的中41%)\n【資金源】HL Perps Day Trader [0xa5b662] ＝ 別ウォレット経由\n【先行建玉】ETH long $424,171 を、2026-04-13 18:00の5.39%急変の直前(2026-04-13 12:36)に建てた\n【的中率】0.4105（高いほど“動く前に正しく賭けた”＝先読みの証拠）"
+  },
+  {
+   "address": "0x74da055d4ccf9dca3f15789c603e1a88a1d2d81f",
+   "position": "インサイダー疑惑(要監視)",
+   "dir_accuracy": 0.5653,
+   "win_rate": 0.7009,
+   "event_lead_usd": 13478564,
+   "realized_pnl": 957166,
+   "trade_days": 8,
+   "active_from": "2026-01-22",
+   "active_to": "2026-01-30",
+   "active_now": false,
+   "labels": [],
+   "funder": null,
+   "tier": null,
+   "tags": [],
+   "lead_examples": [
+    {
+     "coin": "BTC",
+     "dir": "short",
+     "entry_time": "2026-02-05 09:21",
+     "notional_usd": 225387,
+     "event_move_pct": -4.03,
+     "event_time": "2026-02-05 11:00",
+     "hash": "0xa5e0a30d778a9a41a75a0434b7750b020b9900f3128db91349a94e60368e742c"
+    },
+    {
+     "coin": "BTC",
+     "dir": "short",
+     "entry_time": "2026-02-05 09:21",
+     "notional_usd": 190002,
+     "event_move_pct": -4.03,
+     "event_time": "2026-02-05 11:00",
+     "hash": "0xa5e0a30d778a9a41a75a0434b7750b020b9900f3128db91349a94e60368e742c"
+    },
+    {
+     "coin": "BTC",
+     "dir": "short",
+     "entry_time": "2026-02-05 09:21",
+     "notional_usd": 100161,
+     "event_move_pct": -4.03,
+     "event_time": "2026-02-05 11:00",
+     "hash": "0xa5e0a30d778a9a41a75a0434b7750b020b9900f3128db91349a94e60368e742c"
+    },
+    {
+     "coin": "BTC",
+     "dir": "short",
+     "entry_time": "2026-02-05 09:21",
+     "notional_usd": 150246,
+     "event_move_pct": -4.03,
+     "event_time": "2026-02-05 11:00",
+     "hash": "0xa5e0a30d778a9a41a75a0434b7750b020b9900f3128db91349a94e60368e742c"
+    },
+    {
+     "coin": "BTC",
+     "dir": "long",
+     "entry_time": "2026-02-05 17:38",
+     "notional_usd": 600820,
+     "event_move_pct": 3.88,
+     "event_time": "2026-02-05 21:00",
+     "hash": "0xdde498688bed4311df5e0434bd08f60207f8004e26e061e381ad43bb4ae11cfc"
+    }
+   ],
+   "counterparties": [],
+   "notes": "【判定】中(的中57%・具体的な先行あり)\n【資金源】不明 ＝ 不明\n【先行建玉】BTC short $225,387 を、2026-02-05 11:00の-4.03%急変の直前(2026-02-05 09:21)に建てた\n【的中率】0.5653（高いほど“動く前に正しく賭けた”＝先読みの証拠）"
+  },
+  {
+   "address": "0xb19e03768f72cb1b47fcd68f7fb99460b1e789b9",
+   "position": "インサイダー疑惑(要監視)",
+   "dir_accuracy": 0.3522,
+   "win_rate": 0.6089,
+   "event_lead_usd": 300002,
+   "realized_pnl": 985536,
+   "trade_days": 144,
+   "active_from": "2025-09-07",
+   "active_to": "2026-01-29",
+   "active_now": false,
+   "labels": [
+    "High Balance"
+   ],
+   "funder": "🤖 DLN: DlnDestination [0xe7351f]",
+   "tier": null,
+   "tags": [
+    "公共サービス資金源(協調でない)"
+   ],
+   "lead_examples": [
+    {
+     "coin": "BTC",
+     "dir": "short",
+     "entry_time": "2026-04-01 18:38",
+     "notional_usd": 100001,
+     "event_move_pct": -3.32,
+     "event_time": "2026-04-02 00:00",
+     "hash": "0xc0e6955d60480b3ec26004382f834002023c0042fb4b2a1064af40b01f4be529"
+    },
+    {
+     "coin": "BTC",
+     "dir": "short",
+     "entry_time": "2026-04-01 18:38",
+     "notional_usd": 100001,
+     "event_move_pct": -3.32,
+     "event_time": "2026-04-02 00:00",
+     "hash": "0xc0e6955d60480b3ec26004382f834002023c0042fb4b2a1064af40b01f4be529"
+    },
+    {
+     "coin": "BTC",
+     "dir": "short",
+     "entry_time": "2026-04-01 18:38",
+     "notional_usd": 100001,
+     "event_move_pct": -3.32,
+     "event_time": "2026-04-02 00:00",
+     "hash": "0xc0e6955d60480b3ec26004382f834002023c0042fb4b2a1064af40b01f4be529"
+    }
+   ],
+   "counterparties": [
+    "​​🤖 Ostium: Trading Storage Manager [0xccd589]",
+    "🤖 Hyperliquid: Bridge 2 [0x2df1c5]",
+    "🤖 Circle: USDC Bridge [0xa95d9c]",
+    "🤖 Disperse.app: Disperse [0xd152f5]"
+   ],
+   "notes": "【判定】弱(的中35%)\n【資金源】🤖 DLN: DlnDestination [0xe7351f]＝Gas.zip/deBridge等の公共サービス（誰でも使う共用ハブ）。同一イベント同時刻の取引も無く、協調の証拠は無い。独立した先行トレーダーとして要監視。\n【的中率】0.3522"
+  },
+  {
+   "address": "0x6f7d75c18e8ca7f486eb4d2690abf7b329087062",
+   "position": "インサイダー疑惑(要監視)",
+   "dir_accuracy": 0.5636,
+   "win_rate": 0.9047,
+   "event_lead_usd": 225423,
+   "realized_pnl": 3634965,
+   "trade_days": 192,
+   "active_from": "2025-09-21",
+   "active_to": "2026-04-01",
+   "active_now": false,
+   "labels": [
+    "High Activity"
+   ],
+   "funder": "[0x2c8b67]",
+   "tier": null,
+   "tags": [],
+   "lead_examples": [
+    {
+     "coin": "ETH",
+     "dir": "short",
+     "entry_time": "2025-12-15 10:08",
+     "notional_usd": 104384,
+     "event_move_pct": -4.61,
+     "event_time": "2025-12-15 11:00",
+     "hash": "0xda21f9b40fc6a94adb9b04316d8bbd0202c30099aac9c81c7deaa506ceca8335"
+    },
+    {
+     "coin": "ETH",
+     "dir": "short",
+     "entry_time": "2025-12-15 10:11",
+     "notional_usd": 121038,
+     "event_move_pct": -4.61,
+     "event_time": "2025-12-15 11:00",
+     "hash": "0xc51395b0582e7d94c68d04316d947b0203030095f3219c6668dc41031722577f"
+    }
+   ],
+   "counterparties": [],
+   "notes": "【判定】中(的中56%・具体的な先行あり)\n【資金源】[0x2c8b67] ＝ 別ウォレット経由\n【先行建玉】ETH short $104,384 を、2025-12-15 11:00の-4.61%急変の直前(2025-12-15 10:08)に建てた\n【的中率】0.5636（高いほど“動く前に正しく賭けた”＝先読みの証拠）"
+  }
+ ],
+ "pros": [
+  {
+   "address": "0x8e096995c3e4a3f0bc5b3ea1cba94de2aa4d70c9",
+   "position": "プロトレーダー(本物)",
+   "dir_accuracy": 0.0682,
+   "win_rate": 0.8818,
+   "event_lead_usd": 0,
+   "realized_pnl": 11927977,
+   "trade_days": 24,
+   "active_from": "2026-01-31",
+   "active_to": "2026-02-24",
+   "active_now": false,
+   "labels": [
+    "🤓 Smart HL Perps Trader [0x8e0969]"
+   ],
+   "funder": null,
+   "tier": "S",
+   "tags": []
+  },
+  {
+   "address": "0x0b00c540bc5f203d97ac87da62164d3d37e19798",
+   "position": "プロトレーダー(本物)",
+   "dir_accuracy": null,
+   "win_rate": null,
+   "event_lead_usd": null,
+   "realized_pnl": 6329149,
+   "trade_days": 190,
+   "active_from": "2025-12-02",
+   "active_to": "2026-06-10",
+   "active_now": true,
+   "labels": [
+    "High Balance"
+   ],
+   "funder": "[0xc0778a]",
+   "tier": "S",
+   "tags": []
+  },
+  {
+   "address": "0x1e6db0fdf1a0f6edb78753184eb0fe5485c2eef2",
+   "position": "プロトレーダー(本物)",
+   "dir_accuracy": 0.0,
+   "win_rate": 1.0,
+   "event_lead_usd": 0,
+   "realized_pnl": 6015385,
+   "trade_days": 558,
+   "active_from": "2024-11-29",
+   "active_to": "2026-06-10",
+   "active_now": true,
+   "labels": [
+    "🤓 Smart HL Perps Trader [0x1e6db0]"
+   ],
+   "funder": null,
+   "tier": "S",
+   "tags": []
+  },
+  {
+   "address": "0x4eebd8d39e82efb958e0fa9f694435c910c8518f",
+   "position": "プロトレーダー(本物)",
+   "dir_accuracy": 0.0,
+   "win_rate": 1.0,
+   "event_lead_usd": 0,
+   "realized_pnl": 5802013,
+   "trade_days": 103,
+   "active_from": "2025-10-26",
+   "active_to": "2026-02-06",
+   "active_now": false,
+   "labels": [
+    "[0x4eebd8]"
+   ],
+   "funder": null,
+   "tier": "S",
+   "tags": []
+  },
+  {
+   "address": "0x8cfe4bc352deb10ed41c5f0f89bc57674cee1e22",
+   "position": "プロトレーダー(本物)",
+   "dir_accuracy": 0.1203,
+   "win_rate": 0.9628,
+   "event_lead_usd": 0,
+   "realized_pnl": 4809094,
+   "trade_days": 254,
+   "active_from": "2025-07-02",
+   "active_to": "2026-03-13",
+   "active_now": false,
+   "labels": [
+    "HL Perps Position Trader [0x8cfe4b]"
+   ],
+   "funder": null,
+   "tier": "S",
+   "tags": []
+  },
+  {
+   "address": "0x203f4c410f3c35cead9f35b6de2f66e773d7f26e",
+   "position": "プロトレーダー(本物)",
+   "dir_accuracy": 0.0,
+   "win_rate": 0.8266,
+   "event_lead_usd": 0,
+   "realized_pnl": 4475068,
+   "trade_days": 341,
+   "active_from": "2025-07-06",
+   "active_to": "2026-06-12",
+   "active_now": true,
+   "labels": [
+    "🤓 Smart HL Perps Trader [0x203f4c]"
+   ],
+   "funder": null,
+   "tier": "S",
+   "tags": []
+  },
+  {
+   "address": "0x782e432267376f377585fc78092d998f8442ab83",
+   "position": "プロトレーダー(本物)",
+   "dir_accuracy": 0.0,
+   "win_rate": 0.5489,
+   "event_lead_usd": 0,
+   "realized_pnl": 4258658,
+   "trade_days": 384,
+   "active_from": "2025-05-29",
+   "active_to": "2026-06-17",
+   "active_now": true,
+   "labels": [
+    "Token Millionaire"
+   ],
+   "funder": "High Activity [0x91604f]",
+   "tier": "S",
+   "tags": []
+  },
+  {
+   "address": "0xd7a678fcf72c1b602850ef2f3e2d668ec41fa0ed",
+   "position": "プロトレーダー(本物)",
+   "dir_accuracy": 0.1269,
+   "win_rate": 1.0,
+   "event_lead_usd": 0,
+   "realized_pnl": 4190469,
+   "trade_days": 428,
+   "active_from": "2024-11-29",
+   "active_to": "2026-01-31",
+   "active_now": false,
+   "labels": [
+    "\"yantngz\" on OpenSea [0xd7a678]"
+   ],
+   "funder": null,
+   "tier": "S",
+   "tags": []
+  },
+  {
+   "address": "0xc7290b4b308431a985fa9e3e8a335c2f7650517c",
+   "position": "プロトレーダー(本物)",
+   "dir_accuracy": 0.3992,
+   "win_rate": 1.0,
+   "event_lead_usd": 0,
+   "realized_pnl": 3905400,
+   "trade_days": 253,
+   "active_from": "2025-09-25",
+   "active_to": "2026-06-05",
+   "active_now": true,
+   "labels": [
+    "🤓 Smart HL Perps Trader [0xc7290b]"
+   ],
+   "funder": null,
+   "tier": "S",
+   "tags": []
+  },
+  {
+   "address": "0x258886f9a27d38743ab45b8658871a37e2c3f51a",
+   "position": "プロトレーダー(本物)",
+   "dir_accuracy": 0.0,
+   "win_rate": 0.991,
+   "event_lead_usd": 0,
+   "realized_pnl": 3359608,
+   "trade_days": 79,
+   "active_from": "2025-11-18",
+   "active_to": "2026-02-05",
+   "active_now": false,
+   "labels": [
+    "[0x258886]"
+   ],
+   "funder": null,
+   "tier": "S",
+   "tags": []
+  },
+  {
+   "address": "0x5846ac5619d2a762751b1663d86a402085505765",
+   "position": "プロトレーダー(本物)",
+   "dir_accuracy": null,
+   "win_rate": null,
+   "event_lead_usd": null,
+   "realized_pnl": 2445741,
+   "trade_days": 153,
+   "active_from": "2025-10-21",
+   "active_to": "2026-03-23",
+   "active_now": false,
+   "labels": [],
+   "funder": "🏦 Bybit [0x7da0b9]",
+   "tier": "A",
+   "tags": []
+  },
+  {
+   "address": "0xac03fc4c21902e4e934b4367cb1a6c6e3f0d8037",
+   "position": "プロトレーダー(本物)",
+   "dir_accuracy": 0.0,
+   "win_rate": 1.0,
+   "event_lead_usd": 0,
+   "realized_pnl": 2348016,
+   "trade_days": 55,
+   "active_from": "2026-03-12",
+   "active_to": "2026-05-06",
+   "active_now": false,
+   "labels": [],
+   "funder": "🏦 Binance: Wallet [0x25681a]",
+   "tier": "A",
+   "tags": []
+  },
+  {
+   "address": "0x7ee069137842a195d06b533d714ba507290a3956",
+   "position": "プロトレーダー(本物)",
+   "dir_accuracy": null,
+   "win_rate": null,
+   "event_lead_usd": null,
+   "realized_pnl": 2338551,
+   "trade_days": 474,
+   "active_from": "2024-12-04",
+   "active_to": "2026-03-23",
+   "active_now": false,
+   "labels": [],
+   "funder": null,
+   "tier": "A",
+   "tags": []
+  },
+  {
+   "address": "0x41206f8efb51e5039e5b46e04e7866a4849f72d2",
+   "position": "プロトレーダー(本物)",
+   "dir_accuracy": 0.0488,
+   "win_rate": 0.7003,
+   "event_lead_usd": 0,
+   "realized_pnl": 2154796,
+   "trade_days": 139,
+   "active_from": "2024-12-20",
+   "active_to": "2025-05-08",
+   "active_now": false,
+   "labels": [
+    ": Boros Trader [0x41206f]"
+   ],
+   "funder": null,
+   "tier": "A",
+   "tags": []
+  },
+  {
+   "address": "0xed41a12ea862f31df054e9bd3af1dd59486c6029",
+   "position": "プロトレーダー(本物)",
+   "dir_accuracy": 0.0956,
+   "win_rate": 0.9928,
+   "event_lead_usd": 0,
+   "realized_pnl": 2142600,
+   "trade_days": 138,
+   "active_from": "2025-12-10",
+   "active_to": "2026-04-27",
+   "active_now": false,
+   "labels": [
+    "Former Smart Trader [0xed41a1]"
+   ],
+   "funder": null,
+   "tier": "A",
+   "tags": []
+  },
+  {
+   "address": "0xe4d83945c0322f3d340203a7129b7eb5cacae847",
+   "position": "プロトレーダー(本物)",
+   "dir_accuracy": 0.2206,
+   "win_rate": 0.8349,
+   "event_lead_usd": 0,
+   "realized_pnl": 2031004,
+   "trade_days": 257,
+   "active_from": "2025-09-09",
+   "active_to": "2026-05-24",
+   "active_now": false,
+   "labels": [
+    "🤓 Smart HL Perps Trader [0xe4d839]"
+   ],
+   "funder": null,
+   "tier": "A",
+   "tags": []
+  },
+  {
+   "address": "0xb1694de2324433778487999bd86b1acb3335ebc4",
+   "position": "プロトレーダー(本物)",
+   "dir_accuracy": 0.0905,
+   "win_rate": 0.75,
+   "event_lead_usd": 0,
+   "realized_pnl": 1928778,
+   "trade_days": 224,
+   "active_from": "2025-08-26",
+   "active_to": "2026-04-07",
+   "active_now": false,
+   "labels": [
+    "Former Smart Trader [0xb1694d]"
+   ],
+   "funder": null,
+   "tier": "A",
+   "tags": []
+  },
+  {
+   "address": "0x8eadef1db48d9a682da64d74a69c5ac78d0ee175",
+   "position": "プロトレーダー(本物)",
+   "dir_accuracy": 0.0,
+   "win_rate": 1.0,
+   "event_lead_usd": 0,
+   "realized_pnl": 1928662,
+   "trade_days": 213,
+   "active_from": "2025-09-13",
+   "active_to": "2026-04-14",
+   "active_now": false,
+   "labels": [
+    "Former Smart Trader [0x8eadef]"
+   ],
+   "funder": null,
+   "tier": "A",
+   "tags": []
+  },
+  {
+   "address": "0x6979dde2781dc4ec843641b10b2a2f2e0f4bda62",
+   "position": "プロトレーダー(本物)",
+   "dir_accuracy": 0.0,
+   "win_rate": 1.0,
+   "event_lead_usd": 0,
+   "realized_pnl": 1902418,
+   "trade_days": 242,
+   "active_from": "2025-09-30",
+   "active_to": "2026-05-30",
+   "active_now": false,
+   "labels": [
+    "HL Perps Whale [0x6979dd]"
+   ],
+   "funder": null,
+   "tier": "A",
+   "tags": []
+  },
+  {
+   "address": "0x99b1098d9d50aa076f78bd26ab22e6abd3710729",
+   "position": "プロトレーダー(本物)",
+   "dir_accuracy": 0.0,
+   "win_rate": 0.8957,
+   "event_lead_usd": 0,
+   "realized_pnl": 1781589,
+   "trade_days": 91,
+   "active_from": "2026-02-05",
+   "active_to": "2026-05-07",
+   "active_now": false,
+   "labels": [
+    "🤓 Smart HL Perps Trader [0x99b109]"
+   ],
+   "funder": "[0xba52af]",
+   "tier": "B",
+   "tags": []
+  },
+  {
+   "address": "0xcefd7652228a8619d0af5b95389cd49387cd30e0",
+   "position": "プロトレーダー(本物)",
+   "dir_accuracy": 0.382,
+   "win_rate": 0.6196,
+   "event_lead_usd": 0,
+   "realized_pnl": 1612233,
+   "trade_days": 553,
+   "active_from": "2024-11-29",
+   "active_to": "2026-06-05",
+   "active_now": true,
+   "labels": [
+    "HL Perps Day Trader [0xcefd76]"
+   ],
+   "funder": null,
+   "tier": "A",
+   "tags": []
+  },
+  {
+   "address": "0x3b11267dfc4b9ebe8427e8f557056b4b6ce98112",
+   "position": "プロトレーダー(本物)",
+   "dir_accuracy": 0.8487,
+   "win_rate": 0.9973,
+   "event_lead_usd": 0,
+   "realized_pnl": 1448890,
+   "trade_days": 98,
+   "active_from": "2026-02-23",
+   "active_to": "2026-06-01",
+   "active_now": false,
+   "labels": [
+    "🤓 9015.eth* [0x3b1126]"
+   ],
+   "funder": null,
+   "tier": "A",
+   "tags": []
+  },
+  {
+   "address": "0xa3d843b6a057504284006bef6f34a2e9bc80fb6b",
+   "position": "プロトレーダー(本物)",
+   "dir_accuracy": 0.0155,
+   "win_rate": 0.9967,
+   "event_lead_usd": 0,
+   "realized_pnl": 1444379,
+   "trade_days": 205,
+   "active_from": "2025-11-21",
+   "active_to": "2026-06-14",
+   "active_now": true,
+   "labels": [
+    "Former Smart Trader [0xa3d843]"
+   ],
+   "funder": null,
+   "tier": "A",
+   "tags": []
+  },
+  {
+   "address": "0xfeec88b13fc0be31695069f02bac18538a154e9c",
+   "position": "プロトレーダー(本物)",
+   "dir_accuracy": 0.0,
+   "win_rate": 1.0,
+   "event_lead_usd": 0,
+   "realized_pnl": 1376096,
+   "trade_days": 28,
+   "active_from": "2026-05-11",
+   "active_to": "2026-06-08",
+   "active_now": true,
+   "labels": [],
+   "funder": "HL Perps Swing Trader [0x507561]",
+   "tier": "B",
+   "tags": []
+  },
+  {
+   "address": "0x56cd86d6ef24a3f51ce6992b7f1db751b0a0276a",
+   "position": "プロトレーダー(本物)",
+   "dir_accuracy": 0.0,
+   "win_rate": 0.8201,
+   "event_lead_usd": 0,
+   "realized_pnl": 1372915,
+   "trade_days": 164,
+   "active_from": "2024-11-29",
+   "active_to": "2025-05-12",
+   "active_now": false,
+   "labels": [
+    "🤓 Funded @beltoncap On Friendtech [0x56cd86]"
+   ],
+   "funder": null,
+   "tier": "B",
+   "tags": []
+  },
+  {
+   "address": "0x406073860818ecfb7dca0706a6bac73faa95bd3e",
+   "position": "プロトレーダー(本物)",
+   "dir_accuracy": 0.0,
+   "win_rate": 0.9971,
+   "event_lead_usd": 0,
+   "realized_pnl": 1226127,
+   "trade_days": 217,
+   "active_from": "2025-10-07",
+   "active_to": "2026-05-12",
+   "active_now": false,
+   "labels": [
+    "🤓 Smart HL Perps Trader [0x406073]"
+   ],
+   "funder": null,
+   "tier": "A",
+   "tags": []
+  },
+  {
+   "address": "0x5638484ba2d2f1d1d35020572b0aa439a9869192",
+   "position": "プロトレーダー(本物)",
+   "dir_accuracy": 0.1381,
+   "win_rate": 1.0,
+   "event_lead_usd": 0,
+   "realized_pnl": 1224633,
+   "trade_days": 709,
+   "active_from": "2024-04-16",
+   "active_to": "2026-03-26",
+   "active_now": false,
+   "labels": [
+    "👤 Dxrant [0x563848]"
+   ],
+   "funder": null,
+   "tier": "A",
+   "tags": []
+  },
+  {
+   "address": "0xba0495c92ab69b1151ecf422851a06b602cea764",
+   "position": "プロトレーダー(本物)",
+   "dir_accuracy": null,
+   "win_rate": null,
+   "event_lead_usd": null,
+   "realized_pnl": 1162455,
+   "trade_days": 9,
+   "active_from": "2026-05-05",
+   "active_to": "2026-05-14",
+   "active_now": false,
+   "labels": [],
+   "funder": "🤓 Smart HL Perps Trader [0x66d3b8]",
+   "tier": "B",
+   "tags": []
+  },
+  {
+   "address": "0x4b4bdd734b87bc48683d24f1dc6159e3ab6d6409",
+   "position": "プロトレーダー(本物)",
+   "dir_accuracy": 0.1287,
+   "win_rate": 1.0,
+   "event_lead_usd": 0,
+   "realized_pnl": 1094901,
+   "trade_days": 124,
+   "active_from": "2026-01-28",
+   "active_to": "2026-06-01",
+   "active_now": false,
+   "labels": [
+    "HL Perps Whale [0x4b4bdd]"
+   ],
+   "funder": null,
+   "tier": "A",
+   "tags": []
+  },
+  {
+   "address": "0x98256d1a9e3012398237a1720c27a3d7ed1ad905",
+   "position": "プロトレーダー(本物)",
+   "dir_accuracy": null,
+   "win_rate": null,
+   "event_lead_usd": null,
+   "realized_pnl": 1049066,
+   "trade_days": 71,
+   "active_from": "2026-03-25",
+   "active_to": "2026-06-04",
+   "active_now": true,
+   "labels": [],
+   "funder": null,
+   "tier": "B",
+   "tags": []
+  },
+  {
+   "address": "0x1e5b1efd99c89d39b59b28a19e6b42bbeb98433b",
+   "position": "プロトレーダー(本物)",
+   "dir_accuracy": 0.0,
+   "win_rate": 1.0,
+   "event_lead_usd": 0,
+   "realized_pnl": 1025999,
+   "trade_days": 122,
+   "active_from": "2025-09-30",
+   "active_to": "2026-01-30",
+   "active_now": false,
+   "labels": [
+    "​​Yield Farmer [0x1e5b1e]"
+   ],
+   "funder": null,
+   "tier": "B",
+   "tags": []
+  },
+  {
+   "address": "0x7de07bb8a43c1953a019906cf2c8287dae478be9",
+   "position": "プロトレーダー(本物)",
+   "dir_accuracy": 0.0,
+   "win_rate": 0.6887,
+   "event_lead_usd": 0,
+   "realized_pnl": 1016230,
+   "trade_days": 559,
+   "active_from": "2024-07-24",
+   "active_to": "2026-02-03",
+   "active_now": false,
+   "labels": [
+    "Token Millionaire [0x7de07b]"
+   ],
+   "funder": null,
+   "tier": "B",
+   "tags": []
+  },
+  {
+   "address": "0x99b3ba1c1b7ad83d0164d996e3d271ae8c842551",
+   "position": "プロトレーダー(本物)",
+   "dir_accuracy": null,
+   "win_rate": null,
+   "event_lead_usd": null,
+   "realized_pnl": 933423,
+   "trade_days": 15,
+   "active_from": "2026-04-07",
+   "active_to": "2026-04-22",
+   "active_now": false,
+   "labels": [],
+   "funder": "HL Perps Swing Trader [0xecb785]",
+   "tier": "B",
+   "tags": []
+  },
+  {
+   "address": "0x143c28ae5b8642f58c98b8a6f82a0f314d23f6ab",
+   "position": "プロトレーダー(本物)",
+   "dir_accuracy": null,
+   "win_rate": null,
+   "event_lead_usd": null,
+   "realized_pnl": 923593,
+   "trade_days": 203,
+   "active_from": "2025-11-26",
+   "active_to": "2026-06-17",
+   "active_now": true,
+   "labels": [],
+   "funder": "Relay Protocol: EOA Bridge [0xf70da9]",
+   "tier": "B",
+   "tags": []
+  },
+  {
+   "address": "0x95e2687b07f0dec34462fdab6bbebcc0b3ab49c6",
+   "position": "プロトレーダー(本物)",
+   "dir_accuracy": null,
+   "win_rate": null,
+   "event_lead_usd": null,
+   "realized_pnl": 919385,
+   "trade_days": 168,
+   "active_from": "2025-09-14",
+   "active_to": "2026-03-01",
+   "active_now": false,
+   "labels": [],
+   "funder": "ETH Millionaire [0xb7101c]",
+   "tier": "B",
+   "tags": []
+  },
+  {
+   "address": "0x1fe06653816cd53afb36a18f059b0ada2a3c8f20",
+   "position": "プロトレーダー(本物)",
+   "dir_accuracy": null,
+   "win_rate": null,
+   "event_lead_usd": null,
+   "realized_pnl": 916344,
+   "trade_days": 220,
+   "active_from": "2025-10-24",
+   "active_to": "2026-06-01",
+   "active_now": false,
+   "labels": [],
+   "funder": "Former Smart Trader [0xa8dc22]",
+   "tier": "B",
+   "tags": []
+  },
+  {
+   "address": "0xc604faf510aa5b617c9fb1556d02d6d22c9644be",
+   "position": "プロトレーダー(本物)",
+   "dir_accuracy": 0.0,
+   "win_rate": 1.0,
+   "event_lead_usd": 0,
+   "realized_pnl": 911248,
+   "trade_days": 226,
+   "active_from": "2025-07-31",
+   "active_to": "2026-03-14",
+   "active_now": false,
+   "labels": [
+    "[0xc604fa]"
+   ],
+   "funder": null,
+   "tier": "B",
+   "tags": []
+  },
+  {
+   "address": "0x79399dac99daa4a77d2bcd8ef6f5abf5966468e7",
+   "position": "プロトレーダー(本物)",
+   "dir_accuracy": 0.0,
+   "win_rate": 1.0,
+   "event_lead_usd": 0,
+   "realized_pnl": 844004,
+   "trade_days": 541,
+   "active_from": "2024-12-14",
+   "active_to": "2026-06-08",
+   "active_now": true,
+   "labels": [
+    "🤓 Smart HL Perps Trader [0x79399d]"
+   ],
+   "funder": null,
+   "tier": "B",
+   "tags": []
+  },
+  {
+   "address": "0x4cc390eada38741fe9c77036b7c38537fb5f38ea",
+   "position": "プロトレーダー(本物)",
+   "dir_accuracy": 0.0,
+   "win_rate": 0.9414,
+   "event_lead_usd": 0,
+   "realized_pnl": 771354,
+   "trade_days": 445,
+   "active_from": "2024-08-12",
+   "active_to": "2025-10-31",
+   "active_now": false,
+   "labels": [
+    "🤓 Smart HL Perps Trader [0x4cc390]"
+   ],
+   "funder": null,
+   "tier": "B",
+   "tags": []
+  },
+  {
+   "address": "0x06466f9ac08e872064950cec3812b57d6feafa7f",
+   "position": "プロトレーダー(本物)",
+   "dir_accuracy": 0.0,
+   "win_rate": 0.8754,
+   "event_lead_usd": 0,
+   "realized_pnl": 758334,
+   "trade_days": 230,
+   "active_from": "2025-07-18",
+   "active_to": "2026-03-05",
+   "active_now": false,
+   "labels": [
+    "Former Smart Trader [0x06466f]"
+   ],
+   "funder": null,
+   "tier": "C",
+   "tags": []
+  },
+  {
+   "address": "0x7c9063122c01837fe83da2521056e10c9b6dd129",
+   "position": "プロトレーダー(本物)",
+   "dir_accuracy": 1.0,
+   "win_rate": 0.0,
+   "event_lead_usd": 0,
+   "realized_pnl": 745231,
+   "trade_days": 222,
+   "active_from": "2025-11-05",
+   "active_to": "2026-06-15",
+   "active_now": true,
+   "labels": [
+    "Token Millionaire"
+   ],
+   "funder": "🤖 Across Protocol: Spoke Pool [0xe35e98]",
+   "tier": "A",
+   "tags": []
+  },
+  {
+   "address": "0xae551d73161bac3315c5ade0e2d499a44ebe2236",
+   "position": "プロトレーダー(本物)",
+   "dir_accuracy": 0.2,
+   "win_rate": 0.9338,
+   "event_lead_usd": 0,
+   "realized_pnl": 713720,
+   "trade_days": 831,
+   "active_from": "2024-03-05",
+   "active_to": "2026-06-14",
+   "active_now": true,
+   "labels": [
+    "HL Perps Perma-Bull [0xae551d]"
+   ],
+   "funder": null,
+   "tier": "B",
+   "tags": []
+  },
+  {
+   "address": "0x0d9654172413fa8bcd2f5738a7b2fa6d19864125",
+   "position": "プロトレーダー(本物)",
+   "dir_accuracy": 0.5112,
+   "win_rate": 1.0,
+   "event_lead_usd": 0,
+   "realized_pnl": 710350,
+   "trade_days": 8,
+   "active_from": "2026-02-19",
+   "active_to": "2026-02-27",
+   "active_now": false,
+   "labels": [
+    "[0x0d9654]"
+   ],
+   "funder": null,
+   "tier": "B",
+   "tags": []
+  },
+  {
+   "address": "0x9b804150c9a4f6db44ba4fd67704eadb5be360c1",
+   "position": "プロトレーダー(本物)",
+   "dir_accuracy": 0.0,
+   "win_rate": 1.0,
+   "event_lead_usd": 0,
+   "realized_pnl": 700722,
+   "trade_days": 1,
+   "active_from": "2026-03-07",
+   "active_to": "2026-03-08",
+   "active_now": false,
+   "labels": [
+    "[0x9b8041]"
+   ],
+   "funder": null,
+   "tier": "B",
+   "tags": []
+  },
+  {
+   "address": "0xf3362789cecf25c6a31288d172880d7ad9b81801",
+   "position": "プロトレーダー(本物)",
+   "dir_accuracy": 0.5708,
+   "win_rate": 0.607,
+   "event_lead_usd": 0,
+   "realized_pnl": 679129,
+   "trade_days": 99,
+   "active_from": "2026-01-07",
+   "active_to": "2026-04-16",
+   "active_now": false,
+   "labels": [
+    ": Boros Trader [0xf33627]"
+   ],
+   "funder": null,
+   "tier": "B",
+   "tags": []
+  },
+  {
+   "address": "0x5049695d6faacffd34f2d24f3f0ff8c64d88f71c",
+   "position": "プロトレーダー(本物)",
+   "dir_accuracy": 0.2341,
+   "win_rate": 0.7043,
+   "event_lead_usd": 0,
+   "realized_pnl": 677972,
+   "trade_days": 334,
+   "active_from": "2025-07-16",
+   "active_to": "2026-06-15",
+   "active_now": true,
+   "labels": [
+    "Former Smart Trader [0x504969]"
+   ],
+   "funder": null,
+   "tier": "B",
+   "tags": []
+  },
+  {
+   "address": "0x0d8d5b2d87d36b99d28c321ff7a4a6d206a9c2aa",
+   "position": "プロトレーダー(本物)",
+   "dir_accuracy": 0.0,
+   "win_rate": 0.6613,
+   "event_lead_usd": 0,
+   "realized_pnl": 674231,
+   "trade_days": 227,
+   "active_from": "2025-06-02",
+   "active_to": "2026-01-15",
+   "active_now": false,
+   "labels": [
+    "Former Smart Trader [0x0d8d5b]"
+   ],
+   "funder": null,
+   "tier": "B",
+   "tags": []
+  },
+  {
+   "address": "0x24a44aef48aeb27c7708dabfccda14b41fbf0ae1",
+   "position": "プロトレーダー(本物)",
+   "dir_accuracy": 0.0,
+   "win_rate": 0.9432,
+   "event_lead_usd": 0,
+   "realized_pnl": 649739,
+   "trade_days": 731,
+   "active_from": "2024-06-15",
+   "active_to": "2026-06-16",
+   "active_now": true,
+   "labels": [
+    "🤓 Smart HL Perps Trader [0x24a44a]"
+   ],
+   "funder": null,
+   "tier": "B",
+   "tags": []
+  },
+  {
+   "address": "0x01b7e73cdad95d407e8696e04194a75f19744801",
+   "position": "プロトレーダー(本物)",
+   "dir_accuracy": 0.0,
+   "win_rate": 1.0,
+   "event_lead_usd": 0,
+   "realized_pnl": 646718,
+   "trade_days": 795,
+   "active_from": "2024-04-06",
+   "active_to": "2026-06-10",
+   "active_now": true,
+   "labels": [
+    "🤓 Smart HL Perps Trader [0x01b7e7]"
+   ],
+   "funder": null,
+   "tier": "B",
+   "tags": []
+  },
+  {
+   "address": "0x69b05701f8175c276ecd0138387a197948e240bb",
+   "position": "プロトレーダー(本物)",
+   "dir_accuracy": 0.2194,
+   "win_rate": 0.5656,
+   "event_lead_usd": 0,
+   "realized_pnl": 641300,
+   "trade_days": 376,
+   "active_from": "2025-06-05",
+   "active_to": "2026-06-16",
+   "active_now": true,
+   "labels": [],
+   "funder": "[0x7ac157]",
+   "tier": "B",
+   "tags": []
+  },
+  {
+   "address": "0x807ddb66768050ee457165ad6d21cc1275a896ac",
+   "position": "プロトレーダー(本物)",
+   "dir_accuracy": 0.0915,
+   "win_rate": 0.8799,
+   "event_lead_usd": 0,
+   "realized_pnl": 641213,
+   "trade_days": 226,
+   "active_from": "2025-10-28",
+   "active_to": "2026-06-11",
+   "active_now": true,
+   "labels": [
+    "🤓 Smart HL Perps Trader [0x807ddb]"
+   ],
+   "funder": null,
+   "tier": "B",
+   "tags": []
+  },
+  {
+   "address": "0x5198eff88dea32108605bcdb109a99dc397190d8",
+   "position": "プロトレーダー(本物)",
+   "dir_accuracy": 1.0,
+   "win_rate": 1.0,
+   "event_lead_usd": 0,
+   "realized_pnl": 613832,
+   "trade_days": 142,
+   "active_from": "2025-12-12",
+   "active_to": "2026-05-03",
+   "active_now": false,
+   "labels": [
+    "[0x5198ef]"
+   ],
+   "funder": null,
+   "tier": "A",
+   "tags": []
+  },
+  {
+   "address": "0x8ccee825f44c99fbdaa79464d5eb8beed9313da2",
+   "position": "プロトレーダー(本物)",
+   "dir_accuracy": null,
+   "win_rate": null,
+   "event_lead_usd": null,
+   "realized_pnl": 602600,
+   "trade_days": 275,
+   "active_from": "2025-08-13",
+   "active_to": "2026-05-15",
+   "active_now": false,
+   "labels": [],
+   "funder": "🤖 Mayan Finance: Swift [0xc38e4e]",
+   "tier": "B",
+   "tags": []
+  },
+  {
+   "address": "0x3e6805e8694bb2b717a828c1bfa32df5d6580cc9",
+   "position": "プロトレーダー(本物)",
+   "dir_accuracy": null,
+   "win_rate": null,
+   "event_lead_usd": null,
+   "realized_pnl": 591463,
+   "trade_days": 867,
+   "active_from": "2024-01-31",
+   "active_to": "2026-06-16",
+   "active_now": true,
+   "labels": [],
+   "funder": "🏦 Coinbase [0x3dd1d1]",
+   "tier": "B",
+   "tags": []
+  },
+  {
+   "address": "0x6a02aedceac5a6813d960e4dae1910d9c458e77c",
+   "position": "プロトレーダー(本物)",
+   "dir_accuracy": null,
+   "win_rate": null,
+   "event_lead_usd": null,
+   "realized_pnl": 581086,
+   "trade_days": 100,
+   "active_from": "2026-03-09",
+   "active_to": "2026-06-17",
+   "active_now": true,
+   "labels": [],
+   "funder": "🏦 Binance: Hot Wallet [0xb38e8c]",
+   "tier": "B",
+   "tags": []
+  },
+  {
+   "address": "0x7cc0b0049faddc405da8494ac67737975c757480",
+   "position": "プロトレーダー(本物)",
+   "dir_accuracy": null,
+   "win_rate": null,
+   "event_lead_usd": null,
+   "realized_pnl": 562804,
+   "trade_days": 16,
+   "active_from": "2025-11-14",
+   "active_to": "2025-11-30",
+   "active_now": false,
+   "labels": [],
+   "funder": null,
+   "tier": "B",
+   "tags": []
+  },
+  {
+   "address": "0xdb79fe310ea2972137d2a23658db0234902b517d",
+   "position": "プロトレーダー(本物)",
+   "dir_accuracy": 0.1298,
+   "win_rate": 0.733,
+   "event_lead_usd": 0,
+   "realized_pnl": 551893,
+   "trade_days": 487,
+   "active_from": "2025-01-06",
+   "active_to": "2026-05-08",
+   "active_now": false,
+   "labels": [
+    "HL Perps Altcoin Trader [0xdb79fe]"
+   ],
+   "funder": null,
+   "tier": "B",
+   "tags": []
+  },
+  {
+   "address": "0x747932275df815ae819944e57ebb5b3e115ad68b",
+   "position": "プロトレーダー(本物)",
+   "dir_accuracy": 0.2022,
+   "win_rate": 0.9139,
+   "event_lead_usd": 0,
+   "realized_pnl": 547385,
+   "trade_days": 237,
+   "active_from": "2025-10-20",
+   "active_to": "2026-06-14",
+   "active_now": true,
+   "labels": [
+    "Former Smart Trader [0x747932]"
+   ],
+   "funder": null,
+   "tier": "B",
+   "tags": []
+  },
+  {
+   "address": "0x8250a7f9fca9c33e68eead8c05c1d58c8fd70d13",
+   "position": "プロトレーダー(本物)",
+   "dir_accuracy": 0.2617,
+   "win_rate": 0.509,
+   "event_lead_usd": 0,
+   "realized_pnl": 540966,
+   "trade_days": 909,
+   "active_from": "2023-11-08",
+   "active_to": "2026-05-05",
+   "active_now": false,
+   "labels": [],
+   "funder": "🏦 Bybit: Hot Wallet [0xf89d7b]",
+   "tier": "B",
+   "tags": []
+  },
+  {
+   "address": "0x3adaa1d2d0598c9b661a746649d20e1e8aad9b3a",
+   "position": "プロトレーダー(本物)",
+   "dir_accuracy": 0.0,
+   "win_rate": 1.0,
+   "event_lead_usd": 0,
+   "realized_pnl": 540758,
+   "trade_days": 54,
+   "active_from": "2025-11-21",
+   "active_to": "2026-01-14",
+   "active_now": false,
+   "labels": [
+    "[0x3adaa1]"
+   ],
+   "funder": null,
+   "tier": "B",
+   "tags": []
+  },
+  {
+   "address": "0x8a48dcaffdf71c547cd0fd0434ae40fa57bcbf0f",
+   "position": "プロトレーダー(本物)",
+   "dir_accuracy": 0.2066,
+   "win_rate": 1.0,
+   "event_lead_usd": 0,
+   "realized_pnl": 523699,
+   "trade_days": 483,
+   "active_from": "2025-01-21",
+   "active_to": "2026-05-19",
+   "active_now": false,
+   "labels": [
+    ": Boros Trader [0x8a48dc]"
+   ],
+   "funder": null,
+   "tier": "B",
+   "tags": []
+  },
+  {
+   "address": "0xa99c9e5484e5b26635c07876d0859a1819ff40d5",
+   "position": "プロトレーダー(本物)",
+   "dir_accuracy": 0.3782,
+   "win_rate": 0.4419,
+   "event_lead_usd": 0,
+   "realized_pnl": 505072,
+   "trade_days": 313,
+   "active_from": "2025-08-07",
+   "active_to": "2026-06-16",
+   "active_now": true,
+   "labels": [],
+   "funder": "🤖 High Activity [0x31cae3]",
+   "tier": "B",
+   "tags": []
+  },
+  {
+   "address": "0xb58e1eb8256689e47f589ba6f6a28657d997bf2f",
+   "position": "プロトレーダー(本物)",
+   "dir_accuracy": 0.4768,
+   "win_rate": 1.0,
+   "event_lead_usd": 0,
+   "realized_pnl": 502874,
+   "trade_days": 85,
+   "active_from": "2026-01-24",
+   "active_to": "2026-04-19",
+   "active_now": false,
+   "labels": [
+    "Former Smart Trader [0xb58e1e]"
+   ],
+   "funder": null,
+   "tier": "B",
+   "tags": []
+  },
+  {
+   "address": "0x66d3b80a7c6dc33801414dd22cde23f25d3de4d6",
+   "position": "プロトレーダー(本物)",
+   "dir_accuracy": null,
+   "win_rate": null,
+   "event_lead_usd": null,
+   "realized_pnl": 502220,
+   "trade_days": 470,
+   "active_from": "2025-02-10",
+   "active_to": "2026-05-26",
+   "active_now": false,
+   "labels": [],
+   "funder": "🏦 Binance: Wallet [0x1b5b4e]",
+   "tier": "B",
+   "tags": []
+  },
+  {
+   "address": "0x8463d6ffcbfb56bf20ab2e1111f9a0e8359533f2",
+   "position": "プロトレーダー(本物)",
+   "dir_accuracy": 0.5729,
+   "win_rate": 0.8178,
+   "event_lead_usd": 0,
+   "realized_pnl": 258596,
+   "trade_days": null,
+   "active_from": "2026-06-17",
+   "active_to": "2026-06-17",
+   "active_now": true,
+   "labels": [
+    "\"homerfan33\" on OpenSea",
+    "High Activity",
+    "coolwaterxyz-hf.eth*",
+    "homerfan33.eth",
+    "squigglesherpa.eth",
+    "stimmyfund.eth"
+   ],
+   "funder": "[0x9574d6]",
+   "tier": "C",
+   "tags": []
+  },
+  {
+   "address": "0x72a7837428320ec3c0c072b0c0fc192d6df0c83f",
+   "position": "プロトレーダー(本物)",
+   "dir_accuracy": 0.6631,
+   "win_rate": 0.9509,
+   "event_lead_usd": 0,
+   "realized_pnl": 57460,
+   "trade_days": 281,
+   "active_from": "2025-09-08",
+   "active_to": "2026-06-16",
+   "active_now": true,
+   "labels": [
+    "High Balance"
+   ],
+   "funder": "🏦 Binance: Wallet [0x25681a]",
+   "tier": "C",
+   "tags": []
+  },
+  {
+   "address": "0xa72dc2d42398e54634fc28e6769f8ce3ae011807",
+   "position": "プロトレーダー(本物)",
+   "dir_accuracy": 0.7895,
+   "win_rate": 0.9181,
+   "event_lead_usd": 0,
+   "realized_pnl": 24242,
+   "trade_days": 21,
+   "active_from": "2026-05-23",
+   "active_to": "2026-06-13",
+   "active_now": true,
+   "labels": [],
+   "funder": "High Balance [0xb02a9b]",
+   "tier": "C",
+   "tags": []
+  },
+  {
+   "address": "0x9a377ec81c1bd51d31170bf8d7a7b6c5fbaded9b",
+   "position": "プロトレーダー(本物)",
+   "dir_accuracy": 0.7812,
+   "win_rate": 1.0,
+   "event_lead_usd": 0,
+   "realized_pnl": 5362,
+   "trade_days": null,
+   "active_from": "2026-06-14",
+   "active_to": "2026-06-14",
+   "active_now": true,
+   "labels": [],
+   "funder": "[0xd2ae30]",
+   "tier": "B",
+   "tags": []
+  },
+  {
+   "address": "0x5aadb434293b4e1b8fb2e84007e567506fe65a96",
+   "position": "プロトレーダー(本物)",
+   "dir_accuracy": 0.625,
+   "win_rate": 1.0,
+   "event_lead_usd": 0,
+   "realized_pnl": 4283,
+   "trade_days": 523,
+   "active_from": "2025-01-08",
+   "active_to": "2026-06-15",
+   "active_now": true,
+   "labels": [],
+   "funder": "kwerty.eth [0x71056c]",
+   "tier": "C",
+   "tags": []
+  },
+  {
+   "address": "0xb123cd952875d8014efc7a9160a7531a5fe8f5ca",
+   "position": "プロトレーダー(本物)",
+   "dir_accuracy": 1.0,
+   "win_rate": 1.0,
+   "event_lead_usd": 0,
+   "realized_pnl": 219,
+   "trade_days": null,
+   "active_from": "2026-06-16",
+   "active_to": "2026-06-16",
+   "active_now": true,
+   "labels": [
+    "\"M1NER\" on OpenSea",
+    "miner35.eth",
+    "miner35.eth*"
+   ],
+   "funder": "🤖 Socket: Refuel Contract [0xc0e02a]",
+   "tier": "B",
+   "tags": []
+  },
+  {
+   "address": "0x29eb62882a8bd104a64400a2971d0d6881777043",
+   "position": "プロトレーダー(本物)",
+   "dir_accuracy": 0.3846,
+   "win_rate": 0.0,
+   "event_lead_usd": 0,
+   "realized_pnl": -949,
+   "trade_days": 2,
+   "active_from": "2026-02-09",
+   "active_to": "2026-02-11",
+   "active_now": false,
+   "labels": [
+    "High Activity"
+   ],
+   "funder": "🏦 Binance: Hot Wallet [0xf92402]",
+   "tier": "D",
+   "tags": []
+  },
+  {
+   "address": "0xbe494a5e3a719a78a45a47ab453b7b0199b9d101",
+   "position": "プロトレーダー(本物)",
+   "dir_accuracy": 0.5385,
+   "win_rate": 0.0253,
+   "event_lead_usd": 0,
+   "realized_pnl": -1746,
+   "trade_days": null,
+   "active_from": "2026-06-17",
+   "active_to": "2026-06-17",
+   "active_now": true,
+   "labels": [
+    "🤓 Smart HL Perps Trader [0xbe494a]"
+   ],
+   "funder": "🏦 Binance: Hot Wallet [0xb38e8c]",
+   "tier": "D",
+   "tags": []
+  },
+  {
+   "address": "0x2f04ed87b5ac8b703565469311341b0b44e315d7",
+   "position": "プロトレーダー(本物)",
+   "dir_accuracy": 0.3333,
+   "win_rate": 0.1429,
+   "event_lead_usd": 0,
+   "realized_pnl": -9089,
+   "trade_days": 526,
+   "active_from": "2023-09-16",
+   "active_to": "2025-02-23",
+   "active_now": false,
+   "labels": [
+    "High Activity"
+   ],
+   "funder": "Enzyme Finance Vault Owner [0x33ecb7]",
+   "tier": "D",
+   "tags": []
+  }
+ ],
+ "context": "BTC/ETH/SOL perp(Hyperliquid)のインサイダー追跡。先行=急変イベント(4h±3%)の6h前以内に同方向で大口建玉。的中率=エントリ4h後に建玉方向へ動いた割合(下落相場ではショート偏重で水増しされる)。cluster-A=同一Monad資金元+同一急変を同時刻に同方向建玉した4ウォレットの協調網。"
+}
