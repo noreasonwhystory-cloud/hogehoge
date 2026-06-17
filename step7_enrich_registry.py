@@ -54,6 +54,8 @@ def fetch_nansen(addr):
                            else c.get("counterparty_address_label")),
                  "address": c.get("counterparty_address"),
                  "volume_usd": c.get("total_volume_usd"),
+                 "volume_in": c.get("volume_in_usd"),    # 相手→自分（入金）
+                 "volume_out": c.get("volume_out_usd"),  # 自分→相手（出金先）
                  "count": c.get("interaction_count")}
                 for c in r["data"][:10]
             ]
