@@ -69,6 +69,15 @@ def analyze(addr, events):
             if cd:
                 closes[coin].append((t, cd))
 
+    def large_clusters(large):
+        """大口の新規建玉を (coin,dir,1h) で束ねた“賭けの回数”（分割約定は1回に集約）。"""
+        seen = set()
+        for (coin, d), lst in opens.items():
+            for t, notl in lst:
+                if notl >= large:
+                    seen.add((coin, d, t // MS_H))   # 1時間バケットで集約
+        return len(seen)
+
     def rt_for(lead_h, exit_h, large):
         lead_ms, exit_ms = lead_h * MS_H, exit_h * MS_H
         rt = lead_only = 0
@@ -91,7 +100,11 @@ def analyze(addr, events):
     tiers = {}
     for name, lh, eh, lg in TIERS:
         rt, lo, det = rt_for(lh, eh, lg)
-        tiers[name] = {"rt": rt, "lead_only": lo, "detail": det}
+        nclust = large_clusters(lg)
+        # 正規化: 大口の賭けのうち往復が占める率
+        norm = round(rt / nclust, 4) if nclust else 0
+        tiers[name] = {"rt": rt, "lead_only": lo, "large_clusters": nclust,
+                       "norm_rate": norm, "detail": det}
     return {"address": addr, "majors": len(maj), "tiers": tiers,
             "rt_events": tiers["strict"]["rt"]}  # 後方互換
 
@@ -115,20 +128,21 @@ def main():
             out.append(r)
         if i % 25 == 0:
             print(f"  {i}/{len(targets)} ...")
-    out.sort(key=lambda r: (r["tiers"]["loose"]["rt"], r["tiers"]["medium"]["rt"], r["tiers"]["strict"]["rt"]), reverse=True)
     json.dump({"generated_at": datetime.now(timezone.utc).isoformat(), "wallets": out},
               open(f"{config.DATA_DIR}/insider_v2.json", "w", encoding="utf-8"), ensure_ascii=False, indent=2)
-    print("=== 段階別 往復回数(rt) 上位20（strict / medium / loose）===")
-    for r in out[:20]:
-        t = r["tiers"]
-        if t["loose"]["rt"] >= 1:
-            print(f"  strict{t['strict']['rt']} / medium{t['medium']['rt']} / loose{t['loose']['rt']} "
-                  f"(先行のみloose{t['loose']['lead_only']}) majors{r['majors']} {r['address'][:12]}..")
-    print("\n=== 各段階で 往復≥3(本命) の件数 ===")
+    # medium段階で正規化率ランキング（往復≥2 かつ 大口クラスタ≥3 で小サンプル除外）
+    M = "medium"
+    qualified = [r for r in out if r["tiers"][M]["rt"] >= 2 and r["tiers"][M]["large_clusters"] >= 3]
+    qualified.sort(key=lambda r: r["tiers"][M]["norm_rate"], reverse=True)
+    print(f"=== 頻度正規化ランキング(medium: 往復÷大口クラスタ, 往復≥2&クラスタ≥3) {len(qualified)}件 ===")
+    print("  正規化率 = 大口の賭けのうち『イベント往復』が占める割合（高い=選別的に当てる）")
+    for r in qualified[:20]:
+        t = r["tiers"][M]
+        print(f\"  率{t['norm_rate']:.2f} (往復{t['rt']}/大口{t['large_clusters']}) majors{r['majors']} {r['address'][:12]}..\")
+    print("\n=== 参考: 生の往復≥3件数（出来高バイアスあり）===")
     for name, *_ in TIERS:
         n = sum(1 for r in out if r["tiers"][name]["rt"] >= 3)
-        n2 = sum(1 for r in out if r["tiers"][name]["rt"] >= 1)
-        print(f"  {name}: 往復≥3 {n}件 / 往復≥1 {n2}件")
+        print(f"  {name}: {n}件")
 
 
 if __name__ == "__main__":
