@@ -172,7 +172,7 @@
         "保有:スイング(<48h)",
         "方向:無/フラット"
       ],
-      "notes_jp": "【ひとことで】🔴 インサイダー（内部情報で先回り）が一番疑わしいウォレット。\n【正体】名前は分からない（匿名）。\n【お金はどこから？】プログラム(コントラクト)経由 → 人の財布までは見えない\n【もう一段たどると】お金の出どころは Kromatika というプログラム(コントラクト)経由で、人の財布までは遡れなかった（足を消している）。\n【よく取引する相手】🤖 Circle: CCTP TokenMinterV2 [0xfd78ee]、Relay Protocol: EOA Bridge [0xf70da9]\n【グループ】同じ資金元から同時に動いた『協調クラスタA』の一員。\n【詳しい判定】格上げ(質的転換): 協調クラスタAの中核・先行性最有力。ただしトレンド入りでも一部説明可で確信は中",
+      "notes_jp": "【判定】★最有力(的中ほぼ100%)\n【資金源】🏦 Kromatika: Deployer [0xb4b8b6] ＝ ブリッジ/サービス経由(足を消す)\n【先行建玉】個別例なし(event_lead合計で検出)\n【的中率】1.0（高いほど“動く前に正しく賭けた”＝先読みの証拠）",
       "roi_alltime": 4.2163714294,
       "n_fills_14d": 773
     },
@@ -253,7 +253,7 @@
         "レバ:中(3-10x)",
         "銘柄:BTC専"
       ],
-      "notes_jp": "【ひとことで】🔴 インサイダー（内部情報で先回り）が一番疑わしいウォレット。\n【正体】名前は分からない（匿名）。\n【お金はどこから？】別の財布（High Balance [0x9aa91e]）から\n【もう一段たどると】お金は『お金持ち財布(0x9aa91e)』から来ていて、その財布はさらに Nexo(取引所)から入金され、Binance・Bybit・KuCoin と数百万ドル規模でやり取りしている。→ 実体は複数の取引所を使う大口の個人/組織。\n【グループ】同じ資金元から同時に動いた『協調クラスタA』の一員。\n【詳しい判定】格上げ(質的転換): クラスタA同時先行ペア。efcaceと連動する独立2本目",
+      "notes_jp": "【判定】★最有力(的中ほぼ100%)\n【資金源】High Balance [0x9aa91e] ＝ 別ウォレット経由\n【先行建玉】個別例なし(event_lead合計で検出)\n【的中率】1.0（高いほど“動く前に正しく賭けた”＝先読みの証拠）",
       "roi_alltime": 4.6704985213,
       "roi_month": 2.1442328436,
       "n_fills_14d": 644
@@ -11572,7 +11572,8 @@
       "tags": [
         "HL先行検出",
         "Nansen発見",
-        "SmartMoney"
+        "SmartMoney",
+        "資金源共有"
       ],
       "notes": "",
       "history": [
@@ -11590,7 +11591,7 @@
       "position": "インサイダー疑惑(要監視)",
       "metric_category": "hl-verified",
       "labels": [
-        "Former Smart Trader [0x906d31]"
+        "Token Millionaire"
       ],
       "roi_alltime": 145.77147155551717,
       "nansen_checked": "2026-06-17",
@@ -11599,7 +11600,7 @@
         "PnL:大($1-10M)",
         "方向:無/フラット"
       ],
-      "notes_jp": "【ひとことで】🔴 急変イベントの直前に大口を先行建玉していた（HL実測）。インサイダー疑い。\n【HL実測】実現益$2,774,849・勝率1.0・方向的中率0.6199・急変先行$350,298\n【活動期間】2025-11-26〜2026-06-07（majors 509約定）\n【正体(Nansen)】Former Smart Trader [0x906d31]",
+      "notes_jp": "【判定】中(的中62%・具体的な先行あり)\n【資金源】Gas.zip: Primary Solver [0x8c826f] ＝ ブリッジ/サービス経由(足を消す) ／ 同じ資金元(Gas.zip: Primary S)から仲間も着金＝協調の疑い\n【先行建玉】ETH short $202,921 を、2025-12-10 22:00の-4.02%急変の直前(2025-12-10 18:31)に建てた\n【的中率】0.6199（高いほど“動く前に正しく賭けた”＝先読みの証拠）",
       "current": {
         "date": "2026-06-17",
         "metric_category": "hl-verified",
@@ -11629,6 +11630,28 @@
           "event_move_pct": -4.02,
           "event_time": "2025-12-10 22:00",
           "hash": "0x0975838379a6994f0aef0431215f4102047d006914a9b821ad3e2ed638aa7339"
+        }
+      ],
+      "first_funders": [
+        {
+          "address": "0x8c826f795466e39acbff1bb4eeeb759609377ba1",
+          "label": "Gas.zip: Primary Solver [0x8c826f]",
+          "relation": "First Funder",
+          "time": "2025-11-14T16:01:24"
+        }
+      ],
+      "counterparties": [
+        {
+          "label": "🤖 Hyperliquid: Bridge 2 [0x2df1c5]",
+          "address": "0x2df1c51e09aecf9cacb7bc98cb1742757f163df7",
+          "volume_usd": 5022886.962876312,
+          "count": 1
+        },
+        {
+          "label": "🤖 Circle: CCTP TokenMinterV2 [0xfd78ee]",
+          "address": "0xfd78ee919681417d192449715b2594ab58f5d002",
+          "volume_usd": 4998615.226003903,
+          "count": 5
         }
       ]
     },
@@ -13385,7 +13408,8 @@
       "tags": [
         "HL先行検出",
         "Nansen発見",
-        "SmartMoney"
+        "SmartMoney",
+        "資金源共有"
       ],
       "notes": "",
       "history": [
@@ -13402,9 +13426,7 @@
       "last_seen": "2026-06-17",
       "position": "インサイダー疑惑(要監視)",
       "metric_category": "hl-verified",
-      "labels": [
-        "Former Smart Trader [0x18cd45]"
-      ],
+      "labels": [],
       "roi_alltime": 2.6991963967021153,
       "nansen_checked": "2026-06-17",
       "auto_tags": [
@@ -13412,7 +13434,7 @@
         "PnL:中($100k-1M)",
         "方向:無/フラット"
       ],
-      "notes_jp": "【ひとことで】🔴 急変イベントの直前に大口を先行建玉していた（HL実測）。インサイダー疑い。 ただし方向的中率は59%と高くなく、先行は出来高由来の偶然の可能性も残る（要人間レビュー）。\n【HL実測】実現益$332,259・勝率0.7309・方向的中率0.5897・急変先行$651,496\n【活動期間】2026-02-02〜2026-06-15（majors 2675約定）\n【正体(Nansen)】Former Smart Trader [0x18cd45]",
+      "notes_jp": "【判定】中(的中59%・具体的な先行あり)\n【資金源】Gas.zip: Primary Solver [0x8c826f] ＝ ブリッジ/サービス経由(足を消す) ／ 同じ資金元(Gas.zip: Primary S)から仲間も着金＝協調の疑い\n【先行建玉】ETH long $104,327 を、2026-02-02 11:00の3.93%急変の直前(2026-02-02 09:50)に建てた\n【的中率】0.5897（高いほど“動く前に正しく賭けた”＝先読みの証拠）",
       "current": {
         "date": "2026-06-17",
         "metric_category": "hl-verified",
@@ -13469,6 +13491,52 @@
           "event_move_pct": 3.34,
           "event_time": "2026-02-06 10:00",
           "hash": "0xc2f7022e6b969db9c4700434c5b618020b8100140699bc8b66bfad812a9a77a4"
+        }
+      ],
+      "first_funders": [
+        {
+          "address": "0x8c826f795466e39acbff1bb4eeeb759609377ba1",
+          "label": "Gas.zip: Primary Solver [0x8c826f]",
+          "relation": "First Funder",
+          "time": "2026-02-02T09:39:49"
+        }
+      ],
+      "counterparties": [
+        {
+          "label": "🤖 Circle: CCTP TokenMinterV2 [0xfd78ee]",
+          "address": "0xfd78ee919681417d192449715b2594ab58f5d002",
+          "volume_usd": 801837.1483963894,
+          "count": 1
+        },
+        {
+          "label": "Burn Address [0x000000]",
+          "address": "0x0000000000000000000000000000000000000000",
+          "volume_usd": 801837.1438973022,
+          "count": 1
+        },
+        {
+          "label": "🤖 Hyperliquid: Bridge 2 [0x2df1c5]",
+          "address": "0x2df1c51e09aecf9cacb7bc98cb1742757f163df7",
+          "volume_usd": 363256.7872239284,
+          "count": 1
+        },
+        {
+          "label": "🤖 Circle: USDC Bridge [0xa95d9c]",
+          "address": "0xa95d9c1f655341597c94393fddc30cf3c08e4fce",
+          "volume_usd": 293323.0689109114,
+          "count": 1
+        },
+        {
+          "label": "🤖 Circle: Token Minter [0xe7ed1f]",
+          "address": "0xe7ed1fa7f45d05c508232aa32649d89b73b8ba48",
+          "volume_usd": 69977.16355230569,
+          "count": 1
+        },
+        {
+          "label": "🤖 Disperse.app: Disperse [0xd152f5]",
+          "address": "0xd152f549545093347a162dce210e7293f1452150",
+          "volume_usd": 0.0,
+          "count": 1
         }
       ]
     },
@@ -13809,9 +13877,7 @@
       "last_seen": "2026-06-17",
       "position": "インサイダー疑惑(要監視)",
       "metric_category": "hl-verified",
-      "labels": [
-        "Former Smart Trader [0x07642c]"
-      ],
+      "labels": [],
       "roi_alltime": 6.074543676603644,
       "nansen_checked": "2026-06-17",
       "auto_tags": [
@@ -13819,7 +13885,7 @@
         "PnL:中($100k-1M)",
         "方向:無/フラット"
       ],
-      "notes_jp": "【ひとことで】🔴 急変イベントの直前に大口を先行建玉していた（HL実測）。インサイダー疑い。 ただし方向的中率は41%と高くなく、先行は出来高由来の偶然の可能性も残る（要人間レビュー）。\n【HL実測】実現益$703,629・勝率0.683・方向的中率0.4105・急変先行$641,731\n【活動期間】2026-04-06〜2026-04-18（majors 5275約定）\n【正体(Nansen)】Former Smart Trader [0x07642c]",
+      "notes_jp": "【判定】弱(的中41%)\n【資金源】HL Perps Day Trader [0xa5b662] ＝ 別ウォレット経由\n【先行建玉】ETH long $424,171 を、2026-04-13 18:00の5.39%急変の直前(2026-04-13 12:36)に建てた\n【的中率】0.4105（高いほど“動く前に正しく賭けた”＝先読みの証拠）",
       "current": {
         "date": "2026-06-17",
         "metric_category": "hl-verified",
@@ -13849,6 +13915,34 @@
           "event_move_pct": 5.39,
           "event_time": "2026-04-13 18:00",
           "hash": "0xff1caf708007772f009604390d703f02025d00561b0a9602a2e55ac33f0b511a"
+        }
+      ],
+      "first_funders": [
+        {
+          "address": "0xa5b662f5cc0bf744626aff5f260e541f94265c35",
+          "label": "HL Perps Day Trader [0xa5b662]",
+          "relation": "First Funder",
+          "time": "2026-04-06T23:27:27"
+        }
+      ],
+      "counterparties": [
+        {
+          "label": "🤖 Hyperliquid: Bridge 2 [0x2df1c5]",
+          "address": "0x2df1c51e09aecf9cacb7bc98cb1742757f163df7",
+          "volume_usd": 728130.7345313979,
+          "count": 2
+        },
+        {
+          "label": "🤖 DLN: DlnSource [0xef4fb2]",
+          "address": "0xef4fb24ad0916217251f553c0596f8edc630eb66",
+          "volume_usd": 728035.4766167656,
+          "count": 4
+        },
+        {
+          "label": "🤖 DLN: CrosschainForwarder [0x663dc1]",
+          "address": "0x663dc15d3c1ac63ff12e45ab68fea3f0a883c251",
+          "volume_usd": 99.9840283569987,
+          "count": 1
         }
       ]
     },
@@ -14992,11 +15086,9 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "インサイダー疑惑(要監視)",
+      "position": "除外/低優先",
       "metric_category": "hl-verified",
-      "labels": [
-        "Former Smart Trader [0x298629]"
-      ],
+      "labels": [],
       "roi_alltime": 0.5061385412337907,
       "nansen_checked": "2026-06-17",
       "auto_tags": [
@@ -15005,7 +15097,7 @@
         "方向:無/フラット",
         "資金:大型出金疑い(50x+)"
       ],
-      "notes_jp": "【ひとことで】🔴 急変イベントの直前に大口を先行建玉していた（HL実測）。インサイダー疑い。 ただし方向的中率は13%と高くなく、先行は出来高由来の偶然の可能性も残る（要人間レビュー）。\n【HL実測】実現益$1,765,895・勝率0.8651・方向的中率0.1256・急変先行$4,181,358\n【活動期間】2025-07-16〜2026-03-29（majors 5717約定）\n【正体(Nansen)】Former Smart Trader [0x298629]",
+      "notes_jp": "【判定】偽陽性濃厚(的中13%=先行は出来高由来の偶然)\n【資金源】[0x915116] ＝ 別ウォレット経由\n【先行建玉】ETH short $105,829 を、2025-12-07 18:00の-3.03%急変の直前(2025-12-07 17:24)に建てた\n【的中率】0.1256（高いほど“動く前に正しく賭けた”＝先読みの証拠）",
       "current": {
         "date": "2026-06-17",
         "metric_category": "hl-verified",
@@ -15062,6 +15154,76 @@
           "event_move_pct": -3.03,
           "event_time": "2025-12-07 18:00",
           "hash": "0xcb4df4d3400cfc60ccc70430ef8fdc02158c00b8db001b326f16a025ff00d64b"
+        }
+      ],
+      "first_funders": [
+        {
+          "address": "0x9151163074ee4361bfbc22cc1ded15b5cc3c88fa",
+          "label": "[0x915116]",
+          "relation": "First Funder",
+          "time": "2022-11-08T01:56:55"
+        }
+      ],
+      "counterparties": [
+        {
+          "label": "🏦 Binance: Deposit [0xa0851f]",
+          "address": "0xa0851f7288e941b79ec4aa647c2a1415905bf469",
+          "volume_usd": 753818.2508205753,
+          "count": 7
+        },
+        {
+          "label": "🤖 Hyperliquid: Bridge 2 [0x2df1c5]",
+          "address": "0x2df1c51e09aecf9cacb7bc98cb1742757f163df7",
+          "volume_usd": 729229.8908298638,
+          "count": 1
+        },
+        {
+          "label": "​​Bridge User [0x6a2abf]",
+          "address": "0x6a2abff960b663462cbc46a2cfcf85063fe8ae14",
+          "volume_usd": 215923.66319600536,
+          "count": 6
+        },
+        {
+          "label": "[0x330d9d]",
+          "address": "0x330d9d1e123b6b50873a5b544d7c687698b5d88d",
+          "volume_usd": 199941.78446688555,
+          "count": 2
+        },
+        {
+          "label": "🤖 LiquidityPoolAave [0x2022a5]",
+          "address": "0x2022a5600f854cc3218e636239f4dfce9e5357b5",
+          "volume_usd": 8583.40644837225,
+          "count": 1
+        },
+        {
+          "label": "🤖 Relay Protocol: Depository [0x4cd00e]",
+          "address": "0x4cd00e387622c35bddb9b4c962c136462338bc31",
+          "volume_usd": 2375.920823112863,
+          "count": 1
+        },
+        {
+          "label": "🏦 Binance: Wallet [0x1b5b4e]",
+          "address": "0x1b5b4e441f5a22bfd91b7772c780463f66a74b35",
+          "volume_usd": 2375.8733046964007,
+          "count": 1
+        },
+        {
+          "label": "[0x330a45]",
+          "address": "0x330a453cc8413a43e4374a864d519a02c6a5d88d",
+          "volume_usd": 0.00010097211568652158,
+          "count": 2
+        },
+        {
+          "label": "[0x3307da]",
+          "address": "0x3307dacb9af6334de48c0f498ea706424eb5d88d",
+          "volume_usd": 0.00010097211568652158,
+          "count": 1
+        },
+        {
+          "label": "[0x330dff]",
+          "address": "0x330dff52ff055dd557365bef062c84e09c94d88d",
+          "volume_usd": 9.997225411090829e-06,
+          "count": 2
         }
       ]
     },
@@ -27382,13 +27544,11 @@
       "last_seen": "2026-06-17",
       "position": "インサイダー疑惑(要監視)",
       "metric_category": "hl-verified",
-      "labels": [
-        "HL Perps Day Trader [0x74da05]"
-      ],
+      "labels": [],
       "roi_alltime": 0.0036018123204748995,
       "n_fills_14d": 6000,
       "nansen_checked": "2026-06-17",
-      "notes_jp": "【ひとことで】🔴 急変イベントの直前に大口を先行建玉していた（HL実測）。インサイダー疑い。 ただし方向的中率は57%と高くなく、先行は出来高由来の偶然の可能性も残る（要人間レビュー）。\n【HL実測】実現益$957,166・勝率0.7009・方向的中率0.5653・急変先行$13,478,564\n【活動期間】2026-01-22〜2026-02-10（majors 22909約定）\n【正体(Nansen)】HL Perps Day Trader [0x74da05]",
+      "notes_jp": "【判定】中(的中57%・具体的な先行あり)\n【資金源】不明 ＝ 不明\n【先行建玉】BTC short $225,387 を、2026-02-05 11:00の-4.03%急変の直前(2026-02-05 09:21)に建てた\n【的中率】0.5653（高いほど“動く前に正しく賭けた”＝先読みの証拠）",
       "current": {
         "date": "2026-06-17",
         "metric_category": "hl-verified",
@@ -27445,7 +27605,9 @@
           "event_time": "2026-02-05 21:00",
           "hash": "0xdde498688bed4311df5e0434bd08f60207f8004e26e061e381ad43bb4ae11cfc"
         }
-      ]
+      ],
+      "first_funders": [],
+      "counterparties": []
     },
     "0xbdd243d77a59a3b38d21bf61e78a6ba4702f2bbc": {
       "address": "0xbdd243d77a59a3b38d21bf61e78a6ba4702f2bbc",
@@ -27453,20 +27615,19 @@
       "times_seen": 1,
       "tags": [
         "HL先行検出",
-        "Nansen発見"
+        "Nansen発見",
+        "資金源共有"
       ],
       "notes": "",
       "history": [],
       "last_seen": "2026-06-17",
-      "position": "インサイダー疑惑(要監視)",
+      "position": "除外/低優先",
       "metric_category": "hl-verified",
-      "labels": [
-        "👤 Dxrant [0xbdd243]"
-      ],
+      "labels": [],
       "roi_alltime": 0.008930001630256002,
       "n_fills_14d": 4247,
       "nansen_checked": "2026-06-17",
-      "notes_jp": "【ひとことで】🔴 急変イベントの直前に大口を先行建玉していた（HL実測）。インサイダー疑い。 ただし方向的中率は9%と高くなく、先行は出来高由来の偶然の可能性も残る（要人間レビュー）。\n【HL実測】実現益$2,135,735・勝率1.0・方向的中率0.0918・急変先行$2,691,427\n【活動期間】2026-02-05〜2026-02-25（majors 919約定）\n【正体(Nansen)】👤 Dxrant [0xbdd243]",
+      "notes_jp": "【判定】偽陽性濃厚(的中9%=先行は出来高由来の偶然)\n【資金源】🤖 DLN: DlnDestination [0xe7351f] ＝ ブリッジ/サービス経由(足を消す) ／ 同じ資金元(🤖 DLN: DlnDestinat)から仲間も着金＝協調の疑い\n【先行建玉】BTC long $100,189 を、2026-02-05 21:00の3.88%急変の直前(2026-02-05 18:25)に建てた\n【的中率】0.0918（高いほど“動く前に正しく賭けた”＝先読みの証拠）",
       "current": {
         "date": "2026-06-17",
         "metric_category": "hl-verified",
@@ -27523,6 +27684,76 @@
           "event_time": "2026-02-05 21:00",
           "hash": "0x69026092135274ab6a7c0434bde2a802048d0077ae55937d0ccb0be4d2564e96"
         }
+      ],
+      "first_funders": [
+        {
+          "address": "0xe7351fd770a37282b91d153ee690b63579d6dd7f",
+          "label": "🤖 DLN: DlnDestination [0xe7351f]",
+          "relation": "First Funder",
+          "time": "2026-03-29T21:03:14"
+        }
+      ],
+      "counterparties": [
+        {
+          "label": "👤 Dxrant [0x563848]",
+          "address": "0x5638484ba2d2f1d1d35020572b0aa439a9869192",
+          "volume_usd": 1330275.5741754118,
+          "count": 5
+        },
+        {
+          "label": "[0x7c70bf]",
+          "address": "0x7c70bf8c8348557ad9b96cbd355b1dfc4faa1bb4",
+          "volume_usd": 94822.36561457325,
+          "count": 1
+        },
+        {
+          "label": "[0x7c708e]",
+          "address": "0x7c708e7debc580f6cc47fd1f41fa46daeb411bb4",
+          "volume_usd": 0.0009476051391776807,
+          "count": 1
+        },
+        {
+          "label": "[0x5638c2]",
+          "address": "0x5638c2aacea1ea77bb16762a452c9275ad7b9192",
+          "volume_usd": 0.0004657724823257306,
+          "count": 5
+        },
+        {
+          "label": "[0x2dd4c9]",
+          "address": "0x2dd4c973a79a5f0efbc1aacd7dc7c441283f3284",
+          "volume_usd": 0.000377842555494898,
+          "count": 1
+        },
+        {
+          "label": "[0x5638f6]",
+          "address": "0x5638f68beeee95ec685b73273f2a1bd3a0169192",
+          "volume_usd": 6.98658723488596e-06,
+          "count": 3
+        },
+        {
+          "label": "[0x5638fb]",
+          "address": "0x5638fb2f04d0cd8d9173539fa6247c20ea8d9192",
+          "volume_usd": 2.3288624116286534e-06,
+          "count": 1
+        },
+        {
+          "label": "[0x7c706a]",
+          "address": "0x7c706aff15a5ed4b1d8ba24c7f27a62556531bb4",
+          "volume_usd": 2.009257519519957e-06,
+          "count": 1
+        },
+        {
+          "label": "👤 Vitalik Buterin [0xd8da6b]",
+          "address": "0xd8da6bf26964af9d7eed9e03e53415d37aa96045",
+          "volume_usd": 0.0,
+          "count": 3
+        },
+        {
+          "label": "[0x563816]",
+          "address": "0x5638162b3f2d6ca2b6559ade05c506572cad9192",
+          "volume_usd": 0.0,
+          "count": 1
+        }
       ]
     },
     "0xb19e03768f72cb1b47fcd68f7fb99460b1e789b9": {
@@ -27531,7 +27762,8 @@
       "times_seen": 1,
       "tags": [
         "HL先行検出",
-        "Nansen発見"
+        "Nansen発見",
+        "資金源共有"
       ],
       "notes": "",
       "history": [],
@@ -27539,12 +27771,12 @@
       "position": "インサイダー疑惑(要監視)",
       "metric_category": "hl-verified",
       "labels": [
-        "HL Perps Altcoin Trader [0xb19e03]"
+        "High Balance"
       ],
       "roi_alltime": 0.00011420059435360711,
       "n_fills_14d": 9998,
       "nansen_checked": "2026-06-17",
-      "notes_jp": "【ひとことで】🔴 急変イベントの直前に大口を先行建玉していた（HL実測）。インサイダー疑い。 ただし方向的中率は35%と高くなく、先行は出来高由来の偶然の可能性も残る（要人間レビュー）。\n【HL実測】実現益$985,536・勝率0.6089・方向的中率0.3522・急変先行$300,002\n【活動期間】2025-10-22〜2026-05-13（majors 1638約定）\n【正体(Nansen)】HL Perps Altcoin Trader [0xb19e03]",
+      "notes_jp": "【判定】弱(的中35%)\n【資金源】🤖 DLN: DlnDestination [0xe7351f] ＝ ブリッジ/サービス経由(足を消す) ／ 同じ資金元(🤖 DLN: DlnDestinat)から仲間も着金＝協調の疑い\n【先行建玉】BTC short $100,001 を、2026-04-02 00:00の-3.32%急変の直前(2026-04-01 18:38)に建てた\n【的中率】0.3522（高いほど“動く前に正しく賭けた”＝先読みの証拠）",
       "current": {
         "date": "2026-06-17",
         "metric_category": "hl-verified",
@@ -27583,6 +27815,40 @@
           "event_time": "2026-04-02 00:00",
           "hash": "0xc0e6955d60480b3ec26004382f834002023c0042fb4b2a1064af40b01f4be529"
         }
+      ],
+      "first_funders": [
+        {
+          "address": "0xe7351fd770a37282b91d153ee690b63579d6dd7f",
+          "label": "🤖 DLN: DlnDestination [0xe7351f]",
+          "relation": "First Funder",
+          "time": "2025-09-01T05:07:30"
+        }
+      ],
+      "counterparties": [
+        {
+          "label": "​​🤖 Ostium: Trading Storage Manager [0xccd589]",
+          "address": "0xccd5891083a8acd2074690f65d3024e7d13d66e7",
+          "volume_usd": 191600.64691002827,
+          "count": 9
+        },
+        {
+          "label": "🤖 Hyperliquid: Bridge 2 [0x2df1c5]",
+          "address": "0x2df1c51e09aecf9cacb7bc98cb1742757f163df7",
+          "volume_usd": 149956.6110468473,
+          "count": 1
+        },
+        {
+          "label": "🤖 Circle: USDC Bridge [0xa95d9c]",
+          "address": "0xa95d9c1f655341597c94393fddc30cf3c08e4fce",
+          "volume_usd": 127958.20375585409,
+          "count": 2
+        },
+        {
+          "label": "🤖 Disperse.app: Disperse [0xd152f5]",
+          "address": "0xd152f549545093347a162dce210e7293f1452150",
+          "volume_usd": 0.0,
+          "count": 1
+        }
       ]
     },
     "0x6f7d75c18e8ca7f486eb4d2690abf7b329087062": {
@@ -27599,12 +27865,12 @@
       "position": "インサイダー疑惑(要監視)",
       "metric_category": "hl-verified",
       "labels": [
-        "frankfrankbank.eth [0x6f7d75]"
+        "High Activity"
       ],
       "roi_alltime": 389.0227123979876,
       "n_fills_14d": 2284,
       "nansen_checked": "2026-06-17",
-      "notes_jp": "【ひとことで】🔴 急変イベントの直前に大口を先行建玉していた（HL実測）。インサイダー疑い。 ただし方向的中率は56%と高くなく、先行は出来高由来の偶然の可能性も残る（要人間レビュー）。\n【HL実測】実現益$3,634,965・勝率0.9047・方向的中率0.5636・急変先行$225,423\n【活動期間】2025-09-21〜2026-04-01（majors 2239約定）\n【正体(Nansen)】frankfrankbank.eth [0x6f7d75]",
+      "notes_jp": "【判定】中(的中56%・具体的な先行あり)\n【資金源】[0x2c8b67] ＝ 別ウォレット経由\n【先行建玉】ETH short $104,384 を、2025-12-15 11:00の-4.61%急変の直前(2025-12-15 10:08)に建てた\n【的中率】0.5636（高いほど“動く前に正しく賭けた”＝先読みの証拠）",
       "current": {
         "date": "2026-06-17",
         "metric_category": "hl-verified",
@@ -27634,7 +27900,16 @@
           "event_time": "2025-12-15 11:00",
           "hash": "0xc51395b0582e7d94c68d04316d947b0203030095f3219c6668dc41031722577f"
         }
-      ]
+      ],
+      "first_funders": [
+        {
+          "address": "0x2c8b6774bdedab5db82b5e367836dc28e15c6c90",
+          "label": "[0x2c8b67]",
+          "relation": "First Funder",
+          "time": "2025-09-21T13:50:04"
+        }
+      ],
+      "counterparties": []
     },
     "0x4eebd8d39e82efb958e0fa9f694435c910c8518f": {
       "address": "0x4eebd8d39e82efb958e0fa9f694435c910c8518f",
@@ -28495,5 +28770,5 @@
       "lead_examples": []
     }
   },
-  "updated_at": "2026-06-17T15:50:29.610933+00:00"
+  "updated_at": "2026-06-17T16:04:50.315158+00:00"
 }
