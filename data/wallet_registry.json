@@ -1941,7 +1941,7 @@
       "last_seen": "2026-06-17",
       "metric_category": "nansen-pro",
       "insider_likelihood": null,
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "current": {
         "date": "2026-06-17",
         "metric_category": "nansen-pro",
@@ -2842,7 +2842,7 @@
       "last_seen": "2026-06-17",
       "metric_category": "nansen-pro",
       "insider_likelihood": null,
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "current": {
         "date": "2026-06-17",
         "metric_category": "nansen-pro",
@@ -4339,7 +4339,7 @@
       "last_seen": "2026-06-17",
       "metric_category": "nansen-pro",
       "insider_likelihood": null,
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "current": {
         "date": "2026-06-17",
         "metric_category": "nansen-pro",
@@ -10366,7 +10366,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x35d115]"
@@ -10411,7 +10411,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "機関/ファンド(Nansen発)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Galaxy Digital [0xcac196]"
@@ -10456,7 +10456,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0x5d2f44]"
@@ -10501,7 +10501,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0x8e0969]"
@@ -10546,7 +10546,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0x4196dc]"
@@ -10591,7 +10591,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0x577ae9]"
@@ -10635,7 +10635,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0xbcd420]"
@@ -10680,7 +10680,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0xfce053]"
@@ -10725,7 +10725,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0xc7290b]"
@@ -10770,7 +10770,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0x0b00c5]"
@@ -10815,7 +10815,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0xed41a1]"
@@ -10859,7 +10859,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0x5bc43f]"
@@ -10904,7 +10904,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x208db9]"
@@ -10948,7 +10948,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0xc1471d]"
@@ -10992,7 +10992,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0x8bae35]"
@@ -11037,7 +11037,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0x2d99fe]"
@@ -11081,7 +11081,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0x015354]"
@@ -11125,7 +11125,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0x782e43]"
@@ -11169,7 +11169,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0x833b99]"
@@ -11214,7 +11214,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x16bf84]"
@@ -11258,7 +11258,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0xd8c522]"
@@ -11302,7 +11302,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x570b09]"
@@ -11346,7 +11346,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "機関/ファンド(Nansen発)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Funded @beltoncap On Friendtech [0x56cd86]"
@@ -11391,7 +11391,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0x84abc0]"
@@ -11435,7 +11435,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0x6f490f]"
@@ -11479,7 +11479,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x5b9306]"
@@ -11523,7 +11523,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0xd96ea3]"
@@ -11567,7 +11567,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x906d31]"
@@ -11611,7 +11611,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0xf56293]"
@@ -11655,7 +11655,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x9e2cbb]"
@@ -11699,7 +11699,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0xac03fc]"
@@ -11743,7 +11743,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0xd82f7d]"
@@ -11787,7 +11787,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0x19d84c]"
@@ -11831,7 +11831,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0xdbcc96]"
@@ -11875,7 +11875,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0x179c17]"
@@ -11919,7 +11919,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0x0b8ad9]"
@@ -11963,7 +11963,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0xe2f86f]"
@@ -12008,7 +12008,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0xf17de4]"
@@ -12052,7 +12052,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0xe4d839]"
@@ -12096,7 +12096,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0x36ac01]"
@@ -12141,7 +12141,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0xb1694d]"
@@ -12185,7 +12185,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x7da85a]"
@@ -12229,7 +12229,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x05a196]"
@@ -12273,7 +12273,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0xef759e]"
@@ -12317,7 +12317,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x7e4e76]"
@@ -12361,7 +12361,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0x406073]"
@@ -12405,7 +12405,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0xe09133]"
@@ -12450,7 +12450,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0x90326f]"
@@ -12495,7 +12495,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x6b08bb]"
@@ -12539,7 +12539,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0xba0495]"
@@ -12583,7 +12583,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x99b3ba]"
@@ -12627,7 +12627,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0x059049]"
@@ -12672,7 +12672,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x359509]"
@@ -12717,7 +12717,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0x98256d]"
@@ -12761,7 +12761,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x5846ac]"
@@ -12805,7 +12805,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0xa3d843]"
@@ -12849,7 +12849,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x9836e2]"
@@ -12894,7 +12894,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0xbcc7fd]"
@@ -12938,7 +12938,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0x143c28]"
@@ -12982,7 +12982,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x06466f]"
@@ -13026,7 +13026,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0xef7033]"
@@ -13070,7 +13070,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0xc12f6e]"
@@ -13114,7 +13114,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x4cd80a]"
@@ -13158,7 +13158,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x8b0be8]"
@@ -13202,7 +13202,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0x3662dd]"
@@ -13246,7 +13246,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x237396]"
@@ -13290,7 +13290,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0xdc38f7]"
@@ -13334,7 +13334,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x18cd45]"
@@ -13378,7 +13378,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0xbfc79c]"
@@ -13423,7 +13423,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0x6fa6f4]"
@@ -13467,7 +13467,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0x60a8c7]"
@@ -13512,7 +13512,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0xb69eec]"
@@ -13556,7 +13556,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0x500bea]"
@@ -13600,7 +13600,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0xdb095d]"
@@ -13644,7 +13644,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x271ce8]"
@@ -13688,7 +13688,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x07642c]"
@@ -13732,7 +13732,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "機関/ファンド(Nansen発)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Selini Capital [0x44a3e1]"
@@ -13777,7 +13777,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0xd866a2]"
@@ -13821,7 +13821,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0xd8d035]"
@@ -13865,7 +13865,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0x484bc1]"
@@ -13910,7 +13910,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x3c363e]"
@@ -13954,7 +13954,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0xc7accf]"
@@ -13998,7 +13998,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0x1e0b46]"
@@ -14042,7 +14042,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0x28bbaa]"
@@ -14086,7 +14086,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0x1f4059]"
@@ -14130,7 +14130,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0xb58e1e]"
@@ -14174,7 +14174,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x1fe066]"
@@ -14218,7 +14218,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0x0980b3]"
@@ -14263,7 +14263,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0x8ccee8]"
@@ -14308,7 +14308,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0xa99c9e]"
@@ -14353,7 +14353,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0xaa3f51]"
@@ -14397,7 +14397,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0x6a02ae]"
@@ -14441,7 +14441,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0x397616]"
@@ -14485,7 +14485,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x25cd30]"
@@ -14529,7 +14529,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x95e268]"
@@ -14573,7 +14573,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x855450]"
@@ -14617,7 +14617,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0x1c7704]"
@@ -14661,7 +14661,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0xc48b1a]"
@@ -14705,7 +14705,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x67c932]"
@@ -14749,7 +14749,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x106943]"
@@ -14793,7 +14793,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x3a1224]"
@@ -14837,7 +14837,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x298629]"
@@ -14882,7 +14882,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0xd93db9]"
@@ -14926,7 +14926,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x6a7a17]"
@@ -14970,7 +14970,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0x4cc390]"
@@ -15014,7 +15014,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x1f67d7]"
@@ -15059,7 +15059,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0x9fb175]"
@@ -15103,7 +15103,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0x66d3b8]"
@@ -15147,7 +15147,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0xb9eb06]"
@@ -15191,7 +15191,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0x3b2e0b]"
@@ -15235,7 +15235,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0x79399d]"
@@ -15279,7 +15279,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x4c7a57]"
@@ -15323,7 +15323,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0xfb996b]"
@@ -15367,7 +15367,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "機関/ファンド(Nansen発)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Funded @jvpmamede On Friendtech [0xa4beb4]"
@@ -15411,7 +15411,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0xbb9f03]"
@@ -15455,7 +15455,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0xfc7839]"
@@ -15499,7 +15499,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x747932]"
@@ -15543,7 +15543,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0x039405]"
@@ -15587,7 +15587,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0xd28aec]"
@@ -15631,7 +15631,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x98d0e6]"
@@ -15676,7 +15676,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x999510]"
@@ -15720,7 +15720,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0xc16b8d]"
@@ -15765,7 +15765,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0x2098c0]"
@@ -15809,7 +15809,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x25e9e3]"
@@ -15854,7 +15854,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x6ed3c8]"
@@ -15898,7 +15898,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0xe8d891]"
@@ -15942,7 +15942,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0x807ddb]"
@@ -15986,7 +15986,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x4b5630]"
@@ -16030,7 +16030,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x504969]"
@@ -16074,7 +16074,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x2c5dc7]"
@@ -16119,7 +16119,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0x8383b9]"
@@ -16163,7 +16163,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x14f5dd]"
@@ -16208,7 +16208,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0xf890f1]"
@@ -16252,7 +16252,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x560792]"
@@ -16296,7 +16296,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0x2a246f]"
@@ -16340,7 +16340,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x1def62]"
@@ -16384,7 +16384,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0x0c9f94]"
@@ -16428,7 +16428,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0x9aca58]"
@@ -16472,7 +16472,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x8eadef]"
@@ -16516,7 +16516,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0xf780ad]"
@@ -16561,7 +16561,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x2373aa]"
@@ -16605,7 +16605,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x5b2833]"
@@ -16649,7 +16649,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0xa6cb81]"
@@ -16693,7 +16693,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0xd01f0d]"
@@ -16737,7 +16737,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0x2bb45f]"
@@ -16782,7 +16782,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0xb7fb2b]"
@@ -16826,7 +16826,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0x0050f3]"
@@ -16870,7 +16870,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0xf00eab]"
@@ -16914,7 +16914,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0x24a44a]"
@@ -16958,7 +16958,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x0ed73f]"
@@ -17002,7 +17002,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x720c93]"
@@ -17046,7 +17046,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0x2322f8]"
@@ -17090,7 +17090,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0xb3b60a]"
@@ -17134,7 +17134,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0xa35551]"
@@ -17179,7 +17179,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0xf629d7]"
@@ -17223,7 +17223,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x81352d]"
@@ -17267,7 +17267,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x5cddd9]"
@@ -17311,7 +17311,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0x3e6805]"
@@ -17356,7 +17356,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0xbf55d2]"
@@ -17400,7 +17400,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0xf2500d]"
@@ -17444,7 +17444,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "機関/ファンド(Nansen発)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Selini Capital [0x7ab80d]"
@@ -17489,7 +17489,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0x6788e1]"
@@ -17533,7 +17533,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0xbd1ea5]"
@@ -17577,7 +17577,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0x778649]"
@@ -17621,7 +17621,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0xbaa18c]"
@@ -17665,7 +17665,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0x24c2b6]"
@@ -17710,7 +17710,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x549e6d]"
@@ -17754,7 +17754,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0xbb8d8e]"
@@ -17798,7 +17798,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x2c0757]"
@@ -17843,7 +17843,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0xe4d934]"
@@ -17887,7 +17887,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0xb19007]"
@@ -17931,7 +17931,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0x28452e]"
@@ -17975,7 +17975,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x229066]"
@@ -18019,7 +18019,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0xc7e85b]"
@@ -18063,7 +18063,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0x0aac69]"
@@ -18107,7 +18107,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x89abe6]"
@@ -18151,7 +18151,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x7ee069]"
@@ -18195,7 +18195,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0x14246f]"
@@ -18239,7 +18239,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0x01b7e7]"
@@ -18283,7 +18283,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0xf2efcd]"
@@ -18327,7 +18327,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x077a25]"
@@ -18372,7 +18372,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0x961fdc]"
@@ -18416,7 +18416,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0xfdf1e7]"
@@ -18460,7 +18460,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x91d7ed]"
@@ -18504,7 +18504,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0xf5e7ff]"
@@ -18548,7 +18548,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "機関/ファンド(Nansen発)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "Funded @inv61575 On Friendtech [0x987163]"
@@ -18592,7 +18592,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x6559e0]"
@@ -18636,7 +18636,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0x6e9b20]"
@@ -18681,7 +18681,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0xe42921]"
@@ -18725,7 +18725,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x83dbc7]"
@@ -18769,7 +18769,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x8b04b4]"
@@ -18813,7 +18813,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x6abc11]"
@@ -18857,7 +18857,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0xdf783e]"
@@ -18901,7 +18901,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x757bb2]"
@@ -18945,7 +18945,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0xdcf8a8]"
@@ -18989,7 +18989,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0x81d416]"
@@ -19033,7 +19033,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0x203f4c]"
@@ -19077,7 +19077,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0xd13552]"
@@ -19121,7 +19121,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x951591]"
@@ -19165,7 +19165,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0x32ec85]"
@@ -19209,7 +19209,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0xd4dc36]"
@@ -19253,7 +19253,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0x18d103]"
@@ -19297,7 +19297,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0x61f2bb]"
@@ -19341,7 +19341,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x98785f]"
@@ -19385,7 +19385,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x7cc0b0]"
@@ -19429,7 +19429,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x3480d3]"
@@ -19473,7 +19473,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0x7cbe85]"
@@ -19517,7 +19517,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0x1750dd]"
@@ -19561,7 +19561,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x64f4e1]"
@@ -19605,7 +19605,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0xa30995]"
@@ -19649,7 +19649,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0x80bcb0]"
@@ -19693,7 +19693,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0x7f1e97]"
@@ -19737,7 +19737,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0xef91b2]"
@@ -19781,7 +19781,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0x61b6cf]"
@@ -19825,7 +19825,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0x814115]"
@@ -19869,7 +19869,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0xcdf68b]"
@@ -19913,7 +19913,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0x2b8cd2]"
@@ -19958,7 +19958,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x15f970]"
@@ -20002,7 +20002,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0xcc89d2]"
@@ -20046,7 +20046,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0x5b5335]"
@@ -20090,7 +20090,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0xe74447]"
@@ -20134,7 +20134,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x7c6b38]"
@@ -20178,7 +20178,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0xbb9775]"
@@ -20223,7 +20223,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0xb56a8e]"
@@ -20267,7 +20267,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x3c8684]"
@@ -20311,7 +20311,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0x8eb3f4]"
@@ -20355,7 +20355,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0x0131f0]"
@@ -20399,7 +20399,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0x13f210]"
@@ -20443,7 +20443,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0x28aeeb]"
@@ -20487,7 +20487,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0x68cd0d]"
@@ -20531,7 +20531,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x848aa0]"
@@ -20575,7 +20575,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x66f463]"
@@ -20619,7 +20619,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x02e4cc]"
@@ -20663,7 +20663,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x42ebc2]"
@@ -20707,7 +20707,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0xfde0ad]"
@@ -20751,7 +20751,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0xe6c7b3]"
@@ -20795,7 +20795,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0xfab351]"
@@ -20839,7 +20839,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0x0c6486]"
@@ -20883,7 +20883,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x093f2e]"
@@ -20928,7 +20928,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0x926fa6]"
@@ -20972,7 +20972,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0xe80e36]"
@@ -21016,7 +21016,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0xe8ebbc]"
@@ -21060,7 +21060,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0xc28e23]"
@@ -21105,7 +21105,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x2fb99c]"
@@ -21149,7 +21149,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x7bedd1]"
@@ -21193,7 +21193,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0x114dc2]"
@@ -21237,7 +21237,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0xa3fc7e]"
@@ -21281,7 +21281,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0xa92fb6]"
@@ -21325,7 +21325,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0x1e921e]"
@@ -21369,7 +21369,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0x1e0930]"
@@ -21413,7 +21413,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0xe1b215]"
@@ -21457,7 +21457,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0xb2152c]"
@@ -21501,7 +21501,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0xca73bb]"
@@ -21545,7 +21545,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0x814dc3]"
@@ -21589,7 +21589,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0x70875c]"
@@ -21633,7 +21633,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x8ff1d5]"
@@ -21677,7 +21677,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x3e1992]"
@@ -21721,7 +21721,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0x7cff6e]"
@@ -21765,7 +21765,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0xe93a3a]"
@@ -21809,7 +21809,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "機関/ファンド(Nansen発)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "Funded @kelvinlamky On Friendtech [0xd74916]"
@@ -21854,7 +21854,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0xae58db]"
@@ -21898,7 +21898,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0xf0df01]"
@@ -21942,7 +21942,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0xa9c3d4]"
@@ -21986,7 +21986,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0xe767b3]"
@@ -22030,7 +22030,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0x633324]"
@@ -22074,7 +22074,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "​​6529: Former Smart Trader [0xd9e391]"
@@ -22118,7 +22118,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0xdd539d]"
@@ -22162,7 +22162,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0xfd5e31]"
@@ -22206,7 +22206,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0xf25bc9]"
@@ -22250,7 +22250,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0x0a8f51]"
@@ -22294,7 +22294,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x55e999]"
@@ -22338,7 +22338,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0xd38316]"
@@ -22382,7 +22382,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0x984f6a]"
@@ -22426,7 +22426,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "機関/ファンド(Nansen発)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Selini Capital [0xdc5989]"
@@ -22470,7 +22470,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0x67f053]"
@@ -22514,7 +22514,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0xb3b602]"
@@ -22558,7 +22558,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "機関/ファンド(Nansen発)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Apollo Capital [0x43d271]"
@@ -22602,7 +22602,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0x6d15b9]"
@@ -22646,7 +22646,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x8bd30f]"
@@ -22690,7 +22690,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0x2c6e17]"
@@ -22734,7 +22734,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0x67870e]"
@@ -22778,7 +22778,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0x689f15]"
@@ -22822,7 +22822,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0xdfee2d]"
@@ -22866,7 +22866,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x1174c1]"
@@ -22910,7 +22910,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0xeb47e6]"
@@ -22954,7 +22954,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "​​Cobo: Former Smart Trader [0x35c60b]"
@@ -22998,7 +22998,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0xf94b34]"
@@ -23043,7 +23043,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x37c863]"
@@ -23087,7 +23087,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x3a8b43]"
@@ -23131,7 +23131,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0xa7e5ac]"
@@ -23175,7 +23175,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0x449c73]"
@@ -23219,7 +23219,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0x4221ae]"
@@ -23263,7 +23263,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0x670701]"
@@ -23307,7 +23307,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0x34c6d4]"
@@ -23351,7 +23351,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0xdc5289]"
@@ -23395,7 +23395,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x71f060]"
@@ -23439,7 +23439,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x221284]"
@@ -23483,7 +23483,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0xb4eac3]"
@@ -23527,7 +23527,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0x5d8265]"
@@ -23571,7 +23571,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x19f5c3]"
@@ -23615,7 +23615,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x02aa60]"
@@ -23660,7 +23660,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x0d8d5b]"
@@ -23704,7 +23704,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x0949d8]"
@@ -23748,7 +23748,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x3999df]"
@@ -23792,7 +23792,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0x36e6da]"
@@ -23837,7 +23837,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0x9d1792]"
@@ -23881,7 +23881,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x34995b]"
@@ -23925,7 +23925,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x0e6abb]"
@@ -23969,7 +23969,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0x7177ed]"
@@ -24014,7 +24014,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0x18b9be]"
@@ -24058,7 +24058,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x43266d]"
@@ -24102,7 +24102,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0x774f28]"
@@ -24146,7 +24146,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x4f94ce]"
@@ -24190,7 +24190,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0xd91f2d]"
@@ -24234,7 +24234,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0xeeaf40]"
@@ -24278,7 +24278,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x1829a3]"
@@ -24322,7 +24322,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0x37cdea]"
@@ -24366,7 +24366,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0xefe3e4]"
@@ -24410,7 +24410,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x33d68b]"
@@ -24454,7 +24454,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0x8b6f7f]"
@@ -24498,7 +24498,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0xf9d4f4]"
@@ -24542,7 +24542,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0xc9257e]"
@@ -24586,7 +24586,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0xc0c0bf]"
@@ -24630,7 +24630,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0xd72699]"
@@ -24674,7 +24674,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x957dc4]"
@@ -24718,7 +24718,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0xae68ba]"
@@ -24762,7 +24762,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x5c3f8f]"
@@ -24806,7 +24806,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x0421e0]"
@@ -24850,7 +24850,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0xd51b48]"
@@ -24894,7 +24894,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x13f689]"
@@ -24938,7 +24938,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x197d0b]"
@@ -24982,7 +24982,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0x749af6]"
@@ -25026,7 +25026,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0xc04451]"
@@ -25070,7 +25070,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x8505b6]"
@@ -25114,7 +25114,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "機関/ファンド(Nansen発)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "Funded @captainbey0nd On Friendtech [0x936aad]"
@@ -25158,7 +25158,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0x7dd6af]"
@@ -25202,7 +25202,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0x435ea5]"
@@ -25246,7 +25246,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x9ced04]"
@@ -25290,7 +25290,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0x1e5cf4]"
@@ -25334,7 +25334,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0xfb187e]"
@@ -25378,7 +25378,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x1847dc]"
@@ -25422,7 +25422,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x1fd216]"
@@ -25466,7 +25466,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x2ed2bd]"
@@ -25510,7 +25510,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0x7e5198]"
@@ -25554,7 +25554,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x3f9446]"
@@ -25599,7 +25599,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0x00e2a2]"
@@ -25643,7 +25643,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0x8dae4b]"
@@ -25688,7 +25688,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0x019d42]"
@@ -25732,7 +25732,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x081ec1]"
@@ -25776,7 +25776,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0xc16276]"
@@ -25820,7 +25820,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0x5c9051]"
@@ -25864,7 +25864,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0xe41aa4]"
@@ -25908,7 +25908,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x39c7d0]"
@@ -25952,7 +25952,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0x40ebad]"
@@ -25996,7 +25996,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x1fcfc4]"
@@ -26040,7 +26040,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0xefacc3]"
@@ -26084,7 +26084,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x84990a]"
@@ -26128,7 +26128,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0x5c90ce]"
@@ -26172,7 +26172,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "機関/ファンド(Nansen発)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "Funded @MikeRizz On Friendtech [0xb38c01]"
@@ -26216,7 +26216,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x57da9c]"
@@ -26260,7 +26260,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x6581c9]"
@@ -26304,7 +26304,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0xce50bd]"
@@ -26348,7 +26348,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x0e0e4a]"
@@ -26392,7 +26392,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x9db82c]"
@@ -26436,7 +26436,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0xd50557]"
@@ -26480,7 +26480,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0xb90598]"
@@ -26524,7 +26524,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x6e9989]"
@@ -26568,7 +26568,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "機関/ファンド(Nansen発)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "Funded @louis1118111 On Friendtech [0x021069]"
@@ -26612,7 +26612,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "機関/ファンド(Nansen発)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "Funded @jev13307 On Friendtech [0xf4bfb4]"
@@ -26657,7 +26657,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x9d0ea1]"
@@ -26701,7 +26701,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "機関/ファンド(Nansen発)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "Funded @2023Lions On Friendtech [0x7c3d04]"
@@ -26745,7 +26745,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x8bd097]"
@@ -26789,7 +26789,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0xd46979]"
@@ -26833,7 +26833,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0xe4227d]"
@@ -26877,7 +26877,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0xdc7be2]"
@@ -26921,7 +26921,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0xac4508]"
@@ -26966,7 +26966,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0x1e6db0]"
@@ -27010,7 +27010,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x55999a]"
@@ -27054,7 +27054,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "機関/ファンド(Nansen発)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Selini Capital [0x9ede7d]"
@@ -27098,7 +27098,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロ候補(Nansen発・未精査)",
+      "position": "Nansen候補(HL未検証)",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x402cf0]"

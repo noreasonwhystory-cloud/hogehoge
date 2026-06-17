@@ -179,17 +179,17 @@ def esc(x):
 # ポジション表示順と色
 POS_ORDER = ["インサイダー疑惑(要監視)", "弱い疑惑(監視継続)", "💸 出金疑い(要監視)",
              "要再検証(数値疑惑・未レビュー)", "プロトレーダー(本物)", "プロトレーダー(未精査)",
-             "プロ候補(Nansen発・未精査)", "機関/ファンド(Nansen発)",
              "高頻度プロ(手動追加)", "高頻度HFT/MM(手動追加)",
-             "プロ格付け過大(要再検証)", "偽陽性(数値疑惑→否定)", "除外/低優先"]
+             "プロ格付け過大(要再検証)", "Nansen候補(HL未検証)",
+             "偽陽性(数値疑惑→否定)", "除外/低優先"]
 POS_COLOR = {
     "インサイダー疑惑(要監視)": "#ff5d6c", "弱い疑惑(監視継続)": "#ffb454",
     "💸 出金疑い(要監視)": "#f59e0b",
     "要再検証(数値疑惑・未レビュー)": "#e0c14a",
     "プロトレーダー(本物)": "#3fb950", "プロトレーダー(未精査)": "#4ea1ff",
-    "プロ候補(Nansen発・未精査)": "#56b6c2", "機関/ファンド(Nansen発)": "#a0e0a0",
     "高頻度プロ(手動追加)": "#2dd4bf", "高頻度HFT/MM(手動追加)": "#8b949e",
-    "プロ格付け過大(要再検証)": "#c77dff", "偽陽性(数値疑惑→否定)": "#7a8390", "除外/低優先": "#5c636d",
+    "プロ格付け過大(要再検証)": "#c77dff", "Nansen候補(HL未検証)": "#8b949e",
+    "偽陽性(数値疑惑→否定)": "#7a8390", "除外/低優先": "#5c636d",
 }
 HL_ADDR = "https://app.hyperliquid.xyz/explorer/address/{a}"
 NANSEN = "https://app.nansen.ai/profiler?address={a}"
@@ -384,18 +384,22 @@ document.getElementById('clearf').addEventListener('click',()=>{{
         f.write(html_doc)
 
 
-# プロ系ポジション（専用ページへ分離）
+# プロ系ポジション（行動で検証した層・専用ページ）
 PRO_POSITIONS = {"プロトレーダー(本物)", "プロトレーダー(未精査)",
-                 "プロ格付け過大(要再検証)", "高頻度HFT/MM(手動追加)",
-                 "プロ候補(Nansen発・未精査)", "機関/ファンド(Nansen発)"}
+                 "プロ格付け過大(要再検証)", "高頻度HFT/MM(手動追加)"}
+# Nansenラベルで仮置きしただけの未検証候補（行動未分析）。ラベルでは分類しない方針ゆえ中立枠。
+CANDIDATE_POSITIONS = {"Nansen候補(HL未検証)"}
 
 
 def render_all(reg):
-    """メイン台帳（インサイダー/疑惑中心）と プロ専用ページ を両方生成。"""
+    """3ページ生成: メイン台帳(インサイダー/疑惑) / プロ(行動検証済) / Nansen未検証候補。"""
     render_html(reg, out="registry.html",
-                title="perp ウォレット監視台帳（インサイダー/疑惑 中心）", drop=PRO_POSITIONS)
+                title="perp ウォレット監視台帳（インサイダー/疑惑 中心）",
+                drop=PRO_POSITIONS | CANDIDATE_POSITIONS)
     render_html(reg, out="pros.html",
-                title="プロ／プロかも 一覧（実力で勝つ層・Vault運用者）", only=PRO_POSITIONS)
+                title="プロ一覧（HL行動で検証した実力層・Vault運用者）", only=PRO_POSITIONS)
+    render_html(reg, out="candidates.html",
+                title="Nansen候補（ラベルのみ・HL行動 未検証）", only=CANDIDATE_POSITIONS)
 
 
 if __name__ == "__main__":

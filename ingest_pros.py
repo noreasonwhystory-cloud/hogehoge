@@ -21,13 +21,13 @@ PROTO = ["Liquidator", "HLP", "Collateral", "Deployer", "Bridge", "Spoke",
 
 
 def kind(label):
+    """Nansenラベルでの分類は『判定』でなく仮置き。行動未検証ゆえ中立枠に入れる
+    （ラベルで pro/insider を断定しない方針）。機関/SmartMoney は tag で区別。"""
     s = label or ""
     if any(k in s for k in PROTO):
         return None                       # プロトコルは取り込まない
-    if any(k in s for k in INST):
-        return "機関/ファンド(Nansen発)"
-    if "Smart" in s:
-        return "プロ候補(Nansen発・未精査)"
+    if any(k in s for k in INST) or "Smart" in s:
+        return "Nansen候補(HL未検証)"      # 中立枠（HL行動で後から判定）
     return None                           # 個人候補はここでは対象外
 
 
