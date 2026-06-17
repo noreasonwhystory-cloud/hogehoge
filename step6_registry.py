@@ -418,14 +418,13 @@ EXCLUDED_POSITIONS = {"除外/低優先", "偽陽性(数値疑惑→否定)"}
 
 
 def render_all(reg):
-    """4ページ生成: メイン台帳(インサイダー/疑惑) / プロ / Nansen未検証候補 / 除外・低優先。"""
+    """3ページ生成: メイン台帳(インサイダー/疑惑) / プロ / 除外・低優先。
+    （Nansen候補は全件HL検証で振り分け済み＝枠消滅。万一再発生しても疑惑ページは汚さぬよう drop に残す）"""
     render_html(reg, out="registry.html",
                 title="🔴 インサイダー疑惑（要監視）",
                 drop=PRO_POSITIONS | CANDIDATE_POSITIONS | EXCLUDED_POSITIONS)
     render_html(reg, out="pros.html",
                 title="プロ一覧（HL行動で検証した実力層・Vault運用者）", only=PRO_POSITIONS)
-    render_html(reg, out="candidates.html",
-                title="Nansen候補（ラベルのみ・HL行動 未検証）", only=CANDIDATE_POSITIONS)
     render_html(reg, out="excluded.html",
                 title="除外・低優先（MM/ノイズ/履歴なし/偽陽性）", only=EXCLUDED_POSITIONS)
 
