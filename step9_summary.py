@@ -94,6 +94,12 @@ def main():
         return sum(1 for e in g if fund_type(e) == "CEX(取引所)"), len(g)
     ins_cex, ins_n = cex_count(["インサイダー疑惑(要監視)", "弱い疑惑(監視継続)"])
     co_cex, co_n = cex_count(["💸 出金疑い(要監視)"])
+    # 動的な標本数（プロセス文中のハードコード防止）
+    n_ins = poscnt.get("インサイダー疑惑(要監視)", 0)
+    n_weak = poscnt.get("弱い疑惑(監視継続)", 0)
+    n_pro = poscnt.get("プロトレーダー(本物)", 0)
+    n_cashout = poscnt.get("💸 出金疑い(要監視)", 0)
+    n_clusterA = sum(1 for e in reg.values() if "cluster-A" in (e.get("tags") or []))
     # SmartMoney 該当数（監視全体）
     sm = sum(1 for e in reg.values() if e.get("position") in WATCH and lab_type(e) == "SmartMoney")
     # 匿名率
@@ -125,11 +131,22 @@ ul{{margin:6px 0;padding-left:20px}} li{{margin-bottom:5px}}
 
 <h2>1. ここまでの到達点</h2>
 <div class="box">
-HL公開API（無料・約定粒度）で発掘 → 多角分析（5レンズ workflow）で精査 → Nansen Pro で正体・資金源を付与、という3段で
+HL公開API（無料・約定粒度）で発掘 → 多角分析（workflowレッドチーム反証）で精査 → Nansen Pro で正体・資金源を付与、という3段で
 <b>{total}件の永続台帳</b>を構築。要監視 {watch_total} 件は正体・資金源・出金先・判定根拠まで記載済み。
-確証ある協調相関は「クラスタA」1つ。
 </div>
 <table style="max-width:360px"><tr><th>カテゴリ</th><th>件数</th></tr>{cnt_rows}</table>
+
+<div class="box no" style="margin-top:12px">
+<b class="big">核心の所見：明確な「個人インサイダー」は検出できなかった。</b><br>
+「急変の前に大口で建てた（先行）」と出たウォレットを<a href="methodology.html">往復・反復</a>で精査すると、
+<b class="r">ことごとく N=1（1つの注文を分割約定しただけの一発）</b>に化けた。別々の急変イベントで反復して当てる本物の挙動（strictで反復≥3級）は<b>ゼロ</b>。
+よって現在 🔴インサイダー疑惑は <b>{n_ins}件</b>（workflowが likely 判定した1件）に絞られ、先行が一発止まりの層は <b>🟠弱い疑惑 {n_weak}件</b> に留め置いている。
+</div>
+<div class="box warn">
+<b>唯一の協調候補だった「クラスタA」（{n_clusterA}ウォレット）も降格。</b>
+共有資金元が <b>Monad の公開エアドロップ配布（約1万アドレスへ誰でも受領可）</b>と判明し、<b class="r">私的な協調の確証は否定</b>された。
+メンバーは🟠弱い疑惑／除外へ移した。
+</div>
 
 <h2>2. 相関①：資金の出どころ ＝ <b class="g">相関あり</b></h2>
 {fund_tbl}
@@ -163,8 +180,9 @@ HL公開API（無料・約定粒度）で発掘 → 多角分析（5レンズ wo
 
 <h2>5. 限界（正直に）</h2>
 <div class="box warn">
-インサイダー疑惑 n=2・弱い疑惑 n=2・プロ本物 n=4 と<b>サンプルが小さく、統計的相関とは言えない（傾向の域）</b>。
-確度ある相関と呼べるのは出金疑い20件のCEX入金パターンくらい。母数（CANDIDATE_LIMIT）を増やせば相関の有無をより確かめられる。
+インサイダー疑惑 n={n_ins}・弱い疑惑 n={n_weak}・プロ本物 n={n_pro} と<b>疑惑側のサンプルが小さく、統計的相関とは言えない（傾向の域）</b>。
+確度ある相関と呼べるのは出金疑い {n_cashout} 件のCEX入金パターンくらい。母数（CANDIDATE_LIMIT）を増やせば相関の有無をより確かめられる。
+なお「先行」検出が一発(N=1)に化ける問題は<a href="methodology.html">往復・反復</a>で対処したが、<b>反復を満たす個人は今のところ未検出</b>。
 </div>
 </body></html>"""
 

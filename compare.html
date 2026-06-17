@@ -57,8 +57,8 @@ table.guide td.g3{color:#ffc06b;font-weight:700;white-space:nowrap}
 
 <h2>🔓 Pro で解禁されたこと（実証済み）</h2>
 <div class="callout">
-  ① <b>premium正体ラベル</b>＝生の0xに実体名が付く（下が台帳で実際に取れた例）:<br><span class='tag'>&quot;kazuya-eth&quot; on OpenSea</span><span class='tag'>kazuya.eth*</span><span class='tag'>terry.eth</span><span class='tag'>2rabbits.eth</span><span class='tag'>&quot;homerfan33&quot; on OpenSea</span><span class='tag'>coolwaterxyz-hf.eth*</span><span class='tag'>homerfan33.eth</span><span class='tag'>squigglesherpa.eth</span><span class='tag'>stimmyfund.eth</span><span class='tag'>0x3x6.eth*</span><span class='tag'>gritsa.eth*</span><span class='tag'>shahna.eth*</span><span class='tag'>&quot;kekvault2&quot; on OpenSea</span><span class='tag'>&quot;M1NER&quot; on OpenSea</span><br><br>
-  ② <b>クレジット1/10＋2000付与</b> → 監視34件を一括エンリッチできた（free時は22件で枯渇）。<br>
+  ① <b>premium正体ラベル</b>＝生の0xに実体名が付く（下が台帳で実際に取れた例）:<br><span class='tag'>Funded @yackcap On Friendtech [0x83b009]</span><span class='tag'>&quot;kazuya-eth&quot; on OpenSea</span><span class='tag'>kazuya.eth*</span><span class='tag'>terry.eth</span><span class='tag'>2rabbits.eth</span><span class='tag'>&quot;homerfan33&quot; on OpenSea</span><span class='tag'>coolwaterxyz-hf.eth*</span><span class='tag'>homerfan33.eth</span><span class='tag'>squigglesherpa.eth</span><span class='tag'>stimmyfund.eth</span><span class='tag'>0x3x6.eth*</span><span class='tag'>gritsa.eth*</span><span class='tag'>shahna.eth*</span><span class='tag'>&quot;kekvault2&quot; on OpenSea</span><br><br>
+  ② <b>Nansen照会で 466 件をエンリッチ</b>済み（うち資金源 First Funder を 110 件で特定）。<br>
   ③ <b>資金源の再帰トレース</b> → 入金元をもう一段遡り、CEX(取引所)に到達するか判定。<br>
   ④ <b>レート 20req/秒・500req/分</b> で再実行が速い。
 </div>
@@ -72,7 +72,7 @@ table.guide td.g3{color:#ffc06b;font-weight:700;white-space:nowrap}
 <h2>判定基準 — 何で見分けるか（ここが肝）</h2>
 <table class="guide">
 <tr><th>種別</th><th>決め手（他と何が違う）</th><th>見ている主なデータ</th></tr>
-<tr><td class="g1">🔴 インサイダー疑惑</td><td><b>タイミングが良すぎる。</b>急変イベントの<u>直前</u>に大口を先行／仲間と協調。勝率の高さでなく『<u>動く前に</u>正しく賭けた』点が核。＝先に知っていた疑い。</td><td>イベント先行度・先行エントリ事例・協調クラスタ・多角分析の濃度</td></tr>
+<tr><td class="g1">🔴 インサイダー疑惑</td><td><b>タイミングが良すぎる＋それを<u>反復</u>する。</b>急変イベントの直前に大口を先行し、<u>別々のイベントで往復(建て→急変→利確)を繰り返す</u>のが核。<b>1回だけの先行(N=1)は偶然と区別できず<a href="registry.html">🟠弱い疑惑</a>止まり</b>。勝率の高さは見ない。</td><td>イベント先行度・<a href="methodology.html">往復/反復</a>回数・先行エントリ事例・多角分析の濃度</td></tr>
 <tr><td class="g2">🟢 プロトレーダー</td><td><b>場数と規律。</b>多数の取引で勝率を<u>安定維持</u>＋トレンド非依存（逆張り/両方向でも勝つ）。イベント直前の先行は<u>無い</u>。＝知っていたのでなく上手い。</td><td>クローズ回数・勝率の継続性・方向的中率がベタ超えか・規律</td></tr>
 <tr><td class="g3">💸 出金疑い</td><td><b>稼いで即引き上げ。</b>通算利益÷現在残高が大（10倍超）。残高が小さくても過去に大きく抜いた hit-and-run。</td><td>allTime PnL ÷ 現在残高・直近取引の少なさ</td></tr>
 </table>
@@ -103,14 +103,44 @@ table.guide td.g3{color:#ffc06b;font-weight:700;white-space:nowrap}
       <div class="block"><b>🔓 お金の出どころ（First Funder）</b><br>🏦 Kromatika: Deployer [0xb4b8b6]</div>
       <div class="block trace"><b>🔓 もう一段たどると</b><br>お金の出どころは Kromatika というプログラム(コントラクト)経由で、人の財布までは遡れなかった（足を消している）。</div>
       <div class="block"><b>🔓 取引相手（出金先・OTC候補）</b><ul><li>🤖 Circle: CCTP TokenMinterV2 [0xfd78ee] <span class='mut'>$2,578</span></li><li>Relay Protocol: EOA Bridge [0xf70da9] <span class='mut'>$2,578</span></li></ul></div>
-      <div class="block"><b>🔓 協調クラスタ</b> あり（協調クラスタA）</div>
+      <div class="block"><b>🔓 協調クラスタ</b> クラスタA（※共有資金元=公開エアドロップと判明し協調は否定）</div>
     </div>
   </div>
-  <div class='why'><div class='wt'>🔑 なぜこの判定か</div><ul><li><b>② 協調</b>: 同じ資金元から同時に動く仲間（クラスタA）と同方向に先行 → 単独の偶然ではない。</li><li><b>判定の核</b>: 勝率の高さ<u>そのもの</u>ではなく、<u>『動く前に』正しい方向へ賭けている</u>点。＝情報を先に持っていた疑い。</li></ul><div class='wv'>👉 だから『プロの実力』では説明しきれず、インサイダー疑惑。</div><div class='rj'>多角分析の所見: 4レンズ全てが指摘。協調(同Monad funder・6/3 BTCショート$2.95M先行・10b6f0と7分差)と event-timing(全体最大lead2.95M)が核。trendはrider扱いだがcandle検証で本格下落前の集中大口建玉という残差をred-teamも消しきれず(survives0.45)。541クローズの体系的デスクで偶然性は低い。score根拠が的中率→協調+先行へ質的に変わり、疑惑の中身が格上げ。</div></div>
-  <div class="note"><b>まとめ:</b> 【ひとことで】🔴 インサイダー（内部情報で先回り）が一番疑わしいウォレット。 / 【正体】名前は分からない（匿名）。 / 【お金はどこから？】プログラム(コントラクト)経由 → 人の財布までは見えない / 【もう一段たどると】お金の出どころは Kromatika というプログラム(コントラクト)経由で、人の財布までは遡れなかった（足を消している）。 / 【よく取引する相手】🤖 Circle: CCTP TokenMinterV2 [0xfd78ee]、Relay Protocol: EOA Bridge [0xf70da9] / 【グループ】同じ資金元から同時に動いた『協調クラスタA』の一員。 / 【詳しい判定】格上げ(質的転換): 協調クラスタAの中核・先行性最有力。ただしトレンド入りでも一部説明可で確信は中</div>
+  <div class='why'><div class='wt'>🔑 なぜこの判定か</div><ul><li><b>② 協調(検証で否定)</b>: 共有資金元（クラスタA）は<u>Monadの公開エアドロップ配布</u>＝誰でも受領可と判明。私的な協調の証拠にはならず、これは<b>降格(弱疑惑)要因</b>。</li><li><b>判定の核</b>: 勝率の高さでなく<u>『動く前に』正しく賭けることを<a href='methodology.html'>反復</a>している</u>か。1回だけ(N=1)なら偶然と区別できず弱疑惑止まり。</li></ul><div class='wv'>👉 反復が確認できれば『プロの実力』では説明しきれずインサイダー疑惑。一発止まりなら弱疑惑。</div><div class='rj'>多角分析の所見: 4レンズ全てが指摘。協調(同Monad funder・6/3 BTCショート$2.95M先行・10b6f0と7分差)と event-timing(全体最大lead2.95M)が核。trendはrider扱いだがcandle検証で本格下落前の集中大口建玉という残差をred-teamも消しきれず(survives0.45)。541クローズの体系的デスクで偶然性は低い。score根拠が的中率→協調+先行へ質的に変わり、疑惑の中身が格上げ。</div></div>
+  <div class="note"><b>まとめ:</b> 【workflowレッドチーム検証】weak-suspect（確度0.3） / 【支持根拠】cluster-A所属の裏付けとなるMonad資金チェーンが実在: First Funder連鎖が 🤖 Distributor [0xdf7479](monad, 2025-11-24)→その親 [0xa9346f](monad)へ遡れ、cluster-A定義(同一Monad資金元の協調網)と整合する唯一の崩せない残余 / 【反証(無害説明)】「インサイダー」の核心指標がほぼ全て無害に説明できる: (1)dir_accuracy/win_rate=1.0なのにrealized_pnlはわずか$114k/879日(=約$130/日)。完全先読みなら桁違いに稼げるはずで、1.0は微小ポジ/小N/下落相場のショート偏重(context明記の水増し)による計測アーティファクト。(2)lead_examplesが空=具体的な「動く前の建玉」が1件も検証できず、$2.95Mはaggreg</div>
 </div>
 <div class="case">
-  <div class="ctitle" style="--c:#f59e0b">💸 出金疑い <code>0xb123cd952875d8014efc7a9160a7531a5fe8f5ca</code>
+  <div class="ctitle" style="--c:#f59e0b">💸 出金疑い <code>0xce43a7498e65b6f6c8741fd9a7efc3f78efc78c4</code>
+    <span class="lnk"><a href="https://app.hyperliquid.xyz/explorer/address/0xce43a7498e65b6f6c8741fd9a7efc3f78efc78c4" target="_blank">HL</a> · <a href="https://app.nansen.ai/profiler?address=0xce43a7498e65b6f6c8741fd9a7efc3f78efc78c4" target="_blank">Nansen</a></span></div>
+  <div class="vs">
+    <div class="pane hl">
+      <h4>① Hyperliquid だけ <span class="mut">＝行動しか見えない</span></h4>
+      <div class="kv">
+        <span>アドレス</span><b><code>0xce43a7498e65b6f6c8…</code></b>
+        <span>勝率 / 方向的中率</span><b>0.0% / 0.0%</b>
+        <span>majors損益</span><b>$-128</b>
+        <span>ROI(全期)</span><b>299.3%</b>
+        <span>取引数(14日)</span><b>2</b>
+        <span>現在残高</span><b>$15,510</b>
+      </div>
+      <div class="held"><b>現在の建玉</b><ul><li>ETH short $5,129（含み $-128）</li></ul></div>
+      <div class="unknown">ここから先は <b>HL では永遠に不明</b>:
+        <ul><li>このアドレスは誰か → ❓</li><li>お金の出どころ → ❓</li><li>入金元が取引所か → ❓</li><li>別ウォレットとの繋がり → ❓</li></ul></div>
+    </div>
+    <div class="pane ns">
+      <h4>② ＋ Nansen Pro <span class="mut">＝正体・お金の流れが乗る</span></h4>
+      <div class="block"><b>🔓 正体（premiumラベル）</b><br>caledor.eth*、carolineplz.eth*、drachenfels.eth*、saintmarcus.eth*</div>
+      <div class="block"><b>🔓 お金の出どころ（First Funder）</b><br>[0xdf54a7], [0x35c5dd], ​​🤖 Symmio: Smart Account [0x627324]</div>
+      
+      <div class="block"><b>🔓 取引相手（出金先・OTC候補）</b><ul><li>Relay Protocol: EOA Bridge [0xf70da9] <span class='mut'>$16,494</span></li><li>🤖 Relay Protocol: Depository [0x4cd00e] <span class='mut'>$15,994</span></li><li>HL Perps Swing Trader [0x488bd1] <span class='mut'>$14,625</span></li><li>🤖 Hyperliquid: Bridge 2 [0x2df1c5] <span class='mut'>$14,243</span></li><li>🤖 Circle: USDC Bridge [0xa95d9c] <span class='mut'>$10,000</span></li></ul></div>
+      <div class="block"><b>🔓 協調クラスタ</b> —</div>
+    </div>
+  </div>
+  <div class='why'><div class='wt'>🔑 なぜこの判定か</div><ul><li><b>① 稼いで引き上げ</b>: 通算 $361,867 稼いだのに現在残高は $15,510（比 23倍） → 利益をほぼ外へ出した。</li><li><b>② 痕跡が薄い</b>: 直近の取引も少なく、稼いだら去る hit-and-run の形。</li><li><b>判定の核</b>: <u>『現在の口座規模』でなく『過去にいくら抜いたか』</u>で評価。残高が小さくても大物。</li></ul><div class='wv'>👉 だから現役の成績では測れず、出金疑い（要追跡）。</div></div>
+  <div class="note"><b>まとめ:</b> 【ひとことで】💰出金＋alt中心でBTC/ETH/SOLでは稼ぎ方を検証できない / 【HL実測】実現益不明・的中None・急変先行$0・majors0約定 / 【取引期間】?〜?</div>
+</div>
+<div class="case">
+  <div class="ctitle" style="--c:#3fb950">🟢 プロトレーダー <code>0xb123cd952875d8014efc7a9160a7531a5fe8f5ca</code>
     <span class="lnk"><a href="https://app.hyperliquid.xyz/explorer/address/0xb123cd952875d8014efc7a9160a7531a5fe8f5ca" target="_blank">HL</a> · <a href="https://app.nansen.ai/profiler?address=0xb123cd952875d8014efc7a9160a7531a5fe8f5ca" target="_blank">Nansen</a></span></div>
   <div class="vs">
     <div class="pane hl">
@@ -136,38 +166,8 @@ table.guide td.g3{color:#ffc06b;font-weight:700;white-space:nowrap}
       <div class="block"><b>🔓 協調クラスタ</b> —</div>
     </div>
   </div>
-  <div class='why'><div class='wt'>🔑 なぜこの判定か</div><ul><li><b>① 稼いで引き上げ</b>: 通算 $359,978 稼いだのに現在残高は $20,000（比 18倍） → 利益をほぼ外へ出した。</li><li><b>② 痕跡が薄い</b>: 直近の取引も少なく、稼いだら去る hit-and-run の形。</li><li><b>判定の核</b>: <u>『現在の口座規模』でなく『過去にいくら抜いたか』</u>で評価。残高が小さくても大物。</li></ul><div class='wv'>👉 だから現役の成績では測れず、出金疑い（要追跡）。</div></div>
-  <div class="note"><b>まとめ:</b> 【ひとことで】💰 大きく稼いで、お金をほぼ全部 外に引き出したっぽいウォレット。 / 【正体】&quot;M1NER&quot; on OpenSea、miner35.eth、miner35.eth*（Nansenが付けた名前/ラベル） / 【お金はどこから？】別チェーンからの『橋(ブリッジ)』経由 → 足を消しており追いにくい / 【よく取引する相手】[0x0d47a1]、Burn Address [0x000000]、🤖 UniversalRouter [0x8b844f] / 【出金の話】今までに合計 $359,978 稼いだのに、今の残高は $20,000 しかない（=稼ぎをほぼ外に出した。比 18倍）。</div>
-</div>
-<div class="case">
-  <div class="ctitle" style="--c:#3fb950">🟢 プロトレーダー <code>0x8463d6ffcbfb56bf20ab2e1111f9a0e8359533f2</code>
-    <span class="lnk"><a href="https://app.hyperliquid.xyz/explorer/address/0x8463d6ffcbfb56bf20ab2e1111f9a0e8359533f2" target="_blank">HL</a> · <a href="https://app.nansen.ai/profiler?address=0x8463d6ffcbfb56bf20ab2e1111f9a0e8359533f2" target="_blank">Nansen</a></span></div>
-  <div class="vs">
-    <div class="pane hl">
-      <h4>① Hyperliquid だけ <span class="mut">＝行動しか見えない</span></h4>
-      <div class="kv">
-        <span>アドレス</span><b><code>0x8463d6ffcbfb56bf20…</code></b>
-        <span>勝率 / 方向的中率</span><b>81.8% / 57.3%</b>
-        <span>majors損益</span><b>$258,596</b>
-        <span>ROI(全期)</span><b>3,776.7%</b>
-        <span>取引数(14日)</span><b>547</b>
-        <span>現在残高</span><b>—</b>
-      </div>
-      <div class="held"><b>現在の建玉</b><ul><li class='mut'>フラット</li></ul></div>
-      <div class="unknown">ここから先は <b>HL では永遠に不明</b>:
-        <ul><li>このアドレスは誰か → ❓</li><li>お金の出どころ → ❓</li><li>入金元が取引所か → ❓</li><li>別ウォレットとの繋がり → ❓</li></ul></div>
-    </div>
-    <div class="pane ns">
-      <h4>② ＋ Nansen Pro <span class="mut">＝正体・お金の流れが乗る</span></h4>
-      <div class="block"><b>🔓 正体（premiumラベル）</b><br>&quot;homerfan33&quot; on OpenSea、High Activity、coolwaterxyz-hf.eth*、homerfan33.eth、squigglesherpa.eth、stimmyfund.eth</div>
-      <div class="block"><b>🔓 お金の出どころ（First Funder）</b><br>[0x9574d6]</div>
-      
-      <div class="block"><b>🔓 取引相手（出金先・OTC候補）</b><ul><li>🤖 Hyperliquid: Bridge 2 [0x2df1c5] <span class='mut'>$49,988</span></li><li>🏦 Kraken: Deposit [0xbe5afd] <span class='mut'>$29,993</span></li><li>​​🤖 USDC Bridge [0xc6868e] <span class='mut'>$19,994</span></li><li>[0xd2edcc] <span class='mut'>$2</span></li></ul></div>
-      <div class="block"><b>🔓 協調クラスタ</b> —</div>
-    </div>
-  </div>
-  <div class='why'><div class='wt'>🔑 なぜこの判定か</div><ul><li><b>② トレンド非依存</b>: 方向的中率57.3%は下落相場のベタ(~85%)に頼らず、逆張りや両方向でも勝つ → 相場頼みでない実力。</li><li><b>③ イベント先行なし</b>: 急変直前の先行建玉は検出されず＝『先に知っていた』証拠はない。</li><li><b>判定の核</b>: <u>多数の取引×規律</u>で勝っている。タイミングの良さでなく腕。</li></ul><div class='wv'>👉 だから情報優位（インサイダー）ではなく、純粋に上手いプロ。</div><div class='rj'>多角分析の所見: dir=0.57は下落ベータ(~0.85)未満なのに勝率0.82・258クローズで黒字、下落相場で逆張りBTCロング含み益+67k。trendがgenuine-edge(0.78)、riskがdisciplined-pro(2.43倍控えめレバ・通算PnL587万$)。方向当てでなく執行/サイジング/規律の優位で、2レンズが一致してベータ便乗を否定。pro_trader維持だが質はトップ。</div></div>
-  <div class="note"><b>まとめ:</b> 【ひとことで】🟢 ちゃんと実力で勝っている本物のプロ。 / 【正体】&quot;homerfan33&quot; on OpenSea、High Activity、coolwaterxyz-hf.eth*、homerfan33.eth、squigglesherpa.eth、stimmyfund.eth（Nansenが付けた名前/ラベル） / 【お金はどこから？】別の財布（[0x9574d6]）から / 【よく取引する相手】🤖 Hyperliquid: Bridge 2 [0x2df1c5]、🏦 Kraken: Deposit [0xbe5afd]、​​🤖 USDC Bridge [0xc6868e] / 【詳しい判定】格上げ: トレンド非依存の規律型本物。最優良候補</div>
+  <div class='why'><div class='wt'>🔑 なぜこの判定か</div><ul><li><b>① 場数</b>: 1回ものクローズで勝率100.0%を<u>安定して</u>維持 → 一発の幸運でない。</li><li><b>② トレンド非依存</b>: 方向的中率100.0%は下落相場のベタ(~85%)に頼らず、逆張りや両方向でも勝つ → 相場頼みでない実力。</li><li><b>③ イベント先行なし</b>: 急変直前の先行建玉は検出されず＝『先に知っていた』証拠はない。</li><li><b>判定の核</b>: <u>多数の取引×規律</u>で勝っている。タイミングの良さでなく腕。</li></ul><div class='wv'>👉 だから情報優位（インサイダー）ではなく、純粋に上手いプロ。</div></div>
+  <div class="note"><b>まとめ:</b> 【ひとことで】💰🟢稼いで引き上げたが、多数取引で安定・先行なし＝実力プロが出金しただけ / 【HL実測】実現益$-5,568・的中0.0567・急変先行$0・majors782約定 / 【取引期間】2023-11-26〜2026-06-14</div>
 </div>
 
 <div class="sub" style="margin-top:20px">結論: <b style="color:var(--hl)">HL</b> が「不自然に勝っている行動」を炙り出し、<b style="color:var(--ns)">Nansen Pro</b> が「それが誰で・どこの金で・どこへ消えたか」を与える。両者が揃って初めてインサイダー疑惑が立ち上がる。CEXに当たれば身元は取引所が握り、ブリッジ/コントラクト経由なら意図的な隠蔽——という読み分けも Pro のラベルで可能になった。</div>

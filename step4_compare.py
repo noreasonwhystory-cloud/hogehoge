@@ -142,9 +142,11 @@ def why_block(e, ranked):
                      f"{esc(ex.get('coin'))} を {usd(ex.get('notional_usd'))} 先行建玉）") if ex else ""
             pts.append(f"<b>① 急変イベントの直前に大口を先行</b>{extra} → タイミングが良すぎ、偶然では説明しにくい。")
         if cluster:
-            pts.append("<b>② 協調</b>: 同じ資金元から同時に動く仲間（クラスタA）と同方向に先行 → 単独の偶然ではない。")
-        pts.append("<b>判定の核</b>: 勝率の高さ<u>そのもの</u>ではなく、<u>『動く前に』正しい方向へ賭けている</u>点。＝情報を先に持っていた疑い。")
-        verdict = "👉 だから『プロの実力』では説明しきれず、インサイダー疑惑。"
+            pts.append("<b>② 協調(検証で否定)</b>: 共有資金元（クラスタA）は<u>Monadの公開エアドロップ配布</u>＝誰でも受領可と判明。"
+                       "私的な協調の証拠にはならず、これは<b>降格(弱疑惑)要因</b>。")
+        pts.append("<b>判定の核</b>: 勝率の高さでなく<u>『動く前に』正しく賭けることを<a href='methodology.html'>反復</a>している</u>か。"
+                   "1回だけ(N=1)なら偶然と区別できず弱疑惑止まり。")
+        verdict = "👉 反復が確認できれば『プロの実力』では説明しきれずインサイダー疑惑。一発止まりなら弱疑惑。"
     elif pos in ("プロトレーダー(本物)", "プロトレーダー(未精査)"):
         if nclos:
             pts.append(f"<b>① 場数</b>: {nclos}回ものクローズで勝率{pct(win)}を<u>安定して</u>維持 → 一発の幸運でない。")
@@ -174,7 +176,8 @@ def render_case(e, ranked, title, color):
     held = "".join(
         f"<li>{esc(h.get('coin'))} {esc(h.get('side'))} {usd(h.get('position_value'))}（含み {usd(h.get('unrealized_pnl'))}）</li>"
         for h in s["held"][:6]) or "<li class='mut'>フラット</li>"
-    cluster = "あり（協調クラスタA）" if "cluster-A" in (e.get("tags") or []) else "—"
+    cluster = ("クラスタA（※共有資金元=公開エアドロップと判明し協調は否定）"
+               if "cluster-A" in (e.get("tags") or []) else "—")
 
     return f"""
 <div class="case">
@@ -241,6 +244,8 @@ def main():
                 real_labels.append(str(l))
     real_labels = real_labels[:14]
     labels_html = "".join(f"<span class='tag'>{esc(l)}</span>" for l in real_labels)
+    n_enriched = sum(1 for e in reg.values() if e.get("nansen_checked"))
+    n_funded = sum(1 for e in reg.values() if e.get("first_funders"))
 
     out = f"""<!doctype html><html lang="ja"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -302,7 +307,7 @@ table.guide td.g3{{color:#ffc06b;font-weight:700;white-space:nowrap}}
 <h2>🔓 Pro で解禁されたこと（実証済み）</h2>
 <div class="callout">
   ① <b>premium正体ラベル</b>＝生の0xに実体名が付く（下が台帳で実際に取れた例）:<br>{labels_html}<br><br>
-  ② <b>クレジット1/10＋2000付与</b> → 監視34件を一括エンリッチできた（free時は22件で枯渇）。<br>
+  ② <b>Nansen照会で {n_enriched} 件をエンリッチ</b>済み（うち資金源 First Funder を {n_funded} 件で特定）。<br>
   ③ <b>資金源の再帰トレース</b> → 入金元をもう一段遡り、CEX(取引所)に到達するか判定。<br>
   ④ <b>レート 20req/秒・500req/分</b> で再実行が速い。
 </div>
@@ -316,7 +321,7 @@ table.guide td.g3{{color:#ffc06b;font-weight:700;white-space:nowrap}}
 <h2>判定基準 — 何で見分けるか（ここが肝）</h2>
 <table class="guide">
 <tr><th>種別</th><th>決め手（他と何が違う）</th><th>見ている主なデータ</th></tr>
-<tr><td class="g1">🔴 インサイダー疑惑</td><td><b>タイミングが良すぎる。</b>急変イベントの<u>直前</u>に大口を先行／仲間と協調。勝率の高さでなく『<u>動く前に</u>正しく賭けた』点が核。＝先に知っていた疑い。</td><td>イベント先行度・先行エントリ事例・協調クラスタ・多角分析の濃度</td></tr>
+<tr><td class="g1">🔴 インサイダー疑惑</td><td><b>タイミングが良すぎる＋それを<u>反復</u>する。</b>急変イベントの直前に大口を先行し、<u>別々のイベントで往復(建て→急変→利確)を繰り返す</u>のが核。<b>1回だけの先行(N=1)は偶然と区別できず<a href="registry.html">🟠弱い疑惑</a>止まり</b>。勝率の高さは見ない。</td><td>イベント先行度・<a href="methodology.html">往復/反復</a>回数・先行エントリ事例・多角分析の濃度</td></tr>
 <tr><td class="g2">🟢 プロトレーダー</td><td><b>場数と規律。</b>多数の取引で勝率を<u>安定維持</u>＋トレンド非依存（逆張り/両方向でも勝つ）。イベント直前の先行は<u>無い</u>。＝知っていたのでなく上手い。</td><td>クローズ回数・勝率の継続性・方向的中率がベタ超えか・規律</td></tr>
 <tr><td class="g3">💸 出金疑い</td><td><b>稼いで即引き上げ。</b>通算利益÷現在残高が大（10倍超）。残高が小さくても過去に大きく抜いた hit-and-run。</td><td>allTime PnL ÷ 現在残高・直近取引の少なさ</td></tr>
 </table>

@@ -15,35 +15,46 @@ a{color:#4ea1ff}
 ul{margin:6px 0;padding-left:20px} li{margin-bottom:5px}
 </style></head><body>
 <h1>📊 総評 — 判定カテゴリ と Nansenタグ の相関</h1>
-<div class="sub">Hyperliquid perp インサイダー追跡プロジェクトのまとめ。台帳 549 件・要監視 100 件時点。
+<div class="sub">Hyperliquid perp インサイダー追跡プロジェクトのまとめ。台帳 549 件・要監視 105 件時点。
 <a href="index.html">← トップへ</a> ／ <a href="registry.html">監視台帳</a> ／ <a href="compare.html">HL vs Nansen</a></div>
 
 <h2>1. ここまでの到達点</h2>
 <div class="box">
-HL公開API（無料・約定粒度）で発掘 → 多角分析（5レンズ workflow）で精査 → Nansen Pro で正体・資金源を付与、という3段で
-<b>549件の永続台帳</b>を構築。要監視 100 件は正体・資金源・出金先・判定根拠まで記載済み。
-確証ある協調相関は「クラスタA」1つ。
+HL公開API（無料・約定粒度）で発掘 → 多角分析（workflowレッドチーム反証）で精査 → Nansen Pro で正体・資金源を付与、という3段で
+<b>549件の永続台帳</b>を構築。要監視 105 件は正体・資金源・出金先・判定根拠まで記載済み。
 </div>
-<table style="max-width:360px"><tr><th>カテゴリ</th><th>件数</th></tr><tr><td>🔴 インサイダー疑惑</td><td><b>1</b></td></tr><tr><td>🟠 弱い疑惑</td><td><b>8</b></td></tr><tr><td>💸 出金疑い</td><td><b>12</b></td></tr><tr><td>🟢 プロ(本物)</td><td><b>73</b></td></tr><tr><td>🔵 プロ(未精査)</td><td><b>6</b></td></tr></table>
+<table style="max-width:360px"><tr><th>カテゴリ</th><th>件数</th></tr><tr><td>🔴 インサイダー疑惑</td><td><b>1</b></td></tr><tr><td>🟠 弱い疑惑</td><td><b>9</b></td></tr><tr><td>💸 出金疑い</td><td><b>12</b></td></tr><tr><td>🟢 プロ(本物)</td><td><b>77</b></td></tr><tr><td>🔵 プロ(未精査)</td><td><b>6</b></td></tr></table>
+
+<div class="box no" style="margin-top:12px">
+<b class="big">核心の所見：明確な「個人インサイダー」は検出できなかった。</b><br>
+「急変の前に大口で建てた（先行）」と出たウォレットを<a href="methodology.html">往復・反復</a>で精査すると、
+<b class="r">ことごとく N=1（1つの注文を分割約定しただけの一発）</b>に化けた。別々の急変イベントで反復して当てる本物の挙動（strictで反復≥3級）は<b>ゼロ</b>。
+よって現在 🔴インサイダー疑惑は <b>1件</b>（workflowが likely 判定した1件）に絞られ、先行が一発止まりの層は <b>🟠弱い疑惑 9件</b> に留め置いている。
+</div>
+<div class="box warn">
+<b>唯一の協調候補だった「クラスタA」（4ウォレット）も降格。</b>
+共有資金元が <b>Monad の公開エアドロップ配布（約1万アドレスへ誰でも受領可）</b>と判明し、<b class="r">私的な協調の確証は否定</b>された。
+メンバーは🟠弱い疑惑／除外へ移した。
+</div>
 
 <h2>2. 相関①：資金の出どころ ＝ <b class="g">相関あり</b></h2>
-<table><tr><th>カテゴリ</th><th>CEX(取引所)</th><th>ブリッジ/コントラクト</th><th>個人(ラベル無)</th><th>汎用ウォレット</th><th>不明</th><th>計</th></tr><tr><td class='pn'>インサイダー疑惑(要監視)</td><td></td><td>1</td><td></td><td></td><td></td><td><b>1</b></td></tr><tr><td class='pn'>弱い疑惑(監視継続)</td><td></td><td>4</td><td></td><td>3</td><td>1</td><td><b>8</b></td></tr><tr><td class='pn'>💸 出金疑い(要監視)</td><td>6</td><td>2</td><td></td><td>4</td><td></td><td><b>12</b></td></tr><tr><td class='pn'>プロトレーダー(本物)</td><td>18</td><td>20</td><td></td><td>26</td><td>9</td><td><b>73</b></td></tr><tr><td class='pn'>プロトレーダー(未精査)</td><td>1</td><td>1</td><td></td><td>3</td><td>1</td><td><b>6</b></td></tr></table>
+<table><tr><th>カテゴリ</th><th>CEX(取引所)</th><th>ブリッジ/コントラクト</th><th>個人(ラベル無)</th><th>汎用ウォレット</th><th>不明</th><th>計</th></tr><tr><td class='pn'>インサイダー疑惑(要監視)</td><td></td><td>1</td><td></td><td></td><td></td><td><b>1</b></td></tr><tr><td class='pn'>弱い疑惑(監視継続)</td><td></td><td>5</td><td></td><td>3</td><td>1</td><td><b>9</b></td></tr><tr><td class='pn'>💸 出金疑い(要監視)</td><td>6</td><td>2</td><td></td><td>4</td><td></td><td><b>12</b></td></tr><tr><td class='pn'>プロトレーダー(本物)</td><td>19</td><td>20</td><td></td><td>28</td><td>10</td><td><b>77</b></td></tr><tr><td class='pn'>プロトレーダー(未精査)</td><td>1</td><td>1</td><td></td><td>3</td><td>1</td><td><b>6</b></td></tr></table>
 <div class="box yes">
-<b class="big">インサイダー疑惑/弱い疑惑は CEX 直入金が 0/9 件＝ほぼゼロ。</b>全員ブリッジ/コントラクト/個人財布経由で<u>足を消す側</u>。
+<b class="big">インサイダー疑惑/弱い疑惑は CEX 直入金が 0/10 件＝ほぼゼロ。</b>全員ブリッジ/コントラクト/個人財布経由で<u>足を消す側</u>。
 一方 <b class="o">出金疑いは CEX 直入金が 6/12 件</b>で最多＝身元が取引所に残る雑な側。<br>
 👉 <b>「足の隠し方」と容疑度に相関がある</b>。疑わしいほど CEX を避けブリッジ経由で入金する。
 </div>
 
 <h2>3. 相関②：Nansenの正体ラベル ＝ <b class="r">相関なし</b></h2>
-<table><tr><th>カテゴリ</th><th>無(匿名)</th><th>ENS/個人名</th><th>ファンド/機関</th><th>SmartMoney</th><th>汎用(HighBalance等)</th><th>計</th></tr><tr><td class='pn'>インサイダー疑惑(要監視)</td><td>1</td><td></td><td></td><td></td><td></td><td><b>1</b></td></tr><tr><td class='pn'>弱い疑惑(監視継続)</td><td>4</td><td>1</td><td></td><td></td><td>3</td><td><b>8</b></td></tr><tr><td class='pn'>💸 出金疑い(要監視)</td><td>5</td><td>2</td><td></td><td>3</td><td>2</td><td><b>12</b></td></tr><tr><td class='pn'>プロトレーダー(本物)</td><td>21</td><td>4</td><td>1</td><td>17</td><td>30</td><td><b>73</b></td></tr><tr><td class='pn'>プロトレーダー(未精査)</td><td>5</td><td></td><td></td><td></td><td>1</td><td><b>6</b></td></tr></table>
+<table><tr><th>カテゴリ</th><th>無(匿名)</th><th>ENS/個人名</th><th>ファンド/機関</th><th>SmartMoney</th><th>汎用(HighBalance等)</th><th>計</th></tr><tr><td class='pn'>インサイダー疑惑(要監視)</td><td>1</td><td></td><td></td><td></td><td></td><td><b>1</b></td></tr><tr><td class='pn'>弱い疑惑(監視継続)</td><td>5</td><td>1</td><td></td><td></td><td>3</td><td><b>9</b></td></tr><tr><td class='pn'>💸 出金疑い(要監視)</td><td>5</td><td>2</td><td></td><td>3</td><td>2</td><td><b>12</b></td></tr><tr><td class='pn'>プロトレーダー(本物)</td><td>24</td><td>4</td><td>1</td><td>17</td><td>31</td><td><b>77</b></td></tr><tr><td class='pn'>プロトレーダー(未精査)</td><td>5</td><td></td><td></td><td></td><td>1</td><td><b>6</b></td></tr></table>
 <div class="box no">
 <b>匿名率（ラベル無し）:</b>
-<table style="max-width:340px;margin-top:6px"><tr><th>カテゴリ</th><th>匿名 / 計</th></tr><tr><td>🔴 インサイダー疑惑</td><td>1 / 1</td></tr><tr><td>🟠 弱い疑惑</td><td>4 / 8</td></tr><tr><td>💸 出金疑い</td><td>5 / 12</td></tr><tr><td>🟢 プロ(本物)</td><td>21 / 73</td></tr><tr><td>🔵 プロ(未精査)</td><td>5 / 6</td></tr></table>
+<table style="max-width:340px;margin-top:6px"><tr><th>カテゴリ</th><th>匿名 / 計</th></tr><tr><td>🔴 インサイダー疑惑</td><td>1 / 1</td></tr><tr><td>🟠 弱い疑惑</td><td>5 / 9</td></tr><tr><td>💸 出金疑い</td><td>5 / 12</td></tr><tr><td>🟢 プロ(本物)</td><td>24 / 77</td></tr><tr><td>🔵 プロ(未精査)</td><td>5 / 6</td></tr></table>
 インサイダー疑惑は全員匿名だが、<b>プロも大半が匿名</b>。→ <b class="r">「ラベル無し＝インサイダー」は成り立たない</b>。
 正体ラベルの種別では インサイダーとプロを見分けられない。
 </div>
 <div class="box warn">
-<b>Nansen「Smart Money」タグは、監視 100 件中 20 件しか付いていない。</b>
+<b>Nansen「Smart Money」タグは、監視 105 件中 20 件しか付いていない。</b>
 → わっちらの発掘は <b>Nansen がまだ Smart Money 認定していない層</b>を拾っている（独自性がある反面、Nansenラベルでの裏取りは効かない）。
 </div>
 
@@ -58,7 +69,8 @@ HL公開API（無料・約定粒度）で発掘 → 多角分析（5レンズ wo
 
 <h2>5. 限界（正直に）</h2>
 <div class="box warn">
-インサイダー疑惑 n=2・弱い疑惑 n=2・プロ本物 n=4 と<b>サンプルが小さく、統計的相関とは言えない（傾向の域）</b>。
-確度ある相関と呼べるのは出金疑い20件のCEX入金パターンくらい。母数（CANDIDATE_LIMIT）を増やせば相関の有無をより確かめられる。
+インサイダー疑惑 n=1・弱い疑惑 n=9・プロ本物 n=77 と<b>疑惑側のサンプルが小さく、統計的相関とは言えない（傾向の域）</b>。
+確度ある相関と呼べるのは出金疑い 12 件のCEX入金パターンくらい。母数（CANDIDATE_LIMIT）を増やせば相関の有無をより確かめられる。
+なお「先行」検出が一発(N=1)に化ける問題は<a href="methodology.html">往復・反復</a>で対処したが、<b>反復を満たす個人は今のところ未検出</b>。
 </div>
 </body></html>
