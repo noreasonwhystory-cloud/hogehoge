@@ -1,410 +1,2156 @@
 {
-  "generated_at": "2026-06-17T18:36:10.671681+00:00",
+  "generated_at": "2026-06-17T18:56:16.127757+00:00",
   "wallets": [
-    {
-      "address": "0x69b05701f8175c276ecd0138387a197948e240bb",
-      "majors": 4796,
-      "rt_events": 2,
-      "lead_only_events": 2,
-      "rt_detail": [
-        {
-          "coin": "BTC",
-          "dir": "short",
-          "pct": -3.32,
-          "event": "2025-10-10 16:00"
-        },
-        {
-          "coin": "ETH",
-          "dir": "long",
-          "pct": 3.89,
-          "event": "2025-06-09 16:00"
-        }
-      ]
-    },
-    {
-      "address": "0x74da055d4ccf9dca3f15789c603e1a88a1d2d81f",
-      "majors": 9585,
-      "rt_events": 1,
-      "lead_only_events": 0,
-      "rt_detail": [
-        {
-          "coin": "BTC",
-          "dir": "short",
-          "pct": -3.31,
-          "event": "2026-02-05 12:00"
-        }
-      ]
-    },
-    {
-      "address": "0x18cd4597e06b7fe0a8cd33dda499121b3a145a8b",
-      "majors": 2675,
-      "rt_events": 0,
-      "lead_only_events": 2,
-      "rt_detail": []
-    },
-    {
-      "address": "0x1fe06653816cd53afb36a18f059b0ada2a3c8f20",
-      "majors": 630,
-      "rt_events": 0,
-      "lead_only_events": 2,
-      "rt_detail": []
-    },
-    {
-      "address": "0xefcace57934a753d66c48a31b880ba806d4c0869",
-      "majors": 7462,
-      "rt_events": 0,
-      "lead_only_events": 1,
-      "rt_detail": []
-    },
-    {
-      "address": "0x0a7097d919b7421ecc03aed3aac68a13e7ef1f46",
-      "majors": 14722,
-      "rt_events": 0,
-      "lead_only_events": 1,
-      "rt_detail": []
-    },
-    {
-      "address": "0x935729ae51eef975ccdeb481d513c75986227bfd",
-      "majors": 7457,
-      "rt_events": 0,
-      "lead_only_events": 1,
-      "rt_detail": []
-    },
-    {
-      "address": "0x906d31b2ee92c4bc720232112274a0e1ffb0ad6e",
-      "majors": 509,
-      "rt_events": 0,
-      "lead_only_events": 1,
-      "rt_detail": []
-    },
-    {
-      "address": "0x10b6f072fabe21bc72ffd77ff5d4414e6cef2980",
-      "majors": 2502,
-      "rt_events": 0,
-      "lead_only_events": 0,
-      "rt_detail": []
-    },
     {
       "address": "0x5aadb434293b4e1b8fb2e84007e567506fe65a96",
       "majors": 2462,
-      "rt_events": 0,
-      "lead_only_events": 0,
-      "rt_detail": []
-    },
-    {
-      "address": "0x99b1098d9d50aa076f78bd26ab22e6abd3710729",
-      "majors": 4952,
-      "rt_events": 0,
-      "lead_only_events": 0,
-      "rt_detail": []
+      "tiers": {
+        "strict": {
+          "rt": 0,
+          "lead_only": 0,
+          "detail": []
+        },
+        "medium": {
+          "rt": 3,
+          "lead_only": 3,
+          "detail": [
+            {
+              "coin": "ETH",
+              "dir": "long",
+              "pct": 4.98,
+              "event": "2025-11-19"
+            },
+            {
+              "coin": "SOL",
+              "dir": "long",
+              "pct": 3.68,
+              "event": "2025-02-25"
+            },
+            {
+              "coin": "SOL",
+              "dir": "short",
+              "pct": -4.89,
+              "event": "2025-03-02"
+            }
+          ]
+        },
+        "loose": {
+          "rt": 9,
+          "lead_only": 11,
+          "detail": [
+            {
+              "coin": "ETH",
+              "dir": "long",
+              "pct": 4.98,
+              "event": "2025-11-19"
+            },
+            {
+              "coin": "ETH",
+              "dir": "long",
+              "pct": 3.55,
+              "event": "2026-02-05"
+            },
+            {
+              "coin": "SOL",
+              "dir": "long",
+              "pct": 3.68,
+              "event": "2025-02-25"
+            },
+            {
+              "coin": "SOL",
+              "dir": "long",
+              "pct": 9.64,
+              "event": "2025-03-02"
+            },
+            {
+              "coin": "SOL",
+              "dir": "long",
+              "pct": 9.39,
+              "event": "2025-03-02"
+            },
+            {
+              "coin": "SOL",
+              "dir": "short",
+              "pct": -4.89,
+              "event": "2025-03-02"
+            }
+          ]
+        }
+      },
+      "rt_events": 0
     },
     {
       "address": "0x9a377ec81c1bd51d31170bf8d7a7b6c5fbaded9b",
-      "majors": 3170,
-      "rt_events": 0,
-      "lead_only_events": 0,
-      "rt_detail": []
+      "majors": 12983,
+      "tiers": {
+        "strict": {
+          "rt": 1,
+          "lead_only": 0,
+          "detail": [
+            {
+              "coin": "BTC",
+              "dir": "long",
+              "pct": 4.23,
+              "event": "2026-04-07"
+            }
+          ]
+        },
+        "medium": {
+          "rt": 6,
+          "lead_only": 0,
+          "detail": [
+            {
+              "coin": "BTC",
+              "dir": "long",
+              "pct": 4.27,
+              "event": "2025-02-28"
+            },
+            {
+              "coin": "BTC",
+              "dir": "short",
+              "pct": -3.28,
+              "event": "2025-11-20"
+            },
+            {
+              "coin": "BTC",
+              "dir": "long",
+              "pct": 3.12,
+              "event": "2026-02-06"
+            },
+            {
+              "coin": "BTC",
+              "dir": "long",
+              "pct": 4.23,
+              "event": "2026-04-07"
+            },
+            {
+              "coin": "BTC",
+              "dir": "short",
+              "pct": -3.12,
+              "event": "2026-06-02"
+            },
+            {
+              "coin": "ETH",
+              "dir": "long",
+              "pct": 3.38,
+              "event": "2025-05-10"
+            }
+          ]
+        },
+        "loose": {
+          "rt": 8,
+          "lead_only": 1,
+          "detail": [
+            {
+              "coin": "BTC",
+              "dir": "long",
+              "pct": 4.27,
+              "event": "2025-02-28"
+            },
+            {
+              "coin": "BTC",
+              "dir": "short",
+              "pct": -3.28,
+              "event": "2025-11-20"
+            },
+            {
+              "coin": "BTC",
+              "dir": "long",
+              "pct": 3.12,
+              "event": "2026-02-06"
+            },
+            {
+              "coin": "BTC",
+              "dir": "long",
+              "pct": 4.23,
+              "event": "2026-04-07"
+            },
+            {
+              "coin": "BTC",
+              "dir": "short",
+              "pct": -3.12,
+              "event": "2026-06-02"
+            },
+            {
+              "coin": "ETH",
+              "dir": "long",
+              "pct": 3.38,
+              "event": "2025-05-10"
+            }
+          ]
+        }
+      },
+      "rt_events": 1
     },
     {
-      "address": "0x71b117d68974aa4c5615669ae70e8e13ce7479c8",
-      "majors": 195,
-      "rt_events": 0,
-      "lead_only_events": 0,
-      "rt_detail": []
+      "address": "0xce43a7498e65b6f6c8741fd9a7efc3f78efc78c4",
+      "majors": 9255,
+      "tiers": {
+        "strict": {
+          "rt": 1,
+          "lead_only": 2,
+          "detail": [
+            {
+              "coin": "BTC",
+              "dir": "long",
+              "pct": 6.29,
+              "event": "2025-03-04"
+            }
+          ]
+        },
+        "medium": {
+          "rt": 3,
+          "lead_only": 2,
+          "detail": [
+            {
+              "coin": "BTC",
+              "dir": "long",
+              "pct": 5.21,
+              "event": "2025-01-20"
+            },
+            {
+              "coin": "BTC",
+              "dir": "long",
+              "pct": 6.29,
+              "event": "2025-03-04"
+            },
+            {
+              "coin": "BTC",
+              "dir": "short",
+              "pct": -3.33,
+              "event": "2025-04-07"
+            }
+          ]
+        },
+        "loose": {
+          "rt": 8,
+          "lead_only": 2,
+          "detail": [
+            {
+              "coin": "BTC",
+              "dir": "long",
+              "pct": 5.21,
+              "event": "2025-01-20"
+            },
+            {
+              "coin": "BTC",
+              "dir": "long",
+              "pct": 6.29,
+              "event": "2025-03-04"
+            },
+            {
+              "coin": "BTC",
+              "dir": "short",
+              "pct": -5.01,
+              "event": "2025-04-02"
+            },
+            {
+              "coin": "BTC",
+              "dir": "short",
+              "pct": -3.33,
+              "event": "2025-04-07"
+            },
+            {
+              "coin": "BTC",
+              "dir": "long",
+              "pct": 6.55,
+              "event": "2025-04-09"
+            },
+            {
+              "coin": "ETH",
+              "dir": "short",
+              "pct": -3.55,
+              "event": "2025-04-08"
+            }
+          ]
+        }
+      },
+      "rt_events": 1
     },
     {
-      "address": "0x55ee7523bcc783e774c3a8b1004b5abdb735ac5d",
-      "majors": 1325,
-      "rt_events": 0,
-      "lead_only_events": 0,
-      "rt_detail": []
+      "address": "0x8463d6ffcbfb56bf20ab2e1111f9a0e8359533f2",
+      "majors": 5227,
+      "tiers": {
+        "strict": {
+          "rt": 2,
+          "lead_only": 0,
+          "detail": [
+            {
+              "coin": "BTC",
+              "dir": "short",
+              "pct": -3.28,
+              "event": "2025-11-20"
+            },
+            {
+              "coin": "BTC",
+              "dir": "long",
+              "pct": 3.12,
+              "event": "2026-02-06"
+            }
+          ]
+        },
+        "medium": {
+          "rt": 2,
+          "lead_only": 1,
+          "detail": [
+            {
+              "coin": "BTC",
+              "dir": "short",
+              "pct": -3.28,
+              "event": "2025-11-20"
+            },
+            {
+              "coin": "BTC",
+              "dir": "long",
+              "pct": 3.12,
+              "event": "2026-02-06"
+            }
+          ]
+        },
+        "loose": {
+          "rt": 8,
+          "lead_only": 4,
+          "detail": [
+            {
+              "coin": "BTC",
+              "dir": "short",
+              "pct": -3.28,
+              "event": "2025-11-20"
+            },
+            {
+              "coin": "BTC",
+              "dir": "long",
+              "pct": 3.12,
+              "event": "2026-02-06"
+            },
+            {
+              "coin": "BTC",
+              "dir": "short",
+              "pct": -3.99,
+              "event": "2026-02-22"
+            },
+            {
+              "coin": "ETH",
+              "dir": "long",
+              "pct": 3.72,
+              "event": "2025-12-18"
+            },
+            {
+              "coin": "ETH",
+              "dir": "short",
+              "pct": -3.23,
+              "event": "2026-06-02"
+            },
+            {
+              "coin": "ETH",
+              "dir": "short",
+              "pct": -4.81,
+              "event": "2026-06-05"
+            }
+          ]
+        }
+      },
+      "rt_events": 2
     },
     {
-      "address": "0xc2c060e3309461ec7c4291b1aac6c89aa228727e",
-      "majors": 1001,
-      "rt_events": 0,
-      "lead_only_events": 0,
-      "rt_detail": []
+      "address": "0x69b05701f8175c276ecd0138387a197948e240bb",
+      "majors": 4796,
+      "tiers": {
+        "strict": {
+          "rt": 2,
+          "lead_only": 2,
+          "detail": [
+            {
+              "coin": "BTC",
+              "dir": "short",
+              "pct": -3.32,
+              "event": "2025-10-10"
+            },
+            {
+              "coin": "ETH",
+              "dir": "long",
+              "pct": 3.89,
+              "event": "2025-06-09"
+            }
+          ]
+        },
+        "medium": {
+          "rt": 2,
+          "lead_only": 3,
+          "detail": [
+            {
+              "coin": "BTC",
+              "dir": "short",
+              "pct": -3.32,
+              "event": "2025-10-10"
+            },
+            {
+              "coin": "ETH",
+              "dir": "long",
+              "pct": 3.89,
+              "event": "2025-06-09"
+            }
+          ]
+        },
+        "loose": {
+          "rt": 8,
+          "lead_only": 2,
+          "detail": [
+            {
+              "coin": "BTC",
+              "dir": "short",
+              "pct": -3.32,
+              "event": "2025-10-10"
+            },
+            {
+              "coin": "BTC",
+              "dir": "long",
+              "pct": 3.43,
+              "event": "2025-11-26"
+            },
+            {
+              "coin": "BTC",
+              "dir": "long",
+              "pct": 3.12,
+              "event": "2026-02-06"
+            },
+            {
+              "coin": "BTC",
+              "dir": "long",
+              "pct": 4.23,
+              "event": "2026-04-07"
+            },
+            {
+              "coin": "ETH",
+              "dir": "long",
+              "pct": 3.89,
+              "event": "2025-06-09"
+            },
+            {
+              "coin": "ETH",
+              "dir": "long",
+              "pct": 4.76,
+              "event": "2025-07-10"
+            }
+          ]
+        }
+      },
+      "rt_events": 2
     },
     {
-      "address": "0x05c6959d997cde99d2f967367e5e9f1959ba9706",
-      "majors": 1782,
-      "rt_events": 0,
-      "lead_only_events": 0,
-      "rt_detail": []
+      "address": "0x74da055d4ccf9dca3f15789c603e1a88a1d2d81f",
+      "majors": 21150,
+      "tiers": {
+        "strict": {
+          "rt": 2,
+          "lead_only": 1,
+          "detail": [
+            {
+              "coin": "BTC",
+              "dir": "short",
+              "pct": -3.31,
+              "event": "2026-02-05"
+            },
+            {
+              "coin": "BTC",
+              "dir": "long",
+              "pct": 3.12,
+              "event": "2026-02-06"
+            }
+          ]
+        },
+        "medium": {
+          "rt": 4,
+          "lead_only": 1,
+          "detail": [
+            {
+              "coin": "BTC",
+              "dir": "short",
+              "pct": -4.03,
+              "event": "2026-02-05"
+            },
+            {
+              "coin": "BTC",
+              "dir": "short",
+              "pct": -3.31,
+              "event": "2026-02-05"
+            },
+            {
+              "coin": "BTC",
+              "dir": "short",
+              "pct": -3.59,
+              "event": "2026-02-05"
+            },
+            {
+              "coin": "BTC",
+              "dir": "long",
+              "pct": 3.12,
+              "event": "2026-02-06"
+            }
+          ]
+        },
+        "loose": {
+          "rt": 6,
+          "lead_only": 0,
+          "detail": [
+            {
+              "coin": "BTC",
+              "dir": "short",
+              "pct": -4.1,
+              "event": "2026-02-03"
+            },
+            {
+              "coin": "BTC",
+              "dir": "short",
+              "pct": -4.03,
+              "event": "2026-02-05"
+            },
+            {
+              "coin": "BTC",
+              "dir": "short",
+              "pct": -3.31,
+              "event": "2026-02-05"
+            },
+            {
+              "coin": "BTC",
+              "dir": "short",
+              "pct": -3.59,
+              "event": "2026-02-05"
+            },
+            {
+              "coin": "BTC",
+              "dir": "long",
+              "pct": 3.12,
+              "event": "2026-02-06"
+            },
+            {
+              "coin": "BTC",
+              "dir": "short",
+              "pct": -3.99,
+              "event": "2026-02-07"
+            }
+          ]
+        }
+      },
+      "rt_events": 2
     },
     {
       "address": "0x0e3f5bb797e3953fed2a319544d0e821b4a11e1c",
       "majors": 16079,
-      "rt_events": 0,
-      "lead_only_events": 0,
-      "rt_detail": []
+      "tiers": {
+        "strict": {
+          "rt": 0,
+          "lead_only": 0,
+          "detail": []
+        },
+        "medium": {
+          "rt": 0,
+          "lead_only": 0,
+          "detail": []
+        },
+        "loose": {
+          "rt": 5,
+          "lead_only": 1,
+          "detail": [
+            {
+              "coin": "BTC",
+              "dir": "short",
+              "pct": -4.57,
+              "event": "2025-12-18"
+            },
+            {
+              "coin": "ETH",
+              "dir": "short",
+              "pct": -3.58,
+              "event": "2025-11-19"
+            },
+            {
+              "coin": "ETH",
+              "dir": "short",
+              "pct": -3.09,
+              "event": "2025-11-19"
+            },
+            {
+              "coin": "ETH",
+              "dir": "short",
+              "pct": -3.91,
+              "event": "2026-04-01"
+            },
+            {
+              "coin": "ETH",
+              "dir": "long",
+              "pct": 3.69,
+              "event": "2026-04-17"
+            }
+          ]
+        }
+      },
+      "rt_events": 0
     },
     {
-      "address": "0xce43a7498e65b6f6c8741fd9a7efc3f78efc78c4",
-      "majors": 1144,
-      "rt_events": 0,
-      "lead_only_events": 0,
-      "rt_detail": []
+      "address": "0x2f394ae1ca45071bc222e7124b5d125637942be2",
+      "majors": 4895,
+      "tiers": {
+        "strict": {
+          "rt": 2,
+          "lead_only": 0,
+          "detail": [
+            {
+              "coin": "ETH",
+              "dir": "short",
+              "pct": -7.0,
+              "event": "2025-02-27"
+            },
+            {
+              "coin": "ETH",
+              "dir": "short",
+              "pct": -3.08,
+              "event": "2025-03-02"
+            }
+          ]
+        },
+        "medium": {
+          "rt": 3,
+          "lead_only": 2,
+          "detail": [
+            {
+              "coin": "BTC",
+              "dir": "short",
+              "pct": -5.21,
+              "event": "2024-12-20"
+            },
+            {
+              "coin": "ETH",
+              "dir": "short",
+              "pct": -7.0,
+              "event": "2025-02-27"
+            },
+            {
+              "coin": "ETH",
+              "dir": "short",
+              "pct": -3.08,
+              "event": "2025-03-02"
+            }
+          ]
+        },
+        "loose": {
+          "rt": 4,
+          "lead_only": 4,
+          "detail": [
+            {
+              "coin": "BTC",
+              "dir": "short",
+              "pct": -5.21,
+              "event": "2024-12-20"
+            },
+            {
+              "coin": "ETH",
+              "dir": "short",
+              "pct": -7.0,
+              "event": "2025-02-27"
+            },
+            {
+              "coin": "ETH",
+              "dir": "short",
+              "pct": -3.08,
+              "event": "2025-03-02"
+            },
+            {
+              "coin": "SOL",
+              "dir": "short",
+              "pct": -6.94,
+              "event": "2025-02-18"
+            }
+          ]
+        }
+      },
+      "rt_events": 2
     },
     {
-      "address": "0xac03fc4c21902e4e934b4367cb1a6c6e3f0d8037",
-      "majors": 4,
-      "rt_events": 0,
-      "lead_only_events": 0,
-      "rt_detail": []
+      "address": "0xefcace57934a753d66c48a31b880ba806d4c0869",
+      "majors": 7462,
+      "tiers": {
+        "strict": {
+          "rt": 0,
+          "lead_only": 1,
+          "detail": []
+        },
+        "medium": {
+          "rt": 3,
+          "lead_only": 5,
+          "detail": [
+            {
+              "coin": "ETH",
+              "dir": "short",
+              "pct": -4.9,
+              "event": "2024-12-10"
+            },
+            {
+              "coin": "ETH",
+              "dir": "short",
+              "pct": -3.24,
+              "event": "2025-12-01"
+            },
+            {
+              "coin": "SOL",
+              "dir": "short",
+              "pct": -6.94,
+              "event": "2025-02-18"
+            }
+          ]
+        },
+        "loose": {
+          "rt": 4,
+          "lead_only": 12,
+          "detail": [
+            {
+              "coin": "ETH",
+              "dir": "short",
+              "pct": -4.9,
+              "event": "2024-12-10"
+            },
+            {
+              "coin": "ETH",
+              "dir": "short",
+              "pct": -3.44,
+              "event": "2025-11-12"
+            },
+            {
+              "coin": "ETH",
+              "dir": "short",
+              "pct": -3.24,
+              "event": "2025-12-01"
+            },
+            {
+              "coin": "SOL",
+              "dir": "short",
+              "pct": -6.94,
+              "event": "2025-02-18"
+            }
+          ]
+        }
+      },
+      "rt_events": 0
     },
     {
-      "address": "0xe4d83945c0322f3d340203a7129b7eb5cacae847",
-      "majors": 4331,
-      "rt_events": 0,
-      "lead_only_events": 0,
-      "rt_detail": []
+      "address": "0xa4be91acc74feabab71b8878b66b8f5277212520",
+      "majors": 4374,
+      "tiers": {
+        "strict": {
+          "rt": 0,
+          "lead_only": 0,
+          "detail": []
+        },
+        "medium": {
+          "rt": 0,
+          "lead_only": 2,
+          "detail": []
+        },
+        "loose": {
+          "rt": 4,
+          "lead_only": 4,
+          "detail": [
+            {
+              "coin": "SOL",
+              "dir": "short",
+              "pct": -6.39,
+              "event": "2026-01-31"
+            },
+            {
+              "coin": "SOL",
+              "dir": "short",
+              "pct": -5.96,
+              "event": "2026-02-05"
+            },
+            {
+              "coin": "SOL",
+              "dir": "short",
+              "pct": -3.48,
+              "event": "2026-02-05"
+            },
+            {
+              "coin": "SOL",
+              "dir": "short",
+              "pct": -4.07,
+              "event": "2026-02-05"
+            }
+          ]
+        }
+      },
+      "rt_events": 0
     },
     {
       "address": "0xb1694de2324433778487999bd86b1acb3335ebc4",
       "majors": 5804,
-      "rt_events": 0,
-      "lead_only_events": 0,
-      "rt_detail": []
-    },
-    {
-      "address": "0x406073860818ecfb7dca0706a6bac73faa95bd3e",
-      "majors": 797,
-      "rt_events": 0,
-      "lead_only_events": 0,
-      "rt_detail": []
-    },
-    {
-      "address": "0x99b3ba1c1b7ad83d0164d996e3d271ae8c842551",
-      "majors": 8878,
-      "rt_events": 0,
-      "lead_only_events": 0,
-      "rt_detail": []
-    },
-    {
-      "address": "0xa3d843b6a057504284006bef6f34a2e9bc80fb6b",
-      "majors": 2986,
-      "rt_events": 0,
-      "lead_only_events": 0,
-      "rt_detail": []
-    },
-    {
-      "address": "0x06466f9ac08e872064950cec3812b57d6feafa7f",
-      "majors": 227,
-      "rt_events": 0,
-      "lead_only_events": 0,
-      "rt_detail": []
-    },
-    {
-      "address": "0x2373962eec8ed3764ddc1142244ac1e0fa38d0d8",
-      "majors": 4000,
-      "rt_events": 0,
-      "lead_only_events": 0,
-      "rt_detail": []
-    },
-    {
-      "address": "0xb69eec8fea0081343c3b09e652ba1fa7dcf7033a",
-      "majors": 2854,
-      "rt_events": 0,
-      "lead_only_events": 0,
-      "rt_detail": []
-    },
-    {
-      "address": "0xd866a2d14a6dc92bdb1fdeac32c0f8ec322b3605",
-      "majors": 784,
-      "rt_events": 0,
-      "lead_only_events": 0,
-      "rt_detail": []
-    },
-    {
-      "address": "0xb58e1eb8256689e47f589ba6f6a28657d997bf2f",
-      "majors": 1398,
-      "rt_events": 0,
-      "lead_only_events": 0,
-      "rt_detail": []
-    },
-    {
-      "address": "0xaa3f51a8095d030e38317e917839c87315300bee",
-      "majors": 553,
-      "rt_events": 0,
-      "lead_only_events": 0,
-      "rt_detail": []
-    },
-    {
-      "address": "0x6a02aedceac5a6813d960e4dae1910d9c458e77c",
-      "majors": 1606,
-      "rt_events": 0,
-      "lead_only_events": 0,
-      "rt_detail": []
-    },
-    {
-      "address": "0x95e2687b07f0dec34462fdab6bbebcc0b3ab49c6",
-      "majors": 2219,
-      "rt_events": 0,
-      "lead_only_events": 0,
-      "rt_detail": []
-    },
-    {
-      "address": "0x4cc390eada38741fe9c77036b7c38537fb5f38ea",
-      "majors": 2306,
-      "rt_events": 0,
-      "lead_only_events": 0,
-      "rt_detail": []
-    },
-    {
-      "address": "0x79399dac99daa4a77d2bcd8ef6f5abf5966468e7",
-      "majors": 99,
-      "rt_events": 0,
-      "lead_only_events": 0,
-      "rt_detail": []
-    },
-    {
-      "address": "0x747932275df815ae819944e57ebb5b3e115ad68b",
-      "majors": 3240,
-      "rt_events": 0,
-      "lead_only_events": 0,
-      "rt_detail": []
-    },
-    {
-      "address": "0x24a44aef48aeb27c7708dabfccda14b41fbf0ae1",
-      "majors": 176,
-      "rt_events": 0,
-      "lead_only_events": 0,
-      "rt_detail": []
-    },
-    {
-      "address": "0x3e6805e8694bb2b717a828c1bfa32df5d6580cc9",
-      "majors": 225,
-      "rt_events": 0,
-      "lead_only_events": 0,
-      "rt_detail": []
-    },
-    {
-      "address": "0x7ee069137842a195d06b533d714ba507290a3956",
-      "majors": 447,
-      "rt_events": 0,
-      "lead_only_events": 0,
-      "rt_detail": []
-    },
-    {
-      "address": "0x01b7e73cdad95d407e8696e04194a75f19744801",
-      "majors": 185,
-      "rt_events": 0,
-      "lead_only_events": 0,
-      "rt_detail": []
-    },
-    {
-      "address": "0x203f4c410f3c35cead9f35b6de2f66e773d7f26e",
-      "majors": 879,
-      "rt_events": 0,
-      "lead_only_events": 0,
-      "rt_detail": []
-    },
-    {
-      "address": "0x0d8d5b2d87d36b99d28c321ff7a4a6d206a9c2aa",
-      "majors": 954,
-      "rt_events": 0,
-      "lead_only_events": 0,
-      "rt_detail": []
-    },
-    {
-      "address": "0x1e6db0fdf1a0f6edb78753184eb0fe5485c2eef2",
-      "majors": 346,
-      "rt_events": 0,
-      "lead_only_events": 0,
-      "rt_detail": []
+      "tiers": {
+        "strict": {
+          "rt": 0,
+          "lead_only": 0,
+          "detail": []
+        },
+        "medium": {
+          "rt": 0,
+          "lead_only": 1,
+          "detail": []
+        },
+        "loose": {
+          "rt": 4,
+          "lead_only": 6,
+          "detail": [
+            {
+              "coin": "SOL",
+              "dir": "short",
+              "pct": -4.71,
+              "event": "2025-10-10"
+            },
+            {
+              "coin": "SOL",
+              "dir": "short",
+              "pct": -8.69,
+              "event": "2025-10-10"
+            },
+            {
+              "coin": "SOL",
+              "dir": "short",
+              "pct": -3.36,
+              "event": "2025-10-11"
+            },
+            {
+              "coin": "SOL",
+              "dir": "short",
+              "pct": -4.26,
+              "event": "2025-10-21"
+            }
+          ]
+        }
+      },
+      "rt_events": 0
     },
     {
       "address": "0x41206f8efb51e5039e5b46e04e7866a4849f72d2",
       "majors": 22506,
-      "rt_events": 0,
-      "lead_only_events": 0,
-      "rt_detail": []
+      "tiers": {
+        "strict": {
+          "rt": 0,
+          "lead_only": 0,
+          "detail": []
+        },
+        "medium": {
+          "rt": 2,
+          "lead_only": 3,
+          "detail": [
+            {
+              "coin": "ETH",
+              "dir": "short",
+              "pct": -3.08,
+              "event": "2025-03-02"
+            },
+            {
+              "coin": "ETH",
+              "dir": "short",
+              "pct": -7.81,
+              "event": "2025-03-03"
+            }
+          ]
+        },
+        "loose": {
+          "rt": 3,
+          "lead_only": 4,
+          "detail": [
+            {
+              "coin": "ETH",
+              "dir": "short",
+              "pct": -3.82,
+              "event": "2025-02-04"
+            },
+            {
+              "coin": "ETH",
+              "dir": "short",
+              "pct": -3.08,
+              "event": "2025-03-02"
+            },
+            {
+              "coin": "ETH",
+              "dir": "short",
+              "pct": -7.81,
+              "event": "2025-03-03"
+            }
+          ]
+        }
+      },
+      "rt_events": 0
+    },
+    {
+      "address": "0x99b3ba1c1b7ad83d0164d996e3d271ae8c842551",
+      "majors": 8878,
+      "tiers": {
+        "strict": {
+          "rt": 0,
+          "lead_only": 0,
+          "detail": []
+        },
+        "medium": {
+          "rt": 1,
+          "lead_only": 1,
+          "detail": [
+            {
+              "coin": "ETH",
+              "dir": "long",
+              "pct": 5.98,
+              "event": "2026-04-07"
+            }
+          ]
+        },
+        "loose": {
+          "rt": 3,
+          "lead_only": 1,
+          "detail": [
+            {
+              "coin": "BTC",
+              "dir": "long",
+              "pct": 4.23,
+              "event": "2026-04-07"
+            },
+            {
+              "coin": "ETH",
+              "dir": "long",
+              "pct": 5.98,
+              "event": "2026-04-07"
+            },
+            {
+              "coin": "ETH",
+              "dir": "long",
+              "pct": 3.69,
+              "event": "2026-04-17"
+            }
+          ]
+        }
+      },
+      "rt_events": 0
+    },
+    {
+      "address": "0xe4d83945c0322f3d340203a7129b7eb5cacae847",
+      "majors": 4331,
+      "tiers": {
+        "strict": {
+          "rt": 0,
+          "lead_only": 0,
+          "detail": []
+        },
+        "medium": {
+          "rt": 0,
+          "lead_only": 2,
+          "detail": []
+        },
+        "loose": {
+          "rt": 2,
+          "lead_only": 5,
+          "detail": [
+            {
+              "coin": "SOL",
+              "dir": "short",
+              "pct": -3.36,
+              "event": "2025-10-11"
+            },
+            {
+              "coin": "SOL",
+              "dir": "short",
+              "pct": -4.07,
+              "event": "2026-02-05"
+            }
+          ]
+        }
+      },
+      "rt_events": 0
+    },
+    {
+      "address": "0x95e2687b07f0dec34462fdab6bbebcc0b3ab49c6",
+      "majors": 2219,
+      "tiers": {
+        "strict": {
+          "rt": 0,
+          "lead_only": 0,
+          "detail": []
+        },
+        "medium": {
+          "rt": 0,
+          "lead_only": 0,
+          "detail": []
+        },
+        "loose": {
+          "rt": 2,
+          "lead_only": 3,
+          "detail": [
+            {
+              "coin": "SOL",
+              "dir": "short",
+              "pct": -8.69,
+              "event": "2025-10-10"
+            },
+            {
+              "coin": "SOL",
+              "dir": "short",
+              "pct": -3.2,
+              "event": "2026-02-01"
+            }
+          ]
+        }
+      },
+      "rt_events": 0
+    },
+    {
+      "address": "0xbcc7fd5f27cba04dca862b94509133c453dde764",
+      "majors": 3551,
+      "tiers": {
+        "strict": {
+          "rt": 0,
+          "lead_only": 0,
+          "detail": []
+        },
+        "medium": {
+          "rt": 1,
+          "lead_only": 0,
+          "detail": [
+            {
+              "coin": "ETH",
+              "dir": "long",
+              "pct": 3.55,
+              "event": "2026-02-05"
+            }
+          ]
+        },
+        "loose": {
+          "rt": 1,
+          "lead_only": 2,
+          "detail": [
+            {
+              "coin": "ETH",
+              "dir": "long",
+              "pct": 3.55,
+              "event": "2026-02-05"
+            }
+          ]
+        }
+      },
+      "rt_events": 0
+    },
+    {
+      "address": "0xd866a2d14a6dc92bdb1fdeac32c0f8ec322b3605",
+      "majors": 784,
+      "tiers": {
+        "strict": {
+          "rt": 0,
+          "lead_only": 0,
+          "detail": []
+        },
+        "medium": {
+          "rt": 1,
+          "lead_only": 0,
+          "detail": [
+            {
+              "coin": "BTC",
+              "dir": "short",
+              "pct": -3.12,
+              "event": "2026-06-02"
+            }
+          ]
+        },
+        "loose": {
+          "rt": 1,
+          "lead_only": 0,
+          "detail": [
+            {
+              "coin": "BTC",
+              "dir": "short",
+              "pct": -3.12,
+              "event": "2026-06-02"
+            }
+          ]
+        }
+      },
+      "rt_events": 0
+    },
+    {
+      "address": "0x1fe06653816cd53afb36a18f059b0ada2a3c8f20",
+      "majors": 630,
+      "tiers": {
+        "strict": {
+          "rt": 0,
+          "lead_only": 2,
+          "detail": []
+        },
+        "medium": {
+          "rt": 1,
+          "lead_only": 2,
+          "detail": [
+            {
+              "coin": "ETH",
+              "dir": "short",
+              "pct": -3.98,
+              "event": "2026-02-01"
+            }
+          ]
+        },
+        "loose": {
+          "rt": 1,
+          "lead_only": 4,
+          "detail": [
+            {
+              "coin": "ETH",
+              "dir": "short",
+              "pct": -3.98,
+              "event": "2026-02-01"
+            }
+          ]
+        }
+      },
+      "rt_events": 0
+    },
+    {
+      "address": "0x79399dac99daa4a77d2bcd8ef6f5abf5966468e7",
+      "majors": 99,
+      "tiers": {
+        "strict": {
+          "rt": 0,
+          "lead_only": 0,
+          "detail": []
+        },
+        "medium": {
+          "rt": 1,
+          "lead_only": 0,
+          "detail": [
+            {
+              "coin": "ETH",
+              "dir": "long",
+              "pct": 4.59,
+              "event": "2025-02-03"
+            }
+          ]
+        },
+        "loose": {
+          "rt": 1,
+          "lead_only": 1,
+          "detail": [
+            {
+              "coin": "ETH",
+              "dir": "long",
+              "pct": 4.59,
+              "event": "2025-02-03"
+            }
+          ]
+        }
+      },
+      "rt_events": 0
+    },
+    {
+      "address": "0x3b11267dfc4b9ebe8427e8f557056b4b6ce98112",
+      "majors": 638,
+      "tiers": {
+        "strict": {
+          "rt": 0,
+          "lead_only": 0,
+          "detail": []
+        },
+        "medium": {
+          "rt": 1,
+          "lead_only": 0,
+          "detail": [
+            {
+              "coin": "SOL",
+              "dir": "long",
+              "pct": 4.67,
+              "event": "2026-03-15"
+            }
+          ]
+        },
+        "loose": {
+          "rt": 1,
+          "lead_only": 0,
+          "detail": [
+            {
+              "coin": "SOL",
+              "dir": "long",
+              "pct": 4.67,
+              "event": "2026-03-15"
+            }
+          ]
+        }
+      },
+      "rt_events": 0
+    },
+    {
+      "address": "0x6bea81d7a0c5939a5ce5552e125ab57216cc597f",
+      "majors": 4000,
+      "tiers": {
+        "strict": {
+          "rt": 0,
+          "lead_only": 0,
+          "detail": []
+        },
+        "medium": {
+          "rt": 0,
+          "lead_only": 0,
+          "detail": []
+        },
+        "loose": {
+          "rt": 1,
+          "lead_only": 0,
+          "detail": [
+            {
+              "coin": "SOL",
+              "dir": "short",
+              "pct": -3.74,
+              "event": "2025-08-29"
+            }
+          ]
+        }
+      },
+      "rt_events": 0
+    },
+    {
+      "address": "0x880ac484a1743862989a441d6d867238c7aa311c",
+      "majors": 3011,
+      "tiers": {
+        "strict": {
+          "rt": 0,
+          "lead_only": 0,
+          "detail": []
+        },
+        "medium": {
+          "rt": 0,
+          "lead_only": 0,
+          "detail": []
+        },
+        "loose": {
+          "rt": 1,
+          "lead_only": 0,
+          "detail": [
+            {
+              "coin": "ETH",
+              "dir": "long",
+              "pct": 4.72,
+              "event": "2026-04-13"
+            }
+          ]
+        }
+      },
+      "rt_events": 0
+    },
+    {
+      "address": "0x7ee069137842a195d06b533d714ba507290a3956",
+      "majors": 447,
+      "tiers": {
+        "strict": {
+          "rt": 0,
+          "lead_only": 0,
+          "detail": []
+        },
+        "medium": {
+          "rt": 0,
+          "lead_only": 0,
+          "detail": []
+        },
+        "loose": {
+          "rt": 1,
+          "lead_only": 0,
+          "detail": [
+            {
+              "coin": "ETH",
+              "dir": "short",
+              "pct": -3.17,
+              "event": "2026-03-21"
+            }
+          ]
+        }
+      },
+      "rt_events": 0
+    },
+    {
+      "address": "0x0d8d5b2d87d36b99d28c321ff7a4a6d206a9c2aa",
+      "majors": 954,
+      "tiers": {
+        "strict": {
+          "rt": 0,
+          "lead_only": 0,
+          "detail": []
+        },
+        "medium": {
+          "rt": 0,
+          "lead_only": 0,
+          "detail": []
+        },
+        "loose": {
+          "rt": 1,
+          "lead_only": 3,
+          "detail": [
+            {
+              "coin": "ETH",
+              "dir": "short",
+              "pct": -4.46,
+              "event": "2025-08-15"
+            }
+          ]
+        }
+      },
+      "rt_events": 0
+    },
+    {
+      "address": "0x10b6f072fabe21bc72ffd77ff5d4414e6cef2980",
+      "majors": 2502,
+      "tiers": {
+        "strict": {
+          "rt": 0,
+          "lead_only": 0,
+          "detail": []
+        },
+        "medium": {
+          "rt": 0,
+          "lead_only": 0,
+          "detail": []
+        },
+        "loose": {
+          "rt": 0,
+          "lead_only": 2,
+          "detail": []
+        }
+      },
+      "rt_events": 0
+    },
+    {
+      "address": "0xa72dc2d42398e54634fc28e6769f8ce3ae011807",
+      "majors": 684,
+      "tiers": {
+        "strict": {
+          "rt": 0,
+          "lead_only": 0,
+          "detail": []
+        },
+        "medium": {
+          "rt": 0,
+          "lead_only": 0,
+          "detail": []
+        },
+        "loose": {
+          "rt": 0,
+          "lead_only": 0,
+          "detail": []
+        }
+      },
+      "rt_events": 0
+    },
+    {
+      "address": "0x72a7837428320ec3c0c072b0c0fc192d6df0c83f",
+      "majors": 551,
+      "tiers": {
+        "strict": {
+          "rt": 0,
+          "lead_only": 0,
+          "detail": []
+        },
+        "medium": {
+          "rt": 0,
+          "lead_only": 1,
+          "detail": []
+        },
+        "loose": {
+          "rt": 0,
+          "lead_only": 1,
+          "detail": []
+        }
+      },
+      "rt_events": 0
+    },
+    {
+      "address": "0x0c349d9b92fbd172bbb5a17a9db0a673a6a10ad3",
+      "majors": 51,
+      "tiers": {
+        "strict": {
+          "rt": 0,
+          "lead_only": 0,
+          "detail": []
+        },
+        "medium": {
+          "rt": 0,
+          "lead_only": 0,
+          "detail": []
+        },
+        "loose": {
+          "rt": 0,
+          "lead_only": 0,
+          "detail": []
+        }
+      },
+      "rt_events": 0
+    },
+    {
+      "address": "0xb123cd952875d8014efc7a9160a7531a5fe8f5ca",
+      "majors": 782,
+      "tiers": {
+        "strict": {
+          "rt": 0,
+          "lead_only": 0,
+          "detail": []
+        },
+        "medium": {
+          "rt": 0,
+          "lead_only": 0,
+          "detail": []
+        },
+        "loose": {
+          "rt": 0,
+          "lead_only": 0,
+          "detail": []
+        }
+      },
+      "rt_events": 0
+    },
+    {
+      "address": "0x71b117d68974aa4c5615669ae70e8e13ce7479c8",
+      "majors": 1658,
+      "tiers": {
+        "strict": {
+          "rt": 0,
+          "lead_only": 0,
+          "detail": []
+        },
+        "medium": {
+          "rt": 0,
+          "lead_only": 0,
+          "detail": []
+        },
+        "loose": {
+          "rt": 0,
+          "lead_only": 0,
+          "detail": []
+        }
+      },
+      "rt_events": 0
+    },
+    {
+      "address": "0xc2c060e3309461ec7c4291b1aac6c89aa228727e",
+      "majors": 1001,
+      "tiers": {
+        "strict": {
+          "rt": 0,
+          "lead_only": 0,
+          "detail": []
+        },
+        "medium": {
+          "rt": 0,
+          "lead_only": 0,
+          "detail": []
+        },
+        "loose": {
+          "rt": 0,
+          "lead_only": 0,
+          "detail": []
+        }
+      },
+      "rt_events": 0
+    },
+    {
+      "address": "0xbe494a5e3a719a78a45a47ab453b7b0199b9d101",
+      "majors": 6000,
+      "tiers": {
+        "strict": {
+          "rt": 0,
+          "lead_only": 0,
+          "detail": []
+        },
+        "medium": {
+          "rt": 0,
+          "lead_only": 0,
+          "detail": []
+        },
+        "loose": {
+          "rt": 0,
+          "lead_only": 0,
+          "detail": []
+        }
+      },
+      "rt_events": 0
+    },
+    {
+      "address": "0x8e096995c3e4a3f0bc5b3ea1cba94de2aa4d70c9",
+      "majors": 5413,
+      "tiers": {
+        "strict": {
+          "rt": 0,
+          "lead_only": 0,
+          "detail": []
+        },
+        "medium": {
+          "rt": 0,
+          "lead_only": 0,
+          "detail": []
+        },
+        "loose": {
+          "rt": 0,
+          "lead_only": 2,
+          "detail": []
+        }
+      },
+      "rt_events": 0
+    },
+    {
+      "address": "0xac03fc4c21902e4e934b4367cb1a6c6e3f0d8037",
+      "majors": 4,
+      "tiers": {
+        "strict": {
+          "rt": 0,
+          "lead_only": 0,
+          "detail": []
+        },
+        "medium": {
+          "rt": 0,
+          "lead_only": 0,
+          "detail": []
+        },
+        "loose": {
+          "rt": 0,
+          "lead_only": 0,
+          "detail": []
+        }
+      },
+      "rt_events": 0
+    },
+    {
+      "address": "0x406073860818ecfb7dca0706a6bac73faa95bd3e",
+      "majors": 797,
+      "tiers": {
+        "strict": {
+          "rt": 0,
+          "lead_only": 0,
+          "detail": []
+        },
+        "medium": {
+          "rt": 0,
+          "lead_only": 0,
+          "detail": []
+        },
+        "loose": {
+          "rt": 0,
+          "lead_only": 1,
+          "detail": []
+        }
+      },
+      "rt_events": 0
+    },
+    {
+      "address": "0xa3d843b6a057504284006bef6f34a2e9bc80fb6b",
+      "majors": 5228,
+      "tiers": {
+        "strict": {
+          "rt": 0,
+          "lead_only": 0,
+          "detail": []
+        },
+        "medium": {
+          "rt": 0,
+          "lead_only": 0,
+          "detail": []
+        },
+        "loose": {
+          "rt": 0,
+          "lead_only": 0,
+          "detail": []
+        }
+      },
+      "rt_events": 0
+    },
+    {
+      "address": "0xb58e1eb8256689e47f589ba6f6a28657d997bf2f",
+      "majors": 1398,
+      "tiers": {
+        "strict": {
+          "rt": 0,
+          "lead_only": 0,
+          "detail": []
+        },
+        "medium": {
+          "rt": 0,
+          "lead_only": 0,
+          "detail": []
+        },
+        "loose": {
+          "rt": 0,
+          "lead_only": 0,
+          "detail": []
+        }
+      },
+      "rt_events": 0
+    },
+    {
+      "address": "0x8ccee825f44c99fbdaa79464d5eb8beed9313da2",
+      "majors": 93,
+      "tiers": {
+        "strict": {
+          "rt": 0,
+          "lead_only": 0,
+          "detail": []
+        },
+        "medium": {
+          "rt": 0,
+          "lead_only": 0,
+          "detail": []
+        },
+        "loose": {
+          "rt": 0,
+          "lead_only": 0,
+          "detail": []
+        }
+      },
+      "rt_events": 0
+    },
+    {
+      "address": "0xa99c9e5484e5b26635c07876d0859a1819ff40d5",
+      "majors": 486,
+      "tiers": {
+        "strict": {
+          "rt": 0,
+          "lead_only": 0,
+          "detail": []
+        },
+        "medium": {
+          "rt": 0,
+          "lead_only": 0,
+          "detail": []
+        },
+        "loose": {
+          "rt": 0,
+          "lead_only": 1,
+          "detail": []
+        }
+      },
+      "rt_events": 0
+    },
+    {
+      "address": "0xaa3f51a8095d030e38317e917839c87315300bee",
+      "majors": 553,
+      "tiers": {
+        "strict": {
+          "rt": 0,
+          "lead_only": 0,
+          "detail": []
+        },
+        "medium": {
+          "rt": 0,
+          "lead_only": 2,
+          "detail": []
+        },
+        "loose": {
+          "rt": 0,
+          "lead_only": 4,
+          "detail": []
+        }
+      },
+      "rt_events": 0
+    },
+    {
+      "address": "0x6a02aedceac5a6813d960e4dae1910d9c458e77c",
+      "majors": 1606,
+      "tiers": {
+        "strict": {
+          "rt": 0,
+          "lead_only": 0,
+          "detail": []
+        },
+        "medium": {
+          "rt": 0,
+          "lead_only": 0,
+          "detail": []
+        },
+        "loose": {
+          "rt": 0,
+          "lead_only": 0,
+          "detail": []
+        }
+      },
+      "rt_events": 0
+    },
+    {
+      "address": "0x4cc390eada38741fe9c77036b7c38537fb5f38ea",
+      "majors": 2306,
+      "tiers": {
+        "strict": {
+          "rt": 0,
+          "lead_only": 0,
+          "detail": []
+        },
+        "medium": {
+          "rt": 0,
+          "lead_only": 0,
+          "detail": []
+        },
+        "loose": {
+          "rt": 0,
+          "lead_only": 1,
+          "detail": []
+        }
+      },
+      "rt_events": 0
+    },
+    {
+      "address": "0x747932275df815ae819944e57ebb5b3e115ad68b",
+      "majors": 3240,
+      "tiers": {
+        "strict": {
+          "rt": 0,
+          "lead_only": 0,
+          "detail": []
+        },
+        "medium": {
+          "rt": 0,
+          "lead_only": 0,
+          "detail": []
+        },
+        "loose": {
+          "rt": 0,
+          "lead_only": 0,
+          "detail": []
+        }
+      },
+      "rt_events": 0
+    },
+    {
+      "address": "0x807ddb66768050ee457165ad6d21cc1275a896ac",
+      "majors": 839,
+      "tiers": {
+        "strict": {
+          "rt": 0,
+          "lead_only": 0,
+          "detail": []
+        },
+        "medium": {
+          "rt": 0,
+          "lead_only": 1,
+          "detail": []
+        },
+        "loose": {
+          "rt": 0,
+          "lead_only": 2,
+          "detail": []
+        }
+      },
+      "rt_events": 0
+    },
+    {
+      "address": "0x5049695d6faacffd34f2d24f3f0ff8c64d88f71c",
+      "majors": 174,
+      "tiers": {
+        "strict": {
+          "rt": 0,
+          "lead_only": 0,
+          "detail": []
+        },
+        "medium": {
+          "rt": 0,
+          "lead_only": 0,
+          "detail": []
+        },
+        "loose": {
+          "rt": 0,
+          "lead_only": 2,
+          "detail": []
+        }
+      },
+      "rt_events": 0
+    },
+    {
+      "address": "0x01b7e73cdad95d407e8696e04194a75f19744801",
+      "majors": 185,
+      "tiers": {
+        "strict": {
+          "rt": 0,
+          "lead_only": 0,
+          "detail": []
+        },
+        "medium": {
+          "rt": 0,
+          "lead_only": 0,
+          "detail": []
+        },
+        "loose": {
+          "rt": 0,
+          "lead_only": 0,
+          "detail": []
+        }
+      },
+      "rt_events": 0
+    },
+    {
+      "address": "0x203f4c410f3c35cead9f35b6de2f66e773d7f26e",
+      "majors": 879,
+      "tiers": {
+        "strict": {
+          "rt": 0,
+          "lead_only": 0,
+          "detail": []
+        },
+        "medium": {
+          "rt": 0,
+          "lead_only": 0,
+          "detail": []
+        },
+        "loose": {
+          "rt": 0,
+          "lead_only": 0,
+          "detail": []
+        }
+      },
+      "rt_events": 0
+    },
+    {
+      "address": "0x1e6db0fdf1a0f6edb78753184eb0fe5485c2eef2",
+      "majors": 346,
+      "tiers": {
+        "strict": {
+          "rt": 0,
+          "lead_only": 0,
+          "detail": []
+        },
+        "medium": {
+          "rt": 0,
+          "lead_only": 1,
+          "detail": []
+        },
+        "loose": {
+          "rt": 0,
+          "lead_only": 1,
+          "detail": []
+        }
+      },
+      "rt_events": 0
     },
     {
       "address": "0x6979dde2781dc4ec843641b10b2a2f2e0f4bda62",
       "majors": 11928,
-      "rt_events": 0,
-      "lead_only_events": 0,
-      "rt_detail": []
+      "tiers": {
+        "strict": {
+          "rt": 0,
+          "lead_only": 0,
+          "detail": []
+        },
+        "medium": {
+          "rt": 0,
+          "lead_only": 1,
+          "detail": []
+        },
+        "loose": {
+          "rt": 0,
+          "lead_only": 1,
+          "detail": []
+        }
+      },
+      "rt_events": 0
     },
     {
       "address": "0xcefd7652228a8619d0af5b95389cd49387cd30e0",
       "majors": 1616,
-      "rt_events": 0,
-      "lead_only_events": 0,
-      "rt_detail": []
+      "tiers": {
+        "strict": {
+          "rt": 0,
+          "lead_only": 0,
+          "detail": []
+        },
+        "medium": {
+          "rt": 0,
+          "lead_only": 1,
+          "detail": []
+        },
+        "loose": {
+          "rt": 0,
+          "lead_only": 1,
+          "detail": []
+        }
+      },
+      "rt_events": 0
     },
     {
-      "address": "0x3b11267dfc4b9ebe8427e8f557056b4b6ce98112",
-      "majors": 940,
-      "rt_events": 0,
-      "lead_only_events": 0,
-      "rt_detail": []
+      "address": "0x4b4bdd734b87bc48683d24f1dc6159e3ab6d6409",
+      "majors": 657,
+      "tiers": {
+        "strict": {
+          "rt": 0,
+          "lead_only": 0,
+          "detail": []
+        },
+        "medium": {
+          "rt": 0,
+          "lead_only": 0,
+          "detail": []
+        },
+        "loose": {
+          "rt": 0,
+          "lead_only": 0,
+          "detail": []
+        }
+      },
+      "rt_events": 0
     },
     {
-      "address": "0x5638484ba2d2f1d1d35020572b0aa439a9869192",
-      "majors": 3065,
-      "rt_events": 0,
-      "lead_only_events": 0,
-      "rt_detail": []
+      "address": "0x1e5b1efd99c89d39b59b28a19e6b42bbeb98433b",
+      "majors": 575,
+      "tiers": {
+        "strict": {
+          "rt": 0,
+          "lead_only": 0,
+          "detail": []
+        },
+        "medium": {
+          "rt": 0,
+          "lead_only": 0,
+          "detail": []
+        },
+        "loose": {
+          "rt": 0,
+          "lead_only": 0,
+          "detail": []
+        }
+      },
+      "rt_events": 0
+    },
+    {
+      "address": "0x7de07bb8a43c1953a019906cf2c8287dae478be9",
+      "majors": 1455,
+      "tiers": {
+        "strict": {
+          "rt": 0,
+          "lead_only": 0,
+          "detail": []
+        },
+        "medium": {
+          "rt": 0,
+          "lead_only": 0,
+          "detail": []
+        },
+        "loose": {
+          "rt": 0,
+          "lead_only": 0,
+          "detail": []
+        }
+      },
+      "rt_events": 0
+    },
+    {
+      "address": "0x7c9063122c01837fe83da2521056e10c9b6dd129",
+      "majors": 31,
+      "tiers": {
+        "strict": {
+          "rt": 0,
+          "lead_only": 0,
+          "detail": []
+        },
+        "medium": {
+          "rt": 0,
+          "lead_only": 0,
+          "detail": []
+        },
+        "loose": {
+          "rt": 0,
+          "lead_only": 0,
+          "detail": []
+        }
+      },
+      "rt_events": 0
+    },
+    {
+      "address": "0xae551d73161bac3315c5ade0e2d499a44ebe2236",
+      "majors": 38,
+      "tiers": {
+        "strict": {
+          "rt": 0,
+          "lead_only": 0,
+          "detail": []
+        },
+        "medium": {
+          "rt": 0,
+          "lead_only": 0,
+          "detail": []
+        },
+        "loose": {
+          "rt": 0,
+          "lead_only": 0,
+          "detail": []
+        }
+      },
+      "rt_events": 0
     },
     {
       "address": "0x0d9654172413fa8bcd2f5738a7b2fa6d19864125",
       "majors": 8579,
-      "rt_events": 0,
-      "lead_only_events": 0,
-      "rt_detail": []
+      "tiers": {
+        "strict": {
+          "rt": 0,
+          "lead_only": 0,
+          "detail": []
+        },
+        "medium": {
+          "rt": 0,
+          "lead_only": 0,
+          "detail": []
+        },
+        "loose": {
+          "rt": 0,
+          "lead_only": 0,
+          "detail": []
+        }
+      },
+      "rt_events": 0
     },
     {
       "address": "0x9b804150c9a4f6db44ba4fd67704eadb5be360c1",
       "majors": 1109,
-      "rt_events": 0,
-      "lead_only_events": 0,
-      "rt_detail": []
+      "tiers": {
+        "strict": {
+          "rt": 0,
+          "lead_only": 0,
+          "detail": []
+        },
+        "medium": {
+          "rt": 0,
+          "lead_only": 0,
+          "detail": []
+        },
+        "loose": {
+          "rt": 0,
+          "lead_only": 0,
+          "detail": []
+        }
+      },
+      "rt_events": 0
     },
     {
       "address": "0xf3362789cecf25c6a31288d172880d7ad9b81801",
       "majors": 6601,
-      "rt_events": 0,
-      "lead_only_events": 0,
-      "rt_detail": []
+      "tiers": {
+        "strict": {
+          "rt": 0,
+          "lead_only": 0,
+          "detail": []
+        },
+        "medium": {
+          "rt": 0,
+          "lead_only": 0,
+          "detail": []
+        },
+        "loose": {
+          "rt": 0,
+          "lead_only": 0,
+          "detail": []
+        }
+      },
+      "rt_events": 0
     },
     {
       "address": "0x5198eff88dea32108605bcdb109a99dc397190d8",
       "majors": 232,
-      "rt_events": 0,
-      "lead_only_events": 0,
-      "rt_detail": []
+      "tiers": {
+        "strict": {
+          "rt": 0,
+          "lead_only": 0,
+          "detail": []
+        },
+        "medium": {
+          "rt": 0,
+          "lead_only": 0,
+          "detail": []
+        },
+        "loose": {
+          "rt": 0,
+          "lead_only": 0,
+          "detail": []
+        }
+      },
+      "rt_events": 0
     },
     {
       "address": "0xdb79fe310ea2972137d2a23658db0234902b517d",
       "majors": 1496,
-      "rt_events": 0,
-      "lead_only_events": 0,
-      "rt_detail": []
+      "tiers": {
+        "strict": {
+          "rt": 0,
+          "lead_only": 0,
+          "detail": []
+        },
+        "medium": {
+          "rt": 0,
+          "lead_only": 0,
+          "detail": []
+        },
+        "loose": {
+          "rt": 0,
+          "lead_only": 1,
+          "detail": []
+        }
+      },
+      "rt_events": 0
     },
     {
       "address": "0x8250a7f9fca9c33e68eead8c05c1d58c8fd70d13",
       "majors": 873,
-      "rt_events": 0,
-      "lead_only_events": 0,
-      "rt_detail": []
+      "tiers": {
+        "strict": {
+          "rt": 0,
+          "lead_only": 0,
+          "detail": []
+        },
+        "medium": {
+          "rt": 0,
+          "lead_only": 0,
+          "detail": []
+        },
+        "loose": {
+          "rt": 0,
+          "lead_only": 0,
+          "detail": []
+        }
+      },
+      "rt_events": 0
     },
     {
       "address": "0x3adaa1d2d0598c9b661a746649d20e1e8aad9b3a",
       "majors": 307,
-      "rt_events": 0,
-      "lead_only_events": 0,
-      "rt_detail": []
+      "tiers": {
+        "strict": {
+          "rt": 0,
+          "lead_only": 0,
+          "detail": []
+        },
+        "medium": {
+          "rt": 0,
+          "lead_only": 0,
+          "detail": []
+        },
+        "loose": {
+          "rt": 0,
+          "lead_only": 0,
+          "detail": []
+        }
+      },
+      "rt_events": 0
     },
     {
       "address": "0x8a48dcaffdf71c547cd0fd0434ae40fa57bcbf0f",
       "majors": 805,
-      "rt_events": 0,
-      "lead_only_events": 0,
-      "rt_detail": []
+      "tiers": {
+        "strict": {
+          "rt": 0,
+          "lead_only": 0,
+          "detail": []
+        },
+        "medium": {
+          "rt": 0,
+          "lead_only": 0,
+          "detail": []
+        },
+        "loose": {
+          "rt": 0,
+          "lead_only": 0,
+          "detail": []
+        }
+      },
+      "rt_events": 0
     }
   ]
 }
