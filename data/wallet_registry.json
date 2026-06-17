@@ -167,7 +167,9 @@
         "保有:スイング(<48h)",
         "方向:無/フラット"
       ],
-      "notes_jp": "【ひとことで】🔴 インサイダー（内部情報で先回り）が一番疑わしいウォレット。\n【正体】名前は分からない（匿名）。\n【お金はどこから？】プログラム(コントラクト)経由 → 人の財布までは見えない\n【もう一段たどると】お金の出どころは Kromatika というプログラム(コントラクト)経由で、人の財布までは遡れなかった（足を消している）。\n【よく取引する相手】🤖 Circle: CCTP TokenMinterV2 [0xfd78ee]、Relay Protocol: EOA Bridge [0xf70da9]\n【グループ】同じ資金元から同時に動いた『協調クラスタA』の一員。\n【詳しい判定】格上げ(質的転換): 協調クラスタAの中核・先行性最有力。ただしトレンド入りでも一部説明可で確信は中"
+      "notes_jp": "【ひとことで】🔴 インサイダー（内部情報で先回り）が一番疑わしいウォレット。\n【正体】名前は分からない（匿名）。\n【お金はどこから？】プログラム(コントラクト)経由 → 人の財布までは見えない\n【もう一段たどると】お金の出どころは Kromatika というプログラム(コントラクト)経由で、人の財布までは遡れなかった（足を消している）。\n【よく取引する相手】🤖 Circle: CCTP TokenMinterV2 [0xfd78ee]、Relay Protocol: EOA Bridge [0xf70da9]\n【グループ】同じ資金元から同時に動いた『協調クラスタA』の一員。\n【詳しい判定】格上げ(質的転換): 協調クラスタAの中核・先行性最有力。ただしトレンド入りでも一部説明可で確信は中",
+      "roi_alltime": 4.2163714294,
+      "n_fills_14d": 773
     },
     "0x10b6f072fabe21bc72ffd77ff5d4414e6cef2980": {
       "address": "0x10b6f072fabe21bc72ffd77ff5d4414e6cef2980",
@@ -328,7 +330,9 @@
         "頻度:少(<50)",
         "方向:無/フラット"
       ],
-      "notes_jp": "【ひとことで】🔵 たぶんプロ。まだ詳しく調べていない。\n【正体】High Balance（Nansenが付けた名前/ラベル）\n【お金はどこから？】別の財布（[0x341a63]）から\n【よく取引する相手】🤖 LI.FI: Diamond Facet Bridge [0x1231de]、🤖 Hyperliquid: Bridge 2 [0x2df1c5]"
+      "notes_jp": "【ひとことで】🔵 たぶんプロ。まだ詳しく調べていない。\n【正体】High Balance（Nansenが付けた名前/ラベル）\n【お金はどこから？】別の財布（[0x341a63]）から\n【よく取引する相手】🤖 LI.FI: Diamond Facet Bridge [0x1231de]、🤖 Hyperliquid: Bridge 2 [0x2df1c5]",
+      "roi_alltime": 4.5881849966,
+      "n_fills_14d": 3
     },
     "0x128fae9d18a2f70d98a03c26bf17b67d97ce1f3c": {
       "address": "0x128fae9d18a2f70d98a03c26bf17b67d97ce1f3c",
@@ -546,7 +550,8 @@
         "レバ:低(<3x)",
         "銘柄:BTC専"
       ],
-      "notes_jp": "【ひとことで】⚪ 数字だけ見ると怪しかったが、調べたらシロだった。\n【正体】名前は分からない（匿名）。\n【お金はどこから？】別の財布（High Activity）から\n【よく取引する相手】Token Millionaire、0x113dc983、0xfffc7416\n【詳しい判定】格下げ: MM/HFT残滓。インサイダー性無し"
+      "notes_jp": "【ひとことで】⚪ 数字だけ見ると怪しかったが、調べたらシロだった。\n【正体】名前は分からない（匿名）。\n【お金はどこから？】別の財布（High Activity）から\n【よく取引する相手】Token Millionaire、0x113dc983、0xfffc7416\n【詳しい判定】格下げ: MM/HFT残滓。インサイダー性無し",
+      "roi_alltime": 5.5392517512
     },
     "0x83b00972aafcc3d06d45b1b823079f9a414da46e": {
       "address": "0x83b00972aafcc3d06d45b1b823079f9a414da46e",
@@ -842,7 +847,8 @@
         "頻度:少(<50)",
         "保有:スキャルプ(<2h)",
         "方向:無/フラット"
-      ]
+      ],
+      "roi_alltime": 0.165159995
     },
     "0xdd54150be70967523a256f92db193845acf58714": {
       "address": "0xdd54150be70967523a256f92db193845acf58714",
@@ -1416,7 +1422,9 @@
         "保有:短期(<12h)",
         "方向:無/フラット"
       ],
-      "notes_jp": "【ひとことで】🟢 ちゃんと実力で勝っている本物のプロ。\n【正体】名前は分からない（匿名）。\n【お金はどこから？】別の財布（High Balance [0xb02a9b]）から\n【よく取引する相手】🤖 Circle: USDC Bridge [0xa95d9c]、High Balance [0xb02a9b]、Burn Address [0x000000]\n【詳しい判定】格上げ: 高回転スカルパー(リスク管理良好)"
+      "notes_jp": "【ひとことで】🟢 ちゃんと実力で勝っている本物のプロ。\n【正体】名前は分からない（匿名）。\n【お金はどこから？】別の財布（High Balance [0xb02a9b]）から\n【よく取引する相手】🤖 Circle: USDC Bridge [0xa95d9c]、High Balance [0xb02a9b]、Burn Address [0x000000]\n【詳しい判定】格上げ: 高回転スカルパー(リスク管理良好)",
+      "roi_alltime": 2.3359099975,
+      "n_fills_14d": 275
     },
     "0x8463d6ffcbfb56bf20ab2e1111f9a0e8359533f2": {
       "address": "0x8463d6ffcbfb56bf20ab2e1111f9a0e8359533f2",
@@ -1523,7 +1531,9 @@
         "銘柄:BTC専",
         "ID:ENS有"
       ],
-      "notes_jp": "【ひとことで】🟢 ちゃんと実力で勝っている本物のプロ。\n【正体】\"homerfan33\" on OpenSea、High Activity、coolwaterxyz-hf.eth*、homerfan33.eth、squigglesherpa.eth、stimmyfund.eth（Nansenが付けた名前/ラベル）\n【お金はどこから？】別の財布（[0x9574d6]）から\n【よく取引する相手】🤖 Hyperliquid: Bridge 2 [0x2df1c5]、🏦 Kraken: Deposit [0xbe5afd]、​​🤖 USDC Bridge [0xc6868e]\n【詳しい判定】格上げ: トレンド非依存の規律型本物。最優良候補"
+      "notes_jp": "【ひとことで】🟢 ちゃんと実力で勝っている本物のプロ。\n【正体】\"homerfan33\" on OpenSea、High Activity、coolwaterxyz-hf.eth*、homerfan33.eth、squigglesherpa.eth、stimmyfund.eth（Nansenが付けた名前/ラベル）\n【お金はどこから？】別の財布（[0x9574d6]）から\n【よく取引する相手】🤖 Hyperliquid: Bridge 2 [0x2df1c5]、🏦 Kraken: Deposit [0xbe5afd]、​​🤖 USDC Bridge [0xc6868e]\n【詳しい判定】格上げ: トレンド非依存の規律型本物。最優良候補",
+      "roi_alltime": 37.7674856312,
+      "n_fills_14d": 547
     },
     "0xd117b0459ba2af1a397e76baa5efd580a3f7f99f": {
       "address": "0xd117b0459ba2af1a397e76baa5efd580a3f7f99f",
@@ -1712,7 +1722,9 @@
         "レバ:低(<3x)",
         "銘柄:BTC専"
       ],
-      "notes_jp": "【ひとことで】🟢 ちゃんと実力で勝っている本物のプロ。\n【正体】High Balance（Nansenが付けた名前/ラベル）\n【お金はどこから？】Binance(取引所)から入金 → 取引所が『この人が誰か』を知っている\n【よく取引する相手】🤖 🏦 Binance: Hot Wallet [0xee7ae8]、🏦 Binance: Deposit [0x9663ca]、[0x71a20c]\n【詳しい判定】格上げ: 押し目選別力のある規律型本物"
+      "notes_jp": "【ひとことで】🟢 ちゃんと実力で勝っている本物のプロ。\n【正体】High Balance（Nansenが付けた名前/ラベル）\n【お金はどこから？】Binance(取引所)から入金 → 取引所が『この人が誰か』を知っている\n【よく取引する相手】🤖 🏦 Binance: Hot Wallet [0xee7ae8]、🏦 Binance: Deposit [0x9663ca]、[0x71a20c]\n【詳しい判定】格上げ: 押し目選別力のある規律型本物",
+      "roi_alltime": 1.8603936966,
+      "n_fills_14d": 598
     },
     "0xd05808946809c180d190608e13f473db30aa8524": {
       "address": "0xd05808946809c180d190608e13f473db30aa8524",
@@ -1929,7 +1941,8 @@
         "方向:ショート",
         "レバ:低(<3x)",
         "銘柄:BTC専"
-      ]
+      ],
+      "roi_alltime": 1.2135663771
     },
     "0xdd08886cb92c689c7d89c88f048028293296ead1": {
       "address": "0xdd08886cb92c689c7d89c88f048028293296ead1",
@@ -2167,7 +2180,8 @@
         "方向:ショート",
         "レバ:低(<3x)",
         "銘柄:BTC専"
-      ]
+      ],
+      "roi_alltime": 0.3289917211
     },
     "0x36eaaca5159a1dcbe60aaad12faaadb0fce6c58b": {
       "address": "0x36eaaca5159a1dcbe60aaad12faaadb0fce6c58b",
@@ -2293,7 +2307,9 @@
         "保有:短期(<12h)",
         "方向:無/フラット"
       ],
-      "notes_jp": "【ひとことで】🔵 たぶんプロ。まだ詳しく調べていない。\n【正体】名前は分からない（匿名）。\n【お金はどこから？】別の財布（HL Perps Day Trader [0x0b1ba7]）から\n【よく取引する相手】🤖 Hyperliquid: Bridge 2 [0x2df1c5]、🤖 Across Protocol: Spoke Pool [0xe35e98]、🤖 Circle: CCTP TokenMinterV2 [0xfd78ee]"
+      "notes_jp": "【ひとことで】🔵 たぶんプロ。まだ詳しく調べていない。\n【正体】名前は分からない（匿名）。\n【お金はどこから？】別の財布（HL Perps Day Trader [0x0b1ba7]）から\n【よく取引する相手】🤖 Hyperliquid: Bridge 2 [0x2df1c5]、🤖 Across Protocol: Spoke Pool [0xe35e98]、🤖 Circle: CCTP TokenMinterV2 [0xfd78ee]",
+      "roi_alltime": 2.2322574706,
+      "n_fills_14d": 405
     },
     "0x103e9d15f8a102ef9333ad8b66ffe25b0db448a4": {
       "address": "0x103e9d15f8a102ef9333ad8b66ffe25b0db448a4",
@@ -2347,7 +2363,8 @@
         "方向:ショート",
         "レバ:中(3-10x)",
         "銘柄:BTC専"
-      ]
+      ],
+      "roi_alltime": 4.4822247783
     },
     "0x5a5ed3083d79f31f295bcdd71fdfb7a188132538": {
       "address": "0x5a5ed3083d79f31f295bcdd71fdfb7a188132538",
@@ -2540,7 +2557,8 @@
         "レバ:中(3-10x)",
         "銘柄:SOL専"
       ],
-      "notes_jp": "【ひとことで】🟣 プロ扱いだったが、実は無謀な賭けで稼いだだけかも。\n【正体】名前は分からない（匿名）。\n【お金はどこから？】別の財布（Token Millionaire）から\n【よく取引する相手】Token Millionaire、High Activity、Token Millionaire\n【詳しい判定】格下げ: 博打的サイジング。pro_trader格付けは過大"
+      "notes_jp": "【ひとことで】🟣 プロ扱いだったが、実は無謀な賭けで稼いだだけかも。\n【正体】名前は分からない（匿名）。\n【お金はどこから？】別の財布（Token Millionaire）から\n【よく取引する相手】Token Millionaire、High Activity、Token Millionaire\n【詳しい判定】格下げ: 博打的サイジング。pro_trader格付けは過大",
+      "roi_alltime": 0.1597076958
     },
     "0xec9045405a878d01cdb836f82a6dd2abd49a169c": {
       "address": "0xec9045405a878d01cdb836f82a6dd2abd49a169c",
@@ -2594,7 +2612,8 @@
         "方向:ショート",
         "レバ:中(3-10x)",
         "銘柄:BTC専"
-      ]
+      ],
+      "roi_alltime": 1.8526989185
     },
     "0x8c783a3877bfab4e318a7dc521157cc89f85202c": {
       "address": "0x8c783a3877bfab4e318a7dc521157cc89f85202c",
@@ -2821,7 +2840,8 @@
         "頻度:中(50+)",
         "保有:スイング(<48h)",
         "方向:無/フラット"
-      ]
+      ],
+      "roi_alltime": 3.3974007975
     },
     "0xebe6cc6820a76705b6654fdd1254256dcd54f1df": {
       "address": "0xebe6cc6820a76705b6654fdd1254256dcd54f1df",
@@ -2874,7 +2894,8 @@
         "頻度:少(<50)",
         "保有:スイング(<48h)",
         "方向:無/フラット"
-      ]
+      ],
+      "roi_alltime": 5.6183715513
     },
     "0x36610519ba3fab20e865a54342d516ddbe1678ae": {
       "address": "0x36610519ba3fab20e865a54342d516ddbe1678ae",
@@ -2927,7 +2948,8 @@
         "頻度:中(50+)",
         "保有:スイング(<48h)",
         "方向:無/フラット"
-      ]
+      ],
+      "roi_alltime": 1.5135751168
     },
     "0xfc37faf026597474691dca71ed9dcae1a6633b84": {
       "address": "0xfc37faf026597474691dca71ed9dcae1a6633b84",
@@ -2980,7 +3002,8 @@
         "頻度:中(50+)",
         "保有:短期(<12h)",
         "方向:無/フラット"
-      ]
+      ],
+      "roi_alltime": 1.7863601052
     },
     "0x8d6427d95427d2af0c3e9a4c80e0e0e604299230": {
       "address": "0x8d6427d95427d2af0c3e9a4c80e0e0e604299230",
@@ -3033,7 +3056,8 @@
         "頻度:中(50+)",
         "保有:スイング(<48h)",
         "方向:無/フラット"
-      ]
+      ],
+      "roi_alltime": -0.3546094446
     },
     "0x136c473f6d88c1ec17c2ed6b6cb273983e028458": {
       "address": "0x136c473f6d88c1ec17c2ed6b6cb273983e028458",
@@ -3257,7 +3281,8 @@
         "方向:ショート",
         "レバ:中(3-10x)",
         "銘柄:BTC専"
-      ]
+      ],
+      "roi_alltime": 1.4374676273
     },
     "0xf47fe5f0f6c3ebfde365e34e6d15fb2ed4c39cdb": {
       "address": "0xf47fe5f0f6c3ebfde365e34e6d15fb2ed4c39cdb",
@@ -3369,7 +3394,8 @@
         "方向:ショート",
         "レバ:低(<3x)",
         "銘柄:SOL専"
-      ]
+      ],
+      "roi_alltime": 0.3559698895
     },
     "0x7806eeb0cdfb52dbe14ed12359526eea55612cf3": {
       "address": "0x7806eeb0cdfb52dbe14ed12359526eea55612cf3",
@@ -3535,7 +3561,8 @@
         "頻度:中(50+)",
         "保有:スキャルプ(<2h)",
         "方向:無/フラット"
-      ]
+      ],
+      "roi_alltime": 0.8982024592
     },
     "0x56654885ad39155235336c0ff01b3337693c3882": {
       "address": "0x56654885ad39155235336c0ff01b3337693c3882",
@@ -3645,7 +3672,8 @@
         "頻度:少(<50)",
         "保有:スキャルプ(<2h)",
         "方向:無/フラット"
-      ]
+      ],
+      "roi_alltime": 0.8141284984
     },
     "0xaddc680878f96b93189f700d17f4a9bfcf80ff54": {
       "address": "0xaddc680878f96b93189f700d17f4a9bfcf80ff54",
@@ -3699,7 +3727,8 @@
         "方向:ロング",
         "レバ:低(<3x)",
         "銘柄:BTC専"
-      ]
+      ],
+      "roi_alltime": 1.9444890802
     },
     "0x21735e9daea7d836536d346ee280789d912082f9": {
       "address": "0x21735e9daea7d836536d346ee280789d912082f9",
@@ -3752,7 +3781,8 @@
         "頻度:多(500+)",
         "保有:長期(>48h)",
         "方向:無/フラット"
-      ]
+      ],
+      "roi_alltime": 2.9385450713
     },
     "0x696adb8693ed15f14f8a80bb4f9fe061f58868db": {
       "address": "0x696adb8693ed15f14f8a80bb4f9fe061f58868db",
@@ -3862,7 +3892,8 @@
         "方向:ショート",
         "レバ:中(3-10x)",
         "銘柄:BTC主"
-      ]
+      ],
+      "roi_alltime": 2.608293252
     },
     "0xc568587857cc2895a3d83d00a05365ea92c62def": {
       "address": "0xc568587857cc2895a3d83d00a05365ea92c62def",
@@ -3915,7 +3946,8 @@
         "頻度:中(50+)",
         "保有:短期(<12h)",
         "方向:無/フラット"
-      ]
+      ],
+      "roi_alltime": 2.0507677971
     },
     "0xdb799415fd528a297949be13775e424b3122a5b0": {
       "address": "0xdb799415fd528a297949be13775e424b3122a5b0",
@@ -3968,7 +4000,8 @@
         "頻度:中(50+)",
         "保有:スイング(<48h)",
         "方向:無/フラット"
-      ]
+      ],
+      "roi_alltime": 0.5535054121
     },
     "0xfe8c8076596dd917a20a31007ced69ce339129a1": {
       "address": "0xfe8c8076596dd917a20a31007ced69ce339129a1",
@@ -4191,7 +4224,8 @@
         "頻度:中(50+)",
         "保有:スキャルプ(<2h)",
         "方向:無/フラット"
-      ]
+      ],
+      "roi_alltime": 0.2455563257
     },
     "0x014bd1b946287bfdd8afe1d8833103c3baa36d74": {
       "address": "0x014bd1b946287bfdd8afe1d8833103c3baa36d74",
@@ -4301,7 +4335,8 @@
         "方向:ロング",
         "レバ:低(<3x)",
         "銘柄:BTC専"
-      ]
+      ],
+      "roi_alltime": 1.7565138778
     },
     "0x4cae5bed586f6e73ae54ebd40a4ac4ed2c477c34": {
       "address": "0x4cae5bed586f6e73ae54ebd40a4ac4ed2c477c34",
@@ -4356,7 +4391,8 @@
         "方向:ロング",
         "レバ:低(<3x)",
         "銘柄:SOL専"
-      ]
+      ],
+      "roi_alltime": 7.099408877
     },
     "0x0c349d9b92fbd172bbb5a17a9db0a673a6a10ad3": {
       "address": "0x0c349d9b92fbd172bbb5a17a9db0a673a6a10ad3",
@@ -4549,7 +4585,8 @@
         "方向:ショート",
         "レバ:中(3-10x)",
         "銘柄:BTC専"
-      ]
+      ],
+      "roi_alltime": 15.2634841992
     },
     "0x6f97b7de6be7b7771e975e46bae96c35e332e172": {
       "address": "0x6f97b7de6be7b7771e975e46bae96c35e332e172",
@@ -4958,7 +4995,8 @@
         "方向:ロング",
         "レバ:低(<3x)",
         "銘柄:BTC専"
-      ]
+      ],
+      "roi_alltime": 2.8991808317
     },
     "0x5f2c263aa195ddad2886fc5a6b7d4f33d1a72983": {
       "address": "0x5f2c263aa195ddad2886fc5a6b7d4f33d1a72983",
@@ -5220,7 +5258,9 @@
         "レバ:低(<3x)",
         "銘柄:BTC主"
       ],
-      "notes_jp": "【ひとことで】🟠 ちょっと怪しい。様子見で監視するウォレット。\n【正体】名前は分からない（匿名）。\n【お金はどこから？】別チェーンからの『橋(ブリッジ)』経由 → 足を消しており追いにくい\n【もう一段たどると】お金は Across という別チェーンからの『橋(ブリッジ)』を渡ってきており、橋の向こう側は別チェーンなのでこの先は辿れない（足を消している）。\n【よく取引する相手】🤖 LI.FI: Contract [0x89c634]、🤖 Hyperliquid: Bridge 2 [0x2df1c5]\n【グループ】同じ資金元から同時に動いた『協調クラスタA』の一員。\n【詳しい判定】部分格上げ: メトリクスはMMとして除外も協調クラスタAの一員。資金網先行という別シグナル"
+      "notes_jp": "【ひとことで】🟠 ちょっと怪しい。様子見で監視するウォレット。\n【正体】名前は分からない（匿名）。\n【お金はどこから？】別チェーンからの『橋(ブリッジ)』経由 → 足を消しており追いにくい\n【もう一段たどると】お金は Across という別チェーンからの『橋(ブリッジ)』を渡ってきており、橋の向こう側は別チェーンなのでこの先は辿れない（足を消している）。\n【よく取引する相手】🤖 LI.FI: Contract [0x89c634]、🤖 Hyperliquid: Bridge 2 [0x2df1c5]\n【グループ】同じ資金元から同時に動いた『協調クラスタA』の一員。\n【詳しい判定】部分格上げ: メトリクスはMMとして除外も協調クラスタAの一員。資金網先行という別シグナル",
+      "roi_alltime": 0.958620524,
+      "n_fills_14d": 5846
     },
     "0xd67ca2c6f8bc84acf4fa4472b82a8740dc0a53ff": {
       "address": "0xd67ca2c6f8bc84acf4fa4472b82a8740dc0a53ff",
@@ -5426,7 +5466,8 @@
         "方向:ショート",
         "レバ:中(3-10x)",
         "銘柄:BTC専"
-      ]
+      ],
+      "roi_alltime": 6.0280158461
     },
     "0x8be0b9c4dbfb90f47fb94e8968dce08d3152326c": {
       "address": "0x8be0b9c4dbfb90f47fb94e8968dce08d3152326c",
@@ -5537,7 +5578,8 @@
         "方向:ロング",
         "レバ:低(<3x)",
         "銘柄:SOL専"
-      ]
+      ],
+      "roi_alltime": 0.1039366723
     },
     "0x9cc53c5af67fb83a16cc41f61e242bade875ab3d": {
       "address": "0x9cc53c5af67fb83a16cc41f61e242bade875ab3d",
