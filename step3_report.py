@@ -36,6 +36,9 @@ def pct(x):
 def flags_for(hl, d):
     """容疑シグナルを箇条書き化（断定でなく根拠の提示）。"""
     fl = []
+    cr = hl.get("cashout_ratio")
+    if isinstance(cr, (int, float)) and cr >= 10:
+        fl.append(f"💸 出金疑い: allTime PnL が現在残高の {cr:.0f}倍（稼いで引き出した hit-and-run の可能性）")
     if hl.get("likely_mm"):
         fl.append(f"⚠ MM/HFT 疑い（約定{hl.get('n_fills')}件・クローズ{hl.get('n_closes')}件）— スコア大幅減点済。インサイダーより自動マーケットメイクの可能性")
     if (hl.get("win_rate") or 0) >= 0.70 and (hl.get("n_closes") or 0) >= 20:

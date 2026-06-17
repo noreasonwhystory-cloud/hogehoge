@@ -109,13 +109,25 @@ def ens_tag(labels):
     return None
 
 
+def cashout_tag(ratio):
+    """allTime PnL ÷ 現在残高。高い=稼いで引き出した（hit-and-run）疑い。"""
+    if ratio is None:
+        return None
+    if ratio >= 50:
+        return "資金:大型出金疑い(50x+)"
+    if ratio >= 10:
+        return "資金:出金疑い(10x+)"
+    return None
+
+
 def derive_tags(d):
     """正規化 dict から多軸タグを生成。"""
     tags = []
     for t in (roi_tier(d.get("roi")), pnl_tier(d.get("pnl")),
               freq_tier(d.get("n_fills")), hold_tier(d.get("avg_hold_h")),
               side_tag(d.get("held")), lev_tag(d),
-              coin_tag(d.get("held"), d.get("top_coins")), ens_tag(d.get("labels"))):
+              coin_tag(d.get("held"), d.get("top_coins")), ens_tag(d.get("labels")),
+              cashout_tag(d.get("cashout_ratio"))):
         if t:
             tags.append(t)
     return tags

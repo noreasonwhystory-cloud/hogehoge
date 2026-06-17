@@ -138,6 +138,7 @@ def main():
             "n_fills": w.get("n_fills"), "avg_hold_h": w.get("avg_hold_h"),
             "held": w.get("held_positions"), "pos_value": w.get("position_value"),
             "account_value": w.get("account_value"), "labels": entry.get("labels"),
+            "cashout_ratio": w.get("cashout_ratio"),
         })
         entry["current"] = snap
 

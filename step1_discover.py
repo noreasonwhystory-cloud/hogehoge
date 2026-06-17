@@ -59,20 +59,32 @@ def build_candidates(limit):
             windows[win] = {"pnl": pnl, "roi": roi, "vlm": vlm}
         if not ok_all:
             continue
+        # 「実際に大きく稼いだ」証拠（allTime PnL 下限）。出金済みでも残高でなく実績で拾う。
+        at = windows.get("allTime") or {}
+        if at.get("pnl", 0) < config.MIN_LB_PNL:
+            continue
         rank_perf = windows.get(config.LB_RANK_WINDOW) or list(windows.values())[0]
+        cashout_ratio = round(at.get("pnl", 0) / acct, 1) if acct else 0
         cands.append({
             "address": row["ethAddress"],
             "account_value": acct,
             "lb_windows": windows,                 # 各窓の成績（一貫性の根拠）
             "lb_pnl": rank_perf["pnl"],             # 並び替え/正規化用（rank窓）
             "lb_roi": rank_perf["roi"],
+            "cashout_ratio": cashout_ratio,         # allTime PnL ÷ 現在残高（出金の度合い）
         })
-    # rank窓の指標(roi/pnl)降順で上位を候補化
+    if not limit:
+        return cands
+    # ① rank窓の指標(roi/pnl)降順で上位 limit 件
     sort_key = "lb_roi" if config.LB_RANK_METRIC == "roi" else "lb_pnl"
     cands.sort(key=lambda c: c[sort_key], reverse=True)
-    if limit:
-        cands = cands[:limit]
-    return cands
+    selected = {c["address"]: c for c in cands[:limit]}
+    # ② 出金疑い（比≥CASHOUT_RATIO）を比の高い順に CASHOUT_INCLUDE 件、別枠で追加
+    cashout = sorted([c for c in cands if c["cashout_ratio"] >= config.CASHOUT_RATIO],
+                     key=lambda c: c["cashout_ratio"], reverse=True)[:config.CASHOUT_INCLUDE]
+    for c in cashout:
+        selected.setdefault(c["address"], c)
+    return list(selected.values())
 
 
 def fetch_price_data(start_ms, end_ms):
