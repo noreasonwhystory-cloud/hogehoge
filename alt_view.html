@@ -1,0 +1,334 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>77ウォレット マルチエージェント別視点再評価</title>
+<style>
+:root{--bg:#0e1116;--card:#171b22;--mut:#8b949e;--line:#232a34;--acc:#4ea1ff}
+*{box-sizing:border-box}
+body{font-family:system-ui,"Segoe UI",sans-serif;background:var(--bg);color:#e6edf3;margin:0;padding:26px;line-height:1.6}
+h1{font-size:21px;margin:0 0 4px}
+h2{font-size:16px;margin:24px 0 10px;border-left:3px solid var(--acc);padding-left:8px}
+.sub{color:var(--mut);font-size:13px;margin-bottom:16px}
+.disc{background:#1f2530;border-left:3px solid #ffb454;padding:10px 14px;border-radius:6px;font-size:13px;margin-bottom:18px}
+.box{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:14px 18px;margin-bottom:16px;font-size:13px}
+.box ul{margin:6px 0;padding-left:20px} .box li{margin-bottom:8px}
+.lens{margin-bottom:10px} .lsum{color:#cdd6df;font-size:12.5px;margin-top:2px}
+.rcard{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:12px 14px;margin-bottom:10px;border-left:4px solid #4ea1ff}
+.rcard.ag-disagree{border-left-color:#ff5d6c}
+.rcard.ag-partial{border-left-color:#ffb454}
+.rcard.ag-agree{border-left-color:#3fb950}
+.rhead{display:flex;align-items:center;gap:10px;flex-wrap:wrap;font-size:13px}
+.lik{font-weight:800;font-size:18px;color:var(--c)}
+.addr{font-size:12px;color:#c9d1d9;background:#0b0f14;padding:1px 5px;border-radius:4px}
+.orig{color:var(--mut)} .arrow{color:var(--mut)}
+.ag{font-weight:700;font-size:12px;padding:1px 8px;border-radius:10px}
+.ag-disagree{color:#ff8893} .ag-partial{color:#ffc06b} .ag-agree{color:#69d98a}
+.links{margin-left:auto} .links a{color:var(--acc);text-decoration:none;font-size:12px}
+.likbar{height:5px;background:#0b0f14;border-radius:3px;margin:7px 0;overflow:hidden}
+.likbar span{display:block;height:100%}
+.verdict{font-weight:600;margin:4px 0;font-size:13.5px}
+.rmeta{color:var(--mut);font-size:11.5px;margin-bottom:4px}
+.reason{font-size:12.5px;color:#cdd6df}
+code{font-family:ui-monospace,monospace}
+.legend{font-size:12px;color:var(--mut);margin-bottom:10px}
+b.red{color:#ff8893}
+</style></head><body>
+<h1>77ウォレット マルチエージェント「別視点」再評価</h1>
+<div class="sub">5つの独立レンズ（トレンド補正 / 協調クラスタ / リスク / イベント先行性 / レッドチーム反証）→ 統合 ／ 元の数値分類との突合</div>
+<div class="disc"><b>要旨:</b> 数値分類(勝率・的中率)は <b class="red">下落トレンドとクローズ選択バイアスで汚染</b>されており、
+最高スコアの偽インサイダーを生んでいた。別視点（特に<b>オンチェーン資金源の追跡＝協調レンズ</b>）が、数値には現れない
+<b>同一資金元×同時刻×大口の先行ショート</b>を検出し、真の疑惑を2件に絞り込んだ。確信度は中程度に留めるべき。</div>
+
+<h2>最重要の所見</h2>
+<div class="box"><ul><li>最高スコアのinsider_suspect 0x72988778(score0.8)は事実上の偽陽性。event_lead=0で先行性ゼロ、19クローズの小N、ETHショート含み益+814kは下げ相場の方向ベット＋勝ち建玉のみクローズによる勝率100%水増し。red-team(debunked0.82)・risk(disciplined-pro)・trend(mixed)の3レンズが既存高評価を否定。スコアは的中率のみ由来で格下げ妥当。</li><li>真の先行性疑惑は0xefcaceと0x10b6f0の2件に集約。4レンズ全てが指摘し、決め手はメトリクスに無い『協調レンズ』——両者+0xa351dbが同一Monad資金供給元(0xdf747918)から2026-11-24の同一67分窓に着金し、6/3 BTC急落前17:44/17:51の7分差で大口BTCショートを独立先行。単独では『下落ベータ便乗』で消せるが、同funder×同時刻×大口の三重一致はトレンドだけでは説明不能。</li><li>insider_suspect 8件中5件(128fae/e392/83b00/9b5ae/bde04)は全て無害説明で完全に消える偽インサイダー。小N(5〜93クローズ)・スカルプ(avg_hold0.1〜1.7h)・MM残滓(vlm$601Mに対しpnl$43k)・下げ相場ショート偏重の組合せで、勝率100%は『勝ち建玉のみクローズ』アーティファクト。先行性証拠は全件ゼロ。</li><li>格上げ候補は既存pro_trader内のトレンド非依存組。0x8463d6/0x72a783/0xd05808は14日全面下落(BTC-6.4%)の中でdir&lt;下落ベータ(~0.85)にもかかわらず高勝率・黒字で、逆張りBTCロング含み益を保持＝方向当てでなく執行/利確規律で稼ぐ本物。0x5aadb4/0xa72dc2は両方向スカルパーでベータ非依存。trend+riskの2レンズが一致して規律的優位を支持。</li><li>メトリクスが『excluded』に落とした中にも別視点で重要なものが存在。0xa351dbは協調クラスタAの一員(資金網先行)として、0x0c349dは下落トレンド下で逆張りBTCロングを集中先行(event-timing)した点で、いずれも単一メトリクス(MM判定/勝率0%)では捨てられない先行性シグナルを持つ。</li><li>高レバ一点張りの『偽の勝者』を識別。0x2a934d(9.5倍ETHショート・クローズ0件)等の巨額含み益はレバが下落ベータを増幅しただけで実現実績・規律の痕跡ゼロ。excludedは結果的に正しいが、理由は『サンプル不足』でなく『無謀リスクの博打』であり、含み益の大きさをインサイダー性と誤認しない歯止めになった。</li></ul></div>
+
+<h2>ウォレット別 再評価（インサイダー濃度 降順）</h2>
+<div class="legend">枠色: <b style="color:#ff8893">赤=数値分類を覆した</b> / <b style="color:#ffc06b">橙=部分</b> / <b style="color:#69d98a">緑=一致</b>。数値=多角分析後のインサイダー濃度(0-1)。</div>
+
+<div class="rcard ag-partial">
+  <div class="rhead">
+    <span class="lik" style="--c:#ff5d6c">0.58</span>
+    <code class="addr">0xefcace57934a753d66c48a31b880ba806d4c0869</code>
+    <span class="orig">インサイダー疑惑</span>
+    <span class="arrow">→</span>
+    <span class="ag ag-partial">部分</span>
+    <span class="links"><a href="https://app.hyperliquid.xyz/explorer/address/0xefcace57934a753d66c48a31b880ba806d4c0869" target="_blank">HL</a> · <a href="https://app.nansen.ai/profiler?address=0xefcace57934a753d66c48a31b880ba806d4c0869" target="_blank">Nansen</a></span>
+  </div>
+  <div class="likbar"><span style="width:57%;background:#ff5d6c"></span></div>
+  <div class="verdict">格上げ(質的転換): 協調クラスタAの中核・先行性最有力。ただしトレンド入りでも一部説明可で確信は中</div>
+  <div class="rmeta">指摘レンズ: coordination, event_timing, red_team, trend_vs_edge</div>
+  <div class="reason">4レンズ全てが指摘。協調(同Monad funder・6/3 BTCショート$2.95M先行・10b6f0と7分差)と event-timing(全体最大lead2.95M)が核。trendはrider扱いだがcandle検証で本格下落前の集中大口建玉という残差をred-teamも消しきれず(survives0.45)。541クローズの体系的デスクで偶然性は低い。score根拠が的中率→協調+先行へ質的に変わり、疑惑の中身が格上げ。</div>
+</div>
+<div class="rcard ag-partial">
+  <div class="rhead">
+    <span class="lik" style="--c:#ff5d6c">0.50</span>
+    <code class="addr">0x10b6f072fabe21bc72ffd77ff5d4414e6cef2980</code>
+    <span class="orig">インサイダー疑惑</span>
+    <span class="arrow">→</span>
+    <span class="ag ag-partial">部分</span>
+    <span class="links"><a href="https://app.hyperliquid.xyz/explorer/address/0x10b6f072fabe21bc72ffd77ff5d4414e6cef2980" target="_blank">HL</a> · <a href="https://app.nansen.ai/profiler?address=0x10b6f072fabe21bc72ffd77ff5d4414e6cef2980" target="_blank">Nansen</a></span>
+  </div>
+  <div class="likbar"><span style="width:50%;background:#ff5d6c"></span></div>
+  <div class="verdict">格上げ(質的転換): クラスタA同時先行ペア。efcaceと連動する独立2本目</div>
+  <div class="rmeta">指摘レンズ: coordination, event_timing, red_team, trend_vs_edge</div>
+  <div class="reason">efcaceと同funder・6/3 17:44に独立してBTCショート$670k先行(7分差)。単独なら弱いが『同funder×近同時×大口』のクラスタ性が便乗仮説を棄却。ただし現保有BTCショートが含み損-3,558で『完璧な先読み』像とは矛盾し、red-teamはsurvives(0.4)止まり。efcaceより規模小で確信はやや低い。</div>
+</div>
+<div class="rcard ag-partial">
+  <div class="rhead">
+    <span class="lik" style="--c:#ffb454">0.30</span>
+    <code class="addr">0xa351db10472a07059ea099e0581444e568bff894</code>
+    <span class="orig">除外</span>
+    <span class="arrow">→</span>
+    <span class="ag ag-partial">部分</span>
+    <span class="links"><a href="https://app.hyperliquid.xyz/explorer/address/0xa351db10472a07059ea099e0581444e568bff894" target="_blank">HL</a> · <a href="https://app.nansen.ai/profiler?address=0xa351db10472a07059ea099e0581444e568bff894" target="_blank">Nansen</a></span>
+  </div>
+  <div class="likbar"><span style="width:30%;background:#ffb454"></span></div>
+  <div class="verdict">部分格上げ: メトリクスはMMとして除外も協調クラスタAの一員。資金網先行という別シグナル</div>
+  <div class="rmeta">指摘レンズ: coordination, risk_profile, event_timing</div>
+  <div class="reason">既存はMM/HFTでexcluded(score0.04)。だが協調レンズが同Monad funder・同バッチ窓着金として efcace/10b6f0と連結(cluster-A 0.72)。一方event-timingは『窓17-59分と短く21:43はイベント後追随』でno-event-edge(0.55)、riskは三方向オールショート含み損-8万$でreckless-gambler(0.65)。協調網所属としては注目だが個体の先読み実証は弱い。excluded単純維持は不適切、要監視。</div>
+</div>
+<div class="rcard ag-partial">
+  <div class="rhead">
+    <span class="lik" style="--c:#ffb454">0.30</span>
+    <code class="addr">0x0c349d9b92fbd172bbb5a17a9db0a673a6a10ad3</code>
+    <span class="orig">除外</span>
+    <span class="arrow">→</span>
+    <span class="ag ag-partial">部分</span>
+    <span class="links"><a href="https://app.hyperliquid.xyz/explorer/address/0x0c349d9b92fbd172bbb5a17a9db0a673a6a10ad3" target="_blank">HL</a> · <a href="https://app.nansen.ai/profiler?address=0x0c349d9b92fbd172bbb5a17a9db0a673a6a10ad3" target="_blank">Nansen</a></span>
+  </div>
+  <div class="likbar"><span style="width:30%;background:#ffb454"></span></div>
+  <div class="verdict">部分格上げ(要監視): 下落トレンド下の逆張りロング先行という質的に希少なシグナル</div>
+  <div class="rmeta">指摘レンズ: event_timing</div>
+  <div class="reason">既存はwin0%/dir30%でexcluded(0.15)。だがevent-timingが6/5+3.72%上昇の2-4h前にBTCロング$109万を集中=14日ダウントレンド下で上方向に賭けた逆張り先行、トレンド便乗では絶対出ない型(pre-event-timer0.5)。全体整合性は低く単発の好機の可能性大だが、メトリクスの勝率0%だけで切り捨てるのは惜しい先行性。</div>
+</div>
+<div class="rcard ag-partial">
+  <div class="rhead">
+    <span class="lik" style="--c:#4ea1ff">0.22</span>
+    <code class="addr">0xd67ca2c6f8bc84acf4fa4472b82a8740dc0a53ff</code>
+    <span class="orig">除外</span>
+    <span class="arrow">→</span>
+    <span class="ag ag-partial">部分</span>
+    <span class="links"><a href="https://app.hyperliquid.xyz/explorer/address/0xd67ca2c6f8bc84acf4fa4472b82a8740dc0a53ff" target="_blank">HL</a> · <a href="https://app.nansen.ai/profiler?address=0xd67ca2c6f8bc84acf4fa4472b82a8740dc0a53ff" target="_blank">Nansen</a></span>
+  </div>
+  <div class="likbar"><span style="width:22%;background:#4ea1ff"></span></div>
+  <div class="verdict">維持(弱い再評価): クラスタA資金連結はあるがHFTで先読みではない</div>
+  <div class="rmeta">指摘レンズ: coordination, event_timing</div>
+  <div class="reason">既存MM/HFTでexcluded(0.038)。協調レンズが同funder・同バッチ窓で連結(cluster-A 0.68)。しかしevent-timingはlead最大3.43Mでも entry-event間40分-2h・5129フィルのHFTでno-event-edge(0.55)=短い先行窓と高回転はスキャルピング。資金網メンバーとして記録すべきだが個体はMM除外が妥当。</div>
+</div>
+<div class="rcard ag-disagree">
+  <div class="rhead">
+    <span class="lik" style="--c:#4ea1ff">0.20</span>
+    <code class="addr">0x128fae9d18a2f70d98a03c26bf17b67d97ce1f3c</code>
+    <span class="orig">インサイダー疑惑</span>
+    <span class="arrow">→</span>
+    <span class="ag ag-disagree">不一致(覆した)</span>
+    <span class="links"><a href="https://app.hyperliquid.xyz/explorer/address/0x128fae9d18a2f70d98a03c26bf17b67d97ce1f3c" target="_blank">HL</a> · <a href="https://app.nansen.ai/profiler?address=0x128fae9d18a2f70d98a03c26bf17b67d97ce1f3c" target="_blank">Nansen</a></span>
+  </div>
+  <div class="likbar"><span style="width:20%;background:#4ea1ff"></span></div>
+  <div class="verdict">格下げ: 偽インサイダー。逆張りBTCロング含み益はあるが先行性ゼロ</div>
+  <div class="rmeta">指摘レンズ: red_team, trend_vs_edge</div>
+  <div class="reason">event_lead=0・43クローズ・保有はBTCロング+42k。red-teamがdebunked(0.78)。trendは逆張りロングを評価(genuine-edge0.55)するが過去の的中はベータ混入と自認。先行エントリ証拠が無く、win/dir100%は勝ち建玉選択+下げ相場の産物。優位は限定的でインサイダーではない。</div>
+</div>
+<div class="rcard ag-partial">
+  <div class="rhead">
+    <span class="lik" style="--c:#4ea1ff">0.20</span>
+    <code class="addr">0x91f564e80ed5e98eb22fde0857e1a87047f2df13</code>
+    <span class="orig">除外</span>
+    <span class="arrow">→</span>
+    <span class="ag ag-partial">部分</span>
+    <span class="links"><a href="https://app.hyperliquid.xyz/explorer/address/0x91f564e80ed5e98eb22fde0857e1a87047f2df13" target="_blank">HL</a> · <a href="https://app.nansen.ai/profiler?address=0x91f564e80ed5e98eb22fde0857e1a87047f2df13" target="_blank">Nansen</a></span>
+  </div>
+  <div class="likbar"><span style="width:20%;background:#4ea1ff"></span></div>
+  <div class="verdict">維持(弱い疑惑残): MM除外が基本も単一の先行クラスタは記録</div>
+  <div class="rmeta">指摘レンズ: risk_profile, event_timing</div>
+  <div class="reason">既存MM/HFTでexcluded(0.03)。event-timingが6/5-3.4%前05:35にBTCショート$84万のタイトな先行クラスタを検出(pre-event-timer0.42)も、likely_mm・dir0.43・win0.36でノイズ多く反復性未証明。riskは5.22倍集中でconcentrated-bet(0.68)。協調クラスタAには非所属(funder連結なし)で、これがA=汎用ブリッジでない傍証。MM除外維持が妥当。</div>
+</div>
+<div class="rcard ag-agree">
+  <div class="rhead">
+    <span class="lik" style="--c:#4ea1ff">0.18</span>
+    <code class="addr">0x8463d6ffcbfb56bf20ab2e1111f9a0e8359533f2</code>
+    <span class="orig">プロ</span>
+    <span class="arrow">→</span>
+    <span class="ag ag-agree">一致</span>
+    <span class="links"><a href="https://app.hyperliquid.xyz/explorer/address/0x8463d6ffcbfb56bf20ab2e1111f9a0e8359533f2" target="_blank">HL</a> · <a href="https://app.nansen.ai/profiler?address=0x8463d6ffcbfb56bf20ab2e1111f9a0e8359533f2" target="_blank">Nansen</a></span>
+  </div>
+  <div class="likbar"><span style="width:18%;background:#4ea1ff"></span></div>
+  <div class="verdict">格上げ: トレンド非依存の規律型本物。最優良候補</div>
+  <div class="rmeta">指摘レンズ: trend_vs_edge, risk_profile</div>
+  <div class="reason">dir=0.57は下落ベータ(~0.85)未満なのに勝率0.82・258クローズで黒字、下落相場で逆張りBTCロング含み益+67k。trendがgenuine-edge(0.78)、riskがdisciplined-pro(2.43倍控えめレバ・通算PnL587万$)。方向当てでなく執行/サイジング/規律の優位で、2レンズが一致してベータ便乗を否定。pro_trader維持だが質はトップ。</div>
+</div>
+<div class="rcard ag-disagree">
+  <div class="rhead">
+    <span class="lik" style="--c:#4ea1ff">0.18</span>
+    <code class="addr">0x1aa1d90df49c3e5a67888798c16e73c4b4c323fc</code>
+    <span class="orig">プロ</span>
+    <span class="arrow">→</span>
+    <span class="ag ag-disagree">不一致(覆した)</span>
+    <span class="links"><a href="https://app.hyperliquid.xyz/explorer/address/0x1aa1d90df49c3e5a67888798c16e73c4b4c323fc" target="_blank">HL</a> · <a href="https://app.nansen.ai/profiler?address=0x1aa1d90df49c3e5a67888798c16e73c4b4c323fc" target="_blank">Nansen</a></span>
+  </div>
+  <div class="likbar"><span style="width:18%;background:#4ea1ff"></span></div>
+  <div class="verdict">格下げ: 博打的サイジング。pro_trader格付けは過大</div>
+  <div class="rmeta">指摘レンズ: risk_profile, trend_vs_edge</div>
+  <div class="reason">既存pro_traderだがriskが9.83倍SOLショート単独へ全資産集中(pv147万/av15万)・勝率60%/dir59%と平凡でconcentrated-bet(0.78)。trendもmixed(0.5)でSOLショート=一部トレンド便乗。優位というより過大レバの一点張り。pro格付けは過大評価。</div>
+</div>
+<div class="rcard ag-disagree">
+  <div class="rhead">
+    <span class="lik" style="--c:#4ea1ff">0.15</span>
+    <code class="addr">0x83b00972aafcc3d06d45b1b823079f9a414da46e</code>
+    <span class="orig">インサイダー疑惑</span>
+    <span class="arrow">→</span>
+    <span class="ag ag-disagree">不一致(覆した)</span>
+    <span class="links"><a href="https://app.hyperliquid.xyz/explorer/address/0x83b00972aafcc3d06d45b1b823079f9a414da46e" target="_blank">HL</a> · <a href="https://app.nansen.ai/profiler?address=0x83b00972aafcc3d06d45b1b823079f9a414da46e" target="_blank">Nansen</a></span>
+  </div>
+  <div class="likbar"><span style="width:15%;background:#4ea1ff"></span></div>
+  <div class="verdict">格下げ: 偽インサイダー(小N・ポジ構築中)</div>
+  <div class="rmeta">指摘レンズ: red_team, trend_vs_edge</div>
+  <div class="reason">クローズ30・open56でポジ構築中、ETHショート保有。event_lead=0。ETH-10%の最大下落をショートで取った下落便乗+小サンプルで勝率100%が発生。red-teamがdebunked(0.74)、trendもtrend-rider(0.6)で2レンズが便乗と判定。</div>
+</div>
+<div class="rcard ag-agree">
+  <div class="rhead">
+    <span class="lik" style="--c:#4ea1ff">0.15</span>
+    <code class="addr">0x72a7837428320ec3c0c072b0c0fc192d6df0c83f</code>
+    <span class="orig">プロ</span>
+    <span class="arrow">→</span>
+    <span class="ag ag-agree">一致</span>
+    <span class="links"><a href="https://app.hyperliquid.xyz/explorer/address/0x72a7837428320ec3c0c072b0c0fc192d6df0c83f" target="_blank">HL</a> · <a href="https://app.nansen.ai/profiler?address=0x72a7837428320ec3c0c072b0c0fc192d6df0c83f" target="_blank">Nansen</a></span>
+  </div>
+  <div class="likbar"><span style="width:15%;background:#4ea1ff"></span></div>
+  <div class="verdict">格上げ: 押し目選別力のある規律型本物</div>
+  <div class="rmeta">指摘レンズ: trend_vs_edge</div>
+  <div class="reason">dir=0.66&lt;ベータなのに勝率0.95(224クローズ)、下落相場でBTCロング含み益+57k維持。trendがgenuine-edge(0.75)。トレンド便乗の逆=押し目の選別力。インサイダーではないが固有の優位を持つ本物のトレーダー。</div>
+</div>
+<div class="rcard ag-disagree">
+  <div class="rhead">
+    <span class="lik" style="--c:#4ea1ff">0.12</span>
+    <code class="addr">0x72988778525f0ce15c5ac1804ac460606a987d6c</code>
+    <span class="orig">インサイダー疑惑</span>
+    <span class="arrow">→</span>
+    <span class="ag ag-disagree">不一致(覆した)</span>
+    <span class="links"><a href="https://app.hyperliquid.xyz/explorer/address/0x72988778525f0ce15c5ac1804ac460606a987d6c" target="_blank">HL</a> · <a href="https://app.nansen.ai/profiler?address=0x72988778525f0ce15c5ac1804ac460606a987d6c" target="_blank">Nansen</a></span>
+  </div>
+  <div class="likbar"><span style="width:12%;background:#4ea1ff"></span></div>
+  <div class="verdict">格下げ: 偽インサイダー(下げ相場の規律的ベータ便乗)。インサイダー性ほぼ無し、優良トレーダーではある</div>
+  <div class="rmeta">指摘レンズ: trend_vs_edge, risk_profile, red_team</div>
+  <div class="reason">既存score0.8(最上位)はdir_accuracy=1.0のみ由来でevent_lead=0。red-teamがdebunked(0.82)、riskがdisciplined-pro(低レバ0.8倍両建て・口座196万$)、trendがmixedと3レンズ一致で先行性を否定。ETHショート含み益+814kは下落便乗+勝ち建玉選択クローズの典型。リスク管理は規律的だが情報優位の証拠なし。</div>
+</div>
+<div class="rcard ag-disagree">
+  <div class="rhead">
+    <span class="lik" style="--c:#4ea1ff">0.12</span>
+    <code class="addr">0xe392e9008c49e7f82e7927a741fcb12799ebdb2b</code>
+    <span class="orig">インサイダー疑惑</span>
+    <span class="arrow">→</span>
+    <span class="ag ag-disagree">不一致(覆した)</span>
+    <span class="links"><a href="https://app.hyperliquid.xyz/explorer/address/0xe392e9008c49e7f82e7927a741fcb12799ebdb2b" target="_blank">HL</a> · <a href="https://app.nansen.ai/profiler?address=0xe392e9008c49e7f82e7927a741fcb12799ebdb2b" target="_blank">Nansen</a></span>
+  </div>
+  <div class="likbar"><span style="width:12%;background:#4ea1ff"></span></div>
+  <div class="verdict">格下げ: MM/HFT残滓。インサイダー性無し</div>
+  <div class="rmeta">指摘レンズ: red_team, trend_vs_edge</div>
+  <div class="reason">allTime vlm$601Mに対し実現損益$43k・largest_win$4,468の超薄利高回転=流動性供給系プロファイル。event_lead=0。red-teamがdebunked(0.8)。trendは逆張りロング含み益+14kを一応評価するが、vlm/pnl比がMM的で先読み根拠は薄い。</div>
+</div>
+<div class="rcard ag-disagree">
+  <div class="rhead">
+    <span class="lik" style="--c:#4ea1ff">0.12</span>
+    <code class="addr">0x9b5ae497fd1bf885a40d6f99d0c57245761e053c</code>
+    <span class="orig">インサイダー疑惑</span>
+    <span class="arrow">→</span>
+    <span class="ag ag-disagree">不一致(覆した)</span>
+    <span class="links"><a href="https://app.hyperliquid.xyz/explorer/address/0x9b5ae497fd1bf885a40d6f99d0c57245761e053c" target="_blank">HL</a> · <a href="https://app.nansen.ai/profiler?address=0x9b5ae497fd1bf885a40d6f99d0c57245761e053c" target="_blank">Nansen</a></span>
+  </div>
+  <div class="likbar"><span style="width:12%;background:#4ea1ff"></span></div>
+  <div class="verdict">格下げ: 偽インサイダー(スカルパー・見かけ倒しROI)</div>
+  <div class="rmeta">指摘レンズ: red_team, trend_vs_edge</div>
+  <div class="reason">avg_hold1.73hのスキャルパー・41クローズ・event_lead=0、month ROI258xは極小ベースの見かけ倒し。red-teamがdebunked(0.79)、trendもtrend-rider(0.55)。短時間スカルプ+下げ相場で勝率100%は容易に発生し先読み証拠なし。</div>
+</div>
+<div class="rcard ag-agree">
+  <div class="rhead">
+    <span class="lik" style="--c:#4ea1ff">0.12</span>
+    <code class="addr">0xd05808946809c180d190608e13f473db30aa8524</code>
+    <span class="orig">プロ</span>
+    <span class="arrow">→</span>
+    <span class="ag ag-agree">一致</span>
+    <span class="links"><a href="https://app.hyperliquid.xyz/explorer/address/0xd05808946809c180d190608e13f473db30aa8524" target="_blank">HL</a> · <a href="https://app.nansen.ai/profiler?address=0xd05808946809c180d190608e13f473db30aa8524" target="_blank">Nansen</a></span>
+  </div>
+  <div class="likbar"><span style="width:12%;background:#4ea1ff"></span></div>
+  <div class="verdict">格上げ: 利確規律で稼ぐ本物(現在フラット)</div>
+  <div class="rmeta">指摘レンズ: trend_vs_edge, risk_profile</div>
+  <div class="reason">dir=0.59&lt;ベータなのに勝率0.98(128クローズ)・realized+87k。現在建玉0でキャッシュ化済み。trendがgenuine-edge(0.72)、riskがdisciplined-pro(0.6)。利確/損切り規律型で2レンズ一致。トレンド便乗でなく管理型の優位。</div>
+</div>
+<div class="rcard ag-agree">
+  <div class="rhead">
+    <span class="lik" style="--c:#4ea1ff">0.12</span>
+    <code class="addr">0xfe4dec8543b0b9cec0c897a689f7af7bddb02192</code>
+    <span class="orig">プロ</span>
+    <span class="arrow">→</span>
+    <span class="ag ag-agree">一致</span>
+    <span class="links"><a href="https://app.hyperliquid.xyz/explorer/address/0xfe4dec8543b0b9cec0c897a689f7af7bddb02192" target="_blank">HL</a> · <a href="https://app.nansen.ai/profiler?address=0xfe4dec8543b0b9cec0c897a689f7af7bddb02192" target="_blank">Nansen</a></span>
+  </div>
+  <div class="likbar"><span style="width:12%;background:#4ea1ff"></span></div>
+  <div class="verdict">維持〜微格上げ: 執行優位ありの本物</div>
+  <div class="rmeta">指摘レンズ: trend_vs_edge</div>
+  <div class="reason">dir=0.69&lt;ベータなのに勝率0.84(125クローズ)黒字。trendがgenuine-edge(0.62)。方向一辺倒でなく執行優位。pro_trader維持が妥当で大きな再評価不要。</div>
+</div>
+<div class="rcard ag-agree">
+  <div class="rhead">
+    <span class="lik" style="--c:#4ea1ff">0.10</span>
+    <code class="addr">0x5aadb434293b4e1b8fb2e84007e567506fe65a96</code>
+    <span class="orig">プロ</span>
+    <span class="arrow">→</span>
+    <span class="ag ag-agree">一致</span>
+    <span class="links"><a href="https://app.hyperliquid.xyz/explorer/address/0x5aadb434293b4e1b8fb2e84007e567506fe65a96" target="_blank">HL</a> · <a href="https://app.nansen.ai/profiler?address=0x5aadb434293b4e1b8fb2e84007e567506fe65a96" target="_blank">Nansen</a></span>
+  </div>
+  <div class="likbar"><span style="width:10%;background:#4ea1ff"></span></div>
+  <div class="verdict">格上げ: 両方向スカルパー(ベータ非依存)</div>
+  <div class="rmeta">指摘レンズ: trend_vs_edge</div>
+  <div class="reason">avg_hold0.9h・勝率1.0・147クローズの超短期回転スカルパーで両方向に勝つ。dir=0.78と方向一辺倒でなく、下落ベータに依存しない執行優位。trendがgenuine-edge(0.7)。インサイダー性なし、純粋な短期執行力。</div>
+</div>
+<div class="rcard ag-agree">
+  <div class="rhead">
+    <span class="lik" style="--c:#4ea1ff">0.10</span>
+    <code class="addr">0xa72dc2d42398e54634fc28e6769f8ce3ae011807</code>
+    <span class="orig">プロ</span>
+    <span class="arrow">→</span>
+    <span class="ag ag-agree">一致</span>
+    <span class="links"><a href="https://app.hyperliquid.xyz/explorer/address/0xa72dc2d42398e54634fc28e6769f8ce3ae011807" target="_blank">HL</a> · <a href="https://app.nansen.ai/profiler?address=0xa72dc2d42398e54634fc28e6769f8ce3ae011807" target="_blank">Nansen</a></span>
+  </div>
+  <div class="likbar"><span style="width:10%;background:#4ea1ff"></span></div>
+  <div class="verdict">格上げ: 高回転スカルパー(リスク管理良好)</div>
+  <div class="rmeta">指摘レンズ: trend_vs_edge, risk_profile</div>
+  <div class="reason">hold5.8h・勝率0.92・342クローズ・dir0.79の回転売買でベータ非依存・安定黒字。trendがgenuine-edge(0.7)、riskがdisciplined-pro(0.58:小ロット高回転・一点張りなし)。2レンズ一致で規律的優位を確認。</div>
+</div>
+<div class="rcard ag-disagree">
+  <div class="rhead">
+    <span class="lik" style="--c:#4ea1ff">0.05</span>
+    <code class="addr">0xbde047d965a1b13fe37d11e5df31ed110ffbb92b</code>
+    <span class="orig">インサイダー疑惑</span>
+    <span class="arrow">→</span>
+    <span class="ag ag-disagree">不一致(覆した)</span>
+    <span class="links"><a href="https://app.hyperliquid.xyz/explorer/address/0xbde047d965a1b13fe37d11e5df31ed110ffbb92b" target="_blank">HL</a> · <a href="https://app.nansen.ai/profiler?address=0xbde047d965a1b13fe37d11e5df31ed110ffbb92b" target="_blank">Nansen</a></span>
+  </div>
+  <div class="likbar"><span style="width:5%;background:#4ea1ff"></span></div>
+  <div class="verdict">格下げ(最強): 統計的に無意味な微小サンプル。完全に偽陽性</div>
+  <div class="rmeta">指摘レンズ: red_team, trend_vs_edge</div>
+  <div class="reason">クローズわずか5件・avg_hold0.1h(6分)のマイクロスキャルプ・実現$622・largest_win$205。event_lead=0。red-teamがdebunked(0.88)で全レンズ中最も強く偽陽性と断定。勝率100%は偶然レベル。insider_suspectに入っていること自体が分類器の閾値欠陥。</div>
+</div>
+<div class="rcard ag-agree">
+  <div class="rhead">
+    <span class="lik" style="--c:#4ea1ff">0.05</span>
+    <code class="addr">0x2a934d40944e2b686ee9cdce74a3f67d32cd0347</code>
+    <span class="orig">除外</span>
+    <span class="arrow">→</span>
+    <span class="ag ag-agree">一致</span>
+    <span class="links"><a href="https://app.hyperliquid.xyz/explorer/address/0x2a934d40944e2b686ee9cdce74a3f67d32cd0347" target="_blank">HL</a> · <a href="https://app.nansen.ai/profiler?address=0x2a934d40944e2b686ee9cdce74a3f67d32cd0347" target="_blank">Nansen</a></span>
+  </div>
+  <div class="likbar"><span style="width:5%;background:#4ea1ff"></span></div>
+  <div class="verdict">維持(理由是正): excluded妥当だが理由はサンプル不足でなく無謀な博打</div>
+  <div class="rmeta">指摘レンズ: risk_profile</div>
+  <div class="reason">9.5倍ETHショート単独・クローズ0件で実現実績ゼロ。含み益+37万$はレバが下落ベータを増幅しただけ。riskがreckless-gambler(0.85)。既存excludedは正しいが、含み益の大きさをインサイダー性と誤認しない歯止めとして重要。優位の証拠なし。</div>
+</div>
+
+<h2>5レンズの所見</h2>
+<div class="box"><div class='lens'><b>trend-adjusted</b><div class='lsum'>14日間でBTC-6.4%/ETH-10.2%/SOL-7.3%と全面下落。よってショート一辺倒のdir=1.0はベータで説明可能で情報優位ではない。既存のinsider_suspect上位の多くはトレンド便乗。真の優位はdirがベータ(~0.85)未満でも勝つ層・短期回転スカルパー・下落相場で含み益の逆張りLONGに存在する。</div></div><div class='lens'><b>coordination</b><div class='lsum'>77件中、4ウォレットが同一のMonad資金供給元(0xdf747918…、ラベル無)から2026-11-24の約67分内(10:35-11:42)に着金していた。うち3件(efcace/10b6f0/a351db)は6/3の-5.48%BTC急落前に揃ってBTC/ETHショートを先行建玉。資金供給の同時バッチ性+同一イベント先行は単一主体/協調網を強く示唆(クラスタA)。一方、高頻度BTCショート群やSOLロング偏重群は挙動指紋は似るがオンチェーン連結は未確認(低確度)。</div></div><div class='lens'><b>risk-profile</b><div class='lsum'>77件中、建玉/口座比でレバレッジと集中度を算出。最上位は9-10倍の単一銘柄一点張りに集中。特に高レバ×クローズ0件のウォレットは取引履歴ゼロで巨額ショート1発を-5%下落に賭けただけの無謀な博打。逆に高い的中率の上位陣の一部は0.8倍以下の低レバ/フラットで規律的。レバが含み益を増幅しているだけのトレンド便乗が多く、レバの高さ自体は優位の証拠にならない。</div></div><div class='lens'><b>event-timing</b><div class='lsum'>77件中9件のみがevent_lead_notional&gt;0。先行性の質は「急変前の狭い時間窓に大口を集中投下したか」「反復性があるか」「トレンドと無関係/逆方向か」で峻別。最強は0xefcaceと0x10b6f0で、06-03 21:00の-5.48%急落の約3時間前(17:44/17:51)に単一分へ大口ショートを集中。価格がまだ横ばい〜微増の段階で建てており、トレンド便乗では説明不能の先読み型。大口9件中4件はlikely_mm/HFTで、先行窓が数十分と短く反応的。</div></div><div class='lens'><b>red-team</b><div class='lsum'>既存insider_suspect 8件を最大限の懐疑で精査。BTC -5%下落局面ではwin_rate/dir_accuracy=100%は「下げ相場でのショート偏重＋勝ち建玉のみクローズ（含み損は勝率に非算入）」で容易に説明可能。実際6件は無害説明（小サンプル/スキャルプ/MM残滓/トレンド便乗）で説明しきれた。残るのは06-03に大口先行ショートを出した#2と#3のみ。ただしHL candleで検証すると当該エントリ(17:44-17:51)は21:00の急変ではなく7時間かけた緩やかな下落に先行しており、トレンド入りとも解釈可。疑惑残存は弱め。</div></div></div>
+
+<h2>既存手法の弱点と多角化の効果（統合エージェントの講評）</h2>
+<div class="box">既存メトリクス分類の最大の弱点は、win_rate/dir_accuracyという2指標が(1)市場ベータと(2)クローズ選択バイアスの両方に汚染される点。BTC-6.4%等の全面下落14日間ではショート偏重なら勝率/的中率は自然に高騰し、含み損ポジを抱えたまま勝ち建玉だけクローズすれば勝率100%が容易に発生する。insider_score上位8件中7件がこの2要因で説明でき、特に最高スコアの0x72988778はevent_lead=0なのに的中率だけで0.8を獲得していた——単一メトリクスが偽インサイダーを最上位に押し上げる構造的欠陥。<br><br>多角化の効果は3点。第一に協調レンズ(オンチェーン資金供給元の追跡)はメトリクスに全く存在しない次元で、0xefcace/0x10b6f0/0xa351db/0xd67caを同一funderの同時バッチ着金として連結し、『単独偶然のトレンド便乗』仮説を棄却した——これは挙動指標だけでは原理的に到達不能。第二にtrend_vs_edgeレンズが市場ベータ(~0.85)をベンチマーク化し、dir&lt;ベータでも勝つ層を分離することで、メトリクスが見落とした規律型pro(8463d6等)を救出し、逆にdir=1.0のショート一辺倒をベータ便乗として正しく減点した。第三にred-teamが価格candleの実検証で『17:44エントリは21:00急変でなく7時間の緩下落への先行』と示し、event-timingの過大評価を半減させた(survives-scrutinyへ降格)——レンズ間の相互反証が確信度のキャリブレーションに効いた。<br><br>残る限界: lead_examplesの先行窓判定が分足の解像度・トレンド入りとの境界に依存し、依然『先読みvs高速反応(MM)』を完全には峻別できない。協調レンズのfunder連結もブリッジ汚染の可能性があり、共署名でない以上『同一主体』は推定にとどまる。確信度は中程度に抑えるべき。</div>
+
+</body></html>

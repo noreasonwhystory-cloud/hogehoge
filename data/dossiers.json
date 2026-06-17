@@ -1,0 +1,905 @@
+{
+  "generated_at": "2026-06-16T07:03:05.725016+00:00",
+  "dossiers": [
+    {
+      "address": "0xead5b7d86c681c036c59cd00a0390541061c69f2",
+      "labels": [],
+      "labels_chain": null,
+      "related_wallets": [],
+      "related_chain": null,
+      "first_funders": [],
+      "counterparties": [],
+      "counterparties_chain": null,
+      "hl": {
+        "insider_score": 0.5193,
+        "lb_pnl": 833498.026936,
+        "lb_roi": 0.0903159658,
+        "account_value": 9745260.982467,
+        "realized_pnl": 8988.93,
+        "unrealized_pnl": 108591.04,
+        "total_pnl": 117579.97,
+        "win_rate": 1.0,
+        "dir_accuracy": 0.6577,
+        "n_fills": 194,
+        "n_closes": 83,
+        "n_opens": 111,
+        "event_lead_notional": 1585800,
+        "lead_examples": [
+          {
+            "coin": "BTC",
+            "dir": "short",
+            "entry_time": "2026-06-05 06:19",
+            "notional_usd": 598890,
+            "event_move_pct": -3.4,
+            "event_time": "2026-06-05 09:00",
+            "hash": "0xe0fd4b495cde6554e277043d0125ef020842002ef7d1842684c5f69c1bd23f3f"
+          },
+          {
+            "coin": "BTC",
+            "dir": "short",
+            "entry_time": "2026-06-05 06:19",
+            "notional_usd": 103598,
+            "event_move_pct": -3.4,
+            "event_time": "2026-06-05 09:00",
+            "hash": "0x9c78930f32cd08389df2043d0125f102066f00f4cdc0270a40413e61f1c0e223"
+          },
+          {
+            "coin": "BTC",
+            "dir": "short",
+            "entry_time": "2026-06-05 06:19",
+            "notional_usd": 115333,
+            "event_move_pct": -3.4,
+            "event_time": "2026-06-05 09:00",
+            "hash": "0x9c78930f32cd08389df2043d0125f102066f00f4cdc0270a40413e61f1c0e223"
+          },
+          {
+            "coin": "BTC",
+            "dir": "short",
+            "entry_time": "2026-06-05 06:19",
+            "notional_usd": 141173,
+            "event_move_pct": -3.4,
+            "event_time": "2026-06-05 09:00",
+            "hash": "0xe848ad8058ec286be9c2043d0125f1020d210065f3ef473d8c1158d317e00256"
+          },
+          {
+            "coin": "BTC",
+            "dir": "short",
+            "entry_time": "2026-06-05 06:32",
+            "notional_usd": 200122,
+            "event_move_pct": -3.4,
+            "event_time": "2026-06-05 09:00",
+            "hash": "0x19140cb2af00dea41a8d043d015125020bcf00984a03fd76bcdcb8056e04b88e"
+          }
+        ],
+        "held_positions": [
+          {
+            "coin": "BTC",
+            "side": "long",
+            "unrealized_pnl": 16316.66,
+            "position_value": 3455558
+          },
+          {
+            "coin": "ETH",
+            "side": "short",
+            "unrealized_pnl": 92274.39,
+            "position_value": 3118040
+          }
+        ],
+        "likely_mm": false
+      }
+    },
+    {
+      "address": "0xaf0fdd39e5d92499b0ed9f68693da99c0ec1e92e",
+      "labels": [],
+      "labels_chain": null,
+      "related_wallets": [],
+      "related_chain": null,
+      "first_funders": [],
+      "counterparties": [],
+      "counterparties_chain": null,
+      "hl": {
+        "insider_score": 0.5162,
+        "lb_pnl": 828338.1995389999,
+        "lb_roi": 0.0680433226,
+        "account_value": 13001626.49501,
+        "realized_pnl": 266394.43,
+        "unrealized_pnl": 0.0,
+        "total_pnl": 266394.43,
+        "win_rate": 1.0,
+        "dir_accuracy": 0.9881,
+        "n_fills": 170,
+        "n_closes": 86,
+        "n_opens": 84,
+        "event_lead_notional": 0,
+        "lead_examples": [],
+        "held_positions": [],
+        "likely_mm": false
+      }
+    },
+    {
+      "address": "0x5f94a51948d2376ad34a6fadfa2544e651b74b96",
+      "labels": [],
+      "labels_chain": null,
+      "related_wallets": [],
+      "related_chain": null,
+      "first_funders": [],
+      "counterparties": [],
+      "counterparties_chain": null,
+      "hl": {
+        "insider_score": 0.5087,
+        "lb_pnl": 1068345.646131,
+        "lb_roi": 0.0759735033,
+        "account_value": 15130427.813208,
+        "realized_pnl": 121059.58,
+        "unrealized_pnl": 0.0,
+        "total_pnl": 121059.58,
+        "win_rate": 1.0,
+        "dir_accuracy": 1.0,
+        "n_fills": 45,
+        "n_closes": 15,
+        "n_opens": 30,
+        "event_lead_notional": 0,
+        "lead_examples": [],
+        "held_positions": [],
+        "likely_mm": false
+      }
+    },
+    {
+      "address": "0x9cbf099ff424979439dfba03f00b5961784c06ce",
+      "labels": [],
+      "labels_chain": null,
+      "related_wallets": [],
+      "related_chain": null,
+      "first_funders": [],
+      "counterparties": [],
+      "counterparties_chain": null,
+      "hl": {
+        "insider_score": 0.5039,
+        "lb_pnl": 741280.952454,
+        "lb_roi": 0.7732689756,
+        "account_value": 1699913.686763,
+        "realized_pnl": 54686.91,
+        "unrealized_pnl": 0.0,
+        "total_pnl": 54686.91,
+        "win_rate": 1.0,
+        "dir_accuracy": 1.0,
+        "n_fills": 147,
+        "n_closes": 103,
+        "n_opens": 44,
+        "event_lead_notional": 0,
+        "lead_examples": [],
+        "held_positions": [],
+        "likely_mm": false
+      }
+    },
+    {
+      "address": "0x757df2c060ec6c7ba898fa6570aa98c1f46294ba",
+      "labels": [],
+      "labels_chain": null,
+      "related_wallets": [],
+      "related_chain": null,
+      "first_funders": [],
+      "counterparties": [],
+      "counterparties_chain": null,
+      "hl": {
+        "insider_score": 0.4286,
+        "lb_pnl": 1284309.481318,
+        "lb_roi": 0.1774947372,
+        "account_value": 8519370.406212,
+        "realized_pnl": 3008.89,
+        "unrealized_pnl": -20941.51,
+        "total_pnl": -17932.62,
+        "win_rate": 1.0,
+        "dir_accuracy": 0.7143,
+        "n_fills": 121,
+        "n_closes": 23,
+        "n_opens": 98,
+        "event_lead_notional": 0,
+        "lead_examples": [],
+        "held_positions": [
+          {
+            "coin": "BTC",
+            "side": "short",
+            "unrealized_pnl": -12315.0,
+            "position_value": 199239
+          },
+          {
+            "coin": "ETH",
+            "side": "short",
+            "unrealized_pnl": -8626.51,
+            "position_value": 142863
+          }
+        ],
+        "likely_mm": false
+      }
+    },
+    {
+      "address": "0xe867fbdad3291530e41530301ecb77693850c78e",
+      "labels": [],
+      "labels_chain": null,
+      "related_wallets": [],
+      "related_chain": null,
+      "first_funders": [],
+      "counterparties": [],
+      "counterparties_chain": null,
+      "hl": {
+        "insider_score": 0.4162,
+        "lb_pnl": 7922589.837824,
+        "lb_roi": 0.1182548404,
+        "account_value": 74918493.015294,
+        "realized_pnl": 10614.62,
+        "unrealized_pnl": 0.0,
+        "total_pnl": 10614.62,
+        "win_rate": 0.7214,
+        "dir_accuracy": 0.9402,
+        "n_fills": 563,
+        "n_closes": 262,
+        "n_opens": 301,
+        "event_lead_notional": 0,
+        "lead_examples": [],
+        "held_positions": [],
+        "likely_mm": false
+      }
+    },
+    {
+      "address": "0xebe837cd345469cbc5d6e1fd3d15ee5079ac885f",
+      "labels": [],
+      "labels_chain": null,
+      "related_wallets": [],
+      "related_chain": null,
+      "first_funders": [],
+      "counterparties": [],
+      "counterparties_chain": null,
+      "hl": {
+        "insider_score": 0.3874,
+        "lb_pnl": 3047280.105441,
+        "lb_roi": 0.2841182281,
+        "account_value": 13772374.690204,
+        "realized_pnl": 0.0,
+        "unrealized_pnl": 4166247.97,
+        "total_pnl": 4166247.97,
+        "win_rate": 0.0,
+        "dir_accuracy": 0.3496,
+        "n_fills": 1965,
+        "n_closes": 0,
+        "n_opens": 1965,
+        "event_lead_notional": 0,
+        "lead_examples": [],
+        "held_positions": [
+          {
+            "coin": "BTC",
+            "side": "long",
+            "unrealized_pnl": 4166247.97,
+            "position_value": 53976363
+          }
+        ],
+        "likely_mm": false
+      }
+    },
+    {
+      "address": "0xd260b2216b735277da6771564a01c04856e78321",
+      "labels": [],
+      "labels_chain": null,
+      "related_wallets": [],
+      "related_chain": null,
+      "first_funders": [],
+      "counterparties": [],
+      "counterparties_chain": null,
+      "hl": {
+        "insider_score": 0.3801,
+        "lb_pnl": 1538264.037688,
+        "lb_roi": 0.2012407701,
+        "account_value": 8645062.623804,
+        "realized_pnl": -518648.5,
+        "unrealized_pnl": 0.0,
+        "total_pnl": -518648.5,
+        "win_rate": 0.0,
+        "dir_accuracy": 0.7203,
+        "n_fills": 1018,
+        "n_closes": 192,
+        "n_opens": 826,
+        "event_lead_notional": 3291317,
+        "lead_examples": [
+          {
+            "coin": "BTC",
+            "dir": "long",
+            "entry_time": "2026-06-05 15:50",
+            "notional_usd": 110064,
+            "event_move_pct": 3.72,
+            "event_time": "2026-06-05 18:00",
+            "hash": "0x23b1eb5688abb1fc252b043d08c6b50202a9003c23aed0cec77a96a947af8be6"
+          },
+          {
+            "coin": "BTC",
+            "dir": "long",
+            "entry_time": "2026-06-05 15:50",
+            "notional_usd": 110064,
+            "event_move_pct": 3.72,
+            "event_time": "2026-06-05 18:00",
+            "hash": "0x23b1eb5688abb1fc252b043d08c6b50202a9003c23aed0cec77a96a947af8be6"
+          },
+          {
+            "coin": "BTC",
+            "dir": "long",
+            "entry_time": "2026-06-05 15:52",
+            "notional_usd": 118503,
+            "event_move_pct": 3.72,
+            "event_time": "2026-06-05 18:00",
+            "hash": "0xba56f2b2a1eae911bbd0043d08ccda020de400983cee07e35e1f9e0560eec2fc"
+          },
+          {
+            "coin": "BTC",
+            "dir": "long",
+            "entry_time": "2026-06-05 15:52",
+            "notional_usd": 100036,
+            "event_move_pct": 3.72,
+            "event_time": "2026-06-05 18:00",
+            "hash": "0xba56f2b2a1eae911bbd0043d08ccda020de400983cee07e35e1f9e0560eec2fc"
+          },
+          {
+            "coin": "BTC",
+            "dir": "long",
+            "entry_time": "2026-06-05 15:52",
+            "notional_usd": 630425,
+            "event_move_pct": 3.72,
+            "event_time": "2026-06-05 18:00",
+            "hash": "0xba56f2b2a1eae911bbd0043d08ccda020de400983cee07e35e1f9e0560eec2fc"
+          }
+        ],
+        "held_positions": [],
+        "likely_mm": false
+      }
+    },
+    {
+      "address": "0x960b6c2c4b1498681b8422eb572a8b3a6aa3f0fc",
+      "labels": [],
+      "labels_chain": null,
+      "related_wallets": [],
+      "related_chain": null,
+      "first_funders": [],
+      "counterparties": [],
+      "counterparties_chain": null,
+      "hl": {
+        "insider_score": 0.3445,
+        "lb_pnl": 693995.728845,
+        "lb_roi": 0.0676834257,
+        "account_value": 8638389.056611,
+        "realized_pnl": 73874.38,
+        "unrealized_pnl": 0.0,
+        "total_pnl": 73874.38,
+        "win_rate": 0.7337,
+        "dir_accuracy": 0.55,
+        "n_fills": 1137,
+        "n_closes": 537,
+        "n_opens": 600,
+        "event_lead_notional": 300539,
+        "lead_examples": [
+          {
+            "coin": "BTC",
+            "dir": "long",
+            "entry_time": "2026-06-05 12:47",
+            "notional_usd": 150009,
+            "event_move_pct": 3.72,
+            "event_time": "2026-06-05 18:00",
+            "hash": "0xcf6a912bb51edaa9d0e4043d0652dc020d0500115011f97b73333c7e7412b494"
+          },
+          {
+            "coin": "ETH",
+            "dir": "long",
+            "entry_time": "2026-06-05 22:21",
+            "notional_usd": 150529,
+            "event_move_pct": 3.97,
+            "event_time": "2026-06-06 04:00",
+            "hash": "0x1233bdf4b300a34113ad043d0dfe8202087e00da4e03c213b5fc694772047d2b"
+          }
+        ],
+        "held_positions": [],
+        "likely_mm": false
+      }
+    },
+    {
+      "address": "0x1e37a337ed460039d1b15bd3bc489de789768d5e",
+      "labels": [],
+      "labels_chain": null,
+      "related_wallets": [],
+      "related_chain": null,
+      "first_funders": [],
+      "counterparties": [],
+      "counterparties_chain": null,
+      "hl": {
+        "insider_score": 0.3181,
+        "lb_pnl": 772361.275129,
+        "lb_roi": 0.0950252719,
+        "account_value": 8705693.727937,
+        "realized_pnl": 7223.53,
+        "unrealized_pnl": -1358.33,
+        "total_pnl": 5865.2,
+        "win_rate": 0.654,
+        "dir_accuracy": 0.6166,
+        "n_fills": 1066,
+        "n_closes": 341,
+        "n_opens": 725,
+        "event_lead_notional": 0,
+        "lead_examples": [],
+        "held_positions": [
+          {
+            "coin": "BTC",
+            "side": "long",
+            "unrealized_pnl": 26.93,
+            "position_value": 198513
+          },
+          {
+            "coin": "ETH",
+            "side": "long",
+            "unrealized_pnl": -1730.45,
+            "position_value": 213542
+          },
+          {
+            "coin": "SOL",
+            "side": "long",
+            "unrealized_pnl": 345.19,
+            "position_value": 67514
+          }
+        ],
+        "likely_mm": false
+      }
+    },
+    {
+      "address": "0x8f8d2d2565bfb10608a7ce64b48e2aea7875a344",
+      "labels": [],
+      "labels_chain": null,
+      "related_wallets": [],
+      "related_chain": null,
+      "first_funders": [],
+      "counterparties": [],
+      "counterparties_chain": null,
+      "hl": {
+        "insider_score": 0.2852,
+        "lb_pnl": 835474.020182,
+        "lb_roi": 0.1518994957,
+        "account_value": 6335650.413095,
+        "realized_pnl": -108524.0,
+        "unrealized_pnl": -2795.0,
+        "total_pnl": -111319.0,
+        "win_rate": 0.652,
+        "dir_accuracy": 0.4159,
+        "n_fills": 941,
+        "n_closes": 477,
+        "n_opens": 464,
+        "event_lead_notional": 300744,
+        "lead_examples": [
+          {
+            "coin": "BTC",
+            "dir": "long",
+            "entry_time": "2026-06-07 15:55",
+            "notional_usd": 154988,
+            "event_move_pct": 3.28,
+            "event_time": "2026-06-07 19:00",
+            "hash": "0xec486373d62e23f3edc2043d2f3f1002043a0059712142c590110ec69521fdde"
+          },
+          {
+            "coin": "BTC",
+            "dir": "long",
+            "entry_time": "2026-06-07 16:56",
+            "notional_usd": 145757,
+            "event_move_pct": 3.28,
+            "event_time": "2026-06-07 19:00",
+            "hash": "0x71f4cd4a0a5bbbea736e043d300ee0020665002fa55edabc15bd789cc95f95d5"
+          }
+        ],
+        "held_positions": [
+          {
+            "coin": "BTC",
+            "side": "short",
+            "unrealized_pnl": -2795.0,
+            "position_value": 663830
+          }
+        ],
+        "likely_mm": false
+      }
+    },
+    {
+      "address": "0x7e60b2ffabe338e43e915146beab5decc1596ed0",
+      "labels": [],
+      "labels_chain": null,
+      "related_wallets": [],
+      "related_chain": null,
+      "first_funders": [],
+      "counterparties": [],
+      "counterparties_chain": null,
+      "hl": {
+        "insider_score": 0.2651,
+        "lb_pnl": 899490.846193,
+        "lb_roi": 0.1979447784,
+        "account_value": 5443641.256513,
+        "realized_pnl": -1394.86,
+        "unrealized_pnl": -202377.52,
+        "total_pnl": -203772.38,
+        "win_rate": 0.5398,
+        "dir_accuracy": 0.5205,
+        "n_fills": 881,
+        "n_closes": 452,
+        "n_opens": 488,
+        "event_lead_notional": 0,
+        "lead_examples": [],
+        "held_positions": [
+          {
+            "coin": "BTC",
+            "side": "long",
+            "unrealized_pnl": -202377.52,
+            "position_value": 355210
+          }
+        ],
+        "likely_mm": false
+      }
+    },
+    {
+      "address": "0xb1ec7febea4f841d525785955b7fe0e812d6e86a",
+      "labels": [],
+      "labels_chain": null,
+      "related_wallets": [],
+      "related_chain": null,
+      "first_funders": [],
+      "counterparties": [],
+      "counterparties_chain": null,
+      "hl": {
+        "insider_score": 0.2568,
+        "lb_pnl": 711516.598469,
+        "lb_roi": 0.1629934954,
+        "account_value": 5076823.305072,
+        "realized_pnl": -14606.97,
+        "unrealized_pnl": 0.0,
+        "total_pnl": -14606.97,
+        "win_rate": 0.0272,
+        "dir_accuracy": 1.0,
+        "n_fills": 197,
+        "n_closes": 184,
+        "n_opens": 13,
+        "event_lead_notional": 0,
+        "lead_examples": [],
+        "held_positions": [],
+        "likely_mm": false
+      }
+    },
+    {
+      "address": "0x92ae4209e3a5760903aff0c423312392eb3f86a8",
+      "labels": [],
+      "labels_chain": null,
+      "related_wallets": [],
+      "related_chain": null,
+      "first_funders": [],
+      "counterparties": [],
+      "counterparties_chain": null,
+      "hl": {
+        "insider_score": 0.2505,
+        "lb_pnl": 917528.027138,
+        "lb_roi": 0.1633274673,
+        "account_value": 6535248.31771,
+        "realized_pnl": 4279.29,
+        "unrealized_pnl": 2959.82,
+        "total_pnl": 7239.11,
+        "win_rate": 1.0,
+        "dir_accuracy": 0.0,
+        "n_fills": 9,
+        "n_closes": 9,
+        "n_opens": 0,
+        "event_lead_notional": 0,
+        "lead_examples": [],
+        "held_positions": [
+          {
+            "coin": "BTC",
+            "side": "long",
+            "unrealized_pnl": 3899.01,
+            "position_value": 209024
+          },
+          {
+            "coin": "ETH",
+            "side": "long",
+            "unrealized_pnl": -939.2,
+            "position_value": 88364
+          }
+        ],
+        "likely_mm": false
+      }
+    },
+    {
+      "address": "0x9a1500b41519868039b1f95c447ba50b76d837e6",
+      "labels": [],
+      "labels_chain": null,
+      "related_wallets": [],
+      "related_chain": null,
+      "first_funders": [],
+      "counterparties": [],
+      "counterparties_chain": null,
+      "hl": {
+        "insider_score": 0.25,
+        "lb_pnl": 1651125.644603,
+        "lb_roi": 0.1689477774,
+        "account_value": 11423119.821918,
+        "realized_pnl": -190.21,
+        "unrealized_pnl": 601.12,
+        "total_pnl": 410.91,
+        "win_rate": 0.0,
+        "dir_accuracy": 1.0,
+        "n_fills": 10,
+        "n_closes": 1,
+        "n_opens": 9,
+        "event_lead_notional": 0,
+        "lead_examples": [],
+        "held_positions": [
+          {
+            "coin": "BTC",
+            "side": "long",
+            "unrealized_pnl": 601.12,
+            "position_value": 15600
+          }
+        ],
+        "likely_mm": false
+      }
+    },
+    {
+      "address": "0x939f95036d2e7b6d7419ec072bf9d967352204d2",
+      "labels": [],
+      "labels_chain": null,
+      "related_wallets": [],
+      "related_chain": null,
+      "first_funders": [],
+      "counterparties": [],
+      "counterparties_chain": null,
+      "hl": {
+        "insider_score": 0.25,
+        "lb_pnl": 712102.819493,
+        "lb_roi": 0.0279561586,
+        "account_value": 26184229.735391,
+        "realized_pnl": 71.48,
+        "unrealized_pnl": -880211.23,
+        "total_pnl": -880139.75,
+        "win_rate": 1.0,
+        "dir_accuracy": 0.0,
+        "n_fills": 1,
+        "n_closes": 1,
+        "n_opens": 0,
+        "event_lead_notional": 0,
+        "lead_examples": [],
+        "held_positions": [
+          {
+            "coin": "BTC",
+            "side": "long",
+            "unrealized_pnl": -880211.23,
+            "position_value": 14094959
+          }
+        ],
+        "likely_mm": false
+      }
+    },
+    {
+      "address": "0xa2ce501d9c0c5e23d34272f84402cfb7835b3126",
+      "labels": [],
+      "labels_chain": null,
+      "related_wallets": [],
+      "related_chain": null,
+      "first_funders": [],
+      "counterparties": [],
+      "counterparties_chain": null,
+      "hl": {
+        "insider_score": 0.2278,
+        "lb_pnl": 3276017.712382,
+        "lb_roi": 0.3628883611,
+        "account_value": 12303636.294705,
+        "realized_pnl": -232235.74,
+        "unrealized_pnl": -335555.94,
+        "total_pnl": -567791.68,
+        "win_rate": 0.5089,
+        "dir_accuracy": 0.4023,
+        "n_fills": 702,
+        "n_closes": 615,
+        "n_opens": 87,
+        "event_lead_notional": 0,
+        "lead_examples": [],
+        "held_positions": [
+          {
+            "coin": "BTC",
+            "side": "long",
+            "unrealized_pnl": 457910.36,
+            "position_value": 13328238
+          },
+          {
+            "coin": "ETH",
+            "side": "long",
+            "unrealized_pnl": -608774.28,
+            "position_value": 10660949
+          },
+          {
+            "coin": "SOL",
+            "side": "long",
+            "unrealized_pnl": -184692.03,
+            "position_value": 3703650
+          }
+        ],
+        "likely_mm": false
+      }
+    },
+    {
+      "address": "0x0c349d9b92fbd172bbb5a17a9db0a673a6a10ad3",
+      "labels": [],
+      "labels_chain": null,
+      "related_wallets": [],
+      "related_chain": null,
+      "first_funders": [],
+      "counterparties": [],
+      "counterparties_chain": null,
+      "hl": {
+        "insider_score": 0.222,
+        "lb_pnl": 795263.408107,
+        "lb_roi": 0.7379975367,
+        "account_value": 1427564.318873,
+        "realized_pnl": -20011.5,
+        "unrealized_pnl": 120570.33,
+        "total_pnl": 100558.83,
+        "win_rate": 0.0,
+        "dir_accuracy": 0.5936,
+        "n_fills": 786,
+        "n_closes": 252,
+        "n_opens": 534,
+        "event_lead_notional": 1092863,
+        "lead_examples": [
+          {
+            "coin": "BTC",
+            "dir": "long",
+            "entry_time": "2026-06-05 14:07",
+            "notional_usd": 120056,
+            "event_move_pct": 3.72,
+            "event_time": "2026-06-05 18:00",
+            "hash": "0x0e3dae4440e327d60fb7043d0765890207a90029dbe646a8b2065996ffe701c0"
+          },
+          {
+            "coin": "BTC",
+            "dir": "long",
+            "entry_time": "2026-06-05 14:37",
+            "notional_usd": 110150,
+            "event_move_pct": 3.72,
+            "event_time": "2026-06-05 18:00",
+            "hash": "0x83ccf0cb558ace1d8546043d07cc220210c600b0f08decef27959c1e148ea808"
+          },
+          {
+            "coin": "BTC",
+            "dir": "long",
+            "entry_time": "2026-06-05 16:11",
+            "notional_usd": 136711,
+            "event_move_pct": 3.72,
+            "event_time": "2026-06-05 18:00",
+            "hash": "0x42643d96dfb84e1f43dd043d090cbc0209df007c7abb6cf1e62ce8e99ebc2809"
+          },
+          {
+            "coin": "BTC",
+            "dir": "long",
+            "entry_time": "2026-06-05 16:11",
+            "notional_usd": 139149,
+            "event_move_pct": 3.72,
+            "event_time": "2026-06-05 18:00",
+            "hash": "0x42643d96dfb84e1f43dd043d090cbc0209df007c7abb6cf1e62ce8e99ebc2809"
+          },
+          {
+            "coin": "BTC",
+            "dir": "long",
+            "entry_time": "2026-06-05 16:11",
+            "notional_usd": 179724,
+            "event_move_pct": 3.72,
+            "event_time": "2026-06-05 18:00",
+            "hash": "0x42643d96dfb84e1f43dd043d090cbc0209df007c7abb6cf1e62ce8e99ebc2809"
+          }
+        ],
+        "held_positions": [
+          {
+            "coin": "BTC",
+            "side": "long",
+            "unrealized_pnl": 120570.33,
+            "position_value": 2107241
+          }
+        ],
+        "likely_mm": false
+      }
+    },
+    {
+      "address": "0xc619b01f1a4f894c5e83338c42f98dcb82b710f5",
+      "labels": [],
+      "labels_chain": null,
+      "related_wallets": [],
+      "related_chain": null,
+      "first_funders": [],
+      "counterparties": [],
+      "counterparties_chain": null,
+      "hl": {
+        "insider_score": 0.2195,
+        "lb_pnl": 929596.341718,
+        "lb_roi": 0.4007141817,
+        "account_value": 3249445.212024,
+        "realized_pnl": -803263.63,
+        "unrealized_pnl": -446059.86,
+        "total_pnl": -1249323.49,
+        "win_rate": 0.1484,
+        "dir_accuracy": 0.6567,
+        "n_fills": 972,
+        "n_closes": 337,
+        "n_opens": 635,
+        "event_lead_notional": 299807,
+        "lead_examples": [
+          {
+            "coin": "ETH",
+            "dir": "long",
+            "entry_time": "2026-06-06 02:21",
+            "notional_usd": 131274,
+            "event_move_pct": 3.97,
+            "event_time": "2026-06-06 04:00",
+            "hash": "0xee903da345f71dcff009043d11311d02023e0088e0fa3ca19258e8f604faf7ba"
+          },
+          {
+            "coin": "ETH",
+            "dir": "long",
+            "entry_time": "2026-06-06 02:21",
+            "notional_usd": 168533,
+            "event_move_pct": 3.97,
+            "event_time": "2026-06-06 04:00",
+            "hash": "0xee903da345f71dcff009043d11311d02023e0088e0fa3ca19258e8f604faf7ba"
+          }
+        ],
+        "held_positions": [
+          {
+            "coin": "BTC",
+            "side": "long",
+            "unrealized_pnl": 594.0,
+            "position_value": 597348
+          },
+          {
+            "coin": "ETH",
+            "side": "long",
+            "unrealized_pnl": -446653.86,
+            "position_value": 10178075
+          }
+        ],
+        "likely_mm": false
+      }
+    },
+    {
+      "address": "0x5f912dbde4530bc43f8322196db54592e3dd65aa",
+      "labels": [],
+      "labels_chain": null,
+      "related_wallets": [],
+      "related_chain": null,
+      "first_funders": [],
+      "counterparties": [],
+      "counterparties_chain": null,
+      "hl": {
+        "insider_score": 0.2065,
+        "lb_pnl": 1371386.681392,
+        "lb_roi": 0.6578123201,
+        "account_value": 3116588.43344,
+        "realized_pnl": 0.0,
+        "unrealized_pnl": -1128381.51,
+        "total_pnl": -1128381.51,
+        "win_rate": 0.0,
+        "dir_accuracy": 0.8259,
+        "n_fills": 471,
+        "n_closes": 0,
+        "n_opens": 471,
+        "event_lead_notional": 0,
+        "lead_examples": [],
+        "held_positions": [
+          {
+            "coin": "BTC",
+            "side": "long",
+            "unrealized_pnl": 306078.73,
+            "position_value": 6650266
+          },
+          {
+            "coin": "ETH",
+            "side": "long",
+            "unrealized_pnl": -1434460.24,
+            "position_value": 10633809
+          }
+        ],
+        "likely_mm": false
+      }
+    }
+  ]
+}

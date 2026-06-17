@@ -1,0 +1,3532 @@
+{
+  "generated_at": "2026-06-16T08:52:13.582126+00:00",
+  "params": {
+    "coins": [
+      "BTC",
+      "ETH",
+      "SOL"
+    ],
+    "require_windows": [
+      "month",
+      "allTime"
+    ],
+    "analysis_days": 14,
+    "n_candidates": 150,
+    "n_events": 58
+  },
+  "wallets": [
+    {
+      "address": "0x72988778525f0ce15c5ac1804ac460606a987d6c",
+      "account_value": 1960357.368667,
+      "lb_windows": {
+        "month": {
+          "pnl": 339443.777726,
+          "roi": 1.6549753458,
+          "vlm": 923999.86
+        },
+        "allTime": {
+          "pnl": 1405505.733639,
+          "roi": 0.7432434665,
+          "vlm": 9032282.03
+        }
+      },
+      "lb_pnl": 339443.777726,
+      "lb_roi": 1.6549753458,
+      "n_fills": 34,
+      "n_closes": 19,
+      "n_opens": 16,
+      "realized_pnl": 173139.5,
+      "win_rate": 1.0,
+      "dir_accuracy": 1.0,
+      "largest_win": 38410.65,
+      "event_lead_notional": 0,
+      "lead_examples": [],
+      "avg_hold_h": null,
+      "n_positions": 0,
+      "unrealized_pnl": 865194.31,
+      "position_value": 1560622,
+      "held_positions": [
+        {
+          "coin": "BTC",
+          "side": "long",
+          "unrealized_pnl": 51390.0,
+          "position_value": 667390
+        },
+        {
+          "coin": "ETH",
+          "side": "short",
+          "unrealized_pnl": 813804.31,
+          "position_value": 893232
+        }
+      ],
+      "total_pnl": 1038333.81,
+      "likely_mm": false,
+      "insider_score": 0.8,
+      "category": "insider_suspect",
+      "category_reason": "的中率100%・勝率100%と極めて高精度（19クローズで一貫）"
+    },
+    {
+      "address": "0xefcace57934a753d66c48a31b880ba806d4c0869",
+      "account_value": 155564.726243,
+      "lb_windows": {
+        "month": {
+          "pnl": 179394.726226,
+          "roi": 1.5818609262,
+          "vlm": 33151756.11
+        },
+        "allTime": {
+          "pnl": 882397.516243,
+          "roi": 4.2763297491,
+          "vlm": 191098252.66000003
+        }
+      },
+      "lb_pnl": 179394.726226,
+      "lb_roi": 1.5818609262,
+      "n_fills": 829,
+      "n_closes": 541,
+      "n_opens": 288,
+      "realized_pnl": 114185.74,
+      "win_rate": 1.0,
+      "dir_accuracy": 1.0,
+      "largest_win": 17590.0,
+      "event_lead_notional": 2952207,
+      "lead_examples": [
+        {
+          "coin": "BTC",
+          "dir": "short",
+          "entry_time": "2026-06-03 17:51",
+          "notional_usd": 200194,
+          "event_move_pct": -5.48,
+          "event_time": "2026-06-03 21:00",
+          "hash": "0x7e22dee93ec1efc77f9c043ce416c102051f00ced9c50e9921eb8a3bfdc5c9b2"
+        },
+        {
+          "coin": "BTC",
+          "dir": "short",
+          "entry_time": "2026-06-03 17:51",
+          "notional_usd": 750454,
+          "event_move_pct": -5.48,
+          "event_time": "2026-06-03 21:00",
+          "hash": "0x9b6ff839dd6d71c49ce9043ce416c402074a001f786090963f38a38c9c614baf"
+        },
+        {
+          "coin": "BTC",
+          "dir": "short",
+          "entry_time": "2026-06-03 17:51",
+          "notional_usd": 208572,
+          "event_move_pct": -5.48,
+          "event_time": "2026-06-03 21:00",
+          "hash": "0x430b5501f5d47ebf4485043ce416c402076900e790d79d91e6d40054b4d858a9"
+        },
+        {
+          "coin": "BTC",
+          "dir": "short",
+          "entry_time": "2026-06-03 17:51",
+          "notional_usd": 452667,
+          "event_move_pct": -5.48,
+          "event_time": "2026-06-03 21:00",
+          "hash": "0xf5decb9d0f65c13af758043ce416c402076a0082aa68e00d99a776efce699b25"
+        },
+        {
+          "coin": "BTC",
+          "dir": "short",
+          "entry_time": "2026-06-03 17:51",
+          "notional_usd": 239411,
+          "event_move_pct": -5.48,
+          "event_time": "2026-06-03 21:00",
+          "hash": "0x56152d1c8c30d44d578e043ce416c40207bf00022733f31ff9ddd86f4b34ae37"
+        }
+      ],
+      "avg_hold_h": 33.33,
+      "n_positions": 4,
+      "unrealized_pnl": 0.0,
+      "position_value": 0,
+      "held_positions": [],
+      "total_pnl": 114185.74,
+      "likely_mm": false,
+      "insider_score": 0.733,
+      "category": "insider_suspect",
+      "category_reason": "的中率100%・勝率100%と極めて高精度（541クローズで一貫）"
+    },
+    {
+      "address": "0x10b6f072fabe21bc72ffd77ff5d4414e6cef2980",
+      "account_value": 439756.275757,
+      "lb_windows": {
+        "month": {
+          "pnl": 295998.779581,
+          "roi": 2.0590145728,
+          "vlm": 20863148.37
+        },
+        "allTime": {
+          "pnl": 361294.645757,
+          "roi": 4.6045548396,
+          "vlm": 45709044.27
+        }
+      },
+      "lb_pnl": 295998.779581,
+      "lb_roi": 2.0590145728,
+      "n_fills": 674,
+      "n_closes": 369,
+      "n_opens": 305,
+      "realized_pnl": 269633.35,
+      "win_rate": 1.0,
+      "dir_accuracy": 1.0,
+      "largest_win": 35961.57,
+      "event_lead_notional": 670091,
+      "lead_examples": [
+        {
+          "coin": "BTC",
+          "dir": "short",
+          "entry_time": "2026-06-03 17:44",
+          "notional_usd": 116590,
+          "event_move_pct": -5.48,
+          "event_time": "2026-06-03 21:00",
+          "hash": "0x40b62d37301284c2422f043ce40238020269001ccb15a394e47ed889ef165eac"
+        },
+        {
+          "coin": "BTC",
+          "dir": "short",
+          "entry_time": "2026-06-03 17:44",
+          "notional_usd": 116591,
+          "event_move_pct": -5.48,
+          "event_time": "2026-06-03 21:00",
+          "hash": "0x40b62d37301284c2422f043ce40238020269001ccb15a394e47ed889ef165eac"
+        },
+        {
+          "coin": "BTC",
+          "dir": "short",
+          "entry_time": "2026-06-03 17:44",
+          "notional_usd": 100100,
+          "event_move_pct": -5.48,
+          "event_time": "2026-06-03 21:00",
+          "hash": "0x40b62d37301284c2422f043ce40238020269001ccb15a394e47ed889ef165eac"
+        },
+        {
+          "coin": "BTC",
+          "dir": "short",
+          "entry_time": "2026-06-03 17:44",
+          "notional_usd": 100100,
+          "event_move_pct": -5.48,
+          "event_time": "2026-06-03 21:00",
+          "hash": "0x40b62d37301284c2422f043ce40238020269001ccb15a394e47ed889ef165eac"
+        },
+        {
+          "coin": "BTC",
+          "dir": "short",
+          "entry_time": "2026-06-03 17:44",
+          "notional_usd": 120119,
+          "event_move_pct": -5.48,
+          "event_time": "2026-06-03 21:00",
+          "hash": "0x40b62d37301284c2422f043ce40238020269001ccb15a394e47ed889ef165eac"
+        }
+      ],
+      "avg_hold_h": 15.24,
+      "n_positions": 3,
+      "unrealized_pnl": -3558.46,
+      "position_value": 1718745,
+      "held_positions": [
+        {
+          "coin": "BTC",
+          "side": "short",
+          "unrealized_pnl": -3558.46,
+          "position_value": 1718745
+        }
+      ],
+      "total_pnl": 266074.89,
+      "likely_mm": false,
+      "insider_score": 0.6223,
+      "category": "insider_suspect",
+      "category_reason": "的中率100%・勝率100%と極めて高精度（369クローズで一貫）"
+    },
+    {
+      "address": "0x230963164d9637a4c536270a06b4e3636d44a2d9",
+      "account_value": 743827.496784,
+      "lb_windows": {
+        "month": {
+          "pnl": 697408.268511,
+          "roi": 1.5621742017,
+          "vlm": 10221365.46
+        },
+        "allTime": {
+          "pnl": 940421.676784,
+          "roi": 4.6230321131,
+          "vlm": 25587493.47
+        }
+      },
+      "lb_pnl": 697408.268511,
+      "lb_roi": 1.5621742017,
+      "n_fills": 36,
+      "n_closes": 29,
+      "n_opens": 7,
+      "realized_pnl": 339822.0,
+      "win_rate": 1.0,
+      "dir_accuracy": 1.0,
+      "largest_win": 196680.48,
+      "event_lead_notional": 0,
+      "lead_examples": [],
+      "avg_hold_h": null,
+      "n_positions": 0,
+      "unrealized_pnl": 0.0,
+      "position_value": 0,
+      "held_positions": [],
+      "total_pnl": 339822.0,
+      "likely_mm": false,
+      "insider_score": 0.5982,
+      "category": "pro_trader",
+      "category_reason": "勝率100%・的中率100%を29クローズで維持（持続的優位）"
+    },
+    {
+      "address": "0x128fae9d18a2f70d98a03c26bf17b67d97ce1f3c",
+      "account_value": 272654.758009,
+      "lb_windows": {
+        "month": {
+          "pnl": 168811.706841,
+          "roi": 1.6256427844,
+          "vlm": 1092406.29
+        },
+        "allTime": {
+          "pnl": 132654.958009,
+          "roi": 0.947536768,
+          "vlm": 8652437.67
+        }
+      },
+      "lb_pnl": 168811.706841,
+      "lb_roi": 1.6256427844,
+      "n_fills": 71,
+      "n_closes": 43,
+      "n_opens": 28,
+      "realized_pnl": 107931.52,
+      "win_rate": 1.0,
+      "dir_accuracy": 1.0,
+      "largest_win": 31024.13,
+      "event_lead_notional": 0,
+      "lead_examples": [],
+      "avg_hold_h": null,
+      "n_positions": 0,
+      "unrealized_pnl": 42289.26,
+      "position_value": 542512,
+      "held_positions": [
+        {
+          "coin": "BTC",
+          "side": "long",
+          "unrealized_pnl": 42289.26,
+          "position_value": 542512
+        }
+      ],
+      "total_pnl": 150220.78,
+      "likely_mm": false,
+      "insider_score": 0.5434,
+      "category": "insider_suspect",
+      "category_reason": "的中率100%・勝率100%と極めて高精度（43クローズで一貫）"
+    },
+    {
+      "address": "0xe392e9008c49e7f82e7927a741fcb12799ebdb2b",
+      "account_value": 107463.639466,
+      "lb_windows": {
+        "month": {
+          "pnl": 85848.391943,
+          "roi": 3.1087315756,
+          "vlm": 3406193.23
+        },
+        "allTime": {
+          "pnl": 104094.979466,
+          "roi": 5.6889932328,
+          "vlm": 601853669.81
+        }
+      },
+      "lb_pnl": 85848.391943,
+      "lb_roi": 3.1087315756,
+      "n_fills": 163,
+      "n_closes": 93,
+      "n_opens": 70,
+      "realized_pnl": 43492.4,
+      "win_rate": 1.0,
+      "dir_accuracy": 1.0,
+      "largest_win": 4468.22,
+      "event_lead_notional": 0,
+      "lead_examples": [],
+      "avg_hold_h": 35.01,
+      "n_positions": 2,
+      "unrealized_pnl": 13991.92,
+      "position_value": 204787,
+      "held_positions": [
+        {
+          "coin": "BTC",
+          "side": "long",
+          "unrealized_pnl": 13991.92,
+          "position_value": 204787
+        }
+      ],
+      "total_pnl": 57484.32,
+      "likely_mm": false,
+      "insider_score": 0.5166,
+      "category": "insider_suspect",
+      "category_reason": "的中率100%・勝率100%と極めて高精度（93クローズで一貫）"
+    },
+    {
+      "address": "0x83b00972aafcc3d06d45b1b823079f9a414da46e",
+      "account_value": 129086.742071,
+      "lb_windows": {
+        "month": {
+          "pnl": 114738.254765,
+          "roi": 7.5625016569,
+          "vlm": 4340788.68
+        },
+        "allTime": {
+          "pnl": 130109.930797,
+          "roi": 20.1903318499,
+          "vlm": 20870867.75
+        }
+      },
+      "lb_pnl": 114738.254765,
+      "lb_roi": 7.5625016569,
+      "n_fills": 86,
+      "n_closes": 30,
+      "n_opens": 56,
+      "realized_pnl": 39971.93,
+      "win_rate": 1.0,
+      "dir_accuracy": 1.0,
+      "largest_win": 12536.13,
+      "event_lead_notional": 0,
+      "lead_examples": [],
+      "avg_hold_h": 36.16,
+      "n_positions": 1,
+      "unrealized_pnl": 2789.84,
+      "position_value": 197162,
+      "held_positions": [
+        {
+          "coin": "ETH",
+          "side": "short",
+          "unrealized_pnl": 2789.84,
+          "position_value": 197162
+        }
+      ],
+      "total_pnl": 42761.77,
+      "likely_mm": false,
+      "insider_score": 0.5124,
+      "category": "insider_suspect",
+      "category_reason": "的中率100%・勝率100%と極めて高精度（30クローズで一貫）"
+    },
+    {
+      "address": "0x9b5ae497fd1bf885a40d6f99d0c57245761e053c",
+      "account_value": 550933.380607,
+      "lb_windows": {
+        "month": {
+          "pnl": 25855.090088,
+          "roi": 258.55090088,
+          "vlm": 2434636.42
+        },
+        "allTime": {
+          "pnl": 67119.85,
+          "roi": 0.4313171525,
+          "vlm": 12304514.46
+        }
+      },
+      "lb_pnl": 25855.090088,
+      "lb_roi": 258.55090088,
+      "n_fills": 116,
+      "n_closes": 41,
+      "n_opens": 75,
+      "realized_pnl": 20453.59,
+      "win_rate": 1.0,
+      "dir_accuracy": 1.0,
+      "largest_win": 3614.9,
+      "event_lead_notional": 0,
+      "lead_examples": [],
+      "avg_hold_h": 1.73,
+      "n_positions": 1,
+      "unrealized_pnl": 0.0,
+      "position_value": 0,
+      "held_positions": [],
+      "total_pnl": 20453.59,
+      "likely_mm": false,
+      "insider_score": 0.5059,
+      "category": "insider_suspect",
+      "category_reason": "的中率100%・勝率100%と極めて高精度（41クローズで一貫）"
+    },
+    {
+      "address": "0x388b3ea2d5fa291e47ecb9f5570012d84a891180",
+      "account_value": 191871.125635,
+      "lb_windows": {
+        "month": {
+          "pnl": 10370.26,
+          "roi": 103.7026,
+          "vlm": 831767.66
+        },
+        "allTime": {
+          "pnl": 35073.665635,
+          "roi": 0.1677469871,
+          "vlm": 28173600.78
+        }
+      },
+      "lb_pnl": 10370.26,
+      "lb_roi": 103.7026,
+      "n_fills": 12,
+      "n_closes": 2,
+      "n_opens": 10,
+      "realized_pnl": 10444.0,
+      "win_rate": 1.0,
+      "dir_accuracy": 1.0,
+      "largest_win": 10087.57,
+      "event_lead_notional": 0,
+      "lead_examples": [],
+      "avg_hold_h": 1.82,
+      "n_positions": 1,
+      "unrealized_pnl": 0.0,
+      "position_value": 0,
+      "held_positions": [],
+      "total_pnl": 10444.0,
+      "likely_mm": false,
+      "insider_score": 0.503,
+      "category": "excluded",
+      "category_reason": "サンプル不足（クローズ2件のみ）"
+    },
+    {
+      "address": "0xdd54150be70967523a256f92db193845acf58714",
+      "account_value": 163735.186518,
+      "lb_windows": {
+        "month": {
+          "pnl": 157634.85,
+          "roi": 3.5795009426,
+          "vlm": 4762901.7
+        },
+        "allTime": {
+          "pnl": 403960.426518,
+          "roi": 0.5338238789,
+          "vlm": 101845810.33
+        }
+      },
+      "lb_pnl": 157634.85,
+      "lb_roi": 3.5795009426,
+      "n_fills": 24,
+      "n_closes": 18,
+      "n_opens": 6,
+      "realized_pnl": 3078.23,
+      "win_rate": 1.0,
+      "dir_accuracy": 1.0,
+      "largest_win": 1541.24,
+      "event_lead_notional": 0,
+      "lead_examples": [],
+      "avg_hold_h": 3.24,
+      "n_positions": 1,
+      "unrealized_pnl": 0.0,
+      "position_value": 0,
+      "held_positions": [],
+      "total_pnl": 3078.23,
+      "likely_mm": false,
+      "insider_score": 0.5009,
+      "category": "excluded",
+      "category_reason": "エッジ不明瞭（的中率100%・勝率100%が基準未満）"
+    },
+    {
+      "address": "0xbde047d965a1b13fe37d11e5df31ed110ffbb92b",
+      "account_value": 205257.877341,
+      "lb_windows": {
+        "month": {
+          "pnl": 157264.183266,
+          "roi": 3.2767676316,
+          "vlm": 779580.01
+        },
+        "allTime": {
+          "pnl": 63091.860216,
+          "roi": 0.4437923255,
+          "vlm": 5519880.83
+        }
+      },
+      "lb_pnl": 157264.183266,
+      "lb_roi": 3.2767676316,
+      "n_fills": 22,
+      "n_closes": 5,
+      "n_opens": 17,
+      "realized_pnl": 622.58,
+      "win_rate": 1.0,
+      "dir_accuracy": 1.0,
+      "largest_win": 204.97,
+      "event_lead_notional": 0,
+      "lead_examples": [],
+      "avg_hold_h": 0.1,
+      "n_positions": 1,
+      "unrealized_pnl": 0.0,
+      "position_value": 0,
+      "held_positions": [],
+      "total_pnl": 622.58,
+      "likely_mm": false,
+      "insider_score": 0.5002,
+      "category": "insider_suspect",
+      "category_reason": "的中率100%・勝率100%と極めて高精度（5クローズで一貫）"
+    },
+    {
+      "address": "0x5aadb434293b4e1b8fb2e84007e567506fe65a96",
+      "account_value": 128149.641749,
+      "lb_windows": {
+        "month": {
+          "pnl": 294567.460599,
+          "roi": 1.8131720615,
+          "vlm": 23383437.34
+        },
+        "allTime": {
+          "pnl": 573831.18,
+          "roi": 8.9143407607,
+          "vlm": 80724649.99
+        }
+      },
+      "lb_pnl": 294567.460599,
+      "lb_roi": 1.8131720615,
+      "n_fills": 322,
+      "n_closes": 147,
+      "n_opens": 175,
+      "realized_pnl": 6529.99,
+      "win_rate": 1.0,
+      "dir_accuracy": 0.7771,
+      "largest_win": 712.3,
+      "event_lead_notional": 0,
+      "lead_examples": [],
+      "avg_hold_h": 0.9,
+      "n_positions": 3,
+      "unrealized_pnl": 0.0,
+      "position_value": 0,
+      "held_positions": [],
+      "total_pnl": 6529.99,
+      "likely_mm": false,
+      "insider_score": 0.4462,
+      "category": "pro_trader",
+      "category_reason": "勝率100%・的中率78%を147クローズで維持（持続的優位）"
+    },
+    {
+      "address": "0x4d3980ac9d84fc34adcd025ee2337786846343c4",
+      "account_value": 217415.386936,
+      "lb_windows": {
+        "month": {
+          "pnl": 221171.944419,
+          "roi": 6.9166013304,
+          "vlm": 130738541.23
+        },
+        "allTime": {
+          "pnl": 224749.573143,
+          "roi": 7.9139012788,
+          "vlm": 153331471.72
+        }
+      },
+      "lb_pnl": 221171.944419,
+      "lb_roi": 6.9166013304,
+      "n_fills": 142,
+      "n_closes": 38,
+      "n_opens": 104,
+      "realized_pnl": 11957.4,
+      "win_rate": 0.7368,
+      "dir_accuracy": 1.0,
+      "largest_win": 3469.62,
+      "event_lead_notional": 0,
+      "lead_examples": [],
+      "avg_hold_h": 2.68,
+      "n_positions": 5,
+      "unrealized_pnl": 0.0,
+      "position_value": 0,
+      "held_positions": [],
+      "total_pnl": 11957.4,
+      "likely_mm": false,
+      "insider_score": 0.4377,
+      "category": "pro_trader",
+      "category_reason": "勝率74%・的中率100%を38クローズで維持（持続的優位）"
+    },
+    {
+      "address": "0xa72dc2d42398e54634fc28e6769f8ce3ae011807",
+      "account_value": 108586.987196,
+      "lb_windows": {
+        "month": {
+          "pnl": 82023.067196,
+          "roi": 2.2401542103,
+          "vlm": 82468688.16
+        },
+        "allTime": {
+          "pnl": 82023.067196,
+          "roi": 2.2401542103,
+          "vlm": 82468688.16
+        }
+      },
+      "lb_pnl": 82023.067196,
+      "lb_roi": 2.2401542103,
+      "n_fills": 684,
+      "n_closes": 342,
+      "n_opens": 342,
+      "realized_pnl": 24241.91,
+      "win_rate": 0.9181,
+      "dir_accuracy": 0.7895,
+      "largest_win": 1488.13,
+      "event_lead_notional": 0,
+      "lead_examples": [],
+      "avg_hold_h": 5.8,
+      "n_positions": 10,
+      "unrealized_pnl": 0.0,
+      "position_value": 0,
+      "held_positions": [],
+      "total_pnl": 24241.91,
+      "likely_mm": false,
+      "insider_score": 0.4339,
+      "category": "pro_trader",
+      "category_reason": "勝率92%・的中率79%を342クローズで維持（持続的優位）"
+    },
+    {
+      "address": "0x8463d6ffcbfb56bf20ab2e1111f9a0e8359533f2",
+      "account_value": 481584.560489,
+      "lb_windows": {
+        "month": {
+          "pnl": 635941.988215,
+          "roi": 1.5886202432,
+          "vlm": 56429385.53
+        },
+        "allTime": {
+          "pnl": 5870630.690489001,
+          "roi": 37.3280972026,
+          "vlm": 1302477895.09
+        }
+      },
+      "lb_pnl": 635941.988215,
+      "lb_roi": 1.5886202432,
+      "n_fills": 553,
+      "n_closes": 258,
+      "n_opens": 295,
+      "realized_pnl": 191211.63,
+      "win_rate": 0.8178,
+      "dir_accuracy": 0.5729,
+      "largest_win": 15436.34,
+      "event_lead_notional": 0,
+      "lead_examples": [],
+      "avg_hold_h": 34.15,
+      "n_positions": 1,
+      "unrealized_pnl": 67384.08,
+      "position_value": 1168055,
+      "held_positions": [
+        {
+          "coin": "BTC",
+          "side": "long",
+          "unrealized_pnl": 67384.08,
+          "position_value": 1168055
+        }
+      ],
+      "total_pnl": 258595.71,
+      "likely_mm": false,
+      "insider_score": 0.4224,
+      "category": "pro_trader",
+      "category_reason": "勝率82%・的中率57%を258クローズで維持（持続的優位）"
+    },
+    {
+      "address": "0xd117b0459ba2af1a397e76baa5efd580a3f7f99f",
+      "account_value": 102565.085599,
+      "lb_windows": {
+        "month": {
+          "pnl": 61478.467764,
+          "roi": 1.4963136662,
+          "vlm": 2477824.23
+        },
+        "allTime": {
+          "pnl": 62417.115599,
+          "roi": 1.554676752,
+          "vlm": 5509724.04
+        }
+      },
+      "lb_pnl": 61478.467764,
+      "lb_roi": 1.4963136662,
+      "n_fills": 20,
+      "n_closes": 11,
+      "n_opens": 9,
+      "realized_pnl": 27.13,
+      "win_rate": 0.9091,
+      "dir_accuracy": 0.7778,
+      "largest_win": 300.82,
+      "event_lead_notional": 0,
+      "lead_examples": [],
+      "avg_hold_h": 11.62,
+      "n_positions": 3,
+      "unrealized_pnl": 0.0,
+      "position_value": 0,
+      "held_positions": [],
+      "total_pnl": 27.13,
+      "likely_mm": false,
+      "insider_score": 0.4217,
+      "category": "excluded",
+      "category_reason": "エッジ不明瞭（的中率78%・勝率91%が基準未満）"
+    },
+    {
+      "address": "0x72a7837428320ec3c0c072b0c0fc192d6df0c83f",
+      "account_value": 687135.658806,
+      "lb_windows": {
+        "month": {
+          "pnl": 411369.634864,
+          "roi": 1.4884956877,
+          "vlm": 13669805.9
+        },
+        "allTime": {
+          "pnl": 491298.4488059999,
+          "roi": 1.6714928455,
+          "vlm": 24229310.990000002
+        }
+      },
+      "lb_pnl": 411369.634864,
+      "lb_roi": 1.4884956877,
+      "n_fills": 598,
+      "n_closes": 224,
+      "n_opens": 374,
+      "realized_pnl": 253.02,
+      "win_rate": 0.9509,
+      "dir_accuracy": 0.6631,
+      "largest_win": 14440.82,
+      "event_lead_notional": 0,
+      "lead_examples": [],
+      "avg_hold_h": 17.35,
+      "n_positions": 1,
+      "unrealized_pnl": 57206.99,
+      "position_value": 1668800,
+      "held_positions": [
+        {
+          "coin": "BTC",
+          "side": "long",
+          "unrealized_pnl": 57206.99,
+          "position_value": 1668800
+        }
+      ],
+      "total_pnl": 57460.01,
+      "likely_mm": false,
+      "insider_score": 0.4201,
+      "category": "pro_trader",
+      "category_reason": "勝率95%・的中率66%を224クローズで維持（持続的優位）"
+    },
+    {
+      "address": "0xd05808946809c180d190608e13f473db30aa8524",
+      "account_value": 1214396.797049,
+      "lb_windows": {
+        "month": {
+          "pnl": 941677.747049,
+          "roi": 3.4529225115,
+          "vlm": 30750987.99
+        },
+        "allTime": {
+          "pnl": 941677.747049,
+          "roi": 3.4529225115,
+          "vlm": 30750987.99
+        }
+      },
+      "lb_pnl": 941677.747049,
+      "lb_roi": 3.4529225115,
+      "n_fills": 252,
+      "n_closes": 128,
+      "n_opens": 124,
+      "realized_pnl": 86853.23,
+      "win_rate": 0.9844,
+      "dir_accuracy": 0.5887,
+      "largest_win": 37422.96,
+      "event_lead_notional": 0,
+      "lead_examples": [],
+      "avg_hold_h": 284.14,
+      "n_positions": 2,
+      "unrealized_pnl": 0.0,
+      "position_value": 0,
+      "held_positions": [],
+      "total_pnl": 86853.23,
+      "likely_mm": false,
+      "insider_score": 0.4184,
+      "category": "pro_trader",
+      "category_reason": "勝率98%・的中率59%を128クローズで維持（持続的優位）"
+    },
+    {
+      "address": "0xfe4dec8543b0b9cec0c897a689f7af7bddb02192",
+      "account_value": 440249.92462,
+      "lb_windows": {
+        "month": {
+          "pnl": 912519.97536,
+          "roi": 8.48984734,
+          "vlm": 12305107.98
+        },
+        "allTime": {
+          "pnl": 916287.698366,
+          "roi": 8.8345881069,
+          "vlm": 12930288.94
+        }
+      },
+      "lb_pnl": 912519.97536,
+      "lb_roi": 8.48984734,
+      "n_fills": 275,
+      "n_closes": 125,
+      "n_opens": 150,
+      "realized_pnl": 27089.08,
+      "win_rate": 0.84,
+      "dir_accuracy": 0.6867,
+      "largest_win": 4855.11,
+      "event_lead_notional": 0,
+      "lead_examples": [],
+      "avg_hold_h": 24.99,
+      "n_positions": 2,
+      "unrealized_pnl": 0.0,
+      "position_value": 0,
+      "held_positions": [],
+      "total_pnl": 27089.08,
+      "likely_mm": false,
+      "insider_score": 0.3895,
+      "category": "pro_trader",
+      "category_reason": "勝率84%・的中率69%を125クローズで維持（持続的優位）"
+    },
+    {
+      "address": "0x5b1efd32c62000cbeba7cccbc49fabdc57b2eb80",
+      "account_value": 184443.376212,
+      "lb_windows": {
+        "month": {
+          "pnl": 109702.763451,
+          "roi": 1.4681283303,
+          "vlm": 8747634.08
+        },
+        "allTime": {
+          "pnl": 125088.696212,
+          "roi": 1.3203124221,
+          "vlm": 10666201.95
+        }
+      },
+      "lb_pnl": 109702.763451,
+      "lb_roi": 1.4681283303,
+      "n_fills": 76,
+      "n_closes": 52,
+      "n_opens": 24,
+      "realized_pnl": 124501.45,
+      "win_rate": 0.9615,
+      "dir_accuracy": 0.4167,
+      "largest_win": 17630.8,
+      "event_lead_notional": 0,
+      "lead_examples": [],
+      "avg_hold_h": null,
+      "n_positions": 0,
+      "unrealized_pnl": -4130.62,
+      "position_value": 235384,
+      "held_positions": [
+        {
+          "coin": "BTC",
+          "side": "short",
+          "unrealized_pnl": -4130.62,
+          "position_value": 235384
+        }
+      ],
+      "total_pnl": 120370.83,
+      "likely_mm": false,
+      "insider_score": 0.3793,
+      "category": "excluded",
+      "category_reason": "エッジ不明瞭（的中率42%・勝率96%が基準未満）"
+    },
+    {
+      "address": "0xdd08886cb92c689c7d89c88f048028293296ead1",
+      "account_value": 175143.62774,
+      "lb_windows": {
+        "month": {
+          "pnl": 140702.832301,
+          "roi": 3.3547964655,
+          "vlm": 12440980.2
+        },
+        "allTime": {
+          "pnl": 114200.101793,
+          "roi": 1.8769201935,
+          "vlm": 45062203.64
+        }
+      },
+      "lb_pnl": 140702.832301,
+      "lb_roi": 3.3547964655,
+      "n_fills": 509,
+      "n_closes": 275,
+      "n_opens": 234,
+      "realized_pnl": 135636.88,
+      "win_rate": 0.5782,
+      "dir_accuracy": 0.7692,
+      "largest_win": 33401.45,
+      "event_lead_notional": 0,
+      "lead_examples": [],
+      "avg_hold_h": 20.83,
+      "n_positions": 1,
+      "unrealized_pnl": 1588.63,
+      "position_value": 372211,
+      "held_positions": [
+        {
+          "coin": "BTC",
+          "side": "short",
+          "unrealized_pnl": 1588.63,
+          "position_value": 372211
+        }
+      ],
+      "total_pnl": 137225.51,
+      "likely_mm": false,
+      "insider_score": 0.3765,
+      "category": "pro_trader",
+      "category_reason": "勝率58%・的中率77%を275クローズで維持（持続的優位）"
+    },
+    {
+      "address": "0x5875d72130981b18692a3d29545e4038f7eb0c38",
+      "account_value": 1596815.148207,
+      "lb_windows": {
+        "month": {
+          "pnl": 1941286.729212,
+          "roi": 2.0213540404,
+          "vlm": 259669439.65
+        },
+        "allTime": {
+          "pnl": 689018.458207,
+          "roi": 0.3113985991,
+          "vlm": 373890803.36
+        }
+      },
+      "lb_pnl": 1941286.729212,
+      "lb_roi": 2.0213540404,
+      "n_fills": 1212,
+      "n_closes": 643,
+      "n_opens": 573,
+      "realized_pnl": -122293.13,
+      "win_rate": 0.6952,
+      "dir_accuracy": 0.7469,
+      "largest_win": 4836.88,
+      "event_lead_notional": 0,
+      "lead_examples": [],
+      "avg_hold_h": 5.69,
+      "n_positions": 7,
+      "unrealized_pnl": 0.0,
+      "position_value": 0,
+      "held_positions": [],
+      "total_pnl": -122293.13,
+      "likely_mm": false,
+      "insider_score": 0.3605,
+      "category": "excluded",
+      "category_reason": "majors で黒字でない"
+    },
+    {
+      "address": "0x2a934d40944e2b686ee9cdce74a3f67d32cd0347",
+      "account_value": 142885.491537,
+      "lb_windows": {
+        "month": {
+          "pnl": 298043.123819,
+          "roi": 2.1037240594,
+          "vlm": 235119.95
+        },
+        "allTime": {
+          "pnl": 944739.041537,
+          "roi": 5.727524663,
+          "vlm": 9880604.79
+        }
+      },
+      "lb_pnl": 298043.123819,
+      "lb_roi": 2.1037240594,
+      "n_fills": 7,
+      "n_closes": 0,
+      "n_opens": 7,
+      "realized_pnl": 0.0,
+      "win_rate": 0.0,
+      "dir_accuracy": 1.0,
+      "largest_win": 0.0,
+      "event_lead_notional": 0,
+      "lead_examples": [],
+      "avg_hold_h": null,
+      "n_positions": 0,
+      "unrealized_pnl": 374622.8,
+      "position_value": 1358120,
+      "held_positions": [
+        {
+          "coin": "ETH",
+          "side": "short",
+          "unrealized_pnl": 374622.8,
+          "position_value": 1358120
+        }
+      ],
+      "total_pnl": 374622.8,
+      "likely_mm": false,
+      "insider_score": 0.3582,
+      "category": "excluded",
+      "category_reason": "サンプル不足（クローズ0件のみ）"
+    },
+    {
+      "address": "0xcd2123d3f00325fa83b2743ed85844f8d4bb9826",
+      "account_value": 1591954.442456,
+      "lb_windows": {
+        "month": {
+          "pnl": 945587.378098,
+          "roi": 1.4629263003,
+          "vlm": 2080680.32
+        },
+        "allTime": {
+          "pnl": 389744.012456,
+          "roi": 0.3241895119,
+          "vlm": 7672277.01
+        }
+      },
+      "lb_pnl": 945587.378098,
+      "lb_roi": 1.4629263003,
+      "n_fills": 75,
+      "n_closes": 75,
+      "n_opens": 0,
+      "realized_pnl": 281998.74,
+      "win_rate": 1.0,
+      "dir_accuracy": 0.0,
+      "largest_win": 27358.59,
+      "event_lead_notional": 0,
+      "lead_examples": [],
+      "avg_hold_h": null,
+      "n_positions": 0,
+      "unrealized_pnl": 71017.96,
+      "position_value": 2067178,
+      "held_positions": [
+        {
+          "coin": "BTC",
+          "side": "short",
+          "unrealized_pnl": 71017.96,
+          "position_value": 2067178
+        }
+      ],
+      "total_pnl": 353016.7,
+      "likely_mm": false,
+      "insider_score": 0.352,
+      "category": "excluded",
+      "category_reason": "エッジ不明瞭（的中率0%・勝率100%が基準未満）"
+    },
+    {
+      "address": "0x36eaaca5159a1dcbe60aaad12faaadb0fce6c58b",
+      "account_value": 126220.837703,
+      "lb_windows": {
+        "month": {
+          "pnl": 49279.184981,
+          "roi": 2.1858066142,
+          "vlm": 26014603.8
+        },
+        "allTime": {
+          "pnl": 47896.794981,
+          "roi": 2.3172971918,
+          "vlm": 57003592.64
+        }
+      },
+      "lb_pnl": 49279.184981,
+      "lb_roi": 2.1858066142,
+      "n_fills": 441,
+      "n_closes": 234,
+      "n_opens": 207,
+      "realized_pnl": 8256.13,
+      "win_rate": 0.5598,
+      "dir_accuracy": 0.7488,
+      "largest_win": 3793.75,
+      "event_lead_notional": 0,
+      "lead_examples": [],
+      "avg_hold_h": 3.38,
+      "n_positions": 19,
+      "unrealized_pnl": 0.0,
+      "position_value": 0,
+      "held_positions": [],
+      "total_pnl": 8256.13,
+      "likely_mm": false,
+      "insider_score": 0.3295,
+      "category": "pro_trader",
+      "category_reason": "勝率56%・的中率75%を234クローズで維持（持続的優位）"
+    },
+    {
+      "address": "0x103e9d15f8a102ef9333ad8b66ffe25b0db448a4",
+      "account_value": 126051.504773,
+      "lb_windows": {
+        "month": {
+          "pnl": 165071.579881,
+          "roi": 1.7800373859,
+          "vlm": 3861428.76
+        },
+        "allTime": {
+          "pnl": 903050.684773,
+          "roi": 4.4553151777,
+          "vlm": 9087600.45
+        }
+      },
+      "lb_pnl": 165071.579881,
+      "lb_roi": 1.7800373859,
+      "n_fills": 1169,
+      "n_closes": 539,
+      "n_opens": 630,
+      "realized_pnl": 133796.99,
+      "win_rate": 1.0,
+      "dir_accuracy": 0.1286,
+      "largest_win": 2230.03,
+      "event_lead_notional": 0,
+      "lead_examples": [],
+      "avg_hold_h": null,
+      "n_positions": 0,
+      "unrealized_pnl": 17497.99,
+      "position_value": 1078996,
+      "held_positions": [
+        {
+          "coin": "BTC",
+          "side": "short",
+          "unrealized_pnl": 17497.99,
+          "position_value": 1078996
+        }
+      ],
+      "total_pnl": 151294.98,
+      "likely_mm": false,
+      "insider_score": 0.3259,
+      "category": "excluded",
+      "category_reason": "エッジ不明瞭（的中率13%・勝率100%が基準未満）"
+    },
+    {
+      "address": "0x5a5ed3083d79f31f295bcdd71fdfb7a188132538",
+      "account_value": 186429.906538,
+      "lb_windows": {
+        "month": {
+          "pnl": 173690.761039,
+          "roi": 2.7684591439,
+          "vlm": 6013559.64
+        },
+        "allTime": {
+          "pnl": 965504.286538,
+          "roi": 35.2714786212,
+          "vlm": 288659372.24
+        }
+      },
+      "lb_pnl": 173690.761039,
+      "lb_roi": 2.7684591439,
+      "n_fills": 241,
+      "n_closes": 54,
+      "n_opens": 187,
+      "realized_pnl": 86865.77,
+      "win_rate": 0.7963,
+      "dir_accuracy": 0.3957,
+      "largest_win": 14163.92,
+      "event_lead_notional": 0,
+      "lead_examples": [],
+      "avg_hold_h": 24.68,
+      "n_positions": 1,
+      "unrealized_pnl": -1716.61,
+      "position_value": 440994,
+      "held_positions": [
+        {
+          "coin": "BTC",
+          "side": "long",
+          "unrealized_pnl": 7403.65,
+          "position_value": 138699
+        },
+        {
+          "coin": "ETH",
+          "side": "short",
+          "unrealized_pnl": -20211.56,
+          "position_value": 161059
+        },
+        {
+          "coin": "SOL",
+          "side": "long",
+          "unrealized_pnl": 11091.3,
+          "position_value": 141236
+        }
+      ],
+      "total_pnl": 85149.16,
+      "likely_mm": false,
+      "insider_score": 0.3226,
+      "category": "excluded",
+      "category_reason": "エッジ不明瞭（的中率40%・勝率80%が基準未満）"
+    },
+    {
+      "address": "0x1aa1d90df49c3e5a67888798c16e73c4b4c323fc",
+      "account_value": 149635.252818,
+      "lb_windows": {
+        "month": {
+          "pnl": 91433.825203,
+          "roi": 1.5709893889,
+          "vlm": 11235900.4
+        },
+        "allTime": {
+          "pnl": 21248.502818,
+          "roi": 0.1655038609,
+          "vlm": 69997230.2
+        }
+      },
+      "lb_pnl": 91433.825203,
+      "lb_roi": 1.5709893889,
+      "n_fills": 816,
+      "n_closes": 349,
+      "n_opens": 467,
+      "realized_pnl": 75333.67,
+      "win_rate": 0.5989,
+      "dir_accuracy": 0.5931,
+      "largest_win": 9741.69,
+      "event_lead_notional": 0,
+      "lead_examples": [],
+      "avg_hold_h": 7.07,
+      "n_positions": 35,
+      "unrealized_pnl": -1014.13,
+      "position_value": 1471383,
+      "held_positions": [
+        {
+          "coin": "SOL",
+          "side": "short",
+          "unrealized_pnl": -1014.13,
+          "position_value": 1471383
+        }
+      ],
+      "total_pnl": 74319.54,
+      "likely_mm": false,
+      "insider_score": 0.3195,
+      "category": "pro_trader",
+      "category_reason": "勝率60%・的中率59%を349クローズで維持（持続的優位）"
+    },
+    {
+      "address": "0xec9045405a878d01cdb836f82a6dd2abd49a169c",
+      "account_value": 506219.030424,
+      "lb_windows": {
+        "month": {
+          "pnl": 360243.540424,
+          "roi": 1.8007594989,
+          "vlm": 24697054.87
+        },
+        "allTime": {
+          "pnl": 360243.540424,
+          "roi": 1.8007594989,
+          "vlm": 24697054.87
+        }
+      },
+      "lb_pnl": 360243.540424,
+      "lb_roi": 1.8007594989,
+      "n_fills": 33,
+      "n_closes": 33,
+      "n_opens": 0,
+      "realized_pnl": 23458.06,
+      "win_rate": 1.0,
+      "dir_accuracy": 0.0,
+      "largest_win": 4415.43,
+      "event_lead_notional": 0,
+      "lead_examples": [],
+      "avg_hold_h": null,
+      "n_positions": 0,
+      "unrealized_pnl": 210932.03,
+      "position_value": 3402106,
+      "held_positions": [
+        {
+          "coin": "BTC",
+          "side": "short",
+          "unrealized_pnl": 210932.03,
+          "position_value": 3402106
+        }
+      ],
+      "total_pnl": 234390.09,
+      "likely_mm": false,
+      "insider_score": 0.3177,
+      "category": "excluded",
+      "category_reason": "エッジ不明瞭（的中率0%・勝率100%が基準未満）"
+    },
+    {
+      "address": "0x8c783a3877bfab4e318a7dc521157cc89f85202c",
+      "account_value": 126598.125151,
+      "lb_windows": {
+        "month": {
+          "pnl": 124333.533913,
+          "roi": 5.4580150016,
+          "vlm": 28030902.89
+        },
+        "allTime": {
+          "pnl": 127063.525151,
+          "roi": 6.3373329252,
+          "vlm": 28231201.78
+        }
+      },
+      "lb_pnl": 124333.533913,
+      "lb_roi": 5.4580150016,
+      "n_fills": 1674,
+      "n_closes": 753,
+      "n_opens": 923,
+      "realized_pnl": 90250.08,
+      "win_rate": 0.7517,
+      "dir_accuracy": 0.4095,
+      "largest_win": 8004.46,
+      "event_lead_notional": 0,
+      "lead_examples": [],
+      "avg_hold_h": 10.16,
+      "n_positions": 24,
+      "unrealized_pnl": -1508.84,
+      "position_value": 375149,
+      "held_positions": [
+        {
+          "coin": "BTC",
+          "side": "long",
+          "unrealized_pnl": -22.6,
+          "position_value": 266228
+        },
+        {
+          "coin": "ETH",
+          "side": "long",
+          "unrealized_pnl": -1445.24,
+          "position_value": 71428
+        },
+        {
+          "coin": "SOL",
+          "side": "long",
+          "unrealized_pnl": -41.0,
+          "position_value": 37493
+        }
+      ],
+      "total_pnl": 88741.24,
+      "likely_mm": false,
+      "insider_score": 0.3159,
+      "category": "excluded",
+      "category_reason": "エッジ不明瞭（的中率41%・勝率75%が基準未満）"
+    },
+    {
+      "address": "0x48ec0004494081e8332589faf0747d568da79faf",
+      "account_value": 230259.87932,
+      "lb_windows": {
+        "month": {
+          "pnl": 206071.895881,
+          "roi": 8.5195980227,
+          "vlm": 81008691.05
+        },
+        "allTime": {
+          "pnl": 343164.43932,
+          "roi": 0.4428182313,
+          "vlm": 2413485154.99
+        }
+      },
+      "lb_pnl": 206071.895881,
+      "lb_roi": 8.5195980227,
+      "n_fills": 2020,
+      "n_closes": 836,
+      "n_opens": 1184,
+      "realized_pnl": 118677.14,
+      "win_rate": 0.5897,
+      "dir_accuracy": 0.5355,
+      "largest_win": 12075.4,
+      "event_lead_notional": 0,
+      "lead_examples": [],
+      "avg_hold_h": 14.43,
+      "n_positions": 23,
+      "unrealized_pnl": -12305.17,
+      "position_value": 923789,
+      "held_positions": [
+        {
+          "coin": "BTC",
+          "side": "short",
+          "unrealized_pnl": -3071.18,
+          "position_value": 522498
+        },
+        {
+          "coin": "ETH",
+          "side": "long",
+          "unrealized_pnl": -9234.0,
+          "position_value": 401291
+        }
+      ],
+      "total_pnl": 106371.97,
+      "likely_mm": false,
+      "insider_score": 0.312,
+      "category": "excluded",
+      "category_reason": "エッジ不明瞭（的中率54%・勝率59%が基準未満）"
+    },
+    {
+      "address": "0x96abd7547c7ef5a0c4f2bf04dcd74dd96a461b56",
+      "account_value": 102514.437067,
+      "lb_windows": {
+        "month": {
+          "pnl": 74353.113161,
+          "roi": 2.0503441222,
+          "vlm": 68323249.69
+        },
+        "allTime": {
+          "pnl": 54461.357067,
+          "roi": 0.9698315653,
+          "vlm": 84803758.74
+        }
+      },
+      "lb_pnl": 74353.113161,
+      "lb_roi": 2.0503441222,
+      "n_fills": 1929,
+      "n_closes": 883,
+      "n_opens": 1047,
+      "realized_pnl": 44795.73,
+      "win_rate": 0.5164,
+      "dir_accuracy": 0.6113,
+      "largest_win": 3697.25,
+      "event_lead_notional": 0,
+      "lead_examples": [],
+      "avg_hold_h": 11.22,
+      "n_positions": 45,
+      "unrealized_pnl": -302.98,
+      "position_value": 30301,
+      "held_positions": [
+        {
+          "coin": "BTC",
+          "side": "short",
+          "unrealized_pnl": -302.98,
+          "position_value": 30301
+        }
+      ],
+      "total_pnl": 44492.75,
+      "likely_mm": false,
+      "insider_score": 0.2948,
+      "category": "excluded",
+      "category_reason": "エッジ不明瞭（的中率61%・勝率52%が基準未満）"
+    },
+    {
+      "address": "0x2385aae82b8ff5ec9e72f122f3462b9a1b9db98a",
+      "account_value": 167646.131017,
+      "lb_windows": {
+        "month": {
+          "pnl": 119038.993382,
+          "roi": 2.4490023312,
+          "vlm": 23575345.09
+        },
+        "allTime": {
+          "pnl": 148525.761017,
+          "roi": 2.8965286107,
+          "vlm": 29087752.49
+        }
+      },
+      "lb_pnl": 119038.993382,
+      "lb_roi": 2.4490023312,
+      "n_fills": 492,
+      "n_closes": 265,
+      "n_opens": 227,
+      "realized_pnl": 21281.24,
+      "win_rate": 0.6151,
+      "dir_accuracy": 0.5286,
+      "largest_win": 22489.91,
+      "event_lead_notional": 0,
+      "lead_examples": [],
+      "avg_hold_h": 12.54,
+      "n_positions": 10,
+      "unrealized_pnl": 0.0,
+      "position_value": 0,
+      "held_positions": [],
+      "total_pnl": 21281.24,
+      "likely_mm": false,
+      "insider_score": 0.2921,
+      "category": "excluded",
+      "category_reason": "エッジ不明瞭（的中率53%・勝率62%が基準未満）"
+    },
+    {
+      "address": "0xebe6cc6820a76705b6654fdd1254256dcd54f1df",
+      "account_value": 179222.528175,
+      "lb_windows": {
+        "month": {
+          "pnl": 118228.312223,
+          "roi": 1.8473977417,
+          "vlm": 210531.08
+        },
+        "allTime": {
+          "pnl": 167878.098175,
+          "roi": 5.2966243631,
+          "vlm": 2037441.18
+        }
+      },
+      "lb_pnl": 118228.312223,
+      "lb_roi": 1.8473977417,
+      "n_fills": 12,
+      "n_closes": 6,
+      "n_opens": 6,
+      "realized_pnl": 182.58,
+      "win_rate": 1.0,
+      "dir_accuracy": 0.1667,
+      "largest_win": 148.11,
+      "event_lead_notional": 0,
+      "lead_examples": [],
+      "avg_hold_h": 28.45,
+      "n_positions": 1,
+      "unrealized_pnl": 0.0,
+      "position_value": 0,
+      "held_positions": [],
+      "total_pnl": 182.58,
+      "likely_mm": false,
+      "insider_score": 0.2917,
+      "category": "excluded",
+      "category_reason": "エッジ不明瞭（的中率17%・勝率100%が基準未満）"
+    },
+    {
+      "address": "0x36610519ba3fab20e865a54342d516ddbe1678ae",
+      "account_value": 111967.742284,
+      "lb_windows": {
+        "month": {
+          "pnl": 69038.055772,
+          "roi": 1.597637664,
+          "vlm": 1587607.29
+        },
+        "allTime": {
+          "pnl": 66055.682284,
+          "roi": 1.4299326655,
+          "vlm": 6964152.97
+        }
+      },
+      "lb_pnl": 69038.055772,
+      "lb_roi": 1.597637664,
+      "n_fills": 233,
+      "n_closes": 59,
+      "n_opens": 174,
+      "realized_pnl": -7582.44,
+      "win_rate": 0.4407,
+      "dir_accuracy": 0.7241,
+      "largest_win": 244.51,
+      "event_lead_notional": 0,
+      "lead_examples": [],
+      "avg_hold_h": 13.7,
+      "n_positions": 6,
+      "unrealized_pnl": 0.0,
+      "position_value": 0,
+      "held_positions": [],
+      "total_pnl": -7582.44,
+      "likely_mm": false,
+      "insider_score": 0.2912,
+      "category": "excluded",
+      "category_reason": "majors で黒字でない"
+    },
+    {
+      "address": "0xfc37faf026597474691dca71ed9dcae1a6633b84",
+      "account_value": 258847.210854,
+      "lb_windows": {
+        "month": {
+          "pnl": 167115.350268,
+          "roi": 2.1418385985,
+          "vlm": 8789597.77
+        },
+        "allTime": {
+          "pnl": 167115.350268,
+          "roi": 2.1418385985,
+          "vlm": 8789597.77
+        }
+      },
+      "lb_pnl": 167115.350268,
+      "lb_roi": 2.1418385985,
+      "n_fills": 332,
+      "n_closes": 162,
+      "n_opens": 170,
+      "realized_pnl": 14290.83,
+      "win_rate": 0.6852,
+      "dir_accuracy": 0.3941,
+      "largest_win": 1448.89,
+      "event_lead_notional": 239492,
+      "lead_examples": [
+        {
+          "coin": "BTC",
+          "dir": "long",
+          "entry_time": "2026-06-14 18:22",
+          "notional_usd": 239492,
+          "event_move_pct": 3.03,
+          "event_time": "2026-06-14 19:00",
+          "hash": "0x1673a1ecf602c78017ed043db8316c02041c00d29105e652ba3c4d3fb506a16a"
+        }
+      ],
+      "avg_hold_h": 9.52,
+      "n_positions": 5,
+      "unrealized_pnl": 0.0,
+      "position_value": 0,
+      "held_positions": [],
+      "total_pnl": 14290.83,
+      "likely_mm": false,
+      "insider_score": 0.2902,
+      "category": "excluded",
+      "category_reason": "エッジ不明瞭（的中率39%・勝率69%が基準未満）"
+    },
+    {
+      "address": "0x8d6427d95427d2af0c3e9a4c80e0e0e604299230",
+      "account_value": 154333.859692,
+      "lb_windows": {
+        "month": {
+          "pnl": 106319.45972,
+          "roi": 2.2143244481,
+          "vlm": 6988335.93
+        },
+        "allTime": {
+          "pnl": 3408.499692,
+          "roi": 0.0128940314,
+          "vlm": 339142806.47
+        }
+      },
+      "lb_pnl": 106319.45972,
+      "lb_roi": 2.2143244481,
+      "n_fills": 168,
+      "n_closes": 92,
+      "n_opens": 78,
+      "realized_pnl": 10165.9,
+      "win_rate": 0.7609,
+      "dir_accuracy": 0.3462,
+      "largest_win": 2479.11,
+      "event_lead_notional": 0,
+      "lead_examples": [],
+      "avg_hold_h": 15.16,
+      "n_positions": 3,
+      "unrealized_pnl": 0.0,
+      "position_value": 0,
+      "held_positions": [],
+      "total_pnl": 10165.9,
+      "likely_mm": false,
+      "insider_score": 0.2797,
+      "category": "excluded",
+      "category_reason": "エッジ不明瞭（的中率35%・勝率76%が基準未満）"
+    },
+    {
+      "address": "0x136c473f6d88c1ec17c2ed6b6cb273983e028458",
+      "account_value": 689432.355963,
+      "lb_windows": {
+        "month": {
+          "pnl": 110064.273109,
+          "roi": 1.7634485757,
+          "vlm": 343560.71
+        },
+        "allTime": {
+          "pnl": 97662.556368,
+          "roi": 1.3053709727,
+          "vlm": 961229.81
+        }
+      },
+      "lb_pnl": 110064.273109,
+      "lb_roi": 1.7634485757,
+      "n_fills": 18,
+      "n_closes": 18,
+      "n_opens": 0,
+      "realized_pnl": 32288.73,
+      "win_rate": 1.0,
+      "dir_accuracy": 0.0,
+      "largest_win": 7343.76,
+      "event_lead_notional": 0,
+      "lead_examples": [],
+      "avg_hold_h": null,
+      "n_positions": 0,
+      "unrealized_pnl": 57970.26,
+      "position_value": 394376,
+      "held_positions": [
+        {
+          "coin": "BTC",
+          "side": "short",
+          "unrealized_pnl": 57970.26,
+          "position_value": 394376
+        }
+      ],
+      "total_pnl": 90258.99,
+      "likely_mm": false,
+      "insider_score": 0.2761,
+      "category": "excluded",
+      "category_reason": "エッジ不明瞭（的中率0%・勝率100%が基準未満）"
+    },
+    {
+      "address": "0x51b97ab1e4381e22dd6cd04d6f67393964fe3bc1",
+      "account_value": 141986.697637,
+      "lb_windows": {
+        "month": {
+          "pnl": 97606.391584,
+          "roi": 2.1993176763,
+          "vlm": 1562456.03
+        },
+        "allTime": {
+          "pnl": 82450.407637,
+          "roi": 1.3848764785,
+          "vlm": 9982412.62
+        }
+      },
+      "lb_pnl": 97606.391584,
+      "lb_roi": 2.1993176763,
+      "n_fills": 1,
+      "n_closes": 1,
+      "n_opens": 0,
+      "realized_pnl": 11.94,
+      "win_rate": 1.0,
+      "dir_accuracy": 0.0,
+      "largest_win": 11.94,
+      "event_lead_notional": 0,
+      "lead_examples": [],
+      "avg_hold_h": null,
+      "n_positions": 0,
+      "unrealized_pnl": 86544.92,
+      "position_value": 604420,
+      "held_positions": [
+        {
+          "coin": "ETH",
+          "side": "short",
+          "unrealized_pnl": 66261.77,
+          "position_value": 393839
+        },
+        {
+          "coin": "SOL",
+          "side": "short",
+          "unrealized_pnl": 20283.15,
+          "position_value": 210581
+        }
+      ],
+      "total_pnl": 86556.86,
+      "likely_mm": false,
+      "insider_score": 0.275,
+      "category": "excluded",
+      "category_reason": "サンプル不足（クローズ1件のみ）"
+    },
+    {
+      "address": "0xa46aba5584adb38d458710902f7fc6677f7ab914",
+      "account_value": 110596.315464,
+      "lb_windows": {
+        "month": {
+          "pnl": 140978.51793,
+          "roi": 24.6552253812,
+          "vlm": 16844853.21
+        },
+        "allTime": {
+          "pnl": 138240.245464,
+          "roi": 10.4844455566,
+          "vlm": 23001145.38
+        }
+      },
+      "lb_pnl": 140978.51793,
+      "lb_roi": 24.6552253812,
+      "n_fills": 218,
+      "n_closes": 141,
+      "n_opens": 78,
+      "realized_pnl": 34733.77,
+      "win_rate": 0.7589,
+      "dir_accuracy": 0.2821,
+      "largest_win": 3568.38,
+      "event_lead_notional": 0,
+      "lead_examples": [],
+      "avg_hold_h": 2.4,
+      "n_positions": 6,
+      "unrealized_pnl": 0.0,
+      "position_value": 0,
+      "held_positions": [],
+      "total_pnl": 34733.77,
+      "likely_mm": false,
+      "insider_score": 0.2703,
+      "category": "excluded",
+      "category_reason": "エッジ不明瞭（的中率28%・勝率76%が基準未満）"
+    },
+    {
+      "address": "0xbec5dab4a914d9c9d28dfc4aa120be59ab7b010f",
+      "account_value": 120359.636988,
+      "lb_windows": {
+        "month": {
+          "pnl": 74117.882259,
+          "roi": 1.6028345527,
+          "vlm": 251245.35
+        },
+        "allTime": {
+          "pnl": 70359.636988,
+          "roi": 1.4071927398,
+          "vlm": 622019.34
+        }
+      },
+      "lb_pnl": 74117.882259,
+      "lb_roi": 1.6028345527,
+      "n_fills": 9,
+      "n_closes": 4,
+      "n_opens": 5,
+      "realized_pnl": 2396.97,
+      "win_rate": 1.0,
+      "dir_accuracy": 0.0,
+      "largest_win": 969.33,
+      "event_lead_notional": 0,
+      "lead_examples": [],
+      "avg_hold_h": null,
+      "n_positions": 0,
+      "unrealized_pnl": 60561.96,
+      "position_value": 484061,
+      "held_positions": [
+        {
+          "coin": "BTC",
+          "side": "short",
+          "unrealized_pnl": 60561.96,
+          "position_value": 484061
+        }
+      ],
+      "total_pnl": 62958.93,
+      "likely_mm": false,
+      "insider_score": 0.2682,
+      "category": "excluded",
+      "category_reason": "サンプル不足（クローズ4件のみ）"
+    },
+    {
+      "address": "0xf47fe5f0f6c3ebfde365e34e6d15fb2ed4c39cdb",
+      "account_value": 112295.419066,
+      "lb_windows": {
+        "month": {
+          "pnl": 118013.637083,
+          "roi": 3.1057134032,
+          "vlm": 11374875.13
+        },
+        "allTime": {
+          "pnl": 131935.479066,
+          "roi": 1.6491934883,
+          "vlm": 31085108.69
+        }
+      },
+      "lb_pnl": 118013.637083,
+      "lb_roi": 3.1057134032,
+      "n_fills": 469,
+      "n_closes": 118,
+      "n_opens": 351,
+      "realized_pnl": 838.62,
+      "win_rate": 0.7288,
+      "dir_accuracy": 0.3105,
+      "largest_win": 1328.71,
+      "event_lead_notional": 0,
+      "lead_examples": [],
+      "avg_hold_h": 3.33,
+      "n_positions": 11,
+      "unrealized_pnl": 0.0,
+      "position_value": 0,
+      "held_positions": [],
+      "total_pnl": 838.62,
+      "likely_mm": false,
+      "insider_score": 0.2601,
+      "category": "excluded",
+      "category_reason": "エッジ不明瞭（的中率31%・勝率73%が基準未満）"
+    },
+    {
+      "address": "0x823c6b20c03f2e962da20a0024624473e7ca53a4",
+      "account_value": 130802.500935,
+      "lb_windows": {
+        "month": {
+          "pnl": 90004.155363,
+          "roi": 2.2060736557,
+          "vlm": 1916143.07
+        },
+        "allTime": {
+          "pnl": 30812.500935,
+          "roi": 0.3081558249,
+          "vlm": 9130243.36
+        }
+      },
+      "lb_pnl": 90004.155363,
+      "lb_roi": 2.2060736557,
+      "n_fills": 40,
+      "n_closes": 40,
+      "n_opens": 0,
+      "realized_pnl": 28612.39,
+      "win_rate": 1.0,
+      "dir_accuracy": 0.0,
+      "largest_win": 4486.58,
+      "event_lead_notional": 0,
+      "lead_examples": [],
+      "avg_hold_h": null,
+      "n_positions": 0,
+      "unrealized_pnl": 3443.11,
+      "position_value": 37559,
+      "held_positions": [
+        {
+          "coin": "SOL",
+          "side": "short",
+          "unrealized_pnl": 3443.11,
+          "position_value": 37559
+        }
+      ],
+      "total_pnl": 32055.5,
+      "likely_mm": false,
+      "insider_score": 0.2593,
+      "category": "excluded",
+      "category_reason": "エッジ不明瞭（的中率0%・勝率100%が基準未満）"
+    },
+    {
+      "address": "0x7806eeb0cdfb52dbe14ed12359526eea55612cf3",
+      "account_value": 333391.141175,
+      "lb_windows": {
+        "month": {
+          "pnl": 243449.544198,
+          "roi": 4.7242998098,
+          "vlm": 33533771.97
+        },
+        "allTime": {
+          "pnl": 348835.481175,
+          "roi": 1.7452056772,
+          "vlm": 93784231.27
+        }
+      },
+      "lb_pnl": 243449.544198,
+      "lb_roi": 4.7242998098,
+      "n_fills": 836,
+      "n_closes": 357,
+      "n_opens": 484,
+      "realized_pnl": 1263.56,
+      "win_rate": 0.5042,
+      "dir_accuracy": 0.5083,
+      "largest_win": 1751.03,
+      "event_lead_notional": 0,
+      "lead_examples": [],
+      "avg_hold_h": 2.59,
+      "n_positions": 22,
+      "unrealized_pnl": 0.0,
+      "position_value": 0,
+      "held_positions": [],
+      "total_pnl": 1263.56,
+      "likely_mm": false,
+      "insider_score": 0.2535,
+      "category": "excluded",
+      "category_reason": "エッジ不明瞭（的中率51%・勝率50%が基準未満）"
+    },
+    {
+      "address": "0x97b1419998d4c804336c6c22519d28277bacebd7",
+      "account_value": 497230.140856,
+      "lb_windows": {
+        "month": {
+          "pnl": 324782.810499,
+          "roi": 1.5663466592,
+          "vlm": 15736806.86
+        },
+        "allTime": {
+          "pnl": 330433.680856,
+          "roi": 1.4859961426,
+          "vlm": 65655218.27
+        }
+      },
+      "lb_pnl": 324782.810499,
+      "lb_roi": 1.5663466592,
+      "n_fills": 1,
+      "n_closes": 0,
+      "n_opens": 1,
+      "realized_pnl": 0.0,
+      "win_rate": 0.0,
+      "dir_accuracy": 1.0,
+      "largest_win": 0.0,
+      "event_lead_notional": 0,
+      "lead_examples": [],
+      "avg_hold_h": null,
+      "n_positions": 0,
+      "unrealized_pnl": 646.38,
+      "position_value": 8052,
+      "held_positions": [
+        {
+          "coin": "SOL",
+          "side": "short",
+          "unrealized_pnl": 646.38,
+          "position_value": 8052
+        }
+      ],
+      "total_pnl": 646.38,
+      "likely_mm": false,
+      "insider_score": 0.2502,
+      "category": "excluded",
+      "category_reason": "サンプル不足（クローズ0件のみ）"
+    },
+    {
+      "address": "0x35c0f299a35f927069521e0c3abfb5ee4cbb4c72",
+      "account_value": 190248.274685,
+      "lb_windows": {
+        "month": {
+          "pnl": 157107.110819,
+          "roi": 3.0513579779,
+          "vlm": 25852678.04
+        },
+        "allTime": {
+          "pnl": 94742.89,
+          "roi": 0.916052366,
+          "vlm": 38394300.84
+        }
+      },
+      "lb_pnl": 157107.110819,
+      "lb_roi": 3.0513579779,
+      "n_fills": 59,
+      "n_closes": 17,
+      "n_opens": 42,
+      "realized_pnl": 196.22,
+      "win_rate": 1.0,
+      "dir_accuracy": 0.0,
+      "largest_win": 31.7,
+      "event_lead_notional": 0,
+      "lead_examples": [],
+      "avg_hold_h": 0.17,
+      "n_positions": 1,
+      "unrealized_pnl": 0.0,
+      "position_value": 0,
+      "held_positions": [],
+      "total_pnl": 196.22,
+      "likely_mm": false,
+      "insider_score": 0.2501,
+      "category": "excluded",
+      "category_reason": "エッジ不明瞭（的中率0%・勝率100%が基準未満）"
+    },
+    {
+      "address": "0x56654885ad39155235336c0ff01b3337693c3882",
+      "account_value": 419248.156849,
+      "lb_windows": {
+        "month": {
+          "pnl": 236788.579889,
+          "roi": 4.9133328612,
+          "vlm": 1340696.07
+        },
+        "allTime": {
+          "pnl": 227445.946913,
+          "roi": 1.1479304553,
+          "vlm": 16850185.0
+        }
+      },
+      "lb_pnl": 236788.579889,
+      "lb_roi": 4.9133328612,
+      "n_fills": 10,
+      "n_closes": 2,
+      "n_opens": 8,
+      "realized_pnl": -8647.35,
+      "win_rate": 0.0,
+      "dir_accuracy": 1.0,
+      "largest_win": 0.0,
+      "event_lead_notional": 0,
+      "lead_examples": [],
+      "avg_hold_h": null,
+      "n_positions": 0,
+      "unrealized_pnl": 440.0,
+      "position_value": 66557,
+      "held_positions": [
+        {
+          "coin": "BTC",
+          "side": "long",
+          "unrealized_pnl": 440.0,
+          "position_value": 66557
+        }
+      ],
+      "total_pnl": -8207.35,
+      "likely_mm": false,
+      "insider_score": 0.25,
+      "category": "excluded",
+      "category_reason": "majors で黒字でない"
+    },
+    {
+      "address": "0x29c792a175627a15c60f5288e55d1cf7d95f2157",
+      "account_value": 104203.106331,
+      "lb_windows": {
+        "month": {
+          "pnl": 7189.280856,
+          "roi": 2.0665152676,
+          "vlm": 397612.55
+        },
+        "allTime": {
+          "pnl": 197869.176331,
+          "roi": 0.8131974365,
+          "vlm": 16713489.850000001
+        }
+      },
+      "lb_pnl": 7189.280856,
+      "lb_roi": 2.0665152676,
+      "n_fills": 4,
+      "n_closes": 2,
+      "n_opens": 2,
+      "realized_pnl": 41.91,
+      "win_rate": 1.0,
+      "dir_accuracy": 0.0,
+      "largest_win": 32.33,
+      "event_lead_notional": 0,
+      "lead_examples": [],
+      "avg_hold_h": 1.72,
+      "n_positions": 1,
+      "unrealized_pnl": 0.0,
+      "position_value": 0,
+      "held_positions": [],
+      "total_pnl": 41.91,
+      "likely_mm": false,
+      "insider_score": 0.25,
+      "category": "excluded",
+      "category_reason": "サンプル不足（クローズ2件のみ）"
+    },
+    {
+      "address": "0xaddc680878f96b93189f700d17f4a9bfcf80ff54",
+      "account_value": 239959.510266,
+      "lb_windows": {
+        "month": {
+          "pnl": 156275.344584,
+          "roi": 1.8674422253,
+          "vlm": 332773.57
+        },
+        "allTime": {
+          "pnl": 159959.510266,
+          "roi": 1.9994938783,
+          "vlm": 413352.54
+        }
+      },
+      "lb_pnl": 156275.344584,
+      "lb_roi": 1.8674422253,
+      "n_fills": 45,
+      "n_closes": 1,
+      "n_opens": 44,
+      "realized_pnl": 3.12,
+      "win_rate": 1.0,
+      "dir_accuracy": 0.0,
+      "largest_win": 3.12,
+      "event_lead_notional": 0,
+      "lead_examples": [],
+      "avg_hold_h": null,
+      "n_positions": 0,
+      "unrealized_pnl": 0.7,
+      "position_value": 18,
+      "held_positions": [
+        {
+          "coin": "BTC",
+          "side": "long",
+          "unrealized_pnl": 0.7,
+          "position_value": 18
+        }
+      ],
+      "total_pnl": 3.82,
+      "likely_mm": false,
+      "insider_score": 0.25,
+      "category": "excluded",
+      "category_reason": "サンプル不足（クローズ1件のみ）"
+    },
+    {
+      "address": "0x21735e9daea7d836536d346ee280789d912082f9",
+      "account_value": 136886.974137,
+      "lb_windows": {
+        "month": {
+          "pnl": 143997.474137,
+          "roi": 1.7795344772,
+          "vlm": 12691343.48
+        },
+        "allTime": {
+          "pnl": 143997.474137,
+          "roi": 1.7795344772,
+          "vlm": 12691343.48
+        }
+      },
+      "lb_pnl": 143997.474137,
+      "lb_roi": 1.7795344772,
+      "n_fills": 813,
+      "n_closes": 451,
+      "n_opens": 362,
+      "realized_pnl": 130814.08,
+      "win_rate": 0.3836,
+      "dir_accuracy": 0.442,
+      "largest_win": 5734.93,
+      "event_lead_notional": 0,
+      "lead_examples": [],
+      "avg_hold_h": 48.55,
+      "n_positions": 2,
+      "unrealized_pnl": 0.0,
+      "position_value": 0,
+      "held_positions": [],
+      "total_pnl": 130814.08,
+      "likely_mm": false,
+      "insider_score": 0.2442,
+      "category": "excluded",
+      "category_reason": "エッジ不明瞭（的中率44%・勝率38%が基準未満）"
+    },
+    {
+      "address": "0x696adb8693ed15f14f8a80bb4f9fe061f58868db",
+      "account_value": 114689.558677,
+      "lb_windows": {
+        "month": {
+          "pnl": 90975.829692,
+          "roi": 2.1643691224,
+          "vlm": 19814623.13
+        },
+        "allTime": {
+          "pnl": 111155.706613,
+          "roi": 3.1654133796,
+          "vlm": 56589161.31
+        }
+      },
+      "lb_pnl": 90975.829692,
+      "lb_roi": 2.1643691224,
+      "n_fills": 286,
+      "n_closes": 123,
+      "n_opens": 165,
+      "realized_pnl": 3935.28,
+      "win_rate": 0.252,
+      "dir_accuracy": 0.6909,
+      "largest_win": 1082.3,
+      "event_lead_notional": 0,
+      "lead_examples": [],
+      "avg_hold_h": 2.97,
+      "n_positions": 16,
+      "unrealized_pnl": 0.0,
+      "position_value": 0,
+      "held_positions": [],
+      "total_pnl": 3935.28,
+      "likely_mm": false,
+      "insider_score": 0.2369,
+      "category": "excluded",
+      "category_reason": "エッジ不明瞭（的中率69%・勝率25%が基準未満）"
+    },
+    {
+      "address": "0x2f01afc9f9437c4fcb8f2e8612c57bf522bcc81d",
+      "account_value": 209909.291342,
+      "lb_windows": {
+        "month": {
+          "pnl": 339262.84511,
+          "roi": 1.4492048922,
+          "vlm": 97417.13
+        },
+        "allTime": {
+          "pnl": 888426.375154,
+          "roi": 2.6744743158,
+          "vlm": 5686734.55
+        }
+      },
+      "lb_pnl": 339262.84511,
+      "lb_roi": 1.4492048922,
+      "n_fills": 3,
+      "n_closes": 0,
+      "n_opens": 3,
+      "realized_pnl": 0.0,
+      "win_rate": 0.0,
+      "dir_accuracy": 0.3333,
+      "largest_win": 0.0,
+      "event_lead_notional": 0,
+      "lead_examples": [],
+      "avg_hold_h": null,
+      "n_positions": 0,
+      "unrealized_pnl": 508714.54,
+      "position_value": 1486026,
+      "held_positions": [
+        {
+          "coin": "BTC",
+          "side": "short",
+          "unrealized_pnl": -1156.9,
+          "position_value": 224590
+        },
+        {
+          "coin": "ETH",
+          "side": "short",
+          "unrealized_pnl": 509871.43,
+          "position_value": 1261436
+        }
+      ],
+      "total_pnl": 508714.54,
+      "likely_mm": false,
+      "insider_score": 0.2303,
+      "category": "excluded",
+      "category_reason": "サンプル不足（クローズ0件のみ）"
+    },
+    {
+      "address": "0xc568587857cc2895a3d83d00a05365ea92c62def",
+      "account_value": 126063.392454,
+      "lb_windows": {
+        "month": {
+          "pnl": 73329.636509,
+          "roi": 2.3486046186,
+          "vlm": 67247512.49
+        },
+        "allTime": {
+          "pnl": 73329.636509,
+          "roi": 2.3486046186,
+          "vlm": 67247512.49
+        }
+      },
+      "lb_pnl": 73329.636509,
+      "lb_roi": 2.3486046186,
+      "n_fills": 181,
+      "n_closes": 77,
+      "n_opens": 104,
+      "realized_pnl": 5553.55,
+      "win_rate": 0.3506,
+      "dir_accuracy": 0.5481,
+      "largest_win": 5571.73,
+      "event_lead_notional": 0,
+      "lead_examples": [],
+      "avg_hold_h": 8.12,
+      "n_positions": 8,
+      "unrealized_pnl": 0.0,
+      "position_value": 0,
+      "held_positions": [],
+      "total_pnl": 5553.55,
+      "likely_mm": false,
+      "insider_score": 0.2263,
+      "category": "excluded",
+      "category_reason": "エッジ不明瞭（的中率55%・勝率35%が基準未満）"
+    },
+    {
+      "address": "0xdb799415fd528a297949be13775e424b3122a5b0",
+      "account_value": 327458.415025,
+      "lb_windows": {
+        "month": {
+          "pnl": 203086.353606,
+          "roi": 1.6302720794,
+          "vlm": 36959634.92
+        },
+        "allTime": {
+          "pnl": 102736.965025,
+          "roi": 0.4567681963,
+          "vlm": 47804338.85
+        }
+      },
+      "lb_pnl": 203086.353606,
+      "lb_roi": 1.6302720794,
+      "n_fills": 123,
+      "n_closes": 71,
+      "n_opens": 52,
+      "realized_pnl": -36343.74,
+      "win_rate": 0.0,
+      "dir_accuracy": 0.9038,
+      "largest_win": 0.0,
+      "event_lead_notional": 0,
+      "lead_examples": [],
+      "avg_hold_h": 46.85,
+      "n_positions": 1,
+      "unrealized_pnl": 0.0,
+      "position_value": 0,
+      "held_positions": [],
+      "total_pnl": -36343.74,
+      "likely_mm": false,
+      "insider_score": 0.226,
+      "category": "excluded",
+      "category_reason": "majors で黒字でない"
+    },
+    {
+      "address": "0xfe8c8076596dd917a20a31007ced69ce339129a1",
+      "account_value": 109029.11204,
+      "lb_windows": {
+        "month": {
+          "pnl": 71078.002796,
+          "roi": 1.8581945518,
+          "vlm": 41033568.52
+        },
+        "allTime": {
+          "pnl": 132704.41204,
+          "roi": 2.2585305546,
+          "vlm": 459676482.28
+        }
+      },
+      "lb_pnl": 71078.002796,
+      "lb_roi": 1.8581945518,
+      "n_fills": 1176,
+      "n_closes": 546,
+      "n_opens": 630,
+      "realized_pnl": -19708.6,
+      "win_rate": 0.3315,
+      "dir_accuracy": 0.5667,
+      "largest_win": 2792.43,
+      "event_lead_notional": 0,
+      "lead_examples": [],
+      "avg_hold_h": 7.31,
+      "n_positions": 27,
+      "unrealized_pnl": 0.0,
+      "position_value": 0,
+      "held_positions": [],
+      "total_pnl": -19708.6,
+      "likely_mm": false,
+      "insider_score": 0.2245,
+      "category": "excluded",
+      "category_reason": "majors で黒字でない"
+    },
+    {
+      "address": "0x79f2bb1fc86a1f0592fb30aa6a369a24a7fd2361",
+      "account_value": 162688.991671,
+      "lb_windows": {
+        "month": {
+          "pnl": 110616.581274,
+          "roi": 1.9641038449,
+          "vlm": 9688042.93
+        },
+        "allTime": {
+          "pnl": 86211.591671,
+          "roi": 1.0679783568,
+          "vlm": 16404633.71
+        }
+      },
+      "lb_pnl": 110616.581274,
+      "lb_roi": 1.9641038449,
+      "n_fills": 100,
+      "n_closes": 9,
+      "n_opens": 91,
+      "realized_pnl": 44.24,
+      "win_rate": 0.8889,
+      "dir_accuracy": 0.0,
+      "largest_win": 105.51,
+      "event_lead_notional": 0,
+      "lead_examples": [],
+      "avg_hold_h": 21.82,
+      "n_positions": 2,
+      "unrealized_pnl": 5766.0,
+      "position_value": 534170,
+      "held_positions": [
+        {
+          "coin": "BTC",
+          "side": "long",
+          "unrealized_pnl": 919.92,
+          "position_value": 438531
+        },
+        {
+          "coin": "SOL",
+          "side": "long",
+          "unrealized_pnl": 4846.09,
+          "position_value": 95639
+        }
+      ],
+      "total_pnl": 5810.24,
+      "likely_mm": false,
+      "insider_score": 0.2239,
+      "category": "excluded",
+      "category_reason": "エッジ不明瞭（的中率0%・勝率89%が基準未満）"
+    },
+    {
+      "address": "0x51651b81c895e654e5402a3fc371e3b60b0dfb1e",
+      "account_value": 368232.426907,
+      "lb_windows": {
+        "month": {
+          "pnl": 243812.088965,
+          "roi": 1.9552357087,
+          "vlm": 63374061.53
+        },
+        "allTime": {
+          "pnl": 306442.056907,
+          "roi": 3.6117709082,
+          "vlm": 777230026.03
+        }
+      },
+      "lb_pnl": 243812.088965,
+      "lb_roi": 1.9552357087,
+      "n_fills": 2501,
+      "n_closes": 1388,
+      "n_opens": 1113,
+      "realized_pnl": 3350.41,
+      "win_rate": 0.3653,
+      "dir_accuracy": 0.4609,
+      "largest_win": 4404.69,
+      "event_lead_notional": 102020,
+      "lead_examples": [
+        {
+          "coin": "BTC",
+          "dir": "long",
+          "entry_time": "2026-06-07 14:19",
+          "notional_usd": 102020,
+          "event_move_pct": 3.28,
+          "event_time": "2026-06-07 19:00",
+          "hash": "0x3494870fc4616ac5360e043d2df62d02026d00f55f648997d85d3262836544af"
+        }
+      ],
+      "avg_hold_h": 5.71,
+      "n_positions": 22,
+      "unrealized_pnl": 5750.46,
+      "position_value": 55762,
+      "held_positions": [
+        {
+          "coin": "SOL",
+          "side": "long",
+          "unrealized_pnl": 5750.46,
+          "position_value": 55762
+        }
+      ],
+      "total_pnl": 9100.87,
+      "likely_mm": false,
+      "insider_score": 0.2161,
+      "category": "excluded",
+      "category_reason": "エッジ不明瞭（的中率46%・勝率37%が基準未満）"
+    },
+    {
+      "address": "0x8e6f0cd563201cae5095795d691cda21d1fbed09",
+      "account_value": 134827.025288,
+      "lb_windows": {
+        "month": {
+          "pnl": 24643.21,
+          "roi": 4.1158655637,
+          "vlm": 5083217.95
+        },
+        "allTime": {
+          "pnl": 24643.21,
+          "roi": 4.1158655637,
+          "vlm": 5190986.39
+        }
+      },
+      "lb_pnl": 24643.21,
+      "lb_roi": 4.1158655637,
+      "n_fills": 73,
+      "n_closes": 9,
+      "n_opens": 64,
+      "realized_pnl": 12.06,
+      "win_rate": 0.2222,
+      "dir_accuracy": 0.5781,
+      "largest_win": 576.39,
+      "event_lead_notional": 0,
+      "lead_examples": [],
+      "avg_hold_h": 0.61,
+      "n_positions": 3,
+      "unrealized_pnl": 0.0,
+      "position_value": 0,
+      "held_positions": [],
+      "total_pnl": 12.06,
+      "likely_mm": false,
+      "insider_score": 0.2001,
+      "category": "excluded",
+      "category_reason": "エッジ不明瞭（的中率58%・勝率22%が基準未満）"
+    },
+    {
+      "address": "0x014bd1b946287bfdd8afe1d8833103c3baa36d74",
+      "account_value": 116621.766757,
+      "lb_windows": {
+        "month": {
+          "pnl": 64007.821852,
+          "roi": 1.8118228432,
+          "vlm": 5758822.85
+        },
+        "allTime": {
+          "pnl": 95822.910804,
+          "roi": 5.2736647722,
+          "vlm": 8724419.35
+        }
+      },
+      "lb_pnl": 64007.821852,
+      "lb_roi": 1.8118228432,
+      "n_fills": 38,
+      "n_closes": 23,
+      "n_opens": 15,
+      "realized_pnl": -1635.69,
+      "win_rate": 0.0,
+      "dir_accuracy": 0.8,
+      "largest_win": 0.0,
+      "event_lead_notional": 0,
+      "lead_examples": [],
+      "avg_hold_h": 111.02,
+      "n_positions": 1,
+      "unrealized_pnl": 0.0,
+      "position_value": 0,
+      "held_positions": [],
+      "total_pnl": -1635.69,
+      "likely_mm": false,
+      "insider_score": 0.2,
+      "category": "excluded",
+      "category_reason": "majors で黒字でない"
+    },
+    {
+      "address": "0x58a722b5f37435cab8957a17fc575bb136e0b48b",
+      "account_value": 260639.231564,
+      "lb_windows": {
+        "month": {
+          "pnl": 154348.322211,
+          "roi": 1.4521309786,
+          "vlm": 437544.41
+        },
+        "allTime": {
+          "pnl": 159634.231564,
+          "roi": 1.5804587056,
+          "vlm": 3287414.85
+        }
+      },
+      "lb_pnl": 154348.322211,
+      "lb_roi": 1.4521309786,
+      "n_fills": 93,
+      "n_closes": 55,
+      "n_opens": 38,
+      "realized_pnl": -604.59,
+      "win_rate": 0.1636,
+      "dir_accuracy": 0.6053,
+      "largest_win": 26.97,
+      "event_lead_notional": 0,
+      "lead_examples": [],
+      "avg_hold_h": null,
+      "n_positions": 0,
+      "unrealized_pnl": 311.05,
+      "position_value": 6912,
+      "held_positions": [
+        {
+          "coin": "BTC",
+          "side": "long",
+          "unrealized_pnl": 311.05,
+          "position_value": 6912
+        }
+      ],
+      "total_pnl": -293.54,
+      "likely_mm": false,
+      "insider_score": 0.1922,
+      "category": "excluded",
+      "category_reason": "majors で黒字でない"
+    },
+    {
+      "address": "0x4cae5bed586f6e73ae54ebd40a4ac4ed2c477c34",
+      "account_value": 1267653.9596300002,
+      "lb_windows": {
+        "month": {
+          "pnl": 1091010.959597,
+          "roi": 3.3188060506,
+          "vlm": 133850513.18
+        },
+        "allTime": {
+          "pnl": 1356938.4396300002,
+          "roi": 6.8375044002,
+          "vlm": 481928507.15
+        }
+      },
+      "lb_pnl": 1091010.959597,
+      "lb_roi": 3.3188060506,
+      "n_fills": 618,
+      "n_closes": 187,
+      "n_opens": 431,
+      "realized_pnl": -3912.4,
+      "win_rate": 0.0053,
+      "dir_accuracy": 0.6914,
+      "largest_win": 128.15,
+      "event_lead_notional": 0,
+      "lead_examples": [],
+      "avg_hold_h": 5.9,
+      "n_positions": 5,
+      "unrealized_pnl": 13244.17,
+      "position_value": 337324,
+      "held_positions": [
+        {
+          "coin": "SOL",
+          "side": "long",
+          "unrealized_pnl": 13244.17,
+          "position_value": 337324
+        }
+      ],
+      "total_pnl": 9331.77,
+      "likely_mm": false,
+      "insider_score": 0.1769,
+      "category": "excluded",
+      "category_reason": "エッジ不明瞭（的中率69%・勝率1%が基準未満）"
+    },
+    {
+      "address": "0x0c349d9b92fbd172bbb5a17a9db0a673a6a10ad3",
+      "account_value": 1427564.318873,
+      "lb_windows": {
+        "month": {
+          "pnl": 1309401.779736,
+          "roi": 2.263023657,
+          "vlm": 157022476.29
+        },
+        "allTime": {
+          "pnl": 1885047.588873,
+          "roi": 4.1330294735,
+          "vlm": 228217557.69
+        }
+      },
+      "lb_pnl": 1309401.779736,
+      "lb_roi": 2.263023657,
+      "n_fills": 518,
+      "n_closes": 208,
+      "n_opens": 310,
+      "realized_pnl": -13146.59,
+      "win_rate": 0.0,
+      "dir_accuracy": 0.3032,
+      "largest_win": 0.0,
+      "event_lead_notional": 1092863,
+      "lead_examples": [
+        {
+          "coin": "BTC",
+          "dir": "long",
+          "entry_time": "2026-06-05 14:07",
+          "notional_usd": 120056,
+          "event_move_pct": 3.72,
+          "event_time": "2026-06-05 18:00",
+          "hash": "0x0e3dae4440e327d60fb7043d0765890207a90029dbe646a8b2065996ffe701c0"
+        },
+        {
+          "coin": "BTC",
+          "dir": "long",
+          "entry_time": "2026-06-05 14:37",
+          "notional_usd": 110150,
+          "event_move_pct": 3.72,
+          "event_time": "2026-06-05 18:00",
+          "hash": "0x83ccf0cb558ace1d8546043d07cc220210c600b0f08decef27959c1e148ea808"
+        },
+        {
+          "coin": "BTC",
+          "dir": "long",
+          "entry_time": "2026-06-05 16:11",
+          "notional_usd": 136711,
+          "event_move_pct": 3.72,
+          "event_time": "2026-06-05 18:00",
+          "hash": "0x42643d96dfb84e1f43dd043d090cbc0209df007c7abb6cf1e62ce8e99ebc2809"
+        },
+        {
+          "coin": "BTC",
+          "dir": "long",
+          "entry_time": "2026-06-05 16:11",
+          "notional_usd": 139149,
+          "event_move_pct": 3.72,
+          "event_time": "2026-06-05 18:00",
+          "hash": "0x42643d96dfb84e1f43dd043d090cbc0209df007c7abb6cf1e62ce8e99ebc2809"
+        },
+        {
+          "coin": "BTC",
+          "dir": "long",
+          "entry_time": "2026-06-05 16:11",
+          "notional_usd": 179724,
+          "event_move_pct": 3.72,
+          "event_time": "2026-06-05 18:00",
+          "hash": "0x42643d96dfb84e1f43dd043d090cbc0209df007c7abb6cf1e62ce8e99ebc2809"
+        }
+      ],
+      "avg_hold_h": 5.38,
+      "n_positions": 2,
+      "unrealized_pnl": 0.0,
+      "position_value": 0,
+      "held_positions": [],
+      "total_pnl": -13146.59,
+      "likely_mm": false,
+      "insider_score": 0.1498,
+      "category": "excluded",
+      "category_reason": "majors で黒字でない"
+    },
+    {
+      "address": "0xb8243756956e722bff5c763971b562ac551bfbd2",
+      "account_value": 536526.547251,
+      "lb_windows": {
+        "month": {
+          "pnl": 322458.038642,
+          "roi": 1.5063310374,
+          "vlm": 806687.53
+        },
+        "allTime": {
+          "pnl": 503027.867251,
+          "roi": 15.0163489203,
+          "vlm": 8402929.5
+        }
+      },
+      "lb_pnl": 322458.038642,
+      "lb_roi": 1.5063310374,
+      "n_fills": 74,
+      "n_closes": 0,
+      "n_opens": 74,
+      "realized_pnl": 0.0,
+      "win_rate": 0.0,
+      "dir_accuracy": 0.0,
+      "largest_win": 0.0,
+      "event_lead_notional": 0,
+      "lead_examples": [],
+      "avg_hold_h": null,
+      "n_positions": 0,
+      "unrealized_pnl": 474552.52,
+      "position_value": 2646825,
+      "held_positions": [
+        {
+          "coin": "BTC",
+          "side": "short",
+          "unrealized_pnl": 474552.52,
+          "position_value": 2646825
+        }
+      ],
+      "total_pnl": 474552.52,
+      "likely_mm": false,
+      "insider_score": 0.1371,
+      "category": "excluded",
+      "category_reason": "サンプル不足（クローズ0件のみ）"
+    },
+    {
+      "address": "0x6f97b7de6be7b7771e975e46bae96c35e332e172",
+      "account_value": 199028.714629,
+      "lb_windows": {
+        "month": {
+          "pnl": 288882.346767,
+          "roi": 1.5462832903,
+          "vlm": 45591611.23
+        },
+        "allTime": {
+          "pnl": 381778.304629,
+          "roi": 3.3511339566,
+          "vlm": 113608284.33
+        }
+      },
+      "lb_pnl": 288882.346767,
+      "lb_roi": 1.5462832903,
+      "n_fills": 168,
+      "n_closes": 122,
+      "n_opens": 46,
+      "realized_pnl": -5777.76,
+      "win_rate": 0.0,
+      "dir_accuracy": 0.3913,
+      "largest_win": 0.0,
+      "event_lead_notional": 0,
+      "lead_examples": [],
+      "avg_hold_h": null,
+      "n_positions": 0,
+      "unrealized_pnl": 0.0,
+      "position_value": 0,
+      "held_positions": [],
+      "total_pnl": -5777.76,
+      "likely_mm": false,
+      "insider_score": 0.0978,
+      "category": "excluded",
+      "category_reason": "majors で黒字でない"
+    },
+    {
+      "address": "0x3d356173b633d4390ac31dff045c4e20234ebbbd",
+      "account_value": 165945.594421,
+      "lb_windows": {
+        "month": {
+          "pnl": 99104.470047,
+          "roi": 1.4826870579,
+          "vlm": 650334.2
+        },
+        "allTime": {
+          "pnl": 78946.594421,
+          "roi": 0.9074425502,
+          "vlm": 998473.77
+        }
+      },
+      "lb_pnl": 99104.470047,
+      "lb_roi": 1.4826870579,
+      "n_fills": 17,
+      "n_closes": 0,
+      "n_opens": 17,
+      "realized_pnl": 0.0,
+      "win_rate": 0.0,
+      "dir_accuracy": 0.2941,
+      "largest_win": 0.0,
+      "event_lead_notional": 0,
+      "lead_examples": [],
+      "avg_hold_h": null,
+      "n_positions": 0,
+      "unrealized_pnl": 9315.13,
+      "position_value": 333760,
+      "held_positions": [
+        {
+          "coin": "BTC",
+          "side": "long",
+          "unrealized_pnl": 9315.13,
+          "position_value": 333760
+        }
+      ],
+      "total_pnl": 9315.13,
+      "likely_mm": false,
+      "insider_score": 0.0762,
+      "category": "excluded",
+      "category_reason": "サンプル不足（クローズ0件のみ）"
+    },
+    {
+      "address": "0xd7a01b2fc57149507a1848ae142aa308bdbe05a2",
+      "account_value": 321018.763288,
+      "lb_windows": {
+        "month": {
+          "pnl": 318205.793288,
+          "roi": 46.6374311023,
+          "vlm": 37074478.33
+        },
+        "allTime": {
+          "pnl": 311709.763288,
+          "roi": 23.4033908918,
+          "vlm": 39196884.83
+        }
+      },
+      "lb_pnl": 318205.793288,
+      "lb_roi": 46.6374311023,
+      "n_fills": 267,
+      "n_closes": 153,
+      "n_opens": 114,
+      "realized_pnl": -2157.0,
+      "win_rate": 0.2222,
+      "dir_accuracy": 0.0088,
+      "largest_win": 12.7,
+      "event_lead_notional": 0,
+      "lead_examples": [],
+      "avg_hold_h": 0.82,
+      "n_positions": 2,
+      "unrealized_pnl": 0.0,
+      "position_value": 0,
+      "held_positions": [],
+      "total_pnl": -2157.0,
+      "likely_mm": false,
+      "insider_score": 0.0578,
+      "category": "excluded",
+      "category_reason": "majors で黒字でない"
+    },
+    {
+      "address": "0x8c96e5a2d770f9f2c9d2464ce4e741df0b2bca57",
+      "account_value": 1640162.121175,
+      "lb_windows": {
+        "month": {
+          "pnl": 1279128.88489,
+          "roi": 2.2799398723,
+          "vlm": 243092079.59
+        },
+        "allTime": {
+          "pnl": 734849.051175,
+          "roi": 0.5967992072,
+          "vlm": 253711259.2
+        }
+      },
+      "lb_pnl": 1279128.88489,
+      "lb_roi": 2.2799398723,
+      "n_fills": 7335,
+      "n_closes": 3155,
+      "n_opens": 4180,
+      "realized_pnl": 693594.19,
+      "win_rate": 0.8431,
+      "dir_accuracy": 0.6679,
+      "largest_win": 13469.13,
+      "event_lead_notional": 0,
+      "lead_examples": [],
+      "avg_hold_h": 6.03,
+      "n_positions": 20,
+      "unrealized_pnl": -17612.18,
+      "position_value": 2130509,
+      "held_positions": [
+        {
+          "coin": "BTC",
+          "side": "short",
+          "unrealized_pnl": -17612.18,
+          "position_value": 2130509
+        }
+      ],
+      "total_pnl": 675982.01,
+      "likely_mm": true,
+      "insider_score": 0.0567,
+      "category": "excluded",
+      "category_reason": "MM/HFT（自動マーケットメイク・方向性ベットでない）"
+    },
+    {
+      "address": "0xeff7fe671d9a7acf86f48994bc5d5161042415b6",
+      "account_value": 240187.131159,
+      "lb_windows": {
+        "month": {
+          "pnl": 214519.493,
+          "roi": 2.3024860859,
+          "vlm": 55678845.4
+        },
+        "allTime": {
+          "pnl": 217838.131159,
+          "roi": 2.4244644536,
+          "vlm": 56104556.0
+        }
+      },
+      "lb_pnl": 214519.493,
+      "lb_roi": 2.3024860859,
+      "n_fills": 4987,
+      "n_closes": 1763,
+      "n_opens": 3224,
+      "realized_pnl": 257920.07,
+      "win_rate": 0.9087,
+      "dir_accuracy": 0.5633,
+      "largest_win": 7630.68,
+      "event_lead_notional": 123786,
+      "lead_examples": [
+        {
+          "coin": "BTC",
+          "dir": "long",
+          "entry_time": "2026-06-07 13:32",
+          "notional_usd": 123786,
+          "event_move_pct": 3.28,
+          "event_time": "2026-06-07 19:00",
+          "hash": "0xdf2749804b19985de0a1043d2d55360204230065e61cb72f82eff4d30a1d7248"
+        }
+      ],
+      "avg_hold_h": 10.04,
+      "n_positions": 24,
+      "unrealized_pnl": -18875.94,
+      "position_value": 885437,
+      "held_positions": [
+        {
+          "coin": "BTC",
+          "side": "short",
+          "unrealized_pnl": -18875.94,
+          "position_value": 885437
+        }
+      ],
+      "total_pnl": 239044.13,
+      "likely_mm": true,
+      "insider_score": 0.0552,
+      "category": "excluded",
+      "category_reason": "MM/HFT（自動マーケットメイク・方向性ベットでない）"
+    },
+    {
+      "address": "0x535191d6d49922d69cc7829dbb73e48694840db7",
+      "account_value": 608868.590342,
+      "lb_windows": {
+        "month": {
+          "pnl": 371610.776021,
+          "roi": 1.4445072427,
+          "vlm": 3055696.37
+        },
+        "allTime": {
+          "pnl": 461219.410342,
+          "roi": 2.7510985162,
+          "vlm": 17899784.74
+        }
+      },
+      "lb_pnl": 371610.776021,
+      "lb_roi": 1.4445072427,
+      "n_fills": 52,
+      "n_closes": 9,
+      "n_opens": 43,
+      "realized_pnl": -10630.5,
+      "win_rate": 0.0,
+      "dir_accuracy": 0.2093,
+      "largest_win": 0.0,
+      "event_lead_notional": 0,
+      "lead_examples": [],
+      "avg_hold_h": null,
+      "n_positions": 0,
+      "unrealized_pnl": -24030.14,
+      "position_value": 467488,
+      "held_positions": [
+        {
+          "coin": "BTC",
+          "side": "long",
+          "unrealized_pnl": -24030.14,
+          "position_value": 467488
+        }
+      ],
+      "total_pnl": -34660.64,
+      "likely_mm": false,
+      "insider_score": 0.0523,
+      "category": "excluded",
+      "category_reason": "majors で黒字でない"
+    },
+    {
+      "address": "0x5f2c263aa195ddad2886fc5a6b7d4f33d1a72983",
+      "account_value": 167174.176389,
+      "lb_windows": {
+        "month": {
+          "pnl": 125661.740495,
+          "roi": 1.9595430075,
+          "vlm": 21090365.72
+        },
+        "allTime": {
+          "pnl": 148887.896389,
+          "roi": 2.255307582,
+          "vlm": 119699979.55
+        }
+      },
+      "lb_pnl": 125661.740495,
+      "lb_roi": 1.9595430075,
+      "n_fills": 5448,
+      "n_closes": 2702,
+      "n_opens": 2746,
+      "realized_pnl": 65546.11,
+      "win_rate": 0.7646,
+      "dir_accuracy": 0.4949,
+      "largest_win": 1135.74,
+      "event_lead_notional": 0,
+      "lead_examples": [],
+      "avg_hold_h": null,
+      "n_positions": 0,
+      "unrealized_pnl": -10224.78,
+      "position_value": 336229,
+      "held_positions": [
+        {
+          "coin": "BTC",
+          "side": "long",
+          "unrealized_pnl": 2575.24,
+          "position_value": 132569
+        },
+        {
+          "coin": "ETH",
+          "side": "short",
+          "unrealized_pnl": -7165.54,
+          "position_value": 126196
+        },
+        {
+          "coin": "SOL",
+          "side": "short",
+          "unrealized_pnl": -5634.48,
+          "position_value": 77464
+        }
+      ],
+      "total_pnl": 55321.33,
+      "likely_mm": true,
+      "insider_score": 0.0472,
+      "category": "excluded",
+      "category_reason": "MM/HFT（自動マーケットメイク・方向性ベットでない）"
+    },
+    {
+      "address": "0x57f2819c959abbcf22623d5ec1d3164b213e9711",
+      "account_value": 1370061.180741,
+      "lb_windows": {
+        "month": {
+          "pnl": 1137344.868216,
+          "roi": 1.7688008096,
+          "vlm": 169392051.12
+        },
+        "allTime": {
+          "pnl": 5458981.910741,
+          "roi": 12.9283874737,
+          "vlm": 760414963.99
+        }
+      },
+      "lb_pnl": 1137344.868216,
+      "lb_roi": 1.7688008096,
+      "n_fills": 904,
+      "n_closes": 213,
+      "n_opens": 691,
+      "realized_pnl": -307159.11,
+      "win_rate": 0.0,
+      "dir_accuracy": 0.1867,
+      "largest_win": 0.0,
+      "event_lead_notional": 0,
+      "lead_examples": [],
+      "avg_hold_h": 2.72,
+      "n_positions": 2,
+      "unrealized_pnl": 123172.59,
+      "position_value": 1325857,
+      "held_positions": [
+        {
+          "coin": "SOL",
+          "side": "long",
+          "unrealized_pnl": 123172.59,
+          "position_value": 1325857
+        }
+      ],
+      "total_pnl": -183986.52,
+      "likely_mm": false,
+      "insider_score": 0.0467,
+      "category": "excluded",
+      "category_reason": "majors で黒字でない"
+    },
+    {
+      "address": "0xa516541e599129095d14f7faf8b11ae670c837b0",
+      "account_value": 869141.018966,
+      "lb_windows": {
+        "month": {
+          "pnl": 741044.024905,
+          "roi": 5.7805101464,
+          "vlm": 104091387.38
+        },
+        "allTime": {
+          "pnl": 706828.328966,
+          "roi": 4.3520511172,
+          "vlm": 122790202.73
+        }
+      },
+      "lb_pnl": 741044.024905,
+      "lb_roi": 5.7805101464,
+      "n_fills": 4044,
+      "n_closes": 1220,
+      "n_opens": 2823,
+      "realized_pnl": 26482.72,
+      "win_rate": 0.509,
+      "dir_accuracy": 0.6475,
+      "largest_win": 41106.08,
+      "event_lead_notional": 0,
+      "lead_examples": [],
+      "avg_hold_h": 28.23,
+      "n_positions": 8,
+      "unrealized_pnl": 0.0,
+      "position_value": 0,
+      "held_positions": [],
+      "total_pnl": 26482.72,
+      "likely_mm": true,
+      "insider_score": 0.0434,
+      "category": "excluded",
+      "category_reason": "MM/HFT（自動マーケットメイク・方向性ベットでない）"
+    },
+    {
+      "address": "0xa351db10472a07059ea099e0581444e568bff894",
+      "account_value": 1395219.606818,
+      "lb_windows": {
+        "month": {
+          "pnl": 1131375.928593,
+          "roi": 1.4807748959,
+          "vlm": 268206403.39
+        },
+        "allTime": {
+          "pnl": 1519088.5086770002,
+          "roi": 1.0239590404,
+          "vlm": 1720669815.9799998
+        }
+      },
+      "lb_pnl": 1131375.928593,
+      "lb_roi": 1.4807748959,
+      "n_fills": 7880,
+      "n_closes": 4002,
+      "n_opens": 3884,
+      "realized_pnl": 712671.0,
+      "win_rate": 0.5545,
+      "dir_accuracy": 0.5005,
+      "largest_win": 29152.24,
+      "event_lead_notional": 2463423,
+      "lead_examples": [
+        {
+          "coin": "ETH",
+          "dir": "short",
+          "entry_time": "2026-06-03 20:01",
+          "notional_usd": 176222,
+          "event_move_pct": -4.92,
+          "event_time": "2026-06-03 21:00",
+          "hash": "0x38c614eb00b62ce43a3f043ce5d1f10207a600d09bb94bb6dc8ec03dbfba06ce"
+        },
+        {
+          "coin": "BTC",
+          "dir": "short",
+          "entry_time": "2026-06-03 20:43",
+          "notional_usd": 195576,
+          "event_move_pct": -5.48,
+          "event_time": "2026-06-03 21:00",
+          "hash": "0x61d9d9b72ccf73bf6353043ce660120202aa009cc7c2929105a28509ebc34daa"
+        },
+        {
+          "coin": "BTC",
+          "dir": "short",
+          "entry_time": "2026-06-03 20:43",
+          "notional_usd": 100075,
+          "event_move_pct": -5.48,
+          "event_time": "2026-06-03 21:00",
+          "hash": "0xefc8d2a34dfe63b6f142043ce6604f0203440088e8f1828993917df60cf23da1"
+        },
+        {
+          "coin": "BTC",
+          "dir": "short",
+          "entry_time": "2026-06-03 20:44",
+          "notional_usd": 103670,
+          "event_move_pct": -5.48,
+          "event_time": "2026-06-03 21:00",
+          "hash": "0x7c84e1af118102177dfe043ce660690208e30094ac8420e9204d8d01d084dc02"
+        },
+        {
+          "coin": "ETH",
+          "dir": "short",
+          "entry_time": "2026-06-03 21:43",
+          "notional_usd": 183000,
+          "event_move_pct": -3.41,
+          "event_time": "2026-06-03 22:00",
+          "hash": "0x1319b8bab8bfb83c1493043ce7299702066800a053b2d70eb6e2640d77b39226"
+        }
+      ],
+      "avg_hold_h": 20.34,
+      "n_positions": 6,
+      "unrealized_pnl": -80237.48,
+      "position_value": 3972807,
+      "held_positions": [
+        {
+          "coin": "BTC",
+          "side": "short",
+          "unrealized_pnl": -11871.87,
+          "position_value": 1335087
+        },
+        {
+          "coin": "ETH",
+          "side": "short",
+          "unrealized_pnl": -27034.81,
+          "position_value": 1884540
+        },
+        {
+          "coin": "SOL",
+          "side": "short",
+          "unrealized_pnl": -41330.8,
+          "position_value": 753180
+        }
+      ],
+      "total_pnl": 632433.52,
+      "likely_mm": true,
+      "insider_score": 0.0396,
+      "category": "excluded",
+      "category_reason": "MM/HFT（自動マーケットメイク・方向性ベットでない）"
+    },
+    {
+      "address": "0xd67ca2c6f8bc84acf4fa4472b82a8740dc0a53ff",
+      "account_value": 3346692.557312,
+      "lb_windows": {
+        "month": {
+          "pnl": 3205861.287774,
+          "roi": 4.2801738944,
+          "vlm": 415623845.76
+        },
+        "allTime": {
+          "pnl": 2935646.667312,
+          "roi": 1.9057324198,
+          "vlm": 674801415.73
+        }
+      },
+      "lb_pnl": 3205861.287774,
+      "lb_roi": 4.2801738944,
+      "n_fills": 5129,
+      "n_closes": 2242,
+      "n_opens": 2883,
+      "realized_pnl": 714126.75,
+      "win_rate": 0.3863,
+      "dir_accuracy": 0.6171,
+      "largest_win": 92341.51,
+      "event_lead_notional": 3430574,
+      "lead_examples": [
+        {
+          "coin": "ETH",
+          "dir": "short",
+          "entry_time": "2026-06-02 09:09",
+          "notional_usd": 131392,
+          "event_move_pct": -3.23,
+          "event_time": "2026-06-02 11:00",
+          "hash": "0x0eede140babf88c81067043cca2f7f020800002655b2a79ab2b68c9379b362b2"
+        },
+        {
+          "coin": "ETH",
+          "dir": "short",
+          "entry_time": "2026-06-02 09:09",
+          "notional_usd": 131392,
+          "event_move_pct": -3.23,
+          "event_time": "2026-06-02 11:00",
+          "hash": "0x0eede140babf88c81067043cca2f7f020800002655b2a79ab2b68c9379b362b2"
+        },
+        {
+          "coin": "ETH",
+          "dir": "short",
+          "entry_time": "2026-06-02 09:09",
+          "notional_usd": 121718,
+          "event_move_pct": -3.23,
+          "event_time": "2026-06-02 11:00",
+          "hash": "0xbb6db38b2d7a61a4bce7043cca301502029e0070c87d80765f365eddec7e3b8f"
+        },
+        {
+          "coin": "ETH",
+          "dir": "short",
+          "entry_time": "2026-06-02 10:19",
+          "notional_usd": 350409,
+          "event_move_pct": -3.23,
+          "event_time": "2026-06-02 11:00",
+          "hash": "0x73ee3ed11de0ae2f7567043ccb1c2e020c0000b6b8e3cd0117b6ea23dce4881a"
+        },
+        {
+          "coin": "ETH",
+          "dir": "short",
+          "entry_time": "2026-06-02 10:19",
+          "notional_usd": 104501,
+          "event_move_pct": -3.23,
+          "event_time": "2026-06-02 11:00",
+          "hash": "0x63f338b5212353c2656c043ccb1c2e021654009abc26729407bbe407e0272dad"
+        }
+      ],
+      "avg_hold_h": 3.09,
+      "n_positions": 11,
+      "unrealized_pnl": 0.0,
+      "position_value": 0,
+      "held_positions": [],
+      "total_pnl": 714126.75,
+      "likely_mm": true,
+      "insider_score": 0.0376,
+      "category": "excluded",
+      "category_reason": "MM/HFT（自動マーケットメイク・方向性ベットでない）"
+    },
+    {
+      "address": "0x91f564e80ed5e98eb22fde0857e1a87047f2df13",
+      "account_value": 613673.6333860001,
+      "lb_windows": {
+        "month": {
+          "pnl": 511343.177713,
+          "roi": 1.4741675971,
+          "vlm": 93927066.55
+        },
+        "allTime": {
+          "pnl": 3200903.323386,
+          "roi": 5.9695451715,
+          "vlm": 96565997.47000001
+        }
+      },
+      "lb_pnl": 511343.177713,
+      "lb_roi": 1.4741675971,
+      "n_fills": 4046,
+      "n_closes": 1623,
+      "n_opens": 2423,
+      "realized_pnl": 248522.95,
+      "win_rate": 0.3617,
+      "dir_accuracy": 0.4317,
+      "largest_win": 13786.26,
+      "event_lead_notional": 844910,
+      "lead_examples": [
+        {
+          "coin": "BTC",
+          "dir": "short",
+          "entry_time": "2026-06-05 05:35",
+          "notional_usd": 111704,
+          "event_move_pct": -3.4,
+          "event_time": "2026-06-05 09:00",
+          "hash": "0x503f3ec21e68cce651b8043d008ecd0205ed00a7b96bebb8f407ea14dd6ca6d0"
+        },
+        {
+          "coin": "BTC",
+          "dir": "short",
+          "entry_time": "2026-06-05 05:35",
+          "notional_usd": 100078,
+          "event_move_pct": -3.4,
+          "event_time": "2026-06-05 09:00",
+          "hash": "0x503f3ec21e68cce651b8043d008ecd0205ed00a7b96bebb8f407ea14dd6ca6d0"
+        },
+        {
+          "coin": "BTC",
+          "dir": "short",
+          "entry_time": "2026-06-05 05:35",
+          "notional_usd": 141714,
+          "event_move_pct": -3.4,
+          "event_time": "2026-06-05 09:00",
+          "hash": "0x503f3ec21e68cce651b8043d008ecd0205ed00a7b96bebb8f407ea14dd6ca6d0"
+        },
+        {
+          "coin": "BTC",
+          "dir": "short",
+          "entry_time": "2026-06-05 05:35",
+          "notional_usd": 120094,
+          "event_move_pct": -3.4,
+          "event_time": "2026-06-05 09:00",
+          "hash": "0x503f3ec21e68cce651b8043d008ecd0205ed00a7b96bebb8f407ea14dd6ca6d0"
+        },
+        {
+          "coin": "BTC",
+          "dir": "short",
+          "entry_time": "2026-06-05 05:35",
+          "notional_usd": 269334,
+          "event_move_pct": -3.4,
+          "event_time": "2026-06-05 09:00",
+          "hash": "0x6fbad7a5ec1d53937134043d008fa102015c008b87107265138382f8ab112d7e"
+        }
+      ],
+      "avg_hold_h": 16.56,
+      "n_positions": 7,
+      "unrealized_pnl": -29853.6,
+      "position_value": 3204048,
+      "held_positions": [
+        {
+          "coin": "BTC",
+          "side": "short",
+          "unrealized_pnl": -29853.6,
+          "position_value": 3204048
+        }
+      ],
+      "total_pnl": 218669.35,
+      "likely_mm": true,
+      "insider_score": 0.0298,
+      "category": "excluded",
+      "category_reason": "MM/HFT（自動マーケットメイク・方向性ベットでない）"
+    },
+    {
+      "address": "0x8be0b9c4dbfb90f47fb94e8968dce08d3152326c",
+      "account_value": 198989.442635,
+      "lb_windows": {
+        "month": {
+          "pnl": 124139.564516,
+          "roi": 1.6937542017,
+          "vlm": 22753451.87
+        },
+        "allTime": {
+          "pnl": 156242.144516,
+          "roi": 2.5607568177,
+          "vlm": 25313716.26
+        }
+      },
+      "lb_pnl": 124139.564516,
+      "lb_roi": 1.6937542017,
+      "n_fills": 147,
+      "n_closes": 74,
+      "n_opens": 73,
+      "realized_pnl": -5919.77,
+      "win_rate": 0.0,
+      "dir_accuracy": 0.0,
+      "largest_win": 0.0,
+      "event_lead_notional": 0,
+      "lead_examples": [],
+      "avg_hold_h": 0.51,
+      "n_positions": 1,
+      "unrealized_pnl": 0.0,
+      "position_value": 0,
+      "held_positions": [],
+      "total_pnl": -5919.77,
+      "likely_mm": false,
+      "insider_score": 0.0,
+      "category": "excluded",
+      "category_reason": "majors で黒字でない"
+    },
+    {
+      "address": "0x5d8f65942e5ace94c2f3c119970d502fcc6e7927",
+      "account_value": 102780.648854,
+      "lb_windows": {
+        "month": {
+          "pnl": 61601.680409,
+          "roi": 1.4959500623,
+          "vlm": 9079817.69
+        },
+        "allTime": {
+          "pnl": 11649.820534,
+          "roi": 0.0648237944,
+          "vlm": 28181998.94
+        }
+      },
+      "lb_pnl": 61601.680409,
+      "lb_roi": 1.4959500623,
+      "n_fills": 200,
+      "n_closes": 91,
+      "n_opens": 109,
+      "realized_pnl": -10494.72,
+      "win_rate": 0.0,
+      "dir_accuracy": 0.0,
+      "largest_win": 0.0,
+      "event_lead_notional": 0,
+      "lead_examples": [],
+      "avg_hold_h": 13.53,
+      "n_positions": 3,
+      "unrealized_pnl": -196.38,
+      "position_value": 99779,
+      "held_positions": [
+        {
+          "coin": "SOL",
+          "side": "long",
+          "unrealized_pnl": -196.38,
+          "position_value": 99779
+        }
+      ],
+      "total_pnl": -10691.1,
+      "likely_mm": false,
+      "insider_score": 0.0,
+      "category": "excluded",
+      "category_reason": "majors で黒字でない"
+    }
+  ]
+}

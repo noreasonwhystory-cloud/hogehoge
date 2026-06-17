@@ -1,0 +1,16 @@
+# 秘密（コミット禁止）
+local_settings.py
+.env
+*.key
+
+# Python
+__pycache__/
+*.pyc
+
+# 大容量キャッシュ・ログ（再生成可能）
+data/leaderboard.json
+data/*.log
+
+# OS
+.DS_Store
+Thumbs.db
