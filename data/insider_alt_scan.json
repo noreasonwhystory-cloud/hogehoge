@@ -1,0 +1,4618 @@
+{
+  "generated_at": "2026-06-17T21:11:11.136024+00:00",
+  "wallets": [
+    {
+      "address": "0xefcace57934a753d66c48a31b880ba806d4c0869",
+      "n_trades": 645,
+      "n_wins": 281,
+      "total_realized": 236933,
+      "total_win": 565177,
+      "alt_win_share": 0.566,
+      "top1_share": 0.309,
+      "top3_share": 0.455,
+      "net_efficiency": 0.419,
+      "mean_top_perfect": 0.674,
+      "top_coins_win": [
+        "@107",
+        "ETH",
+        "BTC"
+      ],
+      "top_trades": [
+        {
+          "coin": "@107",
+          "is_alt": true,
+          "dir": "long",
+          "realized": 174371,
+          "open_at_end": true
+        },
+        {
+          "coin": "ETH",
+          "is_alt": false,
+          "dir": "short",
+          "realized": 47028,
+          "open_at_end": false,
+          "perfect": 0.941,
+          "fwd_favorable": 0.3219,
+          "event_date": "2026-05-15 16:46"
+        },
+        {
+          "coin": "BTC",
+          "is_alt": false,
+          "dir": "short",
+          "realized": 35820,
+          "open_at_end": false,
+          "perfect": 0.838,
+          "fwd_favorable": 0.1033,
+          "event_date": "2026-06-03 17:51"
+        },
+        {
+          "coin": "ETH",
+          "is_alt": false,
+          "dir": "long",
+          "realized": 24483,
+          "open_at_end": false,
+          "perfect": 0.244,
+          "fwd_favorable": 0.0185,
+          "event_date": "2026-06-15 14:46"
+        },
+        {
+          "coin": "ETH",
+          "is_alt": false,
+          "dir": "short",
+          "realized": 10417,
+          "open_at_end": false
+        }
+      ],
+      "position": "除外/低優先",
+      "labels": []
+    },
+    {
+      "address": "0x230963164d9637a4c536270a06b4e3636d44a2d9",
+      "n_trades": 14,
+      "n_wins": 7,
+      "total_realized": 628186,
+      "total_win": 804767,
+      "alt_win_share": 0.437,
+      "top1_share": 0.529,
+      "top3_share": 0.933,
+      "net_efficiency": 0.781,
+      "mean_top_perfect": 0.699,
+      "top_coins_win": [
+        "BTC",
+        "ZEC",
+        "@107"
+      ],
+      "top_trades": [
+        {
+          "coin": "BTC",
+          "is_alt": false,
+          "dir": "short",
+          "realized": 425775,
+          "open_at_end": false,
+          "perfect": 0.755,
+          "fwd_favorable": 0.195,
+          "event_date": "2026-05-12 14:31"
+        },
+        {
+          "coin": "ZEC",
+          "is_alt": true,
+          "dir": "long",
+          "realized": 251930,
+          "open_at_end": false,
+          "perfect": 0.881,
+          "fwd_favorable": 0.7418,
+          "event_date": "2026-04-23 12:58"
+        },
+        {
+          "coin": "ZEC",
+          "is_alt": true,
+          "dir": "long",
+          "realized": 73003,
+          "open_at_end": false,
+          "perfect": 0.596,
+          "fwd_favorable": 0.2953,
+          "event_date": "2026-06-05 12:46"
+        },
+        {
+          "coin": "BTC",
+          "is_alt": false,
+          "dir": "short",
+          "realized": 27114,
+          "open_at_end": false,
+          "perfect": 0.564,
+          "fwd_favorable": 0.0583,
+          "event_date": "2026-03-24 20:42"
+        },
+        {
+          "coin": "@107",
+          "is_alt": true,
+          "dir": "long",
+          "realized": 12639,
+          "open_at_end": true
+        }
+      ],
+      "position": "プロトレーダー(未精査)",
+      "labels": [
+        "High Balance"
+      ]
+    },
+    {
+      "address": "0xdd08886cb92c689c7d89c88f048028293296ead1",
+      "n_trades": 325,
+      "n_wins": 212,
+      "total_realized": 27002,
+      "total_win": 160295,
+      "alt_win_share": 0.562,
+      "top1_share": 0.063,
+      "top3_share": 0.155,
+      "net_efficiency": 0.168,
+      "mean_top_perfect": 0.725,
+      "top_coins_win": [
+        "BTC",
+        "CC"
+      ],
+      "top_trades": [
+        {
+          "coin": "BTC",
+          "is_alt": false,
+          "dir": "short",
+          "realized": 10146,
+          "open_at_end": false,
+          "perfect": 0.614,
+          "fwd_favorable": 0.0433,
+          "event_date": "2026-05-01 14:35"
+        },
+        {
+          "coin": "BTC",
+          "is_alt": false,
+          "dir": "long",
+          "realized": 8761,
+          "open_at_end": false,
+          "perfect": 0.734,
+          "fwd_favorable": 0.0314,
+          "event_date": "2025-12-26 14:57"
+        },
+        {
+          "coin": "CC",
+          "is_alt": true,
+          "dir": "long",
+          "realized": 5976,
+          "open_at_end": false,
+          "perfect": 0.794,
+          "fwd_favorable": 0.1637,
+          "event_date": "2025-12-25 09:40"
+        },
+        {
+          "coin": "BTC",
+          "is_alt": false,
+          "dir": "short",
+          "realized": 5696,
+          "open_at_end": false,
+          "perfect": 0.568,
+          "fwd_favorable": 0.039,
+          "event_date": "2026-03-10 08:11"
+        },
+        {
+          "coin": "CC",
+          "is_alt": true,
+          "dir": "long",
+          "realized": 5486,
+          "open_at_end": false,
+          "perfect": 0.916,
+          "fwd_favorable": 0.4574,
+          "event_date": "2025-12-11 16:03"
+        }
+      ],
+      "position": "プロトレーダー(未精査)",
+      "labels": []
+    },
+    {
+      "address": "0x36eaaca5159a1dcbe60aaad12faaadb0fce6c58b",
+      "n_trades": 685,
+      "n_wins": 271,
+      "total_realized": 66355,
+      "total_win": 226903,
+      "alt_win_share": 0.871,
+      "top1_share": 0.033,
+      "top3_share": 0.088,
+      "net_efficiency": 0.292,
+      "mean_top_perfect": 0.598,
+      "top_coins_win": [
+        "HYPE",
+        "GRASS"
+      ],
+      "top_trades": [
+        {
+          "coin": "HYPE",
+          "is_alt": true,
+          "dir": "long",
+          "realized": 7414,
+          "open_at_end": false,
+          "perfect": 0.628,
+          "fwd_favorable": 0.1088,
+          "event_date": "2026-05-23 14:53"
+        },
+        {
+          "coin": "HYPE",
+          "is_alt": true,
+          "dir": "long",
+          "realized": 6702,
+          "open_at_end": false,
+          "perfect": 0.733,
+          "fwd_favorable": 0.0995,
+          "event_date": "2026-05-17 03:34"
+        },
+        {
+          "coin": "HYPE",
+          "is_alt": true,
+          "dir": "long",
+          "realized": 5800,
+          "open_at_end": false,
+          "perfect": 0.826,
+          "fwd_favorable": 0.1493,
+          "event_date": "2026-06-11 01:18"
+        },
+        {
+          "coin": "HYPE",
+          "is_alt": true,
+          "dir": "long",
+          "realized": 5459,
+          "open_at_end": false,
+          "perfect": 0.721,
+          "fwd_favorable": 0.0824,
+          "event_date": "2026-03-16 04:18"
+        },
+        {
+          "coin": "GRASS",
+          "is_alt": true,
+          "dir": "long",
+          "realized": 5382,
+          "open_at_end": false,
+          "perfect": 0.081,
+          "fwd_favorable": 0.0158,
+          "event_date": "2026-03-16 21:02"
+        }
+      ],
+      "position": "プロトレーダー(未精査)",
+      "labels": []
+    },
+    {
+      "address": "0x0c349d9b92fbd172bbb5a17a9db0a673a6a10ad3",
+      "n_trades": 49,
+      "n_wins": 28,
+      "total_realized": 473131,
+      "total_win": 770627,
+      "alt_win_share": 0.974,
+      "top1_share": 0.142,
+      "top3_share": 0.331,
+      "net_efficiency": 0.614,
+      "mean_top_perfect": 0.773,
+      "top_coins_win": [
+        "xyz:CBRS",
+        "ORDI",
+        "HYPE",
+        "xyz:CRCL"
+      ],
+      "top_trades": [
+        {
+          "coin": "xyz:CBRS",
+          "is_alt": true,
+          "dir": "short",
+          "realized": 109455,
+          "open_at_end": false,
+          "perfect": 0.822,
+          "fwd_favorable": 0.2813,
+          "event_date": "2026-05-14 14:47"
+        },
+        {
+          "coin": "ORDI",
+          "is_alt": true,
+          "dir": "long",
+          "realized": 84657,
+          "open_at_end": false,
+          "perfect": 0.757,
+          "fwd_favorable": 0.9873,
+          "event_date": "2026-04-16 07:55"
+        },
+        {
+          "coin": "HYPE",
+          "is_alt": true,
+          "dir": "long",
+          "realized": 60764,
+          "open_at_end": false,
+          "perfect": 0.886,
+          "fwd_favorable": 0.1738,
+          "event_date": "2026-05-18 08:24"
+        },
+        {
+          "coin": "HYPE",
+          "is_alt": true,
+          "dir": "long",
+          "realized": 58370,
+          "open_at_end": false,
+          "perfect": 0.628,
+          "fwd_favorable": 0.0406,
+          "event_date": "2026-04-14 14:48"
+        },
+        {
+          "coin": "xyz:CRCL",
+          "is_alt": true,
+          "dir": "long",
+          "realized": 50303,
+          "open_at_end": false
+        }
+      ],
+      "position": "除外/低優先",
+      "labels": [
+        "High Activity"
+      ]
+    },
+    {
+      "address": "0xeff7fe671d9a7acf86f48994bc5d5161042415b6",
+      "n_trades": 15,
+      "n_wins": 13,
+      "total_realized": 167519,
+      "total_win": 167552,
+      "alt_win_share": 0.0,
+      "top1_share": 0.433,
+      "top3_share": 0.912,
+      "net_efficiency": 1.0,
+      "mean_top_perfect": 0.545,
+      "top_coins_win": [
+        "BTC"
+      ],
+      "top_trades": [
+        {
+          "coin": "BTC",
+          "is_alt": false,
+          "dir": "short",
+          "realized": 72534,
+          "open_at_end": false,
+          "perfect": 0.422,
+          "fwd_favorable": 0.0544,
+          "event_date": "2026-05-16 06:21"
+        },
+        {
+          "coin": "BTC",
+          "is_alt": false,
+          "dir": "short",
+          "realized": 61445,
+          "open_at_end": false,
+          "perfect": 0.484,
+          "fwd_favorable": 0.0709,
+          "event_date": "2026-06-02 09:02"
+        },
+        {
+          "coin": "BTC",
+          "is_alt": false,
+          "dir": "long",
+          "realized": 18767,
+          "open_at_end": false,
+          "perfect": 0.709,
+          "fwd_favorable": 0.0292,
+          "event_date": "2026-06-04 08:35"
+        },
+        {
+          "coin": "BTC",
+          "is_alt": false,
+          "dir": "short",
+          "realized": 9275,
+          "open_at_end": true,
+          "perfect": 0.535,
+          "fwd_favorable": 0.0463,
+          "event_date": "2026-06-04 17:56"
+        },
+        {
+          "coin": "BTC",
+          "is_alt": false,
+          "dir": "short",
+          "realized": 3501,
+          "open_at_end": false,
+          "perfect": 0.577,
+          "fwd_favorable": 0.0298,
+          "event_date": "2026-05-05 11:48"
+        }
+      ],
+      "position": "プロトレーダー(未精査)",
+      "labels": []
+    },
+    {
+      "address": "0xa351db10472a07059ea099e0581444e568bff894",
+      "n_trades": 43,
+      "n_wins": 36,
+      "total_realized": 102723,
+      "total_win": 104396,
+      "alt_win_share": 0.541,
+      "top1_share": 0.337,
+      "top3_share": 0.664,
+      "net_efficiency": 0.984,
+      "mean_top_perfect": 0.506,
+      "top_coins_win": [
+        "HYPE",
+        "BTC",
+        "SOL",
+        "ETH",
+        "AVAX"
+      ],
+      "top_trades": [
+        {
+          "coin": "HYPE",
+          "is_alt": true,
+          "dir": "short",
+          "realized": 35179,
+          "open_at_end": true,
+          "perfect": 0.584,
+          "fwd_favorable": 0.0568,
+          "event_date": "2026-05-26 14:51"
+        },
+        {
+          "coin": "BTC",
+          "is_alt": false,
+          "dir": "short",
+          "realized": 17731,
+          "open_at_end": true,
+          "perfect": 0.365,
+          "fwd_favorable": 0.0165,
+          "event_date": "2026-05-26 14:57"
+        },
+        {
+          "coin": "SOL",
+          "is_alt": false,
+          "dir": "short",
+          "realized": 16445,
+          "open_at_end": true
+        },
+        {
+          "coin": "ETH",
+          "is_alt": false,
+          "dir": "short",
+          "realized": 13710,
+          "open_at_end": true,
+          "perfect": 0.503,
+          "fwd_favorable": 0.0302,
+          "event_date": "2026-05-26 14:37"
+        },
+        {
+          "coin": "AVAX",
+          "is_alt": true,
+          "dir": "short",
+          "realized": 2266,
+          "open_at_end": false,
+          "perfect": 0.572,
+          "fwd_favorable": 0.0229,
+          "event_date": "2026-05-26 14:36"
+        }
+      ],
+      "position": "除外/低優先",
+      "labels": []
+    },
+    {
+      "address": "0x99b1098d9d50aa076f78bd26ab22e6abd3710729",
+      "n_trades": 54,
+      "n_wins": 26,
+      "total_realized": 2876800,
+      "total_win": 3326488,
+      "alt_win_share": 0.336,
+      "top1_share": 0.42,
+      "top3_share": 0.733,
+      "net_efficiency": 0.865,
+      "mean_top_perfect": 0.704,
+      "top_coins_win": [
+        "ETH",
+        "BTC",
+        "AAVE",
+        "LTC",
+        "BNB"
+      ],
+      "top_trades": [
+        {
+          "coin": "ETH",
+          "is_alt": false,
+          "dir": "short",
+          "realized": 1396051,
+          "open_at_end": false,
+          "perfect": 0.804,
+          "fwd_favorable": 0.2488,
+          "event_date": "2026-04-30 07:48"
+        },
+        {
+          "coin": "BTC",
+          "is_alt": false,
+          "dir": "short",
+          "realized": 806850,
+          "open_at_end": false,
+          "perfect": 0.903,
+          "fwd_favorable": 0.2369,
+          "event_date": "2026-05-07 06:09"
+        },
+        {
+          "coin": "AAVE",
+          "is_alt": true,
+          "dir": "short",
+          "realized": 234962,
+          "open_at_end": false,
+          "perfect": 0.544,
+          "fwd_favorable": 0.0954,
+          "event_date": "2026-02-06 01:04"
+        },
+        {
+          "coin": "LTC",
+          "is_alt": true,
+          "dir": "short",
+          "realized": 165223,
+          "open_at_end": false,
+          "perfect": 0.71,
+          "fwd_favorable": 0.0053,
+          "event_date": "2026-04-10 07:22"
+        },
+        {
+          "coin": "BNB",
+          "is_alt": true,
+          "dir": "short",
+          "realized": 123293,
+          "open_at_end": false,
+          "perfect": 0.56,
+          "fwd_favorable": 0.1318,
+          "event_date": "2026-04-22 05:47"
+        }
+      ],
+      "position": "プロトレーダー(本物)",
+      "labels": [
+        "🤓 Smart HL Perps Trader [0x99b109]"
+      ]
+    },
+    {
+      "address": "0x0a7097d919b7421ecc03aed3aac68a13e7ef1f46",
+      "n_trades": 174,
+      "n_wins": 69,
+      "total_realized": -111801,
+      "total_win": 583556,
+      "alt_win_share": 0.256,
+      "top1_share": 0.116,
+      "top3_share": 0.288,
+      "net_efficiency": -0.192,
+      "mean_top_perfect": 0.637,
+      "top_coins_win": [
+        "BTC",
+        "ETH"
+      ],
+      "top_trades": [
+        {
+          "coin": "BTC",
+          "is_alt": false,
+          "dir": "short",
+          "realized": 67475,
+          "open_at_end": false,
+          "perfect": 0.644,
+          "fwd_favorable": 0.049,
+          "event_date": "2026-03-18 12:48"
+        },
+        {
+          "coin": "ETH",
+          "is_alt": false,
+          "dir": "short",
+          "realized": 65601,
+          "open_at_end": false,
+          "perfect": 0.59,
+          "fwd_favorable": 0.0622,
+          "event_date": "2026-03-18 12:47"
+        },
+        {
+          "coin": "ETH",
+          "is_alt": false,
+          "dir": "short",
+          "realized": 34910,
+          "open_at_end": false,
+          "perfect": 0.676,
+          "fwd_favorable": 0.0295,
+          "event_date": "2026-03-27 09:08"
+        },
+        {
+          "coin": "BTC",
+          "is_alt": false,
+          "dir": "short",
+          "realized": 33527,
+          "open_at_end": false,
+          "perfect": 0.597,
+          "fwd_favorable": 0.027,
+          "event_date": "2026-03-20 12:49"
+        },
+        {
+          "coin": "ETH",
+          "is_alt": false,
+          "dir": "short",
+          "realized": 27894,
+          "open_at_end": false,
+          "perfect": 0.678,
+          "fwd_favorable": 0.0407,
+          "event_date": "2026-03-20 10:21"
+        }
+      ],
+      "position": "除外/低優先",
+      "labels": [
+        "\"kekvault2\" on OpenSea"
+      ]
+    },
+    {
+      "address": "0xb123cd952875d8014efc7a9160a7531a5fe8f5ca",
+      "n_trades": 184,
+      "n_wins": 119,
+      "total_realized": 86774,
+      "total_win": 118396,
+      "alt_win_share": 0.94,
+      "top1_share": 0.828,
+      "top3_share": 0.908,
+      "net_efficiency": 0.733,
+      "mean_top_perfect": null,
+      "top_coins_win": [
+        "@107",
+        "W",
+        "APT"
+      ],
+      "top_trades": [
+        {
+          "coin": "@107",
+          "is_alt": true,
+          "dir": "long",
+          "realized": 98089,
+          "open_at_end": false
+        },
+        {
+          "coin": "W",
+          "is_alt": true,
+          "dir": "long",
+          "realized": 5775,
+          "open_at_end": false
+        },
+        {
+          "coin": "W",
+          "is_alt": true,
+          "dir": "long",
+          "realized": 3641,
+          "open_at_end": false
+        },
+        {
+          "coin": "APT",
+          "is_alt": true,
+          "dir": "long",
+          "realized": 1362,
+          "open_at_end": false
+        },
+        {
+          "coin": "W",
+          "is_alt": true,
+          "dir": "long",
+          "realized": 1111,
+          "open_at_end": false
+        }
+      ],
+      "position": "プロトレーダー(本物)",
+      "labels": [
+        "\"M1NER\" on OpenSea",
+        "miner35.eth",
+        "miner35.eth*"
+      ]
+    },
+    {
+      "address": "0x9a377ec81c1bd51d31170bf8d7a7b6c5fbaded9b",
+      "n_trades": 21,
+      "n_wins": 14,
+      "total_realized": 46062,
+      "total_win": 47991,
+      "alt_win_share": 0.4,
+      "top1_share": 0.298,
+      "top3_share": 0.63,
+      "net_efficiency": 0.96,
+      "mean_top_perfect": null,
+      "top_coins_win": [
+        "@107",
+        "BTC",
+        "SOL",
+        "ETH"
+      ],
+      "top_trades": [
+        {
+          "coin": "@107",
+          "is_alt": true,
+          "dir": "long",
+          "realized": 14303,
+          "open_at_end": true
+        },
+        {
+          "coin": "BTC",
+          "is_alt": false,
+          "dir": "long",
+          "realized": 8482,
+          "open_at_end": false
+        },
+        {
+          "coin": "BTC",
+          "is_alt": false,
+          "dir": "short",
+          "realized": 7455,
+          "open_at_end": false
+        },
+        {
+          "coin": "SOL",
+          "is_alt": false,
+          "dir": "long",
+          "realized": 5659,
+          "open_at_end": false
+        },
+        {
+          "coin": "ETH",
+          "is_alt": false,
+          "dir": "long",
+          "realized": 3084,
+          "open_at_end": false
+        }
+      ],
+      "position": "プロトレーダー(本物)",
+      "labels": []
+    },
+    {
+      "address": "0x2f394ae1ca45071bc222e7124b5d125637942be2",
+      "n_trades": 511,
+      "n_wins": 247,
+      "total_realized": -465017,
+      "total_win": 2653687,
+      "alt_win_share": 0.171,
+      "top1_share": 0.133,
+      "top3_share": 0.199,
+      "net_efficiency": -0.175,
+      "mean_top_perfect": 0.763,
+      "top_coins_win": [
+        "ETH",
+        "BTC",
+        "xyz:GOLD"
+      ],
+      "top_trades": [
+        {
+          "coin": "ETH",
+          "is_alt": false,
+          "dir": "long",
+          "realized": 354236,
+          "open_at_end": false
+        },
+        {
+          "coin": "BTC",
+          "is_alt": false,
+          "dir": "long",
+          "realized": 88509,
+          "open_at_end": false,
+          "perfect": 0.755,
+          "fwd_favorable": 0.0796,
+          "event_date": "2026-02-06 11:47"
+        },
+        {
+          "coin": "ETH",
+          "is_alt": false,
+          "dir": "long",
+          "realized": 85583,
+          "open_at_end": false
+        },
+        {
+          "coin": "ETH",
+          "is_alt": false,
+          "dir": "long",
+          "realized": 84233,
+          "open_at_end": false
+        },
+        {
+          "coin": "xyz:GOLD",
+          "is_alt": true,
+          "dir": "long",
+          "realized": 81734,
+          "open_at_end": false,
+          "perfect": 0.771,
+          "fwd_favorable": 0.0819,
+          "event_date": "2026-01-27 20:47"
+        }
+      ],
+      "position": "💸 出金疑い(要監視)",
+      "labels": []
+    },
+    {
+      "address": "0x6bea81d7a0c5939a5ce5552e125ab57216cc597f",
+      "n_trades": 3,
+      "n_wins": 2,
+      "total_realized": -149051,
+      "total_win": 53612,
+      "alt_win_share": 0.0,
+      "top1_share": 0.937,
+      "top3_share": 1.0,
+      "net_efficiency": -2.78,
+      "mean_top_perfect": null,
+      "top_coins_win": [
+        "ETH",
+        "BTC"
+      ],
+      "top_trades": [
+        {
+          "coin": "ETH",
+          "is_alt": false,
+          "dir": "short",
+          "realized": 50207,
+          "open_at_end": true
+        },
+        {
+          "coin": "BTC",
+          "is_alt": false,
+          "dir": "short",
+          "realized": 3404,
+          "open_at_end": true
+        }
+      ],
+      "position": "💸 出金疑い(要監視)",
+      "labels": [
+        "🤓 Smart HL Perps Trader [0x6bea81]"
+      ]
+    },
+    {
+      "address": "0x55ee7523bcc783e774c3a8b1004b5abdb735ac5d",
+      "n_trades": 174,
+      "n_wins": 56,
+      "total_realized": -11667,
+      "total_win": 23594,
+      "alt_win_share": 0.795,
+      "top1_share": 0.257,
+      "top3_share": 0.391,
+      "net_efficiency": -0.494,
+      "mean_top_perfect": null,
+      "top_coins_win": [
+        "PURR/USDC",
+        "SOL",
+        "SEI",
+        "WIF"
+      ],
+      "top_trades": [
+        {
+          "coin": "PURR/USDC",
+          "is_alt": true,
+          "dir": "long",
+          "realized": 6069,
+          "open_at_end": false
+        },
+        {
+          "coin": "SOL",
+          "is_alt": false,
+          "dir": "long",
+          "realized": 1775,
+          "open_at_end": false
+        },
+        {
+          "coin": "SEI",
+          "is_alt": true,
+          "dir": "long",
+          "realized": 1387,
+          "open_at_end": false
+        },
+        {
+          "coin": "SEI",
+          "is_alt": true,
+          "dir": "long",
+          "realized": 1322,
+          "open_at_end": false
+        },
+        {
+          "coin": "WIF",
+          "is_alt": true,
+          "dir": "long",
+          "realized": 1231,
+          "open_at_end": false
+        }
+      ],
+      "position": "💸 出金疑い(要監視)",
+      "labels": []
+    },
+    {
+      "address": "0xc2c060e3309461ec7c4291b1aac6c89aa228727e",
+      "n_trades": 492,
+      "n_wins": 27,
+      "total_realized": -745,
+      "total_win": 34,
+      "alt_win_share": 0.837,
+      "top1_share": 0.161,
+      "top3_share": 0.419,
+      "net_efficiency": -21.777,
+      "mean_top_perfect": null,
+      "top_coins_win": [
+        "SOL",
+        "ADA",
+        "DOGE",
+        "NEO",
+        "SNX"
+      ],
+      "top_trades": [
+        {
+          "coin": "SOL",
+          "is_alt": false,
+          "dir": "short",
+          "realized": 6,
+          "open_at_end": false
+        },
+        {
+          "coin": "ADA",
+          "is_alt": true,
+          "dir": "long",
+          "realized": 5,
+          "open_at_end": false
+        },
+        {
+          "coin": "DOGE",
+          "is_alt": true,
+          "dir": "short",
+          "realized": 4,
+          "open_at_end": false
+        },
+        {
+          "coin": "NEO",
+          "is_alt": true,
+          "dir": "long",
+          "realized": 3,
+          "open_at_end": false
+        },
+        {
+          "coin": "SNX",
+          "is_alt": true,
+          "dir": "long",
+          "realized": 2,
+          "open_at_end": false
+        }
+      ],
+      "position": "💸 出金疑い(要監視)",
+      "labels": [
+        "\"H2_\" on OpenSea"
+      ]
+    },
+    {
+      "address": "0x880ac484a1743862989a441d6d867238c7aa311c",
+      "n_trades": 55,
+      "n_wins": 20,
+      "total_realized": -1925507,
+      "total_win": 2661144,
+      "alt_win_share": 0.922,
+      "top1_share": 0.551,
+      "top3_share": 0.957,
+      "net_efficiency": -0.724,
+      "mean_top_perfect": 0.569,
+      "top_coins_win": [
+        "@107",
+        "XMR",
+        "BTC",
+        "ETH",
+        "SOL"
+      ],
+      "top_trades": [
+        {
+          "coin": "@107",
+          "is_alt": true,
+          "dir": "long",
+          "realized": 1466505,
+          "open_at_end": false,
+          "perfect": 0.905,
+          "fwd_favorable": 0.8524,
+          "event_date": "2026-04-08 15:07"
+        },
+        {
+          "coin": "XMR",
+          "is_alt": true,
+          "dir": "short",
+          "realized": 974804,
+          "open_at_end": false,
+          "perfect": 0.474,
+          "fwd_favorable": 0.1913,
+          "event_date": "2026-04-08 14:31"
+        },
+        {
+          "coin": "BTC",
+          "is_alt": false,
+          "dir": "long",
+          "realized": 105543,
+          "open_at_end": false,
+          "perfect": 0.575,
+          "fwd_favorable": 0.0613,
+          "event_date": "2026-04-08 10:56"
+        },
+        {
+          "coin": "ETH",
+          "is_alt": false,
+          "dir": "short",
+          "realized": 88071,
+          "open_at_end": false,
+          "perfect": 0.321,
+          "fwd_favorable": 0.0435,
+          "event_date": "2026-04-08 10:58"
+        },
+        {
+          "coin": "SOL",
+          "is_alt": false,
+          "dir": "short",
+          "realized": 14806,
+          "open_at_end": false
+        }
+      ],
+      "position": "💸 出金疑い(要監視)",
+      "labels": [
+        "High Activity"
+      ]
+    },
+    {
+      "address": "0xc7ebe10d3568c52b3f43dc50320167db9d10ce4f",
+      "n_trades": 8,
+      "n_wins": 4,
+      "total_realized": 716281,
+      "total_win": 736186,
+      "alt_win_share": 1.0,
+      "top1_share": 0.851,
+      "top3_share": 0.969,
+      "net_efficiency": 0.973,
+      "mean_top_perfect": null,
+      "top_coins_win": [
+        "FARTCOIN",
+        "PENGU",
+        "WIF",
+        "MNT"
+      ],
+      "top_trades": [
+        {
+          "coin": "FARTCOIN",
+          "is_alt": true,
+          "dir": "short",
+          "realized": 626592,
+          "open_at_end": false
+        },
+        {
+          "coin": "PENGU",
+          "is_alt": true,
+          "dir": "short",
+          "realized": 61946,
+          "open_at_end": false
+        },
+        {
+          "coin": "WIF",
+          "is_alt": true,
+          "dir": "short",
+          "realized": 24459,
+          "open_at_end": false
+        },
+        {
+          "coin": "MNT",
+          "is_alt": true,
+          "dir": "long",
+          "realized": 23190,
+          "open_at_end": true
+        }
+      ],
+      "position": "💸 出金疑い(要監視)",
+      "labels": []
+    },
+    {
+      "address": "0xbe494a5e3a719a78a45a47ab453b7b0199b9d101",
+      "n_trades": 6,
+      "n_wins": 4,
+      "total_realized": 1443645,
+      "total_win": 1443819,
+      "alt_win_share": 0.101,
+      "top1_share": 0.792,
+      "top3_share": 0.999,
+      "net_efficiency": 1.0,
+      "mean_top_perfect": 0.531,
+      "top_coins_win": [
+        "SOL",
+        "ETH",
+        "BNB",
+        "xyz:XYZ100"
+      ],
+      "top_trades": [
+        {
+          "coin": "SOL",
+          "is_alt": false,
+          "dir": "short",
+          "realized": 1143174,
+          "open_at_end": false
+        },
+        {
+          "coin": "ETH",
+          "is_alt": false,
+          "dir": "short",
+          "realized": 155048,
+          "open_at_end": false,
+          "perfect": 0.342,
+          "fwd_favorable": 0.1123,
+          "event_date": "2026-02-10 01:49"
+        },
+        {
+          "coin": "BNB",
+          "is_alt": true,
+          "dir": "short",
+          "realized": 144082,
+          "open_at_end": true,
+          "perfect": 0.387,
+          "fwd_favorable": 0.1161,
+          "event_date": "2026-05-31 02:15"
+        },
+        {
+          "coin": "xyz:XYZ100",
+          "is_alt": true,
+          "dir": "short",
+          "realized": 1516,
+          "open_at_end": false,
+          "perfect": 0.863,
+          "fwd_favorable": 0.0197,
+          "event_date": "2026-06-16 12:22"
+        }
+      ],
+      "position": "プロトレーダー(本物)",
+      "labels": [
+        "🤓 Smart HL Perps Trader [0xbe494a]"
+      ]
+    },
+    {
+      "address": "0x29eb62882a8bd104a64400a2971d0d6881777043",
+      "n_trades": 52,
+      "n_wins": 21,
+      "total_realized": 14198,
+      "total_win": 29264,
+      "alt_win_share": 0.683,
+      "top1_share": 0.317,
+      "top3_share": 0.75,
+      "net_efficiency": 0.485,
+      "mean_top_perfect": 0.752,
+      "top_coins_win": [
+        "SOL",
+        "OM",
+        "DASH",
+        "MOVE",
+        "SOPH"
+      ],
+      "top_trades": [
+        {
+          "coin": "SOL",
+          "is_alt": false,
+          "dir": "long",
+          "realized": 9276,
+          "open_at_end": false
+        },
+        {
+          "coin": "OM",
+          "is_alt": true,
+          "dir": "long",
+          "realized": 9090,
+          "open_at_end": true
+        },
+        {
+          "coin": "DASH",
+          "is_alt": true,
+          "dir": "long",
+          "realized": 3580,
+          "open_at_end": false,
+          "perfect": 0.77,
+          "fwd_favorable": 0.2077,
+          "event_date": "2026-02-10 13:03"
+        },
+        {
+          "coin": "MOVE",
+          "is_alt": true,
+          "dir": "long",
+          "realized": 3415,
+          "open_at_end": false,
+          "perfect": 0.699,
+          "fwd_favorable": 0.2098,
+          "event_date": "2026-02-11 01:53"
+        },
+        {
+          "coin": "SOPH",
+          "is_alt": true,
+          "dir": "long",
+          "realized": 873,
+          "open_at_end": true,
+          "perfect": 0.787,
+          "fwd_favorable": 0.1354,
+          "event_date": "2026-02-10 01:22"
+        }
+      ],
+      "position": "プロトレーダー(本物)",
+      "labels": [
+        "High Activity"
+      ]
+    },
+    {
+      "address": "0xfeec88b13fc0be31695069f02bac18538a154e9c",
+      "n_trades": 4,
+      "n_wins": 3,
+      "total_realized": 1393922,
+      "total_win": 1396369,
+      "alt_win_share": 0.003,
+      "top1_share": 0.997,
+      "top3_share": 1.0,
+      "net_efficiency": 0.998,
+      "mean_top_perfect": 0.405,
+      "top_coins_win": [
+        "SOL",
+        "vntl:ANTHROPIC",
+        "@230"
+      ],
+      "top_trades": [
+        {
+          "coin": "SOL",
+          "is_alt": false,
+          "dir": "short",
+          "realized": 1391539,
+          "open_at_end": false
+        },
+        {
+          "coin": "vntl:ANTHROPIC",
+          "is_alt": true,
+          "dir": "long",
+          "realized": 4820,
+          "open_at_end": false,
+          "perfect": 0.375,
+          "fwd_favorable": 0.0702,
+          "event_date": "2026-05-13 04:33"
+        },
+        {
+          "coin": "@230",
+          "is_alt": true,
+          "dir": "long",
+          "realized": 10,
+          "open_at_end": false,
+          "perfect": 0.435,
+          "fwd_favorable": 0.0001,
+          "event_date": "2026-05-21 05:55"
+        }
+      ],
+      "position": "プロトレーダー(本物)",
+      "labels": []
+    },
+    {
+      "address": "0x05c6959d997cde99d2f967367e5e9f1959ba9706",
+      "n_trades": 287,
+      "n_wins": 119,
+      "total_realized": 30355,
+      "total_win": 259772,
+      "alt_win_share": 0.86,
+      "top1_share": 0.218,
+      "top3_share": 0.412,
+      "net_efficiency": 0.117,
+      "mean_top_perfect": 0.641,
+      "top_coins_win": [
+        "@107",
+        "ONDO",
+        "MON",
+        "ZORA",
+        "@243"
+      ],
+      "top_trades": [
+        {
+          "coin": "@107",
+          "is_alt": true,
+          "dir": "long",
+          "realized": 56753,
+          "open_at_end": true,
+          "perfect": 0.182,
+          "fwd_favorable": 0.1119,
+          "event_date": "2025-04-15 10:38"
+        },
+        {
+          "coin": "ONDO",
+          "is_alt": true,
+          "dir": "long",
+          "realized": 31801,
+          "open_at_end": false,
+          "perfect": 0.834,
+          "fwd_favorable": 0.6709,
+          "event_date": "2026-04-26 20:15"
+        },
+        {
+          "coin": "MON",
+          "is_alt": true,
+          "dir": "long",
+          "realized": 18578,
+          "open_at_end": false,
+          "perfect": 0.839,
+          "fwd_favorable": 0.4647,
+          "event_date": "2026-04-02 21:02"
+        },
+        {
+          "coin": "ZORA",
+          "is_alt": true,
+          "dir": "long",
+          "realized": 15980,
+          "open_at_end": false
+        },
+        {
+          "coin": "@243",
+          "is_alt": true,
+          "dir": "long",
+          "realized": 14678,
+          "open_at_end": true,
+          "perfect": 0.709,
+          "fwd_favorable": 0.7335,
+          "event_date": "2025-12-16 14:18"
+        }
+      ],
+      "position": "💸 出金疑い(要監視)",
+      "labels": [
+        "High Balance"
+      ]
+    },
+    {
+      "address": "0x0e3f5bb797e3953fed2a319544d0e821b4a11e1c",
+      "n_trades": 93,
+      "n_wins": 83,
+      "total_realized": -176192,
+      "total_win": 102424,
+      "alt_win_share": 0.662,
+      "top1_share": 0.268,
+      "top3_share": 0.369,
+      "net_efficiency": -1.72,
+      "mean_top_perfect": 0.487,
+      "top_coins_win": [
+        "BTC",
+        "HYPE"
+      ],
+      "top_trades": [
+        {
+          "coin": "BTC",
+          "is_alt": false,
+          "dir": "short",
+          "realized": 27496,
+          "open_at_end": false,
+          "perfect": 0.509,
+          "fwd_favorable": 0.0423,
+          "event_date": "2025-11-25 20:05"
+        },
+        {
+          "coin": "HYPE",
+          "is_alt": true,
+          "dir": "long",
+          "realized": 5589,
+          "open_at_end": false,
+          "perfect": 0.688,
+          "fwd_favorable": 0.0448,
+          "event_date": "2025-12-09 21:24"
+        },
+        {
+          "coin": "HYPE",
+          "is_alt": true,
+          "dir": "long",
+          "realized": 4671,
+          "open_at_end": false,
+          "perfect": 0.459,
+          "fwd_favorable": 0.025,
+          "event_date": "2025-12-14 13:22"
+        },
+        {
+          "coin": "HYPE",
+          "is_alt": true,
+          "dir": "long",
+          "realized": 4592,
+          "open_at_end": false,
+          "perfect": 0.293,
+          "fwd_favorable": 0.0197,
+          "event_date": "2025-12-10 04:55"
+        },
+        {
+          "coin": "HYPE",
+          "is_alt": true,
+          "dir": "short",
+          "realized": 4456,
+          "open_at_end": false
+        }
+      ],
+      "position": "💸 出金疑い(要監視)",
+      "labels": []
+    },
+    {
+      "address": "0xed41a12ea862f31df054e9bd3af1dd59486c6029",
+      "n_trades": 12,
+      "n_wins": 3,
+      "total_realized": 2142600,
+      "total_win": 2150202,
+      "alt_win_share": 0.0,
+      "top1_share": 1.0,
+      "top3_share": 1.0,
+      "net_efficiency": 0.996,
+      "mean_top_perfect": 0.695,
+      "top_coins_win": [
+        "ETH",
+        "SOL"
+      ],
+      "top_trades": [
+        {
+          "coin": "ETH",
+          "is_alt": false,
+          "dir": "short",
+          "realized": 2149930,
+          "open_at_end": false,
+          "perfect": 0.695,
+          "fwd_favorable": 0.4055,
+          "event_date": "2025-12-10 10:41"
+        },
+        {
+          "coin": "SOL",
+          "is_alt": false,
+          "dir": "long",
+          "realized": 272,
+          "open_at_end": false
+        },
+        {
+          "coin": "SOL",
+          "is_alt": false,
+          "dir": "short",
+          "realized": 0,
+          "open_at_end": false
+        }
+      ],
+      "position": "プロトレーダー(本物)",
+      "labels": [
+        "Token Millionaire"
+      ]
+    },
+    {
+      "address": "0x782e432267376f377585fc78092d998f8442ab83",
+      "n_trades": 98,
+      "n_wins": 85,
+      "total_realized": 4258658,
+      "total_win": 5290623,
+      "alt_win_share": 0.659,
+      "top1_share": 0.442,
+      "top3_share": 0.821,
+      "net_efficiency": 0.805,
+      "mean_top_perfect": 0.869,
+      "top_coins_win": [
+        "HYPE",
+        "BTC",
+        "xyz:CL",
+        "xyz:BRENTOIL",
+        "PUMP"
+      ],
+      "top_trades": [
+        {
+          "coin": "HYPE",
+          "is_alt": true,
+          "dir": "long",
+          "realized": 2340464,
+          "open_at_end": false,
+          "perfect": 0.92,
+          "fwd_favorable": 2.0447,
+          "event_date": "2025-12-19 10:20"
+        },
+        {
+          "coin": "BTC",
+          "is_alt": false,
+          "dir": "short",
+          "realized": 1775069,
+          "open_at_end": false,
+          "perfect": 1.0,
+          "fwd_favorable": 0.4535,
+          "event_date": "2025-10-20 19:02"
+        },
+        {
+          "coin": "xyz:CL",
+          "is_alt": true,
+          "dir": "short",
+          "realized": 230587,
+          "open_at_end": false,
+          "perfect": 0.876,
+          "fwd_favorable": 0.2124,
+          "event_date": "2026-05-17 02:18"
+        },
+        {
+          "coin": "xyz:BRENTOIL",
+          "is_alt": true,
+          "dir": "short",
+          "realized": 213963,
+          "open_at_end": false,
+          "perfect": 0.681,
+          "fwd_favorable": 0.183,
+          "event_date": "2026-04-30 08:59"
+        },
+        {
+          "coin": "PUMP",
+          "is_alt": true,
+          "dir": "short",
+          "realized": 157039,
+          "open_at_end": false
+        }
+      ],
+      "position": "プロトレーダー(本物)",
+      "labels": [
+        "Token Millionaire"
+      ]
+    },
+    {
+      "address": "0x56cd86d6ef24a3f51ce6992b7f1db751b0a0276a",
+      "n_trades": 37,
+      "n_wins": 19,
+      "total_realized": 4242168,
+      "total_win": 4431413,
+      "alt_win_share": 0.469,
+      "top1_share": 0.429,
+      "top3_share": 0.816,
+      "net_efficiency": 0.957,
+      "mean_top_perfect": 0.931,
+      "top_coins_win": [
+        "SOL",
+        "@107",
+        "HYPE",
+        "XRP"
+      ],
+      "top_trades": [
+        {
+          "coin": "SOL",
+          "is_alt": false,
+          "dir": "short",
+          "realized": 1903288,
+          "open_at_end": true
+        },
+        {
+          "coin": "@107",
+          "is_alt": true,
+          "dir": "long",
+          "realized": 1451677,
+          "open_at_end": true
+        },
+        {
+          "coin": "SOL",
+          "is_alt": false,
+          "dir": "short",
+          "realized": 259567,
+          "open_at_end": false
+        },
+        {
+          "coin": "HYPE",
+          "is_alt": true,
+          "dir": "short",
+          "realized": 251581,
+          "open_at_end": true,
+          "perfect": 0.863,
+          "fwd_favorable": 0.3766,
+          "event_date": "2025-12-18 07:46"
+        },
+        {
+          "coin": "XRP",
+          "is_alt": true,
+          "dir": "short",
+          "realized": 219834,
+          "open_at_end": true,
+          "perfect": 1.0,
+          "fwd_favorable": 0.5635,
+          "event_date": "2025-10-28 20:11"
+        }
+      ],
+      "position": "プロトレーダー(本物)",
+      "labels": [
+        "🤓 Funded @beltoncap On Friendtech [0x56cd86]"
+      ]
+    },
+    {
+      "address": "0x906d31b2ee92c4bc720232112274a0e1ffb0ad6e",
+      "n_trades": 5,
+      "n_wins": 3,
+      "total_realized": 2631449,
+      "total_win": 3377691,
+      "alt_win_share": 0.178,
+      "top1_share": 0.747,
+      "top3_share": 1.0,
+      "net_efficiency": 0.779,
+      "mean_top_perfect": 0.781,
+      "top_coins_win": [
+        "ETH",
+        "ZEC",
+        "BTC"
+      ],
+      "top_trades": [
+        {
+          "coin": "ETH",
+          "is_alt": false,
+          "dir": "short",
+          "realized": 2522100,
+          "open_at_end": false,
+          "perfect": 0.884,
+          "fwd_favorable": 0.5332,
+          "event_date": "2025-11-26 17:33"
+        },
+        {
+          "coin": "ZEC",
+          "is_alt": true,
+          "dir": "short",
+          "realized": 602842,
+          "open_at_end": false,
+          "perfect": 0.644,
+          "fwd_favorable": 0.4259,
+          "event_date": "2025-11-14 18:12"
+        },
+        {
+          "coin": "BTC",
+          "is_alt": false,
+          "dir": "short",
+          "realized": 252749,
+          "open_at_end": false,
+          "perfect": 0.814,
+          "fwd_favorable": 0.246,
+          "event_date": "2026-04-17 14:40"
+        }
+      ],
+      "position": "除外/低優先",
+      "labels": [
+        "Token Millionaire"
+      ]
+    },
+    {
+      "address": "0xac03fc4c21902e4e934b4367cb1a6c6e3f0d8037",
+      "n_trades": 12,
+      "n_wins": 8,
+      "total_realized": 2348016,
+      "total_win": 2634963,
+      "alt_win_share": 1.0,
+      "top1_share": 0.883,
+      "top3_share": 0.999,
+      "net_efficiency": 0.891,
+      "mean_top_perfect": 0.52,
+      "top_coins_win": [
+        "xyz:BRENTOIL",
+        "xyz:CL",
+        "ETH"
+      ],
+      "top_trades": [
+        {
+          "coin": "xyz:BRENTOIL",
+          "is_alt": true,
+          "dir": "short",
+          "realized": 2325595,
+          "open_at_end": false,
+          "perfect": 0.652,
+          "fwd_favorable": 0.1513,
+          "event_date": "2026-03-19 05:38"
+        },
+        {
+          "coin": "xyz:CL",
+          "is_alt": true,
+          "dir": "short",
+          "realized": 295584,
+          "open_at_end": false,
+          "perfect": 0.343,
+          "fwd_favorable": 0.1244,
+          "event_date": "2026-03-12 16:47"
+        },
+        {
+          "coin": "xyz:CL",
+          "is_alt": true,
+          "dir": "short",
+          "realized": 11649,
+          "open_at_end": false,
+          "perfect": 0.745,
+          "fwd_favorable": 0.0753,
+          "event_date": "2026-04-21 21:45"
+        },
+        {
+          "coin": "xyz:CL",
+          "is_alt": true,
+          "dir": "short",
+          "realized": 2131,
+          "open_at_end": false,
+          "perfect": 0.473,
+          "fwd_favorable": 0.0296,
+          "event_date": "2026-04-23 13:41"
+        },
+        {
+          "coin": "ETH",
+          "is_alt": false,
+          "dir": "long",
+          "realized": 2,
+          "open_at_end": false,
+          "perfect": 0.385,
+          "fwd_favorable": 0.0113,
+          "event_date": "2026-03-16 12:07"
+        }
+      ],
+      "position": "プロトレーダー(本物)",
+      "labels": []
+    },
+    {
+      "address": "0xe4d83945c0322f3d340203a7129b7eb5cacae847",
+      "n_trades": 5,
+      "n_wins": 4,
+      "total_realized": 2031004,
+      "total_win": 2031004,
+      "alt_win_share": 0.0,
+      "top1_share": 0.653,
+      "top3_share": 0.898,
+      "net_efficiency": 1.0,
+      "mean_top_perfect": 0.779,
+      "top_coins_win": [
+        "SOL",
+        "BTC",
+        "ETH"
+      ],
+      "top_trades": [
+        {
+          "coin": "SOL",
+          "is_alt": false,
+          "dir": "short",
+          "realized": 1325750,
+          "open_at_end": false
+        },
+        {
+          "coin": "SOL",
+          "is_alt": false,
+          "dir": "short",
+          "realized": 274353,
+          "open_at_end": false
+        },
+        {
+          "coin": "BTC",
+          "is_alt": false,
+          "dir": "short",
+          "realized": 223666,
+          "open_at_end": false,
+          "perfect": 0.857,
+          "fwd_favorable": 0.3514,
+          "event_date": "2025-09-09 04:50"
+        },
+        {
+          "coin": "ETH",
+          "is_alt": false,
+          "dir": "short",
+          "realized": 207235,
+          "open_at_end": false,
+          "perfect": 0.702,
+          "fwd_favorable": 0.4077,
+          "event_date": "2025-09-09 04:57"
+        }
+      ],
+      "position": "プロトレーダー(本物)",
+      "labels": [
+        "🤓 Smart HL Perps Trader [0xe4d839]"
+      ]
+    },
+    {
+      "address": "0xb1694de2324433778487999bd86b1acb3335ebc4",
+      "n_trades": 4,
+      "n_wins": 4,
+      "total_realized": 1928778,
+      "total_win": 1928778,
+      "alt_win_share": 0.0,
+      "top1_share": 0.672,
+      "top3_share": 0.907,
+      "net_efficiency": 1.0,
+      "mean_top_perfect": 1.0,
+      "top_coins_win": [
+        "SOL",
+        "BTC",
+        "ETH"
+      ],
+      "top_trades": [
+        {
+          "coin": "SOL",
+          "is_alt": false,
+          "dir": "short",
+          "realized": 1295919,
+          "open_at_end": false
+        },
+        {
+          "coin": "BTC",
+          "is_alt": false,
+          "dir": "short",
+          "realized": 238287,
+          "open_at_end": false,
+          "perfect": 1.0,
+          "fwd_favorable": 0.3987,
+          "event_date": "2025-08-26 09:52"
+        },
+        {
+          "coin": "SOL",
+          "is_alt": false,
+          "dir": "short",
+          "realized": 215702,
+          "open_at_end": false
+        },
+        {
+          "coin": "ETH",
+          "is_alt": false,
+          "dir": "short",
+          "realized": 178870,
+          "open_at_end": false,
+          "perfect": 1.0,
+          "fwd_favorable": 0.5118,
+          "event_date": "2025-08-26 09:52"
+        }
+      ],
+      "position": "プロトレーダー(本物)",
+      "labels": [
+        "Former Smart Trader [0xb1694d]"
+      ]
+    },
+    {
+      "address": "0x406073860818ecfb7dca0706a6bac73faa95bd3e",
+      "n_trades": 28,
+      "n_wins": 21,
+      "total_realized": 1226127,
+      "total_win": 1234842,
+      "alt_win_share": 0.422,
+      "top1_share": 0.396,
+      "top3_share": 0.794,
+      "net_efficiency": 0.993,
+      "mean_top_perfect": 0.87,
+      "top_coins_win": [
+        "BTC",
+        "ADA",
+        "ETH",
+        "XRP",
+        "DOGE"
+      ],
+      "top_trades": [
+        {
+          "coin": "BTC",
+          "is_alt": false,
+          "dir": "short",
+          "realized": 489534,
+          "open_at_end": false,
+          "perfect": 1.0,
+          "fwd_favorable": 0.48,
+          "event_date": "2025-10-07 16:01"
+        },
+        {
+          "coin": "ADA",
+          "is_alt": true,
+          "dir": "short",
+          "realized": 273166,
+          "open_at_end": false,
+          "perfect": 1.0,
+          "fwd_favorable": 0.6265,
+          "event_date": "2025-10-08 21:00"
+        },
+        {
+          "coin": "ETH",
+          "is_alt": false,
+          "dir": "short",
+          "realized": 218008,
+          "open_at_end": false,
+          "perfect": 0.351,
+          "fwd_favorable": 0.256,
+          "event_date": "2025-10-18 14:39"
+        },
+        {
+          "coin": "XRP",
+          "is_alt": true,
+          "dir": "short",
+          "realized": 93885,
+          "open_at_end": false,
+          "perfect": 1.0,
+          "fwd_favorable": 0.538,
+          "event_date": "2025-10-17 07:52"
+        },
+        {
+          "coin": "DOGE",
+          "is_alt": true,
+          "dir": "short",
+          "realized": 55958,
+          "open_at_end": false,
+          "perfect": 1.0,
+          "fwd_favorable": 0.4904,
+          "event_date": "2025-10-30 13:43"
+        }
+      ],
+      "position": "プロトレーダー(本物)",
+      "labels": [
+        "🤓 Smart HL Perps Trader [0x406073]"
+      ]
+    },
+    {
+      "address": "0xba0495c92ab69b1151ecf422851a06b602cea764",
+      "n_trades": 3,
+      "n_wins": 3,
+      "total_realized": 1162455,
+      "total_win": 1162455,
+      "alt_win_share": 1.0,
+      "top1_share": 0.983,
+      "top3_share": 1.0,
+      "net_efficiency": 1.0,
+      "mean_top_perfect": 0.562,
+      "top_coins_win": [
+        "xyz:MU",
+        "xyz:CL",
+        "xyz:CBRS"
+      ],
+      "top_trades": [
+        {
+          "coin": "xyz:MU",
+          "is_alt": true,
+          "dir": "long",
+          "realized": 1142788,
+          "open_at_end": false
+        },
+        {
+          "coin": "xyz:CL",
+          "is_alt": true,
+          "dir": "long",
+          "realized": 19605,
+          "open_at_end": false,
+          "perfect": 0.78,
+          "fwd_favorable": 0.0757,
+          "event_date": "2026-05-07 07:28"
+        },
+        {
+          "coin": "xyz:CBRS",
+          "is_alt": true,
+          "dir": "long",
+          "realized": 62,
+          "open_at_end": false,
+          "perfect": 0.345,
+          "fwd_favorable": 0.1108,
+          "event_date": "2026-05-14 14:18"
+        }
+      ],
+      "position": "プロトレーダー(本物)",
+      "labels": []
+    },
+    {
+      "address": "0x99b3ba1c1b7ad83d0164d996e3d271ae8c842551",
+      "n_trades": 10,
+      "n_wins": 8,
+      "total_realized": 423145,
+      "total_win": 429416,
+      "alt_win_share": 0.566,
+      "top1_share": 0.536,
+      "top3_share": 0.844,
+      "net_efficiency": 0.985,
+      "mean_top_perfect": 0.534,
+      "top_coins_win": [
+        "ZEC",
+        "BTC",
+        "ETH"
+      ],
+      "top_trades": [
+        {
+          "coin": "ZEC",
+          "is_alt": true,
+          "dir": "long",
+          "realized": 230079,
+          "open_at_end": false,
+          "perfect": 0.681,
+          "fwd_favorable": 0.1588,
+          "event_date": "2026-04-07 12:46"
+        },
+        {
+          "coin": "BTC",
+          "is_alt": false,
+          "dir": "long",
+          "realized": 91598,
+          "open_at_end": false,
+          "perfect": 0.806,
+          "fwd_favorable": 0.0596,
+          "event_date": "2026-04-07 02:38"
+        },
+        {
+          "coin": "ETH",
+          "is_alt": false,
+          "dir": "long",
+          "realized": 40787,
+          "open_at_end": false,
+          "perfect": 0.454,
+          "fwd_favorable": 0.0446,
+          "event_date": "2026-04-07 12:10"
+        },
+        {
+          "coin": "BTC",
+          "is_alt": false,
+          "dir": "long",
+          "realized": 34120,
+          "open_at_end": false,
+          "perfect": 0.175,
+          "fwd_favorable": 0.0108,
+          "event_date": "2026-04-07 23:19"
+        },
+        {
+          "coin": "BTC",
+          "is_alt": false,
+          "dir": "short",
+          "realized": 14056,
+          "open_at_end": true,
+          "perfect": 0.552,
+          "fwd_favorable": 0.025,
+          "event_date": "2026-04-09 15:51"
+        }
+      ],
+      "position": "プロトレーダー(本物)",
+      "labels": []
+    },
+    {
+      "address": "0x98256d1a9e3012398237a1720c27a3d7ed1ad905",
+      "n_trades": 10,
+      "n_wins": 3,
+      "total_realized": 1049066,
+      "total_win": 1055625,
+      "alt_win_share": 1.0,
+      "top1_share": 1.0,
+      "top3_share": 1.0,
+      "net_efficiency": 0.994,
+      "mean_top_perfect": 0.673,
+      "top_coins_win": [
+        "HYPE",
+        "TAO",
+        "@166"
+      ],
+      "top_trades": [
+        {
+          "coin": "HYPE",
+          "is_alt": true,
+          "dir": "long",
+          "realized": 1055623,
+          "open_at_end": false,
+          "perfect": 0.673,
+          "fwd_favorable": 0.5017,
+          "event_date": "2026-04-16 05:50"
+        },
+        {
+          "coin": "TAO",
+          "is_alt": true,
+          "dir": "long",
+          "realized": 2,
+          "open_at_end": false
+        },
+        {
+          "coin": "@166",
+          "is_alt": true,
+          "dir": "long",
+          "realized": 0,
+          "open_at_end": false
+        }
+      ],
+      "position": "プロトレーダー(本物)",
+      "labels": []
+    },
+    {
+      "address": "0xa3d843b6a057504284006bef6f34a2e9bc80fb6b",
+      "n_trades": 25,
+      "n_wins": 11,
+      "total_realized": 1444379,
+      "total_win": 1597905,
+      "alt_win_share": 0.084,
+      "top1_share": 0.896,
+      "top3_share": 0.955,
+      "net_efficiency": 0.904,
+      "mean_top_perfect": 0.711,
+      "top_coins_win": [
+        "BTC",
+        "xyz:CL",
+        "xyz:MSTR",
+        "xyz:SILVER"
+      ],
+      "top_trades": [
+        {
+          "coin": "BTC",
+          "is_alt": false,
+          "dir": "long",
+          "realized": 1432440,
+          "open_at_end": false,
+          "perfect": 0.798,
+          "fwd_favorable": 0.0839,
+          "event_date": "2026-04-21 14:22"
+        },
+        {
+          "coin": "xyz:CL",
+          "is_alt": true,
+          "dir": "short",
+          "realized": 48272,
+          "open_at_end": false,
+          "perfect": 0.774,
+          "fwd_favorable": 0.1495,
+          "event_date": "2026-04-30 14:30"
+        },
+        {
+          "coin": "xyz:MSTR",
+          "is_alt": true,
+          "dir": "long",
+          "realized": 44656,
+          "open_at_end": false,
+          "perfect": 0.524,
+          "fwd_favorable": 0.1227,
+          "event_date": "2026-04-21 13:16"
+        },
+        {
+          "coin": "BTC",
+          "is_alt": false,
+          "dir": "long",
+          "realized": 27120,
+          "open_at_end": false,
+          "perfect": 0.604,
+          "fwd_favorable": 0.0463,
+          "event_date": "2026-04-08 13:14"
+        },
+        {
+          "coin": "xyz:SILVER",
+          "is_alt": true,
+          "dir": "short",
+          "realized": 15546,
+          "open_at_end": false,
+          "perfect": 0.857,
+          "fwd_favorable": 0.0863,
+          "event_date": "2026-06-05 08:13"
+        }
+      ],
+      "position": "プロトレーダー(本物)",
+      "labels": [
+        "Former Smart Trader [0xa3d843]"
+      ]
+    },
+    {
+      "address": "0xbcc7fd5f27cba04dca862b94509133c453dde764",
+      "n_trades": 24,
+      "n_wins": 11,
+      "total_realized": 553556,
+      "total_win": 2013735,
+      "alt_win_share": 0.09,
+      "top1_share": 0.621,
+      "top3_share": 0.903,
+      "net_efficiency": 0.275,
+      "mean_top_perfect": 0.739,
+      "top_coins_win": [
+        "BTC",
+        "ETH",
+        "ZEC",
+        "MELANIA"
+      ],
+      "top_trades": [
+        {
+          "coin": "BTC",
+          "is_alt": false,
+          "dir": "short",
+          "realized": 1251377,
+          "open_at_end": false,
+          "perfect": 0.855,
+          "fwd_favorable": 0.1931,
+          "event_date": "2026-01-21 12:10"
+        },
+        {
+          "coin": "ETH",
+          "is_alt": false,
+          "dir": "short",
+          "realized": 327608,
+          "open_at_end": false,
+          "perfect": 0.805,
+          "fwd_favorable": 0.0914,
+          "event_date": "2026-01-16 11:13"
+        },
+        {
+          "coin": "BTC",
+          "is_alt": false,
+          "dir": "short",
+          "realized": 239544,
+          "open_at_end": false,
+          "perfect": 0.946,
+          "fwd_favorable": 0.0791,
+          "event_date": "2026-01-14 19:32"
+        },
+        {
+          "coin": "ZEC",
+          "is_alt": true,
+          "dir": "short",
+          "realized": 109035,
+          "open_at_end": false,
+          "perfect": 0.091,
+          "fwd_favorable": 0.0062,
+          "event_date": "2026-02-05 02:50"
+        },
+        {
+          "coin": "MELANIA",
+          "is_alt": true,
+          "dir": "short",
+          "realized": 39005,
+          "open_at_end": false,
+          "perfect": 1.0,
+          "fwd_favorable": 0.0445,
+          "event_date": "2026-02-05 02:58"
+        }
+      ],
+      "position": "除外/低優先",
+      "labels": []
+    },
+    {
+      "address": "0x143c28ae5b8642f58c98b8a6f82a0f314d23f6ab",
+      "n_trades": 20,
+      "n_wins": 11,
+      "total_realized": 923593,
+      "total_win": 1050875,
+      "alt_win_share": 1.0,
+      "top1_share": 0.683,
+      "top3_share": 0.852,
+      "net_efficiency": 0.879,
+      "mean_top_perfect": 0.832,
+      "top_coins_win": [
+        "xyz:MU",
+        "HYPE",
+        "xyz:AMD",
+        "xyz:GOLD"
+      ],
+      "top_trades": [
+        {
+          "coin": "xyz:MU",
+          "is_alt": true,
+          "dir": "long",
+          "realized": 717976,
+          "open_at_end": false
+        },
+        {
+          "coin": "HYPE",
+          "is_alt": true,
+          "dir": "long",
+          "realized": 129721,
+          "open_at_end": false,
+          "perfect": 0.948,
+          "fwd_favorable": 0.5182,
+          "event_date": "2026-05-19 07:15"
+        },
+        {
+          "coin": "xyz:MU",
+          "is_alt": true,
+          "dir": "long",
+          "realized": 47970,
+          "open_at_end": false
+        },
+        {
+          "coin": "xyz:AMD",
+          "is_alt": true,
+          "dir": "long",
+          "realized": 40185,
+          "open_at_end": false,
+          "perfect": 0.775,
+          "fwd_favorable": 0.171,
+          "event_date": "2026-05-01 15:19"
+        },
+        {
+          "coin": "xyz:GOLD",
+          "is_alt": true,
+          "dir": "long",
+          "realized": 40153,
+          "open_at_end": false,
+          "perfect": 0.772,
+          "fwd_favorable": 0.0623,
+          "event_date": "2026-01-28 06:53"
+        }
+      ],
+      "position": "プロトレーダー(本物)",
+      "labels": []
+    },
+    {
+      "address": "0x06466f9ac08e872064950cec3812b57d6feafa7f",
+      "n_trades": 8,
+      "n_wins": 4,
+      "total_realized": 758334,
+      "total_win": 958560,
+      "alt_win_share": 0.011,
+      "top1_share": 0.989,
+      "top3_share": 1.0,
+      "net_efficiency": 0.791,
+      "mean_top_perfect": 1.0,
+      "top_coins_win": [
+        "BTC",
+        "CAKE",
+        "WIF"
+      ],
+      "top_trades": [
+        {
+          "coin": "BTC",
+          "is_alt": false,
+          "dir": "short",
+          "realized": 947624,
+          "open_at_end": false,
+          "perfect": 1.0,
+          "fwd_favorable": 0.4136,
+          "event_date": "2025-07-18 08:51"
+        },
+        {
+          "coin": "CAKE",
+          "is_alt": true,
+          "dir": "short",
+          "realized": 10911,
+          "open_at_end": false
+        },
+        {
+          "coin": "WIF",
+          "is_alt": true,
+          "dir": "short",
+          "realized": 16,
+          "open_at_end": false
+        },
+        {
+          "coin": "WIF",
+          "is_alt": true,
+          "dir": "short",
+          "realized": 9,
+          "open_at_end": false
+        }
+      ],
+      "position": "プロトレーダー(本物)",
+      "labels": [
+        "Token Millionaire"
+      ]
+    },
+    {
+      "address": "0x2373962eec8ed3764ddc1142244ac1e0fa38d0d8",
+      "n_trades": 7,
+      "n_wins": 3,
+      "total_realized": 893116,
+      "total_win": 991325,
+      "alt_win_share": 0.0,
+      "top1_share": 0.738,
+      "top3_share": 1.0,
+      "net_efficiency": 0.901,
+      "mean_top_perfect": 0.548,
+      "top_coins_win": [
+        "SOL",
+        "BTC",
+        "ETH"
+      ],
+      "top_trades": [
+        {
+          "coin": "SOL",
+          "is_alt": false,
+          "dir": "short",
+          "realized": 731319,
+          "open_at_end": false
+        },
+        {
+          "coin": "BTC",
+          "is_alt": false,
+          "dir": "short",
+          "realized": 165183,
+          "open_at_end": false,
+          "perfect": 0.53,
+          "fwd_favorable": 0.2509,
+          "event_date": "2025-12-21 02:24"
+        },
+        {
+          "coin": "ETH",
+          "is_alt": false,
+          "dir": "short",
+          "realized": 94823,
+          "open_at_end": false,
+          "perfect": 0.567,
+          "fwd_favorable": 0.3514,
+          "event_date": "2025-12-21 02:24"
+        }
+      ],
+      "position": "プロトレーダー(本物)",
+      "labels": []
+    },
+    {
+      "address": "0x18cd4597e06b7fe0a8cd33dda499121b3a145a8b",
+      "n_trades": 26,
+      "n_wins": 18,
+      "total_realized": 874903,
+      "total_win": 1108799,
+      "alt_win_share": 0.55,
+      "top1_share": 0.42,
+      "top3_share": 0.686,
+      "net_efficiency": 0.789,
+      "mean_top_perfect": 0.586,
+      "top_coins_win": [
+        "HYPE",
+        "ETH"
+      ],
+      "top_trades": [
+        {
+          "coin": "HYPE",
+          "is_alt": true,
+          "dir": "long",
+          "realized": 466031,
+          "open_at_end": false,
+          "perfect": 0.599,
+          "fwd_favorable": 0.311,
+          "event_date": "2026-02-02 09:40"
+        },
+        {
+          "coin": "ETH",
+          "is_alt": false,
+          "dir": "long",
+          "realized": 191006,
+          "open_at_end": false,
+          "perfect": 0.426,
+          "fwd_favorable": 0.1315,
+          "event_date": "2026-02-02 09:46"
+        },
+        {
+          "coin": "HYPE",
+          "is_alt": true,
+          "dir": "long",
+          "realized": 103359,
+          "open_at_end": false,
+          "perfect": 0.822,
+          "fwd_favorable": 0.2135,
+          "event_date": "2026-05-12 12:50"
+        },
+        {
+          "coin": "ETH",
+          "is_alt": false,
+          "dir": "long",
+          "realized": 63334,
+          "open_at_end": false,
+          "perfect": 0.616,
+          "fwd_favorable": 0.0838,
+          "event_date": "2026-06-06 08:43"
+        },
+        {
+          "coin": "ETH",
+          "is_alt": false,
+          "dir": "long",
+          "realized": 48840,
+          "open_at_end": false,
+          "perfect": 0.468,
+          "fwd_favorable": 0.0361,
+          "event_date": "2026-06-08 12:04"
+        }
+      ],
+      "position": "除外/低優先",
+      "labels": []
+    },
+    {
+      "address": "0xb69eec8fea0081343c3b09e652ba1fa7dcf7033a",
+      "n_trades": 78,
+      "n_wins": 40,
+      "total_realized": 816027,
+      "total_win": 1227930,
+      "alt_win_share": 0.473,
+      "top1_share": 0.294,
+      "top3_share": 0.511,
+      "net_efficiency": 0.665,
+      "mean_top_perfect": 0.801,
+      "top_coins_win": [
+        "BTC",
+        "ETH",
+        "xyz:CRCL",
+        "xyz:SILVER"
+      ],
+      "top_trades": [
+        {
+          "coin": "BTC",
+          "is_alt": false,
+          "dir": "short",
+          "realized": 361063,
+          "open_at_end": false,
+          "perfect": 0.963,
+          "fwd_favorable": 0.179,
+          "event_date": "2026-05-27 02:23"
+        },
+        {
+          "coin": "ETH",
+          "is_alt": false,
+          "dir": "short",
+          "realized": 152901,
+          "open_at_end": false,
+          "perfect": 0.798,
+          "fwd_favorable": 0.0849,
+          "event_date": "2026-05-14 17:22"
+        },
+        {
+          "coin": "xyz:CRCL",
+          "is_alt": true,
+          "dir": "long",
+          "realized": 113009,
+          "open_at_end": false
+        },
+        {
+          "coin": "ETH",
+          "is_alt": false,
+          "dir": "short",
+          "realized": 69053,
+          "open_at_end": false,
+          "perfect": 0.7,
+          "fwd_favorable": 0.0851,
+          "event_date": "2026-05-26 17:29"
+        },
+        {
+          "coin": "xyz:SILVER",
+          "is_alt": true,
+          "dir": "short",
+          "realized": 62856,
+          "open_at_end": false,
+          "perfect": 0.745,
+          "fwd_favorable": 0.2095,
+          "event_date": "2026-03-11 07:59"
+        }
+      ],
+      "position": "プロトレーダー(本物)",
+      "labels": [
+        "High Balance"
+      ]
+    },
+    {
+      "address": "0xd866a2d14a6dc92bdb1fdeac32c0f8ec322b3605",
+      "n_trades": 4,
+      "n_wins": 2,
+      "total_realized": 715203,
+      "total_win": 738377,
+      "alt_win_share": 0.0,
+      "top1_share": 1.0,
+      "top3_share": 1.0,
+      "net_efficiency": 0.969,
+      "mean_top_perfect": 0.698,
+      "top_coins_win": [
+        "BTC",
+        "xyz:XYZ100"
+      ],
+      "top_trades": [
+        {
+          "coin": "BTC",
+          "is_alt": false,
+          "dir": "short",
+          "realized": 738234,
+          "open_at_end": false,
+          "perfect": 0.825,
+          "fwd_favorable": 0.1657,
+          "event_date": "2026-05-27 03:10"
+        },
+        {
+          "coin": "xyz:XYZ100",
+          "is_alt": true,
+          "dir": "long",
+          "realized": 143,
+          "open_at_end": true,
+          "perfect": 0.571,
+          "fwd_favorable": 0.02,
+          "event_date": "2026-05-27 03:00"
+        }
+      ],
+      "position": "プロトレーダー(本物)",
+      "labels": []
+    },
+    {
+      "address": "0x95e2687b07f0dec34462fdab6bbebcc0b3ab49c6",
+      "n_trades": 12,
+      "n_wins": 10,
+      "total_realized": 919385,
+      "total_win": 958445,
+      "alt_win_share": 0.0,
+      "top1_share": 0.532,
+      "top3_share": 0.892,
+      "net_efficiency": 0.959,
+      "mean_top_perfect": 0.96,
+      "top_coins_win": [
+        "SOL",
+        "BTC",
+        "ETH"
+      ],
+      "top_trades": [
+        {
+          "coin": "SOL",
+          "is_alt": false,
+          "dir": "short",
+          "realized": 509672,
+          "open_at_end": false
+        },
+        {
+          "coin": "SOL",
+          "is_alt": false,
+          "dir": "short",
+          "realized": 259447,
+          "open_at_end": false
+        },
+        {
+          "coin": "BTC",
+          "is_alt": false,
+          "dir": "short",
+          "realized": 86137,
+          "open_at_end": false,
+          "perfect": 0.964,
+          "fwd_favorable": 0.2322,
+          "event_date": "2025-10-15 03:46"
+        },
+        {
+          "coin": "ETH",
+          "is_alt": false,
+          "dir": "short",
+          "realized": 75536,
+          "open_at_end": false,
+          "perfect": 0.956,
+          "fwd_favorable": 0.364,
+          "event_date": "2025-10-15 03:47"
+        },
+        {
+          "coin": "ETH",
+          "is_alt": false,
+          "dir": "short",
+          "realized": 24373,
+          "open_at_end": false
+        }
+      ],
+      "position": "プロトレーダー(本物)",
+      "labels": []
+    },
+    {
+      "address": "0x4cc390eada38741fe9c77036b7c38537fb5f38ea",
+      "n_trades": 62,
+      "n_wins": 45,
+      "total_realized": 1412544,
+      "total_win": 1469948,
+      "alt_win_share": 0.731,
+      "top1_share": 0.129,
+      "top3_share": 0.324,
+      "net_efficiency": 0.961,
+      "mean_top_perfect": 1.0,
+      "top_coins_win": [
+        "INIT",
+        "ETH",
+        "BTC",
+        "ETHFI",
+        "SOL"
+      ],
+      "top_trades": [
+        {
+          "coin": "INIT",
+          "is_alt": true,
+          "dir": "short",
+          "realized": 189624,
+          "open_at_end": false,
+          "perfect": 1.0,
+          "fwd_favorable": 0.8988,
+          "event_date": "2025-05-13 08:14"
+        },
+        {
+          "coin": "ETH",
+          "is_alt": false,
+          "dir": "short",
+          "realized": 175275,
+          "open_at_end": false
+        },
+        {
+          "coin": "BTC",
+          "is_alt": false,
+          "dir": "short",
+          "realized": 111037,
+          "open_at_end": false,
+          "perfect": 1.0,
+          "fwd_favorable": 0.3905,
+          "event_date": "2024-08-12 01:04"
+        },
+        {
+          "coin": "ETHFI",
+          "is_alt": true,
+          "dir": "short",
+          "realized": 86225,
+          "open_at_end": false,
+          "perfect": 1.0,
+          "fwd_favorable": 0.7887,
+          "event_date": "2025-05-14 16:57"
+        },
+        {
+          "coin": "SOL",
+          "is_alt": false,
+          "dir": "short",
+          "realized": 79976,
+          "open_at_end": false
+        }
+      ],
+      "position": "プロトレーダー(本物)",
+      "labels": [
+        "🤓 Smart HL Perps Trader [0x4cc390]"
+      ]
+    },
+    {
+      "address": "0x66d3b80a7c6dc33801414dd22cde23f25d3de4d6",
+      "n_trades": 24,
+      "n_wins": 22,
+      "total_realized": 502220,
+      "total_win": 510603,
+      "alt_win_share": 1.0,
+      "top1_share": 0.266,
+      "top3_share": 0.505,
+      "net_efficiency": 0.984,
+      "mean_top_perfect": 0.616,
+      "top_coins_win": [
+        "xyz:CL",
+        "xyz:SILVER",
+        "xyz:BRENTOIL",
+        "xyz:SKHX",
+        "xyz:COPPER"
+      ],
+      "top_trades": [
+        {
+          "coin": "xyz:CL",
+          "is_alt": true,
+          "dir": "long",
+          "realized": 135940,
+          "open_at_end": false,
+          "perfect": 0.673,
+          "fwd_favorable": 0.2139,
+          "event_date": "2026-03-09 16:42"
+        },
+        {
+          "coin": "xyz:SILVER",
+          "is_alt": true,
+          "dir": "long",
+          "realized": 69424,
+          "open_at_end": false,
+          "perfect": 0.526,
+          "fwd_favorable": 0.1606,
+          "event_date": "2026-03-20 06:35"
+        },
+        {
+          "coin": "xyz:BRENTOIL",
+          "is_alt": true,
+          "dir": "long",
+          "realized": 52379,
+          "open_at_end": false,
+          "perfect": 0.687,
+          "fwd_favorable": 0.1703,
+          "event_date": "2026-04-07 22:06"
+        },
+        {
+          "coin": "xyz:SKHX",
+          "is_alt": true,
+          "dir": "long",
+          "realized": 44290,
+          "open_at_end": false,
+          "perfect": 0.507,
+          "fwd_favorable": 0.1396,
+          "event_date": "2026-05-13 08:28"
+        },
+        {
+          "coin": "xyz:COPPER",
+          "is_alt": true,
+          "dir": "long",
+          "realized": 44229,
+          "open_at_end": false,
+          "perfect": 0.689,
+          "fwd_favorable": 0.1942,
+          "event_date": "2026-03-20 08:18"
+        }
+      ],
+      "position": "プロトレーダー(本物)",
+      "labels": []
+    },
+    {
+      "address": "0x79399dac99daa4a77d2bcd8ef6f5abf5966468e7",
+      "n_trades": 12,
+      "n_wins": 7,
+      "total_realized": 844004,
+      "total_win": 927822,
+      "alt_win_share": 0.977,
+      "top1_share": 0.267,
+      "top3_share": 0.782,
+      "net_efficiency": 0.91,
+      "mean_top_perfect": 0.695,
+      "top_coins_win": [
+        "ZEC",
+        "@107"
+      ],
+      "top_trades": [
+        {
+          "coin": "ZEC",
+          "is_alt": true,
+          "dir": "long",
+          "realized": 247702,
+          "open_at_end": false,
+          "perfect": 0.621,
+          "fwd_favorable": 0.3532,
+          "event_date": "2026-06-05 08:02"
+        },
+        {
+          "coin": "ZEC",
+          "is_alt": true,
+          "dir": "long",
+          "realized": 244230,
+          "open_at_end": false,
+          "perfect": 0.765,
+          "fwd_favorable": 0.3142,
+          "event_date": "2025-12-02 03:21"
+        },
+        {
+          "coin": "ZEC",
+          "is_alt": true,
+          "dir": "long",
+          "realized": 234083,
+          "open_at_end": false,
+          "perfect": 0.606,
+          "fwd_favorable": 0.208,
+          "event_date": "2026-06-06 07:09"
+        },
+        {
+          "coin": "@107",
+          "is_alt": true,
+          "dir": "long",
+          "realized": 127396,
+          "open_at_end": true,
+          "perfect": 0.787,
+          "fwd_favorable": 1.3455,
+          "event_date": "2024-12-17 15:03"
+        },
+        {
+          "coin": "@107",
+          "is_alt": true,
+          "dir": "long",
+          "realized": 46634,
+          "open_at_end": false
+        }
+      ],
+      "position": "プロトレーダー(本物)",
+      "labels": [
+        "🤓 Smart HL Perps Trader [0x79399d]"
+      ]
+    },
+    {
+      "address": "0x747932275df815ae819944e57ebb5b3e115ad68b",
+      "n_trades": 48,
+      "n_wins": 30,
+      "total_realized": 550353,
+      "total_win": 581865,
+      "alt_win_share": 0.169,
+      "top1_share": 0.61,
+      "top3_share": 0.878,
+      "net_efficiency": 0.946,
+      "mean_top_perfect": 0.845,
+      "top_coins_win": [
+        "ETH",
+        "BTC",
+        "TAO",
+        "EIGEN",
+        "VIRTUAL"
+      ],
+      "top_trades": [
+        {
+          "coin": "ETH",
+          "is_alt": false,
+          "dir": "short",
+          "realized": 354687,
+          "open_at_end": false,
+          "perfect": 0.678,
+          "fwd_favorable": 0.3993,
+          "event_date": "2025-11-08 06:19"
+        },
+        {
+          "coin": "BTC",
+          "is_alt": false,
+          "dir": "short",
+          "realized": 112657,
+          "open_at_end": false,
+          "perfect": 0.857,
+          "fwd_favorable": 0.3514,
+          "event_date": "2025-10-22 04:30"
+        },
+        {
+          "coin": "TAO",
+          "is_alt": true,
+          "dir": "short",
+          "realized": 43338,
+          "open_at_end": false
+        },
+        {
+          "coin": "EIGEN",
+          "is_alt": true,
+          "dir": "short",
+          "realized": 13572,
+          "open_at_end": false
+        },
+        {
+          "coin": "VIRTUAL",
+          "is_alt": true,
+          "dir": "short",
+          "realized": 11888,
+          "open_at_end": false,
+          "perfect": 1.0,
+          "fwd_favorable": 0.4442,
+          "event_date": "2025-11-03 07:12"
+        }
+      ],
+      "position": "プロトレーダー(本物)",
+      "labels": [
+        "Former Smart Trader [0x747932]"
+      ]
+    },
+    {
+      "address": "0x807ddb66768050ee457165ad6d21cc1275a896ac",
+      "n_trades": 25,
+      "n_wins": 12,
+      "total_realized": 641211,
+      "total_win": 648600,
+      "alt_win_share": 0.26,
+      "top1_share": 0.518,
+      "top3_share": 0.861,
+      "net_efficiency": 0.989,
+      "mean_top_perfect": 1.0,
+      "top_coins_win": [
+        "BTC",
+        "SOL",
+        "POPCAT",
+        "HYPE",
+        "NEAR"
+      ],
+      "top_trades": [
+        {
+          "coin": "BTC",
+          "is_alt": false,
+          "dir": "short",
+          "realized": 335775,
+          "open_at_end": false,
+          "perfect": 1.0,
+          "fwd_favorable": 0.1805,
+          "event_date": "2025-10-30 16:07"
+        },
+        {
+          "coin": "SOL",
+          "is_alt": false,
+          "dir": "short",
+          "realized": 139318,
+          "open_at_end": false
+        },
+        {
+          "coin": "POPCAT",
+          "is_alt": true,
+          "dir": "short",
+          "realized": 83315,
+          "open_at_end": false
+        },
+        {
+          "coin": "HYPE",
+          "is_alt": true,
+          "dir": "short",
+          "realized": 60579,
+          "open_at_end": false,
+          "perfect": 1.0,
+          "fwd_favorable": 0.489,
+          "event_date": "2025-10-28 19:57"
+        },
+        {
+          "coin": "NEAR",
+          "is_alt": true,
+          "dir": "short",
+          "realized": 17524,
+          "open_at_end": false
+        }
+      ],
+      "position": "プロトレーダー(本物)",
+      "labels": [
+        "🤓 Smart HL Perps Trader [0x807ddb]"
+      ]
+    },
+    {
+      "address": "0x8eadef1db48d9a682da64d74a69c5ac78d0ee175",
+      "n_trades": 21,
+      "n_wins": 13,
+      "total_realized": 1928662,
+      "total_win": 2037776,
+      "alt_win_share": 0.971,
+      "top1_share": 0.336,
+      "top3_share": 0.814,
+      "net_efficiency": 0.946,
+      "mean_top_perfect": null,
+      "top_coins_win": [
+        "XPL",
+        "FARTCOIN",
+        "HYPE",
+        "PUMP",
+        "SOL"
+      ],
+      "top_trades": [
+        {
+          "coin": "XPL",
+          "is_alt": true,
+          "dir": "short",
+          "realized": 685218,
+          "open_at_end": false
+        },
+        {
+          "coin": "FARTCOIN",
+          "is_alt": true,
+          "dir": "long",
+          "realized": 502672,
+          "open_at_end": false
+        },
+        {
+          "coin": "HYPE",
+          "is_alt": true,
+          "dir": "long",
+          "realized": 471665,
+          "open_at_end": false
+        },
+        {
+          "coin": "PUMP",
+          "is_alt": true,
+          "dir": "short",
+          "realized": 211607,
+          "open_at_end": false
+        },
+        {
+          "coin": "SOL",
+          "is_alt": false,
+          "dir": "long",
+          "realized": 58079,
+          "open_at_end": false
+        }
+      ],
+      "position": "プロトレーダー(本物)",
+      "labels": [
+        "Former Smart Trader [0x8eadef]"
+      ]
+    },
+    {
+      "address": "0x24a44aef48aeb27c7708dabfccda14b41fbf0ae1",
+      "n_trades": 55,
+      "n_wins": 39,
+      "total_realized": 563960,
+      "total_win": 797200,
+      "alt_win_share": 0.976,
+      "top1_share": 0.747,
+      "top3_share": 0.835,
+      "net_efficiency": 0.707,
+      "mean_top_perfect": 0.584,
+      "top_coins_win": [
+        "HYPE",
+        "ETHFI",
+        "SYRUP",
+        "TRUMP"
+      ],
+      "top_trades": [
+        {
+          "coin": "HYPE",
+          "is_alt": true,
+          "dir": "long",
+          "realized": 595227,
+          "open_at_end": true,
+          "perfect": 0.584,
+          "fwd_favorable": 0.7472,
+          "event_date": "2025-07-17 01:16"
+        },
+        {
+          "coin": "HYPE",
+          "is_alt": true,
+          "dir": "long",
+          "realized": 37924,
+          "open_at_end": false
+        },
+        {
+          "coin": "ETHFI",
+          "is_alt": true,
+          "dir": "short",
+          "realized": 32612,
+          "open_at_end": false
+        },
+        {
+          "coin": "SYRUP",
+          "is_alt": true,
+          "dir": "short",
+          "realized": 30505,
+          "open_at_end": false
+        },
+        {
+          "coin": "TRUMP",
+          "is_alt": true,
+          "dir": "short",
+          "realized": 13107,
+          "open_at_end": false
+        }
+      ],
+      "position": "プロトレーダー(本物)",
+      "labels": [
+        "🤓 Smart HL Perps Trader [0x24a44a]"
+      ]
+    },
+    {
+      "address": "0x01b7e73cdad95d407e8696e04194a75f19744801",
+      "n_trades": 35,
+      "n_wins": 17,
+      "total_realized": 646718,
+      "total_win": 728863,
+      "alt_win_share": 0.894,
+      "top1_share": 0.356,
+      "top3_share": 0.685,
+      "net_efficiency": 0.887,
+      "mean_top_perfect": 0.843,
+      "top_coins_win": [
+        "HYPE",
+        "@1",
+        "UNI",
+        "AAVE",
+        "ETH"
+      ],
+      "top_trades": [
+        {
+          "coin": "HYPE",
+          "is_alt": true,
+          "dir": "long",
+          "realized": 259379,
+          "open_at_end": true,
+          "perfect": 0.843,
+          "fwd_favorable": 1.6004,
+          "event_date": "2025-12-15 03:28"
+        },
+        {
+          "coin": "@1",
+          "is_alt": true,
+          "dir": "long",
+          "realized": 143774,
+          "open_at_end": true
+        },
+        {
+          "coin": "UNI",
+          "is_alt": true,
+          "dir": "long",
+          "realized": 95941,
+          "open_at_end": false
+        },
+        {
+          "coin": "AAVE",
+          "is_alt": true,
+          "dir": "short",
+          "realized": 45953,
+          "open_at_end": false
+        },
+        {
+          "coin": "ETH",
+          "is_alt": false,
+          "dir": "short",
+          "realized": 44282,
+          "open_at_end": false
+        }
+      ],
+      "position": "プロトレーダー(本物)",
+      "labels": [
+        "High Balance"
+      ]
+    },
+    {
+      "address": "0x203f4c410f3c35cead9f35b6de2f66e773d7f26e",
+      "n_trades": 23,
+      "n_wins": 18,
+      "total_realized": 4475068,
+      "total_win": 4839079,
+      "alt_win_share": 0.953,
+      "top1_share": 0.217,
+      "top3_share": 0.583,
+      "net_efficiency": 0.925,
+      "mean_top_perfect": null,
+      "top_coins_win": [
+        "SUI",
+        "FARTCOIN",
+        "kBONK",
+        "kPEPE",
+        "JUP"
+      ],
+      "top_trades": [
+        {
+          "coin": "SUI",
+          "is_alt": true,
+          "dir": "long",
+          "realized": 1051844,
+          "open_at_end": false
+        },
+        {
+          "coin": "FARTCOIN",
+          "is_alt": true,
+          "dir": "short",
+          "realized": 949871,
+          "open_at_end": false
+        },
+        {
+          "coin": "kBONK",
+          "is_alt": true,
+          "dir": "long",
+          "realized": 818970,
+          "open_at_end": false
+        },
+        {
+          "coin": "kPEPE",
+          "is_alt": true,
+          "dir": "long",
+          "realized": 387200,
+          "open_at_end": false
+        },
+        {
+          "coin": "JUP",
+          "is_alt": true,
+          "dir": "short",
+          "realized": 278498,
+          "open_at_end": false
+        }
+      ],
+      "position": "プロトレーダー(本物)",
+      "labels": [
+        "High Balance"
+      ]
+    },
+    {
+      "address": "0x7cc0b0049faddc405da8494ac67737975c757480",
+      "n_trades": 16,
+      "n_wins": 9,
+      "total_realized": 1430222,
+      "total_win": 1486047,
+      "alt_win_share": 1.0,
+      "top1_share": 0.357,
+      "top3_share": 0.781,
+      "net_efficiency": 0.962,
+      "mean_top_perfect": 0.438,
+      "top_coins_win": [
+        "STRK",
+        "ZEC",
+        "HYPE",
+        "CC",
+        "TAO"
+      ],
+      "top_trades": [
+        {
+          "coin": "STRK",
+          "is_alt": true,
+          "dir": "short",
+          "realized": 530174,
+          "open_at_end": false,
+          "perfect": 0.501,
+          "fwd_favorable": 0.099,
+          "event_date": "2025-11-29 22:21"
+        },
+        {
+          "coin": "ZEC",
+          "is_alt": true,
+          "dir": "short",
+          "realized": 423607,
+          "open_at_end": false,
+          "perfect": 1.0,
+          "fwd_favorable": 0.3434,
+          "event_date": "2025-11-17 17:26"
+        },
+        {
+          "coin": "HYPE",
+          "is_alt": true,
+          "dir": "short",
+          "realized": 207068,
+          "open_at_end": false,
+          "perfect": 0.166,
+          "fwd_favorable": 0.0059,
+          "event_date": "2026-01-05 12:54"
+        },
+        {
+          "coin": "CC",
+          "is_alt": true,
+          "dir": "short",
+          "realized": 130453,
+          "open_at_end": false,
+          "perfect": 0.086,
+          "fwd_favorable": 0.0554,
+          "event_date": "2025-11-21 13:10"
+        },
+        {
+          "coin": "TAO",
+          "is_alt": true,
+          "dir": "short",
+          "realized": 85756,
+          "open_at_end": false
+        }
+      ],
+      "position": "プロトレーダー(本物)",
+      "labels": []
+    },
+    {
+      "address": "0x0d8d5b2d87d36b99d28c321ff7a4a6d206a9c2aa",
+      "n_trades": 65,
+      "n_wins": 45,
+      "total_realized": 674231,
+      "total_win": 762166,
+      "alt_win_share": 0.645,
+      "top1_share": 0.144,
+      "top3_share": 0.339,
+      "net_efficiency": 0.885,
+      "mean_top_perfect": 1.0,
+      "top_coins_win": [
+        "FARTCOIN",
+        "ETH",
+        "SOL",
+        "HYPE",
+        "PUMP"
+      ],
+      "top_trades": [
+        {
+          "coin": "FARTCOIN",
+          "is_alt": true,
+          "dir": "long",
+          "realized": 109719,
+          "open_at_end": false
+        },
+        {
+          "coin": "ETH",
+          "is_alt": false,
+          "dir": "short",
+          "realized": 77250,
+          "open_at_end": false,
+          "perfect": 1.0,
+          "fwd_favorable": 0.3567,
+          "event_date": "2025-10-13 10:48"
+        },
+        {
+          "coin": "SOL",
+          "is_alt": false,
+          "dir": "short",
+          "realized": 71626,
+          "open_at_end": false
+        },
+        {
+          "coin": "HYPE",
+          "is_alt": true,
+          "dir": "short",
+          "realized": 53686,
+          "open_at_end": false
+        },
+        {
+          "coin": "PUMP",
+          "is_alt": true,
+          "dir": "short",
+          "realized": 50687,
+          "open_at_end": false
+        }
+      ],
+      "position": "プロトレーダー(本物)",
+      "labels": [
+        "Former Smart Trader [0x0d8d5b]"
+      ]
+    },
+    {
+      "address": "0x1e6db0fdf1a0f6edb78753184eb0fe5485c2eef2",
+      "n_trades": 7,
+      "n_wins": 3,
+      "total_realized": 6015385,
+      "total_win": 6015385,
+      "alt_win_share": 0.945,
+      "top1_share": 0.945,
+      "top3_share": 1.0,
+      "net_efficiency": 1.0,
+      "mean_top_perfect": 1.0,
+      "top_coins_win": [
+        "@107",
+        "BTC"
+      ],
+      "top_trades": [
+        {
+          "coin": "@107",
+          "is_alt": true,
+          "dir": "long",
+          "realized": 5686518,
+          "open_at_end": true,
+          "perfect": 1.0,
+          "fwd_favorable": 3.3926,
+          "event_date": "2024-11-29 08:10"
+        },
+        {
+          "coin": "BTC",
+          "is_alt": false,
+          "dir": "long",
+          "realized": 318001,
+          "open_at_end": false
+        },
+        {
+          "coin": "BTC",
+          "is_alt": false,
+          "dir": "long",
+          "realized": 10867,
+          "open_at_end": false
+        }
+      ],
+      "position": "プロトレーダー(本物)",
+      "labels": [
+        "Token Millionaire"
+      ]
+    },
+    {
+      "address": "0x74da055d4ccf9dca3f15789c603e1a88a1d2d81f",
+      "n_trades": 39,
+      "n_wins": 28,
+      "total_realized": 6614223,
+      "total_win": 6993227,
+      "alt_win_share": 0.275,
+      "top1_share": 0.289,
+      "top3_share": 0.562,
+      "net_efficiency": 0.946,
+      "mean_top_perfect": 0.777,
+      "top_coins_win": [
+        "BTC",
+        "XRP"
+      ],
+      "top_trades": [
+        {
+          "coin": "BTC",
+          "is_alt": false,
+          "dir": "short",
+          "realized": 2019401,
+          "open_at_end": false,
+          "perfect": 0.819,
+          "fwd_favorable": 0.0901,
+          "event_date": "2026-02-04 23:50"
+        },
+        {
+          "coin": "XRP",
+          "is_alt": true,
+          "dir": "short",
+          "realized": 1198686,
+          "open_at_end": false,
+          "perfect": 0.855,
+          "fwd_favorable": 0.1914,
+          "event_date": "2026-02-04 23:52"
+        },
+        {
+          "coin": "BTC",
+          "is_alt": false,
+          "dir": "short",
+          "realized": 713943,
+          "open_at_end": false,
+          "perfect": 0.776,
+          "fwd_favorable": 0.0618,
+          "event_date": "2026-02-06 17:01"
+        },
+        {
+          "coin": "BTC",
+          "is_alt": false,
+          "dir": "short",
+          "realized": 685926,
+          "open_at_end": false,
+          "perfect": 0.675,
+          "fwd_favorable": 0.0558,
+          "event_date": "2026-02-01 15:26"
+        },
+        {
+          "coin": "BTC",
+          "is_alt": false,
+          "dir": "short",
+          "realized": 429204,
+          "open_at_end": false,
+          "perfect": 0.76,
+          "fwd_favorable": 0.0465,
+          "event_date": "2026-02-06 11:00"
+        }
+      ],
+      "position": "除外/低優先",
+      "labels": []
+    },
+    {
+      "address": "0x6f7d75c18e8ca7f486eb4d2690abf7b329087062",
+      "n_trades": 6,
+      "n_wins": 3,
+      "total_realized": 2787526,
+      "total_win": 2787526,
+      "alt_win_share": 0.0,
+      "top1_share": 0.903,
+      "top3_share": 1.0,
+      "net_efficiency": 1.0,
+      "mean_top_perfect": 0.622,
+      "top_coins_win": [
+        "ETH",
+        "BTC"
+      ],
+      "top_trades": [
+        {
+          "coin": "ETH",
+          "is_alt": false,
+          "dir": "short",
+          "realized": 2518215,
+          "open_at_end": true,
+          "perfect": 0.908,
+          "fwd_favorable": 0.4712,
+          "event_date": "2025-10-10 21:29"
+        },
+        {
+          "coin": "ETH",
+          "is_alt": false,
+          "dir": "short",
+          "realized": 263998,
+          "open_at_end": false
+        },
+        {
+          "coin": "BTC",
+          "is_alt": false,
+          "dir": "short",
+          "realized": 5313,
+          "open_at_end": false,
+          "perfect": 0.335,
+          "fwd_favorable": 0.0676,
+          "event_date": "2026-02-18 09:56"
+        }
+      ],
+      "position": "除外/低優先",
+      "labels": [
+        "High Activity"
+      ]
+    },
+    {
+      "address": "0x4eebd8d39e82efb958e0fa9f694435c910c8518f",
+      "n_trades": 1,
+      "n_wins": 1,
+      "total_realized": 5802013,
+      "total_win": 5802013,
+      "alt_win_share": 0.0,
+      "top1_share": 1.0,
+      "top3_share": 1.0,
+      "net_efficiency": 1.0,
+      "mean_top_perfect": 1.0,
+      "top_coins_win": [
+        "BTC"
+      ],
+      "top_trades": [
+        {
+          "coin": "BTC",
+          "is_alt": false,
+          "dir": "short",
+          "realized": 5802013,
+          "open_at_end": false,
+          "perfect": 1.0,
+          "fwd_favorable": 0.4303,
+          "event_date": "2025-10-26 13:01"
+        }
+      ],
+      "position": "プロトレーダー(本物)",
+      "labels": [
+        "[0x4eebd8]"
+      ]
+    },
+    {
+      "address": "0xd7a678fcf72c1b602850ef2f3e2d668ec41fa0ed",
+      "n_trades": 9,
+      "n_wins": 9,
+      "total_realized": 4190469,
+      "total_win": 4190469,
+      "alt_win_share": 0.017,
+      "top1_share": 0.612,
+      "top3_share": 0.877,
+      "net_efficiency": 1.0,
+      "mean_top_perfect": 1.0,
+      "top_coins_win": [
+        "SOL",
+        "BTC",
+        "ETH",
+        "@107"
+      ],
+      "top_trades": [
+        {
+          "coin": "SOL",
+          "is_alt": false,
+          "dir": "short",
+          "realized": 2562948,
+          "open_at_end": false
+        },
+        {
+          "coin": "SOL",
+          "is_alt": false,
+          "dir": "short",
+          "realized": 644091,
+          "open_at_end": false
+        },
+        {
+          "coin": "BTC",
+          "is_alt": false,
+          "dir": "short",
+          "realized": 466496,
+          "open_at_end": false,
+          "perfect": 1.0,
+          "fwd_favorable": 0.2777,
+          "event_date": "2025-10-10 13:44"
+        },
+        {
+          "coin": "ETH",
+          "is_alt": false,
+          "dir": "short",
+          "realized": 421164,
+          "open_at_end": false,
+          "perfect": 1.0,
+          "fwd_favorable": 0.4264,
+          "event_date": "2025-10-06 15:30"
+        },
+        {
+          "coin": "@107",
+          "is_alt": true,
+          "dir": "long",
+          "realized": 46894,
+          "open_at_end": true
+        }
+      ],
+      "position": "プロトレーダー(本物)",
+      "labels": [
+        "\"yantngz\" on OpenSea"
+      ]
+    },
+    {
+      "address": "0x6979dde2781dc4ec843641b10b2a2f2e0f4bda62",
+      "n_trades": 2,
+      "n_wins": 2,
+      "total_realized": 1902418,
+      "total_win": 1902418,
+      "alt_win_share": 0.0,
+      "top1_share": 0.964,
+      "top3_share": 1.0,
+      "net_efficiency": 1.0,
+      "mean_top_perfect": 0.628,
+      "top_coins_win": [
+        "BTC"
+      ],
+      "top_trades": [
+        {
+          "coin": "BTC",
+          "is_alt": false,
+          "dir": "short",
+          "realized": 1834028,
+          "open_at_end": false,
+          "perfect": 0.628,
+          "fwd_favorable": 0.2843,
+          "event_date": "2025-10-15 09:34"
+        },
+        {
+          "coin": "BTC",
+          "is_alt": false,
+          "dir": "short",
+          "realized": 68390,
+          "open_at_end": false
+        }
+      ],
+      "position": "プロトレーダー(本物)",
+      "labels": [
+        "HL Perps Whale [0x6979dd]"
+      ]
+    },
+    {
+      "address": "0xcefd7652228a8619d0af5b95389cd49387cd30e0",
+      "n_trades": 44,
+      "n_wins": 25,
+      "total_realized": 1593085,
+      "total_win": 1799387,
+      "alt_win_share": 0.94,
+      "top1_share": 0.746,
+      "top3_share": 0.881,
+      "net_efficiency": 0.885,
+      "mean_top_perfect": 0.776,
+      "top_coins_win": [
+        "@107",
+        "HYPE",
+        "BTC",
+        "ETH"
+      ],
+      "top_trades": [
+        {
+          "coin": "@107",
+          "is_alt": true,
+          "dir": "long",
+          "realized": 1342323,
+          "open_at_end": true,
+          "perfect": 1.0,
+          "fwd_favorable": 1.099,
+          "event_date": "2025-02-18 05:53"
+        },
+        {
+          "coin": "HYPE",
+          "is_alt": true,
+          "dir": "long",
+          "realized": 168341,
+          "open_at_end": false
+        },
+        {
+          "coin": "HYPE",
+          "is_alt": true,
+          "dir": "long",
+          "realized": 75458,
+          "open_at_end": false,
+          "perfect": 0.603,
+          "fwd_favorable": 0.0978,
+          "event_date": "2026-01-27 03:37"
+        },
+        {
+          "coin": "BTC",
+          "is_alt": false,
+          "dir": "long",
+          "realized": 56251,
+          "open_at_end": false,
+          "perfect": 0.894,
+          "fwd_favorable": 0.0973,
+          "event_date": "2026-02-06 00:18"
+        },
+        {
+          "coin": "ETH",
+          "is_alt": false,
+          "dir": "short",
+          "realized": 30706,
+          "open_at_end": false,
+          "perfect": 0.606,
+          "fwd_favorable": 0.0703,
+          "event_date": "2026-02-26 02:11"
+        }
+      ],
+      "position": "プロトレーダー(本物)",
+      "labels": [
+        "HL Perps Day Trader [0xcefd76]"
+      ]
+    },
+    {
+      "address": "0x3b11267dfc4b9ebe8427e8f557056b4b6ce98112",
+      "n_trades": 21,
+      "n_wins": 17,
+      "total_realized": 1643306,
+      "total_win": 1903340,
+      "alt_win_share": 0.788,
+      "top1_share": 0.485,
+      "top3_share": 0.759,
+      "net_efficiency": 0.863,
+      "mean_top_perfect": 0.754,
+      "top_coins_win": [
+        "xyz:CL",
+        "BTC"
+      ],
+      "top_trades": [
+        {
+          "coin": "xyz:CL",
+          "is_alt": true,
+          "dir": "long",
+          "realized": 923603,
+          "open_at_end": false,
+          "perfect": 0.894,
+          "fwd_favorable": 0.3507,
+          "event_date": "2026-02-23 21:18"
+        },
+        {
+          "coin": "BTC",
+          "is_alt": false,
+          "dir": "short",
+          "realized": 316116,
+          "open_at_end": false,
+          "perfect": 0.432,
+          "fwd_favorable": 0.065,
+          "event_date": "2026-04-30 12:19"
+        },
+        {
+          "coin": "xyz:CL",
+          "is_alt": true,
+          "dir": "long",
+          "realized": 205750,
+          "open_at_end": false,
+          "perfect": 0.909,
+          "fwd_favorable": 0.154,
+          "event_date": "2026-03-10 17:21"
+        },
+        {
+          "coin": "xyz:CL",
+          "is_alt": true,
+          "dir": "long",
+          "realized": 144411,
+          "open_at_end": false,
+          "perfect": 0.6,
+          "fwd_favorable": 0.0596,
+          "event_date": "2026-04-14 16:14"
+        },
+        {
+          "coin": "xyz:CL",
+          "is_alt": true,
+          "dir": "short",
+          "realized": 100400,
+          "open_at_end": false,
+          "perfect": 0.934,
+          "fwd_favorable": 0.0627,
+          "event_date": "2026-04-02 13:00"
+        }
+      ],
+      "position": "プロトレーダー(本物)",
+      "labels": [
+        "High Balance"
+      ]
+    },
+    {
+      "address": "0x5638484ba2d2f1d1d35020572b0aa439a9869192",
+      "n_trades": 9,
+      "n_wins": 5,
+      "total_realized": 1192383,
+      "total_win": 1192383,
+      "alt_win_share": 0.114,
+      "top1_share": 0.44,
+      "top3_share": 0.886,
+      "net_efficiency": 1.0,
+      "mean_top_perfect": 0.877,
+      "top_coins_win": [
+        "BTC",
+        "ETH",
+        "ZEC"
+      ],
+      "top_trades": [
+        {
+          "coin": "BTC",
+          "is_alt": false,
+          "dir": "long",
+          "realized": 524741,
+          "open_at_end": false,
+          "perfect": 0.873,
+          "fwd_favorable": 0.1446,
+          "event_date": "2025-12-01 00:58"
+        },
+        {
+          "coin": "BTC",
+          "is_alt": false,
+          "dir": "long",
+          "realized": 273476,
+          "open_at_end": false
+        },
+        {
+          "coin": "ETH",
+          "is_alt": false,
+          "dir": "long",
+          "realized": 257827,
+          "open_at_end": false,
+          "perfect": 0.881,
+          "fwd_favorable": 0.1649,
+          "event_date": "2025-12-01 01:01"
+        },
+        {
+          "coin": "ZEC",
+          "is_alt": true,
+          "dir": "long",
+          "realized": 69390,
+          "open_at_end": false
+        },
+        {
+          "coin": "ZEC",
+          "is_alt": true,
+          "dir": "short",
+          "realized": 66948,
+          "open_at_end": false
+        }
+      ],
+      "position": "プロトレーダー(本物)",
+      "labels": [
+        "ASTEROID Whale",
+        "High Activity",
+        "High Balance",
+        "stayawayfromridiculouslyprettygirls.eca.eth",
+        "stayawayfromridiculouslyprettygirls.eca.eth*"
+      ]
+    },
+    {
+      "address": "0x4b4bdd734b87bc48683d24f1dc6159e3ab6d6409",
+      "n_trades": 8,
+      "n_wins": 5,
+      "total_realized": 1094901,
+      "total_win": 1223745,
+      "alt_win_share": 0.251,
+      "top1_share": 0.531,
+      "top3_share": 0.964,
+      "net_efficiency": 0.895,
+      "mean_top_perfect": 0.732,
+      "top_coins_win": [
+        "BTC",
+        "@107",
+        "HYPE"
+      ],
+      "top_trades": [
+        {
+          "coin": "BTC",
+          "is_alt": false,
+          "dir": "short",
+          "realized": 649528,
+          "open_at_end": false,
+          "perfect": 0.938,
+          "fwd_favorable": 0.0452,
+          "event_date": "2026-05-31 01:45"
+        },
+        {
+          "coin": "BTC",
+          "is_alt": false,
+          "dir": "short",
+          "realized": 264856,
+          "open_at_end": false,
+          "perfect": 0.608,
+          "fwd_favorable": 0.0448,
+          "event_date": "2026-05-22 20:42"
+        },
+        {
+          "coin": "@107",
+          "is_alt": true,
+          "dir": "long",
+          "realized": 264778,
+          "open_at_end": true,
+          "perfect": 0.823,
+          "fwd_favorable": 0.9439,
+          "event_date": "2026-01-28 01:19"
+        },
+        {
+          "coin": "HYPE",
+          "is_alt": true,
+          "dir": "long",
+          "realized": 42003,
+          "open_at_end": false,
+          "perfect": 0.666,
+          "fwd_favorable": 0.0471,
+          "event_date": "2026-05-30 06:08"
+        },
+        {
+          "coin": "BTC",
+          "is_alt": false,
+          "dir": "short",
+          "realized": 2581,
+          "open_at_end": false,
+          "perfect": 0.627,
+          "fwd_favorable": 0.0048,
+          "event_date": "2026-05-30 16:46"
+        }
+      ],
+      "position": "プロトレーダー(本物)",
+      "labels": [
+        "HL Perps Whale [0x4b4bdd]"
+      ]
+    },
+    {
+      "address": "0x1e5b1efd99c89d39b59b28a19e6b42bbeb98433b",
+      "n_trades": 3,
+      "n_wins": 1,
+      "total_realized": 1025999,
+      "total_win": 1026143,
+      "alt_win_share": 0.0,
+      "top1_share": 1.0,
+      "top3_share": 1.0,
+      "net_efficiency": 1.0,
+      "mean_top_perfect": 1.0,
+      "top_coins_win": [
+        "BTC"
+      ],
+      "top_trades": [
+        {
+          "coin": "BTC",
+          "is_alt": false,
+          "dir": "short",
+          "realized": 1026143,
+          "open_at_end": false,
+          "perfect": 1.0,
+          "fwd_favorable": 0.2956,
+          "event_date": "2025-09-30 15:39"
+        }
+      ],
+      "position": "プロトレーダー(本物)",
+      "labels": [
+        "​​Yield Farmer [0x1e5b1e]"
+      ]
+    },
+    {
+      "address": "0x7de07bb8a43c1953a019906cf2c8287dae478be9",
+      "n_trades": 19,
+      "n_wins": 9,
+      "total_realized": 1016230,
+      "total_win": 1055331,
+      "alt_win_share": 0.0,
+      "top1_share": 1.0,
+      "top3_share": 1.0,
+      "net_efficiency": 0.963,
+      "mean_top_perfect": null,
+      "top_coins_win": [
+        "ETH",
+        "@35",
+        "@88",
+        "@74",
+        "@47"
+      ],
+      "top_trades": [
+        {
+          "coin": "ETH",
+          "is_alt": false,
+          "dir": "short",
+          "realized": 1055310,
+          "open_at_end": false
+        },
+        {
+          "coin": "@35",
+          "is_alt": true,
+          "dir": "long",
+          "realized": 6,
+          "open_at_end": true
+        },
+        {
+          "coin": "@88",
+          "is_alt": true,
+          "dir": "long",
+          "realized": 4,
+          "open_at_end": true
+        },
+        {
+          "coin": "@74",
+          "is_alt": true,
+          "dir": "long",
+          "realized": 4,
+          "open_at_end": true
+        },
+        {
+          "coin": "@47",
+          "is_alt": true,
+          "dir": "long",
+          "realized": 3,
+          "open_at_end": true
+        }
+      ],
+      "position": "プロトレーダー(本物)",
+      "labels": [
+        "Token Millionaire"
+      ]
+    },
+    {
+      "address": "0xc604faf510aa5b617c9fb1556d02d6d22c9644be",
+      "n_trades": 1,
+      "n_wins": 1,
+      "total_realized": 911248,
+      "total_win": 911248,
+      "alt_win_share": 0.0,
+      "top1_share": 1.0,
+      "top3_share": 1.0,
+      "net_efficiency": 1.0,
+      "mean_top_perfect": 1.0,
+      "top_coins_win": [
+        "ETH"
+      ],
+      "top_trades": [
+        {
+          "coin": "ETH",
+          "is_alt": false,
+          "dir": "short",
+          "realized": 911248,
+          "open_at_end": false,
+          "perfect": 1.0,
+          "fwd_favorable": 0.55,
+          "event_date": "2025-07-31 08:35"
+        }
+      ],
+      "position": "プロトレーダー(本物)",
+      "labels": [
+        "[0xc604fa]"
+      ]
+    },
+    {
+      "address": "0x7c9063122c01837fe83da2521056e10c9b6dd129",
+      "n_trades": 13,
+      "n_wins": 5,
+      "total_realized": 745231,
+      "total_win": 873371,
+      "alt_win_share": 1.0,
+      "top1_share": 0.632,
+      "top3_share": 0.994,
+      "net_efficiency": 0.853,
+      "mean_top_perfect": 0.818,
+      "top_coins_win": [
+        "xyz:GOOGL",
+        "HYPE",
+        "xyz:SP500",
+        "XPL",
+        "BERA"
+      ],
+      "top_trades": [
+        {
+          "coin": "xyz:GOOGL",
+          "is_alt": true,
+          "dir": "long",
+          "realized": 552050,
+          "open_at_end": false,
+          "perfect": 0.962,
+          "fwd_favorable": 0.4796,
+          "event_date": "2026-03-30 13:09"
+        },
+        {
+          "coin": "HYPE",
+          "is_alt": true,
+          "dir": "long",
+          "realized": 292502,
+          "open_at_end": false,
+          "perfect": 0.909,
+          "fwd_favorable": 0.3492,
+          "event_date": "2026-05-20 12:40"
+        },
+        {
+          "coin": "xyz:SP500",
+          "is_alt": true,
+          "dir": "long",
+          "realized": 23430,
+          "open_at_end": false
+        },
+        {
+          "coin": "XPL",
+          "is_alt": true,
+          "dir": "long",
+          "realized": 3278,
+          "open_at_end": false
+        },
+        {
+          "coin": "BERA",
+          "is_alt": true,
+          "dir": "long",
+          "realized": 2112,
+          "open_at_end": false,
+          "perfect": 0.582,
+          "fwd_favorable": 0.1615,
+          "event_date": "2026-01-17 13:18"
+        }
+      ],
+      "position": "プロトレーダー(本物)",
+      "labels": [
+        "Token Millionaire"
+      ]
+    },
+    {
+      "address": "0xae551d73161bac3315c5ade0e2d499a44ebe2236",
+      "n_trades": 30,
+      "n_wins": 11,
+      "total_realized": 56665,
+      "total_win": 69275,
+      "alt_win_share": 0.942,
+      "top1_share": 0.353,
+      "top3_share": 0.755,
+      "net_efficiency": 0.818,
+      "mean_top_perfect": null,
+      "top_coins_win": [
+        "@125",
+        "@13",
+        "@35",
+        "@8",
+        "BTC"
+      ],
+      "top_trades": [
+        {
+          "coin": "@125",
+          "is_alt": true,
+          "dir": "long",
+          "realized": 24443,
+          "open_at_end": true
+        },
+        {
+          "coin": "@13",
+          "is_alt": true,
+          "dir": "long",
+          "realized": 17689,
+          "open_at_end": true
+        },
+        {
+          "coin": "@35",
+          "is_alt": true,
+          "dir": "long",
+          "realized": 10187,
+          "open_at_end": true
+        },
+        {
+          "coin": "@8",
+          "is_alt": true,
+          "dir": "long",
+          "realized": 5697,
+          "open_at_end": true
+        },
+        {
+          "coin": "BTC",
+          "is_alt": false,
+          "dir": "long",
+          "realized": 3991,
+          "open_at_end": false
+        }
+      ],
+      "position": "プロトレーダー(本物)",
+      "labels": [
+        "HL Perps Perma-Bull [0xae551d]"
+      ]
+    },
+    {
+      "address": "0x9b804150c9a4f6db44ba4fd67704eadb5be360c1",
+      "n_trades": 1,
+      "n_wins": 1,
+      "total_realized": 700722,
+      "total_win": 700722,
+      "alt_win_share": 0.0,
+      "top1_share": 1.0,
+      "top3_share": 1.0,
+      "net_efficiency": 1.0,
+      "mean_top_perfect": 0.719,
+      "top_coins_win": [
+        "BTC"
+      ],
+      "top_trades": [
+        {
+          "coin": "BTC",
+          "is_alt": false,
+          "dir": "short",
+          "realized": 700722,
+          "open_at_end": false,
+          "perfect": 0.719,
+          "fwd_favorable": 0.0314,
+          "event_date": "2026-03-07 06:53"
+        }
+      ],
+      "position": "プロトレーダー(本物)",
+      "labels": [
+        "[0x9b8041]"
+      ]
+    },
+    {
+      "address": "0xf3362789cecf25c6a31288d172880d7ad9b81801",
+      "n_trades": 22,
+      "n_wins": 9,
+      "total_realized": 679129,
+      "total_win": 857000,
+      "alt_win_share": 0.024,
+      "top1_share": 0.976,
+      "top3_share": 1.0,
+      "net_efficiency": 0.792,
+      "mean_top_perfect": 0.675,
+      "top_coins_win": [
+        "SOL",
+        "BNB",
+        "XRP",
+        "ETH",
+        "BTC"
+      ],
+      "top_trades": [
+        {
+          "coin": "SOL",
+          "is_alt": false,
+          "dir": "short",
+          "realized": 836129,
+          "open_at_end": false
+        },
+        {
+          "coin": "BNB",
+          "is_alt": true,
+          "dir": "short",
+          "realized": 20763,
+          "open_at_end": false,
+          "perfect": 0.621,
+          "fwd_favorable": 0.1124,
+          "event_date": "2026-02-25 09:54"
+        },
+        {
+          "coin": "XRP",
+          "is_alt": true,
+          "dir": "short",
+          "realized": 103,
+          "open_at_end": false,
+          "perfect": 0.941,
+          "fwd_favorable": 0.1077,
+          "event_date": "2026-01-16 09:05"
+        },
+        {
+          "coin": "ETH",
+          "is_alt": false,
+          "dir": "short",
+          "realized": 2,
+          "open_at_end": false,
+          "perfect": 0.667,
+          "fwd_favorable": 0.0389,
+          "event_date": "2026-01-16 10:27"
+        },
+        {
+          "coin": "BTC",
+          "is_alt": false,
+          "dir": "long",
+          "realized": 1,
+          "open_at_end": false,
+          "perfect": 0.47,
+          "fwd_favorable": 0.0165,
+          "event_date": "2026-01-08 09:54"
+        }
+      ],
+      "position": "プロトレーダー(本物)",
+      "labels": [
+        ": Boros Trader [0xf33627]"
+      ]
+    },
+    {
+      "address": "0x69b05701f8175c276ecd0138387a197948e240bb",
+      "n_trades": 112,
+      "n_wins": 60,
+      "total_realized": 641300,
+      "total_win": 1050722,
+      "alt_win_share": 0.438,
+      "top1_share": 0.132,
+      "top3_share": 0.3,
+      "net_efficiency": 0.61,
+      "mean_top_perfect": 0.577,
+      "top_coins_win": [
+        "HYPE",
+        "ETH",
+        "BTC"
+      ],
+      "top_trades": [
+        {
+          "coin": "HYPE",
+          "is_alt": true,
+          "dir": "long",
+          "realized": 138370,
+          "open_at_end": false,
+          "perfect": 0.691,
+          "fwd_favorable": 0.4773,
+          "event_date": "2026-05-15 06:34"
+        },
+        {
+          "coin": "ETH",
+          "is_alt": false,
+          "dir": "long",
+          "realized": 107033,
+          "open_at_end": false
+        },
+        {
+          "coin": "BTC",
+          "is_alt": false,
+          "dir": "long",
+          "realized": 69804,
+          "open_at_end": false,
+          "perfect": 0.462,
+          "fwd_favorable": 0.0957,
+          "event_date": "2026-02-05 07:36"
+        },
+        {
+          "coin": "HYPE",
+          "is_alt": true,
+          "dir": "long",
+          "realized": 66365,
+          "open_at_end": false,
+          "perfect": 0.579,
+          "fwd_favorable": 0.3425,
+          "event_date": "2026-01-30 23:08"
+        },
+        {
+          "coin": "BTC",
+          "is_alt": false,
+          "dir": "long",
+          "realized": 56870,
+          "open_at_end": false
+        }
+      ],
+      "position": "プロトレーダー(本物)",
+      "labels": []
+    },
+    {
+      "address": "0x5198eff88dea32108605bcdb109a99dc397190d8",
+      "n_trades": 1,
+      "n_wins": 1,
+      "total_realized": 613832,
+      "total_win": 613832,
+      "alt_win_share": 0.0,
+      "top1_share": 1.0,
+      "top3_share": 1.0,
+      "net_efficiency": 1.0,
+      "mean_top_perfect": 0.901,
+      "top_coins_win": [
+        "ETH"
+      ],
+      "top_trades": [
+        {
+          "coin": "ETH",
+          "is_alt": false,
+          "dir": "short",
+          "realized": 613832,
+          "open_at_end": false,
+          "perfect": 0.901,
+          "fwd_favorable": 0.4626,
+          "event_date": "2025-12-12 14:10"
+        }
+      ],
+      "position": "プロトレーダー(本物)",
+      "labels": [
+        "[0x5198ef]"
+      ]
+    },
+    {
+      "address": "0xdb79fe310ea2972137d2a23658db0234902b517d",
+      "n_trades": 119,
+      "n_wins": 69,
+      "total_realized": 518263,
+      "total_win": 912057,
+      "alt_win_share": 0.389,
+      "top1_share": 0.406,
+      "top3_share": 0.553,
+      "net_efficiency": 0.568,
+      "mean_top_perfect": 0.81,
+      "top_coins_win": [
+        "BTC",
+        "ETH",
+        "XRP",
+        "xyz:CL",
+        "AIXBT"
+      ],
+      "top_trades": [
+        {
+          "coin": "BTC",
+          "is_alt": false,
+          "dir": "short",
+          "realized": 370399,
+          "open_at_end": false,
+          "perfect": 1.0,
+          "fwd_favorable": 0.4874,
+          "event_date": "2025-08-11 14:59"
+        },
+        {
+          "coin": "ETH",
+          "is_alt": false,
+          "dir": "short",
+          "realized": 91357,
+          "open_at_end": false,
+          "perfect": 1.0,
+          "fwd_favorable": 0.3066,
+          "event_date": "2025-08-08 19:03"
+        },
+        {
+          "coin": "XRP",
+          "is_alt": true,
+          "dir": "short",
+          "realized": 42656,
+          "open_at_end": false,
+          "perfect": 0.496,
+          "fwd_favorable": 0.2317,
+          "event_date": "2025-12-06 23:19"
+        },
+        {
+          "coin": "xyz:CL",
+          "is_alt": true,
+          "dir": "long",
+          "realized": 32896,
+          "open_at_end": false,
+          "perfect": 0.744,
+          "fwd_favorable": 0.2224,
+          "event_date": "2026-03-10 11:29"
+        },
+        {
+          "coin": "AIXBT",
+          "is_alt": true,
+          "dir": "short",
+          "realized": 32813,
+          "open_at_end": false
+        }
+      ],
+      "position": "プロトレーダー(本物)",
+      "labels": [
+        "HL Perps Altcoin Trader [0xdb79fe]"
+      ]
+    },
+    {
+      "address": "0x8250a7f9fca9c33e68eead8c05c1d58c8fd70d13",
+      "n_trades": 215,
+      "n_wins": 95,
+      "total_realized": 540992,
+      "total_win": 955276,
+      "alt_win_share": 0.918,
+      "top1_share": 0.502,
+      "top3_share": 0.636,
+      "net_efficiency": 0.566,
+      "mean_top_perfect": 0.612,
+      "top_coins_win": [
+        "@107",
+        "xyz:CL",
+        "ETH",
+        "USUAL",
+        "SUI"
+      ],
+      "top_trades": [
+        {
+          "coin": "@107",
+          "is_alt": true,
+          "dir": "long",
+          "realized": 479849,
+          "open_at_end": true
+        },
+        {
+          "coin": "xyz:CL",
+          "is_alt": true,
+          "dir": "long",
+          "realized": 73383,
+          "open_at_end": false,
+          "perfect": 0.612,
+          "fwd_favorable": 0.2079,
+          "event_date": "2026-03-22 01:48"
+        },
+        {
+          "coin": "ETH",
+          "is_alt": false,
+          "dir": "long",
+          "realized": 54667,
+          "open_at_end": false
+        },
+        {
+          "coin": "USUAL",
+          "is_alt": true,
+          "dir": "short",
+          "realized": 33802,
+          "open_at_end": false
+        },
+        {
+          "coin": "SUI",
+          "is_alt": true,
+          "dir": "short",
+          "realized": 32886,
+          "open_at_end": false
+        }
+      ],
+      "position": "プロトレーダー(本物)",
+      "labels": []
+    },
+    {
+      "address": "0x3adaa1d2d0598c9b661a746649d20e1e8aad9b3a",
+      "n_trades": 1,
+      "n_wins": 1,
+      "total_realized": 540758,
+      "total_win": 540758,
+      "alt_win_share": 0.0,
+      "top1_share": 1.0,
+      "top3_share": 1.0,
+      "net_efficiency": 1.0,
+      "mean_top_perfect": 0.734,
+      "top_coins_win": [
+        "BTC"
+      ],
+      "top_trades": [
+        {
+          "coin": "BTC",
+          "is_alt": false,
+          "dir": "long",
+          "realized": 540758,
+          "open_at_end": false,
+          "perfect": 0.734,
+          "fwd_favorable": 0.1493,
+          "event_date": "2025-11-21 17:10"
+        }
+      ],
+      "position": "プロトレーダー(本物)",
+      "labels": [
+        "[0x3adaa1]"
+      ]
+    },
+    {
+      "address": "0x8a48dcaffdf71c547cd0fd0434ae40fa57bcbf0f",
+      "n_trades": 24,
+      "n_wins": 14,
+      "total_realized": 523699,
+      "total_win": 576953,
+      "alt_win_share": 0.302,
+      "top1_share": 0.411,
+      "top3_share": 0.935,
+      "net_efficiency": 0.908,
+      "mean_top_perfect": 0.761,
+      "top_coins_win": [
+        "ETH",
+        "BTC",
+        "HYPE",
+        "EIGEN",
+        "xyz:EWY"
+      ],
+      "top_trades": [
+        {
+          "coin": "ETH",
+          "is_alt": false,
+          "dir": "short",
+          "realized": 236840,
+          "open_at_end": false,
+          "perfect": 0.811,
+          "fwd_favorable": 0.4431,
+          "event_date": "2025-12-10 02:38"
+        },
+        {
+          "coin": "BTC",
+          "is_alt": false,
+          "dir": "short",
+          "realized": 161749,
+          "open_at_end": false,
+          "perfect": 1.0,
+          "fwd_favorable": 0.393,
+          "event_date": "2025-10-27 02:29"
+        },
+        {
+          "coin": "HYPE",
+          "is_alt": true,
+          "dir": "short",
+          "realized": 140614,
+          "open_at_end": false,
+          "perfect": 0.6,
+          "fwd_favorable": 0.3453,
+          "event_date": "2025-10-30 00:53"
+        },
+        {
+          "coin": "EIGEN",
+          "is_alt": true,
+          "dir": "short",
+          "realized": 11493,
+          "open_at_end": false
+        },
+        {
+          "coin": "xyz:EWY",
+          "is_alt": true,
+          "dir": "short",
+          "realized": 9452,
+          "open_at_end": false,
+          "perfect": 0.634,
+          "fwd_favorable": 0.1066,
+          "event_date": "2026-03-04 16:19"
+        }
+      ],
+      "position": "プロトレーダー(本物)",
+      "labels": [
+        ": Boros Trader [0x8a48dc]"
+      ]
+    }
+  ]
+}

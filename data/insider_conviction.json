@@ -1,0 +1,1615 @@
+{
+  "generated_at": "2026-06-17T21:00:05.484997+00:00",
+  "horizons": [
+    4,
+    24
+  ],
+  "wallets": [
+    {
+      "address": "0xefcace57934a753d66c48a31b880ba806d4c0869",
+      "n_entries": 3998,
+      "h4": {
+        "big_fwd": 0.0003,
+        "small_fwd": -0.0023,
+        "conviction_lift": 0.0025,
+        "big_hit": 0.421,
+        "n": 1833
+      },
+      "h24": {
+        "big_fwd": 0.0044,
+        "small_fwd": -0.0029,
+        "conviction_lift": 0.0074,
+        "big_hit": 0.727,
+        "n": 1833
+      },
+      "position": "除外/低優先",
+      "labels": []
+    },
+    {
+      "address": "0x10b6f072fabe21bc72ffd77ff5d4414e6cef2980",
+      "n_entries": 1319,
+      "h4": {
+        "big_fwd": -0.0009,
+        "small_fwd": -0.0042,
+        "conviction_lift": 0.0033,
+        "big_hit": 0.508,
+        "n": 1284
+      },
+      "h24": {
+        "big_fwd": 0.0065,
+        "small_fwd": -0.002,
+        "conviction_lift": 0.0085,
+        "big_hit": 0.578,
+        "n": 1284
+      },
+      "position": "除外/低優先",
+      "labels": []
+    },
+    {
+      "address": "0x230963164d9637a4c536270a06b4e3636d44a2d9",
+      "n_entries": 462,
+      "h4": {
+        "big_fwd": -0.0038,
+        "small_fwd": -0.0017,
+        "conviction_lift": -0.0021,
+        "big_hit": 0.283,
+        "n": 462
+      },
+      "h24": {
+        "big_fwd": 0.0007,
+        "small_fwd": 0.0061,
+        "conviction_lift": -0.0053,
+        "big_hit": 0.63,
+        "n": 462
+      },
+      "position": "プロトレーダー(未精査)",
+      "labels": [
+        "High Balance"
+      ]
+    },
+    {
+      "address": "0x5aadb434293b4e1b8fb2e84007e567506fe65a96",
+      "n_entries": 1455,
+      "h4": {
+        "big_fwd": -0.0005,
+        "small_fwd": 0.0052,
+        "conviction_lift": -0.0057,
+        "big_hit": 0.584,
+        "n": 777
+      },
+      "h24": {
+        "big_fwd": 0.0062,
+        "small_fwd": 0.0169,
+        "conviction_lift": -0.0107,
+        "big_hit": 0.429,
+        "n": 777
+      },
+      "position": "プロトレーダー(本物)",
+      "labels": []
+    },
+    {
+      "address": "0x4d3980ac9d84fc34adcd025ee2337786846343c4",
+      "n_entries": 58,
+      "h4": {
+        "big_fwd": 0.0014,
+        "small_fwd": 0.0086,
+        "conviction_lift": -0.0072,
+        "big_hit": 0.4,
+        "n": 58
+      },
+      "h24": {
+        "big_fwd": 0.0026,
+        "small_fwd": 0.0093,
+        "conviction_lift": -0.0067,
+        "big_hit": 0.4,
+        "n": 58
+      },
+      "position": "プロトレーダー(未精査)",
+      "labels": []
+    },
+    {
+      "address": "0xa72dc2d42398e54634fc28e6769f8ce3ae011807",
+      "n_entries": 342,
+      "h4": {
+        "big_fwd": 0.007,
+        "small_fwd": 0.0071,
+        "conviction_lift": -0.0,
+        "big_hit": 0.647,
+        "n": 342
+      },
+      "h24": {
+        "big_fwd": 0.0155,
+        "small_fwd": 0.0066,
+        "conviction_lift": 0.0088,
+        "big_hit": 0.765,
+        "n": 342
+      },
+      "position": "プロトレーダー(本物)",
+      "labels": []
+    },
+    {
+      "address": "0x8463d6ffcbfb56bf20ab2e1111f9a0e8359533f2",
+      "n_entries": 1897,
+      "h4": {
+        "big_fwd": 0.0001,
+        "small_fwd": -0.0,
+        "conviction_lift": 0.0002,
+        "big_hit": 0.5,
+        "n": 1769
+      },
+      "h24": {
+        "big_fwd": -0.0014,
+        "small_fwd": 0.0014,
+        "conviction_lift": -0.0028,
+        "big_hit": 0.494,
+        "n": 1769
+      },
+      "position": "プロトレーダー(本物)",
+      "labels": [
+        "\"homerfan33\" on OpenSea",
+        "High Activity",
+        "coolwaterxyz-hf.eth*",
+        "homerfan33.eth",
+        "squigglesherpa.eth",
+        "stimmyfund.eth"
+      ]
+    },
+    {
+      "address": "0x72a7837428320ec3c0c072b0c0fc192d6df0c83f",
+      "n_entries": 0,
+      "thin": true,
+      "position": "プロトレーダー(本物)",
+      "labels": [
+        "High Balance"
+      ]
+    },
+    {
+      "address": "0xdd08886cb92c689c7d89c88f048028293296ead1",
+      "n_entries": 0,
+      "thin": true,
+      "position": "プロトレーダー(未精査)",
+      "labels": []
+    },
+    {
+      "address": "0x36eaaca5159a1dcbe60aaad12faaadb0fce6c58b",
+      "n_entries": 0,
+      "thin": true,
+      "position": "プロトレーダー(未精査)",
+      "labels": []
+    },
+    {
+      "address": "0x0c349d9b92fbd172bbb5a17a9db0a673a6a10ad3",
+      "n_entries": 761,
+      "h4": {
+        "big_fwd": 0.0043,
+        "small_fwd": 0.0067,
+        "conviction_lift": -0.0024,
+        "big_hit": 0.474,
+        "n": 761
+      },
+      "h24": {
+        "big_fwd": -0.0035,
+        "small_fwd": 0.0021,
+        "conviction_lift": -0.0056,
+        "big_hit": 0.5,
+        "n": 761
+      },
+      "position": "除外/低優先",
+      "labels": [
+        "High Activity"
+      ]
+    },
+    {
+      "address": "0xeff7fe671d9a7acf86f48994bc5d5161042415b6",
+      "n_entries": 3647,
+      "h4": {
+        "big_fwd": 0.0033,
+        "small_fwd": 0.0053,
+        "conviction_lift": -0.002,
+        "big_hit": 0.607,
+        "n": 3647
+      },
+      "h24": {
+        "big_fwd": 0.006,
+        "small_fwd": 0.0082,
+        "conviction_lift": -0.0021,
+        "big_hit": 0.632,
+        "n": 3647
+      },
+      "position": "プロトレーダー(未精査)",
+      "labels": []
+    },
+    {
+      "address": "0xa351db10472a07059ea099e0581444e568bff894",
+      "n_entries": 1465,
+      "h4": {
+        "big_fwd": 0.0025,
+        "small_fwd": 0.0022,
+        "conviction_lift": 0.0004,
+        "big_hit": 0.637,
+        "n": 1465
+      },
+      "h24": {
+        "big_fwd": 0.0029,
+        "small_fwd": 0.0022,
+        "conviction_lift": 0.0006,
+        "big_hit": 0.678,
+        "n": 1465
+      },
+      "position": "除外/低優先",
+      "labels": []
+    },
+    {
+      "address": "0x99b1098d9d50aa076f78bd26ab22e6abd3710729",
+      "n_entries": 0,
+      "thin": true,
+      "position": "プロトレーダー(本物)",
+      "labels": [
+        "🤓 Smart HL Perps Trader [0x99b109]"
+      ]
+    },
+    {
+      "address": "0x0a7097d919b7421ecc03aed3aac68a13e7ef1f46",
+      "n_entries": 5659,
+      "h4": {
+        "big_fwd": 0.003,
+        "small_fwd": 0.0014,
+        "conviction_lift": 0.0016,
+        "big_hit": 0.583,
+        "n": 5610
+      },
+      "h24": {
+        "big_fwd": 0.0062,
+        "small_fwd": 0.01,
+        "conviction_lift": -0.0038,
+        "big_hit": 0.565,
+        "n": 5610
+      },
+      "position": "除外/低優先",
+      "labels": [
+        "\"kekvault2\" on OpenSea"
+      ]
+    },
+    {
+      "address": "0xb123cd952875d8014efc7a9160a7531a5fe8f5ca",
+      "n_entries": 0,
+      "thin": true,
+      "position": "プロトレーダー(本物)",
+      "labels": [
+        "\"M1NER\" on OpenSea",
+        "miner35.eth",
+        "miner35.eth*"
+      ]
+    },
+    {
+      "address": "0xa4be91acc74feabab71b8878b66b8f5277212520",
+      "n_entries": 0,
+      "thin": true,
+      "position": "💸 出金疑い(要監視)",
+      "labels": [
+        "🤓 Smart HL Perps Trader [0xa4be91]"
+      ]
+    },
+    {
+      "address": "0x9a377ec81c1bd51d31170bf8d7a7b6c5fbaded9b",
+      "n_entries": 6382,
+      "h4": {
+        "big_fwd": 0.0022,
+        "small_fwd": 0.002,
+        "conviction_lift": 0.0002,
+        "big_hit": 0.631,
+        "n": 4694
+      },
+      "h24": {
+        "big_fwd": -0.0006,
+        "small_fwd": 0.0027,
+        "conviction_lift": -0.0033,
+        "big_hit": 0.461,
+        "n": 4694
+      },
+      "position": "プロトレーダー(本物)",
+      "labels": []
+    },
+    {
+      "address": "0x71b117d68974aa4c5615669ae70e8e13ce7479c8",
+      "n_entries": 185,
+      "h4": {
+        "big_fwd": -0.0033,
+        "small_fwd": -0.0054,
+        "conviction_lift": 0.0021,
+        "big_hit": 0.0,
+        "n": 185
+      },
+      "h24": {
+        "big_fwd": 0.0055,
+        "small_fwd": 0.0133,
+        "conviction_lift": -0.0078,
+        "big_hit": 1.0,
+        "n": 185
+      },
+      "position": "💸 出金疑い(要監視)",
+      "labels": [
+        "Former Smart Trader [0x71b117]"
+      ]
+    },
+    {
+      "address": "0x48b1a8f92e403bc9dc7500b9cbcc4cadf35c7ac0",
+      "n_entries": 1504,
+      "h4": {
+        "big_fwd": 0.0007,
+        "small_fwd": 0.0001,
+        "conviction_lift": 0.0006,
+        "big_hit": 0.46,
+        "n": 1504
+      },
+      "h24": {
+        "big_fwd": -0.0008,
+        "small_fwd": -0.001,
+        "conviction_lift": 0.0001,
+        "big_hit": 0.44,
+        "n": 1504
+      },
+      "position": "プロトレーダー(未精査)",
+      "labels": []
+    },
+    {
+      "address": "0x2f394ae1ca45071bc222e7124b5d125637942be2",
+      "n_entries": 940,
+      "position": "💸 出金疑い(要監視)",
+      "labels": []
+    },
+    {
+      "address": "0x6bea81d7a0c5939a5ce5552e125ab57216cc597f",
+      "n_entries": 3999,
+      "position": "💸 出金疑い(要監視)",
+      "labels": [
+        "🤓 Smart HL Perps Trader [0x6bea81]"
+      ]
+    },
+    {
+      "address": "0x935729ae51eef975ccdeb481d513c75986227bfd",
+      "n_entries": 50,
+      "position": "💸 出金疑い(要監視)",
+      "labels": []
+    },
+    {
+      "address": "0x55ee7523bcc783e774c3a8b1004b5abdb735ac5d",
+      "n_entries": 660,
+      "h4": {
+        "big_fwd": 0.0056,
+        "small_fwd": 0.0036,
+        "conviction_lift": 0.0021,
+        "big_hit": 0.765,
+        "n": 341
+      },
+      "h24": {
+        "big_fwd": 0.0092,
+        "small_fwd": 0.0136,
+        "conviction_lift": -0.0044,
+        "big_hit": 0.735,
+        "n": 341
+      },
+      "position": "💸 出金疑い(要監視)",
+      "labels": []
+    },
+    {
+      "address": "0xc2c060e3309461ec7c4291b1aac6c89aa228727e",
+      "n_entries": 439,
+      "h4": {
+        "big_fwd": 0.0,
+        "small_fwd": 0.0049,
+        "conviction_lift": -0.0049,
+        "big_hit": 0.385,
+        "n": 263
+      },
+      "h24": {
+        "big_fwd": 0.0042,
+        "small_fwd": 0.0086,
+        "conviction_lift": -0.0043,
+        "big_hit": 0.615,
+        "n": 263
+      },
+      "position": "💸 出金疑い(要監視)",
+      "labels": [
+        "\"H2_\" on OpenSea"
+      ]
+    },
+    {
+      "address": "0x880ac484a1743862989a441d6d867238c7aa311c",
+      "n_entries": 557,
+      "h4": {
+        "big_fwd": 0.0068,
+        "small_fwd": 0.0107,
+        "conviction_lift": -0.0039,
+        "big_hit": 0.655,
+        "n": 557
+      },
+      "h24": {
+        "big_fwd": 0.0175,
+        "small_fwd": 0.0254,
+        "conviction_lift": -0.0079,
+        "big_hit": 0.745,
+        "n": 557
+      },
+      "position": "💸 出金疑い(要監視)",
+      "labels": [
+        "High Activity"
+      ]
+    },
+    {
+      "address": "0xc7ebe10d3568c52b3f43dc50320167db9d10ce4f",
+      "n_entries": 371,
+      "h4": {
+        "big_fwd": -0.0033,
+        "small_fwd": 0.0016,
+        "conviction_lift": -0.0049,
+        "big_hit": 0.378,
+        "n": 371
+      },
+      "h24": {
+        "big_fwd": -0.0236,
+        "small_fwd": 0.0159,
+        "conviction_lift": -0.0396,
+        "big_hit": 0.432,
+        "n": 371
+      },
+      "position": "💸 出金疑い(要監視)",
+      "labels": []
+    },
+    {
+      "address": "0xbe494a5e3a719a78a45a47ab453b7b0199b9d101",
+      "n_entries": 666,
+      "h4": {
+        "big_fwd": 0.0425,
+        "small_fwd": 0.0332,
+        "conviction_lift": 0.0093,
+        "big_hit": 1.0,
+        "n": 666
+      },
+      "h24": {
+        "big_fwd": 0.0405,
+        "small_fwd": 0.0316,
+        "conviction_lift": 0.0089,
+        "big_hit": 1.0,
+        "n": 666
+      },
+      "position": "プロトレーダー(本物)",
+      "labels": [
+        "🤓 Smart HL Perps Trader [0xbe494a]"
+      ]
+    },
+    {
+      "address": "0x2f04ed87b5ac8b703565469311341b0b44e315d7",
+      "n_entries": 224,
+      "position": "プロトレーダー(本物)",
+      "labels": [
+        "High Activity"
+      ]
+    },
+    {
+      "address": "0x29eb62882a8bd104a64400a2971d0d6881777043",
+      "n_entries": 358,
+      "h4": {
+        "big_fwd": 0.002,
+        "small_fwd": 0.0018,
+        "conviction_lift": 0.0001,
+        "big_hit": 0.286,
+        "n": 358
+      },
+      "h24": {
+        "big_fwd": -0.0003,
+        "small_fwd": 0.0062,
+        "conviction_lift": -0.0065,
+        "big_hit": 0.286,
+        "n": 358
+      },
+      "position": "プロトレーダー(本物)",
+      "labels": [
+        "High Activity"
+      ]
+    },
+    {
+      "address": "0xfeec88b13fc0be31695069f02bac18538a154e9c",
+      "n_entries": 2000,
+      "h4": {
+        "big_fwd": 0.0006,
+        "small_fwd": -0.0018,
+        "conviction_lift": 0.0024,
+        "big_hit": 0.65,
+        "n": 2000
+      },
+      "h24": {
+        "big_fwd": 0.0296,
+        "small_fwd": 0.0306,
+        "conviction_lift": -0.001,
+        "big_hit": 1.0,
+        "n": 2000
+      },
+      "position": "プロトレーダー(本物)",
+      "labels": []
+    },
+    {
+      "address": "0x05c6959d997cde99d2f967367e5e9f1959ba9706",
+      "n_entries": 0,
+      "thin": true,
+      "position": "💸 出金疑い(要監視)",
+      "labels": [
+        "High Balance"
+      ]
+    },
+    {
+      "address": "0x0e3f5bb797e3953fed2a319544d0e821b4a11e1c",
+      "n_entries": 7537,
+      "h4": {
+        "big_fwd": -0.0027,
+        "small_fwd": -0.0031,
+        "conviction_lift": 0.0004,
+        "big_hit": 0.407,
+        "n": 7329
+      },
+      "h24": {
+        "big_fwd": -0.0091,
+        "small_fwd": -0.008,
+        "conviction_lift": -0.0011,
+        "big_hit": 0.436,
+        "n": 7329
+      },
+      "position": "💸 出金疑い(要監視)",
+      "labels": []
+    },
+    {
+      "address": "0xce43a7498e65b6f6c8741fd9a7efc3f78efc78c4",
+      "n_entries": 3292,
+      "position": "💸 出金疑い(要監視)",
+      "labels": [
+        "caledor.eth*",
+        "carolineplz.eth*",
+        "drachenfels.eth*",
+        "saintmarcus.eth*"
+      ]
+    },
+    {
+      "address": "0x8e096995c3e4a3f0bc5b3ea1cba94de2aa4d70c9",
+      "n_entries": 0,
+      "thin": true,
+      "position": "プロトレーダー(本物)",
+      "labels": [
+        "🤓 Smart HL Perps Trader [0x8e0969]"
+      ]
+    },
+    {
+      "address": "0xc7290b4b308431a985fa9e3e8a335c2f7650517c",
+      "n_entries": 1676,
+      "h4": {
+        "big_fwd": -0.0014,
+        "small_fwd": 0.0015,
+        "conviction_lift": -0.0029,
+        "big_hit": 0.717,
+        "n": 1067
+      },
+      "h24": {
+        "big_fwd": 0.0029,
+        "small_fwd": -0.0001,
+        "conviction_lift": 0.003,
+        "big_hit": 0.632,
+        "n": 1067
+      },
+      "position": "プロトレーダー(本物)",
+      "labels": [
+        "🤓 Smart HL Perps Trader [0xc7290b]"
+      ]
+    },
+    {
+      "address": "0x0b00c540bc5f203d97ac87da62164d3d37e19798",
+      "n_entries": 2726,
+      "h4": {
+        "big_fwd": 0.0008,
+        "small_fwd": 0.0011,
+        "conviction_lift": -0.0003,
+        "big_hit": 0.335,
+        "n": 2726
+      },
+      "h24": {
+        "big_fwd": -0.0216,
+        "small_fwd": -0.0289,
+        "conviction_lift": 0.0074,
+        "big_hit": 0.169,
+        "n": 2726
+      },
+      "position": "プロトレーダー(本物)",
+      "labels": [
+        "High Balance"
+      ]
+    },
+    {
+      "address": "0xed41a12ea862f31df054e9bd3af1dd59486c6029",
+      "n_entries": 0,
+      "thin": true,
+      "position": "プロトレーダー(本物)",
+      "labels": [
+        "Token Millionaire"
+      ]
+    },
+    {
+      "address": "0x782e432267376f377585fc78092d998f8442ab83",
+      "n_entries": 0,
+      "thin": true,
+      "position": "プロトレーダー(本物)",
+      "labels": [
+        "Token Millionaire"
+      ]
+    },
+    {
+      "address": "0x56cd86d6ef24a3f51ce6992b7f1db751b0a0276a",
+      "n_entries": 0,
+      "thin": true,
+      "position": "プロトレーダー(本物)",
+      "labels": [
+        "🤓 Funded @beltoncap On Friendtech [0x56cd86]"
+      ]
+    },
+    {
+      "address": "0x906d31b2ee92c4bc720232112274a0e1ffb0ad6e",
+      "n_entries": 292,
+      "h4": {
+        "big_fwd": 0.0003,
+        "small_fwd": -0.0054,
+        "conviction_lift": 0.0058,
+        "big_hit": 0.552,
+        "n": 292
+      },
+      "h24": {
+        "big_fwd": 0.0098,
+        "small_fwd": -0.0072,
+        "conviction_lift": 0.0171,
+        "big_hit": 0.69,
+        "n": 292
+      },
+      "position": "除外/低優先",
+      "labels": [
+        "Token Millionaire"
+      ]
+    },
+    {
+      "address": "0xac03fc4c21902e4e934b4367cb1a6c6e3f0d8037",
+      "n_entries": 2,
+      "thin": true,
+      "position": "プロトレーダー(本物)",
+      "labels": []
+    },
+    {
+      "address": "0xe4d83945c0322f3d340203a7129b7eb5cacae847",
+      "n_entries": 2654,
+      "h4": {
+        "big_fwd": 0.0003,
+        "small_fwd": -0.0033,
+        "conviction_lift": 0.0037,
+        "big_hit": 0.465,
+        "n": 1017
+      },
+      "h24": {
+        "big_fwd": 0.0078,
+        "small_fwd": 0.0063,
+        "conviction_lift": 0.0015,
+        "big_hit": 0.535,
+        "n": 1017
+      },
+      "position": "プロトレーダー(本物)",
+      "labels": [
+        "🤓 Smart HL Perps Trader [0xe4d839]"
+      ]
+    },
+    {
+      "address": "0xb1694de2324433778487999bd86b1acb3335ebc4",
+      "n_entries": 3316,
+      "h4": {
+        "big_fwd": 0.0046,
+        "small_fwd": 0.0088,
+        "conviction_lift": -0.0043,
+        "big_hit": 0.675,
+        "n": 404
+      },
+      "h24": {
+        "big_fwd": -0.0089,
+        "small_fwd": 0.0026,
+        "conviction_lift": -0.0116,
+        "big_hit": 0.55,
+        "n": 404
+      },
+      "position": "プロトレーダー(本物)",
+      "labels": [
+        "Former Smart Trader [0xb1694d]"
+      ]
+    },
+    {
+      "address": "0x406073860818ecfb7dca0706a6bac73faa95bd3e",
+      "n_entries": 448,
+      "h4": {
+        "big_fwd": -0.0175,
+        "small_fwd": -0.0201,
+        "conviction_lift": 0.0026,
+        "big_hit": 0.0,
+        "n": 176
+      },
+      "h24": {
+        "big_fwd": 0.0074,
+        "small_fwd": 0.0086,
+        "conviction_lift": -0.0012,
+        "big_hit": 0.941,
+        "n": 176
+      },
+      "position": "プロトレーダー(本物)",
+      "labels": [
+        "🤓 Smart HL Perps Trader [0x406073]"
+      ]
+    },
+    {
+      "address": "0xba0495c92ab69b1151ecf422851a06b602cea764",
+      "n_entries": 0,
+      "thin": true,
+      "position": "プロトレーダー(本物)",
+      "labels": []
+    },
+    {
+      "address": "0x99b3ba1c1b7ad83d0164d996e3d271ae8c842551",
+      "n_entries": 3981,
+      "h4": {
+        "big_fwd": -0.0004,
+        "small_fwd": 0.0005,
+        "conviction_lift": -0.0009,
+        "big_hit": 0.563,
+        "n": 3981
+      },
+      "h24": {
+        "big_fwd": 0.0077,
+        "small_fwd": 0.008,
+        "conviction_lift": -0.0003,
+        "big_hit": 0.497,
+        "n": 3981
+      },
+      "position": "プロトレーダー(本物)",
+      "labels": []
+    },
+    {
+      "address": "0x98256d1a9e3012398237a1720c27a3d7ed1ad905",
+      "n_entries": 0,
+      "thin": true,
+      "position": "プロトレーダー(本物)",
+      "labels": []
+    },
+    {
+      "address": "0x5846ac5619d2a762751b1663d86a402085505765",
+      "n_entries": 0,
+      "thin": true,
+      "position": "プロトレーダー(本物)",
+      "labels": []
+    },
+    {
+      "address": "0xa3d843b6a057504284006bef6f34a2e9bc80fb6b",
+      "n_entries": 2746,
+      "h4": {
+        "big_fwd": -0.0002,
+        "small_fwd": 0.0001,
+        "conviction_lift": -0.0003,
+        "big_hit": 0.069,
+        "n": 2746
+      },
+      "h24": {
+        "big_fwd": 0.0445,
+        "small_fwd": 0.0435,
+        "conviction_lift": 0.001,
+        "big_hit": 0.971,
+        "n": 2746
+      },
+      "position": "プロトレーダー(本物)",
+      "labels": [
+        "Former Smart Trader [0xa3d843]"
+      ]
+    },
+    {
+      "address": "0xbcc7fd5f27cba04dca862b94509133c453dde764",
+      "n_entries": 2283,
+      "h4": {
+        "big_fwd": 0.001,
+        "small_fwd": -0.0033,
+        "conviction_lift": 0.0043,
+        "big_hit": 0.553,
+        "n": 2283
+      },
+      "h24": {
+        "big_fwd": -0.0277,
+        "small_fwd": -0.0147,
+        "conviction_lift": -0.013,
+        "big_hit": 0.25,
+        "n": 2283
+      },
+      "position": "除外/低優先",
+      "labels": []
+    },
+    {
+      "address": "0x143c28ae5b8642f58c98b8a6f82a0f314d23f6ab",
+      "n_entries": 0,
+      "thin": true,
+      "position": "プロトレーダー(本物)",
+      "labels": []
+    },
+    {
+      "address": "0x06466f9ac08e872064950cec3812b57d6feafa7f",
+      "n_entries": 0,
+      "thin": true,
+      "position": "プロトレーダー(本物)",
+      "labels": [
+        "Token Millionaire"
+      ]
+    },
+    {
+      "address": "0x2373962eec8ed3764ddc1142244ac1e0fa38d0d8",
+      "n_entries": 1489,
+      "h4": {
+        "big_fwd": -0.0003,
+        "small_fwd": 0.0111,
+        "conviction_lift": -0.0113,
+        "big_hit": 0.203,
+        "n": 1489
+      },
+      "h24": {
+        "big_fwd": -0.0017,
+        "small_fwd": 0.0093,
+        "conviction_lift": -0.011,
+        "big_hit": 0.426,
+        "n": 1489
+      },
+      "position": "プロトレーダー(本物)",
+      "labels": []
+    },
+    {
+      "address": "0x18cd4597e06b7fe0a8cd33dda499121b3a145a8b",
+      "n_entries": 272,
+      "h4": {
+        "big_fwd": 0.0097,
+        "small_fwd": 0.0081,
+        "conviction_lift": 0.0016,
+        "big_hit": 0.926,
+        "n": 272
+      },
+      "h24": {
+        "big_fwd": 0.0274,
+        "small_fwd": 0.0439,
+        "conviction_lift": -0.0164,
+        "big_hit": 0.963,
+        "n": 272
+      },
+      "position": "除外/低優先",
+      "labels": []
+    },
+    {
+      "address": "0xb69eec8fea0081343c3b09e652ba1fa7dcf7033a",
+      "n_entries": 0,
+      "thin": true,
+      "position": "プロトレーダー(本物)",
+      "labels": [
+        "High Balance"
+      ]
+    },
+    {
+      "address": "0xd866a2d14a6dc92bdb1fdeac32c0f8ec322b3605",
+      "n_entries": 459,
+      "h4": {
+        "big_fwd": -0.0037,
+        "small_fwd": -0.0006,
+        "conviction_lift": -0.003,
+        "big_hit": 0.133,
+        "n": 459
+      },
+      "h24": {
+        "big_fwd": 0.0302,
+        "small_fwd": 0.0276,
+        "conviction_lift": 0.0025,
+        "big_hit": 0.933,
+        "n": 459
+      },
+      "position": "プロトレーダー(本物)",
+      "labels": []
+    },
+    {
+      "address": "0xb58e1eb8256689e47f589ba6f6a28657d997bf2f",
+      "n_entries": 776,
+      "h4": {
+        "big_fwd": -0.0015,
+        "small_fwd": -0.0011,
+        "conviction_lift": -0.0004,
+        "big_hit": 0.0,
+        "n": 776
+      },
+      "h24": {
+        "big_fwd": 0.0211,
+        "small_fwd": 0.0304,
+        "conviction_lift": -0.0093,
+        "big_hit": 1.0,
+        "n": 776
+      },
+      "position": "プロトレーダー(本物)",
+      "labels": [
+        "Former Smart Trader [0xb58e1e]"
+      ]
+    },
+    {
+      "address": "0x1fe06653816cd53afb36a18f059b0ada2a3c8f20",
+      "n_entries": 333,
+      "h4": {
+        "big_fwd": 0.007,
+        "small_fwd": 0.0205,
+        "conviction_lift": -0.0135,
+        "big_hit": 0.571,
+        "n": 215
+      },
+      "h24": {
+        "big_fwd": 0.0234,
+        "small_fwd": -0.0293,
+        "conviction_lift": 0.0527,
+        "big_hit": 0.524,
+        "n": 215
+      },
+      "position": "プロトレーダー(本物)",
+      "labels": []
+    },
+    {
+      "address": "0x8ccee825f44c99fbdaa79464d5eb8beed9313da2",
+      "n_entries": 45,
+      "h4": {
+        "big_fwd": -0.007,
+        "small_fwd": 0.0064,
+        "conviction_lift": -0.0133,
+        "big_hit": 0.0,
+        "n": 19
+      },
+      "h24": {
+        "big_fwd": 0.0009,
+        "small_fwd": -0.0031,
+        "conviction_lift": 0.004,
+        "big_hit": 1.0,
+        "n": 19
+      },
+      "position": "プロトレーダー(本物)",
+      "labels": []
+    },
+    {
+      "address": "0xa99c9e5484e5b26635c07876d0859a1819ff40d5",
+      "n_entries": 271,
+      "h4": {
+        "big_fwd": 0.0035,
+        "small_fwd": 0.0074,
+        "conviction_lift": -0.0039,
+        "big_hit": 0.5,
+        "n": 200
+      },
+      "h24": {
+        "big_fwd": -0.0085,
+        "small_fwd": 0.0097,
+        "conviction_lift": -0.0183,
+        "big_hit": 0.35,
+        "n": 200
+      },
+      "position": "プロトレーダー(本物)",
+      "labels": []
+    },
+    {
+      "address": "0xaa3f51a8095d030e38317e917839c87315300bee",
+      "n_entries": 320,
+      "h4": {
+        "big_fwd": -0.0007,
+        "small_fwd": -0.0057,
+        "conviction_lift": 0.0049,
+        "big_hit": 0.8,
+        "n": 53
+      },
+      "h24": {
+        "big_fwd": 0.03,
+        "small_fwd": 0.0266,
+        "conviction_lift": 0.0034,
+        "big_hit": 0.8,
+        "n": 53
+      },
+      "position": "プロトレーダー(本物)",
+      "labels": []
+    },
+    {
+      "address": "0x6a02aedceac5a6813d960e4dae1910d9c458e77c",
+      "n_entries": 619,
+      "h4": {
+        "big_fwd": -0.0077,
+        "small_fwd": -0.0025,
+        "conviction_lift": -0.0052,
+        "big_hit": 0.246,
+        "n": 619
+      },
+      "h24": {
+        "big_fwd": -0.0098,
+        "small_fwd": -0.0292,
+        "conviction_lift": 0.0194,
+        "big_hit": 0.426,
+        "n": 619
+      },
+      "position": "プロトレーダー(本物)",
+      "labels": []
+    },
+    {
+      "address": "0x95e2687b07f0dec34462fdab6bbebcc0b3ab49c6",
+      "n_entries": 1241,
+      "h4": {
+        "big_fwd": 0.003,
+        "small_fwd": 0.0031,
+        "conviction_lift": -0.0001,
+        "big_hit": 0.458,
+        "n": 484
+      },
+      "h24": {
+        "big_fwd": -0.0045,
+        "small_fwd": -0.0173,
+        "conviction_lift": 0.0128,
+        "big_hit": 0.458,
+        "n": 484
+      },
+      "position": "プロトレーダー(本物)",
+      "labels": []
+    },
+    {
+      "address": "0x4cc390eada38741fe9c77036b7c38537fb5f38ea",
+      "n_entries": 635,
+      "h4": {
+        "big_fwd": -0.0032,
+        "small_fwd": -0.0032,
+        "conviction_lift": -0.0,
+        "big_hit": 0.0,
+        "n": 225
+      },
+      "h24": {
+        "big_fwd": 0.0335,
+        "small_fwd": 0.0335,
+        "conviction_lift": 0.0,
+        "big_hit": 1.0,
+        "n": 225
+      },
+      "position": "プロトレーダー(本物)",
+      "labels": [
+        "🤓 Smart HL Perps Trader [0x4cc390]"
+      ]
+    },
+    {
+      "address": "0x66d3b80a7c6dc33801414dd22cde23f25d3de4d6",
+      "n_entries": 0,
+      "thin": true,
+      "position": "プロトレーダー(本物)",
+      "labels": []
+    },
+    {
+      "address": "0x79399dac99daa4a77d2bcd8ef6f5abf5966468e7",
+      "n_entries": 29,
+      "position": "プロトレーダー(本物)",
+      "labels": [
+        "🤓 Smart HL Perps Trader [0x79399d]"
+      ]
+    },
+    {
+      "address": "0x747932275df815ae819944e57ebb5b3e115ad68b",
+      "n_entries": 1985,
+      "h4": {
+        "big_fwd": -0.0025,
+        "small_fwd": -0.0024,
+        "conviction_lift": -0.0001,
+        "big_hit": 0.185,
+        "n": 1302
+      },
+      "h24": {
+        "big_fwd": 0.003,
+        "small_fwd": 0.0044,
+        "conviction_lift": -0.0015,
+        "big_hit": 0.162,
+        "n": 1302
+      },
+      "position": "プロトレーダー(本物)",
+      "labels": [
+        "Former Smart Trader [0x747932]"
+      ]
+    },
+    {
+      "address": "0x807ddb66768050ee457165ad6d21cc1275a896ac",
+      "n_entries": 481,
+      "h4": {
+        "big_fwd": -0.0033,
+        "small_fwd": 0.0009,
+        "conviction_lift": -0.0042,
+        "big_hit": 0.273,
+        "n": 112
+      },
+      "h24": {
+        "big_fwd": 0.0033,
+        "small_fwd": -0.007,
+        "conviction_lift": 0.0103,
+        "big_hit": 0.455,
+        "n": 112
+      },
+      "position": "プロトレーダー(本物)",
+      "labels": [
+        "🤓 Smart HL Perps Trader [0x807ddb]"
+      ]
+    },
+    {
+      "address": "0x5049695d6faacffd34f2d24f3f0ff8c64d88f71c",
+      "n_entries": 66,
+      "position": "プロトレーダー(本物)",
+      "labels": [
+        "Former Smart Trader [0x504969]"
+      ]
+    },
+    {
+      "address": "0x8eadef1db48d9a682da64d74a69c5ac78d0ee175",
+      "n_entries": 0,
+      "thin": true,
+      "position": "プロトレーダー(本物)",
+      "labels": [
+        "Former Smart Trader [0x8eadef]"
+      ]
+    },
+    {
+      "address": "0x24a44aef48aeb27c7708dabfccda14b41fbf0ae1",
+      "n_entries": 74,
+      "position": "プロトレーダー(本物)",
+      "labels": [
+        "🤓 Smart HL Perps Trader [0x24a44a]"
+      ]
+    },
+    {
+      "address": "0x3e6805e8694bb2b717a828c1bfa32df5d6580cc9",
+      "n_entries": 0,
+      "thin": true,
+      "position": "プロトレーダー(本物)",
+      "labels": []
+    },
+    {
+      "address": "0x7ee069137842a195d06b533d714ba507290a3956",
+      "n_entries": 0,
+      "thin": true,
+      "position": "プロトレーダー(本物)",
+      "labels": []
+    },
+    {
+      "address": "0x01b7e73cdad95d407e8696e04194a75f19744801",
+      "n_entries": 0,
+      "thin": true,
+      "position": "プロトレーダー(本物)",
+      "labels": [
+        "High Balance"
+      ]
+    },
+    {
+      "address": "0x203f4c410f3c35cead9f35b6de2f66e773d7f26e",
+      "n_entries": 19,
+      "position": "プロトレーダー(本物)",
+      "labels": [
+        "High Balance"
+      ]
+    },
+    {
+      "address": "0x7cc0b0049faddc405da8494ac67737975c757480",
+      "n_entries": 0,
+      "thin": true,
+      "position": "プロトレーダー(本物)",
+      "labels": []
+    },
+    {
+      "address": "0x0d8d5b2d87d36b99d28c321ff7a4a6d206a9c2aa",
+      "n_entries": 458,
+      "position": "プロトレーダー(本物)",
+      "labels": [
+        "Former Smart Trader [0x0d8d5b]"
+      ]
+    },
+    {
+      "address": "0x1e6db0fdf1a0f6edb78753184eb0fe5485c2eef2",
+      "n_entries": 259,
+      "position": "プロトレーダー(本物)",
+      "labels": [
+        "Token Millionaire"
+      ]
+    },
+    {
+      "address": "0x74da055d4ccf9dca3f15789c603e1a88a1d2d81f",
+      "n_entries": 17154,
+      "h4": {
+        "big_fwd": 0.0013,
+        "small_fwd": 0.0001,
+        "conviction_lift": 0.0013,
+        "big_hit": 0.623,
+        "n": 17154
+      },
+      "h24": {
+        "big_fwd": -0.0044,
+        "small_fwd": -0.0006,
+        "conviction_lift": -0.0038,
+        "big_hit": 0.581,
+        "n": 17154
+      },
+      "position": "除外/低優先",
+      "labels": []
+    },
+    {
+      "address": "0x6f7d75c18e8ca7f486eb4d2690abf7b329087062",
+      "n_entries": 0,
+      "thin": true,
+      "position": "除外/低優先",
+      "labels": [
+        "High Activity"
+      ]
+    },
+    {
+      "address": "0x4eebd8d39e82efb958e0fa9f694435c910c8518f",
+      "n_entries": 0,
+      "thin": true,
+      "position": "プロトレーダー(本物)",
+      "labels": [
+        "[0x4eebd8]"
+      ]
+    },
+    {
+      "address": "0x8cfe4bc352deb10ed41c5f0f89bc57674cee1e22",
+      "n_entries": 0,
+      "thin": true,
+      "position": "プロトレーダー(本物)",
+      "labels": [
+        "HL Perps Position Trader [0x8cfe4b]"
+      ]
+    },
+    {
+      "address": "0xd7a678fcf72c1b602850ef2f3e2d668ec41fa0ed",
+      "n_entries": 0,
+      "thin": true,
+      "position": "プロトレーダー(本物)",
+      "labels": [
+        "\"yantngz\" on OpenSea"
+      ]
+    },
+    {
+      "address": "0x258886f9a27d38743ab45b8658871a37e2c3f51a",
+      "n_entries": 0,
+      "thin": true,
+      "position": "プロトレーダー(本物)",
+      "labels": [
+        "[0x258886]"
+      ]
+    },
+    {
+      "address": "0x41206f8efb51e5039e5b46e04e7866a4849f72d2",
+      "n_entries": 0,
+      "thin": true,
+      "position": "プロトレーダー(本物)",
+      "labels": [
+        "High Activity"
+      ]
+    },
+    {
+      "address": "0x6979dde2781dc4ec843641b10b2a2f2e0f4bda62",
+      "n_entries": 5224,
+      "h4": {
+        "big_fwd": 0.0008,
+        "small_fwd": 0.0008,
+        "conviction_lift": 0.0001,
+        "big_hit": 0.539,
+        "n": 4775
+      },
+      "h24": {
+        "big_fwd": -0.0047,
+        "small_fwd": -0.0006,
+        "conviction_lift": -0.0042,
+        "big_hit": 0.457,
+        "n": 4775
+      },
+      "position": "プロトレーダー(本物)",
+      "labels": [
+        "HL Perps Whale [0x6979dd]"
+      ]
+    },
+    {
+      "address": "0xcefd7652228a8619d0af5b95389cd49387cd30e0",
+      "n_entries": 767,
+      "h4": {
+        "big_fwd": 0.0055,
+        "small_fwd": 0.0014,
+        "conviction_lift": 0.0041,
+        "big_hit": 0.509,
+        "n": 530
+      },
+      "h24": {
+        "big_fwd": 0.0104,
+        "small_fwd": 0.0088,
+        "conviction_lift": 0.0016,
+        "big_hit": 0.453,
+        "n": 530
+      },
+      "position": "プロトレーダー(本物)",
+      "labels": [
+        "HL Perps Day Trader [0xcefd76]"
+      ]
+    },
+    {
+      "address": "0x3b11267dfc4b9ebe8427e8f557056b4b6ce98112",
+      "n_entries": 575,
+      "h4": {
+        "big_fwd": 0.0056,
+        "small_fwd": 0.021,
+        "conviction_lift": -0.0154,
+        "big_hit": 0.737,
+        "n": 575
+      },
+      "h24": {
+        "big_fwd": -0.007,
+        "small_fwd": 0.0104,
+        "conviction_lift": -0.0174,
+        "big_hit": 0.474,
+        "n": 575
+      },
+      "position": "プロトレーダー(本物)",
+      "labels": [
+        "High Balance"
+      ]
+    },
+    {
+      "address": "0x5638484ba2d2f1d1d35020572b0aa439a9869192",
+      "n_entries": 2049,
+      "h4": {
+        "big_fwd": -0.0013,
+        "small_fwd": -0.0091,
+        "conviction_lift": 0.0078,
+        "big_hit": 0.458,
+        "n": 836
+      },
+      "h24": {
+        "big_fwd": 0.0341,
+        "small_fwd": 0.0119,
+        "conviction_lift": 0.0221,
+        "big_hit": 0.771,
+        "n": 836
+      },
+      "position": "プロトレーダー(本物)",
+      "labels": [
+        "ASTEROID Whale",
+        "High Activity",
+        "High Balance",
+        "stayawayfromridiculouslyprettygirls.eca.eth",
+        "stayawayfromridiculouslyprettygirls.eca.eth*"
+      ]
+    },
+    {
+      "address": "0x4b4bdd734b87bc48683d24f1dc6159e3ab6d6409",
+      "n_entries": 1511,
+      "h4": {
+        "big_fwd": -0.0007,
+        "small_fwd": -0.0011,
+        "conviction_lift": 0.0004,
+        "big_hit": 0.126,
+        "n": 1511
+      },
+      "h24": {
+        "big_fwd": 0.0015,
+        "small_fwd": 0.005,
+        "conviction_lift": -0.0035,
+        "big_hit": 0.755,
+        "n": 1511
+      },
+      "position": "プロトレーダー(本物)",
+      "labels": [
+        "HL Perps Whale [0x4b4bdd]"
+      ]
+    },
+    {
+      "address": "0x1e5b1efd99c89d39b59b28a19e6b42bbeb98433b",
+      "n_entries": 297,
+      "position": "プロトレーダー(本物)",
+      "labels": [
+        "​​Yield Farmer [0x1e5b1e]"
+      ]
+    },
+    {
+      "address": "0x7de07bb8a43c1953a019906cf2c8287dae478be9",
+      "n_entries": 684,
+      "position": "プロトレーダー(本物)",
+      "labels": [
+        "Token Millionaire"
+      ]
+    },
+    {
+      "address": "0xc604faf510aa5b617c9fb1556d02d6d22c9644be",
+      "n_entries": 302,
+      "position": "プロトレーダー(本物)",
+      "labels": [
+        "[0xc604fa]"
+      ]
+    },
+    {
+      "address": "0x7c9063122c01837fe83da2521056e10c9b6dd129",
+      "n_entries": 25,
+      "h4": {
+        "big_fwd": 0.0005,
+        "small_fwd": 0.0005,
+        "conviction_lift": -0.0,
+        "big_hit": 1.0,
+        "n": 25
+      },
+      "h24": {
+        "big_fwd": -0.013,
+        "small_fwd": -0.013,
+        "conviction_lift": 0.0,
+        "big_hit": 0.0,
+        "n": 25
+      },
+      "position": "プロトレーダー(本物)",
+      "labels": [
+        "Token Millionaire"
+      ]
+    },
+    {
+      "address": "0xae551d73161bac3315c5ade0e2d499a44ebe2236",
+      "n_entries": 135,
+      "h4": {
+        "big_fwd": 0.0021,
+        "small_fwd": -0.0031,
+        "conviction_lift": 0.0052,
+        "big_hit": 1.0,
+        "n": 48
+      },
+      "h24": {
+        "big_fwd": 0.0513,
+        "small_fwd": 0.0703,
+        "conviction_lift": -0.019,
+        "big_hit": 1.0,
+        "n": 48
+      },
+      "position": "プロトレーダー(本物)",
+      "labels": [
+        "HL Perps Perma-Bull [0xae551d]"
+      ]
+    },
+    {
+      "address": "0x0d9654172413fa8bcd2f5738a7b2fa6d19864125",
+      "n_entries": 2953,
+      "h4": {
+        "big_fwd": -0.0035,
+        "small_fwd": -0.008,
+        "conviction_lift": 0.0045,
+        "big_hit": 0.288,
+        "n": 2953
+      },
+      "h24": {
+        "big_fwd": 0.0091,
+        "small_fwd": 0.0051,
+        "conviction_lift": 0.004,
+        "big_hit": 0.807,
+        "n": 2953
+      },
+      "position": "プロトレーダー(本物)",
+      "labels": [
+        "[0x0d9654]"
+      ]
+    },
+    {
+      "address": "0x9b804150c9a4f6db44ba4fd67704eadb5be360c1",
+      "n_entries": 0,
+      "thin": true,
+      "position": "プロトレーダー(本物)",
+      "labels": [
+        "[0x9b8041]"
+      ]
+    },
+    {
+      "address": "0xf3362789cecf25c6a31288d172880d7ad9b81801",
+      "n_entries": 0,
+      "thin": true,
+      "position": "プロトレーダー(本物)",
+      "labels": [
+        ": Boros Trader [0xf33627]"
+      ]
+    },
+    {
+      "address": "0x69b05701f8175c276ecd0138387a197948e240bb",
+      "n_entries": 0,
+      "thin": true,
+      "position": "プロトレーダー(本物)",
+      "labels": []
+    },
+    {
+      "address": "0x5198eff88dea32108605bcdb109a99dc397190d8",
+      "n_entries": 0,
+      "thin": true,
+      "position": "プロトレーダー(本物)",
+      "labels": [
+        "[0x5198ef]"
+      ]
+    },
+    {
+      "address": "0xdb79fe310ea2972137d2a23658db0234902b517d",
+      "n_entries": 732,
+      "h4": {
+        "big_fwd": 0.0012,
+        "small_fwd": -0.0006,
+        "conviction_lift": 0.0018,
+        "big_hit": 0.5,
+        "n": 183
+      },
+      "h24": {
+        "big_fwd": 0.0007,
+        "small_fwd": 0.012,
+        "conviction_lift": -0.0113,
+        "big_hit": 0.444,
+        "n": 183
+      },
+      "position": "プロトレーダー(本物)",
+      "labels": [
+        "HL Perps Altcoin Trader [0xdb79fe]"
+      ]
+    },
+    {
+      "address": "0x8250a7f9fca9c33e68eead8c05c1d58c8fd70d13",
+      "n_entries": 428,
+      "h4": {
+        "big_fwd": 0.0065,
+        "small_fwd": 0.0067,
+        "conviction_lift": -0.0003,
+        "big_hit": 1.0,
+        "n": 112
+      },
+      "h24": {
+        "big_fwd": -0.0035,
+        "small_fwd": -0.0038,
+        "conviction_lift": 0.0004,
+        "big_hit": 0.0,
+        "n": 112
+      },
+      "position": "プロトレーダー(本物)",
+      "labels": []
+    },
+    {
+      "address": "0x3adaa1d2d0598c9b661a746649d20e1e8aad9b3a",
+      "n_entries": 210,
+      "h4": {
+        "big_fwd": 0.0042,
+        "small_fwd": 0.0042,
+        "conviction_lift": 0.0,
+        "big_hit": 1.0,
+        "n": 210
+      },
+      "h24": {
+        "big_fwd": -0.0025,
+        "small_fwd": -0.0025,
+        "conviction_lift": 0.0,
+        "big_hit": 0.0,
+        "n": 210
+      },
+      "position": "プロトレーダー(本物)",
+      "labels": [
+        "[0x3adaa1]"
+      ]
+    },
+    {
+      "address": "0x8a48dcaffdf71c547cd0fd0434ae40fa57bcbf0f",
+      "n_entries": 392,
+      "h4": {
+        "big_fwd": 0.0019,
+        "small_fwd": 0.0091,
+        "conviction_lift": -0.0072,
+        "big_hit": 0.214,
+        "n": 148
+      },
+      "h24": {
+        "big_fwd": 0.0048,
+        "small_fwd": 0.0045,
+        "conviction_lift": 0.0003,
+        "big_hit": 0.571,
+        "n": 148
+      },
+      "position": "プロトレーダー(本物)",
+      "labels": [
+        ": Boros Trader [0x8a48dc]"
+      ]
+    }
+  ]
+}

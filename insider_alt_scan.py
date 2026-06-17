@@ -20,7 +20,8 @@ import hl_client
 MS_H = 3600 * 1000
 NOW = int(time.time() * 1000)
 EPS = 1e-9
-CTX_BEFORE_H = 6
+PRE_H = 24                 # 建玉前の直近レンジ窓
+FWD_H = 24                 # 建玉後の固定窓(保有期間は使わない=同義反復回避)
 CAND_DAYS = 420
 MAJORS = set(config.COINS)
 
@@ -107,21 +108,24 @@ def reconstruct_positions(fills):
 
 
 def entry_precision(tr):
+    """建玉前24hの直近レンジでの底/天精度(perfect)＋建玉後固定24hの伸び(fwd)。保有期間は使わない。"""
     series = get_series(tr["coin"])
     if not series or tr.get("entry_px") is None:
         return None
-    lo_t = tr["t_open"] - CTX_BEFORE_H * MS_H
-    win = [(t, h, l) for (t, h, l) in series if lo_t <= t <= tr["t_close"]]
-    if len(win) < 2:
+    e = tr["entry_px"]; t0 = tr["t_open"]
+    pre = [(t, h, l) for (t, h, l) in series if t0 - PRE_H * MS_H <= t <= t0]
+    fwd = [(t, h, l) for (t, h, l) in series if t0 <= t <= t0 + FWD_H * MS_H]
+    if len(pre) < 2 or len(fwd) < 2:
         return None
-    hi = max(h for _, h, _ in win); lo = min(l for _, _, l in win)
-    if hi - lo < EPS:
+    hi_p = max(h for _, h, _ in pre); lo_p = min(l for _, _, l in pre)
+    if hi_p - lo_p < EPS:
         return None
-    e = tr["entry_px"]; pctile = (e - lo) / (hi - lo)
+    pctile = max(0.0, min(1.0, (e - lo_p) / (hi_p - lo_p)))
+    hi_f = max(h for _, h, _ in fwd); lo_f = min(l for _, _, l in fwd)
     perfect = (1 - pctile) if tr["dir"] == "long" else pctile
-    fwd = ((hi - e) / e) if tr["dir"] == "long" else ((e - lo) / e)
-    return {"perfect": round(perfect, 3), "fwd_favorable": round(fwd, 4),
-            "event_date": datetime.fromtimestamp(tr["t_open"] / 1000, timezone.utc).strftime("%Y-%m-%d %H:%M")}
+    fwd_fav = ((hi_f - e) / e) if tr["dir"] == "long" else ((e - lo_f) / e)
+    return {"perfect": round(perfect, 3), "fwd_favorable": round(fwd_fav, 4),
+            "event_date": datetime.fromtimestamp(t0 / 1000, timezone.utc).strftime("%Y-%m-%d %H:%M")}
 
 
 def analyze(addr, max_pages):

@@ -24,7 +24,8 @@ import hl_client
 MS_H = 3600 * 1000
 NOW = int(time.time() * 1000)
 EPS = 1e-9
-CTX_BEFORE_H = 6           # 建玉時刻の何時間前から局面を見るか
+PRE_H = 24                 # 建玉「前」の直近レンジを見る窓(底/天精度・同義反復回避)
+FWD_H = 24                 # 建玉「後」の固定窓(その後の伸び。保有期間は使わない)
 CAND_DAYS = 420            # 足キャッシュの遡及日数
 
 
@@ -94,29 +95,30 @@ def reconstruct_positions(fills):
 
 
 def entry_precision(coin, tr, candle_cache):
-    """大勝ちトレードの建値が局面の底/天井にどれだけ近いか。1=完璧, 0=最悪。"""
+    """建玉『前』24hの直近レンジで底/天に近く入ったか(perfect)＋建玉『後』固定24hの伸び(fwd)。
+    保有期間を窓に含めない＝勝ちトレードが必ず完璧に見える同義反復を排除。"""
     series = candle_cache.get(coin)
     if not series or tr.get("entry_px") is None:
         return None
-    lo_t = tr["t_open"] - CTX_BEFORE_H * MS_H
-    hi_t = tr["t_close"]
-    win = [(t, h, l) for (t, h, l) in series if lo_t <= t <= hi_t]
-    if len(win) < 2:
+    e = tr["entry_px"]; t0 = tr["t_open"]
+    pre = [(t, h, l) for (t, h, l) in series if t0 - PRE_H * MS_H <= t <= t0]
+    fwd = [(t, h, l) for (t, h, l) in series if t0 <= t <= t0 + FWD_H * MS_H]
+    if len(pre) < 2 or len(fwd) < 2:
         return None
-    hi = max(h for _, h, _ in win); lo = min(l for _, _, l in win)
-    if hi - lo < EPS:
+    hi_p = max(h for _, h, _ in pre); lo_p = min(l for _, _, l in pre)
+    if hi_p - lo_p < EPS:
         return None
-    e = tr["entry_px"]
-    pctile = (e - lo) / (hi - lo)          # 0=安値, 1=高値
+    pctile = max(0.0, min(1.0, (e - lo_p) / (hi_p - lo_p)))     # 直近レンジでの位置(0=安値,1=高値)
+    hi_f = max(h for _, h, _ in fwd); lo_f = min(l for _, _, l in fwd)
     if tr["dir"] == "long":
-        perfect = 1 - pctile               # 安値で買うほど完璧
-        fwd = (hi - e) / e                 # 建値からの順方向最大上昇
+        perfect = 1 - pctile               # 直近安値で買うほど完璧
+        fwd_fav = (hi_f - e) / e           # 建玉後24hの順方向最大上昇
     else:
-        perfect = pctile                   # 高値で売るほど完璧
-        fwd = (e - lo) / e
+        perfect = pctile                   # 直近高値で売るほど完璧
+        fwd_fav = (e - lo_f) / e
     return {"perfect": round(perfect, 3), "entry_pctile": round(pctile, 3),
-            "fwd_favorable": round(fwd, 4),
-            "event_date": datetime.fromtimestamp(tr["t_open"] / 1000, timezone.utc).strftime("%Y-%m-%d %H:%M")}
+            "fwd_favorable": round(fwd_fav, 4),
+            "event_date": datetime.fromtimestamp(t0 / 1000, timezone.utc).strftime("%Y-%m-%d %H:%M")}
 
 
 def analyze(addr, max_pages, candle_cache):
