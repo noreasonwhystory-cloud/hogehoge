@@ -1998,7 +1998,10 @@
         "🤓 Smart HL Perps Trader [0x5b1efd]"
       ],
       "nansen_checked": "2026-06-17",
-      "notes_jp": "【ひとことで】🤓 Nansenが『常勝(Smart Money)』認定したトレーダー。たぶんプロ、未精査。\n【正体】🤓 Smart HL Perps Trader [0x5b1efd]（Nansenラベル）\n【成績】通算PnL $121,112・ROI 33%・現在残高 $27,252\n【補足】残高が小さい＝稼ぎを引き上げ済の可能性（出金）。"
+      "notes_jp": "【ひとことで】🤓 Nansenが『常勝(Smart Money)』認定したトレーダー。たぶんプロ、未精査。\n【正体】🤓 Smart HL Perps Trader [0x5b1efd]（Nansenラベル）\n【成績】通算PnL $121,112・ROI 33%・現在残高 $27,252\n【補足】残高が小さい＝稼ぎを引き上げ済の可能性（出金）。",
+      "active_from": "2026-03-16",
+      "active_to": "2026-06-16",
+      "trade_days": 92
     },
     "0xdd08886cb92c689c7d89c88f048028293296ead1": {
       "address": "0xdd08886cb92c689c7d89c88f048028293296ead1",
@@ -2913,7 +2916,10 @@
         "🤓 Smart Trader [0x2385aa]"
       ],
       "nansen_checked": "2026-06-17",
-      "notes_jp": "【ひとことで】🤓 Nansenが『常勝(Smart Money)』認定したトレーダー。たぶんプロ、未精査。\n【正体】🤓 Smart Trader [0x2385aa]（Nansenラベル）\n【成績】通算PnL $175,655・ROI 1%・現在残高 $4,624\n【補足】残高が小さい＝稼ぎを引き上げ済の可能性（出金）。"
+      "notes_jp": "【ひとことで】🤓 Nansenが『常勝(Smart Money)』認定したトレーダー。たぶんプロ、未精査。\n【正体】🤓 Smart Trader [0x2385aa]（Nansenラベル）\n【成績】通算PnL $175,655・ROI 1%・現在残高 $4,624\n【補足】残高が小さい＝稼ぎを引き上げ済の可能性（出金）。",
+      "active_from": "2026-03-07",
+      "active_to": "2026-06-17",
+      "trade_days": 102
     },
     "0xebe6cc6820a76705b6654fdd1254256dcd54f1df": {
       "address": "0xebe6cc6820a76705b6654fdd1254256dcd54f1df",
@@ -4410,7 +4416,10 @@
         "🤓 Smart HL Perps Trader [0x58a722]"
       ],
       "nansen_checked": "2026-06-17",
-      "notes_jp": "【ひとことで】🤓 Nansenが『常勝(Smart Money)』認定したトレーダー。たぶんプロ、未精査。\n【正体】🤓 Smart HL Perps Trader [0x58a722]（Nansenラベル）\n【成績】通算PnL $175,842・ROI 13%・現在残高 $34,185\n【補足】残高が小さい＝稼ぎを引き上げ済の可能性（出金）。"
+      "notes_jp": "【ひとことで】🤓 Nansenが『常勝(Smart Money)』認定したトレーダー。たぶんプロ、未精査。\n【正体】🤓 Smart HL Perps Trader [0x58a722]（Nansenラベル）\n【成績】通算PnL $175,842・ROI 13%・現在残高 $34,185\n【補足】残高が小さい＝稼ぎを引き上げ済の可能性（出金）。",
+      "active_from": "2025-10-31",
+      "active_to": "2026-06-17",
+      "trade_days": 229
     },
     "0x4cae5bed586f6e73ae54ebd40a4ac4ed2c477c34": {
       "address": "0x4cae5bed586f6e73ae54ebd40a4ac4ed2c477c34",
@@ -10452,7 +10461,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2026-03-14",
+      "active_to": "2026-03-19",
+      "trade_days": 5
     },
     "0xcac19662ec88d23fa1c81ac0e8570b0cf2ff26b3": {
       "address": "0xcac19662ec88d23fa1c81ac0e8570b0cf2ff26b3",
@@ -10498,7 +10510,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2026-06-14",
+      "active_to": "2026-06-16",
+      "trade_days": 2
     },
     "0x5d2f4460ac3514ada79f5d9838916e508ab39bb7": {
       "address": "0x5d2f4460ac3514ada79f5d9838916e508ab39bb7",
@@ -10544,7 +10559,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2025-06-09",
+      "active_to": "2025-08-29",
+      "trade_days": 81
     },
     "0x8e096995c3e4a3f0bc5b3ea1cba94de2aa4d70c9": {
       "address": "0x8e096995c3e4a3f0bc5b3ea1cba94de2aa4d70c9",
@@ -10598,7 +10616,10 @@
       "pro_score": 0.838,
       "pro_realized": 11927977,
       "pro_span_days": 24,
-      "pro_tier": "S"
+      "pro_tier": "S",
+      "active_from": "2026-01-31",
+      "active_to": "2026-02-24",
+      "trade_days": 24
     },
     "0x4196dc4a1dc7d3bfd5434adf04c829f4ccaf480d": {
       "address": "0x4196dc4a1dc7d3bfd5434adf04c829f4ccaf480d",
@@ -10644,7 +10665,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2026-05-28",
+      "active_to": "2026-05-29",
+      "trade_days": 1
     },
     "0x577ae91c7b74f04ddb3a5b399ded8318e9895fd2": {
       "address": "0x577ae91c7b74f04ddb3a5b399ded8318e9895fd2",
@@ -10689,7 +10713,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2026-04-30",
+      "active_to": "2026-05-11",
+      "trade_days": 11
     },
     "0xbcd420d13362532756c968f663f96ba95e240dd2": {
       "address": "0xbcd420d13362532756c968f663f96ba95e240dd2",
@@ -10735,7 +10762,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2026-06-14",
+      "active_to": "2026-06-14",
+      "trade_days": 1
     },
     "0xfce053a5e461683454bf37ad66d20344c0e3f4c0": {
       "address": "0xfce053a5e461683454bf37ad66d20344c0e3f4c0",
@@ -10781,7 +10811,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2024-12-16",
+      "active_to": "2025-10-23",
+      "trade_days": 311
     },
     "0xc7290b4b308431a985fa9e3e8a335c2f7650517c": {
       "address": "0xc7290b4b308431a985fa9e3e8a335c2f7650517c",
@@ -10835,7 +10868,10 @@
       "pro_score": 0.777,
       "pro_realized": 3905400,
       "pro_span_days": 253,
-      "pro_tier": "S"
+      "pro_tier": "S",
+      "active_from": "2025-09-25",
+      "active_to": "2026-06-05",
+      "trade_days": 253
     },
     "0x0b00c540bc5f203d97ac87da62164d3d37e19798": {
       "address": "0x0b00c540bc5f203d97ac87da62164d3d37e19798",
@@ -10956,7 +10992,10 @@
       "pro_score": 0.892,
       "pro_realized": 6329149,
       "pro_span_days": 190,
-      "pro_tier": "S"
+      "pro_tier": "S",
+      "active_from": "2025-12-02",
+      "active_to": "2026-06-10",
+      "trade_days": 190
     },
     "0xed41a12ea862f31df054e9bd3af1dd59486c6029": {
       "address": "0xed41a12ea862f31df054e9bd3af1dd59486c6029",
@@ -11009,7 +11048,10 @@
       "pro_score": 0.518,
       "pro_realized": 2142600,
       "pro_span_days": 138,
-      "pro_tier": "A"
+      "pro_tier": "A",
+      "active_from": "2025-12-10",
+      "active_to": "2026-04-27",
+      "trade_days": 138
     },
     "0x5bc43f38c2ddcd85857f218674cd384f172c3b0c": {
       "address": "0x5bc43f38c2ddcd85857f218674cd384f172c3b0c",
@@ -11055,7 +11097,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2026-05-21",
+      "active_to": "2026-06-07",
+      "trade_days": 17
     },
     "0x208db9f389989c5c387cc3a2620cc5251eace716": {
       "address": "0x208db9f389989c5c387cc3a2620cc5251eace716",
@@ -11100,7 +11145,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2026-03-08",
+      "active_to": "2026-03-19",
+      "trade_days": 11
     },
     "0xc1471df385b1b039aae2000678e0b8bd905b3aef": {
       "address": "0xc1471df385b1b039aae2000678e0b8bd905b3aef",
@@ -11145,7 +11193,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2025-10-13",
+      "active_to": "2025-10-26",
+      "trade_days": 13
     },
     "0x8bae3527e5a33fa0cf184f37bc112d071463ab6d": {
       "address": "0x8bae3527e5a33fa0cf184f37bc112d071463ab6d",
@@ -11191,7 +11242,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2025-07-11",
+      "active_to": "2025-12-09",
+      "trade_days": 151
     },
     "0x2d99fe0f36c1aebd28a1a2c0e82e8ca13c2ea351": {
       "address": "0x2d99fe0f36c1aebd28a1a2c0e82e8ca13c2ea351",
@@ -11236,7 +11290,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2025-09-24",
+      "active_to": "2025-09-25",
+      "trade_days": 1
     },
     "0x015354106478dda69c4aae3c0cf801290b738052": {
       "address": "0x015354106478dda69c4aae3c0cf801290b738052",
@@ -11392,7 +11449,10 @@
       "pro_score": 0.781,
       "pro_realized": 4258658,
       "pro_span_days": 384,
-      "pro_tier": "S"
+      "pro_tier": "S",
+      "active_from": "2025-05-29",
+      "active_to": "2026-06-17",
+      "trade_days": 384
     },
     "0x833b99b27dac651d02080f5e220e929df891db06": {
       "address": "0x833b99b27dac651d02080f5e220e929df891db06",
@@ -11438,7 +11498,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2026-01-29",
+      "active_to": "2026-04-13",
+      "trade_days": 74
     },
     "0x16bf84af3f85f8c8a97597bf2be549dfe0dee637": {
       "address": "0x16bf84af3f85f8c8a97597bf2be549dfe0dee637",
@@ -11483,7 +11546,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2025-10-24",
+      "active_to": "2026-03-16",
+      "trade_days": 143
     },
     "0xd8c5228c515db3043dfa0c8cd6f22450ee9a99b0": {
       "address": "0xd8c5228c515db3043dfa0c8cd6f22450ee9a99b0",
@@ -11528,7 +11594,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2026-04-22",
+      "active_to": "2026-05-24",
+      "trade_days": 32
     },
     "0x570b09e27a87f9acbce49f85056745d29b3ee3c6": {
       "address": "0x570b09e27a87f9acbce49f85056745d29b3ee3c6",
@@ -11573,7 +11642,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2025-10-13",
+      "active_to": "2026-01-12",
+      "trade_days": 91
     },
     "0x56cd86d6ef24a3f51ce6992b7f1db751b0a0276a": {
       "address": "0x56cd86d6ef24a3f51ce6992b7f1db751b0a0276a",
@@ -11627,7 +11699,10 @@
       "pro_score": 0.482,
       "pro_realized": 1372915,
       "pro_span_days": 164,
-      "pro_tier": "B"
+      "pro_tier": "B",
+      "active_from": "2024-11-29",
+      "active_to": "2025-05-12",
+      "trade_days": 164
     },
     "0x84abc08c0ea62e687c370154de1f38ea462f4d37": {
       "address": "0x84abc08c0ea62e687c370154de1f38ea462f4d37",
@@ -11762,7 +11837,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2025-02-05",
+      "active_to": "2025-09-12",
+      "trade_days": 219
     },
     "0xd96ea3bcce83d4e1ef8abd1776eecd0cea1bb09e": {
       "address": "0xd96ea3bcce83d4e1ef8abd1776eecd0cea1bb09e",
@@ -11807,7 +11885,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2024-07-25",
+      "active_to": "2025-08-24",
+      "trade_days": 395
     },
     "0x906d31b2ee92c4bc720232112274a0e1ffb0ad6e": {
       "address": "0x906d31b2ee92c4bc720232112274a0e1ffb0ad6e",
@@ -11897,7 +11978,10 @@
           "volume_usd": 4998615.226003903,
           "count": 5
         }
-      ]
+      ],
+      "active_from": "2025-11-14",
+      "active_to": "2026-06-07",
+      "trade_days": 205
     },
     "0xf5629393e446a103a4be1c49a956255e7c87c1d3": {
       "address": "0xf5629393e446a103a4be1c49a956255e7c87c1d3",
@@ -11942,7 +12026,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2025-10-15",
+      "active_to": "2026-01-29",
+      "trade_days": 106
     },
     "0x9e2cbb5d800181c1ef21b25010dc4ea80eeb5508": {
       "address": "0x9e2cbb5d800181c1ef21b25010dc4ea80eeb5508",
@@ -11987,7 +12074,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2026-01-14",
+      "active_to": "2026-01-25",
+      "trade_days": 11
     },
     "0xac03fc4c21902e4e934b4367cb1a6c6e3f0d8037": {
       "address": "0xac03fc4c21902e4e934b4367cb1a6c6e3f0d8037",
@@ -12096,7 +12186,10 @@
       "pro_score": 0.51,
       "pro_realized": 2348016,
       "pro_span_days": 55,
-      "pro_tier": "A"
+      "pro_tier": "A",
+      "active_from": "2026-03-12",
+      "active_to": "2026-05-06",
+      "trade_days": 55
     },
     "0xd82f7d84a524b8e82de0cb3df1f04e338604fd8e": {
       "address": "0xd82f7d84a524b8e82de0cb3df1f04e338604fd8e",
@@ -12186,7 +12279,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2026-05-25",
+      "active_to": "2026-06-01",
+      "trade_days": 7
     },
     "0xdbcc96bcada067864902aad14e029fe7c422f147": {
       "address": "0xdbcc96bcada067864902aad14e029fe7c422f147",
@@ -12321,7 +12417,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2026-04-24",
+      "active_to": "2026-05-11",
+      "trade_days": 17
     },
     "0xe2f86feccb1207710a442bc4e27a0701a290275a": {
       "address": "0xe2f86feccb1207710a442bc4e27a0701a290275a",
@@ -12367,7 +12466,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2025-08-18",
+      "active_to": "2025-12-30",
+      "trade_days": 134
     },
     "0xf17de447fdfa1778db06111e3cbdc878332adab2": {
       "address": "0xf17de447fdfa1778db06111e3cbdc878332adab2",
@@ -12412,7 +12514,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2026-04-27",
+      "active_to": "2026-05-08",
+      "trade_days": 11
     },
     "0xe4d83945c0322f3d340203a7129b7eb5cacae847": {
       "address": "0xe4d83945c0322f3d340203a7129b7eb5cacae847",
@@ -12465,7 +12570,10 @@
       "pro_score": 0.615,
       "pro_realized": 2031004,
       "pro_span_days": 257,
-      "pro_tier": "A"
+      "pro_tier": "A",
+      "active_from": "2025-09-09",
+      "active_to": "2026-05-24",
+      "trade_days": 257
     },
     "0x36ac01de9bc76c0d744b38c3e13a0538d55c7568": {
       "address": "0x36ac01de9bc76c0d744b38c3e13a0538d55c7568",
@@ -12511,7 +12619,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2026-06-04",
+      "active_to": "2026-06-16",
+      "trade_days": 12
     },
     "0xb1694de2324433778487999bd86b1acb3335ebc4": {
       "address": "0xb1694de2324433778487999bd86b1acb3335ebc4",
@@ -12564,7 +12675,10 @@
       "pro_score": 0.558,
       "pro_realized": 1928778,
       "pro_span_days": 224,
-      "pro_tier": "A"
+      "pro_tier": "A",
+      "active_from": "2025-08-26",
+      "active_to": "2026-04-07",
+      "trade_days": 224
     },
     "0x7da85a334e43a6b1c2c0da9623409d9ee9047747": {
       "address": "0x7da85a334e43a6b1c2c0da9623409d9ee9047747",
@@ -12654,7 +12768,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2026-01-10",
+      "active_to": "2026-01-12",
+      "trade_days": 2
     },
     "0xef759e3f7fe04ac8c5b63736e5196ded52eaf34e": {
       "address": "0xef759e3f7fe04ac8c5b63736e5196ded52eaf34e",
@@ -12744,7 +12861,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2026-04-14",
+      "active_to": "2026-05-18",
+      "trade_days": 34
     },
     "0x406073860818ecfb7dca0706a6bac73faa95bd3e": {
       "address": "0x406073860818ecfb7dca0706a6bac73faa95bd3e",
@@ -12797,7 +12917,10 @@
       "pro_score": 0.54,
       "pro_realized": 1226127,
       "pro_span_days": 217,
-      "pro_tier": "A"
+      "pro_tier": "A",
+      "active_from": "2025-10-07",
+      "active_to": "2026-05-12",
+      "trade_days": 217
     },
     "0xe091330c53b971ed4e886f902f18e8544a8d6705": {
       "address": "0xe091330c53b971ed4e886f902f18e8544a8d6705",
@@ -12843,7 +12966,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2026-03-11",
+      "active_to": "2026-04-12",
+      "trade_days": 32
     },
     "0x90326fa293578c6c9ef945aaab0b57f886aca6ec": {
       "address": "0x90326fa293578c6c9ef945aaab0b57f886aca6ec",
@@ -12889,7 +13015,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2025-11-26",
+      "active_to": "2025-11-29",
+      "trade_days": 3
     },
     "0x6b08bbb2daf57d390538d73542f50d5f735ca420": {
       "address": "0x6b08bbb2daf57d390538d73542f50d5f735ca420",
@@ -12934,7 +13063,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2026-05-06",
+      "active_to": "2026-05-25",
+      "trade_days": 19
     },
     "0xba0495c92ab69b1151ecf422851a06b602cea764": {
       "address": "0xba0495c92ab69b1151ecf422851a06b602cea764",
@@ -13052,7 +13184,10 @@
       "pro_score": 0.483,
       "pro_realized": 1162455,
       "pro_span_days": 9,
-      "pro_tier": "B"
+      "pro_tier": "B",
+      "active_from": "2026-05-05",
+      "active_to": "2026-05-14",
+      "trade_days": 9
     },
     "0x99b3ba1c1b7ad83d0164d996e3d271ae8c842551": {
       "address": "0x99b3ba1c1b7ad83d0164d996e3d271ae8c842551",
@@ -13170,7 +13305,10 @@
       "pro_score": 0.385,
       "pro_realized": 933423,
       "pro_span_days": 15,
-      "pro_tier": "B"
+      "pro_tier": "B",
+      "active_from": "2026-04-07",
+      "active_to": "2026-04-22",
+      "trade_days": 15
     },
     "0x05904930cae1e9a48c055f4a8a83480ba7fc6abf": {
       "address": "0x05904930cae1e9a48c055f4a8a83480ba7fc6abf",
@@ -13312,7 +13450,10 @@
       "pro_score": 0.444,
       "pro_realized": 1049066,
       "pro_span_days": 71,
-      "pro_tier": "B"
+      "pro_tier": "B",
+      "active_from": "2026-03-25",
+      "active_to": "2026-06-04",
+      "trade_days": 71
     },
     "0x5846ac5619d2a762751b1663d86a402085505765": {
       "address": "0x5846ac5619d2a762751b1663d86a402085505765",
@@ -13430,7 +13571,10 @@
       "pro_score": 0.646,
       "pro_realized": 2445741,
       "pro_span_days": 153,
-      "pro_tier": "A"
+      "pro_tier": "A",
+      "active_from": "2025-10-21",
+      "active_to": "2026-03-23",
+      "trade_days": 153
     },
     "0xa3d843b6a057504284006bef6f34a2e9bc80fb6b": {
       "address": "0xa3d843b6a057504284006bef6f34a2e9bc80fb6b",
@@ -13483,7 +13627,10 @@
       "pro_score": 0.543,
       "pro_realized": 1444379,
       "pro_span_days": 205,
-      "pro_tier": "A"
+      "pro_tier": "A",
+      "active_from": "2025-11-21",
+      "active_to": "2026-06-14",
+      "trade_days": 205
     },
     "0x9836e286fbf4f71998827d4bd6ea3b470c26457e": {
       "address": "0x9836e286fbf4f71998827d4bd6ea3b470c26457e",
@@ -13529,7 +13676,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2025-06-20",
+      "active_to": "2025-09-19",
+      "trade_days": 91
     },
     "0xbcc7fd5f27cba04dca862b94509133c453dde764": {
       "address": "0xbcc7fd5f27cba04dca862b94509133c453dde764",
@@ -13581,7 +13731,10 @@
           "time": "2026-01-14T16:22:37"
         }
       ],
-      "counterparties": []
+      "counterparties": [],
+      "active_from": "2026-01-14",
+      "active_to": "2026-03-16",
+      "trade_days": 61
     },
     "0x143c28ae5b8642f58c98b8a6f82a0f314d23f6ab": {
       "address": "0x143c28ae5b8642f58c98b8a6f82a0f314d23f6ab",
@@ -13651,7 +13804,10 @@
       "pro_score": 0.458,
       "pro_realized": 923593,
       "pro_span_days": 203,
-      "pro_tier": "B"
+      "pro_tier": "B",
+      "active_from": "2025-11-26",
+      "active_to": "2026-06-17",
+      "trade_days": 203
     },
     "0x06466f9ac08e872064950cec3812b57d6feafa7f": {
       "address": "0x06466f9ac08e872064950cec3812b57d6feafa7f",
@@ -13704,7 +13860,10 @@
       "pro_score": 0.375,
       "pro_realized": 758334,
       "pro_span_days": 230,
-      "pro_tier": "C"
+      "pro_tier": "C",
+      "active_from": "2025-07-18",
+      "active_to": "2026-03-05",
+      "trade_days": 230
     },
     "0xef70339934261ca3524bddfa7d02e0a69107a84c": {
       "address": "0xef70339934261ca3524bddfa7d02e0a69107a84c",
@@ -13749,7 +13908,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2025-07-14",
+      "active_to": "2026-05-26",
+      "trade_days": 316
     },
     "0xc12f6e6f7a11604871786db86abf33fdf36fb0ad": {
       "address": "0xc12f6e6f7a11604871786db86abf33fdf36fb0ad",
@@ -13794,7 +13956,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2025-11-03",
+      "active_to": "2026-01-27",
+      "trade_days": 85
     },
     "0x4cd80aa0ce4881eb8679eda1f6fbe3d89aec0f7f": {
       "address": "0x4cd80aa0ce4881eb8679eda1f6fbe3d89aec0f7f",
@@ -13839,7 +14004,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2026-01-30",
+      "active_to": "2026-03-06",
+      "trade_days": 35
     },
     "0x8b0be882a693ad3849f9bfde6951ec36489f30be": {
       "address": "0x8b0be882a693ad3849f9bfde6951ec36489f30be",
@@ -13974,7 +14142,10 @@
         "avg_hold_h": null
       },
       "first_funders": [],
-      "counterparties": []
+      "counterparties": [],
+      "active_from": "2025-12-21",
+      "active_to": "2026-04-21",
+      "trade_days": 121
     },
     "0xdc38f7ee386b7eea3842643e56b08ee5bb40f625": {
       "address": "0xdc38f7ee386b7eea3842643e56b08ee5bb40f625",
@@ -14019,7 +14190,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2026-01-16",
+      "active_to": "2026-06-09",
+      "trade_days": 144
     },
     "0x18cd4597e06b7fe0a8cd33dda499121b3a145a8b": {
       "address": "0x18cd4597e06b7fe0a8cd33dda499121b3a145a8b",
@@ -14158,7 +14332,10 @@
           "volume_usd": 0.0,
           "count": 1
         }
-      ]
+      ],
+      "active_from": "2026-02-02",
+      "active_to": "2026-06-16",
+      "trade_days": 134
     },
     "0xbfc79c444c41a74516bf31237ebf586a231480b4": {
       "address": "0xbfc79c444c41a74516bf31237ebf586a231480b4",
@@ -14204,7 +14381,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2025-11-15",
+      "active_to": "2025-12-10",
+      "trade_days": 25
     },
     "0x6fa6f42d2e41327e27fe7f416a823cef7050825e": {
       "address": "0x6fa6f42d2e41327e27fe7f416a823cef7050825e",
@@ -14249,7 +14429,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2025-07-18",
+      "active_to": "2026-04-12",
+      "trade_days": 268
     },
     "0x60a8c761f39696b3b419f31dcda20b405cb685f6": {
       "address": "0x60a8c761f39696b3b419f31dcda20b405cb685f6",
@@ -14295,7 +14478,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2026-05-25",
+      "active_to": "2026-06-12",
+      "trade_days": 18
     },
     "0xb69eec8fea0081343c3b09e652ba1fa7dcf7033a": {
       "address": "0xb69eec8fea0081343c3b09e652ba1fa7dcf7033a",
@@ -14413,7 +14599,10 @@
           "volume_usd": 1.999468121492639e-05,
           "count": 3
         }
-      ]
+      ],
+      "active_from": "2026-02-14",
+      "active_to": "2026-06-05",
+      "trade_days": 111
     },
     "0x500bea59133e20dc63b7e88913b30348494b84ba": {
       "address": "0x500bea59133e20dc63b7e88913b30348494b84ba",
@@ -14458,7 +14647,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2024-01-18",
+      "active_to": "2025-02-24",
+      "trade_days": 403
     },
     "0xdb095d5a4f412fc6b14e6204c1db78bd14becbc1": {
       "address": "0xdb095d5a4f412fc6b14e6204c1db78bd14becbc1",
@@ -14641,7 +14833,10 @@
           "volume_usd": 99.9840283569987,
           "count": 1
         }
-      ]
+      ],
+      "active_from": "2026-04-06",
+      "active_to": "2026-04-18",
+      "trade_days": 12
     },
     "0x44a3e107c375c1abfa28c1ac5e92bc85f0b435dd": {
       "address": "0x44a3e107c375c1abfa28c1ac5e92bc85f0b435dd",
@@ -14687,7 +14882,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2026-06-17",
+      "active_to": "2026-06-17",
+      "trade_days": 1
     },
     "0xd866a2d14a6dc92bdb1fdeac32c0f8ec322b3605": {
       "address": "0xd866a2d14a6dc92bdb1fdeac32c0f8ec322b3605",
@@ -14761,7 +14959,10 @@
           "volume_usd": 2.0692995330607036e-06,
           "count": 1
         }
-      ]
+      ],
+      "active_from": "2026-05-27",
+      "active_to": "2026-06-04",
+      "trade_days": 8
     },
     "0xd8d0358919a944d4efa98713795d49b030e43ef9": {
       "address": "0xd8d0358919a944d4efa98713795d49b030e43ef9",
@@ -14806,7 +15007,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2026-01-04",
+      "active_to": "2026-04-19",
+      "trade_days": 105
     },
     "0x484bc1608211d0604bf70bae72792a56884562f8": {
       "address": "0x484bc1608211d0604bf70bae72792a56884562f8",
@@ -14852,7 +15056,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2026-06-02",
+      "active_to": "2026-06-10",
+      "trade_days": 8
     },
     "0x3c363e96d22c056d748f199fb728fc80d70e461a": {
       "address": "0x3c363e96d22c056d748f199fb728fc80d70e461a",
@@ -14897,7 +15104,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2026-03-04",
+      "active_to": "2026-04-09",
+      "trade_days": 36
     },
     "0xc7accfe2b643330ff8f091e4e5f3f044f560bec9": {
       "address": "0xc7accfe2b643330ff8f091e4e5f3f044f560bec9",
@@ -14942,7 +15152,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2025-04-22",
+      "active_to": "2026-04-22",
+      "trade_days": 365
     },
     "0x1e0b469b0f10f59bd6c76a010c4b0dd24742b1ef": {
       "address": "0x1e0b469b0f10f59bd6c76a010c4b0dd24742b1ef",
@@ -15077,7 +15290,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2025-12-12",
+      "active_to": "2026-06-05",
+      "trade_days": 175
     },
     "0xb58e1eb8256689e47f589ba6f6a28657d997bf2f": {
       "address": "0xb58e1eb8256689e47f589ba6f6a28657d997bf2f",
@@ -15130,7 +15346,10 @@
       "pro_score": 0.439,
       "pro_realized": 502874,
       "pro_span_days": 85,
-      "pro_tier": "B"
+      "pro_tier": "B",
+      "active_from": "2026-01-24",
+      "active_to": "2026-04-19",
+      "trade_days": 85
     },
     "0x1fe06653816cd53afb36a18f059b0ada2a3c8f20": {
       "address": "0x1fe06653816cd53afb36a18f059b0ada2a3c8f20",
@@ -15242,7 +15461,10 @@
       "pro_score": 0.445,
       "pro_realized": 916344,
       "pro_span_days": 220,
-      "pro_tier": "B"
+      "pro_tier": "B",
+      "active_from": "2025-10-24",
+      "active_to": "2026-06-01",
+      "trade_days": 220
     },
     "0x0980b34ade9476dba81bcdb0f865a333793ad1c2": {
       "address": "0x0980b34ade9476dba81bcdb0f865a333793ad1c2",
@@ -15288,7 +15510,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2025-10-02",
+      "active_to": "2026-06-12",
+      "trade_days": 253
     },
     "0x8ccee825f44c99fbdaa79464d5eb8beed9313da2": {
       "address": "0x8ccee825f44c99fbdaa79464d5eb8beed9313da2",
@@ -15383,7 +15608,10 @@
       "pro_score": 0.395,
       "pro_realized": 602600,
       "pro_span_days": 275,
-      "pro_tier": "B"
+      "pro_tier": "B",
+      "active_from": "2025-08-13",
+      "active_to": "2026-05-15",
+      "trade_days": 275
     },
     "0xa99c9e5484e5b26635c07876d0859a1819ff40d5": {
       "address": "0xa99c9e5484e5b26635c07876d0859a1819ff40d5",
@@ -15505,7 +15733,10 @@
       "pro_score": 0.44,
       "pro_realized": 505072,
       "pro_span_days": 313,
-      "pro_tier": "B"
+      "pro_tier": "B",
+      "active_from": "2025-08-07",
+      "active_to": "2026-06-16",
+      "trade_days": 313
     },
     "0xaa3f51a8095d030e38317e917839c87315300bee": {
       "address": "0xaa3f51a8095d030e38317e917839c87315300bee",
@@ -15621,7 +15852,10 @@
           "volume_usd": 2.292772957094976e-06,
           "count": 1
         }
-      ]
+      ],
+      "active_from": "2025-07-30",
+      "active_to": "2026-04-27",
+      "trade_days": 271
     },
     "0x6a02aedceac5a6813d960e4dae1910d9c458e77c": {
       "address": "0x6a02aedceac5a6813d960e4dae1910d9c458e77c",
@@ -15678,7 +15912,10 @@
       "pro_score": 0.459,
       "pro_realized": 581086,
       "pro_span_days": 100,
-      "pro_tier": "B"
+      "pro_tier": "B",
+      "active_from": "2026-03-09",
+      "active_to": "2026-06-17",
+      "trade_days": 100
     },
     "0x39761615093bbd473af359068d075a2b03b99857": {
       "address": "0x39761615093bbd473af359068d075a2b03b99857",
@@ -15723,7 +15960,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2025-07-14",
+      "active_to": "2026-05-28",
+      "trade_days": 318
     },
     "0x25cd302e37a69d70a6ef645daea5a7de38c66e2a": {
       "address": "0x25cd302e37a69d70a6ef645daea5a7de38c66e2a",
@@ -15768,7 +16008,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2024-11-29",
+      "active_to": "2025-06-02",
+      "trade_days": 185
     },
     "0x95e2687b07f0dec34462fdab6bbebcc0b3ab49c6": {
       "address": "0x95e2687b07f0dec34462fdab6bbebcc0b3ab49c6",
@@ -15825,7 +16068,10 @@
       "pro_score": 0.486,
       "pro_realized": 919385,
       "pro_span_days": 168,
-      "pro_tier": "B"
+      "pro_tier": "B",
+      "active_from": "2025-09-14",
+      "active_to": "2026-03-01",
+      "trade_days": 168
     },
     "0x8554501f855388039f2bc86110462adfbbde46dc": {
       "address": "0x8554501f855388039f2bc86110462adfbbde46dc",
@@ -15870,7 +16116,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2025-10-10",
+      "active_to": "2025-11-04",
+      "trade_days": 25
     },
     "0x1c77041452e75939105981a914f138eb9634463c": {
       "address": "0x1c77041452e75939105981a914f138eb9634463c",
@@ -15915,7 +16164,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2026-05-06",
+      "active_to": "2026-06-01",
+      "trade_days": 26
     },
     "0xc48b1ad3415e6cf85c4f733fe7fb3085bedf88b1": {
       "address": "0xc48b1ad3415e6cf85c4f733fe7fb3085bedf88b1",
@@ -16050,7 +16302,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2025-09-17",
+      "active_to": "2026-02-11",
+      "trade_days": 147
     },
     "0x3a122449de235a40481689442271c0731b805d69": {
       "address": "0x3a122449de235a40481689442271c0731b805d69",
@@ -16095,7 +16350,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2024-11-05",
+      "active_to": "2025-09-30",
+      "trade_days": 329
     },
     "0x298629982613bf36c48d0b31afd2fe7d1b4604dc": {
       "address": "0x298629982613bf36c48d0b31afd2fe7d1b4604dc",
@@ -16258,7 +16516,10 @@
           "volume_usd": 9.997225411090829e-06,
           "count": 2
         }
-      ]
+      ],
+      "active_from": "2025-07-16",
+      "active_to": "2026-03-29",
+      "trade_days": 256
     },
     "0xd93db9fc95c19c1eaab854281890e9e77b18ae3f": {
       "address": "0xd93db9fc95c19c1eaab854281890e9e77b18ae3f",
@@ -16303,7 +16564,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2025-11-06",
+      "active_to": "2025-12-28",
+      "trade_days": 52
     },
     "0x6a7a17046df7d3e746ce97d67dc1c6c55e27ce75": {
       "address": "0x6a7a17046df7d3e746ce97d67dc1c6c55e27ce75",
@@ -16348,7 +16612,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2025-09-16",
+      "active_to": "2026-05-11",
+      "trade_days": 237
     },
     "0x4cc390eada38741fe9c77036b7c38537fb5f38ea": {
       "address": "0x4cc390eada38741fe9c77036b7c38537fb5f38ea",
@@ -16401,7 +16668,10 @@
       "pro_score": 0.404,
       "pro_realized": 771354,
       "pro_span_days": 445,
-      "pro_tier": "B"
+      "pro_tier": "B",
+      "active_from": "2024-08-12",
+      "active_to": "2025-10-31",
+      "trade_days": 445
     },
     "0x1f67d79afc8d0e7609ddba6c9b657cc635f69981": {
       "address": "0x1f67d79afc8d0e7609ddba6c9b657cc635f69981",
@@ -16447,7 +16717,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2026-03-06",
+      "active_to": "2026-03-15",
+      "trade_days": 9
     },
     "0x9fb1750da6266a05601855bb62767ebc742707b1": {
       "address": "0x9fb1750da6266a05601855bb62767ebc742707b1",
@@ -16492,7 +16765,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2024-12-16",
+      "active_to": "2026-02-17",
+      "trade_days": 428
     },
     "0x66d3b80a7c6dc33801414dd22cde23f25d3de4d6": {
       "address": "0x66d3b80a7c6dc33801414dd22cde23f25d3de4d6",
@@ -16610,7 +16886,10 @@
       "pro_score": 0.462,
       "pro_realized": 502220,
       "pro_span_days": 470,
-      "pro_tier": "B"
+      "pro_tier": "B",
+      "active_from": "2025-02-10",
+      "active_to": "2026-05-26",
+      "trade_days": 470
     },
     "0xb9eb061e64d32c8e0a6c6992a7dc32a32df9cb74": {
       "address": "0xb9eb061e64d32c8e0a6c6992a7dc32a32df9cb74",
@@ -16655,7 +16934,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2026-04-07",
+      "active_to": "2026-06-02",
+      "trade_days": 56
     },
     "0x3b2e0b95acd47d987c1abdf42967fd82d469bdbb": {
       "address": "0x3b2e0b95acd47d987c1abdf42967fd82d469bdbb",
@@ -16700,7 +16982,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2026-02-27",
+      "active_to": "2026-05-17",
+      "trade_days": 79
     },
     "0x79399dac99daa4a77d2bcd8ef6f5abf5966468e7": {
       "address": "0x79399dac99daa4a77d2bcd8ef6f5abf5966468e7",
@@ -16753,7 +17038,10 @@
       "pro_score": 0.41,
       "pro_realized": 844004,
       "pro_span_days": 541,
-      "pro_tier": "B"
+      "pro_tier": "B",
+      "active_from": "2024-12-14",
+      "active_to": "2026-06-08",
+      "trade_days": 541
     },
     "0x4c7a572ad38aed2c1d33fbfeba7bd69a83ec0e30": {
       "address": "0x4c7a572ad38aed2c1d33fbfeba7bd69a83ec0e30",
@@ -16798,7 +17086,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2024-08-07",
+      "active_to": "2025-06-05",
+      "trade_days": 302
     },
     "0xfb996bd6467d1575d338967415dc0ee72c6037f3": {
       "address": "0xfb996bd6467d1575d338967415dc0ee72c6037f3",
@@ -16843,7 +17134,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2026-03-01",
+      "active_to": "2026-06-04",
+      "trade_days": 95
     },
     "0xa4beb4fbe651b00bc16d472e2e1aa1c26b3d90aa": {
       "address": "0xa4beb4fbe651b00bc16d472e2e1aa1c26b3d90aa",
@@ -16888,7 +17182,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2024-12-16",
+      "active_to": "2025-12-15",
+      "trade_days": 364
     },
     "0xbb9f0315243db63fc34c51f96ad5bb7ce6e275e2": {
       "address": "0xbb9f0315243db63fc34c51f96ad5bb7ce6e275e2",
@@ -16933,7 +17230,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2026-01-02",
+      "active_to": "2026-01-12",
+      "trade_days": 10
     },
     "0xfc783912f9a70a537d9ef23fb230d2c4d32d7e77": {
       "address": "0xfc783912f9a70a537d9ef23fb230d2c4d32d7e77",
@@ -17031,7 +17331,10 @@
       "pro_score": 0.426,
       "pro_realized": 547385,
       "pro_span_days": 237,
-      "pro_tier": "B"
+      "pro_tier": "B",
+      "active_from": "2025-10-20",
+      "active_to": "2026-06-14",
+      "trade_days": 237
     },
     "0x039405fa4636364e6023df1e06b085a462b9cdc9": {
       "address": "0x039405fa4636364e6023df1e06b085a462b9cdc9",
@@ -17076,7 +17379,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2025-09-24",
+      "active_to": "2026-04-28",
+      "trade_days": 216
     },
     "0xd28aec1f84668999fef0d884bd21aeff5fdea225": {
       "address": "0xd28aec1f84668999fef0d884bd21aeff5fdea225",
@@ -17121,7 +17427,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2026-06-06",
+      "active_to": "2026-06-08",
+      "trade_days": 2
     },
     "0x98d0e60828e17d1deba5b3924536909fe1387830": {
       "address": "0x98d0e60828e17d1deba5b3924536909fe1387830",
@@ -17167,7 +17476,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2026-02-25",
+      "active_to": "2026-04-02",
+      "trade_days": 36
     },
     "0x999510ad3dd8c94a6659d6401d983137565283e3": {
       "address": "0x999510ad3dd8c94a6659d6401d983137565283e3",
@@ -17212,7 +17524,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2025-10-05",
+      "active_to": "2026-02-03",
+      "trade_days": 121
     },
     "0xc16b8ddcef47a74c9b76cd28e6834270090d72dd": {
       "address": "0xc16b8ddcef47a74c9b76cd28e6834270090d72dd",
@@ -17303,7 +17618,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2025-07-24",
+      "active_to": "2026-06-10",
+      "trade_days": 321
     },
     "0x25e9e31168d7ec59b0bfd54ebde8f3f6b9b1a5ea": {
       "address": "0x25e9e31168d7ec59b0bfd54ebde8f3f6b9b1a5ea",
@@ -17349,7 +17667,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2026-05-18",
+      "active_to": "2026-05-26",
+      "trade_days": 8
     },
     "0x6ed3c871ac6aae698a9d6e547a5f54873b091e18": {
       "address": "0x6ed3c871ac6aae698a9d6e547a5f54873b091e18",
@@ -17394,7 +17715,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2025-05-23",
+      "active_to": "2026-04-23",
+      "trade_days": 335
     },
     "0xe8d89110c52df4ca33e75e060e3c72dcbf6c8dda": {
       "address": "0xe8d89110c52df4ca33e75e060e3c72dcbf6c8dda",
@@ -17439,7 +17763,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2024-10-29",
+      "active_to": "2026-05-07",
+      "trade_days": 555
     },
     "0x807ddb66768050ee457165ad6d21cc1275a896ac": {
       "address": "0x807ddb66768050ee457165ad6d21cc1275a896ac",
@@ -17492,7 +17819,10 @@
       "pro_score": 0.389,
       "pro_realized": 641213,
       "pro_span_days": 226,
-      "pro_tier": "B"
+      "pro_tier": "B",
+      "active_from": "2025-10-28",
+      "active_to": "2026-06-11",
+      "trade_days": 226
     },
     "0x4b563051258ade30122940b80f575363baa4445b": {
       "address": "0x4b563051258ade30122940b80f575363baa4445b",
@@ -17537,7 +17867,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2026-01-25",
+      "active_to": "2026-06-16",
+      "trade_days": 142
     },
     "0x5049695d6faacffd34f2d24f3f0ff8c64d88f71c": {
       "address": "0x5049695d6faacffd34f2d24f3f0ff8c64d88f71c",
@@ -17590,7 +17923,10 @@
       "pro_score": 0.421,
       "pro_realized": 677972,
       "pro_span_days": 334,
-      "pro_tier": "B"
+      "pro_tier": "B",
+      "active_from": "2025-07-16",
+      "active_to": "2026-06-15",
+      "trade_days": 334
     },
     "0x2c5dc7e67fce4bc252221c46c1cdc7651838b2d8": {
       "address": "0x2c5dc7e67fce4bc252221c46c1cdc7651838b2d8",
@@ -17636,7 +17972,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2026-02-05",
+      "active_to": "2026-06-15",
+      "trade_days": 130
     },
     "0x8383b9a512f1c0e57cd015b076372b2844859e57": {
       "address": "0x8383b9a512f1c0e57cd015b076372b2844859e57",
@@ -17681,7 +18020,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2024-03-18",
+      "active_to": "2026-06-17",
+      "trade_days": 821
     },
     "0x14f5dd7ca3e4ef4aba7431ad10d9dacaf14fd103": {
       "address": "0x14f5dd7ca3e4ef4aba7431ad10d9dacaf14fd103",
@@ -17727,7 +18069,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2024-06-01",
+      "active_to": "2026-06-13",
+      "trade_days": 742
     },
     "0xf890f106fae3d9023c57f9da5911df097edd30eb": {
       "address": "0xf890f106fae3d9023c57f9da5911df097edd30eb",
@@ -17772,7 +18117,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2025-05-27",
+      "active_to": "2026-06-09",
+      "trade_days": 378
     },
     "0x560792118fff004aedfc56f5f1a214cfe9d6acf2": {
       "address": "0x560792118fff004aedfc56f5f1a214cfe9d6acf2",
@@ -17817,7 +18165,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2025-10-16",
+      "active_to": "2026-01-05",
+      "trade_days": 81
     },
     "0x2a246fca547f9a845e67a51c9221d888576eb81c": {
       "address": "0x2a246fca547f9a845e67a51c9221d888576eb81c",
@@ -17862,7 +18213,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2026-01-31",
+      "active_to": "2026-06-05",
+      "trade_days": 125
     },
     "0x1def62ffe2a62d65f649991d7f2199e046a30f72": {
       "address": "0x1def62ffe2a62d65f649991d7f2199e046a30f72",
@@ -17907,7 +18261,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2026-01-24",
+      "active_to": "2026-04-19",
+      "trade_days": 85
     },
     "0x0c9f94de63dfb62f0d4e753fbf61310999ec4718": {
       "address": "0x0c9f94de63dfb62f0d4e753fbf61310999ec4718",
@@ -17952,7 +18309,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2026-01-03",
+      "active_to": "2026-05-27",
+      "trade_days": 144
     },
     "0x9aca58e24ff5845f245e7c2c897fef1bc59b3555": {
       "address": "0x9aca58e24ff5845f245e7c2c897fef1bc59b3555",
@@ -17997,7 +18357,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2026-02-01",
+      "active_to": "2026-06-17",
+      "trade_days": 136
     },
     "0x8eadef1db48d9a682da64d74a69c5ac78d0ee175": {
       "address": "0x8eadef1db48d9a682da64d74a69c5ac78d0ee175",
@@ -18050,7 +18413,10 @@
       "pro_score": 0.518,
       "pro_realized": 1928662,
       "pro_span_days": 213,
-      "pro_tier": "A"
+      "pro_tier": "A",
+      "active_from": "2025-09-13",
+      "active_to": "2026-04-14",
+      "trade_days": 213
     },
     "0xf780adb6ca4a737d2a8def6dd445b0c0276d70e1": {
       "address": "0xf780adb6ca4a737d2a8def6dd445b0c0276d70e1",
@@ -18096,7 +18462,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2025-05-23",
+      "active_to": "2025-07-15",
+      "trade_days": 53
     },
     "0x2373aacf6737fb2344e17175b9c0e1f20c78d9f7": {
       "address": "0x2373aacf6737fb2344e17175b9c0e1f20c78d9f7",
@@ -18231,7 +18600,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2026-05-27",
+      "active_to": "2026-05-30",
+      "trade_days": 3
     },
     "0xd01f0dff786f553f78dfd20803b49bdcc1c2f1d7": {
       "address": "0xd01f0dff786f553f78dfd20803b49bdcc1c2f1d7",
@@ -18276,7 +18648,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2025-08-31",
+      "active_to": "2026-04-14",
+      "trade_days": 226
     },
     "0x2bb45f0411f8f7cd264620fb2b22990d373b8ac5": {
       "address": "0x2bb45f0411f8f7cd264620fb2b22990d373b8ac5",
@@ -18322,7 +18697,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2026-03-10",
+      "active_to": "2026-05-04",
+      "trade_days": 55
     },
     "0xb7fb2b774eb5e2dad9c060fb367acbdc7fa7099b": {
       "address": "0xb7fb2b774eb5e2dad9c060fb367acbdc7fa7099b",
@@ -18367,7 +18745,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2025-08-01",
+      "active_to": "2026-03-05",
+      "trade_days": 216
     },
     "0x0050f3427e5388e9cc458e977bc3444faf015618": {
       "address": "0x0050f3427e5388e9cc458e977bc3444faf015618",
@@ -18412,7 +18793,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2023-11-30",
+      "active_to": "2026-05-23",
+      "trade_days": 905
     },
     "0xf00eabc409c51cf884ec7861cb839524af6afe3d": {
       "address": "0xf00eabc409c51cf884ec7861cb839524af6afe3d",
@@ -18457,7 +18841,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2025-08-26",
+      "active_to": "2026-06-17",
+      "trade_days": 295
     },
     "0x24a44aef48aeb27c7708dabfccda14b41fbf0ae1": {
       "address": "0x24a44aef48aeb27c7708dabfccda14b41fbf0ae1",
@@ -18510,7 +18897,10 @@
       "pro_score": 0.464,
       "pro_realized": 649739,
       "pro_span_days": 731,
-      "pro_tier": "B"
+      "pro_tier": "B",
+      "active_from": "2024-06-15",
+      "active_to": "2026-06-16",
+      "trade_days": 731
     },
     "0x0ed73f6d6f0ad13f3cfd915575390f92e0d49761": {
       "address": "0x0ed73f6d6f0ad13f3cfd915575390f92e0d49761",
@@ -18555,7 +18945,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2026-01-28",
+      "active_to": "2026-03-02",
+      "trade_days": 33
     },
     "0x720c933b5eb30fc37461789ef3264e51f2a7f4af": {
       "address": "0x720c933b5eb30fc37461789ef3264e51f2a7f4af",
@@ -18600,7 +18993,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2025-11-23",
+      "active_to": "2026-05-22",
+      "trade_days": 180
     },
     "0x2322f8e13d25e1c997b060bc5cebc9634f8a895a": {
       "address": "0x2322f8e13d25e1c997b060bc5cebc9634f8a895a",
@@ -18645,7 +19041,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2025-11-29",
+      "active_to": "2026-06-17",
+      "trade_days": 200
     },
     "0xb3b60a1fd4d8241bfd7b285c3560d75135350582": {
       "address": "0xb3b60a1fd4d8241bfd7b285c3560d75135350582",
@@ -18736,7 +19135,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2025-11-14",
+      "active_to": "2026-05-26",
+      "trade_days": 193
     },
     "0xf629d790657e15ae9b51731932a5b63ff20b8b01": {
       "address": "0xf629d790657e15ae9b51731932a5b63ff20b8b01",
@@ -18826,7 +19228,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2026-03-08",
+      "active_to": "2026-04-17",
+      "trade_days": 40
     },
     "0x5cddd9a435aabecbea14d7abe24f546ff24ccb94": {
       "address": "0x5cddd9a435aabecbea14d7abe24f546ff24ccb94",
@@ -18871,7 +19276,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2025-08-25",
+      "active_to": "2026-05-06",
+      "trade_days": 254
     },
     "0x3e6805e8694bb2b717a828c1bfa32df5d6580cc9": {
       "address": "0x3e6805e8694bb2b717a828c1bfa32df5d6580cc9",
@@ -18960,7 +19368,10 @@
       "pro_score": 0.426,
       "pro_realized": 591463,
       "pro_span_days": 867,
-      "pro_tier": "B"
+      "pro_tier": "B",
+      "active_from": "2024-01-31",
+      "active_to": "2026-06-16",
+      "trade_days": 867
     },
     "0xbf55d2d31c193e475d9d52006359f1fe51ecb7ce": {
       "address": "0xbf55d2d31c193e475d9d52006359f1fe51ecb7ce",
@@ -19005,7 +19416,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2025-11-10",
+      "active_to": "2026-02-02",
+      "trade_days": 84
     },
     "0xf2500dbc34617daf22b5186a1bfb9f5f3a33ae13": {
       "address": "0xf2500dbc34617daf22b5186a1bfb9f5f3a33ae13",
@@ -19050,7 +19464,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2026-04-17",
+      "active_to": "2026-06-16",
+      "trade_days": 60
     },
     "0x7ab80d2c05e5ed068454f4a7553047c8d0ff8136": {
       "address": "0x7ab80d2c05e5ed068454f4a7553047c8d0ff8136",
@@ -19096,7 +19513,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2026-05-28",
+      "active_to": "2026-06-08",
+      "trade_days": 11
     },
     "0x6788e111b25a244e7168847fe19bb1456a8398d4": {
       "address": "0x6788e111b25a244e7168847fe19bb1456a8398d4",
@@ -19141,7 +19561,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2025-09-02",
+      "active_to": "2026-04-25",
+      "trade_days": 235
     },
     "0xbd1ea540f5192d75af91a1c94f473cc24da662d5": {
       "address": "0xbd1ea540f5192d75af91a1c94f473cc24da662d5",
@@ -19186,7 +19609,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2025-07-13",
+      "active_to": "2025-11-19",
+      "trade_days": 129
     },
     "0x7786498ffb58bedc6c392a4a40789be5c2da240d": {
       "address": "0x7786498ffb58bedc6c392a4a40789be5c2da240d",
@@ -19231,7 +19657,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2026-03-10",
+      "active_to": "2026-04-03",
+      "trade_days": 24
     },
     "0xbaa18c2073816e6ad58457c6efa53b57ca9aa7ce": {
       "address": "0xbaa18c2073816e6ad58457c6efa53b57ca9aa7ce",
@@ -19367,7 +19796,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2025-11-20",
+      "active_to": "2025-11-25",
+      "trade_days": 5
     },
     "0xbb8d8e9428b4ad06b1f6de7cba830ae13a86bd13": {
       "address": "0xbb8d8e9428b4ad06b1f6de7cba830ae13a86bd13",
@@ -19412,7 +19844,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2026-04-06",
+      "active_to": "2026-06-14",
+      "trade_days": 69
     },
     "0x2c0757702f4897001f16c8cf881a3ddddf9c7494": {
       "address": "0x2c0757702f4897001f16c8cf881a3ddddf9c7494",
@@ -19458,7 +19893,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2026-01-20",
+      "active_to": "2026-04-09",
+      "trade_days": 79
     },
     "0xe4d934cbb071a2067c624c0a716274373a980d18": {
       "address": "0xe4d934cbb071a2067c624c0a716274373a980d18",
@@ -19503,7 +19941,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2025-12-12",
+      "active_to": "2026-06-15",
+      "trade_days": 185
     },
     "0xb190075e8027cc2df5d3b7749e4548fa8e56fa18": {
       "address": "0xb190075e8027cc2df5d3b7749e4548fa8e56fa18",
@@ -19548,7 +19989,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2026-02-10",
+      "active_to": "2026-06-02",
+      "trade_days": 112
     },
     "0x28452e9f6733e73e2b85cefa936cec15ea700bac": {
       "address": "0x28452e9f6733e73e2b85cefa936cec15ea700bac",
@@ -19593,7 +20037,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2026-05-18",
+      "active_to": "2026-06-04",
+      "trade_days": 17
     },
     "0x2290661dd55d8698599f63ea0f9e46b52e1f80d2": {
       "address": "0x2290661dd55d8698599f63ea0f9e46b52e1f80d2",
@@ -19638,7 +20085,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2025-10-11",
+      "active_to": "2026-01-06",
+      "trade_days": 87
     },
     "0xc7e85b25f71a1cf9872c4c74efb6a79c814c72f1": {
       "address": "0xc7e85b25f71a1cf9872c4c74efb6a79c814c72f1",
@@ -19683,7 +20133,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2024-02-09",
+      "active_to": "2026-02-04",
+      "trade_days": 726
     },
     "0x0aac6955688dc1cd3cafd52ebcade334fb1c9c3b": {
       "address": "0x0aac6955688dc1cd3cafd52ebcade334fb1c9c3b",
@@ -19728,7 +20181,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2026-01-20",
+      "active_to": "2026-02-06",
+      "trade_days": 17
     },
     "0x89abe626dc7f010138bc08e0100f1e4e13c30d32": {
       "address": "0x89abe626dc7f010138bc08e0100f1e4e13c30d32",
@@ -19823,7 +20279,10 @@
       "pro_score": 0.642,
       "pro_realized": 2338551,
       "pro_span_days": 474,
-      "pro_tier": "A"
+      "pro_tier": "A",
+      "active_from": "2024-12-04",
+      "active_to": "2026-03-23",
+      "trade_days": 474
     },
     "0x14246f4bbafb87ccebac17609054c6a188ed8cfd": {
       "address": "0x14246f4bbafb87ccebac17609054c6a188ed8cfd",
@@ -19868,7 +20327,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2025-12-20",
+      "active_to": "2026-06-17",
+      "trade_days": 179
     },
     "0x01b7e73cdad95d407e8696e04194a75f19744801": {
       "address": "0x01b7e73cdad95d407e8696e04194a75f19744801",
@@ -19921,7 +20383,10 @@
       "pro_score": 0.427,
       "pro_realized": 646718,
       "pro_span_days": 795,
-      "pro_tier": "B"
+      "pro_tier": "B",
+      "active_from": "2024-04-06",
+      "active_to": "2026-06-10",
+      "trade_days": 795
     },
     "0xf2efcd0bedf771dc63eb655d395c15a9d753550a": {
       "address": "0xf2efcd0bedf771dc63eb655d395c15a9d753550a",
@@ -19966,7 +20431,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2025-09-25",
+      "active_to": "2026-02-06",
+      "trade_days": 134
     },
     "0x077a25d1f579574fe168bbaa924e40c9bfa57ccc": {
       "address": "0x077a25d1f579574fe168bbaa924e40c9bfa57ccc",
@@ -20012,7 +20480,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2025-10-12",
+      "active_to": "2026-06-09",
+      "trade_days": 240
     },
     "0x961fdc9ae7e4558e9c5e05565bc74721e6d32fd0": {
       "address": "0x961fdc9ae7e4558e9c5e05565bc74721e6d32fd0",
@@ -20057,7 +20528,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2025-12-11",
+      "active_to": "2026-06-03",
+      "trade_days": 174
     },
     "0xfdf1e791b257b259d2e2967a0b525d0e777d67fe": {
       "address": "0xfdf1e791b257b259d2e2967a0b525d0e777d67fe",
@@ -20102,7 +20576,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2025-12-13",
+      "active_to": "2026-06-17",
+      "trade_days": 186
     },
     "0x91d7ed568372a4cdd7ee827920839b2073c98287": {
       "address": "0x91d7ed568372a4cdd7ee827920839b2073c98287",
@@ -20147,7 +20624,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2024-11-30",
+      "active_to": "2026-06-15",
+      "trade_days": 562
     },
     "0xf5e7ffe523d0491709958490b4877e1d9de6c6f7": {
       "address": "0xf5e7ffe523d0491709958490b4877e1d9de6c6f7",
@@ -20192,7 +20672,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2025-12-22",
+      "active_to": "2026-06-16",
+      "trade_days": 176
     },
     "0x987163b6b482c30c2f5f3aa2760109668eb0091d": {
       "address": "0x987163b6b482c30c2f5f3aa2760109668eb0091d",
@@ -20237,7 +20720,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2025-01-20",
+      "active_to": "2025-05-27",
+      "trade_days": 127
     },
     "0x6559e0678d8b33de20dacafc36182fb643a9d297": {
       "address": "0x6559e0678d8b33de20dacafc36182fb643a9d297",
@@ -20282,7 +20768,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2026-02-10",
+      "active_to": "2026-06-02",
+      "trade_days": 112
     },
     "0x6e9b20e2ebb0e49a1de161b08413a2a988bd9516": {
       "address": "0x6e9b20e2ebb0e49a1de161b08413a2a988bd9516",
@@ -20373,7 +20862,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2026-01-02",
+      "active_to": "2026-01-30",
+      "trade_days": 28
     },
     "0x83dbc7524ece5a0ce2c8233c93745d6c58cdf50b": {
       "address": "0x83dbc7524ece5a0ce2c8233c93745d6c58cdf50b",
@@ -20418,7 +20910,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2026-05-09",
+      "active_to": "2026-06-17",
+      "trade_days": 39
     },
     "0x8b04b421a9e80a26c4f411a92f17cd3d39798bd5": {
       "address": "0x8b04b421a9e80a26c4f411a92f17cd3d39798bd5",
@@ -20463,7 +20958,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2026-02-23",
+      "active_to": "2026-06-17",
+      "trade_days": 114
     },
     "0x6abc111bd22bb38e649f81be60dfbeb35648aac6": {
       "address": "0x6abc111bd22bb38e649f81be60dfbeb35648aac6",
@@ -20553,7 +21051,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2026-01-13",
+      "active_to": "2026-05-22",
+      "trade_days": 129
     },
     "0x757bb286acc54032172594e2ae11f02442d7c6ea": {
       "address": "0x757bb286acc54032172594e2ae11f02442d7c6ea",
@@ -20598,7 +21099,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2024-12-17",
+      "active_to": "2026-04-30",
+      "trade_days": 499
     },
     "0xdcf8a86ff20b0e42f31d76fa86bb5c6c8992cf4c": {
       "address": "0xdcf8a86ff20b0e42f31d76fa86bb5c6c8992cf4c",
@@ -20643,7 +21147,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2025-07-18",
+      "active_to": "2026-06-09",
+      "trade_days": 326
     },
     "0x81d4163289cf61a0eaaac4862cb88ef0f4215c29": {
       "address": "0x81d4163289cf61a0eaaac4862cb88ef0f4215c29",
@@ -20688,7 +21195,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2026-05-26",
+      "active_to": "2026-06-15",
+      "trade_days": 20
     },
     "0x203f4c410f3c35cead9f35b6de2f66e773d7f26e": {
       "address": "0x203f4c410f3c35cead9f35b6de2f66e773d7f26e",
@@ -20741,7 +21251,10 @@
       "pro_score": 0.819,
       "pro_realized": 4475068,
       "pro_span_days": 341,
-      "pro_tier": "S"
+      "pro_tier": "S",
+      "active_from": "2025-07-06",
+      "active_to": "2026-06-12",
+      "trade_days": 341
     },
     "0xd13552538def5cecc78a20aa2236573f0bee6443": {
       "address": "0xd13552538def5cecc78a20aa2236573f0bee6443",
@@ -20786,7 +21299,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2026-05-18",
+      "active_to": "2026-06-15",
+      "trade_days": 28
     },
     "0x951591a9e0a24ce6607dc73d4c62ba2716a83bea": {
       "address": "0x951591a9e0a24ce6607dc73d4c62ba2716a83bea",
@@ -20831,7 +21347,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2026-04-10",
+      "active_to": "2026-06-06",
+      "trade_days": 57
     },
     "0x32ec8541bb748d7e23d3ec2f24cd06054c13a4ec": {
       "address": "0x32ec8541bb748d7e23d3ec2f24cd06054c13a4ec",
@@ -20876,7 +21395,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2026-03-31",
+      "active_to": "2026-06-16",
+      "trade_days": 77
     },
     "0xd4dc360d08dff0b1117787ba18cc6b0e7221d95d": {
       "address": "0xd4dc360d08dff0b1117787ba18cc6b0e7221d95d",
@@ -20921,7 +21443,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2026-04-14",
+      "active_to": "2026-06-11",
+      "trade_days": 58
     },
     "0x18d103744b0f0bd4ab860f3455a252d20580d6dd": {
       "address": "0x18d103744b0f0bd4ab860f3455a252d20580d6dd",
@@ -20966,7 +21491,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2026-05-06",
+      "active_to": "2026-06-16",
+      "trade_days": 41
     },
     "0x61f2bb695d81ac9fce0b1d01fd45cc6b2925a571": {
       "address": "0x61f2bb695d81ac9fce0b1d01fd45cc6b2925a571",
@@ -21011,7 +21539,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2025-01-19",
+      "active_to": "2026-06-10",
+      "trade_days": 507
     },
     "0x98785f2a43fe32f972476b86ed5a5cfaf5240f00": {
       "address": "0x98785f2a43fe32f972476b86ed5a5cfaf5240f00",
@@ -21056,7 +21587,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2025-02-26",
+      "active_to": "2026-06-17",
+      "trade_days": 476
     },
     "0x7cc0b0049faddc405da8494ac67737975c757480": {
       "address": "0x7cc0b0049faddc405da8494ac67737975c757480",
@@ -21106,7 +21640,10 @@
       "pro_score": 0.401,
       "pro_realized": 562804,
       "pro_span_days": 16,
-      "pro_tier": "B"
+      "pro_tier": "B",
+      "active_from": "2025-11-14",
+      "active_to": "2025-11-30",
+      "trade_days": 16
     },
     "0x3480d3f9b45a5669cb3c7a576b092798fd5db5d8": {
       "address": "0x3480d3f9b45a5669cb3c7a576b092798fd5db5d8",
@@ -21241,7 +21778,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2025-11-16",
+      "active_to": "2026-06-12",
+      "trade_days": 208
     },
     "0x64f4e14a603a6383f459e16f4781a6b30611dfb8": {
       "address": "0x64f4e14a603a6383f459e16f4781a6b30611dfb8",
@@ -21286,7 +21826,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2025-02-21",
+      "active_to": "2026-06-14",
+      "trade_days": 478
     },
     "0xa3099587930a877e75ff4084c7b22505b72c2eca": {
       "address": "0xa3099587930a877e75ff4084c7b22505b72c2eca",
@@ -21331,7 +21874,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2025-06-13",
+      "active_to": "2026-06-05",
+      "trade_days": 357
     },
     "0x80bcb08c54bbd5abb37528425b1f8ad2507c9b62": {
       "address": "0x80bcb08c54bbd5abb37528425b1f8ad2507c9b62",
@@ -21376,7 +21922,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2026-02-21",
+      "active_to": "2026-06-17",
+      "trade_days": 116
     },
     "0x7f1e97d8eb3ddb8659cb59d611becc438f89b7a2": {
       "address": "0x7f1e97d8eb3ddb8659cb59d611becc438f89b7a2",
@@ -21421,7 +21970,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2025-10-31",
+      "active_to": "2026-06-17",
+      "trade_days": 229
     },
     "0xef91b28f5763b49812f39154d0db15a01ca1506a": {
       "address": "0xef91b28f5763b49812f39154d0db15a01ca1506a",
@@ -21466,7 +22018,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2025-08-26",
+      "active_to": "2026-06-03",
+      "trade_days": 281
     },
     "0x61b6cfd715d70df1b1822763639e75a575a23c12": {
       "address": "0x61b6cfd715d70df1b1822763639e75a575a23c12",
@@ -21511,7 +22066,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2026-04-02",
+      "active_to": "2026-06-15",
+      "trade_days": 74
     },
     "0x814115ba7215324b68c67f6b2cae7a65a7e51c71": {
       "address": "0x814115ba7215324b68c67f6b2cae7a65a7e51c71",
@@ -21556,7 +22114,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2026-04-21",
+      "active_to": "2026-06-11",
+      "trade_days": 51
     },
     "0xcdf68bda82c7f75bd7e1bd3991848b65fd2830b9": {
       "address": "0xcdf68bda82c7f75bd7e1bd3991848b65fd2830b9",
@@ -21601,7 +22162,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2025-12-20",
+      "active_to": "2026-04-25",
+      "trade_days": 126
     },
     "0x2b8cd26e88fa42a9cd9cc08782c51571781ffde0": {
       "address": "0x2b8cd26e88fa42a9cd9cc08782c51571781ffde0",
@@ -21647,7 +22211,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2025-07-16",
+      "active_to": "2026-06-09",
+      "trade_days": 328
     },
     "0x15f970a5fa4791dbe4fc3adea6d41e87e5fac6ff": {
       "address": "0x15f970a5fa4791dbe4fc3adea6d41e87e5fac6ff",
@@ -21692,7 +22259,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2024-12-21",
+      "active_to": "2025-01-13",
+      "trade_days": 23
     },
     "0xcc89d2eb1f307e56f7c79a5f0a3384be6656bd41": {
       "address": "0xcc89d2eb1f307e56f7c79a5f0a3384be6656bd41",
@@ -21737,7 +22307,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2025-09-28",
+      "active_to": "2025-09-29",
+      "trade_days": 1
     },
     "0x5b53358eca5790fa4c268ad6813386b3a86549c7": {
       "address": "0x5b53358eca5790fa4c268ad6813386b3a86549c7",
@@ -21782,7 +22355,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2024-12-06",
+      "active_to": "2025-08-26",
+      "trade_days": 263
     },
     "0xe744478d5071666eb6572dcf4d99609a511335f0": {
       "address": "0xe744478d5071666eb6572dcf4d99609a511335f0",
@@ -21827,7 +22403,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2026-01-25",
+      "active_to": "2026-02-24",
+      "trade_days": 30
     },
     "0x7c6b383a03aea03b3d29685d983f27835303a6bd": {
       "address": "0x7c6b383a03aea03b3d29685d983f27835303a6bd",
@@ -21918,7 +22497,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2026-05-12",
+      "active_to": "2026-06-08",
+      "trade_days": 27
     },
     "0xb56a8e43ac07b1b84d14657e0135e4fb196858a6": {
       "address": "0xb56a8e43ac07b1b84d14657e0135e4fb196858a6",
@@ -21963,7 +22545,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2025-09-20",
+      "active_to": "2026-03-05",
+      "trade_days": 166
     },
     "0x3c868417d2981ef278b8a01011487d7e80aee547": {
       "address": "0x3c868417d2981ef278b8a01011487d7e80aee547",
@@ -22008,7 +22593,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2026-02-22",
+      "active_to": "2026-06-16",
+      "trade_days": 114
     },
     "0x8eb3f4d468a9763ee66ceb63a0c64b7044c2aa2d": {
       "address": "0x8eb3f4d468a9763ee66ceb63a0c64b7044c2aa2d",
@@ -22053,7 +22641,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2025-08-14",
+      "active_to": "2026-06-14",
+      "trade_days": 304
     },
     "0x0131f07e8d7fc4bceed532120e08fa591a9af04f": {
       "address": "0x0131f07e8d7fc4bceed532120e08fa591a9af04f",
@@ -22098,7 +22689,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2025-12-08",
+      "active_to": "2026-06-12",
+      "trade_days": 186
     },
     "0x13f210c8baf5f5dbaff3e917e2e5a49e73bbaf12": {
       "address": "0x13f210c8baf5f5dbaff3e917e2e5a49e73bbaf12",
@@ -22143,7 +22737,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2024-12-02",
+      "active_to": "2026-06-16",
+      "trade_days": 561
     },
     "0x28aeeb67c9fb44f9c693011f6fc7df90b276bcb0": {
       "address": "0x28aeeb67c9fb44f9c693011f6fc7df90b276bcb0",
@@ -22188,7 +22785,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2025-07-13",
+      "active_to": "2026-06-16",
+      "trade_days": 338
     },
     "0x68cd0d2bf68e54ea2d3feb090ff6683a99a0eec2": {
       "address": "0x68cd0d2bf68e54ea2d3feb090ff6683a99a0eec2",
@@ -22233,7 +22833,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2024-02-13",
+      "active_to": "2026-06-02",
+      "trade_days": 840
     },
     "0x848aa08a594a14664685e7bbb3a00e38faba4f2f": {
       "address": "0x848aa08a594a14664685e7bbb3a00e38faba4f2f",
@@ -22278,7 +22881,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2025-09-04",
+      "active_to": "2026-04-13",
+      "trade_days": 221
     },
     "0x66f463866512fc337c89bad2032acbe38ee38836": {
       "address": "0x66f463866512fc337c89bad2032acbe38ee38836",
@@ -22323,7 +22929,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2026-04-16",
+      "active_to": "2026-05-08",
+      "trade_days": 22
     },
     "0x02e4cc8575e3b493f04e924e2c775009b22f5955": {
       "address": "0x02e4cc8575e3b493f04e924e2c775009b22f5955",
@@ -22368,7 +22977,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2025-06-14",
+      "active_to": "2025-08-22",
+      "trade_days": 69
     },
     "0x42ebc2303c4abba1ad1e47335a69bf053d19fb54": {
       "address": "0x42ebc2303c4abba1ad1e47335a69bf053d19fb54",
@@ -22458,7 +23070,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2026-01-30",
+      "active_to": "2026-02-03",
+      "trade_days": 4
     },
     "0xe6c7b3e0d89dd56a0677bc23a023bd47d39fb921": {
       "address": "0xe6c7b3e0d89dd56a0677bc23a023bd47d39fb921",
@@ -22548,7 +23163,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2025-08-09",
+      "active_to": "2026-06-16",
+      "trade_days": 311
     },
     "0x0c6486974e303247c2e3f67ee110ac3576359107": {
       "address": "0x0c6486974e303247c2e3f67ee110ac3576359107",
@@ -22593,7 +23211,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2025-03-10",
+      "active_to": "2025-12-29",
+      "trade_days": 294
     },
     "0x093f2e026bf3d52f5ba02306976255782ffbf712": {
       "address": "0x093f2e026bf3d52f5ba02306976255782ffbf712",
@@ -22639,7 +23260,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2026-06-08",
+      "active_to": "2026-06-16",
+      "trade_days": 8
     },
     "0x926fa6d5a99ca62b5839bc40bb4a4a5c72387725": {
       "address": "0x926fa6d5a99ca62b5839bc40bb4a4a5c72387725",
@@ -22684,7 +23308,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2026-02-12",
+      "active_to": "2026-06-17",
+      "trade_days": 125
     },
     "0xe80e36c38c1501609bb9af550238a1c5a09acfd3": {
       "address": "0xe80e36c38c1501609bb9af550238a1c5a09acfd3",
@@ -22729,7 +23356,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2026-05-27",
+      "active_to": "2026-06-17",
+      "trade_days": 21
     },
     "0xe8ebbc2d657980f8ed2140cee96a76327cb763b7": {
       "address": "0xe8ebbc2d657980f8ed2140cee96a76327cb763b7",
@@ -22774,7 +23404,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2025-12-28",
+      "active_to": "2026-06-17",
+      "trade_days": 171
     },
     "0xc28e23e7d7d6cc0c9c6f08146c71e7d168cae45a": {
       "address": "0xc28e23e7d7d6cc0c9c6f08146c71e7d168cae45a",
@@ -22820,7 +23453,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2023-07-27",
+      "active_to": "2026-06-17",
+      "trade_days": 1056
     },
     "0x2fb99ce9a27a742604e16eb09921a3518e2e80b4": {
       "address": "0x2fb99ce9a27a742604e16eb09921a3518e2e80b4",
@@ -22865,7 +23501,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2025-11-27",
+      "active_to": "2026-03-24",
+      "trade_days": 117
     },
     "0x7bedd1556856ee82d0c11ea82c4825c7a7b046f3": {
       "address": "0x7bedd1556856ee82d0c11ea82c4825c7a7b046f3",
@@ -22955,7 +23594,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2026-05-26",
+      "active_to": "2026-06-17",
+      "trade_days": 22
     },
     "0xa3fc7e0b7571ccf00820307321b044019aeb062a": {
       "address": "0xa3fc7e0b7571ccf00820307321b044019aeb062a",
@@ -23000,7 +23642,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2026-02-05",
+      "active_to": "2026-06-17",
+      "trade_days": 132
     },
     "0xa92fb6ddcfa8c71d2cc9dc2c6e141dcd385397fc": {
       "address": "0xa92fb6ddcfa8c71d2cc9dc2c6e141dcd385397fc",
@@ -23045,7 +23690,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2026-04-24",
+      "active_to": "2026-04-27",
+      "trade_days": 3
     },
     "0x1e921e6c998c7dff155c8792937d1ae622ce08fd": {
       "address": "0x1e921e6c998c7dff155c8792937d1ae622ce08fd",
@@ -23090,7 +23738,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2026-04-27",
+      "active_to": "2026-06-07",
+      "trade_days": 41
     },
     "0x1e0930b5c4de5086a8604d6ad8b22521ab365917": {
       "address": "0x1e0930b5c4de5086a8604d6ad8b22521ab365917",
@@ -23135,7 +23786,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2026-02-25",
+      "active_to": "2026-05-23",
+      "trade_days": 87
     },
     "0xe1b2155b8fbc16c1146d5d16247896f06f68686e": {
       "address": "0xe1b2155b8fbc16c1146d5d16247896f06f68686e",
@@ -23180,7 +23834,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2026-02-22",
+      "active_to": "2026-06-17",
+      "trade_days": 115
     },
     "0xb2152c5b6a4667d2e26abd0fc843ef920e758289": {
       "address": "0xb2152c5b6a4667d2e26abd0fc843ef920e758289",
@@ -23225,7 +23882,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2026-02-05",
+      "active_to": "2026-06-04",
+      "trade_days": 119
     },
     "0xca73bbd800aaba3cad7560596b2734f300cd5a6a": {
       "address": "0xca73bbd800aaba3cad7560596b2734f300cd5a6a",
@@ -23270,7 +23930,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2026-03-10",
+      "active_to": "2026-06-12",
+      "trade_days": 94
     },
     "0x814dc3c5b4e37c26aaae994e10f5cba6eb10bcba": {
       "address": "0x814dc3c5b4e37c26aaae994e10f5cba6eb10bcba",
@@ -23315,7 +23978,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2026-03-18",
+      "active_to": "2026-06-05",
+      "trade_days": 79
     },
     "0x70875c76b1219a5e03ea43881a2e90faade89fc9": {
       "address": "0x70875c76b1219a5e03ea43881a2e90faade89fc9",
@@ -23360,7 +24026,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2025-11-04",
+      "active_to": "2026-03-14",
+      "trade_days": 130
     },
     "0x8ff1d5d5e2df31a4139662f4beae247ad8ccab24": {
       "address": "0x8ff1d5d5e2df31a4139662f4beae247ad8ccab24",
@@ -23405,7 +24074,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2025-12-10",
+      "active_to": "2026-05-03",
+      "trade_days": 144
     },
     "0x3e1992da09489b64c35685ba407bbd9b110565e0": {
       "address": "0x3e1992da09489b64c35685ba407bbd9b110565e0",
@@ -23450,7 +24122,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2025-04-22",
+      "active_to": "2026-03-24",
+      "trade_days": 336
     },
     "0x7cff6e8eec63aaf0685ebd51c6157c5f53fdf5e6": {
       "address": "0x7cff6e8eec63aaf0685ebd51c6157c5f53fdf5e6",
@@ -23495,7 +24170,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2025-05-22",
+      "active_to": "2026-05-14",
+      "trade_days": 357
     },
     "0xe93a3afb65812c48eaf14b4b2599f79fc9c22c44": {
       "address": "0xe93a3afb65812c48eaf14b4b2599f79fc9c22c44",
@@ -23540,7 +24218,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2026-01-29",
+      "active_to": "2026-05-22",
+      "trade_days": 113
     },
     "0xd74916aecd93ca55deb392dfad4c3ae43951ea49": {
       "address": "0xd74916aecd93ca55deb392dfad4c3ae43951ea49",
@@ -23586,7 +24267,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2023-11-09",
+      "active_to": "2026-02-25",
+      "trade_days": 839
     },
     "0xae58db322be15464c1831b29540e42264cff2b23": {
       "address": "0xae58db322be15464c1831b29540e42264cff2b23",
@@ -23631,7 +24315,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2025-08-11",
+      "active_to": "2026-02-12",
+      "trade_days": 185
     },
     "0xf0df0109f728a3c8053ef9ecfbea12b0cb7076ca": {
       "address": "0xf0df0109f728a3c8053ef9ecfbea12b0cb7076ca",
@@ -23676,7 +24363,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2025-11-04",
+      "active_to": "2026-05-17",
+      "trade_days": 194
     },
     "0xa9c3d444f0a94ae2ae24363d4bd38c3e7ee282ea": {
       "address": "0xa9c3d444f0a94ae2ae24363d4bd38c3e7ee282ea",
@@ -23721,7 +24411,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2024-03-17",
+      "active_to": "2024-03-17",
+      "trade_days": 1
     },
     "0xe767b3177c141dee02c20df876a5d65ce0ed6572": {
       "address": "0xe767b3177c141dee02c20df876a5d65ce0ed6572",
@@ -23811,7 +24504,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2025-06-28",
+      "active_to": "2026-06-17",
+      "trade_days": 354
     },
     "0xd9e391abe558d10f7b9e5b99f3dd61cc37921782": {
       "address": "0xd9e391abe558d10f7b9e5b99f3dd61cc37921782",
@@ -23856,7 +24552,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2025-06-10",
+      "active_to": "2026-04-07",
+      "trade_days": 301
     },
     "0xdd539d21ad8dca18566086d6b265dc86a82e0caa": {
       "address": "0xdd539d21ad8dca18566086d6b265dc86a82e0caa",
@@ -23901,7 +24600,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2026-04-21",
+      "active_to": "2026-06-11",
+      "trade_days": 51
     },
     "0xfd5e31ef58f79ea6e5cd813d0ad1ec66c58c7971": {
       "address": "0xfd5e31ef58f79ea6e5cd813d0ad1ec66c58c7971",
@@ -23946,7 +24648,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2026-02-02",
+      "active_to": "2026-02-24",
+      "trade_days": 22
     },
     "0xf25bc953a6709cc21d6f6611c9feecb493e77dbe": {
       "address": "0xf25bc953a6709cc21d6f6611c9feecb493e77dbe",
@@ -23991,7 +24696,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2024-01-13",
+      "active_to": "2025-10-12",
+      "trade_days": 638
     },
     "0x0a8f51187b63a59f0f578c946675fe3be473d537": {
       "address": "0x0a8f51187b63a59f0f578c946675fe3be473d537",
@@ -24036,7 +24744,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2026-02-27",
+      "active_to": "2026-06-05",
+      "trade_days": 98
     },
     "0x55e9992303ab95f824a194793d030b5991709b8d": {
       "address": "0x55e9992303ab95f824a194793d030b5991709b8d",
@@ -24081,7 +24792,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2025-06-25",
+      "active_to": "2026-02-05",
+      "trade_days": 225
     },
     "0xd383165100047d9b3691eebcbb490f481f6ada2c": {
       "address": "0xd383165100047d9b3691eebcbb490f481f6ada2c",
@@ -24126,7 +24840,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2025-09-01",
+      "active_to": "2026-02-03",
+      "trade_days": 155
     },
     "0x984f6a8aa8584dde8f1fa9b240b09f4df3ac25e5": {
       "address": "0x984f6a8aa8584dde8f1fa9b240b09f4df3ac25e5",
@@ -24171,7 +24888,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2025-10-01",
+      "active_to": "2026-06-14",
+      "trade_days": 256
     },
     "0xdc598915480f5168cded700b837e4fdecfc4d3b7": {
       "address": "0xdc598915480f5168cded700b837e4fdecfc4d3b7",
@@ -24216,7 +24936,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2026-02-10",
+      "active_to": "2026-04-05",
+      "trade_days": 54
     },
     "0x67f053dc9f2d8d642615bd870719068a9978662b": {
       "address": "0x67f053dc9f2d8d642615bd870719068a9978662b",
@@ -24261,7 +24984,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2025-10-11",
+      "active_to": "2026-06-04",
+      "trade_days": 236
     },
     "0xb3b60225e0b7806793bc9379209d93979f686b77": {
       "address": "0xb3b60225e0b7806793bc9379209d93979f686b77",
@@ -24306,7 +25032,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2026-01-18",
+      "active_to": "2026-06-12",
+      "trade_days": 145
     },
     "0x43d271c17612f8f431c7533b7827993e203e9e83": {
       "address": "0x43d271c17612f8f431c7533b7827993e203e9e83",
@@ -24351,7 +25080,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2025-01-08",
+      "active_to": "2026-06-15",
+      "trade_days": 523
     },
     "0x6d15b96f2e0355f4f636635b29b169625964d374": {
       "address": "0x6d15b96f2e0355f4f636635b29b169625964d374",
@@ -24396,7 +25128,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2025-07-18",
+      "active_to": "2026-06-11",
+      "trade_days": 328
     },
     "0x8bd30fc805e672e1d978138ecbedcb48479ce275": {
       "address": "0x8bd30fc805e672e1d978138ecbedcb48479ce275",
@@ -24441,7 +25176,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2026-06-10",
+      "active_to": "2026-06-12",
+      "trade_days": 2
     },
     "0x2c6e17b561a7e01c2e8904590125bf049697bc51": {
       "address": "0x2c6e17b561a7e01c2e8904590125bf049697bc51",
@@ -24576,7 +25314,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2026-01-05",
+      "active_to": "2026-06-16",
+      "trade_days": 162
     },
     "0xdfee2d4f729723aed67eed4bfb7a998dbb4294c0": {
       "address": "0xdfee2d4f729723aed67eed4bfb7a998dbb4294c0",
@@ -24621,7 +25362,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2025-08-19",
+      "active_to": "2026-06-15",
+      "trade_days": 300
     },
     "0x1174c19e08d5dbf3444c6376d6583b2d4f91cb65": {
       "address": "0x1174c19e08d5dbf3444c6376d6583b2d4f91cb65",
@@ -24666,7 +25410,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2026-03-04",
+      "active_to": "2026-06-14",
+      "trade_days": 102
     },
     "0xeb47e64c3d12add1a175517619ede29fbc4a9f1d": {
       "address": "0xeb47e64c3d12add1a175517619ede29fbc4a9f1d",
@@ -24711,7 +25458,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2024-03-05",
+      "active_to": "2026-06-05",
+      "trade_days": 822
     },
     "0x35c60b52f146d971f2d7ed456c8f3d4893682a92": {
       "address": "0x35c60b52f146d971f2d7ed456c8f3d4893682a92",
@@ -24756,7 +25506,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2025-06-21",
+      "active_to": "2026-01-12",
+      "trade_days": 205
     },
     "0xf94b346387ae5f1ae84bf10e36008cb552ca82d5": {
       "address": "0xf94b346387ae5f1ae84bf10e36008cb552ca82d5",
@@ -24802,7 +25555,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2024-04-20",
+      "active_to": "2025-10-20",
+      "trade_days": 548
     },
     "0x37c863a6573e1ca327716e69ece305268b160098": {
       "address": "0x37c863a6573e1ca327716e69ece305268b160098",
@@ -24847,7 +25603,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2025-06-10",
+      "active_to": "2025-10-24",
+      "trade_days": 136
     },
     "0x3a8b43ed08e1997e27adb7063d97551dabb53f48": {
       "address": "0x3a8b43ed08e1997e27adb7063d97551dabb53f48",
@@ -24892,7 +25651,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2025-03-17",
+      "active_to": "2026-02-05",
+      "trade_days": 325
     },
     "0xa7e5acf5d7e5d50389cec5932e2751b7956f14ae": {
       "address": "0xa7e5acf5d7e5d50389cec5932e2751b7956f14ae",
@@ -24937,7 +25699,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2025-04-03",
+      "active_to": "2026-06-11",
+      "trade_days": 434
     },
     "0x449c736640a876685819c021896fe2e905906997": {
       "address": "0x449c736640a876685819c021896fe2e905906997",
@@ -24982,7 +25747,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2024-03-02",
+      "active_to": "2026-06-06",
+      "trade_days": 826
     },
     "0x4221ae35dd1c468fea6fa034ffcd6360100f0eaa": {
       "address": "0x4221ae35dd1c468fea6fa034ffcd6360100f0eaa",
@@ -25072,7 +25840,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2026-01-14",
+      "active_to": "2026-06-07",
+      "trade_days": 144
     },
     "0x34c6d41c5f78f7ccdf1b05ef7cb7c868ac5a6b0c": {
       "address": "0x34c6d41c5f78f7ccdf1b05ef7cb7c868ac5a6b0c",
@@ -25117,7 +25888,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2025-08-16",
+      "active_to": "2026-06-15",
+      "trade_days": 303
     },
     "0xdc5289909be4f3ce2604806bdd1448fd307f19f5": {
       "address": "0xdc5289909be4f3ce2604806bdd1448fd307f19f5",
@@ -25162,7 +25936,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2025-10-17",
+      "active_to": "2026-06-11",
+      "trade_days": 237
     },
     "0x71f060a388589f2917df5e6b79a1e43baad1b611": {
       "address": "0x71f060a388589f2917df5e6b79a1e43baad1b611",
@@ -25207,7 +25984,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2025-01-13",
+      "active_to": "2025-10-24",
+      "trade_days": 284
     },
     "0x221284041f07f1e9af30beadbd08bb14f5e5838c": {
       "address": "0x221284041f07f1e9af30beadbd08bb14f5e5838c",
@@ -25252,7 +26032,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2025-05-22",
+      "active_to": "2026-02-08",
+      "trade_days": 262
     },
     "0xb4eac34db4f9d1270d078495d367cb2e587cf6e8": {
       "address": "0xb4eac34db4f9d1270d078495d367cb2e587cf6e8",
@@ -25297,7 +26080,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2025-02-17",
+      "active_to": "2026-06-12",
+      "trade_days": 480
     },
     "0x5d8265f9f86d0b354d24ce76146aa7b6054001f8": {
       "address": "0x5d8265f9f86d0b354d24ce76146aa7b6054001f8",
@@ -25342,7 +26128,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2026-04-10",
+      "active_to": "2026-06-03",
+      "trade_days": 54
     },
     "0x19f5c3bc2e0978d9a1da389d7d4cfe33cd770fe9": {
       "address": "0x19f5c3bc2e0978d9a1da389d7d4cfe33cd770fe9",
@@ -25486,7 +26275,10 @@
       "pro_score": 0.438,
       "pro_realized": 674231,
       "pro_span_days": 227,
-      "pro_tier": "B"
+      "pro_tier": "B",
+      "active_from": "2025-06-02",
+      "active_to": "2026-01-15",
+      "trade_days": 227
     },
     "0x0949d8893c5a82030ad361499377a7d4f30af52a": {
       "address": "0x0949d8893c5a82030ad361499377a7d4f30af52a",
@@ -25531,7 +26323,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2025-08-25",
+      "active_to": "2025-08-28",
+      "trade_days": 3
     },
     "0x3999dfa662fd548950bbcb7d9fabedeba39456e6": {
       "address": "0x3999dfa662fd548950bbcb7d9fabedeba39456e6",
@@ -25576,7 +26371,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2025-02-17",
+      "active_to": "2026-06-01",
+      "trade_days": 469
     },
     "0x36e6dab460411e402aed071915a21f5c2ff9f223": {
       "address": "0x36e6dab460411e402aed071915a21f5c2ff9f223",
@@ -25622,7 +26420,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2025-08-28",
+      "active_to": "2026-06-17",
+      "trade_days": 293
     },
     "0x9d1792626cc8bfb29acc7e5e7a2f706bb6ada290": {
       "address": "0x9d1792626cc8bfb29acc7e5e7a2f706bb6ada290",
@@ -25667,7 +26468,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2026-01-13",
+      "active_to": "2026-06-15",
+      "trade_days": 153
     },
     "0x34995bfb8fd6f45c55644a9255cd52618f299824": {
       "address": "0x34995bfb8fd6f45c55644a9255cd52618f299824",
@@ -25712,7 +26516,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2026-03-08",
+      "active_to": "2026-06-05",
+      "trade_days": 89
     },
     "0x0e6abb13a3729084be6e2a097e390ad7af28c5cf": {
       "address": "0x0e6abb13a3729084be6e2a097e390ad7af28c5cf",
@@ -25757,7 +26564,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2026-04-07",
+      "active_to": "2026-06-01",
+      "trade_days": 55
     },
     "0x7177edd4e52e01f5f78093a8834529c31424c621": {
       "address": "0x7177edd4e52e01f5f78093a8834529c31424c621",
@@ -25803,7 +26613,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2026-06-07",
+      "active_to": "2026-06-16",
+      "trade_days": 9
     },
     "0x18b9beef58b9025a394a46fd8124ee1d917d8b3e": {
       "address": "0x18b9beef58b9025a394a46fd8124ee1d917d8b3e",
@@ -25848,7 +26661,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2025-10-01",
+      "active_to": "2026-06-12",
+      "trade_days": 254
     },
     "0x43266d5bc6f38e2744ca3fc47ddf1cb3db167cb3": {
       "address": "0x43266d5bc6f38e2744ca3fc47ddf1cb3db167cb3",
@@ -25893,7 +26709,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2026-03-10",
+      "active_to": "2026-03-12",
+      "trade_days": 2
     },
     "0x774f28fc243d6aa8787506869643fb4698bd2133": {
       "address": "0x774f28fc243d6aa8787506869643fb4698bd2133",
@@ -25983,7 +26802,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2026-02-04",
+      "active_to": "2026-02-25",
+      "trade_days": 21
     },
     "0xd91f2df982c453b23a37d16a2e5bd8964fda7ad6": {
       "address": "0xd91f2df982c453b23a37d16a2e5bd8964fda7ad6",
@@ -26028,7 +26850,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2025-05-23",
+      "active_to": "2026-06-13",
+      "trade_days": 386
     },
     "0xeeaf4055e581dae6a4eaea0a66181ecb207787f1": {
       "address": "0xeeaf4055e581dae6a4eaea0a66181ecb207787f1",
@@ -26073,7 +26898,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2025-07-15",
+      "active_to": "2026-06-15",
+      "trade_days": 335
     },
     "0x1829a38feae3c109b12684021cf5af37f55d5c47": {
       "address": "0x1829a38feae3c109b12684021cf5af37f55d5c47",
@@ -26118,7 +26946,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2026-05-18",
+      "active_to": "2026-06-16",
+      "trade_days": 29
     },
     "0x37cdea0c9af695a5629a75e28a20724a98147918": {
       "address": "0x37cdea0c9af695a5629a75e28a20724a98147918",
@@ -26163,7 +26994,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2025-10-22",
+      "active_to": "2026-06-06",
+      "trade_days": 227
     },
     "0xefe3e45503bd838fa08594906b0906d252701cfe": {
       "address": "0xefe3e45503bd838fa08594906b0906d252701cfe",
@@ -26208,7 +27042,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2025-07-19",
+      "active_to": "2026-05-29",
+      "trade_days": 314
     },
     "0x33d68bcb87103a7e2bef224d44d62a0da08a0293": {
       "address": "0x33d68bcb87103a7e2bef224d44d62a0da08a0293",
@@ -26253,7 +27090,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2025-07-21",
+      "active_to": "2026-04-14",
+      "trade_days": 267
     },
     "0x8b6f7fbe7c49a1e52e5b68035965f49a82d32ccf": {
       "address": "0x8b6f7fbe7c49a1e52e5b68035965f49a82d32ccf",
@@ -26298,7 +27138,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2026-05-18",
+      "active_to": "2026-06-15",
+      "trade_days": 28
     },
     "0xf9d4f4892f9c9a4ddf939166c592efb9be365e91": {
       "address": "0xf9d4f4892f9c9a4ddf939166c592efb9be365e91",
@@ -26343,7 +27186,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2025-05-24",
+      "active_to": "2026-01-29",
+      "trade_days": 250
     },
     "0xc9257e15609fd24a2334b991756652fbd52f48b5": {
       "address": "0xc9257e15609fd24a2334b991756652fbd52f48b5",
@@ -26388,7 +27234,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2024-12-22",
+      "active_to": "2026-06-16",
+      "trade_days": 541
     },
     "0xc0c0bf18b2b5cb27dc25054be25f977e0c330393": {
       "address": "0xc0c0bf18b2b5cb27dc25054be25f977e0c330393",
@@ -26433,7 +27282,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2025-09-21",
+      "active_to": "2026-01-04",
+      "trade_days": 105
     },
     "0xd72699df7b670ab92170a82b6373eca0c90d216b": {
       "address": "0xd72699df7b670ab92170a82b6373eca0c90d216b",
@@ -26478,7 +27330,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2025-01-22",
+      "active_to": "2026-04-15",
+      "trade_days": 448
     },
     "0x957dc4212c332bf45fb31e0f1a77436d7ca81d8f": {
       "address": "0x957dc4212c332bf45fb31e0f1a77436d7ca81d8f",
@@ -26523,7 +27378,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2025-08-01",
+      "active_to": "2026-03-04",
+      "trade_days": 215
     },
     "0xae68ba3561e49dde6818a8d78a4570b634759b24": {
       "address": "0xae68ba3561e49dde6818a8d78a4570b634759b24",
@@ -26568,7 +27426,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2025-09-20",
+      "active_to": "2026-01-05",
+      "trade_days": 107
     },
     "0x5c3f8fdc2c99cd27576f36d13446f33c58e67a24": {
       "address": "0x5c3f8fdc2c99cd27576f36d13446f33c58e67a24",
@@ -26613,7 +27474,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2024-03-22",
+      "active_to": "2024-09-26",
+      "trade_days": 188
     },
     "0x0421e0457edddf6940f558042c797587b12ff429": {
       "address": "0x0421e0457edddf6940f558042c797587b12ff429",
@@ -26658,7 +27522,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2026-02-25",
+      "active_to": "2026-03-15",
+      "trade_days": 18
     },
     "0xd51b48fa7b9c4e408aa42eb7ad0b87ce73110d9e": {
       "address": "0xd51b48fa7b9c4e408aa42eb7ad0b87ce73110d9e",
@@ -26748,7 +27615,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2025-07-17",
+      "active_to": "2025-10-07",
+      "trade_days": 82
     },
     "0x197d0b8d520667f6a14ce98215c2f945e6cd3ccc": {
       "address": "0x197d0b8d520667f6a14ce98215c2f945e6cd3ccc",
@@ -26793,7 +27663,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2025-09-11",
+      "active_to": "2026-06-14",
+      "trade_days": 276
     },
     "0x749af60aeddb86cd0aa41e50f546097528ec9cd9": {
       "address": "0x749af60aeddb86cd0aa41e50f546097528ec9cd9",
@@ -26838,7 +27711,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2025-12-24",
+      "active_to": "2026-04-13",
+      "trade_days": 110
     },
     "0xc04451b848a142a26c420d542b259de5c334836c": {
       "address": "0xc04451b848a142a26c420d542b259de5c334836c",
@@ -26883,7 +27759,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2025-04-21",
+      "active_to": "2026-06-17",
+      "trade_days": 422
     },
     "0x8505b64e66e1efd7129eb9b364b2c73abdd01821": {
       "address": "0x8505b64e66e1efd7129eb9b364b2c73abdd01821",
@@ -26928,7 +27807,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2026-03-06",
+      "active_to": "2026-06-15",
+      "trade_days": 101
     },
     "0x936aade0d4d835271c9c11b89880244330864a63": {
       "address": "0x936aade0d4d835271c9c11b89880244330864a63",
@@ -26973,7 +27855,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2024-01-10",
+      "active_to": "2025-08-01",
+      "trade_days": 569
     },
     "0x7dd6af227362f4115e060f39c00791ffcf4230d8": {
       "address": "0x7dd6af227362f4115e060f39c00791ffcf4230d8",
@@ -27018,7 +27903,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2024-03-04",
+      "active_to": "2025-01-27",
+      "trade_days": 329
     },
     "0x435ea5582e97b68468fd1e8472b230037cf38003": {
       "address": "0x435ea5582e97b68468fd1e8472b230037cf38003",
@@ -27153,7 +28041,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2024-12-20",
+      "active_to": "2025-06-01",
+      "trade_days": 163
     },
     "0xfb187eeacb952079b99f1acf6d5e9a97d0c5892f": {
       "address": "0xfb187eeacb952079b99f1acf6d5e9a97d0c5892f",
@@ -27198,7 +28089,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2025-10-01",
+      "active_to": "2025-10-13",
+      "trade_days": 12
     },
     "0x1847dc422b9dea349e8af7d02cb3a136cd81f441": {
       "address": "0x1847dc422b9dea349e8af7d02cb3a136cd81f441",
@@ -27243,7 +28137,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2025-01-31",
+      "active_to": "2026-06-05",
+      "trade_days": 490
     },
     "0x1fd2166beff4b06230f053dd0de8a40cd925ff66": {
       "address": "0x1fd2166beff4b06230f053dd0de8a40cd925ff66",
@@ -27288,7 +28185,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2025-07-10",
+      "active_to": "2026-06-15",
+      "trade_days": 340
     },
     "0x2ed2bdcd9a550564242a8ef31c17a1bff1d5a75d": {
       "address": "0x2ed2bdcd9a550564242a8ef31c17a1bff1d5a75d",
@@ -27333,7 +28233,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2025-07-24",
+      "active_to": "2025-11-03",
+      "trade_days": 102
     },
     "0x7e5198aecb7285e6c4419620685c3950816e780f": {
       "address": "0x7e5198aecb7285e6c4419620685c3950816e780f",
@@ -27378,7 +28281,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2024-08-04",
+      "active_to": "2026-06-16",
+      "trade_days": 681
     },
     "0x3f94463f2921e15350550c5664028711d40d5846": {
       "address": "0x3f94463f2921e15350550c5664028711d40d5846",
@@ -27424,7 +28330,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2024-12-23",
+      "active_to": "2026-03-16",
+      "trade_days": 448
     },
     "0x00e2a26304d5d078593ebf3976168f314e502489": {
       "address": "0x00e2a26304d5d078593ebf3976168f314e502489",
@@ -27515,7 +28424,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2025-04-10",
+      "active_to": "2026-06-16",
+      "trade_days": 432
     },
     "0x019d4248690664e2a87a4aa2a26f83c8e63de7c4": {
       "address": "0x019d4248690664e2a87a4aa2a26f83c8e63de7c4",
@@ -27560,7 +28472,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2025-08-05",
+      "active_to": "2026-06-10",
+      "trade_days": 309
     },
     "0x081ec17d9700ca25f7b9473d068853f4de2764e6": {
       "address": "0x081ec17d9700ca25f7b9473d068853f4de2764e6",
@@ -27605,7 +28520,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2025-07-21",
+      "active_to": "2026-02-23",
+      "trade_days": 217
     },
     "0xc162762278a1d8fa55ee59a07a711f94a9949148": {
       "address": "0xc162762278a1d8fa55ee59a07a711f94a9949148",
@@ -27650,7 +28568,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2025-08-23",
+      "active_to": "2026-06-13",
+      "trade_days": 294
     },
     "0x5c90517b85ae5a59a49072b0ce09e7af4b2b44ce": {
       "address": "0x5c90517b85ae5a59a49072b0ce09e7af4b2b44ce",
@@ -27695,7 +28616,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2025-09-24",
+      "active_to": "2026-06-04",
+      "trade_days": 253
     },
     "0xe41aa443bad860e6b584060cc365b58dc34caf92": {
       "address": "0xe41aa443bad860e6b584060cc365b58dc34caf92",
@@ -27740,7 +28664,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2025-07-11",
+      "active_to": "2026-05-05",
+      "trade_days": 298
     },
     "0x39c7d05e24cf5ee0e24ed687783b55a3b1620e4f": {
       "address": "0x39c7d05e24cf5ee0e24ed687783b55a3b1620e4f",
@@ -27785,7 +28712,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2026-04-28",
+      "active_to": "2026-06-04",
+      "trade_days": 37
     },
     "0x40ebad3d5648f1e542376c0e7152bd4018c9ce35": {
       "address": "0x40ebad3d5648f1e542376c0e7152bd4018c9ce35",
@@ -27830,7 +28760,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2025-03-31",
+      "active_to": "2026-06-10",
+      "trade_days": 436
     },
     "0x1fcfc47ca84bdbf6d3a5e860cee32ecb9427c323": {
       "address": "0x1fcfc47ca84bdbf6d3a5e860cee32ecb9427c323",
@@ -27875,7 +28808,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2025-09-19",
+      "active_to": "2026-01-05",
+      "trade_days": 108
     },
     "0xefacc3909fa29463f44180a4c174359338c72c3a": {
       "address": "0xefacc3909fa29463f44180a4c174359338c72c3a",
@@ -27920,7 +28856,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2025-05-30",
+      "active_to": "2026-04-17",
+      "trade_days": 322
     },
     "0x84990aecbe554193a2ca27b9ad03a02f584c249a": {
       "address": "0x84990aecbe554193a2ca27b9ad03a02f584c249a",
@@ -27965,7 +28904,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2025-07-14",
+      "active_to": "2026-02-15",
+      "trade_days": 216
     },
     "0x5c90ce5f9d84b6011385ae01366c5726c39bf23a": {
       "address": "0x5c90ce5f9d84b6011385ae01366c5726c39bf23a",
@@ -28010,7 +28952,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2024-01-14",
+      "active_to": "2026-06-08",
+      "trade_days": 876
     },
     "0xb38c019835898de512f2c10a7f22432eb6db1484": {
       "address": "0xb38c019835898de512f2c10a7f22432eb6db1484",
@@ -28055,7 +29000,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2024-02-25",
+      "active_to": "2026-06-17",
+      "trade_days": 843
     },
     "0x57da9c7174b5776ce6dd28f1b8a7608ee0f18c61": {
       "address": "0x57da9c7174b5776ce6dd28f1b8a7608ee0f18c61",
@@ -28100,7 +29048,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2026-01-22",
+      "active_to": "2026-02-16",
+      "trade_days": 25
     },
     "0x6581c99e278c12b74e25051a49fd8eda307be75b": {
       "address": "0x6581c99e278c12b74e25051a49fd8eda307be75b",
@@ -28235,7 +29186,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2025-02-24",
+      "active_to": "2026-04-13",
+      "trade_days": 413
     },
     "0x9db82c502472d76742fdd69609dfcc6e01327401": {
       "address": "0x9db82c502472d76742fdd69609dfcc6e01327401",
@@ -28280,7 +29234,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2026-02-12",
+      "active_to": "2026-05-29",
+      "trade_days": 106
     },
     "0xd50557a9b9289bec1893a40655c2a5a7014b7337": {
       "address": "0xd50557a9b9289bec1893a40655c2a5a7014b7337",
@@ -28325,7 +29282,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2026-03-30",
+      "active_to": "2026-05-08",
+      "trade_days": 39
     },
     "0xb90598c673fc368e1ec34fdeda2320b83fa1a6e5": {
       "address": "0xb90598c673fc368e1ec34fdeda2320b83fa1a6e5",
@@ -28370,7 +29330,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2026-03-05",
+      "active_to": "2026-06-17",
+      "trade_days": 104
     },
     "0x6e9989debf991affd8dfe4a73efcbfc8cb658473": {
       "address": "0x6e9989debf991affd8dfe4a73efcbfc8cb658473",
@@ -28415,7 +29378,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2025-06-20",
+      "active_to": "2026-04-27",
+      "trade_days": 311
     },
     "0x0210691ee9444a4b349673e2c791dab920a5e4ea": {
       "address": "0x0210691ee9444a4b349673e2c791dab920a5e4ea",
@@ -28460,7 +29426,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2025-12-30",
+      "active_to": "2026-06-03",
+      "trade_days": 155
     },
     "0xf4bfb4a49a7ec689df9f213f533dd3e1ee828201": {
       "address": "0xf4bfb4a49a7ec689df9f213f533dd3e1ee828201",
@@ -28506,7 +29475,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2024-04-19",
+      "active_to": "2026-01-13",
+      "trade_days": 634
     },
     "0x9d0ea1d445f09d7382440d142571aab2c5f8ba56": {
       "address": "0x9d0ea1d445f09d7382440d142571aab2c5f8ba56",
@@ -28641,7 +29613,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2025-05-22",
+      "active_to": "2026-06-02",
+      "trade_days": 376
     },
     "0xd46979f07f5d1e86ae2dcc5e6e0f3af5fe270471": {
       "address": "0xd46979f07f5d1e86ae2dcc5e6e0f3af5fe270471",
@@ -28686,7 +29661,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2025-09-07",
+      "active_to": "2026-06-15",
+      "trade_days": 281
     },
     "0xe4227d5d418d2a8be327a6470f66837ac9e49fdb": {
       "address": "0xe4227d5d418d2a8be327a6470f66837ac9e49fdb",
@@ -28731,7 +29709,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2026-01-09",
+      "active_to": "2026-05-29",
+      "trade_days": 140
     },
     "0xdc7be236c4b1ee77d16758451a198275ec9839b6": {
       "address": "0xdc7be236c4b1ee77d16758451a198275ec9839b6",
@@ -28776,7 +29757,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2025-08-19",
+      "active_to": "2026-01-31",
+      "trade_days": 165
     },
     "0xac45086d25bdb4e25a9db3ded7ad36d3044e6c33": {
       "address": "0xac45086d25bdb4e25a9db3ded7ad36d3044e6c33",
@@ -28822,7 +29806,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2025-09-22",
+      "active_to": "2026-06-17",
+      "trade_days": 268
     },
     "0x1e6db0fdf1a0f6edb78753184eb0fe5485c2eef2": {
       "address": "0x1e6db0fdf1a0f6edb78753184eb0fe5485c2eef2",
@@ -28875,7 +29862,10 @@
       "pro_score": 0.9,
       "pro_realized": 6015385,
       "pro_span_days": 558,
-      "pro_tier": "S"
+      "pro_tier": "S",
+      "active_from": "2024-11-29",
+      "active_to": "2026-06-10",
+      "trade_days": 558
     },
     "0x55999a9124b976d05a7fd98d414e185d95e9e940": {
       "address": "0x55999a9124b976d05a7fd98d414e185d95e9e940",
@@ -28920,7 +29910,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2025-02-25",
+      "active_to": "2026-02-04",
+      "trade_days": 344
     },
     "0x9ede7d6c60c40755352f9f84e146eb9f0ee25327": {
       "address": "0x9ede7d6c60c40755352f9f84e146eb9f0ee25327",
@@ -28965,7 +29958,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2026-05-11",
+      "active_to": "2026-06-02",
+      "trade_days": 22
     },
     "0x402cf0cac36c6faa342b8379d77111e158fe75d0": {
       "address": "0x402cf0cac36c6faa342b8379d77111e158fe75d0",
@@ -29010,7 +30006,10 @@
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
-      }
+      },
+      "active_from": "2025-05-10",
+      "active_to": "2025-10-10",
+      "trade_days": 153
     },
     "0x74da055d4ccf9dca3f15789c603e1a88a1d2d81f": {
       "address": "0x74da055d4ccf9dca3f15789c603e1a88a1d2d81f",
@@ -29088,7 +30087,10 @@
         }
       ],
       "first_funders": [],
-      "counterparties": []
+      "counterparties": [],
+      "active_from": "2026-01-22",
+      "active_to": "2026-01-30",
+      "trade_days": 8
     },
     "0xbdd243d77a59a3b38d21bf61e78a6ba4702f2bbc": {
       "address": "0xbdd243d77a59a3b38d21bf61e78a6ba4702f2bbc",
@@ -29235,7 +30237,10 @@
           "volume_usd": 0.0,
           "count": 1
         }
-      ]
+      ],
+      "active_from": "2025-12-17",
+      "active_to": "2026-02-25",
+      "trade_days": 70
     },
     "0xb19e03768f72cb1b47fcd68f7fb99460b1e789b9": {
       "address": "0xb19e03768f72cb1b47fcd68f7fb99460b1e789b9",
@@ -29330,7 +30335,10 @@
           "volume_usd": 0.0,
           "count": 1
         }
-      ]
+      ],
+      "active_from": "2025-09-07",
+      "active_to": "2026-01-29",
+      "trade_days": 144
     },
     "0x6f7d75c18e8ca7f486eb4d2690abf7b329087062": {
       "address": "0x6f7d75c18e8ca7f486eb4d2690abf7b329087062",
@@ -29390,7 +30398,10 @@
           "time": "2025-09-21T13:50:04"
         }
       ],
-      "counterparties": []
+      "counterparties": [],
+      "active_from": "2025-09-21",
+      "active_to": "2026-04-01",
+      "trade_days": 192
     },
     "0x4eebd8d39e82efb958e0fa9f694435c910c8518f": {
       "address": "0x4eebd8d39e82efb958e0fa9f694435c910c8518f",
@@ -29427,7 +30438,10 @@
       "pro_score": 0.834,
       "pro_realized": 5802013,
       "pro_span_days": 103,
-      "pro_tier": "S"
+      "pro_tier": "S",
+      "active_from": "2025-10-26",
+      "active_to": "2026-02-06",
+      "trade_days": 103
     },
     "0x8cfe4bc352deb10ed41c5f0f89bc57674cee1e22": {
       "address": "0x8cfe4bc352deb10ed41c5f0f89bc57674cee1e22",
@@ -29464,7 +30478,10 @@
       "pro_score": 0.884,
       "pro_realized": 4809094,
       "pro_span_days": 254,
-      "pro_tier": "S"
+      "pro_tier": "S",
+      "active_from": "2025-07-02",
+      "active_to": "2026-03-13",
+      "trade_days": 254
     },
     "0xd7a678fcf72c1b602850ef2f3e2d668ec41fa0ed": {
       "address": "0xd7a678fcf72c1b602850ef2f3e2d668ec41fa0ed",
@@ -29501,7 +30518,10 @@
       "pro_score": 0.804,
       "pro_realized": 4190469,
       "pro_span_days": 428,
-      "pro_tier": "S"
+      "pro_tier": "S",
+      "active_from": "2024-11-29",
+      "active_to": "2026-01-31",
+      "trade_days": 428
     },
     "0xb632c6580173a16154f17cdafc6eb27e95cf73b7": {
       "address": "0xb632c6580173a16154f17cdafc6eb27e95cf73b7",
@@ -29533,7 +30553,10 @@
         "insider_likelihood": null,
         "avg_hold_h": null
       },
-      "lead_examples": []
+      "lead_examples": [],
+      "active_from": "2025-10-28",
+      "active_to": "2025-11-14",
+      "trade_days": 17
     },
     "0x24eeb5249ce20cfb667e26b463c0ef394588d65f": {
       "address": "0x24eeb5249ce20cfb667e26b463c0ef394588d65f",
@@ -29565,7 +30588,10 @@
         "insider_likelihood": null,
         "avg_hold_h": null
       },
-      "lead_examples": []
+      "lead_examples": [],
+      "active_from": "2024-12-01",
+      "active_to": "2026-02-11",
+      "trade_days": 437
     },
     "0x258886f9a27d38743ab45b8658871a37e2c3f51a": {
       "address": "0x258886f9a27d38743ab45b8658871a37e2c3f51a",
@@ -29602,7 +30628,10 @@
       "pro_score": 0.708,
       "pro_realized": 3359608,
       "pro_span_days": 79,
-      "pro_tier": "S"
+      "pro_tier": "S",
+      "active_from": "2025-11-18",
+      "active_to": "2026-02-05",
+      "trade_days": 79
     },
     "0x41206f8efb51e5039e5b46e04e7866a4849f72d2": {
       "address": "0x41206f8efb51e5039e5b46e04e7866a4849f72d2",
@@ -29639,7 +30668,10 @@
       "pro_score": 0.63,
       "pro_realized": 2154796,
       "pro_span_days": 139,
-      "pro_tier": "A"
+      "pro_tier": "A",
+      "active_from": "2024-12-20",
+      "active_to": "2025-05-08",
+      "trade_days": 139
     },
     "0x6979dde2781dc4ec843641b10b2a2f2e0f4bda62": {
       "address": "0x6979dde2781dc4ec843641b10b2a2f2e0f4bda62",
@@ -29676,7 +30708,10 @@
       "pro_score": 0.617,
       "pro_realized": 1902418,
       "pro_span_days": 242,
-      "pro_tier": "A"
+      "pro_tier": "A",
+      "active_from": "2025-09-30",
+      "active_to": "2026-05-30",
+      "trade_days": 242
     },
     "0xcefd7652228a8619d0af5b95389cd49387cd30e0": {
       "address": "0xcefd7652228a8619d0af5b95389cd49387cd30e0",
@@ -29713,7 +30748,10 @@
       "pro_score": 0.587,
       "pro_realized": 1612233,
       "pro_span_days": 553,
-      "pro_tier": "A"
+      "pro_tier": "A",
+      "active_from": "2024-11-29",
+      "active_to": "2026-06-05",
+      "trade_days": 553
     },
     "0x3b11267dfc4b9ebe8427e8f557056b4b6ce98112": {
       "address": "0x3b11267dfc4b9ebe8427e8f557056b4b6ce98112",
@@ -29750,7 +30788,10 @@
       "pro_score": 0.598,
       "pro_realized": 1448890,
       "pro_span_days": 98,
-      "pro_tier": "A"
+      "pro_tier": "A",
+      "active_from": "2026-02-23",
+      "active_to": "2026-06-01",
+      "trade_days": 98
     },
     "0x5638484ba2d2f1d1d35020572b0aa439a9869192": {
       "address": "0x5638484ba2d2f1d1d35020572b0aa439a9869192",
@@ -29787,7 +30828,10 @@
       "pro_score": 0.574,
       "pro_realized": 1224633,
       "pro_span_days": 709,
-      "pro_tier": "A"
+      "pro_tier": "A",
+      "active_from": "2024-04-16",
+      "active_to": "2026-03-26",
+      "trade_days": 709
     },
     "0x4b4bdd734b87bc48683d24f1dc6159e3ab6d6409": {
       "address": "0x4b4bdd734b87bc48683d24f1dc6159e3ab6d6409",
@@ -29824,7 +30868,10 @@
       "pro_score": 0.509,
       "pro_realized": 1094901,
       "pro_span_days": 124,
-      "pro_tier": "A"
+      "pro_tier": "A",
+      "active_from": "2026-01-28",
+      "active_to": "2026-06-01",
+      "trade_days": 124
     },
     "0x1e5b1efd99c89d39b59b28a19e6b42bbeb98433b": {
       "address": "0x1e5b1efd99c89d39b59b28a19e6b42bbeb98433b",
@@ -29861,7 +30908,10 @@
       "pro_score": 0.421,
       "pro_realized": 1025999,
       "pro_span_days": 122,
-      "pro_tier": "B"
+      "pro_tier": "B",
+      "active_from": "2025-09-30",
+      "active_to": "2026-01-30",
+      "trade_days": 122
     },
     "0x7de07bb8a43c1953a019906cf2c8287dae478be9": {
       "address": "0x7de07bb8a43c1953a019906cf2c8287dae478be9",
@@ -29898,7 +30948,10 @@
       "pro_score": 0.427,
       "pro_realized": 1016230,
       "pro_span_days": 559,
-      "pro_tier": "B"
+      "pro_tier": "B",
+      "active_from": "2024-07-24",
+      "active_to": "2026-02-03",
+      "trade_days": 559
     },
     "0xc604faf510aa5b617c9fb1556d02d6d22c9644be": {
       "address": "0xc604faf510aa5b617c9fb1556d02d6d22c9644be",
@@ -29935,7 +30988,10 @@
       "pro_score": 0.474,
       "pro_realized": 911248,
       "pro_span_days": 226,
-      "pro_tier": "B"
+      "pro_tier": "B",
+      "active_from": "2025-07-31",
+      "active_to": "2026-03-14",
+      "trade_days": 226
     },
     "0x7c9063122c01837fe83da2521056e10c9b6dd129": {
       "address": "0x7c9063122c01837fe83da2521056e10c9b6dd129",
@@ -30036,7 +31092,10 @@
       "pro_score": 0.547,
       "pro_realized": 745231,
       "pro_span_days": 222,
-      "pro_tier": "A"
+      "pro_tier": "A",
+      "active_from": "2025-11-05",
+      "active_to": "2026-06-15",
+      "trade_days": 222
     },
     "0xae551d73161bac3315c5ade0e2d499a44ebe2236": {
       "address": "0xae551d73161bac3315c5ade0e2d499a44ebe2236",
@@ -30073,7 +31132,10 @@
       "pro_score": 0.465,
       "pro_realized": 713720,
       "pro_span_days": 831,
-      "pro_tier": "B"
+      "pro_tier": "B",
+      "active_from": "2024-03-05",
+      "active_to": "2026-06-14",
+      "trade_days": 831
     },
     "0x0d9654172413fa8bcd2f5738a7b2fa6d19864125": {
       "address": "0x0d9654172413fa8bcd2f5738a7b2fa6d19864125",
@@ -30110,7 +31172,10 @@
       "pro_score": 0.493,
       "pro_realized": 710350,
       "pro_span_days": 8,
-      "pro_tier": "B"
+      "pro_tier": "B",
+      "active_from": "2026-02-19",
+      "active_to": "2026-02-27",
+      "trade_days": 8
     },
     "0x9b804150c9a4f6db44ba4fd67704eadb5be360c1": {
       "address": "0x9b804150c9a4f6db44ba4fd67704eadb5be360c1",
@@ -30147,7 +31212,10 @@
       "pro_score": 0.405,
       "pro_realized": 700722,
       "pro_span_days": 1,
-      "pro_tier": "B"
+      "pro_tier": "B",
+      "active_from": "2026-03-07",
+      "active_to": "2026-03-08",
+      "trade_days": 1
     },
     "0xf3362789cecf25c6a31288d172880d7ad9b81801": {
       "address": "0xf3362789cecf25c6a31288d172880d7ad9b81801",
@@ -30184,7 +31252,10 @@
       "pro_score": 0.44,
       "pro_realized": 679129,
       "pro_span_days": 99,
-      "pro_tier": "B"
+      "pro_tier": "B",
+      "active_from": "2026-01-07",
+      "active_to": "2026-04-16",
+      "trade_days": 99
     },
     "0x69b05701f8175c276ecd0138387a197948e240bb": {
       "address": "0x69b05701f8175c276ecd0138387a197948e240bb",
@@ -30241,7 +31312,10 @@
       "pro_score": 0.407,
       "pro_realized": 641300,
       "pro_span_days": 376,
-      "pro_tier": "B"
+      "pro_tier": "B",
+      "active_from": "2025-06-05",
+      "active_to": "2026-06-16",
+      "trade_days": 376
     },
     "0x5198eff88dea32108605bcdb109a99dc397190d8": {
       "address": "0x5198eff88dea32108605bcdb109a99dc397190d8",
@@ -30278,7 +31352,10 @@
       "pro_score": 0.523,
       "pro_realized": 613832,
       "pro_span_days": 142,
-      "pro_tier": "A"
+      "pro_tier": "A",
+      "active_from": "2025-12-12",
+      "active_to": "2026-05-03",
+      "trade_days": 142
     },
     "0xa906355beaf1d69a5fe73ce55899c49c6e67916c": {
       "address": "0xa906355beaf1d69a5fe73ce55899c49c6e67916c",
@@ -30310,7 +31387,10 @@
         "insider_likelihood": null,
         "avg_hold_h": null
       },
-      "lead_examples": []
+      "lead_examples": [],
+      "active_from": "2025-07-26",
+      "active_to": "2025-09-06",
+      "trade_days": 42
     },
     "0xdb79fe310ea2972137d2a23658db0234902b517d": {
       "address": "0xdb79fe310ea2972137d2a23658db0234902b517d",
@@ -30347,7 +31427,10 @@
       "pro_score": 0.393,
       "pro_realized": 551893,
       "pro_span_days": 487,
-      "pro_tier": "B"
+      "pro_tier": "B",
+      "active_from": "2025-01-06",
+      "active_to": "2026-05-08",
+      "trade_days": 487
     },
     "0x8250a7f9fca9c33e68eead8c05c1d58c8fd70d13": {
       "address": "0x8250a7f9fca9c33e68eead8c05c1d58c8fd70d13",
@@ -30409,7 +31492,10 @@
       "pro_score": 0.418,
       "pro_realized": 540966,
       "pro_span_days": 909,
-      "pro_tier": "B"
+      "pro_tier": "B",
+      "active_from": "2023-11-08",
+      "active_to": "2026-05-05",
+      "trade_days": 909
     },
     "0x3adaa1d2d0598c9b661a746649d20e1e8aad9b3a": {
       "address": "0x3adaa1d2d0598c9b661a746649d20e1e8aad9b3a",
@@ -30446,7 +31532,10 @@
       "pro_score": 0.383,
       "pro_realized": 540758,
       "pro_span_days": 54,
-      "pro_tier": "B"
+      "pro_tier": "B",
+      "active_from": "2025-11-21",
+      "active_to": "2026-01-14",
+      "trade_days": 54
     },
     "0x8a48dcaffdf71c547cd0fd0434ae40fa57bcbf0f": {
       "address": "0x8a48dcaffdf71c547cd0fd0434ae40fa57bcbf0f",
@@ -30483,7 +31572,10 @@
       "pro_score": 0.451,
       "pro_realized": 523699,
       "pro_span_days": 483,
-      "pro_tier": "B"
+      "pro_tier": "B",
+      "active_from": "2025-01-21",
+      "active_to": "2026-05-19",
+      "trade_days": 483
     }
   },
   "updated_at": "2026-06-17T16:20:48.785570+00:00"

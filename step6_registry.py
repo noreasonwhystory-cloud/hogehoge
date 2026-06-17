@@ -228,6 +228,13 @@ def render_html(reg, out="registry.html",
         if nf is None:
             nf = (e.get("hl_profile") or {}).get("n_fills_recent")
         nf_disp = f"{nf:,}" if isinstance(nf, (int, float)) else "—"
+        # 取引期間（HLフル履歴の活動範囲）
+        af, at2, td = e.get("active_from"), e.get("active_to"), e.get("trade_days")
+        if af and at2:
+            mo = f"{td//30}ヶ月" if (td and td >= 30) else (f"{td}日" if td else "")
+            period_disp = f"{esc(af)}〜{esc(at2)}<br><span class='muted'>{mo}</span>"
+        else:
+            period_disp = "—"
         # 表示タグ = オートタグ + 手動/クラスタタグ（funder: は冗長なので除外）
         all_tags = list(e.get("auto_tags", [])) + [t for t in e.get("tags", []) if not t.startswith("funder:")]
         tags = "".join(
@@ -263,6 +270,7 @@ def render_html(reg, out="registry.html",
   <td>{esc(f"${cur.get('total_pnl',0):,.0f}" if cur.get('total_pnl') is not None else '-')}</td>
   <td>{roi_disp}</td>
   <td>{nf_disp}</td>
+  <td class="period">{period_disp}</td>
   <td>{esc(cur.get('avg_hold_h'))}</td>
   <td>{tags}</td>
   <td class="seen">{esc(e.get('times_seen'))}回<br><span class="muted">{esc(e.get('first_seen'))}→{esc(e.get('last_seen'))}</span></td>
@@ -349,7 +357,7 @@ code{{background:#0b0f14;padding:1px 4px;border-radius:4px;font-size:11px}}
   <span class="muted" style="font-size:11px;margin-left:8px">※複数選択はAND（すべて満たす行）</span></div>
 </div>
 <table id="reg">
-<tr><th>位置づけ</th><th>濃度</th><th>アドレス</th><th>数値分類</th><th>勝率/的中</th><th>majors損益</th><th>ROI(全期)</th><th>取引数(14日)</th><th>保有h</th><th>タグ</th><th>観測</th><th>多角判定 / 履歴(直近)</th></tr>
+<tr><th>位置づけ</th><th>濃度</th><th>アドレス</th><th>数値分類</th><th>勝率/的中</th><th>majors損益</th><th>ROI(全期)</th><th>取引数(14日)</th><th>取引期間(HL履歴)</th><th>保有h</th><th>タグ</th><th>観測</th><th>多角判定 / 履歴(直近)</th></tr>
 {rows}
 </table>
 <script>
