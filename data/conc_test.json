@@ -1,0 +1,182 @@
+{
+  "generated_at": "2026-06-17T20:38:04.413160+00:00",
+  "wallets": [
+    {
+      "address": "0xefcace57934a753d66c48a31b880ba806d4c0869",
+      "n_trades": 190,
+      "n_wins": 87,
+      "total_realized": 84383,
+      "total_win": 245185,
+      "top1_share": 0.557,
+      "top3_share": 1.272,
+      "top5_share": 1.508,
+      "mean_top_perfect": 0.674,
+      "max_top_perfect": 0.941,
+      "mean_top_fwd": 0.1479,
+      "top_trades": [
+        {
+          "coin": "ETH",
+          "dir": "short",
+          "realized": 47028,
+          "entry_px": 2218.4206,
+          "open_at_end": false,
+          "perfect": 0.941,
+          "entry_pctile": 0.941,
+          "fwd_favorable": 0.3219,
+          "event_date": "2026-05-15 16:46"
+        },
+        {
+          "coin": "BTC",
+          "dir": "short",
+          "realized": 35820,
+          "entry_px": 65912.0,
+          "open_at_end": false,
+          "perfect": 0.838,
+          "entry_pctile": 0.838,
+          "fwd_favorable": 0.1033,
+          "event_date": "2026-06-03 17:51"
+        },
+        {
+          "coin": "ETH",
+          "dir": "long",
+          "realized": 24483,
+          "entry_px": 1815.922,
+          "open_at_end": false,
+          "perfect": 0.244,
+          "entry_pctile": 0.756,
+          "fwd_favorable": 0.0185,
+          "event_date": "2026-06-15 14:46"
+        },
+        {
+          "coin": "ETH",
+          "dir": "short",
+          "realized": 10417,
+          "entry_px": 3380.5115,
+          "open_at_end": false
+        },
+        {
+          "coin": "ETH",
+          "dir": "long",
+          "realized": 9500,
+          "entry_px": 1697.0,
+          "open_at_end": false
+        }
+      ],
+      "position": "除外/低優先",
+      "labels": []
+    },
+    {
+      "address": "0x10b6f072fabe21bc72ffd77ff5d4414e6cef2980",
+      "n_trades": 29,
+      "n_wins": 24,
+      "total_realized": 358215,
+      "total_win": 545420,
+      "top1_share": 0.318,
+      "top3_share": 0.838,
+      "top5_share": 1.038,
+      "mean_top_perfect": 0.82,
+      "max_top_perfect": 0.977,
+      "mean_top_fwd": 0.1051,
+      "top_trades": [
+        {
+          "coin": "BTC",
+          "dir": "short",
+          "realized": 113825,
+          "entry_px": 75400.0306,
+          "open_at_end": false,
+          "perfect": 0.773,
+          "entry_pctile": 0.773,
+          "fwd_favorable": 0.1199,
+          "event_date": "2026-05-23 17:07"
+        },
+        {
+          "coin": "BTC",
+          "dir": "short",
+          "realized": 94901,
+          "entry_px": 78709.9201,
+          "open_at_end": false,
+          "perfect": 0.977,
+          "entry_pctile": 0.977,
+          "fwd_favorable": 0.2377,
+          "event_date": "2026-02-02 23:02"
+        },
+        {
+          "coin": "BTC",
+          "dir": "short",
+          "realized": 91283,
+          "entry_px": 63360.0,
+          "open_at_end": false,
+          "perfect": 0.756,
+          "entry_pctile": 0.756,
+          "fwd_favorable": 0.041,
+          "event_date": "2026-06-08 20:47"
+        },
+        {
+          "coin": "BTC",
+          "dir": "short",
+          "realized": 46406,
+          "entry_px": 66099.1103,
+          "open_at_end": false,
+          "perfect": 0.808,
+          "entry_pctile": 0.808,
+          "fwd_favorable": 0.0718,
+          "event_date": "2026-06-03 17:44"
+        },
+        {
+          "coin": "BTC",
+          "dir": "short",
+          "realized": 25390,
+          "entry_px": 90576.0,
+          "open_at_end": false,
+          "perfect": 0.788,
+          "entry_pctile": 0.788,
+          "fwd_favorable": 0.0552,
+          "event_date": "2025-11-29 13:16"
+        }
+      ],
+      "position": "除外/低優先",
+      "labels": []
+    },
+    {
+      "address": "0x230963164d9637a4c536270a06b4e3636d44a2d9",
+      "n_trades": 5,
+      "n_wins": 2,
+      "total_realized": 418854,
+      "total_win": 452888,
+      "top1_share": 1.017,
+      "top3_share": 1.081,
+      "top5_share": 1.081,
+      "mean_top_perfect": 0.659,
+      "max_top_perfect": 0.755,
+      "mean_top_fwd": 0.1267,
+      "top_trades": [
+        {
+          "coin": "BTC",
+          "dir": "short",
+          "realized": 425775,
+          "entry_px": 77111.2403,
+          "open_at_end": false,
+          "perfect": 0.755,
+          "entry_pctile": 0.755,
+          "fwd_favorable": 0.195,
+          "event_date": "2026-05-12 14:31"
+        },
+        {
+          "coin": "BTC",
+          "dir": "short",
+          "realized": 27114,
+          "entry_px": 68924.1667,
+          "open_at_end": false,
+          "perfect": 0.564,
+          "entry_pctile": 0.564,
+          "fwd_favorable": 0.0583,
+          "event_date": "2026-03-24 20:42"
+        }
+      ],
+      "position": "プロトレーダー(未精査)",
+      "labels": [
+        "High Balance"
+      ]
+    }
+  ]
+}
