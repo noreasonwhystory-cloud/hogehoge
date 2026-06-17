@@ -80,8 +80,12 @@ def main():
         time.sleep(config.NANSEN_SLEEP)
     print(f"  取得 {len(rows)} 行")
 
+    # 個人でないラベル（vault/プロトコル/コントラクト）は除外
+    EXCLUDE = ["Vault", "Collateral", "Deployer", "Pool", "Protocol", "Contract",
+               "Factory", "🤖", "Router", "Bridge", "Spoke", "Mastercopy", "Proxy"]
     # screen: 怪しい signature
     cands = []
+    excluded_nonperson = 0
     for r in rows:
         addr = (r.get("trader_address") or "").lower()
         if not addr:
@@ -89,18 +93,22 @@ def main():
         pnl = float(r.get("total_pnl") or 0)
         roi = float(r.get("roi") or 0)
         acct = float(r.get("account_value") or 0)
-        ratio = pnl / acct if acct > 0 else float("inf")
+        ratio = pnl / acct if acct > 0 else None
         label = r.get("trader_address_label") or ""
+        if any(k in label for k in EXCLUDE):       # vault/プロトコル等は個人でない→除外
+            excluded_nonperson += 1
+            continue
         is_new = addr not in known
-        # 怪しさ: 高ROI かつ (出金済み=残高ごく小 or 比≥10) 。新規を優先表示。
-        cashout = (acct < 50_000) or (ratio >= 10)
-        if roi >= 1.0 and cashout:   # ROI≥100% かつ 出金疑い
+        # 出金疑い: 残高が小さい or PnLが残高の10倍超。PnL(絶対額)で意味を担保。
+        cashout = (acct < 50_000) or (ratio is not None and ratio >= 10)
+        if pnl >= args.minpnl and cashout:
             cands.append({"address": r.get("trader_address"), "label": label,
                           "pnl": pnl, "roi": roi, "account_value": acct,
-                          "ratio": round(ratio, 1) if ratio != float("inf") else None,
+                          "ratio": round(ratio, 1) if ratio else None,
                           "is_new": is_new})
-    # 新規優先 → ROI降順
-    cands.sort(key=lambda c: (c["is_new"], c["roi"]), reverse=True)
+    # 新規優先 → PnL降順（残高0でROIが発散するためPnLで並べる）
+    cands.sort(key=lambda c: (c["is_new"], c["pnl"]), reverse=True)
+    print(f"  vault/プロトコル等を除外: {excluded_nonperson} 件")
     print(f"  怪しいsignature該当: {len(cands)} 件（うち新規 {sum(1 for c in cands if c['is_new'])}）")
 
     # 上位の資金源を引いて隠蔽度を判定

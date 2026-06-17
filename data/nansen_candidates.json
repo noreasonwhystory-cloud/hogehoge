@@ -1,64 +1,53 @@
 {
-  "generated_at": "2026-06-17T11:44:58.521385+00:00",
+  "generated_at": "2026-06-17T11:50:30.833200+00:00",
   "params": {
     "days": 30,
-    "min_pnl": 1000000.0
+    "min_pnl": 100000.0
   },
   "candidates": [
     {
-      "address": "0x4f12b217aa59e6d3e1f91ca2dc96f9543576618b",
-      "label": "Token Millionaire [0x4f12b2]",
-      "pnl": 1477036.707532,
-      "roi": 11312.347580297672,
+      "address": "0x577ae91c7b74f04ddb3a5b399ded8318e9895fd2",
+      "label": "🤓 Smart HL Perps Trader [0x577ae9]",
+      "pnl": 10930335.601363,
+      "roi": 21.560705005206593,
       "account_value": 0.0,
       "ratio": null,
       "is_new": true,
-      "funder_label": "[0x6023b2]",
+      "funder_label": "🏦 Binance: Wallet [0x3931da]",
+      "fund_class": "CEX(追跡可)"
+    },
+    {
+      "address": "0xbcd420d13362532756c968f663f96ba95e240dd2",
+      "label": "Former Smart Trader [0xbcd420]",
+      "pnl": 6551782.240230001,
+      "roi": 0.03880539982467864,
+      "account_value": 645995.259786,
+      "ratio": 10.1,
+      "is_new": true,
+      "funder_label": "[0x7be80e]",
       "fund_class": "汎用ウォレット"
     },
     {
-      "address": "0x906d31b2ee92c4bc720232112274a0e1ffb0ad6e",
-      "label": "Former Smart Trader [0x906d31]",
-      "pnl": 2774849.250292,
-      "roi": 1736.8063475277177,
-      "account_value": 0.0,
-      "ratio": null,
+      "address": "0xfce053a5e461683454bf37ad66d20344c0e3f4c0",
+      "label": "🤓 Smart HL Perps Trader [0xfce053]",
+      "pnl": 4435442.320781,
+      "roi": 1.0546788359615638,
+      "account_value": 260774.809093,
+      "ratio": 17.0,
       "is_new": true,
-      "funder_label": "Gas.zip: Primary Solver [0x8c826f]",
-      "fund_class": "汎用ウォレット"
+      "funder_label": "🏦 Bybit: Hot Wallet [0xf89d7b]",
+      "fund_class": "CEX(追跡可)"
     },
     {
-      "address": "0xc7290b4b308431a985fa9e3e8a335c2f7650517c",
-      "label": "🤓 Smart HL Perps Trader [0xc7290b]",
-      "pnl": 1064335.2764,
-      "roi": 1478.2434394444447,
+      "address": "0xa65ce1d604fa901c13aa29f2126a57d9032e412b",
+      "label": "🤓 👤 yixie [0xa65ce1]",
+      "pnl": 3958563.6579250004,
+      "roi": 0.8027419560836222,
       "account_value": 0.0,
       "ratio": null,
       "is_new": true,
-      "funder_label": "[0x0a1a4b]",
-      "fund_class": "汎用ウォレット"
-    },
-    {
-      "address": "0x20c2d95a3dfdca9e9ad12794d5fa6fad99da44f5",
-      "label": "Resolv USR: Collateral [0x20c2d9]",
-      "pnl": 1779957.276862,
-      "roi": 433.83363437446815,
-      "account_value": 0.0,
-      "ratio": null,
-      "is_new": true,
-      "funder_label": "​​Bridge User [0x7635f1]",
-      "fund_class": "ブリッジ/コントラクト(隠蔽)"
-    },
-    {
-      "address": "0x5e8e18557c0df89fb79a41941c03768da69100af",
-      "label": "\"Up-Only Long/Short\" HL Vault Leader [0x5e8e18]",
-      "pnl": 1207514.771831,
-      "roi": 64.72376792468921,
-      "account_value": 0.0,
-      "ratio": null,
-      "is_new": true,
-      "funder_label": "👤 hyperliquidated [0x7c9309]",
-      "fund_class": "汎用ウォレット"
+      "funder_label": "🏦 Binance: Hot Wallet [0xf92402]",
+      "fund_class": "CEX(追跡可)"
     },
     {
       "address": "0x782e432267376f377585fc78092d998f8442ab83",
@@ -72,70 +61,15 @@
       "fund_class": "汎用ウォレット"
     },
     {
-      "address": "0x6f490ff069c117a74727be3a61f54fc7b7d6f104",
-      "label": "🤓 Smart HL Perps Trader [0x6f490f]",
-      "pnl": 1966679.834281,
-      "roi": 36.96149515565841,
+      "address": "0xebe126adabe1a8f08d3ce53b45e7cc994ca14070",
+      "label": "HL Perps Macro Trader [0xebe126]",
+      "pnl": 3731813.701631999,
+      "roi": 0.20099042192579436,
       "account_value": 0.0,
       "ratio": null,
       "is_new": true,
-      "funder_label": "🏦 Binance: Wallet [0x25681a]",
-      "fund_class": "CEX(追跡可)"
-    },
-    {
-      "address": "0x19d84c22dd017448efd6324df108c6bc01040a2b",
-      "label": "🤓 Smart HL Perps Trader [0x19d84c]",
-      "pnl": 2280175.401676,
-      "roi": 29.186717284471094,
-      "account_value": 0.0,
-      "ratio": null,
-      "is_new": true,
-      "funder_label": "🤓 Smart HL Perps Trader [0x6f490f]",
+      "funder_label": "🏦 FalconX: Hot Wallet [0x1157a2]",
       "fund_class": "汎用ウォレット"
-    },
-    {
-      "address": "0x015354106478dda69c4aae3c0cf801290b738052",
-      "label": "🤓 Smart HL Perps Trader [0x015354]",
-      "pnl": 1013575.873633,
-      "roi": 22.13258695142015,
-      "account_value": 0.0,
-      "ratio": null,
-      "is_new": true,
-      "funder_label": "Former Smart Trader [0x999dec]",
-      "fund_class": "汎用ウォレット"
-    },
-    {
-      "address": "0x577ae91c7b74f04ddb3a5b399ded8318e9895fd2",
-      "label": "🤓 Smart HL Perps Trader [0x577ae9]",
-      "pnl": 10930335.601363,
-      "roi": 21.560705005206593,
-      "account_value": 0.0,
-      "ratio": null,
-      "is_new": true,
-      "funder_label": "🏦 Binance: Wallet [0x3931da]",
-      "fund_class": "CEX(追跡可)"
-    },
-    {
-      "address": "0x5ae7fe9df15590e286152908112b82969f41c8b8",
-      "label": "HL Perps Majors Trader [0x5ae7fe]",
-      "pnl": 2269233.8264479996,
-      "roi": 19.838235310918726,
-      "account_value": 0.0,
-      "ratio": null,
-      "is_new": true,
-      "funder_label": "[0xf3f020]",
-      "fund_class": "汎用ウォレット"
-    },
-    {
-      "address": "0x98256d1a9e3012398237a1720c27a3d7ed1ad905",
-      "label": "🤓 Smart HL Perps Trader [0x98256d]",
-      "pnl": 1055623.27869,
-      "roi": 11.660108041287538,
-      "account_value": 0.0,
-      "ratio": null,
-      "is_new": true,
-      "funder_label": null,
-      "fund_class": "不明"
     },
     {
       "address": "0xa2e81e888f4a757bbad012ea9b193e7ab93f1468",
@@ -149,52 +83,4342 @@
       "fund_class": "ブリッジ/コントラクト(隠蔽)"
     },
     {
+      "address": "0x5d2f4460ac3514ada79f5d9838916e508ab39bb7",
+      "label": "🤓 Smart HL Perps Trader [0x5d2f44]",
+      "pnl": 3505098.690543,
+      "roi": 0.2075613818514665,
+      "account_value": 135150.625,
+      "ratio": 25.9,
+      "is_new": true,
+      "funder_label": "kyoyo.eth [0xdcf28b]",
+      "fund_class": "汎用ウォレット"
+    },
+    {
+      "address": "0x9dcf1c87b82a35519a430457c1157f21e68f302d",
+      "label": "[0x9dcf1c]",
+      "pnl": 3197643.4292479996,
+      "roi": 0.1021914295976098,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true,
+      "funder_label": "🤓 Smart HL Perps Trader [0x577ae9]",
+      "fund_class": "汎用ウォレット"
+    },
+    {
+      "address": "0x4196dc4a1dc7d3bfd5434adf04c829f4ccaf480d",
+      "label": "🤓 Smart HL Perps Trader [0x4196dc]",
+      "pnl": 3038168.7900019996,
+      "roi": 0.3728534313146988,
+      "account_value": 124118.67211,
+      "ratio": 24.5,
+      "is_new": true,
+      "funder_label": null,
+      "fund_class": "不明"
+    },
+    {
+      "address": "0x906d31b2ee92c4bc720232112274a0e1ffb0ad6e",
+      "label": "Former Smart Trader [0x906d31]",
+      "pnl": 2774849.250292,
+      "roi": 1736.8063475277177,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true,
+      "funder_label": "Gas.zip: Primary Solver [0x8c826f]",
+      "fund_class": "汎用ウォレット"
+    },
+    {
+      "address": "0x7945772aa99d08bf90e91ff1e8e77d3c11c2a7e6",
+      "label": "HL Perps Majors Trader [0x794577]",
+      "pnl": 2602607.108816,
+      "roi": 0.008254118499955406,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true,
+      "funder_label": null,
+      "fund_class": "不明"
+    },
+    {
+      "address": "0xd8c5228c515db3043dfa0c8cd6f22450ee9a99b0",
+      "label": "🤓 Smart HL Perps Trader [0xd8c522]",
+      "pnl": 2593214.352171001,
+      "roi": 0.24586452736621653,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
       "address": "0xf5629393e446a103a4be1c49a956255e7c87c1d3",
       "label": "🤓 Smart HL Perps Trader [0xf56293]",
       "pnl": 2480675.554474,
       "roi": 4.576417757223362,
       "account_value": 0.0,
       "ratio": null,
-      "is_new": true,
-      "funder_label": "🤖 DLN: DlnDestination [0xe7351f]",
-      "fund_class": "ブリッジ/コントラクト(隠蔽)"
+      "is_new": true
+    },
+    {
+      "address": "0xefd3ab65915e35105caa462442c9ecc1346728df",
+      "label": "👤 CBB [0xefd3ab]",
+      "pnl": 2408671.8684920003,
+      "roi": 0.09332404875312945,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0x19d84c22dd017448efd6324df108c6bc01040a2b",
+      "label": "🤓 Smart HL Perps Trader [0x19d84c]",
+      "pnl": 2280175.401676,
+      "roi": 29.186717284471094,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0x5ae7fe9df15590e286152908112b82969f41c8b8",
+      "label": "HL Perps Majors Trader [0x5ae7fe]",
+      "pnl": 2269233.8264479996,
+      "roi": 19.838235310918726,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0x57dd78cd36e76e2011e8f6dc25cabbaba994494b",
+      "label": "HL Perps Altcoin Trader [0x57dd78]",
+      "pnl": 2062969.8778309992,
+      "roi": 8.615179692889177e-05,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0x6f490ff069c117a74727be3a61f54fc7b7d6f104",
+      "label": "🤓 Smart HL Perps Trader [0x6f490f]",
+      "pnl": 1966679.834281,
+      "roi": 36.96149515565841,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
     },
     {
       "address": "0x7d54a6772903c4f45f05c9b4e89f1dd2a0f52794",
       "label": "HL Perps Macro Trader [0x7d54a6]",
-      "pnl": 1769779.741286,
-      "roi": 3.054238515933711,
+      "pnl": 1770523.932966,
+      "roi": 3.0555228220195305,
       "account_value": 0.0,
       "ratio": null,
-      "is_new": true,
-      "funder_label": "🏦 Binance: Hot Wallet [0xf92402]",
-      "fund_class": "CEX(追跡可)"
+      "is_new": true
     },
     {
-      "address": "0xfce053a5e461683454bf37ad66d20344c0e3f4c0",
-      "label": "🤓 Smart HL Perps Trader [0xfce053]",
-      "pnl": 4435936.920941,
-      "roi": 1.054796444146563,
-      "account_value": 260774.809093,
-      "ratio": 17.0,
+      "address": "0x7e4e766d0ae5ea9cded0c694669194db92800107",
+      "label": "Former Smart Trader [0x7e4e76]",
+      "pnl": 1744395.573851,
+      "roi": 0.9697865059686024,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0x3e7a0eca8b624b75034ad820fa291425f21f1589",
+      "label": "HL Perps Whale [0x3e7a0e]",
+      "pnl": 1702962.5062500008,
+      "roi": 0.10081668018520365,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0xc926ddba8b7617dbc65712f20cf8e1b58b8598d3",
+      "label": "HL Perps Stocks Trader [0xc926dd]",
+      "pnl": 1627226.095305,
+      "roi": 0.024771163459725947,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0x4f12b217aa59e6d3e1f91ca2dc96f9543576618b",
+      "label": "Token Millionaire [0x4f12b2]",
+      "pnl": 1477036.707532,
+      "roi": 11312.347580297672,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0x15271757b398cd1d3d7cca05c4f7b0c159afa7c2",
+      "label": "👤 Karna [0x152717]",
+      "pnl": 1460421.6127350007,
+      "roi": 0.03303225351170437,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0x27bcf8047c6fda384f8a93a6e5a140b878fab691",
+      "label": "HL Perps Altcoin Trader [0x27bcf8]",
+      "pnl": 1420896.621176,
+      "roi": 0.887612698136571,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0x7da85a334e43a6b1c2c0da9623409d9ee9047747",
+      "label": "Former Smart Trader [0x7da85a]",
+      "pnl": 1407646.227288,
+      "roi": 0.15006137779848472,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0xf929122994e177079c924631ba13fb280f5cd1f9",
+      "label": "​​Yield Farmer [0xf92912]",
+      "pnl": 1283628.3167470004,
+      "roi": 0.25121414375912915,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0x2d66f73159eaa54cc7fddaea2ba8cf91f9f14cd6",
+      "label": "👤 HypeTrader [0x2d66f7]",
+      "pnl": 1278689.8296229993,
+      "roi": 0.01547782593930124,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0xe2f86feccb1207710a442bc4e27a0701a290275a",
+      "label": "🤓 Smart HL Perps Trader [0xe2f86f]",
+      "pnl": 1277205.5525510001,
+      "roi": 0.6507289745117705,
+      "account_value": 197.739092,
+      "ratio": 6459.0,
+      "is_new": true
+    },
+    {
+      "address": "0x4cd80aa0ce4881eb8679eda1f6fbe3d89aec0f7f",
+      "label": "Former Smart Trader [0x4cd80a]",
+      "pnl": 1260193.142271,
+      "roi": 0.20552680270774903,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0x7b51c5d9366077e1b3c1cba383389752f486071b",
+      "label": "HL Perps Stocks Trader [0x7b51c5]",
+      "pnl": 1255246.5318830002,
+      "roi": 0.24828162280330845,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0x9e8b1e51c642f4c8b87c6ba11c53d516a218afc4",
+      "label": "dfgjdsrdtrdrhfjsrdrtrdgcfydft.eth* [0x9e8b1e]",
+      "pnl": 1131160.6399440002,
+      "roi": 0.020171077611115914,
+      "account_value": 0.0,
+      "ratio": null,
       "is_new": true
     },
     {
       "address": "0x90326fa293578c6c9ef945aaab0b57f886aca6ec",
       "label": "🤓 Smart HL Perps Trader [0x90326f]",
-      "pnl": 1094751.4765320001,
-      "roi": 1.0269805869370332,
+      "pnl": 1093685.7804720001,
+      "roi": 1.0259808630831204,
       "account_value": 73378.297602,
       "ratio": 14.9,
       "is_new": true
     },
     {
+      "address": "0xc7290b4b308431a985fa9e3e8a335c2f7650517c",
+      "label": "🤓 Smart HL Perps Trader [0xc7290b]",
+      "pnl": 1064335.2764,
+      "roi": 1478.2434394444447,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0x98256d1a9e3012398237a1720c27a3d7ed1ad905",
+      "label": "🤓 Smart HL Perps Trader [0x98256d]",
+      "pnl": 1055623.27869,
+      "roi": 11.660108041287538,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0x015354106478dda69c4aae3c0cf801290b738052",
+      "label": "🤓 Smart HL Perps Trader [0x015354]",
+      "pnl": 1013575.873633,
+      "roi": 22.13258695142015,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0x14f8899fe7e772b012c9d4b9499dc86c7d30b144",
+      "label": "HL Perps Majors Trader [0x14f889]",
+      "pnl": 1007462.3793509995,
+      "roi": 0.06660368616985375,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0x4b4bdd734b87bc48683d24f1dc6159e3ab6d6409",
+      "label": "HL Perps Whale [0x4b4bdd]",
+      "pnl": 961101.438703,
+      "roi": 10.365010623272322,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0x2d99fe0f36c1aebd28a1a2c0e82e8ca13c2ea351",
+      "label": "🤓 Smart HL Perps Trader [0x2d99fe]",
+      "pnl": 956558.351403,
+      "roi": 4.735070626178132,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0x7c9063122c01837fe83da2521056e10c9b6dd129",
+      "label": "🤓 : Boros Trader [0x7c9063]",
+      "pnl": 942112.559091,
+      "roi": 19.127338034475688,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0x60a8c761f39696b3b419f31dcda20b405cb685f6",
+      "label": "🤓 Smart HL Perps Trader [0x60a8c7]",
+      "pnl": 885869.7634269991,
+      "roi": 0.03658435233502166,
+      "account_value": 118.308284,
+      "ratio": 7487.8,
+      "is_new": true
+    },
+    {
+      "address": "0xcf67e4da9e9cd38c0afd26338d0fbddb3036eb24",
+      "label": "HL Perps Stocks Trader [0xcf67e4]",
+      "pnl": 870928.6301150001,
+      "roi": 0.124057072340129,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0x5116ebe0e30b2192945893171ea21b788ee86d49",
+      "label": "HL Perps Whale [0x5116eb]",
+      "pnl": 853255.793766,
+      "roi": 0.11893816120071624,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0xd5c7757d91cbd59543c8ef64738d806e57d2212b",
+      "label": "HL Perps Macro Trader [0xd5c775]",
+      "pnl": 817077.412502,
+      "roi": 0.22244430855834207,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0x500bea59133e20dc63b7e88913b30348494b84ba",
+      "label": "🤓 Smart HL Perps Trader [0x500bea]",
+      "pnl": 797255.8925300001,
+      "roi": 1.0324052470064335,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0xd866a2d14a6dc92bdb1fdeac32c0f8ec322b3605",
+      "label": "🤓 Smart HL Perps Trader [0xd866a2]",
+      "pnl": 767596.150285,
+      "roi": 236.2763419846327,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0xd4887c7c9cf2f8a237ab68499c6d0e05d295696d",
+      "label": "HL Perps Whale [0xd4887c]",
+      "pnl": 766396.444752,
+      "roi": 114.20139783397806,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0xe4d83945c0322f3d340203a7129b7eb5cacae847",
+      "label": "🤓 Smart HL Perps Trader [0xe4d839]",
+      "pnl": 761789.871523,
+      "roi": 38.85174157070335,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0x484bc1608211d0604bf70bae72792a56884562f8",
+      "label": "🤓 Smart HL Perps Trader [0x484bc1]",
+      "pnl": 731966.6710470001,
+      "roi": 0.003743892704603268,
+      "account_value": 555.482541,
+      "ratio": 1317.7,
+      "is_new": true
+    },
+    {
+      "address": "0xcf3f419d08a5bdc2c6e5fbd9ad70904c5420f95f",
+      "label": "HL Perps Majors Trader [0xcf3f41]",
+      "pnl": 730700.9722060001,
+      "roi": 3.8863277333281063,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0xcf763b1f6655910d695f46ef9f137b983f5f79ca",
+      "label": "HL Perps Stocks Trader [0xcf763b]",
+      "pnl": 711802.1467019999,
+      "roi": 0.27098770891658497,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0xf47237079aeec748370d5ac827747f490e8f5d8b",
+      "label": "Former Smart Trader [0xf47237]",
+      "pnl": 678948.522619,
+      "roi": 0.22762901293634466,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0x84abc08c0ea62e687c370154de1f38ea462f4d37",
+      "label": "🤓 Smart HL Perps Trader [0x84abc0]",
+      "pnl": 677199.017675,
+      "roi": 18.71989257162736,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0x1116b5fcc070945062e8879841c29807db373d0d",
+      "label": "HL Perps Altcoin Trader [0x1116b5]",
+      "pnl": 672654.429332,
+      "roi": 0.3507617641304202,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0x089fe537f4b2af55fa990bc64ff4125800bba4f8",
+      "label": "HL Perps Swing Trader [0x089fe5]",
+      "pnl": 667630.474799,
+      "roi": 14.762962549847048,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0xf17de447fdfa1778db06111e3cbdc878332adab2",
+      "label": "Former Smart Trader [0xf17de4]",
+      "pnl": 651328.78658,
+      "roi": 0.16920508809825985,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0xf83350f2426d9f4790b6aa61710f6a26ddd908e7",
+      "label": "HL Perps Majors Trader [0xf83350]",
+      "pnl": 621766.0498720001,
+      "roi": 2.0708816985913483,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0xae7a0f9f663bb54bfe95378c7e3de7dd6e28d6bc",
+      "label": "HL Perps Majors Trader [0xae7a0f]",
+      "pnl": 619418.165037,
+      "roi": 0.0018328357992247102,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0x66f889094739dbb7d20aa60f645acd88feba75a9",
+      "label": "HL Perps Majors Trader [0x66f889]",
+      "pnl": 616366.685028001,
+      "roi": 0.27731531359855865,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0x0ad9e656d9e6211d0ea1c5462342e1fc94cc4cbf",
+      "label": "HL Perps Whale [0x0ad9e6]",
+      "pnl": 612679.8437969985,
+      "roi": 0.022372718953004966,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0x899c0eef91d624cc4debab1ced1f05d89132d15a",
+      "label": "High Balance [0x899c0e]",
+      "pnl": 598624.5111580002,
+      "roi": 0.22063495897321647,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0x9471f70f2518846f7a076636d64e5a22787da105",
+      "label": "🤓 👤 clash [0x9471f7]",
+      "pnl": 591516.8521909999,
+      "roi": 0.16720824431439557,
+      "account_value": 29554.054655,
+      "ratio": 20.0,
+      "is_new": true
+    },
+    {
+      "address": "0x99c641913b895b0180d6c8ece787a36dd8f99344",
+      "label": "HL Perps Stocks Trader [0x99c641]",
+      "pnl": 590920.5240900001,
+      "roi": 0.023811167976864705,
+      "account_value": 0.004394,
+      "ratio": 134483505.7,
+      "is_new": true
+    },
+    {
+      "address": "0x05936f6a5ea9abfbfcc690f1a6140d97e80640f9",
+      "label": "\"wileyveteran\" on OpenSea [0x05936f]",
+      "pnl": 588774.66825,
+      "roi": 16.56937537979153,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0x25cd302e37a69d70a6ef645daea5a7de38c66e2a",
+      "label": "Former Smart Trader [0x25cd30]",
+      "pnl": 588151.134993,
+      "roi": 0.1476489543996583,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0x79ec68d35878cedf61a4363b40ec30b89698bcad",
+      "label": "HL Perps Macro Trader [0x79ec68]",
+      "pnl": 583148.358805,
+      "roi": 1.6165133332440735,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0x9ede5d2ea747ad34e75028d276d9b41edd7e10b9",
+      "label": "HL Perps Majors Trader [0x9ede5d]",
+      "pnl": 575135.1484509998,
+      "roi": 16.95981683756993,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0x960bb18454cd67b5a3edb4fa802b7c0b5b10e2ee",
+      "label": "HL Perps Majors Trader [0x960bb1]",
+      "pnl": 568307.1278019998,
+      "roi": 0.32763756733975447,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0x9e2cbb5d800181c1ef21b25010dc4ea80eeb5508",
+      "label": "Former Smart Trader [0x9e2cbb]",
+      "pnl": 561404.2855759995,
+      "roi": 0.07219916733121948,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0x1c77041452e75939105981a914f138eb9634463c",
+      "label": "🤓 Smart HL Perps Trader [0x1c7704]",
+      "pnl": 559780.225909,
+      "roi": 0.004663356712691506,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0x0980b34ade9476dba81bcdb0f865a333793ad1c2",
+      "label": "🤓 Smart HL Perps Trader [0x0980b3]",
+      "pnl": 556858.891121,
+      "roi": 0.6215182605240319,
+      "account_value": 42873.623363,
+      "ratio": 13.0,
+      "is_new": true
+    },
+    {
+      "address": "0x592838c5d6ffb870c20bf4f13d1089259354d5f9",
+      "label": "HL Perps Majors Trader [0x592838]",
+      "pnl": 556664.0988460003,
+      "roi": 0.0015314881139213725,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0xbeaa070f687881f68e62aab7f3c2db793214f5f9",
+      "label": "HL Perps Day Trader [0xbeaa07]",
+      "pnl": 555242.2051469998,
+      "roi": 0.30100455208696836,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0x47a127f496d001f187ac65fc24852274dc51d080",
+      "label": "tipofeverest.eth [0x47a127]",
+      "pnl": 544712.801211,
+      "roi": 22.35318341476268,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0x6a572bb9d31ff710f882f33c21d8ba11a169a887",
+      "label": "HL Perps Majors Trader [0x6a572b]",
+      "pnl": 538013.5395600001,
+      "roi": 4.768215500795627,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0xd84a7719fc50c2f5d4422e2c138d63b879ccc8a5",
+      "label": "HL Perps Macro Trader [0xd84a77]",
+      "pnl": 533950.3250070001,
+      "roi": 2.2097448426295965,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0x43a98df2db30011bdb6bfd4c9d35af1f15f48d87",
+      "label": "HL Perps Stocks Trader [0x43a98d]",
+      "pnl": 527681.922794,
+      "roi": 0.26366539429019675,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0x24fb6523036ebcb3cc51deff138066dccf6bed0f",
+      "label": "HL Perps Majors Trader [0x24fb65]",
+      "pnl": 515224.6663879992,
+      "roi": 0.2747185262778927,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0x3b11267dfc4b9ebe8427e8f557056b4b6ce98112",
+      "label": "🤓 9015.eth* [0x3b1126]",
+      "pnl": 512206.9309300002,
+      "roi": 0.06790358549544954,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0xb69eec8fea0081343c3b09e652ba1fa7dcf7033a",
+      "label": "Former Smart Trader [0xb69eec]",
+      "pnl": 512100.004819,
+      "roi": 0.45850687409808094,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0x033e0a9b175f3f42cbde21c0789590a6ff11b7a1",
+      "label": "HL Perps Stocks Trader [0x033e0a]",
+      "pnl": 510838.12328199996,
+      "roi": 0.21940880325385725,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0x1e0b469b0f10f59bd6c76a010c4b0dd24742b1ef",
+      "label": "🤓 Smart HL Perps Trader [0x1e0b46]",
+      "pnl": 492877.97612,
+      "roi": 0.3349718362456429,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0x3b2e0b95acd47d987c1abdf42967fd82d469bdbb",
+      "label": "🤓 Smart HL Perps Trader [0x3b2e0b]",
+      "pnl": 485777.62512200006,
+      "roi": 0.2772648243480416,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0x79399dac99daa4a77d2bcd8ef6f5abf5966468e7",
+      "label": "🤓 Smart HL Perps Trader [0x79399d]",
+      "pnl": 481733.383898,
+      "roi": 35.51160470796549,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0x13d92e015d4a8a99ab8490fef42fe83e754116e1",
+      "label": "Former Smart Trader [0x13d92e]",
+      "pnl": 480292.54685999977,
+      "roi": 0.1146370251127141,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0x9df286bcee3b6b20eddcbe763ddd3a30ef3bc665",
+      "label": "HL Perps Stocks Trader [0x9df286]",
+      "pnl": 475077.1170289998,
+      "roi": 0.023622147511951457,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0x000461a73d3985eef4923655782aa5d0de75c111",
+      "label": "🤓 👤 profit [0x000461]",
+      "pnl": 464182.372421,
+      "roi": 6.555790774217166,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0xa99c9e5484e5b26635c07876d0859a1819ff40d5",
+      "label": "🤓 Smart HL Perps Trader [0xa99c9e]",
+      "pnl": 463988.3845870001,
+      "roi": 0.36042298114627885,
+      "account_value": 40778.18566,
+      "ratio": 11.4,
+      "is_new": true
+    },
+    {
+      "address": "0x8b0be882a693ad3849f9bfde6951ec36489f30be",
+      "label": "Former Smart Trader [0x8b0be8]",
+      "pnl": 463185.109208,
+      "roi": 0.043632071638037694,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0xb0a9214592fb899aefab0b615f2b870276cee092",
+      "label": "HL Perps Stocks Trader [0xb0a921]",
+      "pnl": 459368.22113,
+      "roi": 0.1432775890911362,
+      "account_value": 9521.740368,
+      "ratio": 48.2,
+      "is_new": true
+    },
+    {
+      "address": "0x45ffe9ad0793c732578966bae4199b92ffabff5f",
+      "label": "👤 DGMD [0x45ffe9]",
+      "pnl": 459171.7236369998,
+      "roi": 0.002637400345383295,
+      "account_value": 14661.446426,
+      "ratio": 31.3,
+      "is_new": true
+    },
+    {
+      "address": "0x58749ca7cb7e7d92da06cee9ee5d625515b96682",
+      "label": "HL Perps Majors Trader [0x58749c]",
+      "pnl": 445486.058943,
+      "roi": 0.3835767769412355,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0x834ce0cb3092a2ab56d0a636c0bd678154b4c61f",
+      "label": "[0x834ce0]",
+      "pnl": 435492.279541,
+      "roi": 12.442707659500911,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0x2098c0614f99bda7c8a0c452bc59cda364e51e44",
+      "label": "🤓 Smart HL Perps Trader [0x2098c0]",
+      "pnl": 421759.75319,
+      "roi": 45728.1865807817,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0x25e9e31168d7ec59b0bfd54ebde8f3f6b9b1a5ea",
+      "label": "Former Smart Trader [0x25e9e3]",
+      "pnl": 421492.009975,
+      "roi": 0.4210472987906619,
+      "account_value": 40281.210537,
+      "ratio": 10.5,
+      "is_new": true
+    },
+    {
+      "address": "0x844b6ab0079fb36e6a99cba877574acd8f1e7f42",
+      "label": "High Balance [0x844b6a]",
+      "pnl": 413994.7887079999,
+      "roi": 0.11078806785910927,
+      "account_value": 26147.908553,
+      "ratio": 15.8,
+      "is_new": true
+    },
+    {
+      "address": "0x656c54089502d4ab36a35166b514ec761c33f4b7",
+      "label": "HL Perps Altcoin Trader [0x656c54]",
+      "pnl": 411013.675015,
+      "roi": 0.0002962164926278021,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0x523852be2db1a76a0e088ecbff32e849544054e5",
+      "label": "👤 OH71 [0x523852]",
+      "pnl": 403157.8758970004,
+      "roi": 0.006356963338123276,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0x0048d42f232164a85a41f15ccf26cf859e58b108",
+      "label": "Token Millionaire [0x0048d4]",
+      "pnl": 401447.379885,
+      "roi": 19.9495793334526,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0x6cf8226d1be88828e9392c050122c3c50b0d1685",
+      "label": "HL Perps Whale [0x6cf822]",
+      "pnl": 401031.644414,
+      "roi": 51.684758390539486,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0x6fa6f42d2e41327e27fe7f416a823cef7050825e",
+      "label": "🤓 Smart HL Perps Trader [0x6fa6f4]",
+      "pnl": 400535.57126899995,
+      "roi": 0.28401319410879183,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0x483848d2c8f7f69b51cb7b39c7d8c3c30f333d79",
+      "label": "HL Perps Whale [0x483848]",
+      "pnl": 398137.4424840001,
+      "roi": 3.9431018892822456,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0xbc1bc64be47052fbab69d12fe5da1c3327788d1b",
+      "label": "HL Perps Majors Trader [0xbc1bc6]",
+      "pnl": 397034.811083,
+      "roi": 0.1965226420158649,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0x064e89061ce80cb1b41a2d2963d48d2e8cabde4a",
+      "label": "HL Perps Majors Trader [0x064e89]",
+      "pnl": 395005.271649,
+      "roi": 0.30285033692532043,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0x4c7b17c7de3f3cc291a117623aec6f3982660169",
+      "label": "Token Millionaire [0x4c7b17]",
+      "pnl": 388006.77408,
+      "roi": 150.18066809103578,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0xa6c204bbc0e8b2d30e60512b0094a5f3d8307769",
+      "label": "HL Perps Altcoin Trader [0xa6c204]",
+      "pnl": 384400.7011800002,
+      "roi": 0.00040242383016651193,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0xd92027fc1bf15ea8e1c9c0a1aa4a9f58b5433f20",
+      "label": "HL Perps Majors Trader [0xd92027]",
+      "pnl": 377895.825344,
+      "roi": 4.4516944911420975,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0x14246f4bbafb87ccebac17609054c6a188ed8cfd",
+      "label": "🤓 Smart HL Perps Trader [0x14246f]",
+      "pnl": 377273.5321790001,
+      "roi": 0.3528203153887262,
+      "account_value": 36164.64757,
+      "ratio": 10.4,
+      "is_new": true
+    },
+    {
+      "address": "0x999510ad3dd8c94a6659d6401d983137565283e3",
+      "label": "Former Smart Trader [0x999510]",
+      "pnl": 366678.494405,
+      "roi": 2.150418010681487,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0x68a410113fab274d4e66685c1242e289ae76c01a",
+      "label": "HL Perps Majors Trader [0x68a410]",
+      "pnl": 359932.97963500005,
+      "roi": 0.06387279683732168,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0x20ad988487d6a53fea7918657f45fe0bb8fd8183",
+      "label": "HL Perps Altcoin Trader [0x20ad98]",
+      "pnl": 359119.01303,
+      "roi": 0.08415530405619191,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0x8383b9a512f1c0e57cd015b076372b2844859e57",
+      "label": "🤓 Smart HL Perps Trader [0x8383b9]",
+      "pnl": 352699.8594359999,
+      "roi": 0.3340706462420466,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0xa3555141f2ea7ed01e1d5a6589c4355ccaa31bf5",
+      "label": "🤓 Smart HL Perps Trader [0xa35551]",
+      "pnl": 351056.29052399995,
+      "roi": 0.2232407621411793,
+      "account_value": 17391.858586,
+      "ratio": 20.2,
+      "is_new": true
+    },
+    {
+      "address": "0x843f31e5cd9a6572d235a05cb78ec5ac2ffcc24f",
+      "label": "HL Perps Altcoin Trader [0x843f31]",
+      "pnl": 350745.142523,
+      "roi": 0.30401406904813194,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0x4c7a572ad38aed2c1d33fbfeba7bd69a83ec0e30",
+      "label": "Former Smart Trader [0x4c7a57]",
+      "pnl": 350451.701364,
+      "roi": 0.9623377814862103,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0xc5010834e5be500437b1bb04f2c34e0f3898e581",
+      "label": "HL Perps Majors Trader [0xc50108]",
+      "pnl": 340746.479035,
+      "roi": 0.003251949759337085,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0xe7e3cdba6cc8a60c31c09279e69a0bec6e392901",
+      "label": "HL Perps Whale [0xe7e3cd]",
+      "pnl": 338219.10829,
+      "roi": 19.461703596356458,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0x6bde78a5b2091bcbc915155328bd138b534387d3",
+      "label": "HL Perps Majors Trader [0x6bde78]",
+      "pnl": 337785.2883940001,
+      "roi": 0.4580987566750668,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0xa470a6535e2a8653a82d686806d69493045db59d",
+      "label": "High Activity [0xa470a6]",
+      "pnl": 336546.1680780004,
+      "roi": 302.3965009824071,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0x5405450cae1b86581f017d1c35ad954d8703f802",
+      "label": "HL Perps Swing Trader [0x540545]",
+      "pnl": 335480.09331200004,
+      "roi": 0.06341991343549354,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0x7ad3c2303655f78594e4f976ddb873aef9322efc",
+      "label": "👤 Crypto Ninja [0x7ad3c2]",
+      "pnl": 334589.67752299993,
+      "roi": 0.05406837134823746,
+      "account_value": 6388.24257,
+      "ratio": 52.4,
+      "is_new": true
+    },
+    {
+      "address": "0xde7639510e3e73d90e7f86d783134ed328f5b2e0",
+      "label": "HL Perps Swing Trader [0xde7639]",
+      "pnl": 331967.7562409999,
+      "roi": 0.19427179405248182,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0xf9a28ab8bd579e6a75cc5dd138954e3db8967c5a",
+      "label": "HL Perps Stocks Trader [0xf9a28a]",
+      "pnl": 330613.2829980001,
+      "roi": 0.13370147322938866,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0xd598a3ad5637687537d2eb2d69dba4c65a6d9646",
+      "label": "HL Perps Whale [0xd598a3]",
+      "pnl": 328869.002584,
+      "roi": 297.7565946617505,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0x6a02aedceac5a6813d960e4dae1910d9c458e77c",
+      "label": "🤓 Smart HL Perps Trader [0x6a02ae]",
+      "pnl": 326551.73019699997,
+      "roi": 0.9588344365205745,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0xafb4b589bebf3d7982bd25ba591f9c60dc5072a5",
+      "label": "HL Perps Day Trader [0xafb4b5]",
+      "pnl": 323988.20592,
+      "roi": 0.3195149959763313,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0x26f60d8027cfcb918f67e87c5bc97f68251b3fac",
+      "label": "High Balance [0x26f60d]",
+      "pnl": 322331.801501,
+      "roi": 2.652936637868313,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0x1f6662c5b8780dcb813a7f08761760bca1fb0400",
+      "label": "HL Perps Altcoin Trader [0x1f6662]",
+      "pnl": 321711.147002,
+      "roi": 6.304953734610038,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0x24a44aef48aeb27c7708dabfccda14b41fbf0ae1",
+      "label": "🤓 Smart HL Perps Trader [0x24a44a]",
+      "pnl": 320512.092406,
+      "roi": 0.7547675701037944,
+      "account_value": 44841.834216,
+      "ratio": 7.1,
+      "is_new": true
+    },
+    {
+      "address": "0x63c786a8d291440713d0f1fc45b69c3e7547cb78",
+      "label": "Former Smart Trader [0x63c786]",
+      "pnl": 317899.1956,
+      "roi": 4.5414170799999996,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0xfb751fa655f5e7cb9e4a474cf616e1439600bec2",
+      "label": "HL Perps Whale [0xfb751f]",
+      "pnl": 317567.3337099998,
+      "roi": 7773.205962437058,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0x0622a2198712c9527817493553dca548f42e8088",
+      "label": "HL Perps Majors Trader [0x0622a2]",
+      "pnl": 317092.5887899996,
+      "roi": 0.414335850001623,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0x1f4059e3a39d2a2304f65dfe8b0c54a351d005c4",
+      "label": "🤓 Smart HL Perps Trader [0x1f4059]",
+      "pnl": 316945.98966,
+      "roi": 243.80460743076924,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0xda1d57bdedab38c16bf44549b03b4dd3ab15b2f0",
+      "label": "HL Perps Altcoin Trader [0xda1d57]",
+      "pnl": 313467.16519,
+      "roi": 1.0241447909839683,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0x2a246fca547f9a845e67a51c9221d888576eb81c",
+      "label": "🤓 Smart HL Perps Trader [0x2a246f]",
+      "pnl": 311830.741981,
+      "roi": 0.0809810042809712,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0x6b08bbb2daf57d390538d73542f50d5f735ca420",
+      "label": "Former Smart Trader [0x6b08bb]",
+      "pnl": 310167.3717070002,
+      "roi": 0.027037269525422167,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0x9031a11765816d5f57fdfd7f0ce4b8f375a0bacc",
+      "label": "locked-in.eth [0x9031a1]",
+      "pnl": 304849.48908100004,
+      "roi": 0.4805694346116242,
+      "account_value": 0.142342,
+      "ratio": 2141669.3,
+      "is_new": true
+    },
+    {
+      "address": "0xb9eb061e64d32c8e0a6c6992a7dc32a32df9cb74",
+      "label": "🤓 Smart HL Perps Trader [0xb9eb06]",
+      "pnl": 293644.281333,
+      "roi": 21.068369469842164,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0xbaa18c2073816e6ad58457c6efa53b57ca9aa7ce",
+      "label": "🤓 Smart HL Perps Trader [0xbaa18c]",
+      "pnl": 290608.801814,
+      "roi": 0.0024850331891869614,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0x41f9ae0b64a0ec4adc788ee5c82d4b824f839017",
+      "label": "🤓 Smart HL Perps Trader [0x41f9ae]",
+      "pnl": 289331.168407,
+      "roi": 326.5324597008624,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0x76097a1d0d8f5e93930719c231e793375eb960d9",
+      "label": "HL Perps Majors Trader [0x76097a]",
+      "pnl": 288222.9389739999,
+      "roi": 0.0008279441346937554,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0x28452e9f6733e73e2b85cefa936cec15ea700bac",
+      "label": "🤓 Smart HL Perps Trader [0x28452e]",
+      "pnl": 284033.8673010002,
+      "roi": 0.0016892899558478551,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0xa84c6fd42d4e5c2e9ffbdf452041a3485b170885",
+      "label": "HL Perps Majors Trader [0xa84c6f]",
+      "pnl": 279294.67246000003,
+      "roi": 0.0784438508274523,
+      "account_value": 15403.463801,
+      "ratio": 18.1,
+      "is_new": true
+    },
+    {
+      "address": "0xe8d89110c52df4ca33e75e060e3c72dcbf6c8dda",
+      "label": "🤓 Smart HL Perps Trader [0xe8d891]",
+      "pnl": 279135.99593,
+      "roi": 0.20198292517882355,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0x2a29762f188eacd2217313a62642b1fb24d14d9c",
+      "label": "HL Perps Stocks Trader [0x2a2976]",
+      "pnl": 277411.020978,
+      "roi": 0.8679702281626999,
+      "account_value": 0.520696,
+      "ratio": 532769.6,
+      "is_new": true
+    },
+    {
+      "address": "0x4ce423197edc972896d16cdb410b212c2b675633",
+      "label": "HL Perps Whale [0x4ce423]",
+      "pnl": 275660.73922,
+      "roi": 20.227823949573665,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0x053fa362f5459cf61037d8b554b5cfb055a7a4d3",
+      "label": "🤓 cosmicvision.eth [0x053fa3]",
+      "pnl": 273451.21751000016,
+      "roi": 0.044223546550512846,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0xf9fc0730df0355da336708add93dc1962aadb1d0",
+      "label": "petitemerde.eth [0xf9fc07]",
+      "pnl": 273286.385136,
+      "roi": 0.13574421325351893,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0x9ef7e1ca68d3cae021ab7512366f34db78fa088b",
+      "label": "HL Perps Macro Trader [0x9ef7e1]",
+      "pnl": 272271.67602799996,
+      "roi": 0.5903576009463671,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0x01b7e73cdad95d407e8696e04194a75f19744801",
+      "label": "🤓 Smart HL Perps Trader [0x01b7e7]",
+      "pnl": 271000.34289,
+      "roi": 27.100034289000003,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0xb8879a2c3712b5bbad02396d787dec7d564799d6",
+      "label": "HL Perps Altcoin Trader [0xb8879a]",
+      "pnl": 270893.703998,
+      "roi": 0.031201432097010724,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0xa522301c25e833b75b223a21a7f528eef9862d0e",
+      "label": "HL Perps Macro Trader [0xa52230]",
+      "pnl": 268556.927328,
+      "roi": 0.24267546913704074,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0x439ae37721c7436a64d933fd5f082525845ca848",
+      "label": "HL Perps Stocks Trader [0x439ae3]",
+      "pnl": 267663.177402,
+      "roi": 0.6666998060294095,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0x4099d1765fe640154a47d33ad58efd9ed12e50c8",
+      "label": "HL Perps Whale [0x4099d1]",
+      "pnl": 266823.033926,
+      "roi": 11.730619722709978,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0xe24166173f1e956845a0660c8b26db334dced71a",
+      "label": "HL Perps Stocks Trader [0xe24166]",
+      "pnl": 266747.28480699984,
+      "roi": 0.03312535298776653,
+      "account_value": 10719.30864,
+      "ratio": 24.9,
+      "is_new": true
+    },
+    {
+      "address": "0x6979dde2781dc4ec843641b10b2a2f2e0f4bda62",
+      "label": "HL Perps Whale [0x6979dd]",
+      "pnl": 265830.391426,
+      "roi": 6046.518097925562,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0x6e9b20e2ebb0e49a1de161b08413a2a988bd9516",
+      "label": "🤓 Smart HL Perps Trader [0x6e9b20]",
+      "pnl": 264035.223141,
+      "roi": 4.339294655428962,
+      "account_value": 12464.206916,
+      "ratio": 21.2,
+      "is_new": true
+    },
+    {
+      "address": "0xf2500dbc34617daf22b5186a1bfb9f5f3a33ae13",
+      "label": "🤓 Smart HL Perps Trader [0xf2500d]",
+      "pnl": 263523.942257,
+      "roi": 2.771115530370665,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0xbf740cfaa6c1e9cb1b8c882df405040431480192",
+      "label": "HL Perps Stocks Trader [0xbf740c]",
+      "pnl": 262612.93863,
+      "roi": 0.4020209677921688,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0x91d7ed568372a4cdd7ee827920839b2073c98287",
+      "label": "Former Smart Trader [0x91d7ed]",
+      "pnl": 261874.61351400003,
+      "roi": 0.1175774260493021,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0x03ef8f736498047c3349bb2c18311d1bb4a79054",
+      "label": "HL Perps Altcoin Trader [0x03ef8f]",
+      "pnl": 260896.161759,
+      "roi": 0.2161259303680492,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0x919805f1cd563d3b50e124e582a4a16c3dcf1819",
+      "label": "[0x919805]",
+      "pnl": 260690.5,
+      "roi": 1489.66,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0x196283bce3e38d98f9f4c424a1a148b248eaa4f9",
+      "label": "pinpals.eth [0x196283]",
+      "pnl": 259175.1429169999,
+      "roi": 0.003811179665672432,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0xc846e513f1fb448e744d5c8e911e87bccc0dfb20",
+      "label": "mamba248x.eth* [0xc846e5]",
+      "pnl": 253731.529761,
+      "roi": 0.05944056953674012,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0x74fc5ebb789a42662409f3ec728bca883224c939",
+      "label": "HL Perps Stocks Trader [0x74fc5e]",
+      "pnl": 252169.46363100002,
+      "roi": 0.0925390911067431,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0x053ab16a247321e312f3a8a2a0a8abda48707241",
+      "label": "HL Perps Whale [0x053ab1]",
+      "pnl": 251961.5306890001,
+      "roi": 0.2778200484263558,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0x951591a9e0a24ce6607dc73d4c62ba2716a83bea",
+      "label": "Former Smart Trader [0x951591]",
+      "pnl": 251951.66034099998,
+      "roi": 4.797121801791317,
+      "account_value": 47196.879808,
+      "ratio": 5.3,
+      "is_new": true
+    },
+    {
+      "address": "0xa650cbd841d3930df5adc53b9a35422fc558083b",
+      "label": "HL Perps Altcoin Trader [0xa650cb]",
+      "pnl": 251542.494418,
+      "roi": 0.0013054928945337545,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0x0526345bf8e09eb32256008c2844c8949ee3bb9a",
+      "label": "HL Perps Altcoin Trader [0x052634]",
+      "pnl": 251219.585064,
+      "roi": 6.58920161457781e-05,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0x83dbc7524ece5a0ce2c8233c93745d6c58cdf50b",
+      "label": "Former Smart Trader [0x83dbc7]",
+      "pnl": 245765.1404990001,
+      "roi": 0.24173228019487722,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0xcf218b31732a91c751fe484bc303525783a88a36",
+      "label": "HL Perps Altcoin Trader [0xcf218b]",
+      "pnl": 245356.469965,
+      "roi": 0.001728809886449237,
+      "account_value": 8291.378092,
+      "ratio": 29.6,
+      "is_new": true
+    },
+    {
+      "address": "0x77435010f5e34e2fa04f5ce7d49e57a8bd8de4fe",
+      "label": "HL Perps Majors Trader [0x774350]",
+      "pnl": 244755.972863,
+      "roi": 7.673172621413801,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0x75ec3ba266176e733f1b1fdaa15052f5eff724b8",
+      "label": "👤 Bordook [0x75ec3b]",
+      "pnl": 244276.9461350001,
+      "roi": 0.033378998917723716,
+      "account_value": 43647.270009,
+      "ratio": 5.6,
+      "is_new": true
+    },
+    {
+      "address": "0x569870903c3ef9768427135f907cb80376d1a3e0",
+      "label": "👤 bizyugo [0x569870]",
+      "pnl": 243063.378167,
+      "roi": 0.8670326020363521,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0xb7e09a94603f4fd3b67537b4c43584fe1498ae05",
+      "label": "Former Smart Trader [0xb7e09a]",
+      "pnl": 243051.6907570002,
+      "roi": 0.0002834102356103313,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0xb36147aa91470d1f63743d3c85a7de79148a0aa0",
+      "label": "HL Perps Majors Trader [0xb36147]",
+      "pnl": 242290.98108199998,
+      "roi": 0.4256451681690772,
+      "account_value": 22798.967009,
+      "ratio": 10.6,
+      "is_new": true
+    },
+    {
+      "address": "0xabb33c8cf65be770a7f70c3f18812168a6c0755f",
+      "label": "HL Perps Macro Trader [0xabb33c]",
+      "pnl": 241916.528644,
+      "roi": 2.3881498069646963,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0xadedb7e42d645ad812019f3d182d393b1d17d8e6",
+      "label": "HL Perps Shark [0xadedb7]",
+      "pnl": 240994.674356,
+      "roi": 0.22617394789813125,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0xdcf8a86ff20b0e42f31d76fa86bb5c6c8992cf4c",
+      "label": "Former Smart Trader [0xdcf8a8]",
+      "pnl": 238979.95581000007,
+      "roi": 0.3421548481373824,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0x68d39be8c66851afbb61abb3b2e0a8ef59b58e80",
+      "label": "\"Sensei_killedmyself\" on OpenSea [0x68d39b]",
+      "pnl": 238429.11310100002,
+      "roi": 0.20178395121516174,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0x31f0ed3135a26b142f58354011fdaf30766f4205",
+      "label": "🤓 jtofu.eth [0x31f0ed]",
+      "pnl": 237584.176004,
+      "roi": 0.32478162210775396,
+      "account_value": 48546.0,
+      "ratio": 4.9,
+      "is_new": true
+    },
+    {
+      "address": "0xd02928c445d780ea954fe0b6f0be0f6cb9727678",
+      "label": "HL Perps Majors Trader [0xd02928]",
+      "pnl": 234860.32324699967,
+      "roi": 0.7593912809189651,
+      "account_value": 9822.857225,
+      "ratio": 23.9,
+      "is_new": true
+    },
+    {
+      "address": "0x20145e97f464d0374adcbfc4fe0e42c07d313e6d",
+      "label": "HL Perps Whale [0x20145e]",
+      "pnl": 230552.578165,
+      "roi": 0.634922842438172,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0x18d103744b0f0bd4ab860f3455a252d20580d6dd",
+      "label": "🤓 Smart HL Perps Trader [0x18d103]",
+      "pnl": 229771.475072,
+      "roi": 0.8844747463128918,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0x46921f6961bdb411b756c9712f6bdb58fbd9164f",
+      "label": "HL Perps Macro Trader [0x46921f]",
+      "pnl": 225615.8862370001,
+      "roi": 0.021033064067859507,
+      "account_value": 0.009981,
+      "ratio": 22604537.2,
+      "is_new": true
+    },
+    {
+      "address": "0xd52e412fdd62361d469f432f683674f07c3bbf8e",
+      "label": "HL Perps Swing Trader [0xd52e41]",
+      "pnl": 225558.44437200006,
+      "roi": 0.6411355749834393,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0x81d4163289cf61a0eaaac4862cb88ef0f4215c29",
+      "label": "🤓 Smart HL Perps Trader [0x81d416]",
+      "pnl": 224653.450999,
+      "roi": 0.003585562689434245,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0xd13552538def5cecc78a20aa2236573f0bee6443",
+      "label": "🤓 Smart HL Perps Trader [0xd13552]",
+      "pnl": 224197.35573,
+      "roi": 1.0754638975175392,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0xab6e47c9cf13402d106612eda631e9d4c7555da6",
+      "label": "HL Perps Whale [0xab6e47]",
+      "pnl": 224157.03851100014,
+      "roi": 0.11989541388640383,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0x4b563051258ade30122940b80f575363baa4445b",
+      "label": "Former Smart Trader [0x4b5630]",
+      "pnl": 223860.88120199996,
+      "roi": 0.23602852466812205,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0x3e6805e8694bb2b717a828c1bfa32df5d6580cc9",
+      "label": "🤓 Smart HL Perps Trader [0x3e6805]",
+      "pnl": 223782.99646000002,
+      "roi": 0.24082200018487668,
+      "account_value": 25819.705117,
+      "ratio": 8.7,
+      "is_new": true
+    },
+    {
+      "address": "0x0f129afb3f51f0d549f4c98721e11fe9d9c46ce1",
+      "label": "HL Perps Whale [0x0f129a]",
+      "pnl": 222025.500085,
+      "roi": 9359.614532926673,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0xa0479b2c614cbd03ceab36ae5a6d0822035e553c",
+      "label": "HL Perps Whale [0xa0479b]",
+      "pnl": 221477.363341,
+      "roi": 7997.3800339354675,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0xf5a523b171032c060d49c39fbf2e9bec473e1286",
+      "label": "Consistent Perps Winner [0xf5a523]",
+      "pnl": 221066.534694,
+      "roi": 0.0016187674185154262,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0xc5ed4501500fcbfb2b88fb7f0aa52f834ed44346",
+      "label": "HL Perps Stocks Trader [0xc5ed45]",
+      "pnl": 220250.149586,
+      "roi": 0.010764555798493546,
+      "account_value": 11251.554073,
+      "ratio": 19.6,
+      "is_new": true
+    },
+    {
+      "address": "0x960b6c2c4b1498681b8422eb572a8b3a6aa3f0fc",
+      "label": "HL Perps Majors Trader [0x960b6c]",
+      "pnl": 219560.7994320001,
+      "roi": 2.446969652910774,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0xbc9f1c4b09dbce9849e201cb0729d8582266cac7",
+      "label": "HL Perps Majors Trader [0xbc9f1c]",
+      "pnl": 218882.613707,
+      "roi": 293.186804333605,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0xf3f9d32b0138eab7f41e8acc7627061b5a83188c",
+      "label": "HL Perps Majors Trader [0xf3f9d3]",
+      "pnl": 217350.252983,
+      "roi": 2.479060354324007,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0x32ec8541bb748d7e23d3ec2f24cd06054c13a4ec",
+      "label": "🤓 Smart HL Perps Trader [0x32ec85]",
+      "pnl": 217179.824184,
+      "roi": 0.4122253914828249,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0x348e5365acfa48a26ada7da840ca611e29c950ef",
+      "label": "HL Perps Majors Trader [0x348e53]",
+      "pnl": 217082.6659500001,
+      "roi": 0.6998156121983089,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0x69b05701f8175c276ecd0138387a197948e240bb",
+      "label": "HL Perps Altcoin Trader [0x69b057]",
+      "pnl": 216925.46106,
+      "roi": 7.548990856318397,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0x51cc158d2047050ef186ba2fbe6b0f157296410c",
+      "label": "\"gmguy\" on OpenSea [0x51cc15]",
+      "pnl": 215876.199285,
+      "roi": 0.6919439842604012,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0xfc5270b50bd619afa6ef487bb7e3e580bfefee77",
+      "label": "HL Perps Shark [0xfc5270]",
+      "pnl": 215753.266348,
+      "roi": 9.077506483450367,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0xeac842b2214cfece3f0d288293da19f408d91ede",
+      "label": "HL Perps Altcoin Trader [0xeac842]",
+      "pnl": 215196.754281,
+      "roi": 0.007018393729558453,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0xe330ac756dabf22466317a01f5d1e9baa00e77a1",
+      "label": "HL Perps Majors Trader [0xe330ac]",
+      "pnl": 213198.935785,
+      "roi": 0.008911838388972719,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0x4281922345d503589ac331a2cae1e48368cc3f94",
+      "label": "HL Perps Whale [0x428192]",
+      "pnl": 211505.382255,
+      "roi": 259.179763189249,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0xa3a7c36cc9fa3fc5b0c971bc7b5a5659a2f7ab4c",
+      "label": "[0xa3a7c3]",
+      "pnl": 210597.094548,
+      "roi": 5.08955651486722,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0xfb8720d7b7d09b6fd44291a3bf1ed805e50b833b",
+      "label": "HL Perps Altcoin Trader [0xfb8720]",
+      "pnl": 210046.506215,
+      "roi": 1.275236154623969,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0xde1e6c1bec4d1754eb5487421f9e79a77b4fe871",
+      "label": "HL Perps Stocks Trader [0xde1e6c]",
+      "pnl": 209173.303928,
+      "roi": 0.010663250220950127,
+      "account_value": 24152.716035,
+      "ratio": 8.7,
+      "is_new": true
+    },
+    {
+      "address": "0x4b3cd947eb86a32dadbde2e9a873524615e66c92",
+      "label": "HL Perps Majors Trader [0x4b3cd9]",
+      "pnl": 208997.42836800008,
+      "roi": 0.06487268473799862,
+      "account_value": 7594.499188,
+      "ratio": 27.5,
+      "is_new": true
+    },
+    {
+      "address": "0x5a7a6b69c6382000fd35711fd28440f415417318",
+      "label": "👤 loop [0x5a7a6b]",
+      "pnl": 208716.527803,
+      "roi": 8.106833364880284,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0x6abc111bd22bb38e649f81be60dfbeb35648aac6",
+      "label": "Former Smart Trader [0x6abc11]",
+      "pnl": 208494.347771,
+      "roi": 0.013919567392414199,
+      "account_value": 32990.249162,
+      "ratio": 6.3,
+      "is_new": true
+    },
+    {
+      "address": "0x80fb5880f38185661962e475ac1557817dc9faea",
+      "label": "5302.pudgy [0x80fb58]",
+      "pnl": 207468.285079,
+      "roi": 0.20032217219796478,
+      "account_value": 18447.972267,
+      "ratio": 11.2,
+      "is_new": true
+    },
+    {
+      "address": "0xb58e1eb8256689e47f589ba6f6a28657d997bf2f",
+      "label": "Former Smart Trader [0xb58e1e]",
+      "pnl": 206088.668368,
+      "roi": 0.12609178234875967,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0x87d76b68d81a3cec086e6c34afed49dbf378af8b",
+      "label": "HL Perps Whale [0x87d76b]",
+      "pnl": 205324.662186,
+      "roi": 84.4955371245997,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0xa5f9883f469afc4bdcebe11001a2f951522c88d5",
+      "label": "HL Perps Majors Trader [0xa5f988]",
+      "pnl": 205260.3667789999,
+      "roi": 22.903762827431624,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0xb7dbd6012313c5f7d5fada7eb1213de2030970c4",
+      "label": "HL Perps Macro Trader [0xb7dbd6]",
+      "pnl": 204806.918502,
+      "roi": 0.6812643461990215,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0xf208b13968cf79db8ed788907e70c288a3169c0b",
+      "label": "HL Perps Swing Trader [0xf208b1]",
+      "pnl": 203938.908948,
+      "roi": 19.54572375804346,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0x1eb117402eb2b3a5186eb9510de42cd255b3ca20",
+      "label": "🤓 w22222.eth [0x1eb117]",
+      "pnl": 203654.9975940001,
+      "roi": 0.1471250940267201,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0x4321bfc3b43d538bc2b6dfbcf22a367719aea936",
+      "label": "HL Perps Day Trader [0x4321bf]",
+      "pnl": 203499.468475,
+      "roi": 68.14469690355114,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0x347125ab96e098a9ff7e26405a75aa227e119c15",
+      "label": "@sparkcsays [0x347125]",
+      "pnl": 203486.85660700002,
+      "roi": 0.22382694080359183,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0xd9c941e60acd6d1c390c3c32e9a5ed7bf13d0e50",
+      "label": "HL Perps Perma-Bear [0xd9c941]",
+      "pnl": 202622.39019100004,
+      "roi": 0.25189566380634376,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0x9fb1750da6266a05601855bb62767ebc742707b1",
+      "label": "🤓 Smart HL Perps Trader [0x9fb175]",
+      "pnl": 201928.96865599998,
+      "roi": 0.10319649064708562,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0xe1b2155b8fbc16c1146d5d16247896f06f68686e",
+      "label": "🤓 Smart HL Perps Trader [0xe1b215]",
+      "pnl": 200664.98814799997,
+      "roi": 0.11691620884377397,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0xd01d1679643f48654e6f532c4326be2d034573e7",
+      "label": "HL Perps Altcoin Trader [0xd01d16]",
+      "pnl": 200633.944068,
+      "roi": 0.805854832312398,
+      "account_value": 33834.657929,
+      "ratio": 5.9,
+      "is_new": true
+    },
+    {
+      "address": "0x64f4e14a603a6383f459e16f4781a6b30611dfb8",
+      "label": "Former Smart Trader [0x64f4e1]",
+      "pnl": 200192.208588,
+      "roi": 0.5749740296869853,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0x399965e15d4e61ec3529cc98b7f7ebb93b733336",
+      "label": "HL Perps Stocks Trader [0x399965]",
+      "pnl": 199387.26936799998,
+      "roi": 0.009305137016855921,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0xf8b5bde5f6aa989c01754931e077e1e5a915e2bb",
+      "label": "HL Perps Stocks Trader [0xf8b5bd]",
+      "pnl": 195489.044399,
+      "roi": 0.05065577568107114,
+      "account_value": 4523.44149,
+      "ratio": 43.2,
+      "is_new": true
+    },
+    {
+      "address": "0x25ad068ba92b61ce2217c41270a9a69c247679af",
+      "label": "HL Perps Majors Trader [0x25ad06]",
+      "pnl": 194210.52468300003,
+      "roi": 0.08552078574789597,
+      "account_value": 0.005488,
+      "ratio": 35388215.1,
+      "is_new": true
+    },
+    {
+      "address": "0x7d1d11fae1b69fe347de53e2461de2686ebe11fc",
+      "label": "HL Perps Shark [0x7d1d11]",
+      "pnl": 193632.39836500003,
+      "roi": 0.08974424962231427,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0x8b0e69f0a54d71e7bf33bef64c37e0307c3ac50f",
+      "label": "🤓 👤 CBB [0x8b0e69]",
+      "pnl": 191916.379313,
+      "roi": 6.620257961500226,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0xd60723d50681568d15373aa7db12020d4c685baf",
+      "label": "HL Perps Macro Trader [0xd60723]",
+      "pnl": 190830.86082099978,
+      "roi": 0.04367058782119944,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0xd5d62227bb13d285689de881e6d4e4462f637a4c",
+      "label": "HL Perps Altcoin Trader [0xd5d622]",
+      "pnl": 190384.170111,
+      "roi": 0.07090958856422559,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0x00b43bdee2d3fa676ab06739bf1d52f4bad6591e",
+      "label": "HL Perps Whale [0x00b43b]",
+      "pnl": 189559.72653,
+      "roi": 189.55972653,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0xd8d0358919a944d4efa98713795d49b030e43ef9",
+      "label": "Former Smart Trader [0xd8d035]",
+      "pnl": 188726.810391,
+      "roi": 4.61823992979961,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0x0252f92ee3f4430ac419fc3e9ae31df718990842",
+      "label": "supremedegen.eth [0x0252f9]",
+      "pnl": 186665.722132,
+      "roi": 0.15798188852661732,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0xcba2680d2fc87cd6ee404fafbd7a5efbd26b099c",
+      "label": "High Balance [0xcba268]",
+      "pnl": 185559.418364,
+      "roi": 2.9310283456412902,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0x2c5dc7e67fce4bc252221c46c1cdc7651838b2d8",
+      "label": "Former Smart Trader [0x2c5dc7]",
+      "pnl": 184455.942101,
+      "roi": 0.46504560540150275,
+      "account_value": 34821.883676,
+      "ratio": 5.3,
+      "is_new": true
+    },
+    {
+      "address": "0xdee7297778b8755343e96e0b99eecf549195b856",
+      "label": "👤 MONK [0xdee729]",
+      "pnl": 184301.06927700003,
+      "roi": 0.4150787185060569,
+      "account_value": 19468.012036,
+      "ratio": 9.5,
+      "is_new": true
+    },
+    {
+      "address": "0x0df25979a16d993e55bd58d05b6197c71634ab64",
+      "label": "HL Perps Majors Trader [0x0df259]",
+      "pnl": 183827.3380230011,
+      "roi": 52.76192788091175,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0x4d4eccbf61ca71baa6eb7808a4fd5361b6ea9b80",
+      "label": "HL Perps Altcoin Trader [0x4d4ecc]",
+      "pnl": 183787.05595,
+      "roi": 1.6811119166117081,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0xab81fef97356d57cd30f8ceb15285b988682c608",
+      "label": "HL Perps Macro Trader [0xab81fe]",
+      "pnl": 183670.92355999997,
+      "roi": 0.569015344955873,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0x4603444ec777fc3e783d157bc871f6bc04baf161",
+      "label": "HL Perps Swing Trader [0x460344]",
+      "pnl": 182142.261584,
+      "roi": 0.43727835889601807,
+      "account_value": 33230.096931,
+      "ratio": 5.5,
+      "is_new": true
+    },
+    {
+      "address": "0xdb095d5a4f412fc6b14e6204c1db78bd14becbc1",
+      "label": "🤓 Smart HL Perps Trader [0xdb095d]",
+      "pnl": 180942.33561200002,
+      "roi": 0.1430418230039623,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0xfba7c3e68638fda0a13994ddb6733cbd016ec826",
+      "label": "HL Perps Altcoin Trader [0xfba7c3]",
+      "pnl": 179922.1829910002,
+      "roi": 0.009683651908783574,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0xab04d4088815e5ef868f93643ed4d047e5690e4f",
+      "label": "HL Perps Stocks Trader [0xab04d4]",
+      "pnl": 179762.8277099998,
+      "roi": 0.010838719110394595,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0x1f67d79afc8d0e7609ddba6c9b657cc635f69981",
+      "label": "Former Smart Trader [0x1f67d7]",
+      "pnl": 179374.974654,
+      "roi": 0.21367725414144023,
+      "account_value": 42233.154733,
+      "ratio": 4.2,
+      "is_new": true
+    },
+    {
+      "address": "0x5db22b067c3ec6a8435ec37555abeab44cd58a21",
+      "label": "HL Perps Stocks Trader [0x5db22b]",
+      "pnl": 178949.85824300002,
+      "roi": 1.0616528002044736,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0xac7476e14f768e3e67c195e79c2490dd20c70127",
+      "label": "HL Perps Altcoin Trader [0xac7476]",
+      "pnl": 177980.827132,
+      "roi": 1.6111200609314332e-05,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0x4806525b92bcdd660734b825a5b4ad3783ad22a4",
+      "label": "HL Perps Majors Trader [0x480652]",
+      "pnl": 177372.860533,
+      "roi": 22.05530498101648,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0x62cd732421df4824f53a59c422b519bb97e8fd51",
+      "label": "HL Perps Altcoin Trader [0x62cd73]",
+      "pnl": 176889.600509,
+      "roi": 2.7621033124010026,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0x52e6c32f0eb44f707e9c159052fc5039fc7b7725",
+      "label": "HL Perps Majors Trader [0x52e6c3]",
+      "pnl": 176810.1761070001,
+      "roi": 0.0029460018520184343,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0xf890f106fae3d9023c57f9da5911df097edd30eb",
+      "label": "🤓 Smart HL Perps Trader [0xf890f1]",
+      "pnl": 176768.20857,
+      "roi": 9303.589924736842,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0xe21be5bb37a3af716174cdc5d095ab224b3ef9de",
+      "label": "HL Perps Altcoin Trader [0xe21be5]",
+      "pnl": 176365.814266,
+      "roi": 0.08038798244611886,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0x042f3197544004962c2318a3120c4ecbce179050",
+      "label": "HL Perps Whale [0x042f31]",
+      "pnl": 175507.565038,
+      "roi": 2.5113041596776964,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0x71cfa5e263e866f7961091e01ebc5a2d11616c20",
+      "label": "HL Perps Altcoin Trader [0x71cfa5]",
+      "pnl": 175304.81465,
+      "roi": 0.0008328143169291047,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0x6a704a0e46dcc67a6316644372e261e8fb6f658c",
+      "label": "Former Smart Trader [0x6a704a]",
+      "pnl": 174714.1186270001,
+      "roi": 0.09227735408864694,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0xbeeab38b14a6a7af7fe1ff98cdef4e1fb1dfd4d2",
+      "label": "High Balance [0xbeeab3]",
+      "pnl": 174587.83454100002,
+      "roi": 0.37200814779338215,
+      "account_value": 49043.263011,
+      "ratio": 3.6,
+      "is_new": true
+    },
+    {
+      "address": "0xe6c7b3e0d89dd56a0677bc23a023bd47d39fb921",
+      "label": "Former Smart Trader [0xe6c7b3]",
+      "pnl": 173907.77807300002,
+      "roi": 1.5041593016041446,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0xff2fed9cb48196ec35fd97b290c583e7a63b17b7",
+      "label": "noobcoder.eth [0xff2fed]",
+      "pnl": 171793.590679,
+      "roi": 0.8846629899377416,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0x7484849d9b924673bc81da52752bf4e1f62e8673",
+      "label": "HL Perps Whale [0x748484]",
+      "pnl": 171494.649317,
+      "roi": 9390.437515886215,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0x426ecea1388d31cf810feb0a90d671aedd2711cc",
+      "label": "HL Perps Day Trader [0x426ece]",
+      "pnl": 171451.50058400002,
+      "roi": 0.2855107257322712,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0xe80e36c38c1501609bb9af550238a1c5a09acfd3",
+      "label": "🤓 Smart HL Perps Trader [0xe80e36]",
+      "pnl": 171011.36578199992,
+      "roi": 0.08488368455375365,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0x2b3c7ebef82e6e85794ab9a1a83aa9f5fc915931",
+      "label": "HL Perps Shark [0x2b3c7e]",
+      "pnl": 170946.575652,
+      "roi": 2.5854911889172087,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0x31321e88cd4e67d9b92f91deb92cd80103f9f0fb",
+      "label": "HL Perps Majors Trader [0x31321e]",
+      "pnl": 170614.581651,
+      "roi": 9.053910230397185e-05,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0xd93db9fc95c19c1eaab854281890e9e77b18ae3f",
+      "label": "🤓 Smart HL Perps Trader [0xd93db9]",
+      "pnl": 169642.095915,
+      "roi": 0.21542918773802922,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0x0335a1387afc039bf30ba7bf620630121c33b797",
+      "label": "Consistent Perps Winner [0x0335a1]",
+      "pnl": 169249.7828020011,
+      "roi": 2.6465289133334444,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0x814dc3c5b4e37c26aaae994e10f5cba6eb10bcba",
+      "label": "🤓 Smart HL Perps Trader [0x814dc3]",
+      "pnl": 169180.786751,
+      "roi": 5.385202245776139,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0x28aeeb67c9fb44f9c693011f6fc7df90b276bcb0",
+      "label": "🤓 Smart HL Perps Trader [0x28aeeb]",
+      "pnl": 168798.274898,
+      "roi": 0.9891774611057074,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0x7bedd1556856ee82d0c11ea82c4825c7a7b046f3",
+      "label": "Former Smart Trader [0x7bedd1]",
+      "pnl": 167847.934532,
+      "roi": 0.4517022725519205,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0x114dc2c90b61ef68b6ccb45d8e9902609cb08f9d",
+      "label": "🤓 Smart HL Perps Trader [0x114dc2]",
+      "pnl": 167831.434203,
+      "roi": 0.5719080583170716,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0xfdf1e791b257b259d2e2967a0b525d0e777d67fe",
+      "label": "🤓 Smart HL Perps Trader [0xfdf1e7]",
+      "pnl": 167446.972434,
+      "roi": 1.9213087077878148,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0x0506b97ac63244ccc824d152c77d2b99d7c17a14",
+      "label": "mp2.rvnode.eth [0x0506b9]",
+      "pnl": 166979.688477,
+      "roi": 7.811322664262949,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0x442b5e2cb891d4af086f129cf1523e0c12964633",
+      "label": "@yeahokay on Farcaster [Verified] [0x442b5e]",
+      "pnl": 166227.25294000003,
+      "roi": 0.20995506815330803,
+      "account_value": 25909.815343,
+      "ratio": 6.4,
+      "is_new": true
+    },
+    {
+      "address": "0xa12156da455437e075d243f7091a667c7121a73c",
+      "label": "HL Perps Altcoin Trader [0xa12156]",
+      "pnl": 165363.543336,
+      "roi": 0.4070533511938031,
+      "account_value": 13924.042159,
+      "ratio": 11.9,
+      "is_new": true
+    },
+    {
+      "address": "0xb3b60225e0b7806793bc9379209d93979f686b77",
+      "label": "🤓 Smart HL Perps Trader [0xb3b602]",
+      "pnl": 164289.71157,
+      "roi": 58.70278081017055,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0x718cc7ee2ae2493ebf7d454316df6b61f4e1a868",
+      "label": "👤 threadguy [0x718cc7]",
+      "pnl": 164233.871795,
+      "roi": 0.22250465003712133,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0x3ab77725ac1ae06aff19d90a33c2a0fe126b7789",
+      "label": "HL Perps Stocks Trader [0x3ab777]",
+      "pnl": 164152.88233100006,
+      "roi": 0.01179905578959868,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0xd307f9b172070c0aa422487cb8dec9d3f8225116",
+      "label": "Consistent Perps Winner [0xd307f9]",
+      "pnl": 163886.4227579999,
+      "roi": 0.03778838423592284,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0xdf59ab0bc4e175667b6e2bd77fdc585d088b5a2e",
+      "label": "Token Millionaire [0xdf59ab]",
+      "pnl": 163522.40454,
+      "roi": 25.617835475756248,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0x51c96a11da65524d0efc6fd0c6dc9b306f19f3aa",
+      "label": "HL Perps Majors Trader [0x51c96a]",
+      "pnl": 162237.3260380002,
+      "roi": 0.13238176948948124,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0x041836d6c0617c694b70b57680f45905811076db",
+      "label": "HL Perps Majors Trader [0x041836]",
+      "pnl": 161962.27975500003,
+      "roi": 0.0005150028393405163,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0x0bda59997765a113bea8ca9cba319b35fb287fc8",
+      "label": "​​Trading Bot User [0x0bda59]",
+      "pnl": 161687.91731,
+      "roi": 0.5008657699019085,
+      "account_value": 8.56529,
+      "ratio": 18877.1,
+      "is_new": true
+    },
+    {
+      "address": "0x52ea814df88c423bd5325e84f4b6f8bf429a61d5",
+      "label": "HL Perps Stocks Trader [0x52ea81]",
+      "pnl": 161604.41749600013,
+      "roi": 0.13733777432895378,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0x9b86b5e96ca9f278f9cb62e118e67937a9350653",
+      "label": "[0x9b86b5]",
+      "pnl": 161184.26329200002,
+      "roi": 3.6732359298017094,
+      "account_value": 36095.914782,
+      "ratio": 4.5,
+      "is_new": true
+    },
+    {
+      "address": "0x56811550b50c940db1f8acfc3341e7a6101660eb",
+      "label": "HL Perps Majors Trader [0x568115]",
+      "pnl": 160252.1109159999,
+      "roi": 2.255856763590183,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0x35b7d824937e0767535c325512039191c214f5f4",
+      "label": "HL Perps Stocks Trader [0x35b7d8]",
+      "pnl": 160243.56239,
+      "roi": 0.48806548164784835,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0x8b9af0a4a822d6d6ccc72540b2a44bcc9a5a66ef",
+      "label": "HL Perps Majors Trader [0x8b9af0]",
+      "pnl": 160230.4879059999,
+      "roi": 1144.3174517199911,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0x3da3b64e63b57ed4926d4d9836cd08e0ffc830a0",
+      "label": "HL Perps Macro Trader [0x3da3b6]",
+      "pnl": 158377.237628,
+      "roi": 0.12479907377142099,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0x8250a7f9fca9c33e68eead8c05c1d58c8fd70d13",
+      "label": "🤓 blackmonkey.eth [0x8250a7]",
+      "pnl": 158343.32869800003,
+      "roi": 0.3257534763889436,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0xf08208e088f89970068dc0b2deaa440f6a7d0250",
+      "label": "High Balance [0xf08208]",
+      "pnl": 157946.173905,
+      "roi": 787.5454309541024,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0x1e921e6c998c7dff155c8792937d1ae622ce08fd",
+      "label": "🤓 Smart HL Perps Trader [0x1e921e]",
+      "pnl": 156773.489174,
+      "roi": 1.06974759060274,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0x8f8178b3585d3174006cc19d5e7d6ba9736266a3",
+      "label": "HL Perps Stocks Trader [0x8f8178]",
+      "pnl": 156596.41382100002,
+      "roi": 0.13369403384125086,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0xd759e86ed8ca3b9af4fbd87b295f2feea3b8daf3",
+      "label": "HL Perps Majors Trader [0xd759e8]",
+      "pnl": 154892.955175,
+      "roi": 0.0002070125080432611,
+      "account_value": 4565.358497,
+      "ratio": 33.9,
+      "is_new": true
+    },
+    {
+      "address": "0xdec960c1ded3634c16f5b6c239452fc591b205bb",
+      "label": "🤓 : Boros Trader [0xdec960]",
+      "pnl": 154394.257345,
+      "roi": 641.2351701375642,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0x83f9daccd2ce1a71e4965a28fc898e4d41af7092",
+      "label": "HL Perps Whale [0x83f9da]",
+      "pnl": 153910.363862,
+      "roi": 504.0440799669888,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0x15df49f74171cd2157c89084f63e15fbd12c6ca1",
+      "label": "HL Perps Majors Trader [0x15df49]",
+      "pnl": 153798.7063230002,
+      "roi": 0.0045504670849385535,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0x3a122449de235a40481689442271c0731b805d69",
+      "label": "Former Smart Trader [0x3a1224]",
+      "pnl": 153400.609971,
+      "roi": 5.748997301317467,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0xe6e3355646051ff76174dd36f6e0fbe2b2cb67f7",
+      "label": "HL Perps Whale [0xe6e335]",
+      "pnl": 152602.31638799992,
+      "roi": 0.0686915885484004,
+      "account_value": 40922.149522,
+      "ratio": 3.7,
+      "is_new": true
+    },
+    {
+      "address": "0xf8fcae418ddedfb12f8fa06ea5fc8724fe60b75d",
+      "label": "HL Perps Stocks Trader [0xf8fcae]",
+      "pnl": 151955.95736200002,
+      "roi": 0.19786667142277048,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0xddfe0b953e0c88aaa8f01f769ffeb8c856e80f51",
+      "label": "HL Perps Majors Trader [0xddfe0b]",
+      "pnl": 151728.44295399962,
+      "roi": 0.07203361171232564,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0x427070e33d630b0476bedba5d53db224913eb946",
+      "label": "certifiedbum.eth* [0x427070]",
+      "pnl": 151299.885526,
+      "roi": 0.004923490480065322,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0xf35aad55c9941333bfdc69175eba123d8b01338a",
+      "label": "HL Perps Day Trader [0xf35aad]",
+      "pnl": 150557.039927,
+      "roi": 0.32575381149189264,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0xdd539d21ad8dca18566086d6b265dc86a82e0caa",
+      "label": "🤓 Smart HL Perps Trader [0xdd539d]",
+      "pnl": 150180.06364,
+      "roi": 0.3644799743154581,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0x9ca4d46c654b15077fccca7bf9e88f56d92a4fb9",
+      "label": "HL Perps Majors Trader [0x9ca4d4]",
+      "pnl": 150038.82163700002,
+      "roi": 0.19366143880339626,
+      "account_value": 22227.976197,
+      "ratio": 6.7,
+      "is_new": true
+    },
+    {
+      "address": "0xf1ed8db37b7474fb5bfe01b58def6001955a2d2a",
+      "label": "coincumber.eth* [0xf1ed8d]",
+      "pnl": 149030.455979,
+      "roi": 1.238112295961799,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0xf25bc953a6709cc21d6f6611c9feecb493e77dbe",
+      "label": "Former Smart Trader [0xf25bc9]",
+      "pnl": 148748.159135,
+      "roi": 11.620387069923174,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0x0a8f51187b63a59f0f578c946675fe3be473d537",
+      "label": "🤓 Smart HL Perps Trader [0x0a8f51]",
+      "pnl": 148461.582982,
+      "roi": 70.94870442433047,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0xa43dea86853f5ed8f767e36e16fd20b36b07769d",
+      "label": "👤 Hakushu [0xa43dea]",
+      "pnl": 147644.5944029999,
+      "roi": 0.01966214872055654,
+      "account_value": 28578.947384,
+      "ratio": 5.2,
+      "is_new": true
+    },
+    {
+      "address": "0x408d807d1dbb778f59a9c088e56d4c27bdd362ac",
+      "label": "HL Perps Majors Trader [0x408d80]",
+      "pnl": 147604.216752,
+      "roi": 0.006748244863155274,
+      "account_value": 5246.87592,
+      "ratio": 28.1,
+      "is_new": true
+    },
+    {
+      "address": "0xb32b3cadf4ee7cc5de0be2dbb7430464bab2c5ca",
+      "label": "HL Perps Whale [0xb32b3c]",
+      "pnl": 147485.7158610001,
+      "roi": 0.43155231012108436,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0x9c3c0be3f3c5f56458f51fa7fbb4bacf2084e56f",
+      "label": "HL Perps Altcoin Trader [0x9c3c0b]",
+      "pnl": 146157.578813,
+      "roi": 0.44816863885753117,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0x99a37251fc413c4ab98ef1ce1b428066c48fd938",
+      "label": "HL Perps Majors Trader [0x99a372]",
+      "pnl": 145429.919256,
+      "roi": 0.22006725088350929,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0x10fb56577d2473e0ca1cb7d3e4b0cb10ba7e632c",
+      "label": "HL Perps Macro Trader [0x10fb56]",
+      "pnl": 145393.048273,
+      "roi": 0.005642948887188468,
+      "account_value": 0.00845,
+      "ratio": 17206277.9,
+      "is_new": true
+    },
+    {
+      "address": "0x33d72423b6a0fa80832ddfcf123762c27c032c41",
+      "label": "rcsenjoyer.eth [0x33d724]",
+      "pnl": 145246.642576,
+      "roi": 0.048736256720006775,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0xa4047eb14ba43a6c2168323f81bbfabcb5998c2f",
+      "label": "HL Perps Majors Trader [0xa4047e]",
+      "pnl": 144897.750417,
+      "roi": 0.01736166239902458,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0x5000ba5de4adfb74447048a4e8d9faffe7cda700",
+      "label": "HL Perps Day Trader [0x5000ba]",
+      "pnl": 144698.14511500002,
+      "roi": 0.1917690383779404,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0xf3745e9c05f2154386c986336ca0a0cf7c30d701",
+      "label": "HL Perps Majors Trader [0xf3745e]",
+      "pnl": 144439.4641880002,
+      "roi": 30.90882004384245,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0x02c792bb17ce731d3a7dd6209db9aedbb78b756c",
+      "label": "HL Perps Whale [0x02c792]",
+      "pnl": 144356.535971,
+      "roi": 0.8944130335763053,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0x2781335247f1e8522bbdff12d2a30f918b83ab61",
+      "label": "HL Perps Altcoin Trader [0x278133]",
+      "pnl": 144008.21180099997,
+      "roi": 0.2758142434500661,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0xf39f1953f24f2dfb70e366052239b265de160267",
+      "label": "HL Perps Macro Trader [0xf39f19]",
+      "pnl": 143203.579152,
+      "roi": 15.911508794666666,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0xe3ea6e994993698a721f92491d1b0b4ce67ad5ff",
+      "label": "slove69.eth* [0xe3ea6e]",
+      "pnl": 142758.538638,
+      "roi": 0.9573137016681523,
+      "account_value": 34240.489535,
+      "ratio": 4.2,
+      "is_new": true
+    },
+    {
+      "address": "0x42bc06d636e9a9a93edb1ddf781ee97821a73946",
+      "label": "HL Perps Macro Trader [0x42bc06]",
+      "pnl": 142455.08617200033,
+      "roi": 0.01590686070928474,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0x6fbb33de5f39c690d2decb95b9ab46ed0c83e3bc",
+      "label": "HL Perps Majors Trader [0x6fbb33]",
+      "pnl": 142299.585731,
+      "roi": 0.0017245903293624202,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0xee7fd638e9b42092dd292349d8526a253be75401",
+      "label": "HL Perps Stocks Trader [0xee7fd6]",
+      "pnl": 141358.36473200005,
+      "roi": 0.12764701019401561,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0xcf74dc50069e3ee0fddc10bd64e9a68d21126cfe",
+      "label": "HL Perps Swing Trader [0xcf74dc]",
+      "pnl": 140945.480079,
+      "roi": 1.745455656095749,
+      "account_value": 17446.807202,
+      "ratio": 8.1,
+      "is_new": true
+    },
+    {
+      "address": "0x5bba1df1bd0d44250246ef5b4697e9b847530dc4",
+      "label": "HL Perps Stocks Trader [0x5bba1d]",
+      "pnl": 140584.19629599992,
+      "roi": 0.03361878415270463,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0x1af7a7223301aede887188066d158b502094c79e",
+      "label": "ETH Millionaire [0x1af7a7]",
+      "pnl": 138986.685574,
+      "roi": 186.23064365600146,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0xbf90446e72b09fa0fbe84b198aed2f05935468fa",
+      "label": "HL Perps Macro Trader [0xbf9044]",
+      "pnl": 138510.468519,
+      "roi": 243.18683856247935,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0x603f6575750b2da949a84ff412b68e762bcd75a3",
+      "label": "HL Perps Altcoin Trader [0x603f65]",
+      "pnl": 138442.844216,
+      "roi": 0.19456612407640575,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0x107a3e62969957f4c0be0340f457f1298acfe78e",
+      "label": "HL Perps Macro Trader [0x107a3e]",
+      "pnl": 137862.52292100003,
+      "roi": 0.12221766846147093,
+      "account_value": 28779.24558,
+      "ratio": 4.8,
+      "is_new": true
+    },
+    {
+      "address": "0x03fb2d4401575453307c53015abafbb69c62e254",
+      "label": "HL Perps Altcoin Trader [0x03fb2d]",
+      "pnl": 137199.435052,
+      "roi": 0.0943034698628911,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0x32802f989b4348a51dd0e61d23b78be1a0543469",
+      "label": "trevormcfedries.eth [0x32802f]",
+      "pnl": 136866.263852,
+      "roi": 16.164538085839308,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0x2bb45f0411f8f7cd264620fb2b22990d373b8ac5",
+      "label": "🤓 Smart HL Perps Trader [0x2bb45f]",
+      "pnl": 136734.453419,
+      "roi": 0.4390884973368899,
+      "account_value": 11227.623057,
+      "ratio": 12.2,
+      "is_new": true
+    },
+    {
+      "address": "0x54aba9aefa6c801e3364c93063bc27933905c7ae",
+      "label": "HL Perps Altcoin Trader [0x54aba9]",
+      "pnl": 135857.85967799998,
+      "roi": 0.014559039962467168,
+      "account_value": 13446.893443,
+      "ratio": 10.1,
+      "is_new": true
+    },
+    {
+      "address": "0xd4eeed940e2c0b4b13910128fad5e0bc987e759e",
+      "label": "HL Perps Altcoin Trader [0xd4eeed]",
+      "pnl": 135713.192954,
+      "roi": 0.23320662571774514,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0x143c28ae5b8642f58c98b8a6f82a0f314d23f6ab",
+      "label": "🤓 Smart HL Perps Trader [0x143c28]",
+      "pnl": 135703.49022900002,
+      "roi": 0.06711025432029555,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0x5c42b895c1a7f42fe0f72ed2ba1fe442376fb61d",
+      "label": "HL Perps Altcoin Trader [0x5c42b8]",
+      "pnl": 135515.622779,
+      "roi": 0.410758204005398,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0x4a9ff585a6c272fa308395fa6666ff1236ba0624",
+      "label": "HL Perps Stocks Trader [0x4a9ff5]",
+      "pnl": 135437.09658,
+      "roi": 0.8794616661038962,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0x67870e072059b30eb06530cabebe2a8b50fecb04",
+      "label": "🤓 Smart HL Perps Trader [0x67870e]",
+      "pnl": 134893.401565,
+      "roi": 1.9590919495042516,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0x6e88dc3708afc2b0032eeff625df78dcde1e741a",
+      "label": "🤓 \"MustyNeopet\" on OpenSea [0x6e88dc]",
+      "pnl": 133859.730767,
+      "roi": 0.2735687094823574,
+      "account_value": 14565.621156,
+      "ratio": 9.2,
+      "is_new": true
+    },
+    {
+      "address": "0x8bd30fc805e672e1d978138ecbedcb48479ce275",
+      "label": "Former Smart Trader [0x8bd30f]",
+      "pnl": 133290.26584900008,
+      "roi": 0.11233030956566807,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0x7e416524307357636f95083883150e4621271c3e",
+      "label": "HL Perps Macro Trader [0x7e4165]",
+      "pnl": 133263.51044399999,
+      "roi": 0.28623173231043925,
+      "account_value": 0.001692,
+      "ratio": 78760940.0,
+      "is_new": true
+    },
+    {
+      "address": "0x24eca210afee728eb7e8e35642ed1582ff605a84",
+      "label": "crustyballs69420.eth* [0x24eca2]",
+      "pnl": 132649.505848,
+      "roi": 2.735454213873104,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0x77bab212ee6f693b67224b624806a1413adcccc5",
+      "label": "Consistent Perps Winner [0x77bab2]",
+      "pnl": 132170.463628,
+      "roi": 0.0009962267338172533,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0xa0d66bab5f04cb3055cc2f6b0494cb33be32c2c2",
+      "label": "HL Perps Altcoin Trader [0xa0d66b]",
+      "pnl": 132051.096366,
+      "roi": 0.16103792239756098,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0x890d2fae5b768700d8b6502fbe6d56b4ca14d07c",
+      "label": "HL Perps Day Trader [0x890d2f]",
+      "pnl": 130485.65244200005,
+      "roi": 0.0726022340822867,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0x77998579f578c01030db65e75edc47bfe890c291",
+      "label": "HL Perps Majors Trader [0x779985]",
+      "pnl": 130303.507408,
+      "roi": 42.7846384665831,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0x16d69a835c012584783921b2e4c622f157ce97bf",
+      "label": "🤓 radyuk.eth [0x16d69a]",
+      "pnl": 130199.76345200001,
+      "roi": 0.18549192816539653,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0x4a49adcac118e57b253c7405b736724726ea5e14",
+      "label": "HL Perps Day Trader [0x4a49ad]",
+      "pnl": 130121.652438,
+      "roi": 0.09643649904528188,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0x34c6d41c5f78f7ccdf1b05ef7cb7c868ac5a6b0c",
+      "label": "🤓 Smart HL Perps Trader [0x34c6d4]",
+      "pnl": 129538.579239,
+      "roi": 0.05457733586369298,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0xe33092a9fbb59cd753f5888f3d376e60ccff6d11",
+      "label": "HL Perps Altcoin Trader [0xe33092]",
+      "pnl": 129377.414835,
+      "roi": 0.0006733151357715537,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0xae551d73161bac3315c5ade0e2d499a44ebe2236",
+      "label": "HL Perps Perma-Bull [0xae551d]",
+      "pnl": 128986.484596,
+      "roi": 0.0538756090715051,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0x12203316069a9d155cdadaa94a8e4b3e40ce6447",
+      "label": "Consistent Perps Winner [0x122033]",
+      "pnl": 128866.124336,
+      "roi": 4.786878634820079e-05,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0x4bcc092a156905788bf2a1a59e5968623957210d",
+      "label": "HL Perps Majors Trader [0x4bcc09]",
+      "pnl": 128240.944399,
+      "roi": 0.00400493059422117,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0x7f55bd494bed4b4eed2064eccc1af75e9d76ad4b",
+      "label": "\"TCollector\" on OpenSea [0x7f55bd]",
+      "pnl": 127780.237995,
+      "roi": 0.09210827207129434,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0x1a7e542d199e2b17e4fec60bd698950fecdb21be",
+      "label": "HL Perps Shark [0x1a7e54]",
+      "pnl": 127271.305483,
+      "roi": 22.1652099260877,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0x67f053dc9f2d8d642615bd870719068a9978662b",
+      "label": "🤓 Smart HL Perps Trader [0x67f053]",
+      "pnl": 126829.8,
+      "roi": 11529.98181818182,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0x860b15d380b19ca3d37ea7c3af0e2bb26b420c27",
+      "label": "🤓 germaphobe.eth [0x860b15]",
+      "pnl": 126490.150256,
+      "roi": 6.489263421816498,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0x33028909063fa394380434aa0382a6dc4cf9b41e",
+      "label": "HL Perps Shark [0x330289]",
+      "pnl": 126437.19625999994,
+      "roi": 0.1920626497356198,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0x59629e23c52a0d7c092436870ef2db1dc382ddf8",
+      "label": "loins.eth [0x59629e]",
+      "pnl": 126320.940345,
+      "roi": 4.201069160983027,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0x3f5155cb120f19e850e423c92d1af54f898f0041",
+      "label": "HL Perps Altcoin Trader [0x3f5155]",
+      "pnl": 125456.911813,
+      "roi": 1.3172402477409182,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0xb294964ceb670a21d34693da52a39c9837dd651f",
+      "label": "HL Perps Majors Trader [0xb29496]",
+      "pnl": 124934.22829600002,
+      "roi": 1.0444246332536677,
+      "account_value": 10411.316135,
+      "ratio": 12.0,
+      "is_new": true
+    },
+    {
+      "address": "0x612d8b0c1cf0c09abf1b97f490d4c2c0755d06a8",
+      "label": "HL Perps Day Trader [0x612d8b]",
+      "pnl": 124663.43821200001,
+      "roi": 0.3403089829128366,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0xb215c5a6fa4335147185ba2f03ea79c5a4eec70c",
+      "label": "HL Perps Macro Trader [0xb215c5]",
+      "pnl": 124360.55587700002,
+      "roi": 0.3328686207892329,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0x9d05ea77099c779d6d068acab8cfa1e67f552055",
+      "label": "HL Perps Altcoin Trader [0x9d05ea]",
+      "pnl": 124016.24999,
+      "roi": 0.005733785711567767,
+      "account_value": 45580.41581,
+      "ratio": 2.7,
+      "is_new": true
+    },
+    {
+      "address": "0xf704ebc79aee732265c7c986fea50a9c01ab7f8d",
+      "label": "HL Perps Whale [0xf704eb]",
+      "pnl": 123583.82923,
+      "roi": 0.14909935011443304,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0x1fb9cedffd0f190d20a4623467bc22a1e4ecf476",
+      "label": "HL Perps Altcoin Trader [0x1fb9ce]",
+      "pnl": 123452.15443700008,
+      "roi": 0.06259234675936504,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0x6f067e05b274a192b09a9cb7b4a0e3f59c3d096b",
+      "label": "HL Perps Majors Trader [0x6f067e]",
+      "pnl": 123075.883857,
+      "roi": 241.89757315042107,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0x2312171890250347dbf1b082bdf7950504909e92",
+      "label": "mooned.eth [0x231217]",
+      "pnl": 123075.613124,
+      "roi": 0.018551259721705838,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0x44a3e107c375c1abfa28c1ac5e92bc85f0b435dd",
+      "label": "🤓 Selini Capital [0x44a3e1]",
+      "pnl": 122297.96134799997,
+      "roi": 0.008434163041602835,
+      "account_value": 0.009833,
+      "ratio": 12437502.4,
+      "is_new": true
+    },
+    {
+      "address": "0x3b5b104bf6091addbc24b1a2110c21514cf5ccf1",
+      "label": "HL Perps Day Trader [0x3b5b10]",
+      "pnl": 122076.05359,
+      "roi": 4.5281873040924445,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0xa3099587930a877e75ff4084c7b22505b72c2eca",
+      "label": "🤓 Smart HL Perps Trader [0xa30995]",
+      "pnl": 121595.08775400002,
+      "roi": 0.2850377315426179,
+      "account_value": 40320.392647,
+      "ratio": 3.0,
+      "is_new": true
+    },
+    {
+      "address": "0xb98909dd9cf5a95fe7079ee5bb4698cdad72b05e",
+      "label": "Consistent Perps Winner [0xb98909]",
+      "pnl": 121127.696317,
+      "roi": 0.1631455132877968,
+      "account_value": 29948.133859,
+      "ratio": 4.0,
+      "is_new": true
+    },
+    {
+      "address": "0x71f12a5b0e60d2ff8a87fd34e7dcff3c10c914b0",
+      "label": "Top 100 on WBTC Leaderboard [0x71f12a]",
+      "pnl": 120518.049832,
+      "roi": 0.18273428315061818,
+      "account_value": 29424.934162,
+      "ratio": 4.1,
+      "is_new": true
+    },
+    {
+      "address": "0x3c868417d2981ef278b8a01011487d7e80aee547",
+      "label": "Former Smart Trader [0x3c8684]",
+      "pnl": 120206.27111999995,
+      "roi": 0.15283582676837484,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0x9aca58e24ff5845f245e7c2c897fef1bc59b3555",
+      "label": "🤓 Smart HL Perps Trader [0x9aca58]",
+      "pnl": 119950.73072900002,
+      "roi": 0.10583710685740355,
+      "account_value": 39113.239447,
+      "ratio": 3.1,
+      "is_new": true
+    },
+    {
+      "address": "0xa7aae418ee1714642f46b577c5b6f6c8bcb561dc",
+      "label": "HL Perps Stocks Trader [0xa7aae4]",
+      "pnl": 119719.719926,
+      "roi": 0.4537361817869992,
+      "account_value": 1642.152566,
+      "ratio": 72.9,
+      "is_new": true
+    },
+    {
+      "address": "0xc52308f4327a24bb1214cc177507eb9ee0fc8d3a",
+      "label": "HL Perps Stocks Trader [0xc52308]",
+      "pnl": 119543.315489,
+      "roi": 0.36234110425541033,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0xb4daad808516667d25a68643976fbf8b084e3fdb",
+      "label": "HL Perps Day Trader [0xb4daad]",
+      "pnl": 119385.424839,
+      "roi": 3.0194575147640164,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0x8eb3f4d468a9763ee66ceb63a0c64b7044c2aa2d",
+      "label": "🤓 Smart HL Perps Trader [0x8eb3f4]",
+      "pnl": 119193.09542200003,
+      "roi": 0.4552271368289623,
+      "account_value": 25179.080082,
+      "ratio": 4.7,
+      "is_new": true
+    },
+    {
+      "address": "0x2bf8f06adc558fb713fa2ccc221c9bcc72dbf75d",
+      "label": "7305.eth [0x2bf8f0]",
+      "pnl": 118900.155167,
+      "roi": 0.07330284705420378,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0x55a8f87e59611f86a31a58b361038f36fbded9ea",
+      "label": "HL Perps Majors Trader [0x55a8f8]",
+      "pnl": 118625.678703,
+      "roi": 0.172593369573199,
+      "account_value": 41938.843888,
+      "ratio": 2.8,
+      "is_new": true
+    },
+    {
+      "address": "0x8ad3d77e9b65584ee2cba00a8cb8c1794456209c",
+      "label": "HL Perps Swing Trader [0x8ad3d7]",
+      "pnl": 118472.74951600001,
+      "roi": 0.40359915622563514,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0xf1245033de5669c24b7915256afb598ac3245bf1",
+      "label": "Consistent Perps Winner [0xf12450]",
+      "pnl": 118421.96821100003,
+      "roi": 0.23827789278075465,
+      "account_value": 25409.198269,
+      "ratio": 4.7,
+      "is_new": true
+    },
+    {
+      "address": "0x1d5fa8332b34c261cb90c6216b86f18cf2228fd2",
+      "label": "HL Perps Altcoin Trader [0x1d5fa8]",
+      "pnl": 118154.415995,
+      "roi": 0.4158063328586755,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0x7786498ffb58bedc6c392a4a40789be5c2da240d",
+      "label": "🤓 Smart HL Perps Trader [0x778649]",
+      "pnl": 117882.684861,
+      "roi": 0.0031871305759335563,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0x720c933b5eb30fc37461789ef3264e51f2a7f4af",
+      "label": "Former Smart Trader [0x720c93]",
+      "pnl": 117637.466044,
+      "roi": 0.0035720413346315154,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0xc06dd151c27dbe535ae95797e8aab1bb8b8cc7c0",
+      "label": "HL Perps Majors Trader [0xc06dd1]",
+      "pnl": 117587.70074000001,
+      "roi": 0.05661287982510661,
+      "account_value": 27294.33504,
+      "ratio": 4.3,
+      "is_new": true
+    },
+    {
+      "address": "0x6d6d7c05ef7f31b31b618400495b4ce4092a5089",
+      "label": "Consistent Perps Winner [0x6d6d7c]",
+      "pnl": 117475.768988,
+      "roi": 0.100363641254346,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0xb0026ca48937bd18c5941c05decab68b0fcced8a",
+      "label": "👤 bizyugo [0xb0026c]",
+      "pnl": 117326.75402299999,
+      "roi": 0.00040124012491924994,
+      "account_value": 33625.670501,
+      "ratio": 3.5,
+      "is_new": true
+    },
+    {
+      "address": "0x5f7e1de048ba1f23f60b1455849eebfce4a6b441",
+      "label": "HL Perps Altcoin Trader [0x5f7e1d]",
+      "pnl": 116358.77074200004,
+      "roi": 0.013443626327790153,
+      "account_value": 26627.532401,
+      "ratio": 4.4,
+      "is_new": true
+    },
+    {
+      "address": "0xe4c3eeb3bdafaabe2bedd9206df87dfc87447256",
+      "label": "Top 100 on ETH Leaderboard [0xe4c3ee]",
+      "pnl": 116006.721171,
+      "roi": 0.00804773338405905,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0x4112f219d4f9ea0890b5eb9b915b15521363fddf",
+      "label": "HL Perps Stocks Trader [0x4112f2]",
+      "pnl": 115488.37910000002,
+      "roi": 0.11997885562678734,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0x5a7581618829f377a16be2338eabdd03fece0eaf",
+      "label": "HL Perps Majors Trader [0x5a7581]",
+      "pnl": 115147.943094,
+      "roi": 0.7570482735763148,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0xbb8d8e9428b4ad06b1f6de7cba830ae13a86bd13",
+      "label": "Former Smart Trader [0xbb8d8e]",
+      "pnl": 115049.27336,
+      "roi": 6.021946329287602,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0xc16b8ddcef47a74c9b76cd28e6834270090d72dd",
+      "label": "🤓 Smart HL Perps Trader [0xc16b8d]",
+      "pnl": 114915.013928,
+      "roi": 0.09909040557935249,
+      "account_value": 6732.558665,
+      "ratio": 17.1,
+      "is_new": true
+    },
+    {
+      "address": "0xf352b99288ad068ac6b342a425dd5308ae2fcf10",
+      "label": "HL Perps Shark [0xf352b9]",
+      "pnl": 114907.330051,
+      "roi": 101.8981013497755,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0x015910813c8b6af4d68efb0a720a99699659ebc3",
+      "label": "HL Perps Shark [0x015910]",
+      "pnl": 114870.199867,
+      "roi": 2.7117623725743023,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0x8bae3527e5a33fa0cf184f37bc112d071463ab6d",
+      "label": "🤓 Smart HL Perps Trader [0x8bae35]",
+      "pnl": 114754.57053699979,
+      "roi": 0.0005305476261813801,
+      "account_value": 37478.157141,
+      "ratio": 3.1,
+      "is_new": true
+    },
+    {
+      "address": "0xafa0b1fef0259c97416dade2346feb7169f6e336",
+      "label": "HL Perps Swing Trader [0xafa0b1]",
+      "pnl": 114295.26066,
+      "roi": 2.8573815165,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0xdf379f55d540dc8d845502b33c228aaf08212894",
+      "label": "High Balance [0xdf379f]",
+      "pnl": 113364.043994,
+      "roi": 9.216899169939541,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0xfbfa8568f29e6809138674195cf1c2d35b72e159",
+      "label": "HL Perps Majors Trader [0xfbfa85]",
+      "pnl": 112911.215588,
+      "roi": 0.0584654830955353,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0xd14d535a383b065cf2228963a984d0e2477bee1f",
+      "label": "HL Perps Day Trader [0xd14d53]",
+      "pnl": 112810.238895,
+      "roi": 3.599746984209139,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0xe72bbf79a59599b7a91b92b66ce2237af0d983db",
+      "label": "HL Perps Whale [0xe72bbf]",
+      "pnl": 112646.90168999997,
+      "roi": 0.25407312468611737,
+      "account_value": 42089.97659,
+      "ratio": 2.7,
+      "is_new": true
+    },
+    {
+      "address": "0xf4b8a39b7b828d8e059a55ed697a3dec634b6488",
+      "label": "HL Perps Majors Trader [0xf4b8a3]",
+      "pnl": 112463.78992000021,
+      "roi": 0.6487696224769814,
+      "account_value": 19633.427123,
+      "ratio": 5.7,
+      "is_new": true
+    },
+    {
+      "address": "0xe724acd020fbd65ddb42a0f05dcfb65489480320",
+      "label": "HL Perps Macro Trader [0xe724ac]",
+      "pnl": 112256.26689800009,
+      "roi": 0.10719931992024352,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0x33f9109a340ef486d4998a875aa180d5600636c0",
+      "label": "HL Perps Altcoin Trader [0x33f910]",
+      "pnl": 111999.207271,
+      "roi": 0.14844287592214991,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0xdcc200cee7a6453fbc5e26d6c7c91708f80fcfd5",
+      "label": "HL Perps Altcoin Trader [0xdcc200]",
+      "pnl": 111709.8409,
+      "roi": 0.03789556701632453,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0x18291605dc6423da2b5eeb09a44c7c3be4ef56fc",
+      "label": "HL Perps Altcoin Trader [0x182916]",
+      "pnl": 111653.460991,
+      "roi": 0.6006044340360595,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0x0c14dc1dc0e7f1e55c400c40ff0f97b36f5ce8a7",
+      "label": "HL Perps Macro Trader [0x0c14dc]",
+      "pnl": 111192.433886,
+      "roi": 17.27259096568043,
+      "account_value": 0.000752,
+      "ratio": 147862279.1,
+      "is_new": true
+    },
+    {
+      "address": "0x452ea0373056462c8e3b301c996ecfab3511d712",
+      "label": "👤 tolks [0x452ea0]",
+      "pnl": 110912.404255,
+      "roi": 0.002264916679108144,
+      "account_value": 22454.188756,
+      "ratio": 4.9,
+      "is_new": true
+    },
+    {
+      "address": "0x8a92d021430fe44f24e8208ad8e36c1015184f4a",
+      "label": "Former Smart Trader [0x8a92d0]",
+      "pnl": 110686.758109,
+      "roi": 0.7499737014110733,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0xd21ef30a784238abb0e25438b9c8ab2f0a279583",
+      "label": "HL Perps Majors Trader [0xd21ef3]",
+      "pnl": 110263.858965,
+      "roi": 0.0451408397182138,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0x2ec32326e420abe736a4ac74bdc95580219a8469",
+      "label": "HL Perps Altcoin Trader [0x2ec323]",
+      "pnl": 110034.781331,
+      "roi": 0.8982988440997156,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0xb66d6ee35cb1d1c65423154dc6d5baf34da9c612",
+      "label": "HL Perps Stocks Trader [0xb66d6e]",
+      "pnl": 110024.22002400001,
+      "roi": 0.06562558944677568,
+      "account_value": 10487.846846,
+      "ratio": 10.5,
+      "is_new": true
+    },
+    {
+      "address": "0x5a9312c32337a4501c0faa982163ff15e177a0ca",
+      "label": "HL Perps Stocks Trader [0x5a9312]",
+      "pnl": 109715.516848,
+      "roi": 0.03126558227018629,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0x926fa6d5a99ca62b5839bc40bb4a4a5c72387725",
+      "label": "🤓 Smart HL Perps Trader [0x926fa6]",
+      "pnl": 109590.26293500002,
+      "roi": 0.6991525975372506,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0x5eb2a73703a427accf81757eda67ebe1dfd6f925",
+      "label": "HL Perps Altcoin Trader [0x5eb2a7]",
+      "pnl": 109377.290667,
+      "roi": 0.033563228888250966,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0xa94b5e2af974818bbc63a4f4b3661cbc951c8e06",
+      "label": "HL Perps Stocks Trader [0xa94b5e]",
+      "pnl": 109085.27307099997,
+      "roi": 0.26605494483894937,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0x120588307f72c921ea0f80ede3f958e2b8515c39",
+      "label": "HL Perps Shark [0x120588]",
+      "pnl": 108319.06577,
+      "roi": 0.061725132532796885,
+      "account_value": 15159.451491,
+      "ratio": 7.1,
+      "is_new": true
+    },
+    {
+      "address": "0x1391f1b99779e4fadb66a6d4750b68646277b194",
+      "label": "HL Perps Majors Trader [0x1391f1]",
+      "pnl": 107779.703173,
+      "roi": 0.002150115249351476,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0xfb996bd6467d1575d338967415dc0ee72c6037f3",
+      "label": "Former Smart Trader [0xfb996b]",
+      "pnl": 107426.926866,
+      "roi": 1.0554772170677613,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0x4cc1844c45e963d53efa1c2192719f90c4168255",
+      "label": "HL Perps Shark [0x4cc184]",
+      "pnl": 107079.928122,
+      "roi": 9.700516562999951,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0xb4eac34db4f9d1270d078495d367cb2e587cf6e8",
+      "label": "🤓 Smart HL Perps Trader [0xb4eac3]",
+      "pnl": 106773.9044959999,
+      "roi": 0.3173419834913809,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0xa8ccdcf9a2256a23504133c8ec1b04bc12a516df",
+      "label": "HL Perps Shark [0xa8ccdc]",
+      "pnl": 106753.98400700004,
+      "roi": 0.21771642431892055,
+      "account_value": 43831.614076,
+      "ratio": 2.4,
+      "is_new": true
+    },
+    {
+      "address": "0x4860d039cbc7cffb0267f86e63f4b4442b71505e",
+      "label": "HL Perps Altcoin Trader [0x4860d0]",
+      "pnl": 106447.86352900001,
+      "roi": 0.0002539864840211414,
+      "account_value": 30085.775251,
+      "ratio": 3.5,
+      "is_new": true
+    },
+    {
+      "address": "0xdb8877999d0dfacf1fa00831b98e536f8dbbef8c",
+      "label": "HL Perps Stocks Trader [0xdb8877]",
+      "pnl": 106258.68482,
+      "roi": 0.11246253694335813,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0xa33a2a0179eb17700f12877f3c331b295037ee7b",
+      "label": "HL Perps Stocks Trader [0xa33a2a]",
+      "pnl": 106162.593527,
+      "roi": 0.007619481676050462,
+      "account_value": 18124.456713,
+      "ratio": 5.9,
+      "is_new": true
+    },
+    {
+      "address": "0x431e6a452b01124374c0ab913614cb4fbf462958",
+      "label": "HL Perps Altcoin Trader [0x431e6a]",
+      "pnl": 105807.864348,
+      "roi": 0.00021449797906223213,
+      "account_value": 0.006998,
+      "ratio": 15119729.1,
+      "is_new": true
+    },
+    {
+      "address": "0xea745265097151523658be7c2c8ea325f1592ac0",
+      "label": "HL Perps Altcoin Trader [0xea7452]",
+      "pnl": 105766.44158899995,
+      "roi": 0.18263287516947294,
+      "account_value": 48553.408989,
+      "ratio": 2.2,
+      "is_new": true
+    },
+    {
+      "address": "0xcb02837caaee310c178501855b63bf7f4f4b1f8b",
+      "label": "HL Perps Macro Trader [0xcb0283]",
+      "pnl": 105710.837308,
+      "roi": 0.00014613057791985592,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0x87f36777f22548787af3a2ad3605e3d48288b928",
+      "label": "\"87f367\" on OpenSea [0x87f367]",
+      "pnl": 105576.48449,
+      "roi": 0.5840378678577792,
+      "account_value": 20397.86475,
+      "ratio": 5.2,
+      "is_new": true
+    },
+    {
+      "address": "0x7ab12f7a0925ef24927343d47199e75a91fc78aa",
+      "label": "HL Perps Altcoin Trader [0x7ab12f]",
+      "pnl": 105300.289373,
+      "roi": 0.00024680003328809584,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0x9219e5840b07351a6525fe958603bd0986cb24b8",
+      "label": "HL Perps Swing Trader [0x9219e5]",
+      "pnl": 105034.87784799996,
+      "roi": 0.08707232562845392,
+      "account_value": 49363.889834,
+      "ratio": 2.1,
+      "is_new": true
+    },
+    {
+      "address": "0x3595098878d3960158b77765f3b595228385d69a",
+      "label": "Former Smart Trader [0x359509]",
+      "pnl": 104894.57801000006,
+      "roi": 0.09557587079174205,
+      "account_value": 20216.980998,
+      "ratio": 5.2,
+      "is_new": true
+    },
+    {
+      "address": "0xf6e4e49d2786fb5c284094e39eaac62db263af81",
+      "label": "👤 ryoh [0xf6e4e4]",
+      "pnl": 104886.49785099998,
+      "roi": 0.023994451210498792,
+      "account_value": 16216.580462,
+      "ratio": 6.5,
+      "is_new": true
+    },
+    {
+      "address": "0x0560d81e0d3ad01c640684306bed3e46717aa24d",
+      "label": "HL Perps Altcoin Trader [0x0560d8]",
+      "pnl": 104819.634618,
+      "roi": 0.022496809929449225,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0x0949d8893c5a82030ad361499377a7d4f30af52a",
+      "label": "Former Smart Trader [0x0949d8]",
+      "pnl": 104683.22448,
+      "roi": 8.962819697732481,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0x3595098878d3960158b77765f3b595228385d69a",
+      "label": "Former Smart Trader [0x359509]",
+      "pnl": 104555.59376999992,
+      "roi": 0.09526700150090413,
+      "account_value": 20216.980998,
+      "ratio": 5.2,
+      "is_new": true
+    },
+    {
+      "address": "0xe8f7f10b9acc59b921abef3bb8dd32dbd794183e",
+      "label": "HL Perps Perma-Bull [0xe8f7f1]",
+      "pnl": 104500.145644,
+      "roi": 1.3207303267570745,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0xe8fd6379f60487a463a38395f598b3008ad8489c",
+      "label": "HL Perps Macro Trader [0xe8fd63]",
+      "pnl": 104203.1700999999,
+      "roi": 0.009787401565410938,
+      "account_value": 0.002683,
+      "ratio": 38838304.2,
+      "is_new": true
+    },
+    {
+      "address": "0xe0bf8c96795d2df0b61b3b17e7cfd7d3ba13d4be",
+      "label": "HL Perps Altcoin Trader [0xe0bf8c]",
+      "pnl": 103711.163648,
+      "roi": 0.11094721386640875,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0x74b7384e761cefb6323728d0f87e6f6c4675b93f",
+      "label": "HL Perps Altcoin Trader [0x74b738]",
+      "pnl": 102884.596901,
+      "roi": 0.004910591741439244,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0xf6bff435d5d49722cf49d621f6973a8789ecbb2b",
+      "label": "HL Perps Majors Trader [0xf6bff4]",
+      "pnl": 102703.18809400001,
+      "roi": 0.28641064501052216,
+      "account_value": 36051.96931,
+      "ratio": 2.8,
+      "is_new": true
+    },
+    {
+      "address": "0xbdd383b2ce323f99af55428615b41df3c388e794",
+      "label": "High Balance [0xbdd383]",
+      "pnl": 102376.29411699987,
+      "roi": 0.03393328872627471,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0x442fdf7e1544e60282ddb6721f468467f82994f7",
+      "label": "shavin.eth [0x442fdf]",
+      "pnl": 102323.46088,
+      "roi": 3.0642421640661586,
+      "account_value": 2153.557452,
+      "ratio": 47.5,
+      "is_new": true
+    },
+    {
+      "address": "0x13c7b972ea539e2a2cc97774fc16e57961ee5021",
+      "label": "HL Perps Day Trader [0x13c7b9]",
+      "pnl": 101645.5122,
+      "roi": 1.1248077390189186,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0x0296c6761c55a3a54815490428e12188f44e8f48",
+      "label": "Consistent Perps Winner [0x0296c6]",
+      "pnl": 101478.223184,
+      "roi": 0.301971787651911,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0x1d91b5e25e3d39be90826d041bf56461f2a80add",
+      "label": "HL Perps Day Trader [0x1d91b5]",
+      "pnl": 101333.323614,
+      "roi": 0.591414870966488,
+      "account_value": 16415.8536,
+      "ratio": 6.2,
+      "is_new": true
+    },
+    {
+      "address": "0x58cbd807135f66e8c9b4f39eea92a612b477bf00",
+      "label": "Consistent Perps Winner [0x58cbd8]",
+      "pnl": 101252.697441,
+      "roi": 0.47997420726008,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0x223ee2b8479735f09b28f11bc5548c64a83a55bd",
+      "label": "HL Perps Shark [0x223ee2]",
+      "pnl": 101246.643074,
+      "roi": 0.4365738221340638,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0x58e5a4b324660a77a4d2cceca9e752469d25b6f4",
+      "label": "HL Perps Majors Trader [0x58e5a4]",
+      "pnl": 101128.1156360001,
+      "roi": 158.1227959139234,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0x949b82dfc04558bc4d3ca033a1b194915a3a3bee",
+      "label": "🤓 zhangbx.eth [0x949b82]",
+      "pnl": 100917.05649799999,
+      "roi": 0.3359816861135444,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": true
+    },
+    {
+      "address": "0xd67ca2c6f8bc84acf4fa4472b82a8740dc0a53ff",
+      "label": "​​gritsa: gritsa.eth* [0xd67ca2]",
+      "pnl": 3473411.327620999,
+      "roi": 0.9489367077251072,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": false
+    },
+    {
+      "address": "0x5875d72130981b18692a3d29545e4038f7eb0c38",
+      "label": "HL Perps Majors Trader [0x5875d7]",
+      "pnl": 2225053.375297,
+      "roi": 0.018641823253741845,
+      "account_value": 216369.543977,
+      "ratio": 10.3,
+      "is_new": false
+    },
+    {
+      "address": "0x99b1098d9d50aa076f78bd26ab22e6abd3710729",
+      "label": "🤓 Smart HL Perps Trader [0x99b109]",
+      "pnl": 2081768.749401,
+      "roi": 0.19374209591721275,
+      "account_value": 7609.900855,
+      "ratio": 273.6,
+      "is_new": false
+    },
+    {
       "address": "0xfeec88b13fc0be31695069f02bac18538a154e9c",
       "label": "🤓 : Boros Trader [0xfeec88]",
-      "pnl": 1366007.800789,
-      "roi": 7.539205303800643,
+      "pnl": 1366188.3257890001,
+      "roi": 7.540201648797124,
       "account_value": 30927.329023,
       "ratio": 44.2,
+      "is_new": false
+    },
+    {
+      "address": "0xd05808946809c180d190608e13f473db30aa8524",
+      "label": "🤓 Smart HL Perps Trader [0xd05808]",
+      "pnl": 1014670.8271749999,
+      "roi": 0.5243872828636404,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": false
+    },
+    {
+      "address": "0xfe4dec8543b0b9cec0c897a689f7af7bddb02192",
+      "label": "🤓 Smart HL Perps Trader [0xfe4dec]",
+      "pnl": 913737.9461439999,
+      "roi": 2.559016786821312,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": false
+    },
+    {
+      "address": "0x71b117d68974aa4c5615669ae70e8e13ce7479c8",
+      "label": "Former Smart Trader [0x71b117]",
+      "pnl": 704763.4234249999,
+      "roi": 0.0006975928124910534,
+      "account_value": 13796.672688,
+      "ratio": 51.1,
+      "is_new": false
+    },
+    {
+      "address": "0x5aadb434293b4e1b8fb2e84007e567506fe65a96",
+      "label": "HL Perps Altcoin Trader [0x5aadb4]",
+      "pnl": 305006.598428,
+      "roi": 1.9096033038853413,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": false
+    },
+    {
+      "address": "0xd7a01b2fc57149507a1848ae142aa308bdbe05a2",
+      "label": "Former Smart Trader [0xd7a01b]",
+      "pnl": 292804.47466600005,
+      "roi": 0.005004315363354522,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": false
+    },
+    {
+      "address": "0x56654885ad39155235336c0ff01b3337693c3882",
+      "label": "HL Perps Swing Trader [0x566548]",
+      "pnl": 282236.145596,
+      "roi": 0.6076780158128919,
+      "account_value": 44185.579141,
+      "ratio": 6.4,
+      "is_new": false
+    },
+    {
+      "address": "0x39b07015ca813075bbce6f475767d5b4b9d518b0",
+      "label": "HL Perps Majors Trader [0x39b070]",
+      "pnl": 264567.92251099995,
+      "roi": 0.05244421899767973,
+      "account_value": 37199.379723,
+      "ratio": 7.1,
+      "is_new": false
+    },
+    {
+      "address": "0xbe494a5e3a719a78a45a47ab453b7b0199b9d101",
+      "label": "🤓 Smart HL Perps Trader [0xbe494a]",
+      "pnl": 263477.24163099995,
+      "roi": 0.985222017771074,
+      "account_value": 21393.400508,
+      "ratio": 12.3,
+      "is_new": false
+    },
+    {
+      "address": "0x68a24ccf099422806f1e73248517f3389c29c104",
+      "label": "HL Perps Altcoin Trader [0x68a24c]",
+      "pnl": 262551.763538,
+      "roi": 0.012394734326307518,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": false
+    },
+    {
+      "address": "0x2a304155f0c751217f2bedc1769be8398151eca4",
+      "label": "🤓 👤 tommy [0x2a3041]",
+      "pnl": 247335.408784,
+      "roi": 0.017404460868904553,
+      "account_value": 18993.661144,
+      "ratio": 13.0,
+      "is_new": false
+    },
+    {
+      "address": "0x51651b81c895e654e5402a3fc371e3b60b0dfb1e",
+      "label": "HL Perps Majors Trader [0x51651b]",
+      "pnl": 226722.532534,
+      "roi": 0.06817891003734171,
+      "account_value": 8254.724388,
+      "ratio": 27.5,
+      "is_new": false
+    },
+    {
+      "address": "0x4d3980ac9d84fc34adcd025ee2337786846343c4",
+      "label": "HL Perps Macro Trader [0x4d3980]",
+      "pnl": 208902.205403,
+      "roi": 0.0810784892445602,
+      "account_value": 21560.5858,
+      "ratio": 9.7,
+      "is_new": false
+    },
+    {
+      "address": "0xa46aba5584adb38d458710902f7fc6677f7ab914",
+      "label": "HL Perps Macro Trader [0xa46aba]",
+      "pnl": 162365.643173,
+      "roi": 0.014236731068335033,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": false
+    },
+    {
+      "address": "0xdd54150be70967523a256f92db193845acf58714",
+      "label": "HL Perps Altcoin Trader [0xdd5415]",
+      "pnl": 160295.861935,
+      "roi": 0.2514943501891165,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": false
+    },
+    {
+      "address": "0xdd08886cb92c689c7d89c88f048028293296ead1",
+      "label": "HL Perps Majors Trader [0xdd0888]",
+      "pnl": 155467.71399800002,
+      "roi": 4.5041495577557065,
+      "account_value": 916.529373,
+      "ratio": 169.6,
+      "is_new": false
+    },
+    {
+      "address": "0xdb799415fd528a297949be13775e424b3122a5b0",
+      "label": "HL Perps Altcoin Trader [0xdb7994]",
+      "pnl": 153744.5847379999,
+      "roi": 0.1526508081146804,
+      "account_value": 49630.092901,
+      "ratio": 3.1,
+      "is_new": false
+    },
+    {
+      "address": "0x35c0f299a35f927069521e0c3abfb5ee4cbb4c72",
+      "label": "HL Perps Altcoin Trader [0x35c0f2]",
+      "pnl": 147737.91713,
+      "roi": 0.00045507616525683004,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": false
+    },
+    {
+      "address": "0xfc37faf026597474691dca71ed9dcae1a6633b84",
+      "label": "HL Perps Majors Trader [0xfc37fa]",
+      "pnl": 146727.57504399994,
+      "roi": 0.04184830989870111,
+      "account_value": 24224.773813,
+      "ratio": 6.1,
+      "is_new": false
+    },
+    {
+      "address": "0xa0d669521cb00bfe43e5fa3bd573dc01dfe6567c",
+      "label": "🤓 Smart HL Perps Trader [0xa0d669]",
+      "pnl": 145016.72090499997,
+      "roi": 0.021512201038084485,
+      "account_value": 28833.994891,
+      "ratio": 5.0,
+      "is_new": false
+    },
+    {
+      "address": "0x58a722b5f37435cab8957a17fc575bb136e0b48b",
+      "label": "🤓 Smart HL Perps Trader [0x58a722]",
+      "pnl": 143341.849335,
+      "roi": 0.109416227432078,
+      "account_value": 37537.975093,
+      "ratio": 3.8,
+      "is_new": false
+    },
+    {
+      "address": "0x3db5a674b22cf6479367ae31be33204ae8701f33",
+      "label": "HL Perps Majors Trader [0x3db5a6]",
+      "pnl": 135532.36686,
+      "roi": 0.11764895649433922,
+      "account_value": 2547.067952,
+      "ratio": 53.2,
+      "is_new": false
+    },
+    {
+      "address": "0x2385aae82b8ff5ec9e72f122f3462b9a1b9db98a",
+      "label": "🤓 Smart Trader [0x2385aa]",
+      "pnl": 132481.396569,
+      "roi": 0.00921572040914448,
+      "account_value": 4623.760267,
+      "ratio": 28.7,
+      "is_new": false
+    },
+    {
+      "address": "0x920abbd8a5f5d39e87ed802d73e5aa902dc71d89",
+      "label": "HL Perps Altcoin Trader [0x920abb]",
+      "pnl": 128480.73319,
+      "roi": 0.0011926931945637918,
+      "account_value": 8827.442174,
+      "ratio": 14.6,
+      "is_new": false
+    },
+    {
+      "address": "0x8be0b9c4dbfb90f47fb94e8968dce08d3152326c",
+      "label": "HL Perps Majors Trader [0x8be0b9]",
+      "pnl": 109865.25437400001,
+      "roi": 0.011730363670014392,
+      "account_value": 0.0,
+      "ratio": null,
+      "is_new": false
+    },
+    {
+      "address": "0x83b00972aafcc3d06d45b1b823079f9a414da46e",
+      "label": "Funded @yackcap On Friendtech [0x83b009]",
+      "pnl": 107332.77519800002,
+      "roi": 0.16013036218865492,
+      "account_value": 48566.529906,
+      "ratio": 2.2,
+      "is_new": false
+    },
+    {
+      "address": "0x96abd7547c7ef5a0c4f2bf04dcd74dd96a461b56",
+      "label": "HL Perps Altcoin Trader [0x96abd7]",
+      "pnl": 106664.27193999999,
+      "roi": 0.0003302701985845644,
+      "account_value": 42675.269389,
+      "ratio": 2.5,
+      "is_new": false
+    },
+    {
+      "address": "0x823c6b20c03f2e962da20a0024624473e7ca53a4",
+      "label": "HL Perps Majors Trader [0x823c6b]",
+      "pnl": 106328.60046399999,
+      "roi": 0.17663185523764946,
+      "account_value": 42496.673025,
+      "ratio": 2.5,
+      "is_new": false
+    },
+    {
+      "address": "0x136c473f6d88c1ec17c2ed6b6cb273983e028458",
+      "label": "HL Perps Shark [0x136c47]",
+      "pnl": 105056.86538600002,
+      "roi": 0.23224798825417414,
+      "account_value": 39360.209531,
+      "ratio": 2.7,
+      "is_new": false
+    },
+    {
+      "address": "0x469bc5524456efa6932cac83294f31a09b8159b8",
+      "label": "HL Perps Altcoin Trader [0x469bc5]",
+      "pnl": 103805.426699,
+      "roi": 0.081322008074865,
+      "account_value": 31856.619312,
+      "ratio": 3.3,
       "is_new": false
     }
   ]
