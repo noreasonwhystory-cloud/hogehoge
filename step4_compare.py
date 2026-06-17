@@ -117,6 +117,55 @@ def cp_list(e):
     return out or "<li class='mut'>—</li>"
 
 
+def why_block(e, ranked):
+    """なぜこの判定（インサイダー/プロ/出金）なのか、決め手を平易に。"""
+    a = e["address"].lower()
+    w = ranked.get(a, {})
+    pos = e.get("position", "")
+    win = (e.get("current") or {}).get("win_rate")
+    dir_ = (e.get("current") or {}).get("dir_accuracy")
+    nclos = w.get("n_closes")
+    elead = w.get("event_lead_notional") or 0
+    leads = w.get("lead_examples") or []
+    cluster = "cluster-A" in (e.get("tags") or [])
+    reason = e.get("alt_reasoning") or e.get("alt_verdict") or ""
+    pnl = (e.get("lb_allTime") or {}).get("pnl") or (w.get("lb_windows", {}).get("allTime") or {}).get("pnl")
+    acct = w.get("account_value") or (e.get("hl_profile") or {}).get("account_value")
+    ratio = e.get("roi_alltime") and None
+    cr = w.get("cashout_ratio")
+    pts = []
+
+    if pos in ("インサイダー疑惑(要監視)", "弱い疑惑(監視継続)"):
+        if elead > 0 or leads:
+            ex = leads[0] if leads else None
+            extra = (f"（例: {esc(ex.get('event_time'))} の急変{esc(ex.get('event_move_pct'))}%の直前に "
+                     f"{esc(ex.get('coin'))} を {usd(ex.get('notional_usd'))} 先行建玉）") if ex else ""
+            pts.append(f"<b>① 急変イベントの直前に大口を先行</b>{extra} → タイミングが良すぎ、偶然では説明しにくい。")
+        if cluster:
+            pts.append("<b>② 協調</b>: 同じ資金元から同時に動く仲間（クラスタA）と同方向に先行 → 単独の偶然ではない。")
+        pts.append("<b>判定の核</b>: 勝率の高さ<u>そのもの</u>ではなく、<u>『動く前に』正しい方向へ賭けている</u>点。＝情報を先に持っていた疑い。")
+        verdict = "👉 だから『プロの実力』では説明しきれず、インサイダー疑惑。"
+    elif pos in ("プロトレーダー(本物)", "プロトレーダー(未精査)"):
+        if nclos:
+            pts.append(f"<b>① 場数</b>: {nclos}回ものクローズで勝率{pct(win)}を<u>安定して</u>維持 → 一発の幸運でない。")
+        pts.append(f"<b>② トレンド非依存</b>: 方向的中率{pct(dir_)}は下落相場のベタ(~85%)に頼らず、逆張りや両方向でも勝つ → 相場頼みでない実力。")
+        pts.append("<b>③ イベント先行なし</b>: 急変直前の先行建玉は検出されず＝『先に知っていた』証拠はない。")
+        pts.append("<b>判定の核</b>: <u>多数の取引×規律</u>で勝っている。タイミングの良さでなく腕。")
+        verdict = "👉 だから情報優位（インサイダー）ではなく、純粋に上手いプロ。"
+    elif pos == "💸 出金疑い(要監視)":
+        pts.append(f"<b>① 稼いで引き上げ</b>: 通算 {usd(pnl)} 稼いだのに現在残高は {usd(acct)}"
+                   + (f"（比 {cr:.0f}倍）" if cr else "") + " → 利益をほぼ外へ出した。")
+        pts.append("<b>② 痕跡が薄い</b>: 直近の取引も少なく、稼いだら去る hit-and-run の形。")
+        pts.append("<b>判定の核</b>: <u>『現在の口座規模』でなく『過去にいくら抜いたか』</u>で評価。残高が小さくても大物。")
+        verdict = "👉 だから現役の成績では測れず、出金疑い（要追跡）。"
+    else:
+        pts, verdict = [], ""
+
+    body = "".join(f"<li>{p}</li>" for p in pts)
+    rj = f"<div class='rj'>多角分析の所見: {esc(reason)}</div>" if reason else ""
+    return f"<div class='why'><div class='wt'>🔑 なぜこの判定か</div><ul>{body}</ul><div class='wv'>{verdict}</div>{rj}</div>"
+
+
 def render_case(e, ranked, title, color):
     a = e["address"]
     s = hl_stats(a.lower(), e, ranked)
@@ -155,6 +204,7 @@ def render_case(e, ranked, title, color):
       <div class="block"><b>🔓 協調クラスタ</b> {esc(cluster)}</div>
     </div>
   </div>
+  {why_block(e, ranked)}
   <div class="note"><b>まとめ:</b> {esc(e.get('notes_jp','').replace(chr(10),' / '))}</div>
 </div>"""
 
@@ -226,6 +276,15 @@ tr.nsonly{{background:#191436}}
 .unknown{{margin-top:8px;color:#e0697a}} .unknown b{{color:#ff8893}}
 .block{{margin-bottom:8px}} .block.trace{{background:#0f1b17;border-left:3px solid var(--ok);padding:6px 9px;border-radius:5px}}
 .note{{margin-top:10px;font-size:12px;color:#cdd6df;border-top:1px solid var(--line);padding-top:8px}}
+.why{{margin-top:12px;background:#10151c;border:1px solid var(--line);border-radius:8px;padding:10px 13px}}
+.why .wt{{font-weight:700;font-size:13px;margin-bottom:5px}}
+.why ul{{margin:4px 0;padding-left:18px;font-size:12.5px;line-height:1.6}}
+.why u{{text-decoration:underline;text-underline-offset:2px}}
+.why .wv{{margin-top:6px;font-weight:700;font-size:13px;color:#ffd86b}}
+.why .rj{{margin-top:6px;font-size:11.5px;color:var(--mut)}}
+table.guide td.g1{{color:#ff8893;font-weight:700;white-space:nowrap}}
+table.guide td.g2{{color:#69d98a;font-weight:700;white-space:nowrap}}
+table.guide td.g3{{color:#ffc06b;font-weight:700;white-space:nowrap}}
 @media(max-width:820px){{.vs{{grid-template-columns:1fr}}}}
 </style></head><body>
 
@@ -252,6 +311,14 @@ tr.nsonly{{background:#191436}}
 <table>
 <tr><th>問い</th><th class="hl">HLだけ</th><th class="ns">+Nansen Pro</th><th>補足</th></tr>
 {rows}
+</table>
+
+<h2>判定基準 — 何で見分けるか（ここが肝）</h2>
+<table class="guide">
+<tr><th>種別</th><th>決め手（他と何が違う）</th><th>見ている主なデータ</th></tr>
+<tr><td class="g1">🔴 インサイダー疑惑</td><td><b>タイミングが良すぎる。</b>急変イベントの<u>直前</u>に大口を先行／仲間と協調。勝率の高さでなく『<u>動く前に</u>正しく賭けた』点が核。＝先に知っていた疑い。</td><td>イベント先行度・先行エントリ事例・協調クラスタ・多角分析の濃度</td></tr>
+<tr><td class="g2">🟢 プロトレーダー</td><td><b>場数と規律。</b>多数の取引で勝率を<u>安定維持</u>＋トレンド非依存（逆張り/両方向でも勝つ）。イベント直前の先行は<u>無い</u>。＝知っていたのでなく上手い。</td><td>クローズ回数・勝率の継続性・方向的中率がベタ超えか・規律</td></tr>
+<tr><td class="g3">💸 出金疑い</td><td><b>稼いで即引き上げ。</b>通算利益÷現在残高が大（10倍超）。残高が小さくても過去に大きく抜いた hit-and-run。</td><td>allTime PnL ÷ 現在残高・直近取引の少なさ</td></tr>
 </table>
 
 <h2>実例で見る差分（台帳の実データ・Nansenデータ量上位を自動選定）</h2>
