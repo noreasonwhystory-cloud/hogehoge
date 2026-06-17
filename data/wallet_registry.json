@@ -1912,6 +1912,7 @@
       "first_seen": "2026-06-16",
       "times_seen": 5,
       "tags": [
+        "HL検証:非該当",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -1941,7 +1942,7 @@
       "last_seen": "2026-06-17",
       "metric_category": "nansen-pro",
       "insider_likelihood": null,
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "current": {
         "date": "2026-06-17",
         "metric_category": "nansen-pro",
@@ -2813,6 +2814,7 @@
       "first_seen": "2026-06-16",
       "times_seen": 5,
       "tags": [
+        "HL検証:非該当",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -2842,7 +2844,7 @@
       "last_seen": "2026-06-17",
       "metric_category": "nansen-pro",
       "insider_likelihood": null,
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "current": {
         "date": "2026-06-17",
         "metric_category": "nansen-pro",
@@ -4310,6 +4312,7 @@
       "first_seen": "2026-06-16",
       "times_seen": 5,
       "tags": [
+        "HL検証:非該当",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -4339,7 +4342,7 @@
       "last_seen": "2026-06-17",
       "metric_category": "nansen-pro",
       "insider_likelihood": null,
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "current": {
         "date": "2026-06-17",
         "metric_category": "nansen-pro",
@@ -10350,6 +10353,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "MM/HFT",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -10366,7 +10370,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x35d115]"
@@ -10395,6 +10399,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL検証:非該当",
         "Nansen発見",
         "機関"
       ],
@@ -10411,7 +10416,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Galaxy Digital [0xcac196]"
@@ -10440,6 +10445,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "MM/HFT",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -10456,7 +10462,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0x5d2f44]"
@@ -10534,6 +10540,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL検証:非該当",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -10550,7 +10557,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0x4196dc]"
@@ -10579,6 +10586,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL検証:非該当",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -10595,7 +10603,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0x577ae9]"
@@ -10623,6 +10631,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL検証:非該当",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -10639,7 +10648,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0xbcd420]"
@@ -10668,6 +10677,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "MM/HFT",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -10684,7 +10694,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0xfce053]"
@@ -10763,7 +10773,8 @@
       "times_seen": 1,
       "tags": [
         "Nansen発見",
-        "SmartMoney"
+        "SmartMoney",
+        "稼ぎ確認・先行不明(要精査)"
       ],
       "notes": "",
       "history": [
@@ -10855,6 +10866,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "MM/HFT",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -10871,7 +10883,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0x5bc43f]"
@@ -10900,6 +10912,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL検証:非該当",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -10916,7 +10929,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x208db9]"
@@ -10944,6 +10957,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL検証:非該当",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -10960,7 +10974,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0xc1471d]"
@@ -10988,6 +11002,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL検証:非該当",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -11004,7 +11019,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0x8bae35]"
@@ -11033,6 +11048,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL検証:非該当",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -11049,7 +11065,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0x2d99fe]"
@@ -11077,6 +11093,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL履歴なし",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -11093,7 +11110,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0x015354]"
@@ -11122,7 +11139,8 @@
       "times_seen": 2,
       "tags": [
         "Nansen発見",
-        "SmartMoney"
+        "SmartMoney",
+        "稼ぎ確認・先行不明(要精査)"
       ],
       "notes": "",
       "history": [
@@ -11168,6 +11186,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "MM/HFT",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -11184,7 +11203,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0x833b99]"
@@ -11213,6 +11232,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "MM/HFT",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -11229,7 +11249,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x16bf84]"
@@ -11257,6 +11277,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "MM/HFT",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -11273,7 +11294,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0xd8c522]"
@@ -11301,6 +11322,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "MM/HFT",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -11317,7 +11339,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x570b09]"
@@ -11394,6 +11416,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL履歴なし",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -11410,7 +11433,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0x84abc0]"
@@ -11438,6 +11461,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL履歴なし",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -11454,7 +11478,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0x6f490f]"
@@ -11482,6 +11506,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "MM/HFT",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -11498,7 +11523,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x5b9306]"
@@ -11526,6 +11551,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "MM/HFT",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -11542,7 +11568,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0xd96ea3]"
@@ -11660,6 +11686,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "MM/HFT",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -11676,7 +11703,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0xf56293]"
@@ -11704,6 +11731,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "MM/HFT",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -11720,7 +11748,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x9e2cbb]"
@@ -11749,7 +11777,8 @@
       "times_seen": 2,
       "tags": [
         "Nansen発見",
-        "SmartMoney"
+        "SmartMoney",
+        "稼ぎ確認・先行不明(要精査)"
       ],
       "notes": "",
       "history": [
@@ -11795,6 +11824,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL履歴なし",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -11811,7 +11841,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0xd82f7d]"
@@ -11839,6 +11869,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL検証:非該当",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -11855,7 +11886,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0x19d84c]"
@@ -11883,6 +11914,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL履歴なし",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -11899,7 +11931,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0xdbcc96]"
@@ -11927,6 +11959,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL履歴なし",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -11943,7 +11976,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0x179c17]"
@@ -11971,6 +12004,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "MM/HFT",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -11987,7 +12021,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0x0b8ad9]"
@@ -12015,6 +12049,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "MM/HFT",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -12031,7 +12066,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0xe2f86f]"
@@ -12060,6 +12095,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "MM/HFT",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -12076,7 +12112,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0xf17de4]"
@@ -12152,6 +12188,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "MM/HFT",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -12168,7 +12205,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0x36ac01]"
@@ -12245,6 +12282,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL履歴なし",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -12261,7 +12299,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x7da85a]"
@@ -12289,6 +12327,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL検証:非該当",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -12305,7 +12344,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x05a196]"
@@ -12333,6 +12372,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL履歴なし",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -12349,7 +12389,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0xef759e]"
@@ -12377,6 +12417,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "MM/HFT",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -12393,7 +12434,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x7e4e76]"
@@ -12469,6 +12510,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "MM/HFT",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -12485,7 +12527,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0xe09133]"
@@ -12514,6 +12556,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "MM/HFT",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -12530,7 +12573,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0x90326f]"
@@ -12559,6 +12602,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "MM/HFT",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -12575,7 +12619,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x6b08bb]"
@@ -12604,7 +12648,8 @@
       "times_seen": 1,
       "tags": [
         "Nansen発見",
-        "SmartMoney"
+        "SmartMoney",
+        "稼ぎ確認・先行不明(要精査)"
       ],
       "notes": "",
       "history": [
@@ -12648,7 +12693,8 @@
       "times_seen": 1,
       "tags": [
         "Nansen発見",
-        "SmartMoney"
+        "SmartMoney",
+        "稼ぎ確認・先行不明(要精査)"
       ],
       "notes": "",
       "history": [
@@ -12691,6 +12737,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL履歴なし",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -12707,7 +12754,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0x059049]"
@@ -12736,6 +12783,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL履歴なし",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -12752,7 +12800,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x359509]"
@@ -12782,7 +12830,8 @@
       "times_seen": 1,
       "tags": [
         "Nansen発見",
-        "SmartMoney"
+        "SmartMoney",
+        "稼ぎ確認・先行不明(要精査)"
       ],
       "notes": "",
       "history": [
@@ -12826,7 +12875,8 @@
       "times_seen": 1,
       "tags": [
         "Nansen発見",
-        "SmartMoney"
+        "SmartMoney",
+        "稼ぎ確認・先行不明(要精査)"
       ],
       "notes": "",
       "history": [
@@ -12917,6 +12967,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "MM/HFT",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -12933,7 +12984,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x9836e2]"
@@ -12963,7 +13014,8 @@
       "times_seen": 1,
       "tags": [
         "Nansen発見",
-        "SmartMoney"
+        "SmartMoney",
+        "稼ぎ確認・先行不明(要精査)"
       ],
       "notes": "",
       "history": [
@@ -13007,7 +13059,8 @@
       "times_seen": 1,
       "tags": [
         "Nansen発見",
-        "SmartMoney"
+        "SmartMoney",
+        "稼ぎ確認・先行不明(要精査)"
       ],
       "notes": "",
       "history": [
@@ -13098,6 +13151,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL検証:非該当",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -13114,7 +13168,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0xef7033]"
@@ -13142,6 +13196,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL検証:非該当",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -13158,7 +13213,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0xc12f6e]"
@@ -13186,6 +13241,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL検証:非該当",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -13202,7 +13258,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x4cd80a]"
@@ -13230,6 +13286,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL履歴なし",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -13246,7 +13303,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x8b0be8]"
@@ -13274,6 +13331,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL履歴なし",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -13290,7 +13348,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0x3662dd]"
@@ -13319,7 +13377,8 @@
       "times_seen": 1,
       "tags": [
         "Nansen発見",
-        "SmartMoney"
+        "SmartMoney",
+        "稼ぎ確認・先行不明(要精査)"
       ],
       "notes": "",
       "history": [
@@ -13362,6 +13421,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL検証:非該当",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -13378,7 +13438,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0xdc38f7]"
@@ -13545,6 +13605,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "MM/HFT",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -13561,7 +13622,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0xbfc79c]"
@@ -13590,6 +13651,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "MM/HFT",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -13606,7 +13668,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0x6fa6f4]"
@@ -13634,6 +13696,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "MM/HFT",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -13650,7 +13713,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0x60a8c7]"
@@ -13680,7 +13743,8 @@
       "times_seen": 2,
       "tags": [
         "Nansen発見",
-        "SmartMoney"
+        "SmartMoney",
+        "稼ぎ確認・先行不明(要精査)"
       ],
       "notes": "",
       "history": [
@@ -13726,6 +13790,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL検証:非該当",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -13742,7 +13807,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0x500bea]"
@@ -13770,6 +13835,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL履歴なし",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -13786,7 +13852,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0xdb095d]"
@@ -13814,6 +13880,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL履歴なし",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -13830,7 +13897,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x271ce8]"
@@ -13951,6 +14018,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "MM/HFT",
         "Nansen発見",
         "機関"
       ],
@@ -13967,7 +14035,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Selini Capital [0x44a3e1]"
@@ -13997,7 +14065,8 @@
       "times_seen": 2,
       "tags": [
         "Nansen発見",
-        "SmartMoney"
+        "SmartMoney",
+        "稼ぎ確認・先行不明(要精査)"
       ],
       "notes": "",
       "history": [
@@ -14043,6 +14112,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "MM/HFT",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -14059,7 +14129,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0xd8d035]"
@@ -14087,6 +14157,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "MM/HFT",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -14103,7 +14174,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0x484bc1]"
@@ -14132,6 +14203,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "MM/HFT",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -14148,7 +14220,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x3c363e]"
@@ -14176,6 +14248,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL検証:非該当",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -14192,7 +14265,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0xc7accf]"
@@ -14220,6 +14293,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL履歴なし",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -14236,7 +14310,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0x1e0b46]"
@@ -14264,6 +14338,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL履歴なし",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -14280,7 +14355,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0x28bbaa]"
@@ -14308,6 +14383,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL検証:非該当",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -14324,7 +14400,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0x1f4059]"
@@ -14401,7 +14477,8 @@
       "times_seen": 1,
       "tags": [
         "Nansen発見",
-        "SmartMoney"
+        "SmartMoney",
+        "稼ぎ確認・先行不明(要精査)"
       ],
       "notes": "",
       "history": [
@@ -14444,6 +14521,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL検証:非該当",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -14460,7 +14538,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0x0980b3]"
@@ -14490,7 +14568,8 @@
       "times_seen": 1,
       "tags": [
         "Nansen発見",
-        "SmartMoney"
+        "SmartMoney",
+        "稼ぎ確認・先行不明(要精査)"
       ],
       "notes": "",
       "history": [
@@ -14535,7 +14614,8 @@
       "times_seen": 2,
       "tags": [
         "Nansen発見",
-        "SmartMoney"
+        "SmartMoney",
+        "稼ぎ確認・先行不明(要精査)"
       ],
       "notes": "",
       "history": [
@@ -14583,7 +14663,8 @@
       "times_seen": 2,
       "tags": [
         "Nansen発見",
-        "SmartMoney"
+        "SmartMoney",
+        "稼ぎ確認・先行不明(要精査)"
       ],
       "notes": "",
       "history": [
@@ -14630,7 +14711,8 @@
       "times_seen": 1,
       "tags": [
         "Nansen発見",
-        "SmartMoney"
+        "SmartMoney",
+        "稼ぎ確認・先行不明(要精査)"
       ],
       "notes": "",
       "history": [
@@ -14673,6 +14755,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL検証:非該当",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -14689,7 +14772,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0x397616]"
@@ -14717,6 +14800,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "MM/HFT",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -14733,7 +14817,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x25cd30]"
@@ -14762,7 +14846,8 @@
       "times_seen": 1,
       "tags": [
         "Nansen発見",
-        "SmartMoney"
+        "SmartMoney",
+        "稼ぎ確認・先行不明(要精査)"
       ],
       "notes": "",
       "history": [
@@ -14805,6 +14890,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL検証:非該当",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -14821,7 +14907,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x855450]"
@@ -14849,6 +14935,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL検証:非該当",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -14865,7 +14952,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0x1c7704]"
@@ -14893,6 +14980,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL履歴なし",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -14909,7 +14997,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0xc48b1a]"
@@ -14937,6 +15025,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL履歴なし",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -14953,7 +15042,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x67c932]"
@@ -14981,6 +15070,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "MM/HFT",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -14997,7 +15087,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x106943]"
@@ -15025,6 +15115,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "MM/HFT",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -15041,7 +15132,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x3a1224]"
@@ -15232,6 +15323,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "MM/HFT",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -15248,7 +15340,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0xd93db9]"
@@ -15276,6 +15368,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL検証:非該当",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -15292,7 +15385,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x6a7a17]"
@@ -15368,6 +15461,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL検証:非該当",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -15384,7 +15478,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x1f67d7]"
@@ -15413,6 +15507,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "MM/HFT",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -15429,7 +15524,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0x9fb175]"
@@ -15458,7 +15553,8 @@
       "times_seen": 1,
       "tags": [
         "Nansen発見",
-        "SmartMoney"
+        "SmartMoney",
+        "稼ぎ確認・先行不明(要精査)"
       ],
       "notes": "",
       "history": [
@@ -15501,6 +15597,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL検証:非該当",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -15517,7 +15614,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0xb9eb06]"
@@ -15545,6 +15642,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "MM/HFT",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -15561,7 +15659,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0x3b2e0b]"
@@ -15637,6 +15735,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "MM/HFT",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -15653,7 +15752,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x4c7a57]"
@@ -15681,6 +15780,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL検証:非該当",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -15697,7 +15797,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0xfb996b]"
@@ -15725,6 +15825,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL検証:非該当",
         "Nansen発見",
         "機関"
       ],
@@ -15741,7 +15842,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Funded @jvpmamede On Friendtech [0xa4beb4]"
@@ -15769,6 +15870,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL検証:非該当",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -15785,7 +15887,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0xbb9f03]"
@@ -15813,6 +15915,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL履歴なし",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -15829,7 +15932,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0xfc7839]"
@@ -15905,6 +16008,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "MM/HFT",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -15921,7 +16025,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0x039405]"
@@ -15949,6 +16053,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "MM/HFT",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -15965,7 +16070,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0xd28aec]"
@@ -15993,6 +16098,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "MM/HFT",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -16009,7 +16115,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x98d0e6]"
@@ -16038,6 +16144,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "MM/HFT",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -16054,7 +16161,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x999510]"
@@ -16082,6 +16189,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL履歴なし",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -16098,7 +16206,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0xc16b8d]"
@@ -16127,6 +16235,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL検証:非該当",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -16143,7 +16252,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0x2098c0]"
@@ -16171,6 +16280,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL検証:非該当",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -16187,7 +16297,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x25e9e3]"
@@ -16216,6 +16326,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL検証:非該当",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -16232,7 +16343,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x6ed3c8]"
@@ -16260,6 +16371,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL検証:非該当",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -16276,7 +16388,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0xe8d891]"
@@ -16352,6 +16464,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL検証:非該当",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -16368,7 +16481,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x4b5630]"
@@ -16444,6 +16557,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL検証:非該当",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -16460,7 +16574,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x2c5dc7]"
@@ -16489,6 +16603,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL検証:非該当",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -16505,7 +16620,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0x8383b9]"
@@ -16533,6 +16648,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL検証:非該当",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -16549,7 +16665,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x14f5dd]"
@@ -16578,6 +16694,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL検証:非該当",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -16594,7 +16711,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0xf890f1]"
@@ -16622,6 +16739,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL検証:非該当",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -16638,7 +16756,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x560792]"
@@ -16666,6 +16784,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL検証:非該当",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -16682,7 +16801,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0x2a246f]"
@@ -16710,6 +16829,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL検証:非該当",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -16726,7 +16846,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x1def62]"
@@ -16754,6 +16874,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL検証:非該当",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -16770,7 +16891,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0x0c9f94]"
@@ -16798,6 +16919,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL検証:非該当",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -16814,7 +16936,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0x9aca58]"
@@ -16890,6 +17012,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL検証:非該当",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -16906,7 +17029,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0xf780ad]"
@@ -16935,6 +17058,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL履歴なし",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -16951,7 +17075,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x2373aa]"
@@ -16979,6 +17103,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL履歴なし",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -16995,7 +17120,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x5b2833]"
@@ -17023,6 +17148,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "MM/HFT",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -17039,7 +17165,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0xa6cb81]"
@@ -17067,6 +17193,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL検証:非該当",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -17083,7 +17210,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0xd01f0d]"
@@ -17111,6 +17238,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL検証:非該当",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -17127,7 +17255,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0x2bb45f]"
@@ -17156,6 +17284,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL検証:非該当",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -17172,7 +17301,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0xb7fb2b]"
@@ -17200,6 +17329,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL検証:非該当",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -17216,7 +17346,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0x0050f3]"
@@ -17244,6 +17374,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL検証:非該当",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -17260,7 +17391,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0xf00eab]"
@@ -17336,6 +17467,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL検証:非該当",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -17352,7 +17484,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x0ed73f]"
@@ -17380,6 +17512,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "MM/HFT",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -17396,7 +17529,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x720c93]"
@@ -17424,6 +17557,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL検証:非該当",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -17440,7 +17574,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0x2322f8]"
@@ -17468,6 +17602,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL履歴なし",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -17484,7 +17619,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0xb3b60a]"
@@ -17512,6 +17647,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL検証:非該当",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -17528,7 +17664,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0xa35551]"
@@ -17557,6 +17693,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL履歴なし",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -17573,7 +17710,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0xf629d7]"
@@ -17601,6 +17738,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL検証:非該当",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -17617,7 +17755,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x81352d]"
@@ -17645,6 +17783,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL検証:非該当",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -17661,7 +17800,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x5cddd9]"
@@ -17690,7 +17829,8 @@
       "times_seen": 1,
       "tags": [
         "Nansen発見",
-        "SmartMoney"
+        "SmartMoney",
+        "稼ぎ確認・先行不明(要精査)"
       ],
       "notes": "",
       "history": [
@@ -17734,6 +17874,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL検証:非該当",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -17750,7 +17891,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0xbf55d2]"
@@ -17778,6 +17919,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL検証:非該当",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -17794,7 +17936,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0xf2500d]"
@@ -17822,6 +17964,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "MM/HFT",
         "Nansen発見",
         "機関"
       ],
@@ -17838,7 +17981,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Selini Capital [0x7ab80d]"
@@ -17867,6 +18010,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "MM/HFT",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -17883,7 +18027,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0x6788e1]"
@@ -17911,6 +18055,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "MM/HFT",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -17927,7 +18072,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0xbd1ea5]"
@@ -17955,6 +18100,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL検証:非該当",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -17971,7 +18117,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0x778649]"
@@ -17999,6 +18145,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL履歴なし",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -18015,7 +18162,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0xbaa18c]"
@@ -18043,6 +18190,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL履歴なし",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -18059,7 +18207,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0x24c2b6]"
@@ -18088,6 +18236,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "MM/HFT",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -18104,7 +18253,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x549e6d]"
@@ -18132,6 +18281,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL検証:非該当",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -18148,7 +18298,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0xbb8d8e]"
@@ -18176,6 +18326,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL検証:非該当",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -18192,7 +18343,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x2c0757]"
@@ -18221,6 +18372,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL検証:非該当",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -18237,7 +18389,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0xe4d934]"
@@ -18265,6 +18417,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "MM/HFT",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -18281,7 +18434,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0xb19007]"
@@ -18309,6 +18462,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL検証:非該当",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -18325,7 +18479,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0x28452e]"
@@ -18353,6 +18507,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "MM/HFT",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -18369,7 +18524,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x229066]"
@@ -18397,6 +18552,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL検証:非該当",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -18413,7 +18569,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0xc7e85b]"
@@ -18441,6 +18597,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL検証:非該当",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -18457,7 +18614,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0x0aac69]"
@@ -18485,6 +18642,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL履歴なし",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -18501,7 +18659,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x89abe6]"
@@ -18530,7 +18688,8 @@
       "times_seen": 1,
       "tags": [
         "Nansen発見",
-        "SmartMoney"
+        "SmartMoney",
+        "稼ぎ確認・先行不明(要精査)"
       ],
       "notes": "",
       "history": [
@@ -18573,6 +18732,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL検証:非該当",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -18589,7 +18749,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0x14246f]"
@@ -18665,6 +18825,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL検証:非該当",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -18681,7 +18842,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0xf2efcd]"
@@ -18709,6 +18870,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL検証:非該当",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -18725,7 +18887,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x077a25]"
@@ -18754,6 +18916,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL検証:非該当",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -18770,7 +18933,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0x961fdc]"
@@ -18798,6 +18961,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL検証:非該当",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -18814,7 +18978,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0xfdf1e7]"
@@ -18842,6 +19006,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL検証:非該当",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -18858,7 +19023,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x91d7ed]"
@@ -18886,6 +19051,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL検証:非該当",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -18902,7 +19068,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0xf5e7ff]"
@@ -18930,6 +19096,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "MM/HFT",
         "Nansen発見",
         "機関"
       ],
@@ -18946,7 +19113,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "Funded @inv61575 On Friendtech [0x987163]"
@@ -18974,6 +19141,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL検証:非該当",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -18990,7 +19158,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x6559e0]"
@@ -19018,6 +19186,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL履歴なし",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -19034,7 +19203,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0x6e9b20]"
@@ -19063,6 +19232,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL検証:非該当",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -19079,7 +19249,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0xe42921]"
@@ -19107,6 +19277,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL検証:非該当",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -19123,7 +19294,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x83dbc7]"
@@ -19151,6 +19322,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL検証:非該当",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -19167,7 +19339,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x8b04b4]"
@@ -19195,6 +19367,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL履歴なし",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -19211,7 +19384,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x6abc11]"
@@ -19239,6 +19412,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "MM/HFT",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -19255,7 +19429,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0xdf783e]"
@@ -19283,6 +19457,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL検証:非該当",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -19299,7 +19474,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x757bb2]"
@@ -19327,6 +19502,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL検証:非該当",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -19343,7 +19519,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0xdcf8a8]"
@@ -19371,6 +19547,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL検証:非該当",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -19387,7 +19564,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0x81d416]"
@@ -19463,6 +19640,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL検証:非該当",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -19479,7 +19657,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0xd13552]"
@@ -19507,6 +19685,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "MM/HFT",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -19523,7 +19702,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x951591]"
@@ -19551,6 +19730,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL検証:非該当",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -19567,7 +19747,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0x32ec85]"
@@ -19595,6 +19775,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL検証:非該当",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -19611,7 +19792,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0xd4dc36]"
@@ -19639,6 +19820,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL検証:非該当",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -19655,7 +19837,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0x18d103]"
@@ -19683,6 +19865,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL検証:非該当",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -19699,7 +19882,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0x61f2bb]"
@@ -19727,6 +19910,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL検証:非該当",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -19743,7 +19927,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x98785f]"
@@ -19772,7 +19956,8 @@
       "times_seen": 1,
       "tags": [
         "Nansen発見",
-        "SmartMoney"
+        "SmartMoney",
+        "稼ぎ確認・先行不明(要精査)"
       ],
       "notes": "",
       "history": [
@@ -19815,6 +20000,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL履歴なし",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -19831,7 +20017,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x3480d3]"
@@ -19859,6 +20045,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL履歴なし",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -19875,7 +20062,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0x7cbe85]"
@@ -19903,6 +20090,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL検証:非該当",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -19919,7 +20107,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0x1750dd]"
@@ -19947,6 +20135,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL検証:非該当",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -19963,7 +20152,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x64f4e1]"
@@ -19991,6 +20180,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL検証:非該当",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -20007,7 +20197,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0xa30995]"
@@ -20035,6 +20225,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL検証:非該当",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -20051,7 +20242,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0x80bcb0]"
@@ -20079,6 +20270,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL検証:非該当",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -20095,7 +20287,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0x7f1e97]"
@@ -20123,6 +20315,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL検証:非該当",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -20139,7 +20332,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0xef91b2]"
@@ -20167,6 +20360,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL検証:非該当",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -20183,7 +20377,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0x61b6cf]"
@@ -20211,6 +20405,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "MM/HFT",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -20227,7 +20422,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0x814115]"
@@ -20255,6 +20450,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL検証:非該当",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -20271,7 +20467,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0xcdf68b]"
@@ -20299,6 +20495,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL検証:非該当",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -20315,7 +20512,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0x2b8cd2]"
@@ -20344,6 +20541,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL検証:非該当",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -20360,7 +20558,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x15f970]"
@@ -20388,6 +20586,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL検証:非該当",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -20404,7 +20603,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0xcc89d2]"
@@ -20432,6 +20631,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL検証:非該当",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -20448,7 +20648,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0x5b5335]"
@@ -20476,6 +20676,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL検証:非該当",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -20492,7 +20693,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0xe74447]"
@@ -20520,6 +20721,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL履歴なし",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -20536,7 +20738,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x7c6b38]"
@@ -20564,6 +20766,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "MM/HFT",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -20580,7 +20783,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0xbb9775]"
@@ -20609,6 +20812,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "MM/HFT",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -20625,7 +20829,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0xb56a8e]"
@@ -20653,6 +20857,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL検証:非該当",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -20669,7 +20874,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x3c8684]"
@@ -20697,6 +20902,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL検証:非該当",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -20713,7 +20919,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0x8eb3f4]"
@@ -20741,6 +20947,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL検証:非該当",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -20757,7 +20964,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0x0131f0]"
@@ -20785,6 +20992,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL検証:非該当",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -20801,7 +21009,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0x13f210]"
@@ -20829,6 +21037,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL検証:非該当",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -20845,7 +21054,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0x28aeeb]"
@@ -20873,6 +21082,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL検証:非該当",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -20889,7 +21099,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0x68cd0d]"
@@ -20917,6 +21127,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL検証:非該当",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -20933,7 +21144,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x848aa0]"
@@ -20961,6 +21172,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "MM/HFT",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -20977,7 +21189,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x66f463]"
@@ -21005,6 +21217,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL検証:非該当",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -21021,7 +21234,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x02e4cc]"
@@ -21049,6 +21262,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL履歴なし",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -21065,7 +21279,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x42ebc2]"
@@ -21093,6 +21307,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL検証:非該当",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -21109,7 +21324,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0xfde0ad]"
@@ -21137,6 +21352,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL履歴なし",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -21153,7 +21369,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0xe6c7b3]"
@@ -21181,6 +21397,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL検証:非該当",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -21197,7 +21414,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0xfab351]"
@@ -21225,6 +21442,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "MM/HFT",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -21241,7 +21459,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0x0c6486]"
@@ -21269,6 +21487,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "MM/HFT",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -21285,7 +21504,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x093f2e]"
@@ -21314,6 +21533,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL検証:非該当",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -21330,7 +21550,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0x926fa6]"
@@ -21358,6 +21578,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL検証:非該当",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -21374,7 +21595,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0xe80e36]"
@@ -21402,6 +21623,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL検証:非該当",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -21418,7 +21640,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0xe8ebbc]"
@@ -21446,6 +21668,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL検証:非該当",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -21462,7 +21685,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0xc28e23]"
@@ -21491,6 +21714,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL検証:非該当",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -21507,7 +21731,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x2fb99c]"
@@ -21535,6 +21759,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL履歴なし",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -21551,7 +21776,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x7bedd1]"
@@ -21579,6 +21804,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL検証:非該当",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -21595,7 +21821,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0x114dc2]"
@@ -21623,6 +21849,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL検証:非該当",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -21639,7 +21866,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0xa3fc7e]"
@@ -21667,6 +21894,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL検証:非該当",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -21683,7 +21911,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0xa92fb6]"
@@ -21711,6 +21939,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL検証:非該当",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -21727,7 +21956,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0x1e921e]"
@@ -21755,6 +21984,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL検証:非該当",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -21771,7 +22001,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0x1e0930]"
@@ -21799,6 +22029,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL検証:非該当",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -21815,7 +22046,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0xe1b215]"
@@ -21843,6 +22074,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL検証:非該当",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -21859,7 +22091,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0xb2152c]"
@@ -21887,6 +22119,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL検証:非該当",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -21903,7 +22136,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0xca73bb]"
@@ -21931,6 +22164,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL検証:非該当",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -21947,7 +22181,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0x814dc3]"
@@ -21975,6 +22209,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "MM/HFT",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -21991,7 +22226,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0x70875c]"
@@ -22019,6 +22254,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL検証:非該当",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -22035,7 +22271,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x8ff1d5]"
@@ -22063,6 +22299,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL検証:非該当",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -22079,7 +22316,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x3e1992]"
@@ -22107,6 +22344,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL検証:非該当",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -22123,7 +22361,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0x7cff6e]"
@@ -22151,6 +22389,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL検証:非該当",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -22167,7 +22406,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0xe93a3a]"
@@ -22195,6 +22434,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "MM/HFT",
         "Nansen発見",
         "機関"
       ],
@@ -22211,7 +22451,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "Funded @kelvinlamky On Friendtech [0xd74916]"
@@ -22240,6 +22480,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL検証:非該当",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -22256,7 +22497,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0xae58db]"
@@ -22284,6 +22525,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL検証:非該当",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -22300,7 +22542,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0xf0df01]"
@@ -22328,6 +22570,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL検証:非該当",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -22344,7 +22587,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0xa9c3d4]"
@@ -22372,6 +22615,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL履歴なし",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -22388,7 +22632,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0xe767b3]"
@@ -22416,6 +22660,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL検証:非該当",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -22432,7 +22677,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0x633324]"
@@ -22460,6 +22705,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL検証:非該当",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -22476,7 +22722,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "​​6529: Former Smart Trader [0xd9e391]"
@@ -22504,6 +22750,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL検証:非該当",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -22520,7 +22767,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0xdd539d]"
@@ -22548,6 +22795,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL検証:非該当",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -22564,7 +22812,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0xfd5e31]"
@@ -22592,6 +22840,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "MM/HFT",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -22608,7 +22857,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0xf25bc9]"
@@ -22636,6 +22885,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL検証:非該当",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -22652,7 +22902,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0x0a8f51]"
@@ -22680,6 +22930,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL検証:非該当",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -22696,7 +22947,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x55e999]"
@@ -22724,6 +22975,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL検証:非該当",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -22740,7 +22992,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0xd38316]"
@@ -22768,6 +23020,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL検証:非該当",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -22784,7 +23037,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0x984f6a]"
@@ -22812,6 +23065,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "MM/HFT",
         "Nansen発見",
         "機関"
       ],
@@ -22828,7 +23082,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Selini Capital [0xdc5989]"
@@ -22856,6 +23110,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL検証:非該当",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -22872,7 +23127,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0x67f053]"
@@ -22900,6 +23155,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL検証:非該当",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -22916,7 +23172,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0xb3b602]"
@@ -22944,6 +23200,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL検証:非該当",
         "Nansen発見",
         "機関"
       ],
@@ -22960,7 +23217,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Apollo Capital [0x43d271]"
@@ -22988,6 +23245,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL検証:非該当",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -23004,7 +23262,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0x6d15b9]"
@@ -23032,6 +23290,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL検証:非該当",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -23048,7 +23307,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x8bd30f]"
@@ -23076,6 +23335,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL履歴なし",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -23092,7 +23352,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0x2c6e17]"
@@ -23120,6 +23380,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL履歴なし",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -23136,7 +23397,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0x67870e]"
@@ -23164,6 +23425,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL検証:非該当",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -23180,7 +23442,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0x689f15]"
@@ -23208,6 +23470,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL検証:非該当",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -23224,7 +23487,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0xdfee2d]"
@@ -23252,6 +23515,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "MM/HFT",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -23268,7 +23532,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x1174c1]"
@@ -23296,6 +23560,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL検証:非該当",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -23312,7 +23577,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0xeb47e6]"
@@ -23340,6 +23605,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "MM/HFT",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -23356,7 +23622,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "​​Cobo: Former Smart Trader [0x35c60b]"
@@ -23384,6 +23650,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "MM/HFT",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -23400,7 +23667,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0xf94b34]"
@@ -23429,6 +23696,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL検証:非該当",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -23445,7 +23713,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x37c863]"
@@ -23473,6 +23741,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL検証:非該当",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -23489,7 +23758,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x3a8b43]"
@@ -23517,6 +23786,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL検証:非該当",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -23533,7 +23803,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0xa7e5ac]"
@@ -23561,6 +23831,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL検証:非該当",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -23577,7 +23848,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0x449c73]"
@@ -23605,6 +23876,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL履歴なし",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -23621,7 +23893,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0x4221ae]"
@@ -23649,6 +23921,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "MM/HFT",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -23665,7 +23938,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0x670701]"
@@ -23693,6 +23966,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL検証:非該当",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -23709,7 +23983,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0x34c6d4]"
@@ -23737,6 +24011,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL検証:非該当",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -23753,7 +24028,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0xdc5289]"
@@ -23781,6 +24056,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "MM/HFT",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -23797,7 +24073,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x71f060]"
@@ -23825,6 +24101,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "MM/HFT",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -23841,7 +24118,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x221284]"
@@ -23869,6 +24146,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL検証:非該当",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -23885,7 +24163,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0xb4eac3]"
@@ -23913,6 +24191,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL検証:非該当",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -23929,7 +24208,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0x5d8265]"
@@ -23957,6 +24236,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL履歴なし",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -23973,7 +24253,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x19f5c3]"
@@ -24001,6 +24281,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL履歴なし",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -24017,7 +24298,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x02aa60]"
@@ -24094,6 +24375,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "MM/HFT",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -24110,7 +24392,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x0949d8]"
@@ -24138,6 +24420,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL検証:非該当",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -24154,7 +24437,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x3999df]"
@@ -24182,6 +24465,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL検証:非該当",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -24198,7 +24482,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0x36e6da]"
@@ -24227,6 +24511,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL検証:非該当",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -24243,7 +24528,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0x9d1792]"
@@ -24271,6 +24556,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL検証:非該当",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -24287,7 +24573,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x34995b]"
@@ -24315,6 +24601,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL検証:非該当",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -24331,7 +24618,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x0e6abb]"
@@ -24359,6 +24646,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "MM/HFT",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -24375,7 +24663,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0x7177ed]"
@@ -24404,6 +24692,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL検証:非該当",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -24420,7 +24709,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0x18b9be]"
@@ -24448,6 +24737,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL検証:非該当",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -24464,7 +24754,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x43266d]"
@@ -24492,6 +24782,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL履歴なし",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -24508,7 +24799,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0x774f28]"
@@ -24536,6 +24827,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL検証:非該当",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -24552,7 +24844,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x4f94ce]"
@@ -24580,6 +24872,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL検証:非該当",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -24596,7 +24889,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0xd91f2d]"
@@ -24624,6 +24917,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL検証:非該当",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -24640,7 +24934,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0xeeaf40]"
@@ -24668,6 +24962,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL検証:非該当",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -24684,7 +24979,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x1829a3]"
@@ -24712,6 +25007,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL検証:非該当",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -24728,7 +25024,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0x37cdea]"
@@ -24756,6 +25052,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL検証:非該当",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -24772,7 +25069,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0xefe3e4]"
@@ -24800,6 +25097,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL検証:非該当",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -24816,7 +25114,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x33d68b]"
@@ -24844,6 +25142,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL検証:非該当",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -24860,7 +25159,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0x8b6f7f]"
@@ -24888,6 +25187,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "MM/HFT",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -24904,7 +25204,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0xf9d4f4]"
@@ -24932,6 +25232,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL検証:非該当",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -24948,7 +25249,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0xc9257e]"
@@ -24976,6 +25277,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL検証:非該当",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -24992,7 +25294,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0xc0c0bf]"
@@ -25020,6 +25322,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL検証:非該当",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -25036,7 +25339,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0xd72699]"
@@ -25064,6 +25367,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL検証:非該当",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -25080,7 +25384,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x957dc4]"
@@ -25108,6 +25412,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL検証:非該当",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -25124,7 +25429,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0xae68ba]"
@@ -25152,6 +25457,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL検証:非該当",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -25168,7 +25474,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x5c3f8f]"
@@ -25196,6 +25502,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL検証:非該当",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -25212,7 +25519,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x0421e0]"
@@ -25240,6 +25547,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL履歴なし",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -25256,7 +25564,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0xd51b48]"
@@ -25284,6 +25592,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "MM/HFT",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -25300,7 +25609,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x13f689]"
@@ -25328,6 +25637,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL検証:非該当",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -25344,7 +25654,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x197d0b]"
@@ -25372,6 +25682,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "MM/HFT",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -25388,7 +25699,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0x749af6]"
@@ -25416,6 +25727,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL検証:非該当",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -25432,7 +25744,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0xc04451]"
@@ -25460,6 +25772,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL検証:非該当",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -25476,7 +25789,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x8505b6]"
@@ -25504,6 +25817,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "MM/HFT",
         "Nansen発見",
         "機関"
       ],
@@ -25520,7 +25834,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "Funded @captainbey0nd On Friendtech [0x936aad]"
@@ -25548,6 +25862,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL検証:非該当",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -25564,7 +25879,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0x7dd6af]"
@@ -25592,6 +25907,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL履歴なし",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -25608,7 +25924,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0x435ea5]"
@@ -25636,6 +25952,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL履歴なし",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -25652,7 +25969,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x9ced04]"
@@ -25680,6 +25997,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "MM/HFT",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -25696,7 +26014,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0x1e5cf4]"
@@ -25724,6 +26042,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "MM/HFT",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -25740,7 +26059,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0xfb187e]"
@@ -25768,6 +26087,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL検証:非該当",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -25784,7 +26104,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x1847dc]"
@@ -25812,6 +26132,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL検証:非該当",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -25828,7 +26149,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x1fd216]"
@@ -25856,6 +26177,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "MM/HFT",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -25872,7 +26194,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x2ed2bd]"
@@ -25900,6 +26222,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL検証:非該当",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -25916,7 +26239,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0x7e5198]"
@@ -25944,6 +26267,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL検証:非該当",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -25960,7 +26284,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x3f9446]"
@@ -25989,6 +26313,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL履歴なし",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -26005,7 +26330,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0x00e2a2]"
@@ -26033,6 +26358,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL検証:非該当",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -26049,7 +26375,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0x8dae4b]"
@@ -26078,6 +26404,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "MM/HFT",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -26094,7 +26421,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0x019d42]"
@@ -26122,6 +26449,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL検証:非該当",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -26138,7 +26466,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x081ec1]"
@@ -26166,6 +26494,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL検証:非該当",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -26182,7 +26511,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0xc16276]"
@@ -26210,6 +26539,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL検証:非該当",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -26226,7 +26556,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0x5c9051]"
@@ -26254,6 +26584,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL検証:非該当",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -26270,7 +26601,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0xe41aa4]"
@@ -26298,6 +26629,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL検証:非該当",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -26314,7 +26646,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x39c7d0]"
@@ -26342,6 +26674,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL検証:非該当",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -26358,7 +26691,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0x40ebad]"
@@ -26386,6 +26719,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL検証:非該当",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -26402,7 +26736,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x1fcfc4]"
@@ -26430,6 +26764,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL検証:非該当",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -26446,7 +26781,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0xefacc3]"
@@ -26474,6 +26809,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL検証:非該当",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -26490,7 +26826,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x84990a]"
@@ -26518,6 +26854,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL検証:非該当",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -26534,7 +26871,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0x5c90ce]"
@@ -26562,6 +26899,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL検証:非該当",
         "Nansen発見",
         "機関"
       ],
@@ -26578,7 +26916,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "Funded @MikeRizz On Friendtech [0xb38c01]"
@@ -26606,6 +26944,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL検証:非該当",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -26622,7 +26961,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x57da9c]"
@@ -26650,6 +26989,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL履歴なし",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -26666,7 +27006,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x6581c9]"
@@ -26694,6 +27034,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL履歴なし",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -26710,7 +27051,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0xce50bd]"
@@ -26738,6 +27079,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL検証:非該当",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -26754,7 +27096,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x0e0e4a]"
@@ -26782,6 +27124,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "MM/HFT",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -26798,7 +27141,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x9db82c]"
@@ -26826,6 +27169,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL検証:非該当",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -26842,7 +27186,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0xd50557]"
@@ -26870,6 +27214,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL検証:非該当",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -26886,7 +27231,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0xb90598]"
@@ -26914,6 +27259,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "MM/HFT",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -26930,7 +27276,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x6e9989]"
@@ -26958,6 +27304,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "MM/HFT",
         "Nansen発見",
         "機関"
       ],
@@ -26974,7 +27321,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "Funded @louis1118111 On Friendtech [0x021069]"
@@ -27002,6 +27349,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL検証:非該当",
         "Nansen発見",
         "機関"
       ],
@@ -27018,7 +27366,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "Funded @jev13307 On Friendtech [0xf4bfb4]"
@@ -27047,6 +27395,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL履歴なし",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -27063,7 +27412,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x9d0ea1]"
@@ -27091,6 +27440,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL履歴なし",
         "Nansen発見",
         "機関"
       ],
@@ -27107,7 +27457,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "Funded @2023Lions On Friendtech [0x7c3d04]"
@@ -27135,6 +27485,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL検証:非該当",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -27151,7 +27502,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x8bd097]"
@@ -27179,6 +27530,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL検証:非該当",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -27195,7 +27547,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0xd46979]"
@@ -27223,6 +27575,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL検証:非該当",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -27239,7 +27592,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0xe4227d]"
@@ -27267,6 +27620,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL検証:非該当",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -27283,7 +27637,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0xdc7be2]"
@@ -27311,6 +27665,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL検証:非該当",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -27327,7 +27682,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0xac4508]"
@@ -27404,6 +27759,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "MM/HFT",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -27420,7 +27776,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x55999a]"
@@ -27448,6 +27804,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL検証:非該当",
         "Nansen発見",
         "機関"
       ],
@@ -27464,7 +27821,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Selini Capital [0x9ede7d]"
@@ -27492,6 +27849,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL検証:非該当",
         "Nansen発見",
         "SmartMoney"
       ],
@@ -27508,7 +27866,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x402cf0]"
@@ -28012,12 +28370,13 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL履歴なし",
         "Nansen発見"
       ],
       "notes": "",
       "history": [],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "hl-verified",
       "labels": [
         "HL Perps Majors Trader [0xb632c6]"
@@ -28043,12 +28402,13 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "HL履歴なし",
         "Nansen発見"
       ],
       "notes": "",
       "history": [],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "hl-verified",
       "labels": [
         "High Balance [0x24eeb5]"
@@ -28394,7 +28754,8 @@
       "first_seen": "2026-06-17",
       "times_seen": 2,
       "tags": [
-        "Nansen発見"
+        "Nansen発見",
+        "稼ぎ確認・先行不明(要精査)"
       ],
       "notes": "",
       "history": [],
@@ -28553,7 +28914,8 @@
       "first_seen": "2026-06-17",
       "times_seen": 2,
       "tags": [
-        "Nansen発見"
+        "Nansen発見",
+        "稼ぎ確認・先行不明(要精査)"
       ],
       "notes": "",
       "history": [],
@@ -28616,12 +28978,13 @@
       "first_seen": "2026-06-17",
       "times_seen": 1,
       "tags": [
+        "MM/HFT",
         "Nansen発見"
       ],
       "notes": "",
       "history": [],
       "last_seen": "2026-06-17",
-      "position": "Nansen候補(HL未検証)",
+      "position": "除外/低優先",
       "metric_category": "hl-verified",
       "labels": [
         "HL Perps Day Trader [0xa90635]"
@@ -28679,7 +29042,8 @@
       "first_seen": "2026-06-17",
       "times_seen": 2,
       "tags": [
-        "Nansen発見"
+        "Nansen発見",
+        "稼ぎ確認・先行不明(要精査)"
       ],
       "notes": "",
       "history": [],
