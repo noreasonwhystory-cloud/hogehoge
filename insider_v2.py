@@ -47,46 +47,53 @@ def build_events(lo, hi):
     return evs
 
 
+# 緩和段階: (名前, lead時間h, exit時間h, 大口閾値USD)
+TIERS = [("strict", 6, 12, 100_000), ("medium", 12, 24, 50_000), ("loose", 24, 48, 25_000)]
+
+
 def analyze(addr, events):
     fills = hl_client.user_fills_by_time(addr, 0, int(time.time() * 1000))
     maj = [f for f in fills if f.get("coin") in config.COINS]
     if not maj:
         return None
-    # 銘柄別に時系列のopen/closeを用意
-    opens = defaultdict(list)   # (coin,dir) -> [t...]  大口の新規
-    closes = defaultdict(list)  # coin -> [(t, side_reduce_dir)]
+    opens = defaultdict(list)   # (coin,dir) -> [(t, notional)]
+    closes = defaultdict(list)  # coin -> [(t, reduce_dir)]
     for f in maj:
         t = int(f["time"]); coin = f["coin"]; px = float(f["px"]); sz = float(f["sz"])
         d = open_dir(f.get("dir"))
         dd = (f.get("dir") or "")
-        if d in ("long", "short") and px * sz >= LARGE:
-            opens[(coin, d)].append(t)
+        if d in ("long", "short"):
+            opens[(coin, d)].append((t, px * sz))
         if "Close" in dd or "Reduce" in dd or ">" in dd:
-            # クローズ/減玉。その時点で減らした方向（=元の建玉方向）を記録
             cd = "long" if "Long" in dd else ("short" if "Short" in dd else None)
             if cd:
                 closes[coin].append((t, cd))
-    rt_events = 0          # 往復(前に建て+後に利確)が成立した distinct イベント数
-    lead_events = 0        # 前に建てただけ(利確未確認)
-    rt_detail = []
-    for ev in events:
-        coin, t0, d = ev["coin"], ev["t0"], ev["dir"]
-        # 動く前6h以内に同方向で大口建て
-        led = any(t0 - LEAD <= t <= t0 for t in opens.get((coin, d), []))
-        if not led:
-            continue
-        # 動いた後12h以内に同方向建玉を利確(減らした)
-        exited = any(t0 <= t <= t0 + EXIT and cd == d for t, cd in closes.get(coin, []))
-        if exited:
-            rt_events += 1
-            if len(rt_detail) < 8:
-                rt_detail.append({"coin": coin, "dir": d, "pct": ev["pct"],
-                                  "event": datetime.fromtimestamp(t0 / 1000, timezone.utc).strftime("%Y-%m-%d %H:%M")})
-        else:
-            lead_events += 1
-    return {"address": addr, "majors": len(maj),
-            "rt_events": rt_events, "lead_only_events": lead_events,
-            "rt_detail": rt_detail}
+
+    def rt_for(lead_h, exit_h, large):
+        lead_ms, exit_ms = lead_h * MS_H, exit_h * MS_H
+        rt = lead_only = 0
+        detail = []
+        for ev in events:
+            coin, t0, d = ev["coin"], ev["t0"], ev["dir"]
+            led = any(t0 - lead_ms <= t <= t0 and notl >= large for t, notl in opens.get((coin, d), []))
+            if not led:
+                continue
+            exited = any(t0 <= t <= t0 + exit_ms and cd == d for t, cd in closes.get(coin, []))
+            if exited:
+                rt += 1
+                if len(detail) < 6:
+                    detail.append({"coin": coin, "dir": d, "pct": ev["pct"],
+                                   "event": datetime.fromtimestamp(t0 / 1000, timezone.utc).strftime("%Y-%m-%d")})
+            else:
+                lead_only += 1
+        return rt, lead_only, detail
+
+    tiers = {}
+    for name, lh, eh, lg in TIERS:
+        rt, lo, det = rt_for(lh, eh, lg)
+        tiers[name] = {"rt": rt, "lead_only": lo, "detail": det}
+    return {"address": addr, "majors": len(maj), "tiers": tiers,
+            "rt_events": tiers["strict"]["rt"]}  # 後方互換
 
 
 def main():
@@ -108,15 +115,20 @@ def main():
             out.append(r)
         if i % 25 == 0:
             print(f"  {i}/{len(targets)} ...")
-    out.sort(key=lambda r: (r["rt_events"], r["lead_only_events"]), reverse=True)
+    out.sort(key=lambda r: (r["tiers"]["loose"]["rt"], r["tiers"]["medium"]["rt"], r["tiers"]["strict"]["rt"]), reverse=True)
     json.dump({"generated_at": datetime.now(timezone.utc).isoformat(), "wallets": out},
               open(f"{config.DATA_DIR}/insider_v2.json", "w", encoding="utf-8"), ensure_ascii=False, indent=2)
-    print("=== 往復(round-trip)反復 上位 ===")
+    print("=== 段階別 往復回数(rt) 上位20（strict / medium / loose）===")
     for r in out[:20]:
-        if r["rt_events"] >= 1:
-            print(f"  往復{r['rt_events']}回 先行のみ{r['lead_only_events']}回 majors{r['majors']} {r['address'][:12]}..")
-    strong = [r for r in out if r["rt_events"] >= 3]
-    print(f"\n本命(往復≥3回): {len(strong)} 件")
+        t = r["tiers"]
+        if t["loose"]["rt"] >= 1:
+            print(f"  strict{t['strict']['rt']} / medium{t['medium']['rt']} / loose{t['loose']['rt']} "
+                  f"(先行のみloose{t['loose']['lead_only']}) majors{r['majors']} {r['address'][:12]}..")
+    print("\n=== 各段階で 往復≥3(本命) の件数 ===")
+    for name, *_ in TIERS:
+        n = sum(1 for r in out if r["tiers"][name]["rt"] >= 3)
+        n2 = sum(1 for r in out if r["tiers"][name]["rt"] >= 1)
+        print(f"  {name}: 往復≥3 {n}件 / 往復≥1 {n2}件")
 
 
 if __name__ == "__main__":
