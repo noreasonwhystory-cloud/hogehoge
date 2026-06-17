@@ -1,0 +1,173 @@
+{
+  "judged": [
+    {
+      "address": "0xefcace57934a753d66c48a31b880ba806d4c0869",
+      "verdict": "debunked",
+      "confidence": 0.08,
+      "recommended_position": "除外/低優先",
+      "one_line": "3レンズ全てが強い無害説明を提示し、唯一の支持材料(Monad資金チェーン=cluster-A)も1万超アドレス向け公開エアドロップと判明して崩壊。先行は厳格tierでN=1に化け、的中率1.0は選択バイアス由来の計測アーティファクト。インサイダー認定不可、除外/低優先。",
+      "reasoning": "デフォルト懐疑の方針で3レンズを統合した。(1)反復性レンズ(delta -0.4): medium rt=3が別月・別年に分散し他容疑(0x74da…は全件2026-02-05に崩壊)と違い形式上は独立反復が成立=唯一の弱ポジ材料。しかしnorm_rate=0.0273/0.0263と閾値0.05未満で「大口110〜152に賭けた中で偶然当たった3〜4発」の典型、strict(6h/$100k)でrt=0・lead_unique_events=1に崩壊しloose窓依存のN=1、detail全件dir:shortで下落相場のショート偏重による構造的水増し、lead_examples空で$2.95Mは個別建玉が一件も監査不能。(2)基準率レンズ(delta -0.75): win=1.0/dir=1.0なのにrealized_pnlは$114k/879日=約$130/日。完全先読みなら桁違いに稼げるはずで、1.0は勝ちのみ決済・含み損塩漬けの選択バイアス＋微小ポジ＋ショート偏重による計測アーティファクト。879日×大口152クラスタの長期高頻度ゆえ基準率だけで先行が偶発する。(3)資金源・正体レンズ(delta -0.85): 私的First Funder=0件、HL/EVMのFirst FunderはKromatika DeployerとMonad Distributor[0xdf7479]だが後者は単日約10,768アドレスへ1MON配布の公開エアドロップ/フォーセットと既に否定済み(兄弟0x10b6f072/0xa351db10で確認)。cluster-A協調説は資金共有の段階で崩壊し、資金共有≠協調。labels空・ENS/OpenSea名なしで身元情報ゼロ。3レンズ全てが検証不能/N=1/アーティファクト/公共資金源の強い無害説明を満たし、降格条件を完全に充足。残った反復性も厳格tierで消え、情報優位を示す監査可能な個別証拠は皆無。よってprior weak-suspect(0.3)から大幅降格しdebunked・除外/低優先と判定。"
+    },
+    {
+      "address": "0x10b6f072fabe21bc72ffd77ff5d4414e6cef2980",
+      "verdict": "debunked",
+      "confidence": 0.08,
+      "recommended_position": "除外/低優先",
+      "one_line": "先行も反復もゼロで実証済みに不在、完璧スコアは選択バイアスの計測アーティファクト、資金源は公開エアドロップ+CEX給餌の汎用ハブ。インサイダーの根拠なし、除外相当。",
+      "reasoning": "3レンズ全てがconfidence_delta=-0.85で完全一致し、無害説明が一致して成立する。(1)反復性レンズ: rt=0かつlead_unique_events=0が strict/medium/loose 全ティアで成立。これは『検証不能』ではなく『検証の結果として明確に不在』。23〜28件の大口クラスタを賭けながらnorm_rate=0.0で、<0.05の偶然当たり基準すら下回り当たりゼロ。$670kのevent_lead_notionalは監査可能な個別建玉ゼロの集計値にすぎない。(2)基準率・アーティファクトレンズ: win_rate=1.0/dir_accuracy=1.0という唯一の表面材料は、total_pnl $195,757÷228日=約$858/日という矛盾で否定される(完璧な先読みなら桁違いに稼げるはず)。1.0/1.0は塩漬け選別・微小ポジ・下落相場ショート偏重の典型的計測アーティファクト。(3)資金源レンズ: 全エッジが公共/共有サービス。Monad資金元Distributor[0xdf7479]は親[0xa9346f]から7,351回供給を受け広範囲に散布する公開エアドロップ/フォーセット(約1万アドレス配布)で、cluster-Aの『同一Monad資金元=協調』前提が完全崩壊。HL資金元High Balance[0x9aa91e]はNexo(CEX)から$4.4M+$1.1M供給を受ける汎用CEX中継ハブ。labels=[]で身元情報もなし。デフォルト懐疑の原則に照らし、prior_finding(先行はことごとくN=1に化け反復≥3級未検出)とも完全に整合。本ウォレットは先行すら出ない(lead_only=loose時のみ2、strict/medium=0)最弱クラスで、無害に説明しきれるため除外/低優先が妥当。"
+    },
+    {
+      "address": "0x0c349d9b92fbd172bbb5a17a9db0a673a6a10ad3",
+      "verdict": "debunked",
+      "confidence": 0.05,
+      "recommended_position": "除外/低優先",
+      "one_line": "3レンズ全てが無害説明を支持。情報優位の痕跡ゼロで、先行も反復も検証不能の集計アーティファクトに崩壊する。除外/低優先が妥当。",
+      "reasoning": "デフォルト懐疑の原則に沿い、3レンズの負方向シグナルを統合した。(1)反復性レンズ(-0.6): rt=null・lead_unique_events全tier=0で反復の正シグナルは皆無。rt=nullはHLの約定保持間引きによる『検証不能』であって『反復あり』ではなく、降格材料にしかならない。(2)基準率/アーティファクトレンズ(-0.85): dir_accuracy=0.526はコインフリップ同然で方向的優位なし、win_rate=0.3557は5割割れ(負けが多い)。$116kの利益は少数の大勝ち=トレンド便乗プロファイルで先読みではない。$1.09Mのevent_lead_notionalは個別建玉ゼロの分割約定水増し。(3)資金源/正体レンズ(-0.7): First FunderはOrbiter公共ブリッジ1件のみ、ラベルは汎用『High Activity』、相手はBinance/HL Bridgeの公共インフラのみ。cluster-Aにすら属さず私的情報源の痕跡ゼロ。prior_findingの『先行はことごとくN=1に化け反復≥3未検出・cluster-Aは公開エアドロップで否定』とも完全整合し、本件はその中でも最弱(全tierで先行ユニーク0・勝率コインフリップ未満)。当初notesの『逆張りロング先行=希少シグナル』はlead_unique=0で裏付け消滅。3レンズいずれも強い無害説明(N=1/検証不能/集計アーティファクト/公共資金源)を提示しており、安易なインサイダー認定を避け除外/低優先とする。"
+    },
+    {
+      "address": "0xa351db10472a07059ea099e0581444e568bff894",
+      "verdict": "debunked",
+      "confidence": 0.05,
+      "recommended_position": "除外/低優先",
+      "one_line": "情報優位の証拠ゼロ(全ティアで先行0件・方向的中0.5005のコインフリップ)、無害に説明しきれるため除外。",
+      "reasoning": "3レンズが完全一致で-0.85(支持材料なし)。(1)反復性レンズ: rt=nullかつlead_unique_events全ティア0で、反復どころか先行ヒットが一件も存在しない。dir_accuracy=0.5005は完全な偶然。(2)基準率・アーティファクトレンズ: 先読みの核心である方向的中が0.5005と純粋なコインフリップ。$2.46Mのevent_lead_notionalは個別建玉に裏付けのない集計値で、22日の高頻度取引なら基準率上どこかで急変前に当たるだけ。$632k PnLはサイズ/レバレッジで説明可能。(3)資金源レンズ: first_funderはAcross公共ブリッジ(誰でも使用・足が消えるのは設計通り)、labelは空でNansenすら身元付与不能、counterpartiesもLI.FI/HL Bridge2の汎用基盤のみ。当初クラスタA(協調候補)としたが共有資金元はMonadの公開エアドロップ(約1万アドレスへ配布)と判明し協調は明確に否定済み。prior_finding(先行はN=1に化け反復≥3未検出)とも整合し、本件はN=0でそれ以下。検証不能・アーティファクト・公共資金源・協調否定の4つすべてが成立する最も強い無害説明。デフォルト懐疑に従い除外/低優先と判定。MM/ルーティング系の指標と整合。"
+    },
+    {
+      "address": "0x0a7097d919b7421ecc03aed3aac68a13e7ef1f46",
+      "verdict": "debunked",
+      "confidence": 0.08,
+      "recommended_position": "除外/低優先",
+      "one_line": "先行はstrictで消滅・反復は単日相関クラッシュの三重計上に化け、資金源も負けグラインダーの自己供給。無害に説明しきれるため除外。",
+      "reasoning": "3レンズすべてが強い降格方向(delta -0.6/-0.55/-0.7)で一致。【反復性】rtはnullでなく検証可能だが、loose rt=6のうち3件が2026-06-02のBTC/ETH/SOL同時shortという単一相関クラッシュの三重計上、06-04も隣接同ボラ群で、独立イベントは実質03-27と06-02 episodeの2つのみ。全往復が例外なくショート=下落相場の方向バイアスによる構造的水増し。lead_unique_events strict=0/medium=1で反復の土台が崩壊し、lead_examples=[]でハッシュ級の裏付けゼロ。prior_finding(先行はN=1に化け反復≥3未検出)の典型に合致。【基準率】dir_accuracy0.6676はコインフリップ+0.17の残余だが、PnL≒$310/日×493日という微小性は完全先読みと矛盾し、norm_rate0.014〜0.026で選別性ほぼゼロ、493日の長期露出で基準率上どこかで先行が偶然生じる。【資金源・正体】正体は自己申告OpenSeaハンドル\"kekvault2\"のみで身元価値ゼロ。唯一の資金源@kekbetaは同\"kek\"語幹=自己資金供給で協調でなく、当該funder自身が11,948約定・勝率0.38・-$25,424の負けグラインダーで情報源たり得ず。cluster-A(Monad Distributor)連結も無し。残余シグナルはすべてショート偏重・相関クラッシュ重複計上・基準率露出で無害に説明可能。よってdebunked/除外。"
+    },
+    {
+      "address": "0x906d31b2ee92c4bc720232112274a0e1ffb0ad6e",
+      "verdict": "debunked",
+      "confidence": 0.05,
+      "recommended_position": "除外/低優先",
+      "one_line": "3レンズ全てが無害説明で一致。先行は分割約定のN=1、反復はゼロ、資金源は公共ソルバー。情報優位の証拠なし。",
+      "reasoning": "3レンズが矛盾なく全て降格方向(Δ -0.4 / -0.65 / -0.85)に揃い、本物のインサイダーを支持する独立証拠は1件も出なかった。\n\n(1) 反復性レンズ: roundtrip=null(全tier)は「反復あり」ではなくHL約定保持による検証不能であり、誤読してはならない。strict/medium/loose 全てで lead_unique_events=0、すなわち厳密集約後にユニークな先行イベントがゼロ。norm_rateも分子0で算出不能。\n\n(2) 基準率・アーティファクトレンズ: 最も決定的なのは win_rate=1.0 と dir_accuracy=0.6199 の乖離(0.38)。完全先読みならdir_accuracyも1.0付近に張り付くはずで、勝率1.0は決済済みトレードのみ計上+含み損塩漬けによる選択バイアスのアーティファクト。trade_days=205の長さは基準率で偶然の先行を1件生むに十分で、下落相場のショート偏重が4h後ヒットを構造的に水増しする。\n\n(3) 資金源・正体レンズ: first_funder=Gas.zip Primary Solver は数千ウォレットを賄う公共ソルバーで、タグ自体が「公共サービス資金源(協調でない)」。同funderは別の likely-insider 0x18cd45 も供給しており、これは協調ではなく共有公共ハブ=非協調の典型シグナル。label=Token Millionaire は身元情報ゼロの汎用残高ティア。cluster-A特有のMonad Distributor連鎖は本アドレスに無く、cluster-A自体も公開エアドロップで否定済み。\n\n唯一の先行逸話(ETH short 2025-12-10 18:31→22:00に-4.02%)は prior_finding の典型的失敗形そのもので、同一時刻・同方向の2フィル分割=実質N=1。$350kも分割の水増し。デフォルト懐疑の原則どおり、疑わしい全指標が無害に説明しきれるため除外/低優先とする。"
+    },
+    {
+      "address": "0xbcc7fd5f27cba04dca862b94509133c453dde764",
+      "verdict": "debunked",
+      "confidence": 0.06,
+      "recommended_position": "除外/低優先",
+      "one_line": "先行は単発(N=1)の分割約定に化け、反復ゼロ・コインフリップ精度・公共ブリッジ資金源で無害に説明しきれる。インサイダーではない。",
+      "reasoning": "3レンズが全て強い負方向で一致し、降格根拠が相互補強する。(1)反復性レンズ(-0.55): rt=null(全tier)は反復ありではなく「検証不能」、lead_unique_events=0/0/0で集約後にユニークな先行イベントが1件も残らず、唯一の先行(ETHロング+4.35%急騰の36分前)は同一約定の分割=N=1水増し。win_rate 0.5072・dir_accuracy 0.5866はコインフリップと統計的に区別不能で、norm_rateも算出不能。(2)基準率/アーティファクトレンズ(-0.6): event_lead_notional $1,430,714 は同一約定分割の水増し集計で絶対額に騙されてはならず、利益$553,556/61日は少数の大型勝ちトレードのサイズ/ボラ依存で方向的情報優位では説明されない。完全先読みなら桁違いの精度が出るはずという基準率と矛盾。(3)資金源/正体レンズ(-0.7): first_funderはDLN(deBridge)の公共クロスチェーンブリッジ着金1件のみで誰でも使う共通仕様、labels=0件で身元の手掛かりゼロ、cluster-A(公開エアドロップで否定済み)にもMonad配布連鎖にも非該当。私的資金源・協調網の証拠なし。既知の前提「先行はことごとくN=1に化け、反復≥3級は未検出」と完全一致し、情報優位を示す独立イベントが一つも存在しない。デフォルトの懐疑に従い、監視継続の根拠すら残らないため prior の「弱い疑惑(監視継続)」から「除外/低優先」へ降格。本物インサイダー確率≈0.06。"
+    },
+    {
+      "address": "0x18cd4597e06b7fe0a8cd33dda499121b3a145a8b",
+      "verdict": "debunked",
+      "confidence": 0.08,
+      "recommended_position": "除外/低優先",
+      "one_line": "先行はN=1のFeb上昇便乗(同一hash二重計上)・反復ゼロ・往復null・資金源は公共配布ハブで、likely-insiderの根拠が全面崩壊。インサイダー認定の根拠なし。",
+      "reasoning": "3レンズが全て同方向(降格)で一致し、互いに独立な角度から先行finding(prior=likely-insider確度0.62)を解体する。\n\n(1)反復性レンズ(delta -0.35): roundtripはstrict/medium/looseすべてnull=往復が一件も成立・取得できておらず、lead_unique_eventsも全tier=0。likely-insiderの根拠だった5件のlead_examplesは2026-02-02と02-06のわずか2日(=2月の同一上昇episode)に固まったETH/BTCロングで、うち2ペアは同一txハッシュの二重計上=独立イベントの反復ではなく実質N=1のトレンド便乗。rt=null は「検証不能」であって「反復あり」ではない(検証不能≠情報優位)。\n\n(2)基準率・アーティファクトレンズ(delta -0.45): dir_accuracy=0.5897 はコインフリップ+αに過ぎず「動く前に当てている」水準ではない。一方 win_rate=0.7309 との乖離は、勝ちポジを小刻みに利確して勝率だけ膨らませる順張りポジトレーダーの典型シグネチャ。$651kのevent_lead_notionalは分割約定を水増しした集計値で監査可能な個別建玉に裏付けなし。PnLも$332k/134日≈$2,480/日で完全先読みとは桁違い。\n\n(3)資金源・正体レンズ(delta -0.85=決定打): likely-insiderの唯一の支持根拠「Monad first-funder=Distributor[0xdf7479]がcluster-Aと同一資金源」は、それ自体がcluster-A否定の核心。Distributor[0xdf7479]は2025-11-17デプロイ・単一日に約10,768アドレスへ1MONずつ配布した公開エアドロップ/フォーセット=協調網でなく1万超が共有する公共配布ハブ。HL資金源もGas.zip公共ソルバー(自タグにも「公共サービス資金源(協調でない)」明記)、labels=0個で身元手がかりゼロ。私的情報源・協調網の痕跡は資金網・正体のどちらにも存在しない。\n\n統合: prior 0.62 に3レンズの合算delta(-1.65相当)を懐疑デフォルトで適用すると、支持シグナルは全レンズで「なし」、残余だった唯一の手がかり(Monad資金源)が公共エアドロップで明確に否定済み。これはこれまで通り「先行はN=1の分割約定に化け、反復≥3級は未検出、cluster-Aは公開エアドロップで否定」のパターンに完全に合致する。無害な説明(N=1のFeb相場便乗+順張り利確+公共資金源)で全面的に説明しきれるため debunked / 除外・低優先とする。"
+    },
+    {
+      "address": "0x74da055d4ccf9dca3f15789c603e1a88a1d2d81f",
+      "verdict": "debunked",
+      "confidence": 0.08,
+      "recommended_position": "除外/低優先",
+      "one_line": "先行はlead_unique_events全tier=0・実質N=1の単一BTCボラ episode・$13.4M先行は同一hash重複の水増しで、内部矛盾(取引停止後の誤結合)まで抱える。無害に説明しきれるため除外。",
+      "reasoning": "3レンズが全て強い無害説明で一致し、降格方向(delta -0.7/-0.6/-0.6)。【反復性】lead_unique_events=strict/medium/loose全て0=監査可能な先行イベントはゼロ。rt(2/4/6)は2026-02-03〜02-07の単一BTCボラ episodeに全集中する実質N=1で、medium rt=4のうち3件は同一2026-02-05 BTC short(-4.03/-3.31/-3.59=同一急変の別4h足)の重複。別々の独立イベントでの反復(≥3級)は不在=prior_finding(先行はN=1に化ける/反復≥3未検出)を踏襲。【基準率・アーティファクト】dir_accuracy=0.5653はコインフリップ水準で先読みの証拠でなく、win_rate0.70との乖離は順張り利確の典型署名。event_lead_notional$13.48M vs total_pnl$957kの過大は、5件中4件が同一hash 0xa5e0a3の分割約定重複計上=実質ユニーク2時刻に縮退するため。決定的に、取引期間2026-01-22〜01-30に対しlead全件2026-02-05付=活動停止後で誤結合の内部矛盾。【資金源・正体】first_funders=[]・labels=[]で資金の足取りも正体も追えず、私的情報源/協調網/cluster-A帰属のいずれも構築不能。他容疑(0xefcace/0x18cd45)が持つ「同一Monad資金元」のような崩せない残余すら本ウォレットには無い。唯一の支持は8日$957kという利益規模だが、これは単一2月初旬BTC下落へのレジームベットの結果であって情報優位の証明ではない。疑わしきはインサイダー認定せずのデフォルトに従い debunked/除外。残る一点の懸念(短期高額益)があるため confidence は0でなく0.08。"
+    },
+    {
+      "address": "0x6f7d75c18e8ca7f486eb4d2690abf7b329087062",
+      "verdict": "debunked",
+      "confidence": 0.05,
+      "recommended_position": "除外/低優先",
+      "one_line": "先行は同一イベントのN=1分割約定に化け、資金源は公然と追跡可能な普通のDeFiユーザー。インサイダーの根拠は全レンズで崩壊し、無害に説明しきれる。",
+      "reasoning": "3レンズが全て降格方向で一致し、支持根拠が一つも生き残らないため debunked / 除外・低優先と判定。(1)反復性: roundtrip=null かつ lead_unique_events strict/medium/loose=0/0/0。唯一の先行例(2025-12-15 ETH short×2)は同一イベント・同方向の分割約定=実質N=1で、prior_finding「先行はことごとくN=1に化け、反復≥3は未検出」のパターンに完全に合致。rt=nullはHLの約定保持上限による検証不能であって反復の証拠ではなく、支持に化かせない。(2)基準率・アーティファクト(delta -0.7): dir_accuracy 0.5636(コイン投げ同然)に対し win_rate 0.9047 の乖離0.34は、動く前に当てているのではなく、トレンド相場で勝ちポジを小刻みに利確する順張りトレーダーの典型シグネチャ。event_lead_notional わずか$225kは総活動に対し極小=集計ノイズ。$3.63MのPnLも出来高による順張りで説明可能。(3)資金源と正体(delta -0.85): 「私的ウォレットで足を消している」という唯一の支持はオンチェーン検証で崩壊。funder[0x2c8b67]はAave49回/1inch20回/HL Bridge/Lido等の公共インフラのみと取引するwstETH利回り運用のDeFiパワーユーザーで、資金トレイルは公然と追跡可能。唯一のネットワーク的紐帯はMonad公開エアドロップDistributor[0xdf7479](約10,768宛先=cluster-A、協調否定済)への共通受領のみ=資金共有≠協調。身元・ENS・entityなし、ラベルは汎用High Activityのみ。デフォルトの懐疑姿勢に照らし、明確な情報優位も反復も検証不能を超える積極的根拠も存在せず、無害な順張りトレーダーとして除外が妥当。"
+    }
+  ],
+  "synthesis": {
+    "ranking": [
+      {
+        "address": "0x18cd4597e06b7fe0a8cd33dda499121b3a145a8b",
+        "verdict": "debunked",
+        "confidence": 0.08,
+        "recommended_position": "除外/低優先(prior likely-insider 0.62 から最大幅の降格)",
+        "one_line": "要監視の核だが、反復証拠ゼロ・先行はFeb上昇の2日集中で同一hash二重計上=実質N=1、唯一の支持だったMonad資金源は公開エアドロップ(約1.08万宛先)で否定済み。likely-insiderの格に値せず降格が妥当。"
+      },
+      {
+        "address": "0xefcace57934a753d66c48a31b880ba806d4c0869",
+        "verdict": "debunked",
+        "confidence": 0.08,
+        "recommended_position": "除外/低優先",
+        "one_line": "形式上の独立反復(medium rt=3)が唯一の弱ポジ材料だがstrictでN=1に崩壊、cluster-A協調説の根拠Monad資金源は公開エアドロップで否定。$2.95Mは監査不能の集計値。"
+      },
+      {
+        "address": "0x74da055d4ccf9dca3f15789c603e1a88a1d2d81f",
+        "verdict": "debunked",
+        "confidence": 0.08,
+        "recommended_position": "除外/低優先",
+        "one_line": "$13.4M先行は単一2月BTCボラepisodeの同一hash重複水増し、lead_unique全tier=0、しかも取引停止(01-30)後の02-05先行という誤結合の内部矛盾を抱えデータ品質も最弱。残る懸念は8日$957kの益規模のみ。"
+      },
+      {
+        "address": "0x10b6f072fabe21bc72ffd77ff5d4414e6cef2980",
+        "verdict": "debunked",
+        "confidence": 0.08,
+        "recommended_position": "除外/低優先",
+        "one_line": "rt=0/lead_unique=0が全tierで成立=検証不能ではなく明確に不在。win1.0は$858/日との矛盾でアーティファクト確定、資金源はMonadエアドロップ+Nexo由来CEX中継ハブ。"
+      },
+      {
+        "address": "0x0a7097d919b7421ecc03aed3aac68a13e7ef1f46",
+        "verdict": "debunked",
+        "confidence": 0.08,
+        "recommended_position": "除外/低優先",
+        "one_line": "loose rt=6のうち3件が2026-06-02の三市場同時shortの三重計上=実質独立2episode、自己供給funder@kekは勝率0.38の負けグラインダーで情報源たり得ず。dir0.67は基準率の長期露出で説明可。"
+      },
+      {
+        "address": "0xbcc7fd5f27cba04dca862b94509133c453dde764",
+        "verdict": "debunked",
+        "confidence": 0.06,
+        "recommended_position": "除外/低優先",
+        "one_line": "先行はETH+4.35%の36分前1件のみ=同一約定分割のN=1、lead_unique全tier=0、資金源はdeBridge公共ブリッジ着金1件。コインフリップ精度で情報優位の痕跡なし。"
+      },
+      {
+        "address": "0x0c349d9b92fbd172bbb5a17a9db0a673a6a10ad3",
+        "verdict": "debunked",
+        "confidence": 0.05,
+        "recommended_position": "除外/低優先",
+        "one_line": "dir0.526・win0.356で方向優位なく勝率5割割れ、cluster-Aにすら属さずfirst funderはOrbiter公共ブリッジ1件。当初の逆張りロング先行シグナルもlead_unique=0で消滅。"
+      },
+      {
+        "address": "0xa351db10472a07059ea099e0581444e568bff894",
+        "verdict": "debunked",
+        "confidence": 0.05,
+        "recommended_position": "除外/低優先",
+        "one_line": "dir0.5005の純粋コインフリップ・全tier先行0件でN=0、資金源はAcross公共ブリッジ、共有Monad資金源は公開エアドロップと判明し協調明確否定。MM/ルーティング系プロファイル。"
+      },
+      {
+        "address": "0x906d31b2ee92c4bc720232112274a0e1ffb0ad6e",
+        "verdict": "debunked",
+        "confidence": 0.05,
+        "recommended_position": "除外/低優先",
+        "one_line": "win1.0とdir0.62の乖離0.38が塩漬け選択バイアスを露呈、唯一の先行逸話は同時刻同方向2フィル=N=1、funderはGas.zip公共ソルバー(0x18cd45と共有=非協調の証)。"
+      },
+      {
+        "address": "0x6f7d75c18e8ca7f486eb4d2690abf7b329087062",
+        "verdict": "debunked",
+        "confidence": 0.05,
+        "recommended_position": "除外/低優先",
+        "one_line": "win0.90とdir0.564の乖離は順張り利確の署名、funderはAave/1inch/Lido利用のwstETH利回り運用DeFiユーザーで足は公然追跡可。資金トレイル健全で情報優位ゼロ。"
+      }
+    ],
+    "keep_insider": [],
+    "downgrades": [
+      "0x18cd4597e06b7fe0a8cd33dda499121b3a145a8b",
+      "0xefcace57934a753d66c48a31b880ba806d4c0869",
+      "0xbcc7fd5f27cba04dca862b94509133c453dde764"
+    ],
+    "headline": [
+      "10件全件が3レンズ独立検証でdebunkedに収束。本物のインサイダー(反復ある明確な情報優位)は1件も検出されず、keep_insiderは空。",
+      "中心案件 0x18cd4597 はprior likely-insider(0.62)から最大幅の降格対象。反復証拠は全tierゼロ、先行はFeb上昇2日への集中・同一txハッシュ二重計上で実質N=1、唯一の支持だったMonad first-funderはそれ自体が公開エアドロップ(約1.08万宛先)でcluster-A否定の核心。要監視の格に値しない。",
+      "cluster-A『同一Monad資金源=協調』仮説の全面崩壊が最重要構造発見。Distributor 0xdf7479 は単日約10,768アドレスへ1MON配布の公開エアドロップ/フォーセットで、これを支持根拠としていた0x18cd45/0xefcace/0x10b6f072/0xa351db10/0x6f7d75c が連鎖的に無害化。資金共有≠協調。",
+      "win_rate≒1.0/0.9 と dir_accuracy≒0.5〜0.62 の系統的乖離が複数アドレスに共通=勝ちのみ決済+含み損塩漬けの選択バイアスによる計測アーティファクト。完璧勝率はインサイダーの証拠ではなく順張り利確の署名。",
+      "event_lead_notional の大きさ($13.4M/$2.95M等)は同一約定の分割・同一hash重複計上による水増し集計で、監査可能な個別建玉に裏付けがない。絶対額に騙されず lead_unique_events で評価すべき(全件で実効0〜1)。",
+      "データ品質の懸念: 0x74da055d は取引停止(2026-01-30)後の2026-02-05に先行が誤結合される内部矛盾を抱え、結合ロジック自体の信頼性に注意が必要。"
+    ],
+    "method_note": "本再精査は提供済み個別判定JSONの統合であり追加オンチェーン照会は行っていない。根本的限界は3つ。(1)HLの約定保持間引きにより roundtrip=null が頻出するが、これは『反復あり』でも『情報優位』でもなく単なる検証不能で、降格にしか使えない(支持に化かしてはならない)——よって『反復ある真のインサイダー』が存在しても本データでは検出できない偽陰性リスクが残る。(2)lead_unique_events は窓(strict 6h/$100k 〜 loose)依存で、looseでの先行はN=1や同一相関クラッシュ(三市場同時short)・同一txハッシュの重複に容易に化け、独立反復の判定が窓設定に過敏。(3)dir_accuracy/win_rate は基準率(長期×大口高頻度)で偶発先行を生むため単体では情報優位を分離できず、PnL/日(例 $130〜2,480/日)との整合チェックが必須だった。総じて『無害に説明しきれる=debunked』は妥当だが、検証不能を黒にもできない非対称性ゆえ confidence は0でなく0.05〜0.08に留め、cluster-Aの公開エアドロップ性(宛先数・配布履歴)が結論の要石になっている点が単一依存リスク。"
+  }
+}
