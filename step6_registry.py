@@ -260,8 +260,9 @@ def render_html(reg, out="registry.html",
         note_html = ""
         if note_jp:
             note_html = "<div class='notejp'>" + esc(note_jp).replace("\n", "<br>") + "</div>"
+        rowcls = "inact" if e.get("active14") is False else ""
         rows += f"""
-<tr data-tags="{data_tags}">
+<tr data-tags="{data_tags}" class="{rowcls}">
   <td><span class="pos" style="--c:{color}">{esc(e['position'])}</span></td>
   <td class="lik">{liks}</td>
   <td><code>{esc(a[:16])}…</code><div class="lnk"><a href="{HL_ADDR.format(a=a)}" target="_blank">HL</a> <a href="{NANSEN.format(a=a)}" target="_blank">N</a></div></td>
@@ -342,6 +343,8 @@ th{{background:#10151c;position:sticky;top:0;font-size:11px}}
 code{{background:#0b0f14;padding:1px 4px;border-radius:4px;font-size:11px}}
 .lnk a{{color:#4ea1ff;text-decoration:none;font-size:10px;margin-right:4px}}
 .muted{{color:#8b949e}} .seen{{font-size:11px}}
+tr.inact td{{background:#1c1410}}  /* 直近14日 取引なし＝薄い琥珀の地色 */
+tr.inact td:first-child{{box-shadow:inset 3px 0 #6b5535}}
 .verdict{{font-size:11px;max-width:360px}}
 .spark{{font-size:10px;margin-top:3px}}
 .nansen{{font-size:11px;margin-top:4px;padding:3px 6px;background:#16142a;border-left:2px solid #7c5cff;border-radius:4px}}
