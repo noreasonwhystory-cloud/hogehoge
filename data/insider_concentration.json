@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-06-17T20:47:35.061067+00:00",
+  "generated_at": "2026-06-17T22:49:15.212071+00:00",
   "wallets": [
     {
       "address": "0xefcace57934a753d66c48a31b880ba806d4c0869",
-      "n_trades": 190,
+      "n_trades": 192,
       "n_wins": 87,
       "total_realized": 84383,
       "total_win": 245185,
@@ -11,9 +11,9 @@
       "top3_share": 0.438,
       "top5_share": 0.519,
       "net_efficiency": 0.344,
-      "mean_top_perfect": 0.674,
-      "max_top_perfect": 0.941,
-      "mean_top_fwd": 0.1479,
+      "mean_top_perfect": 0.131,
+      "max_top_perfect": 0.199,
+      "mean_top_fwd": 0.0378,
       "top_trades": [
         {
           "coin": "ETH",
@@ -21,9 +21,9 @@
           "realized": 47028,
           "entry_px": 2218.4206,
           "open_at_end": false,
-          "perfect": 0.941,
-          "entry_pctile": 0.941,
-          "fwd_favorable": 0.3219,
+          "perfect": 0.126,
+          "entry_pctile": 0.126,
+          "fwd_favorable": 0.0258,
           "event_date": "2026-05-15 16:46"
         },
         {
@@ -32,9 +32,9 @@
           "realized": 35820,
           "entry_px": 65912.0,
           "open_at_end": false,
-          "perfect": 0.838,
-          "entry_pctile": 0.838,
-          "fwd_favorable": 0.1033,
+          "perfect": 0.199,
+          "entry_pctile": 0.199,
+          "fwd_favorable": 0.0692,
           "event_date": "2026-06-03 17:51"
         },
         {
@@ -43,8 +43,8 @@
           "realized": 24483,
           "entry_px": 1815.922,
           "open_at_end": false,
-          "perfect": 0.244,
-          "entry_pctile": 0.756,
+          "perfect": 0.068,
+          "entry_pctile": 0.932,
           "fwd_favorable": 0.0185,
           "event_date": "2026-06-15 14:46"
         },
@@ -76,9 +76,9 @@
       "top3_share": 0.55,
       "top5_share": 0.682,
       "net_efficiency": 0.657,
-      "mean_top_perfect": 0.82,
-      "max_top_perfect": 0.977,
-      "mean_top_fwd": 0.1051,
+      "mean_top_perfect": 0.481,
+      "max_top_perfect": 0.878,
+      "mean_top_fwd": 0.0384,
       "top_trades": [
         {
           "coin": "BTC",
@@ -86,9 +86,9 @@
           "realized": 113825,
           "entry_px": 75400.0306,
           "open_at_end": false,
-          "perfect": 0.773,
-          "entry_pctile": 0.773,
-          "fwd_favorable": 0.1199,
+          "perfect": 0.441,
+          "entry_pctile": 0.441,
+          "fwd_favorable": -0.0002,
           "event_date": "2026-05-23 17:07"
         },
         {
@@ -97,9 +97,9 @@
           "realized": 94901,
           "entry_px": 78709.9201,
           "open_at_end": false,
-          "perfect": 0.977,
-          "entry_pctile": 0.977,
-          "fwd_favorable": 0.2377,
+          "perfect": 0.878,
+          "entry_pctile": 0.878,
+          "fwd_favorable": 0.0738,
           "event_date": "2026-02-02 23:02"
         },
         {
@@ -108,8 +108,8 @@
           "realized": 91283,
           "entry_px": 63360.0,
           "open_at_end": false,
-          "perfect": 0.756,
-          "entry_pctile": 0.756,
+          "perfect": 0.667,
+          "entry_pctile": 0.667,
           "fwd_favorable": 0.041,
           "event_date": "2026-06-08 20:47"
         },
@@ -119,8 +119,8 @@
           "realized": 46406,
           "entry_px": 66099.1103,
           "open_at_end": false,
-          "perfect": 0.808,
-          "entry_pctile": 0.808,
+          "perfect": 0.275,
+          "entry_pctile": 0.275,
           "fwd_favorable": 0.0718,
           "event_date": "2026-06-03 17:44"
         },
@@ -130,9 +130,9 @@
           "realized": 25390,
           "entry_px": 90576.0,
           "open_at_end": false,
-          "perfect": 0.788,
-          "entry_pctile": 0.788,
-          "fwd_favorable": 0.0552,
+          "perfect": 0.146,
+          "entry_pctile": 0.146,
+          "fwd_favorable": 0.0054,
           "event_date": "2025-11-29 13:16"
         }
       ],
@@ -149,9 +149,9 @@
       "top3_share": 1.0,
       "top5_share": 1.0,
       "net_efficiency": 0.925,
-      "mean_top_perfect": 0.659,
-      "max_top_perfect": 0.755,
-      "mean_top_fwd": 0.1267,
+      "mean_top_perfect": 0.004,
+      "max_top_perfect": 0.008,
+      "mean_top_fwd": -0.0221,
       "top_trades": [
         {
           "coin": "BTC",
@@ -159,9 +159,9 @@
           "realized": 425775,
           "entry_px": 77111.2403,
           "open_at_end": false,
-          "perfect": 0.755,
-          "entry_pctile": 0.755,
-          "fwd_favorable": 0.195,
+          "perfect": 0.0,
+          "entry_pctile": 0.0,
+          "fwd_favorable": -0.0303,
           "event_date": "2026-05-12 14:31"
         },
         {
@@ -170,9 +170,9 @@
           "realized": 27114,
           "entry_px": 68924.1667,
           "open_at_end": false,
-          "perfect": 0.564,
-          "entry_pctile": 0.564,
-          "fwd_favorable": 0.0583,
+          "perfect": 0.008,
+          "entry_pctile": 0.008,
+          "fwd_favorable": -0.014,
           "event_date": "2026-03-24 20:42"
         }
       ],
@@ -235,79 +235,6 @@
       "labels": []
     },
     {
-      "address": "0x4d3980ac9d84fc34adcd025ee2337786846343c4",
-      "n_trades": 10,
-      "n_wins": 8,
-      "total_realized": 17537,
-      "total_win": 18459,
-      "top1_share": 0.474,
-      "top3_share": 0.935,
-      "top5_share": 0.974,
-      "net_efficiency": 0.95,
-      "mean_top_perfect": 0.687,
-      "max_top_perfect": 0.892,
-      "mean_top_fwd": 0.0212,
-      "top_trades": [
-        {
-          "coin": "BTC",
-          "dir": "long",
-          "realized": 8753,
-          "entry_px": 61139.3684,
-          "open_at_end": false,
-          "perfect": 0.652,
-          "entry_pctile": 0.348,
-          "fwd_favorable": 0.0125,
-          "event_date": "2026-06-10 10:05"
-        },
-        {
-          "coin": "ETH",
-          "dir": "short",
-          "realized": 5461,
-          "entry_px": 2126.3136,
-          "open_at_end": false,
-          "perfect": 0.815,
-          "entry_pctile": 0.815,
-          "fwd_favorable": 0.0554,
-          "event_date": "2026-05-21 07:44"
-        },
-        {
-          "coin": "ETH",
-          "dir": "short",
-          "realized": 3037,
-          "entry_px": 1630.6754,
-          "open_at_end": false,
-          "perfect": 0.691,
-          "entry_pctile": 0.691,
-          "fwd_favorable": 0.0233,
-          "event_date": "2026-06-07 10:03"
-        },
-        {
-          "coin": "BTC",
-          "dir": "short",
-          "realized": 420,
-          "entry_px": 62772.0,
-          "open_at_end": false,
-          "perfect": 0.386,
-          "entry_pctile": 0.386,
-          "fwd_favorable": 0.0047,
-          "event_date": "2026-06-11 12:24"
-        },
-        {
-          "coin": "ETH",
-          "dir": "long",
-          "realized": 318,
-          "entry_px": 1660.6,
-          "open_at_end": false,
-          "perfect": 0.892,
-          "entry_pctile": 0.108,
-          "fwd_favorable": 0.01,
-          "event_date": "2026-06-12 23:02"
-        }
-      ],
-      "position": "プロトレーダー(未精査)",
-      "labels": []
-    },
-    {
       "address": "0xa72dc2d42398e54634fc28e6769f8ce3ae011807",
       "n_trades": 10,
       "n_wins": 9,
@@ -317,9 +244,9 @@
       "top3_share": 0.591,
       "top5_share": 0.832,
       "net_efficiency": 0.846,
-      "mean_top_perfect": 0.549,
-      "max_top_perfect": 0.922,
-      "mean_top_fwd": 0.0266,
+      "mean_top_perfect": 0.461,
+      "max_top_perfect": 0.952,
+      "mean_top_fwd": 0.0369,
       "top_trades": [
         {
           "coin": "BTC",
@@ -327,9 +254,9 @@
           "realized": 7378,
           "entry_px": 67444.9441,
           "open_at_end": false,
-          "perfect": 0.474,
-          "entry_pctile": 0.474,
-          "fwd_favorable": 0.0183,
+          "perfect": 0.204,
+          "entry_pctile": 0.204,
+          "fwd_favorable": 0.0332,
           "event_date": "2026-06-02 19:51"
         },
         {
@@ -338,9 +265,9 @@
           "realized": 5193,
           "entry_px": 59348.688,
           "open_at_end": false,
-          "perfect": 0.922,
-          "entry_pctile": 0.078,
-          "fwd_favorable": 0.0497,
+          "perfect": 0.952,
+          "entry_pctile": 0.048,
+          "fwd_favorable": 0.0446,
           "event_date": "2026-06-05 18:52"
         },
         {
@@ -349,9 +276,9 @@
           "realized": 4362,
           "entry_px": 61858.8434,
           "open_at_end": false,
-          "perfect": 0.708,
-          "entry_pctile": 0.292,
-          "fwd_favorable": 0.0299,
+          "perfect": 0.773,
+          "entry_pctile": 0.227,
+          "fwd_favorable": 0.0226,
           "event_date": "2026-06-05 06:20"
         },
         {
@@ -360,9 +287,9 @@
           "realized": 4058,
           "entry_px": 63040.2763,
           "open_at_end": false,
-          "perfect": 0.375,
-          "entry_pctile": 0.375,
-          "fwd_favorable": 0.0268,
+          "perfect": 0.276,
+          "entry_pctile": 0.276,
+          "fwd_favorable": 0.014,
           "event_date": "2026-06-04 02:20"
         },
         {
@@ -371,9 +298,9 @@
           "realized": 2827,
           "entry_px": 65977.1112,
           "open_at_end": false,
-          "perfect": 0.265,
-          "entry_pctile": 0.265,
-          "fwd_favorable": 0.0085,
+          "perfect": 0.1,
+          "entry_pctile": 0.1,
+          "fwd_favorable": 0.0701,
           "event_date": "2026-06-03 03:54"
         }
       ],
@@ -382,72 +309,72 @@
     },
     {
       "address": "0x8463d6ffcbfb56bf20ab2e1111f9a0e8359533f2",
-      "n_trades": 30,
-      "n_wins": 17,
-      "total_realized": 61045,
-      "total_win": 151426,
-      "top1_share": 0.396,
-      "top3_share": 0.621,
-      "top5_share": 0.733,
-      "net_efficiency": 0.403,
-      "mean_top_perfect": 0.775,
-      "max_top_perfect": 0.968,
-      "mean_top_fwd": 0.0773,
+      "n_trades": 60,
+      "n_wins": 30,
+      "total_realized": 145656,
+      "total_win": 481572,
+      "top1_share": 0.322,
+      "top3_share": 0.53,
+      "top5_share": 0.638,
+      "net_efficiency": 0.302,
+      "mean_top_perfect": 0.233,
+      "max_top_perfect": 0.911,
+      "mean_top_fwd": 0.0101,
       "top_trades": [
+        {
+          "coin": "ETH",
+          "dir": "short",
+          "realized": 154853,
+          "entry_px": 1907.2017,
+          "open_at_end": false,
+          "perfect": 0.0,
+          "entry_pctile": 0.0,
+          "fwd_favorable": -0.0311,
+          "event_date": "2026-05-27 08:01"
+        },
         {
           "coin": "ETH",
           "dir": "long",
           "realized": 59972,
           "entry_px": 3120.0335,
           "open_at_end": false,
-          "perfect": 0.573,
-          "entry_pctile": 0.427,
-          "fwd_favorable": 0.0908,
+          "perfect": 0.0,
+          "entry_pctile": 1.0,
+          "fwd_favorable": -0.0357,
           "event_date": "2025-12-29 15:36"
         },
         {
-          "coin": "BTC",
-          "dir": "long",
-          "realized": 22657,
-          "entry_px": 86209.4,
-          "open_at_end": false,
-          "perfect": 0.769,
-          "entry_pctile": 0.231,
-          "fwd_favorable": 0.0419,
-          "event_date": "2025-12-15 18:27"
-        },
-        {
-          "coin": "SOL",
-          "dir": "long",
-          "realized": 11347,
-          "entry_px": 125.976,
-          "open_at_end": false,
-          "perfect": 0.808,
-          "entry_pctile": 0.192,
-          "fwd_favorable": 0.1478,
-          "event_date": "2025-11-21 07:34"
-        },
-        {
           "coin": "ETH",
-          "dir": "long",
-          "realized": 9847,
-          "entry_px": 3166.8,
+          "dir": "short",
+          "realized": 40579,
+          "entry_px": 1631.4912,
           "open_at_end": false,
-          "perfect": 0.756,
-          "entry_pctile": 0.244,
-          "fwd_favorable": 0.073,
-          "event_date": "2025-12-09 15:03"
+          "perfect": 0.049,
+          "entry_pctile": 0.049,
+          "fwd_favorable": 0.0779,
+          "event_date": "2026-06-05 08:08"
         },
         {
           "coin": "BTC",
-          "dir": "long",
-          "realized": 7200,
-          "entry_px": 91415.0,
+          "dir": "short",
+          "realized": 27349,
+          "entry_px": 69610.443,
           "open_at_end": false,
-          "perfect": 0.968,
-          "entry_pctile": 0.032,
-          "fwd_favorable": 0.033,
-          "event_date": "2026-01-06 18:00"
+          "perfect": 0.206,
+          "entry_pctile": 0.206,
+          "fwd_favorable": 0.0194,
+          "event_date": "2026-02-09 01:27"
+        },
+        {
+          "coin": "BTC",
+          "dir": "short",
+          "realized": 24350,
+          "entry_px": 68105.1534,
+          "open_at_end": false,
+          "perfect": 0.911,
+          "entry_pctile": 0.911,
+          "fwd_favorable": 0.0198,
+          "event_date": "2026-02-13 09:00"
         }
       ],
       "position": "プロトレーダー(本物)",
@@ -464,35 +391,24 @@
       "address": "0x72a7837428320ec3c0c072b0c0fc192d6df0c83f",
       "n_trades": 5,
       "n_wins": 4,
-      "total_realized": 20942,
-      "total_win": 48888,
-      "top1_share": 0.778,
-      "top3_share": 0.955,
+      "total_realized": -16880,
+      "total_win": 11066,
+      "top1_share": 0.541,
+      "top3_share": 0.981,
       "top5_share": 1.0,
-      "net_efficiency": 0.428,
-      "mean_top_perfect": 0.58,
-      "max_top_perfect": 0.725,
-      "mean_top_fwd": 0.0292,
+      "net_efficiency": -1.525,
+      "mean_top_perfect": 0.802,
+      "max_top_perfect": 0.912,
+      "mean_top_fwd": 0.014,
       "top_trades": [
-        {
-          "coin": "BTC",
-          "dir": "long",
-          "realized": 38033,
-          "entry_px": 63405.4003,
-          "open_at_end": true,
-          "perfect": 0.474,
-          "entry_pctile": 0.526,
-          "fwd_favorable": 0.0612,
-          "event_date": "2026-06-05 14:27"
-        },
         {
           "coin": "BTC",
           "dir": "short",
           "realized": 5984,
           "entry_px": 71805.901,
           "open_at_end": false,
-          "perfect": 0.426,
-          "entry_pctile": 0.426,
+          "perfect": 0.886,
+          "entry_pctile": 0.886,
           "fwd_favorable": 0.0213,
           "event_date": "2026-03-13 08:46"
         },
@@ -504,7 +420,7 @@
           "open_at_end": false,
           "perfect": 0.695,
           "entry_pctile": 0.695,
-          "fwd_favorable": 0.0231,
+          "fwd_favorable": 0.0201,
           "event_date": "2026-03-11 17:00"
         },
         {
@@ -513,10 +429,21 @@
           "realized": 2216,
           "entry_px": 71626.5598,
           "open_at_end": false,
-          "perfect": 0.725,
-          "entry_pctile": 0.725,
-          "fwd_favorable": 0.0112,
+          "perfect": 0.912,
+          "entry_pctile": 0.912,
+          "fwd_favorable": 0.0059,
           "event_date": "2026-03-15 06:14"
+        },
+        {
+          "coin": "BTC",
+          "dir": "long",
+          "realized": 211,
+          "entry_px": 61466.0723,
+          "open_at_end": true,
+          "perfect": 0.715,
+          "entry_pctile": 0.285,
+          "fwd_favorable": 0.0087,
+          "event_date": "2026-06-05 14:27"
         }
       ],
       "position": "プロトレーダー(本物)",
@@ -525,195 +452,18 @@
       ]
     },
     {
-      "address": "0xdd08886cb92c689c7d89c88f048028293296ead1",
-      "n_trades": 43,
-      "n_wins": 21,
-      "total_realized": -4616,
-      "total_win": 5429,
-      "top1_share": 0.333,
-      "top3_share": 0.701,
-      "top5_share": 0.79,
-      "net_efficiency": -0.85,
-      "mean_top_perfect": 0.871,
-      "max_top_perfect": 0.933,
-      "mean_top_fwd": 0.031,
-      "top_trades": [
-        {
-          "coin": "BTC",
-          "dir": "long",
-          "realized": 1807,
-          "entry_px": 86616.7679,
-          "open_at_end": false,
-          "perfect": 0.929,
-          "entry_pctile": 0.071,
-          "fwd_favorable": 0.0325,
-          "event_date": "2025-12-23 14:55"
-        },
-        {
-          "coin": "BTC",
-          "dir": "short",
-          "realized": 1644,
-          "entry_px": 93952.0565,
-          "open_at_end": false,
-          "perfect": 0.83,
-          "entry_pctile": 0.83,
-          "fwd_favorable": 0.0256,
-          "event_date": "2025-12-10 19:41"
-        },
-        {
-          "coin": "BTC",
-          "dir": "long",
-          "realized": 357,
-          "entry_px": 85084.3438,
-          "open_at_end": false,
-          "perfect": 0.832,
-          "entry_pctile": 0.168,
-          "fwd_favorable": 0.0401,
-          "event_date": "2025-12-18 21:08"
-        },
-        {
-          "coin": "BTC",
-          "dir": "long",
-          "realized": 264,
-          "entry_px": 91829.7655,
-          "open_at_end": false,
-          "perfect": 0.829,
-          "entry_pctile": 0.171,
-          "fwd_favorable": 0.0151,
-          "event_date": "2025-12-10 14:05"
-        },
-        {
-          "coin": "BTC",
-          "dir": "long",
-          "realized": 215,
-          "entry_px": 86307.4861,
-          "open_at_end": false,
-          "perfect": 0.933,
-          "entry_pctile": 0.067,
-          "fwd_favorable": 0.0416,
-          "event_date": "2025-11-25 19:35"
-        }
-      ],
-      "position": "プロトレーダー(未精査)",
-      "labels": []
-    },
-    {
-      "address": "0x36eaaca5159a1dcbe60aaad12faaadb0fce6c58b",
-      "n_trades": 16,
-      "n_wins": 7,
-      "total_realized": 429,
-      "total_win": 2683,
-      "top1_share": 0.356,
-      "top3_share": 0.808,
-      "top5_share": 0.948,
-      "net_efficiency": 0.16,
-      "mean_top_perfect": 0.46,
-      "max_top_perfect": 0.61,
-      "mean_top_fwd": 0.0186,
-      "top_trades": [
-        {
-          "coin": "BTC",
-          "dir": "short",
-          "realized": 955,
-          "entry_px": 71724.4601,
-          "open_at_end": false,
-          "perfect": 0.403,
-          "entry_pctile": 0.403,
-          "fwd_favorable": 0.0202,
-          "event_date": "2026-03-13 11:16"
-        },
-        {
-          "coin": "ETH",
-          "dir": "long",
-          "realized": 892,
-          "entry_px": 2305.5617,
-          "open_at_end": false,
-          "perfect": 0.603,
-          "entry_pctile": 0.397,
-          "fwd_favorable": 0.0339,
-          "event_date": "2026-03-16 15:20"
-        },
-        {
-          "coin": "SOL",
-          "dir": "short",
-          "realized": 322,
-          "entry_px": 90.1215,
-          "open_at_end": false,
-          "perfect": 0.235,
-          "entry_pctile": 0.235,
-          "fwd_favorable": 0.0145,
-          "event_date": "2026-03-18 14:06"
-        },
-        {
-          "coin": "BTC",
-          "dir": "long",
-          "realized": 232,
-          "entry_px": 75179.0,
-          "open_at_end": false,
-          "perfect": 0.448,
-          "entry_pctile": 0.552,
-          "fwd_favorable": 0.0105,
-          "event_date": "2026-03-17 03:02"
-        },
-        {
-          "coin": "ETH",
-          "dir": "long",
-          "realized": 143,
-          "entry_px": 2323.7077,
-          "open_at_end": false,
-          "perfect": 0.61,
-          "entry_pctile": 0.39,
-          "fwd_favorable": 0.0141,
-          "event_date": "2026-03-17 16:11"
-        }
-      ],
-      "position": "プロトレーダー(未精査)",
-      "labels": []
-    },
-    {
-      "address": "0x0c349d9b92fbd172bbb5a17a9db0a673a6a10ad3",
-      "n_trades": 1,
-      "n_wins": 1,
-      "total_realized": 20030,
-      "total_win": 20030,
-      "top1_share": 1.0,
-      "top3_share": 1.0,
-      "top5_share": 1.0,
-      "net_efficiency": 1.0,
-      "mean_top_perfect": 0.961,
-      "max_top_perfect": 0.961,
-      "mean_top_fwd": 0.0595,
-      "top_trades": [
-        {
-          "coin": "BTC",
-          "dir": "long",
-          "realized": 20030,
-          "entry_px": 70698.0,
-          "open_at_end": false,
-          "perfect": 0.961,
-          "entry_pctile": 0.039,
-          "fwd_favorable": 0.0595,
-          "event_date": "2026-04-13 07:32"
-        }
-      ],
-      "position": "除外/低優先",
-      "labels": [
-        "High Activity"
-      ]
-    },
-    {
       "address": "0xeff7fe671d9a7acf86f48994bc5d5161042415b6",
-      "n_trades": 14,
-      "n_wins": 12,
-      "total_realized": 167519,
-      "total_win": 167552,
-      "top1_share": 0.433,
-      "top3_share": 0.912,
-      "top5_share": 0.988,
-      "net_efficiency": 1.0,
-      "mean_top_perfect": 0.545,
-      "max_top_perfect": 0.709,
-      "mean_top_fwd": 0.0461,
+      "n_trades": 29,
+      "n_wins": 25,
+      "total_realized": 226443,
+      "total_win": 229952,
+      "top1_share": 0.315,
+      "top3_share": 0.739,
+      "top5_share": 0.843,
+      "net_efficiency": 0.985,
+      "mean_top_perfect": 0.279,
+      "max_top_perfect": 0.743,
+      "mean_top_fwd": 0.0046,
       "top_trades": [
         {
           "coin": "BTC",
@@ -721,9 +471,9 @@
           "realized": 72534,
           "entry_px": 73679.1486,
           "open_at_end": false,
-          "perfect": 0.422,
-          "entry_pctile": 0.422,
-          "fwd_favorable": 0.0544,
+          "perfect": 0.0,
+          "entry_pctile": 0.0,
+          "fwd_favorable": -0.0532,
           "event_date": "2026-05-16 06:21"
         },
         {
@@ -732,10 +482,21 @@
           "realized": 61445,
           "entry_px": 66033.8655,
           "open_at_end": false,
-          "perfect": 0.484,
-          "entry_pctile": 0.484,
-          "fwd_favorable": 0.0709,
+          "perfect": 0.0,
+          "entry_pctile": 0.0,
+          "fwd_favorable": 0.0093,
           "event_date": "2026-06-02 09:02"
+        },
+        {
+          "coin": "BTC",
+          "dir": "long",
+          "realized": 35870,
+          "entry_px": 62488.7825,
+          "open_at_end": false,
+          "perfect": 0.177,
+          "entry_pctile": 0.823,
+          "fwd_favorable": 0.0278,
+          "event_date": "2026-06-07 13:14"
         },
         {
           "coin": "BTC",
@@ -743,32 +504,21 @@
           "realized": 18767,
           "entry_px": 62913.552,
           "open_at_end": false,
-          "perfect": 0.709,
-          "entry_pctile": 0.291,
-          "fwd_favorable": 0.0292,
+          "perfect": 0.743,
+          "entry_pctile": 0.257,
+          "fwd_favorable": 0.0246,
           "event_date": "2026-06-04 08:35"
         },
         {
           "coin": "BTC",
           "dir": "short",
-          "realized": 9275,
-          "entry_px": 61974.6947,
-          "open_at_end": true,
-          "perfect": 0.535,
-          "entry_pctile": 0.535,
-          "fwd_favorable": 0.0463,
-          "event_date": "2026-06-04 17:56"
-        },
-        {
-          "coin": "BTC",
-          "dir": "short",
-          "realized": 3501,
-          "entry_px": 81024.4303,
+          "realized": 5156,
+          "entry_px": 61074.258,
           "open_at_end": false,
-          "perfect": 0.577,
-          "entry_pctile": 0.577,
-          "fwd_favorable": 0.0298,
-          "event_date": "2026-05-05 11:48"
+          "perfect": 0.475,
+          "entry_pctile": 0.475,
+          "fwd_favorable": 0.0147,
+          "event_date": "2026-06-06 07:19"
         }
       ],
       "position": "プロトレーダー(未精査)",
@@ -776,60 +526,38 @@
     },
     {
       "address": "0xa351db10472a07059ea099e0581444e568bff894",
-      "n_trades": 10,
-      "n_wins": 7,
-      "total_realized": 744686,
-      "total_win": 956228,
-      "top1_share": 0.495,
-      "top3_share": 0.908,
-      "top5_share": 0.985,
-      "net_efficiency": 0.779,
-      "mean_top_perfect": 0.507,
-      "max_top_perfect": 0.607,
-      "mean_top_fwd": 0.1088,
+      "n_trades": 4,
+      "n_wins": 3,
+      "total_realized": 110076,
+      "total_win": 110076,
+      "top1_share": 0.516,
+      "top3_share": 1.0,
+      "top5_share": 1.0,
+      "net_efficiency": 1.0,
+      "mean_top_perfect": 0.0,
+      "max_top_perfect": 0.0,
+      "mean_top_fwd": 0.0044,
       "top_trades": [
         {
           "coin": "ETH",
           "dir": "short",
-          "realized": 473716,
-          "entry_px": 1821.2393,
-          "open_at_end": false,
-          "perfect": 0.584,
-          "entry_pctile": 0.584,
-          "fwd_favorable": 0.174,
-          "event_date": "2026-05-28 03:51"
-        },
-        {
-          "coin": "BTC",
-          "dir": "long",
-          "realized": 253389,
-          "entry_px": 65982.1138,
-          "open_at_end": false,
-          "perfect": 0.56,
-          "entry_pctile": 0.44,
-          "fwd_favorable": 0.1328,
-          "event_date": "2026-05-28 03:22"
-        },
-        {
-          "coin": "SOL",
-          "dir": "short",
-          "realized": 141379,
-          "entry_px": 74.2104,
-          "open_at_end": false,
-          "perfect": 0.607,
-          "entry_pctile": 0.607,
-          "fwd_favorable": 0.1907,
-          "event_date": "2026-05-28 03:48"
+          "realized": 56800,
+          "entry_px": 2047.1833,
+          "open_at_end": true,
+          "perfect": 0.0,
+          "entry_pctile": 0.0,
+          "fwd_favorable": -0.0021,
+          "event_date": "2026-05-26 14:37"
         },
         {
           "coin": "BTC",
           "dir": "short",
-          "realized": 56224,
+          "realized": 36046,
           "entry_px": 75376.6337,
-          "open_at_end": false,
-          "perfect": 0.466,
-          "entry_pctile": 0.466,
-          "fwd_favorable": 0.0311,
+          "open_at_end": true,
+          "perfect": 0.0,
+          "entry_pctile": 0.0,
+          "fwd_favorable": 0.0085,
           "event_date": "2026-05-26 14:57"
         },
         {
@@ -838,9 +566,9 @@
           "realized": 17231,
           "entry_px": 83.3604,
           "open_at_end": false,
-          "perfect": 0.319,
-          "entry_pctile": 0.319,
-          "fwd_favorable": 0.0153,
+          "perfect": 0.0,
+          "entry_pctile": 0.0,
+          "fwd_favorable": 0.0068,
           "event_date": "2026-05-26 14:47"
         }
       ],
@@ -848,71 +576,18 @@
       "labels": []
     },
     {
-      "address": "0x99b1098d9d50aa076f78bd26ab22e6abd3710729",
-      "n_trades": 4,
-      "n_wins": 3,
-      "total_realized": 2194076,
-      "total_win": 2207988,
-      "top1_share": 0.632,
-      "top3_share": 1.0,
-      "top5_share": 1.0,
-      "net_efficiency": 0.994,
-      "mean_top_perfect": 0.67,
-      "max_top_perfect": 0.903,
-      "mean_top_fwd": 0.1632,
-      "top_trades": [
-        {
-          "coin": "ETH",
-          "dir": "short",
-          "realized": 1396051,
-          "entry_px": 2285.2406,
-          "open_at_end": false,
-          "perfect": 0.804,
-          "entry_pctile": 0.804,
-          "fwd_favorable": 0.2488,
-          "event_date": "2026-04-30 07:48"
-        },
-        {
-          "coin": "BTC",
-          "dir": "short",
-          "realized": 806850,
-          "entry_px": 80397.966,
-          "open_at_end": false,
-          "perfect": 0.903,
-          "entry_pctile": 0.903,
-          "fwd_favorable": 0.2369,
-          "event_date": "2026-05-07 06:09"
-        },
-        {
-          "coin": "ETH",
-          "dir": "short",
-          "realized": 5087,
-          "entry_px": 2183.6,
-          "open_at_end": false,
-          "perfect": 0.304,
-          "entry_pctile": 0.304,
-          "fwd_favorable": 0.0038,
-          "event_date": "2026-04-10 07:15"
-        }
-      ],
-      "position": "プロトレーダー(本物)",
-      "labels": [
-        "🤓 Smart HL Perps Trader [0x99b109]"
-      ]
-    },
-    {
       "address": "0x0a7097d919b7421ecc03aed3aac68a13e7ef1f46",
-      "n_trades": 11,
-      "n_wins": 10,
-      "total_realized": 192528,
-      "total_win": 203974,
-      "top1_share": 0.331,
-      "top3_share": 0.772,
-      "top5_share": 0.939,
-      "net_efficiency": 0.944,
-      "mean_top_perfect": 0.589,
-      "max_top_perfect": 0.678,
-      "mean_top_fwd": 0.0429,
+      "n_trades": 113,
+      "n_wins": 44,
+      "total_realized": 81598,
+      "total_win": 495399,
+      "top1_share": 0.136,
+      "top3_share": 0.339,
+      "top5_share": 0.463,
+      "net_efficiency": 0.165,
+      "mean_top_perfect": 0.235,
+      "max_top_perfect": 0.511,
+      "mean_top_fwd": 0.03,
       "top_trades": [
         {
           "coin": "BTC",
@@ -920,9 +595,9 @@
           "realized": 67475,
           "entry_px": 72294.3618,
           "open_at_end": false,
-          "perfect": 0.644,
-          "entry_pctile": 0.644,
-          "fwd_favorable": 0.049,
+          "perfect": 0.019,
+          "entry_pctile": 0.019,
+          "fwd_favorable": 0.0446,
           "event_date": "2026-03-18 12:48"
         },
         {
@@ -931,43 +606,43 @@
           "realized": 65601,
           "entry_px": 2235.7064,
           "open_at_end": false,
-          "perfect": 0.59,
-          "entry_pctile": 0.59,
-          "fwd_favorable": 0.0622,
+          "perfect": 0.007,
+          "entry_pctile": 0.007,
+          "fwd_favorable": 0.048,
           "event_date": "2026-03-18 12:47"
+        },
+        {
+          "coin": "ETH",
+          "dir": "short",
+          "realized": 34910,
+          "entry_px": 2041.5667,
+          "open_at_end": false,
+          "perfect": 0.156,
+          "entry_pctile": 0.156,
+          "fwd_favorable": 0.0378,
+          "event_date": "2026-03-27 09:08"
         },
         {
           "coin": "BTC",
           "dir": "short",
-          "realized": 24395,
+          "realized": 33527,
           "entry_px": 70083.0632,
-          "open_at_end": true,
-          "perfect": 0.597,
-          "entry_pctile": 0.597,
-          "fwd_favorable": 0.027,
+          "open_at_end": false,
+          "perfect": 0.511,
+          "entry_pctile": 0.511,
+          "fwd_favorable": 0.0105,
           "event_date": "2026-03-20 12:49"
         },
         {
           "coin": "ETH",
           "dir": "short",
-          "realized": 18999,
+          "realized": 27894,
           "entry_px": 2135.4479,
-          "open_at_end": true,
-          "perfect": 0.678,
-          "entry_pctile": 0.678,
-          "fwd_favorable": 0.0407,
-          "event_date": "2026-03-20 10:21"
-        },
-        {
-          "coin": "SOL",
-          "dir": "short",
-          "realized": 15074,
-          "entry_px": 90.2123,
           "open_at_end": false,
-          "perfect": 0.435,
-          "entry_pctile": 0.435,
-          "fwd_favorable": 0.0356,
-          "event_date": "2026-03-18 12:49"
+          "perfect": 0.484,
+          "entry_pctile": 0.484,
+          "fwd_favorable": 0.0091,
+          "event_date": "2026-03-20 10:21"
         }
       ],
       "position": "除外/低優先",
@@ -977,14 +652,14 @@
     },
     {
       "address": "0xb123cd952875d8014efc7a9160a7531a5fe8f5ca",
-      "n_trades": 131,
-      "n_wins": 90,
-      "total_realized": -921,
-      "total_win": 8876,
-      "top1_share": 0.119,
-      "top3_share": 0.313,
-      "top5_share": 0.445,
-      "net_efficiency": -0.104,
+      "n_trades": 150,
+      "n_wins": 104,
+      "total_realized": -5568,
+      "total_win": 10817,
+      "top1_share": 0.097,
+      "top3_share": 0.257,
+      "top5_share": 0.365,
+      "net_efficiency": -0.515,
       "mean_top_perfect": null,
       "max_top_perfect": null,
       "mean_top_fwd": null,
@@ -1033,18 +708,201 @@
       ]
     },
     {
+      "address": "0xa4be91acc74feabab71b8878b66b8f5277212520",
+      "n_trades": 3,
+      "n_wins": 3,
+      "total_realized": 524770,
+      "total_win": 524770,
+      "top1_share": 0.827,
+      "top3_share": 1.0,
+      "top5_share": 1.0,
+      "net_efficiency": 1.0,
+      "mean_top_perfect": null,
+      "max_top_perfect": null,
+      "mean_top_fwd": null,
+      "top_trades": [
+        {
+          "coin": "SOL",
+          "dir": "short",
+          "realized": 434008,
+          "entry_px": 146.9968,
+          "open_at_end": true
+        },
+        {
+          "coin": "BTC",
+          "dir": "short",
+          "realized": 59599,
+          "entry_px": 97405.0257,
+          "open_at_end": true
+        },
+        {
+          "coin": "ETH",
+          "dir": "short",
+          "realized": 31163,
+          "entry_px": 3544.9319,
+          "open_at_end": true
+        }
+      ],
+      "position": "💸 出金疑い(要監視)",
+      "labels": [
+        "🤓 Smart HL Perps Trader [0xa4be91]"
+      ]
+    },
+    {
+      "address": "0x9a377ec81c1bd51d31170bf8d7a7b6c5fbaded9b",
+      "n_trades": 142,
+      "n_wins": 104,
+      "total_realized": 282263,
+      "total_win": 491345,
+      "top1_share": 0.134,
+      "top3_share": 0.333,
+      "top5_share": 0.464,
+      "net_efficiency": 0.574,
+      "mean_top_perfect": 0.704,
+      "max_top_perfect": 1.0,
+      "mean_top_fwd": 0.0338,
+      "top_trades": [
+        {
+          "coin": "BTC",
+          "dir": "short",
+          "realized": 65934,
+          "entry_px": 70835.9223,
+          "open_at_end": false,
+          "perfect": 0.71,
+          "entry_pctile": 0.71,
+          "fwd_favorable": 0.0273,
+          "event_date": "2026-03-24 10:10"
+        },
+        {
+          "coin": "BTC",
+          "dir": "short",
+          "realized": 62585,
+          "entry_px": 93176.6028,
+          "open_at_end": false
+        },
+        {
+          "coin": "BTC",
+          "dir": "short",
+          "realized": 35339,
+          "entry_px": 69957.9616,
+          "open_at_end": false,
+          "perfect": 0.256,
+          "entry_pctile": 0.256,
+          "fwd_favorable": 0.0151,
+          "event_date": "2026-03-24 15:46"
+        },
+        {
+          "coin": "BTC",
+          "dir": "long",
+          "realized": 33984,
+          "entry_px": 71804.0,
+          "open_at_end": false,
+          "perfect": 1.0,
+          "entry_pctile": 0.0,
+          "fwd_favorable": 0.0274,
+          "event_date": "2026-04-11 13:13"
+        },
+        {
+          "coin": "BTC",
+          "dir": "long",
+          "realized": 29940,
+          "entry_px": 68370.0,
+          "open_at_end": false,
+          "perfect": 0.85,
+          "entry_pctile": 0.15,
+          "fwd_favorable": 0.0655,
+          "event_date": "2026-04-07 13:02"
+        }
+      ],
+      "position": "プロトレーダー(本物)",
+      "labels": []
+    },
+    {
+      "address": "0x48b1a8f92e403bc9dc7500b9cbcc4cadf35c7ac0",
+      "n_trades": 47,
+      "n_wins": 36,
+      "total_realized": 87129,
+      "total_win": 113420,
+      "top1_share": 0.165,
+      "top3_share": 0.42,
+      "top5_share": 0.549,
+      "net_efficiency": 0.768,
+      "mean_top_perfect": 0.102,
+      "max_top_perfect": 0.511,
+      "mean_top_fwd": 0.0436,
+      "top_trades": [
+        {
+          "coin": "ETH",
+          "dir": "short",
+          "realized": 18765,
+          "entry_px": 1936.2019,
+          "open_at_end": false,
+          "perfect": 0.0,
+          "entry_pctile": 0.0,
+          "fwd_favorable": 0.0618,
+          "event_date": "2026-06-02 09:12"
+        },
+        {
+          "coin": "BTC",
+          "dir": "short",
+          "realized": 16827,
+          "entry_px": 67951.952,
+          "open_at_end": false,
+          "perfect": 0.0,
+          "entry_pctile": 0.0,
+          "fwd_favorable": 0.0373,
+          "event_date": "2026-06-02 11:33"
+        },
+        {
+          "coin": "BTC",
+          "dir": "long",
+          "realized": 12061,
+          "entry_px": 72512.1996,
+          "open_at_end": false,
+          "perfect": 0.0,
+          "entry_pctile": 1.0,
+          "fwd_favorable": 0.0481,
+          "event_date": "2026-04-13 15:47"
+        },
+        {
+          "coin": "BTC",
+          "dir": "long",
+          "realized": 7735,
+          "entry_px": 80267.0922,
+          "open_at_end": false,
+          "perfect": 0.0,
+          "entry_pctile": 1.0,
+          "fwd_favorable": 0.004,
+          "event_date": "2026-05-03 12:50"
+        },
+        {
+          "coin": "BTC",
+          "dir": "short",
+          "realized": 6830,
+          "entry_px": 63340.0,
+          "open_at_end": false,
+          "perfect": 0.511,
+          "entry_pctile": 0.511,
+          "fwd_favorable": 0.0669,
+          "event_date": "2026-06-05 05:20"
+        }
+      ],
+      "position": "プロトレーダー(未精査)",
+      "labels": []
+    },
+    {
       "address": "0x2f394ae1ca45071bc222e7124b5d125637942be2",
-      "n_trades": 359,
-      "n_wins": 189,
-      "total_realized": -416176,
-      "total_win": 2200971,
-      "top1_share": 0.161,
-      "top3_share": 0.24,
-      "top5_share": 0.314,
-      "net_efficiency": -0.189,
-      "mean_top_perfect": 0.755,
-      "max_top_perfect": 0.755,
-      "mean_top_fwd": 0.0796,
+      "n_trades": 318,
+      "n_wins": 166,
+      "total_realized": -364486,
+      "total_win": 2109822,
+      "top1_share": 0.168,
+      "top3_share": 0.25,
+      "top5_share": 0.328,
+      "net_efficiency": -0.173,
+      "mean_top_perfect": 0.431,
+      "max_top_perfect": 0.431,
+      "mean_top_fwd": 0.0832,
       "top_trades": [
         {
           "coin": "ETH",
@@ -1059,9 +917,9 @@
           "realized": 88509,
           "entry_px": 66180.0,
           "open_at_end": false,
-          "perfect": 0.755,
-          "entry_pctile": 0.245,
-          "fwd_favorable": 0.0796,
+          "perfect": 0.431,
+          "entry_pctile": 0.569,
+          "fwd_favorable": 0.0832,
           "event_date": "2026-02-06 11:47"
         },
         {
@@ -1090,143 +948,45 @@
       "labels": []
     },
     {
-      "address": "0x6bea81d7a0c5939a5ce5552e125ab57216cc597f",
-      "n_trades": 5,
-      "n_wins": 4,
-      "total_realized": 7817594,
-      "total_win": 7817806,
-      "top1_share": 0.684,
-      "top3_share": 0.916,
-      "top5_share": 1.0,
-      "net_efficiency": 1.0,
-      "mean_top_perfect": 0.841,
-      "max_top_perfect": 1.027,
-      "mean_top_fwd": 0.4751,
-      "top_trades": [
-        {
-          "coin": "SOL",
-          "dir": "short",
-          "realized": 5351242,
-          "entry_px": 134.8136,
-          "open_at_end": true,
-          "perfect": 0.844,
-          "entry_pctile": 0.844,
-          "fwd_favorable": 0.5545,
-          "event_date": "2025-10-10 23:25"
-        },
-        {
-          "coin": "BTC",
-          "dir": "short",
-          "realized": 980986,
-          "entry_px": 84472.8041,
-          "open_at_end": false,
-          "perfect": 0.653,
-          "entry_pctile": 0.653,
-          "fwd_favorable": 0.3004,
-          "event_date": "2025-08-20 19:15"
-        },
-        {
-          "coin": "ETH",
-          "dir": "short",
-          "realized": 830456,
-          "entry_px": 3501.4451,
-          "open_at_end": true,
-          "perfect": 1.027,
-          "entry_pctile": 1.027,
-          "fwd_favorable": 0.5703,
-          "event_date": "2025-08-20 19:16"
-        },
-        {
-          "coin": "SOL",
-          "dir": "short",
-          "realized": 655121,
-          "entry_px": 210.0157,
-          "open_at_end": false
-        }
-      ],
-      "position": "💸 出金疑い(要監視)",
-      "labels": [
-        "🤓 Smart HL Perps Trader [0x6bea81]"
-      ]
-    },
-    {
-      "address": "0x935729ae51eef975ccdeb481d513c75986227bfd",
-      "n_trades": 5,
+      "address": "0xbe494a5e3a719a78a45a47ab453b7b0199b9d101",
+      "n_trades": 4,
       "n_wins": 2,
-      "total_realized": -3933,
-      "total_win": 436,
-      "top1_share": 0.66,
+      "total_realized": 1298047,
+      "total_win": 1298222,
+      "top1_share": 0.881,
       "top3_share": 1.0,
       "top5_share": 1.0,
-      "net_efficiency": -9.028,
-      "mean_top_perfect": null,
-      "max_top_perfect": null,
-      "mean_top_fwd": null,
+      "net_efficiency": 1.0,
+      "mean_top_perfect": 0.061,
+      "max_top_perfect": 0.123,
+      "mean_top_fwd": 0.0122,
       "top_trades": [
         {
           "coin": "SOL",
           "dir": "short",
-          "realized": 288,
-          "entry_px": 250.1224,
-          "open_at_end": false
-        },
-        {
-          "coin": "BTC",
-          "dir": "long",
-          "realized": 148,
-          "entry_px": 94016.0,
-          "open_at_end": false
-        }
-      ],
-      "position": "💸 出金疑い(要監視)",
-      "labels": []
-    },
-    {
-      "address": "0xc2c060e3309461ec7c4291b1aac6c89aa228727e",
-      "n_trades": 9,
-      "n_wins": 4,
-      "total_realized": 10,
-      "total_win": 15,
-      "top1_share": 0.529,
-      "top3_share": 0.995,
-      "top5_share": 1.0,
-      "net_efficiency": 0.651,
-      "mean_top_perfect": null,
-      "max_top_perfect": null,
-      "mean_top_fwd": null,
-      "top_trades": [
-        {
-          "coin": "SOL",
-          "dir": "short",
-          "realized": 8,
-          "entry_px": 169.5069,
-          "open_at_end": false
-        },
-        {
-          "coin": "SOL",
-          "dir": "short",
-          "realized": 6,
-          "entry_px": 141.305,
-          "open_at_end": false
-        },
-        {
-          "coin": "SOL",
-          "dir": "short",
-          "realized": 1,
-          "entry_px": 150.13,
-          "open_at_end": false
+          "realized": 1143174,
+          "entry_px": 83.317,
+          "open_at_end": false,
+          "perfect": 0.0,
+          "entry_pctile": 0.0,
+          "fwd_favorable": 0.006,
+          "event_date": "2026-02-09 08:05"
         },
         {
           "coin": "ETH",
-          "dir": "long",
-          "realized": 0,
-          "entry_px": 3092.3639,
-          "open_at_end": false
+          "dir": "short",
+          "realized": 155048,
+          "entry_px": 2024.6074,
+          "open_at_end": false,
+          "perfect": 0.123,
+          "entry_pctile": 0.123,
+          "fwd_favorable": 0.0183,
+          "event_date": "2026-02-10 01:49"
         }
       ],
-      "position": "💸 出金疑い(要監視)",
+      "position": "プロトレーダー(本物)",
       "labels": [
-        "\"H2_\" on OpenSea"
+        "🤓 Smart HL Perps Trader [0xbe494a]"
       ]
     },
     {
@@ -1239,9 +999,9 @@
       "top3_share": 0.35,
       "top5_share": 0.489,
       "net_efficiency": -1.02,
-      "mean_top_perfect": 0.749,
-      "max_top_perfect": 0.749,
-      "mean_top_fwd": 0.0812,
+      "mean_top_perfect": 0.088,
+      "max_top_perfect": 0.088,
+      "mean_top_fwd": -0.0063,
       "top_trades": [
         {
           "coin": "SOL",
@@ -1263,9 +1023,9 @@
           "realized": 1856,
           "entry_px": 72399.7946,
           "open_at_end": false,
-          "perfect": 0.749,
-          "entry_pctile": 0.251,
-          "fwd_favorable": 0.0812,
+          "perfect": 0.088,
+          "entry_pctile": 0.912,
+          "fwd_favorable": -0.0063,
           "event_date": "2026-04-08 13:09"
         },
         {
@@ -1298,9 +1058,9 @@
       "top3_share": 0.949,
       "top5_share": 0.99,
       "net_efficiency": 0.992,
-      "mean_top_perfect": 0.66,
-      "max_top_perfect": 0.83,
-      "mean_top_fwd": 0.1442,
+      "mean_top_perfect": 0.998,
+      "max_top_perfect": 1.0,
+      "mean_top_fwd": 0.032,
       "top_trades": [
         {
           "coin": "SOL",
@@ -1308,9 +1068,9 @@
           "realized": 9276,
           "entry_px": 85.239,
           "open_at_end": false,
-          "perfect": 0.642,
-          "entry_pctile": 0.358,
-          "fwd_favorable": 0.0308,
+          "perfect": 1.0,
+          "entry_pctile": 0.0,
+          "fwd_favorable": 0.0398,
           "event_date": "2026-02-09 06:18"
         },
         {
@@ -1319,9 +1079,9 @@
           "realized": 3684,
           "entry_px": 70286.2448,
           "open_at_end": true,
-          "perfect": 0.528,
-          "entry_pctile": 0.472,
-          "fwd_favorable": 0.178,
+          "perfect": 1.0,
+          "entry_pctile": 0.0,
+          "fwd_favorable": 0.0191,
           "event_date": "2026-03-05 15:30"
         },
         {
@@ -1330,9 +1090,9 @@
           "realized": 1969,
           "entry_px": 1986.4303,
           "open_at_end": true,
-          "perfect": 0.83,
-          "entry_pctile": 0.17,
-          "fwd_favorable": 0.2397,
+          "perfect": 1.0,
+          "entry_pctile": 0.0,
+          "fwd_favorable": 0.0185,
           "event_date": "2026-03-06 13:55"
         },
         {
@@ -1341,9 +1101,9 @@
           "realized": 458,
           "entry_px": 83.5521,
           "open_at_end": true,
-          "perfect": 0.672,
-          "entry_pctile": 0.328,
-          "fwd_favorable": 0.1686,
+          "perfect": 1.0,
+          "entry_pctile": 0.0,
+          "fwd_favorable": 0.0753,
           "event_date": "2026-03-05 16:09"
         },
         {
@@ -1352,9 +1112,9 @@
           "realized": 185,
           "entry_px": 1953.8935,
           "open_at_end": false,
-          "perfect": 0.63,
-          "entry_pctile": 0.37,
-          "fwd_favorable": 0.1037,
+          "perfect": 0.99,
+          "entry_pctile": 0.01,
+          "fwd_favorable": 0.0072,
           "event_date": "2026-02-27 11:19"
         }
       ],
@@ -1373,9 +1133,9 @@
       "top3_share": 1.0,
       "top5_share": 1.0,
       "net_efficiency": 1.0,
-      "mean_top_perfect": 0.906,
-      "max_top_perfect": 0.906,
-      "mean_top_fwd": 0.3666,
+      "mean_top_perfect": 0.384,
+      "max_top_perfect": 0.384,
+      "mean_top_fwd": 0.0138,
       "top_trades": [
         {
           "coin": "SOL",
@@ -1383,9 +1143,9 @@
           "realized": 1391539,
           "entry_px": 94.8288,
           "open_at_end": false,
-          "perfect": 0.906,
-          "entry_pctile": 0.906,
-          "fwd_favorable": 0.3666,
+          "perfect": 0.384,
+          "entry_pctile": 0.384,
+          "fwd_favorable": 0.0138,
           "event_date": "2026-05-11 15:35"
         }
       ],
@@ -1394,14 +1154,14 @@
     },
     {
       "address": "0x05c6959d997cde99d2f967367e5e9f1959ba9706",
-      "n_trades": 78,
-      "n_wins": 36,
-      "total_realized": -1368,
-      "total_win": 35290,
-      "top1_share": 0.138,
-      "top3_share": 0.356,
-      "top5_share": 0.482,
-      "net_efficiency": -0.039,
+      "n_trades": 20,
+      "n_wins": 10,
+      "total_realized": 355,
+      "total_win": 15847,
+      "top1_share": 0.307,
+      "top3_share": 0.794,
+      "top5_share": 0.95,
+      "net_efficiency": 0.022,
       "mean_top_perfect": null,
       "max_top_perfect": null,
       "mean_top_fwd": null,
@@ -1430,15 +1190,15 @@
         {
           "coin": "ETH",
           "dir": "long",
-          "realized": 2478,
-          "entry_px": 2597.6936,
+          "realized": 1847,
+          "entry_px": 3717.4,
           "open_at_end": false
         },
         {
-          "coin": "SOL",
-          "dir": "short",
-          "realized": 1958,
-          "entry_px": 173.8256,
+          "coin": "BTC",
+          "dir": "long",
+          "realized": 627,
+          "entry_px": 120031.0,
           "open_at_end": false
         }
       ],
@@ -1457,9 +1217,9 @@
       "top3_share": 1.0,
       "top5_share": 1.0,
       "net_efficiency": 1.0,
-      "mean_top_perfect": 0.803,
-      "max_top_perfect": 0.875,
-      "mean_top_fwd": 0.3439,
+      "mean_top_perfect": 0.604,
+      "max_top_perfect": 1.0,
+      "mean_top_fwd": 0.0248,
       "top_trades": [
         {
           "coin": "ETH",
@@ -1467,9 +1227,9 @@
           "realized": 4860241,
           "entry_px": 2920.1038,
           "open_at_end": false,
-          "perfect": 0.691,
-          "entry_pctile": 0.691,
-          "fwd_favorable": 0.4039,
+          "perfect": 0.615,
+          "entry_pctile": 0.615,
+          "fwd_favorable": -0.0178,
           "event_date": "2025-12-02 19:35"
         },
         {
@@ -1478,9 +1238,9 @@
           "realized": 1135758,
           "entry_px": 2308.9851,
           "open_at_end": false,
-          "perfect": 0.875,
-          "entry_pctile": 0.875,
-          "fwd_favorable": 0.3485,
+          "perfect": 0.196,
+          "entry_pctile": 0.196,
+          "fwd_favorable": -0.0094,
           "event_date": "2026-04-22 06:03"
         },
         {
@@ -1489,9 +1249,9 @@
           "realized": 344811,
           "entry_px": 64714.9075,
           "open_at_end": false,
-          "perfect": 0.843,
-          "entry_pctile": 0.157,
-          "fwd_favorable": 0.2794,
+          "perfect": 1.0,
+          "entry_pctile": 0.0,
+          "fwd_favorable": 0.1017,
           "event_date": "2026-03-10 19:05"
         }
       ],
@@ -1510,9 +1270,9 @@
       "top3_share": 1.0,
       "top5_share": 1.0,
       "net_efficiency": 1.0,
-      "mean_top_perfect": 0.473,
-      "max_top_perfect": 0.695,
-      "mean_top_fwd": 0.1415,
+      "mean_top_perfect": 0.45,
+      "max_top_perfect": 0.712,
+      "mean_top_fwd": -0.0082,
       "top_trades": [
         {
           "coin": "ETH",
@@ -1520,9 +1280,9 @@
           "realized": 2149930,
           "entry_px": 2928.0927,
           "open_at_end": false,
-          "perfect": 0.695,
-          "entry_pctile": 0.695,
-          "fwd_favorable": 0.4055,
+          "perfect": 0.0,
+          "entry_pctile": 0.0,
+          "fwd_favorable": -0.0817,
           "event_date": "2025-12-10 10:41"
         },
         {
@@ -1531,9 +1291,9 @@
           "realized": 272,
           "entry_px": 124.95,
           "open_at_end": false,
-          "perfect": 0.175,
-          "entry_pctile": 0.825,
-          "fwd_favorable": 0.0023,
+          "perfect": 0.637,
+          "entry_pctile": 0.363,
+          "fwd_favorable": 0.0179,
           "event_date": "2026-01-01 00:08"
         },
         {
@@ -1542,9 +1302,9 @@
           "realized": 0,
           "entry_px": 83.3346,
           "open_at_end": false,
-          "perfect": 0.55,
-          "entry_pctile": 0.55,
-          "fwd_favorable": 0.0167,
+          "perfect": 0.712,
+          "entry_pctile": 0.712,
+          "fwd_favorable": 0.0391,
           "event_date": "2026-03-30 21:28"
         }
       ],
@@ -1563,20 +1323,16 @@
       "top3_share": 0.995,
       "top5_share": 1.0,
       "net_efficiency": 0.663,
-      "mean_top_perfect": 1.073,
-      "max_top_perfect": 1.297,
-      "mean_top_fwd": 0.2467,
+      "mean_top_perfect": 0.567,
+      "max_top_perfect": 0.567,
+      "mean_top_fwd": 0.1978,
       "top_trades": [
         {
           "coin": "BTC",
           "dir": "short",
           "realized": 1775069,
           "entry_px": 109305.5273,
-          "open_at_end": false,
-          "perfect": 1.297,
-          "entry_pctile": 1.297,
-          "fwd_favorable": 0.4535,
-          "event_date": "2025-10-20 19:02"
+          "open_at_end": false
         },
         {
           "coin": "ETH",
@@ -1584,9 +1340,9 @@
           "realized": 12042,
           "entry_px": 2744.1,
           "open_at_end": false,
-          "perfect": 0.85,
-          "entry_pctile": 0.85,
-          "fwd_favorable": 0.0398,
+          "perfect": 0.567,
+          "entry_pctile": 0.567,
+          "fwd_favorable": 0.1978,
           "event_date": "2026-01-30 19:48"
         },
         {
@@ -1626,20 +1382,16 @@
       "top3_share": 0.963,
       "top5_share": 0.999,
       "net_efficiency": 0.944,
-      "mean_top_perfect": 1.558,
-      "max_top_perfect": 1.558,
-      "mean_top_fwd": 0.6517,
+      "mean_top_perfect": null,
+      "max_top_perfect": null,
+      "mean_top_fwd": null,
       "top_trades": [
         {
           "coin": "SOL",
           "dir": "short",
           "realized": 1903288,
           "entry_px": 193.8822,
-          "open_at_end": true,
-          "perfect": 1.558,
-          "entry_pctile": 1.558,
-          "fwd_favorable": 0.6517,
-          "event_date": "2025-10-28 20:09"
+          "open_at_end": true
         },
         {
           "coin": "SOL",
@@ -1685,9 +1437,9 @@
       "top3_share": 1.0,
       "top5_share": 1.0,
       "net_efficiency": 1.0,
-      "mean_top_perfect": 0.849,
-      "max_top_perfect": 0.884,
-      "mean_top_fwd": 0.3896,
+      "mean_top_perfect": 1.0,
+      "max_top_perfect": 1.0,
+      "mean_top_fwd": 0.0539,
       "top_trades": [
         {
           "coin": "ETH",
@@ -1695,9 +1447,9 @@
           "realized": 2522100,
           "entry_px": 3223.0241,
           "open_at_end": false,
-          "perfect": 0.884,
-          "entry_pctile": 0.884,
-          "fwd_favorable": 0.5332,
+          "perfect": 1.0,
+          "entry_pctile": 1.0,
+          "fwd_favorable": 0.0738,
           "event_date": "2025-11-26 17:33"
         },
         {
@@ -1706,9 +1458,9 @@
           "realized": 252749,
           "entry_px": 78384.8107,
           "open_at_end": false,
-          "perfect": 0.814,
-          "entry_pctile": 0.814,
-          "fwd_favorable": 0.246,
+          "perfect": 1.0,
+          "entry_pctile": 1.0,
+          "fwd_favorable": 0.0339,
           "event_date": "2026-04-17 14:40"
         }
       ],
@@ -1727,9 +1479,9 @@
       "top3_share": 1.0,
       "top5_share": 1.0,
       "net_efficiency": 1.0,
-      "mean_top_perfect": 0.43,
-      "max_top_perfect": 0.475,
-      "mean_top_fwd": 0.0126,
+      "mean_top_perfect": 0.103,
+      "max_top_perfect": 0.119,
+      "mean_top_fwd": 0.0489,
       "top_trades": [
         {
           "coin": "ETH",
@@ -1737,9 +1489,9 @@
           "realized": 2,
           "entry_px": 2275.6,
           "open_at_end": false,
-          "perfect": 0.385,
-          "entry_pctile": 0.615,
-          "fwd_favorable": 0.0113,
+          "perfect": 0.119,
+          "entry_pctile": 0.881,
+          "fwd_favorable": 0.0475,
           "event_date": "2026-03-16 12:07"
         },
         {
@@ -1748,9 +1500,9 @@
           "realized": 0,
           "entry_px": 2269.6,
           "open_at_end": false,
-          "perfect": 0.475,
-          "entry_pctile": 0.525,
-          "fwd_favorable": 0.014,
+          "perfect": 0.087,
+          "entry_pctile": 0.913,
+          "fwd_favorable": 0.0503,
           "event_date": "2026-03-16 11:54"
         }
       ],
@@ -1767,20 +1519,16 @@
       "top3_share": 0.898,
       "top5_share": 1.0,
       "net_efficiency": 1.0,
-      "mean_top_perfect": 0.791,
-      "max_top_perfect": 0.857,
-      "mean_top_fwd": 0.4177,
+      "mean_top_perfect": null,
+      "max_top_perfect": null,
+      "mean_top_fwd": null,
       "top_trades": [
         {
           "coin": "SOL",
           "dir": "short",
           "realized": 1325750,
           "entry_px": 133.4313,
-          "open_at_end": false,
-          "perfect": 0.813,
-          "entry_pctile": 0.813,
-          "fwd_favorable": 0.494,
-          "event_date": "2025-10-10 23:17"
+          "open_at_end": false
         },
         {
           "coin": "SOL",
@@ -1794,22 +1542,14 @@
           "dir": "short",
           "realized": 223666,
           "entry_px": 92505.0703,
-          "open_at_end": false,
-          "perfect": 0.857,
-          "entry_pctile": 0.857,
-          "fwd_favorable": 0.3514,
-          "event_date": "2025-09-09 04:50"
+          "open_at_end": false
         },
         {
           "coin": "ETH",
           "dir": "short",
           "realized": 207235,
           "entry_px": 2939.0352,
-          "open_at_end": false,
-          "perfect": 0.702,
-          "entry_pctile": 0.702,
-          "fwd_favorable": 0.4077,
-          "event_date": "2025-09-09 04:57"
+          "open_at_end": false
         }
       ],
       "position": "プロトレーダー(本物)",
@@ -1819,115 +1559,12 @@
     },
     {
       "address": "0xb1694de2324433778487999bd86b1acb3335ebc4",
-      "n_trades": 4,
-      "n_wins": 4,
-      "total_realized": 1928778,
-      "total_win": 1928778,
-      "top1_share": 0.672,
-      "top3_share": 0.907,
-      "top5_share": 1.0,
-      "net_efficiency": 1.0,
-      "mean_top_perfect": 1.02,
-      "max_top_perfect": 1.069,
-      "mean_top_fwd": 0.4805,
-      "top_trades": [
-        {
-          "coin": "SOL",
-          "dir": "short",
-          "realized": 1295919,
-          "entry_px": 143.9224,
-          "open_at_end": false,
-          "perfect": 0.942,
-          "entry_pctile": 0.942,
-          "fwd_favorable": 0.5309,
-          "event_date": "2025-10-10 23:17"
-        },
-        {
-          "coin": "BTC",
-          "dir": "short",
-          "realized": 238287,
-          "entry_px": 99784.9132,
-          "open_at_end": false,
-          "perfect": 1.048,
-          "entry_pctile": 1.048,
-          "fwd_favorable": 0.3987,
-          "event_date": "2025-08-26 09:52"
-        },
-        {
-          "coin": "SOL",
-          "dir": "short",
-          "realized": 215702,
-          "entry_px": 211.3513,
-          "open_at_end": false
-        },
-        {
-          "coin": "ETH",
-          "dir": "short",
-          "realized": 178870,
-          "entry_px": 3565.6453,
-          "open_at_end": false,
-          "perfect": 1.069,
-          "entry_pctile": 1.069,
-          "fwd_favorable": 0.5118,
-          "event_date": "2025-08-26 09:52"
-        }
-      ],
+      "n_trades": 3,
+      "total_realized": -6292,
+      "no_profit": true,
       "position": "プロトレーダー(本物)",
       "labels": [
         "Former Smart Trader [0xb1694d]"
-      ]
-    },
-    {
-      "address": "0x406073860818ecfb7dca0706a6bac73faa95bd3e",
-      "n_trades": 4,
-      "n_wins": 3,
-      "total_realized": 713341,
-      "total_win": 713342,
-      "top1_share": 0.686,
-      "top3_share": 1.0,
-      "top5_share": 1.0,
-      "net_efficiency": 1.0,
-      "mean_top_perfect": 1.262,
-      "max_top_perfect": 1.977,
-      "mean_top_fwd": 0.4799,
-      "top_trades": [
-        {
-          "coin": "BTC",
-          "dir": "short",
-          "realized": 489534,
-          "entry_px": 115373.5461,
-          "open_at_end": false,
-          "perfect": 1.459,
-          "entry_pctile": 1.459,
-          "fwd_favorable": 0.48,
-          "event_date": "2025-10-07 16:01"
-        },
-        {
-          "coin": "ETH",
-          "dir": "short",
-          "realized": 218008,
-          "entry_px": 2339.5157,
-          "open_at_end": false,
-          "perfect": 0.351,
-          "entry_pctile": 0.351,
-          "fwd_favorable": 0.256,
-          "event_date": "2025-10-18 14:39"
-        },
-        {
-          "coin": "SOL",
-          "dir": "short",
-          "realized": 5800,
-          "entry_px": 227.78,
-          "open_at_end": false,
-          "perfect": 1.977,
-          "entry_pctile": 1.977,
-          "fwd_favorable": 0.7036,
-          "event_date": "2025-10-08 20:59"
-        }
-      ],
-      "position": "プロトレーダー(本物)",
-      "labels": [
-        "🤓 Smart HL Perps Trader [0x406073]"
       ]
     },
     {
@@ -1940,39 +1577,61 @@
     },
     {
       "address": "0x99b3ba1c1b7ad83d0164d996e3d271ae8c842551",
-      "n_trades": 9,
-      "n_wins": 8,
-      "total_realized": 336285,
-      "total_win": 339421,
-      "top1_share": 0.27,
-      "top3_share": 0.597,
-      "top5_share": 0.832,
-      "net_efficiency": 0.991,
-      "mean_top_perfect": 0.38,
-      "max_top_perfect": 0.806,
-      "mean_top_fwd": 0.0299,
+      "n_trades": 15,
+      "n_wins": 11,
+      "total_realized": 894681,
+      "total_win": 915487,
+      "top1_share": 0.322,
+      "top3_share": 0.698,
+      "top5_share": 0.846,
+      "net_efficiency": 0.977,
+      "mean_top_perfect": 0.712,
+      "max_top_perfect": 1.0,
+      "mean_top_fwd": 0.0398,
       "top_trades": [
+        {
+          "coin": "BTC",
+          "dir": "short",
+          "realized": 295135,
+          "entry_px": 75617.1491,
+          "open_at_end": false,
+          "perfect": 1.0,
+          "entry_pctile": 1.0,
+          "fwd_favorable": 0.0559,
+          "event_date": "2026-04-09 15:51"
+        },
+        {
+          "coin": "BTC",
+          "dir": "short",
+          "realized": 252347,
+          "entry_px": 78047.5005,
+          "open_at_end": false,
+          "perfect": 0.654,
+          "entry_pctile": 0.654,
+          "fwd_favorable": 0.0105,
+          "event_date": "2026-04-24 13:49"
+        },
         {
           "coin": "BTC",
           "dir": "long",
           "realized": 91598,
           "entry_px": 68681.3272,
           "open_at_end": false,
-          "perfect": 0.806,
-          "entry_pctile": 0.194,
+          "perfect": 0.784,
+          "entry_pctile": 0.216,
           "fwd_favorable": 0.0596,
           "event_date": "2026-04-07 02:38"
         },
         {
-          "coin": "BTC",
+          "coin": "ETH",
           "dir": "short",
-          "realized": 65309,
-          "entry_px": 72847.2119,
-          "open_at_end": true,
-          "perfect": 0.432,
-          "entry_pctile": 0.432,
-          "fwd_favorable": 0.0329,
-          "event_date": "2026-04-09 15:51"
+          "realized": 89836,
+          "entry_px": 2433.2779,
+          "open_at_end": false,
+          "perfect": 1.0,
+          "entry_pctile": 1.0,
+          "fwd_favorable": 0.0519,
+          "event_date": "2026-04-16 14:18"
         },
         {
           "coin": "ETH",
@@ -1980,34 +1639,28 @@
           "realized": 45882,
           "entry_px": 2221.1,
           "open_at_end": false,
-          "perfect": 0.149,
-          "entry_pctile": 0.149,
-          "fwd_favorable": 0.0068,
+          "perfect": 0.123,
+          "entry_pctile": 0.123,
+          "fwd_favorable": 0.0209,
           "event_date": "2026-04-12 02:58"
-        },
-        {
-          "coin": "ETH",
-          "dir": "long",
-          "realized": 40787,
-          "entry_px": 2176.9716,
-          "open_at_end": false,
-          "perfect": 0.454,
-          "entry_pctile": 0.546,
-          "fwd_favorable": 0.0446,
-          "event_date": "2026-04-07 12:10"
-        },
-        {
-          "coin": "ETH",
-          "dir": "long",
-          "realized": 38778,
-          "entry_px": 2400.5813,
-          "open_at_end": true,
-          "perfect": 0.061,
-          "entry_pctile": 0.939,
-          "fwd_favorable": 0.0055,
-          "event_date": "2026-04-13 19:54"
         }
       ],
+      "position": "プロトレーダー(本物)",
+      "labels": []
+    },
+    {
+      "address": "0x98256d1a9e3012398237a1720c27a3d7ed1ad905",
+      "n_trades": 0,
+      "total_realized": 0,
+      "no_profit": true,
+      "position": "プロトレーダー(本物)",
+      "labels": []
+    },
+    {
+      "address": "0x143c28ae5b8642f58c98b8a6f82a0f314d23f6ab",
+      "n_trades": 0,
+      "total_realized": 0,
+      "no_profit": true,
       "position": "プロトレーダー(本物)",
       "labels": []
     },
@@ -2021,20 +1674,16 @@
       "top3_share": 1.0,
       "top5_share": 1.0,
       "net_efficiency": 0.993,
-      "mean_top_perfect": 1.115,
-      "max_top_perfect": 1.115,
-      "mean_top_fwd": 0.4136,
+      "mean_top_perfect": null,
+      "max_top_perfect": null,
+      "mean_top_fwd": null,
       "top_trades": [
         {
           "coin": "BTC",
           "dir": "short",
           "realized": 947624,
           "entry_px": 102311.0491,
-          "open_at_end": false,
-          "perfect": 1.115,
-          "entry_pctile": 1.115,
-          "fwd_favorable": 0.4136,
-          "event_date": "2025-07-18 08:51"
+          "open_at_end": false
         }
       ],
       "position": "プロトレーダー(本物)",
@@ -2052,9 +1701,9 @@
       "top3_share": 1.0,
       "top5_share": 1.0,
       "net_efficiency": 0.901,
-      "mean_top_perfect": 0.514,
-      "max_top_perfect": 0.567,
-      "mean_top_fwd": 0.317,
+      "mean_top_perfect": 0.0,
+      "max_top_perfect": 0.0,
+      "mean_top_fwd": -0.1269,
       "top_trades": [
         {
           "coin": "SOL",
@@ -2062,9 +1711,9 @@
           "realized": 731319,
           "entry_px": 103.685,
           "open_at_end": false,
-          "perfect": 0.446,
-          "entry_pctile": 0.446,
-          "fwd_favorable": 0.3488,
+          "perfect": 0.0,
+          "entry_pctile": 0.0,
+          "fwd_favorable": -0.1901,
           "event_date": "2025-12-21 02:24"
         },
         {
@@ -2073,9 +1722,9 @@
           "realized": 165183,
           "entry_px": 80100.0184,
           "open_at_end": false,
-          "perfect": 0.53,
-          "entry_pctile": 0.53,
-          "fwd_favorable": 0.2509,
+          "perfect": 0.0,
+          "entry_pctile": 0.0,
+          "fwd_favorable": -0.0936,
           "event_date": "2025-12-21 02:24"
         },
         {
@@ -2084,9 +1733,9 @@
           "realized": 94823,
           "entry_px": 2683.6291,
           "open_at_end": false,
-          "perfect": 0.567,
-          "entry_pctile": 0.567,
-          "fwd_favorable": 0.3514,
+          "perfect": 0.0,
+          "entry_pctile": 0.0,
+          "fwd_favorable": -0.0969,
           "event_date": "2025-12-21 02:24"
         }
       ],
@@ -2103,9 +1752,9 @@
       "top3_share": 0.608,
       "top5_share": 0.778,
       "net_efficiency": 0.666,
-      "mean_top_perfect": 0.501,
-      "max_top_perfect": 0.624,
-      "mean_top_fwd": 0.0796,
+      "mean_top_perfect": 0.735,
+      "max_top_perfect": 1.0,
+      "mean_top_fwd": 0.0638,
       "top_trades": [
         {
           "coin": "ETH",
@@ -2113,8 +1762,8 @@
           "realized": 191006,
           "entry_px": 2116.2952,
           "open_at_end": false,
-          "perfect": 0.426,
-          "entry_pctile": 0.574,
+          "perfect": 1.0,
+          "entry_pctile": 0.0,
           "fwd_favorable": 0.1315,
           "event_date": "2026-02-02 09:46"
         },
@@ -2124,9 +1773,9 @@
           "realized": 63334,
           "entry_px": 1587.225,
           "open_at_end": false,
-          "perfect": 0.616,
-          "entry_pctile": 0.384,
-          "fwd_favorable": 0.0838,
+          "perfect": 0.552,
+          "entry_pctile": 0.448,
+          "fwd_favorable": 0.0346,
           "event_date": "2026-06-06 08:43"
         },
         {
@@ -2135,9 +1784,9 @@
           "realized": 48840,
           "entry_px": 1672.0502,
           "open_at_end": false,
-          "perfect": 0.468,
-          "entry_pctile": 0.532,
-          "fwd_favorable": 0.0361,
+          "perfect": 0.409,
+          "entry_pctile": 0.591,
+          "fwd_favorable": 0.025,
           "event_date": "2026-06-08 12:04"
         },
         {
@@ -2146,8 +1795,8 @@
           "realized": 45705,
           "entry_px": 72146.2614,
           "open_at_end": false,
-          "perfect": 0.37,
-          "entry_pctile": 0.63,
+          "perfect": 1.0,
+          "entry_pctile": 0.0,
           "fwd_favorable": 0.099,
           "event_date": "2026-02-02 09:45"
         },
@@ -2157,9 +1806,9 @@
           "realized": 39157,
           "entry_px": 1767.096,
           "open_at_end": false,
-          "perfect": 0.624,
-          "entry_pctile": 0.376,
-          "fwd_favorable": 0.0474,
+          "perfect": 0.713,
+          "entry_pctile": 0.287,
+          "fwd_favorable": 0.0287,
           "event_date": "2026-06-04 02:24"
         }
       ],
@@ -2176,9 +1825,9 @@
       "top3_share": 0.901,
       "top5_share": 0.988,
       "net_efficiency": 0.885,
-      "mean_top_perfect": 0.697,
-      "max_top_perfect": 0.963,
-      "mean_top_fwd": 0.0879,
+      "mean_top_perfect": 0.223,
+      "max_top_perfect": 0.504,
+      "mean_top_fwd": 0.0153,
       "top_trades": [
         {
           "coin": "BTC",
@@ -2186,9 +1835,9 @@
           "realized": 361063,
           "entry_px": 75606.8439,
           "open_at_end": false,
-          "perfect": 0.963,
-          "entry_pctile": 0.963,
-          "fwd_favorable": 0.179,
+          "perfect": 0.0,
+          "entry_pctile": 0.0,
+          "fwd_favorable": 0.0199,
           "event_date": "2026-05-27 02:23"
         },
         {
@@ -2197,9 +1846,9 @@
           "realized": 152901,
           "entry_px": 2269.8199,
           "open_at_end": false,
-          "perfect": 0.798,
-          "entry_pctile": 0.798,
-          "fwd_favorable": 0.0849,
+          "perfect": 0.397,
+          "entry_pctile": 0.397,
+          "fwd_favorable": 0.029,
           "event_date": "2026-05-14 17:22"
         },
         {
@@ -2208,9 +1857,9 @@
           "realized": 69053,
           "entry_px": 2064.5993,
           "open_at_end": false,
-          "perfect": 0.7,
-          "entry_pctile": 0.7,
-          "fwd_favorable": 0.0851,
+          "perfect": 0.127,
+          "entry_pctile": 0.127,
+          "fwd_favorable": 0.0099,
           "event_date": "2026-05-26 17:29"
         },
         {
@@ -2219,9 +1868,9 @@
           "realized": 31062,
           "entry_px": 61163.0,
           "open_at_end": false,
-          "perfect": 0.643,
-          "entry_pctile": 0.357,
-          "fwd_favorable": 0.0501,
+          "perfect": 0.504,
+          "entry_pctile": 0.496,
+          "fwd_favorable": 0.0179,
           "event_date": "2026-06-06 06:21"
         },
         {
@@ -2230,9 +1879,9 @@
           "realized": 25748,
           "entry_px": 2311.3026,
           "open_at_end": false,
-          "perfect": 0.382,
-          "entry_pctile": 0.382,
-          "fwd_favorable": 0.0404,
+          "perfect": 0.089,
+          "entry_pctile": 0.089,
+          "fwd_favorable": 0.0,
           "event_date": "2026-04-15 07:22"
         }
       ],
@@ -2251,9 +1900,9 @@
       "top3_share": 1.0,
       "top5_share": 1.0,
       "net_efficiency": 0.997,
-      "mean_top_perfect": 0.825,
-      "max_top_perfect": 0.825,
-      "mean_top_fwd": 0.1657,
+      "mean_top_perfect": 0.0,
+      "max_top_perfect": 0.0,
+      "mean_top_fwd": 0.0068,
       "top_trades": [
         {
           "coin": "BTC",
@@ -2261,9 +1910,9 @@
           "realized": 738234,
           "entry_px": 73534.0356,
           "open_at_end": false,
-          "perfect": 0.825,
-          "entry_pctile": 0.825,
-          "fwd_favorable": 0.1657,
+          "perfect": 0.0,
+          "entry_pctile": 0.0,
+          "fwd_favorable": 0.0068,
           "event_date": "2026-05-27 03:10"
         }
       ],
@@ -2280,9 +1929,9 @@
       "top3_share": 1.0,
       "top5_share": 1.0,
       "net_efficiency": 1.0,
-      "mean_top_perfect": 0.478,
-      "max_top_perfect": 0.765,
-      "mean_top_fwd": 0.0384,
+      "mean_top_perfect": 0.099,
+      "max_top_perfect": 0.169,
+      "mean_top_fwd": 0.0355,
       "top_trades": [
         {
           "coin": "SOL",
@@ -2290,9 +1939,9 @@
           "realized": 200192,
           "entry_px": 87.5472,
           "open_at_end": false,
-          "perfect": 0.765,
-          "entry_pctile": 0.765,
-          "fwd_favorable": 0.0658,
+          "perfect": 0.029,
+          "entry_pctile": 0.029,
+          "fwd_favorable": 0.0569,
           "event_date": "2026-03-26 11:24"
         },
         {
@@ -2301,9 +1950,9 @@
           "realized": 48403,
           "entry_px": 70792.36,
           "open_at_end": false,
-          "perfect": 0.19,
-          "entry_pctile": 0.81,
-          "fwd_favorable": 0.011,
+          "perfect": 0.169,
+          "entry_pctile": 0.831,
+          "fwd_favorable": 0.014,
           "event_date": "2026-03-23 12:47"
         }
       ],
@@ -2322,20 +1971,16 @@
       "top3_share": 1.0,
       "top5_share": 1.0,
       "net_efficiency": 0.974,
-      "mean_top_perfect": 0.563,
-      "max_top_perfect": 0.563,
-      "mean_top_fwd": 0.3559,
+      "mean_top_perfect": null,
+      "max_top_perfect": null,
+      "mean_top_fwd": null,
       "top_trades": [
         {
           "coin": "ETH",
           "dir": "short",
           "realized": 1003226,
           "entry_px": 2702.529,
-          "open_at_end": false,
-          "perfect": 0.563,
-          "entry_pctile": 0.563,
-          "fwd_favorable": 0.3559,
-          "event_date": "2025-10-24 08:44"
+          "open_at_end": false
         }
       ],
       "position": "プロトレーダー(本物)",
@@ -2351,9 +1996,9 @@
       "top3_share": 0.877,
       "top5_share": 0.997,
       "net_efficiency": -3.335,
-      "mean_top_perfect": 0.811,
-      "max_top_perfect": 0.898,
-      "mean_top_fwd": 0.0475,
+      "mean_top_perfect": 0.883,
+      "max_top_perfect": 0.9,
+      "mean_top_fwd": 0.0424,
       "top_trades": [
         {
           "coin": "BTC",
@@ -2361,9 +2006,9 @@
           "realized": 1016,
           "entry_px": 84901.0,
           "open_at_end": false,
-          "perfect": 0.898,
-          "entry_pctile": 0.102,
-          "fwd_favorable": 0.0524,
+          "perfect": 0.9,
+          "entry_pctile": 0.1,
+          "fwd_favorable": 0.0528,
           "event_date": "2025-12-18 20:55"
         },
         {
@@ -2386,9 +2031,9 @@
           "realized": 289,
           "entry_px": 86665.0,
           "open_at_end": false,
-          "perfect": 0.725,
-          "entry_pctile": 0.275,
-          "fwd_favorable": 0.0425,
+          "perfect": 0.867,
+          "entry_pctile": 0.133,
+          "fwd_favorable": 0.032,
           "event_date": "2025-12-17 16:18"
         },
         {
@@ -2406,36 +2051,32 @@
       "address": "0xa99c9e5484e5b26635c07876d0859a1819ff40d5",
       "n_trades": 6,
       "n_wins": 4,
-      "total_realized": 2404,
-      "total_win": 71916,
-      "top1_share": 0.752,
-      "top3_share": 0.982,
+      "total_realized": -6918,
+      "total_win": 62594,
+      "top1_share": 0.864,
+      "top3_share": 0.979,
       "top5_share": 1.0,
-      "net_efficiency": 0.033,
-      "mean_top_perfect": 0.663,
-      "max_top_perfect": 0.765,
-      "mean_top_fwd": 0.1903,
+      "net_efficiency": -0.111,
+      "mean_top_perfect": 0.604,
+      "max_top_perfect": 0.604,
+      "mean_top_fwd": 0.016,
       "top_trades": [
         {
           "coin": "BTC",
           "dir": "long",
           "realized": 54062,
           "entry_px": 76655.7399,
-          "open_at_end": false,
-          "perfect": 0.561,
-          "entry_pctile": 0.439,
-          "fwd_favorable": 0.2778,
-          "event_date": "2025-11-17 15:35"
+          "open_at_end": false
         },
         {
           "coin": "BTC",
           "dir": "long",
-          "realized": 14464,
+          "realized": 5142,
           "entry_px": 61019.0857,
           "open_at_end": true,
-          "perfect": 0.765,
-          "entry_pctile": 0.235,
-          "fwd_favorable": 0.1027,
+          "perfect": 0.604,
+          "entry_pctile": 0.396,
+          "fwd_favorable": 0.016,
           "event_date": "2026-06-05 20:17"
         },
         {
@@ -2466,192 +2107,213 @@
       "top3_share": 1.0,
       "top5_share": 1.0,
       "net_efficiency": 0.872,
-      "mean_top_perfect": 1.373,
-      "max_top_perfect": 1.498,
-      "mean_top_fwd": 0.5527,
+      "mean_top_perfect": null,
+      "max_top_perfect": null,
+      "mean_top_fwd": null,
       "top_trades": [
         {
           "coin": "BTC",
           "dir": "short",
           "realized": 400298,
           "entry_px": 111154.2137,
-          "open_at_end": false,
-          "perfect": 1.348,
-          "entry_pctile": 1.348,
-          "fwd_favorable": 0.4602,
-          "event_date": "2025-07-30 18:05"
+          "open_at_end": false
         },
         {
           "coin": "ETH",
           "dir": "short",
           "realized": 173352,
           "entry_px": 3912.9,
-          "open_at_end": false,
-          "perfect": 1.272,
-          "entry_pctile": 1.272,
-          "fwd_favorable": 0.5551,
-          "event_date": "2025-10-24 09:19"
+          "open_at_end": false
         },
         {
           "coin": "SOL",
           "dir": "short",
           "realized": 125952,
           "entry_px": 188.99,
-          "open_at_end": false,
-          "perfect": 1.498,
-          "entry_pctile": 1.498,
-          "fwd_favorable": 0.6427,
-          "event_date": "2025-10-24 09:21"
+          "open_at_end": false
         }
       ],
       "position": "プロトレーダー(本物)",
       "labels": []
     },
     {
-      "address": "0x95e2687b07f0dec34462fdab6bbebcc0b3ab49c6",
-      "n_trades": 12,
+      "address": "0x6a02aedceac5a6813d960e4dae1910d9c458e77c",
+      "n_trades": 10,
       "n_wins": 10,
-      "total_realized": 919385,
-      "total_win": 958445,
-      "top1_share": 0.532,
-      "top3_share": 0.892,
-      "top5_share": 0.997,
-      "net_efficiency": 0.959,
-      "mean_top_perfect": 0.99,
-      "max_top_perfect": 1.049,
-      "mean_top_fwd": 0.3233,
+      "total_realized": 272994,
+      "total_win": 272994,
+      "top1_share": 0.338,
+      "top3_share": 0.68,
+      "top5_share": 0.863,
+      "net_efficiency": 1.0,
+      "mean_top_perfect": 0.839,
+      "max_top_perfect": 1.0,
+      "mean_top_fwd": 0.0386,
       "top_trades": [
         {
-          "coin": "SOL",
+          "coin": "ETH",
           "dir": "short",
-          "realized": 509672,
-          "entry_px": 151.2167,
+          "realized": 92313,
+          "entry_px": 2144.5667,
           "open_at_end": false,
-          "perfect": 1.049,
-          "entry_pctile": 1.049,
-          "fwd_favorable": 0.3736,
-          "event_date": "2025-10-15 03:44"
+          "perfect": 1.0,
+          "entry_pctile": 1.0,
+          "fwd_favorable": 0.0976,
+          "event_date": "2026-03-29 13:10"
+        },
+        {
+          "coin": "ETH",
+          "dir": "short",
+          "realized": 63493,
+          "entry_px": 2320.0,
+          "open_at_end": false,
+          "perfect": 1.0,
+          "entry_pctile": 1.0,
+          "fwd_favorable": 0.0106,
+          "event_date": "2026-03-16 17:47"
+        },
+        {
+          "coin": "ETH",
+          "dir": "short",
+          "realized": 29817,
+          "entry_px": 2217.5,
+          "open_at_end": false,
+          "perfect": 0.28,
+          "entry_pctile": 0.28,
+          "fwd_favorable": 0.0545,
+          "event_date": "2026-03-18 18:07"
+        },
+        {
+          "coin": "ETH",
+          "dir": "long",
+          "realized": 26631,
+          "entry_px": 2191.75,
+          "open_at_end": false,
+          "perfect": 0.969,
+          "entry_pctile": 0.031,
+          "fwd_favorable": 0.0187,
+          "event_date": "2026-03-18 14:56"
+        },
+        {
+          "coin": "ETH",
+          "dir": "long",
+          "realized": 23263,
+          "entry_px": 1600.0,
+          "open_at_end": false,
+          "perfect": 0.947,
+          "entry_pctile": 0.053,
+          "fwd_favorable": 0.0115,
+          "event_date": "2026-06-05 14:06"
+        }
+      ],
+      "position": "プロトレーダー(本物)",
+      "labels": []
+    },
+    {
+      "address": "0x807ddb66768050ee457165ad6d21cc1275a896ac",
+      "n_trades": 6,
+      "n_wins": 4,
+      "total_realized": 477997,
+      "total_win": 480248,
+      "top1_share": 0.699,
+      "top3_share": 1.0,
+      "top5_share": 1.0,
+      "net_efficiency": 0.995,
+      "mean_top_perfect": 0.0,
+      "max_top_perfect": 0.0,
+      "mean_top_fwd": -0.0238,
+      "top_trades": [
+        {
+          "coin": "BTC",
+          "dir": "short",
+          "realized": 335775,
+          "entry_px": 98368.4781,
+          "open_at_end": false
         },
         {
           "coin": "SOL",
           "dir": "short",
-          "realized": 259447,
-          "entry_px": 227.3104,
+          "realized": 139318,
+          "entry_px": 182.9945,
+          "open_at_end": false
+        },
+        {
+          "coin": "ETH",
+          "dir": "short",
+          "realized": 5152,
+          "entry_px": 2924.8351,
           "open_at_end": false
         },
         {
           "coin": "BTC",
           "dir": "short",
-          "realized": 86137,
-          "entry_px": 97114.0419,
-          "open_at_end": false,
-          "perfect": 0.964,
-          "entry_pctile": 0.964,
-          "fwd_favorable": 0.2322,
-          "event_date": "2025-10-15 03:46"
-        },
-        {
-          "coin": "ETH",
-          "dir": "short",
-          "realized": 75536,
-          "entry_px": 3391.2629,
-          "open_at_end": false,
-          "perfect": 0.956,
-          "entry_pctile": 0.956,
-          "fwd_favorable": 0.364,
-          "event_date": "2025-10-15 03:47"
-        },
-        {
-          "coin": "ETH",
-          "dir": "short",
-          "realized": 24373,
-          "entry_px": 4316.135,
-          "open_at_end": false
-        }
-      ],
-      "position": "プロトレーダー(本物)",
-      "labels": []
-    },
-    {
-      "address": "0x4cc390eada38741fe9c77036b7c38537fb5f38ea",
-      "n_trades": 6,
-      "n_wins": 5,
-      "total_realized": 162395,
-      "total_win": 204590,
-      "top1_share": 0.857,
-      "top3_share": 0.971,
-      "top5_share": 1.0,
-      "net_efficiency": 0.794,
-      "mean_top_perfect": null,
-      "max_top_perfect": null,
-      "mean_top_fwd": null,
-      "top_trades": [
-        {
-          "coin": "ETH",
-          "dir": "short",
-          "realized": 175275,
-          "entry_px": 3433.204,
-          "open_at_end": false
-        },
-        {
-          "coin": "ETH",
-          "dir": "long",
-          "realized": 16287,
-          "entry_px": 2518.6,
-          "open_at_end": false
-        },
-        {
-          "coin": "SOL",
-          "dir": "short",
-          "realized": 7004,
-          "entry_px": 168.232,
-          "open_at_end": true
-        },
-        {
-          "coin": "SOL",
-          "dir": "short",
-          "realized": 4037,
-          "entry_px": 147.7237,
-          "open_at_end": false
-        },
-        {
-          "coin": "ETH",
-          "dir": "long",
-          "realized": 1988,
-          "entry_px": 2658.65,
-          "open_at_end": false
+          "realized": 3,
+          "entry_px": 74353.484,
+          "open_at_end": true,
+          "perfect": 0.0,
+          "entry_pctile": 0.0,
+          "fwd_favorable": -0.0238,
+          "event_date": "2026-05-19 11:46"
         }
       ],
       "position": "プロトレーダー(本物)",
       "labels": [
-        "🤓 Smart HL Perps Trader [0x4cc390]"
+        "🤓 Smart HL Perps Trader [0x807ddb]"
       ]
     },
     {
-      "address": "0x79399dac99daa4a77d2bcd8ef6f5abf5966468e7",
-      "n_trades": 1,
-      "n_wins": 1,
-      "total_realized": 20933,
-      "total_win": 20933,
-      "top1_share": 1.0,
-      "top3_share": 1.0,
-      "top5_share": 1.0,
-      "net_efficiency": 1.0,
+      "address": "0x5049695d6faacffd34f2d24f3f0ff8c64d88f71c",
+      "n_trades": 15,
+      "n_wins": 8,
+      "total_realized": 332299,
+      "total_win": 400473,
+      "top1_share": 0.509,
+      "top3_share": 0.968,
+      "top5_share": 0.991,
+      "net_efficiency": 0.83,
       "mean_top_perfect": null,
       "max_top_perfect": null,
       "mean_top_fwd": null,
       "top_trades": [
         {
+          "coin": "BTC",
+          "dir": "short",
+          "realized": 203654,
+          "entry_px": 90603.1208,
+          "open_at_end": false
+        },
+        {
           "coin": "ETH",
+          "dir": "short",
+          "realized": 161254,
+          "entry_px": 2687.4451,
+          "open_at_end": false
+        },
+        {
+          "coin": "BTC",
+          "dir": "short",
+          "realized": 22761,
+          "entry_px": 123702.3959,
+          "open_at_end": false
+        },
+        {
+          "coin": "BTC",
+          "dir": "short",
+          "realized": 5390,
+          "entry_px": 118017.1667,
+          "open_at_end": false
+        },
+        {
+          "coin": "SOL",
           "dir": "long",
-          "realized": 20933,
-          "entry_px": 2534.1345,
+          "realized": 3875,
+          "entry_px": 159.72,
           "open_at_end": false
         }
       ],
       "position": "プロトレーダー(本物)",
       "labels": [
-        "🤓 Smart HL Perps Trader [0x79399d]"
+        "Former Smart Trader [0x504969]"
       ]
     },
     {
@@ -2664,9 +2326,9 @@
       "top3_share": 1.0,
       "top5_share": 1.0,
       "net_efficiency": 1.0,
-      "mean_top_perfect": 0.745,
-      "max_top_perfect": 0.745,
-      "mean_top_fwd": 0.0854,
+      "mean_top_perfect": 0.367,
+      "max_top_perfect": 0.367,
+      "mean_top_fwd": 0.0337,
       "top_trades": [
         {
           "coin": "SOL",
@@ -2681,9 +2343,9 @@
           "realized": 18,
           "entry_px": 103.57,
           "open_at_end": false,
-          "perfect": 0.745,
-          "entry_pctile": 0.745,
-          "fwd_favorable": 0.0854,
+          "perfect": 0.367,
+          "entry_pctile": 0.367,
+          "fwd_favorable": 0.0337,
           "event_date": "2026-01-31 22:20"
         }
       ],
@@ -2802,41 +2464,9 @@
     },
     {
       "address": "0x7ee069137842a195d06b533d714ba507290a3956",
-      "n_trades": 2,
-      "n_wins": 2,
-      "total_realized": 149923,
-      "total_win": 149923,
-      "top1_share": 0.615,
-      "top3_share": 1.0,
-      "top5_share": 1.0,
-      "net_efficiency": 1.0,
-      "mean_top_perfect": 0.62,
-      "max_top_perfect": 0.621,
-      "mean_top_fwd": 0.0919,
-      "top_trades": [
-        {
-          "coin": "ETH",
-          "dir": "short",
-          "realized": 92221,
-          "entry_px": 2246.4807,
-          "open_at_end": false,
-          "perfect": 0.621,
-          "entry_pctile": 0.621,
-          "fwd_favorable": 0.0999,
-          "event_date": "2026-03-16 06:29"
-        },
-        {
-          "coin": "SOL",
-          "dir": "short",
-          "realized": 57702,
-          "entry_px": 92.8549,
-          "open_at_end": false,
-          "perfect": 0.619,
-          "entry_pctile": 0.619,
-          "fwd_favorable": 0.0838,
-          "event_date": "2026-03-16 06:30"
-        }
-      ],
+      "n_trades": 0,
+      "total_realized": 0,
+      "no_profit": true,
       "position": "プロトレーダー(本物)",
       "labels": []
     },
@@ -2933,42 +2563,30 @@
       "top3_share": 0.688,
       "top5_share": 0.837,
       "net_efficiency": 0.812,
-      "mean_top_perfect": 2.092,
-      "max_top_perfect": 2.7,
-      "mean_top_fwd": 0.3352,
+      "mean_top_perfect": null,
+      "max_top_perfect": null,
+      "mean_top_fwd": null,
       "top_trades": [
         {
           "coin": "ETH",
           "dir": "short",
           "realized": 77250,
           "entry_px": 4075.12,
-          "open_at_end": false,
-          "perfect": 1.758,
-          "entry_pctile": 1.758,
-          "fwd_favorable": 0.3567,
-          "event_date": "2025-10-13 10:48"
+          "open_at_end": false
         },
         {
           "coin": "SOL",
           "dir": "short",
           "realized": 71626,
           "entry_px": 197.87,
-          "open_at_end": false,
-          "perfect": 2.7,
-          "entry_pctile": 2.7,
-          "fwd_favorable": 0.4096,
-          "event_date": "2025-10-13 07:14"
+          "open_at_end": false
         },
         {
           "coin": "BTC",
           "dir": "short",
           "realized": 37190,
           "entry_px": 105965.0,
-          "open_at_end": false,
-          "perfect": 1.817,
-          "entry_pctile": 1.817,
-          "fwd_favorable": 0.2392,
-          "event_date": "2025-11-01 14:38"
+          "open_at_end": false
         },
         {
           "coin": "BTC",
@@ -2991,73 +2609,63 @@
       ]
     },
     {
-      "address": "0x74da055d4ccf9dca3f15789c603e1a88a1d2d81f",
-      "n_trades": 24,
-      "n_wins": 15,
-      "total_realized": 3296241,
-      "total_win": 3753971,
-      "top1_share": 0.538,
-      "top3_share": 0.832,
-      "top5_share": 0.909,
-      "net_efficiency": 0.878,
-      "mean_top_perfect": 0.709,
-      "max_top_perfect": 0.819,
-      "mean_top_fwd": 0.0491,
+      "address": "0x1e6db0fdf1a0f6edb78753184eb0fe5485c2eef2",
+      "n_trades": 2,
+      "n_wins": 2,
+      "total_realized": 328868,
+      "total_win": 328868,
+      "top1_share": 0.967,
+      "top3_share": 1.0,
+      "top5_share": 1.0,
+      "net_efficiency": 1.0,
+      "mean_top_perfect": null,
+      "max_top_perfect": null,
+      "mean_top_fwd": null,
       "top_trades": [
         {
           "coin": "BTC",
-          "dir": "short",
-          "realized": 2019401,
-          "entry_px": 72693.7218,
-          "open_at_end": false,
-          "perfect": 0.819,
-          "entry_pctile": 0.819,
-          "fwd_favorable": 0.0901,
-          "event_date": "2026-02-04 23:50"
-        },
-        {
-          "coin": "BTC",
-          "dir": "short",
-          "realized": 685926,
-          "entry_px": 77208.7986,
-          "open_at_end": false,
-          "perfect": 0.675,
-          "entry_pctile": 0.675,
-          "fwd_favorable": 0.0558,
-          "event_date": "2026-02-01 15:26"
-        },
-        {
-          "coin": "BTC",
-          "dir": "short",
-          "realized": 419162,
-          "entry_px": 88023.4415,
-          "open_at_end": false,
-          "perfect": 0.591,
-          "entry_pctile": 0.591,
-          "fwd_favorable": 0.042,
-          "event_date": "2026-01-26 17:14"
+          "dir": "long",
+          "realized": 318001,
+          "entry_px": 83176.8209,
+          "open_at_end": false
         },
         {
           "coin": "BTC",
           "dir": "long",
-          "realized": 157417,
-          "entry_px": 81771.1222,
-          "open_at_end": false,
-          "perfect": 0.793,
-          "entry_pctile": 0.207,
-          "fwd_favorable": 0.0361,
-          "event_date": "2026-01-30 02:31"
-        },
+          "realized": 10867,
+          "entry_px": 101846.3585,
+          "open_at_end": false
+        }
+      ],
+      "position": "プロトレーダー(本物)",
+      "labels": [
+        "Token Millionaire"
+      ]
+    },
+    {
+      "address": "0x74da055d4ccf9dca3f15789c603e1a88a1d2d81f",
+      "n_trades": 4,
+      "n_wins": 1,
+      "total_realized": 78461,
+      "total_win": 113263,
+      "top1_share": 1.0,
+      "top3_share": 1.0,
+      "top5_share": 1.0,
+      "net_efficiency": 0.693,
+      "mean_top_perfect": 0.724,
+      "max_top_perfect": 0.724,
+      "mean_top_fwd": 0.0326,
+      "top_trades": [
         {
           "coin": "BTC",
           "dir": "long",
-          "realized": 130990,
-          "entry_px": 72589.2098,
+          "realized": 113263,
+          "entry_px": 88328.4251,
           "open_at_end": false,
-          "perfect": 0.669,
-          "entry_pctile": 0.331,
-          "fwd_favorable": 0.0214,
-          "event_date": "2026-02-04 22:14"
+          "perfect": 0.724,
+          "entry_pctile": 0.276,
+          "fwd_favorable": 0.0326,
+          "event_date": "2026-01-22 17:03"
         }
       ],
       "position": "除外/低優先",
@@ -3073,20 +2681,16 @@
       "top3_share": 1.0,
       "top5_share": 1.0,
       "net_efficiency": 1.0,
-      "mean_top_perfect": 0.63,
-      "max_top_perfect": 0.63,
-      "mean_top_fwd": 0.2078,
+      "mean_top_perfect": null,
+      "max_top_perfect": null,
+      "mean_top_fwd": null,
       "top_trades": [
         {
           "coin": "BTC",
           "dir": "short",
           "realized": 3359608,
           "entry_px": 87291.8457,
-          "open_at_end": false,
-          "perfect": 0.63,
-          "entry_pctile": 0.63,
-          "fwd_favorable": 0.2078,
-          "event_date": "2025-11-18 11:56"
+          "open_at_end": false
         }
       ],
       "position": "プロトレーダー(本物)",
@@ -3104,31 +2708,23 @@
       "top3_share": 0.713,
       "top5_share": 0.864,
       "net_efficiency": 0.944,
-      "mean_top_perfect": 0.833,
-      "max_top_perfect": 0.916,
-      "mean_top_fwd": 0.1779,
+      "mean_top_perfect": null,
+      "max_top_perfect": null,
+      "mean_top_fwd": null,
       "top_trades": [
         {
           "coin": "BTC",
           "dir": "short",
           "realized": 3186069,
           "entry_px": 96495.1288,
-          "open_at_end": true,
-          "perfect": 0.916,
-          "entry_pctile": 0.916,
-          "fwd_favorable": 0.1646,
-          "event_date": "2025-10-21 09:24"
+          "open_at_end": true
         },
         {
           "coin": "ETH",
           "dir": "short",
           "realized": 1885647,
           "entry_px": 3241.0162,
-          "open_at_end": true,
-          "perfect": 0.749,
-          "entry_pctile": 0.749,
-          "fwd_favorable": 0.1912,
-          "event_date": "2025-07-23 14:36"
+          "open_at_end": true
         },
         {
           "coin": "ETH",
@@ -3161,26 +2757,22 @@
       "address": "0x6979dde2781dc4ec843641b10b2a2f2e0f4bda62",
       "n_trades": 2,
       "n_wins": 2,
-      "total_realized": 1902418,
-      "total_win": 1902418,
-      "top1_share": 0.964,
+      "total_realized": 1126534,
+      "total_win": 1126534,
+      "top1_share": 0.939,
       "top3_share": 1.0,
       "top5_share": 1.0,
       "net_efficiency": 1.0,
-      "mean_top_perfect": 0.628,
-      "max_top_perfect": 0.628,
-      "mean_top_fwd": 0.2843,
+      "mean_top_perfect": null,
+      "max_top_perfect": null,
+      "mean_top_fwd": null,
       "top_trades": [
         {
           "coin": "BTC",
           "dir": "short",
-          "realized": 1834028,
-          "entry_px": 83830.4789,
-          "open_at_end": false,
-          "perfect": 0.628,
-          "entry_pctile": 0.628,
-          "fwd_favorable": 0.2843,
-          "event_date": "2025-10-15 09:34"
+          "realized": 1058144,
+          "entry_px": 83882.64,
+          "open_at_end": true
         },
         {
           "coin": "BTC",
@@ -3196,134 +2788,6 @@
       ]
     },
     {
-      "address": "0xcefd7652228a8619d0af5b95389cd49387cd30e0",
-      "n_trades": 15,
-      "n_wins": 7,
-      "total_realized": -77162,
-      "total_win": 108052,
-      "top1_share": 0.521,
-      "top3_share": 0.904,
-      "top5_share": 0.988,
-      "net_efficiency": -0.714,
-      "mean_top_perfect": 0.716,
-      "max_top_perfect": 0.894,
-      "mean_top_fwd": 0.0457,
-      "top_trades": [
-        {
-          "coin": "BTC",
-          "dir": "long",
-          "realized": 56251,
-          "entry_px": 60697.9195,
-          "open_at_end": false,
-          "perfect": 0.894,
-          "entry_pctile": 0.106,
-          "fwd_favorable": 0.0973,
-          "event_date": "2026-02-06 00:18"
-        },
-        {
-          "coin": "ETH",
-          "dir": "short",
-          "realized": 30706,
-          "entry_px": 2050.3617,
-          "open_at_end": false,
-          "perfect": 0.606,
-          "entry_pctile": 0.606,
-          "fwd_favorable": 0.0703,
-          "event_date": "2026-02-26 02:11"
-        },
-        {
-          "coin": "BTC",
-          "dir": "short",
-          "realized": 10683,
-          "entry_px": 65943.9692,
-          "open_at_end": false,
-          "perfect": 0.85,
-          "entry_pctile": 0.85,
-          "fwd_favorable": 0.0328,
-          "event_date": "2026-02-25 01:45"
-        },
-        {
-          "coin": "BTC",
-          "dir": "long",
-          "realized": 4959,
-          "entry_px": 88186.0,
-          "open_at_end": false,
-          "perfect": 0.538,
-          "entry_pctile": 0.462,
-          "fwd_favorable": 0.009,
-          "event_date": "2026-01-27 01:05"
-        },
-        {
-          "coin": "BTC",
-          "dir": "short",
-          "realized": 4115,
-          "entry_px": 67718.0,
-          "open_at_end": false,
-          "perfect": 0.69,
-          "entry_pctile": 0.69,
-          "fwd_favorable": 0.0191,
-          "event_date": "2026-02-20 06:01"
-        }
-      ],
-      "position": "プロトレーダー(本物)",
-      "labels": [
-        "HL Perps Day Trader [0xcefd76]"
-      ]
-    },
-    {
-      "address": "0x3b11267dfc4b9ebe8427e8f557056b4b6ce98112",
-      "n_trades": 4,
-      "n_wins": 3,
-      "total_realized": 43195,
-      "total_win": 69695,
-      "top1_share": 0.779,
-      "top3_share": 1.0,
-      "top5_share": 1.0,
-      "net_efficiency": 0.62,
-      "mean_top_perfect": 0.83,
-      "max_top_perfect": 0.889,
-      "mean_top_fwd": 0.0173,
-      "top_trades": [
-        {
-          "coin": "SOL",
-          "dir": "short",
-          "realized": 54300,
-          "entry_px": 94.26,
-          "open_at_end": false,
-          "perfect": 0.889,
-          "entry_pctile": 0.889,
-          "fwd_favorable": 0.0269,
-          "event_date": "2026-03-18 10:21"
-        },
-        {
-          "coin": "SOL",
-          "dir": "long",
-          "realized": 14047,
-          "entry_px": 87.54,
-          "open_at_end": false,
-          "perfect": 0.855,
-          "entry_pctile": 0.145,
-          "fwd_favorable": 0.0166,
-          "event_date": "2026-03-15 13:50"
-        },
-        {
-          "coin": "SOL",
-          "dir": "short",
-          "realized": 1349,
-          "entry_px": 88.555,
-          "open_at_end": false,
-          "perfect": 0.745,
-          "entry_pctile": 0.745,
-          "fwd_favorable": 0.0085,
-          "event_date": "2026-03-15 09:31"
-        }
-      ],
-      "position": "プロトレーダー(本物)",
-      "labels": [
-        "High Balance"
-      ]
-    },
-    {
       "address": "0x5638484ba2d2f1d1d35020572b0aa439a9869192",
       "n_trades": 3,
       "n_wins": 3,
@@ -3333,9 +2797,9 @@
       "top3_share": 1.0,
       "top5_share": 1.0,
       "net_efficiency": 1.0,
-      "mean_top_perfect": 0.877,
-      "max_top_perfect": 0.881,
-      "mean_top_fwd": 0.1547,
+      "mean_top_perfect": 1.0,
+      "max_top_perfect": 1.0,
+      "mean_top_fwd": 0.0292,
       "top_trades": [
         {
           "coin": "BTC",
@@ -3343,9 +2807,9 @@
           "realized": 524741,
           "entry_px": 85572.0211,
           "open_at_end": false,
-          "perfect": 0.873,
-          "entry_pctile": 0.127,
-          "fwd_favorable": 0.1446,
+          "perfect": 1.0,
+          "entry_pctile": 0.0,
+          "fwd_favorable": 0.025,
           "event_date": "2025-12-01 00:58"
         },
         {
@@ -3361,9 +2825,9 @@
           "realized": 257827,
           "entry_px": 2780.1478,
           "open_at_end": false,
-          "perfect": 0.881,
-          "entry_pctile": 0.119,
-          "fwd_favorable": 0.1649,
+          "perfect": 1.0,
+          "entry_pctile": 0.0,
+          "fwd_favorable": 0.0334,
           "event_date": "2025-12-01 01:01"
         }
       ],
@@ -3377,18 +2841,135 @@
       ]
     },
     {
+      "address": "0x4b4bdd734b87bc48683d24f1dc6159e3ab6d6409",
+      "n_trades": 3,
+      "n_wins": 3,
+      "total_realized": 916965,
+      "total_win": 916965,
+      "top1_share": 0.708,
+      "top3_share": 1.0,
+      "top5_share": 1.0,
+      "net_efficiency": 1.0,
+      "mean_top_perfect": 0.516,
+      "max_top_perfect": 0.797,
+      "mean_top_fwd": 0.013,
+      "top_trades": [
+        {
+          "coin": "BTC",
+          "dir": "short",
+          "realized": 649528,
+          "entry_px": 74028.8745,
+          "open_at_end": false,
+          "perfect": 0.797,
+          "entry_pctile": 0.797,
+          "fwd_favorable": 0.0105,
+          "event_date": "2026-05-31 01:45"
+        },
+        {
+          "coin": "BTC",
+          "dir": "short",
+          "realized": 264856,
+          "entry_px": 75871.567,
+          "open_at_end": false,
+          "perfect": 0.111,
+          "entry_pctile": 0.111,
+          "fwd_favorable": 0.0216,
+          "event_date": "2026-05-22 20:42"
+        },
+        {
+          "coin": "BTC",
+          "dir": "short",
+          "realized": 2581,
+          "entry_px": 73884.9017,
+          "open_at_end": false,
+          "perfect": 0.639,
+          "entry_pctile": 0.639,
+          "fwd_favorable": 0.0069,
+          "event_date": "2026-05-30 16:46"
+        }
+      ],
+      "position": "プロトレーダー(本物)",
+      "labels": [
+        "HL Perps Whale [0x4b4bdd]"
+      ]
+    },
+    {
+      "address": "0x1e5b1efd99c89d39b59b28a19e6b42bbeb98433b",
+      "n_trades": 1,
+      "n_wins": 1,
+      "total_realized": 1026143,
+      "total_win": 1026143,
+      "top1_share": 1.0,
+      "top3_share": 1.0,
+      "top5_share": 1.0,
+      "net_efficiency": 1.0,
+      "mean_top_perfect": null,
+      "max_top_perfect": null,
+      "mean_top_fwd": null,
+      "top_trades": [
+        {
+          "coin": "BTC",
+          "dir": "short",
+          "realized": 1026143,
+          "entry_px": 114449.8466,
+          "open_at_end": false
+        }
+      ],
+      "position": "プロトレーダー(本物)",
+      "labels": [
+        "​​Yield Farmer [0x1e5b1e]"
+      ]
+    },
+    {
+      "address": "0x7de07bb8a43c1953a019906cf2c8287dae478be9",
+      "n_trades": 3,
+      "n_wins": 1,
+      "total_realized": 1016225,
+      "total_win": 1055310,
+      "top1_share": 1.0,
+      "top3_share": 1.0,
+      "top5_share": 1.0,
+      "net_efficiency": 0.963,
+      "mean_top_perfect": null,
+      "max_top_perfect": null,
+      "mean_top_fwd": null,
+      "top_trades": [
+        {
+          "coin": "ETH",
+          "dir": "short",
+          "realized": 1055310,
+          "entry_px": 4083.5736,
+          "open_at_end": false
+        }
+      ],
+      "position": "プロトレーダー(本物)",
+      "labels": [
+        "Token Millionaire"
+      ]
+    },
+    {
+      "address": "0x7c9063122c01837fe83da2521056e10c9b6dd129",
+      "n_trades": 1,
+      "total_realized": -41,
+      "no_profit": true,
+      "position": "プロトレーダー(本物)",
+      "labels": [
+        "Token Millionaire"
+      ]
+    },
+    {
       "address": "0xae551d73161bac3315c5ade0e2d499a44ebe2236",
-      "n_trades": 9,
-      "n_wins": 6,
+      "n_trades": 5,
+      "n_wins": 4,
       "total_realized": 98108,
       "total_win": 108996,
       "top1_share": 0.957,
       "top3_share": 0.998,
       "top5_share": 1.0,
       "net_efficiency": 0.9,
-      "mean_top_perfect": 0.59,
-      "max_top_perfect": 0.777,
-      "mean_top_fwd": 0.0407,
+      "mean_top_perfect": 0.883,
+      "max_top_perfect": 0.883,
+      "mean_top_fwd": 0.0745,
       "top_trades": [
         {
           "coin": "BTC",
@@ -3396,9 +2977,9 @@
           "realized": 104352,
           "entry_px": 63500.0,
           "open_at_end": false,
-          "perfect": 0.635,
-          "entry_pctile": 0.365,
-          "fwd_favorable": 0.0957,
+          "perfect": 0.883,
+          "entry_pctile": 0.117,
+          "fwd_favorable": 0.1252,
           "event_date": "2026-02-05 20:14"
         },
         {
@@ -3414,9 +2995,9 @@
           "realized": 472,
           "entry_px": 88395.9851,
           "open_at_end": false,
-          "perfect": 0.777,
-          "entry_pctile": 0.223,
-          "fwd_favorable": 0.0233,
+          "perfect": 0.882,
+          "entry_pctile": 0.118,
+          "fwd_favorable": 0.0238,
           "event_date": "2026-01-20 22:34"
         },
         {
@@ -3425,86 +3006,11 @@
           "realized": 180,
           "entry_px": 91895.4899,
           "open_at_end": false
-        },
-        {
-          "coin": "BTC",
-          "dir": "long",
-          "realized": 0,
-          "entry_px": 64554.0,
-          "open_at_end": false,
-          "perfect": 0.357,
-          "entry_pctile": 0.643,
-          "fwd_favorable": 0.003,
-          "event_date": "2026-06-14 02:02"
         }
       ],
       "position": "プロトレーダー(本物)",
       "labels": [
         "HL Perps Perma-Bull [0xae551d]"
-      ]
-    },
-    {
-      "address": "0x0d9654172413fa8bcd2f5738a7b2fa6d19864125",
-      "n_trades": 4,
-      "n_wins": 4,
-      "total_realized": 710350,
-      "total_win": 710350,
-      "top1_share": 0.761,
-      "top3_share": 0.958,
-      "top5_share": 1.0,
-      "net_efficiency": 1.0,
-      "mean_top_perfect": 0.503,
-      "max_top_perfect": 0.76,
-      "mean_top_fwd": 0.0229,
-      "top_trades": [
-        {
-          "coin": "ETH",
-          "dir": "long",
-          "realized": 540897,
-          "entry_px": 1974.5981,
-          "open_at_end": false,
-          "perfect": 0.293,
-          "entry_pctile": 0.707,
-          "fwd_favorable": 0.0372,
-          "event_date": "2026-02-22 05:11"
-        },
-        {
-          "coin": "ETH",
-          "dir": "long",
-          "realized": 96421,
-          "entry_px": 1940.1016,
-          "open_at_end": false,
-          "perfect": 0.691,
-          "entry_pctile": 0.309,
-          "fwd_favorable": 0.0206,
-          "event_date": "2026-02-20 13:15"
-        },
-        {
-          "coin": "ETH",
-          "dir": "long",
-          "realized": 42879,
-          "entry_px": 1936.1357,
-          "open_at_end": false,
-          "perfect": 0.76,
-          "entry_pctile": 0.24,
-          "fwd_favorable": 0.0227,
-          "event_date": "2026-02-20 15:16"
-        },
-        {
-          "coin": "ETH",
-          "dir": "long",
-          "realized": 30153,
-          "entry_px": 1964.9408,
-          "open_at_end": false,
-          "perfect": 0.268,
-          "entry_pctile": 0.732,
-          "fwd_favorable": 0.011,
-          "event_date": "2026-02-19 09:28"
-        }
-      ],
-      "position": "プロトレーダー(本物)",
-      "labels": [
-        "[0x0d9654]"
       ]
     },
     {
@@ -3517,9 +3023,9 @@
       "top3_share": 1.0,
       "top5_share": 1.0,
       "net_efficiency": 1.0,
-      "mean_top_perfect": 0.719,
-      "max_top_perfect": 0.719,
-      "mean_top_fwd": 0.0314,
+      "mean_top_perfect": 0.041,
+      "max_top_perfect": 0.041,
+      "mean_top_fwd": 0.0175,
       "top_trades": [
         {
           "coin": "BTC",
@@ -3527,9 +3033,9 @@
           "realized": 700722,
           "entry_px": 67700.0,
           "open_at_end": false,
-          "perfect": 0.719,
-          "entry_pctile": 0.719,
-          "fwd_favorable": 0.0314,
+          "perfect": 0.041,
+          "entry_pctile": 0.041,
+          "fwd_favorable": 0.0175,
           "event_date": "2026-03-07 06:53"
         }
       ],
@@ -3548,9 +3054,9 @@
       "top3_share": 1.0,
       "top5_share": 1.0,
       "net_efficiency": 0.787,
-      "mean_top_perfect": 0.442,
-      "max_top_perfect": 0.667,
-      "mean_top_fwd": 0.0867,
+      "mean_top_perfect": 0.308,
+      "max_top_perfect": 0.579,
+      "mean_top_fwd": -0.0528,
       "top_trades": [
         {
           "coin": "SOL",
@@ -3558,9 +3064,9 @@
           "realized": 836129,
           "entry_px": 105.9548,
           "open_at_end": false,
-          "perfect": 0.492,
-          "entry_pctile": 0.492,
-          "fwd_favorable": 0.3627,
+          "perfect": 0.0,
+          "entry_pctile": 0.0,
+          "fwd_favorable": -0.3239,
           "event_date": "2026-01-16 08:24"
         },
         {
@@ -3569,9 +3075,9 @@
           "realized": 2,
           "entry_px": 3303.8,
           "open_at_end": false,
-          "perfect": 0.667,
-          "entry_pctile": 0.667,
-          "fwd_favorable": 0.0389,
+          "perfect": 0.264,
+          "entry_pctile": 0.264,
+          "fwd_favorable": 0.0152,
           "event_date": "2026-01-16 10:27"
         },
         {
@@ -3580,9 +3086,9 @@
           "realized": 1,
           "entry_px": 90999.0,
           "open_at_end": false,
-          "perfect": 0.47,
-          "entry_pctile": 0.53,
-          "fwd_favorable": 0.0165,
+          "perfect": 0.495,
+          "entry_pctile": 0.505,
+          "fwd_favorable": 0.0069,
           "event_date": "2026-01-08 09:54"
         },
         {
@@ -3591,9 +3097,9 @@
           "realized": 1,
           "entry_px": 143.1406,
           "open_at_end": false,
-          "perfect": 0.202,
-          "entry_pctile": 0.798,
-          "fwd_favorable": 0.0029,
+          "perfect": 0.579,
+          "entry_pctile": 0.421,
+          "fwd_favorable": 0.0175,
           "event_date": "2026-01-16 06:19"
         },
         {
@@ -3602,9 +3108,9 @@
           "realized": 0,
           "entry_px": 135.45,
           "open_at_end": false,
-          "perfect": 0.38,
-          "entry_pctile": 0.38,
-          "fwd_favorable": 0.0126,
+          "perfect": 0.204,
+          "entry_pctile": 0.204,
+          "fwd_favorable": 0.0205,
           "event_date": "2026-01-08 06:19"
         }
       ],
@@ -3623,9 +3129,9 @@
       "top3_share": 0.396,
       "top5_share": 0.51,
       "net_efficiency": 0.672,
-      "mean_top_perfect": 0.462,
-      "max_top_perfect": 0.462,
-      "mean_top_fwd": 0.0957,
+      "mean_top_perfect": 1.0,
+      "max_top_perfect": 1.0,
+      "mean_top_fwd": 0.0655,
       "top_trades": [
         {
           "coin": "ETH",
@@ -3640,9 +3146,9 @@
           "realized": 69804,
           "entry_px": 67530.2499,
           "open_at_end": false,
-          "perfect": 0.462,
-          "entry_pctile": 0.538,
-          "fwd_favorable": 0.0957,
+          "perfect": 1.0,
+          "entry_pctile": 0.0,
+          "fwd_favorable": 0.0655,
           "event_date": "2026-02-05 07:36"
         },
         {
@@ -3680,9 +3186,9 @@
       "top3_share": 1.0,
       "top5_share": 1.0,
       "net_efficiency": 1.0,
-      "mean_top_perfect": 0.901,
-      "max_top_perfect": 0.901,
-      "mean_top_fwd": 0.4626,
+      "mean_top_perfect": 0.683,
+      "max_top_perfect": 0.683,
+      "mean_top_fwd": 0.0578,
       "top_trades": [
         {
           "coin": "ETH",
@@ -3690,9 +3196,9 @@
           "realized": 613832,
           "entry_px": 3238.9358,
           "open_at_end": false,
-          "perfect": 0.901,
-          "entry_pctile": 0.901,
-          "fwd_favorable": 0.4626,
+          "perfect": 0.683,
+          "entry_pctile": 0.683,
+          "fwd_favorable": 0.0578,
           "event_date": "2025-12-12 14:10"
         }
       ],
@@ -3703,50 +3209,38 @@
     },
     {
       "address": "0xdb79fe310ea2972137d2a23658db0234902b517d",
-      "n_trades": 15,
+      "n_trades": 17,
       "n_wins": 8,
-      "total_realized": 405262,
+      "total_realized": 402300,
       "total_win": 557098,
       "top1_share": 0.665,
       "top3_share": 0.885,
       "top5_share": 0.961,
-      "net_efficiency": 0.727,
-      "mean_top_perfect": 1.248,
-      "max_top_perfect": 1.503,
-      "mean_top_fwd": 0.432,
+      "net_efficiency": 0.722,
+      "mean_top_perfect": null,
+      "max_top_perfect": null,
+      "mean_top_fwd": null,
       "top_trades": [
         {
           "coin": "BTC",
           "dir": "short",
           "realized": 370399,
           "entry_px": 117050.4698,
-          "open_at_end": false,
-          "perfect": 1.503,
-          "entry_pctile": 1.503,
-          "fwd_favorable": 0.4874,
-          "event_date": "2025-08-11 14:59"
+          "open_at_end": false
         },
         {
           "coin": "ETH",
           "dir": "short",
           "realized": 91357,
           "entry_px": 3780.2731,
-          "open_at_end": false,
-          "perfect": 1.401,
-          "entry_pctile": 1.401,
-          "fwd_favorable": 0.3066,
-          "event_date": "2025-08-08 19:03"
+          "open_at_end": false
         },
         {
           "coin": "SOL",
           "dir": "short",
           "realized": 31311,
           "entry_px": 135.5705,
-          "open_at_end": false,
-          "perfect": 0.839,
-          "entry_pctile": 0.839,
-          "fwd_favorable": 0.502,
-          "event_date": "2025-08-13 10:10"
+          "open_at_end": false
         },
         {
           "coin": "ETH",
@@ -3769,6 +3263,59 @@
       ]
     },
     {
+      "address": "0x8250a7f9fca9c33e68eead8c05c1d58c8fd70d13",
+      "n_trades": 28,
+      "n_wins": 11,
+      "total_realized": 32193,
+      "total_win": 68867,
+      "top1_share": 0.794,
+      "top3_share": 0.918,
+      "top5_share": 0.961,
+      "net_efficiency": 0.467,
+      "mean_top_perfect": null,
+      "max_top_perfect": null,
+      "mean_top_fwd": null,
+      "top_trades": [
+        {
+          "coin": "ETH",
+          "dir": "long",
+          "realized": 54667,
+          "entry_px": 2810.8772,
+          "open_at_end": false
+        },
+        {
+          "coin": "ETH",
+          "dir": "long",
+          "realized": 5294,
+          "entry_px": 2258.6462,
+          "open_at_end": false
+        },
+        {
+          "coin": "SOL",
+          "dir": "long",
+          "realized": 3238,
+          "entry_px": 93.3336,
+          "open_at_end": false
+        },
+        {
+          "coin": "ETH",
+          "dir": "short",
+          "realized": 1859,
+          "entry_px": 2299.1,
+          "open_at_end": false
+        },
+        {
+          "coin": "ETH",
+          "dir": "long",
+          "realized": 1135,
+          "entry_px": 2175.506,
+          "open_at_end": false
+        }
+      ],
+      "position": "プロトレーダー(本物)",
+      "labels": []
+    },
+    {
       "address": "0x3adaa1d2d0598c9b661a746649d20e1e8aad9b3a",
       "n_trades": 1,
       "n_wins": 1,
@@ -3778,9 +3325,9 @@
       "top3_share": 1.0,
       "top5_share": 1.0,
       "net_efficiency": 1.0,
-      "mean_top_perfect": 0.734,
-      "max_top_perfect": 0.734,
-      "mean_top_fwd": 0.1493,
+      "mean_top_perfect": 0.064,
+      "max_top_perfect": 0.064,
+      "mean_top_fwd": 0.0045,
       "top_trades": [
         {
           "coin": "BTC",
@@ -3788,9 +3335,9 @@
           "realized": 540758,
           "entry_px": 85223.3089,
           "open_at_end": false,
-          "perfect": 0.734,
-          "entry_pctile": 0.266,
-          "fwd_favorable": 0.1493,
+          "perfect": 0.064,
+          "entry_pctile": 0.936,
+          "fwd_favorable": 0.0045,
           "event_date": "2025-11-21 17:10"
         }
       ],
@@ -3803,37 +3350,33 @@
       "address": "0x8a48dcaffdf71c547cd0fd0434ae40fa57bcbf0f",
       "n_trades": 4,
       "n_wins": 4,
-      "total_realized": 315857,
-      "total_win": 315857,
-      "top1_share": 0.512,
+      "total_realized": 402850,
+      "total_win": 402850,
+      "top1_share": 0.588,
       "top3_share": 0.999,
       "top5_share": 1.0,
       "net_efficiency": 1.0,
-      "mean_top_perfect": 0.917,
-      "max_top_perfect": 1.024,
-      "mean_top_fwd": 0.4181,
+      "mean_top_perfect": 0.112,
+      "max_top_perfect": 0.112,
+      "mean_top_fwd": -0.026,
       "top_trades": [
+        {
+          "coin": "ETH",
+          "dir": "short",
+          "realized": 236840,
+          "entry_px": 3125.6303,
+          "open_at_end": false,
+          "perfect": 0.112,
+          "entry_pctile": 0.112,
+          "fwd_favorable": -0.026,
+          "event_date": "2025-12-10 02:38"
+        },
         {
           "coin": "BTC",
           "dir": "short",
           "realized": 161749,
           "entry_px": 98849.744,
-          "open_at_end": false,
-          "perfect": 1.024,
-          "entry_pctile": 1.024,
-          "fwd_favorable": 0.393,
-          "event_date": "2025-10-27 02:29"
-        },
-        {
-          "coin": "ETH",
-          "dir": "short",
-          "realized": 149848,
-          "entry_px": 3125.6303,
-          "open_at_end": true,
-          "perfect": 0.811,
-          "entry_pctile": 0.811,
-          "fwd_favorable": 0.4431,
-          "event_date": "2025-12-10 02:38"
+          "open_at_end": false
         },
         {
           "coin": "SOL",
