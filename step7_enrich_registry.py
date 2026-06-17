@@ -70,12 +70,14 @@ def main():
     reg = json.load(open(REGISTRY, encoding="utf-8"))
     wallets = reg["wallets"]
 
+    WATCH = {"インサイダー疑惑(要監視)", "弱い疑惑(監視継続)", "💸 出金疑い(要監視)",
+             "プロトレーダー(本物)", "プロトレーダー(未精査)"}
     if explicit:
         targets = [k for k in wallets if k in {a.lower() for a in explicit}]
     elif do_all:
         targets = list(wallets)
     else:
-        targets = [k for k, e in wallets.items() if e.get("position") != "除外/低優先"]
+        targets = [k for k, e in wallets.items() if e.get("position") in WATCH]
 
     today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
     print(f"Nansen照会対象: {len(targets)} 件")
