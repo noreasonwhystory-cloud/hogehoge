@@ -152,12 +152,15 @@ def main():
         entry["labels"] = np_["labels"]; entry["first_funders"] = np_["first_funders"]
         entry["counterparties"] = np_["counterparties"]; entry["nansen_checked"] = today
         entry["held_positions"] = hp["held_positions"]
+        _at_pnl = (lb.get("allTime") or {}).get("pnl") or 0
+        _acct = hp.get("account_value") or 0
         entry["auto_tags"] = tagging.derive_tags({
             "roi": (lb.get("allTime") or {}).get("roi"),
-            "pnl": (lb.get("allTime") or {}).get("pnl"),
+            "pnl": _at_pnl,
             "n_fills": hp.get("n_fills_recent"), "avg_hold_h": hp.get("avg_hold_h"),
             "held": hp.get("held_positions"), "leverage": hp.get("leverage"),
             "top_coins": hp.get("top_coins"), "labels": np_.get("labels"),
+            "cashout_ratio": round(_at_pnl / _acct, 1) if _acct else 0,
         })
         entry["current"] = snap
         entry["history"] = [h for h in entry.get("history", []) if h.get("date") != today]

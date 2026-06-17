@@ -215,8 +215,12 @@ def main():
     def cat_of(d):
         return d.get("hl", {}).get("category", "excluded")
 
+    def is_cashout(d):
+        return (d.get("hl", {}).get("cashout_ratio") or 0) >= 10
+
     insiders = [d for d in dossiers if cat_of(d) == "insider_suspect"]
-    pros = [d for d in dossiers if cat_of(d) == "pro_trader"]
+    # 出金疑いは（インサイダー以外なら）プロでも除外でも出金セクションへ格上げ
+    pros = [d for d in dossiers if cat_of(d) == "pro_trader" and not is_cashout(d)]
     excluded = [d for d in dossiers if cat_of(d) == "excluded"]
 
     def avg_hold(group):
@@ -245,6 +249,10 @@ def main():
 
     insider_cards = render_group(insiders)
     pro_cards = render_group(pros)
+    # 💸 出金疑い: excluded に沈んでいる高比率(PnL÷残高)ウォレットを別セクションで格上げ表示
+    cashouts = [d for d in dossiers if is_cashout(d) and cat_of(d) != "insider_suspect"]
+    cashouts.sort(key=lambda d: d["hl"].get("cashout_ratio", 0), reverse=True)
+    cashout_cards = render_group(cashouts)
     # 手動追加CA（registry由来・ranked.jsonに無い分）
     manual_cas = load_manual_cas()
     manual_cards = render_group(manual_cas)
@@ -266,6 +274,8 @@ def main():
         f"{insider_cards or '<p class=muted>該当なし</p>'}"
         f"<h2 class='sec'>🔵 プロトレーダー（{len(pros)}件）</h2>"
         f"{pro_cards or '<p class=muted>該当なし</p>'}"
+        + (f"<h2 class='sec'>💸 出金疑い（{len(cashouts)}件・稼いで引き上げた hit-and-run 疑い）</h2>{cashout_cards}"
+           if cashouts else "")
         + (f"<h2 class='sec'>🟢 手動追加CA（{len(manual_cas)}件・高頻度プロ/HFT）</h2>{manual_cards}"
            if manual_cas else "")
     )

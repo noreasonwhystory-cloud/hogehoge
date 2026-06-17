@@ -36,18 +36,21 @@ def today():
     return datetime.now(timezone.utc).strftime("%Y-%m-%d")
 
 
-def position_of(metric_cat, likelihood, tags, agreement=None):
+def position_of(metric_cat, likelihood, tags, agreement=None, cashout_ratio=None):
     """ウォレットの「位置づけ」を個体ごとの独立評価で決める。
     協調クラスタ所属は position に使わず tags に留める（個別の素性で判定）。"""
+    # 強いインサイダー疑惑は最優先
+    if likelihood is not None and likelihood >= 0.45:
+        return "インサイダー疑惑(要監視)"
+    if likelihood is not None and likelihood >= 0.25:
+        return "弱い疑惑(監視継続)"
+    # 出金(hit-and-run)疑い: 大金を稼いで引き上げた層。majors成績に関係なく格上げし除外に埋もれさせない。
+    if cashout_ratio and cashout_ratio >= config.CASHOUT_RATIO:
+        return "💸 出金疑い(要監視)"
     if likelihood is not None:                 # 多角分析で再評価済み
-        if likelihood >= 0.45:
-            return "インサイダー疑惑(要監視)"
-        if likelihood >= 0.25:
-            return "弱い疑惑(監視継続)"
         if metric_cat == "insider_suspect":
             return "偽陽性(数値疑惑→否定)"
         if metric_cat == "pro_trader":
-            # 多角分析がプロ格付けを否定（reckless等）したら本物扱いしない
             return "プロ格付け過大(要再検証)" if agreement == "disagree" else "プロトレーダー(本物)"
         return "除外/低優先"
     # 多角分析 未評価（数値分類のみ）
@@ -129,7 +132,7 @@ def main():
             entry["lenses_hit"] = a.get("lenses_hit", [])
             entry["alt_reasoning"] = a.get("reasoning")
         entry["position"] = position_of(w.get("category"), likelihood, entry["tags"],
-                                        entry.get("agreement"))
+                                        entry.get("agreement"), w.get("cashout_ratio"))
         # 多軸オートタグ
         win = w.get("lb_windows", {}) or {}
         at = win.get("allTime") or {}
@@ -169,12 +172,13 @@ def esc(x):
 
 
 # ポジション表示順と色
-POS_ORDER = ["インサイダー疑惑(要監視)", "弱い疑惑(監視継続)",
+POS_ORDER = ["インサイダー疑惑(要監視)", "弱い疑惑(監視継続)", "💸 出金疑い(要監視)",
              "要再検証(数値疑惑・未レビュー)", "プロトレーダー(本物)", "プロトレーダー(未精査)",
              "高頻度プロ(手動追加)", "高頻度HFT/MM(手動追加)",
              "プロ格付け過大(要再検証)", "偽陽性(数値疑惑→否定)", "除外/低優先"]
 POS_COLOR = {
     "インサイダー疑惑(要監視)": "#ff5d6c", "弱い疑惑(監視継続)": "#ffb454",
+    "💸 出金疑い(要監視)": "#f59e0b",
     "要再検証(数値疑惑・未レビュー)": "#e0c14a",
     "プロトレーダー(本物)": "#3fb950", "プロトレーダー(未精査)": "#4ea1ff",
     "高頻度プロ(手動追加)": "#2dd4bf", "高頻度HFT/MM(手動追加)": "#8b949e",

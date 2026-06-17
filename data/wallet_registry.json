@@ -1,11 +1,11 @@
 {
   "created_at": "2026-06-16T09:30:44.025402+00:00",
-  "run_count": 5,
+  "run_count": 6,
   "wallets": {
     "0x72988778525f0ce15c5ac1804ac460606a987d6c": {
       "address": "0x72988778525f0ce15c5ac1804ac460606a987d6c",
       "first_seen": "2026-06-16",
-      "times_seen": 5,
+      "times_seen": 6,
       "tags": [],
       "notes": "",
       "history": [
@@ -167,7 +167,7 @@
     "0x10b6f072fabe21bc72ffd77ff5d4414e6cef2980": {
       "address": "0x10b6f072fabe21bc72ffd77ff5d4414e6cef2980",
       "first_seen": "2026-06-16",
-      "times_seen": 5,
+      "times_seen": 6,
       "tags": [
         "cluster-A",
         "funder:0xdf747918"
@@ -323,7 +323,7 @@
     "0x128fae9d18a2f70d98a03c26bf17b67d97ce1f3c": {
       "address": "0x128fae9d18a2f70d98a03c26bf17b67d97ce1f3c",
       "first_seen": "2026-06-16",
-      "times_seen": 5,
+      "times_seen": 6,
       "tags": [],
       "notes": "",
       "history": [
@@ -536,7 +536,7 @@
     "0x83b00972aafcc3d06d45b1b823079f9a414da46e": {
       "address": "0x83b00972aafcc3d06d45b1b823079f9a414da46e",
       "first_seen": "2026-06-16",
-      "times_seen": 5,
+      "times_seen": 6,
       "tags": [],
       "notes": "",
       "history": [
@@ -634,7 +634,7 @@
     "0x9b5ae497fd1bf885a40d6f99d0c57245761e053c": {
       "address": "0x9b5ae497fd1bf885a40d6f99d0c57245761e053c",
       "first_seen": "2026-06-16",
-      "times_seen": 5,
+      "times_seen": 6,
       "tags": [],
       "notes": "",
       "history": [
@@ -824,7 +824,7 @@
     "0xdd54150be70967523a256f92db193845acf58714": {
       "address": "0xdd54150be70967523a256f92db193845acf58714",
       "first_seen": "2026-06-16",
-      "times_seen": 5,
+      "times_seen": 6,
       "tags": [],
       "notes": "",
       "history": [
@@ -877,7 +877,7 @@
     "0xbde047d965a1b13fe37d11e5df31ed110ffbb92b": {
       "address": "0xbde047d965a1b13fe37d11e5df31ed110ffbb92b",
       "first_seen": "2026-06-16",
-      "times_seen": 5,
+      "times_seen": 6,
       "tags": [],
       "notes": "",
       "history": [
@@ -1012,7 +1012,7 @@
     "0x5aadb434293b4e1b8fb2e84007e567506fe65a96": {
       "address": "0x5aadb434293b4e1b8fb2e84007e567506fe65a96",
       "first_seen": "2026-06-16",
-      "times_seen": 5,
+      "times_seen": 6,
       "tags": [],
       "notes": "",
       "history": [
@@ -1143,7 +1143,7 @@
     "0x4d3980ac9d84fc34adcd025ee2337786846343c4": {
       "address": "0x4d3980ac9d84fc34adcd025ee2337786846343c4",
       "first_seen": "2026-06-16",
-      "times_seen": 5,
+      "times_seen": 6,
       "tags": [],
       "notes": "",
       "history": [
@@ -1676,7 +1676,7 @@
     "0xd05808946809c180d190608e13f473db30aa8524": {
       "address": "0xd05808946809c180d190608e13f473db30aa8524",
       "first_seen": "2026-06-16",
-      "times_seen": 5,
+      "times_seen": 6,
       "tags": [],
       "notes": "",
       "history": [
@@ -1740,7 +1740,7 @@
     "0xfe4dec8543b0b9cec0c897a689f7af7bddb02192": {
       "address": "0xfe4dec8543b0b9cec0c897a689f7af7bddb02192",
       "first_seen": "2026-06-16",
-      "times_seen": 5,
+      "times_seen": 6,
       "tags": [],
       "notes": "",
       "history": [
@@ -1885,7 +1885,7 @@
     "0xdd08886cb92c689c7d89c88f048028293296ead1": {
       "address": "0xdd08886cb92c689c7d89c88f048028293296ead1",
       "first_seen": "2026-06-16",
-      "times_seen": 5,
+      "times_seen": 6,
       "tags": [],
       "notes": "",
       "history": [
@@ -1944,7 +1944,7 @@
     "0x5875d72130981b18692a3d29545e4038f7eb0c38": {
       "address": "0x5875d72130981b18692a3d29545e4038f7eb0c38",
       "first_seen": "2026-06-16",
-      "times_seen": 5,
+      "times_seen": 6,
       "tags": [],
       "notes": "",
       "history": [
@@ -1999,7 +1999,7 @@
     "0x2a934d40944e2b686ee9cdce74a3f67d32cd0347": {
       "address": "0x2a934d40944e2b686ee9cdce74a3f67d32cd0347",
       "first_seen": "2026-06-16",
-      "times_seen": 5,
+      "times_seen": 6,
       "tags": [],
       "notes": "",
       "history": [
@@ -2292,7 +2292,7 @@
     "0x5a5ed3083d79f31f295bcdd71fdfb7a188132538": {
       "address": "0x5a5ed3083d79f31f295bcdd71fdfb7a188132538",
       "first_seen": "2026-06-16",
-      "times_seen": 5,
+      "times_seen": 6,
       "tags": [],
       "notes": "",
       "history": [
@@ -2535,7 +2535,7 @@
     "0x8c783a3877bfab4e318a7dc521157cc89f85202c": {
       "address": "0x8c783a3877bfab4e318a7dc521157cc89f85202c",
       "first_seen": "2026-06-16",
-      "times_seen": 5,
+      "times_seen": 6,
       "tags": [],
       "notes": "",
       "history": [
@@ -2590,7 +2590,7 @@
     "0x48ec0004494081e8332589faf0747d568da79faf": {
       "address": "0x48ec0004494081e8332589faf0747d568da79faf",
       "first_seen": "2026-06-16",
-      "times_seen": 5,
+      "times_seen": 6,
       "tags": [],
       "notes": "",
       "history": [
@@ -2645,7 +2645,7 @@
     "0x96abd7547c7ef5a0c4f2bf04dcd74dd96a461b56": {
       "address": "0x96abd7547c7ef5a0c4f2bf04dcd74dd96a461b56",
       "first_seen": "2026-06-16",
-      "times_seen": 5,
+      "times_seen": 6,
       "tags": [],
       "notes": "",
       "history": [
@@ -2965,7 +2965,7 @@
     "0x136c473f6d88c1ec17c2ed6b6cb273983e028458": {
       "address": "0x136c473f6d88c1ec17c2ed6b6cb273983e028458",
       "first_seen": "2026-06-16",
-      "times_seen": 5,
+      "times_seen": 6,
       "tags": [],
       "notes": "",
       "history": [
@@ -3019,7 +3019,7 @@
     "0x51b97ab1e4381e22dd6cd04d6f67393964fe3bc1": {
       "address": "0x51b97ab1e4381e22dd6cd04d6f67393964fe3bc1",
       "first_seen": "2026-06-16",
-      "times_seen": 5,
+      "times_seen": 6,
       "tags": [],
       "notes": "",
       "history": [
@@ -3073,7 +3073,7 @@
     "0xa46aba5584adb38d458710902f7fc6677f7ab914": {
       "address": "0xa46aba5584adb38d458710902f7fc6677f7ab914",
       "first_seen": "2026-06-16",
-      "times_seen": 5,
+      "times_seen": 6,
       "tags": [],
       "notes": "",
       "history": [
@@ -3180,7 +3180,7 @@
     "0xf47fe5f0f6c3ebfde365e34e6d15fb2ed4c39cdb": {
       "address": "0xf47fe5f0f6c3ebfde365e34e6d15fb2ed4c39cdb",
       "first_seen": "2026-06-16",
-      "times_seen": 5,
+      "times_seen": 6,
       "tags": [],
       "notes": "",
       "history": [
@@ -3289,7 +3289,7 @@
     "0x7806eeb0cdfb52dbe14ed12359526eea55612cf3": {
       "address": "0x7806eeb0cdfb52dbe14ed12359526eea55612cf3",
       "first_seen": "2026-06-16",
-      "times_seen": 5,
+      "times_seen": 6,
       "tags": [],
       "notes": "",
       "history": [
@@ -3342,7 +3342,7 @@
     "0x97b1419998d4c804336c6c22519d28277bacebd7": {
       "address": "0x97b1419998d4c804336c6c22519d28277bacebd7",
       "first_seen": "2026-06-16",
-      "times_seen": 5,
+      "times_seen": 6,
       "tags": [],
       "notes": "",
       "history": [
@@ -3449,7 +3449,7 @@
     "0x56654885ad39155235336c0ff01b3337693c3882": {
       "address": "0x56654885ad39155235336c0ff01b3337693c3882",
       "first_seen": "2026-06-16",
-      "times_seen": 5,
+      "times_seen": 6,
       "tags": [],
       "notes": "",
       "history": [
@@ -3663,7 +3663,7 @@
     "0x696adb8693ed15f14f8a80bb4f9fe061f58868db": {
       "address": "0x696adb8693ed15f14f8a80bb4f9fe061f58868db",
       "first_seen": "2026-06-16",
-      "times_seen": 5,
+      "times_seen": 6,
       "tags": [],
       "notes": "",
       "history": [
@@ -3876,7 +3876,7 @@
     "0xfe8c8076596dd917a20a31007ced69ce339129a1": {
       "address": "0xfe8c8076596dd917a20a31007ced69ce339129a1",
       "first_seen": "2026-06-16",
-      "times_seen": 5,
+      "times_seen": 6,
       "tags": [],
       "notes": "",
       "history": [
@@ -3929,7 +3929,7 @@
     "0x79f2bb1fc86a1f0592fb30aa6a369a24a7fd2361": {
       "address": "0x79f2bb1fc86a1f0592fb30aa6a369a24a7fd2361",
       "first_seen": "2026-06-16",
-      "times_seen": 5,
+      "times_seen": 6,
       "tags": [],
       "notes": "",
       "history": [
@@ -3984,7 +3984,7 @@
     "0x51651b81c895e654e5402a3fc371e3b60b0dfb1e": {
       "address": "0x51651b81c895e654e5402a3fc371e3b60b0dfb1e",
       "first_seen": "2026-06-16",
-      "times_seen": 5,
+      "times_seen": 6,
       "tags": [],
       "notes": "",
       "history": [
@@ -4090,7 +4090,7 @@
     "0x014bd1b946287bfdd8afe1d8833103c3baa36d74": {
       "address": "0x014bd1b946287bfdd8afe1d8833103c3baa36d74",
       "first_seen": "2026-06-16",
-      "times_seen": 5,
+      "times_seen": 6,
       "tags": [],
       "notes": "",
       "history": [
@@ -4252,7 +4252,7 @@
     "0x0c349d9b92fbd172bbb5a17a9db0a673a6a10ad3": {
       "address": "0x0c349d9b92fbd172bbb5a17a9db0a673a6a10ad3",
       "first_seen": "2026-06-16",
-      "times_seen": 5,
+      "times_seen": 6,
       "tags": [],
       "notes": "",
       "history": [
@@ -4441,7 +4441,7 @@
     "0x6f97b7de6be7b7771e975e46bae96c35e332e172": {
       "address": "0x6f97b7de6be7b7771e975e46bae96c35e332e172",
       "first_seen": "2026-06-16",
-      "times_seen": 5,
+      "times_seen": 6,
       "tags": [],
       "notes": "",
       "history": [
@@ -4493,7 +4493,7 @@
     "0x3d356173b633d4390ac31dff045c4e20234ebbbd": {
       "address": "0x3d356173b633d4390ac31dff045c4e20234ebbbd",
       "first_seen": "2026-06-16",
-      "times_seen": 5,
+      "times_seen": 6,
       "tags": [],
       "notes": "",
       "history": [
@@ -4547,7 +4547,7 @@
     "0xd7a01b2fc57149507a1848ae142aa308bdbe05a2": {
       "address": "0xd7a01b2fc57149507a1848ae142aa308bdbe05a2",
       "first_seen": "2026-06-16",
-      "times_seen": 5,
+      "times_seen": 6,
       "tags": [],
       "notes": "",
       "history": [
@@ -4600,7 +4600,7 @@
     "0x8c96e5a2d770f9f2c9d2464ce4e741df0b2bca57": {
       "address": "0x8c96e5a2d770f9f2c9d2464ce4e741df0b2bca57",
       "first_seen": "2026-06-16",
-      "times_seen": 5,
+      "times_seen": 6,
       "tags": [],
       "notes": "",
       "history": [
@@ -4655,7 +4655,7 @@
     "0xeff7fe671d9a7acf86f48994bc5d5161042415b6": {
       "address": "0xeff7fe671d9a7acf86f48994bc5d5161042415b6",
       "first_seen": "2026-06-16",
-      "times_seen": 5,
+      "times_seen": 6,
       "tags": [],
       "notes": "",
       "history": [
@@ -4762,7 +4762,7 @@
     "0x5f2c263aa195ddad2886fc5a6b7d4f33d1a72983": {
       "address": "0x5f2c263aa195ddad2886fc5a6b7d4f33d1a72983",
       "first_seen": "2026-06-16",
-      "times_seen": 5,
+      "times_seen": 6,
       "tags": [],
       "notes": "",
       "history": [
@@ -4816,7 +4816,7 @@
     "0x57f2819c959abbcf22623d5ec1d3164b213e9711": {
       "address": "0x57f2819c959abbcf22623d5ec1d3164b213e9711",
       "first_seen": "2026-06-16",
-      "times_seen": 5,
+      "times_seen": 6,
       "tags": [],
       "notes": "",
       "history": [
@@ -4871,7 +4871,7 @@
     "0xa516541e599129095d14f7faf8b11ae670c837b0": {
       "address": "0xa516541e599129095d14f7faf8b11ae670c837b0",
       "first_seen": "2026-06-16",
-      "times_seen": 5,
+      "times_seen": 6,
       "tags": [],
       "notes": "",
       "history": [
@@ -5014,7 +5014,7 @@
     "0xd67ca2c6f8bc84acf4fa4472b82a8740dc0a53ff": {
       "address": "0xd67ca2c6f8bc84acf4fa4472b82a8740dc0a53ff",
       "first_seen": "2026-06-16",
-      "times_seen": 5,
+      "times_seen": 6,
       "tags": [
         "cluster-A",
         "funder:0xdf747918"
@@ -5216,7 +5216,7 @@
     "0x8be0b9c4dbfb90f47fb94e8968dce08d3152326c": {
       "address": "0x8be0b9c4dbfb90f47fb94e8968dce08d3152326c",
       "first_seen": "2026-06-16",
-      "times_seen": 5,
+      "times_seen": 6,
       "tags": [],
       "notes": "",
       "history": [
@@ -6066,7 +6066,7 @@
     "0xc6758a779bccee1ef0190dbe8292fdf44076795d": {
       "address": "0xc6758a779bccee1ef0190dbe8292fdf44076795d",
       "first_seen": "2026-06-17",
-      "times_seen": 1,
+      "times_seen": 2,
       "tags": [],
       "notes": "",
       "history": [
@@ -6109,7 +6109,7 @@
     "0x99b1098d9d50aa076f78bd26ab22e6abd3710729": {
       "address": "0x99b1098d9d50aa076f78bd26ab22e6abd3710729",
       "first_seen": "2026-06-17",
-      "times_seen": 1,
+      "times_seen": 2,
       "tags": [],
       "notes": "",
       "history": [
@@ -6128,7 +6128,7 @@
       "last_seen": "2026-06-17",
       "metric_category": "excluded",
       "insider_likelihood": null,
-      "position": "除外/低優先",
+      "position": "💸 出金疑い(要監視)",
       "auto_tags": [
         "ROI:超高(>1000%)",
         "PnL:メガ(>$10M)",
@@ -6151,7 +6151,7 @@
     "0x0a7097d919b7421ecc03aed3aac68a13e7ef1f46": {
       "address": "0x0a7097d919b7421ecc03aed3aac68a13e7ef1f46",
       "first_seen": "2026-06-17",
-      "times_seen": 1,
+      "times_seen": 2,
       "tags": [],
       "notes": "",
       "history": [
@@ -6170,7 +6170,7 @@
       "last_seen": "2026-06-17",
       "metric_category": "pro_trader",
       "insider_likelihood": null,
-      "position": "プロトレーダー(未精査)",
+      "position": "💸 出金疑い(要監視)",
       "auto_tags": [
         "ROI:高(100-1000%)",
         "PnL:大($1-10M)",
@@ -6194,7 +6194,7 @@
     "0x2a304155f0c751217f2bedc1769be8398151eca4": {
       "address": "0x2a304155f0c751217f2bedc1769be8398151eca4",
       "first_seen": "2026-06-17",
-      "times_seen": 1,
+      "times_seen": 2,
       "tags": [],
       "notes": "",
       "history": [
@@ -6235,7 +6235,7 @@
     "0xb123cd952875d8014efc7a9160a7531a5fe8f5ca": {
       "address": "0xb123cd952875d8014efc7a9160a7531a5fe8f5ca",
       "first_seen": "2026-06-17",
-      "times_seen": 1,
+      "times_seen": 2,
       "tags": [],
       "notes": "",
       "history": [
@@ -6254,7 +6254,7 @@
       "last_seen": "2026-06-17",
       "metric_category": "excluded",
       "insider_likelihood": null,
-      "position": "除外/低優先",
+      "position": "💸 出金疑い(要監視)",
       "auto_tags": [
         "ROI:超高(>1000%)",
         "PnL:中($100k-1M)",
@@ -6278,7 +6278,7 @@
     "0x159d148acd970eaf88bed8feac4ad6d38e7c3665": {
       "address": "0x159d148acd970eaf88bed8feac4ad6d38e7c3665",
       "first_seen": "2026-06-17",
-      "times_seen": 1,
+      "times_seen": 2,
       "tags": [],
       "notes": "",
       "history": [
@@ -6320,7 +6320,7 @@
     "0xa4be91acc74feabab71b8878b66b8f5277212520": {
       "address": "0xa4be91acc74feabab71b8878b66b8f5277212520",
       "first_seen": "2026-06-17",
-      "times_seen": 1,
+      "times_seen": 2,
       "tags": [],
       "notes": "",
       "history": [
@@ -6339,7 +6339,7 @@
       "last_seen": "2026-06-17",
       "metric_category": "pro_trader",
       "insider_likelihood": null,
-      "position": "プロトレーダー(未精査)",
+      "position": "💸 出金疑い(要監視)",
       "auto_tags": [
         "ROI:高(100-1000%)",
         "PnL:大($1-10M)",
@@ -6364,7 +6364,7 @@
     "0x9a377ec81c1bd51d31170bf8d7a7b6c5fbaded9b": {
       "address": "0x9a377ec81c1bd51d31170bf8d7a7b6c5fbaded9b",
       "first_seen": "2026-06-17",
-      "times_seen": 1,
+      "times_seen": 2,
       "tags": [],
       "notes": "",
       "history": [
@@ -6383,7 +6383,7 @@
       "last_seen": "2026-06-17",
       "metric_category": "pro_trader",
       "insider_likelihood": null,
-      "position": "プロトレーダー(未精査)",
+      "position": "💸 出金疑い(要監視)",
       "auto_tags": [
         "ROI:高(100-1000%)",
         "PnL:中($100k-1M)",
@@ -6407,7 +6407,7 @@
     "0x321f7193eadbacb67eff00f76b975a487e5b1c84": {
       "address": "0x321f7193eadbacb67eff00f76b975a487e5b1c84",
       "first_seen": "2026-06-17",
-      "times_seen": 1,
+      "times_seen": 2,
       "tags": [],
       "notes": "",
       "history": [
@@ -6451,7 +6451,7 @@
     "0xf211dd718de25bcad861e53a7b10dd5b3b9d5c6c": {
       "address": "0xf211dd718de25bcad861e53a7b10dd5b3b9d5c6c",
       "first_seen": "2026-06-17",
-      "times_seen": 1,
+      "times_seen": 2,
       "tags": [],
       "notes": "",
       "history": [
@@ -6495,7 +6495,7 @@
     "0x5421e7c6ce37b6c5a6a428018a451071a6fd3ab2": {
       "address": "0x5421e7c6ce37b6c5a6a428018a451071a6fd3ab2",
       "first_seen": "2026-06-17",
-      "times_seen": 1,
+      "times_seen": 2,
       "tags": [],
       "notes": "",
       "history": [
@@ -6537,7 +6537,7 @@
     "0xcdbd79aafd6d0618e3fc6aecb11e1a61908a9169": {
       "address": "0xcdbd79aafd6d0618e3fc6aecb11e1a61908a9169",
       "first_seen": "2026-06-17",
-      "times_seen": 1,
+      "times_seen": 2,
       "tags": [],
       "notes": "",
       "history": [
@@ -6581,7 +6581,7 @@
     "0x920abbd8a5f5d39e87ed802d73e5aa902dc71d89": {
       "address": "0x920abbd8a5f5d39e87ed802d73e5aa902dc71d89",
       "first_seen": "2026-06-17",
-      "times_seen": 1,
+      "times_seen": 2,
       "tags": [],
       "notes": "",
       "history": [
@@ -6623,7 +6623,7 @@
     "0x71b117d68974aa4c5615669ae70e8e13ce7479c8": {
       "address": "0x71b117d68974aa4c5615669ae70e8e13ce7479c8",
       "first_seen": "2026-06-17",
-      "times_seen": 1,
+      "times_seen": 2,
       "tags": [],
       "notes": "",
       "history": [
@@ -6642,7 +6642,7 @@
       "last_seen": "2026-06-17",
       "metric_category": "pro_trader",
       "insider_likelihood": null,
-      "position": "プロトレーダー(未精査)",
+      "position": "💸 出金疑い(要監視)",
       "auto_tags": [
         "ROI:高(100-1000%)",
         "PnL:中($100k-1M)",
@@ -6666,7 +6666,7 @@
     "0x48b1a8f92e403bc9dc7500b9cbcc4cadf35c7ac0": {
       "address": "0x48b1a8f92e403bc9dc7500b9cbcc4cadf35c7ac0",
       "first_seen": "2026-06-17",
-      "times_seen": 1,
+      "times_seen": 2,
       "tags": [],
       "notes": "",
       "history": [
@@ -6708,7 +6708,7 @@
     "0x2f394ae1ca45071bc222e7124b5d125637942be2": {
       "address": "0x2f394ae1ca45071bc222e7124b5d125637942be2",
       "first_seen": "2026-06-17",
-      "times_seen": 1,
+      "times_seen": 2,
       "tags": [],
       "notes": "",
       "history": [
@@ -6727,7 +6727,7 @@
       "last_seen": "2026-06-17",
       "metric_category": "excluded",
       "insider_likelihood": null,
-      "position": "除外/低優先",
+      "position": "💸 出金疑い(要監視)",
       "auto_tags": [
         "ROI:中(10-100%)",
         "PnL:中($100k-1M)",
@@ -6751,7 +6751,7 @@
     "0x6bea81d7a0c5939a5ce5552e125ab57216cc597f": {
       "address": "0x6bea81d7a0c5939a5ce5552e125ab57216cc597f",
       "first_seen": "2026-06-17",
-      "times_seen": 1,
+      "times_seen": 2,
       "tags": [],
       "notes": "",
       "history": [
@@ -6770,7 +6770,7 @@
       "last_seen": "2026-06-17",
       "metric_category": "excluded",
       "insider_likelihood": null,
-      "position": "除外/低優先",
+      "position": "💸 出金疑い(要監視)",
       "auto_tags": [
         "ROI:高(100-1000%)",
         "PnL:大($1-10M)",
@@ -6796,7 +6796,7 @@
     "0x9bd2ee53f6c6aa778209b8673f6c7df754830c88": {
       "address": "0x9bd2ee53f6c6aa778209b8673f6c7df754830c88",
       "first_seen": "2026-06-17",
-      "times_seen": 1,
+      "times_seen": 2,
       "tags": [],
       "notes": "",
       "history": [
@@ -6838,7 +6838,7 @@
     "0x935729ae51eef975ccdeb481d513c75986227bfd": {
       "address": "0x935729ae51eef975ccdeb481d513c75986227bfd",
       "first_seen": "2026-06-17",
-      "times_seen": 1,
+      "times_seen": 2,
       "tags": [],
       "notes": "",
       "history": [
@@ -6857,7 +6857,7 @@
       "last_seen": "2026-06-17",
       "metric_category": "excluded",
       "insider_likelihood": null,
-      "position": "除外/低優先",
+      "position": "💸 出金疑い(要監視)",
       "auto_tags": [
         "ROI:超高(>1000%)",
         "PnL:大($1-10M)",
@@ -6881,7 +6881,7 @@
     "0x6a2cb9b34ba6ca342ec787b70cd1878e71810231": {
       "address": "0x6a2cb9b34ba6ca342ec787b70cd1878e71810231",
       "first_seen": "2026-06-17",
-      "times_seen": 1,
+      "times_seen": 2,
       "tags": [],
       "notes": "",
       "history": [
@@ -6923,7 +6923,7 @@
     "0xa9f12ca1b27941c05e3998279c06b81b8e33ca81": {
       "address": "0xa9f12ca1b27941c05e3998279c06b81b8e33ca81",
       "first_seen": "2026-06-17",
-      "times_seen": 1,
+      "times_seen": 2,
       "tags": [],
       "notes": "",
       "history": [
@@ -6965,7 +6965,7 @@
     "0x473717d2be2084d64e888d29056e36577f3d9469": {
       "address": "0x473717d2be2084d64e888d29056e36577f3d9469",
       "first_seen": "2026-06-17",
-      "times_seen": 1,
+      "times_seen": 2,
       "tags": [],
       "notes": "",
       "history": [
@@ -7007,7 +7007,7 @@
     "0x1c75b586b9779532f65c32487af40286a0d88d88": {
       "address": "0x1c75b586b9779532f65c32487af40286a0d88d88",
       "first_seen": "2026-06-17",
-      "times_seen": 1,
+      "times_seen": 2,
       "tags": [],
       "notes": "",
       "history": [
@@ -7049,7 +7049,7 @@
     "0x55ee7523bcc783e774c3a8b1004b5abdb735ac5d": {
       "address": "0x55ee7523bcc783e774c3a8b1004b5abdb735ac5d",
       "first_seen": "2026-06-17",
-      "times_seen": 1,
+      "times_seen": 2,
       "tags": [],
       "notes": "",
       "history": [
@@ -7068,7 +7068,7 @@
       "last_seen": "2026-06-17",
       "metric_category": "excluded",
       "insider_likelihood": null,
-      "position": "除外/低優先",
+      "position": "💸 出金疑い(要監視)",
       "auto_tags": [
         "ROI:高(100-1000%)",
         "PnL:大($1-10M)",
@@ -7092,7 +7092,7 @@
     "0x9f6fed26339789725b0751f57aeac23367ceee57": {
       "address": "0x9f6fed26339789725b0751f57aeac23367ceee57",
       "first_seen": "2026-06-17",
-      "times_seen": 1,
+      "times_seen": 2,
       "tags": [],
       "notes": "",
       "history": [
@@ -7134,7 +7134,7 @@
     "0x9803e982c4eb6d9b9e416966814e7f9fa4363bce": {
       "address": "0x9803e982c4eb6d9b9e416966814e7f9fa4363bce",
       "first_seen": "2026-06-17",
-      "times_seen": 1,
+      "times_seen": 2,
       "tags": [],
       "notes": "",
       "history": [
@@ -7177,7 +7177,7 @@
     "0x25dacd8a27eac9ad6eba5eb88e3b68f707eb1397": {
       "address": "0x25dacd8a27eac9ad6eba5eb88e3b68f707eb1397",
       "first_seen": "2026-06-17",
-      "times_seen": 1,
+      "times_seen": 2,
       "tags": [],
       "notes": "",
       "history": [
@@ -7220,7 +7220,7 @@
     "0xc2c060e3309461ec7c4291b1aac6c89aa228727e": {
       "address": "0xc2c060e3309461ec7c4291b1aac6c89aa228727e",
       "first_seen": "2026-06-17",
-      "times_seen": 1,
+      "times_seen": 2,
       "tags": [],
       "notes": "",
       "history": [
@@ -7239,7 +7239,7 @@
       "last_seen": "2026-06-17",
       "metric_category": "excluded",
       "insider_likelihood": null,
-      "position": "除外/低優先",
+      "position": "💸 出金疑い(要監視)",
       "auto_tags": [
         "ROI:超高(>1000%)",
         "PnL:中($100k-1M)",
@@ -7265,7 +7265,7 @@
     "0x30e3784b28332b7cb268988f9e81eeff9e3bf2dc": {
       "address": "0x30e3784b28332b7cb268988f9e81eeff9e3bf2dc",
       "first_seen": "2026-06-17",
-      "times_seen": 1,
+      "times_seen": 2,
       "tags": [],
       "notes": "",
       "history": [
@@ -7306,7 +7306,7 @@
     "0x7632be1bdb486be27a1c39ff4208ffd5853c59ed": {
       "address": "0x7632be1bdb486be27a1c39ff4208ffd5853c59ed",
       "first_seen": "2026-06-17",
-      "times_seen": 1,
+      "times_seen": 2,
       "tags": [],
       "notes": "",
       "history": [
@@ -7348,7 +7348,7 @@
     "0xf19c933aee749ea5286892100ddf2b7876b1f99e": {
       "address": "0xf19c933aee749ea5286892100ddf2b7876b1f99e",
       "first_seen": "2026-06-17",
-      "times_seen": 1,
+      "times_seen": 2,
       "tags": [],
       "notes": "",
       "history": [
@@ -7390,7 +7390,7 @@
     "0x880ac484a1743862989a441d6d867238c7aa311c": {
       "address": "0x880ac484a1743862989a441d6d867238c7aa311c",
       "first_seen": "2026-06-17",
-      "times_seen": 1,
+      "times_seen": 2,
       "tags": [],
       "notes": "",
       "history": [
@@ -7409,7 +7409,7 @@
       "last_seen": "2026-06-17",
       "metric_category": "excluded",
       "insider_likelihood": null,
-      "position": "除外/低優先",
+      "position": "💸 出金疑い(要監視)",
       "auto_tags": [
         "ROI:高(100-1000%)",
         "PnL:メガ(>$10M)",
@@ -7433,7 +7433,7 @@
     "0xa0d669521cb00bfe43e5fa3bd573dc01dfe6567c": {
       "address": "0xa0d669521cb00bfe43e5fa3bd573dc01dfe6567c",
       "first_seen": "2026-06-17",
-      "times_seen": 1,
+      "times_seen": 2,
       "tags": [],
       "notes": "",
       "history": [
@@ -7477,7 +7477,7 @@
     "0x3db5a674b22cf6479367ae31be33204ae8701f33": {
       "address": "0x3db5a674b22cf6479367ae31be33204ae8701f33",
       "first_seen": "2026-06-17",
-      "times_seen": 1,
+      "times_seen": 2,
       "tags": [],
       "notes": "",
       "history": [
@@ -7519,7 +7519,7 @@
     "0x20cf6f56ef057157ab8a48c82ed97258148c403c": {
       "address": "0x20cf6f56ef057157ab8a48c82ed97258148c403c",
       "first_seen": "2026-06-17",
-      "times_seen": 1,
+      "times_seen": 2,
       "tags": [],
       "notes": "",
       "history": [
@@ -7561,7 +7561,7 @@
     "0xa0d149c9e3fee0a9f920058c4139c73894c2be98": {
       "address": "0xa0d149c9e3fee0a9f920058c4139c73894c2be98",
       "first_seen": "2026-06-17",
-      "times_seen": 1,
+      "times_seen": 2,
       "tags": [],
       "notes": "",
       "history": [
@@ -7603,7 +7603,7 @@
     "0xdf4b79c5cebf5be025f9a0658a38a5440689c147": {
       "address": "0xdf4b79c5cebf5be025f9a0658a38a5440689c147",
       "first_seen": "2026-06-17",
-      "times_seen": 1,
+      "times_seen": 2,
       "tags": [],
       "notes": "",
       "history": [
@@ -7646,7 +7646,7 @@
     "0xa4dedda59f2908b92ae192cfd494839373bcb3c4": {
       "address": "0xa4dedda59f2908b92ae192cfd494839373bcb3c4",
       "first_seen": "2026-06-17",
-      "times_seen": 1,
+      "times_seen": 2,
       "tags": [],
       "notes": "",
       "history": [
@@ -7688,7 +7688,7 @@
     "0xc7ebe10d3568c52b3f43dc50320167db9d10ce4f": {
       "address": "0xc7ebe10d3568c52b3f43dc50320167db9d10ce4f",
       "first_seen": "2026-06-17",
-      "times_seen": 1,
+      "times_seen": 2,
       "tags": [],
       "notes": "",
       "history": [
@@ -7707,7 +7707,7 @@
       "last_seen": "2026-06-17",
       "metric_category": "excluded",
       "insider_likelihood": null,
-      "position": "除外/低優先",
+      "position": "💸 出金疑い(要監視)",
       "auto_tags": [
         "ROI:中(10-100%)",
         "PnL:大($1-10M)",
@@ -7731,7 +7731,7 @@
     "0x08bf75d17046412ae08c95b6106993f714487872": {
       "address": "0x08bf75d17046412ae08c95b6106993f714487872",
       "first_seen": "2026-06-17",
-      "times_seen": 1,
+      "times_seen": 2,
       "tags": [],
       "notes": "",
       "history": [
@@ -7774,7 +7774,7 @@
     "0xc8378d5bd334b984b5ada4e8ee09a49fe4d8d97d": {
       "address": "0xc8378d5bd334b984b5ada4e8ee09a49fe4d8d97d",
       "first_seen": "2026-06-17",
-      "times_seen": 1,
+      "times_seen": 2,
       "tags": [],
       "notes": "",
       "history": [
@@ -7818,7 +7818,7 @@
     "0xd4fb7eef06db5dc70dcba58c9c4ba1e3ab8c19f1": {
       "address": "0xd4fb7eef06db5dc70dcba58c9c4ba1e3ab8c19f1",
       "first_seen": "2026-06-17",
-      "times_seen": 1,
+      "times_seen": 2,
       "tags": [],
       "notes": "",
       "history": [
@@ -7861,7 +7861,7 @@
     "0xfbeaa12ce05b8baf12189d38974af90a2a82776e": {
       "address": "0xfbeaa12ce05b8baf12189d38974af90a2a82776e",
       "first_seen": "2026-06-17",
-      "times_seen": 1,
+      "times_seen": 2,
       "tags": [],
       "notes": "",
       "history": [
@@ -7903,7 +7903,7 @@
     "0xbe494a5e3a719a78a45a47ab453b7b0199b9d101": {
       "address": "0xbe494a5e3a719a78a45a47ab453b7b0199b9d101",
       "first_seen": "2026-06-17",
-      "times_seen": 1,
+      "times_seen": 2,
       "tags": [],
       "notes": "",
       "history": [
@@ -7922,7 +7922,7 @@
       "last_seen": "2026-06-17",
       "metric_category": "excluded",
       "insider_likelihood": null,
-      "position": "除外/低優先",
+      "position": "💸 出金疑い(要監視)",
       "auto_tags": [
         "ROI:高(100-1000%)",
         "PnL:大($1-10M)",
@@ -7947,7 +7947,7 @@
     "0x39b07015ca813075bbce6f475767d5b4b9d518b0": {
       "address": "0x39b07015ca813075bbce6f475767d5b4b9d518b0",
       "first_seen": "2026-06-17",
-      "times_seen": 1,
+      "times_seen": 2,
       "tags": [],
       "notes": "",
       "history": [
@@ -7991,7 +7991,7 @@
     "0x2f04ed87b5ac8b703565469311341b0b44e315d7": {
       "address": "0x2f04ed87b5ac8b703565469311341b0b44e315d7",
       "first_seen": "2026-06-17",
-      "times_seen": 1,
+      "times_seen": 2,
       "tags": [],
       "notes": "",
       "history": [
@@ -8010,7 +8010,7 @@
       "last_seen": "2026-06-17",
       "metric_category": "excluded",
       "insider_likelihood": null,
-      "position": "除外/低優先",
+      "position": "💸 出金疑い(要監視)",
       "auto_tags": [
         "ROI:高(100-1000%)",
         "PnL:中($100k-1M)",
@@ -8036,7 +8036,7 @@
     "0xe1edc766cfb0e8e6894bde26bcb5a94d1777d16c": {
       "address": "0xe1edc766cfb0e8e6894bde26bcb5a94d1777d16c",
       "first_seen": "2026-06-17",
-      "times_seen": 1,
+      "times_seen": 2,
       "tags": [],
       "notes": "",
       "history": [
@@ -8080,7 +8080,7 @@
     "0x29eb62882a8bd104a64400a2971d0d6881777043": {
       "address": "0x29eb62882a8bd104a64400a2971d0d6881777043",
       "first_seen": "2026-06-17",
-      "times_seen": 1,
+      "times_seen": 2,
       "tags": [],
       "notes": "",
       "history": [
@@ -8099,7 +8099,7 @@
       "last_seen": "2026-06-17",
       "metric_category": "excluded",
       "insider_likelihood": null,
-      "position": "除外/低優先",
+      "position": "💸 出金疑い(要監視)",
       "auto_tags": [
         "ROI:高(100-1000%)",
         "PnL:大($1-10M)",
@@ -8124,7 +8124,7 @@
     "0x68a24ccf099422806f1e73248517f3389c29c104": {
       "address": "0x68a24ccf099422806f1e73248517f3389c29c104",
       "first_seen": "2026-06-17",
-      "times_seen": 1,
+      "times_seen": 2,
       "tags": [],
       "notes": "",
       "history": [
@@ -8166,7 +8166,7 @@
     "0xfeec88b13fc0be31695069f02bac18538a154e9c": {
       "address": "0xfeec88b13fc0be31695069f02bac18538a154e9c",
       "first_seen": "2026-06-17",
-      "times_seen": 1,
+      "times_seen": 2,
       "tags": [],
       "notes": "",
       "history": [
@@ -8185,7 +8185,7 @@
       "last_seen": "2026-06-17",
       "metric_category": "excluded",
       "insider_likelihood": null,
-      "position": "除外/低優先",
+      "position": "💸 出金疑い(要監視)",
       "auto_tags": [
         "ROI:高(100-1000%)",
         "PnL:メガ(>$10M)",
@@ -8208,7 +8208,7 @@
     "0x2607a3909cee65aa8205ca26f7db2d9244389577": {
       "address": "0x2607a3909cee65aa8205ca26f7db2d9244389577",
       "first_seen": "2026-06-17",
-      "times_seen": 1,
+      "times_seen": 2,
       "tags": [],
       "notes": "",
       "history": [
@@ -8252,7 +8252,7 @@
     "0x5b5f798b94f54d33ba316c8b1c837e930c90c052": {
       "address": "0x5b5f798b94f54d33ba316c8b1c837e930c90c052",
       "first_seen": "2026-06-17",
-      "times_seen": 1,
+      "times_seen": 2,
       "tags": [],
       "notes": "",
       "history": [
@@ -8294,7 +8294,7 @@
     "0xcb5c2f378860437fad512c3aec09efce1c470283": {
       "address": "0xcb5c2f378860437fad512c3aec09efce1c470283",
       "first_seen": "2026-06-17",
-      "times_seen": 1,
+      "times_seen": 2,
       "tags": [],
       "notes": "",
       "history": [
@@ -8335,7 +8335,7 @@
     "0x469bc5524456efa6932cac83294f31a09b8159b8": {
       "address": "0x469bc5524456efa6932cac83294f31a09b8159b8",
       "first_seen": "2026-06-17",
-      "times_seen": 1,
+      "times_seen": 2,
       "tags": [],
       "notes": "",
       "history": [
@@ -8378,7 +8378,7 @@
     "0x05c6959d997cde99d2f967367e5e9f1959ba9706": {
       "address": "0x05c6959d997cde99d2f967367e5e9f1959ba9706",
       "first_seen": "2026-06-17",
-      "times_seen": 1,
+      "times_seen": 2,
       "tags": [],
       "notes": "",
       "history": [
@@ -8397,7 +8397,7 @@
       "last_seen": "2026-06-17",
       "metric_category": "excluded",
       "insider_likelihood": null,
-      "position": "除外/低優先",
+      "position": "💸 出金疑い(要監視)",
       "auto_tags": [
         "ROI:高(100-1000%)",
         "PnL:中($100k-1M)",
@@ -8422,7 +8422,7 @@
     "0x0e3f5bb797e3953fed2a319544d0e821b4a11e1c": {
       "address": "0x0e3f5bb797e3953fed2a319544d0e821b4a11e1c",
       "first_seen": "2026-06-17",
-      "times_seen": 1,
+      "times_seen": 2,
       "tags": [],
       "notes": "",
       "history": [
@@ -8441,7 +8441,7 @@
       "last_seen": "2026-06-17",
       "metric_category": "excluded",
       "insider_likelihood": null,
-      "position": "除外/低優先",
+      "position": "💸 出金疑い(要監視)",
       "auto_tags": [
         "ROI:高(100-1000%)",
         "PnL:大($1-10M)",
@@ -8466,7 +8466,7 @@
     "0xce43a7498e65b6f6c8741fd9a7efc3f78efc78c4": {
       "address": "0xce43a7498e65b6f6c8741fd9a7efc3f78efc78c4",
       "first_seen": "2026-06-17",
-      "times_seen": 1,
+      "times_seen": 2,
       "tags": [],
       "notes": "",
       "history": [
@@ -8485,7 +8485,7 @@
       "last_seen": "2026-06-17",
       "metric_category": "excluded",
       "insider_likelihood": null,
-      "position": "除外/低優先",
+      "position": "💸 出金疑い(要監視)",
       "auto_tags": [
         "ROI:高(100-1000%)",
         "PnL:中($100k-1M)",
@@ -8508,5 +8508,5 @@
       }
     }
   },
-  "updated_at": "2026-06-17T08:49:07.545630+00:00"
+  "updated_at": "2026-06-17T08:58:23.595572+00:00"
 }
