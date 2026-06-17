@@ -1,11 +1,11 @@
 {
   "created_at": "2026-06-16T09:30:44.025402+00:00",
-  "run_count": 7,
+  "run_count": 8,
   "wallets": {
     "0x72988778525f0ce15c5ac1804ac460606a987d6c": {
       "address": "0x72988778525f0ce15c5ac1804ac460606a987d6c",
       "first_seen": "2026-06-16",
-      "times_seen": 7,
+      "times_seen": 8,
       "tags": [],
       "notes": "",
       "history": [
@@ -74,7 +74,10 @@
         "レバ:低(<3x)",
         "銘柄:BTC主"
       ],
-      "notes_jp": "【ひとことで】⚪ 数字だけ見ると怪しかったが、調べたらシロだった。\n【正体】名前は分からない（匿名）。\n【お金はどこから？】別の財布（High Activity）から\n【詳しい判定】格下げ: 偽インサイダー(下げ相場の規律的ベータ便乗)。インサイダー性ほぼ無し、優良トレーダーではある"
+      "notes_jp": "【ひとことで】⚪ 数字だけ見ると怪しかったが、調べたらシロだった。\n【正体】名前は分からない（匿名）。\n【お金はどこから？】別の財布（High Activity）から\n【詳しい判定】格下げ: 偽インサイダー(下げ相場の規律的ベータ便乗)。インサイダー性ほぼ無し、優良トレーダーではある",
+      "roi_alltime": 0.7334553043,
+      "roi_month": 1.6023553339,
+      "n_fills_14d": 34
     },
     "0xefcace57934a753d66c48a31b880ba806d4c0869": {
       "address": "0xefcace57934a753d66c48a31b880ba806d4c0869",
@@ -169,7 +172,7 @@
     "0x10b6f072fabe21bc72ffd77ff5d4414e6cef2980": {
       "address": "0x10b6f072fabe21bc72ffd77ff5d4414e6cef2980",
       "first_seen": "2026-06-16",
-      "times_seen": 7,
+      "times_seen": 8,
       "tags": [
         "cluster-A",
         "funder:0xdf747918"
@@ -243,7 +246,10 @@
         "レバ:中(3-10x)",
         "銘柄:BTC専"
       ],
-      "notes_jp": "【ひとことで】🔴 インサイダー（内部情報で先回り）が一番疑わしいウォレット。\n【正体】名前は分からない（匿名）。\n【お金はどこから？】別の財布（High Balance [0x9aa91e]）から\n【もう一段たどると】お金は『お金持ち財布(0x9aa91e)』から来ていて、その財布はさらに Nexo(取引所)から入金され、Binance・Bybit・KuCoin と数百万ドル規模でやり取りしている。→ 実体は複数の取引所を使う大口の個人/組織。\n【グループ】同じ資金元から同時に動いた『協調クラスタA』の一員。\n【詳しい判定】格上げ(質的転換): クラスタA同時先行ペア。efcaceと連動する独立2本目"
+      "notes_jp": "【ひとことで】🔴 インサイダー（内部情報で先回り）が一番疑わしいウォレット。\n【正体】名前は分からない（匿名）。\n【お金はどこから？】別の財布（High Balance [0x9aa91e]）から\n【もう一段たどると】お金は『お金持ち財布(0x9aa91e)』から来ていて、その財布はさらに Nexo(取引所)から入金され、Binance・Bybit・KuCoin と数百万ドル規模でやり取りしている。→ 実体は複数の取引所を使う大口の個人/組織。\n【グループ】同じ資金元から同時に動いた『協調クラスタA』の一員。\n【詳しい判定】格上げ(質的転換): クラスタA同時先行ペア。efcaceと連動する独立2本目",
+      "roi_alltime": 4.6704985213,
+      "roi_month": 2.1442328436,
+      "n_fills_14d": 644
     },
     "0x230963164d9637a4c536270a06b4e3636d44a2d9": {
       "address": "0x230963164d9637a4c536270a06b4e3636d44a2d9",
@@ -327,7 +333,7 @@
     "0x128fae9d18a2f70d98a03c26bf17b67d97ce1f3c": {
       "address": "0x128fae9d18a2f70d98a03c26bf17b67d97ce1f3c",
       "first_seen": "2026-06-16",
-      "times_seen": 7,
+      "times_seen": 8,
       "tags": [],
       "notes": "",
       "history": [
@@ -426,7 +432,10 @@
         "レバ:低(<3x)",
         "銘柄:BTC専"
       ],
-      "notes_jp": "【ひとことで】⚪ 数字だけ見ると怪しかったが、調べたらシロだった。\n【正体】名前は分からない（匿名）。\n【お金はどこから？】別の財布（Token Millionaire）から\n【よく取引する相手】sbeGMX、sbGMX、sbfGMX\n【詳しい判定】格下げ: 偽インサイダー。逆張りBTCロング含み益はあるが先行性ゼロ"
+      "notes_jp": "【ひとことで】⚪ 数字だけ見ると怪しかったが、調べたらシロだった。\n【正体】名前は分からない（匿名）。\n【お金はどこから？】別の財布（Token Millionaire）から\n【よく取引する相手】sbeGMX、sbGMX、sbfGMX\n【詳しい判定】格下げ: 偽インサイダー。逆張りBTCロング含み益はあるが先行性ゼロ",
+      "roi_alltime": 0.9263269916,
+      "roi_month": 1.4898440374,
+      "n_fills_14d": 71
     },
     "0xe392e9008c49e7f82e7927a741fcb12799ebdb2b": {
       "address": "0xe392e9008c49e7f82e7927a741fcb12799ebdb2b",
@@ -542,7 +551,7 @@
     "0x83b00972aafcc3d06d45b1b823079f9a414da46e": {
       "address": "0x83b00972aafcc3d06d45b1b823079f9a414da46e",
       "first_seen": "2026-06-16",
-      "times_seen": 7,
+      "times_seen": 8,
       "tags": [],
       "notes": "",
       "history": [
@@ -636,12 +645,15 @@
         "レバ:低(<3x)",
         "銘柄:ETH専"
       ],
-      "notes_jp": "【ひとことで】⚪ 数字だけ見ると怪しかったが、調べたらシロだった。\n【正体】名前は分からない（匿名）。\n【お金はどこから？】別の財布（High Activity）から\n【よく取引する相手】Token Millionaire、Token Millionaire、Token Millionaire\n【詳しい判定】格下げ: 偽インサイダー(小N・ポジ構築中)"
+      "notes_jp": "【ひとことで】⚪ 数字だけ見ると怪しかったが、調べたらシロだった。\n【正体】名前は分からない（匿名）。\n【お金はどこから？】別の財布（High Activity）から\n【よく取引する相手】Token Millionaire、Token Millionaire、Token Millionaire\n【詳しい判定】格下げ: 偽インサイダー(小N・ポジ構築中)",
+      "roi_alltime": 19.7731436941,
+      "roi_month": 7.5769403725,
+      "n_fills_14d": 90
     },
     "0x9b5ae497fd1bf885a40d6f99d0c57245761e053c": {
       "address": "0x9b5ae497fd1bf885a40d6f99d0c57245761e053c",
       "first_seen": "2026-06-16",
-      "times_seen": 7,
+      "times_seen": 8,
       "tags": [],
       "notes": "",
       "history": [
@@ -774,7 +786,10 @@
         "方向:無/フラット",
         "ID:ENS有"
       ],
-      "notes_jp": "【ひとことで】⚪ 数字だけ見ると怪しかったが、調べたらシロだった。\n【正体】\"kazuya-eth\" on OpenSea、kazuya.eth*、terry.eth（Nansenが付けた名前/ラベル）\n【お金はどこから？】別の財布（High Activity）から\n【よく取引する相手】Token Millionaire、High Activity、High Activity\n【詳しい判定】格下げ: 偽インサイダー(スカルパー・見かけ倒しROI)"
+      "notes_jp": "【ひとことで】⚪ 数字だけ見ると怪しかったが、調べたらシロだった。\n【正体】\"kazuya-eth\" on OpenSea、kazuya.eth*、terry.eth（Nansenが付けた名前/ラベル）\n【お金はどこから？】別の財布（High Activity）から\n【よく取引する相手】Token Millionaire、High Activity、High Activity\n【詳しい判定】格下げ: 偽インサイダー(スカルパー・見かけ倒しROI)",
+      "roi_alltime": 0.4313171525,
+      "roi_month": 258.55090088,
+      "n_fills_14d": 116
     },
     "0x388b3ea2d5fa291e47ecb9f5570012d84a891180": {
       "address": "0x388b3ea2d5fa291e47ecb9f5570012d84a891180",
@@ -832,7 +847,7 @@
     "0xdd54150be70967523a256f92db193845acf58714": {
       "address": "0xdd54150be70967523a256f92db193845acf58714",
       "first_seen": "2026-06-16",
-      "times_seen": 7,
+      "times_seen": 8,
       "tags": [],
       "notes": "",
       "history": [
@@ -880,12 +895,15 @@
         "頻度:少(<50)",
         "保有:短期(<12h)",
         "方向:無/フラット"
-      ]
+      ],
+      "roi_alltime": 0.5421388021,
+      "roi_month": 3.2989584433,
+      "n_fills_14d": 24
     },
     "0xbde047d965a1b13fe37d11e5df31ed110ffbb92b": {
       "address": "0xbde047d965a1b13fe37d11e5df31ed110ffbb92b",
       "first_seen": "2026-06-16",
-      "times_seen": 7,
+      "times_seen": 8,
       "tags": [],
       "notes": "",
       "history": [
@@ -1016,12 +1034,15 @@
         "方向:無/フラット",
         "ID:ENS有"
       ],
-      "notes_jp": "【ひとことで】⚪ 数字だけ見ると怪しかったが、調べたらシロだった。\n【正体】2rabbits.eth（Nansenが付けた名前/ラベル）\n【お金はどこから？】別の財布（High Balance）から\n【よく取引する相手】Token Millionaire、Token Millionaire、High Activity\n【詳しい判定】格下げ(最強): 統計的に無意味な微小サンプル。完全に偽陽性"
+      "notes_jp": "【ひとことで】⚪ 数字だけ見ると怪しかったが、調べたらシロだった。\n【正体】2rabbits.eth（Nansenが付けた名前/ラベル）\n【お金はどこから？】別の財布（High Balance）から\n【よく取引する相手】Token Millionaire、Token Millionaire、High Activity\n【詳しい判定】格下げ(最強): 統計的に無意味な微小サンプル。完全に偽陽性",
+      "roi_alltime": 0.5763596729,
+      "roi_month": 4.1481107414,
+      "n_fills_14d": 22
     },
     "0x5aadb434293b4e1b8fb2e84007e567506fe65a96": {
       "address": "0x5aadb434293b4e1b8fb2e84007e567506fe65a96",
       "first_seen": "2026-06-16",
-      "times_seen": 7,
+      "times_seen": 8,
       "tags": [],
       "notes": "",
       "history": [
@@ -1148,12 +1169,15 @@
         "保有:スキャルプ(<2h)",
         "方向:無/フラット"
       ],
-      "notes_jp": "【ひとことで】🟢 ちゃんと実力で勝っている本物のプロ。\n【正体】名前は分からない（匿名）。\n【お金はどこから？】名前付きの個人財布（kwerty.eth [0x71056c]）から\n【よく取引する相手】High Balance [0xe1f57f]、🤖 Hyperliquid: Bridge 2 [0x2df1c5]、🤖 Circle: CCTP TokenMinterV2 [0xfd78ee]\n【詳しい判定】格上げ: 両方向スカルパー(ベータ非依存)"
+      "notes_jp": "【ひとことで】🟢 ちゃんと実力で勝っている本物のプロ。\n【正体】名前は分からない（匿名）。\n【お金はどこから？】名前付きの個人財布（kwerty.eth [0x71056c]）から\n【よく取引する相手】High Balance [0xe1f57f]、🤖 Hyperliquid: Bridge 2 [0x2df1c5]、🤖 Circle: CCTP TokenMinterV2 [0xfd78ee]\n【詳しい判定】格上げ: 両方向スカルパー(ベータ非依存)",
+      "roi_alltime": 8.9143407607,
+      "roi_month": 1.9444922072,
+      "n_fills_14d": 199
     },
     "0x4d3980ac9d84fc34adcd025ee2337786846343c4": {
       "address": "0x4d3980ac9d84fc34adcd025ee2337786846343c4",
       "first_seen": "2026-06-16",
-      "times_seen": 7,
+      "times_seen": 8,
       "tags": [],
       "notes": "",
       "history": [
@@ -1256,7 +1280,10 @@
         "保有:短期(<12h)",
         "方向:無/フラット"
       ],
-      "notes_jp": "【ひとことで】🔵 たぶんプロ。まだ詳しく調べていない。\n【正体】名前は分からない（匿名）。\n【お金はどこから？】Bitget(取引所)から入金 → 取引所が『この人が誰か』を知っている\n【よく取引する相手】🤖 Hyperliquid: Bridge 2 [0x2df1c5]、[0x42ea75]、​​Distributor [0xf96d9b]"
+      "notes_jp": "【ひとことで】🔵 たぶんプロ。まだ詳しく調べていない。\n【正体】名前は分からない（匿名）。\n【お金はどこから？】Bitget(取引所)から入金 → 取引所が『この人が誰か』を知っている\n【よく取引する相手】🤖 Hyperliquid: Bridge 2 [0x2df1c5]、[0x42ea75]、​​Distributor [0xf96d9b]",
+      "roi_alltime": 7.5124460508,
+      "roi_month": 6.7566047115,
+      "n_fills_14d": 142
     },
     "0xa72dc2d42398e54634fc28e6769f8ce3ae011807": {
       "address": "0xa72dc2d42398e54634fc28e6769f8ce3ae011807",
@@ -1690,7 +1717,7 @@
     "0xd05808946809c180d190608e13f473db30aa8524": {
       "address": "0xd05808946809c180d190608e13f473db30aa8524",
       "first_seen": "2026-06-16",
-      "times_seen": 7,
+      "times_seen": 8,
       "tags": [],
       "notes": "",
       "history": [
@@ -1750,12 +1777,15 @@
         "保有:長期(>48h)",
         "方向:無/フラット"
       ],
-      "notes_jp": "【ひとことで】⚪ 数字だけ見ると怪しかったが、調べたらシロだった。\n【正体】名前は分からない（匿名）。\n【お金はどこから？】不明。\n【詳しい判定】格上げ: 利確規律で稼ぐ本物(現在フラット)"
+      "notes_jp": "【ひとことで】⚪ 数字だけ見ると怪しかったが、調べたらシロだった。\n【正体】名前は分からない（匿名）。\n【お金はどこから？】不明。\n【詳しい判定】格上げ: 利確規律で稼ぐ本物(現在フラット)",
+      "roi_alltime": 3.7434227834,
+      "roi_month": 3.7434227834,
+      "n_fills_14d": 199
     },
     "0xfe4dec8543b0b9cec0c897a689f7af7bddb02192": {
       "address": "0xfe4dec8543b0b9cec0c897a689f7af7bddb02192",
       "first_seen": "2026-06-16",
-      "times_seen": 7,
+      "times_seen": 8,
       "tags": [],
       "notes": "",
       "history": [
@@ -1842,7 +1872,10 @@
         "保有:スイング(<48h)",
         "方向:無/フラット"
       ],
-      "notes_jp": "【ひとことで】⚪ 数字だけ見ると怪しかったが、調べたらシロだった。\n【正体】High Balance（Nansenが付けた名前/ラベル）\n【お金はどこから？】別の財布（0xe94667d85ae6050dbb41e63109bc303759876cba）から\n【よく取引する相手】Token Millionaire、High Activity、0xe94667d8\n【詳しい判定】維持〜微格上げ: 執行優位ありの本物"
+      "notes_jp": "【ひとことで】⚪ 数字だけ見ると怪しかったが、調べたらシロだった。\n【正体】High Balance（Nansenが付けた名前/ラベル）\n【お金はどこから？】別の財布（0xe94667d85ae6050dbb41e63109bc303759876cba）から\n【よく取引する相手】Token Millionaire、High Activity、0xe94667d8\n【詳しい判定】維持〜微格上げ: 執行優位ありの本物",
+      "roi_alltime": 8.7686522249,
+      "roi_month": 3.4973318795,
+      "n_fills_14d": 208
     },
     "0x5b1efd32c62000cbeba7cccbc49fabdc57b2eb80": {
       "address": "0x5b1efd32c62000cbeba7cccbc49fabdc57b2eb80",
@@ -1901,7 +1934,7 @@
     "0xdd08886cb92c689c7d89c88f048028293296ead1": {
       "address": "0xdd08886cb92c689c7d89c88f048028293296ead1",
       "first_seen": "2026-06-16",
-      "times_seen": 7,
+      "times_seen": 8,
       "tags": [],
       "notes": "",
       "history": [
@@ -1956,12 +1989,15 @@
         "レバ:低(<3x)",
         "銘柄:BTC専"
       ],
-      "notes_jp": "【ひとことで】🔵 たぶんプロ。まだ詳しく調べていない。\n【正体】名前は分からない（匿名）。\n【お金はどこから？】不明。"
+      "notes_jp": "【ひとことで】🔵 たぶんプロ。まだ詳しく調べていない。\n【正体】名前は分からない（匿名）。\n【お金はどこから？】不明。",
+      "roi_alltime": 1.8537510935,
+      "roi_month": 3.4045197681,
+      "n_fills_14d": 509
     },
     "0x5875d72130981b18692a3d29545e4038f7eb0c38": {
       "address": "0x5875d72130981b18692a3d29545e4038f7eb0c38",
       "first_seen": "2026-06-16",
-      "times_seen": 7,
+      "times_seen": 8,
       "tags": [],
       "notes": "",
       "history": [
@@ -2011,12 +2047,15 @@
         "方向:ショート",
         "レバ:低(<3x)",
         "銘柄:BTC専"
-      ]
+      ],
+      "roi_alltime": 0.4589715916,
+      "roi_month": 2.3577840045,
+      "n_fills_14d": 897
     },
     "0x2a934d40944e2b686ee9cdce74a3f67d32cd0347": {
       "address": "0x2a934d40944e2b686ee9cdce74a3f67d32cd0347",
       "first_seen": "2026-06-16",
-      "times_seen": 7,
+      "times_seen": 8,
       "tags": [],
       "notes": "",
       "history": [
@@ -2071,7 +2110,10 @@
         "方向:ショート",
         "レバ:高(>10x)",
         "銘柄:ETH専"
-      ]
+      ],
+      "roi_alltime": 5.5792228044,
+      "roi_month": 1.5482621465,
+      "n_fills_14d": 7
     },
     "0xcd2123d3f00325fa83b2743ed85844f8d4bb9826": {
       "address": "0xcd2123d3f00325fa83b2743ed85844f8d4bb9826",
@@ -2310,7 +2352,7 @@
     "0x5a5ed3083d79f31f295bcdd71fdfb7a188132538": {
       "address": "0x5a5ed3083d79f31f295bcdd71fdfb7a188132538",
       "first_seen": "2026-06-16",
-      "times_seen": 7,
+      "times_seen": 8,
       "tags": [],
       "notes": "",
       "history": [
@@ -2360,7 +2402,10 @@
         "方向:混在",
         "レバ:低(<3x)",
         "銘柄:BTC主"
-      ]
+      ],
+      "roi_alltime": 35.1705047711,
+      "roi_month": 2.6007261314,
+      "n_fills_14d": 227
     },
     "0x1aa1d90df49c3e5a67888798c16e73c4b4c323fc": {
       "address": "0x1aa1d90df49c3e5a67888798c16e73c4b4c323fc",
@@ -2554,7 +2599,7 @@
     "0x8c783a3877bfab4e318a7dc521157cc89f85202c": {
       "address": "0x8c783a3877bfab4e318a7dc521157cc89f85202c",
       "first_seen": "2026-06-16",
-      "times_seen": 7,
+      "times_seen": 8,
       "tags": [],
       "notes": "",
       "history": [
@@ -2604,12 +2649,15 @@
         "方向:ロング",
         "レバ:低(<3x)",
         "銘柄:BTC主"
-      ]
+      ],
+      "roi_alltime": 6.3589014747,
+      "roi_month": 4.9927443317,
+      "n_fills_14d": 1270
     },
     "0x48ec0004494081e8332589faf0747d568da79faf": {
       "address": "0x48ec0004494081e8332589faf0747d568da79faf",
       "first_seen": "2026-06-16",
-      "times_seen": 7,
+      "times_seen": 8,
       "tags": [],
       "notes": "",
       "history": [
@@ -2659,12 +2707,15 @@
         "方向:混在",
         "レバ:中(3-10x)",
         "銘柄:BTC主"
-      ]
+      ],
+      "roi_alltime": 0.4425676546,
+      "roi_month": 4.991975098,
+      "n_fills_14d": 2139
     },
     "0x96abd7547c7ef5a0c4f2bf04dcd74dd96a461b56": {
       "address": "0x96abd7547c7ef5a0c4f2bf04dcd74dd96a461b56",
       "first_seen": "2026-06-16",
-      "times_seen": 7,
+      "times_seen": 8,
       "tags": [],
       "notes": "",
       "history": [
@@ -2714,7 +2765,10 @@
         "方向:ショート",
         "レバ:低(<3x)",
         "銘柄:BTC主"
-      ]
+      ],
+      "roi_alltime": 1.1190908415,
+      "roi_month": 2.487344264,
+      "n_fills_14d": 2235
     },
     "0x2385aae82b8ff5ec9e72f122f3462b9a1b9db98a": {
       "address": "0x2385aae82b8ff5ec9e72f122f3462b9a1b9db98a",
@@ -2984,7 +3038,7 @@
     "0x136c473f6d88c1ec17c2ed6b6cb273983e028458": {
       "address": "0x136c473f6d88c1ec17c2ed6b6cb273983e028458",
       "first_seen": "2026-06-16",
-      "times_seen": 7,
+      "times_seen": 8,
       "tags": [],
       "notes": "",
       "history": [
@@ -3033,12 +3087,15 @@
         "方向:ショート",
         "レバ:低(<3x)",
         "銘柄:BTC専"
-      ]
+      ],
+      "roi_alltime": 1.3190779288,
+      "roi_month": 1.6223510156,
+      "n_fills_14d": 18
     },
     "0x51b97ab1e4381e22dd6cd04d6f67393964fe3bc1": {
       "address": "0x51b97ab1e4381e22dd6cd04d6f67393964fe3bc1",
       "first_seen": "2026-06-16",
-      "times_seen": 7,
+      "times_seen": 8,
       "tags": [],
       "notes": "",
       "history": [
@@ -3087,12 +3144,15 @@
         "方向:ショート",
         "レバ:中(3-10x)",
         "銘柄:ETH主"
-      ]
+      ],
+      "roi_alltime": 1.2926531827,
+      "roi_month": 1.6192213029,
+      "n_fills_14d": 1
     },
     "0xa46aba5584adb38d458710902f7fc6677f7ab914": {
       "address": "0xa46aba5584adb38d458710902f7fc6677f7ab914",
       "first_seen": "2026-06-16",
-      "times_seen": 7,
+      "times_seen": 8,
       "tags": [],
       "notes": "",
       "history": [
@@ -3140,7 +3200,10 @@
         "頻度:中(50+)",
         "保有:短期(<12h)",
         "方向:無/フラット"
-      ]
+      ],
+      "roi_alltime": 11.5969196792,
+      "roi_month": 27.2205065986,
+      "n_fills_14d": 218
     },
     "0xbec5dab4a914d9c9d28dfc4aa120be59ab7b010f": {
       "address": "0xbec5dab4a914d9c9d28dfc4aa120be59ab7b010f",
@@ -3199,7 +3262,7 @@
     "0xf47fe5f0f6c3ebfde365e34e6d15fb2ed4c39cdb": {
       "address": "0xf47fe5f0f6c3ebfde365e34e6d15fb2ed4c39cdb",
       "first_seen": "2026-06-16",
-      "times_seen": 7,
+      "times_seen": 8,
       "tags": [],
       "notes": "",
       "history": [
@@ -3249,7 +3312,10 @@
         "方向:混在",
         "レバ:中(3-10x)",
         "銘柄:BTC主"
-      ]
+      ],
+      "roi_alltime": 1.5915451497,
+      "roi_month": 2.6058786713,
+      "n_fills_14d": 390
     },
     "0x823c6b20c03f2e962da20a0024624473e7ca53a4": {
       "address": "0x823c6b20c03f2e962da20a0024624473e7ca53a4",
@@ -3308,7 +3374,7 @@
     "0x7806eeb0cdfb52dbe14ed12359526eea55612cf3": {
       "address": "0x7806eeb0cdfb52dbe14ed12359526eea55612cf3",
       "first_seen": "2026-06-16",
-      "times_seen": 7,
+      "times_seen": 8,
       "tags": [],
       "notes": "",
       "history": [
@@ -3356,12 +3422,15 @@
         "頻度:多(500+)",
         "保有:短期(<12h)",
         "方向:無/フラット"
-      ]
+      ],
+      "roi_alltime": 1.751972209,
+      "roi_month": 2.9758292181,
+      "n_fills_14d": 800
     },
     "0x97b1419998d4c804336c6c22519d28277bacebd7": {
       "address": "0x97b1419998d4c804336c6c22519d28277bacebd7",
       "first_seen": "2026-06-16",
-      "times_seen": 7,
+      "times_seen": 8,
       "tags": [],
       "notes": "",
       "history": [
@@ -3410,7 +3479,10 @@
         "方向:ショート",
         "レバ:低(<3x)",
         "銘柄:SOL専"
-      ]
+      ],
+      "roi_alltime": 1.4354053632,
+      "roi_month": 1.528593297,
+      "n_fills_14d": 1
     },
     "0x35c0f299a35f927069521e0c3abfb5ee4cbb4c72": {
       "address": "0x35c0f299a35f927069521e0c3abfb5ee4cbb4c72",
@@ -3468,7 +3540,7 @@
     "0x56654885ad39155235336c0ff01b3337693c3882": {
       "address": "0x56654885ad39155235336c0ff01b3337693c3882",
       "first_seen": "2026-06-16",
-      "times_seen": 7,
+      "times_seen": 8,
       "tags": [],
       "notes": "",
       "history": [
@@ -3517,7 +3589,10 @@
         "方向:ロング",
         "レバ:低(<3x)",
         "銘柄:BTC専"
-      ]
+      ],
+      "roi_alltime": 1.269158827,
+      "roi_month": 2.9978817611,
+      "n_fills_14d": 8
     },
     "0x29c792a175627a15c60f5288e55d1cf7d95f2157": {
       "address": "0x29c792a175627a15c60f5288e55d1cf7d95f2157",
@@ -3682,7 +3757,7 @@
     "0x696adb8693ed15f14f8a80bb4f9fe061f58868db": {
       "address": "0x696adb8693ed15f14f8a80bb4f9fe061f58868db",
       "first_seen": "2026-06-16",
-      "times_seen": 7,
+      "times_seen": 8,
       "tags": [],
       "notes": "",
       "history": [
@@ -3730,7 +3805,10 @@
         "頻度:中(50+)",
         "保有:短期(<12h)",
         "方向:無/フラット"
-      ]
+      ],
+      "roi_alltime": 3.0752810809,
+      "roi_month": 2.0036195996,
+      "n_fills_14d": 208
     },
     "0x2f01afc9f9437c4fcb8f2e8612c57bf522bcc81d": {
       "address": "0x2f01afc9f9437c4fcb8f2e8612c57bf522bcc81d",
@@ -3895,7 +3973,7 @@
     "0xfe8c8076596dd917a20a31007ced69ce339129a1": {
       "address": "0xfe8c8076596dd917a20a31007ced69ce339129a1",
       "first_seen": "2026-06-16",
-      "times_seen": 7,
+      "times_seen": 8,
       "tags": [],
       "notes": "",
       "history": [
@@ -3943,12 +4021,15 @@
         "頻度:多(500+)",
         "保有:短期(<12h)",
         "方向:無/フラット"
-      ]
+      ],
+      "roi_alltime": 2.3553052216,
+      "roi_month": 2.168542924,
+      "n_fills_14d": 1132
     },
     "0x79f2bb1fc86a1f0592fb30aa6a369a24a7fd2361": {
       "address": "0x79f2bb1fc86a1f0592fb30aa6a369a24a7fd2361",
       "first_seen": "2026-06-16",
-      "times_seen": 7,
+      "times_seen": 8,
       "tags": [],
       "notes": "",
       "history": [
@@ -3998,12 +4079,15 @@
         "方向:ロング",
         "レバ:中(3-10x)",
         "銘柄:BTC主"
-      ]
+      ],
+      "roi_alltime": 0.9646698555,
+      "roi_month": 1.9612687222,
+      "n_fills_14d": 100
     },
     "0x51651b81c895e654e5402a3fc371e3b60b0dfb1e": {
       "address": "0x51651b81c895e654e5402a3fc371e3b60b0dfb1e",
       "first_seen": "2026-06-16",
-      "times_seen": 7,
+      "times_seen": 8,
       "tags": [],
       "notes": "",
       "history": [
@@ -4051,7 +4135,10 @@
         "頻度:多(500+)",
         "保有:短期(<12h)",
         "方向:無/フラット"
-      ]
+      ],
+      "roi_alltime": 3.3495144215,
+      "roi_month": 1.651841566,
+      "n_fills_14d": 2393
     },
     "0x8e6f0cd563201cae5095795d691cda21d1fbed09": {
       "address": "0x8e6f0cd563201cae5095795d691cda21d1fbed09",
@@ -4109,7 +4196,7 @@
     "0x014bd1b946287bfdd8afe1d8833103c3baa36d74": {
       "address": "0x014bd1b946287bfdd8afe1d8833103c3baa36d74",
       "first_seen": "2026-06-16",
-      "times_seen": 7,
+      "times_seen": 8,
       "tags": [],
       "notes": "",
       "history": [
@@ -4157,7 +4244,10 @@
         "頻度:少(<50)",
         "保有:長期(>48h)",
         "方向:無/フラット"
-      ]
+      ],
+      "roi_alltime": 5.3610558189,
+      "roi_month": 1.8567704386,
+      "n_fills_14d": 38
     },
     "0x58a722b5f37435cab8957a17fc575bb136e0b48b": {
       "address": "0x58a722b5f37435cab8957a17fc575bb136e0b48b",
@@ -4271,7 +4361,7 @@
     "0x0c349d9b92fbd172bbb5a17a9db0a673a6a10ad3": {
       "address": "0x0c349d9b92fbd172bbb5a17a9db0a673a6a10ad3",
       "first_seen": "2026-06-16",
-      "times_seen": 7,
+      "times_seen": 8,
       "tags": [],
       "notes": "",
       "history": [
@@ -4402,7 +4492,10 @@
         "レバ:低(<3x)",
         "銘柄:BTC専"
       ],
-      "notes_jp": "【ひとことで】🟠 ちょっと怪しい。様子見で監視するウォレット。\n【正体】High Activity（Nansenが付けた名前/ラベル）\n【お金はどこから？】別チェーンからの『橋(ブリッジ)』経由 → 足を消しており追いにくい\n【よく取引する相手】🏦 Binance: Deposit [0x73bb78]、🤖 Hyperliquid: Bridge 2 [0x2df1c5]、🤖 🏦 Binance: Hot Wallet [0xee7ae8]\n【詳しい判定】部分格上げ(要監視): 下落トレンド下の逆張りロング先行という質的に希少なシグナル"
+      "notes_jp": "【ひとことで】🟠 ちょっと怪しい。様子見で監視するウォレット。\n【正体】High Activity（Nansenが付けた名前/ラベル）\n【お金はどこから？】別チェーンからの『橋(ブリッジ)』経由 → 足を消しており追いにくい\n【よく取引する相手】🏦 Binance: Deposit [0x73bb78]、🤖 Hyperliquid: Bridge 2 [0x2df1c5]、🤖 🏦 Binance: Hot Wallet [0xee7ae8]\n【詳しい判定】部分格上げ(要監視): 下落トレンド下の逆張りロング先行という質的に希少なシグナル",
+      "roi_alltime": 4.1006868918,
+      "roi_month": 2.3799726516,
+      "n_fills_14d": 1215
     },
     "0xb8243756956e722bff5c763971b562ac551bfbd2": {
       "address": "0xb8243756956e722bff5c763971b562ac551bfbd2",
@@ -4461,7 +4554,7 @@
     "0x6f97b7de6be7b7771e975e46bae96c35e332e172": {
       "address": "0x6f97b7de6be7b7771e975e46bae96c35e332e172",
       "first_seen": "2026-06-16",
-      "times_seen": 7,
+      "times_seen": 8,
       "tags": [],
       "notes": "",
       "history": [
@@ -4508,12 +4601,15 @@
         "PnL:中($100k-1M)",
         "頻度:中(50+)",
         "方向:無/フラット"
-      ]
+      ],
+      "roi_alltime": 3.6129685488,
+      "roi_month": 1.5749318305,
+      "n_fills_14d": 198
     },
     "0x3d356173b633d4390ac31dff045c4e20234ebbbd": {
       "address": "0x3d356173b633d4390ac31dff045c4e20234ebbbd",
       "first_seen": "2026-06-16",
-      "times_seen": 7,
+      "times_seen": 8,
       "tags": [],
       "notes": "",
       "history": [
@@ -4562,12 +4658,15 @@
         "方向:ロング",
         "レバ:低(<3x)",
         "銘柄:BTC専"
-      ]
+      ],
+      "roi_alltime": 0.8853010461,
+      "roi_month": 1.6791867285,
+      "n_fills_14d": 17
     },
     "0xd7a01b2fc57149507a1848ae142aa308bdbe05a2": {
       "address": "0xd7a01b2fc57149507a1848ae142aa308bdbe05a2",
       "first_seen": "2026-06-16",
-      "times_seen": 7,
+      "times_seen": 8,
       "tags": [],
       "notes": "",
       "history": [
@@ -4615,12 +4714,15 @@
         "頻度:中(50+)",
         "保有:スキャルプ(<2h)",
         "方向:無/フラット"
-      ]
+      ],
+      "roi_alltime": 20.8554443445,
+      "roi_month": 41.6636293614,
+      "n_fills_14d": 267
     },
     "0x8c96e5a2d770f9f2c9d2464ce4e741df0b2bca57": {
       "address": "0x8c96e5a2d770f9f2c9d2464ce4e741df0b2bca57",
       "first_seen": "2026-06-16",
-      "times_seen": 7,
+      "times_seen": 8,
       "tags": [],
       "notes": "",
       "history": [
@@ -4670,12 +4772,15 @@
         "方向:ショート",
         "レバ:低(<3x)",
         "銘柄:BTC専"
-      ]
+      ],
+      "roi_alltime": 0.6124205198,
+      "roi_month": 2.1478971545,
+      "n_fills_14d": 5898
     },
     "0xeff7fe671d9a7acf86f48994bc5d5161042415b6": {
       "address": "0xeff7fe671d9a7acf86f48994bc5d5161042415b6",
       "first_seen": "2026-06-16",
-      "times_seen": 7,
+      "times_seen": 8,
       "tags": [],
       "notes": "",
       "history": [
@@ -4796,7 +4901,10 @@
         }
       ],
       "nansen_checked": "2026-06-17",
-      "notes_jp": "【ひとことで】🔵 たぶんプロ。まだ詳しく調べていない。\n【正体】名前は分からない（匿名）。\n【お金はどこから？】別チェーンからの『橋(ブリッジ)』経由 → 足を消しており追いにくい\n【よく取引する相手】🤖 Hyperliquid: Bridge 2 [0x2df1c5]、🏦 Nexo: Deposit [0xee2f18]、High Balance [0x5600a3]"
+      "notes_jp": "【ひとことで】🔵 たぶんプロ。まだ詳しく調べていない。\n【正体】名前は分からない（匿名）。\n【お金はどこから？】別チェーンからの『橋(ブリッジ)』経由 → 足を消しており追いにくい\n【よく取引する相手】🤖 Hyperliquid: Bridge 2 [0x2df1c5]、🏦 Nexo: Deposit [0xee2f18]、High Balance [0x5600a3]",
+      "roi_alltime": 2.4755103409,
+      "roi_month": 2.3496646138,
+      "n_fills_14d": 2000
     },
     "0x535191d6d49922d69cc7829dbb73e48694840db7": {
       "address": "0x535191d6d49922d69cc7829dbb73e48694840db7",
@@ -4855,7 +4963,7 @@
     "0x5f2c263aa195ddad2886fc5a6b7d4f33d1a72983": {
       "address": "0x5f2c263aa195ddad2886fc5a6b7d4f33d1a72983",
       "first_seen": "2026-06-16",
-      "times_seen": 7,
+      "times_seen": 8,
       "tags": [],
       "notes": "",
       "history": [
@@ -4904,12 +5012,15 @@
         "方向:混在",
         "レバ:低(<3x)",
         "銘柄:BTC主"
-      ]
+      ],
+      "roi_alltime": 2.2012730205,
+      "roi_month": 1.9261781257,
+      "n_fills_14d": 5204
     },
     "0x57f2819c959abbcf22623d5ec1d3164b213e9711": {
       "address": "0x57f2819c959abbcf22623d5ec1d3164b213e9711",
       "first_seen": "2026-06-16",
-      "times_seen": 7,
+      "times_seen": 8,
       "tags": [],
       "notes": "",
       "history": [
@@ -4959,12 +5070,15 @@
         "方向:ロング",
         "レバ:低(<3x)",
         "銘柄:SOL専"
-      ]
+      ],
+      "roi_alltime": 13.0485093271,
+      "roi_month": 1.6481711311,
+      "n_fills_14d": 1074
     },
     "0xa516541e599129095d14f7faf8b11ae670c837b0": {
       "address": "0xa516541e599129095d14f7faf8b11ae670c837b0",
       "first_seen": "2026-06-16",
-      "times_seen": 7,
+      "times_seen": 8,
       "tags": [],
       "notes": "",
       "history": [
@@ -5012,7 +5126,10 @@
         "頻度:HFT(>3000)",
         "保有:スイング(<48h)",
         "方向:無/フラット"
-      ]
+      ],
+      "roi_alltime": 5.3608581901,
+      "roi_month": 7.0585671835,
+      "n_fills_14d": 3817
     },
     "0xa351db10472a07059ea099e0581444e568bff894": {
       "address": "0xa351db10472a07059ea099e0581444e568bff894",
@@ -5108,7 +5225,7 @@
     "0xd67ca2c6f8bc84acf4fa4472b82a8740dc0a53ff": {
       "address": "0xd67ca2c6f8bc84acf4fa4472b82a8740dc0a53ff",
       "first_seen": "2026-06-16",
-      "times_seen": 7,
+      "times_seen": 8,
       "tags": [
         "cluster-A",
         "funder:0xdf747918"
@@ -5244,7 +5361,10 @@
         "方向:無/フラット",
         "ID:ENS有"
       ],
-      "notes_jp": "【ひとことで】・優先度は低い。\n【正体】0x3x6.eth*、gritsa.eth*、shahna.eth*（Nansenが付けた名前/ラベル）\n【お金はどこから？】別の財布（0xe78da2c6f8bc84acf4fa4472b82a8740dc0a6510）から\n【よく取引する相手】Token Millionaire、Token Millionaire、High Activity\n【グループ】同じ資金元から同時に動いた『協調クラスタA』の一員。\n【詳しい判定】維持(弱い再評価): クラスタA資金連結はあるがHFTで先読みではない"
+      "notes_jp": "【ひとことで】・優先度は低い。\n【正体】0x3x6.eth*、gritsa.eth*、shahna.eth*（Nansenが付けた名前/ラベル）\n【お金はどこから？】別の財布（0xe78da2c6f8bc84acf4fa4472b82a8740dc0a6510）から\n【よく取引する相手】Token Millionaire、Token Millionaire、High Activity\n【グループ】同じ資金元から同時に動いた『協調クラスタA』の一員。\n【詳しい判定】維持(弱い再評価): クラスタA資金連結はあるがHFTで先読みではない",
+      "roi_alltime": 1.997393325,
+      "roi_month": 4.987804881,
+      "n_fills_14d": 4676
     },
     "0x91f564e80ed5e98eb22fde0857e1a87047f2df13": {
       "address": "0x91f564e80ed5e98eb22fde0857e1a87047f2df13",
@@ -5311,7 +5431,7 @@
     "0x8be0b9c4dbfb90f47fb94e8968dce08d3152326c": {
       "address": "0x8be0b9c4dbfb90f47fb94e8968dce08d3152326c",
       "first_seen": "2026-06-16",
-      "times_seen": 7,
+      "times_seen": 8,
       "tags": [],
       "notes": "",
       "history": [
@@ -5359,7 +5479,10 @@
         "頻度:中(50+)",
         "保有:スキャルプ(<2h)",
         "方向:無/フラット"
-      ]
+      ],
+      "roi_alltime": 2.3909859837,
+      "roi_month": 1.5524244848,
+      "n_fills_14d": 147
     },
     "0x5d8f65942e5ace94c2f3c119970d502fcc6e7927": {
       "address": "0x5d8f65942e5ace94c2f3c119970d502fcc6e7927",
@@ -6165,7 +6288,7 @@
     "0xc6758a779bccee1ef0190dbe8292fdf44076795d": {
       "address": "0xc6758a779bccee1ef0190dbe8292fdf44076795d",
       "first_seen": "2026-06-17",
-      "times_seen": 3,
+      "times_seen": 4,
       "tags": [],
       "notes": "",
       "history": [
@@ -6203,12 +6326,15 @@
         "avg_hold_h": null,
         "event_lead_notional": 0,
         "insider_likelihood": null
-      }
+      },
+      "roi_alltime": 12.3958004314,
+      "roi_month": 1.9163994145,
+      "n_fills_14d": 57
     },
     "0x99b1098d9d50aa076f78bd26ab22e6abd3710729": {
       "address": "0x99b1098d9d50aa076f78bd26ab22e6abd3710729",
       "first_seen": "2026-06-17",
-      "times_seen": 3,
+      "times_seen": 4,
       "tags": [],
       "notes": "",
       "history": [
@@ -6318,12 +6444,15 @@
         }
       ],
       "nansen_checked": "2026-06-17",
-      "notes_jp": "【ひとことで】💰 大きく稼いで、お金をほぼ全部 外に引き出したっぽいウォレット。\n【正体】名前は分からない（匿名）。\n【お金はどこから？】別の財布（[0xba52af]）から\n【よく取引する相手】🤖 Hyperliquid: Bridge 2 [0x2df1c5]、🤖 🏦 Binance: Hot Wallet [0xee7ae8]、🏦 Binance: Deposit [0xfccb79]\n【出金の話】今までに合計 $26,458,745 稼いだのに、今の残高は $211,552 しかない（=稼ぎをほぼ外に出した。比 125倍）。"
+      "notes_jp": "【ひとことで】💰 大きく稼いで、お金をほぼ全部 外に引き出したっぽいウォレット。\n【正体】名前は分からない（匿名）。\n【お金はどこから？】別の財布（[0xba52af]）から\n【よく取引する相手】🤖 Hyperliquid: Bridge 2 [0x2df1c5]、🤖 🏦 Binance: Hot Wallet [0xee7ae8]、🏦 Binance: Deposit [0xfccb79]\n【出金の話】今までに合計 $26,458,745 稼いだのに、今の残高は $211,552 しかない（=稼ぎをほぼ外に出した。比 125倍）。",
+      "roi_alltime": 10.7937884821,
+      "roi_month": 1.1209390792,
+      "n_fills_14d": 1352
     },
     "0x0a7097d919b7421ecc03aed3aac68a13e7ef1f46": {
       "address": "0x0a7097d919b7421ecc03aed3aac68a13e7ef1f46",
       "first_seen": "2026-06-17",
-      "times_seen": 3,
+      "times_seen": 4,
       "tags": [],
       "notes": "",
       "history": [
@@ -6407,12 +6536,15 @@
         }
       ],
       "nansen_checked": "2026-06-17",
-      "notes_jp": "【ひとことで】💰 大きく稼いで、お金をほぼ全部 外に引き出したっぽいウォレット。\n【正体】\"kekvault2\" on OpenSea（Nansenが付けた名前/ラベル）\n【お金はどこから？】別の財布（@kekbeta [0xbe69e0]）から\n【よく取引する相手】🏦 Binance: Deposit [0xe5ef5c]、🤖 ParaSwap: Augustus V.2 [0x6a000f]、🤖 High Activity [0x6f0538]\n【出金の話】今までに合計 $1,673,525 稼いだのに、今の残高は $13,944 しかない（=稼ぎをほぼ外に出した。比 120倍）。"
+      "notes_jp": "【ひとことで】💰 大きく稼いで、お金をほぼ全部 外に引き出したっぽいウォレット。\n【正体】\"kekvault2\" on OpenSea（Nansenが付けた名前/ラベル）\n【お金はどこから？】別の財布（@kekbeta [0xbe69e0]）から\n【よく取引する相手】🏦 Binance: Deposit [0xe5ef5c]、🤖 ParaSwap: Augustus V.2 [0x6a000f]、🤖 High Activity [0x6f0538]\n【出金の話】今までに合計 $1,673,525 稼いだのに、今の残高は $13,944 しかない（=稼ぎをほぼ外に出した。比 120倍）。",
+      "roi_alltime": 4.9687891229,
+      "roi_month": 0.1365549105,
+      "n_fills_14d": 1898
     },
     "0x2a304155f0c751217f2bedc1769be8398151eca4": {
       "address": "0x2a304155f0c751217f2bedc1769be8398151eca4",
       "first_seen": "2026-06-17",
-      "times_seen": 3,
+      "times_seen": 4,
       "tags": [],
       "notes": "",
       "history": [
@@ -6448,12 +6580,15 @@
         "avg_hold_h": null,
         "event_lead_notional": 0,
         "insider_likelihood": null
-      }
+      },
+      "roi_alltime": 6.3058498364,
+      "roi_month": 5.8346390937,
+      "n_fills_14d": 22
     },
     "0xb123cd952875d8014efc7a9160a7531a5fe8f5ca": {
       "address": "0xb123cd952875d8014efc7a9160a7531a5fe8f5ca",
       "first_seen": "2026-06-17",
-      "times_seen": 3,
+      "times_seen": 4,
       "tags": [],
       "notes": "",
       "history": [
@@ -6623,12 +6758,15 @@
         }
       ],
       "nansen_checked": "2026-06-17",
-      "notes_jp": "【ひとことで】💰 大きく稼いで、お金をほぼ全部 外に引き出したっぽいウォレット。\n【正体】\"M1NER\" on OpenSea、miner35.eth、miner35.eth*（Nansenが付けた名前/ラベル）\n【お金はどこから？】別チェーンからの『橋(ブリッジ)』経由 → 足を消しており追いにくい\n【よく取引する相手】[0x0d47a1]、Burn Address [0x000000]、🤖 UniversalRouter [0x8b844f]\n【出金の話】今までに合計 $359,978 稼いだのに、今の残高は $20,000 しかない（=稼ぎをほぼ外に出した。比 18倍）。"
+      "notes_jp": "【ひとことで】💰 大きく稼いで、お金をほぼ全部 外に引き出したっぽいウォレット。\n【正体】\"M1NER\" on OpenSea、miner35.eth、miner35.eth*（Nansenが付けた名前/ラベル）\n【お金はどこから？】別チェーンからの『橋(ブリッジ)』経由 → 足を消しており追いにくい\n【よく取引する相手】[0x0d47a1]、Burn Address [0x000000]、🤖 UniversalRouter [0x8b844f]\n【出金の話】今までに合計 $359,978 稼いだのに、今の残高は $20,000 しかない（=稼ぎをほぼ外に出した。比 18倍）。",
+      "roi_alltime": 29.9789054811,
+      "roi_month": 2.0168047399,
+      "n_fills_14d": 3
     },
     "0x159d148acd970eaf88bed8feac4ad6d38e7c3665": {
       "address": "0x159d148acd970eaf88bed8feac4ad6d38e7c3665",
       "first_seen": "2026-06-17",
-      "times_seen": 3,
+      "times_seen": 4,
       "tags": [],
       "notes": "",
       "history": [
@@ -6665,12 +6803,15 @@
         "avg_hold_h": 0.01,
         "event_lead_notional": 0,
         "insider_likelihood": null
-      }
+      },
+      "roi_alltime": 1.8823575732,
+      "roi_month": 1.4716938957,
+      "n_fills_14d": 3
     },
     "0xa4be91acc74feabab71b8878b66b8f5277212520": {
       "address": "0xa4be91acc74feabab71b8878b66b8f5277212520",
       "first_seen": "2026-06-17",
-      "times_seen": 3,
+      "times_seen": 4,
       "tags": [],
       "notes": "",
       "history": [
@@ -6734,12 +6875,15 @@
         }
       ],
       "nansen_checked": "2026-06-17",
-      "notes_jp": "【ひとことで】💰 大きく稼いで、お金をほぼ全部 外に引き出したっぽいウォレット。\n【正体】名前は分からない（匿名）。\n【お金はどこから？】Binance(取引所)から入金 → 取引所が『この人が誰か』を知っている\n【よく取引する相手】🤖 Hyperliquid: Bridge 2 [0x2df1c5]、🤖 🏦 Binance: Hot Wallet [0xee7ae8]\n【出金の話】今までに合計 $1,364,583 稼いだのに、今の残高は $53,352 しかない（=稼ぎをほぼ外に出した。比 26倍）。"
+      "notes_jp": "【ひとことで】💰 大きく稼いで、お金をほぼ全部 外に引き出したっぽいウォレット。\n【正体】名前は分からない（匿名）。\n【お金はどこから？】Binance(取引所)から入金 → 取引所が『この人が誰か』を知っている\n【よく取引する相手】🤖 Hyperliquid: Bridge 2 [0x2df1c5]、🤖 🏦 Binance: Hot Wallet [0xee7ae8]\n【出金の話】今までに合計 $1,364,583 稼いだのに、今の残高は $53,352 しかない（=稼ぎをほぼ外に出した。比 26倍）。",
+      "roi_alltime": 4.4221123437,
+      "roi_month": 0.9208969009,
+      "n_fills_14d": 186
     },
     "0x9a377ec81c1bd51d31170bf8d7a7b6c5fbaded9b": {
       "address": "0x9a377ec81c1bd51d31170bf8d7a7b6c5fbaded9b",
       "first_seen": "2026-06-17",
-      "times_seen": 3,
+      "times_seen": 4,
       "tags": [],
       "notes": "",
       "history": [
@@ -6850,12 +6994,15 @@
         }
       ],
       "nansen_checked": "2026-06-17",
-      "notes_jp": "【ひとことで】💰 大きく稼いで、お金をほぼ全部 外に引き出したっぽいウォレット。\n【正体】名前は分からない（匿名）。\n【お金はどこから？】別の財布（[0xd2ae30]）から\n【よく取引する相手】🤖 Circle: USDC Bridge [0xa95d9c]、Burn Address [0x000000]、🏦 Bybit: Deposit [0xc6cfd3]\n【出金の話】今までに合計 $478,330 稼いだのに、今の残高は $10,068 しかない（=稼ぎをほぼ外に出した。比 48倍）。"
+      "notes_jp": "【ひとことで】💰 大きく稼いで、お金をほぼ全部 外に引き出したっぽいウォレット。\n【正体】名前は分からない（匿名）。\n【お金はどこから？】別の財布（[0xd2ae30]）から\n【よく取引する相手】🤖 Circle: USDC Bridge [0xa95d9c]、Burn Address [0x000000]、🏦 Bybit: Deposit [0xc6cfd3]\n【出金の話】今までに合計 $478,330 稼いだのに、今の残高は $10,068 しかない（=稼ぎをほぼ外に出した。比 48倍）。",
+      "roi_alltime": 1.6132943693,
+      "roi_month": 0.1649500895,
+      "n_fills_14d": 219
     },
     "0x321f7193eadbacb67eff00f76b975a487e5b1c84": {
       "address": "0x321f7193eadbacb67eff00f76b975a487e5b1c84",
       "first_seen": "2026-06-17",
-      "times_seen": 3,
+      "times_seen": 4,
       "tags": [],
       "notes": "",
       "history": [
@@ -6894,12 +7041,15 @@
         "avg_hold_h": 39.76,
         "event_lead_notional": 0,
         "insider_likelihood": null
-      }
+      },
+      "roi_alltime": 1.4657990996,
+      "roi_month": 1.4657990996,
+      "n_fills_14d": 782
     },
     "0xf211dd718de25bcad861e53a7b10dd5b3b9d5c6c": {
       "address": "0xf211dd718de25bcad861e53a7b10dd5b3b9d5c6c",
       "first_seen": "2026-06-17",
-      "times_seen": 3,
+      "times_seen": 4,
       "tags": [],
       "notes": "",
       "history": [
@@ -6938,12 +7088,15 @@
         "avg_hold_h": 39.61,
         "event_lead_notional": 0,
         "insider_likelihood": null
-      }
+      },
+      "roi_alltime": 1.0742527306,
+      "roi_month": 3.552390471,
+      "n_fills_14d": 281
     },
     "0x5421e7c6ce37b6c5a6a428018a451071a6fd3ab2": {
       "address": "0x5421e7c6ce37b6c5a6a428018a451071a6fd3ab2",
       "first_seen": "2026-06-17",
-      "times_seen": 3,
+      "times_seen": 4,
       "tags": [],
       "notes": "",
       "history": [
@@ -6980,12 +7133,15 @@
         "avg_hold_h": 15.06,
         "event_lead_notional": 316049,
         "insider_likelihood": null
-      }
+      },
+      "roi_alltime": 1.5901414123,
+      "roi_month": 3.4290600269,
+      "n_fills_14d": 529
     },
     "0xcdbd79aafd6d0618e3fc6aecb11e1a61908a9169": {
       "address": "0xcdbd79aafd6d0618e3fc6aecb11e1a61908a9169",
       "first_seen": "2026-06-17",
-      "times_seen": 3,
+      "times_seen": 4,
       "tags": [],
       "notes": "",
       "history": [
@@ -7024,12 +7180,15 @@
         "avg_hold_h": 56.66,
         "event_lead_notional": 813781,
         "insider_likelihood": null
-      }
+      },
+      "roi_alltime": 0.5509173726,
+      "roi_month": 1.5293093871,
+      "n_fills_14d": 456
     },
     "0x920abbd8a5f5d39e87ed802d73e5aa902dc71d89": {
       "address": "0x920abbd8a5f5d39e87ed802d73e5aa902dc71d89",
       "first_seen": "2026-06-17",
-      "times_seen": 3,
+      "times_seen": 4,
       "tags": [],
       "notes": "",
       "history": [
@@ -7066,12 +7225,15 @@
         "avg_hold_h": 44.82,
         "event_lead_notional": 0,
         "insider_likelihood": null
-      }
+      },
+      "roi_alltime": 1.3130905972,
+      "roi_month": 1.7267234614,
+      "n_fills_14d": 25
     },
     "0x71b117d68974aa4c5615669ae70e8e13ce7479c8": {
       "address": "0x71b117d68974aa4c5615669ae70e8e13ce7479c8",
       "first_seen": "2026-06-17",
-      "times_seen": 3,
+      "times_seen": 4,
       "tags": [],
       "notes": "",
       "history": [
@@ -7178,12 +7340,15 @@
         }
       ],
       "nansen_checked": "2026-06-17",
-      "notes_jp": "【ひとことで】💰 大きく稼いで、お金をほぼ全部 外に引き出したっぽいウォレット。\n【正体】High Balance（Nansenが付けた名前/ラベル）\n【お金はどこから？】プログラム(コントラクト)経由 → 人の財布までは見えない\n【よく取引する相手】🤖 Hyperliquid: Bridge 2 [0x2df1c5]、🏦 Coinbase: Deposit [0xf5ddde]、Relay Protocol: EOA Bridge [0xf70da9]\n【出金の話】今までに合計 $983,412 稼いだのに、今の残高は $83,398 しかない（=稼ぎをほぼ外に出した。比 12倍）。"
+      "notes_jp": "【ひとことで】💰 大きく稼いで、お金をほぼ全部 外に引き出したっぽいウォレット。\n【正体】High Balance（Nansenが付けた名前/ラベル）\n【お金はどこから？】プログラム(コントラクト)経由 → 人の財布までは見えない\n【よく取引する相手】🤖 Hyperliquid: Bridge 2 [0x2df1c5]、🏦 Coinbase: Deposit [0xf5ddde]、Relay Protocol: EOA Bridge [0xf70da9]\n【出金の話】今までに合計 $983,412 稼いだのに、今の残高は $83,398 しかない（=稼ぎをほぼ外に出した。比 12倍）。",
+      "roi_alltime": 9.835445575,
+      "roi_month": 1.7098453724,
+      "n_fills_14d": 1900
     },
     "0x48b1a8f92e403bc9dc7500b9cbcc4cadf35c7ac0": {
       "address": "0x48b1a8f92e403bc9dc7500b9cbcc4cadf35c7ac0",
       "first_seen": "2026-06-17",
-      "times_seen": 3,
+      "times_seen": 4,
       "tags": [],
       "notes": "",
       "history": [
@@ -7293,12 +7458,15 @@
         }
       ],
       "nansen_checked": "2026-06-17",
-      "notes_jp": "【ひとことで】🔵 たぶんプロ。まだ詳しく調べていない。\n【正体】名前は分からない（匿名）。\n【お金はどこから？】プログラム(コントラクト)経由 → 人の財布までは見えない\n【よく取引する相手】🤖 Hyperliquid: Bridge 2 [0x2df1c5]、🤖 LI.FI: Contract [0x89c634]、HL Perps Altcoin Trader [0xdb2205]"
+      "notes_jp": "【ひとことで】🔵 たぶんプロ。まだ詳しく調べていない。\n【正体】名前は分からない（匿名）。\n【お金はどこから？】プログラム(コントラクト)経由 → 人の財布までは見えない\n【よく取引する相手】🤖 Hyperliquid: Bridge 2 [0x2df1c5]、🤖 LI.FI: Contract [0x89c634]、HL Perps Altcoin Trader [0xdb2205]",
+      "roi_alltime": 0.5119070008,
+      "roi_month": 1.7929730013,
+      "n_fills_14d": 978
     },
     "0x2f394ae1ca45071bc222e7124b5d125637942be2": {
       "address": "0x2f394ae1ca45071bc222e7124b5d125637942be2",
       "first_seen": "2026-06-17",
-      "times_seen": 3,
+      "times_seen": 4,
       "tags": [],
       "notes": "",
       "history": [
@@ -7397,12 +7565,15 @@
         }
       ],
       "nansen_checked": "2026-06-17",
-      "notes_jp": "【ひとことで】💰 大きく稼いで、お金をほぼ全部 外に引き出したっぽいウォレット。\n【正体】名前は分からない（匿名）。\n【お金はどこから？】Gate(取引所)から入金 → 取引所が『この人が誰か』を知っている\n【よく取引する相手】Burn Address [0x000000]、🏦 Kraken: Deposit [0xac1eed]、🏦 Kraken: Deposit [0x4613e2]\n【出金の話】今までに合計 $863,182 稼いだのに、今の残高は $12,890 しかない（=稼ぎをほぼ外に出した。比 67倍）。"
+      "notes_jp": "【ひとことで】💰 大きく稼いで、お金をほぼ全部 外に引き出したっぽいウォレット。\n【正体】名前は分からない（匿名）。\n【お金はどこから？】Gate(取引所)から入金 → 取引所が『この人が誰か』を知っている\n【よく取引する相手】Burn Address [0x000000]、🏦 Kraken: Deposit [0xac1eed]、🏦 Kraken: Deposit [0x4613e2]\n【出金の話】今までに合計 $863,182 稼いだのに、今の残高は $12,890 しかない（=稼ぎをほぼ外に出した。比 67倍）。",
+      "roi_alltime": 0.5453798424,
+      "roi_month": 1.8996602269,
+      "n_fills_14d": 1110
     },
     "0x6bea81d7a0c5939a5ce5552e125ab57216cc597f": {
       "address": "0x6bea81d7a0c5939a5ce5552e125ab57216cc597f",
       "first_seen": "2026-06-17",
-      "times_seen": 3,
+      "times_seen": 4,
       "tags": [],
       "notes": "",
       "history": [
@@ -7454,12 +7625,15 @@
       ],
       "counterparties": [],
       "nansen_checked": "2026-06-17",
-      "notes_jp": "【ひとことで】💰 大きく稼いで、お金をほぼ全部 外に引き出したっぽいウォレット。\n【正体】名前は分からない（匿名）。\n【お金はどこから？】Binance(取引所)から入金 → 取引所が『この人が誰か』を知っている\n【出金の話】今までに合計 $8,217,777 稼いだのに、今の残高は $146,964 しかない（=稼ぎをほぼ外に出した。比 56倍）。"
+      "notes_jp": "【ひとことで】💰 大きく稼いで、お金をほぼ全部 外に引き出したっぽいウォレット。\n【正体】名前は分からない（匿名）。\n【お金はどこから？】Binance(取引所)から入金 → 取引所が『この人が誰か』を知っている\n【出金の話】今までに合計 $8,217,777 稼いだのに、今の残高は $146,964 しかない（=稼ぎをほぼ外に出した。比 56倍）。",
+      "roi_alltime": 2.9258198936,
+      "roi_month": 0.6758248228,
+      "n_fills_14d": 579
     },
     "0x9bd2ee53f6c6aa778209b8673f6c7df754830c88": {
       "address": "0x9bd2ee53f6c6aa778209b8673f6c7df754830c88",
       "first_seen": "2026-06-17",
-      "times_seen": 3,
+      "times_seen": 4,
       "tags": [],
       "notes": "",
       "history": [
@@ -7496,12 +7670,15 @@
         "avg_hold_h": 2.94,
         "event_lead_notional": 1008316,
         "insider_likelihood": null
-      }
+      },
+      "roi_alltime": 1.4691080635,
+      "roi_month": 1.4704312838,
+      "n_fills_14d": 1891
     },
     "0x935729ae51eef975ccdeb481d513c75986227bfd": {
       "address": "0x935729ae51eef975ccdeb481d513c75986227bfd",
       "first_seen": "2026-06-17",
-      "times_seen": 3,
+      "times_seen": 4,
       "tags": [],
       "notes": "",
       "history": [
@@ -7612,12 +7789,15 @@
         }
       ],
       "nansen_checked": "2026-06-17",
-      "notes_jp": "【ひとことで】💰 大きく稼いで、お金をほぼ全部 外に引き出したっぽいウォレット。\n【正体】名前は分からない（匿名）。\n【お金はどこから？】Coinbase(取引所)から入金 → 取引所が『この人が誰か』を知っている\n【よく取引する相手】🤖 🏦 Coinbase: Deposit [0x755509]、🤖 ArbitrumSettlerIntent [0x97c82f]、🤖 Hyperliquid: Bridge 2 [0x2df1c5]\n【出金の話】今までに合計 $1,173,278 稼いだのに、今の残高は $45,031 しかない（=稼ぎをほぼ外に出した。比 26倍）。"
+      "notes_jp": "【ひとことで】💰 大きく稼いで、お金をほぼ全部 外に引き出したっぽいウォレット。\n【正体】名前は分からない（匿名）。\n【お金はどこから？】Coinbase(取引所)から入金 → 取引所が『この人が誰か』を知っている\n【よく取引する相手】🤖 🏦 Coinbase: Deposit [0x755509]、🤖 ArbitrumSettlerIntent [0x97c82f]、🤖 Hyperliquid: Bridge 2 [0x2df1c5]\n【出金の話】今までに合計 $1,173,278 稼いだのに、今の残高は $45,031 しかない（=稼ぎをほぼ外に出した。比 26倍）。",
+      "roi_alltime": 30.4570773094,
+      "roi_month": 1.6087820341,
+      "n_fills_14d": 350
     },
     "0x6a2cb9b34ba6ca342ec787b70cd1878e71810231": {
       "address": "0x6a2cb9b34ba6ca342ec787b70cd1878e71810231",
       "first_seen": "2026-06-17",
-      "times_seen": 3,
+      "times_seen": 4,
       "tags": [],
       "notes": "",
       "history": [
@@ -7654,12 +7834,15 @@
         "avg_hold_h": 4.96,
         "event_lead_notional": 0,
         "insider_likelihood": null
-      }
+      },
+      "roi_alltime": 0.2140098786,
+      "roi_month": 1.8870782281,
+      "n_fills_14d": 46
     },
     "0xa9f12ca1b27941c05e3998279c06b81b8e33ca81": {
       "address": "0xa9f12ca1b27941c05e3998279c06b81b8e33ca81",
       "first_seen": "2026-06-17",
-      "times_seen": 3,
+      "times_seen": 4,
       "tags": [],
       "notes": "",
       "history": [
@@ -7696,12 +7879,15 @@
         "avg_hold_h": 12.19,
         "event_lead_notional": 0,
         "insider_likelihood": null
-      }
+      },
+      "roi_alltime": 14.4654828334,
+      "roi_month": 1.5393333233,
+      "n_fills_14d": 180
     },
     "0x473717d2be2084d64e888d29056e36577f3d9469": {
       "address": "0x473717d2be2084d64e888d29056e36577f3d9469",
       "first_seen": "2026-06-17",
-      "times_seen": 3,
+      "times_seen": 4,
       "tags": [],
       "notes": "",
       "history": [
@@ -7738,12 +7924,15 @@
         "avg_hold_h": 3.65,
         "event_lead_notional": 0,
         "insider_likelihood": null
-      }
+      },
+      "roi_alltime": 12.5551207597,
+      "roi_month": 2.7518791295,
+      "n_fills_14d": 105
     },
     "0x1c75b586b9779532f65c32487af40286a0d88d88": {
       "address": "0x1c75b586b9779532f65c32487af40286a0d88d88",
       "first_seen": "2026-06-17",
-      "times_seen": 3,
+      "times_seen": 4,
       "tags": [],
       "notes": "",
       "history": [
@@ -7780,12 +7969,15 @@
         "avg_hold_h": 0.23,
         "event_lead_notional": 0,
         "insider_likelihood": null
-      }
+      },
+      "roi_alltime": 11.7522908692,
+      "roi_month": 3.2449971871,
+      "n_fills_14d": 59
     },
     "0x55ee7523bcc783e774c3a8b1004b5abdb735ac5d": {
       "address": "0x55ee7523bcc783e774c3a8b1004b5abdb735ac5d",
       "first_seen": "2026-06-17",
-      "times_seen": 3,
+      "times_seen": 4,
       "tags": [],
       "notes": "",
       "history": [
@@ -7878,12 +8070,15 @@
         }
       ],
       "nansen_checked": "2026-06-17",
-      "notes_jp": "【ひとことで】💰 大きく稼いで、お金をほぼ全部 外に引き出したっぽいウォレット。\n【正体】名前は分からない（匿名）。\n【お金はどこから？】Binance(取引所)から入金 → 取引所が『この人が誰か』を知っている\n【よく取引する相手】🤖 Hyperliquid: Bridge 2 [0x2df1c5]、🤖 Circle: CCTP TokenMinterV2 [0xfd78ee]、Burn Address [0x000000]\n【出金の話】今までに合計 $1,223,801 稼いだのに、今の残高は $31,001 しかない（=稼ぎをほぼ外に出した。比 40倍）。"
+      "notes_jp": "【ひとことで】💰 大きく稼いで、お金をほぼ全部 外に引き出したっぽいウォレット。\n【正体】名前は分からない（匿名）。\n【お金はどこから？】Binance(取引所)から入金 → 取引所が『この人が誰か』を知っている\n【よく取引する相手】🤖 Hyperliquid: Bridge 2 [0x2df1c5]、🤖 Circle: CCTP TokenMinterV2 [0xfd78ee]、Burn Address [0x000000]\n【出金の話】今までに合計 $1,223,801 稼いだのに、今の残高は $31,001 しかない（=稼ぎをほぼ外に出した。比 40倍）。",
+      "roi_alltime": 1.936855799,
+      "roi_month": 0.2139724328,
+      "n_fills_14d": 160
     },
     "0x9f6fed26339789725b0751f57aeac23367ceee57": {
       "address": "0x9f6fed26339789725b0751f57aeac23367ceee57",
       "first_seen": "2026-06-17",
-      "times_seen": 3,
+      "times_seen": 4,
       "tags": [],
       "notes": "",
       "history": [
@@ -7920,12 +8115,15 @@
         "avg_hold_h": 23.52,
         "event_lead_notional": 131249,
         "insider_likelihood": null
-      }
+      },
+      "roi_alltime": 0.1429886524,
+      "roi_month": 2.0284700491,
+      "n_fills_14d": 1304
     },
     "0x9803e982c4eb6d9b9e416966814e7f9fa4363bce": {
       "address": "0x9803e982c4eb6d9b9e416966814e7f9fa4363bce",
       "first_seen": "2026-06-17",
-      "times_seen": 3,
+      "times_seen": 4,
       "tags": [],
       "notes": "",
       "history": [
@@ -7963,12 +8161,15 @@
         "avg_hold_h": null,
         "event_lead_notional": 0,
         "insider_likelihood": null
-      }
+      },
+      "roi_alltime": 1.5809704891,
+      "roi_month": 1.6401509421,
+      "n_fills_14d": 108
     },
     "0x25dacd8a27eac9ad6eba5eb88e3b68f707eb1397": {
       "address": "0x25dacd8a27eac9ad6eba5eb88e3b68f707eb1397",
       "first_seen": "2026-06-17",
-      "times_seen": 3,
+      "times_seen": 4,
       "tags": [],
       "notes": "",
       "history": [
@@ -8006,12 +8207,15 @@
         "avg_hold_h": null,
         "event_lead_notional": 0,
         "insider_likelihood": null
-      }
+      },
+      "roi_alltime": 2.8197738723,
+      "roi_month": 2.0528063512,
+      "n_fills_14d": 7
     },
     "0xc2c060e3309461ec7c4291b1aac6c89aa228727e": {
       "address": "0xc2c060e3309461ec7c4291b1aac6c89aa228727e",
       "first_seen": "2026-06-17",
-      "times_seen": 3,
+      "times_seen": 4,
       "tags": [],
       "notes": "",
       "history": [
@@ -8109,12 +8313,15 @@
         }
       ],
       "nansen_checked": "2026-06-17",
-      "notes_jp": "【ひとことで】💰 大きく稼いで、お金をほぼ全部 外に引き出したっぽいウォレット。\n【正体】\"H2_\" on OpenSea（Nansenが付けた名前/ラベル）\n【お金はどこから？】名前付きの個人財布（\"v_haya_v\" on OpenSea [0x2dafbc]）から\n【よく取引する相手】🤖 High Activity [0x2e69a9]、🤖 ForwarderV4 [0xe1348c]、🤖 Staked USDai [0x0b2b2b]\n【出金の話】今までに合計 $635,632 稼いだのに、今の残高は $24,287 しかない（=稼ぎをほぼ外に出した。比 26倍）。"
+      "notes_jp": "【ひとことで】💰 大きく稼いで、お金をほぼ全部 外に引き出したっぽいウォレット。\n【正体】\"H2_\" on OpenSea（Nansenが付けた名前/ラベル）\n【お金はどこから？】名前付きの個人財布（\"v_haya_v\" on OpenSea [0x2dafbc]）から\n【よく取引する相手】🤖 High Activity [0x2e69a9]、🤖 ForwarderV4 [0xe1348c]、🤖 Staked USDai [0x0b2b2b]\n【出金の話】今までに合計 $635,632 稼いだのに、今の残高は $24,287 しかない（=稼ぎをほぼ外に出した。比 26倍）。",
+      "roi_alltime": 58.5085930569,
+      "roi_month": 0.0201262973,
+      "n_fills_14d": 62
     },
     "0x30e3784b28332b7cb268988f9e81eeff9e3bf2dc": {
       "address": "0x30e3784b28332b7cb268988f9e81eeff9e3bf2dc",
       "first_seen": "2026-06-17",
-      "times_seen": 3,
+      "times_seen": 4,
       "tags": [],
       "notes": "",
       "history": [
@@ -8150,12 +8357,15 @@
         "avg_hold_h": null,
         "event_lead_notional": 0,
         "insider_likelihood": null
-      }
+      },
+      "roi_alltime": 24.7381970637,
+      "roi_month": 1.4738418514,
+      "n_fills_14d": 5
     },
     "0x7632be1bdb486be27a1c39ff4208ffd5853c59ed": {
       "address": "0x7632be1bdb486be27a1c39ff4208ffd5853c59ed",
       "first_seen": "2026-06-17",
-      "times_seen": 3,
+      "times_seen": 4,
       "tags": [],
       "notes": "",
       "history": [
@@ -8192,12 +8402,15 @@
         "avg_hold_h": 25.51,
         "event_lead_notional": 0,
         "insider_likelihood": null
-      }
+      },
+      "roi_alltime": 1.9350216294,
+      "roi_month": 2.2667033414,
+      "n_fills_14d": 10
     },
     "0xf19c933aee749ea5286892100ddf2b7876b1f99e": {
       "address": "0xf19c933aee749ea5286892100ddf2b7876b1f99e",
       "first_seen": "2026-06-17",
-      "times_seen": 3,
+      "times_seen": 4,
       "tags": [],
       "notes": "",
       "history": [
@@ -8234,12 +8447,15 @@
         "avg_hold_h": 2.6,
         "event_lead_notional": 0,
         "insider_likelihood": null
-      }
+      },
+      "roi_alltime": 5.2269656616,
+      "roi_month": 1.4840736796,
+      "n_fills_14d": 73
     },
     "0x880ac484a1743862989a441d6d867238c7aa311c": {
       "address": "0x880ac484a1743862989a441d6d867238c7aa311c",
       "first_seen": "2026-06-17",
-      "times_seen": 3,
+      "times_seen": 4,
       "tags": [],
       "notes": "",
       "history": [
@@ -8322,12 +8538,15 @@
         }
       ],
       "nansen_checked": "2026-06-17",
-      "notes_jp": "【ひとことで】💰 大きく稼いで、お金をほぼ全部 外に引き出したっぽいウォレット。\n【正体】High Activity（Nansenが付けた名前/ラベル）\n【お金はどこから？】別の財布（[0x991bc4]）から\n【よく取引する相手】🤖 Hyperliquid: Bridge 2 [0x2df1c5]、🤖 Circle: Token Minter [0xe7ed1f]、High Activity [0xa1bc47]\n【出金の話】今までに合計 $114,834,358 稼いだのに、今の残高は $2,865,251 しかない（=稼ぎをほぼ外に出した。比 40倍）。"
+      "notes_jp": "【ひとことで】💰 大きく稼いで、お金をほぼ全部 外に引き出したっぽいウォレット。\n【正体】High Activity（Nansenが付けた名前/ラベル）\n【お金はどこから？】別の財布（[0x991bc4]）から\n【よく取引する相手】🤖 Hyperliquid: Bridge 2 [0x2df1c5]、🤖 Circle: Token Minter [0xe7ed1f]、High Activity [0xa1bc47]\n【出金の話】今までに合計 $114,834,358 稼いだのに、今の残高は $2,865,251 しかない（=稼ぎをほぼ外に出した。比 40倍）。",
+      "roi_alltime": 1.6625006033,
+      "roi_month": 0.1070021196,
+      "n_fills_14d": 71
     },
     "0xa0d669521cb00bfe43e5fa3bd573dc01dfe6567c": {
       "address": "0xa0d669521cb00bfe43e5fa3bd573dc01dfe6567c",
       "first_seen": "2026-06-17",
-      "times_seen": 3,
+      "times_seen": 4,
       "tags": [],
       "notes": "",
       "history": [
@@ -8366,12 +8585,15 @@
         "avg_hold_h": 19.6,
         "event_lead_notional": 0,
         "insider_likelihood": null
-      }
+      },
+      "roi_alltime": 4.1695478404,
+      "roi_month": 1.5562350338,
+      "n_fills_14d": 215
     },
     "0x3db5a674b22cf6479367ae31be33204ae8701f33": {
       "address": "0x3db5a674b22cf6479367ae31be33204ae8701f33",
       "first_seen": "2026-06-17",
-      "times_seen": 3,
+      "times_seen": 4,
       "tags": [],
       "notes": "",
       "history": [
@@ -8408,12 +8630,15 @@
         "avg_hold_h": 23.76,
         "event_lead_notional": 0,
         "insider_likelihood": null
-      }
+      },
+      "roi_alltime": 0.9236178921,
+      "roi_month": 4.044990076,
+      "n_fills_14d": 644
     },
     "0x20cf6f56ef057157ab8a48c82ed97258148c403c": {
       "address": "0x20cf6f56ef057157ab8a48c82ed97258148c403c",
       "first_seen": "2026-06-17",
-      "times_seen": 3,
+      "times_seen": 4,
       "tags": [],
       "notes": "",
       "history": [
@@ -8450,12 +8675,15 @@
         "avg_hold_h": 20.53,
         "event_lead_notional": 0,
         "insider_likelihood": null
-      }
+      },
+      "roi_alltime": 1.1908425848,
+      "roi_month": 2.1784879895,
+      "n_fills_14d": 58
     },
     "0xa0d149c9e3fee0a9f920058c4139c73894c2be98": {
       "address": "0xa0d149c9e3fee0a9f920058c4139c73894c2be98",
       "first_seen": "2026-06-17",
-      "times_seen": 3,
+      "times_seen": 4,
       "tags": [],
       "notes": "",
       "history": [
@@ -8492,12 +8720,15 @@
         "avg_hold_h": 2.29,
         "event_lead_notional": 0,
         "insider_likelihood": null
-      }
+      },
+      "roi_alltime": 2.6509471195,
+      "roi_month": 2.9476590749,
+      "n_fills_14d": 260
     },
     "0xdf4b79c5cebf5be025f9a0658a38a5440689c147": {
       "address": "0xdf4b79c5cebf5be025f9a0658a38a5440689c147",
       "first_seen": "2026-06-17",
-      "times_seen": 3,
+      "times_seen": 4,
       "tags": [],
       "notes": "",
       "history": [
@@ -8535,12 +8766,15 @@
         "avg_hold_h": null,
         "event_lead_notional": 0,
         "insider_likelihood": null
-      }
+      },
+      "roi_alltime": 0.7288993426,
+      "roi_month": 1.743379217,
+      "n_fills_14d": 14
     },
     "0xa4dedda59f2908b92ae192cfd494839373bcb3c4": {
       "address": "0xa4dedda59f2908b92ae192cfd494839373bcb3c4",
       "first_seen": "2026-06-17",
-      "times_seen": 3,
+      "times_seen": 4,
       "tags": [],
       "notes": "",
       "history": [
@@ -8577,12 +8811,15 @@
         "avg_hold_h": 4.21,
         "event_lead_notional": 0,
         "insider_likelihood": null
-      }
+      },
+      "roi_alltime": 84.2321120922,
+      "roi_month": 1.7627678559,
+      "n_fills_14d": 1502
     },
     "0xc7ebe10d3568c52b3f43dc50320167db9d10ce4f": {
       "address": "0xc7ebe10d3568c52b3f43dc50320167db9d10ce4f",
       "first_seen": "2026-06-17",
-      "times_seen": 3,
+      "times_seen": 4,
       "tags": [],
       "notes": "",
       "history": [
@@ -8657,12 +8894,15 @@
         }
       ],
       "nansen_checked": "2026-06-17",
-      "notes_jp": "【ひとことで】💰 大きく稼いで、お金をほぼ全部 外に引き出したっぽいウォレット。\n【正体】名前は分からない（匿名）。\n【お金はどこから？】別の財布（​​GSR [0xb06cf2]）から\n【よく取引する相手】🤖 🏦 Binance: Hot Wallet [0xee7ae8]、🤖 Hyperliquid: Bridge 2 [0x2df1c5]、[0x2df1dc]\n【出金の話】今までに合計 $1,233,653 稼いだのに、今の残高は $20,471 しかない（=稼ぎをほぼ外に出した。比 60倍）。"
+      "notes_jp": "【ひとことで】💰 大きく稼いで、お金をほぼ全部 外に引き出したっぽいウォレット。\n【正体】名前は分からない（匿名）。\n【お金はどこから？】別の財布（​​GSR [0xb06cf2]）から\n【よく取引する相手】🤖 🏦 Binance: Hot Wallet [0xee7ae8]、🤖 Hyperliquid: Bridge 2 [0x2df1c5]、[0x2df1dc]\n【出金の話】今までに合計 $1,233,653 稼いだのに、今の残高は $20,471 しかない（=稼ぎをほぼ外に出した。比 60倍）。",
+      "roi_alltime": 0.1219354728,
+      "roi_month": 0.0488485332,
+      "n_fills_14d": 59
     },
     "0x08bf75d17046412ae08c95b6106993f714487872": {
       "address": "0x08bf75d17046412ae08c95b6106993f714487872",
       "first_seen": "2026-06-17",
-      "times_seen": 3,
+      "times_seen": 4,
       "tags": [],
       "notes": "",
       "history": [
@@ -8700,12 +8940,15 @@
         "avg_hold_h": null,
         "event_lead_notional": 0,
         "insider_likelihood": null
-      }
+      },
+      "roi_alltime": 0.0469675364,
+      "roi_month": 1.5513673885,
+      "n_fills_14d": 44
     },
     "0xc8378d5bd334b984b5ada4e8ee09a49fe4d8d97d": {
       "address": "0xc8378d5bd334b984b5ada4e8ee09a49fe4d8d97d",
       "first_seen": "2026-06-17",
-      "times_seen": 3,
+      "times_seen": 4,
       "tags": [],
       "notes": "",
       "history": [
@@ -8744,12 +8987,15 @@
         "avg_hold_h": 7.31,
         "event_lead_notional": 0,
         "insider_likelihood": null
-      }
+      },
+      "roi_alltime": 2.3344151074,
+      "roi_month": 1.6505901227,
+      "n_fills_14d": 297
     },
     "0xd4fb7eef06db5dc70dcba58c9c4ba1e3ab8c19f1": {
       "address": "0xd4fb7eef06db5dc70dcba58c9c4ba1e3ab8c19f1",
       "first_seen": "2026-06-17",
-      "times_seen": 3,
+      "times_seen": 4,
       "tags": [],
       "notes": "",
       "history": [
@@ -8787,12 +9033,15 @@
         "avg_hold_h": null,
         "event_lead_notional": 0,
         "insider_likelihood": null
-      }
+      },
+      "roi_alltime": 1.604154926,
+      "roi_month": 1.604154926,
+      "n_fills_14d": 397
     },
     "0xfbeaa12ce05b8baf12189d38974af90a2a82776e": {
       "address": "0xfbeaa12ce05b8baf12189d38974af90a2a82776e",
       "first_seen": "2026-06-17",
-      "times_seen": 3,
+      "times_seen": 4,
       "tags": [],
       "notes": "",
       "history": [
@@ -8829,12 +9078,15 @@
         "avg_hold_h": 4.52,
         "event_lead_notional": 0,
         "insider_likelihood": null
-      }
+      },
+      "roi_alltime": 9.5430623266,
+      "roi_month": 9.3702486608,
+      "n_fills_14d": 1050
     },
     "0xbe494a5e3a719a78a45a47ab453b7b0199b9d101": {
       "address": "0xbe494a5e3a719a78a45a47ab453b7b0199b9d101",
       "first_seen": "2026-06-17",
-      "times_seen": 3,
+      "times_seen": 4,
       "tags": [],
       "notes": "",
       "history": [
@@ -8946,12 +9198,15 @@
         }
       ],
       "nansen_checked": "2026-06-17",
-      "notes_jp": "【ひとことで】💰 大きく稼いで、お金をほぼ全部 外に引き出したっぽいウォレット。\n【正体】名前は分からない（匿名）。\n【お金はどこから？】Binance(取引所)から入金 → 取引所が『この人が誰か』を知っている\n【よく取引する相手】🤖 🏦 Binance: Hot Wallet [0xee7ae8]、🤖 Hyperliquid: Bridge 2 [0x2df1c5]、🤖 Circle: USDC Bridge [0xa95d9c]\n【出金の話】今までに合計 $2,896,056 稼いだのに、今の残高は $50,537 しかない（=稼ぎをほぼ外に出した。比 57倍）。"
+      "notes_jp": "【ひとことで】💰 大きく稼いで、お金をほぼ全部 外に引き出したっぽいウォレット。\n【正体】名前は分からない（匿名）。\n【お金はどこから？】Binance(取引所)から入金 → 取引所が『この人が誰か』を知っている\n【よく取引する相手】🤖 🏦 Binance: Hot Wallet [0xee7ae8]、🤖 Hyperliquid: Bridge 2 [0x2df1c5]、🤖 Circle: USDC Bridge [0xa95d9c]\n【出金の話】今までに合計 $2,896,056 稼いだのに、今の残高は $50,537 しかない（=稼ぎをほぼ外に出した。比 57倍）。",
+      "roi_alltime": 5.1398555956,
+      "roi_month": 0.1259725637,
+      "n_fills_14d": 171
     },
     "0x39b07015ca813075bbce6f475767d5b4b9d518b0": {
       "address": "0x39b07015ca813075bbce6f475767d5b4b9d518b0",
       "first_seen": "2026-06-17",
-      "times_seen": 3,
+      "times_seen": 4,
       "tags": [],
       "notes": "",
       "history": [
@@ -8990,12 +9245,15 @@
         "avg_hold_h": 2.41,
         "event_lead_notional": 0,
         "insider_likelihood": null
-      }
+      },
+      "roi_alltime": 3.2064871378,
+      "roi_month": 2.4972967726,
+      "n_fills_14d": 444
     },
     "0x2f04ed87b5ac8b703565469311341b0b44e315d7": {
       "address": "0x2f04ed87b5ac8b703565469311341b0b44e315d7",
       "first_seen": "2026-06-17",
-      "times_seen": 3,
+      "times_seen": 4,
       "tags": [],
       "notes": "",
       "history": [
@@ -9158,12 +9416,15 @@
         }
       ],
       "nansen_checked": "2026-06-17",
-      "notes_jp": "【ひとことで】💰 大きく稼いで、お金をほぼ全部 外に引き出したっぽいウォレット。\n【正体】High Activity（Nansenが付けた名前/ラベル）\n【お金はどこから？】プログラム(コントラクト)経由 → 人の財布までは見えない\n【よく取引する相手】🤖 Hyperliquid: Bridge 2 [0x2df1c5]、[0x483a92]、Burn Address [0x000000]\n【出金の話】今までに合計 $911,872 稼いだのに、今の残高は $33,602 しかない（=稼ぎをほぼ外に出した。比 27倍）。"
+      "notes_jp": "【ひとことで】💰 大きく稼いで、お金をほぼ全部 外に引き出したっぽいウォレット。\n【正体】High Activity（Nansenが付けた名前/ラベル）\n【お金はどこから？】プログラム(コントラクト)経由 → 人の財布までは見えない\n【よく取引する相手】🤖 Hyperliquid: Bridge 2 [0x2df1c5]、[0x483a92]、Burn Address [0x000000]\n【出金の話】今までに合計 $911,872 稼いだのに、今の残高は $33,602 しかない（=稼ぎをほぼ外に出した。比 27倍）。",
+      "roi_alltime": 4.0482371049,
+      "roi_month": 0.2678569633,
+      "n_fills_14d": 22
     },
     "0xe1edc766cfb0e8e6894bde26bcb5a94d1777d16c": {
       "address": "0xe1edc766cfb0e8e6894bde26bcb5a94d1777d16c",
       "first_seen": "2026-06-17",
-      "times_seen": 3,
+      "times_seen": 4,
       "tags": [],
       "notes": "",
       "history": [
@@ -9202,12 +9463,15 @@
         "avg_hold_h": 93.2,
         "event_lead_notional": 0,
         "insider_likelihood": null
-      }
+      },
+      "roi_alltime": 0.841115297,
+      "roi_month": 3.1994428517,
+      "n_fills_14d": 104
     },
     "0x29eb62882a8bd104a64400a2971d0d6881777043": {
       "address": "0x29eb62882a8bd104a64400a2971d0d6881777043",
       "first_seen": "2026-06-17",
-      "times_seen": 3,
+      "times_seen": 4,
       "tags": [],
       "notes": "",
       "history": [
@@ -9297,12 +9561,15 @@
         }
       ],
       "nansen_checked": "2026-06-17",
-      "notes_jp": "【ひとことで】💰 大きく稼いで、お金をほぼ全部 外に引き出したっぽいウォレット。\n【正体】High Activity（Nansenが付けた名前/ラベル）\n【お金はどこから？】Binance(取引所)から入金 → 取引所が『この人が誰か』を知っている\n【よく取引する相手】🏦 Bybit: Deposit [0x6e710b]、🏦 Bybit: Deposit [0x33ad23]、[0x6e7177]\n【出金の話】今までに合計 $7,795,755 稼いだのに、今の残高は $180,120 しかない（=稼ぎをほぼ外に出した。比 43倍）。"
+      "notes_jp": "【ひとことで】💰 大きく稼いで、お金をほぼ全部 外に引き出したっぽいウォレット。\n【正体】High Activity（Nansenが付けた名前/ラベル）\n【お金はどこから？】Binance(取引所)から入金 → 取引所が『この人が誰か』を知っている\n【よく取引する相手】🏦 Bybit: Deposit [0x6e710b]、🏦 Bybit: Deposit [0x33ad23]、[0x6e7177]\n【出金の話】今までに合計 $7,795,755 稼いだのに、今の残高は $180,120 しかない（=稼ぎをほぼ外に出した。比 43倍）。",
+      "roi_alltime": 3.3295792897,
+      "roi_month": 0.3279408509,
+      "n_fills_14d": 13
     },
     "0x68a24ccf099422806f1e73248517f3389c29c104": {
       "address": "0x68a24ccf099422806f1e73248517f3389c29c104",
       "first_seen": "2026-06-17",
-      "times_seen": 3,
+      "times_seen": 4,
       "tags": [],
       "notes": "",
       "history": [
@@ -9339,12 +9606,15 @@
         "avg_hold_h": 14.36,
         "event_lead_notional": 0,
         "insider_likelihood": null
-      }
+      },
+      "roi_alltime": 10.175186462,
+      "roi_month": 2.4996793746,
+      "n_fills_14d": 190
     },
     "0xfeec88b13fc0be31695069f02bac18538a154e9c": {
       "address": "0xfeec88b13fc0be31695069f02bac18538a154e9c",
       "first_seen": "2026-06-17",
-      "times_seen": 3,
+      "times_seen": 4,
       "tags": [],
       "notes": "",
       "history": [
@@ -9454,12 +9724,15 @@
         }
       ],
       "nansen_checked": "2026-06-17",
-      "notes_jp": "【ひとことで】💰 大きく稼いで、お金をほぼ全部 外に引き出したっぽいウォレット。\n【正体】名前は分からない（匿名）。\n【お金はどこから？】別の財布（HL Perps Swing Trader [0x507561]）から\n【よく取引する相手】🤖 Hyperliquid: Bridge 2 [0x2df1c5]、🏦 Bybit: Deposit [0x56b31c]、🏦 Bybit: Hot Wallet [0xf89d7b]\n【出金の話】今までに合計 $11,384,547 稼いだのに、今の残高は $102,793 しかない（=稼ぎをほぼ外に出した。比 111倍）。"
+      "notes_jp": "【ひとことで】💰 大きく稼いで、お金をほぼ全部 外に引き出したっぽいウォレット。\n【正体】名前は分からない（匿名）。\n【お金はどこから？】別の財布（HL Perps Swing Trader [0x507561]）から\n【よく取引する相手】🤖 Hyperliquid: Bridge 2 [0x2df1c5]、🏦 Bybit: Deposit [0x56b31c]、🏦 Bybit: Hot Wallet [0xf89d7b]\n【出金の話】今までに合計 $11,384,547 稼いだのに、今の残高は $102,793 しかない（=稼ぎをほぼ外に出した。比 111倍）。",
+      "roi_alltime": 6.0730104535,
+      "roi_month": 0.9396091468,
+      "n_fills_14d": 6827
     },
     "0x2607a3909cee65aa8205ca26f7db2d9244389577": {
       "address": "0x2607a3909cee65aa8205ca26f7db2d9244389577",
       "first_seen": "2026-06-17",
-      "times_seen": 3,
+      "times_seen": 4,
       "tags": [],
       "notes": "",
       "history": [
@@ -9498,12 +9771,15 @@
         "avg_hold_h": 3.97,
         "event_lead_notional": 4398705,
         "insider_likelihood": null
-      }
+      },
+      "roi_alltime": 6.2330051594,
+      "roi_month": 5.7104883416,
+      "n_fills_14d": 14325
     },
     "0x5b5f798b94f54d33ba316c8b1c837e930c90c052": {
       "address": "0x5b5f798b94f54d33ba316c8b1c837e930c90c052",
       "first_seen": "2026-06-17",
-      "times_seen": 3,
+      "times_seen": 4,
       "tags": [],
       "notes": "",
       "history": [
@@ -9540,12 +9816,15 @@
         "avg_hold_h": 0.51,
         "event_lead_notional": 1517422,
         "insider_likelihood": null
-      }
+      },
+      "roi_alltime": 1.208555192,
+      "roi_month": 1.8291523474,
+      "n_fills_14d": 3398
     },
     "0xcb5c2f378860437fad512c3aec09efce1c470283": {
       "address": "0xcb5c2f378860437fad512c3aec09efce1c470283",
       "first_seen": "2026-06-17",
-      "times_seen": 3,
+      "times_seen": 4,
       "tags": [],
       "notes": "",
       "history": [
@@ -9581,12 +9860,15 @@
         "avg_hold_h": null,
         "event_lead_notional": 0,
         "insider_likelihood": null
-      }
+      },
+      "roi_alltime": 162.7782455301,
+      "roi_month": 3.6223015732,
+      "n_fills_14d": 22
     },
     "0x469bc5524456efa6932cac83294f31a09b8159b8": {
       "address": "0x469bc5524456efa6932cac83294f31a09b8159b8",
       "first_seen": "2026-06-17",
-      "times_seen": 3,
+      "times_seen": 4,
       "tags": [],
       "notes": "",
       "history": [
@@ -9624,12 +9906,15 @@
         "avg_hold_h": null,
         "event_lead_notional": 0,
         "insider_likelihood": null
-      }
+      },
+      "roi_alltime": 1.1484489453,
+      "roi_month": 3.3284352931,
+      "n_fills_14d": 9
     },
     "0x05c6959d997cde99d2f967367e5e9f1959ba9706": {
       "address": "0x05c6959d997cde99d2f967367e5e9f1959ba9706",
       "first_seen": "2026-06-17",
-      "times_seen": 3,
+      "times_seen": 4,
       "tags": [],
       "notes": "",
       "history": [
@@ -9713,12 +9998,15 @@
         }
       ],
       "nansen_checked": "2026-06-17",
-      "notes_jp": "【ひとことで】💰 大きく稼いで、お金をほぼ全部 外に引き出したっぽいウォレット。\n【正体】High Balance（Nansenが付けた名前/ラベル）\n【お金はどこから？】別チェーンからの『橋(ブリッジ)』経由 → 足を消しており追いにくい\n【よく取引する相手】🤖 Hyperliquid: Bridge 2 [0x2df1c5]、🤖 ERC1967Proxy [0x6d4d4a]、🤖 LI.FI: Diamond Facet Bridge [0x1231de]\n【出金の話】今までに合計 $649,800 稼いだのに、今の残高は $48,721 しかない（=稼ぎをほぼ外に出した。比 13倍）。"
+      "notes_jp": "【ひとことで】💰 大きく稼いで、お金をほぼ全部 外に引き出したっぽいウォレット。\n【正体】High Balance（Nansenが付けた名前/ラベル）\n【お金はどこから？】別チェーンからの『橋(ブリッジ)』経由 → 足を消しており追いにくい\n【よく取引する相手】🤖 Hyperliquid: Bridge 2 [0x2df1c5]、🤖 ERC1967Proxy [0x6d4d4a]、🤖 LI.FI: Diamond Facet Bridge [0x1231de]\n【出金の話】今までに合計 $649,800 稼いだのに、今の残高は $48,721 しかない（=稼ぎをほぼ外に出した。比 13倍）。",
+      "roi_alltime": 6.874827725,
+      "roi_month": 1.6963725769,
+      "n_fills_14d": 1
     },
     "0x0e3f5bb797e3953fed2a319544d0e821b4a11e1c": {
       "address": "0x0e3f5bb797e3953fed2a319544d0e821b4a11e1c",
       "first_seen": "2026-06-17",
-      "times_seen": 3,
+      "times_seen": 4,
       "tags": [],
       "notes": "",
       "history": [
@@ -9794,12 +10082,15 @@
         }
       ],
       "nansen_checked": "2026-06-17",
-      "notes_jp": "【ひとことで】💰 大きく稼いで、お金をほぼ全部 外に引き出したっぽいウォレット。\n【正体】名前は分からない（匿名）。\n【お金はどこから？】Coinbase(取引所)から入金 → 取引所が『この人が誰か』を知っている\n【よく取引する相手】🤖 HTLCCoordinator [0x5b7cda]、[0xf34c5a]、HL Perps Day Trader [0x0fe28b]\n【出金の話】今までに合計 $2,400,159 稼いだのに、今の残高は $18,192 しかない（=稼ぎをほぼ外に出した。比 132倍）。"
+      "notes_jp": "【ひとことで】💰 大きく稼いで、お金をほぼ全部 外に引き出したっぽいウォレット。\n【正体】名前は分からない（匿名）。\n【お金はどこから？】Coinbase(取引所)から入金 → 取引所が『この人が誰か』を知っている\n【よく取引する相手】🤖 HTLCCoordinator [0x5b7cda]、[0xf34c5a]、HL Perps Day Trader [0x0fe28b]\n【出金の話】今までに合計 $2,400,159 稼いだのに、今の残高は $18,192 しかない（=稼ぎをほぼ外に出した。比 132倍）。",
+      "roi_alltime": 1.6590975963,
+      "roi_month": 0.1816648814,
+      "n_fills_14d": 29
     },
     "0xce43a7498e65b6f6c8741fd9a7efc3f78efc78c4": {
       "address": "0xce43a7498e65b6f6c8741fd9a7efc3f78efc78c4",
       "first_seen": "2026-06-17",
-      "times_seen": 3,
+      "times_seen": 4,
       "tags": [],
       "notes": "",
       "history": [
@@ -9929,8 +10220,11 @@
         }
       ],
       "nansen_checked": "2026-06-17",
-      "notes_jp": "【ひとことで】💰 大きく稼いで、お金をほぼ全部 外に引き出したっぽいウォレット。\n【正体】caledor.eth*、carolineplz.eth*、drachenfels.eth*、saintmarcus.eth*（Nansenが付けた名前/ラベル）\n【お金はどこから？】別の財布（[0xdf54a7]）から\n【よく取引する相手】Relay Protocol: EOA Bridge [0xf70da9]、🤖 Relay Protocol: Depository [0x4cd00e]、HL Perps Swing Trader [0x488bd1]\n【出金の話】今までに合計 $361,867 稼いだのに、今の残高は $15,510 しかない（=稼ぎをほぼ外に出した。比 23倍）。"
+      "notes_jp": "【ひとことで】💰 大きく稼いで、お金をほぼ全部 外に引き出したっぽいウォレット。\n【正体】caledor.eth*、carolineplz.eth*、drachenfels.eth*、saintmarcus.eth*（Nansenが付けた名前/ラベル）\n【お金はどこから？】別の財布（[0xdf54a7]）から\n【よく取引する相手】Relay Protocol: EOA Bridge [0xf70da9]、🤖 Relay Protocol: Depository [0x4cd00e]、HL Perps Swing Trader [0x488bd1]\n【出金の話】今までに合計 $361,867 稼いだのに、今の残高は $15,510 しかない（=稼ぎをほぼ外に出した。比 23倍）。",
+      "roi_alltime": 2.9925491865,
+      "roi_month": 0.0909779553,
+      "n_fills_14d": 2
     }
   },
-  "updated_at": "2026-06-17T09:35:59.748417+00:00"
+  "updated_at": "2026-06-17T11:03:06.948604+00:00"
 }

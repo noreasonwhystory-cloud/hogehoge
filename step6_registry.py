@@ -136,6 +136,11 @@ def main():
         # 多軸オートタグ
         win = w.get("lb_windows", {}) or {}
         at = win.get("allTime") or {}
+        mo = win.get("month") or {}
+        # 表示用: ROI(全期/月) と 直近14日の取引回数(majors約定数)
+        entry["roi_alltime"] = at.get("roi")
+        entry["roi_month"] = mo.get("roi")
+        entry["n_fills_14d"] = w.get("n_fills")
         entry["auto_tags"] = tagging.derive_tags({
             "roi": at.get("roi"), "pnl": at.get("pnl"),
             "n_fills": w.get("n_fills"), "avg_hold_h": w.get("avg_hold_h"),
@@ -207,6 +212,15 @@ def render_html(reg):
         lik = e.get("insider_likelihood")
         liks = f"{lik:.2f}" if isinstance(lik, (int, float)) else "—"
         color = POS_COLOR.get(e["position"], "#5c636d")
+        # ROI(全期) と 直近14日取引回数（手動CAは lb_allTime/hl_profile からフォールバック）
+        roi_at = e.get("roi_alltime")
+        if roi_at is None:
+            roi_at = (e.get("lb_allTime") or {}).get("roi")
+        roi_disp = f"{roi_at*100:,.0f}%" if isinstance(roi_at, (int, float)) else "—"
+        nf = e.get("n_fills_14d")
+        if nf is None:
+            nf = (e.get("hl_profile") or {}).get("n_fills_recent")
+        nf_disp = f"{nf:,}" if isinstance(nf, (int, float)) else "—"
         # 表示タグ = オートタグ + 手動/クラスタタグ（funder: は冗長なので除外）
         all_tags = list(e.get("auto_tags", [])) + [t for t in e.get("tags", []) if not t.startswith("funder:")]
         tags = "".join(
@@ -240,6 +254,8 @@ def render_html(reg):
   <td>{esc(cur.get('metric_category'))}</td>
   <td>{esc(round(cur.get('win_rate',0) or 0,2))}/{esc(round(cur.get('dir_accuracy',0) or 0,2))}</td>
   <td>{esc(f"${cur.get('total_pnl',0):,.0f}" if cur.get('total_pnl') is not None else '-')}</td>
+  <td>{roi_disp}</td>
+  <td>{nf_disp}</td>
   <td>{esc(cur.get('avg_hold_h'))}</td>
   <td>{tags}</td>
   <td class="seen">{esc(e.get('times_seen'))}回<br><span class="muted">{esc(e.get('first_seen'))}→{esc(e.get('last_seen'))}</span></td>
@@ -325,7 +341,7 @@ code{{background:#0b0f14;padding:1px 4px;border-radius:4px;font-size:11px}}
   <span class="muted" style="font-size:11px;margin-left:8px">※複数選択はAND（すべて満たす行）</span></div>
 </div>
 <table id="reg">
-<tr><th>位置づけ</th><th>濃度</th><th>アドレス</th><th>数値分類</th><th>勝率/的中</th><th>majors損益</th><th>保有h</th><th>タグ</th><th>観測</th><th>多角判定 / 履歴(直近)</th></tr>
+<tr><th>位置づけ</th><th>濃度</th><th>アドレス</th><th>数値分類</th><th>勝率/的中</th><th>majors損益</th><th>ROI(全期)</th><th>取引数(14日)</th><th>保有h</th><th>タグ</th><th>観測</th><th>多角判定 / 履歴(直近)</th></tr>
 {rows}
 </table>
 <script>
