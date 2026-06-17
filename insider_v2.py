@@ -138,7 +138,7 @@ def main():
     print("  正規化率 = 大口の賭けのうち『イベント往復』が占める割合（高い=選別的に当てる）")
     for r in qualified[:20]:
         t = r["tiers"][M]
-        print(f\"  率{t['norm_rate']:.2f} (往復{t['rt']}/大口{t['large_clusters']}) majors{r['majors']} {r['address'][:12]}..\")
+        print(f"  率{t['norm_rate']:.2f} (往復{t['rt']}/大口{t['large_clusters']}) majors{r['majors']} {r['address'][:12]}..")
     print("\n=== 参考: 生の往復≥3件数（出来高バイアスあり）===")
     for name, *_ in TIERS:
         n = sum(1 for r in out if r["tiers"][name]["rt"] >= 3)
