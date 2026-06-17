@@ -174,7 +174,10 @@
       ],
       "notes_jp": "【判定】★最有力(的中ほぼ100%)\n【資金源】🏦 Kromatika: Deployer [0xb4b8b6] ＝ ブリッジ/サービス経由(足を消す)\n【先行建玉】個別例なし(event_lead合計で検出)\n【的中率】1.0（高いほど“動く前に正しく賭けた”＝先読みの証拠）",
       "roi_alltime": 4.2163714294,
-      "n_fills_14d": 773
+      "n_fills_14d": 773,
+      "active_from": "2024-01-19",
+      "active_to": "2026-06-16",
+      "trade_days": 879
     },
     "0x10b6f072fabe21bc72ffd77ff5d4414e6cef2980": {
       "address": "0x10b6f072fabe21bc72ffd77ff5d4414e6cef2980",
@@ -256,7 +259,10 @@
       "notes_jp": "【判定】★最有力(的中ほぼ100%)\n【資金源】High Balance [0x9aa91e] ＝ 別ウォレット経由\n【先行建玉】個別例なし(event_lead合計で検出)\n【的中率】1.0（高いほど“動く前に正しく賭けた”＝先読みの証拠）",
       "roi_alltime": 4.6704985213,
       "roi_month": 2.1442328436,
-      "n_fills_14d": 644
+      "n_fills_14d": 644,
+      "active_from": "2025-10-30",
+      "active_to": "2026-06-15",
+      "trade_days": 228
     },
     "0x230963164d9637a4c536270a06b4e3636d44a2d9": {
       "address": "0x230963164d9637a4c536270a06b4e3636d44a2d9",
@@ -343,7 +349,10 @@
       "pro_score": 0.443,
       "pro_realized": 339822,
       "pro_span_days": 30,
-      "pro_tier": "B"
+      "pro_tier": "B",
+      "active_from": "2025-05-16",
+      "active_to": "2026-06-07",
+      "trade_days": 387
     },
     "0x128fae9d18a2f70d98a03c26bf17b67d97ce1f3c": {
       "address": "0x128fae9d18a2f70d98a03c26bf17b67d97ce1f3c",
@@ -1200,7 +1209,10 @@
       "pro_score": 0.375,
       "pro_realized": 4283,
       "pro_span_days": 30,
-      "pro_tier": "C"
+      "pro_tier": "C",
+      "active_from": "2025-01-08",
+      "active_to": "2026-06-15",
+      "trade_days": 523
     },
     "0x4d3980ac9d84fc34adcd025ee2337786846343c4": {
       "address": "0x4d3980ac9d84fc34adcd025ee2337786846343c4",
@@ -1317,7 +1329,10 @@
       "pro_score": 0.335,
       "pro_realized": 11957,
       "pro_span_days": 30,
-      "pro_tier": "C"
+      "pro_tier": "C",
+      "active_from": "2026-05-18",
+      "active_to": "2026-06-17",
+      "trade_days": 30
     },
     "0xa72dc2d42398e54634fc28e6769f8ce3ae011807": {
       "address": "0xa72dc2d42398e54634fc28e6769f8ce3ae011807",
@@ -1458,7 +1473,10 @@
       "pro_score": 0.369,
       "pro_realized": 24242,
       "pro_span_days": 30,
-      "pro_tier": "C"
+      "pro_tier": "C",
+      "active_from": "2026-05-23",
+      "active_to": "2026-06-13",
+      "trade_days": 21
     },
     "0x8463d6ffcbfb56bf20ab2e1111f9a0e8359533f2": {
       "address": "0x8463d6ffcbfb56bf20ab2e1111f9a0e8359533f2",
@@ -1770,7 +1788,10 @@
       "pro_score": 0.369,
       "pro_realized": 57460,
       "pro_span_days": 30,
-      "pro_tier": "C"
+      "pro_tier": "C",
+      "active_from": "2025-09-08",
+      "active_to": "2026-06-16",
+      "trade_days": 281
     },
     "0xd05808946809c180d190608e13f473db30aa8524": {
       "address": "0xd05808946809c180d190608e13f473db30aa8524",
@@ -2070,7 +2091,10 @@
       "pro_score": 0.276,
       "pro_realized": 145747,
       "pro_span_days": 30,
-      "pro_tier": "C"
+      "pro_tier": "C",
+      "active_from": "2025-10-17",
+      "active_to": "2026-06-17",
+      "trade_days": 243
     },
     "0x5875d72130981b18692a3d29545e4038f7eb0c38": {
       "address": "0x5875d72130981b18692a3d29545e4038f7eb0c38",
@@ -2380,7 +2404,10 @@
       "pro_score": 0.256,
       "pro_realized": 8256,
       "pro_span_days": 30,
-      "pro_tier": "C"
+      "pro_tier": "C",
+      "active_from": "2026-03-11",
+      "active_to": "2026-04-06",
+      "trade_days": 26
     },
     "0x103e9d15f8a102ef9333ad8b66ffe25b0db448a4": {
       "address": "0x103e9d15f8a102ef9333ad8b66ffe25b0db448a4",
@@ -5357,7 +5384,10 @@
       ],
       "notes_jp": "【ひとことで】🟠 ちょっと怪しい。様子見で監視するウォレット。\n【正体】名前は分からない（匿名）。\n【お金はどこから？】別チェーンからの『橋(ブリッジ)』経由 → 足を消しており追いにくい\n【もう一段たどると】お金は Across という別チェーンからの『橋(ブリッジ)』を渡ってきており、橋の向こう側は別チェーンなのでこの先は辿れない（足を消している）。\n【よく取引する相手】🤖 LI.FI: Contract [0x89c634]、🤖 Hyperliquid: Bridge 2 [0x2df1c5]\n【グループ】同じ資金元から同時に動いた『協調クラスタA』の一員。\n【詳しい判定】部分格上げ: メトリクスはMMとして除外も協調クラスタAの一員。資金網先行という別シグナル",
       "roi_alltime": 0.958620524,
-      "n_fills_14d": 5846
+      "n_fills_14d": 5846,
+      "active_from": "2026-05-26",
+      "active_to": "2026-06-17",
+      "trade_days": 22
     },
     "0xd67ca2c6f8bc84acf4fa4472b82a8740dc0a53ff": {
       "address": "0xd67ca2c6f8bc84acf4fa4472b82a8740dc0a53ff",
@@ -6591,7 +6621,10 @@
       "notes_jp": "【ひとことで】🤓 Nansenが『常勝(Smart Money)』認定したトレーダー。たぶんプロ、未精査。\n【正体】🤓 Smart HL Perps Trader [0x99b109]（Nansenラベル）\n【成績】通算PnL $14,643,914・ROI 3%・現在残高 $7,610\n【補足】残高が小さい＝稼ぎを引き上げ済の可能性（出金）。",
       "roi_alltime": 10.7937884821,
       "roi_month": 1.1209390792,
-      "n_fills_14d": 1352
+      "n_fills_14d": 1352,
+      "active_from": "2026-02-05",
+      "active_to": "2026-05-07",
+      "trade_days": 91
     },
     "0x0a7097d919b7421ecc03aed3aac68a13e7ef1f46": {
       "address": "0x0a7097d919b7421ecc03aed3aac68a13e7ef1f46",
@@ -6683,7 +6716,10 @@
       "notes_jp": "【ひとことで】💰 大きく稼いで、お金をほぼ全部 外に引き出したっぽいウォレット。\n【正体】\"kekvault2\" on OpenSea（Nansenが付けた名前/ラベル）\n【お金はどこから？】別の財布（@kekbeta [0xbe69e0]）から\n【よく取引する相手】🏦 Binance: Deposit [0xe5ef5c]、🤖 ParaSwap: Augustus V.2 [0x6a000f]、🤖 High Activity [0x6f0538]\n【出金の話】今までに合計 $1,673,525 稼いだのに、今の残高は $13,944 しかない（=稼ぎをほぼ外に出した。比 120倍）。",
       "roi_alltime": 4.9687891229,
       "roi_month": 0.1365549105,
-      "n_fills_14d": 1898
+      "n_fills_14d": 1898,
+      "active_from": "2024-11-30",
+      "active_to": "2026-04-07",
+      "trade_days": 493
     },
     "0x2a304155f0c751217f2bedc1769be8398151eca4": {
       "address": "0x2a304155f0c751217f2bedc1769be8398151eca4",
@@ -7495,7 +7531,10 @@
       "notes_jp": "【ひとことで】🤓 Nansenが『常勝(Smart Money)』認定したトレーダー。たぶんプロ、未精査。\n【正体】Former Smart Trader [0x71b117]（Nansenラベル）\n【成績】通算PnL $1,019,724・ROI 0%・現在残高 $16,087\n【補足】残高が小さい＝稼ぎを引き上げ済の可能性（出金）。",
       "roi_alltime": 9.835445575,
       "roi_month": 1.7098453724,
-      "n_fills_14d": 1900
+      "n_fills_14d": 1900,
+      "active_from": "2026-05-19",
+      "active_to": "2026-06-17",
+      "trade_days": 29
     },
     "0x48b1a8f92e403bc9dc7500b9cbcc4cadf35c7ac0": {
       "address": "0x48b1a8f92e403bc9dc7500b9cbcc4cadf35c7ac0",
@@ -7619,7 +7658,10 @@
       "pro_score": 0.335,
       "pro_realized": 51356,
       "pro_span_days": 30,
-      "pro_tier": "C"
+      "pro_tier": "C",
+      "active_from": "2026-04-13",
+      "active_to": "2026-05-18",
+      "trade_days": 35
     },
     "0x2f394ae1ca45071bc222e7124b5d125637942be2": {
       "address": "0x2f394ae1ca45071bc222e7124b5d125637942be2",
@@ -7726,7 +7768,10 @@
       "notes_jp": "【ひとことで】💰 大きく稼いで、お金をほぼ全部 外に引き出したっぽいウォレット。\n【正体】名前は分からない（匿名）。\n【お金はどこから？】Gate(取引所)から入金 → 取引所が『この人が誰か』を知っている\n【よく取引する相手】Burn Address [0x000000]、🏦 Kraken: Deposit [0xac1eed]、🏦 Kraken: Deposit [0x4613e2]\n【出金の話】今までに合計 $863,182 稼いだのに、今の残高は $12,890 しかない（=稼ぎをほぼ外に出した。比 67倍）。",
       "roi_alltime": 0.5453798424,
       "roi_month": 1.8996602269,
-      "n_fills_14d": 1110
+      "n_fills_14d": 1110,
+      "active_from": "2024-09-06",
+      "active_to": "2025-07-20",
+      "trade_days": 317
     },
     "0x6bea81d7a0c5939a5ce5552e125ab57216cc597f": {
       "address": "0x6bea81d7a0c5939a5ce5552e125ab57216cc597f",
@@ -7791,7 +7836,10 @@
       "notes_jp": "【ひとことで】🤓 Nansenが『常勝(Smart Money)』認定したトレーダー。たぶんプロ、未精査。\n【正体】🤓 Smart HL Perps Trader [0x6bea81]（Nansenラベル）\n【成績】通算PnL $7,210,474・ROI 441%・現在残高 $109,340",
       "roi_alltime": 2.9258198936,
       "roi_month": 0.6758248228,
-      "n_fills_14d": 579
+      "n_fills_14d": 579,
+      "active_from": "2025-08-20",
+      "active_to": "2025-09-29",
+      "trade_days": 40
     },
     "0x9bd2ee53f6c6aa778209b8673f6c7df754830c88": {
       "address": "0x9bd2ee53f6c6aa778209b8673f6c7df754830c88",
@@ -8479,7 +8527,10 @@
       "notes_jp": "【ひとことで】💰 大きく稼いで、お金をほぼ全部 外に引き出したっぽいウォレット。\n【正体】\"H2_\" on OpenSea（Nansenが付けた名前/ラベル）\n【お金はどこから？】名前付きの個人財布（\"v_haya_v\" on OpenSea [0x2dafbc]）から\n【よく取引する相手】🤖 High Activity [0x2e69a9]、🤖 ForwarderV4 [0xe1348c]、🤖 Staked USDai [0x0b2b2b]\n【出金の話】今までに合計 $635,632 稼いだのに、今の残高は $24,287 しかない（=稼ぎをほぼ外に出した。比 26倍）。",
       "roi_alltime": 58.5085930569,
       "roi_month": 0.0201262973,
-      "n_fills_14d": 62
+      "n_fills_14d": 62,
+      "active_from": "2024-02-24",
+      "active_to": "2026-06-17",
+      "trade_days": 844
     },
     "0x30e3784b28332b7cb268988f9e81eeff9e3bf2dc": {
       "address": "0x30e3784b28332b7cb268988f9e81eeff9e3bf2dc",
@@ -8704,7 +8755,10 @@
       "notes_jp": "【ひとことで】💰 大きく稼いで、お金をほぼ全部 外に引き出したっぽいウォレット。\n【正体】High Activity（Nansenが付けた名前/ラベル）\n【お金はどこから？】別の財布（[0x991bc4]）から\n【よく取引する相手】🤖 Hyperliquid: Bridge 2 [0x2df1c5]、🤖 Circle: Token Minter [0xe7ed1f]、High Activity [0xa1bc47]\n【出金の話】今までに合計 $114,834,358 稼いだのに、今の残高は $2,865,251 しかない（=稼ぎをほぼ外に出した。比 40倍）。",
       "roi_alltime": 1.6625006033,
       "roi_month": 0.1070021196,
-      "n_fills_14d": 71
+      "n_fills_14d": 71,
+      "active_from": "2026-04-08",
+      "active_to": "2026-04-12",
+      "trade_days": 4
     },
     "0xa0d669521cb00bfe43e5fa3bd573dc01dfe6567c": {
       "address": "0xa0d669521cb00bfe43e5fa3bd573dc01dfe6567c",
@@ -9076,7 +9130,10 @@
       "notes_jp": "【ひとことで】💰 大きく稼いで、お金をほぼ全部 外に引き出したっぽいウォレット。\n【正体】名前は分からない（匿名）。\n【お金はどこから？】別の財布（​​GSR [0xb06cf2]）から\n【よく取引する相手】🤖 🏦 Binance: Hot Wallet [0xee7ae8]、🤖 Hyperliquid: Bridge 2 [0x2df1c5]、[0x2df1dc]\n【出金の話】今までに合計 $1,233,653 稼いだのに、今の残高は $20,471 しかない（=稼ぎをほぼ外に出した。比 60倍）。",
       "roi_alltime": 0.1219354728,
       "roi_month": 0.0488485332,
-      "n_fills_14d": 59
+      "n_fills_14d": 59,
+      "active_from": "2025-07-26",
+      "active_to": "2025-09-03",
+      "trade_days": 39
     },
     "0x08bf75d17046412ae08c95b6106993f714487872": {
       "address": "0x08bf75d17046412ae08c95b6106993f714487872",
@@ -9603,7 +9660,10 @@
       "notes_jp": "【ひとことで】💰 大きく稼いで、お金をほぼ全部 外に引き出したっぽいウォレット。\n【正体】High Activity（Nansenが付けた名前/ラベル）\n【お金はどこから？】プログラム(コントラクト)経由 → 人の財布までは見えない\n【よく取引する相手】🤖 Hyperliquid: Bridge 2 [0x2df1c5]、[0x483a92]、Burn Address [0x000000]\n【出金の話】今までに合計 $911,872 稼いだのに、今の残高は $33,602 しかない（=稼ぎをほぼ外に出した。比 27倍）。",
       "roi_alltime": 4.0482371049,
       "roi_month": 0.2678569633,
-      "n_fills_14d": 22
+      "n_fills_14d": 22,
+      "active_from": "2023-09-16",
+      "active_to": "2025-02-23",
+      "trade_days": 526
     },
     "0xe1edc766cfb0e8e6894bde26bcb5a94d1777d16c": {
       "address": "0xe1edc766cfb0e8e6894bde26bcb5a94d1777d16c",
@@ -9748,7 +9808,10 @@
       "notes_jp": "【ひとことで】💰 大きく稼いで、お金をほぼ全部 外に引き出したっぽいウォレット。\n【正体】High Activity（Nansenが付けた名前/ラベル）\n【お金はどこから？】Binance(取引所)から入金 → 取引所が『この人が誰か』を知っている\n【よく取引する相手】🏦 Bybit: Deposit [0x6e710b]、🏦 Bybit: Deposit [0x33ad23]、[0x6e7177]\n【出金の話】今までに合計 $7,795,755 稼いだのに、今の残高は $180,120 しかない（=稼ぎをほぼ外に出した。比 43倍）。",
       "roi_alltime": 3.3295792897,
       "roi_month": 0.3279408509,
-      "n_fills_14d": 13
+      "n_fills_14d": 13,
+      "active_from": "2026-02-09",
+      "active_to": "2026-02-11",
+      "trade_days": 2
     },
     "0x68a24ccf099422806f1e73248517f3389c29c104": {
       "address": "0x68a24ccf099422806f1e73248517f3389c29c104",
@@ -9911,7 +9974,10 @@
       "notes_jp": "【ひとことで】💰 大きく稼いで、お金をほぼ全部 外に引き出したっぽいウォレット。\n【正体】名前は分からない（匿名）。\n【お金はどこから？】別の財布（HL Perps Swing Trader [0x507561]）から\n【よく取引する相手】🤖 Hyperliquid: Bridge 2 [0x2df1c5]、🏦 Bybit: Deposit [0x56b31c]、🏦 Bybit: Hot Wallet [0xf89d7b]\n【出金の話】今までに合計 $11,384,547 稼いだのに、今の残高は $102,793 しかない（=稼ぎをほぼ外に出した。比 111倍）。",
       "roi_alltime": 6.0730104535,
       "roi_month": 0.9396091468,
-      "n_fills_14d": 6827
+      "n_fills_14d": 6827,
+      "active_from": "2026-05-11",
+      "active_to": "2026-06-08",
+      "trade_days": 28
     },
     "0x2607a3909cee65aa8205ca26f7db2d9244389577": {
       "address": "0x2607a3909cee65aa8205ca26f7db2d9244389577",
@@ -10193,7 +10259,10 @@
       "notes_jp": "【ひとことで】💰 大きく稼いで、お金をほぼ全部 外に引き出したっぽいウォレット。\n【正体】High Balance（Nansenが付けた名前/ラベル）\n【お金はどこから？】別チェーンからの『橋(ブリッジ)』経由 → 足を消しており追いにくい\n【よく取引する相手】🤖 Hyperliquid: Bridge 2 [0x2df1c5]、🤖 ERC1967Proxy [0x6d4d4a]、🤖 LI.FI: Diamond Facet Bridge [0x1231de]\n【出金の話】今までに合計 $649,800 稼いだのに、今の残高は $48,721 しかない（=稼ぎをほぼ外に出した。比 13倍）。",
       "roi_alltime": 6.874827725,
       "roi_month": 1.6963725769,
-      "n_fills_14d": 1
+      "n_fills_14d": 1,
+      "active_from": "2024-12-28",
+      "active_to": "2026-06-13",
+      "trade_days": 532
     },
     "0x0e3f5bb797e3953fed2a319544d0e821b4a11e1c": {
       "address": "0x0e3f5bb797e3953fed2a319544d0e821b4a11e1c",
@@ -10277,7 +10346,10 @@
       "notes_jp": "【ひとことで】💰 大きく稼いで、お金をほぼ全部 外に引き出したっぽいウォレット。\n【正体】名前は分からない（匿名）。\n【お金はどこから？】Coinbase(取引所)から入金 → 取引所が『この人が誰か』を知っている\n【よく取引する相手】🤖 HTLCCoordinator [0x5b7cda]、[0xf34c5a]、HL Perps Day Trader [0x0fe28b]\n【出金の話】今までに合計 $2,400,159 稼いだのに、今の残高は $18,192 しかない（=稼ぎをほぼ外に出した。比 132倍）。",
       "roi_alltime": 1.6590975963,
       "roi_month": 0.1816648814,
-      "n_fills_14d": 29
+      "n_fills_14d": 29,
+      "active_from": "2025-11-03",
+      "active_to": "2026-04-23",
+      "trade_days": 171
     },
     "0xce43a7498e65b6f6c8741fd9a7efc3f78efc78c4": {
       "address": "0xce43a7498e65b6f6c8741fd9a7efc3f78efc78c4",
