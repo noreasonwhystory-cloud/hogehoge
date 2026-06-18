@@ -1,0 +1,170 @@
+{
+  "judged": [
+    {
+      "address": "0x72988778525f0ce15c5ac1804ac460606a987d6c",
+      "trend_contaminated": true,
+      "insider_signal_strength": 0.1,
+      "best_case_for_insider": "含み損バッグがゼロ(塩漬けでない)で実現益485kと規模もあり、win_rate=1.0という見かけは整っている。あえて好意的に読めば「ロング判断は15/15=的中100%」で、エントリ選択に何らかの優位があるとも解釈できる余地はある。だが情報優位を積極的に支持する証拠は皆無。",
+      "strongest_harmless_explanation": "数値疑惑は完全に説明可能。(1)集計アーティファクト+regime一発: 実現益の64.3%が単月(2026-02)に集中し、非ゼロ月は実質2か月(2026-02と2026-06)、銘柄もBTC/ETHの2つだけ。(2)方向非対称: 全体dir_acc=0.875はロング(15/15=1.0)が稼いでいるだけで、本数の多いショート(121opens)はdir_acc=0.107とほぼランダム以下。「両方向で勝つ実力/情報優位」ではなく、ロングが見かけを持ち上げ、ショートは方向的中していない。short_ratio=0.89のショート一辺倒構成。both_dirs_win=false。塩漬けでない点は加点だが単独では実力/regimeと区別不能。",
+      "key_numbers": "short_ratio=0.89 / both_dirs_win=false(long dir_acc=1.0, short dir_acc=0.107) / top_month_share=0.643(2026-02=311,964) / 非ゼロ月=2か月(02:311,964, 06:173,140) / coin=BTC285,308+ETH199,795の2銘柄 / long15opens-15hits, short121opens-13hits / win_rate=1.0, dir_acc=0.875, n_closes=22",
+      "verdict": "no-change",
+      "recommended_position": "現状維持",
+      "one_line": "見かけの高勝率・高的中はロング15/15と単月64%集中の合成物で、ショートはdir_acc0.107と方向当たっておらず両方向勝ち不成立=トレンド/regime汚染で全て説明でき情報優位の積極証拠なし。",
+      "reasoning": "判定軸を順に当てた結果、昇格条件をどれも満たさない。【1.regime/単月で説明できるか→YES】top_month_share=0.643で実現益の約3分の2が2026-02の単月に集中。非ゼロ月は2026-02と2026-06の実質2か月のみ、銘柄もBTC/ETHの2つに限られ、持続的な複数月・複数銘柄分散ではない。regime一発の典型。【2.両方向で的中>=0.6か→NO】both_dirs_win=false。long dir_acc=1.0(15/15)に対しshort dir_acc=0.107(121opens中13hit)。本数の多いショートが方向ほぼ非的中で、全体dir_acc=0.875はロングが持ち上げた合成値にすぎない。short_ratio=0.89のショート一辺倒構成は、下落regime便乗の疑いの構図にも合致(かつショートは的中していないため「実力ショート」でもない)。トレンド非依存の本物寄りの証拠にならない。【3.持続性→NO】上記の通り単月集中・2銘柄で一発性が強い。【4.塩漬けでない点】含み損バッグなしは加点だが、お前様の指示どおりそれ単独では実力/regime/情報優位を区別できず、昇格根拠にはならない。data内positionも既に「偽陽性(数値疑惑→否定)」とラベル済みで整合。デフォルトの懐疑を覆す材料が無いため no-change(現状維持)。insider_signal_strength=0.1。"
+    },
+    {
+      "address": "0xfe4dec8543b0b9cec0c897a689f7af7bddb02192",
+      "trend_contaminated": true,
+      "insider_signal_strength": 0.12,
+      "best_case_for_insider": "含み損バッグが一切なく(塩漬けで勝率を粉飾していない)、84%勝率・77%方向的中という数値自体は高い。20.9日と1週間+の最低ラインは満たす。仮にSOLの上昇局面を事前に察知してロングを集中投下できていたなら、単月集中・単一銘柄集中はむしろ『特定イベントを狙い撃った』情報優位の痕跡と読める余地は理論上ある。",
+      "strongest_harmless_explanation": "これはショート一辺倒ではなくロング一辺倒(short.opens=0, short_ratio=0.0)。2026-06という単月にSOLの上昇トレンドに乗ってロングを253回打っただけで、84%勝率も77%方向的中も『上げ相場でロングし続ければ機械的に高く出る』典型のトレンド/regime汚染で完全に説明できる。実現益はtop_month_share=1.0(全益が2026-06の単月)、coin_realizedもSOL+34929が主でETHは-7840の負け。情報優位ではなく単なる上昇regime一発便乗。",
+      "key_numbers": "short_ratio=0.0(long_opens=253/short_opens=0=ロング一辺倒), both_dirs_win=false(ショート実績ゼロでdir_acc=null→両方向検証不能), top_month_share=1.0(全益27089が2026-06に集中, 2026-05=0), coin_realized SOL+34929/ETH-7840(単一銘柄依存), long_dir_acc=0.771, win_rate=0.84, active_days=20.9",
+      "verdict": "no-change",
+      "recommended_position": "現状維持",
+      "one_line": "ロング一辺倒×単月集中×単一銘柄(SOL)依存=トレンド/regime汚染で高勝率・高的中が完全説明可能、情報優位の証拠なし。",
+      "reasoning": "判定軸を順に当てる。(1)トレンド/regime汚染か: YES。short_ratio=0.0でショート建玉ゼロ、253回すべてロング。実現益はtop_month_share=1.0で2026-06の単月に100%集中(2026-05は0)。84%勝率・77.1%方向的中は『上昇局面でロングし続ければ機械的に高出力』という典型パターンで説明でき、これはタスクが想定した『ショート一辺倒×下落』の鏡像(ロング一辺倒×上昇)に過ぎない。(2)L/S両方向で的中>=0.6か: NO、検証不能。short.opens=0でshort.dir_acc=null、トレンド非依存性を一切立証できない。both_dirs_win=false。(3)複数月・複数銘柄に分散し持続的か: NO。月はtop_month_share=1.0で単月一発、銘柄もSOL+34929が主体でETHは-7840の損失。active_days=20.9と履歴も浅い。(4)含み損バッグ無しは『塩漬けで粉飾していない』加点だが、単独では実力/regimeと情報優位を区別できず、ここでは上昇regime便乗を否定する材料にならない。結論: 数値疑惑はトレンド汚染で否定され、偽陽性。デフォルトの懐疑を覆す根拠なし→no-change(現状維持)。元データのpositionも『偽陽性(数値疑惑→否定)』と整合。"
+    },
+    {
+      "address": "0x25dacd8a27eac9ad6eba5eb88e3b68f707eb1397",
+      "trend_contaminated": true,
+      "insider_signal_strength": 0.12,
+      "best_case_for_insider": "塩漬けの含み損バッグは無く(account_value 84k に対し realized_majors 125k 確定済み)、勝率0.8092・方向的中0.6933 と数値自体は高い。realized は2025-02/03 と 2026-04/05/06 の2クラスタに跨り、単月だけの完全一発ではない。もし『下落局面のタイミングを事前に掴んでショートを当てている』のなら、ショート的中0.57・ショート益でBTC10万超を稼いだ点は情報優位の余地に見える。",
+      "strongest_harmless_explanation": "これはインサイダーではなく『ショート偏重トレーダーが下落/ボラ regime に便乗しているだけ』で全て説明できる。決定打はロングの方向的中=0.104(1250回中130ヒット)。仮に銘柄の方向情報を持っていればロングでも当たるはずだが、ロングは10.4%とコイン投げ以下=逆シグナル状態で、下げに対して逆張りロングを踏み続けている。高い総合勝率・的中はショート側(dir_acc 0.57)だけが叩き出したもので、both_dirs_win=false が実力/情報優位ではなく regime ハーベスティングであることを裏付ける。さらに top_month_share 0.404 と BTC偏在84%(BTC104,929/ETH20,224・2銘柄のみ)で集中度も高い。",
+      "key_numbers": "long dir_acc=0.104(opens1250/hits130)、short dir_acc=0.57(opens2716/hits1547)、short_ratio=0.685、both_dirs_win=false、win_rate=0.8092、top_profit_month=2025-03(50,564)、top_month_share=0.404、month_realized=5ヶ月だが2クラスタ(2025-03→2026-04に約13ヶ月の空白)、coin_realized BTC104,929/ETH20,224(BTC84%)、含み損バッグ無し(acct84k/realized125k)",
+      "verdict": "no-change",
+      "recommended_position": "現状維持",
+      "one_line": "高勝率はショート偏重の regime 便乗の産物で、ロング的中わずか10.4%が情報優位の不在を証明する。昇格不可。",
+      "reasoning": "判定軸に沿って精査した。(1)トレンド/regime汚染: 総合的中0.6933・勝率0.8092はショート側(dir_acc0.57)が単独で生成。short_ratio0.685でショート偏重、top_month_share0.404でうち40%が2025-03の単月に集中し、regime依存・単月依存の両方の汚染が確認できる。(2)両方向で勝てているか: both_dirs_win=false。決定的なのはロング dir_acc=0.104——1250回ロングして当たり130回のみ。方向情報を持つ者ならロングでも当たるはずで、この値はむしろ下落に逆張りで踏み続けた逆シグナルであり、トレンド非依存の実力/情報優位を明確に否定する。(3)分散・持続性: month_realized は5ヶ月に見えるが2025-03 と 2026-04 の間に約13ヶ月の空白があり連続的でない。銘柄はBTC/ETHの2つのみでBTC84%偏在。複数月・複数銘柄への持続的分散とは言い難い。(4)含み損バッグ無し(acct84k/realized125k確定)は塩漬け粉飾していない誠実さの加点だが、ショート regime ハーベスターでも同様に成立し、これ単独で実力/regimeとインサイダーを区別できない。総じてデフォルトの懐疑を覆す情報優位の痕跡は無く、insider_signal_strengthは0.12と低い。no-change。"
+    },
+    {
+      "address": "0xdfee2d4f729723aed67eed4bfb7a998dbb4294c0",
+      "trend_contaminated": true,
+      "insider_signal_strength": 0.2,
+      "best_case_for_insider": "含み損バッグ無し(塩漬けでない)で勝率0.9524・的中0.9213を達成、利益は5ヶ月(2025-10/11, 2026-01, 2026-06ほか)・2銘柄(BTC 36060/ETH 28481)に分散しtop_month_share 0.412と単月一発ではない。short_ratioも0.564で「ショート一辺倒」ではなくロング48/ショート62と双方向に建てており、表面的にはregime便乗に見えにくい。ロング側dir_acc 0.979(47/48)は突出。286.7日の長期稼働も継続性を示す。",
+      "strongest_harmless_explanation": "高い総合的中はロング側に完全依存(L dir_acc 0.979 / S dir_acc 0.565)。ショート的中は0.565でほぼコインフリップ、しかもショート名目932kはロング160kの約6倍で、最大サイズの方が的中が低い。これはmajorsの上昇ドリフトをロングで受動的に取り、ショートは雑に大きく振っただけの「方向モメンタム順張り+リスク管理で勝率を稼ぐ」典型で、情報優位ではなく相場順応で説明しきれる。both_dirs_win=falseがそれを裏付ける。",
+      "key_numbers": "short_ratio=0.564, both_dirs_win=false (L dir_acc 0.979 vs S dir_acc 0.565<0.6), win_rate 0.9524 / dir_accuracy 0.9213 (n=126), notional L160k vs S932k(約6倍), top_month 2026-06=26564 / share 0.412, 黒字5ヶ月分散, coin BTC36060/ETH28481, 元データ既存判定=除外/低優先",
+      "verdict": "no-change",
+      "recommended_position": "現状維持",
+      "one_line": "高的中はロング側一本足で、6倍サイズのショートは的中0.565のコインフリップ。both_dirs_win=falseでトレンド非依存性を満たさず、塩漬け無しと多月分散の加点でも昇格には足りない。",
+      "reasoning": "検査軸を順に当てる。軸1(ショート一辺倒/単月集中での説明可否): short_ratio 0.564はショート偏重ではなく、利益も5ヶ月・2銘柄に分散しtop_month_share 0.412なので「下落regime一発」では説明できない=その意味のtrend汚染は薄い。だが軸2(L/S両方で的中>=0.6)で破綻する。both_dirs_win=false。総合的中0.9213はロング側dir_acc 0.979(47/48)が牽引した結果で、ショート側dir_acc 0.565は0.6未満=実質コインフリップ。決定的なのはサイズ非対称: ショート名目932kはロング160kの約6倍なのに、その大サイズ側ほど的中が低い。情報優位があるなら大きく張る側こそ的中が高いはず。これはmajors上昇ドリフトをロングで受動的に取り、ショートは雑に大きく振っただけの方向モメンタム順張りで、勝率0.9524はリスク管理/利確スケーリングで水増しされた数値と整合する。軸3(持続/分散)は黒字5ヶ月・BTC/ETH分散で本物寄りの加点だが、肝心の方向的中がロング片側依存である事実を覆さない。軸4(含み損バッグ無し)は塩漬け粉飾の否定にすぎず、実力/regimeと区別できない。結論: 片側依存でトレンド非依存性テスト(both_dirs_win)を満たさず、デフォルトの懐疑を覆す情報優位の証拠が無い。元データの既存判定も「除外/低優先」で一致。promote不可、no-change。"
+    },
+    {
+      "address": "0x02aa6015d2ba9992b88596d36bad706eeef41806",
+      "trend_contaminated": true,
+      "insider_signal_strength": 0.18,
+      "best_case_for_insider": "both_dirs_win=true がこのウォレットの唯一の強み: Long dir_acc 0.69 と Short dir_acc 0.963 がともに 0.6 を超え、形式上は『ロング・ショート両方で的中=トレンド非依存=実力寄り』の基準を満たす。8件中で both_dirs_win=true は本ウォレットのみ(他はショート専やロング専で片方向failで脱落)。塩漬け含み損バッグもなく、ショート的中96.3%(693/720)という機械的に異常な精度は、もし方向中立な相場で出ていれば強い情報優位を示唆しうる数値ではある。",
+      "strongest_harmless_explanation": "2026年2月のETH下落相場にショートを張り続けた『単一regime一発』で全実績が説明できる。実現益72,805のうちETHが72,815でほぼ100%(BTC -18, SOL 8 は実質ゼロ)=ETHショート一本。月別では2026-02が59,856で全体の82.2%(top_month_share 0.822)を占め、03=318、06=-347 と直後に失速・撤退。short_ratio 0.91 でほぼショート一辺倒、ロングは notional 106,081(ショート2,777,061の3.8%)の極小お飾りサイズ。ショート的中96.3%は下落トレンド中にショートを張れば機械的に高く出る数値で、情報優位ではなくregime便乗の指標。account_value=0・label『Former』Smart Trader=活動停止で持続性ゼロ。",
+      "key_numbers": "short_ratio=0.91(ショート一辺倒) / both_dirs_win=true(L 0.69, S 0.963)だがロングnotional比3.8%の非対称 / top_month_share=0.822(2026-02に59,856集中) / coin_realized=ETH 72,815のほぼ単独(BTC -18,SOL 8) / dir_accuracy 0.9381 win_rate 0.7634 n_closes 1027 / account_value=0・Former Smart Trader(撤退)",
+      "verdict": "no-change",
+      "recommended_position": "現状維持",
+      "one_line": "both_dirs_win=true は唯一の加点だがロングが極小サイズの非対称で、2026-02ETH下落regimeへのショート一辺倒一発(月82%・銘柄ETH一本)に全実績が回収され、撤退済(acct=0)=トレンド汚染で説明可、情報優位の証拠なし。",
+      "reasoning": "3軸で精査。(軸1 regime汚染)short_ratio 0.91 のショート一辺倒で、実現益はETH 72,815のほぼ単独、かつ2026-02に82.2%集中(top_month_share 0.822)。03以降失速・06マイナス。『2月ETH下落相場にショートを張り続けた単一regime一発』で高勝率・高的中(ショート693/720=96.3%)が機械的に説明できる。下落トレンド中のショート方向当ては構造的に高く出るため、この96.3%は情報優位の証拠にならない。(軸2 両方向)both_dirs_win=true で Long 0.69/Short 0.963 はともに0.6超=技術的にはトレンド非依存基準クリア。だがロングは opens 71・notional 106,081 とショート(720・2,777,061)の3.8%の極小サイズで、ロング的中0.69も閾値ギリギリ。サイズ非対称ゆえ『両方向で実力で稼ぐ』根拠としては脆弱で、実態はショート一辺倒。(軸3 持続性)銘柄ETH一本で分散なし、月も2月集中、account_value=0かつlabel『Former』Smart Trader=活動停止。一発依存で持続性なし。(軸4 塩漬けなし)含み損バッグがないのは加点だが、2月に取り切って撤退したregime一発でも成立し、実力/情報優位とは区別できない。結論: both_dirs_win=true という唯一の好材料がサイズ非対称で減価し、ショート一辺倒×単一月×単一銘柄×撤退という汚染シグナルが支配的。デフォルトの懐疑を覆すだけの真の情報優位の証拠は得られず、no-change(現状維持)が妥当。"
+    },
+    {
+      "address": "0x1e5cf44f64a66dae56104ed91bf15f6147200ac1",
+      "trend_contaminated": true,
+      "insider_signal_strength": 0.1,
+      "best_case_for_insider": "含み損バッグなし(塩漬けで粉飾していない実現ベース)で、win_rate 0.7278・blended dir_accuracy 0.6847、active_days 401と長期、実現益はETH/BTC/SOLの3銘柄に分散(coin_realized 全て正)。short_ratio 0.661 とショート一辺倒ではないため『下落相場のショート便乗だけ』では一見説明しにくい。これらが最大限好意的に見た材料。",
+      "strongest_harmless_explanation": "per-direction の真の指標が破滅的。long dir_acc=0.253、short dir_acc=0.0(162opens で hits=0)。方向当ては全く効いておらず、both_dirs_win=false。高いblended勝率は方向予測の実力ではなく、別基準(実現クローズ損益=利確の取り回し/小幅利確の積み上げ)で出ているに過ぎず、情報優位の痕跡なし。さらに top_month_share=0.664 で実現益の66%が単月(2025-05)に集中、2025-08は-2715の負け月もあり、持続的edgeでなくregime一発寄り。データ上も既に『除外/低優先』タグ。",
+      "key_numbers": "short_ratio=0.661 / long dir_acc=0.253(21/83) / short dir_acc=0.0(0/162) / both_dirs_win=false / top_month_share=0.664(2025-05:5019) / 負け月2025-08:-2715 / coin_realized ETH4537・BTC2531・SOL489 / win_rate0.7278・dir_accuracy0.6847・active_days401",
+      "verdict": "no-change",
+      "recommended_position": "現状維持",
+      "one_line": "含み損バッグなしは加点だが、long/short の真の方向的中が0.253/0.0で both_dirs_win=false、益も単月66%集中=トレンド/regime汚染で説明しきれ、情報優位の証拠なし。",
+      "reasoning": "判定軸に沿って精査。(1)高勝率・高的中の出所: blended win_rate0.7278/dir_accuracy0.6847 は per-direction の粒度指標(long dir_acc=0.253=21/83、short dir_acc=0.0=162opens中hits0)と真っ向から矛盾。方向当ては両側とも閾値0.6を大きく下回り、特にショートは162回開いて方向的中ゼロ。つまり高blended指標は方向予測の実力ではなく、利確の取り回し等の別基準で機械的に出ている。short_ratio=0.661 なので純粋なショート一辺倒の下落便乗ではないが、ショート側が0 hitsである以上『方向優位で勝っている』とは言えない。(2)L/S両方で的中>=0.6: both_dirs_win=false、達成にほど遠い→トレンド非依存の本物寄りという証拠なし。(3)分散・持続性: coin_realized は3銘柄全て正で銘柄分散は◯だが、top_month_share=0.664 で実現益の66%が2025-05単月に集中し、2025-08は-2715の負け月。時間軸では一発regime寄りで持続的edgeとは言い難い。(4)含み損バッグなしは『塩漬けで粉飾していない』加点だが、方向的中の崩壊と単月集中を覆すものではなく、実力/regimeと区別できない。デフォルト懐疑を維持。データ上も既に『除外/低優先』タグ済で独立判断と一致。よって promote-insider/promote-weak いずれの基準も満たさず no-change。insider_signal_strength=0.1。"
+    },
+    {
+      "address": "0xd46979f07f5d1e86ae2dcc5e6e0f3af5fe270471",
+      "trend_contaminated": true,
+      "insider_signal_strength": 0.12,
+      "best_case_for_insider": "含み損バッグ無し(塩漬けでない)で、実現益が単月一発でなく2025-11(+2972)と2026-03(+2680)の少なくとも2山に分散しており、銘柄もETHで+8485と一貫した稼ぎ頭がある。short_ratioが0.062とロング偏重なので「下落regimeにショート一辺倒で便乗した」典型パターンには当てはまらず、上昇局面でロングを当てた可能性は残る。win_rate0.73・active_days132日と保有期間条件も満たす。",
+      "strongest_harmless_explanation": "dir_accuracy(方向的中)の内訳が致命的に矛盾している。long dir_acc=0.179(106回中19ヒット)、short dir_acc=0.143(7回中1ヒット)で、方向別に見ると的中率は両方とも0.15前後しかない。それなのに表面のdir_accuracy0.65・win_rate0.73が出るのは、的中の定義と勝敗の定義が乖離している(指標の集計バグ/別定義の混在)ことを強く示唆する。つまり高勝率の実体は「方向を当てる力」ではなく、ETHロングを上昇相場で握ってBTCで-3707を出すという、典型的なregime追従(ベータ取り)である。インサイダー的な方向情報優位の痕跡は無い。",
+      "key_numbers": "short_ratio=0.062(ロング偏重) / both_dirs_win=false / long dir_acc=0.179・short dir_acc=0.143(方向別は両方0.15前後で破綻) / top_month_share=0.622 / month_realized=11月+2972,2月-875,3月+2680 / coin_realized=ETH+8485,BTC-3707 / win_rate0.73 vs dir_accuracy0.65の不整合",
+      "verdict": "no-change",
+      "recommended_position": "現状維持",
+      "one_line": "方向別dir_accが両方0.15前後で破綻=方向情報優位ゼロ、高勝率の実体はETHロングのregime追従(ベータ取り)。データ自体は除外/低優先。",
+      "reasoning": "判定軸を順に当てる。(1)トレンド/regime汚染: short_ratio0.062でショート一辺倒ではないが、逆にロング偏重(106 long vs 7 short)であり、上昇相場でETHロングを握っただけというロング側のregime追従が疑われる。top_month_share0.622で2025-11単月に6割集中しており単月寄りの偏りもある。(2)L/S両方で的中>=0.6: 完全に否。long dir_acc=0.179、short dir_acc=0.143で、方向別では両方とも0.15前後と的中していない。both_dirs_win=false。これがトレンド非依存の実力を否定する決定打。(3)分散・持続性: 実現益は11月+2972/3月+2680/2月-875、銘柄はETH+8485・BTC-3707。複数月に山はあるが、BTCで継続的に損を出しておりETH一銘柄に依存。持続的な多銘柄の優位とは言えない。(4)含み損バッグ無しは加点だが、本件は方向的中率が破綻している以上、塩漬けでないこと単独ではregimeベータと区別できない。最も重要な異常は、表面win_rate0.73/dir_accuracy0.65と方向別dir_acc0.15前後の激しい不整合で、これは指標定義の乖離か集計の問題を示し、いずれにせよ「方向を当てて稼ぐ情報優位」の証拠にはならない。元データのpositionも『除外/低優先』。よってデフォルトの懐疑を覆す材料は無く、no-change(現状維持)。インサイダー疑惑には昇格しない。"
+    },
+    {
+      "address": "0x5198eff88dea32108605bcdb109a99dc397190d8",
+      "trend_contaminated": true,
+      "insider_signal_strength": 0.05,
+      "best_case_for_insider": "含み損バッグ無し(account_value 691,708・塩漬けなし)で71クローズ全勝・dir_acc 1.0、realized 613,832と規模も大きい。もし2026-05のETH急落を事前に察知して入ったのなら情報優位の解釈は形式上は可能。だがこれを支える分散・両方向の証拠は一切ない。",
+      "strongest_harmless_explanation": "2026-05の単一下落regimeでETHをショート一辺倒(short_ratio=1.0, long.opens=0)に振っただけ。下落局面で一方向に賭ければ全161ショートが機械的に的中し、勝率1.0・的中1.0は実力でも情報でもなく相場方向の写し込み。利益も単月(top_month_share=1.0)・単一銘柄(ETHのみ)に完全集中=regime一発。塩漬けが無いのも、クリーンな片張りライドなら当然成立する。",
+      "key_numbers": "short_ratio=1.0(最大・完全片張り) / long.opens=0・short.opens=161・short.hits=161(both_dirs_win=false、ロング標本ゼロでトレンド非依存を検証不能) / top_month_share=1.0(2026-05のみ613,832、2025-12=0) / coin_realized=ETHのみ613,832(単一銘柄) / win_rate=1.0・dir_acc=1.0(regime写し込み)",
+      "verdict": "no-change",
+      "recommended_position": "現状維持",
+      "one_line": "short_ratio=1.0・単月100%・単一銘柄ETHの完全片張り—全勝1.0は下落regimeの写し込みで、トレンド非依存の証拠ゼロ。昇格せず。",
+      "reasoning": "3軸すべてで最大級の汚染シグネチャを示す。(1)短絡regime汚染: short_ratio=1.0でロングを一度も取っておらず(long.opens=0)、161ショート全的中は2026-05のETH下落局面に一方向で賭けた機械的結果。高勝率・高的中は実力/情報の指標として無価値。(2)両方向検証: both_dirs_win=false、ロング標本がゼロなのでトレンド非依存性を原理的に示せない=最強の失格条件。(3)分散・持続: top_month_share=1.0で利益全額が単月(2026-05)、銘柄もETH一本=典型的なregime一発で再現性なし。(4)含み損バッグ無しは加点だが、ブリーフ通り単独ではクリーンな片張りライドと区別不能で、むしろ単一ETHショート一撃の像に完全合致。旧ラベル『プロトレーダー(本物)』は構造指標と矛盾。情報優位の証拠は皆無で、デフォルトの懐疑を覆せない。no-change。"
+    }
+  ],
+  "synthesis": {
+    "promote_insider": [],
+    "promote_weak": [],
+    "ranking": [
+      {
+        "address": "0xdfee2d4f729723aed67eed4bfb7a998dbb4294c0",
+        "strength": 0.2,
+        "trend_contaminated": true,
+        "verdict": "no-change",
+        "one_line": "高的中はロング側一本足(L 0.979 vs S 0.565)で、6倍サイズのショートはコインフリップ。both_dirs_win=falseでトレンド非依存性を満たさず、塩漬けなし+5ヶ月分散の加点でも昇格不可。"
+      },
+      {
+        "address": "0x02aa6015d2ba9992b88596d36bad706eeef41806",
+        "strength": 0.18,
+        "trend_contaminated": true,
+        "verdict": "no-change",
+        "one_line": "8件唯一のboth_dirs_win=trueだがロングがショートの3.8%の極小サイズの非対称で、2026-02ETH下落regimeへのショート一辺倒一発(月82%・銘柄ETH一本)に全実績回収、撤退済(acct=0)。"
+      },
+      {
+        "address": "0x25dacd8a27eac9ad6eba5eb88e3b68f707eb1397",
+        "strength": 0.12,
+        "trend_contaminated": true,
+        "verdict": "no-change",
+        "one_line": "高勝率はショート偏重のregime便乗の産物。ロング的中わずか10.4%(130/1250)が情報優位の不在を証明。both_dirs_win=false。"
+      },
+      {
+        "address": "0xfe4dec8543b0b9cec0c897a689f7af7bddb02192",
+        "strength": 0.12,
+        "trend_contaminated": true,
+        "verdict": "no-change",
+        "one_line": "ロング一辺倒(short_opens=0)×単月集中(top_month_share=1.0)×単一銘柄SOL依存=上昇regime便乗で高勝率84%完全説明可。ショート実績ゼロで両方向検証不能。"
+      },
+      {
+        "address": "0xd46979f07f5d1e86ae2dcc5e6e0f3af5fe270471",
+        "strength": 0.12,
+        "trend_contaminated": true,
+        "verdict": "no-change",
+        "one_line": "方向別dir_accが両方0.15前後で破綻(L0.179/S0.143)=方向情報優位ゼロ、高勝率の実体はETHロングのregime追従(ベータ取り)。指標定義の不整合あり。"
+      },
+      {
+        "address": "0x72988778525f0ce15c5ac1804ac460606a987d6c",
+        "strength": 0.1,
+        "trend_contaminated": true,
+        "verdict": "no-change",
+        "one_line": "見かけの高勝率はロング15/15と単月64%集中の合成物。ショートはdir_acc0.107と方向当たっておらず両方向勝ち不成立=トレンド/regime汚染で全て説明可。"
+      },
+      {
+        "address": "0x1e5cf44f64a66dae56104ed91bf15f6147200ac1",
+        "strength": 0.1,
+        "trend_contaminated": true,
+        "verdict": "no-change",
+        "one_line": "塩漬けなしは加点だがlong/short真の方向的中が0.253/0.0(ショート162opens全外し)でboth_dirs_win=false、益も単月66%集中=regime汚染。"
+      },
+      {
+        "address": "0x5198eff88dea32108605bcdb109a99dc397190d8",
+        "strength": 0.05,
+        "trend_contaminated": true,
+        "verdict": "no-change",
+        "one_line": "short_ratio=1.0・単月100%・単一銘柄ETHの完全片張り。全勝1.0は2026-05下落regimeの写し込み、ロング標本ゼロでトレンド非依存を原理的に検証不能。最強の失格シグネチャ。"
+      }
+    ],
+    "headline": [
+      "新定義『含み損なし×高勝率×高的中』通過8件を全件精査した結果、昇格に値する本物の個人インサイダーはゼロ。全8件がトレンド/regime汚染で説明可能。",
+      "塩漬けフィルタは有効に機能(高勝率121件を失格化)したが、トレンド汚染の除去には無力。通過した8件は『塩漬けでない高勝率』をクリアしただけで、別経路(片方向regime便乗/単月一発/単一銘柄)の汚染がそのまま残存。",
+      "両方向勝ち(both_dirs_win=true)は8件中1件(0x02aa…)のみ。それもロングがショートの3.8%という極小サイズの見せかけで、実態はショート一辺倒一発+撤退済。トレンド非依存の真の両刀は検出されず。",
+      "決定打は per-direction dir_acc。表面の高blended指標とは裏腹に、多くがロングorショートの片側で0.0〜0.25の逆シグナル/コインフリップを示し、『方向を当てて稼ぐ情報優位』の痕跡が全件で欠如。"
+    ],
+    "verdict_overall": "この定義で個人インサイダーは検出できなかった(検出ゼロ)。8件すべてが trend_contaminated=true で、最高でも insider_signal_strength=0.2 にとどまり昇格基準に届かない。汚染の構造は3パターンに集約: (A)ショート一辺倒×下落regime便乗(0x5198 short_ratio1.0全勝, 0x7298, 0x25da, 0x02aa)、(B)ロング一辺倒×上昇regime便乗(0xfe4d SOL単月, 0xd469 ETHベータ取り)、(C)片側dir_acc崩壊で高blended指標が方向情報でなく利確取り回し由来(0x1e5c short0.0, 0xd469 両側0.15)。共通する失格根拠は both_dirs_win の不成立、またはサイズ非対称による形式的成立の無効化。唯一の both_dirs_win=true(0x02aa)もロングが極小お飾りで実態はショート一辺倒の単一月・単一銘柄・撤退済であり、トレンド非依存の証拠にならない。結論: 新定義は『塩漬け型偽陽性』を除く一段の改善ではあるが、個人インサイダー(方向情報優位)を分離する能力は持たず、本物は浮上しなかった。promote_insider/promote_weank ともに該当なし(空)。",
+    "method_note": "塩漬けフィルタ(含み損バッグなし=実現益ベース)の有効性: 高評価。塩漬けで勝率を粉飾する偽陽性(高勝率121件)を失格化でき、『実現益で本当に勝っている』集合に絞れた点は明確な前進。8件全てで含み損バッグなしが確認され、この軸はノイズ除去に寄与した。ただし限界も明確: 塩漬けなしは『粉飾していない誠実さ』を示すだけで、実力/regime便乗/情報優位を相互に区別できない。クリーンな片張りライド(0x5198のETHショート一撃)も塩漬けなしを満たすため、単独では昇格根拠にならない。トレンド汚染の残存: 深刻。本フィルタは時間軸・方向軸の汚染を一切除去しない。残存汚染の検出には次の補助指標が決定的だった——(1)short_ratio(0/1.0近傍=片張りregime便乗)、(2)top_month_share(単月集中=一発性)、(3)coin集中度(単一銘柄依存)、(4)最重要: per-direction dir_acc と both_dirs_win(片側が0.0〜0.25なら高blended指標は方向情報でなく利確取り回し由来)。推奨: 次イテレーションでは『含み損なし』に加え both_dirs_win=true(両側dir_acc>=0.6)かつ両方向のnotionalサイズが同オーダー(片側が他方の例えば<20%でない)、top_month_share<0.5、銘柄2種以上、をAND条件に追加すべき。現状の通過基準のままでは個人インサイダーは分離不能。なお全8件は元データ側でも『偽陽性/除外/低優先』とラベル済みで、本独立精査と整合した。"
+  }
+}

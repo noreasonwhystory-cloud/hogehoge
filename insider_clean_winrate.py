@@ -89,6 +89,7 @@ def bags_from_state(st):
 
 
 def analyze(addr, max_pages, candle):
+    from collections import defaultdict
     fills = fetch_fills(addr, max_pages)
     maj = [f for f in fills if f.get("coin") in config.COINS]
     if not maj:
@@ -96,35 +97,60 @@ def analyze(addr, max_pages, candle):
     closes = [f for f in maj if abs(float(f.get("closedPnl", 0) or 0)) > 1e-9]
     wins = sum(1 for f in closes if float(f["closedPnl"]) > 0)
     win_rate = round(wins / len(closes), 4) if closes else None
-    # 方向的中率(4h)
+    # 方向的中率(4h)・方向別・サイズ
     hits = opens = 0
+    side = {"long": {"o": 0, "h": 0, "n": 0.0}, "short": {"o": 0, "h": 0, "n": 0.0}}
+    month_real = defaultdict(float); coin_real = defaultdict(float)
     for f in maj:
+        cpnl = float(f.get("closedPnl", 0) or 0)
+        month_real[datetime.fromtimestamp(int(f["time"]) / 1000, timezone.utc).strftime("%Y-%m")] += cpnl
+        coin_real[f["coin"]] += cpnl
         d = open_dir(f.get("dir"))
         if d not in ("long", "short"):
             continue
         series = candle[f["coin"]]
         t = int(f["time"]); p0 = price_at(series, t); p1 = price_at(series, t + config.HIT_HORIZON_H * MS_H)
+        side[d]["o"] += 1; side[d]["n"] += float(f["px"]) * float(f["sz"])
         if not p0 or not p1:
             continue
         opens += 1
         moved = (p1 - p0) / p0
-        if (d == "long" and moved > 0) or (d == "short" and moved < 0):
-            hits += 1
+        hit = (d == "long" and moved > 0) or (d == "short" and moved < 0)
+        if hit:
+            hits += 1; side[d]["h"] += 1
     dir_acc = round(hits / opens, 4) if opens else None
+    l_acc = round(side["long"]["h"] / side["long"]["o"], 3) if side["long"]["o"] else None
+    s_acc = round(side["short"]["h"] / side["short"]["o"], 3) if side["short"]["o"] else None
+    tot_o = side["long"]["o"] + side["short"]["o"]
+    short_ratio = round(side["short"]["o"] / tot_o, 3) if tot_o else None
+    nL, nS = side["long"]["n"], side["short"]["n"]
+    size_sym = round(min(nL, nS) / max(nL, nS), 3) if max(nL, nS) > 0 else 0.0
     t0 = min(int(f["time"]) for f in maj); t1 = max(int(f["time"]) for f in maj)
     days = round((t1 - t0) / (24 * MS_H), 1)
     st = hl_client.clearinghouse_state(addr)
     bags = bags_from_state(st)
     realized = round(sum(float(f.get("closedPnl", 0) or 0) for f in maj))
+    pos_months = {m: v for m, v in month_real.items() if v > 0}
+    total_pos = sum(pos_months.values())
+    top_month_share = round(max(pos_months.values()) / total_pos, 3) if total_pos > 0 else None
+    n_profit_coins = sum(1 for v in coin_real.values() if v > 0)
 
     clean = (bags["bag_ratio"] is not None and bags["bag_ratio"] <= BAG_MAX)
     qualifies = bool(clean and win_rate and dir_acc and win_rate >= WIN_MIN and dir_acc >= DIR_MIN
                      and len(closes) >= MIN_CLOSES and days >= MIN_DAYS)
+    # 厳格版: 塩漬けなし+両方向勝ち+左右対称サイズ+複数月分散+複数銘柄(トレンド汚染も排除)
+    both_dirs = bool(l_acc and s_acc and l_acc >= 0.6 and s_acc >= 0.6)
+    qualifies_strict = bool(qualifies and both_dirs and size_sym >= 0.2
+                            and top_month_share is not None and top_month_share < 0.5
+                            and n_profit_coins >= 2)
     return {
         "address": addr, "win_rate": win_rate, "dir_accuracy": dir_acc,
+        "long_dir_acc": l_acc, "short_dir_acc": s_acc, "short_ratio": short_ratio,
+        "size_symmetry": size_sym, "both_dirs_win": both_dirs,
+        "top_month_share": top_month_share, "n_profit_coins": n_profit_coins,
         "n_closes": len(closes), "n_opens": opens, "active_days": days,
         "realized_majors": realized, **bags,
-        "no_bag": clean, "qualifies": qualifies,
+        "no_bag": clean, "qualifies": qualifies, "qualifies_strict": qualifies_strict,
     }
 
 
@@ -176,6 +202,13 @@ def main():
     for r in qual:
         print(f"  勝率{r['win_rate']} 的中{r['dir_accuracy']} closes{r['n_closes']} {r['active_days']}日 "
               f"含み損率{r['bag_ratio']} 実現${r['realized_majors']:,} {r['address'][:10]}.. [{r['position']}]")
+    strict = [r for r in out if r.get("qualifies_strict")]
+    strict.sort(key=lambda r: (r["win_rate"] or 0) * (r["dir_accuracy"] or 0), reverse=True)
+    print(f"\n=== ★厳格通過（+両方向勝ち+左右対称サイズ+複数月+複数銘柄=トレンド汚染も排除）: {len(strict)}件 ===")
+    for r in strict:
+        print(f"  勝率{r['win_rate']} L的中{r['long_dir_acc']} S的中{r['short_dir_acc']} 対称{r['size_symmetry']} "
+              f"月集中{r['top_month_share']} 銘柄{r['n_profit_coins']} short率{r['short_ratio']} "
+              f"実現${r['realized_majors']:,} {r['address'][:10]}.. [{r['position']}]")
     # 高勝率だが塩漬けで失格、を対比表示
     dirty = [r for r in out if r.get("win_rate") and r["win_rate"] >= WIN_MIN and not r.get("no_bag")]
     print(f"\n--- 参考: 高勝率(>= {WIN_MIN})だが含み損バッグありで失格: {len(dirty)}件 ---")
