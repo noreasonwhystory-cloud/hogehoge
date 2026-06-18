@@ -287,7 +287,8 @@
       "times_seen": 4,
       "tags": [
         "Tier-B",
-        "取引あり(14d)"
+        "取引あり(14d)",
+        "塩漬け:5日"
       ],
       "notes": "",
       "history": [
@@ -373,7 +374,17 @@
       "trade_days": 387,
       "active14": true,
       "pro_score_old": 0.401,
-      "pro_tier_old": "B"
+      "pro_tier_old": "B",
+      "soak_detail": {
+        "underwater_hours": 128,
+        "underwater_days": 5.3,
+        "max_loss": 189070,
+        "loss_pct_acct": 1.3,
+        "coin": "BTC",
+        "dir": "short",
+        "open": "2026-05-12",
+        "open_at_end": false
+      }
     },
     "0x128fae9d18a2f70d98a03c26bf17b67d97ce1f3c": {
       "address": "0x128fae9d18a2f70d98a03c26bf17b67d97ce1f3c",
@@ -1729,7 +1740,8 @@
       "times_seen": 4,
       "tags": [
         "Tier-C",
-        "取引あり(14d)"
+        "取引あり(14d)",
+        "塩漬け:6日"
       ],
       "notes": "",
       "history": [
@@ -1872,7 +1884,17 @@
       "trade_days": 281,
       "active14": true,
       "pro_score_old": 0.348,
-      "pro_tier_old": "C"
+      "pro_tier_old": "C",
+      "soak_detail": {
+        "underwater_hours": 143,
+        "underwater_days": 6.0,
+        "max_loss": 156603,
+        "loss_pct_acct": 0.72,
+        "coin": "HYPE",
+        "dir": "long",
+        "open": "2026-06-04",
+        "open_at_end": false
+      }
     },
     "0xd05808946809c180d190608e13f473db30aa8524": {
       "address": "0xd05808946809c180d190608e13f473db30aa8524",
@@ -6873,7 +6895,8 @@
         "Tier-C",
         "出金:実力プロ型",
         "出金済",
-        "取引なし(14d)"
+        "取引なし(14d)",
+        "塩漬け:7日以上"
       ],
       "notes": "",
       "history": [
@@ -6998,7 +7021,17 @@
       "pro_tier": "C",
       "active14": false,
       "pro_score_old": 0.328,
-      "pro_tier_old": "C"
+      "pro_tier_old": "C",
+      "soak_detail": {
+        "underwater_hours": 705,
+        "underwater_days": 29.4,
+        "max_loss": 436581,
+        "loss_pct_acct": 60.75,
+        "coin": "ZEC",
+        "dir": "short",
+        "open": "2026-05-01",
+        "open_at_end": false
+      }
     },
     "0x0a7097d919b7421ecc03aed3aac68a13e7ef1f46": {
       "address": "0x0a7097d919b7421ecc03aed3aac68a13e7ef1f46",
@@ -7404,7 +7437,8 @@
       "tags": [
         "Nansen発見",
         "出金:先行は偶然濃厚",
-        "取引あり(14d)"
+        "取引あり(14d)",
+        "塩漬け:7日以上"
       ],
       "notes": "",
       "history": [
@@ -7476,7 +7510,17 @@
       "n_fills_14d": 186,
       "active_to": "2026-06-17",
       "active_from": "2026-06-17",
-      "active14": true
+      "active14": true,
+      "soak_detail": {
+        "underwater_hours": 1735,
+        "underwater_days": 72.3,
+        "max_loss": 530106,
+        "loss_pct_acct": 10.22,
+        "coin": "ETH",
+        "dir": "short",
+        "open": "2025-10-22",
+        "open_at_end": true
+      }
     },
     "0x9a377ec81c1bd51d31170bf8d7a7b6c5fbaded9b": {
       "address": "0x9a377ec81c1bd51d31170bf8d7a7b6c5fbaded9b",
@@ -10335,7 +10379,8 @@
         "Tier-D",
         "出金:実力プロ型",
         "出金済",
-        "取引なし(14d)"
+        "取引なし(14d)",
+        "塩漬け:7日以上"
       ],
       "notes": "",
       "history": [
@@ -10438,7 +10483,17 @@
       "pro_tier": "D",
       "active14": false,
       "pro_score_old": 0.138,
-      "pro_tier_old": "D"
+      "pro_tier_old": "D",
+      "soak_detail": {
+        "underwater_hours": 776,
+        "underwater_days": 32.3,
+        "max_loss": 8656,
+        "loss_pct_acct": 0.23,
+        "coin": "ZEC",
+        "dir": "long",
+        "open": "2026-03-06",
+        "open_at_end": true
+      }
     },
     "0x68a24ccf099422806f1e73248517f3389c29c104": {
       "address": "0x68a24ccf099422806f1e73248517f3389c29c104",
@@ -10498,7 +10553,8 @@
         "Tier-B",
         "出金:実力プロ型",
         "出金済",
-        "取引あり(14d)"
+        "取引あり(14d)",
+        "塩漬け:6日"
       ],
       "notes": "",
       "history": [
@@ -10621,7 +10677,17 @@
       "pro_tier": "B",
       "active14": true,
       "pro_score_old": 0.383,
-      "pro_tier_old": "B"
+      "pro_tier_old": "B",
+      "soak_detail": {
+        "underwater_hours": 157,
+        "underwater_days": 6.5,
+        "max_loss": 33075,
+        "loss_pct_acct": 0.92,
+        "coin": "HYPE",
+        "dir": "short",
+        "open": "2026-05-20",
+        "open_at_end": true
+      }
     },
     "0x2607a3909cee65aa8205ca26f7db2d9244389577": {
       "address": "0x2607a3909cee65aa8205ca26f7db2d9244389577",
@@ -10831,7 +10897,8 @@
       "times_seen": 7,
       "tags": [
         "出金:保留",
-        "取引あり(14d)"
+        "取引あり(14d)",
+        "塩漬け:7日以上"
       ],
       "notes": "",
       "history": [
@@ -10922,7 +10989,17 @@
       "active_from": "2024-12-28",
       "active_to": "2026-06-13",
       "trade_days": 532,
-      "active14": true
+      "active14": true,
+      "soak_detail": {
+        "underwater_hours": 2787,
+        "underwater_days": 116.1,
+        "max_loss": 124402,
+        "loss_pct_acct": 12.17,
+        "coin": "@188",
+        "dir": "long",
+        "open": "2025-09-28",
+        "open_at_end": true
+      }
     },
     "0x0e3f5bb797e3953fed2a319544d0e821b4a11e1c": {
       "address": "0x0e3f5bb797e3953fed2a319544d0e821b4a11e1c",
@@ -10930,7 +11007,8 @@
       "times_seen": 7,
       "tags": [
         "出金:alt中心(majors検証不能)",
-        "取引なし(14d)"
+        "取引なし(14d)",
+        "塩漬け:7日以上"
       ],
       "notes": "",
       "history": [
@@ -11013,7 +11091,17 @@
       "active_from": "2025-11-03",
       "active_to": "2026-04-23",
       "trade_days": 171,
-      "active14": false
+      "active14": false,
+      "soak_detail": {
+        "underwater_hours": 1065,
+        "underwater_days": 44.4,
+        "max_loss": 68001,
+        "loss_pct_acct": 5.08,
+        "coin": "BTC",
+        "dir": "short",
+        "open": "2026-04-13",
+        "open_at_end": false
+      }
     },
     "0xce43a7498e65b6f6c8741fd9a7efc3f78efc78c4": {
       "address": "0xce43a7498e65b6f6c8741fd9a7efc3f78efc78c4",
@@ -11583,7 +11671,8 @@
         "HL検証済プロ",
         "Nansen発見",
         "Tier-S",
-        "取引あり(14d)"
+        "取引あり(14d)",
+        "塩漬け:7日以上"
       ],
       "notes": "",
       "history": [
@@ -11724,7 +11813,17 @@
       ],
       "nansen_errors": [],
       "pro_score_old": 0.805,
-      "pro_tier_old": "S"
+      "pro_tier_old": "S",
+      "soak_detail": {
+        "underwater_hours": 174,
+        "underwater_days": 7.2,
+        "max_loss": 734237,
+        "loss_pct_acct": 0.95,
+        "coin": "ETH",
+        "dir": "short",
+        "open": "2025-11-11",
+        "open_at_end": false
+      }
     },
     "0x0b00c540bc5f203d97ac87da62164d3d37e19798": {
       "address": "0x0b00c540bc5f203d97ac87da62164d3d37e19798",
@@ -13529,7 +13628,8 @@
         "HL検証済プロ",
         "Nansen発見",
         "Tier-B",
-        "取引なし(14d)"
+        "取引なし(14d)",
+        "塩漬け:7日以上"
       ],
       "notes": "",
       "history": [
@@ -13587,7 +13687,17 @@
       ],
       "nansen_errors": [],
       "pro_score_old": 0.485,
-      "pro_tier_old": "B"
+      "pro_tier_old": "B",
+      "soak_detail": {
+        "underwater_hours": 524,
+        "underwater_days": 21.8,
+        "max_loss": 77449,
+        "loss_pct_acct": 216876.01,
+        "coin": "ETH",
+        "dir": "short",
+        "open": "2025-09-09",
+        "open_at_end": false
+      }
     },
     "0x36ac01de9bc76c0d744b38c3e13a0538d55c7568": {
       "address": "0x36ac01de9bc76c0d744b38c3e13a0538d55c7568",
@@ -15437,7 +15547,8 @@
         "HL検証済プロ",
         "Nansen発見",
         "Tier-C",
-        "取引なし(14d)"
+        "取引なし(14d)",
+        "塩漬け:7日以上"
       ],
       "notes": "",
       "history": [
@@ -15500,7 +15611,17 @@
       "pro_realized": 893116,
       "pro_span_days": 121,
       "pro_tier_old": null,
-      "pro_tier": "C"
+      "pro_tier": "C",
+      "soak_detail": {
+        "underwater_hours": 998,
+        "underwater_days": 41.6,
+        "max_loss": 1596453,
+        "loss_pct_acct": 1701975837.7,
+        "coin": "SOL",
+        "dir": "short",
+        "open": "2025-12-21",
+        "open_at_end": false
+      }
     },
     "0xdc38f7ee386b7eea3842643e56b08ee5bb40f625": {
       "address": "0xdc38f7ee386b7eea3842643e56b08ee5bb40f625",
@@ -18964,7 +19085,8 @@
         "HL検証済プロ",
         "Nansen発見",
         "Tier-B",
-        "取引あり(14d)"
+        "取引あり(14d)",
+        "塩漬け:7日以上"
       ],
       "notes": "",
       "history": [
@@ -19104,7 +19226,17 @@
       ],
       "nansen_errors": [],
       "pro_score_old": 0.457,
-      "pro_tier_old": "B"
+      "pro_tier_old": "B",
+      "soak_detail": {
+        "underwater_hours": 805,
+        "underwater_days": 33.5,
+        "max_loss": 257095,
+        "loss_pct_acct": 3209.75,
+        "coin": "ETH",
+        "dir": "short",
+        "open": "2025-11-08",
+        "open_at_end": false
+      }
     },
     "0x039405fa4636364e6023df1e06b085a462b9cdc9": {
       "address": "0x039405fa4636364e6023df1e06b085a462b9cdc9",
@@ -19557,7 +19689,8 @@
         "HL検証済プロ",
         "Nansen発見",
         "Tier-B",
-        "取引あり(14d)"
+        "取引あり(14d)",
+        "塩漬け:7日以上"
       ],
       "notes": "",
       "history": [
@@ -19697,7 +19830,17 @@
       ],
       "nansen_errors": [],
       "pro_score_old": 0.44,
-      "pro_tier_old": "B"
+      "pro_tier_old": "B",
+      "soak_detail": {
+        "underwater_hours": 254,
+        "underwater_days": 10.6,
+        "max_loss": 20960,
+        "loss_pct_acct": 0.35,
+        "coin": "@107",
+        "dir": "long",
+        "open": "2026-05-19",
+        "open_at_end": true
+      }
     },
     "0x4b563051258ade30122940b80f575363baa4445b": {
       "address": "0x4b563051258ade30122940b80f575363baa4445b",
@@ -20840,7 +20983,8 @@
         "HL検証済プロ",
         "Nansen発見",
         "Tier-A",
-        "取引あり(14d)"
+        "取引あり(14d)",
+        "塩漬け:7日以上"
       ],
       "notes": "",
       "history": [
@@ -20992,7 +21136,17 @@
       ],
       "nansen_errors": [],
       "pro_score_old": 0.548,
-      "pro_tier_old": "A"
+      "pro_tier_old": "A",
+      "soak_detail": {
+        "underwater_hours": 4238,
+        "underwater_days": 176.6,
+        "max_loss": 53731,
+        "loss_pct_acct": 0.93,
+        "coin": "MNT",
+        "dir": "long",
+        "open": "2025-09-22",
+        "open_at_end": false
+      }
     },
     "0x0ed73f6d6f0ad13f3cfd915575390f92e0d49761": {
       "address": "0x0ed73f6d6f0ad13f3cfd915575390f92e0d49761",
@@ -21393,6 +21547,7 @@
         "Nansen発見",
         "Tier-A",
         "取引あり(14d)",
+        "塩漬け:7日以上",
         "稼ぎ確認・先行不明(要精査)"
       ],
       "notes": "",
@@ -21478,7 +21633,17 @@
       "trade_days": 867,
       "active14": true,
       "pro_score_old": 0.503,
-      "pro_tier_old": "A"
+      "pro_tier_old": "A",
+      "soak_detail": {
+        "underwater_hours": 238,
+        "underwater_days": 9.9,
+        "max_loss": 74836,
+        "loss_pct_acct": 2.75,
+        "coin": "MON",
+        "dir": "short",
+        "open": "2025-11-23",
+        "open_at_end": false
+      }
     },
     "0xbf55d2d31c193e475d9d52006359f1fe51ecb7ce": {
       "address": "0xbf55d2d31c193e475d9d52006359f1fe51ecb7ce",
@@ -23391,7 +23556,8 @@
         "HL検証済プロ",
         "Nansen発見",
         "Tier-S",
-        "取引あり(14d)"
+        "取引あり(14d)",
+        "塩漬け:7日以上"
       ],
       "notes": "",
       "history": [
@@ -23531,7 +23697,17 @@
       ],
       "nansen_errors": [],
       "pro_score_old": 0.87,
-      "pro_tier_old": "S"
+      "pro_tier_old": "S",
+      "soak_detail": {
+        "underwater_hours": 314,
+        "underwater_days": 13.1,
+        "max_loss": 39582,
+        "loss_pct_acct": 0.94,
+        "coin": "BNB",
+        "dir": "short",
+        "open": "2025-07-07",
+        "open_at_end": true
+      }
     },
     "0xd13552538def5cecc78a20aa2236573f0bee6443": {
       "address": "0xd13552538def5cecc78a20aa2236573f0bee6443",
@@ -33839,7 +34015,8 @@
         "HL検証済プロ",
         "Nansen発見",
         "Tier-B",
-        "取引なし(14d)"
+        "取引なし(14d)",
+        "塩漬け:7日以上"
       ],
       "notes": "",
       "history": [],
@@ -33964,7 +34141,17 @@
       ],
       "nansen_errors": [],
       "pro_score_old": 0.388,
-      "pro_tier_old": "B"
+      "pro_tier_old": "B",
+      "soak_detail": {
+        "underwater_hours": 179,
+        "underwater_days": 7.5,
+        "max_loss": 817856,
+        "loss_pct_acct": 24244.04,
+        "coin": "ETH",
+        "dir": "short",
+        "open": "2025-07-15",
+        "open_at_end": true
+      }
     },
     "0xc604faf510aa5b617c9fb1556d02d6d22c9644be": {
       "address": "0xc604faf510aa5b617c9fb1556d02d6d22c9644be",
@@ -34135,7 +34322,8 @@
         "HL検証済プロ",
         "Nansen発見",
         "Tier-B",
-        "取引あり(14d)"
+        "取引あり(14d)",
+        "塩漬け:7日以上"
       ],
       "notes": "",
       "history": [],
@@ -34178,7 +34366,17 @@
       ],
       "nansen_errors": [],
       "pro_score_old": 0.444,
-      "pro_tier_old": "B"
+      "pro_tier_old": "B",
+      "soak_detail": {
+        "underwater_hours": 2667,
+        "underwater_days": 111.1,
+        "max_loss": 149302,
+        "loss_pct_acct": 0.77,
+        "coin": "PURR",
+        "dir": "long",
+        "open": "2025-11-08",
+        "open_at_end": false
+      }
     },
     "0x0d9654172413fa8bcd2f5738a7b2fa6d19864125": {
       "address": "0x0d9654172413fa8bcd2f5738a7b2fa6d19864125",
@@ -34286,7 +34484,8 @@
         "HL検証済プロ",
         "Nansen発見",
         "Tier-C",
-        "取引なし(14d)"
+        "取引なし(14d)",
+        "塩漬け:7日以上"
       ],
       "notes": "",
       "history": [],
@@ -34329,7 +34528,17 @@
       ],
       "nansen_errors": [],
       "pro_score_old": 0.311,
-      "pro_tier_old": "C"
+      "pro_tier_old": "C",
+      "soak_detail": {
+        "underwater_hours": 365,
+        "underwater_days": 15.2,
+        "max_loss": 869705,
+        "loss_pct_acct": 20.09,
+        "coin": "SOL",
+        "dir": "short",
+        "open": "2026-01-16",
+        "open_at_end": true
+      }
     },
     "0x69b05701f8175c276ecd0138387a197948e240bb": {
       "address": "0x69b05701f8175c276ecd0138387a197948e240bb",
