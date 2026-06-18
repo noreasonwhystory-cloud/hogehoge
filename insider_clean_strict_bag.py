@@ -1,15 +1,16 @@
-"""厳密版『含み損なし』判定: 約定履歴から建玉を復元し、過去に7日以上連続で口座の10%超の
-含み損を抱え続けた時期があるか(=真の塩漬け)を足で判定する。
+"""厳密版『含み損』判定＋過去塩漬けの段階タグ付け。
 
-現在スナップショット(clearinghouseState)だけでなく履歴も見る:
-  各建玉(建て→フラット)について、保有中の1h足closeで「含み損 >= 口座の10%」が
-  7日(168h)以上連続したら『塩漬け履歴あり』=失格。
-口座価値は現在値(clearinghouse)を基準に用いる(履歴の口座値はAPIで安価に取れぬための近似)。
-勝率/方向的中(majors)も併算。出力: data/insider_clean_strict_bag.json
-使い方: python insider_clean_strict_bag.py [--scan-all] [--limit N]
+約定履歴から建玉(建て→フラット)を復元し、保有中の1h足closeで
+「含み損 >= 口座の10%」が連続した最長日数を求める。
+段階タグ: 塩漬け:1日 / 2日 / 3日 / 4日 / 5日 / 6日 / 7日以上（最長連続塩漬け期間で1つ付与）。
+口座価値は現在値(clearinghouse)を基準（履歴口座値はAPIで安価に取れぬための近似）。
+勝率/方向的中(majors)も併算し『高勝率×高的中×現在含み損なし×過去にも7日塩漬け無し』を厳密通過とする。
+出力: data/insider_clean_strict_bag.json  ＋  --apply-tags で台帳に塩漬けタグを書き込み再生成
+使い方: python insider_clean_strict_bag.py [--scan-all] [--apply-tags] [--limit N]
 """
 import json
 import time
+import bisect
 import argparse
 from datetime import datetime, timezone
 from collections import defaultdict
@@ -22,10 +23,10 @@ NOW = int(time.time() * 1000)
 EPS = 1e-9
 CAND_DAYS = 800
 WIN_MIN, DIR_MIN, MIN_CLOSES, MIN_DAYS = 0.70, 0.65, 10, 7
-BAG_PCT = 0.10            # 口座の10%超の含み損
-BAG_HOURS = 168          # 7日(168h)以上連続で塩漬け
+BAG_PCT = 0.10           # 口座の10%超の含み損
+MIN_SOAK_H = 24          # 1日(24h)未満の含み損は塩漬けと数えない
 
-_cache, _missing = {}, set()
+_cache, _ts, _missing = {}, {}, set()
 
 
 def get_hlc(coin):
@@ -39,8 +40,10 @@ def get_hlc(coin):
         c = []
     if not c:
         _missing.add(coin); return None
-    _cache[coin] = sorted([(int(x["t"]), float(x["h"]), float(x["l"]), float(x["c"])) for x in c])
-    return _cache[coin]
+    ser = sorted([(int(x["t"]), float(x["c"])) for x in c])
+    _cache[coin] = ser
+    _ts[coin] = [t for t, _ in ser]
+    return ser
 
 
 def fetch_fills(addr, max_pages=25):
@@ -104,40 +107,49 @@ def reconstruct(fills):
     return trades
 
 
-def hist_bag(trades, acct):
-    """過去に7日以上連続で口座の10%超の含み損だった建玉があるか。"""
+def worst_underwater(trades, acct):
+    """全建玉で『含み損>=口座BAG_PCT%』が連続した最長期間(時間)を持つ建玉を返す。"""
     if acct <= 0:
         return None
     thr = BAG_PCT * acct
-    worst = None
+    best = None
     for tr in trades:
         if tr.get("entry_px") is None:
             continue
-        hold_h = (tr["t_close"] - tr["t_open"]) / MS_H
-        if hold_h < BAG_HOURS:        # そもそも7日未満保有はスキップ
+        if (tr["t_close"] - tr["t_open"]) < MIN_SOAK_H * MS_H:   # 1日未満保有はスキップ
             continue
         ser = get_hlc(tr["coin"])
         if not ser:
             continue
+        ts = _ts[tr["coin"]]
+        i0 = bisect.bisect_left(ts, tr["t_open"]); i1 = bisect.bisect_right(ts, tr["t_close"])
         e = tr["entry_px"]; sz = tr["peak"]
-        run = 0; maxrun = 0; max_loss = 0.0
-        for t, h, l, c in ser:
-            if t < tr["t_open"] or t > tr["t_close"]:
-                continue
-            loss = (e - c) * sz if tr["dir"] == "long" else (c - e) * sz   # closeベースの含み損(>0=損)
+        run = maxrun = 0; max_loss = 0.0
+        for t, c in ser[i0:i1]:
+            loss = (e - c) * sz if tr["dir"] == "long" else (c - e) * sz
             if loss >= thr:
                 run += 1; maxrun = max(maxrun, run); max_loss = max(max_loss, loss)
             else:
                 run = 0
-        if maxrun >= BAG_HOURS:
-            cand = {"coin": tr["coin"], "dir": tr["dir"],
-                    "underwater_days": round(maxrun / 24, 1), "max_loss": round(max_loss),
-                    "loss_pct_acct": round(max_loss / acct, 2),
+        if maxrun >= MIN_SOAK_H:
+            cand = {"underwater_hours": maxrun, "underwater_days": round(maxrun / 24, 1),
+                    "max_loss": round(max_loss), "loss_pct_acct": round(max_loss / acct, 2),
+                    "coin": tr["coin"], "dir": tr["dir"],
                     "open": datetime.fromtimestamp(tr["t_open"] / 1000, timezone.utc).strftime("%Y-%m-%d"),
                     "open_at_end": tr.get("open_at_end", False)}
-            if worst is None or cand["max_loss"] > worst["max_loss"]:
-                worst = cand
-    return worst
+            if best is None or maxrun > best["underwater_hours"]:
+                best = cand
+    return best
+
+
+def soak_tag(days):
+    """最長連続塩漬け日数 → 段階タグ。"""
+    if not days or days < 1:
+        return None
+    d = int(days)        # 切り捨て: 1.x→1日, 6.9→6日, 7+→7日以上
+    if d >= 7:
+        return "塩漬け:7日以上"
+    return f"塩漬け:{d}日"
 
 
 def price_at(series, t):
@@ -150,10 +162,10 @@ def price_at(series, t):
             lo = mid
         else:
             hi = mid - 1
-    return series[lo][3]   # close
+    return series[lo][1]
 
 
-def analyze(addr, majcandle):
+def analyze(addr):
     fills = fetch_fills(addr)
     maj = [f for f in fills if f.get("coin") in config.COINS]
     if not maj:
@@ -166,7 +178,9 @@ def analyze(addr, majcandle):
         d = open_dir(f.get("dir"))
         if d not in ("long", "short"):
             continue
-        s = majcandle[f["coin"]]; t = int(f["time"])
+        s = get_hlc(f["coin"]); t = int(f["time"])
+        if not s:
+            continue
         p0 = price_at(s, t); p1 = price_at(s, t + config.HIT_HORIZON_H * MS_H)
         if not p0 or not p1:
             continue
@@ -184,27 +198,52 @@ def analyze(addr, majcandle):
     cur_bag_ratio = round(cur_loss / acct, 3) if acct else None
     realized = round(sum(float(f.get("closedPnl", 0) or 0) for f in maj))
 
+    worst = worst_underwater(reconstruct(fills), acct)     # 全件で過去塩漬けを評価
+    soak_days = worst["underwater_days"] if worst else 0
+    tag = soak_tag(soak_days)
     basic = bool(win_rate and dir_acc and win_rate >= WIN_MIN and dir_acc >= DIR_MIN
                  and len(closes) >= MIN_CLOSES and days >= MIN_DAYS)
     no_cur_bag = (cur_bag_ratio is not None and cur_bag_ratio <= BAG_PCT)
-    worst = None
-    if basic and no_cur_bag:                       # 高勝率候補だけ履歴塩漬けを深掘り(コスト節約)
-        worst = hist_bag(reconstruct(fills), acct)
-    no_hist_bag = (worst is None)
+    no_hist7 = (soak_days < 7)
     return {
         "address": addr, "win_rate": win_rate, "dir_accuracy": dir_acc,
         "n_closes": len(closes), "active_days": days, "account_value": round(acct),
-        "realized_majors": realized, "cur_bag_ratio": cur_bag_ratio,
-        "no_cur_bag": no_cur_bag, "hist_bag": worst, "no_hist_bag": no_hist_bag,
-        "basic_pass": basic,
-        "qualifies_strict": bool(basic and no_cur_bag and no_hist_bag),
+        "realized_majors": realized, "cur_bag_ratio": cur_bag_ratio, "no_cur_bag": no_cur_bag,
+        "soak_days": soak_days, "soak_tag": tag, "soak_detail": worst,
+        "basic_pass": basic, "qualifies_strict": bool(basic and no_cur_bag and no_hist7),
     }
+
+
+SOAK_TAGS = {f"塩漬け:{d}日" for d in range(1, 7)} | {"塩漬け:7日以上"}
+
+
+def apply_tags(out):
+    """台帳の各アドレスに塩漬け段階タグを付与(既存の塩漬けタグは置換)。"""
+    P = f"{config.DATA_DIR}/wallet_registry.json"
+    reg = json.load(open(P, encoding="utf-8"))
+    W = reg["wallets"]
+    n = 0
+    for r in out:
+        e = W.get(r["address"].lower())
+        if not e:
+            continue
+        tags = [t for t in e.get("tags", []) if t not in SOAK_TAGS]
+        if r.get("soak_tag"):
+            tags.append(r["soak_tag"]); n += 1
+        e["tags"] = sorted(set(tags))
+        if r.get("soak_detail"):
+            e["soak_detail"] = r["soak_detail"]
+    json.dump(reg, open(P, "w", encoding="utf-8"), ensure_ascii=False, indent=2)
+    import step6_registry as reg6
+    reg6.render_all(reg)
+    print(f"台帳に塩漬けタグ付与: {n}件 / 台帳再生成済")
 
 
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--limit", type=int, default=0)
     ap.add_argument("--scan-all", action="store_true")
+    ap.add_argument("--apply-tags", action="store_true")
     ap.add_argument("--positions", default="プロトレーダー(本物),プロトレーダー(未精査),💸 出金疑い(要監視)")
     ap.add_argument("--out", default="insider_clean_strict_bag.json")
     args = ap.parse_args()
@@ -218,18 +257,15 @@ def main():
     targets = list(dict.fromkeys(targets))
     if args.limit:
         targets = targets[:args.limit]
-    print(f"厳密塩漬け判定 対象 {len(targets)}件 (高勝率候補のみ履歴深掘り / 閾値=口座{int(BAG_PCT*100)}%×{BAG_HOURS//24}日)")
+    print(f"塩漬け段階判定 対象 {len(targets)}件 (閾値=口座{int(BAG_PCT*100)}%, 段階=1〜6日/7日以上)")
 
-    majcandle = {}
-    for coin in config.COINS:
-        c = hl_client.candles(coin, "1h", NOW - CAND_DAYS * 24 * MS_H, NOW) or []
-        majcandle[coin] = sorted([(int(x["t"]), 0.0, 0.0, float(x["c"])) for x in c])
-        _cache[coin] = sorted([(int(x["t"]), float(x["h"]), float(x["l"]), float(x["c"])) for x in c])
+    for coin in config.COINS:        # majorsは先にキャッシュ
+        get_hlc(coin)
 
     out = []
     for i, a in enumerate(targets, 1):
         try:
-            r = analyze(a, majcandle)
+            r = analyze(a)
         except Exception as e:
             r = {"address": a, "error": str(e)[:80]}
         r["position"] = reg.get(a.lower(), {}).get("position")
@@ -240,18 +276,20 @@ def main():
     json.dump({"generated_at": datetime.now(timezone.utc).isoformat(), "wallets": out},
               open(f"{config.DATA_DIR}/{args.out}", "w", encoding="utf-8"), ensure_ascii=False, indent=2)
 
+    from collections import Counter
+    dist = Counter(r.get("soak_tag") for r in out if r.get("soak_tag"))
+    print("\n=== 過去塩漬け 段階分布（最長連続・口座10%超）===")
+    for d in [f"塩漬け:{x}日" for x in range(1, 7)] + ["塩漬け:7日以上"]:
+        print(f"  {d}: {dist.get(d, 0)}件")
+    print(f"  塩漬け無し: {sum(1 for r in out if not r.get('soak_tag') and not r.get('no_majors'))}件")
     strict = [r for r in out if r.get("qualifies_strict")]
-    strict.sort(key=lambda r: (r["win_rate"] or 0) * (r["dir_accuracy"] or 0), reverse=True)
-    print(f"\n=== ★厳密通過（高勝率×高的中×現在含み損なし×過去にも7日塩漬け無し）: {len(strict)}件 ===")
-    for r in strict:
-        print(f"  勝率{r['win_rate']} 的中{r['dir_accuracy']} closes{r['n_closes']} {r['active_days']}日 "
-              f"実現${r['realized_majors']:,} 口座${r['account_value']:,} {r['address'][:10]}.. [{r['position']}]")
-    # 高勝率・現在バッグ無しだが『過去に塩漬け』で失格＝従来スナップショットでは見抜けなかった層
-    histonly = [r for r in out if r.get("basic_pass") and r.get("no_cur_bag") and not r.get("no_hist_bag")]
-    print(f"\n--- 現在は綺麗だが『過去に7日以上の塩漬け』で失格(スナップショットでは見抜けず): {len(histonly)}件 ---")
-    for r in sorted(histonly, key=lambda r: -(r["hist_bag"]["max_loss"])):
-        b = r["hist_bag"]
-        print(f"  勝率{r['win_rate']} 過去塩漬け {b['coin']}{b['dir']} {b['underwater_days']}日 含み損${b['max_loss']:,}(口座{b['loss_pct_acct']}x) @{b['open']} {r['address'][:10]}..")
+    print(f"\n=== ★厳密通過（高勝率×高的中×現在含み損なし×過去7日塩漬け無し）: {len(strict)}件 ===")
+    for r in sorted(strict, key=lambda r: (r["win_rate"] or 0) * (r["dir_accuracy"] or 0), reverse=True):
+        print(f"  勝率{r['win_rate']} 的中{r['dir_accuracy']} {r['active_days']}日 実現${r['realized_majors']:,} "
+              f"最長塩漬け{r['soak_days']}日 {r['address'][:10]}.. [{r['position']}]")
+
+    if args.apply_tags:
+        apply_tags(out)
 
 
 if __name__ == "__main__":

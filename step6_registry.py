@@ -307,7 +307,7 @@ def render_html(reg, out="registry.html",
         if t.startswith("WF:") or t in ("HL先行検出", "HL検証済プロ", "稼ぎ確認・先行不明(要精査)"):
             return "検証"
         if (t.startswith("出金") or t.startswith("資金") or "資金源" in t
-                or t == "cluster-A" or t == "Nansen発見"):
+                or t.startswith("塩漬け") or t == "cluster-A" or t == "Nansen発見"):
             return "資金/出金"
         if t in ("MM/HFT", "HL履歴なし", "HL検証:非該当", "手動追加CA", "HFT/MM"):
             return "区分"

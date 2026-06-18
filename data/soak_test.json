@@ -1,0 +1,101 @@
+{
+  "generated_at": "2026-06-18T05:10:23.075731+00:00",
+  "wallets": [
+    {
+      "address": "0xefcace57934a753d66c48a31b880ba806d4c0869",
+      "win_rate": 0.447,
+      "dir_accuracy": 0.3409,
+      "n_closes": 2405,
+      "active_days": 681.6,
+      "account_value": 0,
+      "realized_majors": -20475,
+      "cur_bag_ratio": null,
+      "no_cur_bag": false,
+      "soak_days": 0,
+      "soak_tag": null,
+      "soak_detail": null,
+      "basic_pass": false,
+      "qualifies_strict": false,
+      "position": "除外/低優先"
+    },
+    {
+      "address": "0x10b6f072fabe21bc72ffd77ff5d4414e6cef2980",
+      "no_majors": true,
+      "position": "除外/低優先"
+    },
+    {
+      "address": "0x230963164d9637a4c536270a06b4e3636d44a2d9",
+      "win_rate": 0.3732,
+      "dir_accuracy": 0.3788,
+      "n_closes": 351,
+      "active_days": 73.4,
+      "account_value": 144588,
+      "realized_majors": 418854,
+      "cur_bag_ratio": 0.0,
+      "no_cur_bag": true,
+      "soak_days": 5.3,
+      "soak_tag": "塩漬け:5日",
+      "soak_detail": {
+        "underwater_hours": 128,
+        "underwater_days": 5.3,
+        "max_loss": 189070,
+        "loss_pct_acct": 1.31,
+        "coin": "BTC",
+        "dir": "short",
+        "open": "2026-05-12",
+        "open_at_end": false
+      },
+      "basic_pass": false,
+      "qualifies_strict": false,
+      "position": "プロトレーダー(未精査)"
+    },
+    {
+      "address": "0x5aadb434293b4e1b8fb2e84007e567506fe65a96",
+      "win_rate": 0.5481,
+      "dir_accuracy": null,
+      "n_closes": 239,
+      "active_days": 111.8,
+      "account_value": 128139,
+      "realized_majors": -13424,
+      "cur_bag_ratio": 0.0,
+      "no_cur_bag": true,
+      "soak_days": 0,
+      "soak_tag": null,
+      "soak_detail": null,
+      "basic_pass": false,
+      "qualifies_strict": false,
+      "position": "プロトレーダー(本物)"
+    },
+    {
+      "address": "0x4d3980ac9d84fc34adcd025ee2337786846343c4",
+      "win_rate": 0.7473,
+      "dir_accuracy": 0.642,
+      "n_closes": 91,
+      "active_days": 25.3,
+      "account_value": 4389,
+      "realized_majors": 17537,
+      "cur_bag_ratio": 0.31,
+      "no_cur_bag": false,
+      "soak_days": 1.7,
+      "soak_tag": "塩漬け:1日",
+      "soak_detail": {
+        "underwater_hours": 40,
+        "underwater_days": 1.7,
+        "max_loss": 1657,
+        "loss_pct_acct": 0.38,
+        "coin": "@272",
+        "dir": "long",
+        "open": "2026-06-13",
+        "open_at_end": true
+      },
+      "basic_pass": false,
+      "qualifies_strict": false,
+      "position": "プロトレーダー(未精査)"
+    },
+    {
+      "address": "0xa72dc2d42398e54634fc28e6769f8ce3ae011807",
+      "no_majors": true,
+      "position": "プロトレーダー(本物)"
+    }
+  ]
+}
