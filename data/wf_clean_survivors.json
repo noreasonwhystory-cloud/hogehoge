@@ -1,0 +1,349 @@
+{
+  "context": {
+    "purpose": "clean高勝率(含み損バッグなし×高勝率×高的中×1週間+)の通過8件を、残るトレンド/regime汚染で精査",
+    "note": "含み損バッグ(塩漬け)汚染は除去済。残る懸念は方向的中率のトレンド汚染=下落相場でショート一辺倒だと的中も勝率も高く出る。",
+    "checks": {
+      "short_ratio": "ショート比率。1に近い=ショート一辺倒=下落相場便乗の疑い",
+      "both_dirs_win": "ロング・ショート両方で的中>=0.6か。両方勝てる=トレンド非依存=実力/情報優位寄り",
+      "top_month_share": "実現益が単一月に集中する割合。高い=特定regime一発"
+    }
+  },
+  "wallets": [
+    {
+      "address": "0x72988778525f0ce15c5ac1804ac460606a987d6c",
+      "position": "偽陽性(数値疑惑→否定)",
+      "labels": [
+        "🤓 Smart HL Perps Trader [0x729887]"
+      ],
+      "win_rate": 1.0,
+      "dir_accuracy": 0.875,
+      "n_closes": 22,
+      "active_days": 311.5,
+      "account_value": 118433,
+      "realized_majors": 485103,
+      "long": {
+        "opens": 15,
+        "hits": 15,
+        "notional": 601868,
+        "dir_acc": 1.0
+      },
+      "short": {
+        "opens": 121,
+        "hits": 13,
+        "notional": 2217718,
+        "dir_acc": 0.107
+      },
+      "short_ratio": 0.89,
+      "both_dirs_win": false,
+      "top_profit_month": [
+        "2026-02",
+        311964
+      ],
+      "top_month_share": 0.643,
+      "month_realized": {
+        "2025-07": 0,
+        "2026-02": 311964,
+        "2026-06": 173140
+      },
+      "coin_realized": {
+        "BTC": 285308,
+        "ETH": 199795
+      }
+    },
+    {
+      "address": "0xfe4dec8543b0b9cec0c897a689f7af7bddb02192",
+      "position": "偽陽性(数値疑惑→否定)",
+      "labels": [
+        "🤓 Smart HL Perps Trader [0xfe4dec]"
+      ],
+      "win_rate": 0.84,
+      "dir_accuracy": 0.7708,
+      "n_closes": 125,
+      "active_days": 20.9,
+      "account_value": 108628,
+      "realized_majors": 27089,
+      "long": {
+        "opens": 253,
+        "hits": 195,
+        "notional": 2091947,
+        "dir_acc": 0.771
+      },
+      "short": {
+        "opens": 0,
+        "hits": 0,
+        "notional": 0,
+        "dir_acc": null
+      },
+      "short_ratio": 0.0,
+      "both_dirs_win": false,
+      "top_profit_month": [
+        "2026-06",
+        27089
+      ],
+      "top_month_share": 1.0,
+      "month_realized": {
+        "2026-05": 0,
+        "2026-06": 27089
+      },
+      "coin_realized": {
+        "SOL": 34929,
+        "ETH": -7840
+      }
+    },
+    {
+      "address": "0x25dacd8a27eac9ad6eba5eb88e3b68f707eb1397",
+      "position": "除外/低優先",
+      "labels": [],
+      "win_rate": 0.8092,
+      "dir_accuracy": 0.6933,
+      "n_closes": 1588,
+      "active_days": 465.3,
+      "account_value": 84121,
+      "realized_majors": 125153,
+      "long": {
+        "opens": 1250,
+        "hits": 130,
+        "notional": 6047966,
+        "dir_acc": 0.104
+      },
+      "short": {
+        "opens": 2716,
+        "hits": 1547,
+        "notional": 7892485,
+        "dir_acc": 0.57
+      },
+      "short_ratio": 0.685,
+      "both_dirs_win": false,
+      "top_profit_month": [
+        "2025-03",
+        50564
+      ],
+      "top_month_share": 0.404,
+      "month_realized": {
+        "2025-02": 10449,
+        "2025-03": 50564,
+        "2026-04": 15080,
+        "2026-05": 44122,
+        "2026-06": 4938
+      },
+      "coin_realized": {
+        "BTC": 104929,
+        "ETH": 20224
+      }
+    },
+    {
+      "address": "0xdfee2d4f729723aed67eed4bfb7a998dbb4294c0",
+      "position": "除外/低優先",
+      "labels": [
+        "🤓 Smart HL Perps Trader [0xdfee2d]"
+      ],
+      "win_rate": 0.9524,
+      "dir_accuracy": 0.9213,
+      "n_closes": 126,
+      "active_days": 286.7,
+      "account_value": 25355,
+      "realized_majors": 64541,
+      "long": {
+        "opens": 48,
+        "hits": 47,
+        "notional": 160000,
+        "dir_acc": 0.979
+      },
+      "short": {
+        "opens": 62,
+        "hits": 35,
+        "notional": 932440,
+        "dir_acc": 0.565
+      },
+      "short_ratio": 0.564,
+      "both_dirs_win": false,
+      "top_profit_month": [
+        "2026-06",
+        26564
+      ],
+      "top_month_share": 0.412,
+      "month_realized": {
+        "2025-08": 0,
+        "2025-10": 10971,
+        "2025-11": 3985,
+        "2026-01": 24520,
+        "2026-02": -1499,
+        "2026-04": 0,
+        "2026-06": 26564
+      },
+      "coin_realized": {
+        "BTC": 36060,
+        "ETH": 28481
+      }
+    },
+    {
+      "address": "0x02aa6015d2ba9992b88596d36bad706eeef41806",
+      "position": "除外/低優先",
+      "labels": [
+        "Former Smart Trader [0x02aa60]"
+      ],
+      "win_rate": 0.7634,
+      "dir_accuracy": 0.9381,
+      "n_closes": 1027,
+      "active_days": 121.4,
+      "account_value": 0,
+      "realized_majors": 72805,
+      "long": {
+        "opens": 71,
+        "hits": 49,
+        "notional": 106081,
+        "dir_acc": 0.69
+      },
+      "short": {
+        "opens": 720,
+        "hits": 693,
+        "notional": 2777061,
+        "dir_acc": 0.963
+      },
+      "short_ratio": 0.91,
+      "both_dirs_win": true,
+      "top_profit_month": [
+        "2026-02",
+        59856
+      ],
+      "top_month_share": 0.822,
+      "month_realized": {
+        "2026-02": 59856,
+        "2026-03": 318,
+        "2026-04": 4159,
+        "2026-05": 8819,
+        "2026-06": -347
+      },
+      "coin_realized": {
+        "ETH": 72815,
+        "BTC": -18,
+        "SOL": 8
+      }
+    },
+    {
+      "address": "0x1e5cf44f64a66dae56104ed91bf15f6147200ac1",
+      "position": "除外/低優先",
+      "labels": [
+        "🤓 Smart HL Perps Trader [0x1e5cf4]"
+      ],
+      "win_rate": 0.7278,
+      "dir_accuracy": 0.6847,
+      "n_closes": 158,
+      "active_days": 401.0,
+      "account_value": 25138,
+      "realized_majors": 12615,
+      "long": {
+        "opens": 83,
+        "hits": 21,
+        "notional": 655858,
+        "dir_acc": 0.253
+      },
+      "short": {
+        "opens": 162,
+        "hits": 0,
+        "notional": 700554,
+        "dir_acc": 0.0
+      },
+      "short_ratio": 0.661,
+      "both_dirs_win": false,
+      "top_profit_month": [
+        "2025-05",
+        5019
+      ],
+      "top_month_share": 0.664,
+      "month_realized": {
+        "2025-03": 2229,
+        "2025-04": 1812,
+        "2025-05": 5019,
+        "2025-07": 37,
+        "2025-08": -2715,
+        "2026-01": 1176
+      },
+      "coin_realized": {
+        "ETH": 4537,
+        "BTC": 2531,
+        "SOL": 489
+      }
+    },
+    {
+      "address": "0xd46979f07f5d1e86ae2dcc5e6e0f3af5fe270471",
+      "position": "除外/低優先",
+      "labels": [
+        "🤓 Smart HL Perps Trader [0xd46979]"
+      ],
+      "win_rate": 0.7297,
+      "dir_accuracy": 0.65,
+      "n_closes": 111,
+      "active_days": 132.0,
+      "account_value": 13447,
+      "realized_majors": 4778,
+      "long": {
+        "opens": 106,
+        "hits": 19,
+        "notional": 1453053,
+        "dir_acc": 0.179
+      },
+      "short": {
+        "opens": 7,
+        "hits": 1,
+        "notional": 349930,
+        "dir_acc": 0.143
+      },
+      "short_ratio": 0.062,
+      "both_dirs_win": false,
+      "top_profit_month": [
+        "2025-11",
+        2972
+      ],
+      "top_month_share": 0.622,
+      "month_realized": {
+        "2025-11": 2972,
+        "2026-02": -875,
+        "2026-03": 2680
+      },
+      "coin_realized": {
+        "ETH": 8485,
+        "BTC": -3707
+      }
+    },
+    {
+      "address": "0x5198eff88dea32108605bcdb109a99dc397190d8",
+      "position": "プロトレーダー(本物)",
+      "labels": [
+        "[0x5198ef]"
+      ],
+      "win_rate": 1.0,
+      "dir_accuracy": 1.0,
+      "n_closes": 71,
+      "active_days": 142.0,
+      "account_value": 691708,
+      "realized_majors": 613832,
+      "long": {
+        "opens": 0,
+        "hits": 0,
+        "notional": 0,
+        "dir_acc": null
+      },
+      "short": {
+        "opens": 161,
+        "hits": 161,
+        "notional": 2184662,
+        "dir_acc": 1.0
+      },
+      "short_ratio": 1.0,
+      "both_dirs_win": false,
+      "top_profit_month": [
+        "2026-05",
+        613832
+      ],
+      "top_month_share": 1.0,
+      "month_realized": {
+        "2025-12": 0,
+        "2026-05": 613832
+      },
+      "coin_realized": {
+        "ETH": 613832
+      }
+    }
+  ]
+}
