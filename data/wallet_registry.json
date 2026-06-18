@@ -9097,7 +9097,8 @@
       "first_seen": "2026-06-17",
       "times_seen": 7,
       "tags": [
-        "取引なし(14d)"
+        "取引なし(14d)",
+        "遅効エッジ(24-72h)"
       ],
       "notes": "",
       "history": [
@@ -9116,7 +9117,7 @@
       "last_seen": "2026-06-17",
       "metric_category": "excluded",
       "insider_likelihood": null,
-      "position": "除外/低優先",
+      "position": "弱い疑惑(監視継続)",
       "auto_tags": [
         "ROI:超高(>1000%)",
         "PnL:中($100k-1M)",
@@ -9137,7 +9138,73 @@
       "roi_alltime": 24.7381970637,
       "roi_month": 1.4738418514,
       "n_fills_14d": 5,
-      "active14": false
+      "active14": false,
+      "first_funders": [
+        {
+          "address": "0x267be1c1d684f78cb4f6a176c4911b741e4ffdc0",
+          "label": "🏦 Kraken: Hot Wallet [0x267be1]",
+          "relation": "First Funder",
+          "time": "2020-12-14T01:55:20"
+        },
+        {
+          "address": "5GKkM6jmqFyjGtPpjZSzMVdZXYoVYNaGzkA7qB33mG2p",
+          "label": "parastrate.eth on Ethereum [5GKkM6jm]",
+          "relation": "Bridged to Solana",
+          "time": "2024-12-19T22:09:07"
+        },
+        {
+          "address": "0xa924eae56f772626cf13b08c2bf384db9059e3be",
+          "label": "🤖 🏦 Uniswap: V2 ⚠️ BULL-COLI Liquidity Pool  [0xa924ea]",
+          "relation": "Deployed Contract",
+          "time": "2021-06-09T17:01:33"
+        },
+        {
+          "address": "0x8c11e52a35c3c7db2e17830664711bb8e33640df",
+          "label": "🤖 OpenSea Account [0x8c11e5]",
+          "relation": "Deployed Contract",
+          "time": "2021-08-13T19:40:05"
+        },
+        {
+          "address": "0xe4c602959e61393605d3926d14c88fd33988bdc8",
+          "label": "🤖 SOSHIBA [0xe4c602]",
+          "relation": "Deployed Contract",
+          "time": "2023-02-23T14:39:35"
+        },
+        {
+          "address": "0xe1e5a18610f4b95bf019fcc552b79858c863a8f6",
+          "label": "🤖 🏦 Uniswap: V2 WETH-⚠️ SOSHIBA Liquidity Pool  [0xe1e5a1]",
+          "relation": "Deployed Contract",
+          "time": "2023-02-23T17:35:11"
+        },
+        {
+          "address": "0x447bdafc91e9ccc7fbab99cf00690237c60d4533",
+          "label": "🤖 33 [0x447bda]",
+          "relation": "Deployed Contract",
+          "time": "2024-01-01T00:27:23"
+        },
+        {
+          "address": "0xe620bb66682a2ef06ea352243dfa8e1a774688fe",
+          "label": "🤖 🏦 Uniswap: V3 33-WETH (0.3%) Liquidity Pool  [0xe620bb]",
+          "relation": "Deployed Contract",
+          "time": "2024-01-01T03:23:35"
+        },
+        {
+          "address": "0xfff488542a0917150640364e13d97a92c3752b2f",
+          "label": "🤖 MOUSE [0xfff488]",
+          "relation": "Deployed Contract",
+          "time": "2024-01-21T01:59:35"
+        },
+        {
+          "address": "0x49a7733a0c447f421e5c8bae8ac5a22c96ed8d13",
+          "label": "🤖 🏦 Uniswap: V3 WETH-MOUSE (0.3%) Liquidity Pool  [0x49a773]",
+          "relation": "Deployed Contract",
+          "time": "2024-01-21T02:09:59"
+        }
+      ],
+      "notes_jp": "【遅効エッジ検出(複数地平線, 2026-06-18)】4h方向的中はコイン投げだが、トレンド補正後の順方向リターンが 24h+0.015/72h+0.042 と市場ドリフトを超える。複数月・3銘柄・両方向に分散しN=1/regime便乗では説明困難。Nansen=「匿名」 資金源=🏦 Kraken: Hot Wallet [0x267be1], parastrate.eth on Ethereum [5GKkM6jm], 🤖 🏦 Uniswap: V2 ⚠️ BULL-COLI Liquidity Pool  [0xa924ea], 🤖 OpenSea Account [0x8c11e5], 🤖 SOSHIBA [0xe4c602], 🤖 🏦 Uniswap: V2 WETH-⚠️ SOSHIBA Liquidity Pool  [0xe1e5a1], 🤖 33 [0x447bda], 🤖 🏦 Uniswap: V3 33-WETH (0.3%) Liquidity Pool  [0xe620bb], 🤖 MOUSE [0xfff488], 🤖 🏦 Uniswap: V3 WETH-MOUSE (0.3%) Liquidity Pool  [0x49a773]。実力スイングトレーダーの可能性が高いが、遅効カタリストへの先行positioningも否定できず監視継続。\n―――\n",
+      "mh_detr72": 0.0417,
+      "mh_detr24": 0.0146,
+      "mh_checked": "2026-06-18"
     },
     "0x7632be1bdb486be27a1c39ff4208ffd5853c59ed": {
       "address": "0x7632be1bdb486be27a1c39ff4208ffd5853c59ed",
@@ -15498,7 +15565,8 @@
       "tags": [
         "HL履歴なし",
         "Nansen発見",
-        "取引あり(14d)"
+        "取引あり(14d)",
+        "遅効エッジ(24-72h)"
       ],
       "notes": "",
       "history": [
@@ -15513,7 +15581,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "除外/低優先",
+      "position": "弱い疑惑(監視継続)",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0x3662dd]"
@@ -15525,7 +15593,7 @@
         "PnL:中($100k-1M)",
         "方向:無/フラット"
       ],
-      "notes_jp": "【ひとことで】🤓 Nansenが『常勝(Smart Money)』認定したトレーダー。たぶんプロ、未精査。\n【正体】🤓 Smart HL Perps Trader [0x3662dd]（Nansenラベル）\n【成績】通算PnL $893,316・ROI 14%・現在残高 $0\n【補足】残高が小さい＝稼ぎを引き上げ済の可能性（出金）。",
+      "notes_jp": "【遅効エッジ検出(複数地平線, 2026-06-18)】4h方向的中はコイン投げだが、トレンド補正後の順方向リターンが 24h+0.049/72h+0.065 と市場ドリフトを超える。複数月・3銘柄・両方向に分散しN=1/regime便乗では説明困難。Nansen=「🤓 Smart HL Perps Trader [0x3662dd]」 資金源=HL Perps Day Trader [0x7e2a9b]。実力スイングトレーダーの可能性が高いが、遅効カタリストへの先行positioningも否定できず監視継続。\n―――\n【ひとことで】🤓 Nansenが『常勝(Smart Money)』認定したトレーダー。たぶんプロ、未精査。\n【正体】🤓 Smart HL Perps Trader [0x3662dd]（Nansenラベル）\n【成績】通算PnL $893,316・ROI 14%・現在残高 $0\n【補足】残高が小さい＝稼ぎを引き上げ済の可能性（出金）。",
       "current": {
         "date": "2026-06-17",
         "metric_category": "nansen-pro",
@@ -15537,7 +15605,18 @@
       },
       "active_to": "2026-06-12",
       "active_from": "2026-06-12",
-      "active14": true
+      "active14": true,
+      "first_funders": [
+        {
+          "address": "0x7e2a9b1a0461c936bc5541c51b864d95c49539db",
+          "label": "HL Perps Day Trader [0x7e2a9b]",
+          "relation": "First Funder",
+          "time": "2023-08-28T11:14:11"
+        }
+      ],
+      "mh_detr72": 0.0645,
+      "mh_detr24": 0.0485,
+      "mh_checked": "2026-06-18"
     },
     "0x2373962eec8ed3764ddc1142244ac1e0fa38d0d8": {
       "address": "0x2373962eec8ed3764ddc1142244ac1e0fa38d0d8",
@@ -20875,7 +20954,47 @@
       "active_from": "2025-08-01",
       "active_to": "2026-03-05",
       "trade_days": 216,
-      "active14": false
+      "active14": false,
+      "first_funders": [
+        {
+          "address": "0x33ceb27b39d2bb7d2e61f7564d3df29344020417",
+          "label": "🤖 Hop Protocol: L2 AMM Wrapper [0x33ceb2]",
+          "relation": "First Funder",
+          "time": "2022-05-26T04:15:07"
+        }
+      ],
+      "counterparties": [
+        {
+          "label": "🤖 Aave: aDPI Token [0x724dc8]",
+          "in": 4198650.5722754,
+          "out": 5693637.414249373
+        },
+        {
+          "label": "\"Long LINK Short XRP\" HL Vault Leader [0xe28236]",
+          "in": 2780145.5032963436,
+          "out": 6298837.203556217
+        },
+        {
+          "label": "Burn Address [0x000000]",
+          "in": 6006455.334128819,
+          "out": 0.0
+        },
+        {
+          "label": "🤖 USDCTokenPool [0x40530f]",
+          "in": 0.0,
+          "out": 999774.8334100518
+        },
+        {
+          "label": "🤖 CoW Protocol: Settlement [0x9008d1]",
+          "in": 4711.155087780993,
+          "out": 1871.1637166346131
+        },
+        {
+          "label": "[0xb351e1]",
+          "in": 5031.100892261478,
+          "out": 0.0
+        }
+      ]
     },
     "0x0050f3427e5388e9cc458e977bc3444faf015618": {
       "address": "0x0050f3427e5388e9cc458e977bc3444faf015618",
@@ -24455,7 +24574,8 @@
       "tags": [
         "HL検証:非該当",
         "Nansen発見",
-        "取引あり(14d)"
+        "取引あり(14d)",
+        "遅効エッジ(24-72h)"
       ],
       "notes": "",
       "history": [
@@ -24470,7 +24590,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "除外/低優先",
+      "position": "弱い疑惑(監視継続)",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0xef91b2]"
@@ -24482,7 +24602,7 @@
         "PnL:中($100k-1M)",
         "方向:無/フラット"
       ],
-      "notes_jp": "【ひとことで】🤓 Nansenが『常勝(Smart Money)』認定したトレーダー。たぶんプロ、未精査。\n【正体】🤓 Smart HL Perps Trader [0xef91b2]（Nansenラベル）\n【成績】通算PnL $198,226・ROI 25,965%・現在残高 $0\n【補足】残高が小さい＝稼ぎを引き上げ済の可能性（出金）。",
+      "notes_jp": "【遅効エッジ検出(複数地平線, 2026-06-18)】4h方向的中はコイン投げだが、トレンド補正後の順方向リターンが 24h+0.016/72h+0.040 と市場ドリフトを超える。複数月・3銘柄・両方向に分散しN=1/regime便乗では説明困難。Nansen=「🤓 Smart HL Perps Trader [0xef91b2]」 資金源=​​🤖 Relay Protocol: Router [0xf5042e]。実力スイングトレーダーの可能性が高いが、遅効カタリストへの先行positioningも否定できず監視継続。\n―――\n【ひとことで】🤓 Nansenが『常勝(Smart Money)』認定したトレーダー。たぶんプロ、未精査。\n【正体】🤓 Smart HL Perps Trader [0xef91b2]（Nansenラベル）\n【成績】通算PnL $198,226・ROI 25,965%・現在残高 $0\n【補足】残高が小さい＝稼ぎを引き上げ済の可能性（出金）。",
       "current": {
         "date": "2026-06-17",
         "metric_category": "nansen-pro",
@@ -24495,7 +24615,18 @@
       "active_from": "2025-08-26",
       "active_to": "2026-06-03",
       "trade_days": 281,
-      "active14": true
+      "active14": true,
+      "first_funders": [
+        {
+          "address": "0xf5042e6ffac5a625d4e7848e0b01373d8eb9e222",
+          "label": "​​🤖 Relay Protocol: Router [0xf5042e]",
+          "relation": "First Funder",
+          "time": "2026-01-02T16:23:45"
+        }
+      ],
+      "mh_detr72": 0.0395,
+      "mh_detr24": 0.0158,
+      "mh_checked": "2026-06-18"
     },
     "0x61b6cfd715d70df1b1822763639e75a575a23c12": {
       "address": "0x61b6cfd715d70df1b1822763639e75a575a23c12",
@@ -26558,7 +26689,8 @@
       "tags": [
         "HL検証:非該当",
         "Nansen発見",
-        "取引なし(14d)"
+        "取引なし(14d)",
+        "遅効エッジ(24-72h)"
       ],
       "notes": "",
       "history": [
@@ -26573,7 +26705,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "除外/低優先",
+      "position": "弱い疑惑(監視継続)",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x8ff1d5]"
@@ -26585,7 +26717,7 @@
         "PnL:中($100k-1M)",
         "方向:無/フラット"
       ],
-      "notes_jp": "【ひとことで】🤓 Nansenが『常勝(Smart Money)』認定したトレーダー。たぶんプロ、未精査。\n【正体】Former Smart Trader [0x8ff1d5]（Nansenラベル）\n【成績】通算PnL $159,652・ROI 37%・現在残高 $0\n【補足】残高が小さい＝稼ぎを引き上げ済の可能性（出金）。",
+      "notes_jp": "【遅効エッジ検出(複数地平線, 2026-06-18)】4h方向的中はコイン投げだが、トレンド補正後の順方向リターンが 24h+0.008/72h+0.031 と市場ドリフトを超える。複数月・3銘柄・両方向に分散しN=1/regime便乗では説明困難。Nansen=「Former Smart Trader [0x8ff1d5]」 資金源=🤖 CoW Protocol: Settlement [0x9008d1]。実力スイングトレーダーの可能性が高いが、遅効カタリストへの先行positioningも否定できず監視継続。\n―――\n【ひとことで】🤓 Nansenが『常勝(Smart Money)』認定したトレーダー。たぶんプロ、未精査。\n【正体】Former Smart Trader [0x8ff1d5]（Nansenラベル）\n【成績】通算PnL $159,652・ROI 37%・現在残高 $0\n【補足】残高が小さい＝稼ぎを引き上げ済の可能性（出金）。",
       "current": {
         "date": "2026-06-17",
         "metric_category": "nansen-pro",
@@ -26598,7 +26730,18 @@
       "active_from": "2025-12-10",
       "active_to": "2026-05-03",
       "trade_days": 144,
-      "active14": false
+      "active14": false,
+      "first_funders": [
+        {
+          "address": "0x9008d19f58aabd9ed0d60971565aa8510560ab41",
+          "label": "🤖 CoW Protocol: Settlement [0x9008d1]",
+          "relation": "First Funder",
+          "time": "2025-11-10T18:42:39"
+        }
+      ],
+      "mh_detr72": 0.031,
+      "mh_detr24": 0.0082,
+      "mh_checked": "2026-06-18"
     },
     "0x3e1992da09489b64c35685ba407bbd9b110565e0": {
       "address": "0x3e1992da09489b64c35685ba407bbd9b110565e0",
@@ -30482,7 +30625,8 @@
       "tags": [
         "HL検証:非該当",
         "Nansen発見",
-        "取引なし(14d)"
+        "取引なし(14d)",
+        "遅効エッジ(24-72h)"
       ],
       "notes": "",
       "history": [
@@ -30497,7 +30641,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "除外/低優先",
+      "position": "弱い疑惑(監視継続)",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0x7dd6af]"
@@ -30509,7 +30653,7 @@
         "PnL:小(<$100k)",
         "方向:無/フラット"
       ],
-      "notes_jp": "【ひとことで】🤓 Nansenが『常勝(Smart Money)』認定したトレーダー。たぶんプロ、未精査。\n【正体】🤓 Smart HL Perps Trader [0x7dd6af]（Nansenラベル）\n【成績】通算PnL $81,048・ROI 2%・現在残高 $44,051\n【補足】残高が小さい＝稼ぎを引き上げ済の可能性（出金）。",
+      "notes_jp": "【遅効エッジ検出(複数地平線, 2026-06-18)】4h方向的中はコイン投げだが、トレンド補正後の順方向リターンが 24h+0.026/72h+0.037 と市場ドリフトを超える。複数月・3銘柄・両方向に分散しN=1/regime便乗では説明困難。Nansen=「🤓 Smart HL Perps Trader [0x7dd6af]」 資金源=🏦 Bybit: Hot Wallet [0xf89d7b]。実力スイングトレーダーの可能性が高いが、遅効カタリストへの先行positioningも否定できず監視継続。\n―――\n【ひとことで】🤓 Nansenが『常勝(Smart Money)』認定したトレーダー。たぶんプロ、未精査。\n【正体】🤓 Smart HL Perps Trader [0x7dd6af]（Nansenラベル）\n【成績】通算PnL $81,048・ROI 2%・現在残高 $44,051\n【補足】残高が小さい＝稼ぎを引き上げ済の可能性（出金）。",
       "current": {
         "date": "2026-06-17",
         "metric_category": "nansen-pro",
@@ -30522,7 +30666,18 @@
       "active_from": "2024-03-04",
       "active_to": "2025-01-27",
       "trade_days": 329,
-      "active14": false
+      "active14": false,
+      "first_funders": [
+        {
+          "address": "0xf89d7b9c864f589bbf53a82105107622b35eaa40",
+          "label": "🏦 Bybit: Hot Wallet [0xf89d7b]",
+          "relation": "First Funder",
+          "time": "2024-03-04T07:24:27"
+        }
+      ],
+      "mh_detr72": 0.0375,
+      "mh_detr24": 0.0264,
+      "mh_checked": "2026-06-18"
     },
     "0x435ea5582e97b68468fd1e8472b230037cf38003": {
       "address": "0x435ea5582e97b68468fd1e8472b230037cf38003",

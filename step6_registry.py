@@ -304,7 +304,8 @@ def render_html(reg, out="registry.html",
         for c in AXIS:
             if t.startswith(c):
                 return c
-        if t.startswith("WF:") or t in ("HL先行検出", "HL検証済プロ", "稼ぎ確認・先行不明(要精査)"):
+        if (t.startswith("WF:") or t.startswith("遅効エッジ")
+                or t in ("HL先行検出", "HL検証済プロ", "稼ぎ確認・先行不明(要精査)")):
             return "検証"
         if (t.startswith("出金") or t.startswith("資金") or "資金源" in t
                 or t.startswith("塩漬け") or t == "cluster-A" or t == "Nansen発見"):
