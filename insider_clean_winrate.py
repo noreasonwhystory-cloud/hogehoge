@@ -24,7 +24,7 @@ WIN_MIN = 0.70
 DIR_MIN = 0.65
 MIN_CLOSES = 10
 MIN_DAYS = 7
-BAG_MAX = 0.03          # 含み損合計が口座の3%超なら「塩漬けバッグあり」=失格
+BAG_MAX = 0.10          # 含み損合計が口座の10%超なら「塩漬けバッグあり」=失格
 
 
 def fetch_fills(addr, max_pages):
