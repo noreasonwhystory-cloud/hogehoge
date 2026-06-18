@@ -178,17 +178,12 @@ def esc(x):
 
 # ポジション表示順と色
 POS_ORDER = ["インサイダー疑惑(要監視)", "弱い疑惑(監視継続)", "💸 出金疑い(要監視)",
-             "要再検証(数値疑惑・未レビュー)", "プロトレーダー(本物)", "プロトレーダー(未精査)",
-             "高頻度プロ(手動追加)", "高頻度HFT/MM(手動追加)",
-             "プロ格付け過大(要再検証)", "Nansen候補(HL未検証)",
+             "プロトレーダー(本物)", "プロトレーダー(未精査)",
              "偽陽性(数値疑惑→否定)", "除外/低優先"]
 POS_COLOR = {
     "インサイダー疑惑(要監視)": "#ff5d6c", "弱い疑惑(監視継続)": "#ffb454",
     "💸 出金疑い(要監視)": "#f59e0b",
-    "要再検証(数値疑惑・未レビュー)": "#e0c14a",
     "プロトレーダー(本物)": "#3fb950", "プロトレーダー(未精査)": "#4ea1ff",
-    "高頻度プロ(手動追加)": "#2dd4bf", "高頻度HFT/MM(手動追加)": "#8b949e",
-    "プロ格付け過大(要再検証)": "#c77dff", "Nansen候補(HL未検証)": "#8b949e",
     "偽陽性(数値疑惑→否定)": "#7a8390", "除外/低優先": "#5c636d",
 }
 HL_ADDR = "https://app.hyperliquid.xyz/explorer/address/{a}"
@@ -311,7 +306,7 @@ def render_html(reg, out="registry.html",
         if (t.startswith("出金") or t.startswith("資金") or "資金源" in t
                 or t.startswith("塩漬け") or t == "cluster-A" or t == "hit-and-run候補"):
             return "資金/出金"
-        if t in ("MM/HFT", "HFT/MM", "HL履歴なし", "HL検証:非該当", "手動追加CA",
+        if t in ("MM/HFT", "HFT/MM", "HL履歴なし", "HL検証:非該当",
                  "未照会発掘", "Nansen発見", "小利/要再検証だった"):
             return "区分"
         return "他"
@@ -412,8 +407,7 @@ document.getElementById('clearf').addEventListener('click',()=>{{
 
 
 # プロ系ポジション（行動で検証した層・専用ページ）
-PRO_POSITIONS = {"プロトレーダー(本物)", "プロトレーダー(未精査)",
-                 "プロ格付け過大(要再検証)", "高頻度HFT/MM(手動追加)"}
+PRO_POSITIONS = {"プロトレーダー(本物)", "プロトレーダー(未精査)"}
 # Nansenラベルで仮置きしただけの未検証候補（行動未分析）。ラベルでは分類しない方針ゆえ中立枠。
 CANDIDATE_POSITIONS = {"Nansen候補(HL未検証)"}
 # 除外/低優先（MM・ノイズ・履歴なし・偽陽性等）。別ページへ。

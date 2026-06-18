@@ -394,5 +394,240 @@
       }
     ],
     "err": []
+  },
+  "0x9cc53c5af67fb83a16cc41f61e242bade875ab3d": {
+    "labels": [],
+    "first_funders": [
+      {
+        "address": "0x8c826f795466e39acbff1bb4eeeb759609377ba1",
+        "label": "testnetfaucets.eth",
+        "relation": "First Funder",
+        "time": "2025-11-08T22:00:38"
+      }
+    ],
+    "counterparties": [
+      {
+        "label": "Token Millionaire",
+        "address": "0x2df1c51e09aecf9cacb7bc98cb1742757f163df7",
+        "volume_usd": 1963994.8002125896,
+        "count": 15
+      },
+      {
+        "label": "High Activity",
+        "address": "0xa95d9c1f655341597c94393fddc30cf3c08e4fce",
+        "volume_usd": 1725255.8537075957,
+        "count": 5
+      },
+      {
+        "label": "Token Millionaire",
+        "address": "0x6fe39f2831caf58529779efdb73341aa64df50ab",
+        "volume_usd": 1572116.0365152778,
+        "count": 5
+      },
+      {
+        "label": "High Balance",
+        "address": "0x5600a3988ff9359ab1a7c3b3707c867c2ea91f2b",
+        "volume_usd": 1360120.7177889862,
+        "count": 5
+      },
+      {
+        "label": "HL Perps Whale",
+        "address": "0x58e5a4b324660a77a4d2cceca9e752469d25b6f4",
+        "volume_usd": 807200.1354965765,
+        "count": 8
+      },
+      {
+        "label": null,
+        "address": "0xef8dcf36b2409d1588353feb6df3e159de98622a",
+        "volume_usd": 219941.56313998325,
+        "count": 4
+      },
+      {
+        "label": null,
+        "address": "0xe01bc5f1b5d4337ee9b9b8a42b4841dfd8eea842",
+        "volume_usd": 199945.15695648428,
+        "count": 7
+      },
+      {
+        "label": null,
+        "address": "0x23774b4e69f7e72aa95132b642bca36296d365d6",
+        "volume_usd": 29988.390719864605,
+        "count": 2
+      },
+      {
+        "label": null,
+        "address": "0xfc46f0ca50b6be42d07e0c0baca1f6ca4b620871",
+        "volume_usd": 10007.728088526186,
+        "count": 3
+      },
+      {
+        "label": "High Activity",
+        "address": "0x7a70cb77a12fa2dc3fa1bc1dcbca4c79db71a289",
+        "volume_usd": 99.97065218824724,
+        "count": 1
+      }
+    ]
+  },
+  "0x50b309f78e774a756a2230e1769729094cac9f20": {
+    "labels": [
+      "High Balance"
+    ],
+    "first_funders": [
+      {
+        "address": "0xecfdd0e505043a67991c5b8e3713f9266ebc3309",
+        "label": "",
+        "relation": "First Funder",
+        "time": "2025-11-01T01:45:22"
+      }
+    ],
+    "counterparties": [
+      {
+        "label": "Token Millionaire",
+        "address": "0x2df1c51e09aecf9cacb7bc98cb1742757f163df7",
+        "volume_usd": 1019715.0976839178,
+        "count": 2
+      },
+      {
+        "label": null,
+        "address": "0xb8b5bc2c4f3f906e6702c5da4545f2ae6ab42a36",
+        "volume_usd": 30638.207746270396,
+        "count": 5
+      },
+      {
+        "label": "HL Perps Shark",
+        "address": "0xa8760cb7e4bc07af8560a2115f6e1b0874ccd243",
+        "volume_usd": 19041.622357080272,
+        "count": 5
+      },
+      {
+        "label": null,
+        "address": "0x8b422124572a11bed3e74863f3c22bd3e0e50f8f",
+        "volume_usd": 8014.706696194219,
+        "count": 2
+      },
+      {
+        "label": "High Activity",
+        "address": "0x69460570c93f9de5e2edbc3052bf10125f0ca22d",
+        "volume_usd": 5019.020517418223,
+        "count": 2
+      },
+      {
+        "label": "High Balance",
+        "address": "0xe35e9842fceaca96570b734083f4a58e8f7c5f2a",
+        "volume_usd": 4999.207409837158,
+        "count": 1
+      },
+      {
+        "label": null,
+        "address": "0xb8b2015c24ba3d890d3455e0b70bf594e70bda36",
+        "volume_usd": 0.004726395048840162,
+        "count": 5
+      },
+      {
+        "label": null,
+        "address": "0x8b426fa1fa1880e7dc71433daae5edbfd50b0f8f",
+        "volume_usd": 0.0031192996537224398,
+        "count": 40
+      },
+      {
+        "label": null,
+        "address": "0x8b42c639861681e0ef40e790b71850e391d11f8f",
+        "volume_usd": 0.0031192996537224398,
+        "count": 39
+      },
+      {
+        "label": null,
+        "address": "0xa8778a58e492fedff6af9e1f692f7a2fd98cd243",
+        "volume_usd": 0.0029987504404356984,
+        "count": 3
+      }
+    ]
+  },
+  "0xa864144d507da1f5a90aae0147b8cba6d93a21cb": {
+    "labels": [],
+    "first_funders": [
+      {
+        "address": "0xe35e9842fceaca96570b734083f4a58e8f7c5f2a",
+        "label": "High Balance",
+        "relation": "First Funder",
+        "time": "2025-11-27T17:04:25"
+      }
+    ],
+    "counterparties": []
+  },
+  "0x350e33a777d510616fbdb483d1de3b50d1edfcfb": {
+    "labels": [
+      "High Balance"
+    ],
+    "first_funders": [
+      {
+        "address": "0x1b5b4e441f5a22bfd91b7772c780463f66a74b35",
+        "label": "High Activity",
+        "relation": "First Funder",
+        "time": "2024-01-02T05:08:41"
+      }
+    ],
+    "counterparties": [
+      {
+        "label": "High Activity",
+        "address": "0x076bb6117750e80ad570d98891b68da86c203a88",
+        "volume_usd": 1153526.5917841205,
+        "count": 10
+      },
+      {
+        "label": "Token Millionaire",
+        "address": "0xee7ae85f2fe2239e27d9c1e23fffe168d63b4055",
+        "volume_usd": 703628.9124649754,
+        "count": 1
+      },
+      {
+        "label": "Token Millionaire",
+        "address": "0x2df1c51e09aecf9cacb7bc98cb1742757f163df7",
+        "volume_usd": 549868.722441891,
+        "count": 4
+      },
+      {
+        "label": "Token Millionaire",
+        "address": "0x5e027ad442e031424b5a2c0ad6f656662be32882",
+        "volume_usd": 282917.7822208322,
+        "count": 2
+      },
+      {
+        "label": "High Activity",
+        "address": "0xa95d9c1f655341597c94393fddc30cf3c08e4fce",
+        "volume_usd": 132951.3322487386,
+        "count": 1
+      },
+      {
+        "label": null,
+        "address": "0x58ca154014daae1c4f7a4c90eda46e35f0aef6c6",
+        "volume_usd": 99971.07403123153,
+        "count": 1
+      },
+      {
+        "label": "High Activity",
+        "address": "0x2df1d0f0507a31b1a000e4328eff1ef57f163df7",
+        "volume_usd": 0.00019896852302696806,
+        "count": 1
+      },
+      {
+        "label": null,
+        "address": "0x58caac32a2b0fe05e7383f18c4b63c05f0aef6c6",
+        "volume_usd": 9.897136329091921e-05,
+        "count": 1
+      },
+      {
+        "label": "High Activity",
+        "address": "0x2df17470c5de6a5d2d41feb8fcf5fb0deeb43df7",
+        "volume_usd": 9.998418242561208e-06,
+        "count": 1
+      },
+      {
+        "label": null,
+        "address": "0x58ca477c757f324f441f6aec87f50410fe2af6c6",
+        "volume_usd": 9.997065218824725e-06,
+        "count": 2
+      }
+    ]
   }
 }
