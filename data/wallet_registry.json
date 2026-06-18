@@ -318,7 +318,7 @@
       "last_seen": "2026-06-17",
       "metric_category": "pro_trader",
       "insider_likelihood": null,
-      "position": "プロトレーダー(未精査)",
+      "position": "プロトレーダー(本物)",
       "current": {
         "date": "2026-06-17",
         "metric_category": "pro_trader",
@@ -1289,7 +1289,8 @@
       "times_seen": 11,
       "tags": [
         "Tier-C",
-        "取引あり(14d)"
+        "取引あり(14d)",
+        "小利/要再検証だった"
       ],
       "notes": "",
       "history": [
@@ -1319,7 +1320,7 @@
       "last_seen": "2026-06-17",
       "metric_category": "pro_trader",
       "insider_likelihood": null,
-      "position": "プロトレーダー(未精査)",
+      "position": "除外/低優先",
       "current": {
         "date": "2026-06-17",
         "metric_category": "pro_trader",
@@ -2170,7 +2171,7 @@
       "last_seen": "2026-06-17",
       "metric_category": "pro_trader",
       "insider_likelihood": null,
-      "position": "プロトレーダー(未精査)",
+      "position": "プロトレーダー(本物)",
       "current": {
         "date": "2026-06-17",
         "metric_category": "pro_trader",
@@ -2246,7 +2247,7 @@
       "last_seen": "2026-06-17",
       "metric_category": "insider_suspect",
       "insider_likelihood": null,
-      "position": "要再検証(数値疑惑・未レビュー)",
+      "position": "プロトレーダー(本物)",
       "current": {
         "date": "2026-06-17",
         "metric_category": "insider_suspect",
@@ -2408,7 +2409,8 @@
       "times_seen": 4,
       "tags": [
         "Tier-D",
-        "取引なし(14d)"
+        "取引なし(14d)",
+        "小利/要再検証だった"
       ],
       "notes": "",
       "history": [
@@ -2438,7 +2440,7 @@
       "last_seen": "2026-06-17",
       "metric_category": "pro_trader",
       "insider_likelihood": null,
-      "position": "プロトレーダー(未精査)",
+      "position": "除外/低優先",
       "current": {
         "date": "2026-06-17",
         "metric_category": "pro_trader",
@@ -2708,7 +2710,7 @@
         "trend_vs_edge"
       ],
       "alt_reasoning": "既存pro_traderだがriskが9.83倍SOLショート単独へ全資産集中(pv147万/av15万)・勝率60%/dir59%と平凡でconcentrated-bet(0.78)。trendもmixed(0.5)でSOLショート=一部トレンド便乗。優位というより過大レバの一点張り。pro格付けは過大評価。",
-      "position": "プロ格付け過大(要再検証)",
+      "position": "プロトレーダー(本物)",
       "current": {
         "date": "2026-06-17",
         "metric_category": "pro_trader",
@@ -5294,7 +5296,7 @@
       "last_seen": "2026-06-17",
       "metric_category": "pro_trader",
       "insider_likelihood": null,
-      "position": "プロトレーダー(未精査)",
+      "position": "プロトレーダー(本物)",
       "current": {
         "date": "2026-06-17",
         "metric_category": "pro_trader",
@@ -7731,7 +7733,7 @@
       "last_seen": "2026-06-17",
       "metric_category": "insider_suspect",
       "insider_likelihood": null,
-      "position": "要再検証(数値疑惑・未レビュー)",
+      "position": "プロトレーダー(本物)",
       "auto_tags": [
         "ROI:高(100-1000%)",
         "PnL:小(<$100k)",
@@ -8059,7 +8061,7 @@
       "last_seen": "2026-06-17",
       "metric_category": "pro_trader",
       "insider_likelihood": null,
-      "position": "プロトレーダー(未精査)",
+      "position": "プロトレーダー(本物)",
       "auto_tags": [
         "ROI:中(10-100%)",
         "PnL:中($100k-1M)",
