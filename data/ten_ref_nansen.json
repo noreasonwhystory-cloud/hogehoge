@@ -1,0 +1,398 @@
+{
+  "0xa6ee1ed1ae80b8352603654b39f5e7b9bedd5078": {
+    "labels": [],
+    "first_funders": [
+      {
+        "address": "0xace0a4c087f7f199328fb1e38d8d27bd237b03fd",
+        "label": "​​Trading Bot [0xace0a4]",
+        "relation": "First Funder",
+        "time": "2025-05-23T02:16:43"
+      }
+    ],
+    "counterparties": [
+      {
+        "label": "HL Perps Altcoin Trader [0xf02d16]",
+        "address": "0xf02d16a272a842f8bac1d9a9e773aba1933454c6",
+        "vol": 9449868.080117349,
+        "in": 1095607.921306358,
+        "out": 8354260.158810991
+      },
+      {
+        "label": "Burn Address [0x000000]",
+        "address": "0x0000000000000000000000000000000000000000",
+        "vol": 8836549.710647106,
+        "in": 8836549.710647106,
+        "out": 0.0
+      },
+      {
+        "label": "🤖 Hyperliquid: Bridge 2 [0x2df1c5]",
+        "address": "0x2df1c51e09aecf9cacb7bc98cb1742757f163df7",
+        "vol": 4145419.4671425186,
+        "in": 2984310.770987857,
+        "out": 1161108.6961546617
+      },
+      {
+        "label": "High Balance [0xfea9e2]",
+        "address": "0xfea9e278e96eb43df4ce2fc3f91b200e3a0bca45",
+        "vol": 1284664.7955423845,
+        "in": 0.0,
+        "out": 1284664.7955423845
+      },
+      {
+        "label": "🤖 Circle: USDC Bridge [0xa95d9c]",
+        "address": "0xa95d9c1f655341597c94393fddc30cf3c08e4fce",
+        "vol": 1177168.6339399638,
+        "in": 0.0,
+        "out": 1177168.6339399638
+      },
+      {
+        "label": "🏦 Kraken: Deposit [0xfc36bd]",
+        "address": "0xfc36bda748f188f91a181b6a6eb21dae5e278db6",
+        "vol": 999747.2346215036,
+        "in": 0.0,
+        "out": 999747.2346215036
+      },
+      {
+        "label": "Relay Protocol: EOA Bridge [0xf70da9]",
+        "address": "0xf70da97812cb96acdf810712aa562db8dfa3dbef",
+        "vol": 65500.78355104491,
+        "in": 65500.78355104491,
+        "out": 0.0
+      },
+      {
+        "label": "[0xb60a2d]",
+        "address": "0xb60a2dd39368fd681f24900e2271470aa8d47d5c",
+        "vol": 4998.736969360787,
+        "in": 0.0,
+        "out": 4998.736969360787
+      }
+    ],
+    "err": []
+  },
+  "0x06bc596fb16734f7abc3a5996b580be932c2fb72": {
+    "labels": [
+      "\"picholas\" on OpenSea",
+      "picholas.eth*"
+    ],
+    "first_funders": [
+      {
+        "address": "0xe35e9842fceaca96570b734083f4a58e8f7c5f2a",
+        "label": "🤖 Across Protocol: Spoke Pool [0xe35e98]",
+        "relation": "First Funder",
+        "time": "2023-12-14T21:28:50"
+      }
+    ],
+    "counterparties": [
+      {
+        "label": "🤖 Hyperliquid: Bridge 2 [0x2df1c5]",
+        "address": "0x2df1c51e09aecf9cacb7bc98cb1742757f163df7",
+        "vol": 7118653.066169353,
+        "in": 4619377.137471662,
+        "out": 2499275.9286976913
+      },
+      {
+        "label": "🏦 Coinbase: Deposit [0x3d631d]",
+        "address": "0x3d631d0cd2b8d3257ec278da92d5f81feabf6e79",
+        "vol": 2919919.634796526,
+        "in": 0.0,
+        "out": 2919919.634796526
+      },
+      {
+        "label": "🏦 Coinbase: Wallet [0xd55c1a]",
+        "address": "0xd55c1ae0e52918c864616dd5ffba6c50b8fbe39e",
+        "vol": 1999370.7430423924,
+        "in": 1999370.7430423924,
+        "out": 0.0
+      },
+      {
+        "label": "🤖 Circle: CCTP TokenMinterV2 [0xfd78ee]",
+        "address": "0xfd78ee919681417d192449715b2594ab58f5d002",
+        "vol": 1699457.5082382408,
+        "in": 0.0,
+        "out": 1699457.5082382408
+      },
+      {
+        "label": "🤖 Circle: USDC Bridge [0xa95d9c]",
+        "address": "0xa95d9c1f655341597c94393fddc30cf3c08e4fce",
+        "vol": 979674.9726526139,
+        "in": 0.0,
+        "out": 979674.9726526139
+      },
+      {
+        "label": "🏦 Coinbase: Hot Wallet [0x368dcd]",
+        "address": "0x368dcdc2f598c0cbb00536e166f46b5e0c561511",
+        "vol": 499905.1906503901,
+        "in": 499905.1906503901,
+        "out": 0.0
+      },
+      {
+        "label": "🤖 SponsoredCCTPDstPeriphery [0xc38469]",
+        "address": "0xc384694df2be9c381d596ded22f2a69d3aba07d3",
+        "vol": 449858.1042173658,
+        "in": 449858.1042173658,
+        "out": 0.0
+      },
+      {
+        "label": "Burn Address [0x000000]",
+        "address": "0x0000000000000000000000000000000000000000",
+        "vol": 249901.35664854845,
+        "in": 249901.35664854845,
+        "out": 0.0
+      }
+    ],
+    "err": []
+  },
+  "0x0335a1387afc039bf30ba7bf620630121c33b797": {
+    "labels": [],
+    "first_funders": [
+      {
+        "address": "0xfe91aaa1012b47499cfe8758874f2d2c52b22cd8",
+        "label": "🤖 Spoke [0xfe91aa]",
+        "relation": "First Funder",
+        "time": "2026-01-06T16:53:53"
+      }
+    ],
+    "counterparties": [
+      {
+        "label": "🤖 Hyperliquid: Bridge 2 [0x2df1c5]",
+        "address": "0x2df1c51e09aecf9cacb7bc98cb1742757f163df7",
+        "vol": 120428.89118342196,
+        "in": 0.0,
+        "out": 120428.89118342196
+      },
+      {
+        "label": "🤖 High Activity [0xeba53d]",
+        "address": "0xeba53db3b53e2ae621faae3bed4e7fcd11877eac",
+        "vol": 117429.91132882325,
+        "in": 117429.91132882325,
+        "out": 0.0
+      },
+      {
+        "label": "Relay Protocol: EOA Bridge [0xf70da9]",
+        "address": "0xf70da97812cb96acdf810712aa562db8dfa3dbef",
+        "vol": 2998.9799295797793,
+        "in": 2998.9799295797793,
+        "out": 0.0
+      }
+    ],
+    "err": []
+  },
+  "0xaea391e34ce73d90a6944a5a4997d19cdd6e3467": {
+    "labels": [],
+    "first_funders": [
+      {
+        "address": "0x91604f590d66ace8975eed6bd16cf55647d1c499",
+        "label": "High Activity [0x91604f]",
+        "relation": "First Funder",
+        "time": "2025-06-18T22:45:34"
+      }
+    ],
+    "counterparties": [
+      {
+        "label": "🤖 Hyperliquid: Bridge 2 [0x2df1c5]",
+        "address": "0x2df1c51e09aecf9cacb7bc98cb1742757f163df7",
+        "vol": 282979.3817898886,
+        "in": 30291.10453275191,
+        "out": 252688.2772571367
+      },
+      {
+        "label": "🤖 🏦 Uniswap: PoolManager V4 [0x360e68]",
+        "address": "0x360e68faccca8ca495c1b759fd9eee466db9fb32",
+        "vol": 264239.55347815115,
+        "in": 262779.9481424806,
+        "out": 1459.6053356704988
+      },
+      {
+        "label": "🤖 🏦 Uniswap: Universal Router V4 [0xa51afa]",
+        "address": "0xa51afafe0263b40edaef0df8781ea9aa03e381a3",
+        "vol": 128719.19828746896,
+        "in": 39495.164813384305,
+        "out": 89224.03347408464
+      },
+      {
+        "label": "🤖 🏦 Uniswap: V3 WETH-USDC (0.05%) Liquidity Pool  [0xc69620]",
+        "address": "0xc6962004f452be9203591991d15f6b388e09e8d0",
+        "vol": 44183.21215201258,
+        "in": 44183.21215201258,
+        "out": 0.0
+      },
+      {
+        "label": "🤖 🏦 Uniswap: PositionManager V4 [0xd88f38]",
+        "address": "0xd88f38f930b7952f2db2432cb002e7abbf3dd869",
+        "vol": 1612.1231503836839,
+        "in": 14.819289787344454,
+        "out": 1597.3038605963395
+      },
+      {
+        "label": "🤖 🏦 Uniswap: V3 WBTC-USDC (0.05%) Liquidity Pool  [0x0e4831]",
+        "address": "0x0e4831319a50228b9e450861297ab92dee15b44f",
+        "vol": 1123.4572513924809,
+        "in": 0.0,
+        "out": 1123.4572513924809
+      },
+      {
+        "label": "🤖 🏦 Aster: Treasury [0x9e36cb]",
+        "address": "0x9e36cb86a159d479ced94fa05036f235ac40e1d5",
+        "vol": 1107.0692110822968,
+        "in": 603.0225601209553,
+        "out": 504.04665096134147
+      },
+      {
+        "label": "🤖 🏦 Uniswap: V3 USDC-USDC (0.01%) Liquidity Pool  [0x8e2957]",
+        "address": "0x8e295789c9465487074a65b1ae9ce0351172393f",
+        "vol": 224.65385655649442,
+        "in": 0.0,
+        "out": 224.65385655649442
+      }
+    ],
+    "err": []
+  },
+  "0xa5d07658d8214f83620871dd4e293b1bd8678181": {
+    "labels": [],
+    "first_funders": [
+      {
+        "address": "0x80e0defe85a7368d862769c5914a0cdd2e70706b",
+        "label": "[0x80e0de]",
+        "relation": "First Funder",
+        "time": "2024-07-26T19:15:43"
+      },
+      {
+        "address": "0xc0dff876cb326098db86e62744e994f0f2227578",
+        "label": "🤖 InitializableUpgradeabilityProxy [0xc0dff8]",
+        "relation": "Deployed Contract",
+        "time": "2024-11-22T08:42:38"
+      },
+      {
+        "address": "0xa5679c4272a056bb83f039961fae7d99c48529f5",
+        "label": "​​🤖 dHEDGE: Router [0xa5679c]",
+        "relation": "Deployed via",
+        "time": "2024-11-22T08:42:38"
+      }
+    ],
+    "counterparties": [
+      {
+        "label": "HL Perps Majors Trader [0xbf3d74]",
+        "address": "0xbf3d7410e3c61b337ad358c53fbc8329cf4cea9d",
+        "vol": 179.7634119441714,
+        "in": 0.0,
+        "out": 179.7634119441714
+      },
+      {
+        "label": "Burn Address [0x000000]",
+        "address": "0x0000000000000000000000000000000000000000",
+        "vol": 179.75891797122213,
+        "in": 179.75891797122213,
+        "out": 0.0
+      }
+    ],
+    "err": []
+  },
+  "0xc7be26aba75daba73d9f4c202a16fb5ca7abc238": {
+    "labels": [
+      "High Balance"
+    ],
+    "first_funders": [
+      {
+        "address": "0x9b64203878f24eb0cdf55c8c6fa7d08ba0cf77e5",
+        "label": "🏦 MEXC: Hot Wallet [0x9b6420]",
+        "relation": "First Funder",
+        "time": "2024-03-26T01:46:00"
+      },
+      {
+        "address": "0xd5be2dd632d2e2c08cb0a8b803e0b1737ca6f0e4",
+        "label": "[0xd5be2d]",
+        "relation": "Deployed Contract",
+        "time": "2024-12-20T15:31:50"
+      },
+      {
+        "address": "0x8439156dcfa4b5fad8b016916d4230dba91934f7",
+        "label": "[0x843915]",
+        "relation": "Deployed Contract",
+        "time": "2024-12-22T20:29:56"
+      },
+      {
+        "address": "0xf68e7f4b0adb0e28b0ffca6d6c50a5576c632da3",
+        "label": "🤖 TransferableByApproveVestingWallet [0xf68e7f]",
+        "relation": "Deployed Contract",
+        "time": "2024-12-24T08:39:54"
+      },
+      {
+        "address": "0x0bf59de4a5e1ec8869a443a6b11b9599dbb412ef",
+        "label": "🤖 TransferableByApproveVestingWallet [0x0bf59d]",
+        "relation": "Deployed Contract",
+        "time": "2024-12-25T11:01:44"
+      },
+      {
+        "address": "0x503383ef3433f60a879e17de2122db1f953178b4",
+        "label": "🤖 TransferableByApproveVestingWallet [0x503383]",
+        "relation": "Deployed Contract",
+        "time": "2024-12-26T12:23:29"
+      },
+      {
+        "address": "0x76f7b0cbc49f6aac02d0e548b51c8851daccf8d7",
+        "label": "🤖 WalletFactory [0x76f7b0]",
+        "relation": "Deployed via",
+        "time": "2024-12-20T15:31:50"
+      }
+    ],
+    "counterparties": [
+      {
+        "label": "​​🤖 🏦 KyberSwap: DEX Aggregator [0x8f10b4]",
+        "address": "0x8f10b468b06c6fd214b65f87778827f7d113f996",
+        "vol": 3651862.2494348986,
+        "in": 2127116.2551541445,
+        "out": 1524745.9942807541
+      },
+      {
+        "label": "🤖 🏦 Uniswap: V3 AETHWETH-WETH (0.3%) Liquidity Pool  [0xad729a]",
+        "address": "0xad729a395657a3d5ecc52e8897d08bcc14392104",
+        "vol": 778827.7643705644,
+        "in": 373764.16843831964,
+        "out": 405063.5959322448
+      },
+      {
+        "label": "🤖 🏦 KyberSwap: Meta Aggregation Router V2 [0x6131b5]",
+        "address": "0x6131b5fae19ea4f9d964eac0408e4408b66337b5",
+        "vol": 589564.1207351745,
+        "in": 0.0,
+        "out": 589564.1207351745
+      },
+      {
+        "label": "​​🤖 🏦 KyberSwap: DEX Aggregator [0x63b0a0]",
+        "address": "0x63b0a0d33fe906c668b1de4875bfaf562a9d8c5b",
+        "vol": 500698.5941283058,
+        "in": 0.0,
+        "out": 500698.5941283058
+      },
+      {
+        "label": "Top 100 on H Leaderboard [0x1472c1]",
+        "address": "0x1472c11b501b40bc6d120e2bd8f55ef5a22779ee",
+        "vol": 424629.14241404634,
+        "in": 424629.14241404634,
+        "out": 0.0
+      },
+      {
+        "label": "🤖 🏦 Uniswap: V3 Nonfungible Position Manager [0xc36442]",
+        "address": "0xc36442b4a4522e871399cd717abdd847ab11fe88",
+        "vol": 388460.68751717487,
+        "in": 209078.6644512914,
+        "out": 179382.02306588343
+      },
+      {
+        "label": "🏦 Gate: Deposit [0xd5600d]",
+        "address": "0xd5600de89b5e6baebba16c9a0afac26e902e5129",
+        "vol": 334201.74711277697,
+        "in": 0.0,
+        "out": 334201.74711277697
+      },
+      {
+        "label": "🤖 🏦 Uniswap: PoolManager V4 [0x000000]",
+        "address": "0x000000000004444c5dc75cb358380d2e3de08a90",
+        "vol": 250547.37939364428,
+        "in": 250547.37939364428,
+        "out": 0.0
+      }
+    ],
+    "err": []
+  }
+}
