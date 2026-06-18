@@ -16,6 +16,7 @@ from datetime import datetime, timezone
 
 import config
 import hl_client
+import hl_fills_cache as fc
 
 MS_H = 3600 * 1000
 NOW = int(time.time() * 1000)
@@ -52,25 +53,8 @@ def price_at(coin, t):
     return ser[i][1] if i >= 0 else None
 
 
-def fetch_fills(addr, max_pages=25):
-    out, cur = [], 0
-    for _ in range(max_pages):
-        ch = hl_client._post_info({"type": "userFillsByTime", "user": addr, "startTime": cur, "endTime": NOW})
-        if not ch:
-            break
-        out.extend(ch)
-        if len(ch) < 2000:
-            break
-        last = ch[-1]["time"]
-        if last <= cur:
-            break
-        cur = last + 1
-    seen, ded = set(), []
-    for f in out:
-        if f.get("tid") in seen:
-            continue
-        seen.add(f.get("tid")); ded.append(f)
-    return ded
+def fetch_fills(addr, max_pages=40):
+    return fc.get_fills(addr, max_pages=max_pages)   # 永続キャッシュ＋増分取得
 
 
 def open_dir(d):
