@@ -9098,7 +9098,7 @@
       "times_seen": 7,
       "tags": [
         "取引なし(14d)",
-        "遅効エッジ(24-72h)"
+        "遅効シグナルだがmajors赤字"
       ],
       "notes": "",
       "history": [
@@ -9117,7 +9117,7 @@
       "last_seen": "2026-06-17",
       "metric_category": "excluded",
       "insider_likelihood": null,
-      "position": "弱い疑惑(監視継続)",
+      "position": "除外/低優先",
       "auto_tags": [
         "ROI:超高(>1000%)",
         "PnL:中($100k-1M)",
@@ -9201,10 +9201,11 @@
           "time": "2024-01-21T02:09:59"
         }
       ],
-      "notes_jp": "【遅効エッジ検出(複数地平線, 2026-06-18)】4h方向的中はコイン投げだが、トレンド補正後の順方向リターンが 24h+0.015/72h+0.042 と市場ドリフトを超える。複数月・3銘柄・両方向に分散しN=1/regime便乗では説明困難。Nansen=「匿名」 資金源=🏦 Kraken: Hot Wallet [0x267be1], parastrate.eth on Ethereum [5GKkM6jm], 🤖 🏦 Uniswap: V2 ⚠️ BULL-COLI Liquidity Pool  [0xa924ea], 🤖 OpenSea Account [0x8c11e5], 🤖 SOSHIBA [0xe4c602], 🤖 🏦 Uniswap: V2 WETH-⚠️ SOSHIBA Liquidity Pool  [0xe1e5a1], 🤖 33 [0x447bda], 🤖 🏦 Uniswap: V3 33-WETH (0.3%) Liquidity Pool  [0xe620bb], 🤖 MOUSE [0xfff488], 🤖 🏦 Uniswap: V3 WETH-MOUSE (0.3%) Liquidity Pool  [0x49a773]。実力スイングトレーダーの可能性が高いが、遅効カタリストへの先行positioningも否定できず監視継続。\n―――\n",
+      "notes_jp": "【補正】遅効エッジ(補正72h正)を検出したが、majors実現損益が＄-4,497(黒字でない)。建玉後に順方向へ動いても早期利確/反転/清算/alt偏重で利益化できていない＝実力/情報優位でなく偽陽性。除外へ。\n―――\n【遅効エッジ検出(複数地平線, 2026-06-18)】4h方向的中はコイン投げだが、トレンド補正後の順方向リターンが 24h+0.015/72h+0.042 と市場ドリフトを超える。複数月・3銘柄・両方向に分散しN=1/regime便乗では説明困難。Nansen=「匿名」 資金源=🏦 Kraken: Hot Wallet [0x267be1], parastrate.eth on Ethereum [5GKkM6jm], 🤖 🏦 Uniswap: V2 ⚠️ BULL-COLI Liquidity Pool  [0xa924ea], 🤖 OpenSea Account [0x8c11e5], 🤖 SOSHIBA [0xe4c602], 🤖 🏦 Uniswap: V2 WETH-⚠️ SOSHIBA Liquidity Pool  [0xe1e5a1], 🤖 33 [0x447bda], 🤖 🏦 Uniswap: V3 33-WETH (0.3%) Liquidity Pool  [0xe620bb], 🤖 MOUSE [0xfff488], 🤖 🏦 Uniswap: V3 WETH-MOUSE (0.3%) Liquidity Pool  [0x49a773]。実力スイングトレーダーの可能性が高いが、遅効カタリストへの先行positioningも否定できず監視継続。\n―――\n",
       "mh_detr72": 0.0417,
       "mh_detr24": 0.0146,
-      "mh_checked": "2026-06-18"
+      "mh_checked": "2026-06-18",
+      "realized_majors": -4497
     },
     "0x7632be1bdb486be27a1c39ff4208ffd5853c59ed": {
       "address": "0x7632be1bdb486be27a1c39ff4208ffd5853c59ed",
@@ -15616,7 +15617,8 @@
       ],
       "mh_detr72": 0.0645,
       "mh_detr24": 0.0485,
-      "mh_checked": "2026-06-18"
+      "mh_checked": "2026-06-18",
+      "realized_majors": 952119
     },
     "0x2373962eec8ed3764ddc1142244ac1e0fa38d0d8": {
       "address": "0x2373962eec8ed3764ddc1142244ac1e0fa38d0d8",
@@ -24626,7 +24628,8 @@
       ],
       "mh_detr72": 0.0395,
       "mh_detr24": 0.0158,
-      "mh_checked": "2026-06-18"
+      "mh_checked": "2026-06-18",
+      "realized_majors": 278085
     },
     "0x61b6cfd715d70df1b1822763639e75a575a23c12": {
       "address": "0x61b6cfd715d70df1b1822763639e75a575a23c12",
@@ -26741,7 +26744,8 @@
       ],
       "mh_detr72": 0.031,
       "mh_detr24": 0.0082,
-      "mh_checked": "2026-06-18"
+      "mh_checked": "2026-06-18",
+      "realized_majors": 227863
     },
     "0x3e1992da09489b64c35685ba407bbd9b110565e0": {
       "address": "0x3e1992da09489b64c35685ba407bbd9b110565e0",
@@ -30626,7 +30630,7 @@
         "HL検証:非該当",
         "Nansen発見",
         "取引なし(14d)",
-        "遅効エッジ(24-72h)"
+        "遅効シグナルだがmajors赤字"
       ],
       "notes": "",
       "history": [
@@ -30641,7 +30645,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "弱い疑惑(監視継続)",
+      "position": "除外/低優先",
       "metric_category": "nansen-pro",
       "labels": [
         "🤓 Smart HL Perps Trader [0x7dd6af]"
@@ -30653,7 +30657,7 @@
         "PnL:小(<$100k)",
         "方向:無/フラット"
       ],
-      "notes_jp": "【遅効エッジ検出(複数地平線, 2026-06-18)】4h方向的中はコイン投げだが、トレンド補正後の順方向リターンが 24h+0.026/72h+0.037 と市場ドリフトを超える。複数月・3銘柄・両方向に分散しN=1/regime便乗では説明困難。Nansen=「🤓 Smart HL Perps Trader [0x7dd6af]」 資金源=🏦 Bybit: Hot Wallet [0xf89d7b]。実力スイングトレーダーの可能性が高いが、遅効カタリストへの先行positioningも否定できず監視継続。\n―――\n【ひとことで】🤓 Nansenが『常勝(Smart Money)』認定したトレーダー。たぶんプロ、未精査。\n【正体】🤓 Smart HL Perps Trader [0x7dd6af]（Nansenラベル）\n【成績】通算PnL $81,048・ROI 2%・現在残高 $44,051\n【補足】残高が小さい＝稼ぎを引き上げ済の可能性（出金）。",
+      "notes_jp": "【補正】遅効エッジ(補正72h正)を検出したが、majors実現損益が＄27,797(黒字でない)。建玉後に順方向へ動いても早期利確/反転/清算/alt偏重で利益化できていない＝実力/情報優位でなく偽陽性。除外へ。\n―――\n【遅効エッジ検出(複数地平線, 2026-06-18)】4h方向的中はコイン投げだが、トレンド補正後の順方向リターンが 24h+0.026/72h+0.037 と市場ドリフトを超える。複数月・3銘柄・両方向に分散しN=1/regime便乗では説明困難。Nansen=「🤓 Smart HL Perps Trader [0x7dd6af]」 資金源=🏦 Bybit: Hot Wallet [0xf89d7b]。実力スイングトレーダーの可能性が高いが、遅効カタリストへの先行positioningも否定できず監視継続。\n―――\n【ひとことで】🤓 Nansenが『常勝(Smart Money)』認定したトレーダー。たぶんプロ、未精査。\n【正体】🤓 Smart HL Perps Trader [0x7dd6af]（Nansenラベル）\n【成績】通算PnL $81,048・ROI 2%・現在残高 $44,051\n【補足】残高が小さい＝稼ぎを引き上げ済の可能性（出金）。",
       "current": {
         "date": "2026-06-17",
         "metric_category": "nansen-pro",
@@ -30677,7 +30681,8 @@
       ],
       "mh_detr72": 0.0375,
       "mh_detr24": 0.0264,
-      "mh_checked": "2026-06-18"
+      "mh_checked": "2026-06-18",
+      "realized_majors": 27797
     },
     "0x435ea5582e97b68468fd1e8472b230037cf38003": {
       "address": "0x435ea5582e97b68468fd1e8472b230037cf38003",
@@ -35152,6 +35157,810 @@
       "nansen_errors": [],
       "pro_score_old": 0.385,
       "pro_tier_old": "B"
+    },
+    "0xbf49647d017805fcc576ac10f33a788e636f4258": {
+      "address": "0xbf49647d017805fcc576ac10f33a788e636f4258",
+      "first_seen": "2026-06-18",
+      "last_seen": "2026-06-18",
+      "times_seen": 1,
+      "position": "除外/低優先",
+      "metric_category": "hl-verified",
+      "labels": [],
+      "first_funders": [
+        {
+          "address": "0x31cae3b7fb82d847621859fb1585353c5720660d",
+          "label": "🤖 High Activity [0x31cae3]",
+          "relation": "First Funder",
+          "time": "2024-11-30T02:50:52"
+        }
+      ],
+      "current": {
+        "date": "2026-06-18",
+        "metric_category": "hl-verified",
+        "win_rate": 0.4996,
+        "dir_accuracy": null,
+        "total_pnl": -1713912
+      },
+      "history": [
+        {
+          "date": "2026-06-18",
+          "metric_category": "hl-verified",
+          "win_rate": 0.4996,
+          "dir_accuracy": null,
+          "total_pnl": -1713912
+        }
+      ],
+      "hl_checked": "2026-06-18",
+      "nansen_checked": "2026-06-18",
+      "active14": false,
+      "trade_days": 369,
+      "n_closes": 3927,
+      "realized_majors": -1713912,
+      "account_value": 0,
+      "mh_detr72": 0.044,
+      "mh_detr24": 0.0124,
+      "mh_checked": "2026-06-18",
+      "auto_tags": [],
+      "tags": [
+        "Nansen発見",
+        "取引なし(14d)",
+        "未照会発掘",
+        "遅効シグナルだがmajors赤字"
+      ],
+      "notes_jp": "【補正】遅効エッジ(補正72h正)を検出したが、majors実現損益が＄-1,713,912(黒字でない)。建玉後に順方向へ動いても早期利確/反転/清算/alt偏重で利益化できていない＝実力/情報優位でなく偽陽性。除外へ。\n―――\n【未照会層から遅効エッジ発掘(2026-06-18)】台帳に未登録だった層をリーダーボードから抽出し複数地平線で精査。4h方向的中はコイン投げだが補正後リターンが 24h+0.012/72h+0.044 と市場ドリフト超。9ヶ月・銘柄['BTC', 'SOL', 'ETH']・short率0.31に分散しN=1/regimeでは説明困難。HL実測: 勝率0.4996・実現$-1,713,912・369日・口座$0。正体「匿名」 資金源=🤖 High Activity [0x31cae3]。実力スイングの可能性が高いが遅効positioningも否定できず監視。"
+    },
+    "0x8bcf7a888c66f635ac4a2caf42a8dd12a3b20b14": {
+      "address": "0x8bcf7a888c66f635ac4a2caf42a8dd12a3b20b14",
+      "first_seen": "2026-06-18",
+      "last_seen": "2026-06-18",
+      "times_seen": 1,
+      "position": "除外/低優先",
+      "metric_category": "hl-verified",
+      "labels": [],
+      "first_funders": [
+        {
+          "address": "0xe35e9842fceaca96570b734083f4a58e8f7c5f2a",
+          "label": "🤖 Across Protocol: Spoke Pool [0xe35e98]",
+          "relation": "First Funder",
+          "time": "2024-02-15T20:10:21"
+        }
+      ],
+      "current": {
+        "date": "2026-06-18",
+        "metric_category": "hl-verified",
+        "win_rate": 0.5507,
+        "dir_accuracy": null,
+        "total_pnl": -14610
+      },
+      "history": [
+        {
+          "date": "2026-06-18",
+          "metric_category": "hl-verified",
+          "win_rate": 0.5507,
+          "dir_accuracy": null,
+          "total_pnl": -14610
+        }
+      ],
+      "hl_checked": "2026-06-18",
+      "nansen_checked": "2026-06-18",
+      "active14": false,
+      "trade_days": 271,
+      "n_closes": 523,
+      "realized_majors": -14610,
+      "account_value": 530569,
+      "mh_detr72": 0.0331,
+      "mh_detr24": 0.006,
+      "mh_checked": "2026-06-18",
+      "auto_tags": [],
+      "tags": [
+        "Nansen発見",
+        "取引なし(14d)",
+        "未照会発掘",
+        "遅効シグナルだがmajors赤字"
+      ],
+      "notes_jp": "【補正】遅効エッジ(補正72h正)を検出したが、majors実現損益が＄-14,610(黒字でない)。建玉後に順方向へ動いても早期利確/反転/清算/alt偏重で利益化できていない＝実力/情報優位でなく偽陽性。除外へ。\n―――\n【未照会層から遅効エッジ発掘(2026-06-18)】台帳に未登録だった層をリーダーボードから抽出し複数地平線で精査。4h方向的中はコイン投げだが補正後リターンが 24h+0.006/72h+0.033 と市場ドリフト超。9ヶ月・銘柄['BTC', 'SOL', 'ETH']・short率0.25に分散しN=1/regimeでは説明困難。HL実測: 勝率0.5507・実現$-14,610・271日・口座$530,569。正体「匿名」 資金源=🤖 Across Protocol: Spoke Pool [0xe35e98]。実力スイングの可能性が高いが遅効positioningも否定できず監視。"
+    },
+    "0x885989fd94d30c150e6eaf897090509bce4f6aa8": {
+      "address": "0x885989fd94d30c150e6eaf897090509bce4f6aa8",
+      "first_seen": "2026-06-18",
+      "last_seen": "2026-06-18",
+      "times_seen": 1,
+      "position": "弱い疑惑(監視継続)",
+      "metric_category": "hl-verified",
+      "labels": [],
+      "first_funders": [
+        {
+          "address": "0x3f7a30cadeffb99936773c22a37eaaf6410ace06",
+          "label": "[0x3f7a30]",
+          "relation": "First Funder",
+          "time": "2024-03-25T17:25:57"
+        }
+      ],
+      "current": {
+        "date": "2026-06-18",
+        "metric_category": "hl-verified",
+        "win_rate": 0.69,
+        "dir_accuracy": null,
+        "total_pnl": 263157
+      },
+      "history": [
+        {
+          "date": "2026-06-18",
+          "metric_category": "hl-verified",
+          "win_rate": 0.69,
+          "dir_accuracy": null,
+          "total_pnl": 263157
+        }
+      ],
+      "hl_checked": "2026-06-18",
+      "nansen_checked": "2026-06-18",
+      "active14": false,
+      "trade_days": 408,
+      "n_closes": 4274,
+      "realized_majors": 263157,
+      "account_value": 0,
+      "mh_detr72": 0.0359,
+      "mh_detr24": 0.0304,
+      "mh_checked": "2026-06-18",
+      "auto_tags": [],
+      "tags": [
+        "Nansen発見",
+        "取引なし(14d)",
+        "未照会発掘",
+        "遅効エッジ(24-72h)"
+      ],
+      "notes_jp": "【未照会層から遅効エッジ発掘(2026-06-18)】台帳に未登録だった層をリーダーボードから抽出し複数地平線で精査。4h方向的中はコイン投げだが補正後リターンが 24h+0.030/72h+0.036 と市場ドリフト超。13ヶ月・銘柄['SOL', 'BTC', 'ETH']・short率0.35に分散しN=1/regimeでは説明困難。HL実測: 勝率0.69・実現$263,157・408日・口座$0。正体「匿名」 資金源=[0x3f7a30]。実力スイングの可能性が高いが遅効positioningも否定できず監視。"
+    },
+    "0x3d643dabed5e1675ffc6a4608d095c11943ef551": {
+      "address": "0x3d643dabed5e1675ffc6a4608d095c11943ef551",
+      "first_seen": "2026-06-18",
+      "last_seen": "2026-06-18",
+      "times_seen": 1,
+      "position": "除外/低優先",
+      "metric_category": "hl-verified",
+      "labels": [],
+      "first_funders": [
+        {
+          "address": "0x6870c0f827522bdf847a11999ac685f71ed4c959",
+          "label": "High Activity [0x6870c0]",
+          "relation": "First Funder",
+          "time": "2023-02-28T16:09:39"
+        },
+        {
+          "address": "0x622bbda6117025b81327190f08ed3706491b32b0",
+          "label": "[0x622bbd]",
+          "relation": "Deployed Contract",
+          "time": "2023-05-25T16:33:32"
+        },
+        {
+          "address": "0x6dd16a785289415efda297def874bd2e79f3b60d",
+          "label": "[0x6dd16a]",
+          "relation": "Deployed Contract",
+          "time": "2023-08-20T17:13:25"
+        },
+        {
+          "address": "0x04c87b76b73ed706d4aac567e3adccb994591b1b",
+          "label": "🤖 A3S Protocol (Arbitrum) [0x04c87b]",
+          "relation": "Deployed via",
+          "time": "2023-05-25T16:33:32"
+        },
+        {
+          "address": "0x1e5956bb344ea3baa65d1570b89af58f9cdd706e",
+          "label": "[0x1e5956]",
+          "relation": "Deployed via",
+          "time": "2023-08-20T17:13:25"
+        }
+      ],
+      "current": {
+        "date": "2026-06-18",
+        "metric_category": "hl-verified",
+        "win_rate": 0.5091,
+        "dir_accuracy": null,
+        "total_pnl": 7990
+      },
+      "history": [
+        {
+          "date": "2026-06-18",
+          "metric_category": "hl-verified",
+          "win_rate": 0.5091,
+          "dir_accuracy": null,
+          "total_pnl": 7990
+        }
+      ],
+      "hl_checked": "2026-06-18",
+      "nansen_checked": "2026-06-18",
+      "active14": true,
+      "trade_days": 539,
+      "n_closes": 220,
+      "realized_majors": 7990,
+      "account_value": 0,
+      "mh_detr72": 0.0468,
+      "mh_detr24": 0.0368,
+      "mh_checked": "2026-06-18",
+      "auto_tags": [],
+      "tags": [
+        "Nansen発見",
+        "取引あり(14d)",
+        "未照会発掘",
+        "遅効シグナルだがmajors赤字"
+      ],
+      "notes_jp": "【補正】遅効エッジ(補正72h正)を検出したが、majors実現損益が＄7,990(黒字でない)。建玉後に順方向へ動いても早期利確/反転/清算/alt偏重で利益化できていない＝実力/情報優位でなく偽陽性。除外へ。\n―――\n【未照会層から遅効エッジ発掘(2026-06-18)】台帳に未登録だった層をリーダーボードから抽出し複数地平線で精査。4h方向的中はコイン投げだが補正後リターンが 24h+0.037/72h+0.047 と市場ドリフト超。11ヶ月・銘柄['ETH', 'BTC', 'SOL']・short率0.31に分散しN=1/regimeでは説明困難。HL実測: 勝率0.5091・実現$7,990・539日・口座$0。正体「匿名」 資金源=High Activity [0x6870c0], [0x622bbd], [0x6dd16a]。実力スイングの可能性が高いが遅効positioningも否定できず監視。"
+    },
+    "0x5a7a6b69c6382000fd35711fd28440f415417318": {
+      "address": "0x5a7a6b69c6382000fd35711fd28440f415417318",
+      "first_seen": "2026-06-18",
+      "last_seen": "2026-06-18",
+      "times_seen": 1,
+      "position": "除外/低優先",
+      "metric_category": "hl-verified",
+      "labels": [
+        "\"p1xel\" on OpenSea",
+        "High Activity",
+        "ifq.eth*",
+        "ijb.eth*",
+        "ijx.eth*",
+        "ikw.eth*",
+        "izh.eth*",
+        "kqe.eth*",
+        "lgq.eth*",
+        "lqt.eth*",
+        "lqu.eth*",
+        "lrw.eth*",
+        "nrq.eth*",
+        "ozb.eth*",
+        "pqm.eth*",
+        "pqz.eth*",
+        "qds.eth*",
+        "qdw.eth*",
+        "qge.eth*",
+        "qhl.eth*",
+        "qht.eth*",
+        "qhw.eth*",
+        "qkv.eth*",
+        "qrv.eth*",
+        "dqw.eth*",
+        "fqo.eth*",
+        "fqv.eth*",
+        "fzh.eth*",
+        "gqo.eth*",
+        "gvy.eth*",
+        "gwl.eth*",
+        "hne.eth*"
+      ],
+      "first_funders": [
+        {
+          "address": "0xeb2629a2734e272bcc07bda959863f316f4bd4cf",
+          "label": "🏦 Coinbase: Hot Wallet [0xeb2629]",
+          "relation": "First Funder",
+          "time": "2021-05-11T00:43:42"
+        },
+        {
+          "address": "0x94b376e52d4f4e7f2c77d09793e65a7f611c75fd",
+          "label": "🤖 OwnableDelegateProxy [0x94b376]",
+          "relation": "Deployed Contract",
+          "time": "2021-08-26T19:08:26"
+        },
+        {
+          "address": "0xdaf4ef0d6e21a04ba274092960d2904e974861b5",
+          "label": "[0xdaf4ef]",
+          "relation": "Deployed Contract",
+          "time": "2022-08-27T01:25:01"
+        },
+        {
+          "address": "0x58a084348c76b85edb9d1b2e75bb5a95a7e4e327",
+          "label": "[0x58a084]",
+          "relation": "Deployed Contract",
+          "time": "2022-09-16T18:32:23"
+        },
+        {
+          "address": "0xa5409ec958c83c3f309868babaca7c86dcb077c1",
+          "label": "🤖 OpenSea: Registry [0xa5409e]",
+          "relation": "Deployed via",
+          "time": "2021-08-26T19:08:26"
+        },
+        {
+          "address": "0xb16c1342e617a5b6e4b631eb114483fdb289c0a4",
+          "label": "🤖 🏦 SudoSwap: Pair Factory [0xb16c13]",
+          "relation": "Deployed via",
+          "time": "2022-08-27T01:25:01"
+        }
+      ],
+      "current": {
+        "date": "2026-06-18",
+        "metric_category": "hl-verified",
+        "win_rate": 0.3907,
+        "dir_accuracy": null,
+        "total_pnl": -616388
+      },
+      "history": [
+        {
+          "date": "2026-06-18",
+          "metric_category": "hl-verified",
+          "win_rate": 0.3907,
+          "dir_accuracy": null,
+          "total_pnl": -616388
+        }
+      ],
+      "hl_checked": "2026-06-18",
+      "nansen_checked": "2026-06-18",
+      "active14": true,
+      "trade_days": 876,
+      "n_closes": 1006,
+      "realized_majors": -616388,
+      "account_value": 0,
+      "mh_detr72": 0.0602,
+      "mh_detr24": 0.0297,
+      "mh_checked": "2026-06-18",
+      "auto_tags": [],
+      "tags": [
+        "Nansen発見",
+        "取引あり(14d)",
+        "未照会発掘",
+        "遅効シグナルだがmajors赤字"
+      ],
+      "notes_jp": "【補正】遅効エッジ(補正72h正)を検出したが、majors実現損益が＄-616,388(黒字でない)。建玉後に順方向へ動いても早期利確/反転/清算/alt偏重で利益化できていない＝実力/情報優位でなく偽陽性。除外へ。\n―――\n【未照会層から遅効エッジ発掘(2026-06-18)】台帳に未登録だった層をリーダーボードから抽出し複数地平線で精査。4h方向的中はコイン投げだが補正後リターンが 24h+0.030/72h+0.060 と市場ドリフト超。10ヶ月・銘柄['BTC', 'SOL', 'ETH']・short率0.56に分散しN=1/regimeでは説明困難。HL実測: 勝率0.3907・実現$-616,388・876日・口座$0。正体「\"p1xel\" on OpenSea」 資金源=🏦 Coinbase: Hot Wallet [0xeb2629], 🤖 OwnableDelegateProxy [0x94b376], [0xdaf4ef]。実力スイングの可能性が高いが遅効positioningも否定できず監視。"
+    },
+    "0x294fd17c700331aad5cc480400050e1005d2c531": {
+      "address": "0x294fd17c700331aad5cc480400050e1005d2c531",
+      "first_seen": "2026-06-18",
+      "last_seen": "2026-06-18",
+      "times_seen": 1,
+      "position": "除外/低優先",
+      "metric_category": "hl-verified",
+      "labels": [
+        "High Activity"
+      ],
+      "first_funders": [
+        {
+          "address": "0xe4edb277e41dc89ab076a1f049f4a3efa700bce8",
+          "label": "Orbiter Finance: Bridge 3 [0xe4edb2]",
+          "relation": "First Funder",
+          "time": "2023-07-05T06:40:23"
+        },
+        {
+          "address": "0x517ecbb98eefa147dcbad36da3206644855579a9",
+          "label": "🤖 Camelot staking position NFT [0x517ecb]",
+          "relation": "Deployed Contract",
+          "time": "2024-08-08T10:07:12"
+        },
+        {
+          "address": "0x6db1ef0df42e30acf139a70c1ed0b7e6c51dbf6d",
+          "label": "🤖 🏦 Camelot: NFT Pool [0x6db1ef]",
+          "relation": "Deployed via",
+          "time": "2024-08-08T10:07:12"
+        }
+      ],
+      "current": {
+        "date": "2026-06-18",
+        "metric_category": "hl-verified",
+        "win_rate": 0.4638,
+        "dir_accuracy": null,
+        "total_pnl": -2628
+      },
+      "history": [
+        {
+          "date": "2026-06-18",
+          "metric_category": "hl-verified",
+          "win_rate": 0.4638,
+          "dir_accuracy": null,
+          "total_pnl": -2628
+        }
+      ],
+      "hl_checked": "2026-06-18",
+      "nansen_checked": "2026-06-18",
+      "active14": false,
+      "trade_days": 777,
+      "n_closes": 69,
+      "realized_majors": -2628,
+      "account_value": 0,
+      "mh_detr72": 0.0446,
+      "mh_detr24": 0.0136,
+      "mh_checked": "2026-06-18",
+      "auto_tags": [],
+      "tags": [
+        "Nansen発見",
+        "取引なし(14d)",
+        "未照会発掘",
+        "遅効シグナルだがmajors赤字"
+      ],
+      "notes_jp": "【補正】遅効エッジ(補正72h正)を検出したが、majors実現損益が＄-2,628(黒字でない)。建玉後に順方向へ動いても早期利確/反転/清算/alt偏重で利益化できていない＝実力/情報優位でなく偽陽性。除外へ。\n―――\n【未照会層から遅効エッジ発掘(2026-06-18)】台帳に未登録だった層をリーダーボードから抽出し複数地平線で精査。4h方向的中はコイン投げだが補正後リターンが 24h+0.014/72h+0.045 と市場ドリフト超。11ヶ月・銘柄['SOL', 'ETH', 'BTC']・short率0.66に分散しN=1/regimeでは説明困難。HL実測: 勝率0.4638・実現$-2,628・777日・口座$0。正体「High Activity」 資金源=Orbiter Finance: Bridge 3 [0xe4edb2], 🤖 Camelot staking position NFT [0x517ecb], 🤖 🏦 Camelot: NFT Pool [0x6db1ef]。実力スイングの可能性が高いが遅効positioningも否定できず監視。"
+    },
+    "0xccf135ab352d561a15eb7be2a243cc4fcb7f0ab1": {
+      "address": "0xccf135ab352d561a15eb7be2a243cc4fcb7f0ab1",
+      "first_seen": "2026-06-18",
+      "last_seen": "2026-06-18",
+      "times_seen": 1,
+      "position": "弱い疑惑(監視継続)",
+      "metric_category": "hl-verified",
+      "labels": [],
+      "first_funders": [
+        {
+          "address": "0xc61017c443861d992f4e479a7bbf0d13b1811b64",
+          "label": "[0xc61017]",
+          "relation": "First Funder",
+          "time": "2023-01-16T23:24:33"
+        }
+      ],
+      "current": {
+        "date": "2026-06-18",
+        "metric_category": "hl-verified",
+        "win_rate": 0.6858,
+        "dir_accuracy": null,
+        "total_pnl": 1312009
+      },
+      "history": [
+        {
+          "date": "2026-06-18",
+          "metric_category": "hl-verified",
+          "win_rate": 0.6858,
+          "dir_accuracy": null,
+          "total_pnl": 1312009
+        }
+      ],
+      "hl_checked": "2026-06-18",
+      "nansen_checked": "2026-06-18",
+      "active14": false,
+      "trade_days": 537,
+      "n_closes": 1674,
+      "realized_majors": 1312009,
+      "account_value": 111033,
+      "mh_detr72": 0.093,
+      "mh_detr24": 0.0478,
+      "mh_checked": "2026-06-18",
+      "auto_tags": [],
+      "tags": [
+        "Nansen発見",
+        "取引なし(14d)",
+        "未照会発掘",
+        "遅効エッジ(24-72h)"
+      ],
+      "notes_jp": "【未照会層から遅効エッジ発掘(2026-06-18)】台帳に未登録だった層をリーダーボードから抽出し複数地平線で精査。4h方向的中はコイン投げだが補正後リターンが 24h+0.048/72h+0.093 と市場ドリフト超。9ヶ月・銘柄['ETH', 'BTC']・short率0.83に分散しN=1/regimeでは説明困難。HL実測: 勝率0.6858・実現$1,312,009・537日・口座$111,033。正体「匿名」 資金源=[0xc61017]。実力スイングの可能性が高いが遅効positioningも否定できず監視。"
+    },
+    "0x5aa6a1d420bf8fa45d141af73e9230e1e8c3dc16": {
+      "address": "0x5aa6a1d420bf8fa45d141af73e9230e1e8c3dc16",
+      "first_seen": "2026-06-18",
+      "last_seen": "2026-06-18",
+      "times_seen": 1,
+      "position": "除外/低優先",
+      "metric_category": "hl-verified",
+      "labels": [
+        "\"MiddyNFT\" on OpenSea",
+        "0xmiddy.eth",
+        "gigasigma.eth",
+        "midd.eth*",
+        "middy.eth"
+      ],
+      "first_funders": [
+        {
+          "address": "0x4a0985d413a67e0cf17725bd12303eaf58c28db0",
+          "label": "🤖 Ultron [0x4a0985]",
+          "relation": "Deployed Contract",
+          "time": "2023-07-31T04:50:58"
+        },
+        {
+          "address": "0x0d4f5b6442e6025e5865ddc5a94d03b0dffbeb33",
+          "label": "🤖 OmniseaDropsRepository [0x0d4f5b]",
+          "relation": "Deployed via",
+          "time": "2023-07-31T04:50:58"
+        }
+      ],
+      "current": {
+        "date": "2026-06-18",
+        "metric_category": "hl-verified",
+        "win_rate": 0.1094,
+        "dir_accuracy": null,
+        "total_pnl": -104489
+      },
+      "history": [
+        {
+          "date": "2026-06-18",
+          "metric_category": "hl-verified",
+          "win_rate": 0.1094,
+          "dir_accuracy": null,
+          "total_pnl": -104489
+        }
+      ],
+      "hl_checked": "2026-06-18",
+      "nansen_checked": "2026-06-18",
+      "active14": false,
+      "trade_days": 802,
+      "n_closes": 192,
+      "realized_majors": -104489,
+      "account_value": 0,
+      "mh_detr72": 0.0661,
+      "mh_detr24": 0.0926,
+      "mh_checked": "2026-06-18",
+      "auto_tags": [],
+      "tags": [
+        "Nansen発見",
+        "取引なし(14d)",
+        "未照会発掘",
+        "遅効シグナルだがmajors赤字"
+      ],
+      "notes_jp": "【補正】遅効エッジ(補正72h正)を検出したが、majors実現損益が＄-104,489(黒字でない)。建玉後に順方向へ動いても早期利確/反転/清算/alt偏重で利益化できていない＝実力/情報優位でなく偽陽性。除外へ。\n―――\n【未照会層から遅効エッジ発掘(2026-06-18)】台帳に未登録だった層をリーダーボードから抽出し複数地平線で精査。4h方向的中はコイン投げだが補正後リターンが 24h+0.093/72h+0.066 と市場ドリフト超。11ヶ月・銘柄['BTC', 'SOL', 'ETH']・short率0.38に分散しN=1/regimeでは説明困難。HL実測: 勝率0.1094・実現$-104,489・802日・口座$0。正体「\"MiddyNFT\" on OpenSea」 資金源=🤖 Ultron [0x4a0985], 🤖 OmniseaDropsRepository [0x0d4f5b]。実力スイングの可能性が高いが遅効positioningも否定できず監視。"
+    },
+    "0x75083975c88cff9f8186551a28608e8a353116bb": {
+      "address": "0x75083975c88cff9f8186551a28608e8a353116bb",
+      "first_seen": "2026-06-18",
+      "last_seen": "2026-06-18",
+      "times_seen": 1,
+      "position": "除外/低優先",
+      "metric_category": "hl-verified",
+      "labels": [
+        "\"slim_NFT\" on OpenSea",
+        "farmore.eth",
+        "farmore.eth*"
+      ],
+      "first_funders": [
+        {
+          "address": "0xb88690461ddbab6f04dfad7df66b7725942feb9c",
+          "label": "🤖 Across Protocol: Arbitrum Spoke Pool [0xb88690]",
+          "relation": "First Funder",
+          "time": "2023-03-19T10:33:46"
+        }
+      ],
+      "current": {
+        "date": "2026-06-18",
+        "metric_category": "hl-verified",
+        "win_rate": 0.5495,
+        "dir_accuracy": null,
+        "total_pnl": -63151
+      },
+      "history": [
+        {
+          "date": "2026-06-18",
+          "metric_category": "hl-verified",
+          "win_rate": 0.5495,
+          "dir_accuracy": null,
+          "total_pnl": -63151
+        }
+      ],
+      "hl_checked": "2026-06-18",
+      "nansen_checked": "2026-06-18",
+      "active14": false,
+      "trade_days": 553,
+      "n_closes": 5170,
+      "realized_majors": -63151,
+      "account_value": 203802,
+      "mh_detr72": 0.0387,
+      "mh_detr24": 0.0054,
+      "mh_checked": "2026-06-18",
+      "auto_tags": [],
+      "tags": [
+        "Nansen発見",
+        "取引なし(14d)",
+        "未照会発掘",
+        "遅効シグナルだがmajors赤字"
+      ],
+      "notes_jp": "【補正】遅効エッジ(補正72h正)を検出したが、majors実現損益が＄-63,151(黒字でない)。建玉後に順方向へ動いても早期利確/反転/清算/alt偏重で利益化できていない＝実力/情報優位でなく偽陽性。除外へ。\n―――\n【未照会層から遅効エッジ発掘(2026-06-18)】台帳に未登録だった層をリーダーボードから抽出し複数地平線で精査。4h方向的中はコイン投げだが補正後リターンが 24h+0.005/72h+0.039 と市場ドリフト超。16ヶ月・銘柄['ETH', 'SOL', 'BTC']・short率0.39に分散しN=1/regimeでは説明困難。HL実測: 勝率0.5495・実現$-63,151・553日・口座$203,802。正体「\"slim_NFT\" on OpenSea」 資金源=🤖 Across Protocol: Arbitrum Spoke Pool [0xb88690]。実力スイングの可能性が高いが遅効positioningも否定できず監視。"
+    },
+    "0xda0950da3882ef1ae1e41e99ebe31e6b3324c17f": {
+      "address": "0xda0950da3882ef1ae1e41e99ebe31e6b3324c17f",
+      "first_seen": "2026-06-18",
+      "last_seen": "2026-06-18",
+      "times_seen": 1,
+      "position": "弱い疑惑(監視継続)",
+      "metric_category": "hl-verified",
+      "labels": [],
+      "first_funders": [
+        {
+          "address": "0xeb1a50da3882ef1ae1e41e99ebe31e6b3324d290",
+          "label": "[0xeb1a50]",
+          "relation": "First Funder",
+          "time": "2023-05-02T13:47:22"
+        }
+      ],
+      "current": {
+        "date": "2026-06-18",
+        "metric_category": "hl-verified",
+        "win_rate": 0.934,
+        "dir_accuracy": null,
+        "total_pnl": 586795
+      },
+      "history": [
+        {
+          "date": "2026-06-18",
+          "metric_category": "hl-verified",
+          "win_rate": 0.934,
+          "dir_accuracy": null,
+          "total_pnl": 586795
+        }
+      ],
+      "hl_checked": "2026-06-18",
+      "nansen_checked": "2026-06-18",
+      "active14": false,
+      "trade_days": 347,
+      "n_closes": 667,
+      "realized_majors": 586795,
+      "account_value": 4,
+      "mh_detr72": 0.0337,
+      "mh_detr24": 0.0214,
+      "mh_checked": "2026-06-18",
+      "auto_tags": [],
+      "tags": [
+        "Nansen発見",
+        "取引なし(14d)",
+        "未照会発掘",
+        "遅効エッジ(24-72h)"
+      ],
+      "notes_jp": "【未照会層から遅効エッジ発掘(2026-06-18)】台帳に未登録だった層をリーダーボードから抽出し複数地平線で精査。4h方向的中はコイン投げだが補正後リターンが 24h+0.021/72h+0.034 と市場ドリフト超。9ヶ月・銘柄['SOL', 'BTC']・short率0.41に分散しN=1/regimeでは説明困難。HL実測: 勝率0.934・実現$586,795・347日・口座$4。正体「匿名」 資金源=[0xeb1a50]。実力スイングの可能性が高いが遅効positioningも否定できず監視。"
+    },
+    "0x001aba7087f49a135ffb121a40684416824e9c34": {
+      "address": "0x001aba7087f49a135ffb121a40684416824e9c34",
+      "first_seen": "2026-06-18",
+      "last_seen": "2026-06-18",
+      "times_seen": 1,
+      "position": "除外/低優先",
+      "metric_category": "hl-verified",
+      "labels": [
+        "\"CowboyCowboyCowboy\" on OpenSea",
+        "07-20-1969.eth",
+        "11-22-1963.eth",
+        "ap3c0in.eth",
+        "apecointrillionaire.eth",
+        "bluebeams.eth*",
+        "cowboycowboycowboy.eth",
+        "drdrepe.eth",
+        "l1z4rdk1ng.eth",
+        "lougreed.eth",
+        "ogcheesesteak.eth"
+      ],
+      "first_funders": [
+        {
+          "address": "0xe35e9842fceaca96570b734083f4a58e8f7c5f2a",
+          "label": "🤖 Across Protocol: Spoke Pool [0xe35e98]",
+          "relation": "First Funder",
+          "time": "2024-01-02T10:48:40"
+        },
+        {
+          "address": "0xefb140b2e2f4361a9ca0612ceb278ae6808c323c",
+          "label": "[0xefb140]",
+          "relation": "Deployed Contract",
+          "time": "2024-01-10T17:40:13"
+        },
+        {
+          "address": "0x7fea6786d291a87fc4c98afccc5a5d3cfc36bc7b",
+          "label": "🤖 UpgradeableProxy [0x7fea67]",
+          "relation": "Deployed via",
+          "time": "2024-01-10T17:40:13"
+        }
+      ],
+      "current": {
+        "date": "2026-06-18",
+        "metric_category": "hl-verified",
+        "win_rate": 0.6731,
+        "dir_accuracy": null,
+        "total_pnl": 5187
+      },
+      "history": [
+        {
+          "date": "2026-06-18",
+          "metric_category": "hl-verified",
+          "win_rate": 0.6731,
+          "dir_accuracy": null,
+          "total_pnl": 5187
+        }
+      ],
+      "hl_checked": "2026-06-18",
+      "nansen_checked": "2026-06-18",
+      "active14": false,
+      "trade_days": 864,
+      "n_closes": 670,
+      "realized_majors": 5187,
+      "account_value": 0,
+      "mh_detr72": 0.0345,
+      "mh_detr24": 0.0142,
+      "mh_checked": "2026-06-18",
+      "auto_tags": [],
+      "tags": [
+        "Nansen発見",
+        "取引なし(14d)",
+        "未照会発掘",
+        "遅効シグナルだがmajors赤字"
+      ],
+      "notes_jp": "【補正】遅効エッジ(補正72h正)を検出したが、majors実現損益が＄5,187(黒字でない)。建玉後に順方向へ動いても早期利確/反転/清算/alt偏重で利益化できていない＝実力/情報優位でなく偽陽性。除外へ。\n―――\n【未照会層から遅効エッジ発掘(2026-06-18)】台帳に未登録だった層をリーダーボードから抽出し複数地平線で精査。4h方向的中はコイン投げだが補正後リターンが 24h+0.014/72h+0.035 と市場ドリフト超。24ヶ月・銘柄['BTC', 'SOL', 'ETH']・short率0.2に分散しN=1/regimeでは説明困難。HL実測: 勝率0.6731・実現$5,187・864日・口座$0。正体「\"CowboyCowboyCowboy\" on OpenSea」 資金源=🤖 Across Protocol: Spoke Pool [0xe35e98], [0xefb140], 🤖 UpgradeableProxy [0x7fea67]。実力スイングの可能性が高いが遅効positioningも否定できず監視。"
+    },
+    "0x64dd467d1e5c2cf2be87fea20713159dbc12ca76": {
+      "address": "0x64dd467d1e5c2cf2be87fea20713159dbc12ca76",
+      "first_seen": "2026-06-18",
+      "last_seen": "2026-06-18",
+      "times_seen": 1,
+      "position": "除外/低優先",
+      "metric_category": "hl-verified",
+      "labels": [],
+      "first_funders": [
+        {
+          "address": "0xde2594f3f6490e6ca0c5a6062e4a365fc7afa3eb",
+          "label": "\"wtfisangelicism\" on OpenSea [0xde2594]",
+          "relation": "First Funder",
+          "time": "2024-02-01T19:46:05"
+        }
+      ],
+      "current": {
+        "date": "2026-06-18",
+        "metric_category": "hl-verified",
+        "win_rate": 0.5796,
+        "dir_accuracy": null,
+        "total_pnl": 28292
+      },
+      "history": [
+        {
+          "date": "2026-06-18",
+          "metric_category": "hl-verified",
+          "win_rate": 0.5796,
+          "dir_accuracy": null,
+          "total_pnl": 28292
+        }
+      ],
+      "hl_checked": "2026-06-18",
+      "nansen_checked": "2026-06-18",
+      "active14": false,
+      "trade_days": 715,
+      "n_closes": 226,
+      "realized_majors": 28292,
+      "account_value": 30732,
+      "mh_detr72": 0.0974,
+      "mh_detr24": 0.0797,
+      "mh_checked": "2026-06-18",
+      "auto_tags": [],
+      "tags": [
+        "Nansen発見",
+        "取引なし(14d)",
+        "未照会発掘",
+        "遅効シグナルだがmajors赤字"
+      ],
+      "notes_jp": "【補正】遅効エッジ(補正72h正)を検出したが、majors実現損益が＄28,292(黒字でない)。建玉後に順方向へ動いても早期利確/反転/清算/alt偏重で利益化できていない＝実力/情報優位でなく偽陽性。除外へ。\n―――\n【未照会層から遅効エッジ発掘(2026-06-18)】台帳に未登録だった層をリーダーボードから抽出し複数地平線で精査。4h方向的中はコイン投げだが補正後リターンが 24h+0.080/72h+0.097 と市場ドリフト超。8ヶ月・銘柄['SOL', 'BTC', 'ETH']・short率0.2に分散しN=1/regimeでは説明困難。HL実測: 勝率0.5796・実現$28,292・715日・口座$30,732。正体「匿名」 資金源=\"wtfisangelicism\" on OpenSea [0xde2594]。実力スイングの可能性が高いが遅効positioningも否定できず監視。"
+    },
+    "0x61b35e240c404399b8197468aeaecac51d4f86fe": {
+      "address": "0x61b35e240c404399b8197468aeaecac51d4f86fe",
+      "first_seen": "2026-06-18",
+      "last_seen": "2026-06-18",
+      "times_seen": 1,
+      "position": "除外/低優先",
+      "metric_category": "hl-verified",
+      "labels": [],
+      "first_funders": [
+        {
+          "address": "0xf18f923480dc144326e6c65d4f3d47aa459bb41c",
+          "label": "🤖 Wormhole: Emitter Native Address [0xf18f92]",
+          "relation": "First Funder",
+          "time": "2024-06-15T20:50:12"
+        }
+      ],
+      "current": {
+        "date": "2026-06-18",
+        "metric_category": "hl-verified",
+        "win_rate": 0.2286,
+        "dir_accuracy": null,
+        "total_pnl": -82415
+      },
+      "history": [
+        {
+          "date": "2026-06-18",
+          "metric_category": "hl-verified",
+          "win_rate": 0.2286,
+          "dir_accuracy": null,
+          "total_pnl": -82415
+        }
+      ],
+      "hl_checked": "2026-06-18",
+      "nansen_checked": "2026-06-18",
+      "active14": true,
+      "trade_days": 664,
+      "n_closes": 468,
+      "realized_majors": -82415,
+      "account_value": 140253,
+      "mh_detr72": 0.0489,
+      "mh_detr24": 0.0189,
+      "mh_checked": "2026-06-18",
+      "auto_tags": [],
+      "tags": [
+        "Nansen発見",
+        "取引あり(14d)",
+        "未照会発掘",
+        "遅効シグナルだがmajors赤字"
+      ],
+      "notes_jp": "【補正】遅効エッジ(補正72h正)を検出したが、majors実現損益が＄-82,415(黒字でない)。建玉後に順方向へ動いても早期利確/反転/清算/alt偏重で利益化できていない＝実力/情報優位でなく偽陽性。除外へ。\n―――\n【未照会層から遅効エッジ発掘(2026-06-18)】台帳に未登録だった層をリーダーボードから抽出し複数地平線で精査。4h方向的中はコイン投げだが補正後リターンが 24h+0.019/72h+0.049 と市場ドリフト超。9ヶ月・銘柄['BTC', 'SOL', 'ETH']・short率0.43に分散しN=1/regimeでは説明困難。HL実測: 勝率0.2286・実現$-82,415・664日・口座$140,253。正体「匿名」 資金源=🤖 Wormhole: Emitter Native Address [0xf18f92]。実力スイングの可能性が高いが遅効positioningも否定できず監視。"
     }
   },
   "updated_at": "2026-06-17T18:57:53.443226+00:00"
