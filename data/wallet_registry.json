@@ -37329,6 +37329,264 @@
       "true_realized_maj": 58901,
       "active_days": 1050.8,
       "metric_normalized": "2026-06-19"
+    },
+    "0x5f94a51948d2376ad34a6fadfa2544e651b74b96": {
+      "address": "0x5f94a51948d2376ad34a6fadfa2544e651b74b96",
+      "first_seen": "2026-06-19",
+      "last_seen": "2026-06-19",
+      "times_seen": 1,
+      "position": "弱い疑惑(監視継続)",
+      "metric_category": "hl-verified",
+      "labels": [],
+      "first_funders": [
+        {
+          "address": "0xdff384f754e854890e311e3280b767f80797291e",
+          "label": "High Activity [0xdff384]",
+          "relation": "First Funder",
+          "time": "2022-09-04T22:37:53"
+        }
+      ],
+      "current": {
+        "date": "2026-06-19",
+        "metric_category": "hl-verified",
+        "win_rate": 0.7937,
+        "dir_accuracy": null,
+        "total_pnl": 278443
+      },
+      "history": [
+        {
+          "date": "2026-06-19",
+          "metric_category": "hl-verified",
+          "win_rate": 0.7937,
+          "dir_accuracy": null,
+          "total_pnl": 278443
+        }
+      ],
+      "hl_checked": "2026-06-19",
+      "nansen_checked": "2026-06-19",
+      "active14": true,
+      "trade_days": 324,
+      "n_closes": 126,
+      "realized_majors": 278443,
+      "account_value": 1739457,
+      "mh_detr72": 0.085,
+      "mh_detr24": 0.0383,
+      "mh_checked": "2026-06-19",
+      "auto_tags": [],
+      "tags": [
+        "Nansen発見",
+        "取引あり(14d)",
+        "未照会発掘",
+        "遅効エッジ(24-72h)"
+      ],
+      "notes_jp": "【未照会層から遅効エッジ発掘(2026-06-19)】台帳に未登録だった層をリーダーボードから抽出し複数地平線で精査。4h方向的中はコイン投げだが補正後リターンが 24h+0.038/72h+0.085 と市場ドリフト超。6ヶ月・銘柄['ETH', 'SOL', 'BTC']・short率0.5に分散しN=1/regimeでは説明困難。HL実測: 勝率0.7937・実現$278,443・324日・口座$1,739,457。正体「匿名」 資金源=High Activity [0xdff384]。実力スイングの可能性が高いが遅効positioningも否定できず監視。"
+    },
+    "0x9a568bfeb8cb19e4bafcb57ee69498d57d9591ca": {
+      "address": "0x9a568bfeb8cb19e4bafcb57ee69498d57d9591ca",
+      "first_seen": "2026-06-19",
+      "last_seen": "2026-06-19",
+      "times_seen": 1,
+      "position": "弱い疑惑(監視継続)",
+      "metric_category": "hl-verified",
+      "labels": [],
+      "first_funders": [
+        {
+          "address": "0x676b102006f37c204e515a87665ae31dc6684aaf",
+          "label": "[0x676b10]",
+          "relation": "First Funder",
+          "time": "2021-11-18T00:47:39"
+        }
+      ],
+      "current": {
+        "date": "2026-06-19",
+        "metric_category": "hl-verified",
+        "win_rate": 0.6141,
+        "dir_accuracy": null,
+        "total_pnl": 157364
+      },
+      "history": [
+        {
+          "date": "2026-06-19",
+          "metric_category": "hl-verified",
+          "win_rate": 0.6141,
+          "dir_accuracy": null,
+          "total_pnl": 157364
+        }
+      ],
+      "hl_checked": "2026-06-19",
+      "nansen_checked": "2026-06-19",
+      "active14": true,
+      "trade_days": 381,
+      "n_closes": 6448,
+      "realized_majors": 157364,
+      "account_value": 0,
+      "mh_detr72": 0.0304,
+      "mh_detr24": 0.0249,
+      "mh_checked": "2026-06-19",
+      "auto_tags": [],
+      "tags": [
+        "Nansen発見",
+        "取引あり(14d)",
+        "未照会発掘",
+        "遅効エッジ(24-72h)"
+      ],
+      "notes_jp": "【未照会層から遅効エッジ発掘(2026-06-19)】台帳に未登録だった層をリーダーボードから抽出し複数地平線で精査。4h方向的中はコイン投げだが補正後リターンが 24h+0.025/72h+0.030 と市場ドリフト超。12ヶ月・銘柄['ETH', 'BTC', 'SOL']・short率0.4に分散しN=1/regimeでは説明困難。HL実測: 勝率0.6141・実現$157,364・381日・口座$0。正体「匿名」 資金源=[0x676b10]。実力スイングの可能性が高いが遅効positioningも否定できず監視。"
+    },
+    "0x3e41a8fa0032d635f02201053f1a5aa2a6967c81": {
+      "address": "0x3e41a8fa0032d635f02201053f1a5aa2a6967c81",
+      "first_seen": "2026-06-19",
+      "last_seen": "2026-06-19",
+      "times_seen": 1,
+      "position": "弱い疑惑(監視継続)",
+      "metric_category": "hl-verified",
+      "labels": [],
+      "first_funders": [
+        {
+          "address": "0x5535aa5f2c84250de64dc39b21710b363a766264",
+          "label": "[0x5535aa]",
+          "relation": "First Funder",
+          "time": "2020-08-21T14:42:32"
+        },
+        {
+          "address": "0x5a8574385d7d8e9a731e98ae95eefd6df0161dfa",
+          "label": "🤖 OpenSea Account [0x5a8574]",
+          "relation": "Deployed Contract",
+          "time": "2021-03-06T20:14:26"
+        },
+        {
+          "address": "0x1f80592a07f3ac9249c14dd3c3f3f99b5a020e55",
+          "label": "[0x1f8059]",
+          "relation": "Deployed Contract",
+          "time": "2022-07-30T11:42:34"
+        },
+        {
+          "address": "0xc5fb1e6249f6fbd1d83c380980bacf458cc0a20d",
+          "label": "[0xc5fb1e]",
+          "relation": "Deployed Contract",
+          "time": "2022-12-22T22:14:59"
+        },
+        {
+          "address": "0x4272b694b173c37b87e05b552d942a908eee9029",
+          "label": "[0x4272b6]",
+          "relation": "Deployed Contract",
+          "time": "2022-12-27T09:49:47"
+        },
+        {
+          "address": "0x0a375e76a6daabea71fd5e34e959cd67fdb5ebb9",
+          "label": "[0x0a375e]",
+          "relation": "Deployed Contract",
+          "time": "2022-12-27T10:00:23"
+        },
+        {
+          "address": "0x7fd700e2fdf7593395add27da8e7dfbb03302fab",
+          "label": "[0x7fd700]",
+          "relation": "Deployed Contract",
+          "time": "2022-12-28T11:19:23"
+        },
+        {
+          "address": "0xe3a7298053c9e1e7bc16c97f41a8fdaa594b6c7c",
+          "label": "[0xe3a729]",
+          "relation": "Deployed Contract",
+          "time": "2023-01-05T18:55:59"
+        },
+        {
+          "address": "0xf16442daffbe1f76927d5077a28c0a499107e24b",
+          "label": "[0xf16442]",
+          "relation": "Deployed Contract",
+          "time": "2023-01-07T20:48:11"
+        },
+        {
+          "address": "0x51982eb931c823155c3d6e01883307967cb3bb2c",
+          "label": "[0x51982e]",
+          "relation": "Deployed Contract",
+          "time": "2023-01-10T21:16:59"
+        }
+      ],
+      "current": {
+        "date": "2026-06-19",
+        "metric_category": "hl-verified",
+        "win_rate": 0.7067,
+        "dir_accuracy": null,
+        "total_pnl": 320054
+      },
+      "history": [
+        {
+          "date": "2026-06-19",
+          "metric_category": "hl-verified",
+          "win_rate": 0.7067,
+          "dir_accuracy": null,
+          "total_pnl": 320054
+        }
+      ],
+      "hl_checked": "2026-06-19",
+      "nansen_checked": "2026-06-19",
+      "active14": false,
+      "trade_days": 398,
+      "n_closes": 549,
+      "realized_majors": 320054,
+      "account_value": 886141,
+      "mh_detr72": 0.0507,
+      "mh_detr24": 0.0016,
+      "mh_checked": "2026-06-19",
+      "auto_tags": [],
+      "tags": [
+        "Nansen発見",
+        "取引なし(14d)",
+        "未照会発掘",
+        "遅効エッジ(24-72h)"
+      ],
+      "notes_jp": "【未照会層から遅効エッジ発掘(2026-06-19)】台帳に未登録だった層をリーダーボードから抽出し複数地平線で精査。4h方向的中はコイン投げだが補正後リターンが 24h+0.002/72h+0.051 と市場ドリフト超。9ヶ月・銘柄['SOL', 'BTC', 'ETH']・short率0.49に分散しN=1/regimeでは説明困難。HL実測: 勝率0.7067・実現$320,054・398日・口座$886,141。正体「匿名」 資金源=[0x5535aa], 🤖 OpenSea Account [0x5a8574], [0x1f8059]。実力スイングの可能性が高いが遅効positioningも否定できず監視。"
+    },
+    "0xe24166173f1e956845a0660c8b26db334dced71a": {
+      "address": "0xe24166173f1e956845a0660c8b26db334dced71a",
+      "first_seen": "2026-06-19",
+      "last_seen": "2026-06-19",
+      "times_seen": 1,
+      "position": "弱い疑惑(監視継続)",
+      "metric_category": "hl-verified",
+      "labels": [],
+      "first_funders": [
+        {
+          "address": "0x490b1e689ca23be864e55b46bf038e007b528208",
+          "label": "🏦 Kraken [0x490b1e]",
+          "relation": "First Funder",
+          "time": "2025-03-30T20:45:46"
+        }
+      ],
+      "current": {
+        "date": "2026-06-19",
+        "metric_category": "hl-verified",
+        "win_rate": 0.627,
+        "dir_accuracy": null,
+        "total_pnl": 309839
+      },
+      "history": [
+        {
+          "date": "2026-06-19",
+          "metric_category": "hl-verified",
+          "win_rate": 0.627,
+          "dir_accuracy": null,
+          "total_pnl": 309839
+        }
+      ],
+      "hl_checked": "2026-06-19",
+      "nansen_checked": "2026-06-19",
+      "active14": false,
+      "trade_days": 393,
+      "n_closes": 3509,
+      "realized_majors": 309839,
+      "account_value": 6743,
+      "mh_detr72": 0.0551,
+      "mh_detr24": 0.0616,
+      "mh_checked": "2026-06-19",
+      "auto_tags": [],
+      "tags": [
+        "Nansen発見",
+        "取引なし(14d)",
+        "未照会発掘",
+        "遅効エッジ(24-72h)"
+      ],
+      "notes_jp": "【未照会層から遅効エッジ発掘(2026-06-19)】台帳に未登録だった層をリーダーボードから抽出し複数地平線で精査。4h方向的中はコイン投げだが補正後リターンが 24h+0.062/72h+0.055 と市場ドリフト超。11ヶ月・銘柄['BTC', 'ETH']・short率0.79に分散しN=1/regimeでは説明困難。HL実測: 勝率0.627・実現$309,839・393日・口座$6,743。正体「匿名」 資金源=🏦 Kraken [0x490b1e]。実力スイングの可能性が高いが遅効positioningも否定できず監視。"
     }
   },
   "updated_at": "2026-06-17T18:57:53.443226+00:00"
