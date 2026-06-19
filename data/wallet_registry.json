@@ -1088,9 +1088,9 @@
         "date": "2026-06-17",
         "metric_category": "insider_suspect",
         "insider_score": 0.5001,
-        "win_rate": 1.0,
+        "win_rate": 0.8442,
         "dir_accuracy": 1.0,
-        "total_pnl": 622.58,
+        "total_pnl": 4262,
         "avg_hold_h": 0.1,
         "event_lead_notional": 0,
         "insider_likelihood": 0.05
@@ -1183,7 +1183,12 @@
       "n_fills_14d": 22,
       "active_to": "2026-06-13",
       "active_from": "2026-06-13",
-      "active14": true
+      "active14": true,
+      "true_realized_all": -622,
+      "true_realized_maj": 4262,
+      "n_closes": 77,
+      "active_days": 120.2,
+      "metric_normalized": "2026-06-19"
     },
     "0x5aadb434293b4e1b8fb2e84007e567506fe65a96": {
       "address": "0x5aadb434293b4e1b8fb2e84007e567506fe65a96",
@@ -1191,7 +1196,6 @@
       "times_seen": 11,
       "tags": [
         "Tier-C",
-        "プロ実績未検証(未キャッシュ)",
         "取引あり(14d)"
       ],
       "notes": "",
@@ -1233,9 +1237,9 @@
         "date": "2026-06-17",
         "metric_category": "pro_trader",
         "insider_score": 0.407,
-        "win_rate": 1.0,
+        "win_rate": 0.5375,
         "dir_accuracy": 0.625,
-        "total_pnl": 4282.91,
+        "total_pnl": 29684,
         "avg_hold_h": 1.12,
         "event_lead_notional": 0,
         "insider_likelihood": 0.1
@@ -1332,7 +1336,12 @@
       "trade_days": 523,
       "active14": true,
       "pro_score_old": 0.37,
-      "pro_tier_old": "C"
+      "pro_tier_old": "C",
+      "true_realized_all": 592289,
+      "true_realized_maj": 29684,
+      "n_closes": 947,
+      "active_days": 469.0,
+      "metric_normalized": "2026-06-19"
     },
     "0x4d3980ac9d84fc34adcd025ee2337786846343c4": {
       "address": "0x4d3980ac9d84fc34adcd025ee2337786846343c4",
@@ -1465,7 +1474,6 @@
       "times_seen": 4,
       "tags": [
         "Tier-D",
-        "プロ実績未検証(未キャッシュ)",
         "取引あり(14d)"
       ],
       "notes": "",
@@ -1510,7 +1518,7 @@
         "insider_score": 0.4339,
         "win_rate": 0.9181,
         "dir_accuracy": 0.7895,
-        "total_pnl": 24241.91,
+        "total_pnl": 24242,
         "avg_hold_h": 5.8,
         "event_lead_notional": 0,
         "insider_likelihood": 0.1
@@ -1606,15 +1614,19 @@
       "trade_days": 21,
       "active14": true,
       "pro_score_old": 0.189,
-      "pro_tier_old": "D"
+      "pro_tier_old": "D",
+      "true_realized_all": 79229,
+      "true_realized_maj": 24242,
+      "n_closes": 342,
+      "active_days": 7.6,
+      "metric_normalized": "2026-06-19"
     },
     "0x8463d6ffcbfb56bf20ab2e1111f9a0e8359533f2": {
       "address": "0x8463d6ffcbfb56bf20ab2e1111f9a0e8359533f2",
       "first_seen": "2026-06-16",
       "times_seen": 4,
       "tags": [
-        "Tier-C",
-        "プロ実績未検証(未キャッシュ)",
+        "Tier-D",
         "取引あり(14d)"
       ],
       "notes": "",
@@ -1657,9 +1669,9 @@
         "date": "2026-06-17",
         "metric_category": "pro_trader",
         "insider_score": 0.4224,
-        "win_rate": 0.8178,
+        "win_rate": 0.4913,
         "dir_accuracy": 0.5729,
-        "total_pnl": 258595.71,
+        "total_pnl": 40268,
         "avg_hold_h": 34.15,
         "event_lead_notional": 0,
         "insider_likelihood": 0.18
@@ -1723,12 +1735,17 @@
       "pro_score": 0.283,
       "pro_realized": 258596,
       "pro_span_days": 30,
-      "pro_tier": "C",
+      "pro_tier": "D",
       "active_to": "2026-06-17",
       "active_from": "2026-06-17",
-      "active14": true,
+      "active14": false,
       "pro_score_old": 0.283,
-      "pro_tier_old": "C"
+      "pro_tier_old": "C",
+      "true_realized_all": 274080,
+      "true_realized_maj": 40268,
+      "n_closes": 1486,
+      "active_days": 106.7,
+      "metric_normalized": "2026-06-19"
     },
     "0xd117b0459ba2af1a397e76baa5efd580a3f7f99f": {
       "address": "0xd117b0459ba2af1a397e76baa5efd580a3f7f99f",
@@ -6399,8 +6416,7 @@
       "times_seen": 8,
       "tags": [
         "Nansen発見",
-        "Tier-C",
-        "プロ実績未検証(未キャッシュ)",
+        "Tier-A",
         "取引なし(14d)",
         "塩漬け:7日以上"
       ],
@@ -6433,9 +6449,9 @@
         "date": "2026-06-17",
         "metric_category": "excluded",
         "insider_score": 0.5239,
-        "win_rate": 0.8957,
+        "win_rate": 0.9161,
         "dir_accuracy": 0.0,
-        "total_pnl": 1781588.51,
+        "total_pnl": 2186779,
         "avg_hold_h": null,
         "event_lead_notional": 0,
         "insider_likelihood": null
@@ -6524,7 +6540,7 @@
       "pro_score": 0.328,
       "pro_realized": 1781589,
       "pro_span_days": 91,
-      "pro_tier": "C",
+      "pro_tier": "A",
       "active14": false,
       "pro_score_old": 0.328,
       "pro_tier_old": "C",
@@ -6537,7 +6553,12 @@
         "dir": "short",
         "open": "2026-05-01",
         "open_at_end": false
-      }
+      },
+      "true_realized_all": 2107992,
+      "true_realized_maj": 2186779,
+      "n_closes": 1680,
+      "active_days": 28.0,
+      "metric_normalized": "2026-06-19"
     },
     "0x0a7097d919b7421ecc03aed3aac68a13e7ef1f46": {
       "address": "0x0a7097d919b7421ecc03aed3aac68a13e7ef1f46",
@@ -6703,7 +6724,6 @@
       "times_seen": 7,
       "tags": [
         "Tier-D",
-        "プロ実績未検証(未キャッシュ)",
         "取引あり(14d)"
       ],
       "notes": "",
@@ -6737,9 +6757,9 @@
         "date": "2026-06-17",
         "metric_category": "excluded",
         "insider_score": 0.5,
-        "win_rate": 1.0,
+        "win_rate": 0.633,
         "dir_accuracy": 1.0,
-        "total_pnl": 219.18,
+        "total_pnl": -5568,
         "avg_hold_h": 0.61,
         "event_lead_notional": 0,
         "insider_likelihood": null
@@ -6886,7 +6906,12 @@
       "active_from": "2026-06-16",
       "active14": true,
       "pro_score_old": 0.19,
-      "pro_tier_old": "D"
+      "pro_tier_old": "D",
+      "true_realized_all": 112972,
+      "true_realized_maj": -5568,
+      "n_closes": 376,
+      "active_days": 931.4,
+      "metric_normalized": "2026-06-19"
     },
     "0x159d148acd970eaf88bed8feac4ad6d38e7c3665": {
       "address": "0x159d148acd970eaf88bed8feac4ad6d38e7c3665",
@@ -7039,8 +7064,7 @@
       "first_seen": "2026-06-17",
       "times_seen": 7,
       "tags": [
-        "Tier-D",
-        "プロ実績未検証(未キャッシュ)",
+        "Tier-C",
         "取引あり(14d)"
       ],
       "notes": "",
@@ -7073,9 +7097,9 @@
         "date": "2026-06-17",
         "metric_category": "pro_trader",
         "insider_score": 0.4462,
-        "win_rate": 1.0,
+        "win_rate": 0.6245,
         "dir_accuracy": 0.7812,
-        "total_pnl": 5362.42,
+        "total_pnl": 296521,
         "avg_hold_h": 0.53,
         "event_lead_notional": 0,
         "insider_likelihood": null
@@ -7159,12 +7183,17 @@
       "pro_score": 0.19,
       "pro_realized": 5362,
       "pro_span_days": 30,
-      "pro_tier": "D",
+      "pro_tier": "C",
       "active_to": "2026-06-14",
       "active_from": "2026-06-14",
-      "active14": true,
+      "active14": false,
       "pro_score_old": 0.19,
-      "pro_tier_old": "D"
+      "pro_tier_old": "D",
+      "true_realized_all": 510939,
+      "true_realized_maj": 296521,
+      "n_closes": 6600,
+      "active_days": 511.1,
+      "metric_normalized": "2026-06-19"
     },
     "0x321f7193eadbacb67eff00f76b975a487e5b1c84": {
       "address": "0x321f7193eadbacb67eff00f76b975a487e5b1c84",
@@ -10265,7 +10294,7 @@
         "Tier-B",
         "取引あり(14d)",
         "塩漬け:6日",
-        "要再取得(キャッシュ不完全)"
+        "実績未確認(closes0/含み益のみ)"
       ],
       "notes": "",
       "history": [
@@ -11148,8 +11177,7 @@
       "tags": [
         "HL検証済プロ",
         "Nansen発見",
-        "Tier-A",
-        "プロ実績未検証(未キャッシュ)",
+        "Tier-S",
         "取引なし(14d)"
       ],
       "notes": "",
@@ -11182,9 +11210,9 @@
       "current": {
         "date": "2026-06-17",
         "metric_category": "hl-verified",
-        "win_rate": 0.8818,
+        "win_rate": 1.0,
         "dir_accuracy": 0.0682,
-        "total_pnl": 8312518.87,
+        "total_pnl": 6329589,
         "event_lead_notional": 0,
         "insider_likelihood": null,
         "avg_hold_h": null
@@ -11194,7 +11222,7 @@
       "pro_score": 0.605,
       "pro_realized": 11927977,
       "pro_span_days": 24,
-      "pro_tier": "A",
+      "pro_tier": "S",
       "active_from": "2026-01-31",
       "active_to": "2026-02-24",
       "trade_days": 24,
@@ -11209,7 +11237,12 @@
       ],
       "nansen_errors": [],
       "pro_score_old": 0.605,
-      "pro_tier_old": "A"
+      "pro_tier_old": "A",
+      "true_realized_all": 10416131,
+      "true_realized_maj": 6329589,
+      "n_closes": 3929,
+      "active_days": 4.4,
+      "metric_normalized": "2026-06-19"
     },
     "0x4196dc4a1dc7d3bfd5434adf04c829f4ccaf480d": {
       "address": "0x4196dc4a1dc7d3bfd5434adf04c829f4ccaf480d",
@@ -11605,8 +11638,8 @@
         "Nansen発見",
         "Tier-S",
         "取引あり(14d)",
-        "稼ぎ確認・先行不明(要精査)",
-        "要再取得(キャッシュ不完全)"
+        "実績未確認(closes0/含み益のみ)",
+        "稼ぎ確認・先行不明(要精査)"
       ],
       "notes": "",
       "history": [
@@ -11738,8 +11771,8 @@
         "HL検証済プロ",
         "Nansen発見",
         "Tier-B",
-        "プロ実績未検証(未キャッシュ)",
-        "取引なし(14d)"
+        "取引なし(14d)",
+        "実績未確認(closes0/含み益のみ)"
       ],
       "notes": "",
       "history": [
@@ -11770,9 +11803,9 @@
       "current": {
         "date": "2026-06-17",
         "metric_category": "hl-verified",
-        "win_rate": 0.9928,
+        "win_rate": null,
         "dir_accuracy": 0.0956,
-        "total_pnl": 2150195.0,
+        "total_pnl": 0,
         "event_lead_notional": 0,
         "insider_likelihood": null,
         "avg_hold_h": null
@@ -11879,7 +11912,12 @@
       ],
       "nansen_errors": [],
       "pro_score_old": 0.456,
-      "pro_tier_old": "B"
+      "pro_tier_old": "B",
+      "true_realized_all": 0,
+      "true_realized_maj": 0,
+      "n_closes": 0,
+      "active_days": 7.8,
+      "metric_normalized": "2026-06-19"
     },
     "0x5bc43f38c2ddcd85857f218674cd384f172c3b0c": {
       "address": "0x5bc43f38c2ddcd85857f218674cd384f172c3b0c",
@@ -12202,8 +12240,7 @@
       "times_seen": 2,
       "tags": [
         "Nansen発見",
-        "Tier-S",
-        "プロ実績未検証(未キャッシュ)",
+        "Tier-C",
         "取引あり(14d)",
         "稼ぎ確認・先行不明(要精査)"
       ],
@@ -12236,9 +12273,9 @@
       "current": {
         "date": "2026-06-17",
         "metric_category": "hl-verified",
-        "win_rate": 0.5489,
+        "win_rate": 0.6471,
         "dir_accuracy": 0.0,
-        "total_pnl": 1194991.99,
+        "total_pnl": -54281,
         "event_lead_notional": 0,
         "insider_likelihood": null,
         "avg_hold_h": null
@@ -12306,13 +12343,18 @@
       "pro_score": 0.763,
       "pro_realized": 4258658,
       "pro_span_days": 384,
-      "pro_tier": "S",
+      "pro_tier": "C",
       "active_from": "2025-05-29",
       "active_to": "2026-06-17",
       "trade_days": 384,
-      "active14": true,
+      "active14": false,
       "pro_score_old": 0.763,
-      "pro_tier_old": "S"
+      "pro_tier_old": "S",
+      "true_realized_all": 373018,
+      "true_realized_maj": -54281,
+      "n_closes": 68,
+      "active_days": 169.0,
+      "metric_normalized": "2026-06-19"
     },
     "0x833b99b27dac651d02080f5e220e929df891db06": {
       "address": "0x833b99b27dac651d02080f5e220e929df891db06",
@@ -13478,7 +13520,7 @@
         "HL検証済プロ",
         "Nansen発見",
         "Tier-B",
-        "プロ実績未検証(未キャッシュ)",
+        "プロ実績未検証(取得失敗)",
         "取引なし(14d)",
         "塩漬け:7日以上"
       ],
@@ -13888,7 +13930,7 @@
         "HL検証済プロ",
         "Nansen発見",
         "Tier-C",
-        "プロ実績未検証(未キャッシュ)",
+        "プロ実績未検証(取得失敗)",
         "取引なし(14d)"
       ],
       "notes": "",
@@ -14988,8 +15030,7 @@
       "times_seen": 1,
       "tags": [
         "Nansen発見",
-        "Tier-B",
-        "プロ実績未検証(未キャッシュ)",
+        "Tier-C",
         "取引あり(14d)",
         "稼ぎ確認・先行不明(要精査)"
       ],
@@ -15020,7 +15061,7 @@
       "current": {
         "date": "2026-06-17",
         "metric_category": "nansen-pro",
-        "total_pnl": 960470.107881,
+        "total_pnl": 0,
         "win_rate": null,
         "dir_accuracy": null,
         "insider_likelihood": null,
@@ -15051,13 +15092,18 @@
       "pro_score": 0.48,
       "pro_realized": 923593,
       "pro_span_days": 203,
-      "pro_tier": "B",
+      "pro_tier": "C",
       "active_from": "2025-11-26",
       "active_to": "2026-06-17",
       "trade_days": 203,
       "active14": true,
       "pro_score_old": 0.48,
-      "pro_tier_old": "B"
+      "pro_tier_old": "B",
+      "true_realized_all": 994366,
+      "true_realized_maj": 0,
+      "n_closes": 0,
+      "active_days": null,
+      "metric_normalized": "2026-06-19"
     },
     "0x06466f9ac08e872064950cec3812b57d6feafa7f": {
       "address": "0x06466f9ac08e872064950cec3812b57d6feafa7f",
@@ -15067,7 +15113,6 @@
         "HL検証済プロ",
         "Nansen発見",
         "Tier-C",
-        "プロ実績未検証(未キャッシュ)",
         "取引なし(14d)"
       ],
       "notes": "",
@@ -15101,7 +15146,7 @@
         "metric_category": "hl-verified",
         "win_rate": 0.8754,
         "dir_accuracy": 0.0,
-        "total_pnl": 940932.92,
+        "total_pnl": 940933,
         "event_lead_notional": 0,
         "insider_likelihood": null,
         "avg_hold_h": null
@@ -15208,7 +15253,12 @@
       ],
       "nansen_errors": [],
       "pro_score_old": 0.342,
-      "pro_tier_old": "C"
+      "pro_tier_old": "C",
+      "true_realized_all": 758334,
+      "true_realized_maj": 940933,
+      "n_closes": 289,
+      "active_days": 229.7,
+      "metric_normalized": "2026-06-19"
     },
     "0xef70339934261ca3524bddfa7d02e0a69107a84c": {
       "address": "0xef70339934261ca3524bddfa7d02e0a69107a84c",
@@ -15939,8 +15989,7 @@
       "tags": [
         "HL検証済プロ",
         "Nansen発見",
-        "Tier-B",
-        "プロ実績未検証(未キャッシュ)",
+        "Tier-C",
         "取引あり(14d)"
       ],
       "notes": "",
@@ -15985,8 +16034,8 @@
       "current": {
         "date": "2026-06-17",
         "metric_category": "hl-verified",
-        "total_pnl": 816027,
-        "win_rate": 0.5267,
+        "total_pnl": 573128,
+        "win_rate": 0.5749,
         "dir_accuracy": 0.2342,
         "insider_likelihood": null,
         "avg_hold_h": 93.32,
@@ -16076,7 +16125,12 @@
       "pro_realized": 801953,
       "pro_span_days": 111,
       "pro_tier_old": null,
-      "pro_tier": "B"
+      "pro_tier": "C",
+      "true_realized_all": 816027,
+      "true_realized_maj": 573128,
+      "n_closes": 1569,
+      "active_days": 77.2,
+      "metric_normalized": "2026-06-19"
     },
     "0x500bea59133e20dc63b7e88913b30348494b84ba": {
       "address": "0x500bea59133e20dc63b7e88913b30348494b84ba",
@@ -17755,7 +17809,6 @@
       "tags": [
         "Nansen発見",
         "Tier-C",
-        "プロ実績未検証(未キャッシュ)",
         "取引なし(14d)",
         "稼ぎ確認・先行不明(要精査)"
       ],
@@ -17786,8 +17839,8 @@
       "current": {
         "date": "2026-06-17",
         "metric_category": "nansen-pro",
-        "total_pnl": 574870.253074,
-        "win_rate": null,
+        "total_pnl": 919385,
+        "win_rate": 0.8599,
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
@@ -17810,7 +17863,12 @@
       "trade_days": 168,
       "active14": false,
       "pro_score_old": 0.335,
-      "pro_tier_old": "C"
+      "pro_tier_old": "C",
+      "true_realized_all": 919385,
+      "true_realized_maj": 919385,
+      "n_closes": 978,
+      "active_days": 168.7,
+      "metric_normalized": "2026-06-19"
     },
     "0x8554501f855388039f2bc86110462adfbbde46dc": {
       "address": "0x8554501f855388039f2bc86110462adfbbde46dc",
@@ -18395,7 +18453,6 @@
         "HL検証済プロ",
         "Nansen発見",
         "Tier-B",
-        "プロ実績未検証(未キャッシュ)",
         "取引なし(14d)"
       ],
       "notes": "",
@@ -18429,7 +18486,7 @@
         "metric_category": "hl-verified",
         "win_rate": 0.9414,
         "dir_accuracy": 0.0,
-        "total_pnl": 395196.21,
+        "total_pnl": 395196,
         "event_lead_notional": 0,
         "insider_likelihood": null,
         "avg_hold_h": null
@@ -18480,7 +18537,12 @@
       ],
       "nansen_errors": [],
       "pro_score_old": 0.407,
-      "pro_tier_old": "B"
+      "pro_tier_old": "B",
+      "true_realized_all": 1412544,
+      "true_realized_maj": 395196,
+      "n_closes": 1671,
+      "active_days": 584.5,
+      "metric_normalized": "2026-06-19"
     },
     "0x1f67d79afc8d0e7609ddba6c9b657cc635f69981": {
       "address": "0x1f67d79afc8d0e7609ddba6c9b657cc635f69981",
@@ -18587,8 +18649,7 @@
       "times_seen": 1,
       "tags": [
         "Nansen発見",
-        "Tier-B",
-        "プロ実績未検証(未キャッシュ)",
+        "Tier-C",
         "取引なし(14d)",
         "稼ぎ確認・先行不明(要精査)"
       ],
@@ -18619,7 +18680,7 @@
       "current": {
         "date": "2026-06-17",
         "metric_category": "nansen-pro",
-        "total_pnl": 493902.3539000001,
+        "total_pnl": 0,
         "win_rate": null,
         "dir_accuracy": null,
         "insider_likelihood": null,
@@ -18698,13 +18759,18 @@
       "pro_score": 0.383,
       "pro_realized": 502220,
       "pro_span_days": 470,
-      "pro_tier": "B",
+      "pro_tier": "C",
       "active_from": "2025-02-10",
       "active_to": "2026-05-26",
       "trade_days": 470,
       "active14": false,
       "pro_score_old": 0.383,
-      "pro_tier_old": "B"
+      "pro_tier_old": "B",
+      "true_realized_all": 502220,
+      "true_realized_maj": 0,
+      "n_closes": 0,
+      "active_days": null,
+      "metric_normalized": "2026-06-19"
     },
     "0xb9eb061e64d32c8e0a6c6992a7dc32a32df9cb74": {
       "address": "0xb9eb061e64d32c8e0a6c6992a7dc32a32df9cb74",
@@ -19185,8 +19251,7 @@
       "tags": [
         "HL検証済プロ",
         "Nansen発見",
-        "Tier-B",
-        "プロ実績未検証(未キャッシュ)",
+        "Tier-C",
         "取引あり(14d)",
         "塩漬け:7日以上"
       ],
@@ -19221,7 +19286,7 @@
         "metric_category": "hl-verified",
         "win_rate": 0.9139,
         "dir_accuracy": 0.2022,
-        "total_pnl": 483617.52,
+        "total_pnl": 483618,
         "event_lead_notional": 0,
         "insider_likelihood": null,
         "avg_hold_h": null
@@ -19231,11 +19296,11 @@
       "pro_score": 0.457,
       "pro_realized": 547385,
       "pro_span_days": 237,
-      "pro_tier": "B",
+      "pro_tier": "C",
       "active_from": "2025-10-20",
       "active_to": "2026-06-14",
       "trade_days": 237,
-      "active14": true,
+      "active14": false,
       "first_funders": [
         {
           "address": "0xe35e9842fceaca96570b734083f4a58e8f7c5f2a",
@@ -19338,7 +19403,12 @@
         "dir": "short",
         "open": "2025-11-08",
         "open_at_end": false
-      }
+      },
+      "true_realized_all": 547219,
+      "true_realized_maj": 483618,
+      "n_closes": 1255,
+      "active_days": 196.8,
+      "metric_normalized": "2026-06-19"
     },
     "0x039405fa4636364e6023df1e06b085a462b9cdc9": {
       "address": "0x039405fa4636364e6023df1e06b085a462b9cdc9",
@@ -21827,8 +21897,7 @@
       "times_seen": 1,
       "tags": [
         "Nansen発見",
-        "Tier-A",
-        "プロ実績未検証(未キャッシュ)",
+        "Tier-C",
         "取引あり(14d)",
         "塩漬け:7日以上",
         "稼ぎ確認・先行不明(要精査)"
@@ -21861,8 +21930,8 @@
       "current": {
         "date": "2026-06-17",
         "metric_category": "nansen-pro",
-        "total_pnl": 302601.150718,
-        "win_rate": null,
+        "total_pnl": 7487,
+        "win_rate": 0.5766,
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
@@ -21910,11 +21979,11 @@
       "pro_score": 0.503,
       "pro_realized": 591463,
       "pro_span_days": 867,
-      "pro_tier": "A",
+      "pro_tier": "C",
       "active_from": "2024-01-31",
       "active_to": "2026-06-16",
       "trade_days": 867,
-      "active14": true,
+      "active14": false,
       "pro_score_old": 0.503,
       "pro_tier_old": "A",
       "soak_detail": {
@@ -21926,7 +21995,12 @@
         "dir": "short",
         "open": "2025-11-23",
         "open_at_end": false
-      }
+      },
+      "true_realized_all": 595283,
+      "true_realized_maj": 7487,
+      "n_closes": 111,
+      "active_days": 417.0,
+      "metric_normalized": "2026-06-19"
     },
     "0xbf55d2d31c193e475d9d52006359f1fe51ecb7ce": {
       "address": "0xbf55d2d31c193e475d9d52006359f1fe51ecb7ce",
@@ -22878,7 +22952,6 @@
       "tags": [
         "Nansen発見",
         "Tier-A",
-        "プロ実績未検証(未キャッシュ)",
         "取引なし(14d)",
         "稼ぎ確認・先行不明(要精査)"
       ],
@@ -22909,8 +22982,8 @@
       "current": {
         "date": "2026-06-17",
         "metric_category": "nansen-pro",
-        "total_pnl": 274404.731521,
-        "win_rate": null,
+        "total_pnl": 149923,
+        "win_rate": 1.0,
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
@@ -22927,7 +23000,12 @@
       "active14": false,
       "nansen_errors": [],
       "pro_score_old": 0.548,
-      "pro_tier_old": "A"
+      "pro_tier_old": "A",
+      "true_realized_all": 2338551,
+      "true_realized_maj": 149923,
+      "n_closes": 130,
+      "active_days": 7.2,
+      "metric_normalized": "2026-06-19"
     },
     "0x14246f4bbafb87ccebac17609054c6a188ed8cfd": {
       "address": "0x14246f4bbafb87ccebac17609054c6a188ed8cfd",
@@ -22985,8 +23063,7 @@
       "tags": [
         "HL検証済プロ",
         "Nansen発見",
-        "Tier-B",
-        "プロ実績未検証(未キャッシュ)",
+        "Tier-C",
         "取引あり(14d)"
       ],
       "notes": "",
@@ -23020,7 +23097,7 @@
         "metric_category": "hl-verified",
         "win_rate": 1.0,
         "dir_accuracy": 0.0,
-        "total_pnl": 77255.96,
+        "total_pnl": 77256,
         "event_lead_notional": 0,
         "insider_likelihood": null,
         "avg_hold_h": null
@@ -23030,11 +23107,11 @@
       "pro_score": 0.481,
       "pro_realized": 646718,
       "pro_span_days": 795,
-      "pro_tier": "B",
+      "pro_tier": "C",
       "active_from": "2024-04-06",
       "active_to": "2026-06-10",
       "trade_days": 795,
-      "active14": true,
+      "active14": false,
       "first_funders": [
         {
           "address": "0x490b1e689ca23be864e55b46bf038e007b528208",
@@ -23063,7 +23140,12 @@
       ],
       "nansen_errors": [],
       "pro_score_old": 0.481,
-      "pro_tier_old": "B"
+      "pro_tier_old": "B",
+      "true_realized_all": 646718,
+      "true_realized_maj": 77256,
+      "n_closes": 79,
+      "active_days": 30.6,
+      "metric_normalized": "2026-06-19"
     },
     "0xf2efcd0bedf771dc63eb655d395c15a9d753550a": {
       "address": "0xf2efcd0bedf771dc63eb655d395c15a9d753550a",
@@ -24503,8 +24585,7 @@
       "times_seen": 1,
       "tags": [
         "Nansen発見",
-        "Tier-C",
-        "プロ実績未検証(未キャッシュ)",
+        "Tier-D",
         "取引なし(14d)",
         "稼ぎ確認・先行不明(要精査)"
       ],
@@ -24535,7 +24616,7 @@
       "current": {
         "date": "2026-06-17",
         "metric_category": "nansen-pro",
-        "total_pnl": 207068.48253,
+        "total_pnl": 0,
         "win_rate": null,
         "dir_accuracy": null,
         "insider_likelihood": null,
@@ -24546,14 +24627,19 @@
       "pro_score": 0.273,
       "pro_realized": 562804,
       "pro_span_days": 16,
-      "pro_tier": "C",
+      "pro_tier": "D",
       "active_from": "2025-11-14",
       "active_to": "2025-11-30",
       "trade_days": 16,
       "active14": false,
       "nansen_errors": [],
       "pro_score_old": 0.273,
-      "pro_tier_old": "C"
+      "pro_tier_old": "C",
+      "true_realized_all": 39489,
+      "true_realized_maj": 0,
+      "n_closes": 0,
+      "active_days": null,
+      "metric_normalized": "2026-06-19"
     },
     "0x3480d3f9b45a5669cb3c7a576b092798fd5db5d8": {
       "address": "0x3480d3f9b45a5669cb3c7a576b092798fd5db5d8",
@@ -33581,7 +33667,7 @@
         "HL検証済プロ",
         "Nansen発見",
         "Tier-S",
-        "プロ実績未検証(未キャッシュ)",
+        "プロ実績未検証(取得失敗)",
         "取引あり(14d)"
       ],
       "notes": "",
@@ -34238,7 +34324,7 @@
         "HL検証済プロ",
         "Nansen発見",
         "Tier-S",
-        "プロ実績未検証(未キャッシュ)",
+        "プロ実績未検証(取得失敗)",
         "取引なし(14d)"
       ],
       "notes": "",
@@ -34292,7 +34378,7 @@
         "HL検証済プロ",
         "Nansen発見",
         "Tier-S",
-        "プロ実績未検証(未キャッシュ)",
+        "プロ実績未検証(取得失敗)",
         "取引なし(14d)"
       ],
       "notes": "",
@@ -34707,8 +34793,7 @@
       "tags": [
         "HL検証済プロ",
         "Nansen発見",
-        "Tier-A",
-        "プロ実績未検証(未キャッシュ)",
+        "Tier-B",
         "取引あり(14d)"
       ],
       "notes": "",
@@ -34728,7 +34813,7 @@
         "metric_category": "hl-verified",
         "win_rate": 0.6196,
         "dir_accuracy": 0.382,
-        "total_pnl": 1612233,
+        "total_pnl": -77162,
         "event_lead_notional": 0,
         "insider_likelihood": null,
         "avg_hold_h": null
@@ -34737,11 +34822,11 @@
       "pro_score": 0.595,
       "pro_realized": 1612233,
       "pro_span_days": 553,
-      "pro_tier": "A",
+      "pro_tier": "B",
       "active_from": "2024-11-29",
       "active_to": "2026-06-05",
       "trade_days": 553,
-      "active14": true,
+      "active14": false,
       "first_funders": [
         {
           "address": "0xe7351fd770a37282b91d153ee690b63579d6dd7f",
@@ -34752,7 +34837,12 @@
       ],
       "nansen_errors": [],
       "pro_score_old": 0.595,
-      "pro_tier_old": "A"
+      "pro_tier_old": "A",
+      "true_realized_all": 1612233,
+      "true_realized_maj": -77162,
+      "n_closes": 849,
+      "active_days": 330.3,
+      "metric_normalized": "2026-06-19"
     },
     "0x3b11267dfc4b9ebe8427e8f557056b4b6ce98112": {
       "address": "0x3b11267dfc4b9ebe8427e8f557056b4b6ce98112",
@@ -34762,7 +34852,6 @@
         "HL検証済プロ",
         "Nansen発見",
         "Tier-B",
-        "プロ実績未検証(未キャッシュ)",
         "取引なし(14d)"
       ],
       "notes": "",
@@ -34782,7 +34871,7 @@
         "metric_category": "hl-verified",
         "win_rate": 0.9973,
         "dir_accuracy": 0.8487,
-        "total_pnl": 1448890,
+        "total_pnl": 376812,
         "event_lead_notional": 0,
         "insider_likelihood": null,
         "avg_hold_h": null
@@ -34795,7 +34884,7 @@
       "active_from": "2026-02-23",
       "active_to": "2026-06-01",
       "trade_days": 98,
-      "active14": false,
+      "active14": true,
       "first_funders": [
         {
           "address": "0xdfd5293d8e347dfe59e90efd55b2956a1343963d",
@@ -34934,7 +35023,12 @@
       ],
       "nansen_errors": [],
       "pro_score_old": 0.42,
-      "pro_tier_old": "B"
+      "pro_tier_old": "B",
+      "true_realized_all": 1643306,
+      "true_realized_maj": 376812,
+      "n_closes": 365,
+      "active_days": 87.5,
+      "metric_normalized": "2026-06-19"
     },
     "0x5638484ba2d2f1d1d35020572b0aa439a9869192": {
       "address": "0x5638484ba2d2f1d1d35020572b0aa439a9869192",
@@ -34944,7 +35038,6 @@
         "HL検証済プロ",
         "Nansen発見",
         "Tier-B",
-        "プロ実績未検証(未キャッシュ)",
         "取引なし(14d)"
       ],
       "notes": "",
@@ -34968,7 +35061,7 @@
         "metric_category": "hl-verified",
         "win_rate": 1.0,
         "dir_accuracy": 0.1381,
-        "total_pnl": 1224633,
+        "total_pnl": 1088295,
         "event_lead_notional": 0,
         "insider_likelihood": null,
         "avg_hold_h": null
@@ -35018,7 +35111,12 @@
       ],
       "nansen_errors": [],
       "pro_score_old": 0.448,
-      "pro_tier_old": "B"
+      "pro_tier_old": "B",
+      "true_realized_all": 1224633,
+      "true_realized_maj": 1088295,
+      "n_closes": 1016,
+      "active_days": 90.5,
+      "metric_normalized": "2026-06-19"
     },
     "0x4b4bdd734b87bc48683d24f1dc6159e3ab6d6409": {
       "address": "0x4b4bdd734b87bc48683d24f1dc6159e3ab6d6409",
@@ -35027,8 +35125,7 @@
       "tags": [
         "HL検証済プロ",
         "Nansen発見",
-        "Tier-C",
-        "プロ実績未検証(未キャッシュ)",
+        "Tier-B",
         "取引なし(14d)"
       ],
       "notes": "",
@@ -35046,9 +35143,9 @@
       "current": {
         "date": "2026-06-17",
         "metric_category": "hl-verified",
-        "win_rate": 1.0,
+        "win_rate": 0.9274,
         "dir_accuracy": 0.1287,
-        "total_pnl": 1094901,
+        "total_pnl": 916965,
         "event_lead_notional": 0,
         "insider_likelihood": null,
         "avg_hold_h": null
@@ -35057,7 +35154,7 @@
       "pro_score": 0.357,
       "pro_realized": 1094901,
       "pro_span_days": 124,
-      "pro_tier": "C",
+      "pro_tier": "B",
       "active_from": "2026-01-28",
       "active_to": "2026-06-01",
       "trade_days": 124,
@@ -35114,7 +35211,12 @@
       ],
       "nansen_errors": [],
       "pro_score_old": 0.357,
-      "pro_tier_old": "C"
+      "pro_tier_old": "C",
+      "true_realized_all": 1094901,
+      "true_realized_maj": 916965,
+      "n_closes": 1819,
+      "active_days": 9.8,
+      "metric_normalized": "2026-06-19"
     },
     "0x1e5b1efd99c89d39b59b28a19e6b42bbeb98433b": {
       "address": "0x1e5b1efd99c89d39b59b28a19e6b42bbeb98433b",
