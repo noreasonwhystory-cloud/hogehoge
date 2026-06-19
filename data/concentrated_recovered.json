@@ -1,0 +1,180 @@
+{
+  "recovered": [
+    {
+      "address": "0x0ddf9bae2af4b874b96d287a5ad42eb47138a902",
+      "detr72": 0.1171,
+      "allTime_pnl": 38426575.574389,
+      "real": 10177388,
+      "topcoin": "ETH",
+      "topshare": 0.67,
+      "is_alt": false,
+      "win": 0.99,
+      "n_closes": 18051
+    },
+    {
+      "address": "0xbb10bda01f56b1604f2f024f2d18fcaf5d2b20b0",
+      "detr72": 0.0491,
+      "allTime_pnl": 8373346.296618,
+      "real": 1300595,
+      "topcoin": "@107",
+      "topshare": 0.93,
+      "is_alt": true,
+      "win": 0.73,
+      "n_closes": 5203
+    },
+    {
+      "address": "0x72655b3926db3afbe914a53b0604905af7ce11a5",
+      "detr72": 0.0909,
+      "allTime_pnl": 4430785.032907,
+      "real": 4284684,
+      "topcoin": "ETH",
+      "topshare": 1.0,
+      "is_alt": false,
+      "win": 0.47,
+      "n_closes": 29714
+    },
+    {
+      "address": "0xbaaaf6571ab7d571043ff1e313a9609a10637864",
+      "detr72": 0.1003,
+      "allTime_pnl": 3300636.594427,
+      "real": 1359014,
+      "topcoin": "HYPE",
+      "topshare": 0.77,
+      "is_alt": true,
+      "win": 0.92,
+      "n_closes": 28105
+    },
+    {
+      "address": "0x03ef8f736498047c3349bb2c18311d1bb4a79054",
+      "detr72": 0.0439,
+      "allTime_pnl": 2314392.121966,
+      "real": 157533,
+      "topcoin": "HYPE",
+      "topshare": 0.99,
+      "is_alt": true,
+      "win": 0.64,
+      "n_closes": 6627
+    },
+    {
+      "address": "0x3ee505ba316879d246a8fd2b3d7ee63b51b44fab",
+      "detr72": 0.092,
+      "allTime_pnl": 2251900.307984,
+      "real": 1897731,
+      "topcoin": "HYPE",
+      "topshare": 0.99,
+      "is_alt": true,
+      "win": 0.36,
+      "n_closes": 1448
+    },
+    {
+      "address": "0x564bbf08f4c190e12fb8317776925120c8305296",
+      "detr72": 0.0304,
+      "allTime_pnl": 1730988.41821,
+      "real": 242931,
+      "topcoin": "@107",
+      "topshare": 0.81,
+      "is_alt": true,
+      "win": 0.48,
+      "n_closes": 12047
+    },
+    {
+      "address": "0x96a7923964dbfc5010079619e8af33ce240f79df",
+      "detr72": 0.0367,
+      "allTime_pnl": 1320801.236297,
+      "real": 939528,
+      "topcoin": "HYPE",
+      "topshare": 0.72,
+      "is_alt": true,
+      "win": 0.79,
+      "n_closes": 3295
+    },
+    {
+      "address": "0xf763d7c28ce6a5df1068fdda9627ae19dff65dee",
+      "detr72": 0.0337,
+      "allTime_pnl": 1305712.258159,
+      "real": 441828,
+      "topcoin": "@107",
+      "topshare": 0.88,
+      "is_alt": true,
+      "win": 0.43,
+      "n_closes": 2855
+    },
+    {
+      "address": "0xe5f1486dc84706d2509885fe6bbc46d21ba81286",
+      "detr72": 0.0451,
+      "allTime_pnl": 1186135.3336820002,
+      "real": 34822,
+      "topcoin": "HYPE",
+      "topshare": 0.85,
+      "is_alt": true,
+      "win": 0.79,
+      "n_closes": 3968
+    },
+    {
+      "address": "0x41f9ae0b64a0ec4adc788ee5c82d4b824f839017",
+      "detr72": 0.0335,
+      "allTime_pnl": 1162785.658037,
+      "real": 700228,
+      "topcoin": "@107",
+      "topshare": 0.96,
+      "is_alt": true,
+      "win": 1.0,
+      "n_closes": 730
+    },
+    {
+      "address": "0xdfe5195e7cc1a2eca9b0df09d4646472a8c4a402",
+      "detr72": 0.0359,
+      "allTime_pnl": 1159193.45777,
+      "real": 1262965,
+      "topcoin": "BTC",
+      "topshare": 1.0,
+      "is_alt": false,
+      "win": 0.97,
+      "n_closes": 1070
+    },
+    {
+      "address": "0xcd353c98b502b6ad583af25e781f673af28acc23",
+      "detr72": 0.0379,
+      "allTime_pnl": 949556.813118,
+      "real": 484486,
+      "topcoin": "@107",
+      "topshare": 0.84,
+      "is_alt": true,
+      "win": 0.7,
+      "n_closes": 1967
+    },
+    {
+      "address": "0x8f40c8e55d88e86553f7868f0f49eca196fb1057",
+      "detr72": 0.062,
+      "allTime_pnl": 919132.531377,
+      "real": 407959,
+      "topcoin": "@107",
+      "topshare": 1.0,
+      "is_alt": true,
+      "win": 0.69,
+      "n_closes": 2134
+    },
+    {
+      "address": "0xac352ba3fd4a87901c860740925f4a9b19cc1853",
+      "detr72": 0.0357,
+      "allTime_pnl": 904473.956972,
+      "real": 772667,
+      "topcoin": "@107",
+      "topshare": 0.81,
+      "is_alt": true,
+      "win": 0.6,
+      "n_closes": 4735
+    },
+    {
+      "address": "0x810cc4084a961173963e5fec9249203abaf31de1",
+      "detr72": 0.06,
+      "allTime_pnl": 863905.996424,
+      "real": 160644,
+      "topcoin": "@107",
+      "topshare": 0.89,
+      "is_alt": true,
+      "win": 0.43,
+      "n_closes": 5637
+    }
+  ]
+}
