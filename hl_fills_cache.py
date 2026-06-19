@@ -62,17 +62,34 @@ def _recent(addr):
 
 
 def get_fills(addr, max_pages=40, refresh=True):
-    """キャッシュを読み、refresh時は前回最終時刻以降を増分取得＋最新userFillsをマージ。dedupe済の全約定を返す。"""
+    """キャッシュ＋増分。最新userFillsを必ず取り、隙間は前方で埋め『既取得と被ったら停止』。dedupe済を返す。
+    HLは古い順APIしか無いため『最新を確実に＋重複なく隙間を埋める』方式で新しい側を取りこぼさない。"""
     addr = addr.lower()
     os.makedirs(CACHE_DIR, exist_ok=True)
     cached, last = _load(addr)
-    new = []
-    if refresh or not cached:
-        start = (last + 1) if cached else 0
-        new = _fetch(addr, start, max_pages)
-        new += _recent(addr)        # 最新2000を必ず合流(高頻度の取りこぼし＝古い窓固定を防ぐ)
-    if not new:
+    if not (refresh or not cached):
         return cached
+
+    have = {f.get("tid") for f in cached}
+    recent = _recent(addr)                       # 最新2000(新しい側を保証)
+    have_recent = {f.get("tid") for f in recent}
+    new = list(recent)
+    # キャッシュ最終時刻の翌から前方へ隙間を埋め、最新2000と被った時点で停止(=連結完了)
+    cur = (last + 1) if cached else 0
+    for _ in range(max_pages):
+        chunk = _fetch_page(addr, cur)
+        if not chunk:
+            break
+        new.extend(chunk)
+        if any(f.get("tid") in have_recent or f.get("tid") in have for f in chunk):
+            break                                 # 既取得と被った→これ以上は重複ゆえ停止
+        if len(chunk) < PAGE:
+            break
+        nx = chunk[-1]["time"] + 1
+        if nx <= cur:
+            break
+        cur = nx
+
     seen, merged = set(), []
     for f in cached + new:
         tid = f.get("tid")
@@ -85,6 +102,12 @@ def get_fills(addr, max_pages=40, refresh=True):
                "last_time": lt, "n": len(merged), "fills": merged},
               open(_path(addr), "w", encoding="utf-8"), ensure_ascii=False)
     return merged
+
+
+def _fetch_page(addr, start):
+    now = int(time.time() * 1000)
+    return hl_client._post_info({"type": "userFillsByTime", "user": addr,
+                                 "startTime": start, "endTime": now}) or []
 
 
 def stats():
