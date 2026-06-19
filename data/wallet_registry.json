@@ -90,7 +90,8 @@
       "true_realized_maj": 485103,
       "n_closes": 22,
       "active_days": 311.5,
-      "metric_normalized": "2026-06-19"
+      "metric_normalized": "2026-06-19",
+      "last_fill": 1780538590560
     },
     "0xefcace57934a753d66c48a31b880ba806d4c0869": {
       "address": "0xefcace57934a753d66c48a31b880ba806d4c0869",
@@ -302,7 +303,7 @@
       "times_seen": 4,
       "tags": [
         "Tier-C",
-        "取引なし(14d)",
+        "取引あり(14d)",
         "塩漬け:5日"
       ],
       "notes": "",
@@ -387,7 +388,7 @@
       "active_from": "2025-05-16",
       "active_to": "2026-06-07",
       "trade_days": 387,
-      "active14": false,
+      "active14": true,
       "pro_score_old": 0.401,
       "pro_tier_old": "B",
       "soak_detail": {
@@ -404,7 +405,8 @@
       "true_realized_maj": 418854,
       "n_closes": 351,
       "active_days": 73.4,
-      "metric_normalized": "2026-06-19"
+      "metric_normalized": "2026-06-19",
+      "last_fill": 1780854529713
     },
     "0x128fae9d18a2f70d98a03c26bf17b67d97ce1f3c": {
       "address": "0x128fae9d18a2f70d98a03c26bf17b67d97ce1f3c",
@@ -521,7 +523,8 @@
       "true_realized_maj": 116072,
       "n_closes": 233,
       "active_days": 202.6,
-      "metric_normalized": "2026-06-19"
+      "metric_normalized": "2026-06-19",
+      "last_fill": 1781017691921
     },
     "0xe392e9008c49e7f82e7927a741fcb12799ebdb2b": {
       "address": "0xe392e9008c49e7f82e7927a741fcb12799ebdb2b",
@@ -643,7 +646,8 @@
       "true_realized_maj": 381728,
       "n_closes": 14547,
       "active_days": 372.1,
-      "metric_normalized": "2026-06-19"
+      "metric_normalized": "2026-06-19",
+      "last_fill": 1781813520874
     },
     "0x83b00972aafcc3d06d45b1b823079f9a414da46e": {
       "address": "0x83b00972aafcc3d06d45b1b823079f9a414da46e",
@@ -758,7 +762,8 @@
       "true_realized_maj": 48389,
       "n_closes": 1202,
       "active_days": 326.9,
-      "metric_normalized": "2026-06-19"
+      "metric_normalized": "2026-06-19",
+      "last_fill": 1781819317278
     },
     "0x9b5ae497fd1bf885a40d6f99d0c57245761e053c": {
       "address": "0x9b5ae497fd1bf885a40d6f99d0c57245761e053c",
@@ -909,7 +914,8 @@
       "true_realized_maj": 72242,
       "n_closes": 64,
       "active_days": 231.4,
-      "metric_normalized": "2026-06-19"
+      "metric_normalized": "2026-06-19",
+      "last_fill": 1780969883092
     },
     "0x388b3ea2d5fa291e47ecb9f5570012d84a891180": {
       "address": "0x388b3ea2d5fa291e47ecb9f5570012d84a891180",
@@ -1188,7 +1194,8 @@
       "true_realized_maj": 4262,
       "n_closes": 77,
       "active_days": 120.2,
-      "metric_normalized": "2026-06-19"
+      "metric_normalized": "2026-06-19",
+      "last_fill": 1781355141290
     },
     "0x5aadb434293b4e1b8fb2e84007e567506fe65a96": {
       "address": "0x5aadb434293b4e1b8fb2e84007e567506fe65a96",
@@ -1341,7 +1348,8 @@
       "true_realized_maj": 29684,
       "n_closes": 947,
       "active_days": 469.0,
-      "metric_normalized": "2026-06-19"
+      "metric_normalized": "2026-06-19",
+      "last_fill": 1781543542557
     },
     "0x4d3980ac9d84fc34adcd025ee2337786846343c4": {
       "address": "0x4d3980ac9d84fc34adcd025ee2337786846343c4",
@@ -1619,7 +1627,8 @@
       "true_realized_maj": 24242,
       "n_closes": 342,
       "active_days": 7.6,
-      "metric_normalized": "2026-06-19"
+      "metric_normalized": "2026-06-19",
+      "last_fill": 1781762652084
     },
     "0x8463d6ffcbfb56bf20ab2e1111f9a0e8359533f2": {
       "address": "0x8463d6ffcbfb56bf20ab2e1111f9a0e8359533f2",
@@ -1627,7 +1636,7 @@
       "times_seen": 4,
       "tags": [
         "Tier-D",
-        "取引なし(14d)"
+        "取引あり(14d)"
       ],
       "notes": "",
       "history": [
@@ -1738,14 +1747,15 @@
       "pro_tier": "D",
       "active_to": "2026-06-17",
       "active_from": "2026-06-17",
-      "active14": false,
+      "active14": true,
       "pro_score_old": 0.283,
       "pro_tier_old": "C",
       "true_realized_all": 274080,
       "true_realized_maj": 40268,
       "n_closes": 1486,
       "active_days": 106.7,
-      "metric_normalized": "2026-06-19"
+      "metric_normalized": "2026-06-19",
+      "last_fill": 1781846533272
     },
     "0xd117b0459ba2af1a397e76baa5efd580a3f7f99f": {
       "address": "0xd117b0459ba2af1a397e76baa5efd580a3f7f99f",
@@ -1975,7 +1985,8 @@
       "true_realized_maj": 20942,
       "n_closes": 411,
       "active_days": 98.1,
-      "metric_normalized": "2026-06-19"
+      "metric_normalized": "2026-06-19",
+      "last_fill": 1781721803508
     },
     "0xd05808946809c180d190608e13f473db30aa8524": {
       "address": "0xd05808946809c180d190608e13f473db30aa8524",
@@ -2056,7 +2067,8 @@
       "true_realized_maj": 472780,
       "n_closes": 572,
       "active_days": 23.1,
-      "metric_normalized": "2026-06-19"
+      "metric_normalized": "2026-06-19",
+      "last_fill": 1781800431564
     },
     "0xfe4dec8543b0b9cec0c897a689f7af7bddb02192": {
       "address": "0xfe4dec8543b0b9cec0c897a689f7af7bddb02192",
@@ -2162,7 +2174,8 @@
       "true_realized_maj": 27089,
       "n_closes": 125,
       "active_days": 20.9,
-      "metric_normalized": "2026-06-19"
+      "metric_normalized": "2026-06-19",
+      "last_fill": 1781805759631
     },
     "0x5b1efd32c62000cbeba7cccbc49fabdc57b2eb80": {
       "address": "0x5b1efd32c62000cbeba7cccbc49fabdc57b2eb80",
@@ -2310,7 +2323,8 @@
       "true_realized_maj": 133151,
       "n_closes": 1969,
       "active_days": 242.9,
-      "metric_normalized": "2026-06-19"
+      "metric_normalized": "2026-06-19",
+      "last_fill": 1781800462467
     },
     "0x5875d72130981b18692a3d29545e4038f7eb0c38": {
       "address": "0x5875d72130981b18692a3d29545e4038f7eb0c38",
@@ -2380,7 +2394,8 @@
       "n_closes": 1501,
       "active_days": 4.6,
       "metric_normalized": "2026-06-19",
-      "pro_tier": "C"
+      "pro_tier": "C",
+      "last_fill": 1781852326242
     },
     "0x2a934d40944e2b686ee9cdce74a3f67d32cd0347": {
       "address": "0x2a934d40944e2b686ee9cdce74a3f67d32cd0347",
@@ -5652,7 +5667,8 @@
       "true_realized_maj": 235718,
       "n_closes": 1606,
       "active_days": 44.2,
-      "metric_normalized": "2026-06-19"
+      "metric_normalized": "2026-06-19",
+      "last_fill": 1781817261376
     },
     "0x535191d6d49922d69cc7829dbb73e48694840db7": {
       "address": "0x535191d6d49922d69cc7829dbb73e48694840db7",
@@ -6417,7 +6433,7 @@
       "tags": [
         "Nansen発見",
         "Tier-A",
-        "取引なし(14d)",
+        "取引あり(14d)",
         "塩漬け:7日以上"
       ],
       "notes": "",
@@ -6541,7 +6557,7 @@
       "pro_realized": 1781589,
       "pro_span_days": 91,
       "pro_tier": "A",
-      "active14": false,
+      "active14": true,
       "pro_score_old": 0.328,
       "pro_tier_old": "C",
       "soak_detail": {
@@ -6558,7 +6574,8 @@
       "true_realized_maj": 2186779,
       "n_closes": 1680,
       "active_days": 28.0,
-      "metric_normalized": "2026-06-19"
+      "metric_normalized": "2026-06-19",
+      "last_fill": 1781855884108
     },
     "0x0a7097d919b7421ecc03aed3aac68a13e7ef1f46": {
       "address": "0x0a7097d919b7421ecc03aed3aac68a13e7ef1f46",
@@ -6911,7 +6928,8 @@
       "true_realized_maj": -5568,
       "n_closes": 376,
       "active_days": 931.4,
-      "metric_normalized": "2026-06-19"
+      "metric_normalized": "2026-06-19",
+      "last_fill": 1781733448463
     },
     "0x159d148acd970eaf88bed8feac4ad6d38e7c3665": {
       "address": "0x159d148acd970eaf88bed8feac4ad6d38e7c3665",
@@ -7066,7 +7084,7 @@
       "times_seen": 7,
       "tags": [
         "Tier-C",
-        "取引なし(14d)"
+        "取引あり(14d)"
       ],
       "notes": "",
       "history": [
@@ -7187,14 +7205,15 @@
       "pro_tier": "C",
       "active_to": "2026-06-14",
       "active_from": "2026-06-14",
-      "active14": false,
+      "active14": true,
       "pro_score_old": 0.19,
       "pro_tier_old": "D",
       "true_realized_all": 510939,
       "true_realized_maj": 296521,
       "n_closes": 6600,
       "active_days": 511.1,
-      "metric_normalized": "2026-06-19"
+      "metric_normalized": "2026-06-19",
+      "last_fill": 1781481600049
     },
     "0x321f7193eadbacb67eff00f76b975a487e5b1c84": {
       "address": "0x321f7193eadbacb67eff00f76b975a487e5b1c84",
@@ -7305,7 +7324,8 @@
       "n_closes": 1468,
       "active_days": 284.9,
       "metric_normalized": "2026-06-19",
-      "pro_tier": "D"
+      "pro_tier": "D",
+      "last_fill": 1781741621889
     },
     "0x5421e7c6ce37b6c5a6a428018a451071a6fd3ab2": {
       "address": "0x5421e7c6ce37b6c5a6a428018a451071a6fd3ab2",
@@ -9799,7 +9819,8 @@
       "true_realized_maj": 1298047,
       "n_closes": 6945,
       "active_days": 126.8,
-      "metric_normalized": "2026-06-19"
+      "metric_normalized": "2026-06-19",
+      "last_fill": 1781776920182
     },
     "0x39b07015ca813075bbce6f475767d5b4b9d518b0": {
       "address": "0x39b07015ca813075bbce6f475767d5b4b9d518b0",
@@ -10230,7 +10251,8 @@
       "true_realized_maj": 15603,
       "n_closes": 541,
       "active_days": 125.6,
-      "metric_normalized": "2026-06-19"
+      "metric_normalized": "2026-06-19",
+      "last_fill": 1781798315268
     },
     "0x68a24ccf099422806f1e73248517f3389c29c104": {
       "address": "0x68a24ccf099422806f1e73248517f3389c29c104",
@@ -10432,7 +10454,8 @@
       "true_realized_maj": 1391539,
       "n_closes": 6857,
       "active_days": 27.6,
-      "metric_normalized": "2026-06-19"
+      "metric_normalized": "2026-06-19",
+      "last_fill": 1780899599274
     },
     "0x2607a3909cee65aa8205ca26f7db2d9244389577": {
       "address": "0x2607a3909cee65aa8205ca26f7db2d9244389577",
@@ -11178,7 +11201,7 @@
         "HL検証済プロ",
         "Nansen発見",
         "Tier-S",
-        "取引なし(14d)"
+        "取引あり(14d)"
       ],
       "notes": "",
       "history": [
@@ -11226,7 +11249,7 @@
       "active_from": "2026-01-31",
       "active_to": "2026-02-24",
       "trade_days": 24,
-      "active14": false,
+      "active14": true,
       "first_funders": [
         {
           "address": "0x74bd3e2f5a42420440218e32a4407deabaabd1ba",
@@ -11242,7 +11265,8 @@
       "true_realized_maj": 6329589,
       "n_closes": 3929,
       "active_days": 4.4,
-      "metric_normalized": "2026-06-19"
+      "metric_normalized": "2026-06-19",
+      "last_fill": 1780669142478
     },
     "0x4196dc4a1dc7d3bfd5434adf04c829f4ccaf480d": {
       "address": "0x4196dc4a1dc7d3bfd5434adf04c829f4ccaf480d",
@@ -11628,7 +11652,8 @@
       "true_realized_maj": 3315530,
       "n_closes": 721,
       "active_days": 206.9,
-      "metric_normalized": "2026-06-19"
+      "metric_normalized": "2026-06-19",
+      "last_fill": 1780678341422
     },
     "0x0b00c540bc5f203d97ac87da62164d3d37e19798": {
       "address": "0x0b00c540bc5f203d97ac87da62164d3d37e19798",
@@ -11760,7 +11785,8 @@
       "true_realized_maj": 6340810,
       "n_closes": 3425,
       "active_days": 189.5,
-      "metric_normalized": "2026-06-19"
+      "metric_normalized": "2026-06-19",
+      "last_fill": 1781074713133
     },
     "0xed41a12ea862f31df054e9bd3af1dd59486c6029": {
       "address": "0xed41a12ea862f31df054e9bd3af1dd59486c6029",
@@ -11915,7 +11941,8 @@
       "true_realized_maj": 2150195,
       "n_closes": 978,
       "active_days": 137.8,
-      "metric_normalized": "2026-06-19"
+      "metric_normalized": "2026-06-19",
+      "last_fill": 1777334400035
     },
     "0x5bc43f38c2ddcd85857f218674cd384f172c3b0c": {
       "address": "0x5bc43f38c2ddcd85857f218674cd384f172c3b0c",
@@ -12239,7 +12266,7 @@
       "tags": [
         "Nansen発見",
         "Tier-C",
-        "取引なし(14d)",
+        "取引あり(14d)",
         "稼ぎ確認・先行不明(要精査)"
       ],
       "notes": "",
@@ -12345,14 +12372,15 @@
       "active_from": "2025-05-29",
       "active_to": "2026-06-17",
       "trade_days": 384,
-      "active14": false,
+      "active14": true,
       "pro_score_old": 0.763,
       "pro_tier_old": "S",
       "true_realized_all": 373018,
       "true_realized_maj": -54281,
       "n_closes": 68,
       "active_days": 169.0,
-      "metric_normalized": "2026-06-19"
+      "metric_normalized": "2026-06-19",
+      "last_fill": 1781702533427
     },
     "0x833b99b27dac651d02080f5e220e929df891db06": {
       "address": "0x833b99b27dac651d02080f5e220e929df891db06",
@@ -12628,7 +12656,8 @@
       "true_realized_maj": 2219377,
       "n_closes": 717,
       "active_days": 431.2,
-      "metric_normalized": "2026-06-19"
+      "metric_normalized": "2026-06-19",
+      "last_fill": 1770337201601
     },
     "0x84abc08c0ea62e687c370154de1f38ea462f4d37": {
       "address": "0x84abc08c0ea62e687c370154de1f38ea462f4d37",
@@ -13153,7 +13182,8 @@
       "true_realized_maj": 3,
       "n_closes": 2,
       "active_days": 0.0,
-      "metric_normalized": "2026-06-19"
+      "metric_normalized": "2026-06-19",
+      "last_fill": 1778063829217
     },
     "0xd82f7d84a524b8e82de0cb3df1f04e338604fd8e": {
       "address": "0xd82f7d84a524b8e82de0cb3df1f04e338604fd8e",
@@ -13592,7 +13622,8 @@
       "true_realized_maj": 2031004,
       "n_closes": 1677,
       "active_days": 256.9,
-      "metric_normalized": "2026-06-19"
+      "metric_normalized": "2026-06-19",
+      "last_fill": 1779586230210
     },
     "0x36ac01de9bc76c0d744b38c3e13a0538d55c7568": {
       "address": "0x36ac01de9bc76c0d744b38c3e13a0538d55c7568",
@@ -13720,7 +13751,8 @@
       "true_realized_maj": 1928778,
       "n_closes": 2488,
       "active_days": 223.8,
-      "metric_normalized": "2026-06-19"
+      "metric_normalized": "2026-06-19",
+      "last_fill": 1775540559707
     },
     "0x7da85a334e43a6b1c2c0da9623409d9ee9047747": {
       "address": "0x7da85a334e43a6b1c2c0da9623409d9ee9047747",
@@ -14325,7 +14357,8 @@
       "true_realized_maj": 0,
       "n_closes": 0,
       "active_days": null,
-      "metric_normalized": "2026-06-19"
+      "metric_normalized": "2026-06-19",
+      "last_fill": 1778775536846
     },
     "0x99b3ba1c1b7ad83d0164d996e3d271ae8c842551": {
       "address": "0x99b3ba1c1b7ad83d0164d996e3d271ae8c842551",
@@ -14454,7 +14487,8 @@
       "true_realized_maj": 183193,
       "n_closes": 1046,
       "active_days": 5.0,
-      "metric_normalized": "2026-06-19"
+      "metric_normalized": "2026-06-19",
+      "last_fill": 1777911784290
     },
     "0x05904930cae1e9a48c055f4a8a83480ba7fc6abf": {
       "address": "0x05904930cae1e9a48c055f4a8a83480ba7fc6abf",
@@ -14559,7 +14593,7 @@
       "tags": [
         "Nansen発見",
         "Tier-B",
-        "取引あり(14d)",
+        "取引なし(14d)",
         "稼ぎ確認・先行不明(要精査)"
       ],
       "notes": "",
@@ -14604,7 +14638,7 @@
       "active_from": "2026-03-25",
       "active_to": "2026-06-04",
       "trade_days": 71,
-      "active14": true,
+      "active14": false,
       "nansen_errors": [],
       "pro_score_old": 0.406,
       "pro_tier_old": "B",
@@ -14612,7 +14646,8 @@
       "true_realized_maj": 0,
       "n_closes": 0,
       "active_days": null,
-      "metric_normalized": "2026-06-19"
+      "metric_normalized": "2026-06-19",
+      "last_fill": 1780560782334
     },
     "0x5846ac5619d2a762751b1663d86a402085505765": {
       "address": "0x5846ac5619d2a762751b1663d86a402085505765",
@@ -14741,7 +14776,8 @@
       "true_realized_maj": 0,
       "n_closes": 0,
       "active_days": null,
-      "metric_normalized": "2026-06-19"
+      "metric_normalized": "2026-06-19",
+      "last_fill": 1774302308456
     },
     "0xa3d843b6a057504284006bef6f34a2e9bc80fb6b": {
       "address": "0xa3d843b6a057504284006bef6f34a2e9bc80fb6b",
@@ -14751,7 +14787,7 @@
         "HL検証済プロ",
         "Nansen発見",
         "Tier-B",
-        "取引なし(14d)"
+        "取引あり(14d)"
       ],
       "notes": "",
       "history": [
@@ -14798,7 +14834,7 @@
       "active_from": "2025-11-21",
       "active_to": "2026-06-14",
       "trade_days": 205,
-      "active14": false,
+      "active14": true,
       "first_funders": [
         {
           "address": "0xb38e8c17e38363af6ebdcb3dae12e0243582891d",
@@ -14896,7 +14932,8 @@
       "true_realized_maj": 1423967,
       "n_closes": 2392,
       "active_days": 56.5,
-      "metric_normalized": "2026-06-19"
+      "metric_normalized": "2026-06-19",
+      "last_fill": 1781473664497
     },
     "0x9836e286fbf4f71998827d4bd6ea3b470c26457e": {
       "address": "0x9836e286fbf4f71998827d4bd6ea3b470c26457e",
@@ -15109,7 +15146,8 @@
       "true_realized_maj": 0,
       "n_closes": 0,
       "active_days": null,
-      "metric_normalized": "2026-06-19"
+      "metric_normalized": "2026-06-19",
+      "last_fill": 1781797534960
     },
     "0x06466f9ac08e872064950cec3812b57d6feafa7f": {
       "address": "0x06466f9ac08e872064950cec3812b57d6feafa7f",
@@ -15264,7 +15302,8 @@
       "true_realized_maj": 940933,
       "n_closes": 289,
       "active_days": 229.7,
-      "metric_normalized": "2026-06-19"
+      "metric_normalized": "2026-06-19",
+      "last_fill": 1772671122665
     },
     "0xef70339934261ca3524bddfa7d02e0a69107a84c": {
       "address": "0xef70339934261ca3524bddfa7d02e0a69107a84c",
@@ -15537,7 +15576,8 @@
       "n_closes": 2166,
       "active_days": 494.3,
       "metric_normalized": "2026-06-19",
-      "mh_detr72_local": 0.066
+      "mh_detr72_local": 0.066,
+      "last_fill": 1781252224533
     },
     "0x2373962eec8ed3764ddc1142244ac1e0fa38d0d8": {
       "address": "0x2373962eec8ed3764ddc1142244ac1e0fa38d0d8",
@@ -15626,7 +15666,8 @@
       "true_realized_maj": 893117,
       "n_closes": 2313,
       "active_days": 121.6,
-      "metric_normalized": "2026-06-19"
+      "metric_normalized": "2026-06-19",
+      "last_fill": 1776786396612
     },
     "0xdc38f7ee386b7eea3842643e56b08ee5bb40f625": {
       "address": "0xdc38f7ee386b7eea3842643e56b08ee5bb40f625",
@@ -16138,7 +16179,8 @@
       "true_realized_maj": 573128,
       "n_closes": 1569,
       "active_days": 77.2,
-      "metric_normalized": "2026-06-19"
+      "metric_normalized": "2026-06-19",
+      "last_fill": 1781331933172
     },
     "0x500bea59133e20dc63b7e88913b30348494b84ba": {
       "address": "0x500bea59133e20dc63b7e88913b30348494b84ba",
@@ -16554,7 +16596,8 @@
       "true_realized_maj": 735718,
       "n_closes": 325,
       "active_days": 8.2,
-      "metric_normalized": "2026-06-19"
+      "metric_normalized": "2026-06-19",
+      "last_fill": 1780556485230
     },
     "0xd8d0358919a944d4efa98713795d49b030e43ef9": {
       "address": "0xd8d0358919a944d4efa98713795d49b030e43ef9",
@@ -17067,7 +17110,8 @@
       "true_realized_maj": 248595,
       "n_closes": 622,
       "active_days": 4.8,
-      "metric_normalized": "2026-06-19"
+      "metric_normalized": "2026-06-19",
+      "last_fill": 1776620975335
     },
     "0x1fe06653816cd53afb36a18f059b0ada2a3c8f20": {
       "address": "0x1fe06653816cd53afb36a18f059b0ada2a3c8f20",
@@ -17190,7 +17234,8 @@
       "true_realized_maj": 977561,
       "n_closes": 297,
       "active_days": 220.2,
-      "metric_normalized": "2026-06-19"
+      "metric_normalized": "2026-06-19",
+      "last_fill": 1780327129596
     },
     "0x0980b34ade9476dba81bcdb0f865a333793ad1c2": {
       "address": "0x0980b34ade9476dba81bcdb0f865a333793ad1c2",
@@ -17351,7 +17396,8 @@
       "true_realized_maj": -10132,
       "n_closes": 48,
       "active_days": 274.8,
-      "metric_normalized": "2026-06-19"
+      "metric_normalized": "2026-06-19",
+      "last_fill": 1778850449427
     },
     "0xa99c9e5484e5b26635c07876d0859a1819ff40d5": {
       "address": "0xa99c9e5484e5b26635c07876d0859a1819ff40d5",
@@ -17484,7 +17530,8 @@
       "true_realized_maj": 2404,
       "n_closes": 215,
       "active_days": 313.5,
-      "metric_normalized": "2026-06-19"
+      "metric_normalized": "2026-06-19",
+      "last_fill": 1781813185008
     },
     "0xaa3f51a8095d030e38317e917839c87315300bee": {
       "address": "0xaa3f51a8095d030e38317e917839c87315300bee",
@@ -17632,7 +17679,8 @@
       "true_realized_maj": 609754,
       "n_closes": 233,
       "active_days": 271.0,
-      "metric_normalized": "2026-06-19"
+      "metric_normalized": "2026-06-19",
+      "last_fill": 1777313081466
     },
     "0x6a02aedceac5a6813d960e4dae1910d9c458e77c": {
       "address": "0x6a02aedceac5a6813d960e4dae1910d9c458e77c",
@@ -17700,7 +17748,8 @@
       "true_realized_maj": 272994,
       "n_closes": 987,
       "active_days": 88.8,
-      "metric_normalized": "2026-06-19"
+      "metric_normalized": "2026-06-19",
+      "last_fill": 1781718830592
     },
     "0x39761615093bbd473af359068d075a2b03b99857": {
       "address": "0x39761615093bbd473af359068d075a2b03b99857",
@@ -17876,7 +17925,8 @@
       "true_realized_maj": 919385,
       "n_closes": 978,
       "active_days": 168.7,
-      "metric_normalized": "2026-06-19"
+      "metric_normalized": "2026-06-19",
+      "last_fill": 1772391324379
     },
     "0x8554501f855388039f2bc86110462adfbbde46dc": {
       "address": "0x8554501f855388039f2bc86110462adfbbde46dc",
@@ -18461,7 +18511,7 @@
         "HL検証済プロ",
         "Nansen発見",
         "Tier-B",
-        "取引なし(14d)"
+        "取引あり(14d)"
       ],
       "notes": "",
       "history": [
@@ -18508,7 +18558,7 @@
       "active_from": "2024-08-12",
       "active_to": "2025-10-31",
       "trade_days": 445,
-      "active14": false,
+      "active14": true,
       "first_funders": [
         {
           "address": "0xf92402bb795fd7cd08fb83839689db79099c8c9c",
@@ -18550,7 +18600,8 @@
       "true_realized_maj": 395196,
       "n_closes": 1671,
       "active_days": 584.5,
-      "metric_normalized": "2026-06-19"
+      "metric_normalized": "2026-06-19",
+      "last_fill": 1781104551021
     },
     "0x1f67d79afc8d0e7609ddba6c9b657cc635f69981": {
       "address": "0x1f67d79afc8d0e7609ddba6c9b657cc635f69981",
@@ -18778,7 +18829,8 @@
       "true_realized_maj": 0,
       "n_closes": 0,
       "active_days": null,
-      "metric_normalized": "2026-06-19"
+      "metric_normalized": "2026-06-19",
+      "last_fill": 1779817226860
     },
     "0xb9eb061e64d32c8e0a6c6992a7dc32a32df9cb74": {
       "address": "0xb9eb061e64d32c8e0a6c6992a7dc32a32df9cb74",
@@ -18896,7 +18948,7 @@
         "HL検証済プロ",
         "Nansen発見",
         "Tier-C",
-        "取引なし(14d)"
+        "取引あり(14d)"
       ],
       "notes": "",
       "history": [
@@ -18943,7 +18995,7 @@
       "active_from": "2024-12-14",
       "active_to": "2026-06-08",
       "trade_days": 541,
-      "active14": false,
+      "active14": true,
       "first_funders": [
         {
           "address": "0x8a4a9dac99daa4a77d2bcd8ef6f5abf5966479f8",
@@ -18993,7 +19045,8 @@
       "true_realized_maj": 20933,
       "n_closes": 70,
       "active_days": 0.4,
-      "metric_normalized": "2026-06-19"
+      "metric_normalized": "2026-06-19",
+      "last_fill": 1781767634849
     },
     "0x4c7a572ad38aed2c1d33fbfeba7bd69a83ec0e30": {
       "address": "0x4c7a572ad38aed2c1d33fbfeba7bd69a83ec0e30",
@@ -19260,7 +19313,7 @@
         "HL検証済プロ",
         "Nansen発見",
         "Tier-C",
-        "取引なし(14d)",
+        "取引あり(14d)",
         "塩漬け:7日以上"
       ],
       "notes": "",
@@ -19308,7 +19361,7 @@
       "active_from": "2025-10-20",
       "active_to": "2026-06-14",
       "trade_days": 237,
-      "active14": false,
+      "active14": true,
       "first_funders": [
         {
           "address": "0xe35e9842fceaca96570b734083f4a58e8f7c5f2a",
@@ -19416,7 +19469,8 @@
       "true_realized_maj": 483618,
       "n_closes": 1255,
       "active_days": 196.8,
-      "metric_normalized": "2026-06-19"
+      "metric_normalized": "2026-06-19",
+      "last_fill": 1781851988651
     },
     "0x039405fa4636364e6023df1e06b085a462b9cdc9": {
       "address": "0x039405fa4636364e6023df1e06b085a462b9cdc9",
@@ -19889,7 +19943,7 @@
         "HL検証済プロ",
         "Nansen発見",
         "Tier-C",
-        "取引なし(14d)",
+        "取引あり(14d)",
         "塩漬け:7日以上"
       ],
       "notes": "",
@@ -19937,7 +19991,7 @@
       "active_from": "2025-10-28",
       "active_to": "2026-06-11",
       "trade_days": 226,
-      "active14": false,
+      "active14": true,
       "first_funders": [
         {
           "address": "0x2644aece62ced4a740bba4a623ab7ba23486f157",
@@ -20045,7 +20099,8 @@
       "true_realized_maj": 477997,
       "n_closes": 358,
       "active_days": 219.1,
-      "metric_normalized": "2026-06-19"
+      "metric_normalized": "2026-06-19",
+      "last_fill": 1781142287424
     },
     "0x4b563051258ade30122940b80f575363baa4445b": {
       "address": "0x4b563051258ade30122940b80f575363baa4445b",
@@ -20109,7 +20164,7 @@
         "HL検証済プロ",
         "Nansen発見",
         "Tier-C",
-        "取引なし(14d)"
+        "取引あり(14d)"
       ],
       "notes": "",
       "history": [
@@ -20156,7 +20211,7 @@
       "active_from": "2025-07-16",
       "active_to": "2026-06-15",
       "trade_days": 334,
-      "active14": false,
+      "active14": true,
       "first_funders": [
         {
           "address": "0xb38e8c17e38363af6ebdcb3dae12e0243582891d",
@@ -20246,7 +20301,8 @@
       "true_realized_maj": 332299,
       "n_closes": 470,
       "active_days": 271.1,
-      "metric_normalized": "2026-06-19"
+      "metric_normalized": "2026-06-19",
+      "last_fill": 1781841680532
     },
     "0x2c5dc7e67fce4bc252221c46c1cdc7651838b2d8": {
       "address": "0x2c5dc7e67fce4bc252221c46c1cdc7651838b2d8",
@@ -20799,7 +20855,8 @@
       "true_realized_maj": 58097,
       "n_closes": 445,
       "active_days": 113.0,
-      "metric_normalized": "2026-06-19"
+      "metric_normalized": "2026-06-19",
+      "last_fill": 1776204598084
     },
     "0xf780adb6ca4a737d2a8def6dd445b0c0276d70e1": {
       "address": "0xf780adb6ca4a737d2a8def6dd445b0c0276d70e1",
@@ -21486,7 +21543,8 @@
       "true_realized_maj": -16053,
       "n_closes": 88,
       "active_days": 574.1,
-      "metric_normalized": "2026-06-19"
+      "metric_normalized": "2026-06-19",
+      "last_fill": 1781604613297
     },
     "0x0ed73f6d6f0ad13f3cfd915575390f92e0d49761": {
       "address": "0x0ed73f6d6f0ad13f3cfd915575390f92e0d49761",
@@ -21906,7 +21964,7 @@
       "tags": [
         "Nansen発見",
         "Tier-C",
-        "取引なし(14d)",
+        "取引あり(14d)",
         "塩漬け:7日以上",
         "稼ぎ確認・先行不明(要精査)"
       ],
@@ -21991,7 +22049,7 @@
       "active_from": "2024-01-31",
       "active_to": "2026-06-16",
       "trade_days": 867,
-      "active14": false,
+      "active14": true,
       "pro_score_old": 0.503,
       "pro_tier_old": "A",
       "soak_detail": {
@@ -22008,7 +22066,8 @@
       "true_realized_maj": 7487,
       "n_closes": 111,
       "active_days": 417.0,
-      "metric_normalized": "2026-06-19"
+      "metric_normalized": "2026-06-19",
+      "last_fill": 1781613860963
     },
     "0xbf55d2d31c193e475d9d52006359f1fe51ecb7ce": {
       "address": "0xbf55d2d31c193e475d9d52006359f1fe51ecb7ce",
@@ -23072,7 +23131,7 @@
         "HL検証済プロ",
         "Nansen発見",
         "Tier-C",
-        "取引なし(14d)"
+        "取引あり(14d)"
       ],
       "notes": "",
       "history": [
@@ -23119,7 +23178,7 @@
       "active_from": "2024-04-06",
       "active_to": "2026-06-10",
       "trade_days": 795,
-      "active14": false,
+      "active14": true,
       "first_funders": [
         {
           "address": "0x490b1e689ca23be864e55b46bf038e007b528208",
@@ -23153,7 +23212,8 @@
       "true_realized_maj": 77256,
       "n_closes": 79,
       "active_days": 30.6,
-      "metric_normalized": "2026-06-19"
+      "metric_normalized": "2026-06-19",
+      "last_fill": 1781109258077
     },
     "0xf2efcd0bedf771dc63eb655d395c15a9d753550a": {
       "address": "0xf2efcd0bedf771dc63eb655d395c15a9d753550a",
@@ -24051,7 +24111,7 @@
         "HL検証済プロ",
         "Nansen発見",
         "Tier-A",
-        "取引なし(14d)",
+        "取引あり(14d)",
         "塩漬け:7日以上"
       ],
       "notes": "",
@@ -24099,7 +24159,7 @@
       "active_from": "2025-07-06",
       "active_to": "2026-06-12",
       "trade_days": 341,
-      "active14": false,
+      "active14": true,
       "first_funders": [
         {
           "address": "0x74ac8ec0c6fc83b4127816c23930bea9e1a83df5",
@@ -24207,7 +24267,8 @@
       "true_realized_maj": -27051,
       "n_closes": 860,
       "active_days": 96.6,
-      "metric_normalized": "2026-06-19"
+      "metric_normalized": "2026-06-19",
+      "last_fill": 1781278294169
     },
     "0xd13552538def5cecc78a20aa2236573f0bee6443": {
       "address": "0xd13552538def5cecc78a20aa2236573f0bee6443",
@@ -24647,7 +24708,8 @@
       "true_realized_maj": 0,
       "n_closes": 0,
       "active_days": null,
-      "metric_normalized": "2026-06-19"
+      "metric_normalized": "2026-06-19",
+      "last_fill": 1767620241920
     },
     "0x3480d3f9b45a5669cb3c7a576b092798fd5db5d8": {
       "address": "0x3480d3f9b45a5669cb3c7a576b092798fd5db5d8",
@@ -27358,7 +27420,8 @@
       "n_closes": 522,
       "active_days": 126.6,
       "metric_normalized": "2026-06-19",
-      "mh_detr72_local": 0.031
+      "mh_detr72_local": 0.031,
+      "last_fill": 1777792944793
     },
     "0x3e1992da09489b64c35685ba407bbd9b110565e0": {
       "address": "0x3e1992da09489b64c35685ba407bbd9b110565e0",
@@ -34536,7 +34599,8 @@
       "true_realized_maj": 4117206,
       "n_closes": 1016,
       "active_days": 117.2,
-      "metric_normalized": "2026-06-19"
+      "metric_normalized": "2026-06-19",
+      "last_fill": 1769890240481
     },
     "0xb632c6580173a16154f17cdafc6eb27e95cf73b7": {
       "address": "0xb632c6580173a16154f17cdafc6eb27e95cf73b7",
@@ -34670,7 +34734,8 @@
       "true_realized_maj": 3359608,
       "n_closes": 2450,
       "active_days": 79.1,
-      "metric_normalized": "2026-06-19"
+      "metric_normalized": "2026-06-19",
+      "last_fill": 1770299557733
     },
     "0x41206f8efb51e5039e5b46e04e7866a4849f72d2": {
       "address": "0x41206f8efb51e5039e5b46e04e7866a4849f72d2",
@@ -34754,7 +34819,8 @@
       "true_realized_maj": 2036337,
       "n_closes": 2177,
       "active_days": 138.7,
-      "metric_normalized": "2026-06-19"
+      "metric_normalized": "2026-06-19",
+      "last_fill": 1770090773399
     },
     "0x6979dde2781dc4ec843641b10b2a2f2e0f4bda62": {
       "address": "0x6979dde2781dc4ec843641b10b2a2f2e0f4bda62",
@@ -34804,7 +34870,8 @@
       "true_realized_maj": 104838,
       "n_closes": 270,
       "active_days": 112.3,
-      "metric_normalized": "2026-06-19"
+      "metric_normalized": "2026-06-19",
+      "last_fill": 1780153473004
     },
     "0xcefd7652228a8619d0af5b95389cd49387cd30e0": {
       "address": "0xcefd7652228a8619d0af5b95389cd49387cd30e0",
@@ -34862,7 +34929,8 @@
       "true_realized_maj": -77162,
       "n_closes": 849,
       "active_days": 330.3,
-      "metric_normalized": "2026-06-19"
+      "metric_normalized": "2026-06-19",
+      "last_fill": 1780618868475
     },
     "0x3b11267dfc4b9ebe8427e8f557056b4b6ce98112": {
       "address": "0x3b11267dfc4b9ebe8427e8f557056b4b6ce98112",
@@ -35048,7 +35116,8 @@
       "true_realized_maj": 376812,
       "n_closes": 365,
       "active_days": 87.5,
-      "metric_normalized": "2026-06-19"
+      "metric_normalized": "2026-06-19",
+      "last_fill": 1781623683960
     },
     "0x5638484ba2d2f1d1d35020572b0aa439a9869192": {
       "address": "0x5638484ba2d2f1d1d35020572b0aa439a9869192",
@@ -35136,7 +35205,8 @@
       "true_realized_maj": 1088295,
       "n_closes": 1016,
       "active_days": 90.5,
-      "metric_normalized": "2026-06-19"
+      "metric_normalized": "2026-06-19",
+      "last_fill": 1774915200016
     },
     "0x4b4bdd734b87bc48683d24f1dc6159e3ab6d6409": {
       "address": "0x4b4bdd734b87bc48683d24f1dc6159e3ab6d6409",
@@ -35236,7 +35306,8 @@
       "true_realized_maj": 916965,
       "n_closes": 1819,
       "active_days": 9.8,
-      "metric_normalized": "2026-06-19"
+      "metric_normalized": "2026-06-19",
+      "last_fill": 1780331378915
     },
     "0x1e5b1efd99c89d39b59b28a19e6b42bbeb98433b": {
       "address": "0x1e5b1efd99c89d39b59b28a19e6b42bbeb98433b",
@@ -35294,7 +35365,8 @@
       "true_realized_maj": 1026143,
       "n_closes": 278,
       "active_days": 121.8,
-      "metric_normalized": "2026-06-19"
+      "metric_normalized": "2026-06-19",
+      "last_fill": 1769766353861
     },
     "0x7de07bb8a43c1953a019906cf2c8287dae478be9": {
       "address": "0x7de07bb8a43c1953a019906cf2c8287dae478be9",
@@ -35445,7 +35517,8 @@
       "true_realized_maj": 1016225,
       "n_closes": 771,
       "active_days": 423.9,
-      "metric_normalized": "2026-06-19"
+      "metric_normalized": "2026-06-19",
+      "last_fill": 1770141404881
     },
     "0xc604faf510aa5b617c9fb1556d02d6d22c9644be": {
       "address": "0xc604faf510aa5b617c9fb1556d02d6d22c9644be",
@@ -35503,7 +35576,8 @@
       "true_realized_maj": 911248,
       "n_closes": 150,
       "active_days": 225.8,
-      "metric_normalized": "2026-06-19"
+      "metric_normalized": "2026-06-19",
+      "last_fill": 1773459532013
     },
     "0x7c9063122c01837fe83da2521056e10c9b6dd129": {
       "address": "0x7c9063122c01837fe83da2521056e10c9b6dd129",
@@ -35512,7 +35586,7 @@
       "tags": [
         "Nansen発見",
         "Tier-C",
-        "取引なし(14d)",
+        "取引あり(14d)",
         "稼ぎ確認・先行不明(要精査)"
       ],
       "notes": "",
@@ -35609,14 +35683,15 @@
       "active_from": "2025-11-05",
       "active_to": "2026-06-15",
       "trade_days": 222,
-      "active14": false,
+      "active14": true,
       "pro_score_old": 0.385,
       "pro_tier_old": "B",
       "true_realized_all": 745231,
       "true_realized_maj": -41,
       "n_closes": 1,
       "active_days": 1.0,
-      "metric_normalized": "2026-06-19"
+      "metric_normalized": "2026-06-19",
+      "last_fill": 1781505033478
     },
     "0xae551d73161bac3315c5ade0e2d499a44ebe2236": {
       "address": "0xae551d73161bac3315c5ade0e2d499a44ebe2236",
@@ -35685,7 +35760,8 @@
       "true_realized_maj": 98108,
       "n_closes": 151,
       "active_days": 830.3,
-      "metric_normalized": "2026-06-19"
+      "metric_normalized": "2026-06-19",
+      "last_fill": 1781472225896
     },
     "0x0d9654172413fa8bcd2f5738a7b2fa6d19864125": {
       "address": "0x0d9654172413fa8bcd2f5738a7b2fa6d19864125",
@@ -35743,7 +35819,8 @@
       "true_realized_maj": 710350,
       "n_closes": 3241,
       "active_days": 6.3,
-      "metric_normalized": "2026-06-19"
+      "metric_normalized": "2026-06-19",
+      "last_fill": 1772214852067
     },
     "0x9b804150c9a4f6db44ba4fd67704eadb5be360c1": {
       "address": "0x9b804150c9a4f6db44ba4fd67704eadb5be360c1",
@@ -35793,7 +35870,8 @@
       "true_realized_maj": 700722,
       "n_closes": 230,
       "active_days": 1.6,
-      "metric_normalized": "2026-06-19"
+      "metric_normalized": "2026-06-19",
+      "last_fill": 1773007517787
     },
     "0xf3362789cecf25c6a31288d172880d7ad9b81801": {
       "address": "0xf3362789cecf25c6a31288d172880d7ad9b81801",
@@ -35862,7 +35940,8 @@
       "true_realized_maj": 658338,
       "n_closes": 1944,
       "active_days": 99.5,
-      "metric_normalized": "2026-06-19"
+      "metric_normalized": "2026-06-19",
+      "last_fill": 1776357083872
     },
     "0x69b05701f8175c276ecd0138387a197948e240bb": {
       "address": "0x69b05701f8175c276ecd0138387a197948e240bb",
@@ -35871,7 +35950,7 @@
       "tags": [
         "Nansen発見",
         "Tier-D",
-        "取引なし(14d)",
+        "取引あり(14d)",
         "稼ぎ確認・先行不明(要精査)"
       ],
       "notes": "",
@@ -35924,14 +36003,15 @@
       "active_from": "2025-06-05",
       "active_to": "2026-06-16",
       "trade_days": 376,
-      "active14": false,
+      "active14": true,
       "pro_score_old": 0.508,
       "pro_tier_old": "A",
       "true_realized_all": 216485,
       "true_realized_maj": 192608,
       "n_closes": 899,
       "active_days": 112.9,
-      "metric_normalized": "2026-06-19"
+      "metric_normalized": "2026-06-19",
+      "last_fill": 1781803849248
     },
     "0x5198eff88dea32108605bcdb109a99dc397190d8": {
       "address": "0x5198eff88dea32108605bcdb109a99dc397190d8",
@@ -35981,7 +36061,8 @@
       "true_realized_maj": 613832,
       "n_closes": 71,
       "active_days": 142.0,
-      "metric_normalized": "2026-06-19"
+      "metric_normalized": "2026-06-19",
+      "last_fill": 1777820982185
     },
     "0xa906355beaf1d69a5fe73ce55899c49c6e67916c": {
       "address": "0xa906355beaf1d69a5fe73ce55899c49c6e67916c",
@@ -36107,7 +36188,8 @@
       "true_realized_maj": 115535,
       "n_closes": 424,
       "active_days": 309.9,
-      "metric_normalized": "2026-06-19"
+      "metric_normalized": "2026-06-19",
+      "last_fill": 1779321600086
     },
     "0x8250a7f9fca9c33e68eead8c05c1d58c8fd70d13": {
       "address": "0x8250a7f9fca9c33e68eead8c05c1d58c8fd70d13",
@@ -36240,7 +36322,8 @@
       "true_realized_maj": 540758,
       "n_closes": 97,
       "active_days": 54.1,
-      "metric_normalized": "2026-06-19"
+      "metric_normalized": "2026-06-19",
+      "last_fill": 1768421507755
     },
     "0x8a48dcaffdf71c547cd0fd0434ae40fa57bcbf0f": {
       "address": "0x8a48dcaffdf71c547cd0fd0434ae40fa57bcbf0f",
@@ -36356,7 +36439,8 @@
       "true_realized_maj": 402850,
       "n_closes": 413,
       "active_days": 114.0,
-      "metric_normalized": "2026-06-19"
+      "metric_normalized": "2026-06-19",
+      "last_fill": 1779235200009
     },
     "0xbf49647d017805fcc576ac10f33a788e636f4258": {
       "address": "0xbf49647d017805fcc576ac10f33a788e636f4258",
@@ -36823,7 +36907,7 @@
       ],
       "hl_checked": "2026-06-18",
       "nansen_checked": "2026-06-18",
-      "active14": false,
+      "active14": true,
       "trade_days": 537,
       "n_closes": 1674,
       "realized_majors": 1312009,
@@ -36834,7 +36918,7 @@
       "auto_tags": [],
       "tags": [
         "Nansen発見",
-        "取引なし(14d)",
+        "取引あり(14d)",
         "局所検証済(真の遅効エッジ)",
         "未照会発掘",
         "遅効エッジ(24-72h)"
@@ -36844,7 +36928,8 @@
       "true_realized_maj": 1312009,
       "active_days": 537.2,
       "metric_normalized": "2026-06-19",
-      "mh_detr72_local": 0.092
+      "mh_detr72_local": 0.092,
+      "last_fill": 1781669770083
     },
     "0x5aa6a1d420bf8fa45d141af73e9230e1e8c3dc16": {
       "address": "0x5aa6a1d420bf8fa45d141af73e9230e1e8c3dc16",
@@ -37595,7 +37680,8 @@
       "true_realized_maj": 157364,
       "active_days": 381.4,
       "metric_normalized": "2026-06-19",
-      "mh_detr72_local": 0.03
+      "mh_detr72_local": 0.03,
+      "last_fill": 1781481600049
     },
     "0x3e41a8fa0032d635f02201053f1a5aa2a6967c81": {
       "address": "0x3e41a8fa0032d635f02201053f1a5aa2a6967c81",

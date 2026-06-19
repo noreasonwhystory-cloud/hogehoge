@@ -53,8 +53,16 @@ def _fetch(addr, start, max_pages):
     return out
 
 
+def _recent(addr):
+    """userFills(最新最大2000件)。高頻度でページング上限に達しても最新を取りこぼさぬ保険。"""
+    try:
+        return hl_client._post_info({"type": "userFills", "user": addr}) or []
+    except Exception:
+        return []
+
+
 def get_fills(addr, max_pages=40, refresh=True):
-    """キャッシュを読み、refresh時は前回最終時刻以降を増分取得して追記。dedupe済の全約定を返す。"""
+    """キャッシュを読み、refresh時は前回最終時刻以降を増分取得＋最新userFillsをマージ。dedupe済の全約定を返す。"""
     addr = addr.lower()
     os.makedirs(CACHE_DIR, exist_ok=True)
     cached, last = _load(addr)
@@ -62,6 +70,7 @@ def get_fills(addr, max_pages=40, refresh=True):
     if refresh or not cached:
         start = (last + 1) if cached else 0
         new = _fetch(addr, start, max_pages)
+        new += _recent(addr)        # 最新2000を必ず合流(高頻度の取りこぼし＝古い窓固定を防ぐ)
     if not new:
         return cached
     seen, merged = set(), []
