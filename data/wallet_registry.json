@@ -1799,7 +1799,6 @@
       "times_seen": 4,
       "tags": [
         "Tier-C",
-        "alt主体プロ(majors実績薄)",
         "取引あり(14d)",
         "塩漬け:6日"
       ],
@@ -1837,7 +1836,7 @@
         "trend_vs_edge"
       ],
       "alt_reasoning": "dir=0.66<ベータなのに勝率0.95(224クローズ)、下落相場でBTCロング含み益+57k維持。trendがgenuine-edge(0.75)。トレンド便乗の逆=押し目の選別力。インサイダーではないが固有の優位を持つ本物のトレーダー。",
-      "position": "プロトレーダー(本物)",
+      "position": "alt主体プロ",
       "current": {
         "date": "2026-06-17",
         "metric_category": "pro_trader",
@@ -2302,7 +2301,6 @@
       "times_seen": 11,
       "tags": [
         "Tier-C",
-        "alt主体プロ(majors実績薄)",
         "取引あり(14d)"
       ],
       "notes": "",
@@ -2333,7 +2331,7 @@
       "last_seen": "2026-06-17",
       "metric_category": "insider_suspect",
       "insider_likelihood": null,
-      "position": "プロトレーダー(本物)",
+      "position": "alt主体プロ",
       "current": {
         "date": "2026-06-17",
         "metric_category": "insider_suspect",
@@ -10083,7 +10081,6 @@
       "times_seen": 7,
       "tags": [
         "Tier-D",
-        "alt主体プロ(majors実績薄)",
         "取引なし(14d)",
         "塩漬け:7日以上"
       ],
@@ -10104,7 +10101,7 @@
       "last_seen": "2026-06-17",
       "metric_category": "excluded",
       "insider_likelihood": null,
-      "position": "プロトレーダー(本物)",
+      "position": "alt主体プロ",
       "auto_tags": [
         "ROI:高(100-1000%)",
         "PnL:大($1-10M)",
@@ -13005,7 +13002,6 @@
       "tags": [
         "Nansen発見",
         "Tier-A",
-        "alt主体プロ(majors実績薄)",
         "取引なし(14d)",
         "稼ぎ確認・先行不明(要精査)"
       ],
@@ -13022,7 +13018,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロトレーダー(本物)",
+      "position": "alt主体プロ",
       "metric_category": "hl-verified",
       "labels": [],
       "roi_alltime": 1.8886487530694798,
@@ -14161,7 +14157,6 @@
       "tags": [
         "Nansen発見",
         "Tier-B",
-        "alt主体プロ(majors実績薄)",
         "取引なし(14d)",
         "稼ぎ確認・先行不明(要精査)"
       ],
@@ -14178,7 +14173,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロトレーダー(本物)",
+      "position": "alt主体プロ",
       "metric_category": "nansen-pro",
       "labels": [],
       "roi_alltime": 34.47506305074361,
@@ -14516,7 +14511,6 @@
       "tags": [
         "Nansen発見",
         "Tier-B",
-        "alt主体プロ(majors実績薄)",
         "取引あり(14d)",
         "稼ぎ確認・先行不明(要精査)"
       ],
@@ -14533,7 +14527,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロトレーダー(本物)",
+      "position": "alt主体プロ",
       "metric_category": "nansen-pro",
       "labels": [],
       "roi_alltime": 7.7312469125129555,
@@ -14579,7 +14573,6 @@
       "tags": [
         "Nansen発見",
         "Tier-A",
-        "alt主体プロ(majors実績薄)",
         "取引なし(14d)",
         "稼ぎ確認・先行不明(要精査)"
       ],
@@ -14596,7 +14589,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロトレーダー(本物)",
+      "position": "alt主体プロ",
       "metric_category": "nansen-pro",
       "labels": [],
       "roi_alltime": 0.059097417979624645,
@@ -17199,7 +17192,6 @@
       "tags": [
         "Nansen発見",
         "Tier-C",
-        "alt主体プロ(majors実績薄)",
         "取引なし(14d)",
         "稼ぎ確認・先行不明(要精査)"
       ],
@@ -17216,7 +17208,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロトレーダー(本物)",
+      "position": "alt主体プロ",
       "metric_category": "nansen-pro",
       "labels": [],
       "roi_alltime": 2.0606228726176585,
@@ -17306,7 +17298,6 @@
       "tags": [
         "Nansen発見",
         "Tier-C",
-        "alt主体プロ(majors実績薄)",
         "取引あり(14d)",
         "稼ぎ確認・先行不明(要精査)"
       ],
@@ -17323,7 +17314,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロトレーダー(本物)",
+      "position": "alt主体プロ",
       "metric_category": "hl-verified",
       "labels": [],
       "roi_alltime": 0.4675679966991742,
@@ -18831,7 +18822,6 @@
         "HL検証済プロ",
         "Nansen発見",
         "Tier-C",
-        "alt主体プロ(majors実績薄)",
         "取引あり(14d)"
       ],
       "notes": "",
@@ -18847,7 +18837,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロトレーダー(本物)",
+      "position": "alt主体プロ",
       "metric_category": "hl-verified",
       "labels": [
         "🤓 Smart HL Perps Trader [0x79399d]"
@@ -20676,7 +20666,6 @@
         "HL検証済プロ",
         "Nansen発見",
         "Tier-B",
-        "alt主体プロ(majors実績薄)",
         "取引なし(14d)"
       ],
       "notes": "",
@@ -20692,7 +20681,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロトレーダー(本物)",
+      "position": "alt主体プロ",
       "metric_category": "hl-verified",
       "labels": [
         "Former Smart Trader [0x8eadef]"
@@ -21251,7 +21240,6 @@
         "HL検証済プロ",
         "Nansen発見",
         "Tier-C",
-        "alt主体プロ(majors実績薄)",
         "取引あり(14d)",
         "塩漬け:7日以上"
       ],
@@ -21268,7 +21256,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロトレーダー(本物)",
+      "position": "alt主体プロ",
       "metric_category": "hl-verified",
       "labels": [
         "🤓 Smart HL Perps Trader [0x24a44a]"
@@ -23973,7 +23961,6 @@
         "HL検証済プロ",
         "Nansen発見",
         "Tier-A",
-        "alt主体プロ(majors実績薄)",
         "取引あり(14d)",
         "塩漬け:7日以上"
       ],
@@ -23990,7 +23977,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロトレーダー(本物)",
+      "position": "alt主体プロ",
       "metric_category": "hl-verified",
       "labels": [
         "High Balance"
@@ -29648,7 +29635,6 @@
         "HL検証済プロ",
         "Nansen発見",
         "Tier-C",
-        "alt主体プロ(majors実績薄)",
         "取引なし(14d)"
       ],
       "notes": "",
@@ -29664,7 +29650,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "プロトレーダー(本物)",
+      "position": "alt主体プロ",
       "metric_category": "hl-verified",
       "labels": [
         "Former Smart Trader [0x0d8d5b]"
@@ -35404,14 +35390,13 @@
       "tags": [
         "Nansen発見",
         "Tier-C",
-        "alt主体プロ(majors実績薄)",
         "取引あり(14d)",
         "稼ぎ確認・先行不明(要精査)"
       ],
       "notes": "",
       "history": [],
       "last_seen": "2026-06-17",
-      "position": "プロトレーダー(本物)",
+      "position": "alt主体プロ",
       "metric_category": "hl-verified",
       "labels": [
         "Token Millionaire"
@@ -35519,14 +35504,13 @@
         "HL検証済プロ",
         "Nansen発見",
         "Tier-C",
-        "alt主体プロ(majors実績薄)",
         "取引あり(14d)",
         "塩漬け:7日以上"
       ],
       "notes": "",
       "history": [],
       "last_seen": "2026-06-17",
-      "position": "プロトレーダー(本物)",
+      "position": "alt主体プロ",
       "metric_category": "hl-verified",
       "labels": [
         "HL Perps Perma-Bull [0xae551d]"
