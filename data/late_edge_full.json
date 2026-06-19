@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-19T04:19:46.629069+00:00",
+  "generated_at": "2026-06-19T04:22:42.456033+00:00",
   "passers": [
     {
       "detr72": 0.085,
@@ -11678,6 +11678,356 @@
       "allTime_pnl": 833062.252958,
       "detr72": null,
       "n_opens": 782,
+      "pass": false
+    },
+    {
+      "address": "0xf332644ad212251bac9b27134416e790167552fd",
+      "allTime_pnl": 832214.6014,
+      "detr72": null,
+      "n_opens": 0,
+      "pass": false
+    },
+    {
+      "address": "0x783ee3148b797b6174e8204f8f224e25b8836682",
+      "allTime_pnl": 831545.026809,
+      "detr72": null,
+      "n_opens": 0,
+      "pass": false
+    },
+    {
+      "address": "0x822a03bc94f95f53a2719e22f2934d1a5725fe5b",
+      "allTime_pnl": 831401.183806,
+      "detr72": null,
+      "n_opens": 0,
+      "pass": false
+    },
+    {
+      "address": "0xf00bb08f7d1d04a9415408c939c02410fc6791b1",
+      "allTime_pnl": 828884.068163,
+      "detr72": 0.0078,
+      "n_opens": 3719,
+      "pass": false
+    },
+    {
+      "address": "0xbc6126c267c9b7ea9666e0584c970086e779415b",
+      "allTime_pnl": 828273.183939,
+      "detr72": null,
+      "n_opens": 0,
+      "pass": false
+    },
+    {
+      "address": "0x606b48d6b2f4b168f99e1bd47b382c8e403f15ba",
+      "allTime_pnl": 828130.00081,
+      "detr72": 0.0136,
+      "n_opens": 792,
+      "pass": false
+    },
+    {
+      "address": "0x73d8833e45cdbf77e70bba98339d457189d67521",
+      "allTime_pnl": 827266.019688,
+      "detr72": null,
+      "n_opens": 0,
+      "pass": false
+    },
+    {
+      "address": "0x396285c71ac0fa1790aa0dc2713a1886bbcecdf6",
+      "allTime_pnl": 826746.034625,
+      "detr72": null,
+      "n_opens": 0,
+      "pass": false
+    },
+    {
+      "address": "0x5b6e0f1844cb16738b08040cad95a5eb709700e4",
+      "allTime_pnl": 826517.586957,
+      "detr72": null,
+      "n_opens": 0,
+      "pass": false
+    },
+    {
+      "address": "0xd831409a48d8b21d59245c12b1540a0820446203",
+      "allTime_pnl": 825611.821471,
+      "detr72": 0.0225,
+      "n_opens": 746,
+      "pass": false
+    },
+    {
+      "address": "0xdcd62a213d1009992da52d8428b5562adee065b0",
+      "allTime_pnl": 825548.363224,
+      "detr72": 0.0022,
+      "n_opens": 3224,
+      "pass": false
+    },
+    {
+      "address": "0x619082454027af259de17842a5cea618dc63489e",
+      "allTime_pnl": 825205.851996,
+      "detr72": -0.0108,
+      "n_opens": 743,
+      "pass": false
+    },
+    {
+      "address": "0x50c606df9da113b865050bd9887dae6808e3f8e8",
+      "allTime_pnl": 824356.76167,
+      "detr72": null,
+      "n_opens": 0,
+      "pass": false
+    },
+    {
+      "address": "0x8ffeb2fef248c7ab3b72b2899eaf400d68540642",
+      "allTime_pnl": 824165.860845,
+      "detr72": null,
+      "n_opens": 0,
+      "pass": false
+    },
+    {
+      "address": "0x6c7dd680bca6ae0669ffd9332ab9af015910346b",
+      "allTime_pnl": 823932.303002,
+      "detr72": -0.0119,
+      "n_opens": 2968,
+      "pass": false
+    },
+    {
+      "address": "0x610b8dd6b392d010c2b6ad8d121dfc09524cb613",
+      "allTime_pnl": 822661.622595,
+      "detr72": -0.001,
+      "n_opens": 383,
+      "pass": false
+    },
+    {
+      "address": "0x1f1b1c9d467d2874b736829f0b4ded42098ce235",
+      "allTime_pnl": 822631.22183,
+      "detr72": null,
+      "n_opens": 2655,
+      "pass": false
+    },
+    {
+      "address": "0x22ba296d2537ef8cbbd7bb13c448d46d699e73f9",
+      "allTime_pnl": 821414.601444,
+      "detr72": null,
+      "n_opens": 0,
+      "pass": false
+    },
+    {
+      "address": "0x2ef71b1abe1664c829d09adc9c1edc7ee6f4f927",
+      "allTime_pnl": 820043.113756,
+      "detr72": null,
+      "n_opens": 0,
+      "pass": false
+    },
+    {
+      "address": "0x2535a534141a78ac0a83f00b9e452a47a4ba7a15",
+      "allTime_pnl": 819889.444524,
+      "detr72": null,
+      "n_opens": 0,
+      "pass": false
+    },
+    {
+      "address": "0x13d92e015d4a8a99ab8490fef42fe83e754116e1",
+      "allTime_pnl": 819626.225385,
+      "detr72": -0.0197,
+      "n_opens": 3413,
+      "pass": false
+    },
+    {
+      "address": "0x30372cab9f2f7e4a3bfab04f41b6ee2e14e8c9e1",
+      "allTime_pnl": 819299.132648,
+      "detr72": 0.0016,
+      "n_opens": 430,
+      "pass": false
+    },
+    {
+      "address": "0x77093c9aceeac579accdc0e4d3dd5192a5acb3b5",
+      "allTime_pnl": 818669.514865,
+      "detr72": null,
+      "n_opens": 0,
+      "pass": false
+    },
+    {
+      "address": "0x18b8539261cf9e760e7fec4a8a73c50f0ae7babe",
+      "allTime_pnl": 818046.487412,
+      "detr72": null,
+      "n_opens": 0,
+      "pass": false
+    },
+    {
+      "address": "0x704ee15afe87130f51e2ed34a87a72590a855913",
+      "allTime_pnl": 817385.922634,
+      "detr72": null,
+      "n_opens": 0,
+      "pass": false
+    },
+    {
+      "address": "0x5dd0cf7cd7331c4114d3355eb5cb3257f3a7c123",
+      "allTime_pnl": 816795.480544,
+      "detr72": null,
+      "n_opens": 1,
+      "pass": false
+    },
+    {
+      "address": "0x8bdc2d577d84c5dc93cc9f5c2c62ef8840187f51",
+      "allTime_pnl": 816692.57817,
+      "detr72": null,
+      "n_opens": 0,
+      "pass": false
+    },
+    {
+      "address": "0x5834f9e0a6be1c80f97c83694f798de67b247608",
+      "allTime_pnl": 816303.6860290001,
+      "detr72": null,
+      "n_opens": 32,
+      "pass": false
+    },
+    {
+      "address": "0xd2025ce53d6261c301fb6944d0826e07ffb31117",
+      "allTime_pnl": 815930.009958,
+      "detr72": null,
+      "n_opens": 0,
+      "pass": false
+    },
+    {
+      "address": "0x03f11c7a45ba8219c87f312eecb07287c2095302",
+      "allTime_pnl": 815254.119648,
+      "detr72": null,
+      "n_opens": 75,
+      "pass": false
+    },
+    {
+      "address": "0x71cfa5e263e866f7961091e01ebc5a2d11616c20",
+      "allTime_pnl": 814583.880786,
+      "detr72": null,
+      "n_opens": 0,
+      "pass": false
+    },
+    {
+      "address": "0xd4132c405179e62b8e0e96e5ed55a81a790702ea",
+      "allTime_pnl": 811176.443443,
+      "detr72": null,
+      "n_opens": 0,
+      "pass": false
+    },
+    {
+      "address": "0x643a1bef23ebe06af0ff69de2074b776ecf799a4",
+      "allTime_pnl": 810186.120618,
+      "detr72": null,
+      "n_opens": 0,
+      "pass": false
+    },
+    {
+      "address": "0xf7845cc3d24a511e15a0368871465f0dc5ae4fb1",
+      "allTime_pnl": 810176.310824,
+      "detr72": 0.0495,
+      "n_opens": 51,
+      "pass": false
+    },
+    {
+      "address": "0xc0c212f6463c6cf9d1f3cc0fb75e940c34b96fa9",
+      "allTime_pnl": 809175.753282,
+      "detr72": 0.0211,
+      "n_opens": 1395,
+      "pass": false
+    },
+    {
+      "address": "0x75640b1eb20e9473ad40fcb600b016eefcae2a7f",
+      "allTime_pnl": 808110.834788,
+      "detr72": null,
+      "n_opens": 5009,
+      "pass": false
+    },
+    {
+      "address": "0x8bdb6e4ddc3546d45e6fad84cbf9b76b02608821",
+      "allTime_pnl": 808036.440313,
+      "detr72": null,
+      "n_opens": 261,
+      "pass": false
+    },
+    {
+      "address": "0x72273a8317f789ee944fbaa692cc562077261ed3",
+      "allTime_pnl": 807987.233671,
+      "detr72": -0.0036,
+      "n_opens": 1857,
+      "pass": false
+    },
+    {
+      "address": "0x247d94e981327fd9bc0a006e9c4380e5e501ad09",
+      "allTime_pnl": 807350.172637,
+      "detr72": -0.0389,
+      "n_opens": 333,
+      "pass": false
+    },
+    {
+      "address": "0x8a5dbdf69b282bf2e8fb9f29fd34891f79c5dfd4",
+      "allTime_pnl": 807280.77922,
+      "detr72": null,
+      "n_opens": 0,
+      "pass": false
+    },
+    {
+      "address": "0x2e53549136197ccdb60c2b62c4b078bf0a8a8335",
+      "allTime_pnl": 806227.683792,
+      "detr72": null,
+      "n_opens": 1732,
+      "pass": false
+    },
+    {
+      "address": "0x515755b2c5a209976cf0de869c30f45ac7495a60",
+      "allTime_pnl": 804491.931974,
+      "detr72": null,
+      "n_opens": 3,
+      "pass": false
+    },
+    {
+      "address": "0x6b1d6241b5e2e051c8deab35e057a247aac99d2e",
+      "allTime_pnl": 803836.845462,
+      "detr72": null,
+      "n_opens": 0,
+      "pass": false
+    },
+    {
+      "address": "0x420ab45e0bd8863569a5efbb9c05d91f40624641",
+      "allTime_pnl": 803021.831339,
+      "detr72": 0.0272,
+      "n_opens": 269,
+      "pass": false
+    },
+    {
+      "address": "0x75c2932ced651b2cd4c3f361f28be4cc510fbb92",
+      "allTime_pnl": 800934.657673,
+      "detr72": null,
+      "n_opens": 0,
+      "pass": false
+    },
+    {
+      "address": "0x40544c35c396d8b4dd2aacb082a2212d86a9feca",
+      "allTime_pnl": 799535.282791,
+      "detr72": null,
+      "n_opens": 0,
+      "pass": false
+    },
+    {
+      "address": "0x4e4cdfeb4105c7a458f381373e21a3bc3ad78ece",
+      "allTime_pnl": 799339.290466,
+      "detr72": 0.0081,
+      "n_opens": 5796,
+      "pass": false
+    },
+    {
+      "address": "0x5cf738375a667e682f7adfbca83ca89a4655e217",
+      "allTime_pnl": 797771.81461,
+      "detr72": null,
+      "n_opens": 0,
+      "pass": false
+    },
+    {
+      "address": "0x404304fc11a889475ed22a2ebc8db6fe8f0d249b",
+      "allTime_pnl": 797569.06408,
+      "detr72": -0.0128,
+      "n_opens": 4826,
+      "pass": false
+    },
+    {
+      "address": "0x8b2fd6b5c661d2e1fbb6d9df162f2b5f3b1d3d11",
+      "allTime_pnl": 796947.448685,
+      "detr72": 0.0026,
+      "n_opens": 3859,
       "pass": false
     }
   ]
