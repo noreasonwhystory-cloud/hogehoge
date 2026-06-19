@@ -63,6 +63,10 @@ def main():
         realized = round(sum(float(f.get("closedPnl", 0) or 0) for f in maj))
         if realized <= MIN_REAL:        # 赤字/小利は追加しない(エッジ≠利益)
             continue
+        # majors先物に焦点: 利益の主体がBTC/ETH/SOL先物でないと対象外(alt/ミーム除外)
+        real_all = sum(float(f.get("closedPnl", 0) or 0) for f in fills if abs(float(f.get("closedPnl", 0) or 0)) > 1e-9)
+        if real_all > 0 and realized / real_all < 0.6:
+            continue
         t0 = min(int(f["time"]) for f in maj); t1 = max(int(f["time"]) for f in maj)
         days = (datetime.fromtimestamp(t1 / 1000, timezone.utc) - datetime.fromtimestamp(t0 / 1000, timezone.utc)).days
         active14 = (now - t1) <= 14 * 24 * MS_H
