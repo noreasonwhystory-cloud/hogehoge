@@ -85,7 +85,9 @@
       "n_fills_14d": 34,
       "active_to": "2026-06-04",
       "active_from": "2026-06-04",
-      "active14": true
+      "active14": true,
+      "true_realized_all": 560994,
+      "true_realized_maj": 485103
     },
     "0xefcace57934a753d66c48a31b880ba806d4c0869": {
       "address": "0xefcace57934a753d66c48a31b880ba806d4c0869",
@@ -384,7 +386,9 @@
         "dir": "short",
         "open": "2026-05-12",
         "open_at_end": false
-      }
+      },
+      "true_realized_all": 628186,
+      "true_realized_maj": 418854
     },
     "0x128fae9d18a2f70d98a03c26bf17b67d97ce1f3c": {
       "address": "0x128fae9d18a2f70d98a03c26bf17b67d97ce1f3c",
@@ -496,7 +500,9 @@
       "n_fills_14d": 71,
       "active_to": "2026-06-09",
       "active_from": "2026-06-09",
-      "active14": true
+      "active14": true,
+      "true_realized_all": 98119,
+      "true_realized_maj": 116072
     },
     "0xe392e9008c49e7f82e7927a741fcb12799ebdb2b": {
       "address": "0xe392e9008c49e7f82e7927a741fcb12799ebdb2b",
@@ -613,7 +619,9 @@
       "roi_alltime": 5.5392517512,
       "active_to": "2026-06-17",
       "active_from": "2026-06-17",
-      "active14": true
+      "active14": true,
+      "true_realized_all": 348813,
+      "true_realized_maj": 381728
     },
     "0x83b00972aafcc3d06d45b1b823079f9a414da46e": {
       "address": "0x83b00972aafcc3d06d45b1b823079f9a414da46e",
@@ -723,7 +731,9 @@
       "n_fills_14d": 90,
       "active_to": "2026-06-16",
       "active_from": "2026-06-16",
-      "active14": true
+      "active14": true,
+      "true_realized_all": 97167,
+      "true_realized_maj": 48389
     },
     "0x9b5ae497fd1bf885a40d6f99d0c57245761e053c": {
       "address": "0x9b5ae497fd1bf885a40d6f99d0c57245761e053c",
@@ -869,7 +879,9 @@
       "n_fills_14d": 116,
       "active_to": "2026-06-09",
       "active_from": "2026-06-09",
-      "active14": true
+      "active14": true,
+      "true_realized_all": 75299,
+      "true_realized_maj": 72242
     },
     "0x388b3ea2d5fa291e47ecb9f5570012d84a891180": {
       "address": "0x388b3ea2d5fa291e47ecb9f5570012d84a891180",
@@ -1895,7 +1907,9 @@
         "dir": "long",
         "open": "2026-06-04",
         "open_at_end": false
-      }
+      },
+      "true_realized_all": 304452,
+      "true_realized_maj": 20942
     },
     "0xd05808946809c180d190608e13f473db30aa8524": {
       "address": "0xd05808946809c180d190608e13f473db30aa8524",
@@ -1971,7 +1985,9 @@
       "n_fills_14d": 199,
       "active_to": "2026-06-16",
       "active_from": "2026-06-16",
-      "active14": true
+      "active14": true,
+      "true_realized_all": 1170834,
+      "true_realized_maj": 472780
     },
     "0xfe4dec8543b0b9cec0c897a689f7af7bddb02192": {
       "address": "0xfe4dec8543b0b9cec0c897a689f7af7bddb02192",
@@ -2072,7 +2088,9 @@
       "n_fills_14d": 208,
       "active_to": "2026-06-17",
       "active_from": "2026-06-17",
-      "active14": true
+      "active14": true,
+      "true_realized_all": 317279,
+      "true_realized_maj": 27089
     },
     "0x5b1efd32c62000cbeba7cccbc49fabdc57b2eb80": {
       "address": "0x5b1efd32c62000cbeba7cccbc49fabdc57b2eb80",
@@ -2210,7 +2228,9 @@
       "active14": true,
       "nansen_errors": [],
       "pro_score_old": 0.343,
-      "pro_tier_old": "C"
+      "pro_tier_old": "C",
+      "true_realized_all": 152526,
+      "true_realized_maj": 133151
     },
     "0x5875d72130981b18692a3d29545e4038f7eb0c38": {
       "address": "0x5875d72130981b18692a3d29545e4038f7eb0c38",
@@ -2273,7 +2293,9 @@
       "n_fills_14d": 897,
       "active_to": "2026-06-16",
       "active_from": "2026-06-16",
-      "active14": true
+      "active14": true,
+      "true_realized_all": 633821,
+      "true_realized_maj": -39351
     },
     "0x2a934d40944e2b686ee9cdce74a3f67d32cd0347": {
       "address": "0x2a934d40944e2b686ee9cdce74a3f67d32cd0347",
@@ -2673,6 +2695,7 @@
       "first_seen": "2026-06-16",
       "times_seen": 4,
       "tags": [
+        "再監査:真の実現赤字",
         "取引あり(14d)"
       ],
       "notes": "",
@@ -2710,7 +2733,7 @@
         "trend_vs_edge"
       ],
       "alt_reasoning": "既存pro_traderだがriskが9.83倍SOLショート単独へ全資産集中(pv147万/av15万)・勝率60%/dir59%と平凡でconcentrated-bet(0.78)。trendもmixed(0.5)でSOLショート=一部トレンド便乗。優位というより過大レバの一点張り。pro格付けは過大評価。",
-      "position": "プロトレーダー(本物)",
+      "position": "除外/低優先",
       "current": {
         "date": "2026-06-17",
         "metric_category": "pro_trader",
@@ -2803,11 +2826,13 @@
         "レバ:中(3-10x)",
         "銘柄:SOL専"
       ],
-      "notes_jp": "【ひとことで】🟣 プロ扱いだったが、実は無謀な賭けで稼いだだけかも。\n【正体】名前は分からない（匿名）。\n【お金はどこから？】別の財布（Token Millionaire）から\n【よく取引する相手】Token Millionaire、High Activity、Token Millionaire\n【詳しい判定】格下げ: 博打的サイジング。pro_trader格付けは過大",
+      "notes_jp": "【真の実現損益で再監査(2026-06-19)】キャッシュ約定の実現益合計は全銘柄$-56,859・majors$-56,862＝<b>通算赤字</b>。台帳の記録PnLは過大/誤りだった。黒字前提の分類から除外へ降格。\n―――\n【ひとことで】🟣 プロ扱いだったが、実は無謀な賭けで稼いだだけかも。\n【正体】名前は分からない（匿名）。\n【お金はどこから？】別の財布（Token Millionaire）から\n【よく取引する相手】Token Millionaire、High Activity、Token Millionaire\n【詳しい判定】格下げ: 博打的サイジング。pro_trader格付けは過大",
       "roi_alltime": 0.1597076958,
       "active_to": "2026-06-17",
       "active_from": "2026-06-17",
-      "active14": true
+      "active14": true,
+      "true_realized_all": -56859,
+      "true_realized_maj": -56862
     },
     "0xec9045405a878d01cdb836f82a6dd2abd49a169c": {
       "address": "0xec9045405a878d01cdb836f82a6dd2abd49a169c",
@@ -5399,7 +5424,9 @@
       "active_from": "2026-06-17",
       "active14": true,
       "pro_score_old": 0.271,
-      "pro_tier_old": "C"
+      "pro_tier_old": "C",
+      "true_realized_all": 235718,
+      "true_realized_maj": 235718
     },
     "0x535191d6d49922d69cc7829dbb73e48694840db7": {
       "address": "0x535191d6d49922d69cc7829dbb73e48694840db7",
@@ -6759,7 +6786,9 @@
         "dir": "short",
         "open": "2025-10-22",
         "open_at_end": true
-      }
+      },
+      "true_realized_all": 1313759,
+      "true_realized_maj": 1313759
     },
     "0x9a377ec81c1bd51d31170bf8d7a7b6c5fbaded9b": {
       "address": "0x9a377ec81c1bd51d31170bf8d7a7b6c5fbaded9b",
@@ -6994,7 +7023,9 @@
       "n_fills_14d": 281,
       "active_to": "2026-06-17",
       "active_from": "2026-06-17",
-      "active14": true
+      "active14": true,
+      "true_realized_all": 75606,
+      "true_realized_maj": 75580
     },
     "0x5421e7c6ce37b6c5a6a428018a451071a6fd3ab2": {
       "address": "0x5421e7c6ce37b6c5a6a428018a451071a6fd3ab2",
@@ -7277,6 +7308,7 @@
       "times_seen": 7,
       "tags": [
         "Tier-D",
+        "再監査:真の実現赤字",
         "取引なし(14d)"
       ],
       "notes": "",
@@ -7296,7 +7328,7 @@
       "last_seen": "2026-06-17",
       "metric_category": "pro_trader",
       "insider_likelihood": null,
-      "position": "プロトレーダー(本物)",
+      "position": "除外/低優先",
       "auto_tags": [
         "ROI:中(10-100%)",
         "PnL:中($100k-1M)",
@@ -7387,7 +7419,7 @@
         }
       ],
       "nansen_checked": "2026-06-17",
-      "notes_jp": "【ひとことで】🔵 たぶんプロ。まだ詳しく調べていない。\n【正体】名前は分からない（匿名）。\n【お金はどこから？】プログラム(コントラクト)経由 → 人の財布までは見えない\n【よく取引する相手】🤖 Hyperliquid: Bridge 2 [0x2df1c5]、🤖 LI.FI: Contract [0x89c634]、HL Perps Altcoin Trader [0xdb2205]",
+      "notes_jp": "【真の実現損益で再監査(2026-06-19)】キャッシュ約定の実現益合計は全銘柄$-11,338・majors$29,007＝<b>通算赤字</b>。台帳の記録PnLは過大/誤りだった。黒字前提の分類から除外へ降格。\n―――\n【ひとことで】🔵 たぶんプロ。まだ詳しく調べていない。\n【正体】名前は分からない（匿名）。\n【お金はどこから？】プログラム(コントラクト)経由 → 人の財布までは見えない\n【よく取引する相手】🤖 Hyperliquid: Bridge 2 [0x2df1c5]、🤖 LI.FI: Contract [0x89c634]、HL Perps Altcoin Trader [0xdb2205]",
       "roi_alltime": 0.5119070008,
       "roi_month": 1.7929730013,
       "n_fills_14d": 978,
@@ -7400,7 +7432,9 @@
       "trade_days": 35,
       "active14": false,
       "pro_score_old": 0.154,
-      "pro_tier_old": "D"
+      "pro_tier_old": "D",
+      "true_realized_all": -11338,
+      "true_realized_maj": 29007
     },
     "0x2f394ae1ca45071bc222e7124b5d125637942be2": {
       "address": "0x2f394ae1ca45071bc222e7124b5d125637942be2",
@@ -7584,7 +7618,9 @@
       "active_from": "2025-08-20",
       "active_to": "2025-09-29",
       "trade_days": 40,
-      "active14": false
+      "active14": false,
+      "true_realized_all": 7817594,
+      "true_realized_maj": 7817594
     },
     "0x9bd2ee53f6c6aa778209b8673f6c7df754830c88": {
       "address": "0x9bd2ee53f6c6aa778209b8673f6c7df754830c88",
@@ -9043,7 +9079,9 @@
       "active_from": "2025-07-26",
       "active_to": "2025-09-03",
       "trade_days": 39,
-      "active14": false
+      "active14": false,
+      "true_realized_all": 626571,
+      "true_realized_maj": 0
     },
     "0x08bf75d17046412ae08c95b6106993f714487872": {
       "address": "0x08bf75d17046412ae08c95b6106993f714487872",
@@ -9382,7 +9420,9 @@
       "active_from": "2026-06-17",
       "active14": true,
       "pro_score_old": 0.19,
-      "pro_tier_old": "D"
+      "pro_tier_old": "D",
+      "true_realized_all": 1443645,
+      "true_realized_maj": 1298047
     },
     "0x39b07015ca813075bbce6f475767d5b4b9d518b0": {
       "address": "0x39b07015ca813075bbce6f475767d5b4b9d518b0",
@@ -9442,6 +9482,7 @@
       "times_seen": 7,
       "tags": [
         "Tier-C",
+        "再監査:真の実現赤字",
         "取引なし(14d)"
       ],
       "notes": "",
@@ -9461,7 +9502,7 @@
       "last_seen": "2026-06-17",
       "metric_category": "excluded",
       "insider_likelihood": null,
-      "position": "プロトレーダー(本物)",
+      "position": "除外/低優先",
       "auto_tags": [
         "ROI:高(100-1000%)",
         "PnL:中($100k-1M)",
@@ -9605,7 +9646,7 @@
         }
       ],
       "nansen_checked": "2026-06-17",
-      "notes_jp": "【ひとことで】💰🟢稼いで引き上げたが、多数取引で安定・先行なし＝実力プロが出金しただけ\n【HL実測】実現益$-4,741・的中0.0・急変先行$0・majors1438約定\n【取引期間】2024-04-02〜2024-08-14",
+      "notes_jp": "【真の実現損益で再監査(2026-06-19)】キャッシュ約定の実現益合計は全銘柄$-184,136・majors$-20,004＝<b>通算赤字</b>。台帳の記録PnLは過大/誤りだった。黒字前提の分類から除外へ降格。\n―――\n【ひとことで】💰🟢稼いで引き上げたが、多数取引で安定・先行なし＝実力プロが出金しただけ\n【HL実測】実現益$-4,741・的中0.0・急変先行$0・majors1438約定\n【取引期間】2024-04-02〜2024-08-14",
       "roi_alltime": 4.0482371049,
       "roi_month": 0.2678569633,
       "n_fills_14d": 22,
@@ -9618,7 +9659,9 @@
       "pro_tier": "C",
       "active14": false,
       "pro_score_old": 0.258,
-      "pro_tier_old": "C"
+      "pro_tier_old": "C",
+      "true_realized_all": -184136,
+      "true_realized_maj": -20004
     },
     "0xe1edc766cfb0e8e6894bde26bcb5a94d1777d16c": {
       "address": "0xe1edc766cfb0e8e6894bde26bcb5a94d1777d16c",
@@ -9792,7 +9835,9 @@
         "dir": "long",
         "open": "2026-03-06",
         "open_at_end": true
-      }
+      },
+      "true_realized_all": 45222,
+      "true_realized_maj": 15603
     },
     "0x68a24ccf099422806f1e73248517f3389c29c104": {
       "address": "0x68a24ccf099422806f1e73248517f3389c29c104",
@@ -9984,7 +10029,9 @@
         "dir": "short",
         "open": "2026-05-20",
         "open_at_end": true
-      }
+      },
+      "true_realized_all": 0,
+      "true_realized_maj": 0
     },
     "0x2607a3909cee65aa8205ca26f7db2d9244389577": {
       "address": "0x2607a3909cee65aa8205ca26f7db2d9244389577",
@@ -11120,7 +11167,9 @@
         "dir": "short",
         "open": "2025-11-11",
         "open_at_end": false
-      }
+      },
+      "true_realized_all": 3905400,
+      "true_realized_maj": 3315530
     },
     "0x0b00c540bc5f203d97ac87da62164d3d37e19798": {
       "address": "0x0b00c540bc5f203d97ac87da62164d3d37e19798",
@@ -11247,7 +11296,9 @@
       "trade_days": 190,
       "active14": true,
       "pro_score_old": 0.942,
-      "pro_tier_old": "S"
+      "pro_tier_old": "S",
+      "true_realized_all": 0,
+      "true_realized_maj": 0
     },
     "0xed41a12ea862f31df054e9bd3af1dd59486c6029": {
       "address": "0xed41a12ea862f31df054e9bd3af1dd59486c6029",
@@ -12075,7 +12126,9 @@
       ],
       "nansen_errors": [],
       "pro_score_old": 0.368,
-      "pro_tier_old": "C"
+      "pro_tier_old": "C",
+      "true_realized_all": 4242168,
+      "true_realized_maj": 2219377
     },
     "0x84abc08c0ea62e687c370154de1f38ea462f4d37": {
       "address": "0x84abc08c0ea62e687c370154de1f38ea462f4d37",
@@ -12580,7 +12633,9 @@
       "trade_days": 55,
       "active14": false,
       "pro_score_old": 0.447,
-      "pro_tier_old": "B"
+      "pro_tier_old": "B",
+      "true_realized_all": 2348016,
+      "true_realized_maj": 3
     },
     "0xd82f7d84a524b8e82de0cb3df1f04e338604fd8e": {
       "address": "0xd82f7d84a524b8e82de0cb3df1f04e338604fd8e",
@@ -13112,7 +13167,9 @@
       ],
       "nansen_errors": [],
       "pro_score_old": 0.465,
-      "pro_tier_old": "B"
+      "pro_tier_old": "B",
+      "true_realized_all": 1928778,
+      "true_realized_maj": 1928778
     },
     "0x7da85a334e43a6b1c2c0da9623409d9ee9047747": {
       "address": "0x7da85a334e43a6b1c2c0da9623409d9ee9047747",
@@ -13687,7 +13744,9 @@
       "trade_days": 9,
       "active14": false,
       "pro_score_old": 0.241,
-      "pro_tier_old": "D"
+      "pro_tier_old": "D",
+      "true_realized_all": 1162455,
+      "true_realized_maj": 0
     },
     "0x99b3ba1c1b7ad83d0164d996e3d271ae8c842551": {
       "address": "0x99b3ba1c1b7ad83d0164d996e3d271ae8c842551",
@@ -13811,7 +13870,9 @@
       "trade_days": 15,
       "active14": false,
       "pro_score_old": 0.306,
-      "pro_tier_old": "C"
+      "pro_tier_old": "C",
+      "true_realized_all": 423145,
+      "true_realized_maj": 183193
     },
     "0x05904930cae1e9a48c055f4a8a83480ba7fc6abf": {
       "address": "0x05904930cae1e9a48c055f4a8a83480ba7fc6abf",
@@ -13964,7 +14025,9 @@
       "active14": true,
       "nansen_errors": [],
       "pro_score_old": 0.406,
-      "pro_tier_old": "B"
+      "pro_tier_old": "B",
+      "true_realized_all": 1049066,
+      "true_realized_maj": 0
     },
     "0x5846ac5619d2a762751b1663d86a402085505765": {
       "address": "0x5846ac5619d2a762751b1663d86a402085505765",
@@ -14088,7 +14151,9 @@
       "trade_days": 153,
       "active14": false,
       "pro_score_old": 0.488,
-      "pro_tier_old": "B"
+      "pro_tier_old": "B",
+      "true_realized_all": 2445741,
+      "true_realized_maj": 0
     },
     "0xa3d843b6a057504284006bef6f34a2e9bc80fb6b": {
       "address": "0xa3d843b6a057504284006bef6f34a2e9bc80fb6b",
@@ -14238,7 +14303,9 @@
       ],
       "nansen_errors": [],
       "pro_score_old": 0.527,
-      "pro_tier_old": "A"
+      "pro_tier_old": "A",
+      "true_realized_all": 1444379,
+      "true_realized_maj": 1423967
     },
     "0x9836e286fbf4f71998827d4bd6ea3b470c26457e": {
       "address": "0x9836e286fbf4f71998827d4bd6ea3b470c26457e",
@@ -14847,7 +14914,9 @@
       "mh_detr72": 0.0645,
       "mh_detr24": 0.0485,
       "mh_checked": "2026-06-18",
-      "realized_majors": 952119
+      "realized_majors": 952119,
+      "true_realized_all": 1494303,
+      "true_realized_maj": 952119
     },
     "0x2373962eec8ed3764ddc1142244ac1e0fa38d0d8": {
       "address": "0x2373962eec8ed3764ddc1142244ac1e0fa38d0d8",
@@ -14931,7 +15000,9 @@
         "dir": "short",
         "open": "2025-12-21",
         "open_at_end": false
-      }
+      },
+      "true_realized_all": 893116,
+      "true_realized_maj": 893117
     },
     "0xdc38f7ee386b7eea3842643e56b08ee5bb40f625": {
       "address": "0xdc38f7ee386b7eea3842643e56b08ee5bb40f625",
@@ -15819,7 +15890,9 @@
       "pro_realized": 715203,
       "pro_span_days": 8,
       "pro_tier_old": null,
-      "pro_tier": "B"
+      "pro_tier": "B",
+      "true_realized_all": 715203,
+      "true_realized_maj": 735718
     },
     "0xd8d0358919a944d4efa98713795d49b030e43ef9": {
       "address": "0xd8d0358919a944d4efa98713795d49b030e43ef9",
@@ -16307,7 +16380,9 @@
       ],
       "nansen_errors": [],
       "pro_score_old": 0.291,
-      "pro_tier_old": "C"
+      "pro_tier_old": "C",
+      "true_realized_all": 502874,
+      "true_realized_maj": 248595
     },
     "0x1fe06653816cd53afb36a18f059b0ada2a3c8f20": {
       "address": "0x1fe06653816cd53afb36a18f059b0ada2a3c8f20",
@@ -16425,7 +16500,9 @@
       "trade_days": 220,
       "active14": false,
       "pro_score_old": 0.372,
-      "pro_tier_old": "C"
+      "pro_tier_old": "C",
+      "true_realized_all": 916344,
+      "true_realized_maj": 977561
     },
     "0x0980b34ade9476dba81bcdb0f865a333793ad1c2": {
       "address": "0x0980b34ade9476dba81bcdb0f865a333793ad1c2",
@@ -16576,7 +16653,9 @@
       "trade_days": 275,
       "active14": false,
       "pro_score_old": 0.328,
-      "pro_tier_old": "C"
+      "pro_tier_old": "C",
+      "true_realized_all": 602600,
+      "true_realized_maj": -10132
     },
     "0xa99c9e5484e5b26635c07876d0859a1819ff40d5": {
       "address": "0xa99c9e5484e5b26635c07876d0859a1819ff40d5",
@@ -16704,7 +16783,9 @@
       "trade_days": 313,
       "active14": true,
       "pro_score_old": 0.478,
-      "pro_tier_old": "B"
+      "pro_tier_old": "B",
+      "true_realized_all": 517743,
+      "true_realized_maj": 2404
     },
     "0xaa3f51a8095d030e38317e917839c87315300bee": {
       "address": "0xaa3f51a8095d030e38317e917839c87315300bee",
@@ -16847,7 +16928,9 @@
       "pro_realized": 626724,
       "pro_span_days": 271,
       "pro_tier_old": null,
-      "pro_tier": "C"
+      "pro_tier": "C",
+      "true_realized_all": 626724,
+      "true_realized_maj": 609754
     },
     "0x6a02aedceac5a6813d960e4dae1910d9c458e77c": {
       "address": "0x6a02aedceac5a6813d960e4dae1910d9c458e77c",
@@ -16910,7 +16993,9 @@
       "trade_days": 100,
       "active14": true,
       "pro_score_old": 0.415,
-      "pro_tier_old": "B"
+      "pro_tier_old": "B",
+      "true_realized_all": 588891,
+      "true_realized_maj": 272994
     },
     "0x39761615093bbd473af359068d075a2b03b99857": {
       "address": "0x39761615093bbd473af359068d075a2b03b99857",
@@ -18143,7 +18228,9 @@
       ],
       "nansen_errors": [],
       "pro_score_old": 0.525,
-      "pro_tier_old": "A"
+      "pro_tier_old": "A",
+      "true_realized_all": 844004,
+      "true_realized_maj": 20933
     },
     "0x4c7a572ad38aed2c1d33fbfeba7bd69a83ec0e30": {
       "address": "0x4c7a572ad38aed2c1d33fbfeba7bd69a83ec0e30",
@@ -19150,7 +19237,9 @@
         "dir": "long",
         "open": "2026-05-19",
         "open_at_end": true
-      }
+      },
+      "true_realized_all": 641213,
+      "true_realized_maj": 477997
     },
     "0x4b563051258ade30122940b80f575363baa4445b": {
       "address": "0x4b563051258ade30122940b80f575363baa4445b",
@@ -19341,7 +19430,9 @@
       ],
       "nansen_errors": [],
       "pro_score_old": 0.501,
-      "pro_tier_old": "A"
+      "pro_tier_old": "A",
+      "true_realized_all": 677972,
+      "true_realized_maj": 332299
     },
     "0x2c5dc7e67fce4bc252221c46c1cdc7651838b2d8": {
       "address": "0x2c5dc7e67fce4bc252221c46c1cdc7651838b2d8",
@@ -19844,7 +19935,9 @@
       "active14": false,
       "nansen_errors": [],
       "pro_score_old": 0.461,
-      "pro_tier_old": "B"
+      "pro_tier_old": "B",
+      "true_realized_all": 1928662,
+      "true_realized_maj": 58097
     },
     "0xf780adb6ca4a737d2a8def6dd445b0c0276d70e1": {
       "address": "0xf780adb6ca4a737d2a8def6dd445b0c0276d70e1",
@@ -20496,7 +20589,9 @@
         "dir": "long",
         "open": "2025-09-22",
         "open_at_end": false
-      }
+      },
+      "true_realized_all": 649739,
+      "true_realized_maj": -16053
     },
     "0x0ed73f6d6f0ad13f3cfd915575390f92e0d49761": {
       "address": "0x0ed73f6d6f0ad13f3cfd915575390f92e0d49761",
@@ -23057,7 +23152,9 @@
         "dir": "short",
         "open": "2025-07-07",
         "open_at_end": true
-      }
+      },
+      "true_realized_all": 4475068,
+      "true_realized_maj": -27051
     },
     "0xd13552538def5cecc78a20aa2236573f0bee6443": {
       "address": "0xd13552538def5cecc78a20aa2236573f0bee6443",
@@ -23858,7 +23955,9 @@
       "mh_detr72": 0.0395,
       "mh_detr24": 0.0158,
       "mh_checked": "2026-06-18",
-      "realized_majors": 278085
+      "realized_majors": 278085,
+      "true_realized_all": 331472,
+      "true_realized_maj": 278085
     },
     "0x61b6cfd715d70df1b1822763639e75a575a23c12": {
       "address": "0x61b6cfd715d70df1b1822763639e75a575a23c12",
@@ -25974,7 +26073,9 @@
       "mh_detr72": 0.031,
       "mh_detr24": 0.0082,
       "mh_checked": "2026-06-18",
-      "realized_majors": 227863
+      "realized_majors": 227863,
+      "true_realized_all": 269131,
+      "true_realized_maj": 227863
     },
     "0x3e1992da09489b64c35685ba407bbd9b110565e0": {
       "address": "0x3e1992da09489b64c35685ba407bbd9b110565e0",
@@ -28234,7 +28335,9 @@
       "active14": false,
       "nansen_errors": [],
       "pro_score_old": 0.353,
-      "pro_tier_old": "C"
+      "pro_tier_old": "C",
+      "true_realized_all": 674231,
+      "true_realized_maj": 219496
     },
     "0x0949d8893c5a82030ad361499377a7d4f30af52a": {
       "address": "0x0949d8893c5a82030ad361499377a7d4f30af52a",
@@ -32686,7 +32789,9 @@
       ],
       "nansen_errors": [],
       "pro_score_old": 0.713,
-      "pro_tier_old": "S"
+      "pro_tier_old": "S",
+      "true_realized_all": 4190469,
+      "true_realized_maj": 4117206
     },
     "0xb632c6580173a16154f17cdafc6eb27e95cf73b7": {
       "address": "0xb632c6580173a16154f17cdafc6eb27e95cf73b7",
@@ -32805,7 +32910,9 @@
       "active14": false,
       "nansen_errors": [],
       "pro_score_old": 0.546,
-      "pro_tier_old": "A"
+      "pro_tier_old": "A",
+      "true_realized_all": 3359608,
+      "true_realized_maj": 3359608
     },
     "0x41206f8efb51e5039e5b46e04e7866a4849f72d2": {
       "address": "0x41206f8efb51e5039e5b46e04e7866a4849f72d2",
@@ -32884,7 +32991,9 @@
       ],
       "nansen_errors": [],
       "pro_score_old": 0.457,
-      "pro_tier_old": "B"
+      "pro_tier_old": "B",
+      "true_realized_all": 2154796,
+      "true_realized_maj": 2036337
     },
     "0x6979dde2781dc4ec843641b10b2a2f2e0f4bda62": {
       "address": "0x6979dde2781dc4ec843641b10b2a2f2e0f4bda62",
@@ -32929,7 +33038,9 @@
       "active14": false,
       "nansen_errors": [],
       "pro_score_old": 0.468,
-      "pro_tier_old": "B"
+      "pro_tier_old": "B",
+      "true_realized_all": 104838,
+      "true_realized_maj": 104838
     },
     "0xcefd7652228a8619d0af5b95389cd49387cd30e0": {
       "address": "0xcefd7652228a8619d0af5b95389cd49387cd30e0",
@@ -33394,7 +33505,9 @@
       ],
       "nansen_errors": [],
       "pro_score_old": 0.287,
-      "pro_tier_old": "C"
+      "pro_tier_old": "C",
+      "true_realized_all": 1025999,
+      "true_realized_maj": 1026143
     },
     "0x7de07bb8a43c1953a019906cf2c8287dae478be9": {
       "address": "0x7de07bb8a43c1953a019906cf2c8287dae478be9",
@@ -33540,7 +33653,9 @@
         "dir": "short",
         "open": "2025-07-15",
         "open_at_end": true
-      }
+      },
+      "true_realized_all": 1016230,
+      "true_realized_maj": 1016225
     },
     "0xc604faf510aa5b617c9fb1556d02d6d22c9644be": {
       "address": "0xc604faf510aa5b617c9fb1556d02d6d22c9644be",
@@ -33593,7 +33708,9 @@
       ],
       "nansen_errors": [],
       "pro_score_old": 0.306,
-      "pro_tier_old": "C"
+      "pro_tier_old": "C",
+      "true_realized_all": 911248,
+      "true_realized_maj": 911248
     },
     "0x7c9063122c01837fe83da2521056e10c9b6dd129": {
       "address": "0x7c9063122c01837fe83da2521056e10c9b6dd129",
@@ -33701,7 +33818,9 @@
       "trade_days": 222,
       "active14": true,
       "pro_score_old": 0.385,
-      "pro_tier_old": "B"
+      "pro_tier_old": "B",
+      "true_realized_all": 745231,
+      "true_realized_maj": -41
     },
     "0xae551d73161bac3315c5ade0e2d499a44ebe2236": {
       "address": "0xae551d73161bac3315c5ade0e2d499a44ebe2236",
@@ -33765,7 +33884,9 @@
         "dir": "long",
         "open": "2025-11-08",
         "open_at_end": false
-      }
+      },
+      "true_realized_all": 713720,
+      "true_realized_maj": 98108
     },
     "0x0d9654172413fa8bcd2f5738a7b2fa6d19864125": {
       "address": "0x0d9654172413fa8bcd2f5738a7b2fa6d19864125",
@@ -33818,7 +33939,9 @@
       ],
       "nansen_errors": [],
       "pro_score_old": 0.214,
-      "pro_tier_old": "D"
+      "pro_tier_old": "D",
+      "true_realized_all": 710350,
+      "true_realized_maj": 710350
     },
     "0x9b804150c9a4f6db44ba4fd67704eadb5be360c1": {
       "address": "0x9b804150c9a4f6db44ba4fd67704eadb5be360c1",
@@ -33863,7 +33986,9 @@
       "active14": false,
       "nansen_errors": [],
       "pro_score_old": 0.16,
-      "pro_tier_old": "D"
+      "pro_tier_old": "D",
+      "true_realized_all": 700722,
+      "true_realized_maj": 700722
     },
     "0xf3362789cecf25c6a31288d172880d7ad9b81801": {
       "address": "0xf3362789cecf25c6a31288d172880d7ad9b81801",
@@ -33927,7 +34052,9 @@
         "dir": "short",
         "open": "2026-01-16",
         "open_at_end": true
-      }
+      },
+      "true_realized_all": 679129,
+      "true_realized_maj": 658338
     },
     "0x69b05701f8175c276ecd0138387a197948e240bb": {
       "address": "0x69b05701f8175c276ecd0138387a197948e240bb",
@@ -33991,7 +34118,9 @@
       "trade_days": 376,
       "active14": true,
       "pro_score_old": 0.508,
-      "pro_tier_old": "A"
+      "pro_tier_old": "A",
+      "true_realized_all": 216485,
+      "true_realized_maj": 192608
     },
     "0x5198eff88dea32108605bcdb109a99dc397190d8": {
       "address": "0x5198eff88dea32108605bcdb109a99dc397190d8",
@@ -34036,7 +34165,9 @@
       "active14": false,
       "nansen_errors": [],
       "pro_score_old": 0.176,
-      "pro_tier_old": "D"
+      "pro_tier_old": "D",
+      "true_realized_all": 613832,
+      "true_realized_maj": 613832
     },
     "0xa906355beaf1d69a5fe73ce55899c49c6e67916c": {
       "address": "0xa906355beaf1d69a5fe73ce55899c49c6e67916c",
@@ -34152,7 +34283,9 @@
       ],
       "nansen_errors": [],
       "pro_score_old": 0.387,
-      "pro_tier_old": "B"
+      "pro_tier_old": "B",
+      "true_realized_all": 159929,
+      "true_realized_maj": 115535
     },
     "0x8250a7f9fca9c33e68eead8c05c1d58c8fd70d13": {
       "address": "0x8250a7f9fca9c33e68eead8c05c1d58c8fd70d13",
@@ -34161,19 +34294,20 @@
       "tags": [
         "Nansen発見",
         "Tier-B",
+        "再監査:真の実現赤字",
         "取引なし(14d)",
         "稼ぎ確認・先行不明(要精査)"
       ],
       "notes": "",
       "history": [],
       "last_seen": "2026-06-17",
-      "position": "プロトレーダー(本物)",
+      "position": "除外/低優先",
       "metric_category": "hl-verified",
       "labels": [],
       "roi_alltime": 0.4765221130075824,
       "n_fills_14d": 6899,
       "nansen_checked": "2026-06-17",
-      "notes_jp": "【判定】実力で安定黒字・majors先行なし＝プロ確定\n【HL実測】実現益$540,966・勝率0.6422・majors比0.13・急変先行$0\n【資金源】🏦 Bybit: Hot Wallet [0xf89d7b] ＝ CEX(身元割れる)\n【注】alt中心ゆえBTC/ETH/SOLのインサイダー検証は限定的。alt側は未検証。",
+      "notes_jp": "【真の実現損益で再監査(2026-06-19)】キャッシュ約定の実現益合計は全銘柄$-41,213・majors$6,353＝<b>通算赤字</b>。台帳の記録PnLは過大/誤りだった。黒字前提の分類から除外へ降格。\n―――\n【判定】実力で安定黒字・majors先行なし＝プロ確定\n【HL実測】実現益$540,966・勝率0.6422・majors比0.13・急変先行$0\n【資金源】🏦 Bybit: Hot Wallet [0xf89d7b] ＝ CEX(身元割れる)\n【注】alt中心ゆえBTC/ETH/SOLのインサイダー検証は限定的。alt側は未検証。",
       "current": {
         "date": "2026-06-17",
         "metric_category": "hl-verified",
@@ -34221,7 +34355,9 @@
       "trade_days": 909,
       "active14": false,
       "pro_score_old": 0.386,
-      "pro_tier_old": "B"
+      "pro_tier_old": "B",
+      "true_realized_all": -41213,
+      "true_realized_maj": 6353
     },
     "0x3adaa1d2d0598c9b661a746649d20e1e8aad9b3a": {
       "address": "0x3adaa1d2d0598c9b661a746649d20e1e8aad9b3a",
@@ -34274,7 +34410,9 @@
       ],
       "nansen_errors": [],
       "pro_score_old": 0.212,
-      "pro_tier_old": "D"
+      "pro_tier_old": "D",
+      "true_realized_all": 540758,
+      "true_realized_maj": 540758
     },
     "0x8a48dcaffdf71c547cd0fd0434ae40fa57bcbf0f": {
       "address": "0x8a48dcaffdf71c547cd0fd0434ae40fa57bcbf0f",
@@ -34385,7 +34523,9 @@
       ],
       "nansen_errors": [],
       "pro_score_old": 0.385,
-      "pro_tier_old": "B"
+      "pro_tier_old": "B",
+      "true_realized_all": 523699,
+      "true_realized_maj": 402850
     },
     "0xbf49647d017805fcc576ac10f33a788e636f4258": {
       "address": "0xbf49647d017805fcc576ac10f33a788e636f4258",
@@ -34538,7 +34678,9 @@
         "未照会発掘",
         "遅効エッジ(24-72h)"
       ],
-      "notes_jp": "【未照会層から遅効エッジ発掘(2026-06-18)】台帳に未登録だった層をリーダーボードから抽出し複数地平線で精査。4h方向的中はコイン投げだが補正後リターンが 24h+0.030/72h+0.036 と市場ドリフト超。13ヶ月・銘柄['SOL', 'BTC', 'ETH']・short率0.35に分散しN=1/regimeでは説明困難。HL実測: 勝率0.69・実現$263,157・408日・口座$0。正体「匿名」 資金源=[0x3f7a30]。実力スイングの可能性が高いが遅効positioningも否定できず監視。"
+      "notes_jp": "【未照会層から遅効エッジ発掘(2026-06-18)】台帳に未登録だった層をリーダーボードから抽出し複数地平線で精査。4h方向的中はコイン投げだが補正後リターンが 24h+0.030/72h+0.036 と市場ドリフト超。13ヶ月・銘柄['SOL', 'BTC', 'ETH']・short率0.35に分散しN=1/regimeでは説明困難。HL実測: 勝率0.69・実現$263,157・408日・口座$0。正体「匿名」 資金源=[0x3f7a30]。実力スイングの可能性が高いが遅効positioningも否定できず監視。",
+      "true_realized_all": 853466,
+      "true_realized_maj": 263157
     },
     "0x3d643dabed5e1675ffc6a4608d095c11943ef551": {
       "address": "0x3d643dabed5e1675ffc6a4608d095c11943ef551",
@@ -34843,7 +34985,9 @@
         "未照会発掘",
         "遅効エッジ(24-72h)"
       ],
-      "notes_jp": "【未照会層から遅効エッジ発掘(2026-06-18)】台帳に未登録だった層をリーダーボードから抽出し複数地平線で精査。4h方向的中はコイン投げだが補正後リターンが 24h+0.048/72h+0.093 と市場ドリフト超。9ヶ月・銘柄['ETH', 'BTC']・short率0.83に分散しN=1/regimeでは説明困難。HL実測: 勝率0.6858・実現$1,312,009・537日・口座$111,033。正体「匿名」 資金源=[0xc61017]。実力スイングの可能性が高いが遅効positioningも否定できず監視。"
+      "notes_jp": "【未照会層から遅効エッジ発掘(2026-06-18)】台帳に未登録だった層をリーダーボードから抽出し複数地平線で精査。4h方向的中はコイン投げだが補正後リターンが 24h+0.048/72h+0.093 と市場ドリフト超。9ヶ月・銘柄['ETH', 'BTC']・short率0.83に分散しN=1/regimeでは説明困難。HL実測: 勝率0.6858・実現$1,312,009・537日・口座$111,033。正体「匿名」 資金源=[0xc61017]。実力スイングの可能性が高いが遅効positioningも否定できず監視。",
+      "true_realized_all": 1144661,
+      "true_realized_maj": 1312009
     },
     "0x5aa6a1d420bf8fa45d141af73e9230e1e8c3dc16": {
       "address": "0x5aa6a1d420bf8fa45d141af73e9230e1e8c3dc16",
@@ -35012,7 +35156,9 @@
         "未照会発掘",
         "遅効エッジ(24-72h)"
       ],
-      "notes_jp": "【未照会層から遅効エッジ発掘(2026-06-18)】台帳に未登録だった層をリーダーボードから抽出し複数地平線で精査。4h方向的中はコイン投げだが補正後リターンが 24h+0.021/72h+0.034 と市場ドリフト超。9ヶ月・銘柄['SOL', 'BTC']・short率0.41に分散しN=1/regimeでは説明困難。HL実測: 勝率0.934・実現$586,795・347日・口座$4。正体「匿名」 資金源=[0xeb1a50]。実力スイングの可能性が高いが遅効positioningも否定できず監視。"
+      "notes_jp": "【未照会層から遅効エッジ発掘(2026-06-18)】台帳に未登録だった層をリーダーボードから抽出し複数地平線で精査。4h方向的中はコイン投げだが補正後リターンが 24h+0.021/72h+0.034 と市場ドリフト超。9ヶ月・銘柄['SOL', 'BTC']・short率0.41に分散しN=1/regimeでは説明困難。HL実測: 勝率0.934・実現$586,795・347日・口座$4。正体「匿名」 資金源=[0xeb1a50]。実力スイングの可能性が高いが遅効positioningも否定できず監視。",
+      "true_realized_all": 1212478,
+      "true_realized_maj": 586795
     },
     "0x001aba7087f49a135ffb121a40684416824e9c34": {
       "address": "0x001aba7087f49a135ffb121a40684416824e9c34",
@@ -35296,7 +35442,9 @@
         "未照会発掘",
         "遅効エッジ(24-72h)"
       ],
-      "notes_jp": "【未照会層から遅効エッジ発掘(2026-06-19)】台帳に未登録だった層をリーダーボードから抽出し複数地平線で精査。4h方向的中はコイン投げだが補正後リターンが 24h+0.012/72h+0.034 と市場ドリフト超。8ヶ月・銘柄['ETH', 'SOL', 'BTC']・short率0.63に分散しN=1/regimeでは説明困難。HL実測: 勝率0.7136・実現$1,201,713・245日・口座$2,841,163。正体「High Activity」 資金源=[0x4b171f], [0x75c395], [0x7ce8c7]。実力スイングの可能性が高いが遅効positioningも否定できず監視。"
+      "notes_jp": "【未照会層から遅効エッジ発掘(2026-06-19)】台帳に未登録だった層をリーダーボードから抽出し複数地平線で精査。4h方向的中はコイン投げだが補正後リターンが 24h+0.012/72h+0.034 と市場ドリフト超。8ヶ月・銘柄['ETH', 'SOL', 'BTC']・short率0.63に分散しN=1/regimeでは説明困難。HL実測: 勝率0.7136・実現$1,201,713・245日・口座$2,841,163。正体「High Activity」 資金源=[0x4b171f], [0x75c395], [0x7ce8c7]。実力スイングの可能性が高いが遅効positioningも否定できず監視。",
+      "true_realized_all": 3410084,
+      "true_realized_maj": 1201713
     },
     "0x3fb5da839710949169d716d95800ff6316b3286f": {
       "address": "0x3fb5da839710949169d716d95800ff6316b3286f",
@@ -35347,7 +35495,9 @@
         "未照会発掘",
         "遅効エッジ(24-72h)"
       ],
-      "notes_jp": "【未照会層から遅効エッジ発掘(2026-06-19)】台帳に未登録だった層をリーダーボードから抽出し複数地平線で精査。4h方向的中はコイン投げだが補正後リターンが 24h+0.029/72h+0.033 と市場ドリフト超。16ヶ月・銘柄['SOL', 'ETH', 'BTC']・short率0.33に分散しN=1/regimeでは説明困難。HL実測: 勝率0.4224・実現$100,389・673日・口座$0。正体「匿名」 資金源=🤖 Synapse: Bridge [0x6f4e8e]。実力スイングの可能性が高いが遅効positioningも否定できず監視。"
+      "notes_jp": "【未照会層から遅効エッジ発掘(2026-06-19)】台帳に未登録だった層をリーダーボードから抽出し複数地平線で精査。4h方向的中はコイン投げだが補正後リターンが 24h+0.029/72h+0.033 と市場ドリフト超。16ヶ月・銘柄['SOL', 'ETH', 'BTC']・short率0.33に分散しN=1/regimeでは説明困難。HL実測: 勝率0.4224・実現$100,389・673日・口座$0。正体「匿名」 資金源=🤖 Synapse: Bridge [0x6f4e8e]。実力スイングの可能性が高いが遅効positioningも否定できず監視。",
+      "true_realized_all": 1135844,
+      "true_realized_maj": 100389
     },
     "0xac38a7473c31a1989a999c0a5da9a4e0d57f2574": {
       "address": "0xac38a7473c31a1989a999c0a5da9a4e0d57f2574",
@@ -35446,7 +35596,9 @@
         "未照会発掘",
         "遅効エッジ(24-72h)"
       ],
-      "notes_jp": "【未照会層から遅効エッジ発掘(2026-06-19)】台帳に未登録だった層をリーダーボードから抽出し複数地平線で精査。4h方向的中はコイン投げだが補正後リターンが 24h+0.014/72h+0.048 と市場ドリフト超。10ヶ月・銘柄['ETH', 'BTC', 'SOL']・short率0.56に分散しN=1/regimeでは説明困難。HL実測: 勝率0.5437・実現$58,901・1050日・口座$0。正体「匿名」 資金源=🏦 Crypto.com: Withdrawal [0xd7a827], [0xdb6140], 🤖 🏦 Uniswap: V3 ⚠️ VST-USDC (0.01%) Liquidity Pool  [0x6a0875]。実力スイングの可能性が高いが遅効positioningも否定できず監視。"
+      "notes_jp": "【未照会層から遅効エッジ発掘(2026-06-19)】台帳に未登録だった層をリーダーボードから抽出し複数地平線で精査。4h方向的中はコイン投げだが補正後リターンが 24h+0.014/72h+0.048 と市場ドリフト超。10ヶ月・銘柄['ETH', 'BTC', 'SOL']・short率0.56に分散しN=1/regimeでは説明困難。HL実測: 勝率0.5437・実現$58,901・1050日・口座$0。正体「匿名」 資金源=🏦 Crypto.com: Withdrawal [0xd7a827], [0xdb6140], 🤖 🏦 Uniswap: V3 ⚠️ VST-USDC (0.01%) Liquidity Pool  [0x6a0875]。実力スイングの可能性が高いが遅効positioningも否定できず監視。",
+      "true_realized_all": 554032,
+      "true_realized_maj": 58901
     }
   },
   "updated_at": "2026-06-17T18:57:53.443226+00:00"
