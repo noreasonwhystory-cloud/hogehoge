@@ -6970,7 +6970,8 @@
       "tags": [
         "Nansen発見",
         "取引あり(14d)",
-        "塩漬け:7日以上"
+        "塩漬け:7日以上",
+        "局所ベースラインでエッジ消失"
       ],
       "notes": "",
       "history": [
@@ -6989,7 +6990,7 @@
       "last_seen": "2026-06-17",
       "metric_category": "pro_trader",
       "insider_likelihood": null,
-      "position": "弱い疑惑(監視継続)",
+      "position": "除外/低優先",
       "auto_tags": [
         "ROI:高(100-1000%)",
         "PnL:大($1-10M)",
@@ -7036,7 +7037,7 @@
         }
       ],
       "nansen_checked": "2026-06-17",
-      "notes_jp": "【再精査(2026-06-19)・hit-and-run誤判定を訂正】realize月はJan-Mar 2026に分散(SOL Oct一撃は建玉時帰属の誤り、10月は-$4k)。多月持続の勝ち＝実力スイング寄り。明確なインサイダー signal は無いが持続エッジゆえ監視。\n―――\n【hit-and-run候補(2026-06-18)】all-coin稼ぎ構造を分析: 利益の100%が少数トレードに集中し、最大勝ちは SOL(2025-10) で＄990,093。総実現＄1,313,759。単一銘柄(多くはalt)に集中して大勝ち→撤退＝典型的インサイダー撤退パターン。altは情報非対称が大きく要精査(killが上場/発表前か未検証)。\n―――\n【ひとことで】💰稼いで引き上げ。先行検出も的中24%と低く偶然濃厚\n【HL実測】実現益$1,313,759・的中0.2397・急変先行$104,393・majors4368約定\n【取引期間】2025-10-22〜2026-06-17",
+      "notes_jp": "【局所ベースライン再検証(2026-06-19)】全期間ベースラインでは遅効エッジに見えたが、活動期間のドリフトで引くと補正72h=-0.0065＝市場平均を超えず。下落regimeでショートしていただけ(暴落便乗)で情報優位でない。除外へ。\n―――\n【再精査(2026-06-19)・hit-and-run誤判定を訂正】realize月はJan-Mar 2026に分散(SOL Oct一撃は建玉時帰属の誤り、10月は-$4k)。多月持続の勝ち＝実力スイング寄り。明確なインサイダー signal は無いが持続エッジゆえ監視。\n―――\n【hit-and-run候補(2026-06-18)】all-coin稼ぎ構造を分析: 利益の100%が少数トレードに集中し、最大勝ちは SOL(2025-10) で＄990,093。総実現＄1,313,759。単一銘柄(多くはalt)に集中して大勝ち→撤退＝典型的インサイダー撤退パターン。altは情報非対称が大きく要精査(killが上場/発表前か未検証)。\n―――\n【ひとことで】💰稼いで引き上げ。先行検出も的中24%と低く偶然濃厚\n【HL実測】実現益$1,313,759・的中0.2397・急変先行$104,393・majors4368約定\n【取引期間】2025-10-22〜2026-06-17",
       "roi_alltime": 4.4221123437,
       "roi_month": 0.9208969009,
       "n_fills_14d": 186,
@@ -7864,7 +7865,7 @@
       "tags": [
         "Nansen発見",
         "取引なし(14d)",
-        "暴落前ショート"
+        "局所ベースラインでエッジ消失"
       ],
       "notes": "",
       "history": [
@@ -7883,7 +7884,7 @@
       "last_seen": "2026-06-17",
       "metric_category": "excluded",
       "insider_likelihood": null,
-      "position": "弱い疑惑(監視継続)",
+      "position": "除外/低優先",
       "auto_tags": [
         "ROI:高(100-1000%)",
         "PnL:大($1-10M)",
@@ -7918,7 +7919,7 @@
       ],
       "counterparties": [],
       "nansen_checked": "2026-06-17",
-      "notes_jp": "【再精査(2026-06-19)・hit-and-run誤判定を訂正】2025年10月の市場暴落の2-3日前(10/8)にETH($4454)・SOL($228)を天井圏で空売り開始＝マクロ先行positioning。さらに$7.8Mを多月(5万→41万→68万→64万)に渡り持続的に稼ぐ。一撃でなく持続エッジ。暴落を事前に知っていた情報優位か、卓越したマクロ実力かは断定不可ゆえ監視継続。\n―――\n【hit-and-run候補(2026-06-18)】all-coin稼ぎ構造を分析: 利益の92%が少数トレードに集中し、最大勝ちは SOL(2025-10) で＄5,351,242。総実現＄7,817,594。単一銘柄(多くはalt)に集中して大勝ち→撤退＝典型的インサイダー撤退パターン。altは情報非対称が大きく要精査(killが上場/発表前か未検証)。\n―――\n【ひとことで】💰稼いで引き上げ。稼ぎ方は判定保留\n【HL実測】実現益$1,445,970・的中0.0512・急変先行$0・majors11999約定\n【取引期間】2025-08-20〜2026-01-29",
+      "notes_jp": "【局所ベースライン再検証(2026-06-19)】全期間ベースラインでは遅効エッジに見えたが、活動期間のドリフトで引くと補正72h=-0.0017＝市場平均を超えず。下落regimeでショートしていただけ(暴落便乗)で情報優位でない。除外へ。\n―――\n【再精査(2026-06-19)・hit-and-run誤判定を訂正】2025年10月の市場暴落の2-3日前(10/8)にETH($4454)・SOL($228)を天井圏で空売り開始＝マクロ先行positioning。さらに$7.8Mを多月(5万→41万→68万→64万)に渡り持続的に稼ぐ。一撃でなく持続エッジ。暴落を事前に知っていた情報優位か、卓越したマクロ実力かは断定不可ゆえ監視継続。\n―――\n【hit-and-run候補(2026-06-18)】all-coin稼ぎ構造を分析: 利益の92%が少数トレードに集中し、最大勝ちは SOL(2025-10) で＄5,351,242。総実現＄7,817,594。単一銘柄(多くはalt)に集中して大勝ち→撤退＝典型的インサイダー撤退パターン。altは情報非対称が大きく要精査(killが上場/発表前か未検証)。\n―――\n【ひとことで】💰稼いで引き上げ。稼ぎ方は判定保留\n【HL実測】実現益$1,445,970・的中0.0512・急変先行$0・majors11999約定\n【取引期間】2025-08-20〜2026-01-29",
       "roi_alltime": 2.9258198936,
       "roi_month": 0.6758248228,
       "n_fills_14d": 579,
@@ -10293,8 +10294,7 @@
       "tags": [
         "Tier-B",
         "取引あり(14d)",
-        "塩漬け:6日",
-        "実績未確認(closes0/含み益のみ)"
+        "塩漬け:6日"
       ],
       "notes": "",
       "history": [
@@ -10325,9 +10325,9 @@
         "date": "2026-06-17",
         "metric_category": "excluded",
         "insider_score": 0.0375,
-        "win_rate": null,
+        "win_rate": 1.0,
         "dir_accuracy": 0.0,
-        "total_pnl": 0,
+        "total_pnl": 1391539,
         "avg_hold_h": null,
         "event_lead_notional": 0,
         "insider_likelihood": null
@@ -10415,7 +10415,7 @@
       "pro_realized": 1376096,
       "pro_span_days": 28,
       "pro_tier": "B",
-      "active14": false,
+      "active14": true,
       "pro_score_old": 0.383,
       "pro_tier_old": "B",
       "soak_detail": {
@@ -10428,10 +10428,10 @@
         "open": "2026-05-20",
         "open_at_end": true
       },
-      "true_realized_all": 0,
-      "true_realized_maj": 0,
-      "n_closes": 0,
-      "active_days": 0.1,
+      "true_realized_all": 1393922,
+      "true_realized_maj": 1391539,
+      "n_closes": 6857,
+      "active_days": 27.6,
       "metric_normalized": "2026-06-19"
     },
     "0x2607a3909cee65aa8205ca26f7db2d9244389577": {
@@ -11638,7 +11638,6 @@
         "Nansen発見",
         "Tier-S",
         "取引あり(14d)",
-        "実績未確認(closes0/含み益のみ)",
         "稼ぎ確認・先行不明(要精査)"
       ],
       "notes": "",
@@ -11671,8 +11670,8 @@
       "current": {
         "date": "2026-06-17",
         "metric_category": "nansen-pro",
-        "total_pnl": 0,
-        "win_rate": null,
+        "total_pnl": 6340810,
+        "win_rate": 0.9915,
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
@@ -11754,13 +11753,13 @@
       "active_from": "2025-12-02",
       "active_to": "2026-06-10",
       "trade_days": 190,
-      "active14": false,
+      "active14": true,
       "pro_score_old": 0.942,
       "pro_tier_old": "S",
-      "true_realized_all": 0,
-      "true_realized_maj": 0,
-      "n_closes": 0,
-      "active_days": 5.8,
+      "true_realized_all": 6329149,
+      "true_realized_maj": 6340810,
+      "n_closes": 3425,
+      "active_days": 189.5,
       "metric_normalized": "2026-06-19"
     },
     "0xed41a12ea862f31df054e9bd3af1dd59486c6029": {
@@ -11770,9 +11769,8 @@
       "tags": [
         "HL検証済プロ",
         "Nansen発見",
-        "Tier-B",
-        "取引なし(14d)",
-        "実績未確認(closes0/含み益のみ)"
+        "Tier-A",
+        "取引なし(14d)"
       ],
       "notes": "",
       "history": [
@@ -11803,9 +11801,9 @@
       "current": {
         "date": "2026-06-17",
         "metric_category": "hl-verified",
-        "win_rate": null,
+        "win_rate": 0.9928,
         "dir_accuracy": 0.0956,
-        "total_pnl": 0,
+        "total_pnl": 2150195,
         "event_lead_notional": 0,
         "insider_likelihood": null,
         "avg_hold_h": null
@@ -11815,7 +11813,7 @@
       "pro_score": 0.456,
       "pro_realized": 2142600,
       "pro_span_days": 138,
-      "pro_tier": "B",
+      "pro_tier": "A",
       "active_from": "2025-12-10",
       "active_to": "2026-04-27",
       "trade_days": 138,
@@ -11913,10 +11911,10 @@
       "nansen_errors": [],
       "pro_score_old": 0.456,
       "pro_tier_old": "B",
-      "true_realized_all": 0,
-      "true_realized_maj": 0,
-      "n_closes": 0,
-      "active_days": 7.8,
+      "true_realized_all": 2142600,
+      "true_realized_maj": 2150195,
+      "n_closes": 978,
+      "active_days": 137.8,
       "metric_normalized": "2026-06-19"
     },
     "0x5bc43f38c2ddcd85857f218674cd384f172c3b0c": {
@@ -13519,8 +13517,7 @@
       "tags": [
         "HL検証済プロ",
         "Nansen発見",
-        "Tier-B",
-        "プロ実績未検証(取得失敗)",
+        "Tier-A",
         "取引なし(14d)",
         "塩漬け:7日以上"
       ],
@@ -13553,9 +13550,9 @@
       "current": {
         "date": "2026-06-17",
         "metric_category": "hl-verified",
-        "win_rate": 0.8349,
+        "win_rate": 0.867,
         "dir_accuracy": 0.2206,
-        "total_pnl": 1733820.22,
+        "total_pnl": 2031004,
         "event_lead_notional": 0,
         "insider_likelihood": null,
         "avg_hold_h": null
@@ -13565,7 +13562,7 @@
       "pro_score": 0.485,
       "pro_realized": 2031004,
       "pro_span_days": 257,
-      "pro_tier": "B",
+      "pro_tier": "A",
       "active_from": "2025-09-09",
       "active_to": "2026-05-24",
       "trade_days": 257,
@@ -13590,7 +13587,12 @@
         "dir": "short",
         "open": "2025-09-09",
         "open_at_end": false
-      }
+      },
+      "true_realized_all": 2031004,
+      "true_realized_maj": 2031004,
+      "n_closes": 1677,
+      "active_days": 256.9,
+      "metric_normalized": "2026-06-19"
     },
     "0x36ac01de9bc76c0d744b38c3e13a0538d55c7568": {
       "address": "0x36ac01de9bc76c0d744b38c3e13a0538d55c7568",
@@ -13929,8 +13931,7 @@
       "tags": [
         "HL検証済プロ",
         "Nansen発見",
-        "Tier-C",
-        "プロ実績未検証(取得失敗)",
+        "Tier-B",
         "取引なし(14d)"
       ],
       "notes": "",
@@ -13964,7 +13965,7 @@
         "metric_category": "hl-verified",
         "win_rate": 0.9971,
         "dir_accuracy": 0.0,
-        "total_pnl": 713340.83,
+        "total_pnl": 713341,
         "event_lead_notional": 0,
         "insider_likelihood": null,
         "avg_hold_h": null
@@ -13974,7 +13975,7 @@
       "pro_score": 0.373,
       "pro_realized": 1226127,
       "pro_span_days": 217,
-      "pro_tier": "C",
+      "pro_tier": "B",
       "active_from": "2025-10-07",
       "active_to": "2026-05-12",
       "trade_days": 217,
@@ -14031,7 +14032,12 @@
       ],
       "nansen_errors": [],
       "pro_score_old": 0.373,
-      "pro_tier_old": "C"
+      "pro_tier_old": "C",
+      "true_realized_all": 1226127,
+      "true_realized_maj": 713341,
+      "n_closes": 349,
+      "active_days": 216.7,
+      "metric_normalized": "2026-06-19"
     },
     "0xe091330c53b971ed4e886f902f18e8544a8d6705": {
       "address": "0xe091330c53b971ed4e886f902f18e8544a8d6705",
@@ -15473,6 +15479,7 @@
         "HL履歴なし",
         "Nansen発見",
         "取引あり(14d)",
+        "局所検証済(真の遅効エッジ)",
         "遅効エッジ(24-72h)"
       ],
       "notes": "",
@@ -15529,7 +15536,8 @@
       "true_realized_maj": 952119,
       "n_closes": 2166,
       "active_days": 494.3,
-      "metric_normalized": "2026-06-19"
+      "metric_normalized": "2026-06-19",
+      "mh_detr72_local": 0.066
     },
     "0x2373962eec8ed3764ddc1142244ac1e0fa38d0d8": {
       "address": "0x2373962eec8ed3764ddc1142244ac1e0fa38d0d8",
@@ -25003,6 +25011,7 @@
         "HL検証:非該当",
         "Nansen発見",
         "取引あり(14d)",
+        "局所検証済(真の遅効エッジ)",
         "遅効エッジ(24-72h)"
       ],
       "notes": "",
@@ -25060,7 +25069,8 @@
       "true_realized_maj": 278085,
       "n_closes": 213,
       "active_days": 280.6,
-      "metric_normalized": "2026-06-19"
+      "metric_normalized": "2026-06-19",
+      "mh_detr72_local": 0.04
     },
     "0x61b6cfd715d70df1b1822763639e75a575a23c12": {
       "address": "0x61b6cfd715d70df1b1822763639e75a575a23c12",
@@ -27289,6 +27299,7 @@
         "HL検証:非該当",
         "Nansen発見",
         "取引なし(14d)",
+        "局所検証済(真の遅効エッジ)",
         "遅効エッジ(24-72h)"
       ],
       "notes": "",
@@ -27346,7 +27357,8 @@
       "true_realized_maj": 227863,
       "n_closes": 522,
       "active_days": 126.6,
-      "metric_normalized": "2026-06-19"
+      "metric_normalized": "2026-06-19",
+      "mh_detr72_local": 0.031
     },
     "0x3e1992da09489b64c35685ba407bbd9b110565e0": {
       "address": "0x3e1992da09489b64c35685ba407bbd9b110565e0",
@@ -33667,7 +33679,6 @@
         "HL検証済プロ",
         "Nansen発見",
         "Tier-S",
-        "プロ実績未検証(取得失敗)",
         "取引あり(14d)"
       ],
       "notes": "",
@@ -33701,7 +33712,7 @@
         "metric_category": "hl-verified",
         "win_rate": 1.0,
         "dir_accuracy": 0.0,
-        "total_pnl": 328867.94,
+        "total_pnl": 328868,
         "event_lead_notional": 0,
         "insider_likelihood": null,
         "avg_hold_h": null
@@ -33715,7 +33726,7 @@
       "active_from": "2024-11-29",
       "active_to": "2026-06-10",
       "trade_days": 558,
-      "active14": true,
+      "active14": false,
       "first_funders": [
         {
           "address": "0x0938c63109801ee4243a487ab84dffa2bba4589e",
@@ -33726,7 +33737,12 @@
       ],
       "nansen_errors": [],
       "pro_score_old": 0.83,
-      "pro_tier_old": "S"
+      "pro_tier_old": "S",
+      "true_realized_all": 6015385,
+      "true_realized_maj": 328868,
+      "n_closes": 87,
+      "active_days": 100.4,
+      "metric_normalized": "2026-06-19"
     },
     "0x55999a9124b976d05a7fd98d414e185d95e9e940": {
       "address": "0x55999a9124b976d05a7fd98d414e185d95e9e940",
@@ -34324,7 +34340,6 @@
         "HL検証済プロ",
         "Nansen発見",
         "Tier-S",
-        "プロ実績未検証(取得失敗)",
         "取引なし(14d)"
       ],
       "notes": "",
@@ -34368,7 +34383,12 @@
       ],
       "nansen_errors": [],
       "pro_score_old": 0.651,
-      "pro_tier_old": "S"
+      "pro_tier_old": "S",
+      "true_realized_all": 5802013,
+      "true_realized_maj": 5802013,
+      "n_closes": 475,
+      "active_days": 102.5,
+      "metric_normalized": "2026-06-19"
     },
     "0x8cfe4bc352deb10ed41c5f0f89bc57674cee1e22": {
       "address": "0x8cfe4bc352deb10ed41c5f0f89bc57674cee1e22",
@@ -34378,7 +34398,7 @@
         "HL検証済プロ",
         "Nansen発見",
         "Tier-S",
-        "プロ実績未検証(取得失敗)",
+        "プロ実績未確認(約定取得不能)",
         "取引なし(14d)"
       ],
       "notes": "",
@@ -36815,6 +36835,7 @@
       "tags": [
         "Nansen発見",
         "取引なし(14d)",
+        "局所検証済(真の遅効エッジ)",
         "未照会発掘",
         "遅効エッジ(24-72h)"
       ],
@@ -36822,7 +36843,8 @@
       "true_realized_all": 1144661,
       "true_realized_maj": 1312009,
       "active_days": 537.2,
-      "metric_normalized": "2026-06-19"
+      "metric_normalized": "2026-06-19",
+      "mh_detr72_local": 0.092
     },
     "0x5aa6a1d420bf8fa45d141af73e9230e1e8c3dc16": {
       "address": "0x5aa6a1d420bf8fa45d141af73e9230e1e8c3dc16",
@@ -37564,6 +37586,7 @@
       "tags": [
         "Nansen発見",
         "取引あり(14d)",
+        "局所検証済(真の遅効エッジ)",
         "未照会発掘",
         "遅効エッジ(24-72h)"
       ],
@@ -37571,7 +37594,8 @@
       "true_realized_all": 176236,
       "true_realized_maj": 157364,
       "active_days": 381.4,
-      "metric_normalized": "2026-06-19"
+      "metric_normalized": "2026-06-19",
+      "mh_detr72_local": 0.03
     },
     "0x3e41a8fa0032d635f02201053f1a5aa2a6967c81": {
       "address": "0x3e41a8fa0032d635f02201053f1a5aa2a6967c81",
@@ -37742,7 +37766,7 @@
       "first_seen": "2026-06-19",
       "last_seen": "2026-06-19",
       "times_seen": 1,
-      "position": "弱い疑惑(監視継続)",
+      "position": "除外/低優先",
       "metric_category": "hl-verified",
       "labels": [],
       "first_funders": [
@@ -37784,9 +37808,9 @@
         "Nansen発見",
         "取引なし(14d)",
         "未照会発掘",
-        "遅効エッジ(24-72h)"
+        "標本不足(n=1)"
       ],
-      "notes_jp": "【未照会層から遅効エッジ発掘(2026-06-19)】台帳に未登録だった層をリーダーボードから抽出し複数地平線で精査。4h方向的中はコイン投げだが補正後リターンが 24h+0.094/72h+0.120 と市場ドリフト超。4ヶ月・銘柄['ETH', 'BTC', 'SOL']・short率0.68に分散しN=1/regimeでは説明困難。HL実測: 勝率0.7872・実現$392,888・189日・口座$397,162。正体「匿名」 資金源=[0xbf78e0]。実力スイングの可能性が高いが遅効positioningも否定できず監視。",
+      "notes_jp": "【局所再検証(2026-06-19)】局所補正後も正だが評価可能エントリn=1で統計的に無意味。標本不足ゆえ除外。\n―――\n【未照会層から遅効エッジ発掘(2026-06-19)】台帳に未登録だった層をリーダーボードから抽出し複数地平線で精査。4h方向的中はコイン投げだが補正後リターンが 24h+0.094/72h+0.120 と市場ドリフト超。4ヶ月・銘柄['ETH', 'BTC', 'SOL']・short率0.68に分散しN=1/regimeでは説明困難。HL実測: 勝率0.7872・実現$392,888・189日・口座$397,162。正体「匿名」 資金源=[0xbf78e0]。実力スイングの可能性が高いが遅効positioningも否定できず監視。",
       "true_realized_all": 644864,
       "true_realized_maj": 392888,
       "active_days": 189.1,
