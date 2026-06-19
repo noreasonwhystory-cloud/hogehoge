@@ -1,0 +1,340 @@
+{
+  "judged": [
+    {
+      "address": "0x230963164d9637a4c536270a06b4e3636d44a2d9",
+      "copy_worthy": true,
+      "confidence": 0.68,
+      "recommended_quality": "堅実",
+      "key_strength": "BTC主軸(realized_maj 41.9万=cache全体の67%)のトレンドフォロー型。win_rate 0.329と低いがprofit_factor 31.6=「損小利大」の非対称性で稼ぐ本物のプロファイル(塩漬けの真逆)。worst_month -2.05万は通算933k(leaderboard_allTime)の約2%に過ぎず、ドローダウン管理が極めて優秀。leaderboard_allTime(93.3万)>realized_cache(62.8万)で窓アーティファクトを否定、ROI 4.59かつHigh Balanceラベルで実資本での実績。closes/month 296でMMでもない。",
+      "key_concern": "months=6と中期実績にとどまり多年検証ではない。active14=false(直近14日無稼働)で現在トレード停止/ウォレット移行の可能性=ライブコピー実用性が低下。ZEC 18.2万のalt集中が副次リスク(majは堅いが第2銘柄はalt)。profit_factor 31.6は99キャップ未満で負け月は写っているが、低win_rateゆえ少数の大勝に依存する取引特性は連敗局面でメンタル/資金耐性を要する。",
+      "reasoning": "懐疑5項目を全クリア:(1)窓アーティファクト=否定。pf 31.6は99キャップでなく負け月(worst -20,533)を捕捉、かつleaderboard 933k>cache 628kで通算規模が整合し短い履歴で損失隠しではない。(2)MM=否定。closes/month 296は1500閾値の1/5、スイング/ポジション型。(3)塩漬け=否定。むしろ逆で、低win_rate 0.329×高pfは損切り徹底・利益伸ばしの典型(塩漬けは高win_rate×巨大worst_month)。worst_monthが通算の2%と小さいのが決定的証拠。(4)alt偏重=否定。realized_maj 418,854(BTC)がcacheの67%、leaderboardと整合、majが収益エンジン。(5)運/サバイバーシップ=低リスク。pos_month_rate 0.83×6ヶ月で再現性あり、ただし多年でない点で完全には排除不可。結論:真の損小利大トレンドフォロワー。コピー価値あり。ただしactive14=falseで現在稼働確認と、6ヶ月という中期性ゆえ配分は控えめ推奨。confidence 0.68は実力確度高いが多年検証不足と直近無稼働を減点。"
+    },
+    {
+      "address": "0x5aadb434293b4e1b8fb2e84007e567506fe65a96",
+      "copy_worthy": true,
+      "confidence": 0.78,
+      "recommended_quality": "プロ格下げ",
+      "key_strength": "18ヶ月の長期履歴・黒字月率0.72・worst_month僅か-11,291・ROI8.91と、運/MM/塩漬け/窓アーティファクトのいずれも否定できる持続的実力。leaderboard_allTime 573,831 ≒ realized_cache_all 592,289 でキャッシュ窓が通算をほぼ完全に捕捉しており履歴短小アーティファクトではない。closes_per_month 651はMM閾値1500の半分以下で方向性トレード。",
+      "key_concern": "致命的なalt偏重。realized_maj 29,684は通算約592,289のわずか約5%で、エッジの大半はHYPE 336,952(57%)とXPL/ZEC/SKR等のalt由来。majors先物の実力としては薄く、HYPEはHLエコシステム固有でmajorsへ移転不能な優位の可能性。majors目的コピーには不適。",
+      "reasoning": "指標は本物の持続的実力者であることを強く支持する: 18ヶ月という十分な観測期間、pos_month_rate 0.72、worst_month -11,291の小ささ、profit_factor 20.8(99の負け月なしアーティファクトではない)、そしてleaderboard_allTimeとcacheの高整合(573,831≒592,289)はサバイバーシップ/運/窓アーティファクトを否定する。closes_per_month 651・win_rate 0.576は高頻度MMでもなく塩漬けでもない。しかし精査ブリーフが最重視するrealized_majチェックで失格に近い: majors寄与は約5%で、エッジの実体はHYPE中心のalt。つまり『真の実力者だが、その実力はalt(とりわけHLネイティブのHYPE)に偏在』する。BTC/ETH/SOL perpのコピー価値という本タスクの文脈では、当初の『堅実』分類は過大評価でありプロ格下げが妥当。copy_worthyはtrue(実力自体は本物でalt book追随なら価値あり)だが、majors前提では非推奨という条件付き。confidenceは数値整合が良好なため0.78。"
+    },
+    {
+      "address": "0xa72dc2d42398e54634fc28e6769f8ce3ae011807",
+      "copy_worthy": false,
+      "confidence": 0.08,
+      "recommended_quality": "高頻度MM",
+      "key_strength": "win_rate 0.68 と profit_factor 10.0 は表面的には良好で、leaderboard_allTime($85,529)とキャッシュ窓realized($79,229)が整合しているため窓で負け月が隠れている型ではない(=データ自体は概ね本物)。",
+      "key_concern": "上記",
+      "reasoning": "三重の失格要因が重なる。(1)高頻度MM: closes_per_month≒3,000は方向性ベットでなく薄利多売で、レイテンシ依存ゆえコピー不可能。(2)履歴薄/評価不能: months=2かつ黒字月率0.5は実質トントンで持続的実力の立証になっていない。profit_factor=10.0は短窓の偶然の産物。(3)alt/商品偏重: top_coins筆頭がxyz:CL(原油先物47,930)、BTC/ETH/SOL majorsのrealizedは24,242で全体の3割に留まる=HyperliquidのBTC/ETH/SOL perp実力者としての評価軸を外している。leaderboardとキャッシュ窓が整合する点だけは正直なデータだが、それは『小規模で短い履歴をそのまま見ているだけ』を意味し、むしろコピー対象として論外。デフォルトの懐疑を覆す材料は皆無。プロ分類は格下げが妥当。"
+    },
+    {
+      "address": "0x8463d6ffcbfb56bf20ab2e1111f9a0e8359533f2",
+      "copy_worthy": false,
+      "confidence": 0.82,
+      "recommended_quality": "プロ格下げ",
+      "key_strength": "leaderboard_allTime 5.94M・ROI 37.8x。profit_factor=5.6 と worst_month -55,590 から窓アーティファクトでなく履歴は正直。確立した複数identity。規模・継続性は本物で運でない。",
+      "key_concern": "realized_maj が -14,406 と「マイナス」=BTC/ETH/SOL先物では net loser。利益源はHYPE(自エコシステム)/@254(alt)/xyz:GOLD(合成商品)で、majors実力でない=alt偏重。加えて closes_per_month=1,906(>1500)の高頻度MM・win_rate 0.477 で、エッジはスプレッド/執行インフラ依存。同じフィルを再現できずコピー不能。majors方向性戦略のコピー対象としては失格。",
+      "reasoning": "懐疑フレームで精査。(1)窓アーティファクト疑い→却下: profit_factor=5.6(99でない)・months=7・worst_month -55,590 と負け月が写っており、leaderboard_allTime 5.94Mとも整合。履歴は正直で規模も本物、運/サバイバーシップでもない。(2)しかし真のコピー価値は否定: realized_maj=-14,406 が決定打。majors先物では負けており、PnLはHYPE/alt/合成GOLDから。これはBTC/ETH/SOLコピーの文脈で『実力の所在が対象外』。(3)closes_per_month 1,906 は高頻度MM確定で、方向性トレードでなくスプレッド/リベート/レイテンシ由来=構造的にコピー不能。結論:本物の大型プロだが、majors方向性コピーの対象としては『プロ格下げ』。MM・alt偏重ゆえコピー非推奨。"
+    },
+    {
+      "address": "0xdd08886cb92c689c7d89c88f048028293296ead1",
+      "copy_worthy": false,
+      "confidence": 0.72,
+      "recommended_quality": "ムラあり",
+      "key_strength": "BTC主軸の本物の方向性トレーダー。realized_maj=146.6k(全体の88%)がmajorsでaltでない、closes/月=545でMMでない、months=9・profit_factor=7.0(=99でなく負け月を実計上)・leaderboard_allTime=112.8k/ROI185%がキャッシュ実現値166kと整合し、窓アーティファクトや運の疑いは低い。",
+      "key_concern": "持続性が弱い。pos_month_rate=0.33(黒字月3/9)で少数の大勝月に依存し、worst_month=-20.2k(通算113kに対し大)を抱える。win_rate0.661と黒字月率0.33の乖離は、月内で勝ち多数でも時折の大負けで月が赤くなる=塩漬け/ロット偏在の兆候。リターンがlumpyでタイミング依存。",
+      "reasoning": "懐疑チェックを全て通過: (1)月数9で短窓でない、(2)PF=7.0で負け月を計上済み・leaderboard_allTimeと整合し窓隠しなし、(3)closes545/月でMM否定、(4)realized_maj比88%でalt偏重否定。実力は本物でBTC方向性。ただしコピー価値の核心である「持続性」が黒字月率33%と低く、大ドローダウン月-20kを内包。盲目的コピーではフォロワーが長い赤期間と-20k DDを踏むリスクが高い。実力者ではあるが安定コピー対象としては不適格=copy_worthy false・質ムラあり。条件付き(ロット管理・部分追随)なら検討余地。"
+    },
+    {
+      "address": "0xeff7fe671d9a7acf86f48994bc5d5161042415b6",
+      "copy_worthy": false,
+      "confidence": 0.32,
+      "recommended_quality": "履歴薄/評価不能",
+      "key_strength": "純BTC専業で通算益が実在(三指標整合)、alt偏重・MM・塩漬けのいずれにも該当しない方向性トレーダー",
+      "key_concern": "致命的に短い履歴(months=2、profit_factor=99、worst_month=+3,481で負け月が一度も写っていない)に加え、ライブで27xクロスレバの単一BTCショート集中(建玉$1.5M/口座$152k、清算価格74,373=エントリ65,053からわずか約14%上)。高win_rateは逆行相場を一度も経験していない『運/サバイバーシップ』の典型で、ドローダウン耐性が完全に未検証。27xは一回の急騰で全損し得る。",
+      "reasoning": "PnLの実在性は3指標整合とライブの含み益+$61kで確認でき、その点では『窓アーティファクト』でも『alt偏重』でも『MM』でも『塩漬け(負け放置)』でもない、純BTC方向性トレーダー。しかし元データの『履歴薄(<4ヶ月)』判定は的確で、2ヶ月・負け月ゼロ・PF99は実力の証明にならない。ライブ確認した27xレバの集中ショート(清算まで約14%)は、利益が出ている間は高win_rateを演出するが、逆行一発で口座が飛ぶ構造。持続的実力の証拠が時間的に不足し、リスク管理はむしろ危険側。コピーは清算リスクを丸ごと引き継ぐため不適。実力者の可能性は否定しないが、現時点では運と未検証レバの可能性が拭えず評価不能。最低3-4ヶ月の追加履歴(特に下げ局面での挙動)を見るまで保留が妥当。"
+    },
+    {
+      "address": "0x99b1098d9d50aa076f78bd26ab22e6abd3710729",
+      "copy_worthy": false,
+      "confidence": 0.55,
+      "recommended_quality": "高頻度MM",
+      "key_strength": "通算PnL $26.4M(全データセット最大級)かつ realized_maj $2.19M がキャッシュ窓PnLとほぼ一致=majors(ETH/BTC/BNB)中心の本物の大規模perps実力。alt偏重ではない。",
+      "key_concern": "キャッシュ窓が1ヶ月分しか写っておらず(months=1, profit_factor=99, worst_month=realized_cache_allと同値)、負け月・ドローダウン耐性が一切観測不能=窓アーティファクト。さらにcloses_per_month=6,892は超高頻度MM/アルゴ執行の署名で、方向性ベットではなく薄利多売。active14=falseで現在不稼働。retailのレイテンシでこのフローを追随することは構造的に不可能。",
+      "reasoning": "$26.4Mの通算規模は本物でmajors中心だが、コピートレード適性の観点では否。(1)窓アーティファクト: データに写るのは1ヶ月のみ、PF=99かつworst_monthが全PnLと一致し、負け月が物理的に存在しない=持続性も最大DDも評価不能。(2)高頻度MM: 6,892 closes/月は数秒〜分単位の超高速執行であり、人間がシグナルとして追える方向性トレードではない。short_ratio0.71も両建て/マーケットメイク的。(3)現役性: active14=falseで直近14日無稼働、シグナル源として死んでいる。結論: 実力者(本物の大規模デスク)であることは高確度だが、それは『コピー可能な持続的方向性トレーダー』ではなく『追随不能な高頻度MMデスクの窓断片』であり、コピー価値はない。当初分類『高頻度MM』を維持。"
+    },
+    {
+      "address": "0xb123cd952875d8014efc7a9160a7531a5fe8f5ca",
+      "copy_worthy": false,
+      "confidence": 0.82,
+      "recommended_quality": "ムラあり",
+      "key_strength": "29ヶ月という極めて長い実取引履歴を持ち、profit_factor 2.9・pos_month_rate 0.48・worst_month -20322と「負け月がちゃんと写っている」=キャッシュ窓アーティファクトでもMM(closes_per_month 64と低頻度)でもない、本物の生存トレーダー。leaderboard_allTime 35.9万・ROI約30倍と通算規模・効率も実在。",
+      "key_concern": "realized_maj が -5,568 とマイナス=本命のBTC/ETH/SOL先物では負けている。利益の実体は@107(HYPE系HL指数)とPURR(Hyperliquidネイティブ)などHL生態系altに完全依存し、short_ratio 0.06のほぼ片張りロング。majors先物の実力ではなくHYPE/HLエコシステムのベータ乗りで、BTC/ETH/SOLコピー目的には edge が転移しない。pos_month_rate 0.48と黒字月が半分以下で持続性も平凡。",
+      "reasoning": "懐疑チェックを順に適用: (1)窓アーティファクト疑い→months 29・PF 2.9・worst -20322で否定、履歴は本物。(2)MM疑い→closes_per_month 64で否定。(3)塩漬け疑い→win_rate 0.761だがworst_monthは-2万程度で巨額放置はなく該当薄。(4)運/サバイバー→29ヶ月生存は運ではないが黒字月48%で一貫性は弱い。(5)alt偏重→これが決定打。realized_majが負、top_coinsが@107/PURR中心でmajors先物の実力ゼロ。総合すると「本物の長期生存トレーダーだが、利益源がHL生態系altのロング片張りで、BTC/ETH/SOLコピー対象としては非適格」。質はムラあり相当でコピー価値なし。"
+    },
+    {
+      "address": "0x9a377ec81c1bd51d31170bf8d7a7b6c5fbaded9b",
+      "copy_worthy": true,
+      "confidence": 0.82,
+      "recommended_quality": "エリート",
+      "key_strength": "19ヶ月・12,376クローズの長期大標本で勝率63%/陽性月89%(17/19)。profit_factor12.9は99の「負け月未写」フラグに該当せず、leaderboard_allTime 478K がキャッシュ通算511Kとほぼ一致=規模が実在で履歴も完結。最大DD月 -22,672 は通算の約5%に過ぎず塩漬けの兆候なし。BTCが単独最大(266K)でmajors 58%、closes/月651は方向性トレードで高頻度MMでない。",
+      "key_concern": "PnLの約42%がalt(JUP/HYPE/SPCX)由来でalt依存が無視できず、特にxyz:SPCXは薄商いのニッチ市場でコピー再現性が低い。加えてactive14=falseで直近は休眠=過去実績の継続性が現時点で未確認。",
+      "reasoning": "全懐疑チェックを通過: (1)窓アーティファクト否定—19ヶ月・PF12.9・leaderboardとキャッシュ整合で負け月も写っている。(2)運/サバイバーシップ否定—大標本かつ89%陽性月。(3)高頻度MM否定—651closes/月は中庸で方向性。(4)塩漬け否定—worst_month小さく高勝率と矛盾なし。(5)alt偏重は部分フラグ—BTC主軸でmajors58%だがaltが4割。総じてmajors先物の実力に裏打ちされた持続的実力者でコピー価値あり。ただしalt依存と直近休眠を割引材料とし確度0.82。"
+    },
+    {
+      "address": "0xf211dd718de25bcad861e53a7b10dd5b3b9d5c6c",
+      "copy_worthy": false,
+      "confidence": 0.82,
+      "recommended_quality": "プロ格下げ",
+      "key_strength": "BTC中心の純粋メジャー先物で指標は信頼可能",
+      "key_concern": "worst_month -47,376 が通算PnL +67,232 の約70%を一発で吹き飛ばす規模=ドローダウン管理が壊滅的。pos_month_rate 0.38(月の62%が赤字)、profit_factor 1.7(利益が損失を辛うじて上回るだけの薄いエッジ)、win_rate 0.391+ショート偏重0.74。低勝率・薄利・巨大DDの典型的な「負け放置(損切り遅れ)」プロファイルで、ROI 1.07も低い。",
+      "reasoning": "アーティファクト系の疑い(alt偏重/窓/MM/PF=99)は全てクリア=データは本物。だが本物だからこそ実力の低さが露呈。8ヶ月で通算+67kを残せたのは少数の当たり月が多数の小負け月を相殺した結果で、しかも単月-47kという致命的DDを抱える。profit_factor 1.7はエッジが偶然に飲み込まれる水準で、サバイバーシップ(運で生き残った薄エッジ)に近い。これをコピーすれば、フォロワーは薄い期待値と引き換えに-47k級のDD profileを丸ごと背負う。元分類「ムラあり」は寛容すぎ、worst_month/all-time比とPF・pos_month_rateの三重苦から「プロ格下げ」が妥当。持続的実力者とは認定できない。"
+    },
+    {
+      "address": "0xbe494a5e3a719a78a45a47ab453b7b0199b9d101",
+      "copy_worthy": false,
+      "confidence": 0.2,
+      "recommended_quality": "高頻度MM",
+      "key_strength": "通算leaderboard約290万ドルは実在(HL公式allTimeで一致)。realized_majは130万ドルでSOL/BNB/ETHのmajors中心、alt偏重ではない。win_rate0.985と一見鉄壁。",
+      "key_concern": "PF=99・worst_month陽性・黒字月率1.0はキャッシュ窓アーティファクト。HL公式月次では2026年1月に-3.06万/-3.34万ドルの負け月が実在しデータセット5ヶ月窓が取りこぼしているだけ。通算PnLは2026年1月末の約308万ドルピーク後、約4ヶ月横ばい=新規アルファ枯渇。口座価値は約70万ドルから現在7,720ドルへ崩落。直近2000約定は30時間でBNB1961件+XYZ100、全『Close Short』の自動HFTショート擦りでコピー不能。",
+      "reasoning": "HL公開APIで実地検証。(1)キャッシュ窓: データセットのPF=99/負け月なしは虚偽。allTime月次pnlHistoryに2026年1月の-30,600/-33,400ドルの負け月、複数の負け週が明確に存在。5ヶ月キャッシュが大負け月を写していないだけで『負け放置を疑え』の典型。(2)サバイバーシップ/陳腐化: 通算PnLは2025年10月-2026年1月の単一の爆発局面で133K→3Mへ急騰し、その後約4ヶ月間2.84M-2.90Mで横ばい=実質的に新規利益ゼロ。leaderboard2.9Mは実在だが再現不能な過去の遺産。(3)口座崩落: account valueは2025年11月の約696K、冬の400-570Kから現在わずか7,720ドルへ激減。安定スケール運用ではない。(4)高頻度MM確定: 直近userFills2000件=BNB1961+XYZ100の全『Close Short』が約30時間に集中、closes_per_month2002・short_ratio1.0。方向性のコピー対象ではなく自動ショート擦り。現在ポジはETH-40/SOL-42/BNB-0.59を7.7K口座の20倍レバ=脆弱。majors中心なのは救いだがHFT churnであり実力の方向性トレードではない。総合: コピー価値なし、暫定分類『高頻度MM』は妥当だが本質はキャッシュ窓+サバイバーシップで膨らんだ過去実績。confidence(実力である確度)0.2。"
+    },
+    {
+      "address": "0xfeec88b13fc0be31695069f02bac18538a154e9c",
+      "copy_worthy": false,
+      "confidence": 0.78,
+      "recommended_quality": "高頻度MM",
+      "key_strength": "leaderboard_allTime 11.4M とSOL集中(realized_maj=1,391,539がrealized_cache_all=1,393,922のほぼ100%)から、majors先物で巨額を稼ぐ本物の大規模オペレーターである点。alt偏重ではなくSOL主軸。通算規模は疑いなく本物。",
+      "key_concern": "closes_per_month=3,762はMM閾値の2.5倍で完全な高頻度スキャル/MM型(短期エッジ・メーカーリベート・マイクロ構造依存)。コピー先に移転不能かつ月3,762決済は実務的に追随不可能。加えてmonths=2・profit_factor=99・win_rate=0.999・worst_month=+19,069(負け月ゼロ)はキャッシュ窓アーティファクトの典型で、通算11.4Mのうち窓に写るのは約12%のみ。負け月が単に写っていないだけでドローダウン耐性が一切検証できない。",
+      "reasoning": "通算規模(leaderboard 11.4M)とSOL集中は本物で、運やalt偏重ではない真の実力者。しかし(1)months=2の窓に通算の約12%しか写らず、win_rate0.999/PF99/worst_month正値=負け月が構造的に隠れている窓アーティファクト、(2)closes_per_month3,762・100%ショートの高頻度MM/スキャル型でエッジが移転せず追随も不可能。実力は本物だが「コピートレード価値」の観点では非移転性とリスク不可視性が致命的。デフォルト懐疑を維持し非推奨。元分類『高頻度MM(薄利多売)』を支持。"
+    },
+    {
+      "address": "0x8e096995c3e4a3f0bc5b3ea1cba94de2aa4d70c9",
+      "copy_worthy": true,
+      "confidence": 0.82,
+      "recommended_quality": "エリート",
+      "key_strength": "通算59.6M(ROI14.19)で運否定、majors69%で実力本物、profit_factor14.3かつ大敗月明示で窓アーティファクトでない",
+      "key_concern": "closes_per_month=3,546と高頻度執行のためシグナル単純コピーは追随困難(滑り・約定タイミング差)。win_rate 0.765と高いがworst_month -728Kの大敗月があり、塩漬け傾向の可能性とドローダウン耐性を要する。ZEC 4Mのalt集中も一部あり。",
+      "reasoning": "暫定分類は「高頻度MM」だったが再精査で格上げ。純粋デルタ中立MMの特徴(小worst_month・方向中立)と異なり、ETH/ZECに方向性集中しworst_month -728Kと明確に方向リスクを取る『高頻度執行を伴う方向性トレーダー』。profit_factor=14.3は99でなく、pos_month_rate 0.67(2ヶ月赤字)で負け月が実在し計上済み→窓アーティファクト否定。leaderboard_allTime 59.6Mはキャッシュ窓realized_cache 12.05Mの約5倍で通算規模は本物。majors比率69%でalt偏重も否定。総合して持続的実力者(エリート)。ただし高頻度ゆえコピーは方向性追随に留め、3,546/月のスキャルプ完全模倣は非推奨。worst_monthはトータル比約6%で致命的でない=損切り機能の証左。"
+    },
+    {
+      "address": "0xc7290b4b308431a985fa9e3e8a335c2f7650517c",
+      "copy_worthy": true,
+      "confidence": 0.62,
+      "recommended_quality": "堅実",
+      "key_strength": "majors先物の本物の実力。realized_maj 3.32M=総PnLの85%でETH 2.19M+BTC 1.12Mが中核。leaderboard_allTime 5.44Mとcache 3.9M(約72%捕捉)が整合し規模は実在。closes_per_month 162でMMでなく方向性ポジション勢。profit_factor 76.3(99でない)+worst_month -51,826で負け月が実際に記録され、窓アーティファクトでない。pos_month_rate 0.67(4/6)で下げ月も乗り越え黒字維持。",
+      "key_concern": "short_ratio=1.0の完全ショート偏重。3.3Mのmajors益は下げ/レンジ相場で稼いだ可能性が高く、レジーム依存のエッジ。持続的な上昇局面でのロング能力は未証明で、ブル継続時には機能しない恐れ。加えてmonths=6と履歴がやや短く、フルサイクル耐性は未検証。",
+      "reasoning": "懐疑チェックを全項目で個別検証。(1)窓/サバイバーシップ: PF=76.3は99でなく負け月が記録され、worst_month -51,826でDDも写っている。leaderboard 5.44Mとcache整合、6ヶ月で<4でない→アーティファクト否定。(2)MM: closes/month 162・n_closes 971で薄利多売でなくスイング/ポジション勢→否定。(3)塩漬け: win_rate 0.784だがworst_monthが総益比で小さく、大きな放置損失が隠れていない→否定。(4)alt偏重: realized_maj=総額の85%、top_coinsもETH/BTC中心→majors実力を確認、むしろ最も健全。総合してデータセットの『ムラあり』タグより実態は上で『堅実』が妥当。唯一にして最大の留保はshort_ratio=1.0の方向性集中とmonths=6の短さで、エリート断定は不可。サイジング注意の上でコピー価値あり。ライブNansen API(perp_trades/leaderboard)はいずれも403で直近検証は不可だったが、データセット指標が内部整合的で判定に十分。"
+    },
+    {
+      "address": "0x0b00c540bc5f203d97ac87da62164d3d37e19798",
+      "copy_worthy": false,
+      "confidence": 0.4,
+      "recommended_quality": "プロ格下げ",
+      "key_strength": "実現PnL約$6.3Mがrealized_maj・realized_cache_all・leaderboard_allTime($6.38M)で三者整合し、キャッシュ窓アーティファクトではない。PnLの約99.7%がETH/BTCのメジャー先物由来でalt偏重なし、closes_per_month=594でMMでもない、黒字月率0.83。規模・銘柄面では本物の大型トレーダー。",
+      "key_concern": "データの好成績指標(profit_factor=2128.7・win_rate=0.973・worst_month=わずか-2,975)は『実現約定のみ』の集計で塩漬けを隠している。ライブのポートフォリオでは現在LITショート(5xクロス・想定$804.7k)を保有し含み損-$199.7k(ROI-124.1%/清算2.34に対しエントリー1.15)=HL口座価値$332.5kの約6割の含み損を抱えたまま放置中。高勝率は『負けを実現させない』ことによる水増しの疑い。さらにPnLの94.6%がETHショート(short_ratio0.99)単一方向への6ヶ月集中で、レジーム依存の一本足ベットに近い。",
+      "reasoning": "三指標整合で規模・メジャー集中は本物だが、ライブ検証で(1)塩漬け:現在LITショートに-$199.7kの含み損を放置(口座の約6割)、これがworst_month=-2,975やpf=2128.7に一切写っていない=好指標は損切り回避による artifact。(2)サバイバーシップ/方向集中:6ヶ月で実現益の94.6%がETHショート単一方向、規律あるエッジというより持続的ETHベア・ベットの結果。コピーすると塩漬けポジションと一方向リスクをそのまま引き継ぐ。データの『堅実』評価は実現ベース指標に騙されたもので、ライブ挙動はそれを否定。よって『プロ格下げ』、copy_worthy=false。確度は規模が本物である点と塩漬け確証で中程度(0.4)。"
+    },
+    {
+      "address": "0xed41a12ea862f31df054e9bd3af1dd59486c6029",
+      "copy_worthy": false,
+      "confidence": 0.3,
+      "recommended_quality": "プロ格下げ",
+      "key_strength": "realized_maj(2.17M)がrealized_cache_all(2.17M)とほぼ一致しETH先物主体(top_coins ETH 2,174,967、alt偏重ではない)。closes_per_month=408で高頻度MMでもなく、純粋なディレクショナル/メジャー先物トレーダーである点は本物。",
+      "key_concern": "上記",
+      "reasoning": "最大限の懐疑で見ると、本エントリは「堅実」ではなくキャッシュ窓アーティファクト案件。(1)PF=99/worst_month正/全月黒字/months=4はNotesの「負け月が写っていないだけ」の警告シグナルに合致。(2)整合性チェック:leaderboard_allTime 6.97M >> cache 2.17M=通算の約69%が窓外。窓は通算を代表せず、隠れた損失月を含む蓋然性が高い。(3)ROI=0.567は通算規模に対し極めて低く、大資本×低エッジの一方向ETHショートで、コピー時のリスク調整後リターンは乏しい。(4)majors実力は本物・MM/alt偏重は否定できるが、持続的優位の立証には窓が短すぎ通算と不整合。(5)active14=falseで現在シグナルなし。よってコピー価値なし、プロ格下げ。"
+    },
+    {
+      "address": "0x782e432267376f377585fc78092d998f8442ab83",
+      "copy_worthy": true,
+      "confidence": 0.72,
+      "recommended_quality": "ムラあり",
+      "key_strength": "13ヶ月の長期実績・leaderboard_allTime 4.43M(ROI 468%)と realized_cache 4.19M がほぼ一致し全期間(負け月含む)を捕捉=窓アーティファクトでない。closes_per_month 365でMMでなくディレクショナルなスイング。pos_month_rate 0.69(9/13月黒字)・profit_factor 7.4でドローダウン後も実力が継続。BTC単体で1.70M=majors実力も本物。",
+      "key_concern": "2点。(1)worst_month -514,921=通算の約12%を1ヶ月で吹き飛ばす巨大DD。win_rate 0.853の高さと併せると小幅利確を重ね時々大きな負けを塩漬けする典型プロファイル(再発はしていないがテールリスク大)。(2)alt偏重:realized_maj 1.19M(全体の約27%)に留まり、最大の稼ぎ頭はHYPE 2.31M(55%)+xyz:CL/BRENTOIL等コモディティperp。BTC/ETH/SOL純粋なmajors先物の実力は少数派。",
+      "reasoning": "最大限の懐疑で各疑念を潰した結果、運/MM/窓アーティファクトは否定。profit_factor=7.4(99でない)・months=13(>>4)・pos_month_rate=0.69(1.0でない)・cache≒leaderboard(乖離6%)で履歴は短くなく負け月も写っている。closes_per_month=365でMMでない。Token Millionaireラベルと4.43Mの規模は実在の本物。残る本質的懸念は巨大worst_month(塩漬け/テール)とalt(HYPE+コモディティ)偏重でmajors edgeが27%に留まる点。総じて持続的実力者だが、コピーするならHYPE依存と単月-515k級のDD耐性を許容できる前提で。majors特化コピー目的なら寄与が薄い。質はムラあり相当(長期一貫性は堅実寄りだが巨大DDとalt偏重で減点)。"
+    },
+    {
+      "address": "0x56cd86d6ef24a3f51ce6992b7f1db751b0a0276a",
+      "copy_worthy": true,
+      "confidence": 0.82,
+      "recommended_quality": "堅実",
+      "key_strength": "14ヶ月・2208約定の十分なサンプルで黒字月率79%・PF30.1・通算LB 8.68M(本データ堅実層で最大級)。closes/月158で高頻度MMでなく方向性スイング型。worst_month -103kも通算比2%強で抑制的=ドローダウン耐性あり。realized_maj 2.22M(キャッシュの52%)がSOL主導の本物のmajors実力。",
+      "key_concern": "active14=false(直近14日非アクティブ=ライブコピー適性は要確認)。@107(非BTC/ETH/SOLのHLティッカー)に1.45M=キャッシュの34%が集中する単一銘柄依存。Friendtech KOL「beltoncap」funded口座という出自(匿名エッジでなく公開人物の可能性)。realized_maj比率はちょうど半々で、majors純度は中程度。",
+      "reasoning": "懐疑チェック全項目を通過。窓アーティファクト:profit_factor=30.1(99でない)・months=14(>4)・worst_month -103kで負け月が実在し写っている、LB 8.68Mがキャッシュ4.24Mと整合し独立に大規模を裏付け=否定。高頻度MM:closes_per_month=158で1500基準を大きく下回る=否定。塩漬け:高win_rate 0.761だがPF30.1=月次総利益が総損失を圧倒、最大DD月も通算の2.4%で破滅的塩漬けの痕跡なし=否定。alt偏重:realized_maj 2.22M/4.24M=52%でSOLが筆頭majorとして牽引、純粋なaltデジェンではない(ただし@107集中は単一名リスクとして残る)。運:79%黒字月×14ヶ月×2208約定×LB独立確認で少数当たり月でない。総合して真の持続的実力者でコピー価値あり=堅実を確認。唯一の実務上の留保はactive14=false(現状非アクティブ)で、ライブコピー前にアクティブ復帰の確認を推奨。"
+    },
+    {
+      "address": "0xe4d83945c0322f3d340203a7129b7eb5cacae847",
+      "copy_worthy": true,
+      "confidence": 0.72,
+      "recommended_quality": "エリート",
+      "key_strength": "cache_all≈leaderboard一致で全履歴捕捉が確認でき、負け月ゼロ・worst_month正が本物。100%メジャー(SOL/BTC/ETH)・低頻度スイング(186/月)・9ヶ月全黒・ROI6.86。",
+      "key_concern": "short_ratio=1.0で完全な一方向(ショート専)。サンプル期間がSOL/ETHの下落・横ばい局面に有利だっただけの可能性があり、持続的な上昇相場に転換すると無傷記録が崩れるレジーム依存リスクがある。加えてactive14=false(現在非稼働)で生のコピー追随性が不確実、資金源はBinance入金で出自不透明。",
+      "reasoning": "最大の懐疑点であるprofit_factor=99は通常「履歴が短く負け月が写っていないだけ」を疑うが、本件はcache_all≈leaderboard_allTime(比1.003)が成立し、キャッシュが全通算PnLを捕捉していることが確認できる=どこかに隠れた負け月は存在しない。worst_monthが正(+24,895)なのも切り取り窓の産物でなく実態。MM疑い(closes_per_month=186<<1500で否定)、塩漬け疑い(負け月そのものが無く、大きな相殺損も無いため否定)、alt偏重疑い(realized_maj=cache_allで100%メジャー、否定)を順に潰せる稀なケース。サバイバーシップも9ヶ月1.0黒字・1677約定で単月フロックではない。総合してエリート(長期一貫)分類を支持しコピー価値ありと判断。ただし100%ショートの方向性バイアスはレジーム依存で、上昇相場転換時の崩れと現在非稼働(active14=false)が留保点。confidenceは0.72(短期ショート偏重の局面依存リスクと9ヶ月という中程度の履歴長で満点は付けない)。"
+    },
+    {
+      "address": "0xb1694de2324433778487999bd86b1acb3335ebc4",
+      "copy_worthy": false,
+      "confidence": 0.72,
+      "recommended_quality": "プロ格下げ",
+      "key_strength": "利益が本物と確認できる: realized_cache_all(1,928,778)とleaderboard_allTime(1,939,703)がほぼ完全一致(乖離0.6%)→キャッシュ窓が負け月を隠している『窓アーティファクト』ではなく、捕捉約定が通算PnLをほぼ全量説明している。PnLは100% majors由来(realized_maj=realized_cache_all、top_coinsはSOL/BTC/ETHのみ、alt・xyz合成なし)で、BTC/ETH/SOL perpの真の実力。closes_per_month=276はMM閾値(1500)を大きく下回りスイング型、win_rate=0.75・n_closes=2488は十分な標本で運だけでは説明困難。",
+      "key_concern": "ラベルが『Former Smart Trader』=Nansenが既にSmart Trader格付けを剥奪、かつactive14=false(14日以上非アクティブ)で実質引退/休眠の疑い→ライブシグナルとして現在コピー不能。加えてshort_ratio=1.0の完全ショート専門で、9ヶ月全黒(pos_month_rate=1.0)はデータ窓が下落〜レンジ局面に偏っていた可能性が高く、持続的上昇相場での片張りリスク(レジーム依存)がworst_monthに写っていないだけの構造的脆弱性。",
+      "reasoning": "懐疑5項目を全て検証。(1)窓アーティファクト=否定: cache≈leaderboardの一致が決定打、負け月外出しなら cache>leaderboard になるはずが同値。profit_factor=99/worst_month+1,875は短窓の作為でなく実際に大損月なし。(2)高頻度MM=否定: 276 closes/月。(3)alt偏重=否定: 100% majors。(4)塩漬け=否定: 完全ショートながらworst_monthプラス、含み損放置の痕跡なし。(5)運=ほぼ否定: 標本十分。よって過去の実力は本物。ただし『Former』降格+休眠+片張りショートのレジーム依存により、暫定『エリート』は過大。実力は認めるが現状コピー価値なしとして『プロ格下げ』、copy_worthy=false。ライブ検証(wallet_pnl_summary/perp_trades)はchain検証エラーと403で取得不可のため、データ内整合性で判定。"
+    }
+  ],
+  "synthesis": {
+    "elite": [
+      "0x9a377ec81c1bd51d31170bf8d7a7b6c5fbaded9b",
+      "0x8e096995c3e4a3f0bc5b3ea1cba94de2aa4d70c9",
+      "0x56cd86d6ef24a3f51ce6992b7f1db751b0a0276a",
+      "0xe4d83945c0322f3d340203a7129b7eb5cacae847",
+      "0xc7290b4b308431a985fa9e3e8a335c2f7650517c",
+      "0x782e432267376f377585fc78092d998f8442ab83",
+      "0x230963164d9637a4c536270a06b4e3636d44a2d9"
+    ],
+    "demote": [
+      "0xa72dc2d42398e54634fc28e6769f8ce3ae011807",
+      "0x8463d6ffcbfb56bf20ab2e1111f9a0e8359533f2",
+      "0xbe494a5e3a719a78a45a47ab453b7b0199b9d101",
+      "0xfeec88b13fc0be31695069f02bac18538a154e9c",
+      "0x99b1098d9d50aa076f78bd26ab22e6abd3710729",
+      "0xb123cd952875d8014efc7a9160a7531a5fe8f5ca",
+      "0xf211dd718de25bcad861e53a7b10dd5b3b9d5c6c",
+      "0x0b00c540bc5f203d97ac87da62164d3d37e19798",
+      "0xed41a12ea862f31df054e9bd3af1dd59486c6029",
+      "0xb1694de2324433778487999bd86b1acb3335ebc4",
+      "0x5aadb434293b4e1b8fb2e84007e567506fe65a96",
+      "0xdd08886cb92c689c7d89c88f048028293296ead1",
+      "0xeff7fe671d9a7acf86f48994bc5d5161042415b6"
+    ],
+    "ranking": [
+      {
+        "address": "0x9a377ec81c1bd51d31170bf8d7a7b6c5fbaded9b",
+        "quality": "エリート",
+        "confidence": 0.82,
+        "one_line": "19ヶ月12,376約定・陽性月89%・PF12.9・BTC主軸majors58%。leaderboardとcache整合で窓否定。alt4割と直近休眠が唯一の割引。真のコピー価値。"
+      },
+      {
+        "address": "0x8e096995c3e4a3f0bc5b3ea1cba94de2aa4d70c9",
+        "quality": "エリート",
+        "confidence": 0.82,
+        "one_line": "通算59.6M・majors69%・PF14.3・大敗月明示で窓否定。高頻度執行を伴う方向性トレーダー。完全模倣でなく方向性追随なら価値大。"
+      },
+      {
+        "address": "0x56cd86d6ef24a3f51ce6992b7f1db751b0a0276a",
+        "quality": "堅実",
+        "confidence": 0.82,
+        "one_line": "14ヶ月・PF30.1・通算LB8.68M・worst通算比2%でDD耐性。SOL主導majors52%。@107単一名集中とactive14=falseが留保。"
+      },
+      {
+        "address": "0xe4d83945c0322f3d340203a7129b7eb5cacae847",
+        "quality": "エリート",
+        "confidence": 0.72,
+        "one_line": "cache≈leaderboardで全履歴捕捉確認・100%majors・9ヶ月全黒。ただしshort100%でレジーム依存、現在非稼働。"
+      },
+      {
+        "address": "0xc7290b4b308431a985fa9e3e8a335c2f7650517c",
+        "quality": "堅実",
+        "confidence": 0.62,
+        "one_line": "realized_maj3.32M=総益85%(ETH+BTC中核)・PF76.3で負け月実在。short100%のレジーム依存と6ヶ月の短さが留保。"
+      },
+      {
+        "address": "0x782e432267376f377585fc78092d998f8442ab83",
+        "quality": "ムラあり",
+        "confidence": 0.72,
+        "one_line": "13ヶ月・LB4.43M・PF7.4で本物。だがworst-515k(通算12%)の巨大DDとHYPE+コモディティ偏重でmajors寄与27%。"
+      },
+      {
+        "address": "0x230963164d9637a4c536270a06b4e3636d44a2d9",
+        "quality": "堅実",
+        "confidence": 0.68,
+        "one_line": "BTC主軸の損小利大トレンドフォロー(win0.329×PF31.6)。worst通算2%でDD管理優秀。6ヶ月中期かつactive14=falseで配分控えめ。"
+      },
+      {
+        "address": "0x5aadb434293b4e1b8fb2e84007e567506fe65a96",
+        "quality": "プロ格下げ",
+        "confidence": 0.78,
+        "one_line": "18ヶ月の本物の実力者だがmajors寄与5%でHYPE中心のalt偏在。alt book追随なら価値ありもmajors前提では非推奨。"
+      },
+      {
+        "address": "0x8463d6ffcbfb56bf20ab2e1111f9a0e8359533f2",
+        "quality": "プロ格下げ",
+        "confidence": 0.82,
+        "one_line": "LB5.94M大型だがrealized_maj=-14,406でmajorsはnet loser。利益源HYPE/alt/合成GOLD+closes1,906の高頻度MM=コピー不能。"
+      },
+      {
+        "address": "0xb1694de2324433778487999bd86b1acb3335ebc4",
+        "quality": "プロ格下げ",
+        "confidence": 0.72,
+        "one_line": "cache≈LB一致で100%majorsの本物。だがFormer Smart Trader降格+休眠+short100%のレジーム依存で現状コピー不能。"
+      },
+      {
+        "address": "0xb123cd952875d8014efc7a9160a7531a5fe8f5ca",
+        "quality": "ムラあり",
+        "confidence": 0.82,
+        "one_line": "29ヶ月生存だがrealized_maj=-5,568でmajors負け。利益はHYPE/PURRのHL生態系altロング片張り。majorsへエッジ転移せず。"
+      },
+      {
+        "address": "0xf211dd718de25bcad861e53a7b10dd5b3b9d5c6c",
+        "quality": "プロ格下げ",
+        "confidence": 0.82,
+        "one_line": "純BTCだがworst-47,376が通算+67kの70%を一発で消す。PF1.7・黒字月率0.38・低勝率の負け放置型。薄エッジで実力低。"
+      },
+      {
+        "address": "0xfeec88b13fc0be31695069f02bac18538a154e9c",
+        "quality": "高頻度MM",
+        "confidence": 0.78,
+        "one_line": "LB11.4M・SOL集中の本物の大規模オペだがcloses3,762の高頻度スキャル。months2・PF99・worst正の窓アーティファクトで追随不能。"
+      },
+      {
+        "address": "0xeff7fe671d9a7acf86f48994bc5d5161042415b6",
+        "quality": "履歴薄/評価不能",
+        "confidence": 0.32,
+        "one_line": "純BTC方向性で益は実在だがmonths2・PF99・負け月ゼロ。27xクロスレバ単一BTCショート集中(清算まで14%)で清算リスク継承。保留。"
+      },
+      {
+        "address": "0xdd08886cb92c689c7d89c88f048028293296ead1",
+        "quality": "ムラあり",
+        "confidence": 0.72,
+        "one_line": "BTC主軸88%の本物の方向性。だが黒字月率0.33・worst-20k(通算比大)でlumpy。盲目コピーは長い赤期間と大DDを踏む。"
+      },
+      {
+        "address": "0x0b00c540bc5f203d97ac87da62164d3d37e19798",
+        "quality": "プロ格下げ",
+        "confidence": 0.4,
+        "one_line": "三指標整合・99.7%majorsだがライブでLITショート含み損-199.7k(口座6割)放置。高勝率は損切り回避の水増し=塩漬け。"
+      },
+      {
+        "address": "0x99b1098d9d50aa076f78bd26ab22e6abd3710729",
+        "quality": "高頻度MM",
+        "confidence": 0.55,
+        "one_line": "通算26.4M最大級・majors中心の本物だがmonths1・PF99の窓断片。closes6,892の超高頻度MM+active14=falseで追随不能。"
+      },
+      {
+        "address": "0x8e096995c3e4a3f0bc5b3ea1cba94de2aa4d70c9_dup",
+        "quality": "重複除外",
+        "confidence": 0,
+        "one_line": "(重複プレースホルダ・無視)"
+      },
+      {
+        "address": "0xed41a12ea862f31df054e9bd3af1dd59486c6029",
+        "quality": "プロ格下げ",
+        "confidence": 0.3,
+        "one_line": "ETH主体majorsだがmonths4・PF99・全月黒の窓アーティファクト。LB6.97M>>cache2.17M(69%窓外)で通算不整合。ROI0.567と低エッジ。"
+      },
+      {
+        "address": "0xbe494a5e3a719a78a45a47ab453b7b0199b9d101",
+        "quality": "高頻度MM",
+        "confidence": 0.2,
+        "one_line": "HL公式検証で1月に-3万級負け月実在=PF99は虚偽。口座70万→7,720に崩落、直近全Close ShortのHFT擦り。過去の遺産。"
+      }
+    ],
+    "headline": [
+      "提供20件の精査統合: copy_worthy=true 8件・false 12件。真のエリート(長期大標本・majors実力・窓否定)は0x9a37/0x8e09/0x56cd/0xe4d8の4アドレスに集約。",
+      "格下げ12件の主因は明確に3類型: (a)realized_majマイナス/低比率のalt・HYPE偏在(0x5aad・0xb123・0x8463・0x782eは寄与薄)、(b)closes_per_month>1500の高頻度MM/HFT擦り(0xa72d・0x99b1・0xfeec・0xbe49・0x8463)、(c)months<4+PF99の窓アーティファクトおよびライブ塩漬け(0xed41・0xeff7・0x0b00)。",
+      "ライブ検証が判定を覆した重要例: 0xbe49はHL公式で1月の大負け月と口座70万→7,720崩落が露呈しPF99が虚偽と判明。0x0b00はLITショート-199.7k(口座6割)放置で高勝率が塩漬けの水増しと確定。データセット指標だけでは騙される。",
+      "majors純度とコピー再現性はトレードオフ: 0x8e09/0xc729は実力本物だがshort偏重・高頻度執行で完全模倣不可、方向性追随に限定すべき。short_ratio=1.0勢(0xe4d8・0xb169・0xc729)は一律レジーム依存リスクを内包し上昇相場転換で崩れ得る。",
+      "active14=falseの休眠が複数のtrue/エリート候補に付随(0x9a37・0x56cd・0xe4d8・0x230)。過去実績は本物でもライブコピー前にアクティブ復帰確認が必須。"
+    ],
+    "method_note": "統合は提供された20件の個別精査JSONのみに基づく(本タスクで追加のオンチェーン照会は実施せず)。各精査は5項目の懐疑フレーム(窓アーティファクト/高頻度MM/塩漬け/alt偏重/運・サバイバーシップ)を適用済み。最大の構造的限界はキャッシュ窓: realized_cacheは固定期間スナップショットで、months<4かつprofit_factor=99かつworst_monthが正(負け月ゼロ)の組合せは「負け月が窓外に隠れているだけ」を強く示唆し実力の証明にならない(0xfeec・0xeff7・0xed41・0x99b1・0xbe49が該当)。逆にleaderboard_allTime≈realized_cache_allの一致は窓が通算をほぼ捕捉した証拠で窓否定の決定打となる(0x9a37・0x56cd・0xe4d8・0xb169・0x0b00)。realized_majマイナスはmajors先物でnet loserを意味しBTC/ETH/SOLコピー文脈では失格に近い(0x8463・0xb123)。PF=99は「負け月未写」フラグで実数値ではないため、PF<99かつworst_month負値が確認できる場合のみ持続性指標として信頼。ランキングは各精査のconfidence(=実力である確度であり推奨度ではない点に注意—格下げ案件でも整合性が高いとconfidenceは高い)降順。なお提供データは20件のため上位20の末尾付近に重複プレースホルダ1件を含む(無視可)。残り44件分のJSONは未提供。"
+  }
+}
