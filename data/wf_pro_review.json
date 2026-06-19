@@ -1,0 +1,1789 @@
+{
+  "context": {
+    "purpose": "HyperliquidのBTC/ETH/SOL perpで分類した「プロ(本物)」64件を再精査し、真にコピー価値ある実力者か、運/MM/サバイバーシップ/塩漬け/キャッシュ窓アーティファクトかを判定",
+    "notes": {
+      "realized_cache_all": "キャッシュ約定のclosedPnl合計(全銘柄)。高頻度勢は窓限定で過小の恐れ",
+      "leaderboard_allTime": "HL公式の通算PnL(信頼できる規模指標)",
+      "pos_month_rate": "黒字月率(持続性)",
+      "profit_factor": "月次の総利益/総損失。99は負け月なし(=履歴短い疑い)",
+      "closes_per_month": "1500超は高頻度MM(薄利多売)疑い",
+      "worst_month": "最大ドローダウン月",
+      "pro_quality": "こちらの暫定質分類"
+    }
+  },
+  "pros": [
+    {
+      "address": "0x230963164d9637a4c536270a06b4e3636d44a2d9",
+      "labels": [
+        "High Balance"
+      ],
+      "pro_quality": "質:堅実",
+      "realized_cache_all": 628291,
+      "realized_maj": 418854,
+      "leaderboard_allTime": 933333.042544,
+      "leaderboard_roi": 4.5881849966,
+      "months": 6,
+      "pos_month_rate": 0.83,
+      "profit_factor": 31.6,
+      "worst_month": -20533,
+      "win_rate": 0.329,
+      "n_closes": 1776,
+      "closes_per_month": 296,
+      "short_ratio": 0.44,
+      "top_coins": {
+        "BTC": 418854,
+        "ZEC": 182492,
+        "HYPE": 14306,
+        "@107": 12639
+      },
+      "active14": false,
+      "first_funders": [
+        "[0x341a63]"
+      ]
+    },
+    {
+      "address": "0x5aadb434293b4e1b8fb2e84007e567506fe65a96",
+      "labels": [],
+      "pro_quality": "質:堅実",
+      "realized_cache_all": 592289,
+      "realized_maj": 29684,
+      "leaderboard_allTime": 573831.18,
+      "leaderboard_roi": 8.9143407607,
+      "months": 18,
+      "pos_month_rate": 0.72,
+      "profit_factor": 20.8,
+      "worst_month": -11291,
+      "win_rate": 0.576,
+      "n_closes": 11716,
+      "closes_per_month": 651,
+      "short_ratio": 0.36,
+      "top_coins": {
+        "HYPE": 336952,
+        "XPL": 57322,
+        "ZEC": 46095,
+        "SKR": 42097
+      },
+      "active14": true,
+      "first_funders": [
+        "kwerty.eth [0x71056c]"
+      ]
+    },
+    {
+      "address": "0xa72dc2d42398e54634fc28e6769f8ce3ae011807",
+      "labels": [],
+      "pro_quality": "質:高頻度MM(薄利多売)",
+      "realized_cache_all": 79229,
+      "realized_maj": 24242,
+      "leaderboard_allTime": 85529.157685,
+      "leaderboard_roi": 2.3359099975,
+      "months": 2,
+      "pos_month_rate": 0.5,
+      "profit_factor": 10.0,
+      "worst_month": -8756,
+      "win_rate": 0.68,
+      "n_closes": 5957,
+      "closes_per_month": 2978,
+      "short_ratio": 0.37,
+      "top_coins": {
+        "xyz:CL": 47930,
+        "BTC": 24242,
+        "xyz:BRENTOIL": 4004,
+        "xyz:SPCX": 3836
+      },
+      "active14": true,
+      "first_funders": [
+        "High Balance [0xb02a9b]"
+      ]
+    },
+    {
+      "address": "0x8463d6ffcbfb56bf20ab2e1111f9a0e8359533f2",
+      "labels": [
+        "\"homerfan33\" on OpenSea",
+        "High Activity",
+        "coolwaterxyz-hf.eth*",
+        "homerfan33.eth",
+        "squigglesherpa.eth",
+        "stimmyfund.eth"
+      ],
+      "pro_quality": "質:高頻度MM(薄利多売)",
+      "realized_cache_all": 372785,
+      "realized_maj": -14406,
+      "leaderboard_allTime": 5939733.7894210005,
+      "leaderboard_roi": 37.7674856312,
+      "months": 7,
+      "pos_month_rate": 0.71,
+      "profit_factor": 5.6,
+      "worst_month": -55590,
+      "win_rate": 0.477,
+      "n_closes": 13345,
+      "closes_per_month": 1906,
+      "short_ratio": 0.37,
+      "top_coins": {
+        "HYPE": 171555,
+        "@254": 91374,
+        "ETH": 71591,
+        "xyz:GOLD": 62564
+      },
+      "active14": true,
+      "first_funders": [
+        "[0x9574d6]"
+      ]
+    },
+    {
+      "address": "0xdd08886cb92c689c7d89c88f048028293296ead1",
+      "labels": [],
+      "pro_quality": "質:ムラあり",
+      "realized_cache_all": 165946,
+      "realized_maj": 146571,
+      "leaderboard_allTime": 112790.391568,
+      "leaderboard_roi": 1.8537510935,
+      "months": 9,
+      "pos_month_rate": 0.33,
+      "profit_factor": 7.0,
+      "worst_month": -20172,
+      "win_rate": 0.661,
+      "n_closes": 4902,
+      "closes_per_month": 545,
+      "short_ratio": 0.41,
+      "top_coins": {
+        "BTC": 146825,
+        "CC": 55776,
+        "ZEC": 3467,
+        "xyz:SPCX": 1827
+      },
+      "active14": true,
+      "first_funders": []
+    },
+    {
+      "address": "0xeff7fe671d9a7acf86f48994bc5d5161042415b6",
+      "labels": [],
+      "pro_quality": "質:履歴薄(<4ヶ月)",
+      "realized_cache_all": 235718,
+      "realized_maj": 235718,
+      "leaderboard_allTime": 222424.60413,
+      "leaderboard_roi": 2.4755103409,
+      "months": 2,
+      "pos_month_rate": 1.0,
+      "profit_factor": 99,
+      "worst_month": 3481,
+      "win_rate": 0.891,
+      "n_closes": 1607,
+      "closes_per_month": 804,
+      "short_ratio": 0.59,
+      "top_coins": {
+        "BTC": 235718,
+        "ARB": 0
+      },
+      "active14": true,
+      "first_funders": [
+        "​​🤖 Relay Protocol: Router [0xb92fe9]"
+      ]
+    },
+    {
+      "address": "0x99b1098d9d50aa076f78bd26ab22e6abd3710729",
+      "labels": [
+        "🤓 Smart HL Perps Trader [0x99b109]"
+      ],
+      "pro_quality": "質:高頻度MM(薄利多売)",
+      "realized_cache_all": 2107985,
+      "realized_maj": 2186779,
+      "leaderboard_allTime": 26458744.518003,
+      "leaderboard_roi": 10.7937884821,
+      "months": 1,
+      "pos_month_rate": 1.0,
+      "profit_factor": 99,
+      "worst_month": 2107985,
+      "win_rate": 0.646,
+      "n_closes": 6892,
+      "closes_per_month": 6892,
+      "short_ratio": 0.71,
+      "top_coins": {
+        "ETH": 1393721,
+        "BTC": 806850,
+        "BNB": 123267,
+        "WLFI": 50959
+      },
+      "active14": false,
+      "first_funders": [
+        "[0xba52af]"
+      ]
+    },
+    {
+      "address": "0xb123cd952875d8014efc7a9160a7531a5fe8f5ca",
+      "labels": [
+        "\"M1NER\" on OpenSea",
+        "miner35.eth",
+        "miner35.eth*"
+      ],
+      "pro_quality": "質:ムラあり",
+      "realized_cache_all": 112972,
+      "realized_maj": -5568,
+      "leaderboard_allTime": 359978.30847,
+      "leaderboard_roi": 29.9789054811,
+      "months": 29,
+      "pos_month_rate": 0.48,
+      "profit_factor": 2.9,
+      "worst_month": -20322,
+      "win_rate": 0.761,
+      "n_closes": 1846,
+      "closes_per_month": 64,
+      "short_ratio": 0.06,
+      "top_coins": {
+        "@107": 98325,
+        "PURR": 41909,
+        "@51": 2451,
+        "APT": 1734
+      },
+      "active14": true,
+      "first_funders": [
+        "🤖 Socket: Refuel Contract [0xc0e02a]",
+        "[0x266508]"
+      ]
+    },
+    {
+      "address": "0x9a377ec81c1bd51d31170bf8d7a7b6c5fbaded9b",
+      "labels": [],
+      "pro_quality": "質:エリート(長期一貫)",
+      "realized_cache_all": 510939,
+      "realized_maj": 296521,
+      "leaderboard_allTime": 478329.567858,
+      "leaderboard_roi": 1.6132943693,
+      "months": 19,
+      "pos_month_rate": 0.89,
+      "profit_factor": 12.9,
+      "worst_month": -22672,
+      "win_rate": 0.634,
+      "n_closes": 12376,
+      "closes_per_month": 651,
+      "short_ratio": 0.64,
+      "top_coins": {
+        "BTC": 266879,
+        "JUP": 94812,
+        "HYPE": 56986,
+        "xyz:SPCX": 49898
+      },
+      "active14": false,
+      "first_funders": [
+        "[0xd2ae30]"
+      ]
+    },
+    {
+      "address": "0xf211dd718de25bcad861e53a7b10dd5b3b9d5c6c",
+      "labels": [],
+      "pro_quality": "質:ムラあり",
+      "realized_cache_all": 75606,
+      "realized_maj": 75580,
+      "leaderboard_allTime": 67232.429421,
+      "leaderboard_roi": 1.0742527306,
+      "months": 8,
+      "pos_month_rate": 0.38,
+      "profit_factor": 1.7,
+      "worst_month": -47376,
+      "win_rate": 0.391,
+      "n_closes": 1479,
+      "closes_per_month": 185,
+      "short_ratio": 0.74,
+      "top_coins": {
+        "BTC": 71690,
+        "ETH": 3890,
+        "MON": 46,
+        "ASTER": -20
+      },
+      "active14": true,
+      "first_funders": []
+    },
+    {
+      "address": "0xbe494a5e3a719a78a45a47ab453b7b0199b9d101",
+      "labels": [
+        "🤓 Smart HL Perps Trader [0xbe494a]"
+      ],
+      "pro_quality": "質:高頻度MM(薄利多売)",
+      "realized_cache_all": 1519708,
+      "realized_maj": 1298047,
+      "leaderboard_allTime": 2896056.466815,
+      "leaderboard_roi": 5.1398555956,
+      "months": 5,
+      "pos_month_rate": 1.0,
+      "profit_factor": 99,
+      "worst_month": 67826,
+      "win_rate": 0.985,
+      "n_closes": 10008,
+      "closes_per_month": 2002,
+      "short_ratio": 1.0,
+      "top_coins": {
+        "SOL": 1142999,
+        "BNB": 220145,
+        "ETH": 155048,
+        "xyz:XYZ100": 1516
+      },
+      "active14": true,
+      "first_funders": [
+        "🏦 Binance: Hot Wallet [0xb38e8c]"
+      ]
+    },
+    {
+      "address": "0xfeec88b13fc0be31695069f02bac18538a154e9c",
+      "labels": [],
+      "pro_quality": "質:高頻度MM(薄利多売)",
+      "realized_cache_all": 1393922,
+      "realized_maj": 1391539,
+      "leaderboard_allTime": 11384546.835288,
+      "leaderboard_roi": 6.0730104535,
+      "months": 2,
+      "pos_month_rate": 1.0,
+      "profit_factor": 99,
+      "worst_month": 19069,
+      "win_rate": 0.999,
+      "n_closes": 7525,
+      "closes_per_month": 3762,
+      "short_ratio": 1.0,
+      "top_coins": {
+        "SOL": 1391539,
+        "vntl:ANTHROPIC": 4820,
+        "@230": 10,
+        "HYPE": -2447
+      },
+      "active14": true,
+      "first_funders": [
+        "HL Perps Swing Trader [0x507561]"
+      ]
+    },
+    {
+      "address": "0x8e096995c3e4a3f0bc5b3ea1cba94de2aa4d70c9",
+      "labels": [
+        "🤓 Smart HL Perps Trader [0x8e0969]"
+      ],
+      "pro_quality": "質:高頻度MM(薄利多売)",
+      "realized_cache_all": 12050996,
+      "realized_maj": 8312519,
+      "leaderboard_allTime": 59631081.922347,
+      "leaderboard_roi": 14.1918044481,
+      "months": 6,
+      "pos_month_rate": 0.67,
+      "profit_factor": 14.3,
+      "worst_month": -728013,
+      "win_rate": 0.765,
+      "n_closes": 21276,
+      "closes_per_month": 3546,
+      "short_ratio": 0.74,
+      "top_coins": {
+        "ETH": 7610530,
+        "ZEC": 4022882,
+        "BTC": 701989,
+        "xyz:SILVER": 233745
+      },
+      "active14": true,
+      "first_funders": [
+        "[0x74bd3e]"
+      ]
+    },
+    {
+      "address": "0xc7290b4b308431a985fa9e3e8a335c2f7650517c",
+      "labels": [
+        "🤓 Smart HL Perps Trader [0xc7290b]"
+      ],
+      "pro_quality": "質:ムラあり",
+      "realized_cache_all": 3905400,
+      "realized_maj": 3315530,
+      "leaderboard_allTime": 5438757.921658,
+      "leaderboard_roi": 1.8688543484,
+      "months": 6,
+      "pos_month_rate": 0.67,
+      "profit_factor": 76.3,
+      "worst_month": -51826,
+      "win_rate": 0.784,
+      "n_closes": 971,
+      "closes_per_month": 162,
+      "short_ratio": 1.0,
+      "top_coins": {
+        "ETH": 2194750,
+        "BTC": 1120780,
+        "XPL": 411211,
+        "ZEC": 180201
+      },
+      "active14": true,
+      "first_funders": [
+        "[0x0a1a4b]"
+      ]
+    },
+    {
+      "address": "0x0b00c540bc5f203d97ac87da62164d3d37e19798",
+      "labels": [
+        "High Balance"
+      ],
+      "pro_quality": "質:堅実",
+      "realized_cache_all": 6329149,
+      "realized_maj": 6340810,
+      "leaderboard_allTime": 6383011.578167,
+      "leaderboard_roi": 0.7852945541,
+      "months": 6,
+      "pos_month_rate": 0.83,
+      "profit_factor": 2128.7,
+      "worst_month": -2975,
+      "win_rate": 0.973,
+      "n_closes": 3564,
+      "closes_per_month": 594,
+      "short_ratio": 0.99,
+      "top_coins": {
+        "ETH": 5995999,
+        "BTC": 344811,
+        "MON": 3832,
+        "LIT": -15493
+      },
+      "active14": true,
+      "first_funders": [
+        "[0xc0778a]"
+      ]
+    },
+    {
+      "address": "0xed41a12ea862f31df054e9bd3af1dd59486c6029",
+      "labels": [
+        "Token Millionaire"
+      ],
+      "pro_quality": "質:堅実",
+      "realized_cache_all": 2167637,
+      "realized_maj": 2175232,
+      "leaderboard_allTime": 6968199.2669319995,
+      "leaderboard_roi": 0.5668741841,
+      "months": 4,
+      "pos_month_rate": 1.0,
+      "profit_factor": 99,
+      "worst_month": 272,
+      "win_rate": 0.611,
+      "n_closes": 1631,
+      "closes_per_month": 408,
+      "short_ratio": 0.99,
+      "top_coins": {
+        "ETH": 2174967,
+        "SOL": 270,
+        "BTC": -5,
+        "@107": -85
+      },
+      "active14": false,
+      "first_funders": [
+        "HL Perps Scalper [0x7d4e4e]"
+      ]
+    },
+    {
+      "address": "0x782e432267376f377585fc78092d998f8442ab83",
+      "labels": [
+        "Token Millionaire"
+      ],
+      "pro_quality": "質:ムラあり",
+      "realized_cache_all": 4187784,
+      "realized_maj": 1194992,
+      "leaderboard_allTime": 4434842.172503,
+      "leaderboard_roi": 4.6775328294,
+      "months": 13,
+      "pos_month_rate": 0.69,
+      "profit_factor": 7.4,
+      "worst_month": -514921,
+      "win_rate": 0.853,
+      "n_closes": 4744,
+      "closes_per_month": 365,
+      "short_ratio": 0.44,
+      "top_coins": {
+        "HYPE": 2309089,
+        "BTC": 1699920,
+        "xyz:CL": 342687,
+        "xyz:BRENTOIL": 182966
+      },
+      "active14": true,
+      "first_funders": [
+        "High Activity [0x91604f]"
+      ]
+    },
+    {
+      "address": "0x56cd86d6ef24a3f51ce6992b7f1db751b0a0276a",
+      "labels": [
+        "🤓 Funded @beltoncap On Friendtech [0x56cd86]"
+      ],
+      "pro_quality": "質:堅実",
+      "realized_cache_all": 4242168,
+      "realized_maj": 2219377,
+      "leaderboard_allTime": 8678721.473601,
+      "leaderboard_roi": 2.7977014611,
+      "months": 14,
+      "pos_month_rate": 0.79,
+      "profit_factor": 30.1,
+      "worst_month": -103680,
+      "win_rate": 0.761,
+      "n_closes": 2208,
+      "closes_per_month": 158,
+      "short_ratio": 0.47,
+      "top_coins": {
+        "SOL": 2236419,
+        "@107": 1451677,
+        "HYPE": 251581,
+        "XRP": 247656
+      },
+      "active14": false,
+      "first_funders": [
+        "\"Belton_\" on OpenSea [0x0f7393]"
+      ]
+    },
+    {
+      "address": "0xe4d83945c0322f3d340203a7129b7eb5cacae847",
+      "labels": [
+        "🤓 Smart HL Perps Trader [0xe4d839]"
+      ],
+      "pro_quality": "質:エリート(長期一貫)",
+      "realized_cache_all": 2031004,
+      "realized_maj": 2031004,
+      "leaderboard_allTime": 2024451.677071,
+      "leaderboard_roi": 6.8604922358,
+      "months": 9,
+      "pos_month_rate": 1.0,
+      "profit_factor": 99,
+      "worst_month": 24895,
+      "win_rate": 0.867,
+      "n_closes": 1677,
+      "closes_per_month": 186,
+      "short_ratio": 1.0,
+      "top_coins": {
+        "SOL": 1600103,
+        "BTC": 223666,
+        "ETH": 207235
+      },
+      "active14": false,
+      "first_funders": [
+        "🏦 Binance: Wallet [0x25681a]"
+      ]
+    },
+    {
+      "address": "0xb1694de2324433778487999bd86b1acb3335ebc4",
+      "labels": [
+        "Former Smart Trader [0xb1694d]"
+      ],
+      "pro_quality": "質:エリート(長期一貫)",
+      "realized_cache_all": 1928778,
+      "realized_maj": 1928778,
+      "leaderboard_allTime": 1939703.06,
+      "leaderboard_roi": 3.3099302957,
+      "months": 9,
+      "pos_month_rate": 1.0,
+      "profit_factor": 99,
+      "worst_month": 1875,
+      "win_rate": 0.75,
+      "n_closes": 2488,
+      "closes_per_month": 276,
+      "short_ratio": 1.0,
+      "top_coins": {
+        "SOL": 1511621,
+        "BTC": 238287,
+        "ETH": 178870
+      },
+      "active14": false,
+      "first_funders": [
+        "Enzyme Finance Vault Owner [0x11212f]"
+      ]
+    },
+    {
+      "address": "0x406073860818ecfb7dca0706a6bac73faa95bd3e",
+      "labels": [
+        "🤓 Smart HL Perps Trader [0x406073]"
+      ],
+      "pro_quality": "質:堅実",
+      "realized_cache_all": 1226127,
+      "realized_maj": 713341,
+      "leaderboard_allTime": null,
+      "leaderboard_roi": null,
+      "months": 6,
+      "pos_month_rate": 0.83,
+      "profit_factor": 728.0,
+      "worst_month": -1687,
+      "win_rate": 0.931,
+      "n_closes": 785,
+      "closes_per_month": 131,
+      "short_ratio": 0.91,
+      "top_coins": {
+        "BTC": 489534,
+        "ADA": 273166,
+        "ETH": 218006,
+        "XRP": 134359
+      },
+      "active14": false,
+      "first_funders": [
+        "Former Smart Trader [0xded856]"
+      ]
+    },
+    {
+      "address": "0x99b3ba1c1b7ad83d0164d996e3d271ae8c842551",
+      "labels": [],
+      "pro_quality": "質:高頻度MM(薄利多売)",
+      "realized_cache_all": 423145,
+      "realized_maj": 183193,
+      "leaderboard_allTime": 1096399.34,
+      "leaderboard_roi": 10963.9934,
+      "months": 1,
+      "pos_month_rate": 1.0,
+      "profit_factor": 99,
+      "worst_month": 423145,
+      "win_rate": 0.728,
+      "n_closes": 1793,
+      "closes_per_month": 1793,
+      "short_ratio": 0.3,
+      "top_coins": {
+        "ZEC": 239952,
+        "BTC": 138060,
+        "ETH": 40787,
+        "SOL": 4346
+      },
+      "active14": false,
+      "first_funders": [
+        "HL Perps Swing Trader [0xecb785]"
+      ]
+    },
+    {
+      "address": "0xa3d843b6a057504284006bef6f34a2e9bc80fb6b",
+      "labels": [
+        "Former Smart Trader [0xa3d843]"
+      ],
+      "pro_quality": "質:履歴薄(<4ヶ月)",
+      "realized_cache_all": 1444379,
+      "realized_maj": 1423967,
+      "leaderboard_allTime": 1031469.595017,
+      "leaderboard_roi": 0.1758740893,
+      "months": 3,
+      "pos_month_rate": 0.67,
+      "profit_factor": 15.7,
+      "worst_month": -97985,
+      "win_rate": 0.873,
+      "n_closes": 3124,
+      "closes_per_month": 1041,
+      "short_ratio": 0.02,
+      "top_coins": {
+        "BTC": 1421295,
+        "xyz:CL": 48272,
+        "xyz:MSTR": 44656,
+        "xyz:SILVER": 15546
+      },
+      "active14": false,
+      "first_funders": [
+        "🏦 Binance: Hot Wallet [0xb38e8c]"
+      ]
+    },
+    {
+      "address": "0x143c28ae5b8642f58c98b8a6f82a0f314d23f6ab",
+      "labels": [],
+      "pro_quality": "質:ムラあり",
+      "realized_cache_all": 994366,
+      "realized_maj": 0,
+      "leaderboard_allTime": 798325.657335,
+      "leaderboard_roi": 1.1460316643,
+      "months": 7,
+      "pos_month_rate": 0.57,
+      "profit_factor": 3.0,
+      "worst_month": -258299,
+      "win_rate": 0.764,
+      "n_closes": 3889,
+      "closes_per_month": 556,
+      "short_ratio": 0.01,
+      "top_coins": {
+        "xyz:MU": 780231,
+        "HYPE": 136059,
+        "xyz:SKHX": 75563,
+        "xyz:GOLD": 47129
+      },
+      "active14": true,
+      "first_funders": [
+        "Relay Protocol: EOA Bridge [0xf70da9]"
+      ]
+    },
+    {
+      "address": "0x06466f9ac08e872064950cec3812b57d6feafa7f",
+      "labels": [
+        "Token Millionaire"
+      ],
+      "pro_quality": "質:ムラあり",
+      "realized_cache_all": 758334,
+      "realized_maj": 940933,
+      "leaderboard_allTime": null,
+      "leaderboard_roi": null,
+      "months": 5,
+      "pos_month_rate": 0.6,
+      "profit_factor": 4.9,
+      "worst_month": -193536,
+      "win_rate": 0.523,
+      "n_closes": 977,
+      "closes_per_month": 195,
+      "short_ratio": 1.0,
+      "top_coins": {
+        "BTC": 947624,
+        "CAKE": 10911,
+        "WIF": 26,
+        "ETH": -6691
+      },
+      "active14": false,
+      "first_funders": [
+        "High Activity [0x50854e]"
+      ]
+    },
+    {
+      "address": "0x2373962eec8ed3764ddc1142244ac1e0fa38d0d8",
+      "labels": [],
+      "pro_quality": "質:ムラあり",
+      "realized_cache_all": 893116,
+      "realized_maj": 893117,
+      "leaderboard_allTime": null,
+      "leaderboard_roi": null,
+      "months": 5,
+      "pos_month_rate": 0.6,
+      "profit_factor": 28.9,
+      "worst_month": -31690,
+      "win_rate": 0.466,
+      "n_closes": 2315,
+      "closes_per_month": 463,
+      "short_ratio": 1.0,
+      "top_coins": {
+        "SOL": 681675,
+        "BTC": 124964,
+        "ETH": 86478,
+        "HYPE": 0
+      },
+      "active14": false,
+      "first_funders": []
+    },
+    {
+      "address": "0xb69eec8fea0081343c3b09e652ba1fa7dcf7033a",
+      "labels": [
+        "High Balance"
+      ],
+      "pro_quality": "質:堅実",
+      "realized_cache_all": 795145,
+      "realized_maj": 573128,
+      "leaderboard_allTime": 790954.85916,
+      "leaderboard_roi": 6.2057485392,
+      "months": 5,
+      "pos_month_rate": 1.0,
+      "profit_factor": 99,
+      "worst_month": 11016,
+      "win_rate": 0.525,
+      "n_closes": 5085,
+      "closes_per_month": 1017,
+      "short_ratio": 0.42,
+      "top_coins": {
+        "BTC": 377417,
+        "ETH": 204880,
+        "xyz:CRCL": 159677,
+        "xyz:SILVER": 107489
+      },
+      "active14": true,
+      "first_funders": [
+        "kytcyber.eth [0x435ca9]"
+      ]
+    },
+    {
+      "address": "0xd866a2d14a6dc92bdb1fdeac32c0f8ec322b3605",
+      "labels": [],
+      "pro_quality": "質:履歴薄(<4ヶ月)",
+      "realized_cache_all": 767596,
+      "realized_maj": 735718,
+      "leaderboard_allTime": 763674.87,
+      "leaderboard_roi": 1.2611137677,
+      "months": 2,
+      "pos_month_rate": 0.5,
+      "profit_factor": 293.1,
+      "worst_month": -2628,
+      "win_rate": 0.654,
+      "n_closes": 1451,
+      "closes_per_month": 726,
+      "short_ratio": 0.3,
+      "top_coins": {
+        "BTC": 735718,
+        "xyz:XYZ100": 52536,
+        "xyz:SP500": -20658
+      },
+      "active14": false,
+      "first_funders": [
+        "👤 hyperliquidated [0x7c9309]"
+      ]
+    },
+    {
+      "address": "0xb58e1eb8256689e47f589ba6f6a28657d997bf2f",
+      "labels": [
+        "Former Smart Trader [0xb58e1e]"
+      ],
+      "pro_quality": "質:履歴薄(<4ヶ月)",
+      "realized_cache_all": 502874,
+      "realized_maj": 248595,
+      "leaderboard_allTime": 710238.132229,
+      "leaderboard_roi": 1.0031628615,
+      "months": 3,
+      "pos_month_rate": 0.67,
+      "profit_factor": 2.6,
+      "worst_month": -318372,
+      "win_rate": 0.785,
+      "n_closes": 3283,
+      "closes_per_month": 1094,
+      "short_ratio": 0.28,
+      "top_coins": {
+        "SOL": 200192,
+        "xyz:CL": 196963,
+        "ZRO": 183943,
+        "TAO": 106028
+      },
+      "active14": false,
+      "first_funders": [
+        "🤖 DLN: DlnDestination [0xe7351f]"
+      ]
+    },
+    {
+      "address": "0x1fe06653816cd53afb36a18f059b0ada2a3c8f20",
+      "labels": [],
+      "pro_quality": "質:堅実",
+      "realized_cache_all": 916344,
+      "realized_maj": 977561,
+      "leaderboard_allTime": 1107648.460017,
+      "leaderboard_roi": 1.5175986403,
+      "months": 7,
+      "pos_month_rate": 0.71,
+      "profit_factor": 7.2,
+      "worst_month": -125120,
+      "win_rate": 0.709,
+      "n_closes": 1624,
+      "closes_per_month": 232,
+      "short_ratio": 0.82,
+      "top_coins": {
+        "ETH": 1003226,
+        "@107": 188572,
+        "xyz:CL": 74987,
+        "TRUMP": 5481
+      },
+      "active14": false,
+      "first_funders": [
+        "Former Smart Trader [0xa8dc22]"
+      ]
+    },
+    {
+      "address": "0xaa3f51a8095d030e38317e917839c87315300bee",
+      "labels": [],
+      "pro_quality": "質:ムラあり",
+      "realized_cache_all": 626724,
+      "realized_maj": 609754,
+      "leaderboard_allTime": 669384.55,
+      "leaderboard_roi": 2.4317299844,
+      "months": 5,
+      "pos_month_rate": 0.4,
+      "profit_factor": 6.0,
+      "worst_month": -89847,
+      "win_rate": 0.504,
+      "n_closes": 242,
+      "closes_per_month": 48,
+      "short_ratio": 1.0,
+      "top_coins": {
+        "BTC": 332047,
+        "ETH": 151755,
+        "SOL": 125952,
+        "BNB": 16970
+      },
+      "active14": false,
+      "first_funders": [
+        "🏦 Bybit: Hot Wallet [0xf89d7b]"
+      ]
+    },
+    {
+      "address": "0x6a02aedceac5a6813d960e4dae1910d9c458e77c",
+      "labels": [],
+      "pro_quality": "質:堅実",
+      "realized_cache_all": 588891,
+      "realized_maj": 272994,
+      "leaderboard_allTime": 580277.68011,
+      "leaderboard_roi": 1.9342615127,
+      "months": 4,
+      "pos_month_rate": 0.75,
+      "profit_factor": 13.1,
+      "worst_month": -48515,
+      "win_rate": 0.968,
+      "n_closes": 2412,
+      "closes_per_month": 603,
+      "short_ratio": 0.54,
+      "top_coins": {
+        "ETH": 259880,
+        "xyz:GOLD": 111315,
+        "xyz:CL": 75206,
+        "xyz:SKHX": 69876
+      },
+      "active14": true,
+      "first_funders": [
+        "🏦 Binance: Hot Wallet [0xb38e8c]"
+      ]
+    },
+    {
+      "address": "0x95e2687b07f0dec34462fdab6bbebcc0b3ab49c6",
+      "labels": [],
+      "pro_quality": "質:堅実",
+      "realized_cache_all": 919385,
+      "realized_maj": 919385,
+      "leaderboard_allTime": 937659.583535,
+      "leaderboard_roi": 6.2517878473,
+      "months": 7,
+      "pos_month_rate": 0.86,
+      "profit_factor": 5423.8,
+      "worst_month": -170,
+      "win_rate": 0.86,
+      "n_closes": 978,
+      "closes_per_month": 140,
+      "short_ratio": 1.0,
+      "top_coins": {
+        "SOL": 730182,
+        "ETH": 99909,
+        "BTC": 89295
+      },
+      "active14": false,
+      "first_funders": [
+        "ETH Millionaire [0xb7101c]"
+      ]
+    },
+    {
+      "address": "0x4cc390eada38741fe9c77036b7c38537fb5f38ea",
+      "labels": [
+        "🤓 Smart HL Perps Trader [0x4cc390]"
+      ],
+      "pro_quality": "質:堅実",
+      "realized_cache_all": 1412544,
+      "realized_maj": 395196,
+      "leaderboard_allTime": 1662415.89,
+      "leaderboard_roi": 1.2641841582,
+      "months": 17,
+      "pos_month_rate": 0.71,
+      "profit_factor": 20.3,
+      "worst_month": -35279,
+      "win_rate": 0.794,
+      "n_closes": 5728,
+      "closes_per_month": 337,
+      "short_ratio": 0.88,
+      "top_coins": {
+        "ETH": 193549,
+        "INIT": 189624,
+        "WIF": 141565,
+        "BTC": 111037
+      },
+      "active14": false,
+      "first_funders": [
+        "🏦 Binance: Hot Wallet [0xf92402]"
+      ]
+    },
+    {
+      "address": "0x66d3b80a7c6dc33801414dd22cde23f25d3de4d6",
+      "labels": [],
+      "pro_quality": "質:堅実",
+      "realized_cache_all": 502260,
+      "realized_maj": 0,
+      "leaderboard_allTime": 559534.67,
+      "leaderboard_roi": 0.6558872945,
+      "months": 4,
+      "pos_month_rate": 1.0,
+      "profit_factor": 99,
+      "worst_month": 8360,
+      "win_rate": 0.891,
+      "n_closes": 1762,
+      "closes_per_month": 440,
+      "short_ratio": 0.07,
+      "top_coins": {
+        "xyz:CL": 231011,
+        "xyz:BRENTOIL": 101572,
+        "xyz:SILVER": 69424,
+        "xyz:SKHX": 46371
+      },
+      "active14": false,
+      "first_funders": [
+        "🏦 Binance: Wallet [0x1b5b4e]"
+      ]
+    },
+    {
+      "address": "0x747932275df815ae819944e57ebb5b3e115ad68b",
+      "labels": [
+        "Former Smart Trader [0x747932]"
+      ],
+      "pro_quality": "質:ムラあり",
+      "realized_cache_all": 547219,
+      "realized_maj": 483618,
+      "leaderboard_allTime": 415815.8465030002,
+      "leaderboard_roi": 0.1012291651,
+      "months": 9,
+      "pos_month_rate": 0.56,
+      "profit_factor": 34.7,
+      "worst_month": -14005,
+      "win_rate": 0.689,
+      "n_closes": 2483,
+      "closes_per_month": 276,
+      "short_ratio": 0.99,
+      "top_coins": {
+        "ETH": 360887,
+        "BTC": 112657,
+        "TAO": 43338,
+        "EIGEN": 13572
+      },
+      "active14": false,
+      "first_funders": [
+        "🤖 Across Protocol: Spoke Pool [0xe35e98]"
+      ]
+    },
+    {
+      "address": "0x807ddb66768050ee457165ad6d21cc1275a896ac",
+      "labels": [
+        "🤓 Smart HL Perps Trader [0x807ddb]"
+      ],
+      "pro_quality": "質:堅実",
+      "realized_cache_all": 641213,
+      "realized_maj": 477997,
+      "leaderboard_allTime": 806654.521767,
+      "leaderboard_roi": 2.4821278619,
+      "months": 5,
+      "pos_month_rate": 0.8,
+      "profit_factor": 120.8,
+      "worst_month": -5354,
+      "win_rate": 0.575,
+      "n_closes": 1048,
+      "closes_per_month": 210,
+      "short_ratio": 0.85,
+      "top_coins": {
+        "BTC": 335778,
+        "SOL": 138483,
+        "POPCAT": 83315,
+        "HYPE": 60579
+      },
+      "active14": false,
+      "first_funders": [
+        "HL Perps Swing Trader [0x2644ae]"
+      ]
+    },
+    {
+      "address": "0x5049695d6faacffd34f2d24f3f0ff8c64d88f71c",
+      "labels": [
+        "Former Smart Trader [0x504969]"
+      ],
+      "pro_quality": "質:ムラあり",
+      "realized_cache_all": 677972,
+      "realized_maj": 332299,
+      "leaderboard_allTime": 758737.206687,
+      "leaderboard_roi": 3.534471927,
+      "months": 12,
+      "pos_month_rate": 0.67,
+      "profit_factor": 15.6,
+      "worst_month": -17419,
+      "win_rate": 0.621,
+      "n_closes": 4051,
+      "closes_per_month": 338,
+      "short_ratio": 0.87,
+      "top_coins": {
+        "BTC": 214322,
+        "ETH": 149448,
+        "EIGEN": 50997,
+        "FARTCOIN": 45115
+      },
+      "active14": false,
+      "first_funders": [
+        "🏦 Binance: Hot Wallet [0xb38e8c]"
+      ]
+    },
+    {
+      "address": "0x3e6805e8694bb2b717a828c1bfa32df5d6580cc9",
+      "labels": [],
+      "pro_quality": "質:エリート(長期一貫)",
+      "realized_cache_all": 591463,
+      "realized_maj": 7487,
+      "leaderboard_allTime": 783561.274482,
+      "leaderboard_roi": 0.6751436082,
+      "months": 23,
+      "pos_month_rate": 0.87,
+      "profit_factor": 70.2,
+      "worst_month": -4559,
+      "win_rate": 0.743,
+      "n_closes": 3267,
+      "closes_per_month": 142,
+      "short_ratio": 0.73,
+      "top_coins": {
+        "PUMP": 192088,
+        "EIGEN": 53367,
+        "ENA": 51354,
+        "WLD": 46991
+      },
+      "active14": false,
+      "first_funders": [
+        "🏦 Coinbase [0x3dd1d1]"
+      ]
+    },
+    {
+      "address": "0x7ee069137842a195d06b533d714ba507290a3956",
+      "labels": [],
+      "pro_quality": "質:エリート(長期一貫)",
+      "realized_cache_all": 2338551,
+      "realized_maj": 149923,
+      "leaderboard_allTime": null,
+      "leaderboard_roi": null,
+      "months": 9,
+      "pos_month_rate": 1.0,
+      "profit_factor": 99,
+      "worst_month": 17,
+      "win_rate": 0.939,
+      "n_closes": 3990,
+      "closes_per_month": 443,
+      "short_ratio": 1.0,
+      "top_coins": {
+        "@107": 2064098,
+        "ETH": 92221,
+        "kPEPE": 69901,
+        "SOL": 57702
+      },
+      "active14": false,
+      "first_funders": []
+    },
+    {
+      "address": "0x01b7e73cdad95d407e8696e04194a75f19744801",
+      "labels": [
+        "High Balance"
+      ],
+      "pro_quality": "質:エリート(長期一貫)",
+      "realized_cache_all": 658339,
+      "realized_maj": 77256,
+      "leaderboard_allTime": null,
+      "leaderboard_roi": null,
+      "months": 11,
+      "pos_month_rate": 0.82,
+      "profit_factor": 17.3,
+      "worst_month": -40418,
+      "win_rate": 0.734,
+      "n_closes": 762,
+      "closes_per_month": 69,
+      "short_ratio": 0.52,
+      "top_coins": {
+        "HYPE": 271000,
+        "@1": 143774,
+        "UNI": 95941,
+        "ETH": 56179
+      },
+      "active14": false,
+      "first_funders": [
+        "🏦 Kraken [0x490b1e]"
+      ]
+    },
+    {
+      "address": "0x7cc0b0049faddc405da8494ac67737975c757480",
+      "labels": [],
+      "pro_quality": "質:高頻度MM(薄利多売)",
+      "realized_cache_all": 39489,
+      "realized_maj": 0,
+      "leaderboard_allTime": null,
+      "leaderboard_roi": null,
+      "months": 1,
+      "pos_month_rate": 1.0,
+      "profit_factor": 99,
+      "worst_month": 39489,
+      "win_rate": 0.943,
+      "n_closes": 2000,
+      "closes_per_month": 2000,
+      "short_ratio": null,
+      "top_coins": {
+        "ASTER": 38981,
+        "CAKE": 1157,
+        "TRX": -649
+      },
+      "active14": false,
+      "first_funders": []
+    },
+    {
+      "address": "0x1e6db0fdf1a0f6edb78753184eb0fe5485c2eef2",
+      "labels": [
+        "Token Millionaire"
+      ],
+      "pro_quality": "質:堅実",
+      "realized_cache_all": 6015763,
+      "realized_maj": 328868,
+      "leaderboard_allTime": 9354362.330377,
+      "leaderboard_roi": 2.422375513,
+      "months": 6,
+      "pos_month_rate": 1.0,
+      "profit_factor": 99,
+      "worst_month": 437753,
+      "win_rate": 1.0,
+      "n_closes": 2867,
+      "closes_per_month": 478,
+      "short_ratio": 0.0,
+      "top_coins": {
+        "@107": 5686895,
+        "BTC": 328868
+      },
+      "active14": false,
+      "first_funders": [
+        "🏦 OKX: Hot Wallet [0x0938c6]"
+      ]
+    },
+    {
+      "address": "0x4eebd8d39e82efb958e0fa9f694435c910c8518f",
+      "labels": [
+        "[0x4eebd8]"
+      ],
+      "pro_quality": "質:履歴薄(<4ヶ月)",
+      "realized_cache_all": 5802013,
+      "realized_maj": 5802013,
+      "leaderboard_allTime": 6058537.37,
+      "leaderboard_roi": 2.2983333061,
+      "months": 3,
+      "pos_month_rate": 1.0,
+      "profit_factor": 99,
+      "worst_month": 299461,
+      "win_rate": 1.0,
+      "n_closes": 475,
+      "closes_per_month": 158,
+      "short_ratio": 1.0,
+      "top_coins": {
+        "BTC": 5802013
+      },
+      "active14": false,
+      "first_funders": [
+        "Gas.zip: Primary Solver [0x8c826f]"
+      ]
+    },
+    {
+      "address": "0x8cfe4bc352deb10ed41c5f0f89bc57674cee1e22",
+      "labels": [
+        "HL Perps Position Trader [0x8cfe4b]"
+      ],
+      "pro_quality": "質:堅実",
+      "realized_cache_all": 4829823,
+      "realized_maj": 4829823,
+      "leaderboard_allTime": 5284421.46,
+      "leaderboard_roi": 2.8580439345,
+      "months": 7,
+      "pos_month_rate": 0.71,
+      "profit_factor": 125.3,
+      "worst_month": -38828,
+      "win_rate": 0.963,
+      "n_closes": 2990,
+      "closes_per_month": 427,
+      "short_ratio": 0.99,
+      "top_coins": {
+        "BTC": 4829823
+      },
+      "active14": false,
+      "first_funders": [
+        "🤖 SwftCoin: Bridgers [0xb68576]"
+      ]
+    },
+    {
+      "address": "0xd7a678fcf72c1b602850ef2f3e2d668ec41fa0ed",
+      "labels": [
+        "\"yantngz\" on OpenSea"
+      ],
+      "pro_quality": "質:堅実",
+      "realized_cache_all": 4190469,
+      "realized_maj": 4117206,
+      "leaderboard_allTime": 4525304.959214,
+      "leaderboard_roi": 10.5634487362,
+      "months": 7,
+      "pos_month_rate": 1.0,
+      "profit_factor": 99,
+      "worst_month": 8,
+      "win_rate": 0.879,
+      "n_closes": 1347,
+      "closes_per_month": 192,
+      "short_ratio": 1.0,
+      "top_coins": {
+        "SOL": 3207038,
+        "BTC": 489003,
+        "ETH": 421164,
+        "@107": 46894
+      },
+      "active14": false,
+      "first_funders": [
+        "[0xbfe663]",
+        "[0xac33a3]"
+      ]
+    },
+    {
+      "address": "0x258886f9a27d38743ab45b8658871a37e2c3f51a",
+      "labels": [
+        "[0x258886]"
+      ],
+      "pro_quality": "質:ムラあり",
+      "realized_cache_all": 3369362,
+      "realized_maj": 3369362,
+      "leaderboard_allTime": null,
+      "leaderboard_roi": null,
+      "months": 4,
+      "pos_month_rate": 0.5,
+      "profit_factor": 604.6,
+      "worst_month": -4195,
+      "win_rate": 0.991,
+      "n_closes": 2463,
+      "closes_per_month": 616,
+      "short_ratio": 0.99,
+      "top_coins": {
+        "BTC": 3369362
+      },
+      "active14": false,
+      "first_funders": []
+    },
+    {
+      "address": "0x41206f8efb51e5039e5b46e04e7866a4849f72d2",
+      "labels": [
+        "High Activity"
+      ],
+      "pro_quality": "質:エリート(長期一貫)",
+      "realized_cache_all": 8845459,
+      "realized_maj": 8723731,
+      "leaderboard_allTime": 11207067.939828,
+      "leaderboard_roi": 15.0762890536,
+      "months": 15,
+      "pos_month_rate": 0.93,
+      "profit_factor": 9.2,
+      "worst_month": -1077143,
+      "win_rate": 0.718,
+      "n_closes": 10034,
+      "closes_per_month": 669,
+      "short_ratio": 0.87,
+      "top_coins": {
+        "BTC": 5023097,
+        "ETH": 3700634,
+        "TRUMP": 110582,
+        "ADA": 4761
+      },
+      "active14": false,
+      "first_funders": [
+        "Token Millionaire [0xf76264]"
+      ]
+    },
+    {
+      "address": "0x6979dde2781dc4ec843641b10b2a2f2e0f4bda62",
+      "labels": [
+        "HL Perps Whale [0x6979dd]"
+      ],
+      "pro_quality": "質:堅実",
+      "realized_cache_all": 1902418,
+      "realized_maj": 1902418,
+      "leaderboard_allTime": null,
+      "leaderboard_roi": null,
+      "months": 5,
+      "pos_month_rate": 1.0,
+      "profit_factor": 99,
+      "worst_month": 47653,
+      "win_rate": 0.988,
+      "n_closes": 6704,
+      "closes_per_month": 1341,
+      "short_ratio": 1.0,
+      "top_coins": {
+        "BTC": 1902418
+      },
+      "active14": false,
+      "first_funders": []
+    },
+    {
+      "address": "0xcefd7652228a8619d0af5b95389cd49387cd30e0",
+      "labels": [
+        "HL Perps Day Trader [0xcefd76]"
+      ],
+      "pro_quality": "質:堅実",
+      "realized_cache_all": 1612233,
+      "realized_maj": -77162,
+      "leaderboard_allTime": 2807792.079146,
+      "leaderboard_roi": 1.6964861893,
+      "months": 18,
+      "pos_month_rate": 0.72,
+      "profit_factor": 8.9,
+      "worst_month": -125048,
+      "win_rate": 0.845,
+      "n_closes": 6629,
+      "closes_per_month": 368,
+      "short_ratio": 0.3,
+      "top_coins": {
+        "@107": 1359875,
+        "HYPE": 284026,
+        "ETH": 30706,
+        "xyz:MRVL": 30091
+      },
+      "active14": false,
+      "first_funders": [
+        "🤖 DLN: DlnDestination [0xe7351f]"
+      ]
+    },
+    {
+      "address": "0x3b11267dfc4b9ebe8427e8f557056b4b6ce98112",
+      "labels": [
+        "High Balance"
+      ],
+      "pro_quality": "質:履歴薄(<4ヶ月)",
+      "realized_cache_all": 1807649,
+      "realized_maj": 541155,
+      "leaderboard_allTime": 1791514.166234,
+      "leaderboard_roi": 3.8868962411,
+      "months": 3,
+      "pos_month_rate": 1.0,
+      "profit_factor": 99,
+      "worst_month": 86595,
+      "win_rate": 0.902,
+      "n_closes": 3369,
+      "closes_per_month": 1123,
+      "short_ratio": 0.53,
+      "top_coins": {
+        "xyz:CL": 1225994,
+        "BTC": 471460,
+        "SOL": 69695,
+        "xyz:SP500": 40500
+      },
+      "active14": true,
+      "first_funders": [
+        "🏦 Binance [0xdfd529]",
+        "🤓 pincas.eth on Ethereum [Dztk8WaX]"
+      ]
+    },
+    {
+      "address": "0x5638484ba2d2f1d1d35020572b0aa439a9869192",
+      "labels": [
+        "ASTEROID Whale",
+        "High Activity",
+        "High Balance",
+        "stayawayfromridiculouslyprettygirls.eca.eth",
+        "stayawayfromridiculouslyprettygirls.eca.eth*"
+      ],
+      "pro_quality": "質:堅実",
+      "realized_cache_all": 1224633,
+      "realized_maj": 1088295,
+      "leaderboard_allTime": 1435264.53,
+      "leaderboard_roi": 0.2431073312,
+      "months": 4,
+      "pos_month_rate": 1.0,
+      "profit_factor": 99,
+      "worst_month": 168588,
+      "win_rate": 1.0,
+      "n_closes": 1318,
+      "closes_per_month": 330,
+      "short_ratio": 0.08,
+      "top_coins": {
+        "BTC": 830467,
+        "ETH": 257827,
+        "ZEC": 136338
+      },
+      "active14": false,
+      "first_funders": [
+        "👤 Dxrant [0x84a217]"
+      ]
+    },
+    {
+      "address": "0x4b4bdd734b87bc48683d24f1dc6159e3ab6d6409",
+      "labels": [
+        "HL Perps Whale [0x4b4bdd]"
+      ],
+      "pro_quality": "質:高頻度MM(薄利多売)",
+      "realized_cache_all": 1097035,
+      "realized_maj": 919099,
+      "leaderboard_allTime": 1070649.21139,
+      "leaderboard_roi": 1.4280852555,
+      "months": 2,
+      "pos_month_rate": 1.0,
+      "profit_factor": 99,
+      "worst_month": 447507,
+      "win_rate": 0.914,
+      "n_closes": 3392,
+      "closes_per_month": 1696,
+      "short_ratio": 0.69,
+      "top_coins": {
+        "BTC": 919099,
+        "@107": 264778,
+        "HYPE": 42003,
+        "@334": -128845
+      },
+      "active14": false,
+      "first_funders": [
+        "🤖 Synapse: CCTP [0x12715a]"
+      ]
+    },
+    {
+      "address": "0x1e5b1efd99c89d39b59b28a19e6b42bbeb98433b",
+      "labels": [
+        "​​Yield Farmer [0x1e5b1e]"
+      ],
+      "pro_quality": "質:堅実",
+      "realized_cache_all": 1025999,
+      "realized_maj": 1026143,
+      "leaderboard_allTime": null,
+      "leaderboard_roi": null,
+      "months": 4,
+      "pos_month_rate": 0.75,
+      "profit_factor": 7094.6,
+      "worst_month": -145,
+      "win_rate": 0.847,
+      "n_closes": 340,
+      "closes_per_month": 85,
+      "short_ratio": 1.0,
+      "top_coins": {
+        "BTC": 1026143,
+        "@166": -145
+      },
+      "active14": false,
+      "first_funders": [
+        "🤖 CoW Protocol: Settlement [0x9008d1]"
+      ]
+    },
+    {
+      "address": "0x7de07bb8a43c1953a019906cf2c8287dae478be9",
+      "labels": [
+        "Token Millionaire"
+      ],
+      "pro_quality": "質:ムラあり",
+      "realized_cache_all": 1016230,
+      "realized_maj": 1016225,
+      "leaderboard_allTime": 1630468.148521,
+      "leaderboard_roi": 0.228202096,
+      "months": 8,
+      "pos_month_rate": 0.5,
+      "profit_factor": 1.8,
+      "worst_month": -509520,
+      "win_rate": 0.682,
+      "n_closes": 790,
+      "closes_per_month": 99,
+      "short_ratio": 1.0,
+      "top_coins": {
+        "ETH": 1016225,
+        "@35": 6,
+        "@88": 4,
+        "@74": 4
+      },
+      "active14": false,
+      "first_funders": [
+        "🤖 Synapse: Bridge [0x6f4e8e]"
+      ]
+    },
+    {
+      "address": "0xc604faf510aa5b617c9fb1556d02d6d22c9644be",
+      "labels": [
+        "[0xc604fa]"
+      ],
+      "pro_quality": "質:履歴薄(<4ヶ月)",
+      "realized_cache_all": 911248,
+      "realized_maj": 911248,
+      "leaderboard_allTime": 999301.793039,
+      "leaderboard_roi": 0.9992967966,
+      "months": 1,
+      "pos_month_rate": 1.0,
+      "profit_factor": 99,
+      "worst_month": 911248,
+      "win_rate": 1.0,
+      "n_closes": 150,
+      "closes_per_month": 150,
+      "short_ratio": 1.0,
+      "top_coins": {
+        "ETH": 911248
+      },
+      "active14": false,
+      "first_funders": [
+        "High Activity [0x91604f]"
+      ]
+    },
+    {
+      "address": "0x0d9654172413fa8bcd2f5738a7b2fa6d19864125",
+      "labels": [
+        "[0x0d9654]"
+      ],
+      "pro_quality": "質:高頻度MM(薄利多売)",
+      "realized_cache_all": 731926,
+      "realized_maj": 731926,
+      "leaderboard_allTime": 682643.887276,
+      "leaderboard_roi": 6826.43887276,
+      "months": 1,
+      "pos_month_rate": 1.0,
+      "profit_factor": 99,
+      "worst_month": 731926,
+      "win_rate": 1.0,
+      "n_closes": 3261,
+      "closes_per_month": 3261,
+      "short_ratio": 0.0,
+      "top_coins": {
+        "ETH": 731926
+      },
+      "active14": false,
+      "first_funders": [
+        "🤖 Across Protocol: Spoke Pool [0xe35e98]"
+      ]
+    },
+    {
+      "address": "0x9b804150c9a4f6db44ba4fd67704eadb5be360c1",
+      "labels": [
+        "[0x9b8041]"
+      ],
+      "pro_quality": "質:履歴薄(<4ヶ月)",
+      "realized_cache_all": 700722,
+      "realized_maj": 700722,
+      "leaderboard_allTime": null,
+      "leaderboard_roi": null,
+      "months": 1,
+      "pos_month_rate": 1.0,
+      "profit_factor": 99,
+      "worst_month": 700722,
+      "win_rate": 1.0,
+      "n_closes": 230,
+      "closes_per_month": 230,
+      "short_ratio": 1.0,
+      "top_coins": {
+        "BTC": 700722
+      },
+      "active14": false,
+      "first_funders": []
+    },
+    {
+      "address": "0xf3362789cecf25c6a31288d172880d7ad9b81801",
+      "labels": [
+        ": Boros Trader [0xf33627]"
+      ],
+      "pro_quality": "質:堅実",
+      "realized_cache_all": 679129,
+      "realized_maj": 658338,
+      "leaderboard_allTime": 636001.204711,
+      "leaderboard_roi": 0.8575592065,
+      "months": 4,
+      "pos_month_rate": 1.0,
+      "profit_factor": 99,
+      "worst_month": 12,
+      "win_rate": 0.684,
+      "n_closes": 2468,
+      "closes_per_month": 617,
+      "short_ratio": 0.95,
+      "top_coins": {
+        "SOL": 836128,
+        "BNB": 20762,
+        "XRP": 103,
+        "HYPE": -74
+      },
+      "active14": false,
+      "first_funders": [
+        "🏦 Binance: Wallet [0x3931da]"
+      ]
+    },
+    {
+      "address": "0x69b05701f8175c276ecd0138387a197948e240bb",
+      "labels": [],
+      "pro_quality": "質:エリート(長期一貫)",
+      "realized_cache_all": 641300,
+      "realized_maj": 396581,
+      "leaderboard_allTime": 556632.0299999999,
+      "leaderboard_roi": 1.200074678,
+      "months": 13,
+      "pos_month_rate": 0.85,
+      "profit_factor": 39.5,
+      "worst_month": -8591,
+      "win_rate": 0.591,
+      "n_closes": 5702,
+      "closes_per_month": 439,
+      "short_ratio": 0.08,
+      "top_coins": {
+        "HYPE": 371955,
+        "BTC": 252204,
+        "ETH": 144377,
+        "LINK": 6702
+      },
+      "active14": true,
+      "first_funders": [
+        "[0x7ac157]"
+      ]
+    },
+    {
+      "address": "0x5198eff88dea32108605bcdb109a99dc397190d8",
+      "labels": [
+        "[0x5198ef]"
+      ],
+      "pro_quality": "質:履歴薄(<4ヶ月)",
+      "realized_cache_all": 613832,
+      "realized_maj": 613832,
+      "leaderboard_allTime": null,
+      "leaderboard_roi": null,
+      "months": 1,
+      "pos_month_rate": 1.0,
+      "profit_factor": 99,
+      "worst_month": 613832,
+      "win_rate": 1.0,
+      "n_closes": 71,
+      "closes_per_month": 71,
+      "short_ratio": 1.0,
+      "top_coins": {
+        "ETH": 613832
+      },
+      "active14": false,
+      "first_funders": []
+    },
+    {
+      "address": "0xdb79fe310ea2972137d2a23658db0234902b517d",
+      "labels": [
+        "HL Perps Altcoin Trader [0xdb79fe]"
+      ],
+      "pro_quality": "質:ムラあり",
+      "realized_cache_all": 551893,
+      "realized_maj": 402300,
+      "leaderboard_allTime": 977852.11068,
+      "leaderboard_roi": 1.5903101938,
+      "months": 16,
+      "pos_month_rate": 0.62,
+      "profit_factor": 4.8,
+      "worst_month": -60933,
+      "win_rate": 0.601,
+      "n_closes": 5731,
+      "closes_per_month": 358,
+      "short_ratio": 0.8,
+      "top_coins": {
+        "BTC": 286712,
+        "ETH": 78032,
+        "XRP": 53154,
+        "SOL": 37557
+      },
+      "active14": false,
+      "first_funders": [
+        "​​Trading Bot [0x6f3844]"
+      ]
+    },
+    {
+      "address": "0x3adaa1d2d0598c9b661a746649d20e1e8aad9b3a",
+      "labels": [
+        "[0x3adaa1]"
+      ],
+      "pro_quality": "質:履歴薄(<4ヶ月)",
+      "realized_cache_all": 540758,
+      "realized_maj": 540758,
+      "leaderboard_allTime": null,
+      "leaderboard_roi": null,
+      "months": 1,
+      "pos_month_rate": 1.0,
+      "profit_factor": 99,
+      "worst_month": 540758,
+      "win_rate": 1.0,
+      "n_closes": 97,
+      "closes_per_month": 97,
+      "short_ratio": 0.0,
+      "top_coins": {
+        "BTC": 540758
+      },
+      "active14": false,
+      "first_funders": [
+        "🤖 Across Protocol: Spoke Pool [0xe35e98]"
+      ]
+    },
+    {
+      "address": "0x8a48dcaffdf71c547cd0fd0434ae40fa57bcbf0f",
+      "labels": [
+        ": Boros Trader [0x8a48dc]"
+      ],
+      "pro_quality": "質:堅実",
+      "realized_cache_all": 523699,
+      "realized_maj": 402850,
+      "leaderboard_allTime": null,
+      "leaderboard_roi": null,
+      "months": 7,
+      "pos_month_rate": 0.86,
+      "profit_factor": 13.2,
+      "worst_month": -42823,
+      "win_rate": 0.777,
+      "n_closes": 2690,
+      "closes_per_month": 384,
+      "short_ratio": 0.99,
+      "top_coins": {
+        "ETH": 237171,
+        "BTC": 161749,
+        "HYPE": 109668,
+        "EIGEN": 11493
+      },
+      "active14": false,
+      "first_funders": [
+        "🏦 OKX: Hot Wallet [0x0938c6]"
+      ]
+    }
+  ]
+}
