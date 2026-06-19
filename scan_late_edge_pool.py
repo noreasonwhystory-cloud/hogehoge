@@ -65,9 +65,12 @@ def main():
         try:
             d = {w: v for w, v in r["windowPerformances"]}
             at = float(d["allTime"]["pnl"]); mo = float(d["month"]["pnl"]); av = float(r["accountValue"])
+            vlm = float(d["allTime"]["vlm"])
         except Exception:
             continue
-        if at >= args.min and mo > 0 and av >= 10000:
+        # 高回転MM(turnover>200)と巨鯨($500万超=取得激重・遅効でない)を除外し方向トレーダーに集中
+        turnover = vlm / abs(at) if at else 9e9
+        if args.min <= at <= 5_000_000 and mo > 0 and av >= 10000 and turnover <= 200:
             pool.append((a, at))
     pool.sort(key=lambda x: -x[1])
     pool = pool[:args.limit]

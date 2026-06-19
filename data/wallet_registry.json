@@ -35191,6 +35191,263 @@
         "遅効シグナルだがmajors赤字"
       ],
       "notes_jp": "【補正】遅効エッジ(補正72h正)を検出したが、majors実現損益が＄-82,415(黒字でない)。建玉後に順方向へ動いても早期利確/反転/清算/alt偏重で利益化できていない＝実力/情報優位でなく偽陽性。除外へ。\n―――\n【未照会層から遅効エッジ発掘(2026-06-18)】台帳に未登録だった層をリーダーボードから抽出し複数地平線で精査。4h方向的中はコイン投げだが補正後リターンが 24h+0.019/72h+0.049 と市場ドリフト超。9ヶ月・銘柄['BTC', 'SOL', 'ETH']・short率0.43に分散しN=1/regimeでは説明困難。HL実測: 勝率0.2286・実現$-82,415・664日・口座$140,253。正体「匿名」 資金源=🤖 Wormhole: Emitter Native Address [0xf18f92]。実力スイングの可能性が高いが遅効positioningも否定できず監視。"
+    },
+    "0xaf0fdd39e5d92499b0ed9f68693da99c0ec1e92e": {
+      "address": "0xaf0fdd39e5d92499b0ed9f68693da99c0ec1e92e",
+      "first_seen": "2026-06-19",
+      "last_seen": "2026-06-19",
+      "times_seen": 1,
+      "position": "弱い疑惑(監視継続)",
+      "metric_category": "hl-verified",
+      "labels": [
+        "High Activity"
+      ],
+      "first_funders": [
+        {
+          "address": "0x4b171fc45674edadbfe00c57115c92a038fa59bf",
+          "label": "[0x4b171f]",
+          "relation": "First Funder",
+          "time": "2022-05-06T05:27:37"
+        },
+        {
+          "address": "0x75c395a553ce58f86c741807d8544410a2aa98b7",
+          "label": "[0x75c395]",
+          "relation": "Deployed Contract",
+          "time": "2022-11-21T16:58:39"
+        },
+        {
+          "address": "0x7ce8c7d10a77b9fdd3215751ffea1cb17555f1c8",
+          "label": "[0x7ce8c7]",
+          "relation": "Deployed Contract",
+          "time": "2023-05-12T22:53:45"
+        },
+        {
+          "address": "0xfaffd683e5a182af3acad4c0d068256dc40ac939",
+          "label": "[0xfaffd6]",
+          "relation": "Deployed Contract",
+          "time": "2023-05-31T02:16:01"
+        },
+        {
+          "address": "0xd2d80724ce40fff6723112446dad065231d3ed60",
+          "label": "[0xd2d807]",
+          "relation": "Deployed Contract",
+          "time": "2024-03-23T03:42:05"
+        },
+        {
+          "address": "0xb6ce33a4957fc031ac346cfd2ccdcd278d0723e2",
+          "label": "🤖 IsolationModeUpgradeableProxy [0xb6ce33]",
+          "relation": "Deployed Contract",
+          "time": "2024-07-14T17:38:59"
+        },
+        {
+          "address": "0xb31f5d078062b293c0f82a0c038ace634215e3d3",
+          "label": "🤖 FluidWallet [0xb31f5d]",
+          "relation": "Deployed Contract",
+          "time": "2024-09-16T05:56:15"
+        },
+        {
+          "address": "0x65825f3b6a6c5c1d000d8ae5df05f0b4b8ca2a9a",
+          "label": "🤖 IsolationModeUpgradeableProxy [0x65825f]",
+          "relation": "Deployed Contract",
+          "time": "2024-11-17T07:43:47"
+        },
+        {
+          "address": "0xce7df51aa782d2c5cee2a2a18568b105b1db9814",
+          "label": "🤖 Sentiment: Account Factory [0xce7df5]",
+          "relation": "Deployed via",
+          "time": "2022-11-21T16:58:39"
+        },
+        {
+          "address": "0x5a15566417e6c1c9546523066500bddbc53f88c7",
+          "label": "🤖 DeFi Saver: CDP Saver DS Guard Factory [0x5a1556]",
+          "relation": "Deployed via",
+          "time": "2023-05-12T22:53:45"
+        }
+      ],
+      "current": {
+        "date": "2026-06-19",
+        "metric_category": "hl-verified",
+        "win_rate": 0.7136,
+        "dir_accuracy": null,
+        "total_pnl": 1201713
+      },
+      "history": [
+        {
+          "date": "2026-06-19",
+          "metric_category": "hl-verified",
+          "win_rate": 0.7136,
+          "dir_accuracy": null,
+          "total_pnl": 1201713
+        }
+      ],
+      "hl_checked": "2026-06-19",
+      "nansen_checked": "2026-06-19",
+      "active14": false,
+      "trade_days": 245,
+      "n_closes": 1683,
+      "realized_majors": 1201713,
+      "account_value": 2841163,
+      "mh_detr72": 0.0336,
+      "mh_detr24": 0.0119,
+      "mh_checked": "2026-06-19",
+      "auto_tags": [],
+      "tags": [
+        "Nansen発見",
+        "取引なし(14d)",
+        "未照会発掘",
+        "遅効エッジ(24-72h)"
+      ],
+      "notes_jp": "【未照会層から遅効エッジ発掘(2026-06-19)】台帳に未登録だった層をリーダーボードから抽出し複数地平線で精査。4h方向的中はコイン投げだが補正後リターンが 24h+0.012/72h+0.034 と市場ドリフト超。8ヶ月・銘柄['ETH', 'SOL', 'BTC']・short率0.63に分散しN=1/regimeでは説明困難。HL実測: 勝率0.7136・実現$1,201,713・245日・口座$2,841,163。正体「High Activity」 資金源=[0x4b171f], [0x75c395], [0x7ce8c7]。実力スイングの可能性が高いが遅効positioningも否定できず監視。"
+    },
+    "0x3fb5da839710949169d716d95800ff6316b3286f": {
+      "address": "0x3fb5da839710949169d716d95800ff6316b3286f",
+      "first_seen": "2026-06-19",
+      "last_seen": "2026-06-19",
+      "times_seen": 1,
+      "position": "弱い疑惑(監視継続)",
+      "metric_category": "hl-verified",
+      "labels": [],
+      "first_funders": [
+        {
+          "address": "0x6f4e8eba4d337f874ab57478acc2cb5bacdc19c9",
+          "label": "🤖 Synapse: Bridge [0x6f4e8e]",
+          "relation": "First Funder",
+          "time": "2022-01-14T00:20:18"
+        }
+      ],
+      "current": {
+        "date": "2026-06-19",
+        "metric_category": "hl-verified",
+        "win_rate": 0.4224,
+        "dir_accuracy": null,
+        "total_pnl": 100389
+      },
+      "history": [
+        {
+          "date": "2026-06-19",
+          "metric_category": "hl-verified",
+          "win_rate": 0.4224,
+          "dir_accuracy": null,
+          "total_pnl": 100389
+        }
+      ],
+      "hl_checked": "2026-06-19",
+      "nansen_checked": "2026-06-19",
+      "active14": false,
+      "trade_days": 673,
+      "n_closes": 4339,
+      "realized_majors": 100389,
+      "account_value": 0,
+      "mh_detr72": 0.0333,
+      "mh_detr24": 0.0294,
+      "mh_checked": "2026-06-19",
+      "auto_tags": [],
+      "tags": [
+        "Nansen発見",
+        "取引なし(14d)",
+        "未照会発掘",
+        "遅効エッジ(24-72h)"
+      ],
+      "notes_jp": "【未照会層から遅効エッジ発掘(2026-06-19)】台帳に未登録だった層をリーダーボードから抽出し複数地平線で精査。4h方向的中はコイン投げだが補正後リターンが 24h+0.029/72h+0.033 と市場ドリフト超。16ヶ月・銘柄['SOL', 'ETH', 'BTC']・short率0.33に分散しN=1/regimeでは説明困難。HL実測: 勝率0.4224・実現$100,389・673日・口座$0。正体「匿名」 資金源=🤖 Synapse: Bridge [0x6f4e8e]。実力スイングの可能性が高いが遅効positioningも否定できず監視。"
+    },
+    "0xac38a7473c31a1989a999c0a5da9a4e0d57f2574": {
+      "address": "0xac38a7473c31a1989a999c0a5da9a4e0d57f2574",
+      "first_seen": "2026-06-19",
+      "last_seen": "2026-06-19",
+      "times_seen": 1,
+      "position": "弱い疑惑(監視継続)",
+      "metric_category": "hl-verified",
+      "labels": [],
+      "first_funders": [
+        {
+          "address": "0xd7a827fbaf38c98e8336c5658e4bcbcd20a4fd2d",
+          "label": "🏦 Crypto.com: Withdrawal [0xd7a827]",
+          "relation": "First Funder",
+          "time": "2022-06-17T11:55:51"
+        },
+        {
+          "address": "0xdb614094b4a0a6f147682a606147bbe08edbb97c",
+          "label": "[0xdb6140]",
+          "relation": "Deployed Contract",
+          "time": "2022-12-15T18:49:04"
+        },
+        {
+          "address": "0x6a08753894608b76a2e55943d3176b71590148f8",
+          "label": "🤖 🏦 Uniswap: V3 ⚠️ VST-USDC (0.01%) Liquidity Pool  [0x6a0875]",
+          "relation": "Deployed Contract",
+          "time": "2023-05-29T10:14:26"
+        },
+        {
+          "address": "0x0b99c7c5fb5e28b58184358251c19a85a433b7c3",
+          "label": "🤖 ⚠️ OLIT-WETH Liquidity Pool Fork: [0x0b99c7]",
+          "relation": "Deployed Contract",
+          "time": "2023-12-29T16:01:12"
+        },
+        {
+          "address": "0x340b74c51c540ac59fd0bde1f7ba8ff2e4c6b6d5",
+          "label": "[0x340b74]",
+          "relation": "Deployed Contract",
+          "time": "2023-12-29T16:10:25"
+        },
+        {
+          "address": "0xce7df51aa782d2c5cee2a2a18568b105b1db9814",
+          "label": "🤖 Sentiment: Account Factory [0xce7df5]",
+          "relation": "Deployed via",
+          "time": "2022-12-15T18:49:04"
+        },
+        {
+          "address": "0x1f98431c8ad98523631ae4a59f267346ea31f984",
+          "label": "🤖 🏦 Uniswap: V3 Factory [0x1f9843]",
+          "relation": "Deployed via",
+          "time": "2023-05-29T10:14:26"
+        },
+        {
+          "address": "0x8e42f2f4101563bf679975178e880fd87d3efd4e",
+          "label": "[0x8e42f2]",
+          "relation": "Deployed via",
+          "time": "2023-12-29T16:01:12"
+        },
+        {
+          "address": "0xe4666f0937b62d64c10316db0b7061549f87e95f",
+          "label": "🤖 Root Liquidity Gauge Factory [0xe4666f]",
+          "relation": "Deployed via",
+          "time": "2023-12-29T16:10:25"
+        }
+      ],
+      "current": {
+        "date": "2026-06-19",
+        "metric_category": "hl-verified",
+        "win_rate": 0.5437,
+        "dir_accuracy": null,
+        "total_pnl": 58901
+      },
+      "history": [
+        {
+          "date": "2026-06-19",
+          "metric_category": "hl-verified",
+          "win_rate": 0.5437,
+          "dir_accuracy": null,
+          "total_pnl": 58901
+        }
+      ],
+      "hl_checked": "2026-06-19",
+      "nansen_checked": "2026-06-19",
+      "active14": false,
+      "trade_days": 1050,
+      "n_closes": 263,
+      "realized_majors": 58901,
+      "account_value": 0,
+      "mh_detr72": 0.0481,
+      "mh_detr24": 0.0144,
+      "mh_checked": "2026-06-19",
+      "auto_tags": [],
+      "tags": [
+        "Nansen発見",
+        "取引なし(14d)",
+        "未照会発掘",
+        "遅効エッジ(24-72h)"
+      ],
+      "notes_jp": "【未照会層から遅効エッジ発掘(2026-06-19)】台帳に未登録だった層をリーダーボードから抽出し複数地平線で精査。4h方向的中はコイン投げだが補正後リターンが 24h+0.014/72h+0.048 と市場ドリフト超。10ヶ月・銘柄['ETH', 'BTC', 'SOL']・short率0.56に分散しN=1/regimeでは説明困難。HL実測: 勝率0.5437・実現$58,901・1050日・口座$0。正体「匿名」 資金源=🏦 Crypto.com: Withdrawal [0xd7a827], [0xdb6140], 🤖 🏦 Uniswap: V3 ⚠️ VST-USDC (0.01%) Liquidity Pool  [0x6a0875]。実力スイングの可能性が高いが遅効positioningも否定できず監視。"
     }
   },
   "updated_at": "2026-06-17T18:57:53.443226+00:00"

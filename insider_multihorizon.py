@@ -53,8 +53,8 @@ def price_at(coin, t):
     return ser[i][1] if i >= 0 else None
 
 
-def fetch_fills(addr, max_pages=40):
-    return fc.get_fills(addr, max_pages=max_pages)   # 永続キャッシュ＋増分取得
+def fetch_fills(addr, max_pages=14):
+    return fc.get_fills(addr, max_pages=max_pages)   # 永続キャッシュ＋増分取得(14p=最大28k約定で数ヶ月分に十分)
 
 
 def open_dir(d):

@@ -26,10 +26,13 @@ def ok(r):
 
 
 def main():
+    import sys
+    src = sys.argv[1] if len(sys.argv) > 1 else "late_edge_new.json"
+    MIN_REAL = 50000   # majors実現益が黒字(>$5万)のもののみ追加(エッジ≠利益)
     P = f"{config.DATA_DIR}/wallet_registry.json"
     reg = json.load(open(P, encoding="utf-8"))
     W = reg["wallets"]
-    passers = json.load(open(f"{config.DATA_DIR}/late_edge_new.json", encoding="utf-8"))["passers"]
+    passers = json.load(open(f"{config.DATA_DIR}/{src}", encoding="utf-8"))["passers"]
     today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
     # 4h的中用の足
     cc = {}
@@ -58,6 +61,8 @@ def main():
         wins = sum(1 for f in closes if float(f["closedPnl"]) > 0)
         win_rate = round(wins / len(closes), 4) if closes else None
         realized = round(sum(float(f.get("closedPnl", 0) or 0) for f in maj))
+        if realized <= MIN_REAL:        # 赤字/小利は追加しない(エッジ≠利益)
+            continue
         t0 = min(int(f["time"]) for f in maj); t1 = max(int(f["time"]) for f in maj)
         days = (datetime.fromtimestamp(t1 / 1000, timezone.utc) - datetime.fromtimestamp(t0 / 1000, timezone.utc)).days
         active14 = (now - t1) <= 14 * 24 * MS_H
