@@ -392,7 +392,7 @@
       "active_from": "2025-05-16",
       "active_to": "2026-06-07",
       "trade_days": 387,
-      "active14": true,
+      "active14": false,
       "pro_score_old": 0.401,
       "pro_tier_old": "B",
       "soak_detail": {
@@ -923,7 +923,7 @@
       "n_fills_14d": 116,
       "active_to": "2026-06-09",
       "active_from": "2024-12-17",
-      "active14": true,
+      "active14": false,
       "true_realized_all": 75299,
       "true_realized_maj": 72242,
       "n_closes": 64,
@@ -989,7 +989,7 @@
       "roi_alltime": 0.165159995,
       "active_to": "2026-06-17",
       "active_from": "2024-12-01",
-      "active14": true,
+      "active14": false,
       "true_realized_all": -53049,
       "true_realized_maj": 15426,
       "n_closes": 276,
@@ -1208,7 +1208,7 @@
       "n_fills_14d": 22,
       "active_to": "2026-06-13",
       "active_from": "2025-10-24",
-      "active14": true,
+      "active14": false,
       "true_realized_all": -622,
       "true_realized_maj": 4262,
       "n_closes": 77,
@@ -1362,7 +1362,7 @@
       "active_from": "2025-01-08",
       "active_to": "2026-06-15",
       "trade_days": 523,
-      "active14": true,
+      "active14": false,
       "pro_score_old": 0.37,
       "pro_tier_old": "C",
       "true_realized_all": 592289,
@@ -1421,9 +1421,9 @@
         "date": "2026-06-17",
         "metric_category": "pro_trader",
         "insider_score": 0.4362,
-        "win_rate": 0.7368,
+        "win_rate": 0.6526,
         "dir_accuracy": 1.0,
-        "total_pnl": 11957.4,
+        "total_pnl": 6646,
         "avg_hold_h": 2.68,
         "event_lead_notional": 0,
         "insider_likelihood": null
@@ -1503,7 +1503,12 @@
       "active14": true,
       "pro_score_old": 0.261,
       "pro_tier_old": "C",
-      "last_fill": 1781811324507
+      "last_fill": 1781811324507,
+      "true_realized_all": 104468,
+      "true_realized_maj": 6646,
+      "n_closes": 95,
+      "active_days": 30.5,
+      "metric_normalized": "2026-06-19"
     },
     "0xa72dc2d42398e54634fc28e6769f8ce3ae011807": {
       "address": "0xa72dc2d42398e54634fc28e6769f8ce3ae011807",
@@ -3073,9 +3078,9 @@
         "date": "2026-06-17",
         "metric_category": "excluded",
         "insider_score": 0.3177,
-        "win_rate": 1.0,
+        "win_rate": 0.9981,
         "dir_accuracy": 0.0,
-        "total_pnl": 234390.09,
+        "total_pnl": 116203,
         "avg_hold_h": null,
         "event_lead_notional": 0,
         "insider_likelihood": null
@@ -3093,7 +3098,12 @@
       "active_from": "2026-05-18",
       "active14": true,
       "trade_days": 27,
-      "last_fill": 1781535828090
+      "last_fill": 1781535828090,
+      "true_realized_all": 116203,
+      "true_realized_maj": 116203,
+      "n_closes": 529,
+      "active_days": 27.8,
+      "metric_normalized": "2026-06-19"
     },
     "0x8c783a3877bfab4e318a7dc521157cc89f85202c": {
       "address": "0x8c783a3877bfab4e318a7dc521157cc89f85202c",
@@ -3344,8 +3354,8 @@
       "current": {
         "date": "2026-06-17",
         "metric_category": "nansen-pro",
-        "total_pnl": 175655.48639499999,
-        "win_rate": null,
+        "total_pnl": 16172,
+        "win_rate": 0.6243,
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
@@ -3366,7 +3376,12 @@
       "active_to": "2026-06-18",
       "trade_days": 102,
       "active14": true,
-      "last_fill": 1781759008364
+      "last_fill": 1781759008364,
+      "true_realized_all": 166217,
+      "true_realized_maj": 16172,
+      "n_closes": 503,
+      "active_days": 91.8,
+      "metric_normalized": "2026-06-19"
     },
     "0xebe6cc6820a76705b6654fdd1254256dcd54f1df": {
       "address": "0xebe6cc6820a76705b6654fdd1254256dcd54f1df",
@@ -3408,9 +3423,9 @@
         "date": "2026-06-17",
         "metric_category": "excluded",
         "insider_score": 0.2917,
-        "win_rate": 1.0,
+        "win_rate": 0.7576,
         "dir_accuracy": 0.1667,
-        "total_pnl": 182.58,
+        "total_pnl": 423,
         "avg_hold_h": 28.45,
         "event_lead_notional": 0,
         "insider_likelihood": null
@@ -3427,7 +3442,12 @@
       "active_from": "2024-12-21",
       "active14": true,
       "trade_days": 545,
-      "last_fill": 1781845419108
+      "last_fill": 1781845419108,
+      "true_realized_all": 56484,
+      "true_realized_maj": 423,
+      "n_closes": 33,
+      "active_days": 503.7,
+      "metric_normalized": "2026-06-19"
     },
     "0x36610519ba3fab20e865a54342d516ddbe1678ae": {
       "address": "0x36610519ba3fab20e865a54342d516ddbe1678ae",
@@ -3469,9 +3489,9 @@
         "date": "2026-06-17",
         "metric_category": "excluded",
         "insider_score": 0.2912,
-        "win_rate": 0.4407,
+        "win_rate": 0.4094,
         "dir_accuracy": 0.7241,
-        "total_pnl": -7582.44,
+        "total_pnl": -12602,
         "avg_hold_h": 13.7,
         "event_lead_notional": 0,
         "insider_likelihood": null
@@ -3488,7 +3508,12 @@
       "active_from": "2025-09-01",
       "active14": true,
       "trade_days": 290,
-      "last_fill": 1781813517414
+      "last_fill": 1781813517414,
+      "true_realized_all": -7895,
+      "true_realized_maj": -12602,
+      "n_closes": 381,
+      "active_days": 252.3,
+      "metric_normalized": "2026-06-19"
     },
     "0xfc37faf026597474691dca71ed9dcae1a6633b84": {
       "address": "0xfc37faf026597474691dca71ed9dcae1a6633b84",
@@ -3530,9 +3555,9 @@
         "date": "2026-06-17",
         "metric_category": "excluded",
         "insider_score": 0.2902,
-        "win_rate": 0.6852,
+        "win_rate": 0.2929,
         "dir_accuracy": 0.3941,
-        "total_pnl": 14290.83,
+        "total_pnl": 5694,
         "avg_hold_h": 9.52,
         "event_lead_notional": 239492,
         "insider_likelihood": null
@@ -3549,7 +3574,12 @@
       "active_from": "2026-06-07",
       "active14": true,
       "trade_days": 11,
-      "last_fill": 1781838376126
+      "last_fill": 1781838376126,
+      "true_realized_all": 129911,
+      "true_realized_maj": 5694,
+      "n_closes": 379,
+      "active_days": 8.0,
+      "metric_normalized": "2026-06-19"
     },
     "0x8d6427d95427d2af0c3e9a4c80e0e0e604299230": {
       "address": "0x8d6427d95427d2af0c3e9a4c80e0e0e604299230",
@@ -3606,7 +3636,7 @@
         "方向:無/フラット"
       ],
       "roi_alltime": -0.3546094446,
-      "active14": true,
+      "active14": false,
       "true_realized_all": 82886,
       "true_realized_maj": 11635,
       "n_closes": 5170,
@@ -4204,9 +4234,9 @@
         "date": "2026-06-17",
         "metric_category": "excluded",
         "insider_score": 0.2501,
-        "win_rate": 1.0,
+        "win_rate": 0.5,
         "dir_accuracy": 0.0,
-        "total_pnl": 196.22,
+        "total_pnl": -22755,
         "avg_hold_h": 0.17,
         "event_lead_notional": 0,
         "insider_likelihood": null
@@ -4221,9 +4251,14 @@
       "roi_alltime": 0.8982024592,
       "active_to": "2026-06-18",
       "active_from": "2025-07-13",
-      "active14": true,
+      "active14": false,
       "trade_days": 340,
-      "last_fill": 1781803041889
+      "last_fill": 1781803041889,
+      "true_realized_all": -62216,
+      "true_realized_maj": -22755,
+      "n_closes": 332,
+      "active_days": 282.3,
+      "metric_normalized": "2026-06-19"
     },
     "0x56654885ad39155235336c0ff01b3337693c3882": {
       "address": "0x56654885ad39155235336c0ff01b3337693c3882",
@@ -4265,9 +4300,9 @@
         "date": "2026-06-17",
         "metric_category": "excluded",
         "insider_score": 0.25,
-        "win_rate": 0.0,
+        "win_rate": 0.6253,
         "dir_accuracy": 1.0,
-        "total_pnl": -1095.0,
+        "total_pnl": -39066,
         "avg_hold_h": null,
         "event_lead_notional": 0,
         "insider_likelihood": null
@@ -4287,7 +4322,12 @@
       "active_from": "2024-12-04",
       "active14": true,
       "trade_days": 561,
-      "last_fill": 1781796606609
+      "last_fill": 1781796606609,
+      "true_realized_all": -12984,
+      "true_realized_maj": -39066,
+      "n_closes": 395,
+      "active_days": 393.8,
+      "metric_normalized": "2026-06-19"
     },
     "0x29c792a175627a15c60f5288e55d1cf7d95f2157": {
       "address": "0x29c792a175627a15c60f5288e55d1cf7d95f2157",
@@ -4329,9 +4369,9 @@
         "date": "2026-06-17",
         "metric_category": "excluded",
         "insider_score": 0.25,
-        "win_rate": 1.0,
+        "win_rate": 0.6765,
         "dir_accuracy": 0.0,
-        "total_pnl": 41.91,
+        "total_pnl": 7698,
         "avg_hold_h": 1.72,
         "event_lead_notional": 0,
         "insider_likelihood": null
@@ -4346,9 +4386,14 @@
       "roi_alltime": 0.8141284984,
       "active_to": "2026-06-19",
       "active_from": "2024-07-06",
-      "active14": true,
+      "active14": false,
       "trade_days": 712,
-      "last_fill": 1781848288989
+      "last_fill": 1781848288989,
+      "true_realized_all": 18565,
+      "true_realized_maj": 7698,
+      "n_closes": 68,
+      "active_days": 690.4,
+      "metric_normalized": "2026-06-19"
     },
     "0xaddc680878f96b93189f700d17f4a9bfcf80ff54": {
       "address": "0xaddc680878f96b93189f700d17f4a9bfcf80ff54",
@@ -4390,9 +4435,9 @@
         "date": "2026-06-17",
         "metric_category": "excluded",
         "insider_score": 0.25,
-        "win_rate": 1.0,
+        "win_rate": null,
         "dir_accuracy": 0.0,
-        "total_pnl": 3.82,
+        "total_pnl": 0,
         "avg_hold_h": null,
         "event_lead_notional": 0,
         "insider_likelihood": null
@@ -4410,7 +4455,12 @@
       "active_from": "2026-05-06",
       "active14": true,
       "trade_days": 43,
-      "last_fill": 1781848807429
+      "last_fill": 1781848807429,
+      "true_realized_all": 310,
+      "true_realized_maj": 0,
+      "n_closes": 0,
+      "active_days": null,
+      "metric_normalized": "2026-06-19"
     },
     "0x21735e9daea7d836536d346ee280789d912082f9": {
       "address": "0x21735e9daea7d836536d346ee280789d912082f9",
@@ -4785,9 +4835,9 @@
         "date": "2026-06-17",
         "metric_category": "excluded",
         "insider_score": 0.2296,
-        "win_rate": 0.3315,
+        "win_rate": 0.5158,
         "dir_accuracy": 0.587,
-        "total_pnl": -19708.6,
+        "total_pnl": 108969,
         "avg_hold_h": 2.51,
         "event_lead_notional": 0,
         "insider_likelihood": null
@@ -4804,9 +4854,14 @@
       "n_fills_14d": 1132,
       "active_to": "2026-06-19",
       "active_from": "2025-01-18",
-      "active14": true,
+      "active14": false,
       "trade_days": 516,
-      "last_fill": 1781842984942
+      "last_fill": 1781842984942,
+      "true_realized_all": 183463,
+      "true_realized_maj": 108969,
+      "n_closes": 2222,
+      "active_days": 98.4,
+      "metric_normalized": "2026-06-19"
     },
     "0x79f2bb1fc86a1f0592fb30aa6a369a24a7fd2361": {
       "address": "0x79f2bb1fc86a1f0592fb30aa6a369a24a7fd2361",
@@ -4848,9 +4903,9 @@
         "date": "2026-06-17",
         "metric_category": "excluded",
         "insider_score": 0.2222,
-        "win_rate": 0.8889,
+        "win_rate": 0.3453,
         "dir_accuracy": 0.0,
-        "total_pnl": -9011.23,
+        "total_pnl": -15951,
         "avg_hold_h": 21.82,
         "event_lead_notional": 0,
         "insider_likelihood": null
@@ -4871,7 +4926,12 @@
       "active_from": "2026-05-04",
       "active14": true,
       "trade_days": 45,
-      "last_fill": 1781842555503
+      "last_fill": 1781842555503,
+      "true_realized_all": 32168,
+      "true_realized_maj": -15951,
+      "n_closes": 139,
+      "active_days": 44.2,
+      "metric_normalized": "2026-06-19"
     },
     "0x51651b81c895e654e5402a3fc371e3b60b0dfb1e": {
       "address": "0x51651b81c895e654e5402a3fc371e3b60b0dfb1e",
@@ -4983,7 +5043,7 @@
         "insider_score": 0.2001,
         "win_rate": 0.2222,
         "dir_accuracy": 0.5781,
-        "total_pnl": 12.06,
+        "total_pnl": 12,
         "avg_hold_h": 0.61,
         "event_lead_notional": 0,
         "insider_likelihood": null
@@ -4998,9 +5058,14 @@
       "roi_alltime": 0.2455563257,
       "active_to": "2026-06-14",
       "active_from": "2025-09-09",
-      "active14": true,
+      "active14": false,
       "trade_days": 278,
-      "last_fill": 1781405564759
+      "last_fill": 1781405564759,
+      "true_realized_all": 25327,
+      "true_realized_maj": 12,
+      "n_closes": 9,
+      "active_days": 1.4,
+      "metric_normalized": "2026-06-19"
     },
     "0x014bd1b946287bfdd8afe1d8833103c3baa36d74": {
       "address": "0x014bd1b946287bfdd8afe1d8833103c3baa36d74",
@@ -5044,7 +5109,7 @@
         "insider_score": 0.2,
         "win_rate": 0.0,
         "dir_accuracy": 0.8,
-        "total_pnl": -1635.69,
+        "total_pnl": -1636,
         "avg_hold_h": 111.02,
         "event_lead_notional": 0,
         "insider_likelihood": null
@@ -5063,7 +5128,12 @@
       "active_from": "2025-07-12",
       "active14": true,
       "trade_days": 341,
-      "last_fill": 1781808818652
+      "last_fill": 1781808818652,
+      "true_realized_all": 51583,
+      "true_realized_maj": -1636,
+      "n_closes": 23,
+      "active_days": 4.6,
+      "metric_normalized": "2026-06-19"
     },
     "0x58a722b5f37435cab8957a17fc575bb136e0b48b": {
       "address": "0x58a722b5f37435cab8957a17fc575bb136e0b48b",
@@ -5247,9 +5317,9 @@
         "date": "2026-06-17",
         "metric_category": "excluded",
         "insider_score": 0.4401,
-        "win_rate": 0.3557,
+        "win_rate": 1.0,
         "dir_accuracy": 0.526,
-        "total_pnl": 116709.15,
+        "total_pnl": 68534,
         "avg_hold_h": 13.85,
         "event_lead_notional": 1092863,
         "insider_likelihood": 0.3
@@ -5348,7 +5418,12 @@
       "active_from": "2026-04-30",
       "active_to": "2026-06-18",
       "trade_days": 48,
-      "last_fill": 1781800213260
+      "last_fill": 1781800213260,
+      "true_realized_all": 304725,
+      "true_realized_maj": 68534,
+      "n_closes": 246,
+      "active_days": 2.8,
+      "metric_normalized": "2026-06-19"
     },
     "0xb8243756956e722bff5c763971b562ac551bfbd2": {
       "address": "0xb8243756956e722bff5c763971b562ac551bfbd2",
@@ -5390,9 +5465,9 @@
         "date": "2026-06-17",
         "metric_category": "excluded",
         "insider_score": 0.1371,
-        "win_rate": 0.0,
+        "win_rate": 0.1938,
         "dir_accuracy": 0.0,
-        "total_pnl": 474552.52,
+        "total_pnl": -22207,
         "avg_hold_h": null,
         "event_lead_notional": 0,
         "insider_likelihood": null
@@ -5410,7 +5485,12 @@
       "active_from": "2025-10-16",
       "active_to": "2026-06-18",
       "trade_days": 244,
-      "last_fill": 1781757746674
+      "last_fill": 1781757746674,
+      "true_realized_all": -22207,
+      "true_realized_maj": -22207,
+      "n_closes": 129,
+      "active_days": 244.3,
+      "metric_normalized": "2026-06-19"
     },
     "0x6f97b7de6be7b7771e975e46bae96c35e332e172": {
       "address": "0x6f97b7de6be7b7771e975e46bae96c35e332e172",
@@ -5519,9 +5599,9 @@
         "date": "2026-06-17",
         "metric_category": "excluded",
         "insider_score": 0.0736,
-        "win_rate": 0.0,
+        "win_rate": null,
         "dir_accuracy": 0.2941,
-        "total_pnl": 150.13,
+        "total_pnl": 0,
         "avg_hold_h": null,
         "event_lead_notional": 0,
         "insider_likelihood": null
@@ -5537,11 +5617,16 @@
       "roi_alltime": 0.8853010461,
       "roi_month": 1.6791867285,
       "n_fills_14d": 17,
-      "active14": true,
+      "active14": false,
       "active_from": "2026-04-16",
       "active_to": "2026-06-15",
       "trade_days": 60,
-      "last_fill": 1781523819658
+      "last_fill": 1781523819658,
+      "true_realized_all": 73988,
+      "true_realized_maj": 0,
+      "n_closes": 0,
+      "active_days": 0.2,
+      "metric_normalized": "2026-06-19"
     },
     "0xd7a01b2fc57149507a1848ae142aa308bdbe05a2": {
       "address": "0xd7a01b2fc57149507a1848ae142aa308bdbe05a2",
@@ -5584,9 +5669,9 @@
         "date": "2026-06-17",
         "metric_category": "excluded",
         "insider_score": 0.0578,
-        "win_rate": 0.2222,
+        "win_rate": 0.6736,
         "dir_accuracy": 0.0088,
-        "total_pnl": -2157.0,
+        "total_pnl": 3400,
         "avg_hold_h": 0.82,
         "event_lead_notional": 0,
         "insider_likelihood": null
@@ -5610,7 +5695,12 @@
       "active_from": "2026-05-05",
       "active14": true,
       "trade_days": 44,
-      "last_fill": 1781814565204
+      "last_fill": 1781814565204,
+      "true_realized_all": 93916,
+      "true_realized_maj": 3400,
+      "n_closes": 383,
+      "active_days": 38.7,
+      "metric_normalized": "2026-06-19"
     },
     "0x8c96e5a2d770f9f2c9d2464ce4e741df0b2bca57": {
       "address": "0x8c96e5a2d770f9f2c9d2464ce4e741df0b2bca57",
@@ -6084,9 +6174,9 @@
         "date": "2026-06-17",
         "metric_category": "excluded",
         "insider_score": 0.0462,
-        "win_rate": 0.5722,
+        "win_rate": 0.512,
         "dir_accuracy": 0.6588,
-        "total_pnl": 323694.02,
+        "total_pnl": 92875,
         "avg_hold_h": 31.57,
         "event_lead_notional": 0,
         "insider_likelihood": null
@@ -6105,7 +6195,12 @@
       "active_from": "2026-04-18",
       "active14": true,
       "trade_days": 61,
-      "last_fill": 1781800844678
+      "last_fill": 1781800844678,
+      "true_realized_all": 51073,
+      "true_realized_maj": 92875,
+      "n_closes": 2367,
+      "active_days": 61.3,
+      "metric_normalized": "2026-06-19"
     },
     "0xa351db10472a07059ea099e0581444e568bff894": {
       "address": "0xa351db10472a07059ea099e0581444e568bff894",
@@ -6157,9 +6252,9 @@
         "date": "2026-06-17",
         "metric_category": "excluded",
         "insider_score": 0.0396,
-        "win_rate": 0.5545,
+        "win_rate": 0.538,
         "dir_accuracy": 0.5005,
-        "total_pnl": 632433.52,
+        "total_pnl": 973124,
         "avg_hold_h": 20.34,
         "event_lead_notional": 2463423,
         "insider_likelihood": 0.3
@@ -6207,7 +6302,12 @@
       "wf2_verdict": "debunked",
       "wf2_confidence": 0.05,
       "wf2_checked": "2026-06-17",
-      "last_fill": 1781841712465
+      "last_fill": 1781841712465,
+      "true_realized_all": 1027419,
+      "true_realized_maj": 973124,
+      "n_closes": 5946,
+      "active_days": 23.0,
+      "metric_normalized": "2026-06-19"
     },
     "0xd67ca2c6f8bc84acf4fa4472b82a8740dc0a53ff": {
       "address": "0xd67ca2c6f8bc84acf4fa4472b82a8740dc0a53ff",
@@ -6257,9 +6357,9 @@
         "date": "2026-06-17",
         "metric_category": "excluded",
         "insider_score": 0.0391,
-        "win_rate": 0.4641,
+        "win_rate": 0.2906,
         "dir_accuracy": 0.5778,
-        "total_pnl": 721245.58,
+        "total_pnl": -151904,
         "avg_hold_h": 5.87,
         "event_lead_notional": 2591161,
         "insider_likelihood": 0.22
@@ -6356,7 +6456,12 @@
       "active_from": "2024-04-18",
       "active14": true,
       "trade_days": 791,
-      "last_fill": 1781814560473
+      "last_fill": 1781814560473,
+      "true_realized_all": 498535,
+      "true_realized_maj": -151904,
+      "n_closes": 7090,
+      "active_days": 105.5,
+      "metric_normalized": "2026-06-19"
     },
     "0x91f564e80ed5e98eb22fde0857e1a87047f2df13": {
       "address": "0x91f564e80ed5e98eb22fde0857e1a87047f2df13",
@@ -6405,9 +6510,9 @@
         "date": "2026-06-17",
         "metric_category": "excluded",
         "insider_score": 0.0298,
-        "win_rate": 0.3617,
+        "win_rate": 0.3733,
         "dir_accuracy": 0.4317,
-        "total_pnl": 218669.35,
+        "total_pnl": 309790,
         "avg_hold_h": 16.56,
         "event_lead_notional": 844910,
         "insider_likelihood": 0.2
@@ -6426,7 +6531,12 @@
       "active_from": "2024-11-29",
       "active14": true,
       "trade_days": 566,
-      "last_fill": 1781857303748
+      "last_fill": 1781857303748,
+      "true_realized_all": 392507,
+      "true_realized_maj": 309790,
+      "n_closes": 2293,
+      "active_days": 50.4,
+      "metric_normalized": "2026-06-19"
     },
     "0x8be0b9c4dbfb90f47fb94e8968dce08d3152326c": {
       "address": "0x8be0b9c4dbfb90f47fb94e8968dce08d3152326c",
@@ -6485,7 +6595,7 @@
       "roi_alltime": 2.3909859837,
       "roi_month": 1.5524244848,
       "n_fills_14d": 147,
-      "active14": true,
+      "active14": false,
       "true_realized_all": 131254,
       "true_realized_maj": -7255,
       "n_closes": 567,
@@ -6601,9 +6711,9 @@
         "date": "2026-06-17",
         "metric_category": "excluded",
         "insider_score": 0.5466,
-        "win_rate": 1.0,
+        "win_rate": 0.4742,
         "dir_accuracy": 0.0,
-        "total_pnl": 1761487.68,
+        "total_pnl": 2166998,
         "avg_hold_h": null,
         "event_lead_notional": 0,
         "insider_likelihood": null
@@ -6613,9 +6723,14 @@
       "n_fills_14d": 57,
       "active_to": "2026-06-15",
       "active_from": "2025-01-10",
-      "active14": true,
+      "active14": false,
       "trade_days": 521,
-      "last_fill": 1781543179182
+      "last_fill": 1781543179182,
+      "true_realized_all": 3610767,
+      "true_realized_maj": 2166998,
+      "n_closes": 3007,
+      "active_days": 424.0,
+      "metric_normalized": "2026-06-19"
     },
     "0x99b1098d9d50aa076f78bd26ab22e6abd3710729": {
       "address": "0x99b1098d9d50aa076f78bd26ab22e6abd3710729",
@@ -6749,7 +6864,7 @@
       "pro_realized": 1781589,
       "pro_span_days": 91,
       "pro_tier": "A",
-      "active14": true,
+      "active14": false,
       "pro_score_old": 0.328,
       "pro_tier_old": "C",
       "soak_detail": {
@@ -6921,9 +7036,9 @@
         "date": "2026-06-17",
         "metric_category": "excluded",
         "insider_score": 0.5003,
-        "win_rate": 1.0,
+        "win_rate": 0.6148,
         "dir_accuracy": 1.0,
-        "total_pnl": 1626.74,
+        "total_pnl": 1709,
         "avg_hold_h": null,
         "event_lead_notional": 0,
         "insider_likelihood": null
@@ -6935,7 +7050,12 @@
       "active_from": "2026-05-14",
       "active14": true,
       "trade_days": 35,
-      "last_fill": 1781813535680
+      "last_fill": 1781813535680,
+      "true_realized_all": 246554,
+      "true_realized_maj": 1709,
+      "n_closes": 135,
+      "active_days": 27.8,
+      "metric_normalized": "2026-06-19"
     },
     "0xb123cd952875d8014efc7a9160a7531a5fe8f5ca": {
       "address": "0xb123cd952875d8014efc7a9160a7531a5fe8f5ca",
@@ -6944,7 +7064,8 @@
       "tags": [
         "Tier-D",
         "取引あり(14d)",
-        "質:ムラあり(WF検証)"
+        "質:ムラあり(WF検証)",
+        "質:格下げ相当(alt偏重)"
       ],
       "notes": "",
       "history": [
@@ -6963,7 +7084,7 @@
       "last_seen": "2026-06-17",
       "metric_category": "excluded",
       "insider_likelihood": null,
-      "position": "プロトレーダー(本物)",
+      "position": "alt主体プロ",
       "auto_tags": [
         "ROI:超高(>1000%)",
         "PnL:中($100k-1M)",
@@ -7180,7 +7301,7 @@
         "insider_score": 0.5,
         "win_rate": 1.0,
         "dir_accuracy": 1.0,
-        "total_pnl": 0.23,
+        "total_pnl": 0,
         "avg_hold_h": 0.01,
         "event_lead_notional": 0,
         "insider_likelihood": null
@@ -7192,7 +7313,12 @@
       "active_from": "2026-06-09",
       "active14": true,
       "trade_days": 9,
-      "last_fill": 1781831586163
+      "last_fill": 1781831586163,
+      "true_realized_all": 19378,
+      "true_realized_maj": 0,
+      "n_closes": 2,
+      "active_days": 3.2,
+      "metric_normalized": "2026-06-19"
     },
     "0xa4be91acc74feabab71b8878b66b8f5277212520": {
       "address": "0xa4be91acc74feabab71b8878b66b8f5277212520",
@@ -7332,9 +7458,9 @@
         "date": "2026-06-17",
         "metric_category": "pro_trader",
         "insider_score": 0.4462,
-        "win_rate": 0.6245,
+        "win_rate": 0.6192,
         "dir_accuracy": 0.7812,
-        "total_pnl": 296521,
+        "total_pnl": 292192,
         "avg_hold_h": 0.53,
         "event_lead_notional": 0,
         "insider_likelihood": null
@@ -7424,10 +7550,10 @@
       "active14": true,
       "pro_score_old": 0.19,
       "pro_tier_old": "D",
-      "true_realized_all": 510939,
-      "true_realized_maj": 296521,
-      "n_closes": 6600,
-      "active_days": 511.1,
+      "true_realized_all": 506609,
+      "true_realized_maj": 292192,
+      "n_closes": 6657,
+      "active_days": 526.3,
       "metric_normalized": "2026-06-19",
       "last_fill": 1781876325086,
       "pro_quality": "質:エリート(長期一貫)",
@@ -7477,9 +7603,9 @@
         "date": "2026-06-17",
         "metric_category": "excluded",
         "insider_score": 0.4402,
-        "win_rate": 1.0,
+        "win_rate": 0.7383,
         "dir_accuracy": 0.4713,
-        "total_pnl": 430002.34,
+        "total_pnl": 403384,
         "avg_hold_h": 39.76,
         "event_lead_notional": 0,
         "insider_likelihood": null
@@ -7491,7 +7617,12 @@
       "active_from": "2026-05-21",
       "active14": true,
       "trade_days": 28,
-      "last_fill": 1781848448201
+      "last_fill": 1781848448201,
+      "true_realized_all": 403963,
+      "true_realized_maj": 403384,
+      "n_closes": 493,
+      "active_days": 27.0,
+      "metric_normalized": "2026-06-19"
     },
     "0xf211dd718de25bcad861e53a7b10dd5b3b9d5c6c": {
       "address": "0xf211dd718de25bcad861e53a7b10dd5b3b9d5c6c",
@@ -7610,7 +7741,7 @@
       "n_fills_14d": 529,
       "active_to": "2026-06-16",
       "active_from": "2026-04-22",
-      "active14": true,
+      "active14": false,
       "true_realized_all": 81228,
       "true_realized_maj": 94728,
       "n_closes": 870,
@@ -8234,9 +8365,9 @@
         "date": "2026-06-17",
         "metric_category": "excluded",
         "insider_score": 0.3323,
-        "win_rate": 0.1367,
+        "win_rate": 0.1786,
         "dir_accuracy": 0.4544,
-        "total_pnl": -42943.21,
+        "total_pnl": -22147,
         "avg_hold_h": 2.94,
         "event_lead_notional": 1008316,
         "insider_likelihood": null
@@ -8246,9 +8377,14 @@
       "n_fills_14d": 1891,
       "active_to": "2026-06-17",
       "active_from": "2026-05-17",
-      "active14": true,
+      "active14": false,
       "trade_days": 30,
-      "last_fill": 1781722627925
+      "last_fill": 1781722627925,
+      "true_realized_all": 639632,
+      "true_realized_maj": -22147,
+      "n_closes": 672,
+      "active_days": 16.8,
+      "metric_normalized": "2026-06-19"
     },
     "0x935729ae51eef975ccdeb481d513c75986227bfd": {
       "address": "0x935729ae51eef975ccdeb481d513c75986227bfd",
@@ -8430,7 +8566,7 @@
       "n_fills_14d": 46,
       "active_to": "2026-06-18",
       "active_from": "2024-12-17",
-      "active14": true,
+      "active14": false,
       "true_realized_all": 58121,
       "true_realized_maj": -26323,
       "n_closes": 306,
@@ -8544,7 +8680,7 @@
       "n_fills_14d": 105,
       "active_to": "2026-06-18",
       "active_from": "2026-01-20",
-      "active14": true,
+      "active14": false,
       "true_realized_all": 68072,
       "true_realized_maj": -1153,
       "n_closes": 118,
@@ -8601,7 +8737,7 @@
       "n_fills_14d": 59,
       "active_to": "2026-06-08",
       "active_from": "2026-05-05",
-      "active14": true,
+      "active14": false,
       "true_realized_all": 63344,
       "true_realized_maj": 779,
       "n_closes": 27,
@@ -8760,9 +8896,9 @@
         "date": "2026-06-17",
         "metric_category": "excluded",
         "insider_score": 0.2889,
-        "win_rate": 0.3719,
+        "win_rate": 0.4807,
         "dir_accuracy": 0.6416,
-        "total_pnl": 68380.16,
+        "total_pnl": 342516,
         "avg_hold_h": 23.52,
         "event_lead_notional": 131249,
         "insider_likelihood": null
@@ -8774,7 +8910,12 @@
       "active_from": "2025-04-12",
       "active14": true,
       "trade_days": 432,
-      "last_fill": 1781829757698
+      "last_fill": 1781829757698,
+      "true_realized_all": -381,
+      "true_realized_maj": 342516,
+      "n_closes": 2623,
+      "active_days": 432.5,
+      "metric_normalized": "2026-06-19"
     },
     "0x9803e982c4eb6d9b9e416966814e7f9fa4363bce": {
       "address": "0x9803e982c4eb6d9b9e416966814e7f9fa4363bce",
@@ -8813,9 +8954,9 @@
         "date": "2026-06-17",
         "metric_category": "excluded",
         "insider_score": 0.2728,
-        "win_rate": 1.0,
+        "win_rate": 0.8571,
         "dir_accuracy": 0.0602,
-        "total_pnl": 46306.68,
+        "total_pnl": 94439,
         "avg_hold_h": null,
         "event_lead_notional": 0,
         "insider_likelihood": null
@@ -8827,7 +8968,12 @@
       "active_from": "2025-11-01",
       "active_to": "2026-06-14",
       "trade_days": 225,
-      "last_fill": 1781443493388
+      "last_fill": 1781443493388,
+      "true_realized_all": 105845,
+      "true_realized_maj": 94439,
+      "n_closes": 63,
+      "active_days": 225.1,
+      "metric_normalized": "2026-06-19"
     },
     "0x25dacd8a27eac9ad6eba5eb88e3b68f707eb1397": {
       "address": "0x25dacd8a27eac9ad6eba5eb88e3b68f707eb1397",
@@ -8866,9 +9012,9 @@
         "date": "2026-06-17",
         "metric_category": "excluded",
         "insider_score": 0.2665,
-        "win_rate": 1.0,
+        "win_rate": 0.8093,
         "dir_accuracy": 0.0,
-        "total_pnl": 98175.47,
+        "total_pnl": 125195,
         "avg_hold_h": null,
         "event_lead_notional": 0,
         "insider_likelihood": null
@@ -8880,7 +9026,12 @@
       "active_from": "2025-02-25",
       "active14": false,
       "trade_days": 465,
-      "last_fill": 1780676328530
+      "last_fill": 1780676328530,
+      "true_realized_all": 151307,
+      "true_realized_maj": 125195,
+      "n_closes": 1589,
+      "active_days": 465.3,
+      "metric_normalized": "2026-06-19"
     },
     "0xc2c060e3309461ec7c4291b1aac6c89aa228727e": {
       "address": "0xc2c060e3309461ec7c4291b1aac6c89aa228727e",
@@ -9382,9 +9533,9 @@
         "date": "2026-06-17",
         "metric_category": "excluded",
         "insider_score": 0.2397,
-        "win_rate": 0.7754,
+        "win_rate": 0.5098,
         "dir_accuracy": 0.039,
-        "total_pnl": 214177.19,
+        "total_pnl": 144619,
         "avg_hold_h": 19.6,
         "event_lead_notional": 0,
         "insider_likelihood": null
@@ -9401,7 +9552,12 @@
       "active_from": "2026-03-22",
       "active14": true,
       "trade_days": 88,
-      "last_fill": 1781833854478
+      "last_fill": 1781833854478,
+      "true_realized_all": 137475,
+      "true_realized_maj": 144619,
+      "n_closes": 306,
+      "active_days": 41.2,
+      "metric_normalized": "2026-06-19"
     },
     "0x3db5a674b22cf6479367ae31be33204ae8701f33": {
       "address": "0x3db5a674b22cf6479367ae31be33204ae8701f33",
@@ -9439,9 +9595,9 @@
         "date": "2026-06-17",
         "metric_category": "excluded",
         "insider_score": 0.2262,
-        "win_rate": 0.3617,
+        "win_rate": 0.4514,
         "dir_accuracy": 0.5431,
-        "total_pnl": -2940.76,
+        "total_pnl": -178,
         "avg_hold_h": 23.76,
         "event_lead_notional": 0,
         "insider_likelihood": null
@@ -9453,7 +9609,12 @@
       "active_from": "2026-05-01",
       "active14": true,
       "trade_days": 48,
-      "last_fill": 1781800402172
+      "last_fill": 1781800402172,
+      "true_realized_all": 120277,
+      "true_realized_maj": -178,
+      "n_closes": 1081,
+      "active_days": 40.5,
+      "metric_normalized": "2026-06-19"
     },
     "0x20cf6f56ef057157ab8a48c82ed97258148c403c": {
       "address": "0x20cf6f56ef057157ab8a48c82ed97258148c403c",
@@ -9492,9 +9653,9 @@
         "date": "2026-06-17",
         "metric_category": "excluded",
         "insider_score": 0.223,
-        "win_rate": 0.7353,
+        "win_rate": 1.0,
         "dir_accuracy": 0.125,
-        "total_pnl": 47022.23,
+        "total_pnl": 58,
         "avg_hold_h": 20.53,
         "event_lead_notional": 0,
         "insider_likelihood": null
@@ -9511,7 +9672,12 @@
       "active_from": "2026-06-17",
       "active14": true,
       "trade_days": 1,
-      "last_fill": 1781801473807
+      "last_fill": 1781801473807,
+      "true_realized_all": 1870,
+      "true_realized_maj": 58,
+      "n_closes": 19,
+      "active_days": 0.0,
+      "metric_normalized": "2026-06-19"
     },
     "0xa0d149c9e3fee0a9f920058c4139c73894c2be98": {
       "address": "0xa0d149c9e3fee0a9f920058c4139c73894c2be98",
@@ -9549,9 +9715,9 @@
         "date": "2026-06-17",
         "metric_category": "excluded",
         "insider_score": 0.2179,
-        "win_rate": 0.349,
+        "win_rate": 0.3504,
         "dir_accuracy": 0.5225,
-        "total_pnl": -3995.69,
+        "total_pnl": -11077,
         "avg_hold_h": 2.29,
         "event_lead_notional": 0,
         "insider_likelihood": null
@@ -9563,7 +9729,12 @@
       "active_from": "2024-07-10",
       "active14": true,
       "trade_days": 709,
-      "last_fill": 1781893022230
+      "last_fill": 1781893022230,
+      "true_realized_all": 86455,
+      "true_realized_maj": -11077,
+      "n_closes": 779,
+      "active_days": 310.1,
+      "metric_normalized": "2026-06-19"
     },
     "0xdf4b79c5cebf5be025f9a0658a38a5440689c147": {
       "address": "0xdf4b79c5cebf5be025f9a0658a38a5440689c147",
@@ -9602,9 +9773,9 @@
         "date": "2026-06-17",
         "metric_category": "excluded",
         "insider_score": 0.2148,
-        "win_rate": 0.0,
+        "win_rate": 0.4595,
         "dir_accuracy": 0.8571,
-        "total_pnl": 3211.63,
+        "total_pnl": 55716,
         "avg_hold_h": null,
         "event_lead_notional": 0,
         "insider_likelihood": null
@@ -9616,7 +9787,12 @@
       "active_from": "2025-10-25",
       "active14": true,
       "trade_days": 236,
-      "last_fill": 1781798549612
+      "last_fill": 1781798549612,
+      "true_realized_all": 65202,
+      "true_realized_maj": 55716,
+      "n_closes": 370,
+      "active_days": 226.1,
+      "metric_normalized": "2026-06-19"
     },
     "0xa4dedda59f2908b92ae192cfd494839373bcb3c4": {
       "address": "0xa4dedda59f2908b92ae192cfd494839373bcb3c4",
@@ -9808,9 +9984,9 @@
         "date": "2026-06-17",
         "metric_category": "excluded",
         "insider_score": 0.1707,
-        "win_rate": 0.0,
+        "win_rate": 0.2942,
         "dir_accuracy": 0.2273,
-        "total_pnl": 676343.7,
+        "total_pnl": -481553,
         "avg_hold_h": null,
         "event_lead_notional": 0,
         "insider_likelihood": null
@@ -9822,7 +9998,12 @@
       "active_from": "2026-02-18",
       "active14": false,
       "trade_days": 106,
-      "last_fill": 1780586510097
+      "last_fill": 1780586510097,
+      "true_realized_all": -481553,
+      "true_realized_maj": -481553,
+      "n_closes": 537,
+      "active_days": 106.1,
+      "metric_normalized": "2026-06-19"
     },
     "0xc8378d5bd334b984b5ada4e8ee09a49fe4d8d97d": {
       "address": "0xc8378d5bd334b984b5ada4e8ee09a49fe4d8d97d",
@@ -9862,9 +10043,9 @@
         "date": "2026-06-17",
         "metric_category": "excluded",
         "insider_score": 0.1651,
-        "win_rate": 0.2482,
+        "win_rate": 0.1783,
         "dir_accuracy": 0.3937,
-        "total_pnl": 27431.94,
+        "total_pnl": 17692,
         "avg_hold_h": 7.31,
         "event_lead_notional": 0,
         "insider_likelihood": null
@@ -9876,7 +10057,12 @@
       "active_from": "2024-12-01",
       "active14": true,
       "trade_days": 563,
-      "last_fill": 1781758048040
+      "last_fill": 1781758048040,
+      "true_realized_all": -12405,
+      "true_realized_maj": 17692,
+      "n_closes": 314,
+      "active_days": 486.1,
+      "metric_normalized": "2026-06-19"
     },
     "0xd4fb7eef06db5dc70dcba58c9c4ba1e3ab8c19f1": {
       "address": "0xd4fb7eef06db5dc70dcba58c9c4ba1e3ab8c19f1",
@@ -9915,9 +10101,9 @@
         "date": "2026-06-17",
         "metric_category": "excluded",
         "insider_score": 0.1485,
-        "win_rate": 0.0,
+        "win_rate": null,
         "dir_accuracy": 0.0,
-        "total_pnl": 881723.41,
+        "total_pnl": 0,
         "avg_hold_h": null,
         "event_lead_notional": 0,
         "insider_likelihood": null
@@ -9929,7 +10115,12 @@
       "active_from": "2026-06-12",
       "active14": true,
       "trade_days": 0,
-      "last_fill": 1781257531784
+      "last_fill": 1781257531784,
+      "true_realized_all": 0,
+      "true_realized_maj": 0,
+      "n_closes": 0,
+      "active_days": 0.0,
+      "metric_normalized": "2026-06-19"
     },
     "0xfbeaa12ce05b8baf12189d38974af90a2a82776e": {
       "address": "0xfbeaa12ce05b8baf12189d38974af90a2a82776e",
@@ -9967,9 +10158,9 @@
         "date": "2026-06-17",
         "metric_category": "excluded",
         "insider_score": 0.1453,
-        "win_rate": 0.2055,
+        "win_rate": 0.367,
         "dir_accuracy": 0.3757,
-        "total_pnl": -8737.8,
+        "total_pnl": 1579,
         "avg_hold_h": 4.52,
         "event_lead_notional": 0,
         "insider_likelihood": null
@@ -9981,7 +10172,12 @@
       "active_from": "2026-04-29",
       "active14": true,
       "trade_days": 50,
-      "last_fill": 1781838924617
+      "last_fill": 1781838924617,
+      "true_realized_all": 32691,
+      "true_realized_maj": 1579,
+      "n_closes": 1150,
+      "active_days": 49.3,
+      "metric_normalized": "2026-06-19"
     },
     "0xbe494a5e3a719a78a45a47ab453b7b0199b9d101": {
       "address": "0xbe494a5e3a719a78a45a47ab453b7b0199b9d101",
@@ -10821,9 +11017,9 @@
         "date": "2026-06-17",
         "metric_category": "excluded",
         "insider_score": 0.0356,
-        "win_rate": 0.5217,
+        "win_rate": 0.5025,
         "dir_accuracy": 0.4272,
-        "total_pnl": 203669.57,
+        "total_pnl": 269370,
         "avg_hold_h": 3.97,
         "event_lead_notional": 4398705,
         "insider_likelihood": null
@@ -10835,7 +11031,12 @@
       "active_from": "2026-05-12",
       "active14": true,
       "trade_days": 37,
-      "last_fill": 1781821076219
+      "last_fill": 1781821076219,
+      "true_realized_all": 268887,
+      "true_realized_maj": 269370,
+      "n_closes": 9093,
+      "active_days": 37.2,
+      "metric_normalized": "2026-06-19"
     },
     "0x5b5f798b94f54d33ba316c8b1c837e930c90c052": {
       "address": "0x5b5f798b94f54d33ba316c8b1c837e930c90c052",
@@ -10874,9 +11075,9 @@
         "date": "2026-06-17",
         "metric_category": "excluded",
         "insider_score": 0.0252,
-        "win_rate": 0.2802,
+        "win_rate": 0.2279,
         "dir_accuracy": 0.3925,
-        "total_pnl": -147016.28,
+        "total_pnl": -53948,
         "avg_hold_h": 0.51,
         "event_lead_notional": 1517422,
         "insider_likelihood": null
@@ -10893,7 +11094,12 @@
       "active_from": "2024-12-07",
       "active_to": "2026-06-19",
       "trade_days": 558,
-      "last_fill": 1781842112042
+      "last_fill": 1781842112042,
+      "true_realized_all": -76854,
+      "true_realized_maj": -53948,
+      "n_closes": 566,
+      "active_days": 359.2,
+      "metric_normalized": "2026-06-19"
     },
     "0xcb5c2f378860437fad512c3aec09efce1c470283": {
       "address": "0xcb5c2f378860437fad512c3aec09efce1c470283",
@@ -10930,9 +11136,9 @@
         "date": "2026-06-17",
         "metric_category": "excluded",
         "insider_score": 0.0,
-        "win_rate": 0.0,
+        "win_rate": 0.8916,
         "dir_accuracy": 0.0,
-        "total_pnl": -29504.17,
+        "total_pnl": 56838,
         "avg_hold_h": null,
         "event_lead_notional": 0,
         "insider_likelihood": null
@@ -10940,11 +11146,16 @@
       "roi_alltime": 162.7782455301,
       "roi_month": 3.6223015732,
       "n_fills_14d": 22,
-      "active14": true,
+      "active14": false,
       "active_from": "2024-02-11",
       "active_to": "2026-06-15",
       "trade_days": 855,
-      "last_fill": 1781515366698
+      "last_fill": 1781515366698,
+      "true_realized_all": 151141,
+      "true_realized_maj": 56838,
+      "n_closes": 369,
+      "active_days": 843.8,
+      "metric_normalized": "2026-06-19"
     },
     "0x469bc5524456efa6932cac83294f31a09b8159b8": {
       "address": "0x469bc5524456efa6932cac83294f31a09b8159b8",
@@ -11530,8 +11741,8 @@
       "current": {
         "date": "2026-06-17",
         "metric_category": "nansen-pro",
-        "total_pnl": 22886233.373899,
-        "win_rate": null,
+        "total_pnl": 42901596,
+        "win_rate": 0.7287,
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
@@ -11540,7 +11751,12 @@
       "active_to": "2026-06-05",
       "trade_days": 361,
       "active14": false,
-      "last_fill": 1780678656318
+      "last_fill": 1780678656318,
+      "true_realized_all": 42908546,
+      "true_realized_maj": 42901596,
+      "n_closes": 7023,
+      "active_days": 246.8,
+      "metric_normalized": "2026-06-19"
     },
     "0x8e096995c3e4a3f0bc5b3ea1cba94de2aa4d70c9": {
       "address": "0x8e096995c3e4a3f0bc5b3ea1cba94de2aa4d70c9",
@@ -11673,7 +11889,7 @@
       "active_from": "2026-05-28",
       "active_to": "2026-06-18",
       "trade_days": 20,
-      "active14": true,
+      "active14": false,
       "true_realized_all": 3076741,
       "true_realized_maj": 2386732,
       "n_closes": 833,
@@ -12368,7 +12584,7 @@
       "current": {
         "date": "2026-06-17",
         "metric_category": "nansen-pro",
-        "total_pnl": 5608138.195623,
+        "total_pnl": 0,
         "win_rate": null,
         "dir_accuracy": null,
         "insider_likelihood": null,
@@ -12378,7 +12594,12 @@
       "active_to": "2026-06-18",
       "trade_days": 0,
       "active14": true,
-      "last_fill": 1781821631968
+      "last_fill": 1781821631968,
+      "true_realized_all": 241,
+      "true_realized_maj": 0,
+      "n_closes": 0,
+      "active_days": null,
+      "metric_normalized": "2026-06-19"
     },
     "0x208db9f389989c5c387cc3a2620cc5251eace716": {
       "address": "0x208db9f389989c5c387cc3a2620cc5251eace716",
@@ -12538,7 +12759,7 @@
       "active_from": "2025-07-11",
       "active_to": "2026-06-17",
       "trade_days": 341,
-      "active14": true,
+      "active14": false,
       "true_realized_all": 6612663,
       "true_realized_maj": 376272,
       "n_closes": 377,
@@ -12639,17 +12860,22 @@
       "current": {
         "date": "2026-06-17",
         "metric_category": "nansen-pro",
-        "total_pnl": 3971318.065613,
-        "win_rate": null,
+        "total_pnl": 7189849,
+        "win_rate": 0.9849,
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
       },
       "active_to": "2026-06-14",
       "active_from": "2025-03-10",
-      "active14": true,
+      "active14": false,
       "trade_days": 461,
-      "last_fill": 1781473074948
+      "last_fill": 1781473074948,
+      "true_realized_all": 8227833,
+      "true_realized_maj": 7189849,
+      "n_closes": 4436,
+      "active_days": 421.6,
+      "metric_normalized": "2026-06-19"
     },
     "0x782e432267376f377585fc78092d998f8442ab83": {
       "address": "0x782e432267376f377585fc78092d998f8442ab83",
@@ -12765,7 +12991,7 @@
       "active_from": "2025-05-29",
       "active_to": "2026-06-17",
       "trade_days": 384,
-      "active14": true,
+      "active14": false,
       "pro_score_old": 0.763,
       "pro_tier_old": "S",
       "true_realized_all": 4187784,
@@ -12821,8 +13047,8 @@
       "current": {
         "date": "2026-06-17",
         "metric_category": "nansen-pro",
-        "total_pnl": 3828739.982514001,
-        "win_rate": null,
+        "total_pnl": 2136026,
+        "win_rate": 0.8498,
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
@@ -12831,7 +13057,12 @@
       "active_to": "2026-06-17",
       "trade_days": 139,
       "active14": true,
-      "last_fill": 1781739404558
+      "last_fill": 1781739404558,
+      "true_realized_all": 2960634,
+      "true_realized_maj": 2136026,
+      "n_closes": 3229,
+      "active_days": 138.2,
+      "metric_normalized": "2026-06-19"
     },
     "0x16bf84af3f85f8c8a97597bf2be549dfe0dee637": {
       "address": "0x16bf84af3f85f8c8a97597bf2be549dfe0dee637",
@@ -12871,8 +13102,8 @@
       "current": {
         "date": "2026-06-17",
         "metric_category": "nansen-pro",
-        "total_pnl": 3725088.172095,
-        "win_rate": null,
+        "total_pnl": 4209702,
+        "win_rate": 0.7233,
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
@@ -12881,7 +13112,12 @@
       "active_to": "2026-04-29",
       "trade_days": 187,
       "active14": false,
-      "last_fill": 1777444779040
+      "last_fill": 1777444779040,
+      "true_realized_all": 5045394,
+      "true_realized_maj": 4209702,
+      "n_closes": 3672,
+      "active_days": 177.0,
+      "metric_normalized": "2026-06-19"
     },
     "0xd8c5228c515db3043dfa0c8cd6f22450ee9a99b0": {
       "address": "0xd8c5228c515db3043dfa0c8cd6f22450ee9a99b0",
@@ -12921,7 +13157,7 @@
       "current": {
         "date": "2026-06-17",
         "metric_category": "nansen-pro",
-        "total_pnl": 3695074.408609001,
+        "total_pnl": 0,
         "win_rate": null,
         "dir_accuracy": null,
         "insider_likelihood": null,
@@ -12931,7 +13167,12 @@
       "active_to": "2026-06-19",
       "trade_days": 45,
       "active14": true,
-      "last_fill": 1781858503377
+      "last_fill": 1781858503377,
+      "true_realized_all": 1479768,
+      "true_realized_maj": 0,
+      "n_closes": 0,
+      "active_days": null,
+      "metric_normalized": "2026-06-19"
     },
     "0x570b09e27a87f9acbce49f85056745d29b3ee3c6": {
       "address": "0x570b09e27a87f9acbce49f85056745d29b3ee3c6",
@@ -13274,8 +13515,8 @@
       "current": {
         "date": "2026-06-17",
         "metric_category": "nansen-pro",
-        "total_pnl": 2720668.7734599994,
-        "win_rate": null,
+        "total_pnl": 1424882,
+        "win_rate": 0.2917,
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
@@ -13284,7 +13525,12 @@
       "active_to": "2026-04-06",
       "trade_days": 62,
       "active14": false,
-      "last_fill": 1775485255852
+      "last_fill": 1775485255852,
+      "true_realized_all": 1424882,
+      "true_realized_maj": 1424882,
+      "n_closes": 1745,
+      "active_days": 62.3,
+      "metric_normalized": "2026-06-19"
     },
     "0x906d31b2ee92c4bc720232112274a0e1ffb0ad6e": {
       "address": "0x906d31b2ee92c4bc720232112274a0e1ffb0ad6e",
@@ -13328,7 +13574,7 @@
         "metric_category": "hl-verified",
         "win_rate": 1.0,
         "dir_accuracy": 0.6199,
-        "total_pnl": 2774849.25,
+        "total_pnl": 2774849,
         "event_lead_notional": 350298,
         "insider_likelihood": null,
         "avg_hold_h": null
@@ -13385,7 +13631,12 @@
       "wf2_verdict": "debunked",
       "wf2_confidence": 0.05,
       "wf2_checked": "2026-06-17",
-      "last_fill": 1780846097543
+      "last_fill": 1780846097543,
+      "true_realized_all": 2631449,
+      "true_realized_maj": 2774849,
+      "n_closes": 217,
+      "active_days": 192.9,
+      "metric_normalized": "2026-06-19"
     },
     "0xf5629393e446a103a4be1c49a956255e7c87c1d3": {
       "address": "0xf5629393e446a103a4be1c49a956255e7c87c1d3",
@@ -13425,7 +13676,7 @@
       "current": {
         "date": "2026-06-17",
         "metric_category": "nansen-pro",
-        "total_pnl": 2606596.882913,
+        "total_pnl": 0,
         "win_rate": null,
         "dir_accuracy": null,
         "insider_likelihood": null,
@@ -13435,7 +13686,12 @@
       "active_to": "2026-06-19",
       "trade_days": 163,
       "active14": true,
-      "last_fill": 1781827200011
+      "last_fill": 1781827200011,
+      "true_realized_all": -73466,
+      "true_realized_maj": 0,
+      "n_closes": 0,
+      "active_days": null,
+      "metric_normalized": "2026-06-19"
     },
     "0x9e2cbb5d800181c1ef21b25010dc4ea80eeb5508": {
       "address": "0x9e2cbb5d800181c1ef21b25010dc4ea80eeb5508",
@@ -13475,8 +13731,8 @@
       "current": {
         "date": "2026-06-17",
         "metric_category": "nansen-pro",
-        "total_pnl": 2478167.9439270003,
-        "win_rate": null,
+        "total_pnl": 96798,
+        "win_rate": 1.0,
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
@@ -13484,8 +13740,13 @@
       "active_from": "2026-01-14",
       "active_to": "2026-06-18",
       "trade_days": 154,
-      "active14": true,
-      "last_fill": 1781740800025
+      "active14": false,
+      "last_fill": 1781740800025,
+      "true_realized_all": 217077,
+      "true_realized_maj": 96798,
+      "n_closes": 330,
+      "active_days": 2.1,
+      "metric_normalized": "2026-06-19"
     },
     "0xac03fc4c21902e4e934b4367cb1a6c6e3f0d8037": {
       "address": "0xac03fc4c21902e4e934b4367cb1a6c6e3f0d8037",
@@ -13811,8 +14072,8 @@
       "current": {
         "date": "2026-06-17",
         "metric_category": "nansen-pro",
-        "total_pnl": 2183849.52604,
-        "win_rate": null,
+        "total_pnl": 2262889,
+        "win_rate": 0.9807,
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
@@ -13821,7 +14082,12 @@
       "active_from": "2025-10-22",
       "active_to": "2026-05-16",
       "trade_days": 205,
-      "last_fill": 1778931406181
+      "last_fill": 1778931406181,
+      "true_realized_all": 2262889,
+      "true_realized_maj": 2262889,
+      "n_closes": 1191,
+      "active_days": 205.9,
+      "metric_normalized": "2026-06-19"
     },
     "0x0b8ad91cb7fb0ae5c74661c926068a36f21f5192": {
       "address": "0x0b8ad91cb7fb0ae5c74661c926068a36f21f5192",
@@ -13861,7 +14127,7 @@
       "current": {
         "date": "2026-06-17",
         "metric_category": "nansen-pro",
-        "total_pnl": 2125666.631439,
+        "total_pnl": 0,
         "win_rate": null,
         "dir_accuracy": null,
         "insider_likelihood": null,
@@ -13871,7 +14137,12 @@
       "active_to": "2026-06-03",
       "trade_days": 40,
       "active14": false,
-      "last_fill": 1780500303284
+      "last_fill": 1780500303284,
+      "true_realized_all": 2123410,
+      "true_realized_maj": 0,
+      "n_closes": 0,
+      "active_days": null,
+      "metric_normalized": "2026-06-19"
     },
     "0xe2f86feccb1207710a442bc4e27a0701a290275a": {
       "address": "0xe2f86feccb1207710a442bc4e27a0701a290275a",
@@ -13967,7 +14238,7 @@
       "current": {
         "date": "2026-06-17",
         "metric_category": "nansen-pro",
-        "total_pnl": 1713434.5108899993,
+        "total_pnl": 0,
         "win_rate": null,
         "dir_accuracy": null,
         "insider_likelihood": null,
@@ -13977,7 +14248,12 @@
       "active_to": "2026-06-16",
       "trade_days": 0,
       "active14": true,
-      "last_fill": 1781635336962
+      "last_fill": 1781635336962,
+      "true_realized_all": -84449,
+      "true_realized_maj": 0,
+      "n_closes": 0,
+      "active_days": null,
+      "metric_normalized": "2026-06-19"
     },
     "0xe4d83945c0322f3d340203a7129b7eb5cacae847": {
       "address": "0xe4d83945c0322f3d340203a7129b7eb5cacae847",
@@ -14303,8 +14579,8 @@
       "current": {
         "date": "2026-06-17",
         "metric_category": "nansen-pro",
-        "total_pnl": 1477124.874351,
-        "win_rate": null,
+        "total_pnl": -1542938,
+        "win_rate": 0.0,
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
@@ -14313,7 +14589,12 @@
       "active_to": "2026-05-03",
       "trade_days": 112,
       "active14": false,
-      "last_fill": 1777786314072
+      "last_fill": 1777786314072,
+      "true_realized_all": -1328986,
+      "true_realized_maj": -1542938,
+      "n_closes": 475,
+      "active_days": 0.1,
+      "metric_normalized": "2026-06-19"
     },
     "0xef759e3f7fe04ac8c5b63736e5196ded52eaf34e": {
       "address": "0xef759e3f7fe04ac8c5b63736e5196ded52eaf34e",
@@ -14408,8 +14689,8 @@
       "current": {
         "date": "2026-06-17",
         "metric_category": "nansen-pro",
-        "total_pnl": 1213743.281471,
-        "win_rate": null,
+        "total_pnl": -205922,
+        "win_rate": 0.0,
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
@@ -14418,7 +14699,12 @@
       "active_to": "2026-06-04",
       "trade_days": 51,
       "active14": false,
-      "last_fill": 1780595173868
+      "last_fill": 1780595173868,
+      "true_realized_all": -500350,
+      "true_realized_maj": -205922,
+      "n_closes": 1391,
+      "active_days": 2.0,
+      "metric_normalized": "2026-06-19"
     },
     "0x406073860818ecfb7dca0706a6bac73faa95bd3e": {
       "address": "0x406073860818ecfb7dca0706a6bac73faa95bd3e",
@@ -14583,8 +14869,8 @@
       "current": {
         "date": "2026-06-17",
         "metric_category": "nansen-pro",
-        "total_pnl": 1191207.6737109998,
-        "win_rate": null,
+        "total_pnl": 240,
+        "win_rate": 1.0,
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
@@ -14593,7 +14879,12 @@
       "active_to": "2026-06-18",
       "trade_days": 98,
       "active14": true,
-      "last_fill": 1781785815233
+      "last_fill": 1781785815233,
+      "true_realized_all": 1002335,
+      "true_realized_maj": 240,
+      "n_closes": 36,
+      "active_days": 0.2,
+      "metric_normalized": "2026-06-19"
     },
     "0x90326fa293578c6c9ef945aaab0b57f886aca6ec": {
       "address": "0x90326fa293578c6c9ef945aaab0b57f886aca6ec",
@@ -15013,8 +15304,8 @@
       "current": {
         "date": "2026-06-17",
         "metric_category": "nansen-pro",
-        "total_pnl": 1117188.812472,
-        "win_rate": null,
+        "total_pnl": -135,
+        "win_rate": 0.0,
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
@@ -15023,7 +15314,12 @@
       "active_from": "2026-03-23",
       "active14": true,
       "trade_days": 87,
-      "last_fill": 1781795798755
+      "last_fill": 1781795798755,
+      "true_realized_all": -18549,
+      "true_realized_maj": -135,
+      "n_closes": 2,
+      "active_days": 0.0,
+      "metric_normalized": "2026-06-19"
     },
     "0x3595098878d3960158b77765f3b595228385d69a": {
       "address": "0x3595098878d3960158b77765f3b595228385d69a",
@@ -15064,7 +15360,7 @@
       "current": {
         "date": "2026-06-17",
         "metric_category": "nansen-pro",
-        "total_pnl": 1098457.838969,
+        "total_pnl": 0,
         "win_rate": null,
         "dir_accuracy": null,
         "insider_likelihood": null,
@@ -15074,7 +15370,12 @@
       "active_from": "2026-01-23",
       "active_to": "2026-05-21",
       "trade_days": 117,
-      "last_fill": 1779324427377
+      "last_fill": 1779324427377,
+      "true_realized_all": -31423,
+      "true_realized_maj": 0,
+      "n_closes": 0,
+      "active_days": null,
+      "metric_normalized": "2026-06-19"
     },
     "0x98256d1a9e3012398237a1720c27a3d7ed1ad905": {
       "address": "0x98256d1a9e3012398237a1720c27a3d7ed1ad905",
@@ -15325,7 +15626,7 @@
       "active_from": "2025-11-21",
       "active_to": "2026-06-14",
       "trade_days": 205,
-      "active14": true,
+      "active14": false,
       "first_funders": [
         {
           "address": "0xb38e8c17e38363af6ebdcb3dae12e0243582891d",
@@ -15539,8 +15840,8 @@
       "current": {
         "date": "2026-06-17",
         "metric_category": "hl-verified",
-        "total_pnl": 553556,
-        "win_rate": 0.5072,
+        "total_pnl": 494099,
+        "win_rate": 0.4897,
         "dir_accuracy": 0.5866,
         "insider_likelihood": null,
         "avg_hold_h": 82.13,
@@ -15565,7 +15866,12 @@
       "wf2_verdict": "debunked",
       "wf2_confidence": 0.06,
       "wf2_checked": "2026-06-17",
-      "last_fill": 1773700144159
+      "last_fill": 1773700144159,
+      "true_realized_all": 553556,
+      "true_realized_maj": 494099,
+      "n_closes": 1268,
+      "active_days": 61.1,
+      "metric_normalized": "2026-06-19"
     },
     "0x143c28ae5b8642f58c98b8a6f82a0f314d23f6ab": {
       "address": "0x143c28ae5b8642f58c98b8a6f82a0f314d23f6ab",
@@ -15859,8 +16165,8 @@
       "current": {
         "date": "2026-06-17",
         "metric_category": "nansen-pro",
-        "total_pnl": 941714.667676,
-        "win_rate": null,
+        "total_pnl": -15019,
+        "win_rate": 0.2979,
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
@@ -15869,7 +16175,12 @@
       "active_to": "2026-05-26",
       "trade_days": 315,
       "active14": false,
-      "last_fill": 1779809702840
+      "last_fill": 1779809702840,
+      "true_realized_all": -113997,
+      "true_realized_maj": -15019,
+      "n_closes": 94,
+      "active_days": 305.4,
+      "metric_normalized": "2026-06-19"
     },
     "0xc12f6e6f7a11604871786db86abf33fdf36fb0ad": {
       "address": "0xc12f6e6f7a11604871786db86abf33fdf36fb0ad",
@@ -15909,8 +16220,8 @@
       "current": {
         "date": "2026-06-17",
         "metric_category": "nansen-pro",
-        "total_pnl": 916822.286096,
-        "win_rate": null,
+        "total_pnl": 25,
+        "win_rate": 1.0,
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
@@ -15919,7 +16230,12 @@
       "active_to": "2026-01-27",
       "trade_days": 84,
       "active14": false,
-      "last_fill": 1769499968367
+      "last_fill": 1769499968367,
+      "true_realized_all": -63059,
+      "true_realized_maj": 25,
+      "n_closes": 1,
+      "active_days": 0.0,
+      "metric_normalized": "2026-06-19"
     },
     "0x4cd80aa0ce4881eb8679eda1f6fbe3d89aec0f7f": {
       "address": "0x4cd80aa0ce4881eb8679eda1f6fbe3d89aec0f7f",
@@ -16246,7 +16562,7 @@
       "active_from": "2026-01-16",
       "active_to": "2026-06-09",
       "trade_days": 144,
-      "active14": true,
+      "active14": false,
       "true_realized_all": 0,
       "true_realized_maj": 0,
       "n_closes": 0,
@@ -16503,8 +16819,8 @@
       "current": {
         "date": "2026-06-17",
         "metric_category": "nansen-pro",
-        "total_pnl": 838440.8238559999,
-        "win_rate": null,
+        "total_pnl": 441993,
+        "win_rate": 0.6734,
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
@@ -16512,8 +16828,13 @@
       "active_from": "2025-07-18",
       "active_to": "2026-06-15",
       "trade_days": 331,
-      "active14": true,
-      "last_fill": 1781515366698
+      "active14": false,
+      "last_fill": 1781515366698,
+      "true_realized_all": 1143382,
+      "true_realized_maj": 441993,
+      "n_closes": 1889,
+      "active_days": 79.4,
+      "metric_normalized": "2026-06-19"
     },
     "0x60a8c761f39696b3b419f31dcda20b405cb685f6": {
       "address": "0x60a8c761f39696b3b419f31dcda20b405cb685f6",
@@ -16554,7 +16875,7 @@
       "current": {
         "date": "2026-06-17",
         "metric_category": "nansen-pro",
-        "total_pnl": 836675.1279480008,
+        "total_pnl": 0,
         "win_rate": null,
         "dir_accuracy": null,
         "insider_likelihood": null,
@@ -16564,7 +16885,12 @@
       "active_to": "2026-06-16",
       "trade_days": 22,
       "active14": true,
-      "last_fill": 1781627005043
+      "last_fill": 1781627005043,
+      "true_realized_all": -35067,
+      "true_realized_maj": 0,
+      "n_closes": 0,
+      "active_days": 0.0,
+      "metric_normalized": "2026-06-19"
     },
     "0xb69eec8fea0081343c3b09e652ba1fa7dcf7033a": {
       "address": "0xb69eec8fea0081343c3b09e652ba1fa7dcf7033a",
@@ -16763,8 +17089,8 @@
       "current": {
         "date": "2026-06-17",
         "metric_category": "nansen-pro",
-        "total_pnl": 803700.2890020001,
-        "win_rate": null,
+        "total_pnl": -54527,
+        "win_rate": 0.4394,
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
@@ -16773,7 +17099,12 @@
       "active_to": "2026-06-05",
       "trade_days": 869,
       "active14": false,
-      "last_fill": 1780689738323
+      "last_fill": 1780689738323,
+      "true_realized_all": 167662,
+      "true_realized_maj": -54527,
+      "n_closes": 66,
+      "active_days": 868.5,
+      "metric_normalized": "2026-06-19"
     },
     "0xdb095d5a4f412fc6b14e6204c1db78bd14becbc1": {
       "address": "0xdb095d5a4f412fc6b14e6204c1db78bd14becbc1",
@@ -16813,7 +17144,7 @@
       "current": {
         "date": "2026-06-17",
         "metric_category": "nansen-pro",
-        "total_pnl": 786394.263617,
+        "total_pnl": 0,
         "win_rate": null,
         "dir_accuracy": null,
         "insider_likelihood": null,
@@ -16823,7 +17154,12 @@
       "active_from": "2026-01-22",
       "active14": true,
       "trade_days": 145,
-      "last_fill": 1781721700059
+      "last_fill": 1781721700059,
+      "true_realized_all": 682194,
+      "true_realized_maj": 0,
+      "n_closes": 0,
+      "active_days": null,
+      "metric_normalized": "2026-06-19"
     },
     "0x271ce82149c67fae0d2a39571707f382fe425014": {
       "address": "0x271ce82149c67fae0d2a39571707f382fe425014",
@@ -16871,7 +17207,7 @@
       },
       "active_to": "2026-06-10",
       "active_from": "2025-11-29",
-      "active14": true,
+      "active14": false,
       "true_realized_all": -179396,
       "true_realized_maj": -73816,
       "n_closes": 494,
@@ -17251,8 +17587,8 @@
       "current": {
         "date": "2026-06-17",
         "metric_category": "nansen-pro",
-        "total_pnl": 756594.438567,
-        "win_rate": null,
+        "total_pnl": 10,
+        "win_rate": 1.0,
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
@@ -17260,8 +17596,13 @@
       "active_from": "2026-06-02",
       "active_to": "2026-06-10",
       "trade_days": 8,
-      "active14": true,
-      "last_fill": 1781121777707
+      "active14": false,
+      "last_fill": 1781121777707,
+      "true_realized_all": 669843,
+      "true_realized_maj": 10,
+      "n_closes": 2,
+      "active_days": 0.0,
+      "metric_normalized": "2026-06-19"
     },
     "0x3c363e96d22c056d748f199fb728fc80d70e461a": {
       "address": "0x3c363e96d22c056d748f199fb728fc80d70e461a",
@@ -17411,7 +17752,7 @@
       "current": {
         "date": "2026-06-17",
         "metric_category": "nansen-pro",
-        "total_pnl": 746447.460677,
+        "total_pnl": 0,
         "win_rate": null,
         "dir_accuracy": null,
         "insider_likelihood": null,
@@ -17421,7 +17762,12 @@
       "active_from": "2026-03-11",
       "active_to": "2026-06-03",
       "trade_days": 83,
-      "last_fill": 1780493440926
+      "last_fill": 1780493440926,
+      "true_realized_all": 451356,
+      "true_realized_maj": 0,
+      "n_closes": 0,
+      "active_days": null,
+      "metric_normalized": "2026-06-19"
     },
     "0x28bbaaa5b431ed61ea6a9b3394f76616e00cfca6": {
       "address": "0x28bbaaa5b431ed61ea6a9b3394f76616e00cfca6",
@@ -17461,8 +17807,8 @@
       "current": {
         "date": "2026-06-17",
         "metric_category": "nansen-pro",
-        "total_pnl": 740992.465129,
-        "win_rate": null,
+        "total_pnl": 1469042,
+        "win_rate": 0.4082,
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
@@ -17471,7 +17817,12 @@
       "active_from": "2025-07-20",
       "active_to": "2026-05-23",
       "trade_days": 306,
-      "last_fill": 1779539225087
+      "last_fill": 1779539225087,
+      "true_realized_all": 1532859,
+      "true_realized_maj": 1469042,
+      "n_closes": 997,
+      "active_days": 195.0,
+      "metric_normalized": "2026-06-19"
     },
     "0x1f4059e3a39d2a2304f65dfe8b0c54a351d005c4": {
       "address": "0x1f4059e3a39d2a2304f65dfe8b0c54a351d005c4",
@@ -18457,7 +18808,7 @@
       "active_from": "2024-11-29",
       "active_to": "2026-06-15",
       "trade_days": 562,
-      "active14": true,
+      "active14": false,
       "true_realized_all": -597774,
       "true_realized_maj": -329340,
       "n_closes": 6520,
@@ -18580,8 +18931,8 @@
       "current": {
         "date": "2026-06-17",
         "metric_category": "nansen-pro",
-        "total_pnl": 561776.3693550001,
-        "win_rate": null,
+        "total_pnl": 752271,
+        "win_rate": 0.4117,
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
@@ -18590,7 +18941,12 @@
       "active_to": "2026-06-18",
       "trade_days": 250,
       "active14": true,
-      "last_fill": 1781798638478
+      "last_fill": 1781798638478,
+      "true_realized_all": 1060959,
+      "true_realized_maj": 752271,
+      "n_closes": 5115,
+      "active_days": 248.8,
+      "metric_normalized": "2026-06-19"
     },
     "0x1c77041452e75939105981a914f138eb9634463c": {
       "address": "0x1c77041452e75939105981a914f138eb9634463c",
@@ -18630,7 +18986,7 @@
       "current": {
         "date": "2026-06-17",
         "metric_category": "nansen-pro",
-        "total_pnl": 559611.089506,
+        "total_pnl": 0,
         "win_rate": null,
         "dir_accuracy": null,
         "insider_likelihood": null,
@@ -18640,7 +18996,12 @@
       "active_to": "2026-06-08",
       "trade_days": 32,
       "active14": true,
-      "last_fill": 1780939147584
+      "last_fill": 1780939147584,
+      "true_realized_all": 548931,
+      "true_realized_maj": 0,
+      "n_closes": 0,
+      "active_days": null,
+      "metric_normalized": "2026-06-19"
     },
     "0xc48b1ad3415e6cf85c4f733fe7fb3085bedf88b1": {
       "address": "0xc48b1ad3415e6cf85c4f733fe7fb3085bedf88b1",
@@ -18735,8 +19096,8 @@
       "current": {
         "date": "2026-06-17",
         "metric_category": "nansen-pro",
-        "total_pnl": 550576.13555,
-        "win_rate": null,
+        "total_pnl": 543568,
+        "win_rate": 0.8081,
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
@@ -18745,7 +19106,12 @@
       "active_from": "2025-12-02",
       "active_to": "2026-04-02",
       "trade_days": 121,
-      "last_fill": 1775115100022
+      "last_fill": 1775115100022,
+      "true_realized_all": 545683,
+      "true_realized_maj": 543568,
+      "n_closes": 641,
+      "active_days": 121.2,
+      "metric_normalized": "2026-06-19"
     },
     "0x106943709714fb0e5e62b82f5013ebc762591ae1": {
       "address": "0x106943709714fb0e5e62b82f5013ebc762591ae1",
@@ -18785,8 +19151,8 @@
       "current": {
         "date": "2026-06-17",
         "metric_category": "nansen-pro",
-        "total_pnl": 549433.176867,
-        "win_rate": null,
+        "total_pnl": 1126448,
+        "win_rate": 0.8318,
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
@@ -18795,7 +19161,12 @@
       "active_to": "2026-02-16",
       "trade_days": 151,
       "active14": false,
-      "last_fill": 1771261363850
+      "last_fill": 1771261363850,
+      "true_realized_all": 1126448,
+      "true_realized_maj": 1126448,
+      "n_closes": 6033,
+      "active_days": 151.9,
+      "metric_normalized": "2026-06-19"
     },
     "0x3a122449de235a40481689442271c0731b805d69": {
       "address": "0x3a122449de235a40481689442271c0731b805d69",
@@ -18844,7 +19215,7 @@
       "active_from": "2024-11-05",
       "active_to": "2026-06-16",
       "trade_days": 587,
-      "active14": true,
+      "active14": false,
       "true_realized_all": 1684608,
       "true_realized_maj": 1546431,
       "n_closes": 6291,
@@ -19118,8 +19489,8 @@
       "current": {
         "date": "2026-06-17",
         "metric_category": "nansen-pro",
-        "total_pnl": 536944.910238,
-        "win_rate": null,
+        "total_pnl": 724756,
+        "win_rate": 0.4605,
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
@@ -19128,7 +19499,12 @@
       "active_to": "2026-05-09",
       "trade_days": 235,
       "active14": false,
-      "last_fill": 1778351163889
+      "last_fill": 1778351163889,
+      "true_realized_all": 719054,
+      "true_realized_maj": 724756,
+      "n_closes": 886,
+      "active_days": 235.1,
+      "metric_normalized": "2026-06-19"
     },
     "0x4cc390eada38741fe9c77036b7c38537fb5f38ea": {
       "address": "0x4cc390eada38741fe9c77036b7c38537fb5f38ea",
@@ -19186,7 +19562,7 @@
       "active_from": "2024-08-12",
       "active_to": "2026-06-10",
       "trade_days": 667,
-      "active14": true,
+      "active14": false,
       "first_funders": [
         {
           "address": "0xf92402bb795fd7cd08fb83839689db79099c8c9c",
@@ -19277,8 +19653,8 @@
       "current": {
         "date": "2026-06-17",
         "metric_category": "nansen-pro",
-        "total_pnl": 513764.39116999996,
-        "win_rate": null,
+        "total_pnl": -21701,
+        "win_rate": 0.29,
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
@@ -19287,7 +19663,12 @@
       "active_to": "2026-06-18",
       "trade_days": 104,
       "active14": true,
-      "last_fill": 1781796990240
+      "last_fill": 1781796990240,
+      "true_realized_all": 69535,
+      "true_realized_maj": -21701,
+      "n_closes": 500,
+      "active_days": 95.9,
+      "metric_normalized": "2026-06-19"
     },
     "0x9fb1750da6266a05601855bb62767ebc742707b1": {
       "address": "0x9fb1750da6266a05601855bb62767ebc742707b1",
@@ -19327,8 +19708,8 @@
       "current": {
         "date": "2026-06-17",
         "metric_category": "nansen-pro",
-        "total_pnl": 510333.93728599994,
-        "win_rate": null,
+        "total_pnl": 564549,
+        "win_rate": 0.6341,
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
@@ -19336,8 +19717,13 @@
       "active_from": "2024-12-16",
       "active_to": "2026-06-19",
       "trade_days": 549,
-      "active14": true,
-      "last_fill": 1781841133354
+      "active14": false,
+      "last_fill": 1781841133354,
+      "true_realized_all": 1312477,
+      "true_realized_maj": 564549,
+      "n_closes": 1189,
+      "active_days": 216.7,
+      "metric_normalized": "2026-06-19"
     },
     "0x66d3b80a7c6dc33801414dd22cde23f25d3de4d6": {
       "address": "0x66d3b80a7c6dc33801414dd22cde23f25d3de4d6",
@@ -19642,7 +20028,7 @@
       "active_from": "2024-12-14",
       "active_to": "2026-06-18",
       "trade_days": 550,
-      "active14": true,
+      "active14": false,
       "first_funders": [
         {
           "address": "0x8a4a9dac99daa4a77d2bcd8ef6f5abf5966479f8",
@@ -19898,8 +20284,8 @@
       "current": {
         "date": "2026-06-17",
         "metric_category": "nansen-pro",
-        "total_pnl": 460034.253045,
-        "win_rate": null,
+        "total_pnl": 286,
+        "win_rate": 1.0,
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
@@ -19907,8 +20293,13 @@
       "active_from": "2026-01-02",
       "active_to": "2026-06-11",
       "trade_days": 160,
-      "active14": true,
-      "last_fill": 1781217369749
+      "active14": false,
+      "last_fill": 1781217369749,
+      "true_realized_all": 461417,
+      "true_realized_maj": 286,
+      "n_closes": 14,
+      "active_days": 0.0,
+      "metric_normalized": "2026-06-19"
     },
     "0xfc783912f9a70a537d9ef23fb230d2c4d32d7e77": {
       "address": "0xfc783912f9a70a537d9ef23fb230d2c4d32d7e77",
@@ -19948,8 +20339,8 @@
       "current": {
         "date": "2026-06-17",
         "metric_category": "nansen-pro",
-        "total_pnl": 446363.0347140012,
-        "win_rate": null,
+        "total_pnl": 405325,
+        "win_rate": 0.5772,
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
@@ -19958,7 +20349,12 @@
       "active_from": "2025-11-20",
       "active_to": "2026-02-23",
       "trade_days": 94,
-      "last_fill": 1771874469231
+      "last_fill": 1771874469231,
+      "true_realized_all": 828561,
+      "true_realized_maj": 405325,
+      "n_closes": 12475,
+      "active_days": 94.3,
+      "metric_normalized": "2026-06-19"
     },
     "0x747932275df815ae819944e57ebb5b3e115ad68b": {
       "address": "0x747932275df815ae819944e57ebb5b3e115ad68b",
@@ -20017,7 +20413,7 @@
       "active_from": "2025-10-20",
       "active_to": "2026-06-19",
       "trade_days": 241,
-      "active14": true,
+      "active14": false,
       "first_funders": [
         {
           "address": "0xe35e9842fceaca96570b734083f4a58e8f7c5f2a",
@@ -20182,7 +20578,7 @@
       "active_from": "2025-09-24",
       "active_to": "2026-06-15",
       "trade_days": 264,
-      "active14": true,
+      "active14": false,
       "true_realized_all": 1590112,
       "true_realized_maj": 310366,
       "n_closes": 392,
@@ -20293,7 +20689,7 @@
       "active_from": "2026-02-25",
       "active_to": "2026-06-17",
       "trade_days": 111,
-      "active14": true,
+      "active14": false,
       "true_realized_all": 191109,
       "true_realized_maj": 162665,
       "n_closes": 1816,
@@ -20395,7 +20791,7 @@
       "current": {
         "date": "2026-06-17",
         "metric_category": "nansen-pro",
-        "total_pnl": 422078.500825,
+        "total_pnl": 0,
         "win_rate": null,
         "dir_accuracy": null,
         "insider_likelihood": null,
@@ -20405,7 +20801,12 @@
       "active_from": "2025-11-15",
       "active14": true,
       "trade_days": 208,
-      "last_fill": 1781206223718
+      "last_fill": 1781206223718,
+      "true_realized_all": 453993,
+      "true_realized_maj": 0,
+      "n_closes": 0,
+      "active_days": null,
+      "metric_normalized": "2026-06-19"
     },
     "0x2098c0614f99bda7c8a0c452bc59cda364e51e44": {
       "address": "0x2098c0614f99bda7c8a0c452bc59cda364e51e44",
@@ -20445,8 +20846,8 @@
       "current": {
         "date": "2026-06-17",
         "metric_category": "nansen-pro",
-        "total_pnl": 421759.75319,
-        "win_rate": null,
+        "total_pnl": 226321,
+        "win_rate": 0.5245,
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
@@ -20455,7 +20856,12 @@
       "active_to": "2026-06-10",
       "trade_days": 320,
       "active14": true,
-      "last_fill": 1781107491196
+      "last_fill": 1781107491196,
+      "true_realized_all": 225428,
+      "true_realized_maj": 226321,
+      "n_closes": 204,
+      "active_days": 320.9,
+      "metric_normalized": "2026-06-19"
     },
     "0x25e9e31168d7ec59b0bfd54ebde8f3f6b9b1a5ea": {
       "address": "0x25e9e31168d7ec59b0bfd54ebde8f3f6b9b1a5ea",
@@ -20496,8 +20902,8 @@
       "current": {
         "date": "2026-06-17",
         "metric_category": "nansen-pro",
-        "total_pnl": 421631.009975,
-        "win_rate": null,
+        "total_pnl": 115199,
+        "win_rate": 0.6628,
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
@@ -20506,7 +20912,12 @@
       "active_to": "2026-06-18",
       "trade_days": 31,
       "active14": true,
-      "last_fill": 1781820558437
+      "last_fill": 1781820558437,
+      "true_realized_all": 164118,
+      "true_realized_maj": 115199,
+      "n_closes": 783,
+      "active_days": 26.8,
+      "metric_normalized": "2026-06-19"
     },
     "0x6ed3c871ac6aae698a9d6e547a5f54873b091e18": {
       "address": "0x6ed3c871ac6aae698a9d6e547a5f54873b091e18",
@@ -20546,8 +20957,8 @@
       "current": {
         "date": "2026-06-17",
         "metric_category": "nansen-pro",
-        "total_pnl": 413731.945213,
-        "win_rate": null,
+        "total_pnl": -17458,
+        "win_rate": 0.0,
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
@@ -20556,7 +20967,12 @@
       "active_to": "2026-05-21",
       "trade_days": 362,
       "active14": false,
-      "last_fill": 1779321600086
+      "last_fill": 1779321600086,
+      "true_realized_all": -9985,
+      "true_realized_maj": -17458,
+      "n_closes": 17,
+      "active_days": 0.0,
+      "metric_normalized": "2026-06-19"
     },
     "0xe8d89110c52df4ca33e75e060e3c72dcbf6c8dda": {
       "address": "0xe8d89110c52df4ca33e75e060e3c72dcbf6c8dda",
@@ -20596,8 +21012,8 @@
       "current": {
         "date": "2026-06-17",
         "metric_category": "nansen-pro",
-        "total_pnl": 411831.98122799996,
-        "win_rate": null,
+        "total_pnl": 9679,
+        "win_rate": 0.6221,
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
@@ -20606,7 +21022,12 @@
       "active_to": "2026-06-18",
       "trade_days": 597,
       "active14": true,
-      "last_fill": 1781803595600
+      "last_fill": 1781803595600,
+      "true_realized_all": 16743,
+      "true_realized_maj": 9679,
+      "n_closes": 262,
+      "active_days": 589.6,
+      "metric_normalized": "2026-06-19"
     },
     "0x807ddb66768050ee457165ad6d21cc1275a896ac": {
       "address": "0x807ddb66768050ee457165ad6d21cc1275a896ac",
@@ -20665,7 +21086,7 @@
       "active_from": "2025-10-28",
       "active_to": "2026-06-11",
       "trade_days": 225,
-      "active14": true,
+      "active14": false,
       "first_funders": [
         {
           "address": "0x2644aece62ced4a740bba4a623ab7ba23486f157",
@@ -20830,7 +21251,7 @@
       "active_from": "2026-01-25",
       "active_to": "2026-06-16",
       "trade_days": 141,
-      "active14": true,
+      "active14": false,
       "true_realized_all": 397940,
       "true_realized_maj": -29537,
       "n_closes": 120,
@@ -20894,7 +21315,7 @@
       "active_from": "2025-07-16",
       "active_to": "2026-06-19",
       "trade_days": 337,
-      "active14": true,
+      "active14": false,
       "first_funders": [
         {
           "address": "0xb38e8c17e38363af6ebdcb3dae12e0243582891d",
@@ -21097,7 +21518,7 @@
       "active_from": "2024-03-18",
       "active_to": "2026-06-17",
       "trade_days": 820,
-      "active14": true,
+      "active14": false,
       "true_realized_all": -77227,
       "true_realized_maj": -231672,
       "n_closes": 86,
@@ -21483,7 +21904,7 @@
       "active_from": "2026-02-01",
       "active_to": "2026-06-18",
       "trade_days": 136,
-      "active14": true,
+      "active14": false,
       "true_realized_all": 352820,
       "true_realized_maj": 13997,
       "n_closes": 66,
@@ -21651,8 +22072,8 @@
       "current": {
         "date": "2026-06-17",
         "metric_category": "nansen-pro",
-        "total_pnl": 352248.616213,
-        "win_rate": null,
+        "total_pnl": 381191,
+        "win_rate": 0.3019,
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
@@ -21661,7 +22082,12 @@
       "active_from": "2025-07-20",
       "active_to": "2026-05-13",
       "trade_days": 297,
-      "last_fill": 1778690371284
+      "last_fill": 1778690371284,
+      "true_realized_all": 706035,
+      "true_realized_maj": 381191,
+      "n_closes": 699,
+      "active_days": 205.6,
+      "metric_normalized": "2026-06-19"
     },
     "0x5b28335f6d5cd5a1ac3b66eb2edd2b917e7aa4a4": {
       "address": "0x5b28335f6d5cd5a1ac3b66eb2edd2b917e7aa4a4",
@@ -21756,7 +22182,7 @@
       "current": {
         "date": "2026-06-17",
         "metric_category": "nansen-pro",
-        "total_pnl": 346673.052899,
+        "total_pnl": 0,
         "win_rate": null,
         "dir_accuracy": null,
         "insider_likelihood": null,
@@ -21766,7 +22192,12 @@
       "active_to": "2026-05-30",
       "trade_days": 3,
       "active14": false,
-      "last_fill": 1780166691467
+      "last_fill": 1780166691467,
+      "true_realized_all": 11063,
+      "true_realized_maj": 0,
+      "n_closes": 0,
+      "active_days": null,
+      "metric_normalized": "2026-06-19"
     },
     "0xd01f0dff786f553f78dfd20803b49bdcc1c2f1d7": {
       "address": "0xd01f0dff786f553f78dfd20803b49bdcc1c2f1d7",
@@ -21806,8 +22237,8 @@
       "current": {
         "date": "2026-06-17",
         "metric_category": "nansen-pro",
-        "total_pnl": 341546.436639,
-        "win_rate": null,
+        "total_pnl": 376695,
+        "win_rate": 0.8473,
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
@@ -21816,7 +22247,12 @@
       "active_to": "2026-04-14",
       "trade_days": 226,
       "active14": false,
-      "last_fill": 1776180081227
+      "last_fill": 1776180081227,
+      "true_realized_all": 369501,
+      "true_realized_maj": 376695,
+      "n_closes": 131,
+      "active_days": 226.6,
+      "metric_normalized": "2026-06-19"
     },
     "0x2bb45f0411f8f7cd264620fb2b22990d373b8ac5": {
       "address": "0x2bb45f0411f8f7cd264620fb2b22990d373b8ac5",
@@ -22415,7 +22851,7 @@
       "active_from": "2025-11-29",
       "active_to": "2026-06-18",
       "trade_days": 200,
-      "active14": true,
+      "active14": false,
       "true_realized_all": 279884,
       "true_realized_maj": -12304,
       "n_closes": 66,
@@ -22517,8 +22953,8 @@
       "current": {
         "date": "2026-06-17",
         "metric_category": "nansen-pro",
-        "total_pnl": 311244.20365899993,
-        "win_rate": null,
+        "total_pnl": 16611,
+        "win_rate": 0.6711,
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
@@ -22527,7 +22963,12 @@
       "active_to": "2026-06-16",
       "trade_days": 214,
       "active14": true,
-      "last_fill": 1781624796973
+      "last_fill": 1781624796973,
+      "true_realized_all": 197588,
+      "true_realized_maj": 16611,
+      "n_closes": 152,
+      "active_days": 209.2,
+      "metric_normalized": "2026-06-19"
     },
     "0xf629d790657e15ae9b51731932a5b63ff20b8b01": {
       "address": "0xf629d790657e15ae9b51731932a5b63ff20b8b01",
@@ -22567,8 +23008,8 @@
       "current": {
         "date": "2026-06-17",
         "metric_category": "nansen-pro",
-        "total_pnl": 305396.902783,
-        "win_rate": null,
+        "total_pnl": -167622,
+        "win_rate": 0.0,
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
@@ -22577,7 +23018,12 @@
       "active_from": "2026-04-06",
       "active14": true,
       "trade_days": 73,
-      "last_fill": 1781827274426
+      "last_fill": 1781827274426,
+      "true_realized_all": 365958,
+      "true_realized_maj": -167622,
+      "n_closes": 24,
+      "active_days": 51.7,
+      "metric_normalized": "2026-06-19"
     },
     "0x81352d8f3a5b61244b4808dfb5d6890a49380170": {
       "address": "0x81352d8f3a5b61244b4808dfb5d6890a49380170",
@@ -22617,8 +23063,8 @@
       "current": {
         "date": "2026-06-17",
         "metric_category": "nansen-pro",
-        "total_pnl": 305122.04581,
-        "win_rate": null,
+        "total_pnl": 128812,
+        "win_rate": 1.0,
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
@@ -22627,7 +23073,12 @@
       "active_to": "2026-04-17",
       "trade_days": 40,
       "active14": false,
-      "last_fill": 1776442719016
+      "last_fill": 1776442719016,
+      "true_realized_all": 304990,
+      "true_realized_maj": 128812,
+      "n_closes": 84,
+      "active_days": 8.4,
+      "metric_normalized": "2026-06-19"
     },
     "0x5cddd9a435aabecbea14d7abe24f546ff24ccb94": {
       "address": "0x5cddd9a435aabecbea14d7abe24f546ff24ccb94",
@@ -22667,8 +23118,8 @@
       "current": {
         "date": "2026-06-17",
         "metric_category": "nansen-pro",
-        "total_pnl": 302917.882308,
-        "win_rate": null,
+        "total_pnl": 138780,
+        "win_rate": 1.0,
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
@@ -22677,7 +23128,12 @@
       "active_to": "2026-05-07",
       "trade_days": 254,
       "active14": false,
-      "last_fill": 1778112000059
+      "last_fill": 1778112000059,
+      "true_realized_all": 70818,
+      "true_realized_maj": 138780,
+      "n_closes": 489,
+      "active_days": 16.6,
+      "metric_normalized": "2026-06-19"
     },
     "0x3e6805e8694bb2b717a828c1bfa32df5d6580cc9": {
       "address": "0x3e6805e8694bb2b717a828c1bfa32df5d6580cc9",
@@ -22772,7 +23228,7 @@
       "active_from": "2024-01-31",
       "active_to": "2026-06-16",
       "trade_days": 866,
-      "active14": true,
+      "active14": false,
       "pro_score_old": 0.503,
       "pro_tier_old": "A",
       "soak_detail": {
@@ -22837,7 +23293,7 @@
       "current": {
         "date": "2026-06-17",
         "metric_category": "nansen-pro",
-        "total_pnl": 301466.040621,
+        "total_pnl": 0,
         "win_rate": null,
         "dir_accuracy": null,
         "insider_likelihood": null,
@@ -22847,7 +23303,12 @@
       "active_to": "2026-02-02",
       "trade_days": 83,
       "active14": false,
-      "last_fill": 1770011331036
+      "last_fill": 1770011331036,
+      "true_realized_all": 317033,
+      "true_realized_maj": 0,
+      "n_closes": 0,
+      "active_days": null,
+      "metric_normalized": "2026-06-19"
     },
     "0xf2500dbc34617daf22b5186a1bfb9f5f3a33ae13": {
       "address": "0xf2500dbc34617daf22b5186a1bfb9f5f3a33ae13",
@@ -22896,7 +23357,7 @@
       "active_from": "2026-04-17",
       "active_to": "2026-06-16",
       "trade_days": 59,
-      "active14": true,
+      "active14": false,
       "true_realized_all": 282618,
       "true_realized_maj": 37490,
       "n_closes": 176,
@@ -22952,7 +23413,7 @@
       "active_from": "2026-05-28",
       "active_to": "2026-06-18",
       "trade_days": 20,
-      "active14": true,
+      "active14": false,
       "true_realized_all": -14135,
       "true_realized_maj": -61,
       "n_closes": 1,
@@ -23007,7 +23468,7 @@
       "active_from": "2025-09-02",
       "active_to": "2026-06-15",
       "trade_days": 286,
-      "active14": true,
+      "active14": false,
       "true_realized_all": 302180,
       "true_realized_maj": -19084,
       "n_closes": 893,
@@ -23163,7 +23624,7 @@
       "current": {
         "date": "2026-06-17",
         "metric_category": "nansen-pro",
-        "total_pnl": 290608.801814,
+        "total_pnl": 0,
         "win_rate": null,
         "dir_accuracy": null,
         "insider_likelihood": null,
@@ -23173,7 +23634,12 @@
       "active_from": "2026-05-19",
       "active_to": "2026-05-23",
       "trade_days": 3,
-      "last_fill": 1779505192016
+      "last_fill": 1779505192016,
+      "true_realized_all": 290424,
+      "true_realized_maj": 0,
+      "n_closes": 0,
+      "active_days": null,
+      "metric_normalized": "2026-06-19"
     },
     "0x24c2b6e2229b62cef2d1ae15a0e51e21678c428f": {
       "address": "0x24c2b6e2229b62cef2d1ae15a0e51e21678c428f",
@@ -23214,7 +23680,7 @@
       "current": {
         "date": "2026-06-17",
         "metric_category": "nansen-pro",
-        "total_pnl": 289963.298631,
+        "total_pnl": 0,
         "win_rate": null,
         "dir_accuracy": null,
         "insider_likelihood": null,
@@ -23224,7 +23690,12 @@
       "active_from": "2026-05-09",
       "active14": true,
       "trade_days": 39,
-      "last_fill": 1781725211058
+      "last_fill": 1781725211058,
+      "true_realized_all": -734,
+      "true_realized_maj": 0,
+      "n_closes": 0,
+      "active_days": null,
+      "metric_normalized": "2026-06-19"
     },
     "0x549e6dd8453ed87fccdcf4f8b37162b10edc0533": {
       "address": "0x549e6dd8453ed87fccdcf4f8b37162b10edc0533",
@@ -23264,8 +23735,8 @@
       "current": {
         "date": "2026-06-17",
         "metric_category": "nansen-pro",
-        "total_pnl": 288257.18865,
-        "win_rate": null,
+        "total_pnl": 67815,
+        "win_rate": 1.0,
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
@@ -23273,8 +23744,13 @@
       "active_from": "2025-11-20",
       "active_to": "2026-06-18",
       "trade_days": 210,
-      "active14": true,
-      "last_fill": 1781805449064
+      "active14": false,
+      "last_fill": 1781805449064,
+      "true_realized_all": 970978,
+      "true_realized_maj": 67815,
+      "n_closes": 168,
+      "active_days": 0.0,
+      "metric_normalized": "2026-06-19"
     },
     "0xbb8d8e9428b4ad06b1f6de7cba830ae13a86bd13": {
       "address": "0xbb8d8e9428b4ad06b1f6de7cba830ae13a86bd13",
@@ -23314,8 +23790,8 @@
       "current": {
         "date": "2026-06-17",
         "metric_category": "nansen-pro",
-        "total_pnl": 288011.596725,
-        "win_rate": null,
+        "total_pnl": -93082,
+        "win_rate": 0.0,
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
@@ -23324,7 +23800,12 @@
       "active_to": "2026-06-14",
       "trade_days": 69,
       "active14": true,
-      "last_fill": 1781475517381
+      "last_fill": 1781475517381,
+      "true_realized_all": 288012,
+      "true_realized_maj": -93082,
+      "n_closes": 111,
+      "active_days": 27.0,
+      "metric_normalized": "2026-06-19"
     },
     "0x2c0757702f4897001f16c8cf881a3ddddf9c7494": {
       "address": "0x2c0757702f4897001f16c8cf881a3ddddf9c7494",
@@ -23704,7 +24185,7 @@
       "active_from": "2026-01-20",
       "active_to": "2026-06-09",
       "trade_days": 139,
-      "active14": true,
+      "active14": false,
       "true_realized_all": 280939,
       "true_realized_maj": 25349,
       "n_closes": 115,
@@ -23876,8 +24357,8 @@
       "current": {
         "date": "2026-06-17",
         "metric_category": "nansen-pro",
-        "total_pnl": 271754.51296,
-        "win_rate": null,
+        "total_pnl": 19084,
+        "win_rate": 0.8235,
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
@@ -23885,8 +24366,13 @@
       "active_from": "2025-12-20",
       "active_to": "2026-06-18",
       "trade_days": 180,
-      "active14": true,
-      "last_fill": 1781811836619
+      "active14": false,
+      "last_fill": 1781811836619,
+      "true_realized_all": 351626,
+      "true_realized_maj": 19084,
+      "n_closes": 51,
+      "active_days": 12.4,
+      "metric_normalized": "2026-06-19"
     },
     "0x01b7e73cdad95d407e8696e04194a75f19744801": {
       "address": "0x01b7e73cdad95d407e8696e04194a75f19744801",
@@ -23944,7 +24430,7 @@
       "active_from": "2024-04-06",
       "active_to": "2026-06-10",
       "trade_days": 795,
-      "active14": true,
+      "active14": false,
       "first_funders": [
         {
           "address": "0x490b1e689ca23be864e55b46bf038e007b528208",
@@ -24026,7 +24512,7 @@
       "current": {
         "date": "2026-06-17",
         "metric_category": "nansen-pro",
-        "total_pnl": 270338.620579,
+        "total_pnl": 0,
         "win_rate": null,
         "dir_accuracy": null,
         "insider_likelihood": null,
@@ -24036,7 +24522,12 @@
       "active_to": "2026-02-06",
       "trade_days": 0,
       "active14": false,
-      "last_fill": 1770361181602
+      "last_fill": 1770361181602,
+      "true_realized_all": -158848,
+      "true_realized_maj": 0,
+      "n_closes": 0,
+      "active_days": null,
+      "metric_normalized": "2026-06-19"
     },
     "0x077a25d1f579574fe168bbaa924e40c9bfa57ccc": {
       "address": "0x077a25d1f579574fe168bbaa924e40c9bfa57ccc",
@@ -24077,8 +24568,8 @@
       "current": {
         "date": "2026-06-17",
         "metric_category": "nansen-pro",
-        "total_pnl": 268756.462216,
-        "win_rate": null,
+        "total_pnl": 505526,
+        "win_rate": 0.7054,
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
@@ -24087,7 +24578,12 @@
       "active_to": "2026-06-09",
       "trade_days": 239,
       "active14": true,
-      "last_fill": 1780965083442
+      "last_fill": 1780965083442,
+      "true_realized_all": 404240,
+      "true_realized_maj": 505526,
+      "n_closes": 224,
+      "active_days": 239.1,
+      "metric_normalized": "2026-06-19"
     },
     "0x961fdc9ae7e4558e9c5e05565bc74721e6d32fd0": {
       "address": "0x961fdc9ae7e4558e9c5e05565bc74721e6d32fd0",
@@ -24301,7 +24797,7 @@
       "active_from": "2025-12-22",
       "active_to": "2026-06-16",
       "trade_days": 176,
-      "active14": true,
+      "active14": false,
       "true_realized_all": 270952,
       "true_realized_maj": 251208,
       "n_closes": 151,
@@ -24356,7 +24852,7 @@
       "active_from": "2025-01-20",
       "active_to": "2026-06-17",
       "trade_days": 512,
-      "active14": true,
+      "active14": false,
       "true_realized_all": 952824,
       "true_realized_maj": 403767,
       "n_closes": 4219,
@@ -24458,7 +24954,7 @@
       "current": {
         "date": "2026-06-17",
         "metric_category": "nansen-pro",
-        "total_pnl": 247072.57509199998,
+        "total_pnl": 0,
         "win_rate": null,
         "dir_accuracy": null,
         "insider_likelihood": null,
@@ -24468,7 +24964,12 @@
       "active_from": "2025-01-09",
       "active14": true,
       "trade_days": 524,
-      "last_fill": 1781801491169
+      "last_fill": 1781801491169,
+      "true_realized_all": 229326,
+      "true_realized_maj": 0,
+      "n_closes": 0,
+      "active_days": null,
+      "metric_normalized": "2026-06-19"
     },
     "0xe42921388db8d4164aa819dd948578b3b7facf10": {
       "address": "0xe42921388db8d4164aa819dd948578b3b7facf10",
@@ -24563,7 +25064,7 @@
       "current": {
         "date": "2026-06-17",
         "metric_category": "nansen-pro",
-        "total_pnl": 243757.94472300005,
+        "total_pnl": 0,
         "win_rate": null,
         "dir_accuracy": null,
         "insider_likelihood": null,
@@ -24573,7 +25074,12 @@
       "active_to": "2026-06-19",
       "trade_days": 41,
       "active14": true,
-      "last_fill": 1781858554054
+      "last_fill": 1781858554054,
+      "true_realized_all": 162130,
+      "true_realized_maj": 0,
+      "n_closes": 0,
+      "active_days": null,
+      "metric_normalized": "2026-06-19"
     },
     "0x8b04b421a9e80a26c4f411a92f17cd3d39798bd5": {
       "address": "0x8b04b421a9e80a26c4f411a92f17cd3d39798bd5",
@@ -24613,8 +25119,8 @@
       "current": {
         "date": "2026-06-17",
         "metric_category": "nansen-pro",
-        "total_pnl": 238449.73322,
-        "win_rate": null,
+        "total_pnl": 122359,
+        "win_rate": 0.7378,
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
@@ -24622,8 +25128,13 @@
       "active_from": "2026-02-23",
       "active_to": "2026-06-17",
       "trade_days": 114,
-      "active14": true,
-      "last_fill": 1781686538473
+      "active14": false,
+      "last_fill": 1781686538473,
+      "true_realized_all": 238450,
+      "true_realized_maj": 122359,
+      "n_closes": 370,
+      "active_days": 91.4,
+      "metric_normalized": "2026-06-19"
     },
     "0x6abc111bd22bb38e649f81be60dfbeb35648aac6": {
       "address": "0x6abc111bd22bb38e649f81be60dfbeb35648aac6",
@@ -24663,17 +25174,22 @@
       "current": {
         "date": "2026-06-17",
         "metric_category": "nansen-pro",
-        "total_pnl": 235766.70653999998,
-        "win_rate": null,
+        "total_pnl": 720,
+        "win_rate": 1.0,
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
       },
       "active_to": "2026-06-19",
       "active_from": "2026-04-11",
-      "active14": true,
+      "active14": false,
       "trade_days": 68,
-      "last_fill": 1781841783399
+      "last_fill": 1781841783399,
+      "true_realized_all": 169434,
+      "true_realized_maj": 720,
+      "n_closes": 5,
+      "active_days": 16.8,
+      "metric_normalized": "2026-06-19"
     },
     "0xdf783e48b2ebd7d35ba44c83315f6b3dbaa38fea": {
       "address": "0xdf783e48b2ebd7d35ba44c83315f6b3dbaa38fea",
@@ -24832,7 +25348,7 @@
       "active_from": "2025-07-18",
       "active_to": "2026-06-09",
       "trade_days": 326,
-      "active14": true,
+      "active14": false,
       "true_realized_all": -109026,
       "true_realized_maj": 27488,
       "n_closes": 45,
@@ -24951,7 +25467,7 @@
       "active_from": "2025-07-06",
       "active_to": "2026-06-12",
       "trade_days": 341,
-      "active14": true,
+      "active14": false,
       "first_funders": [
         {
           "address": "0x74ac8ec0c6fc83b4127816c23930bea9e1a83df5",
@@ -25384,7 +25900,7 @@
       "active_from": "2025-01-19",
       "active_to": "2026-06-10",
       "trade_days": 506,
-      "active14": true,
+      "active14": false,
       "true_realized_all": 225031,
       "true_realized_maj": 174322,
       "n_closes": 285,
@@ -25556,8 +26072,8 @@
       "current": {
         "date": "2026-06-17",
         "metric_category": "nansen-pro",
-        "total_pnl": 207026.995517,
-        "win_rate": null,
+        "total_pnl": 333953,
+        "win_rate": 0.8778,
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
@@ -25566,7 +26082,12 @@
       "active_from": "2025-08-20",
       "active_to": "2026-02-05",
       "trade_days": 168,
-      "last_fill": 1770305900069
+      "last_fill": 1770305900069,
+      "true_realized_all": 436892,
+      "true_realized_maj": 333953,
+      "n_closes": 270,
+      "active_days": 168.9,
+      "metric_normalized": "2026-06-19"
     },
     "0x7cbe8545bf40cffa28c270589d87c3a1e0fb5019": {
       "address": "0x7cbe8545bf40cffa28c270589d87c3a1e0fb5019",
@@ -25606,17 +26127,22 @@
       "current": {
         "date": "2026-06-17",
         "metric_category": "nansen-pro",
-        "total_pnl": 204348.274099,
-        "win_rate": null,
+        "total_pnl": 101826,
+        "win_rate": 1.0,
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
       },
       "active_to": "2026-06-19",
       "active_from": "2025-07-28",
-      "active14": true,
+      "active14": false,
       "trade_days": 325,
-      "last_fill": 1781838966282
+      "last_fill": 1781838966282,
+      "true_realized_all": 268696,
+      "true_realized_maj": 101826,
+      "n_closes": 100,
+      "active_days": 4.2,
+      "metric_normalized": "2026-06-19"
     },
     "0x1750dd77a381a6a1dc4ce88e26586c856f75f646": {
       "address": "0x1750dd77a381a6a1dc4ce88e26586c856f75f646",
@@ -25656,8 +26182,8 @@
       "current": {
         "date": "2026-06-17",
         "metric_category": "nansen-pro",
-        "total_pnl": 203706.828241,
-        "win_rate": null,
+        "total_pnl": 204139,
+        "win_rate": 0.3125,
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
@@ -25665,8 +26191,13 @@
       "active_from": "2025-11-16",
       "active_to": "2026-06-12",
       "trade_days": 207,
-      "active14": true,
-      "last_fill": 1781250758284
+      "active14": false,
+      "last_fill": 1781250758284,
+      "true_realized_all": 225614,
+      "true_realized_maj": 204139,
+      "n_closes": 80,
+      "active_days": 77.8,
+      "metric_normalized": "2026-06-19"
     },
     "0x64f4e14a603a6383f459e16f4781a6b30611dfb8": {
       "address": "0x64f4e14a603a6383f459e16f4781a6b30611dfb8",
@@ -25706,8 +26237,8 @@
       "current": {
         "date": "2026-06-17",
         "metric_category": "nansen-pro",
-        "total_pnl": 203309.868083,
-        "win_rate": null,
+        "total_pnl": -47434,
+        "win_rate": 0.2935,
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
@@ -25715,8 +26246,13 @@
       "active_from": "2025-02-21",
       "active_to": "2026-06-19",
       "trade_days": 482,
-      "active14": true,
-      "last_fill": 1781858723705
+      "active14": false,
+      "last_fill": 1781858723705,
+      "true_realized_all": 31370,
+      "true_realized_maj": -47434,
+      "n_closes": 368,
+      "active_days": 456.7,
+      "metric_normalized": "2026-06-19"
     },
     "0xa3099587930a877e75ff4084c7b22505b72c2eca": {
       "address": "0xa3099587930a877e75ff4084c7b22505b72c2eca",
@@ -25820,7 +26356,7 @@
       "active_from": "2026-02-21",
       "active_to": "2026-06-17",
       "trade_days": 115,
-      "active14": true,
+      "active14": false,
       "true_realized_all": 221839,
       "true_realized_maj": 5,
       "n_closes": 56,
@@ -26166,7 +26702,7 @@
       "active_from": "2025-07-16",
       "active_to": "2026-06-09",
       "trade_days": 327,
-      "active14": true,
+      "active14": false,
       "true_realized_all": 223979,
       "true_realized_maj": 221943,
       "n_closes": 1433,
@@ -26322,8 +26858,8 @@
       "current": {
         "date": "2026-06-17",
         "metric_category": "nansen-pro",
-        "total_pnl": 186416.19877400002,
-        "win_rate": null,
+        "total_pnl": 3775839,
+        "win_rate": 1.0,
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
@@ -26332,7 +26868,12 @@
       "active_to": "2025-11-06",
       "trade_days": 26,
       "active14": false,
-      "last_fill": 1762398355209
+      "last_fill": 1762398355209,
+      "true_realized_all": 3775839,
+      "true_realized_maj": 3775839,
+      "n_closes": 985,
+      "active_days": 26.2,
+      "metric_normalized": "2026-06-19"
     },
     "0xe744478d5071666eb6572dcf4d99609a511335f0": {
       "address": "0xe744478d5071666eb6572dcf4d99609a511335f0",
@@ -26372,7 +26913,7 @@
       "current": {
         "date": "2026-06-17",
         "metric_category": "nansen-pro",
-        "total_pnl": 184786.52034,
+        "total_pnl": 0,
         "win_rate": null,
         "dir_accuracy": null,
         "insider_likelihood": null,
@@ -26382,7 +26923,12 @@
       "active_to": "2026-02-24",
       "trade_days": 29,
       "active14": false,
-      "last_fill": 1771914439170
+      "last_fill": 1771914439170,
+      "true_realized_all": 184732,
+      "true_realized_maj": 0,
+      "n_closes": 0,
+      "active_days": null,
+      "metric_normalized": "2026-06-19"
     },
     "0x7c6b383a03aea03b3d29685d983f27835303a6bd": {
       "address": "0x7c6b383a03aea03b3d29685d983f27835303a6bd",
@@ -26422,8 +26968,8 @@
       "current": {
         "date": "2026-06-17",
         "metric_category": "nansen-pro",
-        "total_pnl": 183826.440114,
-        "win_rate": null,
+        "total_pnl": 181581,
+        "win_rate": 0.8441,
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
@@ -26432,7 +26978,12 @@
       "active_from": "2025-12-12",
       "active_to": "2026-02-06",
       "trade_days": 55,
-      "last_fill": 1770357945854
+      "last_fill": 1770357945854,
+      "true_realized_all": 181800,
+      "true_realized_maj": 181581,
+      "n_closes": 930,
+      "active_days": 55.4,
+      "metric_normalized": "2026-06-19"
     },
     "0xbb97757984fa4408c13bd3b4a9189f520bf317d3": {
       "address": "0xbb97757984fa4408c13bd3b4a9189f520bf317d3",
@@ -26473,8 +27024,8 @@
       "current": {
         "date": "2026-06-17",
         "metric_category": "nansen-pro",
-        "total_pnl": 183057.884563,
-        "win_rate": null,
+        "total_pnl": 0,
+        "win_rate": 0.5,
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
@@ -26482,8 +27033,13 @@
       "active_from": "2026-05-12",
       "active_to": "2026-06-18",
       "trade_days": 37,
-      "active14": true,
-      "last_fill": 1781827069593
+      "active14": false,
+      "last_fill": 1781827069593,
+      "true_realized_all": 32630,
+      "true_realized_maj": 0,
+      "n_closes": 2,
+      "active_days": 0.0,
+      "metric_normalized": "2026-06-19"
     },
     "0xb56a8e43ac07b1b84d14657e0135e4fb196858a6": {
       "address": "0xb56a8e43ac07b1b84d14657e0135e4fb196858a6",
@@ -26523,8 +27079,8 @@
       "current": {
         "date": "2026-06-17",
         "metric_category": "nansen-pro",
-        "total_pnl": 182050.332448,
-        "win_rate": null,
+        "total_pnl": 69212,
+        "win_rate": 0.844,
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
@@ -26532,8 +27088,13 @@
       "active_from": "2025-09-20",
       "active_to": "2026-06-16",
       "trade_days": 268,
-      "active14": true,
-      "last_fill": 1781614712072
+      "active14": false,
+      "last_fill": 1781614712072,
+      "true_realized_all": 138010,
+      "true_realized_maj": 69212,
+      "n_closes": 109,
+      "active_days": 82.8,
+      "metric_normalized": "2026-06-19"
     },
     "0x3c868417d2981ef278b8a01011487d7e80aee547": {
       "address": "0x3c868417d2981ef278b8a01011487d7e80aee547",
@@ -26747,7 +27308,7 @@
       "active_from": "2024-12-02",
       "active_to": "2026-06-16",
       "trade_days": 560,
-      "active14": true,
+      "active14": false,
       "true_realized_all": 194388,
       "true_realized_maj": 174569,
       "n_closes": 284,
@@ -27178,7 +27739,7 @@
       "current": {
         "date": "2026-06-17",
         "metric_category": "nansen-pro",
-        "total_pnl": 173846.30057300001,
+        "total_pnl": 0,
         "win_rate": null,
         "dir_accuracy": null,
         "insider_likelihood": null,
@@ -27188,7 +27749,12 @@
       "active_from": "2024-12-15",
       "active14": true,
       "trade_days": 543,
-      "last_fill": 1781181323564
+      "last_fill": 1781181323564,
+      "true_realized_all": -39619,
+      "true_realized_maj": 0,
+      "n_closes": 0,
+      "active_days": null,
+      "metric_normalized": "2026-06-19"
     },
     "0xfab35149ccbcd9044ef062270f55c8b3fb650e21": {
       "address": "0xfab35149ccbcd9044ef062270f55c8b3fb650e21",
@@ -27228,8 +27794,8 @@
       "current": {
         "date": "2026-06-17",
         "metric_category": "nansen-pro",
-        "total_pnl": 172792.091628,
-        "win_rate": null,
+        "total_pnl": 66,
+        "win_rate": 0.2353,
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
@@ -27237,8 +27803,13 @@
       "active_from": "2025-08-09",
       "active_to": "2026-06-16",
       "trade_days": 310,
-      "active14": true,
-      "last_fill": 1781621390669
+      "active14": false,
+      "last_fill": 1781621390669,
+      "true_realized_all": 208497,
+      "true_realized_maj": 66,
+      "n_closes": 68,
+      "active_days": 0.0,
+      "metric_normalized": "2026-06-19"
     },
     "0x0c6486974e303247c2e3f67ee110ac3576359107": {
       "address": "0x0c6486974e303247c2e3f67ee110ac3576359107",
@@ -27287,7 +27858,7 @@
       "active_from": "2025-03-10",
       "active_to": "2026-06-15",
       "trade_days": 461,
-      "active14": true,
+      "active14": false,
       "true_realized_all": 154254,
       "true_realized_maj": -7384,
       "n_closes": 442,
@@ -27673,7 +28244,7 @@
       },
       "active_to": "2026-06-18",
       "active_from": "2026-04-19",
-      "active14": true,
+      "active14": false,
       "true_realized_all": 172118,
       "true_realized_maj": -979,
       "n_closes": 102,
@@ -28050,8 +28621,8 @@
       "current": {
         "date": "2026-06-17",
         "metric_category": "nansen-pro",
-        "total_pnl": 164658.944653,
-        "win_rate": null,
+        "total_pnl": 109424,
+        "win_rate": 1.0,
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
@@ -28060,7 +28631,12 @@
       "active_to": "2026-06-04",
       "trade_days": 119,
       "active14": false,
-      "last_fill": 1780612229983
+      "last_fill": 1780612229983,
+      "true_realized_all": 204928,
+      "true_realized_maj": 109424,
+      "n_closes": 201,
+      "active_days": 61.3,
+      "metric_normalized": "2026-06-19"
     },
     "0xca73bbd800aaba3cad7560596b2734f300cd5a6a": {
       "address": "0xca73bbd800aaba3cad7560596b2734f300cd5a6a",
@@ -28100,7 +28676,7 @@
       "current": {
         "date": "2026-06-17",
         "metric_category": "nansen-pro",
-        "total_pnl": 164169.217605,
+        "total_pnl": 0,
         "win_rate": null,
         "dir_accuracy": null,
         "insider_likelihood": null,
@@ -28110,7 +28686,12 @@
       "active_to": "2026-06-18",
       "trade_days": 100,
       "active14": true,
-      "last_fill": 1781791638194
+      "last_fill": 1781791638194,
+      "true_realized_all": 166797,
+      "true_realized_maj": 0,
+      "n_closes": 0,
+      "active_days": null,
+      "metric_normalized": "2026-06-19"
     },
     "0x814dc3c5b4e37c26aaae994e10f5cba6eb10bcba": {
       "address": "0x814dc3c5b4e37c26aaae994e10f5cba6eb10bcba",
@@ -28716,17 +29297,22 @@
       "current": {
         "date": "2026-06-17",
         "metric_category": "nansen-pro",
-        "total_pnl": 153745.0415259999,
-        "win_rate": null,
+        "total_pnl": -3013,
+        "win_rate": 0.075,
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
       },
       "active_to": "2026-06-17",
       "active_from": "2026-05-07",
-      "active14": true,
+      "active14": false,
       "trade_days": 41,
-      "last_fill": 1781717619620
+      "last_fill": 1781717619620,
+      "true_realized_all": 153264,
+      "true_realized_maj": -3013,
+      "n_closes": 80,
+      "active_days": 9.5,
+      "metric_normalized": "2026-06-19"
     },
     "0x6333244516c93815c3f28181ee8819956d0acec8": {
       "address": "0x6333244516c93815c3f28181ee8819956d0acec8",
@@ -28766,8 +29352,8 @@
       "current": {
         "date": "2026-06-17",
         "metric_category": "nansen-pro",
-        "total_pnl": 151320.718936,
-        "win_rate": null,
+        "total_pnl": -11085,
+        "win_rate": 0.0,
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
@@ -28775,8 +29361,13 @@
       "active_from": "2026-04-10",
       "active_to": "2026-06-18",
       "trade_days": 68,
-      "active14": true,
-      "last_fill": 1781744023258
+      "active14": false,
+      "last_fill": 1781744023258,
+      "true_realized_all": -31572,
+      "true_realized_maj": -11085,
+      "n_closes": 27,
+      "active_days": 3.2,
+      "metric_normalized": "2026-06-19"
     },
     "0xd9e391abe558d10f7b9e5b99f3dd61cc37921782": {
       "address": "0xd9e391abe558d10f7b9e5b99f3dd61cc37921782",
@@ -28816,8 +29407,8 @@
       "current": {
         "date": "2026-06-17",
         "metric_category": "nansen-pro",
-        "total_pnl": 150995.641459,
-        "win_rate": null,
+        "total_pnl": 10954,
+        "win_rate": 0.7963,
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
@@ -28826,7 +29417,12 @@
       "active_to": "2026-04-07",
       "trade_days": 301,
       "active14": false,
-      "last_fill": 1775601960072
+      "last_fill": 1775601960072,
+      "true_realized_all": -76120,
+      "true_realized_maj": 10954,
+      "n_closes": 707,
+      "active_days": 0.1,
+      "metric_normalized": "2026-06-19"
     },
     "0xdd539d21ad8dca18566086d6b265dc86a82e0caa": {
       "address": "0xdd539d21ad8dca18566086d6b265dc86a82e0caa",
@@ -28866,8 +29462,8 @@
       "current": {
         "date": "2026-06-17",
         "metric_category": "nansen-pro",
-        "total_pnl": 150180.06364,
-        "win_rate": null,
+        "total_pnl": 164115,
+        "win_rate": 0.9878,
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
@@ -28876,7 +29472,12 @@
       "active_to": "2026-06-11",
       "trade_days": 51,
       "active14": true,
-      "last_fill": 1781210396732
+      "last_fill": 1781210396732,
+      "true_realized_all": 150180,
+      "true_realized_maj": 164115,
+      "n_closes": 82,
+      "active_days": 48.5,
+      "metric_normalized": "2026-06-19"
     },
     "0xfd5e31ef58f79ea6e5cd813d0ad1ec66c58c7971": {
       "address": "0xfd5e31ef58f79ea6e5cd813d0ad1ec66c58c7971",
@@ -28916,8 +29517,8 @@
       "current": {
         "date": "2026-06-17",
         "metric_category": "nansen-pro",
-        "total_pnl": 149102.73851,
-        "win_rate": null,
+        "total_pnl": 149133,
+        "win_rate": 0.987,
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
@@ -28926,7 +29527,12 @@
       "active_to": "2026-02-24",
       "trade_days": 21,
       "active14": false,
-      "last_fill": 1771903058437
+      "last_fill": 1771903058437,
+      "true_realized_all": 149103,
+      "true_realized_maj": 149133,
+      "n_closes": 154,
+      "active_days": 21.5,
+      "metric_normalized": "2026-06-19"
     },
     "0xf25bc953a6709cc21d6f6611c9feecb493e77dbe": {
       "address": "0xf25bc953a6709cc21d6f6611c9feecb493e77dbe",
@@ -28975,7 +29581,7 @@
       "active_from": "2024-01-13",
       "active_to": "2026-06-13",
       "trade_days": 882,
-      "active14": true,
+      "active14": false,
       "true_realized_all": 745792,
       "true_realized_maj": -9818,
       "n_closes": 107,
@@ -29681,8 +30287,8 @@
       "current": {
         "date": "2026-06-17",
         "metric_category": "nansen-pro",
-        "total_pnl": 134881.333268,
-        "win_rate": null,
+        "total_pnl": 138133,
+        "win_rate": 0.5969,
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
@@ -29691,7 +30297,12 @@
       "active_to": "2026-06-19",
       "trade_days": 165,
       "active14": true,
-      "last_fill": 1781859093256
+      "last_fill": 1781859093256,
+      "true_realized_all": 134869,
+      "true_realized_maj": 138133,
+      "n_closes": 258,
+      "active_days": 161.7,
+      "metric_normalized": "2026-06-19"
     },
     "0xdfee2d4f729723aed67eed4bfb7a998dbb4294c0": {
       "address": "0xdfee2d4f729723aed67eed4bfb7a998dbb4294c0",
@@ -29731,8 +30342,8 @@
       "current": {
         "date": "2026-06-17",
         "metric_category": "nansen-pro",
-        "total_pnl": 134714.63102499998,
-        "win_rate": null,
+        "total_pnl": 64541,
+        "win_rate": 0.9524,
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
@@ -29741,7 +30352,12 @@
       "active_to": "2026-06-15",
       "trade_days": 300,
       "active14": true,
-      "last_fill": 1781520919297
+      "last_fill": 1781520919297,
+      "true_realized_all": 216845,
+      "true_realized_maj": 64541,
+      "n_closes": 126,
+      "active_days": 286.7,
+      "metric_normalized": "2026-06-19"
     },
     "0x1174c19e08d5dbf3444c6376d6583b2d4f91cb65": {
       "address": "0x1174c19e08d5dbf3444c6376d6583b2d4f91cb65",
@@ -29781,8 +30397,8 @@
       "current": {
         "date": "2026-06-17",
         "metric_category": "nansen-pro",
-        "total_pnl": 132603.24553199997,
-        "win_rate": null,
+        "total_pnl": -22646,
+        "win_rate": 0.358,
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
@@ -29790,8 +30406,13 @@
       "active_from": "2026-03-04",
       "active_to": "2026-06-19",
       "trade_days": 106,
-      "active14": true,
-      "last_fill": 1781841904441
+      "active14": false,
+      "last_fill": 1781841904441,
+      "true_realized_all": 133458,
+      "true_realized_maj": -22646,
+      "n_closes": 634,
+      "active_days": 92.9,
+      "metric_normalized": "2026-06-19"
     },
     "0xeb47e64c3d12add1a175517619ede29fbc4a9f1d": {
       "address": "0xeb47e64c3d12add1a175517619ede29fbc4a9f1d",
@@ -29831,8 +30452,8 @@
       "current": {
         "date": "2026-06-17",
         "metric_category": "nansen-pro",
-        "total_pnl": 132349.547685,
-        "win_rate": null,
+        "total_pnl": 225621,
+        "win_rate": 0.8667,
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
@@ -29841,7 +30462,12 @@
       "active_to": "2026-06-05",
       "trade_days": 822,
       "active14": false,
-      "last_fill": 1780689059734
+      "last_fill": 1780689059734,
+      "true_realized_all": 252865,
+      "true_realized_maj": 225621,
+      "n_closes": 225,
+      "active_days": 822.1,
+      "metric_normalized": "2026-06-19"
     },
     "0x35c60b52f146d971f2d7ed456c8f3d4893682a92": {
       "address": "0x35c60b52f146d971f2d7ed456c8f3d4893682a92",
@@ -29881,8 +30507,8 @@
       "current": {
         "date": "2026-06-17",
         "metric_category": "nansen-pro",
-        "total_pnl": 130034.230656,
-        "win_rate": null,
+        "total_pnl": 30281,
+        "win_rate": 1.0,
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
@@ -29891,7 +30517,12 @@
       "active_to": "2026-03-12",
       "trade_days": 263,
       "active14": false,
-      "last_fill": 1773319267355
+      "last_fill": 1773319267355,
+      "true_realized_all": 113163,
+      "true_realized_maj": 30281,
+      "n_closes": 7,
+      "active_days": 195.2,
+      "metric_normalized": "2026-06-19"
     },
     "0xf94b346387ae5f1ae84bf10e36008cb552ca82d5": {
       "address": "0xf94b346387ae5f1ae84bf10e36008cb552ca82d5",
@@ -30106,7 +30737,7 @@
       "active_from": "2025-04-03",
       "active_to": "2026-06-11",
       "trade_days": 433,
-      "active14": true,
+      "active14": false,
       "true_realized_all": 379662,
       "true_realized_maj": 303003,
       "n_closes": 731,
@@ -30317,8 +30948,8 @@
       "current": {
         "date": "2026-06-17",
         "metric_category": "nansen-pro",
-        "total_pnl": 111760.540042,
-        "win_rate": null,
+        "total_pnl": -65993,
+        "win_rate": 0.4094,
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
@@ -30326,8 +30957,13 @@
       "active_from": "2025-08-16",
       "active_to": "2026-06-18",
       "trade_days": 306,
-      "active14": true,
-      "last_fill": 1781791049504
+      "active14": false,
+      "last_fill": 1781791049504,
+      "true_realized_all": 398180,
+      "true_realized_maj": -65993,
+      "n_closes": 171,
+      "active_days": 288.7,
+      "metric_normalized": "2026-06-19"
     },
     "0xdc5289909be4f3ce2604806bdd1448fd307f19f5": {
       "address": "0xdc5289909be4f3ce2604806bdd1448fd307f19f5",
@@ -30477,8 +31113,8 @@
       "current": {
         "date": "2026-06-17",
         "metric_category": "nansen-pro",
-        "total_pnl": 107499.59489,
-        "win_rate": null,
+        "total_pnl": -157339,
+        "win_rate": 0.5707,
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
@@ -30486,8 +31122,13 @@
       "active_from": "2025-05-22",
       "active_to": "2026-06-18",
       "trade_days": 391,
-      "active14": true,
-      "last_fill": 1781752172312
+      "active14": false,
+      "last_fill": 1781752172312,
+      "true_realized_all": 208245,
+      "true_realized_maj": -157339,
+      "n_closes": 2425,
+      "active_days": 371.4,
+      "metric_normalized": "2026-06-19"
     },
     "0xb4eac34db4f9d1270d078495d367cb2e587cf6e8": {
       "address": "0xb4eac34db4f9d1270d078495d367cb2e587cf6e8",
@@ -30536,7 +31177,7 @@
       "active_from": "2025-02-17",
       "active_to": "2026-06-10",
       "trade_days": 477,
-      "active14": true,
+      "active14": false,
       "true_realized_all": 294160,
       "true_realized_maj": -9386,
       "n_closes": 186,
@@ -30645,7 +31286,7 @@
       },
       "active_to": "2026-06-16",
       "active_from": "2025-11-24",
-      "active14": true,
+      "active14": false,
       "true_realized_all": 118089,
       "true_realized_maj": 70,
       "n_closes": 3,
@@ -30823,7 +31464,7 @@
       "active_from": "2025-08-25",
       "active_to": "2026-06-12",
       "trade_days": 291,
-      "active14": true,
+      "active14": false,
       "true_realized_all": -100708,
       "true_realized_maj": -205055,
       "n_closes": 11990,
@@ -30934,7 +31575,7 @@
       "active_from": "2025-08-28",
       "active_to": "2026-06-18",
       "trade_days": 293,
-      "active14": true,
+      "active14": false,
       "true_realized_all": 125990,
       "true_realized_maj": 3193,
       "n_closes": 37,
@@ -30989,7 +31630,7 @@
       "active_from": "2026-01-13",
       "active_to": "2026-06-15",
       "trade_days": 152,
-      "active14": true,
+      "active14": false,
       "true_realized_all": 37344,
       "true_realized_maj": 703,
       "n_closes": 1,
@@ -31146,7 +31787,7 @@
       "current": {
         "date": "2026-06-17",
         "metric_category": "nansen-pro",
-        "total_pnl": 101082.21490700005,
+        "total_pnl": 0,
         "win_rate": null,
         "dir_accuracy": null,
         "insider_likelihood": null,
@@ -31156,7 +31797,12 @@
       "active_to": "2026-06-19",
       "trade_days": 10,
       "active14": true,
-      "last_fill": 1781859216221
+      "last_fill": 1781859216221,
+      "true_realized_all": -10715,
+      "true_realized_maj": 0,
+      "n_closes": 0,
+      "active_days": null,
+      "metric_normalized": "2026-06-19"
     },
     "0x18b9beef58b9025a394a46fd8124ee1d917d8b3e": {
       "address": "0x18b9beef58b9025a394a46fd8124ee1d917d8b3e",
@@ -31196,8 +31842,8 @@
       "current": {
         "date": "2026-06-17",
         "metric_category": "nansen-pro",
-        "total_pnl": 100706.266461,
-        "win_rate": null,
+        "total_pnl": 18619,
+        "win_rate": 0.5946,
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
@@ -31205,8 +31851,13 @@
       "active_from": "2025-10-01",
       "active_to": "2026-06-12",
       "trade_days": 253,
-      "active14": true,
-      "last_fill": 1781286079169
+      "active14": false,
+      "last_fill": 1781286079169,
+      "true_realized_all": 138070,
+      "true_realized_maj": 18619,
+      "n_closes": 222,
+      "active_days": 226.2,
+      "metric_normalized": "2026-06-19"
     },
     "0x43266d5bc6f38e2744ca3fc47ddf1cb3db167cb3": {
       "address": "0x43266d5bc6f38e2744ca3fc47ddf1cb3db167cb3",
@@ -31246,8 +31897,8 @@
       "current": {
         "date": "2026-06-17",
         "metric_category": "nansen-pro",
-        "total_pnl": 99596.033335,
-        "win_rate": null,
+        "total_pnl": -7822,
+        "win_rate": 0.3322,
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
@@ -31256,7 +31907,12 @@
       "active_to": "2026-06-03",
       "trade_days": 84,
       "active14": false,
-      "last_fill": 1780444800019
+      "last_fill": 1780444800019,
+      "true_realized_all": 64263,
+      "true_realized_maj": -7822,
+      "n_closes": 292,
+      "active_days": 0.9,
+      "metric_normalized": "2026-06-19"
     },
     "0x774f28fc243d6aa8787506869643fb4698bd2133": {
       "address": "0x774f28fc243d6aa8787506869643fb4698bd2133",
@@ -31296,17 +31952,22 @@
       "current": {
         "date": "2026-06-17",
         "metric_category": "nansen-pro",
-        "total_pnl": 99572.75711,
-        "win_rate": null,
+        "total_pnl": -10071,
+        "win_rate": 0.0,
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
       },
       "active_to": "2026-06-19",
       "active_from": "2025-08-01",
-      "active14": true,
+      "active14": false,
       "trade_days": 321,
-      "last_fill": 1781838761574
+      "last_fill": 1781838761574,
+      "true_realized_all": -8012,
+      "true_realized_maj": -10071,
+      "n_closes": 18,
+      "active_days": 10.0,
+      "metric_normalized": "2026-06-19"
     },
     "0x4f94ce187abbcf2cb71e1d70d6ed42e0479df861": {
       "address": "0x4f94ce187abbcf2cb71e1d70d6ed42e0479df861",
@@ -31346,8 +32007,8 @@
       "current": {
         "date": "2026-06-17",
         "metric_category": "nansen-pro",
-        "total_pnl": 99511.437182,
-        "win_rate": null,
+        "total_pnl": -8,
+        "win_rate": 0.0,
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
@@ -31356,7 +32017,12 @@
       "active_to": "2026-02-25",
       "trade_days": 21,
       "active14": false,
-      "last_fill": 1772063249809
+      "last_fill": 1772063249809,
+      "true_realized_all": 44221,
+      "true_realized_maj": -8,
+      "n_closes": 1,
+      "active_days": 0.9,
+      "metric_normalized": "2026-06-19"
     },
     "0xd91f2df982c453b23a37d16a2e5bd8964fda7ad6": {
       "address": "0xd91f2df982c453b23a37d16a2e5bd8964fda7ad6",
@@ -31396,8 +32062,8 @@
       "current": {
         "date": "2026-06-17",
         "metric_category": "nansen-pro",
-        "total_pnl": 99315.582693,
-        "win_rate": null,
+        "total_pnl": -8992,
+        "win_rate": 0.0,
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
@@ -31405,8 +32071,13 @@
       "active_from": "2025-05-23",
       "active_to": "2026-06-13",
       "trade_days": 385,
-      "active14": true,
-      "last_fill": 1781310995840
+      "active14": false,
+      "last_fill": 1781310995840,
+      "true_realized_all": 315375,
+      "true_realized_maj": -8992,
+      "n_closes": 6,
+      "active_days": 0.1,
+      "metric_normalized": "2026-06-19"
     },
     "0xeeaf4055e581dae6a4eaea0a66181ecb207787f1": {
       "address": "0xeeaf4055e581dae6a4eaea0a66181ecb207787f1",
@@ -32161,8 +32832,8 @@
       "current": {
         "date": "2026-06-17",
         "metric_category": "nansen-pro",
-        "total_pnl": 89762.257741,
-        "win_rate": null,
+        "total_pnl": -1588,
+        "win_rate": 0.0,
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
@@ -32171,7 +32842,12 @@
       "active_to": "2026-05-29",
       "trade_days": 51,
       "active14": false,
-      "last_fill": 1780078430484
+      "last_fill": 1780078430484,
+      "true_realized_all": 5433,
+      "true_realized_maj": -1588,
+      "n_closes": 11,
+      "active_days": 1.0,
+      "metric_normalized": "2026-06-19"
     },
     "0xd51b48fa7b9c4e408aa42eb7ad0b87ce73110d9e": {
       "address": "0xd51b48fa7b9c4e408aa42eb7ad0b87ce73110d9e",
@@ -32266,8 +32942,8 @@
       "current": {
         "date": "2026-06-17",
         "metric_category": "nansen-pro",
-        "total_pnl": 87914.947797,
-        "win_rate": null,
+        "total_pnl": -41475,
+        "win_rate": 0.4972,
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
@@ -32276,7 +32952,12 @@
       "active_to": "2026-02-05",
       "trade_days": 28,
       "active14": false,
-      "last_fill": 1770323785184
+      "last_fill": 1770323785184,
+      "true_realized_all": -29150,
+      "true_realized_maj": -41475,
+      "n_closes": 712,
+      "active_days": 28.6,
+      "metric_normalized": "2026-06-19"
     },
     "0x197d0b8d520667f6a14ce98215c2f945e6cd3ccc": {
       "address": "0x197d0b8d520667f6a14ce98215c2f945e6cd3ccc",
@@ -32325,7 +33006,7 @@
       "active_from": "2025-09-11",
       "active_to": "2026-06-14",
       "trade_days": 275,
-      "active14": true,
+      "active14": false,
       "true_realized_all": 11695,
       "true_realized_maj": 3,
       "n_closes": 1,
@@ -32380,7 +33061,7 @@
       "active_from": "2025-12-24",
       "active_to": "2026-06-16",
       "trade_days": 173,
-      "active14": true,
+      "active14": false,
       "true_realized_all": 65823,
       "true_realized_maj": 0,
       "n_closes": 1,
@@ -32435,7 +33116,7 @@
       "active_from": "2025-04-21",
       "active_to": "2026-06-17",
       "trade_days": 422,
-      "active14": true,
+      "active14": false,
       "true_realized_all": 206714,
       "true_realized_maj": -24322,
       "n_closes": 228,
@@ -32490,7 +33171,7 @@
       "active_from": "2026-03-06",
       "active_to": "2026-06-15",
       "trade_days": 100,
-      "active14": true,
+      "active14": false,
       "true_realized_all": -233435,
       "true_realized_maj": -654,
       "n_closes": 9,
@@ -32545,7 +33226,7 @@
       "active_from": "2024-01-10",
       "active_to": "2026-06-15",
       "trade_days": 886,
-      "active14": true,
+      "active14": false,
       "true_realized_all": 171894,
       "true_realized_maj": 47427,
       "n_closes": 1337,
@@ -32601,7 +33282,7 @@
       "active_from": "2024-03-04",
       "active_to": "2026-06-16",
       "trade_days": 834,
-      "active14": true,
+      "active14": false,
       "first_funders": [
         {
           "address": "0xf89d7b9c864f589bbf53a82105107622b35eaa40",
@@ -32659,8 +33340,8 @@
       "current": {
         "date": "2026-06-17",
         "metric_category": "nansen-pro",
-        "total_pnl": 79647.35572300002,
-        "win_rate": null,
+        "total_pnl": 90,
+        "win_rate": 0.8193,
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
@@ -32669,7 +33350,12 @@
       "active_from": "2025-10-10",
       "active14": true,
       "trade_days": 249,
-      "last_fill": 1781722268870
+      "last_fill": 1781722268870,
+      "true_realized_all": 164324,
+      "true_realized_maj": 90,
+      "n_closes": 166,
+      "active_days": 201.7,
+      "metric_normalized": "2026-06-19"
     },
     "0x9ced04fe0e69d8daf0a7a8c85e22c64b8f240238": {
       "address": "0x9ced04fe0e69d8daf0a7a8c85e22c64b8f240238",
@@ -32709,8 +33395,8 @@
       "current": {
         "date": "2026-06-17",
         "metric_category": "nansen-pro",
-        "total_pnl": 76386.736835,
-        "win_rate": null,
+        "total_pnl": -593,
+        "win_rate": 0.7143,
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
@@ -32719,7 +33405,12 @@
       "active_from": "2026-01-09",
       "active_to": "2026-04-24",
       "trade_days": 105,
-      "last_fill": 1777058867966
+      "last_fill": 1777058867966,
+      "true_realized_all": 130683,
+      "true_realized_maj": -593,
+      "n_closes": 154,
+      "active_days": 59.3,
+      "metric_normalized": "2026-06-19"
     },
     "0x1e5cf44f64a66dae56104ed91bf15f6147200ac1": {
       "address": "0x1e5cf44f64a66dae56104ed91bf15f6147200ac1",
@@ -32759,7 +33450,7 @@
       "current": {
         "date": "2026-06-17",
         "metric_category": "nansen-pro",
-        "total_pnl": 76187.849264,
+        "total_pnl": 0,
         "win_rate": null,
         "dir_accuracy": null,
         "insider_likelihood": null,
@@ -32769,7 +33460,12 @@
       "active_to": "2026-06-18",
       "trade_days": 544,
       "active14": true,
-      "last_fill": 1781740800025
+      "last_fill": 1781740800025,
+      "true_realized_all": 212307,
+      "true_realized_maj": 0,
+      "n_closes": 0,
+      "active_days": null,
+      "metric_normalized": "2026-06-19"
     },
     "0xfb187eeacb952079b99f1acf6d5e9a97d0c5892f": {
       "address": "0xfb187eeacb952079b99f1acf6d5e9a97d0c5892f",
@@ -32809,8 +33505,8 @@
       "current": {
         "date": "2026-06-17",
         "metric_category": "nansen-pro",
-        "total_pnl": 72831.233607,
-        "win_rate": null,
+        "total_pnl": -256654,
+        "win_rate": 0.1378,
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
@@ -32819,7 +33515,12 @@
       "active_to": "2026-04-23",
       "trade_days": 204,
       "active14": false,
-      "last_fill": 1776978291539
+      "last_fill": 1776978291539,
+      "true_realized_all": -175330,
+      "true_realized_maj": -256654,
+      "n_closes": 1662,
+      "active_days": 116.7,
+      "metric_normalized": "2026-06-19"
     },
     "0x1847dc422b9dea349e8af7d02cb3a136cd81f441": {
       "address": "0x1847dc422b9dea349e8af7d02cb3a136cd81f441",
@@ -32859,8 +33560,8 @@
       "current": {
         "date": "2026-06-17",
         "metric_category": "nansen-pro",
-        "total_pnl": 70343.223753,
-        "win_rate": null,
+        "total_pnl": 85942,
+        "win_rate": 1.0,
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
@@ -32869,7 +33570,12 @@
       "active_to": "2026-06-05",
       "trade_days": 489,
       "active14": false,
-      "last_fill": 1780653024281
+      "last_fill": 1780653024281,
+      "true_realized_all": -32157,
+      "true_realized_maj": 85942,
+      "n_closes": 137,
+      "active_days": 0.1,
+      "metric_normalized": "2026-06-19"
     },
     "0x1fd2166beff4b06230f053dd0de8a40cd925ff66": {
       "address": "0x1fd2166beff4b06230f053dd0de8a40cd925ff66",
@@ -32918,7 +33624,7 @@
       "active_from": "2025-07-10",
       "active_to": "2026-06-15",
       "trade_days": 340,
-      "active14": true,
+      "active14": false,
       "true_realized_all": 274283,
       "true_realized_maj": 17880,
       "n_closes": 270,
@@ -33084,7 +33790,7 @@
       "active_from": "2024-12-23",
       "active_to": "2026-06-17",
       "trade_days": 541,
-      "active14": true,
+      "active14": false,
       "true_realized_all": 158071,
       "true_realized_maj": 86346,
       "n_closes": 271,
@@ -33138,7 +33844,7 @@
       },
       "active_to": "2026-06-18",
       "active_from": "2024-12-23",
-      "active14": true,
+      "active14": false,
       "true_realized_all": 116009,
       "true_realized_maj": 5800,
       "n_closes": 147,
@@ -33195,7 +33901,7 @@
       "active_from": "2025-04-10",
       "active_to": "2026-06-16",
       "trade_days": 431,
-      "active14": true,
+      "active14": false,
       "true_realized_all": 128777,
       "true_realized_maj": -7,
       "n_closes": 2,
@@ -33250,7 +33956,7 @@
       "active_from": "2025-08-05",
       "active_to": "2026-06-10",
       "trade_days": 309,
-      "active14": true,
+      "active14": false,
       "true_realized_all": 1075347,
       "true_realized_maj": 872376,
       "n_closes": 2364,
@@ -33351,8 +34057,8 @@
       "current": {
         "date": "2026-06-17",
         "metric_category": "nansen-pro",
-        "total_pnl": 65315.290853,
-        "win_rate": null,
+        "total_pnl": 151624,
+        "win_rate": 0.6652,
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
@@ -33361,7 +34067,12 @@
       "active_to": "2026-06-13",
       "trade_days": 294,
       "active14": true,
-      "last_fill": 1781382754285
+      "last_fill": 1781382754285,
+      "true_realized_all": 150692,
+      "true_realized_maj": 151624,
+      "n_closes": 699,
+      "active_days": 294.4,
+      "metric_normalized": "2026-06-19"
     },
     "0x5c90517b85ae5a59a49072b0ce09e7af4b2b44ce": {
       "address": "0x5c90517b85ae5a59a49072b0ce09e7af4b2b44ce",
@@ -33401,8 +34112,8 @@
       "current": {
         "date": "2026-06-17",
         "metric_category": "nansen-pro",
-        "total_pnl": 65142.656539,
-        "win_rate": null,
+        "total_pnl": 47029,
+        "win_rate": 1.0,
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
@@ -33411,7 +34122,12 @@
       "active_to": "2026-06-04",
       "trade_days": 252,
       "active14": false,
-      "last_fill": 1780560550731
+      "last_fill": 1780560550731,
+      "true_realized_all": 163327,
+      "true_realized_maj": 47029,
+      "n_closes": 149,
+      "active_days": 10.5,
+      "metric_normalized": "2026-06-19"
     },
     "0xe41aa443bad860e6b584060cc365b58dc34caf92": {
       "address": "0xe41aa443bad860e6b584060cc365b58dc34caf92",
@@ -33451,8 +34167,8 @@
       "current": {
         "date": "2026-06-17",
         "metric_category": "nansen-pro",
-        "total_pnl": 64298.116372,
-        "win_rate": null,
+        "total_pnl": -47544,
+        "win_rate": 0.0,
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
@@ -33461,7 +34177,12 @@
       "active_to": "2026-05-05",
       "trade_days": 298,
       "active14": false,
-      "last_fill": 1777988508354
+      "last_fill": 1777988508354,
+      "true_realized_all": 362858,
+      "true_realized_maj": -47544,
+      "n_closes": 46,
+      "active_days": 205.3,
+      "metric_normalized": "2026-06-19"
     },
     "0x39c7d05e24cf5ee0e24ed687783b55a3b1620e4f": {
       "address": "0x39c7d05e24cf5ee0e24ed687783b55a3b1620e4f",
@@ -33565,7 +34286,7 @@
       "active_from": "2025-03-31",
       "active_to": "2026-06-10",
       "trade_days": 436,
-      "active14": true,
+      "active14": false,
       "true_realized_all": 421264,
       "true_realized_maj": 7718,
       "n_closes": 146,
@@ -33785,7 +34506,7 @@
       "active_from": "2024-01-14",
       "active_to": "2026-06-08",
       "trade_days": 876,
-      "active14": true,
+      "active14": false,
       "true_realized_all": 175578,
       "true_realized_maj": 10596,
       "n_closes": 39,
@@ -34051,8 +34772,8 @@
       "current": {
         "date": "2026-06-17",
         "metric_category": "nansen-pro",
-        "total_pnl": 58295.339291,
-        "win_rate": null,
+        "total_pnl": 172750,
+        "win_rate": 0.6177,
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
@@ -34061,7 +34782,12 @@
       "active_to": "2026-04-13",
       "trade_days": 412,
       "active14": false,
-      "last_fill": 1776038400013
+      "last_fill": 1776038400013,
+      "true_realized_all": -26799,
+      "true_realized_maj": 172750,
+      "n_closes": 1873,
+      "active_days": 354.9,
+      "metric_normalized": "2026-06-19"
     },
     "0x9db82c502472d76742fdd69609dfcc6e01327401": {
       "address": "0x9db82c502472d76742fdd69609dfcc6e01327401",
@@ -34101,8 +34827,8 @@
       "current": {
         "date": "2026-06-17",
         "metric_category": "nansen-pro",
-        "total_pnl": 56114.170319,
-        "win_rate": null,
+        "total_pnl": 37,
+        "win_rate": 0.6667,
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
@@ -34110,8 +34836,13 @@
       "active_from": "2026-02-12",
       "active_to": "2026-06-19",
       "trade_days": 126,
-      "active14": true,
-      "last_fill": 1781856849037
+      "active14": false,
+      "last_fill": 1781856849037,
+      "true_realized_all": 90401,
+      "true_realized_maj": 37,
+      "n_closes": 3,
+      "active_days": 31.3,
+      "metric_normalized": "2026-06-19"
     },
     "0xd50557a9b9289bec1893a40655c2a5a7014b7337": {
       "address": "0xd50557a9b9289bec1893a40655c2a5a7014b7337",
@@ -34151,7 +34882,7 @@
       "current": {
         "date": "2026-06-17",
         "metric_category": "nansen-pro",
-        "total_pnl": 56069.528528,
+        "total_pnl": 0,
         "win_rate": null,
         "dir_accuracy": null,
         "insider_likelihood": null,
@@ -34161,7 +34892,12 @@
       "active_to": "2026-05-08",
       "trade_days": 38,
       "active14": false,
-      "last_fill": 1778264145392
+      "last_fill": 1778264145392,
+      "true_realized_all": 56070,
+      "true_realized_maj": 0,
+      "n_closes": 0,
+      "active_days": null,
+      "metric_normalized": "2026-06-19"
     },
     "0xb90598c673fc368e1ec34fdeda2320b83fa1a6e5": {
       "address": "0xb90598c673fc368e1ec34fdeda2320b83fa1a6e5",
@@ -34201,8 +34937,8 @@
       "current": {
         "date": "2026-06-17",
         "metric_category": "nansen-pro",
-        "total_pnl": 56028.92734599999,
-        "win_rate": null,
+        "total_pnl": -39580,
+        "win_rate": 0.4392,
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
@@ -34211,7 +34947,12 @@
       "active_to": "2026-06-18",
       "trade_days": 104,
       "active14": true,
-      "last_fill": 1781801830707
+      "last_fill": 1781801830707,
+      "true_realized_all": 101301,
+      "true_realized_maj": -39580,
+      "n_closes": 337,
+      "active_days": 104.8,
+      "metric_normalized": "2026-06-19"
     },
     "0x6e9989debf991affd8dfe4a73efcbfc8cb658473": {
       "address": "0x6e9989debf991affd8dfe4a73efcbfc8cb658473",
@@ -34260,7 +35001,7 @@
       "active_from": "2025-06-20",
       "active_to": "2026-06-17",
       "trade_days": 362,
-      "active14": true,
+      "active14": false,
       "true_realized_all": 395490,
       "true_realized_maj": 127934,
       "n_closes": 2935,
@@ -34371,7 +35112,7 @@
       "active_from": "2024-04-19",
       "active_to": "2026-06-17",
       "trade_days": 789,
-      "active14": true,
+      "active14": false,
       "true_realized_all": 84620,
       "true_realized_maj": 14542,
       "n_closes": 117,
@@ -34582,8 +35323,8 @@
       "current": {
         "date": "2026-06-17",
         "metric_category": "nansen-pro",
-        "total_pnl": 52633.867906,
-        "win_rate": null,
+        "total_pnl": 1806,
+        "win_rate": 0.625,
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
@@ -34591,8 +35332,13 @@
       "active_from": "2025-09-07",
       "active_to": "2026-06-18",
       "trade_days": 284,
-      "active14": true,
-      "last_fill": 1781800975492
+      "active14": false,
+      "last_fill": 1781800975492,
+      "true_realized_all": 133085,
+      "true_realized_maj": 1806,
+      "n_closes": 16,
+      "active_days": 48.2,
+      "metric_normalized": "2026-06-19"
     },
     "0xe4227d5d418d2a8be327a6470f66837ac9e49fdb": {
       "address": "0xe4227d5d418d2a8be327a6470f66837ac9e49fdb",
@@ -34687,8 +35433,8 @@
       "current": {
         "date": "2026-06-17",
         "metric_category": "nansen-pro",
-        "total_pnl": 52399.245693000004,
-        "win_rate": null,
+        "total_pnl": 418126,
+        "win_rate": 0.8843,
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
@@ -34697,7 +35443,12 @@
       "active_to": "2026-01-31",
       "trade_days": 164,
       "active14": false,
-      "last_fill": 1769869754135
+      "last_fill": 1769869754135,
+      "true_realized_all": 429616,
+      "true_realized_maj": 418126,
+      "n_closes": 1833,
+      "active_days": 164.8,
+      "metric_normalized": "2026-06-19"
     },
     "0xac45086d25bdb4e25a9db3ded7ad36d3044e6c33": {
       "address": "0xac45086d25bdb4e25a9db3ded7ad36d3044e6c33",
@@ -34738,8 +35489,8 @@
       "current": {
         "date": "2026-06-17",
         "metric_category": "nansen-pro",
-        "total_pnl": 52371.242307,
-        "win_rate": null,
+        "total_pnl": 32095,
+        "win_rate": 0.899,
         "dir_accuracy": null,
         "insider_likelihood": null,
         "avg_hold_h": null
@@ -34748,7 +35499,12 @@
       "active_to": "2026-06-18",
       "trade_days": 269,
       "active14": true,
-      "last_fill": 1781795643706
+      "last_fill": 1781795643706,
+      "true_realized_all": -365977,
+      "true_realized_maj": 32095,
+      "n_closes": 287,
+      "active_days": 173.1,
+      "metric_normalized": "2026-06-19"
     },
     "0x1e6db0fdf1a0f6edb78753184eb0fe5485c2eef2": {
       "address": "0x1e6db0fdf1a0f6edb78753184eb0fe5485c2eef2",
@@ -34806,7 +35562,7 @@
       "active_from": "2024-11-29",
       "active_to": "2026-06-10",
       "trade_days": 558,
-      "active14": true,
+      "active14": false,
       "first_funders": [
         {
           "address": "0x0938c63109801ee4243a487ab84dffa2bba4589e",
@@ -34989,7 +35745,7 @@
       "active_from": "2025-05-10",
       "active_to": "2026-06-11",
       "trade_days": 396,
-      "active14": true,
+      "active14": false,
       "true_realized_all": 203907,
       "true_realized_maj": 110748,
       "n_closes": 2371,
@@ -35279,7 +36035,7 @@
         "metric_category": "hl-verified",
         "win_rate": 0.6089,
         "dir_accuracy": 0.3522,
-        "total_pnl": 985536,
+        "total_pnl": 147382,
         "event_lead_notional": 300002,
         "insider_likelihood": null,
         "avg_hold_h": null
@@ -35353,7 +36109,12 @@
       "active14": false,
       "wf_confidence": 0.08,
       "wf_verdict": "debunked",
-      "last_fill": 1780677227176
+      "last_fill": 1780677227176,
+      "true_realized_all": 1161795,
+      "true_realized_maj": 147382,
+      "n_closes": 721,
+      "active_days": 202.5,
+      "metric_normalized": "2026-06-19"
     },
     "0x6f7d75c18e8ca7f486eb4d2690abf7b329087062": {
       "address": "0x6f7d75c18e8ca7f486eb4d2690abf7b329087062",
@@ -35380,9 +36141,9 @@
       "current": {
         "date": "2026-06-17",
         "metric_category": "hl-verified",
-        "win_rate": 0.9047,
+        "win_rate": 0.9048,
         "dir_accuracy": 0.5636,
-        "total_pnl": 3634965,
+        "total_pnl": 3646262,
         "event_lead_notional": 225423,
         "insider_likelihood": null,
         "avg_hold_h": null
@@ -35425,7 +36186,12 @@
       "wf2_verdict": "debunked",
       "wf2_confidence": 0.05,
       "wf2_checked": "2026-06-17",
-      "last_fill": 1775032267277
+      "last_fill": 1775032267277,
+      "true_realized_all": 3646262,
+      "true_realized_maj": 3646262,
+      "n_closes": 1092,
+      "active_days": 191.8,
+      "metric_normalized": "2026-06-19"
     },
     "0x4eebd8d39e82efb958e0fa9f694435c910c8518f": {
       "address": "0x4eebd8d39e82efb958e0fa9f694435c910c8518f",
@@ -35700,7 +36466,7 @@
       "active_from": "2025-10-28",
       "active_to": "2026-06-06",
       "trade_days": 220,
-      "active14": true,
+      "active14": false,
       "true_realized_all": 5495320,
       "true_realized_maj": 2617274,
       "n_closes": 7781,
@@ -36828,7 +37594,7 @@
       "active_from": "2025-11-05",
       "active_to": "2026-06-15",
       "trade_days": 221,
-      "active14": true,
+      "active14": false,
       "pro_score_old": 0.385,
       "pro_tier_old": "B",
       "true_realized_all": 823517,
@@ -37687,7 +38453,7 @@
       ],
       "hl_checked": "2026-06-18",
       "nansen_checked": "2026-06-18",
-      "active14": true,
+      "active14": false,
       "trade_days": 563,
       "n_closes": 3927,
       "realized_majors": -1713912,
@@ -37803,7 +38569,7 @@
       ],
       "hl_checked": "2026-06-18",
       "nansen_checked": "2026-06-18",
-      "active14": true,
+      "active14": false,
       "trade_days": 511,
       "n_closes": 4274,
       "realized_majors": 263157,
@@ -38006,7 +38772,7 @@
       ],
       "hl_checked": "2026-06-18",
       "nansen_checked": "2026-06-18",
-      "active14": true,
+      "active14": false,
       "trade_days": 885,
       "n_closes": 1006,
       "realized_majors": -616388,
@@ -38136,7 +38902,7 @@
       ],
       "hl_checked": "2026-06-18",
       "nansen_checked": "2026-06-18",
-      "active14": true,
+      "active14": false,
       "trade_days": 550,
       "n_closes": 1674,
       "realized_majors": 1312009,
@@ -38328,7 +39094,7 @@
       ],
       "hl_checked": "2026-06-18",
       "nansen_checked": "2026-06-18",
-      "active14": true,
+      "active14": false,
       "trade_days": 380,
       "n_closes": 667,
       "realized_majors": 586795,
@@ -38410,7 +39176,7 @@
       ],
       "hl_checked": "2026-06-18",
       "nansen_checked": "2026-06-18",
-      "active14": true,
+      "active14": false,
       "trade_days": 887,
       "n_closes": 670,
       "realized_majors": 5187,
@@ -38468,7 +39234,7 @@
       ],
       "hl_checked": "2026-06-18",
       "nansen_checked": "2026-06-18",
-      "active14": true,
+      "active14": false,
       "trade_days": 865,
       "n_closes": 226,
       "realized_majors": 28292,
@@ -38698,7 +39464,7 @@
       ],
       "hl_checked": "2026-06-19",
       "nansen_checked": "2026-06-19",
-      "active14": true,
+      "active14": false,
       "trade_days": 697,
       "n_closes": 4339,
       "realized_majors": 100389,
@@ -38804,7 +39570,7 @@
       ],
       "hl_checked": "2026-06-19",
       "nansen_checked": "2026-06-19",
-      "active14": true,
+      "active14": false,
       "trade_days": 1128,
       "n_closes": 263,
       "realized_majors": 58901,
@@ -39092,7 +39858,7 @@
       ],
       "hl_checked": "2026-06-19",
       "nansen_checked": "2026-06-19",
-      "active14": true,
+      "active14": false,
       "trade_days": 435,
       "n_closes": 3509,
       "realized_majors": 309839,

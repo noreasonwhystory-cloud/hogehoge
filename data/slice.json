@@ -1,0 +1,788 @@
+[
+ {
+  "address": "0xbec5dab4a914d9c9d28dfc4aa120be59ab7b010f",
+  "position": "除外/低優先",
+  "cached": true,
+  "win_rate": 0.6667,
+  "majors_realized": 2396,
+  "all_realized": 2375,
+  "cache_last": "2026-06-15",
+  "active14": true,
+  "active_to": "2026-06-15",
+  "trade_days": 56,
+  "wf_quality": null,
+  "wf_copy_worthy": null,
+  "tags": [
+   "取引あり(14d)"
+  ],
+  "labels": [],
+  "notes": ""
+ },
+ {
+  "address": "0xf47fe5f0f6c3ebfde365e34e6d15fb2ed4c39cdb",
+  "position": "除外/低優先",
+  "cached": true,
+  "win_rate": 0.4763,
+  "majors_realized": 6588,
+  "all_realized": 119380,
+  "cache_last": "2026-06-18",
+  "active14": true,
+  "active_to": "2026-06-18",
+  "trade_days": 252,
+  "wf_quality": null,
+  "wf_copy_worthy": null,
+  "tags": [
+   "取引あり(14d)"
+  ],
+  "labels": [],
+  "notes": ""
+ },
+ {
+  "address": "0x823c6b20c03f2e962da20a0024624473e7ca53a4",
+  "position": "除外/低優先",
+  "cached": true,
+  "win_rate": 0.2771,
+  "majors_realized": -29210,
+  "all_realized": -12710,
+  "cache_last": "2026-06-14",
+  "active14": true,
+  "active_to": "2026-06-14",
+  "trade_days": 136,
+  "wf_quality": null,
+  "wf_copy_worthy": null,
+  "tags": [
+   "取引あり(14d)"
+  ],
+  "labels": [],
+  "notes": ""
+ },
+ {
+  "address": "0x7806eeb0cdfb52dbe14ed12359526eea55612cf3",
+  "position": "除外/低優先",
+  "cached": true,
+  "win_rate": 0.2716,
+  "majors_realized": 2778,
+  "all_realized": 126455,
+  "cache_last": "2026-05-28",
+  "active14": false,
+  "active_to": "2026-05-28",
+  "trade_days": 80,
+  "wf_quality": null,
+  "wf_copy_worthy": null,
+  "tags": [
+   "取引なし(14d)"
+  ],
+  "labels": [],
+  "notes": ""
+ },
+ {
+  "address": "0x97b1419998d4c804336c6c22519d28277bacebd7",
+  "position": "除外/低優先",
+  "cached": true,
+  "win_rate": 0.0,
+  "majors_realized": -8312,
+  "all_realized": -2356,
+  "cache_last": "2026-03-20",
+  "active14": false,
+  "active_to": "2026-03-20",
+  "trade_days": 94,
+  "wf_quality": null,
+  "wf_copy_worthy": null,
+  "tags": [
+   "取引なし(14d)"
+  ],
+  "labels": [],
+  "notes": ""
+ },
+ {
+  "address": "0x35c0f299a35f927069521e0c3abfb5ee4cbb4c72",
+  "position": "除外/低優先",
+  "cached": true,
+  "win_rate": 0.5,
+  "majors_realized": -22755,
+  "all_realized": -62216,
+  "cache_last": "2026-06-18",
+  "active14": false,
+  "active_to": "2026-06-18",
+  "trade_days": 340,
+  "wf_quality": null,
+  "wf_copy_worthy": null,
+  "tags": [
+   "取引あり(14d)"
+  ],
+  "labels": [],
+  "notes": ""
+ },
+ {
+  "address": "0x56654885ad39155235336c0ff01b3337693c3882",
+  "position": "除外/低優先",
+  "cached": true,
+  "win_rate": 0.6253,
+  "majors_realized": -39066,
+  "all_realized": -12984,
+  "cache_last": "2026-06-18",
+  "active14": true,
+  "active_to": "2026-06-18",
+  "trade_days": 561,
+  "wf_quality": null,
+  "wf_copy_worthy": null,
+  "tags": [
+   "取引あり(14d)"
+  ],
+  "labels": [],
+  "notes": ""
+ },
+ {
+  "address": "0x29c792a175627a15c60f5288e55d1cf7d95f2157",
+  "position": "除外/低優先",
+  "cached": true,
+  "win_rate": 0.6765,
+  "majors_realized": 7698,
+  "all_realized": 18565,
+  "cache_last": "2026-06-19",
+  "active14": false,
+  "active_to": "2026-06-19",
+  "trade_days": 712,
+  "wf_quality": null,
+  "wf_copy_worthy": null,
+  "tags": [
+   "取引あり(14d)"
+  ],
+  "labels": [],
+  "notes": ""
+ },
+ {
+  "address": "0xaddc680878f96b93189f700d17f4a9bfcf80ff54",
+  "position": "除外/低優先",
+  "cached": true,
+  "win_rate": null,
+  "majors_realized": 0,
+  "all_realized": 310,
+  "cache_last": "2026-06-19",
+  "active14": true,
+  "active_to": "2026-06-19",
+  "trade_days": 43,
+  "wf_quality": null,
+  "wf_copy_worthy": null,
+  "tags": [
+   "取引あり(14d)"
+  ],
+  "labels": [],
+  "notes": ""
+ },
+ {
+  "address": "0x21735e9daea7d836536d346ee280789d912082f9",
+  "position": "除外/低優先",
+  "cached": true,
+  "win_rate": 0.5615,
+  "majors_realized": 138838,
+  "all_realized": 194791,
+  "cache_last": "2026-06-18",
+  "active14": true,
+  "active_to": "2026-06-18",
+  "trade_days": 6,
+  "wf_quality": null,
+  "wf_copy_worthy": null,
+  "tags": [
+   "取引あり(14d)"
+  ],
+  "labels": [],
+  "notes": ""
+ },
+ {
+  "address": "0x696adb8693ed15f14f8a80bb4f9fe061f58868db",
+  "position": "除外/低優先",
+  "cached": true,
+  "win_rate": 0.3912,
+  "majors_realized": 3665,
+  "all_realized": 123018,
+  "cache_last": "2026-06-18",
+  "active14": true,
+  "active_to": "2026-06-18",
+  "trade_days": 99,
+  "wf_quality": null,
+  "wf_copy_worthy": null,
+  "tags": [
+   "取引あり(14d)"
+  ],
+  "labels": [],
+  "notes": ""
+ },
+ {
+  "address": "0x2f01afc9f9437c4fcb8f2e8612c57bf522bcc81d",
+  "position": "除外/低優先",
+  "cached": true,
+  "win_rate": 0.9573,
+  "majors_realized": 313395,
+  "all_realized": 313406,
+  "cache_last": "2026-06-17",
+  "active14": true,
+  "active_to": "2026-06-17",
+  "trade_days": 260,
+  "wf_quality": null,
+  "wf_copy_worthy": null,
+  "tags": [
+   "取引あり(14d)"
+  ],
+  "labels": [],
+  "notes": ""
+ },
+ {
+  "address": "0xc568587857cc2895a3d83d00a05365ea92c62def",
+  "position": "除外/低優先",
+  "cached": true,
+  "win_rate": 0.1971,
+  "majors_realized": -3536,
+  "all_realized": 93074,
+  "cache_last": "2026-06-18",
+  "active14": true,
+  "active_to": "2026-06-18",
+  "trade_days": 31,
+  "wf_quality": null,
+  "wf_copy_worthy": null,
+  "tags": [
+   "取引あり(14d)"
+  ],
+  "labels": [],
+  "notes": ""
+ },
+ {
+  "address": "0xdb799415fd528a297949be13775e424b3122a5b0",
+  "position": "除外/低優先",
+  "cached": true,
+  "win_rate": null,
+  "majors_realized": 0,
+  "all_realized": 125079,
+  "cache_last": "2026-05-22",
+  "active14": false,
+  "active_to": "2026-05-22",
+  "trade_days": 38,
+  "wf_quality": null,
+  "wf_copy_worthy": null,
+  "tags": [
+   "取引なし(14d)"
+  ],
+  "labels": [],
+  "notes": ""
+ },
+ {
+  "address": "0xfe8c8076596dd917a20a31007ced69ce339129a1",
+  "position": "除外/低優先",
+  "cached": true,
+  "win_rate": 0.5158,
+  "majors_realized": 108969,
+  "all_realized": 183463,
+  "cache_last": "2026-06-19",
+  "active14": false,
+  "active_to": "2026-06-19",
+  "trade_days": 516,
+  "wf_quality": null,
+  "wf_copy_worthy": null,
+  "tags": [
+   "取引あり(14d)"
+  ],
+  "labels": [],
+  "notes": ""
+ },
+ {
+  "address": "0x79f2bb1fc86a1f0592fb30aa6a369a24a7fd2361",
+  "position": "除外/低優先",
+  "cached": true,
+  "win_rate": 0.3453,
+  "majors_realized": -15951,
+  "all_realized": 32168,
+  "cache_last": "2026-06-19",
+  "active14": true,
+  "active_to": "2026-06-19",
+  "trade_days": 45,
+  "wf_quality": null,
+  "wf_copy_worthy": null,
+  "tags": [
+   "取引あり(14d)"
+  ],
+  "labels": [],
+  "notes": ""
+ },
+ {
+  "address": "0x51651b81c895e654e5402a3fc371e3b60b0dfb1e",
+  "position": "除外/低優先",
+  "cached": true,
+  "win_rate": 0.5136,
+  "majors_realized": 53858,
+  "all_realized": 216285,
+  "cache_last": "2025-02-08",
+  "active14": false,
+  "active_to": "2025-02-08",
+  "trade_days": 373,
+  "wf_quality": null,
+  "wf_copy_worthy": null,
+  "tags": [
+   "取引なし(14d)"
+  ],
+  "labels": [],
+  "notes": ""
+ },
+ {
+  "address": "0x8e6f0cd563201cae5095795d691cda21d1fbed09",
+  "position": "除外/低優先",
+  "cached": true,
+  "win_rate": 0.2222,
+  "majors_realized": 12,
+  "all_realized": 25327,
+  "cache_last": "2026-06-14",
+  "active14": false,
+  "active_to": "2026-06-14",
+  "trade_days": 278,
+  "wf_quality": null,
+  "wf_copy_worthy": null,
+  "tags": [
+   "取引あり(14d)"
+  ],
+  "labels": [],
+  "notes": ""
+ },
+ {
+  "address": "0x014bd1b946287bfdd8afe1d8833103c3baa36d74",
+  "position": "除外/低優先",
+  "cached": true,
+  "win_rate": 0.0,
+  "majors_realized": -1636,
+  "all_realized": 51583,
+  "cache_last": "2026-06-18",
+  "active14": true,
+  "active_to": "2026-06-18",
+  "trade_days": 341,
+  "wf_quality": null,
+  "wf_copy_worthy": null,
+  "tags": [
+   "取引あり(14d)"
+  ],
+  "labels": [],
+  "notes": ""
+ },
+ {
+  "address": "0x58a722b5f37435cab8957a17fc575bb136e0b48b",
+  "position": "除外/低優先",
+  "cached": true,
+  "win_rate": 0.6162,
+  "majors_realized": 2309,
+  "all_realized": 72100,
+  "cache_last": "2026-06-18",
+  "active14": true,
+  "active_to": "2026-06-18",
+  "trade_days": 229,
+  "wf_quality": null,
+  "wf_copy_worthy": null,
+  "tags": [
+   "HL検証:非該当",
+   "Nansen発見",
+   "取引あり(14d)"
+  ],
+  "labels": [
+   "🤓 Smart HL Perps Trader [0x58a722]"
+  ],
+  "notes": "【ひとことで】🤓 Nansenが『常勝(Smart Money)』認定したトレーダー。たぶんプロ、未精査。\n【正体】🤓 Smart HL Perps Trader [0x58a722]（Nansenラベル）\n【成績】通算PnL $175,842・ROI 13%・現在残高 $34,185\n【補足】残高が小さい＝稼ぎを引き上げ済の可能性（出金）。"
+ },
+ {
+  "address": "0x4cae5bed586f6e73ae54ebd40a4ac4ed2c477c34",
+  "position": "除外/低優先",
+  "cached": true,
+  "win_rate": null,
+  "majors_realized": 0,
+  "all_realized": 753701,
+  "cache_last": "2026-06-09",
+  "active14": true,
+  "active_to": "2026-06-09",
+  "trade_days": 17,
+  "wf_quality": null,
+  "wf_copy_worthy": null,
+  "tags": [
+   "取引あり(14d)"
+  ],
+  "labels": [],
+  "notes": ""
+ },
+ {
+  "address": "0x0c349d9b92fbd172bbb5a17a9db0a673a6a10ad3",
+  "position": "除外/低優先",
+  "cached": true,
+  "win_rate": 1.0,
+  "majors_realized": 68534,
+  "all_realized": 304725,
+  "cache_last": "2026-06-18",
+  "active14": true,
+  "active_to": "2026-06-18",
+  "trade_days": 48,
+  "wf_quality": null,
+  "wf_copy_worthy": null,
+  "tags": [
+   "WF:debunked",
+   "取引あり(14d)"
+  ],
+  "labels": [
+   "High Activity"
+  ],
+  "notes": "【別視点再精査(WF2 2026-06-17)】debunked（確度0.05）→ 除外/低優先\n3レンズ全てが無害説明を支持。情報優位の痕跡ゼロで、先行も反復も検証不能の集計アーティファクトに崩壊する。除外/低優先が妥当。\n―――（以下は従前の記録）―――\n【ひとことで】🟠 ちょっと怪しい。様子見で監視するウォレット。\n【正体】High Activity（Nansenが付けた名前/ラベル）\n【お"
+ },
+ {
+  "address": "0xb8243756956e722bff5c763971b562ac551bfbd2",
+  "position": "除外/低優先",
+  "cached": true,
+  "win_rate": 0.1938,
+  "majors_realized": -22207,
+  "all_realized": -22207,
+  "cache_last": "2026-06-18",
+  "active14": true,
+  "active_to": "2026-06-18",
+  "trade_days": 244,
+  "wf_quality": null,
+  "wf_copy_worthy": null,
+  "tags": [
+   "取引あり(14d)"
+  ],
+  "labels": [],
+  "notes": ""
+ },
+ {
+  "address": "0x6f97b7de6be7b7771e975e46bae96c35e332e172",
+  "position": "除外/低優先",
+  "cached": true,
+  "win_rate": 0.5782,
+  "majors_realized": 43495,
+  "all_realized": 52398,
+  "cache_last": "2026-03-28",
+  "active14": false,
+  "active_to": "2026-03-28",
+  "trade_days": 33,
+  "wf_quality": null,
+  "wf_copy_worthy": null,
+  "tags": [
+   "取引なし(14d)"
+  ],
+  "labels": [],
+  "notes": ""
+ },
+ {
+  "address": "0x3d356173b633d4390ac31dff045c4e20234ebbbd",
+  "position": "除外/低優先",
+  "cached": true,
+  "win_rate": null,
+  "majors_realized": 0,
+  "all_realized": 73988,
+  "cache_last": "2026-06-15",
+  "active14": false,
+  "active_to": "2026-06-15",
+  "trade_days": 60,
+  "wf_quality": null,
+  "wf_copy_worthy": null,
+  "tags": [
+   "取引あり(14d)"
+  ],
+  "labels": [],
+  "notes": ""
+ },
+ {
+  "address": "0xd7a01b2fc57149507a1848ae142aa308bdbe05a2",
+  "position": "除外/低優先",
+  "cached": true,
+  "win_rate": 0.6736,
+  "majors_realized": 3400,
+  "all_realized": 93916,
+  "cache_last": "2026-06-18",
+  "active14": true,
+  "active_to": "2026-06-18",
+  "trade_days": 44,
+  "wf_quality": null,
+  "wf_copy_worthy": null,
+  "tags": [
+   "Nansen発見",
+   "取引あり(14d)"
+  ],
+  "labels": [
+   "Former Smart Trader [0xd7a01b]"
+  ],
+  "notes": "【ひとことで】🤓 Nansenが『常勝(Smart Money)』認定したトレーダー。たぶんプロ、未精査。\n【正体】Former Smart Trader [0xd7a01b]（Nansenラベル）\n【成績】通算PnL $284,433・ROI 0%・現在残高 $0\n【補足】残高が小さい＝稼ぎを引き上げ済の可能性（出金）。"
+ },
+ {
+  "address": "0x8c96e5a2d770f9f2c9d2464ce4e741df0b2bca57",
+  "position": "除外/低優先",
+  "cached": true,
+  "win_rate": 0.839,
+  "majors_realized": 694388,
+  "all_realized": 698333,
+  "cache_last": "2026-06-17",
+  "active14": true,
+  "active_to": "2026-06-17",
+  "trade_days": 133,
+  "wf_quality": null,
+  "wf_copy_worthy": null,
+  "tags": [
+   "取引あり(14d)"
+  ],
+  "labels": [],
+  "notes": ""
+ },
+ {
+  "address": "0xeff7fe671d9a7acf86f48994bc5d5161042415b6",
+  "position": "プロトレーダー(本物)",
+  "cached": true,
+  "win_rate": 0.891,
+  "majors_realized": 235718,
+  "all_realized": 235718,
+  "cache_last": "2026-06-18",
+  "active14": true,
+  "active_to": "2026-06-18",
+  "trade_days": 45,
+  "wf_quality": "履歴薄/評価不能",
+  "wf_copy_worthy": false,
+  "tags": [
+   "Tier-D",
+   "取引あり(14d)",
+   "質:履歴薄(評価不能)"
+  ],
+  "labels": [],
+  "notes": "【ひとことで】🔵 たぶんプロ。まだ詳しく調べていない。\n【正体】名前は分からない（匿名）。\n【お金はどこから？】別チェーンからの『橋(ブリッジ)』経由 → 足を消しており追いにくい\n【よく取引する相手】🤖 Hyperliquid: Bridge 2 [0x2df1c5]、🏦 Nexo: Deposit [0xee2f18]、High Balance [0x5600a3]"
+ },
+ {
+  "address": "0x535191d6d49922d69cc7829dbb73e48694840db7",
+  "position": "除外/低優先",
+  "cached": true,
+  "win_rate": 0.2774,
+  "majors_realized": -35088,
+  "all_realized": 159522,
+  "cache_last": "2026-06-18",
+  "active14": true,
+  "active_to": "2026-06-18",
+  "trade_days": 560,
+  "wf_quality": null,
+  "wf_copy_worthy": null,
+  "tags": [
+   "取引あり(14d)"
+  ],
+  "labels": [],
+  "notes": ""
+ },
+ {
+  "address": "0x5f2c263aa195ddad2886fc5a6b7d4f33d1a72983",
+  "position": "除外/低優先",
+  "cached": true,
+  "win_rate": 0.7646,
+  "majors_realized": 65546,
+  "all_realized": 84833,
+  "cache_last": "2026-06-18",
+  "active14": true,
+  "active_to": "2026-06-18",
+  "trade_days": 12,
+  "wf_quality": null,
+  "wf_copy_worthy": null,
+  "tags": [
+   "取引あり(14d)"
+  ],
+  "labels": [],
+  "notes": ""
+ },
+ {
+  "address": "0x57f2819c959abbcf22623d5ec1d3164b213e9711",
+  "position": "除外/低優先",
+  "cached": true,
+  "win_rate": 0.6364,
+  "majors_realized": -69,
+  "all_realized": -288904,
+  "cache_last": "2024-05-21",
+  "active14": false,
+  "active_to": "2024-05-21",
+  "trade_days": 91,
+  "wf_quality": null,
+  "wf_copy_worthy": null,
+  "tags": [
+   "取引なし(14d)"
+  ],
+  "labels": [],
+  "notes": ""
+ },
+ {
+  "address": "0xa516541e599129095d14f7faf8b11ae670c837b0",
+  "position": "除外/低優先",
+  "cached": true,
+  "win_rate": 0.512,
+  "majors_realized": 92875,
+  "all_realized": 51073,
+  "cache_last": "2026-06-18",
+  "active14": true,
+  "active_to": "2026-06-18",
+  "trade_days": 61,
+  "wf_quality": null,
+  "wf_copy_worthy": null,
+  "tags": [
+   "取引あり(14d)"
+  ],
+  "labels": [],
+  "notes": ""
+ },
+ {
+  "address": "0xa351db10472a07059ea099e0581444e568bff894",
+  "position": "除外/低優先",
+  "cached": true,
+  "win_rate": 0.538,
+  "majors_realized": 973124,
+  "all_realized": 1027419,
+  "cache_last": "2026-06-19",
+  "active14": true,
+  "active_to": "2026-06-19",
+  "trade_days": 23,
+  "wf_quality": null,
+  "wf_copy_worthy": null,
+  "tags": [
+   "WF:debunked",
+   "取引あり(14d)"
+  ],
+  "labels": [],
+  "notes": "【別視点再精査(WF2 2026-06-17)】debunked（確度0.05）→ 除外/低優先\n情報優位の証拠ゼロ(全ティアで先行0件・方向的中0.5005のコインフリップ)、無害に説明しきれるため除外。\n―――（以下は従前の記録）―――\n【ひとことで】🟠 ちょっと怪しい。様子見で監視するウォレット。\n【正体】名前は分からない（匿名）。\n【お金はどこから？】別チェーンからの『橋(ブリッジ)』経由"
+ },
+ {
+  "address": "0xd67ca2c6f8bc84acf4fa4472b82a8740dc0a53ff",
+  "position": "除外/低優先",
+  "cached": true,
+  "win_rate": 0.2906,
+  "majors_realized": -151904,
+  "all_realized": 498535,
+  "cache_last": "2026-06-18",
+  "active14": true,
+  "active_to": "2026-06-18",
+  "trade_days": 791,
+  "wf_quality": null,
+  "wf_copy_worthy": null,
+  "tags": [
+   "取引あり(14d)"
+  ],
+  "labels": [
+   "0x3x6.eth*",
+   "gritsa.eth*",
+   "shahna.eth*"
+  ],
+  "notes": "【ひとことで】・優先度は低い。\n【正体】0x3x6.eth*、gritsa.eth*、shahna.eth*（Nansenが付けた名前/ラベル）\n【お金はどこから？】別の財布（0xe78da2c6f8bc84acf4fa4472b82a8740dc0a6510）から\n【よく取引する相手】Token Millionaire、Token Millionaire、High Activity\n【グループ】"
+ },
+ {
+  "address": "0x91f564e80ed5e98eb22fde0857e1a87047f2df13",
+  "position": "除外/低優先",
+  "cached": true,
+  "win_rate": 0.3733,
+  "majors_realized": 309790,
+  "all_realized": 392507,
+  "cache_last": "2026-06-19",
+  "active14": true,
+  "active_to": "2026-06-19",
+  "trade_days": 566,
+  "wf_quality": null,
+  "wf_copy_worthy": null,
+  "tags": [
+   "取引あり(14d)"
+  ],
+  "labels": [],
+  "notes": ""
+ },
+ {
+  "address": "0x8be0b9c4dbfb90f47fb94e8968dce08d3152326c",
+  "position": "除外/低優先",
+  "cached": true,
+  "win_rate": 0.4762,
+  "majors_realized": -7255,
+  "all_realized": 131254,
+  "cache_last": "2026-06-15",
+  "active14": false,
+  "active_to": "2026-06-15",
+  "trade_days": 60,
+  "wf_quality": null,
+  "wf_copy_worthy": null,
+  "tags": [
+   "取引あり(14d)"
+  ],
+  "labels": [],
+  "notes": ""
+ },
+ {
+  "address": "0x5d8f65942e5ace94c2f3c119970d502fcc6e7927",
+  "position": "除外/低優先",
+  "cached": true,
+  "win_rate": 0.4862,
+  "majors_realized": -59808,
+  "all_realized": 8198,
+  "cache_last": "2026-06-18",
+  "active14": true,
+  "active_to": "2026-06-18",
+  "trade_days": 694,
+  "wf_quality": null,
+  "wf_copy_worthy": null,
+  "tags": [
+   "取引あり(14d)"
+  ],
+  "labels": [],
+  "notes": ""
+ },
+ {
+  "address": "0xc6758a779bccee1ef0190dbe8292fdf44076795d",
+  "position": "除外/低優先",
+  "cached": true,
+  "win_rate": 0.4742,
+  "majors_realized": 2166998,
+  "all_realized": 3610767,
+  "cache_last": "2026-06-15",
+  "active14": false,
+  "active_to": "2026-06-15",
+  "trade_days": 521,
+  "wf_quality": null,
+  "wf_copy_worthy": null,
+  "tags": [
+   "取引あり(14d)"
+  ],
+  "labels": [],
+  "notes": ""
+ },
+ {
+  "address": "0x99b1098d9d50aa076f78bd26ab22e6abd3710729",
+  "position": "プロトレーダー(本物)",
+  "cached": true,
+  "win_rate": 0.9161,
+  "majors_realized": 2186779,
+  "all_realized": 2107985,
+  "cache_last": "2026-06-19",
+  "active14": false,
+  "active_to": "2026-06-19",
+  "trade_days": 43,
+  "wf_quality": "高頻度MM",
+  "wf_copy_worthy": false,
+  "tags": [
+   "Nansen発見",
+   "Tier-A",
+   "取引あり(14d)",
+   "塩漬け:7日以上",
+   "質:高頻度MM(WF)"
+  ],
+  "labels": [
+   "🤓 Smart HL Perps Trader [0x99b109]"
+  ],
+  "notes": "【ひとことで】💰🟢稼いで引き上げたが、多数取引で安定・先行なし＝実力プロが出金しただけ\n【HL実測】実現益$2,194,076・的中0.3918・急変先行$0・majors4952約定\n【取引期間】2026-04-10〜2026-06-04"
+ },
+ {
+  "address": "0x0a7097d919b7421ecc03aed3aac68a13e7ef1f46",
+  "position": "除外/低優先",
+  "cached": true,
+  "win_rate": 0.4043,
+  "majors_realized": 201533,
+  "all_realized": -120403,
+  "cache_last": "2026-06-08",
+  "active14": true,
+  "active_to": "2026-06-08",
+  "trade_days": 555,
+  "wf_quality": null,
+  "wf_copy_worthy": null,
+  "tags": [
+   "WF:debunked",
+   "取引あり(14d)"
+  ],
+  "labels": [
+   "\"kekvault2\" on OpenSea"
+  ],
+  "notes": "【別視点再精査(WF2 2026-06-17)】debunked（確度0.08）→ 除外/低優先\n先行はstrictで消滅・反復は単日相関クラッシュの三重計上に化け、資金源も負けグラインダーの自己供給。無害に説明しきれるため除外。\n―――（以下は従前の記録）―――\n【workflowレッドチーム検証】weak-suspect（確度0.25）\n【支持根拠】急変イベントに対する先行建玉の集計額(eve"
+ }
+]
