@@ -304,7 +304,8 @@
       "tags": [
         "Tier-C",
         "取引あり(14d)",
-        "塩漬け:5日"
+        "塩漬け:5日",
+        "質:堅実"
       ],
       "notes": "",
       "history": [
@@ -406,7 +407,11 @@
       "n_closes": 351,
       "active_days": 73.4,
       "metric_normalized": "2026-06-19",
-      "last_fill": 1780854529713
+      "last_fill": 1780854529713,
+      "pro_quality": "質:堅実",
+      "pro_months": 6,
+      "pro_posrate": 0.83,
+      "pro_pf": 31.6
     },
     "0x128fae9d18a2f70d98a03c26bf17b67d97ce1f3c": {
       "address": "0x128fae9d18a2f70d98a03c26bf17b67d97ce1f3c",
@@ -1203,7 +1208,8 @@
       "times_seen": 11,
       "tags": [
         "Tier-C",
-        "取引あり(14d)"
+        "取引あり(14d)",
+        "質:堅実"
       ],
       "notes": "",
       "history": [
@@ -1349,7 +1355,11 @@
       "n_closes": 947,
       "active_days": 469.0,
       "metric_normalized": "2026-06-19",
-      "last_fill": 1781543542557
+      "last_fill": 1781543542557,
+      "pro_quality": "質:堅実",
+      "pro_months": 18,
+      "pro_posrate": 0.72,
+      "pro_pf": 20.8
     },
     "0x4d3980ac9d84fc34adcd025ee2337786846343c4": {
       "address": "0x4d3980ac9d84fc34adcd025ee2337786846343c4",
@@ -1482,7 +1492,8 @@
       "times_seen": 4,
       "tags": [
         "Tier-D",
-        "取引あり(14d)"
+        "取引あり(14d)",
+        "質:高頻度MM(薄利多売)"
       ],
       "notes": "",
       "history": [
@@ -1628,7 +1639,11 @@
       "n_closes": 342,
       "active_days": 7.6,
       "metric_normalized": "2026-06-19",
-      "last_fill": 1781762652084
+      "last_fill": 1781762652084,
+      "pro_quality": "質:高頻度MM(薄利多売)",
+      "pro_months": 2,
+      "pro_posrate": 0.5,
+      "pro_pf": 10.0
     },
     "0x8463d6ffcbfb56bf20ab2e1111f9a0e8359533f2": {
       "address": "0x8463d6ffcbfb56bf20ab2e1111f9a0e8359533f2",
@@ -1636,7 +1651,8 @@
       "times_seen": 4,
       "tags": [
         "Tier-C",
-        "取引あり(14d)"
+        "取引あり(14d)",
+        "質:高頻度MM(薄利多売)"
       ],
       "notes": "",
       "history": [
@@ -1755,7 +1771,11 @@
       "n_closes": 2081,
       "active_days": 211.6,
       "metric_normalized": "2026-06-19",
-      "last_fill": 1781846533272
+      "last_fill": 1781846533272,
+      "pro_quality": "質:高頻度MM(薄利多売)",
+      "pro_months": 7,
+      "pro_posrate": 0.71,
+      "pro_pf": 5.6
     },
     "0xd117b0459ba2af1a397e76baa5efd580a3f7f99f": {
       "address": "0xd117b0459ba2af1a397e76baa5efd580a3f7f99f",
@@ -2249,7 +2269,8 @@
       "times_seen": 11,
       "tags": [
         "Tier-D",
-        "取引あり(14d)"
+        "取引あり(14d)",
+        "質:ムラあり"
       ],
       "notes": "",
       "history": [
@@ -2324,7 +2345,11 @@
       "n_closes": 2004,
       "active_days": 243.8,
       "metric_normalized": "2026-06-19",
-      "last_fill": 1781800462467
+      "last_fill": 1781800462467,
+      "pro_quality": "質:ムラあり",
+      "pro_months": 9,
+      "pro_posrate": 0.33,
+      "pro_pf": 7.0
     },
     "0x5875d72130981b18692a3d29545e4038f7eb0c38": {
       "address": "0x5875d72130981b18692a3d29545e4038f7eb0c38",
@@ -5529,7 +5554,8 @@
       "times_seen": 11,
       "tags": [
         "Tier-D",
-        "取引あり(14d)"
+        "取引あり(14d)",
+        "質:履歴薄(<4ヶ月)"
       ],
       "notes": "",
       "history": [
@@ -5668,7 +5694,11 @@
       "n_closes": 1606,
       "active_days": 45.3,
       "metric_normalized": "2026-06-19",
-      "last_fill": 1781817261376
+      "last_fill": 1781817261376,
+      "pro_quality": "質:履歴薄(<4ヶ月)",
+      "pro_months": 2,
+      "pro_posrate": 1.0,
+      "pro_pf": 99
     },
     "0x535191d6d49922d69cc7829dbb73e48694840db7": {
       "address": "0x535191d6d49922d69cc7829dbb73e48694840db7",
@@ -6434,7 +6464,8 @@
         "Nansen発見",
         "Tier-A",
         "取引あり(14d)",
-        "塩漬け:7日以上"
+        "塩漬け:7日以上",
+        "質:高頻度MM(薄利多売)"
       ],
       "notes": "",
       "history": [
@@ -6575,7 +6606,11 @@
       "n_closes": 1680,
       "active_days": 28.0,
       "metric_normalized": "2026-06-19",
-      "last_fill": 1781855884108
+      "last_fill": 1781855884108,
+      "pro_quality": "質:高頻度MM(薄利多売)",
+      "pro_months": 1,
+      "pro_posrate": 1.0,
+      "pro_pf": 99
     },
     "0x0a7097d919b7421ecc03aed3aac68a13e7ef1f46": {
       "address": "0x0a7097d919b7421ecc03aed3aac68a13e7ef1f46",
@@ -6741,7 +6776,8 @@
       "times_seen": 7,
       "tags": [
         "Tier-D",
-        "取引あり(14d)"
+        "取引あり(14d)",
+        "質:ムラあり"
       ],
       "notes": "",
       "history": [
@@ -6929,7 +6965,11 @@
       "n_closes": 376,
       "active_days": 931.4,
       "metric_normalized": "2026-06-19",
-      "last_fill": 1781733448463
+      "last_fill": 1781733448463,
+      "pro_quality": "質:ムラあり",
+      "pro_months": 29,
+      "pro_posrate": 0.48,
+      "pro_pf": 2.9
     },
     "0x159d148acd970eaf88bed8feac4ad6d38e7c3665": {
       "address": "0x159d148acd970eaf88bed8feac4ad6d38e7c3665",
@@ -7084,7 +7124,8 @@
       "times_seen": 7,
       "tags": [
         "Tier-C",
-        "取引あり(14d)"
+        "取引あり(14d)",
+        "質:エリート(長期一貫)"
       ],
       "notes": "",
       "history": [
@@ -7213,7 +7254,11 @@
       "n_closes": 6600,
       "active_days": 511.1,
       "metric_normalized": "2026-06-19",
-      "last_fill": 1781481600049
+      "last_fill": 1781481600049,
+      "pro_quality": "質:エリート(長期一貫)",
+      "pro_months": 19,
+      "pro_posrate": 0.89,
+      "pro_pf": 12.9
     },
     "0x321f7193eadbacb67eff00f76b975a487e5b1c84": {
       "address": "0x321f7193eadbacb67eff00f76b975a487e5b1c84",
@@ -7273,7 +7318,8 @@
       "times_seen": 7,
       "tags": [
         "Tier-D",
-        "取引あり(14d)"
+        "取引あり(14d)",
+        "質:ムラあり"
       ],
       "notes": "",
       "history": [
@@ -7325,7 +7371,11 @@
       "active_days": 284.9,
       "metric_normalized": "2026-06-19",
       "pro_tier": "D",
-      "last_fill": 1781741621889
+      "last_fill": 1781741621889,
+      "pro_quality": "質:ムラあり",
+      "pro_months": 8,
+      "pro_posrate": 0.38,
+      "pro_pf": 1.7
     },
     "0x5421e7c6ce37b6c5a6a428018a451071a6fd3ab2": {
       "address": "0x5421e7c6ce37b6c5a6a428018a451071a6fd3ab2",
@@ -9688,7 +9738,8 @@
       "tags": [
         "Nansen発見",
         "Tier-B",
-        "取引あり(14d)"
+        "取引あり(14d)",
+        "質:高頻度MM(薄利多売)"
       ],
       "notes": "",
       "history": [
@@ -9820,7 +9871,11 @@
       "n_closes": 6945,
       "active_days": 126.8,
       "metric_normalized": "2026-06-19",
-      "last_fill": 1781776920182
+      "last_fill": 1781776920182,
+      "pro_quality": "質:高頻度MM(薄利多売)",
+      "pro_months": 5,
+      "pro_posrate": 1.0,
+      "pro_pf": 99
     },
     "0x39b07015ca813075bbce6f475767d5b4b9d518b0": {
       "address": "0x39b07015ca813075bbce6f475767d5b4b9d518b0",
@@ -10316,7 +10371,8 @@
       "tags": [
         "Tier-B",
         "取引あり(14d)",
-        "塩漬け:6日"
+        "塩漬け:6日",
+        "質:高頻度MM(薄利多売)"
       ],
       "notes": "",
       "history": [
@@ -10455,7 +10511,11 @@
       "n_closes": 6857,
       "active_days": 27.6,
       "metric_normalized": "2026-06-19",
-      "last_fill": 1780899599274
+      "last_fill": 1780899599274,
+      "pro_quality": "質:高頻度MM(薄利多売)",
+      "pro_months": 2,
+      "pro_posrate": 1.0,
+      "pro_pf": 99
     },
     "0x2607a3909cee65aa8205ca26f7db2d9244389577": {
       "address": "0x2607a3909cee65aa8205ca26f7db2d9244389577",
@@ -11201,7 +11261,8 @@
         "HL検証済プロ",
         "Nansen発見",
         "Tier-S",
-        "取引あり(14d)"
+        "取引あり(14d)",
+        "質:高頻度MM(薄利多売)"
       ],
       "notes": "",
       "history": [
@@ -11266,7 +11327,11 @@
       "n_closes": 10287,
       "active_days": 124.8,
       "metric_normalized": "2026-06-19",
-      "last_fill": 1780669142478
+      "last_fill": 1780669142478,
+      "pro_quality": "質:高頻度MM(薄利多売)",
+      "pro_months": 6,
+      "pro_posrate": 0.67,
+      "pro_pf": 14.3
     },
     "0x4196dc4a1dc7d3bfd5434adf04c829f4ccaf480d": {
       "address": "0x4196dc4a1dc7d3bfd5434adf04c829f4ccaf480d",
@@ -11496,7 +11561,8 @@
         "Nansen発見",
         "Tier-A",
         "取引あり(14d)",
-        "塩漬け:7日以上"
+        "塩漬け:7日以上",
+        "質:ムラあり"
       ],
       "notes": "",
       "history": [
@@ -11653,7 +11719,11 @@
       "n_closes": 721,
       "active_days": 206.9,
       "metric_normalized": "2026-06-19",
-      "last_fill": 1780678341422
+      "last_fill": 1780678341422,
+      "pro_quality": "質:ムラあり",
+      "pro_months": 6,
+      "pro_posrate": 0.67,
+      "pro_pf": 76.3
     },
     "0x0b00c540bc5f203d97ac87da62164d3d37e19798": {
       "address": "0x0b00c540bc5f203d97ac87da62164d3d37e19798",
@@ -11663,7 +11733,8 @@
         "Nansen発見",
         "Tier-S",
         "取引あり(14d)",
-        "稼ぎ確認・先行不明(要精査)"
+        "稼ぎ確認・先行不明(要精査)",
+        "質:堅実"
       ],
       "notes": "",
       "history": [
@@ -11786,7 +11857,11 @@
       "n_closes": 3425,
       "active_days": 189.5,
       "metric_normalized": "2026-06-19",
-      "last_fill": 1781074713133
+      "last_fill": 1781074713133,
+      "pro_quality": "質:堅実",
+      "pro_months": 6,
+      "pro_posrate": 0.83,
+      "pro_pf": 2128.7
     },
     "0xed41a12ea862f31df054e9bd3af1dd59486c6029": {
       "address": "0xed41a12ea862f31df054e9bd3af1dd59486c6029",
@@ -11796,7 +11871,8 @@
         "HL検証済プロ",
         "Nansen発見",
         "Tier-A",
-        "取引なし(14d)"
+        "取引なし(14d)",
+        "質:堅実"
       ],
       "notes": "",
       "history": [
@@ -11942,7 +12018,11 @@
       "n_closes": 984,
       "active_days": 137.8,
       "metric_normalized": "2026-06-19",
-      "last_fill": 1777334400035
+      "last_fill": 1777334400035,
+      "pro_quality": "質:堅実",
+      "pro_months": 4,
+      "pro_posrate": 1.0,
+      "pro_pf": 99
     },
     "0x5bc43f38c2ddcd85857f218674cd384f172c3b0c": {
       "address": "0x5bc43f38c2ddcd85857f218674cd384f172c3b0c",
@@ -12267,7 +12347,8 @@
         "Nansen発見",
         "Tier-A",
         "取引あり(14d)",
-        "稼ぎ確認・先行不明(要精査)"
+        "稼ぎ確認・先行不明(要精査)",
+        "質:ムラあり"
       ],
       "notes": "",
       "history": [
@@ -12380,7 +12461,11 @@
       "n_closes": 368,
       "active_days": 372.2,
       "metric_normalized": "2026-06-19",
-      "last_fill": 1781702533427
+      "last_fill": 1781702533427,
+      "pro_quality": "質:ムラあり",
+      "pro_months": 13,
+      "pro_posrate": 0.69,
+      "pro_pf": 7.4
     },
     "0x833b99b27dac651d02080f5e220e929df891db06": {
       "address": "0x833b99b27dac651d02080f5e220e929df891db06",
@@ -12592,7 +12677,8 @@
         "HL検証済プロ",
         "Nansen発見",
         "Tier-A",
-        "取引なし(14d)"
+        "取引なし(14d)",
+        "質:堅実"
       ],
       "notes": "",
       "history": [
@@ -12657,7 +12743,11 @@
       "n_closes": 717,
       "active_days": 431.2,
       "metric_normalized": "2026-06-19",
-      "last_fill": 1770337201601
+      "last_fill": 1770337201601,
+      "pro_quality": "質:堅実",
+      "pro_months": 14,
+      "pro_posrate": 0.79,
+      "pro_pf": 30.1
     },
     "0x84abc08c0ea62e687c370154de1f38ea462f4d37": {
       "address": "0x84abc08c0ea62e687c370154de1f38ea462f4d37",
@@ -13549,7 +13639,8 @@
         "Nansen発見",
         "Tier-A",
         "取引なし(14d)",
-        "塩漬け:7日以上"
+        "塩漬け:7日以上",
+        "質:エリート(長期一貫)"
       ],
       "notes": "",
       "history": [
@@ -13623,7 +13714,11 @@
       "n_closes": 1677,
       "active_days": 256.9,
       "metric_normalized": "2026-06-19",
-      "last_fill": 1779586230210
+      "last_fill": 1779586230210,
+      "pro_quality": "質:エリート(長期一貫)",
+      "pro_months": 9,
+      "pro_posrate": 1.0,
+      "pro_pf": 99
     },
     "0x36ac01de9bc76c0d744b38c3e13a0538d55c7568": {
       "address": "0x36ac01de9bc76c0d744b38c3e13a0538d55c7568",
@@ -13688,7 +13783,8 @@
         "HL検証済プロ",
         "Nansen発見",
         "Tier-B",
-        "取引なし(14d)"
+        "取引なし(14d)",
+        "質:エリート(長期一貫)"
       ],
       "notes": "",
       "history": [
@@ -13752,7 +13848,11 @@
       "n_closes": 2488,
       "active_days": 223.8,
       "metric_normalized": "2026-06-19",
-      "last_fill": 1775540559707
+      "last_fill": 1775540559707,
+      "pro_quality": "質:エリート(長期一貫)",
+      "pro_months": 9,
+      "pro_posrate": 1.0,
+      "pro_pf": 99
     },
     "0x7da85a334e43a6b1c2c0da9623409d9ee9047747": {
       "address": "0x7da85a334e43a6b1c2c0da9623409d9ee9047747",
@@ -13964,7 +14064,8 @@
         "HL検証済プロ",
         "Nansen発見",
         "Tier-B",
-        "取引なし(14d)"
+        "取引なし(14d)",
+        "質:堅実"
       ],
       "notes": "",
       "history": [
@@ -14069,7 +14170,11 @@
       "true_realized_maj": 713341,
       "n_closes": 349,
       "active_days": 216.7,
-      "metric_normalized": "2026-06-19"
+      "metric_normalized": "2026-06-19",
+      "pro_quality": "質:堅実",
+      "pro_months": 6,
+      "pro_posrate": 0.83,
+      "pro_pf": 728.0
     },
     "0xe091330c53b971ed4e886f902f18e8544a8d6705": {
       "address": "0xe091330c53b971ed4e886f902f18e8544a8d6705",
@@ -14368,7 +14473,8 @@
         "Nansen発見",
         "Tier-C",
         "取引なし(14d)",
-        "稼ぎ確認・先行不明(要精査)"
+        "稼ぎ確認・先行不明(要精査)",
+        "質:高頻度MM(薄利多売)"
       ],
       "notes": "",
       "history": [
@@ -14488,7 +14594,11 @@
       "n_closes": 1046,
       "active_days": 5.0,
       "metric_normalized": "2026-06-19",
-      "last_fill": 1777911784290
+      "last_fill": 1777911784290,
+      "pro_quality": "質:高頻度MM(薄利多売)",
+      "pro_months": 1,
+      "pro_posrate": 1.0,
+      "pro_pf": 99
     },
     "0x05904930cae1e9a48c055f4a8a83480ba7fc6abf": {
       "address": "0x05904930cae1e9a48c055f4a8a83480ba7fc6abf",
@@ -14787,7 +14897,8 @@
         "HL検証済プロ",
         "Nansen発見",
         "Tier-B",
-        "取引あり(14d)"
+        "取引あり(14d)",
+        "質:履歴薄(<4ヶ月)"
       ],
       "notes": "",
       "history": [
@@ -14933,7 +15044,11 @@
       "n_closes": 2392,
       "active_days": 56.5,
       "metric_normalized": "2026-06-19",
-      "last_fill": 1781473664497
+      "last_fill": 1781473664497,
+      "pro_quality": "質:履歴薄(<4ヶ月)",
+      "pro_months": 3,
+      "pro_posrate": 0.67,
+      "pro_pf": 15.7
     },
     "0x9836e286fbf4f71998827d4bd6ea3b470c26457e": {
       "address": "0x9836e286fbf4f71998827d4bd6ea3b470c26457e",
@@ -15075,7 +15190,8 @@
         "Nansen発見",
         "Tier-C",
         "取引あり(14d)",
-        "稼ぎ確認・先行不明(要精査)"
+        "稼ぎ確認・先行不明(要精査)",
+        "質:ムラあり"
       ],
       "notes": "",
       "history": [
@@ -15147,7 +15263,11 @@
       "n_closes": 0,
       "active_days": null,
       "metric_normalized": "2026-06-19",
-      "last_fill": 1781797534960
+      "last_fill": 1781797534960,
+      "pro_quality": "質:ムラあり",
+      "pro_months": 7,
+      "pro_posrate": 0.57,
+      "pro_pf": 3.0
     },
     "0x06466f9ac08e872064950cec3812b57d6feafa7f": {
       "address": "0x06466f9ac08e872064950cec3812b57d6feafa7f",
@@ -15157,7 +15277,8 @@
         "HL検証済プロ",
         "Nansen発見",
         "Tier-C",
-        "取引なし(14d)"
+        "取引なし(14d)",
+        "質:ムラあり"
       ],
       "notes": "",
       "history": [
@@ -15303,7 +15424,11 @@
       "n_closes": 289,
       "active_days": 229.7,
       "metric_normalized": "2026-06-19",
-      "last_fill": 1772671122665
+      "last_fill": 1772671122665,
+      "pro_quality": "質:ムラあり",
+      "pro_months": 5,
+      "pro_posrate": 0.6,
+      "pro_pf": 4.9
     },
     "0xef70339934261ca3524bddfa7d02e0a69107a84c": {
       "address": "0xef70339934261ca3524bddfa7d02e0a69107a84c",
@@ -15588,7 +15713,8 @@
         "Nansen発見",
         "Tier-C",
         "取引なし(14d)",
-        "塩漬け:7日以上"
+        "塩漬け:7日以上",
+        "質:ムラあり"
       ],
       "notes": "",
       "history": [
@@ -15667,7 +15793,11 @@
       "n_closes": 2313,
       "active_days": 121.6,
       "metric_normalized": "2026-06-19",
-      "last_fill": 1776786396612
+      "last_fill": 1776786396612,
+      "pro_quality": "質:ムラあり",
+      "pro_months": 5,
+      "pro_posrate": 0.6,
+      "pro_pf": 28.9
     },
     "0xdc38f7ee386b7eea3842643e56b08ee5bb40f625": {
       "address": "0xdc38f7ee386b7eea3842643e56b08ee5bb40f625",
@@ -16039,7 +16169,8 @@
         "HL検証済プロ",
         "Nansen発見",
         "Tier-C",
-        "取引あり(14d)"
+        "取引あり(14d)",
+        "質:堅実"
       ],
       "notes": "",
       "history": [
@@ -16180,7 +16311,11 @@
       "n_closes": 1569,
       "active_days": 77.2,
       "metric_normalized": "2026-06-19",
-      "last_fill": 1781331933172
+      "last_fill": 1781331933172,
+      "pro_quality": "質:堅実",
+      "pro_months": 5,
+      "pro_posrate": 1.0,
+      "pro_pf": 99
     },
     "0x500bea59133e20dc63b7e88913b30348494b84ba": {
       "address": "0x500bea59133e20dc63b7e88913b30348494b84ba",
@@ -16500,7 +16635,8 @@
         "HL検証済プロ",
         "Nansen発見",
         "Tier-C",
-        "取引なし(14d)"
+        "取引なし(14d)",
+        "質:履歴薄(<4ヶ月)"
       ],
       "notes": "",
       "history": [
@@ -16597,7 +16733,11 @@
       "n_closes": 325,
       "active_days": 8.2,
       "metric_normalized": "2026-06-19",
-      "last_fill": 1780556485230
+      "last_fill": 1780556485230,
+      "pro_quality": "質:履歴薄(<4ヶ月)",
+      "pro_months": 2,
+      "pro_posrate": 0.5,
+      "pro_pf": 293.1
     },
     "0xd8d0358919a944d4efa98713795d49b030e43ef9": {
       "address": "0xd8d0358919a944d4efa98713795d49b030e43ef9",
@@ -16965,7 +17105,8 @@
         "HL検証済プロ",
         "Nansen発見",
         "Tier-C",
-        "取引なし(14d)"
+        "取引なし(14d)",
+        "質:履歴薄(<4ヶ月)"
       ],
       "notes": "",
       "history": [
@@ -17111,7 +17252,11 @@
       "n_closes": 622,
       "active_days": 4.8,
       "metric_normalized": "2026-06-19",
-      "last_fill": 1776620975335
+      "last_fill": 1776620975335,
+      "pro_quality": "質:履歴薄(<4ヶ月)",
+      "pro_months": 3,
+      "pro_posrate": 0.67,
+      "pro_pf": 2.6
     },
     "0x1fe06653816cd53afb36a18f059b0ada2a3c8f20": {
       "address": "0x1fe06653816cd53afb36a18f059b0ada2a3c8f20",
@@ -17121,7 +17266,8 @@
         "Nansen発見",
         "Tier-C",
         "取引なし(14d)",
-        "稼ぎ確認・先行不明(要精査)"
+        "稼ぎ確認・先行不明(要精査)",
+        "質:堅実"
       ],
       "notes": "",
       "history": [
@@ -17235,7 +17381,11 @@
       "n_closes": 297,
       "active_days": 220.2,
       "metric_normalized": "2026-06-19",
-      "last_fill": 1780327129596
+      "last_fill": 1780327129596,
+      "pro_quality": "質:堅実",
+      "pro_months": 7,
+      "pro_posrate": 0.71,
+      "pro_pf": 7.2
     },
     "0x0980b34ade9476dba81bcdb0f865a333793ad1c2": {
       "address": "0x0980b34ade9476dba81bcdb0f865a333793ad1c2",
@@ -17541,7 +17691,8 @@
         "HL検証済プロ",
         "Nansen発見",
         "Tier-C",
-        "取引なし(14d)"
+        "取引なし(14d)",
+        "質:ムラあり"
       ],
       "notes": "",
       "history": [
@@ -17680,7 +17831,11 @@
       "n_closes": 233,
       "active_days": 271.0,
       "metric_normalized": "2026-06-19",
-      "last_fill": 1777313081466
+      "last_fill": 1777313081466,
+      "pro_quality": "質:ムラあり",
+      "pro_months": 5,
+      "pro_posrate": 0.4,
+      "pro_pf": 6.0
     },
     "0x6a02aedceac5a6813d960e4dae1910d9c458e77c": {
       "address": "0x6a02aedceac5a6813d960e4dae1910d9c458e77c",
@@ -17690,7 +17845,8 @@
         "Nansen発見",
         "Tier-C",
         "取引あり(14d)",
-        "稼ぎ確認・先行不明(要精査)"
+        "稼ぎ確認・先行不明(要精査)",
+        "質:堅実"
       ],
       "notes": "",
       "history": [
@@ -17749,7 +17905,11 @@
       "n_closes": 987,
       "active_days": 88.8,
       "metric_normalized": "2026-06-19",
-      "last_fill": 1781718830592
+      "last_fill": 1781718830592,
+      "pro_quality": "質:堅実",
+      "pro_months": 4,
+      "pro_posrate": 0.75,
+      "pro_pf": 13.1
     },
     "0x39761615093bbd473af359068d075a2b03b99857": {
       "address": "0x39761615093bbd473af359068d075a2b03b99857",
@@ -17867,7 +18027,8 @@
         "Nansen発見",
         "Tier-C",
         "取引なし(14d)",
-        "稼ぎ確認・先行不明(要精査)"
+        "稼ぎ確認・先行不明(要精査)",
+        "質:堅実"
       ],
       "notes": "",
       "history": [
@@ -17926,7 +18087,11 @@
       "n_closes": 978,
       "active_days": 168.7,
       "metric_normalized": "2026-06-19",
-      "last_fill": 1772391324379
+      "last_fill": 1772391324379,
+      "pro_quality": "質:堅実",
+      "pro_months": 7,
+      "pro_posrate": 0.86,
+      "pro_pf": 5423.8
     },
     "0x8554501f855388039f2bc86110462adfbbde46dc": {
       "address": "0x8554501f855388039f2bc86110462adfbbde46dc",
@@ -18511,7 +18676,8 @@
         "HL検証済プロ",
         "Nansen発見",
         "Tier-B",
-        "取引あり(14d)"
+        "取引あり(14d)",
+        "質:堅実"
       ],
       "notes": "",
       "history": [
@@ -18601,7 +18767,11 @@
       "n_closes": 1671,
       "active_days": 584.5,
       "metric_normalized": "2026-06-19",
-      "last_fill": 1781104551021
+      "last_fill": 1781104551021,
+      "pro_quality": "質:堅実",
+      "pro_months": 17,
+      "pro_posrate": 0.71,
+      "pro_pf": 20.3
     },
     "0x1f67d79afc8d0e7609ddba6c9b657cc635f69981": {
       "address": "0x1f67d79afc8d0e7609ddba6c9b657cc635f69981",
@@ -18710,7 +18880,8 @@
         "Nansen発見",
         "Tier-C",
         "取引なし(14d)",
-        "稼ぎ確認・先行不明(要精査)"
+        "稼ぎ確認・先行不明(要精査)",
+        "質:堅実"
       ],
       "notes": "",
       "history": [
@@ -18830,7 +19001,11 @@
       "n_closes": 0,
       "active_days": null,
       "metric_normalized": "2026-06-19",
-      "last_fill": 1779817226860
+      "last_fill": 1779817226860,
+      "pro_quality": "質:堅実",
+      "pro_months": 4,
+      "pro_posrate": 1.0,
+      "pro_pf": 99
     },
     "0xb9eb061e64d32c8e0a6c6992a7dc32a32df9cb74": {
       "address": "0xb9eb061e64d32c8e0a6c6992a7dc32a32df9cb74",
@@ -19314,7 +19489,8 @@
         "Nansen発見",
         "Tier-C",
         "取引あり(14d)",
-        "塩漬け:7日以上"
+        "塩漬け:7日以上",
+        "質:ムラあり"
       ],
       "notes": "",
       "history": [
@@ -19470,7 +19646,11 @@
       "n_closes": 1255,
       "active_days": 196.8,
       "metric_normalized": "2026-06-19",
-      "last_fill": 1781851988651
+      "last_fill": 1781851988651,
+      "pro_quality": "質:ムラあり",
+      "pro_months": 9,
+      "pro_posrate": 0.56,
+      "pro_pf": 34.7
     },
     "0x039405fa4636364e6023df1e06b085a462b9cdc9": {
       "address": "0x039405fa4636364e6023df1e06b085a462b9cdc9",
@@ -19944,7 +20124,8 @@
         "Nansen発見",
         "Tier-C",
         "取引あり(14d)",
-        "塩漬け:7日以上"
+        "塩漬け:7日以上",
+        "質:堅実"
       ],
       "notes": "",
       "history": [
@@ -20100,7 +20281,11 @@
       "n_closes": 358,
       "active_days": 219.1,
       "metric_normalized": "2026-06-19",
-      "last_fill": 1781142287424
+      "last_fill": 1781142287424,
+      "pro_quality": "質:堅実",
+      "pro_months": 5,
+      "pro_posrate": 0.8,
+      "pro_pf": 120.8
     },
     "0x4b563051258ade30122940b80f575363baa4445b": {
       "address": "0x4b563051258ade30122940b80f575363baa4445b",
@@ -20164,7 +20349,8 @@
         "HL検証済プロ",
         "Nansen発見",
         "Tier-C",
-        "取引あり(14d)"
+        "取引あり(14d)",
+        "質:ムラあり"
       ],
       "notes": "",
       "history": [
@@ -20302,7 +20488,11 @@
       "n_closes": 470,
       "active_days": 271.1,
       "metric_normalized": "2026-06-19",
-      "last_fill": 1781841680532
+      "last_fill": 1781841680532,
+      "pro_quality": "質:ムラあり",
+      "pro_months": 12,
+      "pro_posrate": 0.67,
+      "pro_pf": 15.6
     },
     "0x2c5dc7e67fce4bc252221c46c1cdc7651838b2d8": {
       "address": "0x2c5dc7e67fce4bc252221c46c1cdc7651838b2d8",
@@ -21966,7 +22156,8 @@
         "Tier-C",
         "取引あり(14d)",
         "塩漬け:7日以上",
-        "稼ぎ確認・先行不明(要精査)"
+        "稼ぎ確認・先行不明(要精査)",
+        "質:エリート(長期一貫)"
       ],
       "notes": "",
       "history": [
@@ -22067,7 +22258,11 @@
       "n_closes": 111,
       "active_days": 417.0,
       "metric_normalized": "2026-06-19",
-      "last_fill": 1781613860963
+      "last_fill": 1781613860963,
+      "pro_quality": "質:エリート(長期一貫)",
+      "pro_months": 23,
+      "pro_posrate": 0.87,
+      "pro_pf": 70.2
     },
     "0xbf55d2d31c193e475d9d52006359f1fe51ecb7ce": {
       "address": "0xbf55d2d31c193e475d9d52006359f1fe51ecb7ce",
@@ -23020,7 +23215,8 @@
         "Nansen発見",
         "Tier-A",
         "取引なし(14d)",
-        "稼ぎ確認・先行不明(要精査)"
+        "稼ぎ確認・先行不明(要精査)",
+        "質:エリート(長期一貫)"
       ],
       "notes": "",
       "history": [
@@ -23072,7 +23268,11 @@
       "true_realized_maj": 149923,
       "n_closes": 130,
       "active_days": 7.2,
-      "metric_normalized": "2026-06-19"
+      "metric_normalized": "2026-06-19",
+      "pro_quality": "質:エリート(長期一貫)",
+      "pro_months": 9,
+      "pro_posrate": 1.0,
+      "pro_pf": 99
     },
     "0x14246f4bbafb87ccebac17609054c6a188ed8cfd": {
       "address": "0x14246f4bbafb87ccebac17609054c6a188ed8cfd",
@@ -23131,7 +23331,8 @@
         "HL検証済プロ",
         "Nansen発見",
         "Tier-C",
-        "取引あり(14d)"
+        "取引あり(14d)",
+        "質:エリート(長期一貫)"
       ],
       "notes": "",
       "history": [
@@ -23213,7 +23414,11 @@
       "n_closes": 79,
       "active_days": 30.6,
       "metric_normalized": "2026-06-19",
-      "last_fill": 1781109258077
+      "last_fill": 1781109258077,
+      "pro_quality": "質:エリート(長期一貫)",
+      "pro_months": 11,
+      "pro_posrate": 0.82,
+      "pro_pf": 17.3
     },
     "0xf2efcd0bedf771dc63eb655d395c15a9d753550a": {
       "address": "0xf2efcd0bedf771dc63eb655d395c15a9d753550a",
@@ -24656,7 +24861,8 @@
         "Nansen発見",
         "Tier-D",
         "取引なし(14d)",
-        "稼ぎ確認・先行不明(要精査)"
+        "稼ぎ確認・先行不明(要精査)",
+        "質:高頻度MM(薄利多売)"
       ],
       "notes": "",
       "history": [
@@ -24709,7 +24915,11 @@
       "n_closes": 0,
       "active_days": null,
       "metric_normalized": "2026-06-19",
-      "last_fill": 1767620241920
+      "last_fill": 1767620241920,
+      "pro_quality": "質:高頻度MM(薄利多売)",
+      "pro_months": 1,
+      "pro_posrate": 1.0,
+      "pro_pf": 99
     },
     "0x3480d3f9b45a5669cb3c7a576b092798fd5db5d8": {
       "address": "0x3480d3f9b45a5669cb3c7a576b092798fd5db5d8",
@@ -33742,7 +33952,8 @@
         "HL検証済プロ",
         "Nansen発見",
         "Tier-S",
-        "取引なし(14d)"
+        "取引なし(14d)",
+        "質:堅実"
       ],
       "notes": "",
       "history": [
@@ -33805,7 +34016,11 @@
       "true_realized_maj": 328868,
       "n_closes": 87,
       "active_days": 100.4,
-      "metric_normalized": "2026-06-19"
+      "metric_normalized": "2026-06-19",
+      "pro_quality": "質:堅実",
+      "pro_months": 6,
+      "pro_posrate": 1.0,
+      "pro_pf": 99
     },
     "0x55999a9124b976d05a7fd98d414e185d95e9e940": {
       "address": "0x55999a9124b976d05a7fd98d414e185d95e9e940",
@@ -34403,7 +34618,8 @@
         "HL検証済プロ",
         "Nansen発見",
         "Tier-S",
-        "取引なし(14d)"
+        "取引なし(14d)",
+        "質:履歴薄(<4ヶ月)"
       ],
       "notes": "",
       "history": [],
@@ -34451,7 +34667,11 @@
       "true_realized_maj": 5802013,
       "n_closes": 475,
       "active_days": 102.5,
-      "metric_normalized": "2026-06-19"
+      "metric_normalized": "2026-06-19",
+      "pro_quality": "質:履歴薄(<4ヶ月)",
+      "pro_months": 3,
+      "pro_posrate": 1.0,
+      "pro_pf": 99
     },
     "0x8cfe4bc352deb10ed41c5f0f89bc57674cee1e22": {
       "address": "0x8cfe4bc352deb10ed41c5f0f89bc57674cee1e22",
@@ -34462,7 +34682,8 @@
         "Nansen発見",
         "Tier-A",
         "プロ実績未確認(約定取得不能)",
-        "取引なし(14d)"
+        "取引なし(14d)",
+        "質:堅実"
       ],
       "notes": "",
       "history": [],
@@ -34510,7 +34731,11 @@
       "true_realized_maj": 4829823,
       "n_closes": 2990,
       "active_days": 253.8,
-      "metric_normalized": "2026-06-19"
+      "metric_normalized": "2026-06-19",
+      "pro_quality": "質:堅実",
+      "pro_months": 7,
+      "pro_posrate": 0.71,
+      "pro_pf": 125.3
     },
     "0xd7a678fcf72c1b602850ef2f3e2d668ec41fa0ed": {
       "address": "0xd7a678fcf72c1b602850ef2f3e2d668ec41fa0ed",
@@ -34520,7 +34745,8 @@
         "HL検証済プロ",
         "Nansen発見",
         "Tier-A",
-        "取引なし(14d)"
+        "取引なし(14d)",
+        "質:堅実"
       ],
       "notes": "",
       "history": [],
@@ -34605,7 +34831,11 @@
       "n_closes": 1016,
       "active_days": 117.2,
       "metric_normalized": "2026-06-19",
-      "last_fill": 1769890240481
+      "last_fill": 1769890240481,
+      "pro_quality": "質:堅実",
+      "pro_months": 7,
+      "pro_posrate": 1.0,
+      "pro_pf": 99
     },
     "0xb632c6580173a16154f17cdafc6eb27e95cf73b7": {
       "address": "0xb632c6580173a16154f17cdafc6eb27e95cf73b7",
@@ -34699,7 +34929,8 @@
         "HL検証済プロ",
         "Nansen発見",
         "Tier-A",
-        "取引なし(14d)"
+        "取引なし(14d)",
+        "質:ムラあり"
       ],
       "notes": "",
       "history": [],
@@ -34740,7 +34971,11 @@
       "n_closes": 2463,
       "active_days": 79.1,
       "metric_normalized": "2026-06-19",
-      "last_fill": 1770299557733
+      "last_fill": 1770299557733,
+      "pro_quality": "質:ムラあり",
+      "pro_months": 4,
+      "pro_posrate": 0.5,
+      "pro_pf": 604.6
     },
     "0x41206f8efb51e5039e5b46e04e7866a4849f72d2": {
       "address": "0x41206f8efb51e5039e5b46e04e7866a4849f72d2",
@@ -34750,7 +34985,8 @@
         "HL検証済プロ",
         "Nansen発見",
         "Tier-S",
-        "取引なし(14d)"
+        "取引なし(14d)",
+        "質:エリート(長期一貫)"
       ],
       "notes": "",
       "history": [],
@@ -34825,7 +35061,11 @@
       "n_closes": 9446,
       "active_days": 402.6,
       "metric_normalized": "2026-06-19",
-      "last_fill": 1770090773399
+      "last_fill": 1770090773399,
+      "pro_quality": "質:エリート(長期一貫)",
+      "pro_months": 15,
+      "pro_posrate": 0.93,
+      "pro_pf": 9.2
     },
     "0x6979dde2781dc4ec843641b10b2a2f2e0f4bda62": {
       "address": "0x6979dde2781dc4ec843641b10b2a2f2e0f4bda62",
@@ -34835,7 +35075,8 @@
         "HL検証済プロ",
         "Nansen発見",
         "Tier-B",
-        "取引なし(14d)"
+        "取引なし(14d)",
+        "質:堅実"
       ],
       "notes": "",
       "history": [],
@@ -34876,7 +35117,11 @@
       "n_closes": 6704,
       "active_days": 242.0,
       "metric_normalized": "2026-06-19",
-      "last_fill": 1780153473004
+      "last_fill": 1780153473004,
+      "pro_quality": "質:堅実",
+      "pro_months": 5,
+      "pro_posrate": 1.0,
+      "pro_pf": 99
     },
     "0xcefd7652228a8619d0af5b95389cd49387cd30e0": {
       "address": "0xcefd7652228a8619d0af5b95389cd49387cd30e0",
@@ -34886,7 +35131,8 @@
         "HL検証済プロ",
         "Nansen発見",
         "Tier-B",
-        "取引なし(14d)"
+        "取引なし(14d)",
+        "質:堅実"
       ],
       "notes": "",
       "history": [],
@@ -34935,7 +35181,11 @@
       "n_closes": 849,
       "active_days": 330.3,
       "metric_normalized": "2026-06-19",
-      "last_fill": 1780618868475
+      "last_fill": 1780618868475,
+      "pro_quality": "質:堅実",
+      "pro_months": 18,
+      "pro_posrate": 0.72,
+      "pro_pf": 8.9
     },
     "0x3b11267dfc4b9ebe8427e8f557056b4b6ce98112": {
       "address": "0x3b11267dfc4b9ebe8427e8f557056b4b6ce98112",
@@ -34945,7 +35195,8 @@
         "HL検証済プロ",
         "Nansen発見",
         "Tier-B",
-        "取引あり(14d)"
+        "取引あり(14d)",
+        "質:履歴薄(<4ヶ月)"
       ],
       "notes": "",
       "history": [],
@@ -35122,7 +35373,11 @@
       "n_closes": 420,
       "active_days": 87.5,
       "metric_normalized": "2026-06-19",
-      "last_fill": 1781623683960
+      "last_fill": 1781623683960,
+      "pro_quality": "質:履歴薄(<4ヶ月)",
+      "pro_months": 3,
+      "pro_posrate": 1.0,
+      "pro_pf": 99
     },
     "0x5638484ba2d2f1d1d35020572b0aa439a9869192": {
       "address": "0x5638484ba2d2f1d1d35020572b0aa439a9869192",
@@ -35132,7 +35387,8 @@
         "HL検証済プロ",
         "Nansen発見",
         "Tier-B",
-        "取引なし(14d)"
+        "取引なし(14d)",
+        "質:堅実"
       ],
       "notes": "",
       "history": [],
@@ -35211,7 +35467,11 @@
       "n_closes": 1016,
       "active_days": 90.5,
       "metric_normalized": "2026-06-19",
-      "last_fill": 1774915200016
+      "last_fill": 1774915200016,
+      "pro_quality": "質:堅実",
+      "pro_months": 4,
+      "pro_posrate": 1.0,
+      "pro_pf": 99
     },
     "0x4b4bdd734b87bc48683d24f1dc6159e3ab6d6409": {
       "address": "0x4b4bdd734b87bc48683d24f1dc6159e3ab6d6409",
@@ -35221,7 +35481,8 @@
         "HL検証済プロ",
         "Nansen発見",
         "Tier-B",
-        "取引なし(14d)"
+        "取引なし(14d)",
+        "質:高頻度MM(薄利多売)"
       ],
       "notes": "",
       "history": [],
@@ -35312,7 +35573,11 @@
       "n_closes": 2222,
       "active_days": 9.8,
       "metric_normalized": "2026-06-19",
-      "last_fill": 1780331378915
+      "last_fill": 1780331378915,
+      "pro_quality": "質:高頻度MM(薄利多売)",
+      "pro_months": 2,
+      "pro_posrate": 1.0,
+      "pro_pf": 99
     },
     "0x1e5b1efd99c89d39b59b28a19e6b42bbeb98433b": {
       "address": "0x1e5b1efd99c89d39b59b28a19e6b42bbeb98433b",
@@ -35322,7 +35587,8 @@
         "HL検証済プロ",
         "Nansen発見",
         "Tier-B",
-        "取引なし(14d)"
+        "取引なし(14d)",
+        "質:堅実"
       ],
       "notes": "",
       "history": [],
@@ -35371,7 +35637,11 @@
       "n_closes": 278,
       "active_days": 121.8,
       "metric_normalized": "2026-06-19",
-      "last_fill": 1769766353861
+      "last_fill": 1769766353861,
+      "pro_quality": "質:堅実",
+      "pro_months": 4,
+      "pro_posrate": 0.75,
+      "pro_pf": 7094.6
     },
     "0x7de07bb8a43c1953a019906cf2c8287dae478be9": {
       "address": "0x7de07bb8a43c1953a019906cf2c8287dae478be9",
@@ -35382,7 +35652,8 @@
         "Nansen発見",
         "Tier-B",
         "取引なし(14d)",
-        "塩漬け:7日以上"
+        "塩漬け:7日以上",
+        "質:ムラあり"
       ],
       "notes": "",
       "history": [],
@@ -35523,7 +35794,11 @@
       "n_closes": 771,
       "active_days": 423.9,
       "metric_normalized": "2026-06-19",
-      "last_fill": 1770141404881
+      "last_fill": 1770141404881,
+      "pro_quality": "質:ムラあり",
+      "pro_months": 8,
+      "pro_posrate": 0.5,
+      "pro_pf": 1.8
     },
     "0xc604faf510aa5b617c9fb1556d02d6d22c9644be": {
       "address": "0xc604faf510aa5b617c9fb1556d02d6d22c9644be",
@@ -35533,7 +35808,8 @@
         "HL検証済プロ",
         "Nansen発見",
         "Tier-C",
-        "取引なし(14d)"
+        "取引なし(14d)",
+        "質:履歴薄(<4ヶ月)"
       ],
       "notes": "",
       "history": [],
@@ -35582,7 +35858,11 @@
       "n_closes": 150,
       "active_days": 225.8,
       "metric_normalized": "2026-06-19",
-      "last_fill": 1773459532013
+      "last_fill": 1773459532013,
+      "pro_quality": "質:履歴薄(<4ヶ月)",
+      "pro_months": 1,
+      "pro_posrate": 1.0,
+      "pro_pf": 99
     },
     "0x7c9063122c01837fe83da2521056e10c9b6dd129": {
       "address": "0x7c9063122c01837fe83da2521056e10c9b6dd129",
@@ -35776,7 +36056,8 @@
         "HL検証済プロ",
         "Nansen発見",
         "Tier-C",
-        "取引なし(14d)"
+        "取引なし(14d)",
+        "質:高頻度MM(薄利多売)"
       ],
       "notes": "",
       "history": [],
@@ -35825,7 +36106,11 @@
       "n_closes": 3261,
       "active_days": 6.3,
       "metric_normalized": "2026-06-19",
-      "last_fill": 1772214852067
+      "last_fill": 1772214852067,
+      "pro_quality": "質:高頻度MM(薄利多売)",
+      "pro_months": 1,
+      "pro_posrate": 1.0,
+      "pro_pf": 99
     },
     "0x9b804150c9a4f6db44ba4fd67704eadb5be360c1": {
       "address": "0x9b804150c9a4f6db44ba4fd67704eadb5be360c1",
@@ -35835,7 +36120,8 @@
         "HL検証済プロ",
         "Nansen発見",
         "Tier-C",
-        "取引なし(14d)"
+        "取引なし(14d)",
+        "質:履歴薄(<4ヶ月)"
       ],
       "notes": "",
       "history": [],
@@ -35876,7 +36162,11 @@
       "n_closes": 230,
       "active_days": 1.6,
       "metric_normalized": "2026-06-19",
-      "last_fill": 1773007517787
+      "last_fill": 1773007517787,
+      "pro_quality": "質:履歴薄(<4ヶ月)",
+      "pro_months": 1,
+      "pro_posrate": 1.0,
+      "pro_pf": 99
     },
     "0xf3362789cecf25c6a31288d172880d7ad9b81801": {
       "address": "0xf3362789cecf25c6a31288d172880d7ad9b81801",
@@ -35887,7 +36177,8 @@
         "Nansen発見",
         "Tier-C",
         "取引なし(14d)",
-        "塩漬け:7日以上"
+        "塩漬け:7日以上",
+        "質:堅実"
       ],
       "notes": "",
       "history": [],
@@ -35946,7 +36237,11 @@
       "n_closes": 1944,
       "active_days": 99.5,
       "metric_normalized": "2026-06-19",
-      "last_fill": 1776357083872
+      "last_fill": 1776357083872,
+      "pro_quality": "質:堅実",
+      "pro_months": 4,
+      "pro_posrate": 1.0,
+      "pro_pf": 99
     },
     "0x69b05701f8175c276ecd0138387a197948e240bb": {
       "address": "0x69b05701f8175c276ecd0138387a197948e240bb",
@@ -35956,7 +36251,8 @@
         "Nansen発見",
         "Tier-C",
         "取引あり(14d)",
-        "稼ぎ確認・先行不明(要精査)"
+        "稼ぎ確認・先行不明(要精査)",
+        "質:エリート(長期一貫)"
       ],
       "notes": "",
       "history": [],
@@ -36016,7 +36312,11 @@
       "n_closes": 2461,
       "active_days": 377.9,
       "metric_normalized": "2026-06-19",
-      "last_fill": 1781803849248
+      "last_fill": 1781803849248,
+      "pro_quality": "質:エリート(長期一貫)",
+      "pro_months": 13,
+      "pro_posrate": 0.85,
+      "pro_pf": 39.5
     },
     "0x5198eff88dea32108605bcdb109a99dc397190d8": {
       "address": "0x5198eff88dea32108605bcdb109a99dc397190d8",
@@ -36026,7 +36326,8 @@
         "HL検証済プロ",
         "Nansen発見",
         "Tier-C",
-        "取引なし(14d)"
+        "取引なし(14d)",
+        "質:履歴薄(<4ヶ月)"
       ],
       "notes": "",
       "history": [],
@@ -36067,7 +36368,11 @@
       "n_closes": 71,
       "active_days": 142.0,
       "metric_normalized": "2026-06-19",
-      "last_fill": 1777820982185
+      "last_fill": 1777820982185,
+      "pro_quality": "質:履歴薄(<4ヶ月)",
+      "pro_months": 1,
+      "pro_posrate": 1.0,
+      "pro_pf": 99
     },
     "0xa906355beaf1d69a5fe73ce55899c49c6e67916c": {
       "address": "0xa906355beaf1d69a5fe73ce55899c49c6e67916c",
@@ -36119,7 +36424,8 @@
         "HL検証済プロ",
         "Nansen発見",
         "Tier-C",
-        "取引なし(14d)"
+        "取引なし(14d)",
+        "質:ムラあり"
       ],
       "notes": "",
       "history": [],
@@ -36194,7 +36500,11 @@
       "n_closes": 764,
       "active_days": 420.0,
       "metric_normalized": "2026-06-19",
-      "last_fill": 1779321600086
+      "last_fill": 1779321600086,
+      "pro_quality": "質:ムラあり",
+      "pro_months": 16,
+      "pro_posrate": 0.62,
+      "pro_pf": 4.8
     },
     "0x8250a7f9fca9c33e68eead8c05c1d58c8fd70d13": {
       "address": "0x8250a7f9fca9c33e68eead8c05c1d58c8fd70d13",
@@ -36279,7 +36589,8 @@
         "HL検証済プロ",
         "Nansen発見",
         "Tier-C",
-        "取引なし(14d)"
+        "取引なし(14d)",
+        "質:履歴薄(<4ヶ月)"
       ],
       "notes": "",
       "history": [],
@@ -36328,7 +36639,11 @@
       "n_closes": 97,
       "active_days": 54.1,
       "metric_normalized": "2026-06-19",
-      "last_fill": 1768421507755
+      "last_fill": 1768421507755,
+      "pro_quality": "質:履歴薄(<4ヶ月)",
+      "pro_months": 1,
+      "pro_posrate": 1.0,
+      "pro_pf": 99
     },
     "0x8a48dcaffdf71c547cd0fd0434ae40fa57bcbf0f": {
       "address": "0x8a48dcaffdf71c547cd0fd0434ae40fa57bcbf0f",
@@ -36338,7 +36653,8 @@
         "HL検証済プロ",
         "Nansen発見",
         "Tier-C",
-        "取引なし(14d)"
+        "取引なし(14d)",
+        "質:堅実"
       ],
       "notes": "",
       "history": [],
@@ -36445,7 +36761,11 @@
       "n_closes": 413,
       "active_days": 114.0,
       "metric_normalized": "2026-06-19",
-      "last_fill": 1779235200009
+      "last_fill": 1779235200009,
+      "pro_quality": "質:堅実",
+      "pro_months": 7,
+      "pro_posrate": 0.86,
+      "pro_pf": 13.2
     },
     "0xbf49647d017805fcc576ac10f33a788e636f4258": {
       "address": "0xbf49647d017805fcc576ac10f33a788e636f4258",

@@ -295,6 +295,8 @@ def render_html(reg, out="registry.html",
     def cat_of(t):
         if t.startswith("Tier-"):
             return "Tier"
+        if t.startswith("質:"):
+            return "品質"
         if t.startswith("取引あり") or t.startswith("取引なし"):
             return "活動"
         for c in AXIS:
