@@ -1,0 +1,226 @@
+{
+  "address": "0x7044be555aea5bddb3b9808658500d4e0d0a6b6e",
+  "patterns": {
+    "B_asymmetric": 0.262,
+    "C_dormant_burst": 7.519,
+    "H_deliberate_dip": 5.578
+  },
+  "stats": {
+    "n_closes": 2135,
+    "real_all": 378579,
+    "real_maj": 18853,
+    "win_rate": 0.34,
+    "active_days": 596,
+    "wr_big": 0.365,
+    "wr_small": 0.314,
+    "n_big": 1068,
+    "n_small": 1067,
+    "top3_share": 0.693,
+    "size_ratio": 1.28,
+    "med_win_not": 610,
+    "med_loss_not": 476,
+    "max_gap_d": 100.9,
+    "burst_share": 1.348,
+    "flips": 1,
+    "coins": [
+      "BTC",
+      "ETH",
+      "SOL"
+    ]
+  },
+  "lb_alltime": 1404791,
+  "registry_position": null,
+  "registry_quality": null,
+  "labels": null,
+  "timeline": [
+    {
+      "m": "2024-10",
+      "win": 205,
+      "loss": 220,
+      "pnl": 14307,
+      "avg_not": 1242
+    },
+    {
+      "m": "2024-11",
+      "win": 246,
+      "loss": 792,
+      "pnl": -95904,
+      "avg_not": 702
+    },
+    {
+      "m": "2024-12",
+      "win": 39,
+      "loss": 167,
+      "pnl": -3053,
+      "avg_not": 683
+    },
+    {
+      "m": "2025-01",
+      "win": 52,
+      "loss": 70,
+      "pnl": -3904,
+      "avg_not": 725
+    },
+    {
+      "m": "2025-04",
+      "win": 54,
+      "loss": 0,
+      "pnl": 128754,
+      "avg_not": 1049
+    },
+    {
+      "m": "2025-05",
+      "win": 0,
+      "loss": 47,
+      "pnl": -12644,
+      "avg_not": 681
+    },
+    {
+      "m": "2025-08",
+      "win": 5,
+      "loss": 0,
+      "pnl": 1813,
+      "avg_not": 2365
+    },
+    {
+      "m": "2025-09",
+      "win": 1,
+      "loss": 0,
+      "pnl": 1,
+      "avg_not": 357
+    },
+    {
+      "m": "2025-10",
+      "win": 24,
+      "loss": 0,
+      "pnl": 323660,
+      "avg_not": 11386
+    },
+    {
+      "m": "2025-11",
+      "win": 21,
+      "loss": 0,
+      "pnl": 24204,
+      "avg_not": 2859
+    },
+    {
+      "m": "2025-12",
+      "win": 0,
+      "loss": 5,
+      "pnl": -17,
+      "avg_not": 33
+    },
+    {
+      "m": "2026-01",
+      "win": 0,
+      "loss": 3,
+      "pnl": -15,
+      "avg_not": 24
+    },
+    {
+      "m": "2026-02",
+      "win": 78,
+      "loss": 0,
+      "pnl": 2509,
+      "avg_not": 1358
+    },
+    {
+      "m": "2026-03",
+      "win": 0,
+      "loss": 1,
+      "pnl": 0,
+      "avg_not": 21
+    },
+    {
+      "m": "2026-05",
+      "win": 0,
+      "loss": 105,
+      "pnl": -1131,
+      "avg_not": 2381
+    }
+  ],
+  "top_wins": [
+    {
+      "coin": "S",
+      "dir": "Auto-Deleveraging",
+      "date": "2025-10-10",
+      "not": 73595,
+      "pnl": 124294,
+      "maj": false
+    },
+    {
+      "coin": "RDNT",
+      "dir": "Settlement",
+      "date": "2025-04-11",
+      "not": 42634,
+      "pnl": 97263,
+      "maj": false
+    },
+    {
+      "coin": "CRV",
+      "dir": "Auto-Deleveraging",
+      "date": "2025-10-10",
+      "not": 21003,
+      "pnl": 40650,
+      "maj": false
+    },
+    {
+      "coin": "S",
+      "dir": "Close Short",
+      "date": "2025-10-10",
+      "not": 39330,
+      "pnl": 38594,
+      "maj": false
+    },
+    {
+      "coin": "SUI",
+      "dir": "Auto-Deleveraging",
+      "date": "2025-10-10",
+      "not": 11530,
+      "pnl": 22068,
+      "maj": false
+    }
+  ],
+  "top_losses": [
+    {
+      "coin": "RDNT",
+      "dir": "Close Short",
+      "date": "2024-11-30",
+      "not": 31352,
+      "pnl": -9753,
+      "maj": false
+    },
+    {
+      "coin": "RDNT",
+      "dir": "Close Short",
+      "date": "2024-11-30",
+      "not": 17645,
+      "pnl": -5483,
+      "maj": false
+    },
+    {
+      "coin": "TRUMP",
+      "dir": "Close Short",
+      "date": "2025-01-18",
+      "not": 20114,
+      "pnl": -4327,
+      "maj": false
+    },
+    {
+      "coin": "APT",
+      "dir": "Close Short",
+      "date": "2024-11-28",
+      "not": 5000,
+      "pnl": -1689,
+      "maj": false
+    },
+    {
+      "coin": "kSHIB",
+      "dir": "Close Short",
+      "date": "2024-11-27",
+      "not": 4571,
+      "pnl": -984,
+      "maj": false
+    }
+  ]
+}

@@ -1,0 +1,158 @@
+{
+  "address": "0x6581c99e278c12b74e25051a49fd8eda307be75b",
+  "patterns": {
+    "B_asymmetric": 0.17,
+    "C_dormant_burst": 4.229,
+    "D_controlled_loss": 15.123,
+    "H_deliberate_dip": 5.307
+  },
+  "stats": {
+    "n_closes": 538,
+    "real_all": 202561,
+    "real_maj": 61063,
+    "win_rate": 0.162,
+    "active_days": 164,
+    "wr_big": 0.219,
+    "wr_small": 0.104,
+    "n_big": 269,
+    "n_small": 269,
+    "top3_share": 0.841,
+    "size_ratio": 3.16,
+    "med_win_not": 2252,
+    "med_loss_not": 713,
+    "max_gap_d": 76.4,
+    "burst_share": 0.797,
+    "flips": 0,
+    "coins": [
+      "ETH",
+      "SOL"
+    ]
+  },
+  "lb_alltime": null,
+  "registry_position": "除外/低優先",
+  "registry_quality": null,
+  "labels": [
+    "Former Smart Trader [0x6581c9]"
+  ],
+  "timeline": [
+    {
+      "m": "2025-08",
+      "win": 4,
+      "loss": 0,
+      "pnl": 57,
+      "avg_not": 544
+    },
+    {
+      "m": "2025-09",
+      "win": 11,
+      "loss": 180,
+      "pnl": -17846,
+      "avg_not": 2061
+    },
+    {
+      "m": "2025-10",
+      "win": 10,
+      "loss": 38,
+      "pnl": 159287,
+      "avg_not": 5914
+    },
+    {
+      "m": "2025-12",
+      "win": 0,
+      "loss": 58,
+      "pnl": -8189,
+      "avg_not": 5059
+    },
+    {
+      "m": "2026-01",
+      "win": 62,
+      "loss": 175,
+      "pnl": 69252,
+      "avg_not": 3623
+    }
+  ],
+  "top_wins": [
+    {
+      "coin": "ATOM",
+      "dir": "Auto-Deleveraging",
+      "date": "2025-10-10",
+      "not": 254133,
+      "pnl": 160056,
+      "maj": false
+    },
+    {
+      "coin": "ETH",
+      "dir": "Close Short",
+      "date": "2026-01-31",
+      "not": 24086,
+      "pnl": 5121,
+      "maj": true
+    },
+    {
+      "coin": "ETH",
+      "dir": "Close Short",
+      "date": "2026-01-31",
+      "not": 24123,
+      "pnl": 5084,
+      "maj": true
+    },
+    {
+      "coin": "ETH",
+      "dir": "Close Short",
+      "date": "2026-01-31",
+      "not": 24177,
+      "pnl": 5030,
+      "maj": true
+    },
+    {
+      "coin": "ETH",
+      "dir": "Close Short",
+      "date": "2026-01-31",
+      "not": 21989,
+      "pnl": 4667,
+      "maj": true
+    }
+  ],
+  "top_losses": [
+    {
+      "coin": "ATOM",
+      "dir": "Close Short",
+      "date": "2025-09-11",
+      "not": 24606,
+      "pnl": -1515,
+      "maj": false
+    },
+    {
+      "coin": "ATOM",
+      "dir": "Close Short",
+      "date": "2025-09-11",
+      "not": 24338,
+      "pnl": -1247,
+      "maj": false
+    },
+    {
+      "coin": "ATOM",
+      "dir": "Close Short",
+      "date": "2025-09-11",
+      "not": 15000,
+      "pnl": -944,
+      "maj": false
+    },
+    {
+      "coin": "ATOM",
+      "dir": "Close Short",
+      "date": "2025-09-11",
+      "not": 15000,
+      "pnl": -880,
+      "maj": false
+    },
+    {
+      "coin": "ATOM",
+      "dir": "Close Short",
+      "date": "2025-09-11",
+      "not": 19329,
+      "pnl": -859,
+      "maj": false
+    }
+  ]
+}

@@ -1,0 +1,157 @@
+{
+  "address": "0xcdf68bda82c7f75bd7e1bd3991848b65fd2830b9",
+  "patterns": {
+    "D_controlled_loss": 679.265,
+    "H_deliberate_dip": 5.277
+  },
+  "stats": {
+    "n_closes": 105,
+    "real_all": 189446,
+    "real_maj": 189446,
+    "win_rate": 0.857,
+    "active_days": 124,
+    "wr_big": 0.962,
+    "wr_small": 0.75,
+    "n_big": 53,
+    "n_small": 52,
+    "top3_share": 0.228,
+    "size_ratio": 128.71,
+    "med_win_not": 1497,
+    "med_loss_not": 12,
+    "max_gap_d": 22.0,
+    "burst_share": 0.077,
+    "flips": 0,
+    "coins": [
+      "BTC",
+      "ETH",
+      "SOL"
+    ]
+  },
+  "lb_alltime": null,
+  "registry_position": "除外/低優先",
+  "registry_quality": null,
+  "labels": [
+    "Former Smart Trader [0xcdf68b]"
+  ],
+  "timeline": [
+    {
+      "m": "2025-12",
+      "win": 8,
+      "loss": 0,
+      "pnl": 414,
+      "avg_not": 3557
+    },
+    {
+      "m": "2026-01",
+      "win": 4,
+      "loss": 15,
+      "pnl": 1892,
+      "avg_not": 3441
+    },
+    {
+      "m": "2026-02",
+      "win": 2,
+      "loss": 0,
+      "pnl": 455,
+      "avg_not": 1831
+    },
+    {
+      "m": "2026-03",
+      "win": 8,
+      "loss": 0,
+      "pnl": 8827,
+      "avg_not": 3862
+    },
+    {
+      "m": "2026-04",
+      "win": 68,
+      "loss": 0,
+      "pnl": 177857,
+      "avg_not": 10156
+    }
+  ],
+  "top_wins": [
+    {
+      "coin": "SOL",
+      "dir": "Close Short",
+      "date": "2026-04-25",
+      "not": 43167,
+      "pnl": 14679,
+      "maj": true
+    },
+    {
+      "coin": "SOL",
+      "dir": "Close Short",
+      "date": "2026-04-25",
+      "not": 42056,
+      "pnl": 14301,
+      "maj": true
+    },
+    {
+      "coin": "SOL",
+      "dir": "Close Short",
+      "date": "2026-04-25",
+      "not": 41836,
+      "pnl": 14226,
+      "maj": true
+    },
+    {
+      "coin": "SOL",
+      "dir": "Close Short",
+      "date": "2026-04-25",
+      "not": 40838,
+      "pnl": 13887,
+      "maj": true
+    },
+    {
+      "coin": "SOL",
+      "dir": "Close Short",
+      "date": "2026-04-25",
+      "not": 40787,
+      "pnl": 13870,
+      "maj": true
+    }
+  ],
+  "top_losses": [
+    {
+      "coin": "ETH",
+      "dir": "Close Short",
+      "date": "2026-01-16",
+      "not": 7428,
+      "pnl": -716,
+      "maj": true
+    },
+    {
+      "coin": "BTC",
+      "dir": "Close Short",
+      "date": "2026-01-21",
+      "not": 3698,
+      "pnl": -52,
+      "maj": true
+    },
+    {
+      "coin": "BTC",
+      "dir": "Close Short",
+      "date": "2026-01-16",
+      "not": 624,
+      "pnl": -48,
+      "maj": true
+    },
+    {
+      "coin": "SOL",
+      "dir": "Close Short",
+      "date": "2026-01-21",
+      "not": 266,
+      "pnl": -6,
+      "maj": true
+    },
+    {
+      "coin": "BTC",
+      "dir": "Close Short",
+      "date": "2026-01-21",
+      "not": 268,
+      "pnl": -4,
+      "maj": true
+    }
+  ]
+}

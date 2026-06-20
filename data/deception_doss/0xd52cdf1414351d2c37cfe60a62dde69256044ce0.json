@@ -1,0 +1,169 @@
+{
+  "address": "0xd52cdf1414351d2c37cfe60a62dde69256044ce0",
+  "patterns": {
+    "A_size_conditional": 1.473,
+    "C_dormant_burst": 4.648
+  },
+  "stats": {
+    "n_closes": 1271,
+    "real_all": 80046,
+    "real_maj": 40076,
+    "win_rate": 0.477,
+    "active_days": 490,
+    "wr_big": 0.637,
+    "wr_small": 0.317,
+    "n_big": 636,
+    "n_small": 635,
+    "top3_share": 0.429,
+    "size_ratio": 2.12,
+    "med_win_not": 319,
+    "med_loss_not": 150,
+    "max_gap_d": 319.9,
+    "burst_share": 0.948,
+    "flips": 0,
+    "coins": [
+      "BTC",
+      "ETH",
+      "SOL"
+    ]
+  },
+  "lb_alltime": 562737,
+  "registry_position": null,
+  "registry_quality": null,
+  "labels": null,
+  "timeline": [
+    {
+      "m": "2025-02",
+      "win": 46,
+      "loss": 0,
+      "pnl": 4894,
+      "avg_not": 3162
+    },
+    {
+      "m": "2025-03",
+      "win": 3,
+      "loss": 0,
+      "pnl": 28001,
+      "avg_not": 17718
+    },
+    {
+      "m": "2025-04",
+      "win": 1,
+      "loss": 0,
+      "pnl": 7180,
+      "avg_not": 10634
+    },
+    {
+      "m": "2025-05",
+      "win": 3,
+      "loss": 11,
+      "pnl": -48,
+      "avg_not": 335
+    },
+    {
+      "m": "2025-06",
+      "win": 62,
+      "loss": 0,
+      "pnl": 39635,
+      "avg_not": 824
+    },
+    {
+      "m": "2025-07",
+      "win": 4,
+      "loss": 0,
+      "pnl": 854,
+      "avg_not": 1517
+    },
+    {
+      "m": "2026-06",
+      "win": 487,
+      "loss": 654,
+      "pnl": -471,
+      "avg_not": 430
+    }
+  ],
+  "top_wins": [
+    {
+      "coin": "ETH",
+      "dir": "Close Short",
+      "date": "2025-03-30",
+      "not": 42267,
+      "pnl": 22770,
+      "maj": true
+    },
+    {
+      "coin": "ETH",
+      "dir": "Close Short",
+      "date": "2025-04-06",
+      "not": 10634,
+      "pnl": 7180,
+      "maj": true
+    },
+    {
+      "coin": "ETH",
+      "dir": "Close Short",
+      "date": "2025-03-18",
+      "not": 9185,
+      "pnl": 4414,
+      "maj": true
+    },
+    {
+      "coin": "RESOLV",
+      "dir": "Close Short",
+      "date": "2025-06-24",
+      "not": 3247,
+      "pnl": 3092,
+      "maj": false
+    },
+    {
+      "coin": "RESOLV",
+      "dir": "Close Short",
+      "date": "2025-06-24",
+      "not": 3212,
+      "pnl": 3058,
+      "maj": false
+    }
+  ],
+  "top_losses": [
+    {
+      "coin": "ZEC",
+      "dir": "Close Short",
+      "date": "2026-06-17",
+      "not": 1830,
+      "pnl": -438,
+      "maj": false
+    },
+    {
+      "coin": "ZEC",
+      "dir": "Close Short",
+      "date": "2026-06-17",
+      "not": 990,
+      "pnl": -237,
+      "maj": false
+    },
+    {
+      "coin": "ZEC",
+      "dir": "Close Short",
+      "date": "2026-06-17",
+      "not": 525,
+      "pnl": -126,
+      "maj": false
+    },
+    {
+      "coin": "ZEC",
+      "dir": "Close Short",
+      "date": "2026-06-17",
+      "not": 465,
+      "pnl": -111,
+      "maj": false
+    },
+    {
+      "coin": "ZEC",
+      "dir": "Close Short",
+      "date": "2026-06-17",
+      "not": 148,
+      "pnl": -36,
+      "maj": false
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "address": "0xfd5e31ef58f79ea6e5cd813d0ad1ec66c58c7971",
+  "patterns": {
+    "D_controlled_loss": 250.867
+  },
+  "stats": {
+    "n_closes": 156,
+    "real_all": 149103,
+    "real_maj": 149133,
+    "win_rate": 0.974,
+    "active_days": 20,
+    "wr_big": 1.0,
+    "wr_small": 0.949,
+    "n_big": 78,
+    "n_small": 78,
+    "top3_share": 0.272,
+    "size_ratio": 48.49,
+    "med_win_not": 3492,
+    "med_loss_not": 72,
+    "max_gap_d": 19.0,
+    "burst_share": 0.0,
+    "flips": 0,
+    "coins": [
+      "BTC",
+      "ETH",
+      "SOL"
+    ]
+  },
+  "lb_alltime": null,
+  "registry_position": "除外/低優先",
+  "registry_quality": null,
+  "labels": [
+    "Former Smart Trader [0xfd5e31]"
+  ],
+  "timeline": [
+    {
+      "m": "2026-02",
+      "win": 152,
+      "loss": 4,
+      "pnl": 149103,
+      "avg_not": 10862
+    }
+  ],
+  "top_wins": [
+    {
+      "coin": "ETH",
+      "dir": "Close Short",
+      "date": "2026-02-05",
+      "not": 198189,
+      "pnl": 17182,
+      "maj": true
+    },
+    {
+      "coin": "ETH",
+      "dir": "Close Short",
+      "date": "2026-02-05",
+      "not": 198236,
+      "pnl": 17134,
+      "maj": true
+    },
+    {
+      "coin": "ETH",
+      "dir": "Close Short",
+      "date": "2026-02-05",
+      "not": 71444,
+      "pnl": 6201,
+      "maj": true
+    },
+    {
+      "coin": "ETH",
+      "dir": "Close Short",
+      "date": "2026-02-05",
+      "not": 71743,
+      "pnl": 6197,
+      "maj": true
+    },
+    {
+      "coin": "ETH",
+      "dir": "Close Short",
+      "date": "2026-02-03",
+      "not": 65730,
+      "pnl": 5880,
+      "maj": true
+    }
+  ],
+  "top_losses": [
+    {
+      "coin": "SOL",
+      "dir": "Close Long",
+      "date": "2026-02-24",
+      "not": 77,
+      "pnl": -20,
+      "maj": true
+    },
+    {
+      "coin": "HYPE",
+      "dir": "Close Long",
+      "date": "2026-02-24",
+      "not": 78,
+      "pnl": -20,
+      "maj": false
+    },
+    {
+      "coin": "BTC",
+      "dir": "Close Long",
+      "date": "2026-02-24",
+      "not": 64,
+      "pnl": -11,
+      "maj": true
+    },
+    {
+      "coin": "XRP",
+      "dir": "Close Long",
+      "date": "2026-02-24",
+      "not": 67,
+      "pnl": -11,
+      "maj": false
+    }
+  ]
+}

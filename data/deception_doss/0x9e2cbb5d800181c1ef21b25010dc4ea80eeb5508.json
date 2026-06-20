@@ -1,0 +1,135 @@
+{
+  "address": "0x9e2cbb5d800181c1ef21b25010dc4ea80eeb5508",
+  "patterns": {
+    "C_dormant_burst": 2.807,
+    "D_controlled_loss": 65.215,
+    "H_deliberate_dip": 5.337
+  },
+  "stats": {
+    "n_closes": 876,
+    "real_all": 217077,
+    "real_maj": 96798,
+    "win_rate": 0.962,
+    "active_days": 152,
+    "wr_big": 0.993,
+    "wr_small": 0.932,
+    "n_big": 438,
+    "n_small": 438,
+    "top3_share": 0.051,
+    "size_ratio": 13.08,
+    "med_win_not": 2814,
+    "med_loss_not": 215,
+    "max_gap_d": 149.2,
+    "burst_share": 0.526,
+    "flips": 0,
+    "coins": [
+      "SOL"
+    ]
+  },
+  "lb_alltime": 6088737,
+  "registry_position": "高頻度MM",
+  "registry_quality": null,
+  "labels": [
+    "Former Smart Trader [0x9e2cbb]"
+  ],
+  "timeline": [
+    {
+      "m": "2026-01",
+      "win": 500,
+      "loss": 29,
+      "pnl": 102867,
+      "avg_not": 8337
+    },
+    {
+      "m": "2026-06",
+      "win": 343,
+      "loss": 4,
+      "pnl": 114210,
+      "avg_not": 10078
+    }
+  ],
+  "top_wins": [
+    {
+      "coin": "xyz:SPCX",
+      "dir": "Close Short",
+      "date": "2026-06-16",
+      "not": 148398,
+      "pnl": 4757,
+      "maj": false
+    },
+    {
+      "coin": "SOL",
+      "dir": "Close Long",
+      "date": "2026-01-16",
+      "not": 120027,
+      "pnl": 3191,
+      "maj": true
+    },
+    {
+      "coin": "SOL",
+      "dir": "Close Long",
+      "date": "2026-01-16",
+      "not": 120031,
+      "pnl": 3191,
+      "maj": true
+    },
+    {
+      "coin": "xyz:SPCX",
+      "dir": "Close Short",
+      "date": "2026-06-16",
+      "not": 100000,
+      "pnl": 3190,
+      "maj": false
+    },
+    {
+      "coin": "SOL",
+      "dir": "Close Long",
+      "date": "2026-01-16",
+      "not": 101845,
+      "pnl": 2714,
+      "maj": true
+    }
+  ],
+  "top_losses": [
+    {
+      "coin": "xyz:MSTR",
+      "dir": "Close Long",
+      "date": "2026-01-15",
+      "not": 1573,
+      "pnl": -90,
+      "maj": false
+    },
+    {
+      "coin": "xyz:CRCL",
+      "dir": "Close Long",
+      "date": "2026-01-15",
+      "not": 860,
+      "pnl": -71,
+      "maj": false
+    },
+    {
+      "coin": "xyz:CRCL",
+      "dir": "Close Long",
+      "date": "2026-01-15",
+      "not": 698,
+      "pnl": -58,
+      "maj": false
+    },
+    {
+      "coin": "xyz:MSTR",
+      "dir": "Close Long",
+      "date": "2026-01-15",
+      "not": 982,
+      "pnl": -56,
+      "maj": false
+    },
+    {
+      "coin": "vntl:SEMIS",
+      "dir": "Close Long",
+      "date": "2026-01-15",
+      "not": 6117,
+      "pnl": -53,
+      "maj": false
+    }
+  ]
+}

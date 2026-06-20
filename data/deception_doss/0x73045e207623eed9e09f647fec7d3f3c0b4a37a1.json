@@ -1,0 +1,182 @@
+{
+  "address": "0x73045e207623eed9e09f647fec7d3f3c0b4a37a1",
+  "patterns": {
+    "B_asymmetric": 0.141,
+    "C_dormant_burst": 5.117,
+    "H_deliberate_dip": 5.427
+  },
+  "stats": {
+    "n_closes": 1932,
+    "real_all": 267061,
+    "real_maj": 17965,
+    "win_rate": 0.319,
+    "active_days": 387,
+    "wr_big": 0.373,
+    "wr_small": 0.265,
+    "n_big": 966,
+    "n_small": 966,
+    "top3_share": 0.528,
+    "size_ratio": 1.66,
+    "med_win_not": 948,
+    "med_loss_not": 571,
+    "max_gap_d": 111.4,
+    "burst_share": 0.943,
+    "flips": 0,
+    "coins": [
+      "SOL"
+    ]
+  },
+  "lb_alltime": 403145,
+  "registry_position": null,
+  "registry_quality": null,
+  "labels": null,
+  "timeline": [
+    {
+      "m": "2025-05",
+      "win": 16,
+      "loss": 83,
+      "pnl": -10014,
+      "avg_not": 955
+    },
+    {
+      "m": "2025-06",
+      "win": 0,
+      "loss": 18,
+      "pnl": -3156,
+      "avg_not": 2999
+    },
+    {
+      "m": "2025-09",
+      "win": 56,
+      "loss": 0,
+      "pnl": 77201,
+      "avg_not": 3269
+    },
+    {
+      "m": "2026-01",
+      "win": 49,
+      "loss": 118,
+      "pnl": 86059,
+      "avg_not": 3755
+    },
+    {
+      "m": "2026-02",
+      "win": 31,
+      "loss": 0,
+      "pnl": 20469,
+      "avg_not": 7111
+    },
+    {
+      "m": "2026-03",
+      "win": 54,
+      "loss": 214,
+      "pnl": -4027,
+      "avg_not": 3916
+    },
+    {
+      "m": "2026-04",
+      "win": 0,
+      "loss": 220,
+      "pnl": -124016,
+      "avg_not": 3305
+    },
+    {
+      "m": "2026-05",
+      "win": 330,
+      "loss": 241,
+      "pnl": 86016,
+      "avg_not": 3716
+    },
+    {
+      "m": "2026-06",
+      "win": 80,
+      "loss": 422,
+      "pnl": 138528,
+      "avg_not": 3455
+    }
+  ],
+  "top_wins": [
+    {
+      "coin": "@107",
+      "dir": "Sell",
+      "date": "2026-06-04",
+      "not": 89482,
+      "pnl": 55161,
+      "maj": false
+    },
+    {
+      "coin": "@107",
+      "dir": "Sell",
+      "date": "2026-06-04",
+      "not": 89362,
+      "pnl": 55041,
+      "maj": false
+    },
+    {
+      "coin": "@107",
+      "dir": "Sell",
+      "date": "2026-06-04",
+      "not": 50015,
+      "pnl": 30805,
+      "maj": false
+    },
+    {
+      "coin": "@107",
+      "dir": "Sell",
+      "date": "2026-06-04",
+      "not": 20006,
+      "pnl": 12328,
+      "maj": false
+    },
+    {
+      "coin": "@107",
+      "dir": "Sell",
+      "date": "2026-06-04",
+      "not": 20006,
+      "pnl": 12327,
+      "maj": false
+    }
+  ],
+  "top_losses": [
+    {
+      "coin": "ZRO",
+      "dir": "Close Long",
+      "date": "2026-04-19",
+      "not": 76069,
+      "pnl": -21339,
+      "maj": false
+    },
+    {
+      "coin": "ZRO",
+      "dir": "Close Long",
+      "date": "2026-04-19",
+      "not": 31393,
+      "pnl": -10315,
+      "maj": false
+    },
+    {
+      "coin": "ZRO",
+      "dir": "Close Long",
+      "date": "2026-04-19",
+      "not": 30000,
+      "pnl": -10245,
+      "maj": false
+    },
+    {
+      "coin": "ZRO",
+      "dir": "Close Long",
+      "date": "2026-04-19",
+      "not": 24858,
+      "pnl": -8557,
+      "maj": false
+    },
+    {
+      "coin": "ZRO",
+      "dir": "Close Long",
+      "date": "2026-04-19",
+      "not": 22864,
+      "pnl": -7756,
+      "maj": false
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "address": "0xbe81c9958ebb744f9e5fb9c08cdbc794160e62e7",
+  "patterns": {
+    "A_size_conditional": 0.9
+  },
+  "stats": {
+    "n_closes": 1782,
+    "real_all": 42549,
+    "real_maj": 46039,
+    "win_rate": 0.516,
+    "active_days": 456,
+    "wr_big": 0.613,
+    "wr_small": 0.42,
+    "n_big": 891,
+    "n_small": 891,
+    "top3_share": 0.233,
+    "size_ratio": 6.69,
+    "med_win_not": 10000,
+    "med_loss_not": 1496,
+    "max_gap_d": 367.1,
+    "burst_share": 0.055,
+    "flips": 0,
+    "coins": [
+      "BTC"
+    ]
+  },
+  "lb_alltime": 338812,
+  "registry_position": null,
+  "registry_quality": null,
+  "labels": null,
+  "timeline": [
+    {
+      "m": "2025-03",
+      "win": 837,
+      "loss": 616,
+      "pnl": 39231,
+      "avg_not": 32237
+    },
+    {
+      "m": "2025-04",
+      "win": 57,
+      "loss": 137,
+      "pnl": 7312,
+      "avg_not": 28172
+    },
+    {
+      "m": "2025-05",
+      "win": 0,
+      "loss": 67,
+      "pnl": -2801,
+      "avg_not": 1134
+    },
+    {
+      "m": "2026-06",
+      "win": 26,
+      "loss": 42,
+      "pnl": -1193,
+      "avg_not": 9281
+    }
+  ],
+  "top_wins": [
+    {
+      "coin": "BTC",
+      "dir": "Close Long",
+      "date": "2025-03-24",
+      "not": 834459,
+      "pnl": 3576,
+      "maj": true
+    },
+    {
+      "coin": "BTC",
+      "dir": "Close Long",
+      "date": "2025-03-19",
+      "not": 224998,
+      "pnl": 3400,
+      "maj": true
+    },
+    {
+      "coin": "BTC",
+      "dir": "Close Long",
+      "date": "2025-03-24",
+      "not": 423818,
+      "pnl": 2936,
+      "maj": true
+    },
+    {
+      "coin": "BTC",
+      "dir": "Close Long",
+      "date": "2025-03-24",
+      "not": 249998,
+      "pnl": 2928,
+      "maj": true
+    },
+    {
+      "coin": "BTC",
+      "dir": "Close Long",
+      "date": "2025-03-30",
+      "not": 423640,
+      "pnl": 2866,
+      "maj": true
+    }
+  ],
+  "top_losses": [
+    {
+      "coin": "BTC",
+      "dir": "Close Long",
+      "date": "2025-03-28",
+      "not": 149805,
+      "pnl": -5128,
+      "maj": true
+    },
+    {
+      "coin": "BTC",
+      "dir": "Close Long",
+      "date": "2025-04-02",
+      "not": 517371,
+      "pnl": -3559,
+      "maj": true
+    },
+    {
+      "coin": "BTC",
+      "dir": "Close Long",
+      "date": "2025-03-29",
+      "not": 140000,
+      "pnl": -2885,
+      "maj": true
+    },
+    {
+      "coin": "BTC",
+      "dir": "Close Long",
+      "date": "2025-03-30",
+      "not": 295885,
+      "pnl": -2854,
+      "maj": true
+    },
+    {
+      "coin": "BTC",
+      "dir": "Close Long",
+      "date": "2025-03-29",
+      "not": 113959,
+      "pnl": -2350,
+      "maj": true
+    }
+  ]
+}

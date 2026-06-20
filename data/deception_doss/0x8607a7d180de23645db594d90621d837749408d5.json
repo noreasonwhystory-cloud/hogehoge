@@ -1,0 +1,182 @@
+{
+  "address": "0x8607a7d180de23645db594d90621d837749408d5",
+  "patterns": {
+    "H_deliberate_dip": 7.158
+  },
+  "stats": {
+    "n_closes": 13734,
+    "real_all": 14396100,
+    "real_maj": 2281867,
+    "win_rate": 0.766,
+    "active_days": 250,
+    "wr_big": 0.747,
+    "wr_small": 0.785,
+    "n_big": 6867,
+    "n_small": 6867,
+    "top3_share": 0.284,
+    "size_ratio": 0.77,
+    "med_win_not": 489,
+    "med_loss_not": 635,
+    "max_gap_d": 22.9,
+    "burst_share": 0.031,
+    "flips": 0,
+    "coins": [
+      "BTC",
+      "ETH",
+      "SOL"
+    ]
+  },
+  "lb_alltime": 26803520,
+  "registry_position": null,
+  "registry_quality": null,
+  "labels": null,
+  "timeline": [
+    {
+      "m": "2025-10",
+      "win": 6373,
+      "loss": 140,
+      "pnl": 13375223,
+      "avg_not": 8358
+    },
+    {
+      "m": "2025-11",
+      "win": 727,
+      "loss": 376,
+      "pnl": 18570,
+      "avg_not": 3433
+    },
+    {
+      "m": "2025-12",
+      "win": 562,
+      "loss": 156,
+      "pnl": 70676,
+      "avg_not": 1065
+    },
+    {
+      "m": "2026-01",
+      "win": 132,
+      "loss": 280,
+      "pnl": 8802,
+      "avg_not": 2810
+    },
+    {
+      "m": "2026-02",
+      "win": 522,
+      "loss": 442,
+      "pnl": 518856,
+      "avg_not": 2757
+    },
+    {
+      "m": "2026-03",
+      "win": 313,
+      "loss": 526,
+      "pnl": 14433,
+      "avg_not": 6659
+    },
+    {
+      "m": "2026-04",
+      "win": 255,
+      "loss": 22,
+      "pnl": 483276,
+      "avg_not": 6640
+    },
+    {
+      "m": "2026-05",
+      "win": 706,
+      "loss": 64,
+      "pnl": 200492,
+      "avg_not": 3078
+    },
+    {
+      "m": "2026-06",
+      "win": 934,
+      "loss": 1204,
+      "pnl": -294227,
+      "avg_not": 2991
+    }
+  ],
+  "top_wins": [
+    {
+      "coin": "ENA",
+      "dir": "Auto-Deleveraging",
+      "date": "2025-10-10",
+      "not": 1874157,
+      "pnl": 2900746,
+      "maj": false
+    },
+    {
+      "coin": "EIGEN",
+      "dir": "Auto-Deleveraging",
+      "date": "2025-10-10",
+      "not": 475875,
+      "pnl": 689649,
+      "maj": false
+    },
+    {
+      "coin": "ZRO",
+      "dir": "Auto-Deleveraging",
+      "date": "2025-10-10",
+      "not": 161082,
+      "pnl": 492095,
+      "maj": false
+    },
+    {
+      "coin": "DOGE",
+      "dir": "Close Short",
+      "date": "2025-10-10",
+      "not": 197490,
+      "pnl": 398109,
+      "maj": false
+    },
+    {
+      "coin": "SOL",
+      "dir": "Close Short",
+      "date": "2025-10-10",
+      "not": 637392,
+      "pnl": 361036,
+      "maj": true
+    }
+  ],
+  "top_losses": [
+    {
+      "coin": "TON",
+      "dir": "Settlement",
+      "date": "2026-06-15",
+      "not": 173201,
+      "pnl": -142201,
+      "maj": false
+    },
+    {
+      "coin": "BLAST",
+      "dir": "Settlement",
+      "date": "2026-05-25",
+      "not": 1368,
+      "pnl": -34239,
+      "maj": false
+    },
+    {
+      "coin": "WLFI",
+      "dir": "Close Long",
+      "date": "2025-10-10",
+      "not": 83334,
+      "pnl": -28772,
+      "maj": false
+    },
+    {
+      "coin": "LIT",
+      "dir": "Close Long",
+      "date": "2026-02-25",
+      "not": 49858,
+      "pnl": -25620,
+      "maj": false
+    },
+    {
+      "coin": "WLFI",
+      "dir": "Close Long",
+      "date": "2025-10-10",
+      "not": 55555,
+      "pnl": -18805,
+      "maj": false
+    }
+  ]
+}

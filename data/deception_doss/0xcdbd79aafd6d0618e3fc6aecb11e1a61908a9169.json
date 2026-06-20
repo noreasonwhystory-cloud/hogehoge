@@ -1,0 +1,146 @@
+{
+  "address": "0xcdbd79aafd6d0618e3fc6aecb11e1a61908a9169",
+  "patterns": {
+    "A_size_conditional": 1.354,
+    "D_controlled_loss": 35.022
+  },
+  "stats": {
+    "n_closes": 1899,
+    "real_all": 57742,
+    "real_maj": 54031,
+    "win_rate": 0.514,
+    "active_days": 81,
+    "wr_big": 0.657,
+    "wr_small": 0.371,
+    "n_big": 951,
+    "n_small": 948,
+    "top3_share": 0.46,
+    "size_ratio": 7.4,
+    "med_win_not": 1214,
+    "med_loss_not": 164,
+    "max_gap_d": 13.5,
+    "burst_share": 0.323,
+    "flips": 0,
+    "coins": [
+      "BTC"
+    ]
+  },
+  "lb_alltime": 60148,
+  "registry_position": "除外/低優先",
+  "registry_quality": null,
+  "labels": null,
+  "timeline": [
+    {
+      "m": "2026-03",
+      "win": 26,
+      "loss": 0,
+      "pnl": 5588,
+      "avg_not": 14400
+    },
+    {
+      "m": "2026-04",
+      "win": 16,
+      "loss": 160,
+      "pnl": -33594,
+      "avg_not": 8653
+    },
+    {
+      "m": "2026-05",
+      "win": 220,
+      "loss": 554,
+      "pnl": 4766,
+      "avg_not": 4635
+    },
+    {
+      "m": "2026-06",
+      "win": 715,
+      "loss": 208,
+      "pnl": 80981,
+      "avg_not": 9354
+    }
+  ],
+  "top_wins": [
+    {
+      "coin": "BTC",
+      "dir": "Close Short",
+      "date": "2026-06-05",
+      "not": 239988,
+      "pnl": 12467,
+      "maj": true
+    },
+    {
+      "coin": "BTC",
+      "dir": "Close Short",
+      "date": "2026-06-05",
+      "not": 100064,
+      "pnl": 7847,
+      "maj": true
+    },
+    {
+      "coin": "BTC",
+      "dir": "Close Short",
+      "date": "2026-06-05",
+      "not": 120054,
+      "pnl": 6230,
+      "maj": true
+    },
+    {
+      "coin": "BTC",
+      "dir": "Close Short",
+      "date": "2026-06-05",
+      "not": 75048,
+      "pnl": 5885,
+      "maj": true
+    },
+    {
+      "coin": "BTC",
+      "dir": "Close Short",
+      "date": "2026-06-05",
+      "not": 100044,
+      "pnl": 5187,
+      "maj": true
+    }
+  ],
+  "top_losses": [
+    {
+      "coin": "BTC",
+      "dir": "Close Short",
+      "date": "2026-06-09",
+      "not": 400127,
+      "pnl": -18783,
+      "maj": true
+    },
+    {
+      "coin": "BTC",
+      "dir": "Close Short",
+      "date": "2026-06-09",
+      "not": 400115,
+      "pnl": -18782,
+      "maj": true
+    },
+    {
+      "coin": "BTC",
+      "dir": "Close Short",
+      "date": "2026-06-15",
+      "not": 125897,
+      "pnl": -7177,
+      "maj": true
+    },
+    {
+      "coin": "BTC",
+      "dir": "Close Short",
+      "date": "2026-06-09",
+      "not": 150023,
+      "pnl": -7042,
+      "maj": true
+    },
+    {
+      "coin": "BTC",
+      "dir": "Close Short",
+      "date": "2026-06-15",
+      "not": 90345,
+      "pnl": -5150,
+      "maj": true
+    }
+  ]
+}

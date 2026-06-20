@@ -1,0 +1,134 @@
+{
+  "address": "0x4b4bdd734b87bc48683d24f1dc6159e3ab6d6409",
+  "patterns": {
+    "D_controlled_loss": 59.335,
+    "H_deliberate_dip": 6.04
+  },
+  "stats": {
+    "n_closes": 3392,
+    "real_all": 1097035,
+    "real_maj": 919099,
+    "win_rate": 0.914,
+    "active_days": 9,
+    "wr_big": 0.952,
+    "wr_small": 0.876,
+    "n_big": 1696,
+    "n_small": 1696,
+    "top3_share": 0.103,
+    "size_ratio": 9.95,
+    "med_win_not": 2474,
+    "med_loss_not": 249,
+    "max_gap_d": 7.4,
+    "burst_share": 0.285,
+    "flips": 0,
+    "coins": [
+      "BTC"
+    ]
+  },
+  "lb_alltime": 1070649,
+  "registry_position": "高頻度MM",
+  "registry_quality": "高頻度MM",
+  "labels": [
+    "HL Perps Whale [0x4b4bdd]"
+  ],
+  "timeline": [
+    {
+      "m": "2026-05",
+      "win": 2306,
+      "loss": 292,
+      "pnl": 447507,
+      "avg_not": 10908
+    },
+    {
+      "m": "2026-06",
+      "win": 794,
+      "loss": 0,
+      "pnl": 649528,
+      "avg_not": 19331
+    }
+  ],
+  "top_wins": [
+    {
+      "coin": "BTC",
+      "dir": "Close Short",
+      "date": "2026-06-01",
+      "not": 1704912,
+      "pnl": 71654,
+      "maj": true
+    },
+    {
+      "coin": "@107",
+      "dir": "Sell",
+      "date": "2026-05-22",
+      "not": 50015,
+      "pnl": 20749,
+      "maj": false
+    },
+    {
+      "coin": "@107",
+      "dir": "Sell",
+      "date": "2026-05-22",
+      "not": 49891,
+      "pnl": 20693,
+      "maj": false
+    },
+    {
+      "coin": "@107",
+      "dir": "Sell",
+      "date": "2026-05-22",
+      "not": 49881,
+      "pnl": 20685,
+      "maj": false
+    },
+    {
+      "coin": "@107",
+      "dir": "Sell",
+      "date": "2026-05-22",
+      "not": 42180,
+      "pnl": 17491,
+      "maj": false
+    }
+  ],
+  "top_losses": [
+    {
+      "coin": "@334",
+      "dir": "Sell",
+      "date": "2026-05-22",
+      "not": 23221,
+      "pnl": -11191,
+      "maj": false
+    },
+    {
+      "coin": "@334",
+      "dir": "Sell",
+      "date": "2026-05-22",
+      "not": 16641,
+      "pnl": -9700,
+      "maj": false
+    },
+    {
+      "coin": "@334",
+      "dir": "Sell",
+      "date": "2026-05-22",
+      "not": 15182,
+      "pnl": -8179,
+      "maj": false
+    },
+    {
+      "coin": "@334",
+      "dir": "Sell",
+      "date": "2026-05-22",
+      "not": 15390,
+      "pnl": -7099,
+      "maj": false
+    },
+    {
+      "coin": "@334",
+      "dir": "Sell",
+      "date": "2026-05-22",
+      "not": 13461,
+      "pnl": -6818,
+      "maj": false
+    }
+  ]
+}

@@ -1,0 +1,191 @@
+{
+  "address": "0x000007cc15b4b01aecf248bf46302ac02341e11f",
+  "patterns": {
+    "C_dormant_burst": 2.711,
+    "F_decoy_flip": 71.395,
+    "H_deliberate_dip": 5.224
+  },
+  "stats": {
+    "n_closes": 6197,
+    "real_all": 167650,
+    "real_maj": 125788,
+    "win_rate": 0.62,
+    "active_days": 498,
+    "wr_big": 0.638,
+    "wr_small": 0.602,
+    "n_big": 3099,
+    "n_small": 3098,
+    "top3_share": 0.186,
+    "size_ratio": 1.22,
+    "med_win_not": 5720,
+    "med_loss_not": 4674,
+    "max_gap_d": 222.9,
+    "burst_share": 0.519,
+    "flips": 14,
+    "coins": [
+      "BTC",
+      "ETH",
+      "SOL"
+    ]
+  },
+  "lb_alltime": 462428,
+  "registry_position": null,
+  "registry_quality": null,
+  "labels": null,
+  "timeline": [
+    {
+      "m": "2024-07",
+      "win": 818,
+      "loss": 347,
+      "pnl": 27741,
+      "avg_not": 9591
+    },
+    {
+      "m": "2024-08",
+      "win": 1268,
+      "loss": 895,
+      "pnl": 44367,
+      "avg_not": 7800
+    },
+    {
+      "m": "2024-09",
+      "win": 566,
+      "loss": 452,
+      "pnl": 10911,
+      "avg_not": 8277
+    },
+    {
+      "m": "2024-10",
+      "win": 346,
+      "loss": 216,
+      "pnl": 13314,
+      "avg_not": 6367
+    },
+    {
+      "m": "2024-11",
+      "win": 0,
+      "loss": 24,
+      "pnl": -6510,
+      "avg_not": 2245
+    },
+    {
+      "m": "2024-12",
+      "win": 60,
+      "loss": 35,
+      "pnl": 67918,
+      "avg_not": 3062
+    },
+    {
+      "m": "2025-07",
+      "win": 20,
+      "loss": 2,
+      "pnl": 4,
+      "avg_not": 40
+    },
+    {
+      "m": "2025-08",
+      "win": 748,
+      "loss": 351,
+      "pnl": 10077,
+      "avg_not": 916
+    },
+    {
+      "m": "2025-09",
+      "win": 18,
+      "loss": 30,
+      "pnl": -172,
+      "avg_not": 956
+    },
+    {
+      "m": "2025-11",
+      "win": 0,
+      "loss": 1,
+      "pnl": 0,
+      "avg_not": 784
+    }
+  ],
+  "top_wins": [
+    {
+      "coin": "@107",
+      "dir": "Sell",
+      "date": "2024-12-20",
+      "not": 15630,
+      "pnl": 15630,
+      "maj": false
+    },
+    {
+      "coin": "@107",
+      "dir": "Sell",
+      "date": "2024-12-13",
+      "not": 8475,
+      "pnl": 8475,
+      "maj": false
+    },
+    {
+      "coin": "@107",
+      "dir": "Sell",
+      "date": "2024-12-05",
+      "not": 7130,
+      "pnl": 7130,
+      "maj": false
+    },
+    {
+      "coin": "@107",
+      "dir": "Sell",
+      "date": "2024-12-05",
+      "not": 5019,
+      "pnl": 5019,
+      "maj": false
+    },
+    {
+      "coin": "@107",
+      "dir": "Sell",
+      "date": "2024-12-13",
+      "not": 3788,
+      "pnl": 3788,
+      "maj": false
+    }
+  ],
+  "top_losses": [
+    {
+      "coin": "CRV",
+      "dir": "Close Short",
+      "date": "2024-12-04",
+      "not": 24069,
+      "pnl": -4260,
+      "maj": false
+    },
+    {
+      "coin": "CRV",
+      "dir": "Close Short",
+      "date": "2024-12-04",
+      "not": 33156,
+      "pnl": -3921,
+      "maj": false
+    },
+    {
+      "coin": "CRV",
+      "dir": "Close Short",
+      "date": "2024-12-04",
+      "not": 10680,
+      "pnl": -3044,
+      "maj": false
+    },
+    {
+      "coin": "DOGE",
+      "dir": "Close Short",
+      "date": "2024-10-31",
+      "not": 8901,
+      "pnl": -2773,
+      "maj": false
+    },
+    {
+      "coin": "CRV",
+      "dir": "Close Short",
+      "date": "2024-12-04",
+      "not": 19419,
+      "pnl": -2759,
+      "maj": false
+    }
+  ]
+}

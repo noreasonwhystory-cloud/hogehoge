@@ -1,0 +1,161 @@
+{
+  "address": "0x053fa362f5459cf61037d8b554b5cfb055a7a4d3",
+  "patterns": {
+    "B_asymmetric": 0.555,
+    "H_deliberate_dip": 5.742
+  },
+  "stats": {
+    "n_closes": 2434,
+    "real_all": 552494,
+    "real_maj": -85876,
+    "win_rate": 0.423,
+    "active_days": 257,
+    "wr_big": 0.46,
+    "wr_small": 0.386,
+    "n_big": 1217,
+    "n_small": 1217,
+    "top3_share": 1.004,
+    "size_ratio": 1.39,
+    "med_win_not": 2062,
+    "med_loss_not": 1488,
+    "max_gap_d": 138.8,
+    "burst_share": 0.1,
+    "flips": 0,
+    "coins": [
+      "BTC",
+      "ETH"
+    ]
+  },
+  "lb_alltime": 694364,
+  "registry_position": null,
+  "registry_quality": null,
+  "labels": null,
+  "timeline": [
+    {
+      "m": "2025-10",
+      "win": 417,
+      "loss": 611,
+      "pnl": 21545,
+      "avg_not": 9086
+    },
+    {
+      "m": "2025-11",
+      "win": 456,
+      "loss": 567,
+      "pnl": 86373,
+      "avg_not": 9013
+    },
+    {
+      "m": "2025-12",
+      "win": 0,
+      "loss": 154,
+      "pnl": -72138,
+      "avg_not": 1846
+    },
+    {
+      "m": "2026-01",
+      "win": 0,
+      "loss": 5,
+      "pnl": -2533,
+      "avg_not": 2017
+    },
+    {
+      "m": "2026-05",
+      "win": 2,
+      "loss": 0,
+      "pnl": 11,
+      "avg_not": 233837
+    },
+    {
+      "m": "2026-06",
+      "win": 155,
+      "loss": 67,
+      "pnl": 519237,
+      "avg_not": 25551
+    }
+  ],
+  "top_wins": [
+    {
+      "coin": "vntl:ANTHROPIC",
+      "dir": "Settlement",
+      "date": "2026-06-15",
+      "not": 1947731,
+      "pnl": 462780,
+      "maj": false
+    },
+    {
+      "coin": "ZEC",
+      "dir": "Close Long",
+      "date": "2025-11-15",
+      "not": 250426,
+      "pnl": 56183,
+      "maj": false
+    },
+    {
+      "coin": "ZEC",
+      "dir": "Close Long",
+      "date": "2025-11-15",
+      "not": 160098,
+      "pnl": 35704,
+      "maj": false
+    },
+    {
+      "coin": "ZEC",
+      "dir": "Close Long",
+      "date": "2025-11-15",
+      "not": 100035,
+      "pnl": 22359,
+      "maj": false
+    },
+    {
+      "coin": "ZEC",
+      "dir": "Close Long",
+      "date": "2025-11-15",
+      "not": 72096,
+      "pnl": 16197,
+      "maj": false
+    }
+  ],
+  "top_losses": [
+    {
+      "coin": "PUMP",
+      "dir": "Close Long",
+      "date": "2025-11-21",
+      "not": 246964,
+      "pnl": -85681,
+      "maj": false
+    },
+    {
+      "coin": "PUMP",
+      "dir": "Close Long",
+      "date": "2025-11-21",
+      "not": 85746,
+      "pnl": -29186,
+      "maj": false
+    },
+    {
+      "coin": "PUMP",
+      "dir": "Close Long",
+      "date": "2025-11-21",
+      "not": 31183,
+      "pnl": -11199,
+      "maj": false
+    },
+    {
+      "coin": "BTC",
+      "dir": "Close Long",
+      "date": "2025-11-21",
+      "not": 139604,
+      "pnl": -10031,
+      "maj": true
+    },
+    {
+      "coin": "BTC",
+      "dir": "Close Long",
+      "date": "2025-11-21",
+      "not": 139609,
+      "pnl": -10026,
+      "maj": true
+    }
+  ]
+}

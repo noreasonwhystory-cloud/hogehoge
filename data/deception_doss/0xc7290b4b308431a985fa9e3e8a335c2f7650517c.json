@@ -1,0 +1,163 @@
+{
+  "address": "0xc7290b4b308431a985fa9e3e8a335c2f7650517c",
+  "patterns": {
+    "C_dormant_burst": 6.288,
+    "D_controlled_loss": 52.882
+  },
+  "stats": {
+    "n_closes": 971,
+    "real_all": 3905400,
+    "real_maj": 3315530,
+    "win_rate": 0.784,
+    "active_days": 252,
+    "wr_big": 0.94,
+    "wr_small": 0.627,
+    "n_big": 486,
+    "n_small": 485,
+    "top3_share": 0.138,
+    "size_ratio": 8.11,
+    "med_win_not": 5223,
+    "med_loss_not": 644,
+    "max_gap_d": 102.1,
+    "burst_share": 0.954,
+    "flips": 0,
+    "coins": [
+      "BTC",
+      "ETH"
+    ]
+  },
+  "lb_alltime": 5438758,
+  "registry_position": "プロトレーダー(本物)",
+  "registry_quality": "堅実",
+  "labels": [
+    "🤓 Smart HL Perps Trader [0xc7290b]"
+  ],
+  "timeline": [
+    {
+      "m": "2025-09",
+      "win": 0,
+      "loss": 2,
+      "pnl": -16,
+      "avg_not": 324
+    },
+    {
+      "m": "2025-10",
+      "win": 1,
+      "loss": 0,
+      "pnl": 411228,
+      "avg_not": 160528
+    },
+    {
+      "m": "2025-11",
+      "win": 1,
+      "loss": 208,
+      "pnl": -51826,
+      "avg_not": 2044
+    },
+    {
+      "m": "2026-01",
+      "win": 340,
+      "loss": 0,
+      "pnl": 1151310,
+      "avg_not": 12997
+    },
+    {
+      "m": "2026-02",
+      "win": 250,
+      "loss": 0,
+      "pnl": 1330370,
+      "avg_not": 10397
+    },
+    {
+      "m": "2026-06",
+      "win": 169,
+      "loss": 0,
+      "pnl": 1064335,
+      "avg_not": 6780
+    }
+  ],
+  "top_wins": [
+    {
+      "coin": "XPL",
+      "dir": "Auto-Deleveraging",
+      "date": "2025-10-10",
+      "not": 160528,
+      "pnl": 411228,
+      "maj": false
+    },
+    {
+      "coin": "ETH",
+      "dir": "Close Short",
+      "date": "2026-01-31",
+      "not": 240770,
+      "pnl": 66185,
+      "maj": true
+    },
+    {
+      "coin": "BTC",
+      "dir": "Close Short",
+      "date": "2026-02-23",
+      "not": 128605,
+      "pnl": 60120,
+      "maj": true
+    },
+    {
+      "coin": "ETH",
+      "dir": "Close Short",
+      "date": "2026-06-05",
+      "not": 53998,
+      "pnl": 50359,
+      "maj": true
+    },
+    {
+      "coin": "BTC",
+      "dir": "Close Short",
+      "date": "2026-01-31",
+      "not": 205156,
+      "pnl": 46952,
+      "maj": true
+    }
+  ],
+  "top_losses": [
+    {
+      "coin": "ZEC",
+      "dir": "Close Short",
+      "date": "2025-11-05",
+      "not": 21363,
+      "pnl": -3562,
+      "maj": false
+    },
+    {
+      "coin": "ZEC",
+      "dir": "Close Short",
+      "date": "2025-11-05",
+      "not": 21363,
+      "pnl": -3561,
+      "maj": false
+    },
+    {
+      "coin": "ZEC",
+      "dir": "Close Short",
+      "date": "2025-11-05",
+      "not": 17738,
+      "pnl": -3049,
+      "maj": false
+    },
+    {
+      "coin": "ZEC",
+      "dir": "Close Short",
+      "date": "2025-11-05",
+      "not": 17718,
+      "pnl": -3029,
+      "maj": false
+    },
+    {
+      "coin": "ZEC",
+      "dir": "Close Short",
+      "date": "2025-11-05",
+      "not": 17713,
+      "pnl": -3024,
+      "maj": false
+    }
+  ]
+}

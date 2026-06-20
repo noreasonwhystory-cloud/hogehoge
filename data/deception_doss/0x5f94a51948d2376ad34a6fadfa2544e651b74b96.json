@@ -1,0 +1,226 @@
+{
+  "address": "0x5f94a51948d2376ad34a6fadfa2544e651b74b96",
+  "patterns": {
+    "B_asymmetric": 1.979,
+    "C_dormant_burst": 4.358,
+    "H_deliberate_dip": 6.361
+  },
+  "stats": {
+    "n_closes": 6693,
+    "real_all": 2298049,
+    "real_maj": 278443,
+    "win_rate": 0.41,
+    "active_days": 538,
+    "wr_big": 0.456,
+    "wr_small": 0.364,
+    "n_big": 3347,
+    "n_small": 3346,
+    "top3_share": 0.861,
+    "size_ratio": 1.52,
+    "med_win_not": 1273,
+    "med_loss_not": 838,
+    "max_gap_d": 150.8,
+    "burst_share": 0.685,
+    "flips": 0,
+    "coins": [
+      "BTC",
+      "ETH",
+      "SOL"
+    ]
+  },
+  "lb_alltime": 11563335,
+  "registry_position": "除外/低優先",
+  "registry_quality": null,
+  "labels": [],
+  "timeline": [
+    {
+      "m": "2024-12",
+      "win": 0,
+      "loss": 107,
+      "pnl": -86952,
+      "avg_not": 4635
+    },
+    {
+      "m": "2025-01",
+      "win": 0,
+      "loss": 33,
+      "pnl": -367929,
+      "avg_not": 5568
+    },
+    {
+      "m": "2025-02",
+      "win": 0,
+      "loss": 354,
+      "pnl": -288548,
+      "avg_not": 5265
+    },
+    {
+      "m": "2025-07",
+      "win": 0,
+      "loss": 45,
+      "pnl": -105435,
+      "avg_not": 10120
+    },
+    {
+      "m": "2025-08",
+      "win": 32,
+      "loss": 619,
+      "pnl": -512631,
+      "avg_not": 6318
+    },
+    {
+      "m": "2025-09",
+      "win": 230,
+      "loss": 253,
+      "pnl": -109334,
+      "avg_not": 2556
+    },
+    {
+      "m": "2025-10",
+      "win": 2,
+      "loss": 1119,
+      "pnl": 1416670,
+      "avg_not": 3034
+    },
+    {
+      "m": "2025-11",
+      "win": 132,
+      "loss": 47,
+      "pnl": 299,
+      "avg_not": 4089
+    },
+    {
+      "m": "2025-12",
+      "win": 443,
+      "loss": 212,
+      "pnl": 36975,
+      "avg_not": 4083
+    },
+    {
+      "m": "2026-01",
+      "win": 273,
+      "loss": 42,
+      "pnl": 55042,
+      "avg_not": 5494
+    },
+    {
+      "m": "2026-02",
+      "win": 267,
+      "loss": 78,
+      "pnl": -53159,
+      "avg_not": 1839
+    },
+    {
+      "m": "2026-03",
+      "win": 320,
+      "loss": 393,
+      "pnl": 1032427,
+      "avg_not": 4550
+    },
+    {
+      "m": "2026-04",
+      "win": 457,
+      "loss": 333,
+      "pnl": 330019,
+      "avg_not": 2453
+    },
+    {
+      "m": "2026-05",
+      "win": 256,
+      "loss": 154,
+      "pnl": 624417,
+      "avg_not": 5346
+    },
+    {
+      "m": "2026-06",
+      "win": 332,
+      "loss": 160,
+      "pnl": 326187,
+      "avg_not": 4866
+    }
+  ],
+  "top_wins": [
+    {
+      "coin": "TRUMP",
+      "dir": "Auto-Deleveraging",
+      "date": "2025-10-10",
+      "not": 1095832,
+      "pnl": 1370692,
+      "maj": false
+    },
+    {
+      "coin": "WLFI",
+      "dir": "Auto-Deleveraging",
+      "date": "2025-10-10",
+      "not": 277222,
+      "pnl": 421008,
+      "maj": false
+    },
+    {
+      "coin": "TRUMP",
+      "dir": "Close Short",
+      "date": "2026-03-10",
+      "not": 167115,
+      "pnl": 187305,
+      "maj": false
+    },
+    {
+      "coin": "TRUMP",
+      "dir": "Close Short",
+      "date": "2026-03-10",
+      "not": 99988,
+      "pnl": 112486,
+      "maj": false
+    },
+    {
+      "coin": "OP",
+      "dir": "Close Short",
+      "date": "2026-05-07",
+      "not": 62250,
+      "pnl": 67127,
+      "maj": false
+    }
+  ],
+  "top_losses": [
+    {
+      "coin": "@37",
+      "dir": "Sell",
+      "date": "2025-01-22",
+      "not": 40955,
+      "pnl": -85544,
+      "maj": false
+    },
+    {
+      "coin": "PUMP",
+      "dir": "Close Long",
+      "date": "2026-03-29",
+      "not": 99566,
+      "pnl": -65749,
+      "maj": false
+    },
+    {
+      "coin": "ZRO",
+      "dir": "Close Short",
+      "date": "2026-01-21",
+      "not": 143428,
+      "pnl": -46475,
+      "maj": false
+    },
+    {
+      "coin": "TRUMP",
+      "dir": "Close Short",
+      "date": "2025-10-27",
+      "not": 269063,
+      "pnl": -44170,
+      "maj": false
+    },
+    {
+      "coin": "PUMP",
+      "dir": "Close Long",
+      "date": "2026-03-29",
+      "not": 39116,
+      "pnl": -25792,
+      "maj": false
+    }
+  ]
+}

@@ -1,0 +1,149 @@
+{
+  "address": "0x2098c0614f99bda7c8a0c452bc59cda364e51e44",
+  "patterns": {
+    "C_dormant_burst": 10.015,
+    "D_controlled_loss": 46.318,
+    "H_deliberate_dip": 5.353
+  },
+  "stats": {
+    "n_closes": 591,
+    "real_all": 225428,
+    "real_maj": 226321,
+    "win_rate": 0.323,
+    "active_days": 319,
+    "wr_big": 0.51,
+    "wr_small": 0.136,
+    "n_big": 296,
+    "n_small": 295,
+    "top3_share": 0.433,
+    "size_ratio": 8.65,
+    "med_win_not": 4342,
+    "med_loss_not": 502,
+    "max_gap_d": 232.8,
+    "burst_share": 1.871,
+    "flips": 0,
+    "coins": [
+      "BTC"
+    ]
+  },
+  "lb_alltime": 256023,
+  "registry_position": "除外/低優先",
+  "registry_quality": null,
+  "labels": [
+    "🤓 Smart HL Perps Trader [0x2098c0]"
+  ],
+  "timeline": [
+    {
+      "m": "2025-07",
+      "win": 16,
+      "loss": 0,
+      "pnl": 9076,
+      "avg_not": 49280
+    },
+    {
+      "m": "2025-08",
+      "win": 0,
+      "loss": 22,
+      "pnl": -7936,
+      "avg_not": 36726
+    },
+    {
+      "m": "2025-10",
+      "win": 137,
+      "loss": 378,
+      "pnl": -197472,
+      "avg_not": 8948
+    },
+    {
+      "m": "2026-06",
+      "win": 38,
+      "loss": 0,
+      "pnl": 421760,
+      "avg_not": 15165
+    }
+  ],
+  "top_wins": [
+    {
+      "coin": "BTC",
+      "dir": "Close Short",
+      "date": "2026-06-10",
+      "not": 58254,
+      "pnl": 42634,
+      "maj": true
+    },
+    {
+      "coin": "BTC",
+      "dir": "Close Short",
+      "date": "2026-06-10",
+      "not": 43165,
+      "pnl": 31591,
+      "maj": true
+    },
+    {
+      "coin": "BTC",
+      "dir": "Close Short",
+      "date": "2026-06-10",
+      "not": 32026,
+      "pnl": 23438,
+      "maj": true
+    },
+    {
+      "coin": "BTC",
+      "dir": "Close Short",
+      "date": "2026-06-10",
+      "not": 32026,
+      "pnl": 23438,
+      "maj": true
+    },
+    {
+      "coin": "BTC",
+      "dir": "Close Short",
+      "date": "2026-06-10",
+      "not": 25863,
+      "pnl": 18928,
+      "maj": true
+    }
+  ],
+  "top_losses": [
+    {
+      "coin": "BTC",
+      "dir": "Close Short",
+      "date": "2025-10-03",
+      "not": 278419,
+      "pnl": -29637,
+      "maj": true
+    },
+    {
+      "coin": "BTC",
+      "dir": "Close Short",
+      "date": "2025-10-03",
+      "not": 257960,
+      "pnl": -25658,
+      "maj": true
+    },
+    {
+      "coin": "BTC",
+      "dir": "Close Short",
+      "date": "2025-10-03",
+      "not": 206804,
+      "pnl": -20962,
+      "maj": true
+    },
+    {
+      "coin": "BTC",
+      "dir": "Close Short",
+      "date": "2025-10-03",
+      "not": 149884,
+      "pnl": -15955,
+      "maj": true
+    },
+    {
+      "coin": "BTC",
+      "dir": "Close Short",
+      "date": "2025-10-03",
+      "not": 149879,
+      "pnl": -14008,
+      "maj": true
+    }
+  ]
+}

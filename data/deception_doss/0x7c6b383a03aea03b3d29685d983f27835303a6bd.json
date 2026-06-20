@@ -1,0 +1,144 @@
+{
+  "address": "0x7c6b383a03aea03b3d29685d983f27835303a6bd",
+  "patterns": {
+    "C_dormant_burst": 3.014,
+    "D_controlled_loss": 14.094,
+    "H_deliberate_dip": 5.26
+  },
+  "stats": {
+    "n_closes": 1053,
+    "real_all": 181800,
+    "real_maj": 181581,
+    "win_rate": 0.777,
+    "active_days": 55,
+    "wr_big": 0.844,
+    "wr_small": 0.709,
+    "n_big": 527,
+    "n_small": 526,
+    "top3_share": 0.027,
+    "size_ratio": 2.68,
+    "med_win_not": 1064,
+    "med_loss_not": 398,
+    "max_gap_d": 24.4,
+    "burst_share": 0.573,
+    "flips": 0,
+    "coins": [
+      "BTC",
+      "ETH",
+      "SOL"
+    ]
+  },
+  "lb_alltime": null,
+  "registry_position": "除外/低優先",
+  "registry_quality": null,
+  "labels": [
+    "Former Smart Trader [0x7c6b38]"
+  ],
+  "timeline": [
+    {
+      "m": "2025-12",
+      "win": 98,
+      "loss": 218,
+      "pnl": 5603,
+      "avg_not": 1057
+    },
+    {
+      "m": "2026-01",
+      "win": 425,
+      "loss": 17,
+      "pnl": 64428,
+      "avg_not": 1108
+    },
+    {
+      "m": "2026-02",
+      "win": 295,
+      "loss": 0,
+      "pnl": 111769,
+      "avg_not": 1695
+    }
+  ],
+  "top_wins": [
+    {
+      "coin": "ETH",
+      "dir": "Close Short",
+      "date": "2026-02-06",
+      "not": 5000,
+      "pnl": 1644,
+      "maj": true
+    },
+    {
+      "coin": "ETH",
+      "dir": "Close Short",
+      "date": "2026-02-06",
+      "not": 5000,
+      "pnl": 1642,
+      "maj": true
+    },
+    {
+      "coin": "ETH",
+      "dir": "Close Short",
+      "date": "2026-02-06",
+      "not": 5000,
+      "pnl": 1641,
+      "maj": true
+    },
+    {
+      "coin": "ETH",
+      "dir": "Close Short",
+      "date": "2026-02-06",
+      "not": 4997,
+      "pnl": 1636,
+      "maj": true
+    },
+    {
+      "coin": "ETH",
+      "dir": "Close Short",
+      "date": "2026-02-06",
+      "not": 5001,
+      "pnl": 1635,
+      "maj": true
+    }
+  ],
+  "top_losses": [
+    {
+      "coin": "MEW",
+      "dir": "Close Long",
+      "date": "2025-12-24",
+      "not": 330,
+      "pnl": -78,
+      "maj": false
+    },
+    {
+      "coin": "MEW",
+      "dir": "Close Long",
+      "date": "2025-12-24",
+      "not": 299,
+      "pnl": -71,
+      "maj": false
+    },
+    {
+      "coin": "2Z",
+      "dir": "Close Long",
+      "date": "2025-12-24",
+      "not": 539,
+      "pnl": -65,
+      "maj": false
+    },
+    {
+      "coin": "SOL",
+      "dir": "Close Short",
+      "date": "2025-12-13",
+      "not": 4705,
+      "pnl": -51,
+      "maj": true
+    },
+    {
+      "coin": "ZETA",
+      "dir": "Close Long",
+      "date": "2025-12-24",
+      "not": 204,
+      "pnl": -45,
+      "maj": false
+    }
+  ]
+}

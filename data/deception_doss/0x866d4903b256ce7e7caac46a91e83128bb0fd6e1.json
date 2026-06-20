@@ -1,0 +1,161 @@
+{
+  "address": "0x866d4903b256ce7e7caac46a91e83128bb0fd6e1",
+  "patterns": {
+    "B_asymmetric": 0.09,
+    "C_dormant_burst": 9.015,
+    "H_deliberate_dip": 5.241
+  },
+  "stats": {
+    "n_closes": 1812,
+    "real_all": 174268,
+    "real_maj": -1537,
+    "win_rate": 0.145,
+    "active_days": 249,
+    "wr_big": 0.155,
+    "wr_small": 0.135,
+    "n_big": 906,
+    "n_small": 906,
+    "top3_share": 0.519,
+    "size_ratio": 1.05,
+    "med_win_not": 1015,
+    "med_loss_not": 971,
+    "max_gap_d": 71.2,
+    "burst_share": 1.72,
+    "flips": 0,
+    "coins": [
+      "SOL"
+    ]
+  },
+  "lb_alltime": 768563,
+  "registry_position": null,
+  "registry_quality": null,
+  "labels": null,
+  "timeline": [
+    {
+      "m": "2025-02",
+      "win": 4,
+      "loss": 0,
+      "pnl": 1244,
+      "avg_not": 13220
+    },
+    {
+      "m": "2025-04",
+      "win": 0,
+      "loss": 254,
+      "pnl": -37625,
+      "avg_not": 3674
+    },
+    {
+      "m": "2025-06",
+      "win": 0,
+      "loss": 366,
+      "pnl": -51248,
+      "avg_not": 2132
+    },
+    {
+      "m": "2025-07",
+      "win": 103,
+      "loss": 456,
+      "pnl": -4887,
+      "avg_not": 2836
+    },
+    {
+      "m": "2025-08",
+      "win": 96,
+      "loss": 159,
+      "pnl": 263365,
+      "avg_not": 6913
+    },
+    {
+      "m": "2025-10",
+      "win": 59,
+      "loss": 315,
+      "pnl": 3418,
+      "avg_not": 2916
+    }
+  ],
+  "top_wins": [
+    {
+      "coin": "@151",
+      "dir": "Sell",
+      "date": "2025-08-14",
+      "not": 120288,
+      "pnl": 40080,
+      "maj": false
+    },
+    {
+      "coin": "@151",
+      "dir": "Sell",
+      "date": "2025-08-14",
+      "not": 89791,
+      "pnl": 29918,
+      "maj": false
+    },
+    {
+      "coin": "@151",
+      "dir": "Sell",
+      "date": "2025-08-14",
+      "not": 61378,
+      "pnl": 20451,
+      "maj": false
+    },
+    {
+      "coin": "@151",
+      "dir": "Sell",
+      "date": "2025-08-14",
+      "not": 54049,
+      "pnl": 18009,
+      "maj": false
+    },
+    {
+      "coin": "@151",
+      "dir": "Sell",
+      "date": "2025-08-14",
+      "not": 45406,
+      "pnl": 15129,
+      "maj": false
+    }
+  ],
+  "top_losses": [
+    {
+      "coin": "WLD",
+      "dir": "Close Long",
+      "date": "2025-06-13",
+      "not": 189258,
+      "pnl": -13820,
+      "maj": false
+    },
+    {
+      "coin": "@107",
+      "dir": "Sell",
+      "date": "2025-04-01",
+      "not": 99708,
+      "pnl": -5576,
+      "maj": false
+    },
+    {
+      "coin": "@107",
+      "dir": "Sell",
+      "date": "2025-04-01",
+      "not": 60795,
+      "pnl": -3715,
+      "maj": false
+    },
+    {
+      "coin": "XPL",
+      "dir": "Close Long",
+      "date": "2025-10-14",
+      "not": 44963,
+      "pnl": -3405,
+      "maj": false
+    },
+    {
+      "coin": "@107",
+      "dir": "Sell",
+      "date": "2025-04-01",
+      "not": 42179,
+      "pnl": -2464,
+      "maj": false
+    }
+  ]
+}

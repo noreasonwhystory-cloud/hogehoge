@@ -1,0 +1,190 @@
+{
+  "address": "0x5d2f4460ac3514ada79f5d9838916e508ab39bb7",
+  "patterns": {
+    "H_deliberate_dip": 7.633
+  },
+  "stats": {
+    "n_closes": 7980,
+    "real_all": 42908546,
+    "real_maj": 42901596,
+    "win_rate": 0.716,
+    "active_days": 303,
+    "wr_big": 0.713,
+    "wr_small": 0.719,
+    "n_big": 3990,
+    "n_small": 3990,
+    "top3_share": 0.062,
+    "size_ratio": 0.85,
+    "med_win_not": 6608,
+    "med_loss_not": 7751,
+    "max_gap_d": 55.7,
+    "burst_share": 0.396,
+    "flips": 0,
+    "coins": [
+      "BTC",
+      "ETH"
+    ]
+  },
+  "lb_alltime": 65749681,
+  "registry_position": "高頻度MM",
+  "registry_quality": null,
+  "labels": [
+    "🤓 Smart HL Perps Trader [0x5d2f44]"
+  ],
+  "timeline": [
+    {
+      "m": "2025-06",
+      "win": 1952,
+      "loss": 63,
+      "pnl": 6453512,
+      "avg_not": 55983
+    },
+    {
+      "m": "2025-07",
+      "win": 0,
+      "loss": 30,
+      "pnl": -78829,
+      "avg_not": 110176
+    },
+    {
+      "m": "2025-08",
+      "win": 489,
+      "loss": 1745,
+      "pnl": -1442437,
+      "avg_not": 58283
+    },
+    {
+      "m": "2025-09",
+      "win": 62,
+      "loss": 70,
+      "pnl": 94943,
+      "avg_not": 17645
+    },
+    {
+      "m": "2025-10",
+      "win": 501,
+      "loss": 67,
+      "pnl": 4161542,
+      "avg_not": 111310
+    },
+    {
+      "m": "2025-11",
+      "win": 103,
+      "loss": 0,
+      "pnl": 3130968,
+      "avg_not": 110330
+    },
+    {
+      "m": "2025-12",
+      "win": 1147,
+      "loss": 0,
+      "pnl": 13525919,
+      "avg_not": 46740
+    },
+    {
+      "m": "2026-01",
+      "win": 894,
+      "loss": 0,
+      "pnl": 9502276,
+      "avg_not": 30610
+    },
+    {
+      "m": "2026-02",
+      "win": 254,
+      "loss": 0,
+      "pnl": 7704475,
+      "avg_not": 57421
+    },
+    {
+      "m": "2026-04",
+      "win": 312,
+      "loss": 291,
+      "pnl": -143824,
+      "avg_not": 5156
+    }
+  ],
+  "top_wins": [
+    {
+      "coin": "BTC",
+      "dir": "Auto-Deleveraging",
+      "date": "2025-10-10",
+      "not": 18865302,
+      "pnl": 1347628,
+      "maj": true
+    },
+    {
+      "coin": "BTC",
+      "dir": "Close Short",
+      "date": "2025-10-10",
+      "not": 6404817,
+      "pnl": 670055,
+      "maj": true
+    },
+    {
+      "coin": "BTC",
+      "dir": "Close Short",
+      "date": "2025-10-10",
+      "not": 6288980,
+      "pnl": 657936,
+      "maj": true
+    },
+    {
+      "coin": "BTC",
+      "dir": "Close Short",
+      "date": "2025-10-10",
+      "not": 6060818,
+      "pnl": 634067,
+      "maj": true
+    },
+    {
+      "coin": "BTC",
+      "dir": "Close Short",
+      "date": "2025-06-22",
+      "not": 7522751,
+      "pnl": 614257,
+      "maj": true
+    }
+  ],
+  "top_losses": [
+    {
+      "coin": "BTC",
+      "dir": "Close Short",
+      "date": "2025-08-19",
+      "not": 5685650,
+      "pnl": -78170,
+      "maj": true
+    },
+    {
+      "coin": "BTC",
+      "dir": "Close Short",
+      "date": "2025-08-02",
+      "not": 2247300,
+      "pnl": -49150,
+      "maj": true
+    },
+    {
+      "coin": "BTC",
+      "dir": "Close Short",
+      "date": "2025-08-01",
+      "not": 1021555,
+      "pnl": -44370,
+      "maj": true
+    },
+    {
+      "coin": "BTC",
+      "dir": "Close Short",
+      "date": "2025-08-01",
+      "not": 1014770,
+      "pnl": -44076,
+      "maj": true
+    },
+    {
+      "coin": "BTC",
+      "dir": "Close Short",
+      "date": "2025-08-01",
+      "not": 785351,
+      "pnl": -34111,
+      "maj": true
+    }
+  ]
+}

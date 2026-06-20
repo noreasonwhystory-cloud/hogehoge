@@ -1,0 +1,144 @@
+{
+  "address": "0x103e9d15f8a102ef9333ad8b66ffe25b0db448a4",
+  "patterns": {
+    "B_asymmetric": 0.273,
+    "H_deliberate_dip": 5.364
+  },
+  "stats": {
+    "n_closes": 453,
+    "real_all": 231172,
+    "real_maj": 0,
+    "win_rate": 0.417,
+    "active_days": 107,
+    "wr_big": 0.322,
+    "wr_small": 0.513,
+    "n_big": 227,
+    "n_small": 226,
+    "top3_share": 1.18,
+    "size_ratio": 0.63,
+    "med_win_not": 407,
+    "med_loss_not": 651,
+    "max_gap_d": 31.9,
+    "burst_share": 0.0,
+    "flips": 0,
+    "coins": []
+  },
+  "lb_alltime": 908505,
+  "registry_position": "除外/低優先",
+  "registry_quality": null,
+  "labels": null,
+  "timeline": [
+    {
+      "m": "2025-07",
+      "win": 12,
+      "loss": 48,
+      "pnl": -8379,
+      "avg_not": 1004
+    },
+    {
+      "m": "2025-08",
+      "win": 0,
+      "loss": 120,
+      "pnl": -28221,
+      "avg_not": 1160
+    },
+    {
+      "m": "2025-09",
+      "win": 0,
+      "loss": 2,
+      "pnl": -70,
+      "avg_not": 418
+    },
+    {
+      "m": "2025-10",
+      "win": 177,
+      "loss": 94,
+      "pnl": 267842,
+      "avg_not": 3510
+    }
+  ],
+  "top_wins": [
+    {
+      "coin": "AAVE",
+      "dir": "Auto-Deleveraging",
+      "date": "2025-10-10",
+      "not": 456317,
+      "pnl": 271310,
+      "maj": false
+    },
+    {
+      "coin": "AAVE",
+      "dir": "Close Short",
+      "date": "2025-10-10",
+      "not": 1573,
+      "pnl": 868,
+      "maj": false
+    },
+    {
+      "coin": "AAVE",
+      "dir": "Close Short",
+      "date": "2025-10-10",
+      "not": 2186,
+      "pnl": 502,
+      "maj": false
+    },
+    {
+      "coin": "AAVE",
+      "dir": "Close Short",
+      "date": "2025-10-10",
+      "not": 316,
+      "pnl": 175,
+      "maj": false
+    },
+    {
+      "coin": "AAVE",
+      "dir": "Close Short",
+      "date": "2025-10-10",
+      "not": 7193,
+      "pnl": 149,
+      "maj": false
+    }
+  ],
+  "top_losses": [
+    {
+      "coin": "AAVE",
+      "dir": "Long > Short",
+      "date": "2025-10-10",
+      "not": 254756,
+      "pnl": -5766,
+      "maj": false
+    },
+    {
+      "coin": "AAVE",
+      "dir": "Close Short",
+      "date": "2025-08-23",
+      "not": 3026,
+      "pnl": -864,
+      "maj": false
+    },
+    {
+      "coin": "AAVE",
+      "dir": "Close Short",
+      "date": "2025-08-23",
+      "not": 3018,
+      "pnl": -848,
+      "maj": false
+    },
+    {
+      "coin": "AAVE",
+      "dir": "Close Short",
+      "date": "2025-08-23",
+      "not": 2927,
+      "pnl": -827,
+      "maj": false
+    },
+    {
+      "coin": "AAVE",
+      "dir": "Close Short",
+      "date": "2025-08-23",
+      "not": 2970,
+      "pnl": -800,
+      "maj": false
+    }
+  ]
+}

@@ -1,0 +1,160 @@
+{
+  "address": "0xc59498175d6d317642aeb97f895a7ce1aa992191",
+  "patterns": {
+    "C_dormant_burst": 4.831,
+    "H_deliberate_dip": 7.32
+  },
+  "stats": {
+    "n_closes": 14075,
+    "real_all": 20870199,
+    "real_maj": 38659,
+    "win_rate": 0.78,
+    "active_days": 349,
+    "wr_big": 0.831,
+    "wr_small": 0.729,
+    "n_big": 7038,
+    "n_small": 7037,
+    "top3_share": 0.028,
+    "size_ratio": 2.57,
+    "med_win_not": 1274,
+    "med_loss_not": 495,
+    "max_gap_d": 127.3,
+    "burst_share": 0.66,
+    "flips": 0,
+    "coins": [
+      "SOL"
+    ]
+  },
+  "lb_alltime": 35147524,
+  "registry_position": null,
+  "registry_quality": null,
+  "labels": null,
+  "timeline": [
+    {
+      "m": "2024-11",
+      "win": 2032,
+      "loss": 1399,
+      "pnl": -27068,
+      "avg_not": 7536
+    },
+    {
+      "m": "2024-12",
+      "win": 986,
+      "loss": 0,
+      "pnl": 2217158,
+      "avg_not": 2774
+    },
+    {
+      "m": "2025-04",
+      "win": 314,
+      "loss": 0,
+      "pnl": 18122,
+      "avg_not": 2918
+    },
+    {
+      "m": "2025-05",
+      "win": 1367,
+      "loss": 85,
+      "pnl": 460776,
+      "avg_not": 2575
+    },
+    {
+      "m": "2025-09",
+      "win": 5885,
+      "loss": 7,
+      "pnl": 18056131,
+      "avg_not": 5169
+    },
+    {
+      "m": "2025-10",
+      "win": 393,
+      "loss": 1607,
+      "pnl": 145080,
+      "avg_not": 1656
+    }
+  ],
+  "top_wins": [
+    {
+      "coin": "@107",
+      "dir": "Sell",
+      "date": "2025-09-25",
+      "not": 409010,
+      "pnl": 230626,
+      "maj": false
+    },
+    {
+      "coin": "@107",
+      "dir": "Sell",
+      "date": "2025-09-25",
+      "not": 333518,
+      "pnl": 186981,
+      "maj": false
+    },
+    {
+      "coin": "@107",
+      "dir": "Sell",
+      "date": "2025-09-25",
+      "not": 312930,
+      "pnl": 176480,
+      "maj": false
+    },
+    {
+      "coin": "@107",
+      "dir": "Sell",
+      "date": "2025-09-25",
+      "not": 286264,
+      "pnl": 162019,
+      "maj": false
+    },
+    {
+      "coin": "@107",
+      "dir": "Sell",
+      "date": "2025-05-28",
+      "not": 341739,
+      "pnl": 156903,
+      "maj": false
+    }
+  ],
+  "top_losses": [
+    {
+      "coin": "SOL",
+      "dir": "Close Long",
+      "date": "2024-11-25",
+      "not": 662787,
+      "pnl": -43756,
+      "maj": true
+    },
+    {
+      "coin": "SOL",
+      "dir": "Close Long",
+      "date": "2024-11-25",
+      "not": 662787,
+      "pnl": -43756,
+      "maj": true
+    },
+    {
+      "coin": "SOL",
+      "dir": "Close Long",
+      "date": "2024-11-25",
+      "not": 529122,
+      "pnl": -42935,
+      "maj": true
+    },
+    {
+      "coin": "@137",
+      "dir": "Sell",
+      "date": "2025-09-22",
+      "not": 102,
+      "pnl": -26428,
+      "maj": false
+    },
+    {
+      "coin": "@37",
+      "dir": "Sell",
+      "date": "2025-05-28",
+      "not": 540,
+      "pnl": -15174,
+      "maj": false
+    }
+  ]
+}

@@ -1,0 +1,194 @@
+{
+  "address": "0x68f80ecef342044f84891641e81b50b5f580b6ad",
+  "patterns": {
+    "B_asymmetric": 0.177,
+    "C_dormant_burst": 8.666,
+    "H_deliberate_dip": 5.457
+  },
+  "stats": {
+    "n_closes": 2825,
+    "real_all": 286619,
+    "real_maj": 0,
+    "win_rate": 0.333,
+    "active_days": 478,
+    "wr_big": 0.471,
+    "wr_small": 0.195,
+    "n_big": 1413,
+    "n_small": 1412,
+    "top3_share": 0.616,
+    "size_ratio": 14.23,
+    "med_win_not": 1500,
+    "med_loss_not": 105,
+    "max_gap_d": 76.5,
+    "burst_share": 1.588,
+    "flips": 1,
+    "coins": []
+  },
+  "lb_alltime": 451996,
+  "registry_position": null,
+  "registry_quality": null,
+  "labels": null,
+  "timeline": [
+    {
+      "m": "2025-02",
+      "win": 0,
+      "loss": 40,
+      "pnl": -24752,
+      "avg_not": 1881
+    },
+    {
+      "m": "2025-03",
+      "win": 0,
+      "loss": 119,
+      "pnl": -108062,
+      "avg_not": 2987
+    },
+    {
+      "m": "2025-05",
+      "win": 29,
+      "loss": 0,
+      "pnl": 52116,
+      "avg_not": 2931
+    },
+    {
+      "m": "2025-07",
+      "win": 9,
+      "loss": 19,
+      "pnl": -28757,
+      "avg_not": 2598
+    },
+    {
+      "m": "2025-09",
+      "win": 95,
+      "loss": 0,
+      "pnl": 383202,
+      "avg_not": 6759
+    },
+    {
+      "m": "2025-10",
+      "win": 222,
+      "loss": 1002,
+      "pnl": 93364,
+      "avg_not": 1810
+    },
+    {
+      "m": "2025-11",
+      "win": 0,
+      "loss": 15,
+      "pnl": -13601,
+      "avg_not": 6329
+    },
+    {
+      "m": "2026-02",
+      "win": 0,
+      "loss": 36,
+      "pnl": -80832,
+      "avg_not": 3154
+    },
+    {
+      "m": "2026-03",
+      "win": 0,
+      "loss": 28,
+      "pnl": -6382,
+      "avg_not": 2874
+    },
+    {
+      "m": "2026-05",
+      "win": 212,
+      "loss": 217,
+      "pnl": -12476,
+      "avg_not": 4201
+    },
+    {
+      "m": "2026-06",
+      "win": 374,
+      "loss": 408,
+      "pnl": 32798,
+      "avg_not": 6125
+    }
+  ],
+  "top_wins": [
+    {
+      "coin": "HYPE",
+      "dir": "Auto-Deleveraging",
+      "date": "2025-10-10",
+      "not": 346640,
+      "pnl": 121684,
+      "maj": false
+    },
+    {
+      "coin": "@107",
+      "dir": "Sell",
+      "date": "2025-09-01",
+      "not": 43281,
+      "pnl": 29877,
+      "maj": false
+    },
+    {
+      "coin": "@107",
+      "dir": "Sell",
+      "date": "2025-09-01",
+      "not": 36167,
+      "pnl": 24981,
+      "maj": false
+    },
+    {
+      "coin": "@107",
+      "dir": "Sell",
+      "date": "2025-09-01",
+      "not": 36147,
+      "pnl": 24961,
+      "maj": false
+    },
+    {
+      "coin": "@107",
+      "dir": "Sell",
+      "date": "2025-09-01",
+      "not": 36133,
+      "pnl": 24947,
+      "maj": false
+    }
+  ],
+  "top_losses": [
+    {
+      "coin": "@107",
+      "dir": "Sell",
+      "date": "2026-02-05",
+      "not": 41440,
+      "pnl": -14242,
+      "maj": false
+    },
+    {
+      "coin": "@188",
+      "dir": "Sell",
+      "date": "2026-02-05",
+      "not": 5555,
+      "pnl": -13778,
+      "maj": false
+    },
+    {
+      "coin": "PURR/USDC",
+      "dir": "Sell",
+      "date": "2026-02-05",
+      "not": 2796,
+      "pnl": -11584,
+      "maj": false
+    },
+    {
+      "coin": "@107",
+      "dir": "Sell",
+      "date": "2025-03-08",
+      "not": 33519,
+      "pnl": -11341,
+      "maj": false
+    },
+    {
+      "coin": "@188",
+      "dir": "Sell",
+      "date": "2025-07-22",
+      "not": 16912,
+      "pnl": -11136,
+      "maj": false
+    }
+  ]
+}

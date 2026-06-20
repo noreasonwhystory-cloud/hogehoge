@@ -1,0 +1,147 @@
+{
+  "address": "0xeee0d806e4f0a427277433d6b580619918770b53",
+  "patterns": {
+    "D_controlled_loss": 88.886
+  },
+  "stats": {
+    "n_closes": 133,
+    "real_all": 94082,
+    "real_maj": 94192,
+    "win_rate": 0.835,
+    "active_days": 152,
+    "wr_big": 0.925,
+    "wr_small": 0.742,
+    "n_big": 67,
+    "n_small": 66,
+    "top3_share": 0.131,
+    "size_ratio": 17.87,
+    "med_win_not": 12507,
+    "med_loss_not": 700,
+    "max_gap_d": 82.2,
+    "burst_share": 0.0,
+    "flips": 0,
+    "coins": [
+      "BTC",
+      "ETH",
+      "SOL"
+    ]
+  },
+  "lb_alltime": 3051651,
+  "registry_position": null,
+  "registry_quality": null,
+  "labels": null,
+  "timeline": [
+    {
+      "m": "2025-12",
+      "win": 110,
+      "loss": 11,
+      "pnl": 94233,
+      "avg_not": 34111
+    },
+    {
+      "m": "2026-01",
+      "win": 0,
+      "loss": 8,
+      "pnl": -151,
+      "avg_not": 11510
+    },
+    {
+      "m": "2026-04",
+      "win": 0,
+      "loss": 1,
+      "pnl": 0,
+      "avg_not": 796
+    },
+    {
+      "m": "2026-05",
+      "win": 1,
+      "loss": 2,
+      "pnl": 0,
+      "avg_not": 7
+    }
+  ],
+  "top_wins": [
+    {
+      "coin": "ETH",
+      "dir": "Close Long",
+      "date": "2025-12-18",
+      "not": 282583,
+      "pnl": 4739,
+      "maj": true
+    },
+    {
+      "coin": "ETH",
+      "dir": "Close Long",
+      "date": "2025-12-18",
+      "not": 255528,
+      "pnl": 3825,
+      "maj": true
+    },
+    {
+      "coin": "BTC",
+      "dir": "Close Long",
+      "date": "2025-12-17",
+      "not": 135512,
+      "pnl": 3771,
+      "maj": true
+    },
+    {
+      "coin": "BTC",
+      "dir": "Close Long",
+      "date": "2025-12-17",
+      "not": 135504,
+      "pnl": 3764,
+      "maj": true
+    },
+    {
+      "coin": "BTC",
+      "dir": "Close Long",
+      "date": "2025-12-17",
+      "not": 135496,
+      "pnl": 3756,
+      "maj": true
+    }
+  ],
+  "top_losses": [
+    {
+      "coin": "@142",
+      "dir": "Sell",
+      "date": "2025-12-14",
+      "not": 67707,
+      "pnl": -55,
+      "maj": false
+    },
+    {
+      "coin": "SOL",
+      "dir": "Close Long",
+      "date": "2026-01-09",
+      "not": 29638,
+      "pnl": -50,
+      "maj": true
+    },
+    {
+      "coin": "SOL",
+      "dir": "Close Long",
+      "date": "2026-01-09",
+      "not": 26370,
+      "pnl": -43,
+      "maj": true
+    },
+    {
+      "coin": "SOL",
+      "dir": "Close Long",
+      "date": "2026-01-09",
+      "not": 18919,
+      "pnl": -31,
+      "maj": true
+    },
+    {
+      "coin": "@142",
+      "dir": "Sell",
+      "date": "2025-12-14",
+      "not": 18593,
+      "pnl": -15,
+      "maj": false
+    }
+  ]
+}

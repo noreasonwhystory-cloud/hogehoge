@@ -1,0 +1,140 @@
+{
+  "address": "0x0ed73f6d6f0ad13f3cfd915575390f92e0d49761",
+  "patterns": {
+    "D_controlled_loss": 269.851
+  },
+  "stats": {
+    "n_closes": 1570,
+    "real_all": 325993,
+    "real_maj": 120500,
+    "win_rate": 0.375,
+    "active_days": 32,
+    "wr_big": 0.559,
+    "wr_small": 0.19,
+    "n_big": 785,
+    "n_small": 785,
+    "top3_share": 0.292,
+    "size_ratio": 53.11,
+    "med_win_not": 2026,
+    "med_loss_not": 38,
+    "max_gap_d": 7.8,
+    "burst_share": 0.0,
+    "flips": 0,
+    "coins": [
+      "BTC"
+    ]
+  },
+  "lb_alltime": 314289,
+  "registry_position": "除外/低優先",
+  "registry_quality": null,
+  "labels": [
+    "Former Smart Trader [0x0ed73f]"
+  ],
+  "timeline": [
+    {
+      "m": "2026-01",
+      "win": 279,
+      "loss": 1,
+      "pnl": 229997,
+      "avg_not": 15431
+    },
+    {
+      "m": "2026-02",
+      "win": 247,
+      "loss": 981,
+      "pnl": 79954,
+      "avg_not": 5216
+    },
+    {
+      "m": "2026-03",
+      "win": 62,
+      "loss": 0,
+      "pnl": 16042,
+      "avg_not": 4786
+    }
+  ],
+  "top_wins": [
+    {
+      "coin": "HYPE",
+      "dir": "Close Long",
+      "date": "2026-02-03",
+      "not": 256620,
+      "pnl": 37724,
+      "maj": false
+    },
+    {
+      "coin": "BTC",
+      "dir": "Close Long",
+      "date": "2026-02-06",
+      "not": 315720,
+      "pnl": 30526,
+      "maj": true
+    },
+    {
+      "coin": "BTC",
+      "dir": "Close Long",
+      "date": "2026-02-06",
+      "not": 316498,
+      "pnl": 26987,
+      "maj": true
+    },
+    {
+      "coin": "xyz:GOLD",
+      "dir": "Close Short",
+      "date": "2026-01-30",
+      "not": 373193,
+      "pnl": 17816,
+      "maj": false
+    },
+    {
+      "coin": "HYPE",
+      "dir": "Close Long",
+      "date": "2026-02-03",
+      "not": 176100,
+      "pnl": 15225,
+      "maj": false
+    }
+  ],
+  "top_losses": [
+    {
+      "coin": "HYPE",
+      "dir": "Close Long",
+      "date": "2026-02-08",
+      "not": 144471,
+      "pnl": -9705,
+      "maj": false
+    },
+    {
+      "coin": "HYPE",
+      "dir": "Close Long",
+      "date": "2026-02-23",
+      "not": 45652,
+      "pnl": -9441,
+      "maj": false
+    },
+    {
+      "coin": "HYPE",
+      "dir": "Close Long",
+      "date": "2026-02-23",
+      "not": 36088,
+      "pnl": -7987,
+      "maj": false
+    },
+    {
+      "coin": "HYPE",
+      "dir": "Close Long",
+      "date": "2026-02-08",
+      "not": 114726,
+      "pnl": -7759,
+      "maj": false
+    },
+    {
+      "coin": "HYPE",
+      "dir": "Close Long",
+      "date": "2026-02-07",
+      "not": 148662,
+      "pnl": -6504,
+      "maj": false
+    }
+  ]
+}

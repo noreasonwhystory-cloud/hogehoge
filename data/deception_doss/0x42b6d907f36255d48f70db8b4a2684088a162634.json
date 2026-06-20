@@ -1,0 +1,226 @@
+{
+  "address": "0x42b6d907f36255d48f70db8b4a2684088a162634",
+  "patterns": {
+    "C_dormant_burst": 4.841,
+    "D_controlled_loss": 15.294,
+    "H_deliberate_dip": 7.098
+  },
+  "stats": {
+    "n_closes": 21535,
+    "real_all": 12521803,
+    "real_maj": 803435,
+    "win_rate": 0.706,
+    "active_days": 555,
+    "wr_big": 0.772,
+    "wr_small": 0.64,
+    "n_big": 10768,
+    "n_small": 10767,
+    "top3_share": 0.052,
+    "size_ratio": 2.59,
+    "med_win_not": 962,
+    "med_loss_not": 372,
+    "max_gap_d": 110.5,
+    "burst_share": 0.682,
+    "flips": 0,
+    "coins": [
+      "BTC",
+      "ETH",
+      "SOL"
+    ]
+  },
+  "lb_alltime": 17977827,
+  "registry_position": null,
+  "registry_quality": null,
+  "labels": null,
+  "timeline": [
+    {
+      "m": "2024-11",
+      "win": 2941,
+      "loss": 1710,
+      "pnl": 388990,
+      "avg_not": 7534
+    },
+    {
+      "m": "2024-12",
+      "win": 538,
+      "loss": 0,
+      "pnl": 2348655,
+      "avg_not": 5180
+    },
+    {
+      "m": "2025-01",
+      "win": 507,
+      "loss": 672,
+      "pnl": 865924,
+      "avg_not": 2164
+    },
+    {
+      "m": "2025-02",
+      "win": 473,
+      "loss": 0,
+      "pnl": 901612,
+      "avg_not": 2436
+    },
+    {
+      "m": "2025-04",
+      "win": 126,
+      "loss": 0,
+      "pnl": 32373,
+      "avg_not": 3921
+    },
+    {
+      "m": "2025-05",
+      "win": 2267,
+      "loss": 1559,
+      "pnl": 797055,
+      "avg_not": 4074
+    },
+    {
+      "m": "2025-06",
+      "win": 0,
+      "loss": 68,
+      "pnl": -885581,
+      "avg_not": 163
+    },
+    {
+      "m": "2025-07",
+      "win": 490,
+      "loss": 48,
+      "pnl": 886903,
+      "avg_not": 4638
+    },
+    {
+      "m": "2025-08",
+      "win": 748,
+      "loss": 0,
+      "pnl": 2585075,
+      "avg_not": 5591
+    },
+    {
+      "m": "2025-09",
+      "win": 1073,
+      "loss": 444,
+      "pnl": 2840864,
+      "avg_not": 4376
+    },
+    {
+      "m": "2025-10",
+      "win": 2330,
+      "loss": 1276,
+      "pnl": 508861,
+      "avg_not": 2412
+    },
+    {
+      "m": "2025-11",
+      "win": 1415,
+      "loss": 0,
+      "pnl": 38693,
+      "avg_not": 3663
+    },
+    {
+      "m": "2025-12",
+      "win": 707,
+      "loss": 550,
+      "pnl": 33544,
+      "avg_not": 8727
+    },
+    {
+      "m": "2026-01",
+      "win": 1579,
+      "loss": 0,
+      "pnl": 1178691,
+      "avg_not": 3703
+    },
+    {
+      "m": "2026-05",
+      "win": 14,
+      "loss": 0,
+      "pnl": 143,
+      "avg_not": 7141
+    }
+  ],
+  "top_wins": [
+    {
+      "coin": "@107",
+      "dir": "Sell",
+      "date": "2024-12-17",
+      "not": 368070,
+      "pnl": 311186,
+      "maj": false
+    },
+    {
+      "coin": "@107",
+      "dir": "Sell",
+      "date": "2025-08-28",
+      "not": 325852,
+      "pnl": 201869,
+      "maj": false
+    },
+    {
+      "coin": "PAXG",
+      "dir": "Close Long",
+      "date": "2025-10-17",
+      "not": 1774811,
+      "pnl": 137531,
+      "maj": false
+    },
+    {
+      "coin": "@107",
+      "dir": "Sell",
+      "date": "2024-12-17",
+      "not": 147789,
+      "pnl": 124949,
+      "maj": false
+    },
+    {
+      "coin": "@107",
+      "dir": "Sell",
+      "date": "2024-12-17",
+      "not": 146596,
+      "pnl": 123940,
+      "maj": false
+    }
+  ],
+  "top_losses": [
+    {
+      "coin": "ENA",
+      "dir": "Close Long",
+      "date": "2025-09-22",
+      "not": 472855,
+      "pnl": -94122,
+      "maj": false
+    },
+    {
+      "coin": "@37",
+      "dir": "Sell",
+      "date": "2025-06-28",
+      "not": 741,
+      "pnl": -82382,
+      "maj": false
+    },
+    {
+      "coin": "WIF",
+      "dir": "Close Short",
+      "date": "2025-05-18",
+      "not": 386962,
+      "pnl": -30949,
+      "maj": false
+    },
+    {
+      "coin": "MOODENG",
+      "dir": "Close Long",
+      "date": "2024-11-24",
+      "not": 141625,
+      "pnl": -30396,
+      "maj": false
+    },
+    {
+      "coin": "kBONK",
+      "dir": "Close Long",
+      "date": "2024-11-24",
+      "not": 125790,
+      "pnl": -22999,
+      "maj": false
+    }
+  ]
+}

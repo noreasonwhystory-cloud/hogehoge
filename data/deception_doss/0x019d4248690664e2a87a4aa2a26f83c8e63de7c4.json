@@ -1,0 +1,164 @@
+{
+  "address": "0x019d4248690664e2a87a4aa2a26f83c8e63de7c4",
+  "patterns": {
+    "C_dormant_burst": 3.794,
+    "D_controlled_loss": 57.09
+  },
+  "stats": {
+    "n_closes": 6217,
+    "real_all": 1075347,
+    "real_maj": 872376,
+    "win_rate": 0.7,
+    "active_days": 308,
+    "wr_big": 0.882,
+    "wr_small": 0.519,
+    "n_big": 3109,
+    "n_small": 3108,
+    "top3_share": 0.022,
+    "size_ratio": 9.61,
+    "med_win_not": 1018,
+    "med_loss_not": 106,
+    "max_gap_d": 120.7,
+    "burst_share": 0.629,
+    "flips": 0,
+    "coins": [
+      "BTC",
+      "ETH",
+      "SOL"
+    ]
+  },
+  "lb_alltime": 1698166,
+  "registry_position": "高頻度MM",
+  "registry_quality": null,
+  "labels": [
+    "🤓 Smart HL Perps Trader [0x019d42]"
+  ],
+  "timeline": [
+    {
+      "m": "2025-08",
+      "win": 4224,
+      "loss": 1736,
+      "pnl": 1076115,
+      "avg_not": 2212
+    },
+    {
+      "m": "2025-09",
+      "win": 0,
+      "loss": 1,
+      "pnl": -2,
+      "avg_not": 18
+    },
+    {
+      "m": "2025-10",
+      "win": 1,
+      "loss": 2,
+      "pnl": -7,
+      "avg_not": 47
+    },
+    {
+      "m": "2026-02",
+      "win": 108,
+      "loss": 108,
+      "pnl": -14719,
+      "avg_not": 5542
+    },
+    {
+      "m": "2026-03",
+      "win": 22,
+      "loss": 14,
+      "pnl": 13960,
+      "avg_not": 10539
+    },
+    {
+      "m": "2026-06",
+      "win": 0,
+      "loss": 1,
+      "pnl": 0,
+      "avg_not": 133
+    }
+  ],
+  "top_wins": [
+    {
+      "coin": "SOL",
+      "dir": "Close Short",
+      "date": "2025-08-19",
+      "not": 221434,
+      "pnl": 8610,
+      "maj": true
+    },
+    {
+      "coin": "xyz:SILVER",
+      "dir": "Close Long",
+      "date": "2026-03-01",
+      "not": 62846,
+      "pnl": 7997,
+      "maj": false
+    },
+    {
+      "coin": "SOL",
+      "dir": "Close Short",
+      "date": "2025-08-06",
+      "not": 75003,
+      "pnl": 7286,
+      "maj": true
+    },
+    {
+      "coin": "YZY",
+      "dir": "Close Short",
+      "date": "2025-08-21",
+      "not": 7975,
+      "pnl": 7186,
+      "maj": false
+    },
+    {
+      "coin": "SOL",
+      "dir": "Close Short",
+      "date": "2025-08-06",
+      "not": 63674,
+      "pnl": 6186,
+      "maj": true
+    }
+  ],
+  "top_losses": [
+    {
+      "coin": "xyz:SILVER",
+      "dir": "Close Long",
+      "date": "2026-03-17",
+      "not": 49997,
+      "pnl": -2989,
+      "maj": false
+    },
+    {
+      "coin": "xyz:SILVER",
+      "dir": "Close Long",
+      "date": "2026-03-17",
+      "not": 49989,
+      "pnl": -2989,
+      "maj": false
+    },
+    {
+      "coin": "xyz:SILVER",
+      "dir": "Close Long",
+      "date": "2026-03-17",
+      "not": 49985,
+      "pnl": -2988,
+      "maj": false
+    },
+    {
+      "coin": "xyz:SILVER",
+      "dir": "Close Long",
+      "date": "2026-02-19",
+      "not": 28863,
+      "pnl": -2275,
+      "maj": false
+    },
+    {
+      "coin": "xyz:SILVER",
+      "dir": "Close Long",
+      "date": "2026-02-19",
+      "not": 27961,
+      "pnl": -2218,
+      "maj": false
+    }
+  ]
+}

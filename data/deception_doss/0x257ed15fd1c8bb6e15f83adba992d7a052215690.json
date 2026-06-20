@@ -1,0 +1,225 @@
+{
+  "address": "0x257ed15fd1c8bb6e15f83adba992d7a052215690",
+  "patterns": {
+    "B_asymmetric": 0.383,
+    "C_dormant_burst": 15.856,
+    "H_deliberate_dip": 5.583
+  },
+  "stats": {
+    "n_closes": 20096,
+    "real_all": 382911,
+    "real_maj": -381507,
+    "win_rate": 0.311,
+    "active_days": 674,
+    "wr_big": 0.309,
+    "wr_small": 0.313,
+    "n_big": 10048,
+    "n_small": 10048,
+    "top3_share": 0.999,
+    "size_ratio": 0.96,
+    "med_win_not": 1045,
+    "med_loss_not": 1087,
+    "max_gap_d": 213.0,
+    "burst_share": 2.84,
+    "flips": 0,
+    "coins": [
+      "BTC",
+      "ETH"
+    ]
+  },
+  "lb_alltime": 565468,
+  "registry_position": null,
+  "registry_quality": null,
+  "labels": null,
+  "timeline": [
+    {
+      "m": "2023-12",
+      "win": 5,
+      "loss": 10,
+      "pnl": -1986,
+      "avg_not": 2078
+    },
+    {
+      "m": "2024-01",
+      "win": 0,
+      "loss": 21,
+      "pnl": -1846,
+      "avg_not": 1683
+    },
+    {
+      "m": "2024-04",
+      "win": 0,
+      "loss": 9,
+      "pnl": -2405,
+      "avg_not": 1068
+    },
+    {
+      "m": "2024-11",
+      "win": 291,
+      "loss": 0,
+      "pnl": 859332,
+      "avg_not": 3461
+    },
+    {
+      "m": "2024-12",
+      "win": 205,
+      "loss": 224,
+      "pnl": 248806,
+      "avg_not": 2794
+    },
+    {
+      "m": "2025-01",
+      "win": 25,
+      "loss": 6,
+      "pnl": 38265,
+      "avg_not": 6554
+    },
+    {
+      "m": "2025-02",
+      "win": 60,
+      "loss": 364,
+      "pnl": -137706,
+      "avg_not": 2196
+    },
+    {
+      "m": "2025-03",
+      "win": 279,
+      "loss": 668,
+      "pnl": -242701,
+      "avg_not": 3559
+    },
+    {
+      "m": "2025-04",
+      "win": 1808,
+      "loss": 1299,
+      "pnl": 1021356,
+      "avg_not": 8205
+    },
+    {
+      "m": "2025-05",
+      "win": 679,
+      "loss": 1664,
+      "pnl": -213471,
+      "avg_not": 15175
+    },
+    {
+      "m": "2025-06",
+      "win": 687,
+      "loss": 3055,
+      "pnl": -220161,
+      "avg_not": 17428
+    },
+    {
+      "m": "2025-07",
+      "win": 195,
+      "loss": 614,
+      "pnl": 407227,
+      "avg_not": 9996
+    },
+    {
+      "m": "2025-08",
+      "win": 423,
+      "loss": 766,
+      "pnl": -134972,
+      "avg_not": 13713
+    },
+    {
+      "m": "2025-09",
+      "win": 1586,
+      "loss": 4270,
+      "pnl": -1103109,
+      "avg_not": 21474
+    },
+    {
+      "m": "2025-10",
+      "win": 0,
+      "loss": 883,
+      "pnl": -133720,
+      "avg_not": 4390
+    }
+  ],
+  "top_wins": [
+    {
+      "coin": "TAO",
+      "dir": "Close Long",
+      "date": "2025-04-28",
+      "not": 503813,
+      "pnl": 182033,
+      "maj": false
+    },
+    {
+      "coin": "TAO",
+      "dir": "Close Long",
+      "date": "2025-04-28",
+      "not": 270760,
+      "pnl": 100419,
+      "maj": false
+    },
+    {
+      "coin": "TAO",
+      "dir": "Close Long",
+      "date": "2025-04-28",
+      "not": 270952,
+      "pnl": 100257,
+      "maj": false
+    },
+    {
+      "coin": "TAO",
+      "dir": "Close Long",
+      "date": "2025-04-28",
+      "not": 252562,
+      "pnl": 95094,
+      "maj": false
+    },
+    {
+      "coin": "HYPE",
+      "dir": "Close Long",
+      "date": "2025-05-23",
+      "not": 342000,
+      "pnl": 69862,
+      "maj": false
+    }
+  ],
+  "top_losses": [
+    {
+      "coin": "ETH",
+      "dir": "Close Long",
+      "date": "2025-06-13",
+      "not": 621878,
+      "pnl": -88737,
+      "maj": true
+    },
+    {
+      "coin": "HYPE",
+      "dir": "Close Long",
+      "date": "2025-03-09",
+      "not": 100000,
+      "pnl": -58465,
+      "maj": false
+    },
+    {
+      "coin": "BTC",
+      "dir": "Close Short",
+      "date": "2025-06-11",
+      "not": 3442292,
+      "pnl": -40329,
+      "maj": true
+    },
+    {
+      "coin": "ETH",
+      "dir": "Close Long",
+      "date": "2025-06-13",
+      "not": 477983,
+      "pnl": -38498,
+      "maj": true
+    },
+    {
+      "coin": "ETH",
+      "dir": "Close Long",
+      "date": "2025-06-13",
+      "not": 354898,
+      "pnl": -34254,
+      "maj": true
+    }
+  ]
+}

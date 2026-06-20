@@ -1,0 +1,204 @@
+{
+  "address": "0xe392e9008c49e7f82e7927a741fcb12799ebdb2b",
+  "patterns": {
+    "F_decoy_flip": 78.176,
+    "H_deliberate_dip": 5.543
+  },
+  "stats": {
+    "n_closes": 19361,
+    "real_all": 348912,
+    "real_maj": 383685,
+    "win_rate": 0.469,
+    "active_days": 371,
+    "wr_big": 0.484,
+    "wr_small": 0.454,
+    "n_big": 9681,
+    "n_small": 9680,
+    "top3_share": 0.221,
+    "size_ratio": 1.17,
+    "med_win_not": 2113,
+    "med_loss_not": 1800,
+    "max_gap_d": 57.8,
+    "burst_share": 0.137,
+    "flips": 14,
+    "coins": [
+      "BTC",
+      "ETH",
+      "SOL"
+    ]
+  },
+  "lb_alltime": 101355,
+  "registry_position": "高頻度MM",
+  "registry_quality": null,
+  "labels": [],
+  "timeline": [
+    {
+      "m": "2025-06",
+      "win": 727,
+      "loss": 451,
+      "pnl": 243964,
+      "avg_not": 14242
+    },
+    {
+      "m": "2025-07",
+      "win": 2991,
+      "loss": 3747,
+      "pnl": 145158,
+      "avg_not": 22115
+    },
+    {
+      "m": "2025-08",
+      "win": 928,
+      "loss": 298,
+      "pnl": 122531,
+      "avg_not": 17795
+    },
+    {
+      "m": "2025-09",
+      "win": 881,
+      "loss": 824,
+      "pnl": -52584,
+      "avg_not": 7046
+    },
+    {
+      "m": "2025-10",
+      "win": 1369,
+      "loss": 1844,
+      "pnl": -98618,
+      "avg_not": 18648
+    },
+    {
+      "m": "2025-11",
+      "win": 575,
+      "loss": 1049,
+      "pnl": -57124,
+      "avg_not": 6901
+    },
+    {
+      "m": "2025-12",
+      "win": 329,
+      "loss": 388,
+      "pnl": -36056,
+      "avg_not": 12324
+    },
+    {
+      "m": "2026-01",
+      "win": 315,
+      "loss": 1085,
+      "pnl": -10631,
+      "avg_not": 6287
+    },
+    {
+      "m": "2026-03",
+      "win": 46,
+      "loss": 10,
+      "pnl": 26055,
+      "avg_not": 6425
+    },
+    {
+      "m": "2026-04",
+      "win": 498,
+      "loss": 383,
+      "pnl": 8568,
+      "avg_not": 8586
+    },
+    {
+      "m": "2026-05",
+      "win": 138,
+      "loss": 99,
+      "pnl": 3797,
+      "avg_not": 3488
+    },
+    {
+      "m": "2026-06",
+      "win": 286,
+      "loss": 100,
+      "pnl": 53851,
+      "avg_not": 7879
+    }
+  ],
+  "top_wins": [
+    {
+      "coin": "BTC",
+      "dir": "Auto-Deleveraging",
+      "date": "2025-10-10",
+      "not": 1218981,
+      "pnl": 32440,
+      "maj": true
+    },
+    {
+      "coin": "BTC",
+      "dir": "Close Short",
+      "date": "2025-06-20",
+      "not": 489041,
+      "pnl": 22611,
+      "maj": true
+    },
+    {
+      "coin": "SOL",
+      "dir": "Close Short",
+      "date": "2025-10-10",
+      "not": 269826,
+      "pnl": 21966,
+      "maj": true
+    },
+    {
+      "coin": "SOL",
+      "dir": "Close Long",
+      "date": "2025-07-18",
+      "not": 470333,
+      "pnl": 17073,
+      "maj": true
+    },
+    {
+      "coin": "SOL",
+      "dir": "Close Long",
+      "date": "2025-06-24",
+      "not": 147107,
+      "pnl": 13865,
+      "maj": true
+    }
+  ],
+  "top_losses": [
+    {
+      "coin": "BTC",
+      "dir": "Close Long",
+      "date": "2025-10-30",
+      "not": 498606,
+      "pnl": -17012,
+      "maj": true
+    },
+    {
+      "coin": "BTC",
+      "dir": "Close Short",
+      "date": "2025-07-10",
+      "not": 788801,
+      "pnl": -12810,
+      "maj": true
+    },
+    {
+      "coin": "SOL",
+      "dir": "Close Long",
+      "date": "2025-09-25",
+      "not": 203822,
+      "pnl": -10735,
+      "maj": true
+    },
+    {
+      "coin": "SOL",
+      "dir": "Close Long",
+      "date": "2025-07-31",
+      "not": 407999,
+      "pnl": -9709,
+      "maj": true
+    },
+    {
+      "coin": "BTC",
+      "dir": "Close Long",
+      "date": "2025-07-08",
+      "not": 2024736,
+      "pnl": -9286,
+      "maj": true
+    }
+  ]
+}

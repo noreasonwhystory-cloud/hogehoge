@@ -1,0 +1,183 @@
+{
+  "address": "0xae58db322be15464c1831b29540e42264cff2b23",
+  "patterns": {
+    "F_decoy_flip": 22.586,
+    "H_deliberate_dip": 5.318
+  },
+  "stats": {
+    "n_closes": 5980,
+    "real_all": 207985,
+    "real_maj": 32897,
+    "win_rate": 0.65,
+    "active_days": 308,
+    "wr_big": 0.607,
+    "wr_small": 0.692,
+    "n_big": 2990,
+    "n_small": 2990,
+    "top3_share": 0.322,
+    "size_ratio": 0.72,
+    "med_win_not": 162,
+    "med_loss_not": 226,
+    "max_gap_d": 86.8,
+    "burst_share": 0.283,
+    "flips": 5,
+    "coins": [
+      "SOL"
+    ]
+  },
+  "lb_alltime": null,
+  "registry_position": "除外/低優先",
+  "registry_quality": null,
+  "labels": [
+    "🤓 Smart HL Perps Trader [0xae58db]"
+  ],
+  "timeline": [
+    {
+      "m": "2025-08",
+      "win": 871,
+      "loss": 292,
+      "pnl": 12866,
+      "avg_not": 546
+    },
+    {
+      "m": "2025-09",
+      "win": 644,
+      "loss": 587,
+      "pnl": -9760,
+      "avg_not": 655
+    },
+    {
+      "m": "2025-10",
+      "win": 85,
+      "loss": 22,
+      "pnl": 79840,
+      "avg_not": 1733
+    },
+    {
+      "m": "2026-01",
+      "win": 288,
+      "loss": 186,
+      "pnl": 25893,
+      "avg_not": 653
+    },
+    {
+      "m": "2026-02",
+      "win": 684,
+      "loss": 182,
+      "pnl": 72990,
+      "avg_not": 461
+    },
+    {
+      "m": "2026-03",
+      "win": 193,
+      "loss": 538,
+      "pnl": -1408,
+      "avg_not": 441
+    },
+    {
+      "m": "2026-04",
+      "win": 439,
+      "loss": 138,
+      "pnl": 12301,
+      "avg_not": 308
+    },
+    {
+      "m": "2026-05",
+      "win": 291,
+      "loss": 118,
+      "pnl": 4529,
+      "avg_not": 359
+    },
+    {
+      "m": "2026-06",
+      "win": 390,
+      "loss": 32,
+      "pnl": 10733,
+      "avg_not": 271
+    }
+  ],
+  "top_wins": [
+    {
+      "coin": "kBONK",
+      "dir": "Auto-Deleveraging",
+      "date": "2025-10-10",
+      "not": 12658,
+      "pnl": 25424,
+      "maj": false
+    },
+    {
+      "coin": "VIRTUAL",
+      "dir": "Auto-Deleveraging",
+      "date": "2025-10-10",
+      "not": 25526,
+      "pnl": 23071,
+      "maj": false
+    },
+    {
+      "coin": "kPEPE",
+      "dir": "Auto-Deleveraging",
+      "date": "2025-10-10",
+      "not": 16957,
+      "pnl": 18386,
+      "maj": false
+    },
+    {
+      "coin": "VIRTUAL",
+      "dir": "Auto-Deleveraging",
+      "date": "2025-10-10",
+      "not": 10661,
+      "pnl": 11607,
+      "maj": false
+    },
+    {
+      "coin": "SOL",
+      "dir": "Close Short",
+      "date": "2026-01-05",
+      "not": 16338,
+      "pnl": 10442,
+      "maj": true
+    }
+  ],
+  "top_losses": [
+    {
+      "coin": "SOL",
+      "dir": "Close Short",
+      "date": "2025-09-18",
+      "not": 38358,
+      "pnl": -2125,
+      "maj": true
+    },
+    {
+      "coin": "SOL",
+      "dir": "Close Short",
+      "date": "2025-09-12",
+      "not": 7630,
+      "pnl": -1014,
+      "maj": true
+    },
+    {
+      "coin": "SOL",
+      "dir": "Close Short",
+      "date": "2025-09-12",
+      "not": 5049,
+      "pnl": -668,
+      "maj": true
+    },
+    {
+      "coin": "SOL",
+      "dir": "Close Short",
+      "date": "2025-09-12",
+      "not": 4770,
+      "pnl": -647,
+      "maj": true
+    },
+    {
+      "coin": "SOL",
+      "dir": "Close Short",
+      "date": "2025-09-12",
+      "not": 4770,
+      "pnl": -647,
+      "maj": true
+    }
+  ]
+}

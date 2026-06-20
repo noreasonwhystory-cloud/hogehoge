@@ -1,0 +1,163 @@
+{
+  "address": "0x5986347c1d0133d02d307f08bb1efd44c2eb89d9",
+  "patterns": {
+    "B_asymmetric": 0.393,
+    "C_dormant_burst": 6.441,
+    "H_deliberate_dip": 5.468
+  },
+  "stats": {
+    "n_closes": 50255,
+    "real_all": 293599,
+    "real_maj": 114131,
+    "win_rate": 0.246,
+    "active_days": 145,
+    "wr_big": 0.214,
+    "wr_small": 0.277,
+    "n_big": 25128,
+    "n_small": 25127,
+    "top3_share": 1.339,
+    "size_ratio": 0.6,
+    "med_win_not": 1199,
+    "med_loss_not": 2014,
+    "max_gap_d": 18.3,
+    "burst_share": 1.178,
+    "flips": 0,
+    "coins": [
+      "BTC",
+      "ETH",
+      "SOL"
+    ]
+  },
+  "lb_alltime": 1346488,
+  "registry_position": null,
+  "registry_quality": null,
+  "labels": null,
+  "timeline": [
+    {
+      "m": "2025-12",
+      "win": 121,
+      "loss": 1902,
+      "pnl": -570874,
+      "avg_not": 25896
+    },
+    {
+      "m": "2026-01",
+      "win": 306,
+      "loss": 2305,
+      "pnl": 39514,
+      "avg_not": 24055
+    },
+    {
+      "m": "2026-02",
+      "win": 153,
+      "loss": 2246,
+      "pnl": 830078,
+      "avg_not": 7596
+    },
+    {
+      "m": "2026-03",
+      "win": 1780,
+      "loss": 2425,
+      "pnl": 76737,
+      "avg_not": 12412
+    },
+    {
+      "m": "2026-04",
+      "win": 7038,
+      "loss": 19955,
+      "pnl": -32827,
+      "avg_not": 13400
+    },
+    {
+      "m": "2026-05",
+      "win": 2950,
+      "loss": 9074,
+      "pnl": -49029,
+      "avg_not": 12810
+    }
+  ],
+  "top_wins": [
+    {
+      "coin": "ETH",
+      "dir": "Close Short",
+      "date": "2026-02-05",
+      "not": 420636,
+      "pnl": 183751,
+      "maj": true
+    },
+    {
+      "coin": "ETH",
+      "dir": "Close Long",
+      "date": "2026-01-12",
+      "not": 2410047,
+      "pnl": 115198,
+      "maj": true
+    },
+    {
+      "coin": "BTC",
+      "dir": "Close Short",
+      "date": "2026-02-05",
+      "not": 299599,
+      "pnl": 94244,
+      "maj": true
+    },
+    {
+      "coin": "BTC",
+      "dir": "Close Short",
+      "date": "2026-02-05",
+      "not": 299617,
+      "pnl": 94226,
+      "maj": true
+    },
+    {
+      "coin": "BTC",
+      "dir": "Close Short",
+      "date": "2026-02-05",
+      "not": 299635,
+      "pnl": 94209,
+      "maj": true
+    }
+  ],
+  "top_losses": [
+    {
+      "coin": "ETH",
+      "dir": "Close Long",
+      "date": "2026-04-24",
+      "not": 2766000,
+      "pnl": -33372,
+      "maj": true
+    },
+    {
+      "coin": "BTC",
+      "dir": "Close Long",
+      "date": "2026-01-24",
+      "not": 2479777,
+      "pnl": -28110,
+      "maj": true
+    },
+    {
+      "coin": "ZEC",
+      "dir": "Close Long",
+      "date": "2026-04-19",
+      "not": 154860,
+      "pnl": -27590,
+      "maj": false
+    },
+    {
+      "coin": "xyz:NVDA",
+      "dir": "Close Short",
+      "date": "2026-05-08",
+      "not": 400000,
+      "pnl": -23541,
+      "maj": false
+    },
+    {
+      "coin": "ETH",
+      "dir": "Close Long",
+      "date": "2026-02-23",
+      "not": 300055,
+      "pnl": -19962,
+      "maj": true
+    }
+  ]
+}

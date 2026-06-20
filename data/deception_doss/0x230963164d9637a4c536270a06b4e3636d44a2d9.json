@@ -1,0 +1,163 @@
+{
+  "address": "0x230963164d9637a4c536270a06b4e3636d44a2d9",
+  "patterns": {
+    "C_dormant_burst": 2.627,
+    "D_controlled_loss": 14.111,
+    "H_deliberate_dip": 5.798
+  },
+  "stats": {
+    "n_closes": 1776,
+    "real_all": 628291,
+    "real_maj": 418854,
+    "win_rate": 0.329,
+    "active_days": 368,
+    "wr_big": 0.407,
+    "wr_small": 0.252,
+    "n_big": 888,
+    "n_small": 888,
+    "top3_share": 0.491,
+    "size_ratio": 2.51,
+    "med_win_not": 1198,
+    "med_loss_not": 478,
+    "max_gap_d": 180.7,
+    "burst_share": 0.453,
+    "flips": 0,
+    "coins": [
+      "BTC"
+    ]
+  },
+  "lb_alltime": 933333,
+  "registry_position": "プロトレーダー(本物)",
+  "registry_quality": "堅実",
+  "labels": [
+    "High Balance"
+  ],
+  "timeline": [
+    {
+      "m": "2025-06",
+      "win": 43,
+      "loss": 628,
+      "pnl": 4637,
+      "avg_not": 928
+    },
+    {
+      "m": "2025-09",
+      "win": 45,
+      "loss": 0,
+      "pnl": 22308,
+      "avg_not": 2321
+    },
+    {
+      "m": "2026-03",
+      "win": 44,
+      "loss": 132,
+      "pnl": 10699,
+      "avg_not": 16008
+    },
+    {
+      "m": "2026-04",
+      "win": 0,
+      "loss": 47,
+      "pnl": -20533,
+      "avg_not": 12867
+    },
+    {
+      "m": "2026-05",
+      "win": 308,
+      "loss": 342,
+      "pnl": 134229,
+      "avg_not": 7077
+    },
+    {
+      "m": "2026-06",
+      "win": 145,
+      "loss": 42,
+      "pnl": 476951,
+      "avg_not": 19073
+    }
+  ],
+  "top_wins": [
+    {
+      "coin": "BTC",
+      "dir": "Close Short",
+      "date": "2026-06-04",
+      "not": 940702,
+      "pnl": 196680,
+      "maj": true
+    },
+    {
+      "coin": "BTC",
+      "dir": "Close Short",
+      "date": "2026-06-02",
+      "not": 677061,
+      "pnl": 63919,
+      "maj": true
+    },
+    {
+      "coin": "ZEC",
+      "dir": "Close Long",
+      "date": "2026-05-07",
+      "not": 131835,
+      "pnl": 48010,
+      "maj": false
+    },
+    {
+      "coin": "BTC",
+      "dir": "Close Short",
+      "date": "2026-06-02",
+      "not": 293527,
+      "pnl": 42125,
+      "maj": true
+    },
+    {
+      "coin": "BTC",
+      "dir": "Close Short",
+      "date": "2026-06-02",
+      "not": 212438,
+      "pnl": 30488,
+      "maj": true
+    }
+  ],
+  "top_losses": [
+    {
+      "coin": "ZEC",
+      "dir": "Close Long",
+      "date": "2026-05-15",
+      "not": 320767,
+      "pnl": -30549,
+      "maj": false
+    },
+    {
+      "coin": "ZEC",
+      "dir": "Close Long",
+      "date": "2026-05-15",
+      "not": 120014,
+      "pnl": -11599,
+      "maj": false
+    },
+    {
+      "coin": "ZEC",
+      "dir": "Close Long",
+      "date": "2026-05-14",
+      "not": 105849,
+      "pnl": -6904,
+      "maj": false
+    },
+    {
+      "coin": "ZEC",
+      "dir": "Close Long",
+      "date": "2026-05-28",
+      "not": 64333,
+      "pnl": -5038,
+      "maj": false
+    },
+    {
+      "coin": "ZEC",
+      "dir": "Close Long",
+      "date": "2026-05-15",
+      "not": 51642,
+      "pnl": -4946,
+      "maj": false
+    }
+  ]
+}

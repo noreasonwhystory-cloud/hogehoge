@@ -1,0 +1,148 @@
+{
+  "address": "0x72db642e6c803993aef6fc17e9b159c536508bb6",
+  "patterns": {
+    "C_dormant_burst": 7.191,
+    "D_controlled_loss": 14.762,
+    "H_deliberate_dip": 5.662
+  },
+  "stats": {
+    "n_closes": 1227,
+    "real_all": 459128,
+    "real_maj": 410132,
+    "win_rate": 0.489,
+    "active_days": 135,
+    "wr_big": 0.594,
+    "wr_small": 0.383,
+    "n_big": 614,
+    "n_small": 613,
+    "top3_share": 0.255,
+    "size_ratio": 2.63,
+    "med_win_not": 1312,
+    "med_loss_not": 499,
+    "max_gap_d": 36.2,
+    "burst_share": 1.27,
+    "flips": 0,
+    "coins": [
+      "BTC",
+      "ETH"
+    ]
+  },
+  "lb_alltime": 647412,
+  "registry_position": null,
+  "registry_quality": null,
+  "labels": null,
+  "timeline": [
+    {
+      "m": "2025-01",
+      "win": 0,
+      "loss": 195,
+      "pnl": -194401,
+      "avg_not": 2573
+    },
+    {
+      "m": "2025-02",
+      "win": 209,
+      "loss": 185,
+      "pnl": 50761,
+      "avg_not": 2784
+    },
+    {
+      "m": "2025-04",
+      "win": 0,
+      "loss": 175,
+      "pnl": -48757,
+      "avg_not": 1692
+    },
+    {
+      "m": "2025-05",
+      "win": 391,
+      "loss": 72,
+      "pnl": 651525,
+      "avg_not": 13904
+    }
+  ],
+  "top_wins": [
+    {
+      "coin": "BTC",
+      "dir": "Close Long",
+      "date": "2025-05-08",
+      "not": 375788,
+      "pnl": 66942,
+      "maj": true
+    },
+    {
+      "coin": "BTC",
+      "dir": "Close Long",
+      "date": "2025-05-08",
+      "not": 141296,
+      "pnl": 25125,
+      "maj": true
+    },
+    {
+      "coin": "BTC",
+      "dir": "Close Long",
+      "date": "2025-05-08",
+      "not": 140000,
+      "pnl": 24889,
+      "maj": true
+    },
+    {
+      "coin": "ETH",
+      "dir": "Close Long",
+      "date": "2025-05-13",
+      "not": 175000,
+      "pnl": 23622,
+      "maj": true
+    },
+    {
+      "coin": "ETH",
+      "dir": "Close Long",
+      "date": "2025-05-13",
+      "not": 149997,
+      "pnl": 20074,
+      "maj": true
+    }
+  ],
+  "top_losses": [
+    {
+      "coin": "@107",
+      "dir": "Sell",
+      "date": "2025-01-11",
+      "not": 86230,
+      "pnl": -36207,
+      "maj": false
+    },
+    {
+      "coin": "@107",
+      "dir": "Sell",
+      "date": "2025-01-11",
+      "not": 98514,
+      "pnl": -36030,
+      "maj": false
+    },
+    {
+      "coin": "@107",
+      "dir": "Sell",
+      "date": "2025-01-11",
+      "not": 64649,
+      "pnl": -26628,
+      "maj": false
+    },
+    {
+      "coin": "ETH",
+      "dir": "Close Long",
+      "date": "2025-05-18",
+      "not": 593128,
+      "pnl": -26486,
+      "maj": true
+    },
+    {
+      "coin": "ETH",
+      "dir": "Close Long",
+      "date": "2025-05-18",
+      "not": 581061,
+      "pnl": -25947,
+      "maj": true
+    }
+  ]
+}

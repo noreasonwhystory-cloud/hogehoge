@@ -1,0 +1,132 @@
+{
+  "address": "0x862dd8e68f30693e3d3c9daa42a440bc6d2a1f0c",
+  "patterns": {
+    "F_decoy_flip": 446.758
+  },
+  "stats": {
+    "n_closes": 6059,
+    "real_all": 32562,
+    "real_maj": 32562,
+    "win_rate": 0.489,
+    "active_days": 370,
+    "wr_big": 0.524,
+    "wr_small": 0.455,
+    "n_big": 3037,
+    "n_small": 3022,
+    "top3_share": 0.931,
+    "size_ratio": 1.0,
+    "med_win_not": 637,
+    "med_loss_not": 635,
+    "max_gap_d": 367.9,
+    "burst_share": 0.924,
+    "flips": 99,
+    "coins": [
+      "BTC",
+      "ETH"
+    ]
+  },
+  "lb_alltime": 5997442,
+  "registry_position": null,
+  "registry_quality": null,
+  "labels": null,
+  "timeline": [
+    {
+      "m": "2024-08",
+      "win": 2963,
+      "loss": 3095,
+      "pnl": 2474,
+      "avg_not": 5525
+    },
+    {
+      "m": "2025-08",
+      "win": 1,
+      "loss": 0,
+      "pnl": 30088,
+      "avg_not": 118213
+    }
+  ],
+  "top_wins": [
+    {
+      "coin": "ETH",
+      "dir": "Close Long",
+      "date": "2025-08-14",
+      "not": 118213,
+      "pnl": 30088,
+      "maj": true
+    },
+    {
+      "coin": "BTC",
+      "dir": "Short > Long",
+      "date": "2024-08-09",
+      "not": 30000,
+      "pnl": 136,
+      "maj": true
+    },
+    {
+      "coin": "BTC",
+      "dir": "Close Long",
+      "date": "2024-08-09",
+      "not": 29997,
+      "pnl": 97,
+      "maj": true
+    },
+    {
+      "coin": "BTC",
+      "dir": "Close Long",
+      "date": "2024-08-09",
+      "not": 29999,
+      "pnl": 95,
+      "maj": true
+    },
+    {
+      "coin": "BTC",
+      "dir": "Short > Long",
+      "date": "2024-08-11",
+      "not": 30000,
+      "pnl": 94,
+      "maj": true
+    }
+  ],
+  "top_losses": [
+    {
+      "coin": "BTC",
+      "dir": "Short > Long",
+      "date": "2024-08-09",
+      "not": 28395,
+      "pnl": -138,
+      "maj": true
+    },
+    {
+      "coin": "BTC",
+      "dir": "Long > Short",
+      "date": "2024-08-09",
+      "not": 30000,
+      "pnl": -126,
+      "maj": true
+    },
+    {
+      "coin": "BTC",
+      "dir": "Short > Long",
+      "date": "2024-08-09",
+      "not": 30000,
+      "pnl": -110,
+      "maj": true
+    },
+    {
+      "coin": "BTC",
+      "dir": "Close Short",
+      "date": "2024-08-09",
+      "not": 29999,
+      "pnl": -102,
+      "maj": true
+    },
+    {
+      "coin": "BTC",
+      "dir": "Long > Short",
+      "date": "2024-08-09",
+      "not": 30000,
+      "pnl": -96,
+      "maj": true
+    }
+  ]
+}

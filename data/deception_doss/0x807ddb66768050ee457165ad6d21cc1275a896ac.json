@@ -1,0 +1,158 @@
+{
+  "address": "0x807ddb66768050ee457165ad6d21cc1275a896ac",
+  "patterns": {
+    "A_size_conditional": 3.328,
+    "C_dormant_burst": 2.567,
+    "D_controlled_loss": 214.058
+  },
+  "stats": {
+    "n_closes": 1048,
+    "real_all": 641213,
+    "real_maj": 477997,
+    "win_rate": 0.575,
+    "active_days": 225,
+    "wr_big": 0.868,
+    "wr_small": 0.282,
+    "n_big": 524,
+    "n_small": 524,
+    "top3_share": 0.171,
+    "size_ratio": 37.69,
+    "med_win_not": 1499,
+    "med_loss_not": 40,
+    "max_gap_d": 146.0,
+    "burst_share": 0.442,
+    "flips": 0,
+    "coins": [
+      "BTC",
+      "ETH",
+      "SOL"
+    ]
+  },
+  "lb_alltime": 806655,
+  "registry_position": "プロトレーダー(本物)",
+  "registry_quality": "堅実",
+  "labels": [
+    "🤓 Smart HL Perps Trader [0x807ddb]"
+  ],
+  "timeline": [
+    {
+      "m": "2025-10",
+      "win": 18,
+      "loss": 0,
+      "pnl": 668,
+      "avg_not": 3243
+    },
+    {
+      "m": "2025-11",
+      "win": 248,
+      "loss": 109,
+      "pnl": 260294,
+      "avg_not": 4465
+    },
+    {
+      "m": "2025-12",
+      "win": 323,
+      "loss": 0,
+      "pnl": 385601,
+      "avg_not": 7769
+    },
+    {
+      "m": "2026-05",
+      "win": 12,
+      "loss": 0,
+      "pnl": 4,
+      "avg_not": 3835
+    },
+    {
+      "m": "2026-06",
+      "win": 2,
+      "loss": 336,
+      "pnl": -5354,
+      "avg_not": 212
+    }
+  ],
+  "top_wins": [
+    {
+      "coin": "POPCAT",
+      "dir": "Auto-Deleveraging",
+      "date": "2025-11-12",
+      "not": 200043,
+      "pnl": 83315,
+      "maj": false
+    },
+    {
+      "coin": "SOL",
+      "dir": "Close Short",
+      "date": "2025-12-19",
+      "not": 44992,
+      "pnl": 14529,
+      "maj": true
+    },
+    {
+      "coin": "BTC",
+      "dir": "Close Short",
+      "date": "2025-11-21",
+      "not": 41780,
+      "pnl": 11995,
+      "maj": true
+    },
+    {
+      "coin": "BTC",
+      "dir": "Close Short",
+      "date": "2025-11-21",
+      "not": 36938,
+      "pnl": 10605,
+      "maj": true
+    },
+    {
+      "coin": "BTC",
+      "dir": "Close Short",
+      "date": "2025-11-21",
+      "not": 35853,
+      "pnl": 10344,
+      "maj": true
+    }
+  ],
+  "top_losses": [
+    {
+      "coin": "xyz:SKHX",
+      "dir": "Close Long",
+      "date": "2026-06-05",
+      "not": 42973,
+      "pnl": -2439,
+      "maj": false
+    },
+    {
+      "coin": "ETH",
+      "dir": "Close Short",
+      "date": "2025-11-03",
+      "not": 70762,
+      "pnl": -1300,
+      "maj": true
+    },
+    {
+      "coin": "SOL",
+      "dir": "Close Long",
+      "date": "2026-06-04",
+      "not": 3827,
+      "pnl": -698,
+      "maj": true
+    },
+    {
+      "coin": "xyz:SMSN",
+      "dir": "Close Long",
+      "date": "2026-06-05",
+      "not": 1410,
+      "pnl": -138,
+      "maj": false
+    },
+    {
+      "coin": "SOL",
+      "dir": "Close Long",
+      "date": "2026-06-04",
+      "not": 737,
+      "pnl": -136,
+      "maj": true
+    }
+  ]
+}

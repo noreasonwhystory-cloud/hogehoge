@@ -1,0 +1,123 @@
+{
+  "address": "0xd383165100047d9b3691eebcbb490f481f6ada2c",
+  "patterns": {
+    "C_dormant_burst": 4.588,
+    "D_controlled_loss": 1225.612
+  },
+  "stats": {
+    "n_closes": 50,
+    "real_all": 175334,
+    "real_maj": 145500,
+    "win_rate": 0.94,
+    "active_days": 115,
+    "wr_big": 1.0,
+    "wr_small": 0.88,
+    "n_big": 25,
+    "n_small": 25,
+    "top3_share": 0.372,
+    "size_ratio": 237.39,
+    "med_win_not": 2489,
+    "med_loss_not": 10,
+    "max_gap_d": 37.5,
+    "burst_share": 0.875,
+    "flips": 0,
+    "coins": [
+      "SOL"
+    ]
+  },
+  "lb_alltime": null,
+  "registry_position": "除外/低優先",
+  "registry_quality": null,
+  "labels": [
+    "Former Smart Trader [0xd38316]"
+  ],
+  "timeline": [
+    {
+      "m": "2025-10",
+      "win": 1,
+      "loss": 0,
+      "pnl": 21939,
+      "avg_not": 21108
+    },
+    {
+      "m": "2025-11",
+      "win": 13,
+      "loss": 0,
+      "pnl": 7897,
+      "avg_not": 1321
+    },
+    {
+      "m": "2025-12",
+      "win": 1,
+      "loss": 1,
+      "pnl": 0,
+      "avg_not": 10
+    },
+    {
+      "m": "2026-01",
+      "win": 1,
+      "loss": 1,
+      "pnl": 0,
+      "avg_not": 10
+    },
+    {
+      "m": "2026-02",
+      "win": 31,
+      "loss": 1,
+      "pnl": 145498,
+      "avg_not": 24414
+    }
+  ],
+  "top_wins": [
+    {
+      "coin": "SOL",
+      "dir": "Close Short",
+      "date": "2026-02-03",
+      "not": 118541,
+      "pnl": 22089,
+      "maj": true
+    },
+    {
+      "coin": "ENA",
+      "dir": "Auto-Deleveraging",
+      "date": "2025-10-10",
+      "not": 21108,
+      "pnl": 21939,
+      "maj": false
+    },
+    {
+      "coin": "SOL",
+      "dir": "Close Short",
+      "date": "2026-02-03",
+      "not": 114130,
+      "pnl": 21267,
+      "maj": true
+    },
+    {
+      "coin": "SOL",
+      "dir": "Close Short",
+      "date": "2026-02-03",
+      "not": 112854,
+      "pnl": 21029,
+      "maj": true
+    },
+    {
+      "coin": "SOL",
+      "dir": "Close Short",
+      "date": "2026-02-03",
+      "not": 109204,
+      "pnl": 20349,
+      "maj": true
+    }
+  ],
+  "top_losses": [
+    {
+      "coin": "@107",
+      "dir": "Sell",
+      "date": "2026-02-03",
+      "not": 415,
+      "pnl": -2,
+      "maj": false
+    }
+  ]
+}

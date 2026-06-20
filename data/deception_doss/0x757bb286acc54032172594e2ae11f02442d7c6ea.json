@@ -1,0 +1,159 @@
+{
+  "address": "0x757bb286acc54032172594e2ae11f02442d7c6ea",
+  "patterns": {
+    "C_dormant_burst": 35.533
+  },
+  "stats": {
+    "n_closes": 800,
+    "real_all": 66564,
+    "real_maj": 0,
+    "win_rate": 0.492,
+    "active_days": 425,
+    "wr_big": 0.41,
+    "wr_small": 0.575,
+    "n_big": 400,
+    "n_small": 400,
+    "top3_share": 3.18,
+    "size_ratio": 0.25,
+    "med_win_not": 300,
+    "med_loss_not": 1206,
+    "max_gap_d": 139.7,
+    "burst_share": 7.367,
+    "flips": 0,
+    "coins": []
+  },
+  "lb_alltime": 442748,
+  "registry_position": "除外/低優先",
+  "registry_quality": null,
+  "labels": [
+    "Former Smart Trader [0x757bb2]"
+  ],
+  "timeline": [
+    {
+      "m": "2025-02",
+      "win": 0,
+      "loss": 127,
+      "pnl": -189550,
+      "avg_not": 2296
+    },
+    {
+      "m": "2025-06",
+      "win": 286,
+      "loss": 59,
+      "pnl": -64111,
+      "avg_not": 1750
+    },
+    {
+      "m": "2025-07",
+      "win": 50,
+      "loss": 5,
+      "pnl": 59320,
+      "avg_not": 4289
+    },
+    {
+      "m": "2025-10",
+      "win": 7,
+      "loss": 21,
+      "pnl": 29507,
+      "avg_not": 2155
+    },
+    {
+      "m": "2026-03",
+      "win": 0,
+      "loss": 194,
+      "pnl": -26668,
+      "avg_not": 17435
+    },
+    {
+      "m": "2026-04",
+      "win": 51,
+      "loss": 0,
+      "pnl": 258066,
+      "avg_not": 22329
+    }
+  ],
+  "top_wins": [
+    {
+      "coin": "xyz:BRENTOIL",
+      "dir": "Close Long",
+      "date": "2026-04-30",
+      "not": 444477,
+      "pnl": 100724,
+      "maj": false
+    },
+    {
+      "coin": "xyz:BRENTOIL",
+      "dir": "Close Long",
+      "date": "2026-04-30",
+      "not": 290258,
+      "pnl": 65776,
+      "maj": false
+    },
+    {
+      "coin": "HYPE",
+      "dir": "Close Long",
+      "date": "2025-07-21",
+      "not": 148775,
+      "pnl": 45156,
+      "maj": false
+    },
+    {
+      "coin": "OM",
+      "dir": "Auto-Deleveraging",
+      "date": "2025-10-10",
+      "not": 11978,
+      "pnl": 39325,
+      "maj": false
+    },
+    {
+      "coin": "xyz:BRENTOIL",
+      "dir": "Close Long",
+      "date": "2026-04-30",
+      "not": 129208,
+      "pnl": 29280,
+      "maj": false
+    }
+  ],
+  "top_losses": [
+    {
+      "coin": "@123",
+      "dir": "Sell",
+      "date": "2025-06-18",
+      "not": 8244,
+      "pnl": -61194,
+      "maj": false
+    },
+    {
+      "coin": "PURR/USDC",
+      "dir": "Sell",
+      "date": "2025-02-28",
+      "not": 6320,
+      "pnl": -29275,
+      "maj": false
+    },
+    {
+      "coin": "PURR/USDC",
+      "dir": "Sell",
+      "date": "2025-02-28",
+      "not": 6320,
+      "pnl": -29275,
+      "maj": false
+    },
+    {
+      "coin": "PURR/USDC",
+      "dir": "Sell",
+      "date": "2025-06-18",
+      "not": 21979,
+      "pnl": -26375,
+      "maj": false
+    },
+    {
+      "coin": "PURR/USDC",
+      "dir": "Sell",
+      "date": "2025-02-28",
+      "not": 5627,
+      "pnl": -26064,
+      "maj": false
+    }
+  ]
+}

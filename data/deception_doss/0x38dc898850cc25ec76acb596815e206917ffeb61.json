@@ -1,0 +1,163 @@
+{
+  "address": "0x38dc898850cc25ec76acb596815e206917ffeb61",
+  "patterns": {
+    "C_dormant_burst": 3.501,
+    "D_controlled_loss": 999.842,
+    "H_deliberate_dip": 5.567
+  },
+  "stats": {
+    "n_closes": 6492,
+    "real_all": 368722,
+    "real_maj": 57999,
+    "win_rate": 0.884,
+    "active_days": 305,
+    "wr_big": 0.944,
+    "wr_small": 0.824,
+    "n_big": 3254,
+    "n_small": 3238,
+    "top3_share": 0.258,
+    "size_ratio": 209.9,
+    "med_win_not": 2300,
+    "med_loss_not": 11,
+    "max_gap_d": 117.7,
+    "burst_share": 0.629,
+    "flips": 1,
+    "coins": [
+      "BTC",
+      "ETH",
+      "SOL"
+    ]
+  },
+  "lb_alltime": 399175,
+  "registry_position": null,
+  "registry_quality": null,
+  "labels": null,
+  "timeline": [
+    {
+      "m": "2024-01",
+      "win": 490,
+      "loss": 0,
+      "pnl": 9026,
+      "avg_not": 5127
+    },
+    {
+      "m": "2024-02",
+      "win": 397,
+      "loss": 557,
+      "pnl": 1039,
+      "avg_not": 6347
+    },
+    {
+      "m": "2024-03",
+      "win": 812,
+      "loss": 4,
+      "pnl": 92174,
+      "avg_not": 14031
+    },
+    {
+      "m": "2024-04",
+      "win": 4015,
+      "loss": 188,
+      "pnl": 81930,
+      "avg_not": 7686
+    },
+    {
+      "m": "2024-08",
+      "win": 4,
+      "loss": 2,
+      "pnl": 41,
+      "avg_not": 4381
+    },
+    {
+      "m": "2024-11",
+      "win": 23,
+      "loss": 0,
+      "pnl": 184513,
+      "avg_not": 8022
+    }
+  ],
+  "top_wins": [
+    {
+      "coin": "@107",
+      "dir": "Sell",
+      "date": "2024-11-29",
+      "not": 48171,
+      "pnl": 48171,
+      "maj": false
+    },
+    {
+      "coin": "@107",
+      "dir": "Sell",
+      "date": "2024-11-29",
+      "not": 23844,
+      "pnl": 23844,
+      "maj": false
+    },
+    {
+      "coin": "@107",
+      "dir": "Sell",
+      "date": "2024-11-29",
+      "not": 23048,
+      "pnl": 23048,
+      "maj": false
+    },
+    {
+      "coin": "@107",
+      "dir": "Sell",
+      "date": "2024-11-29",
+      "not": 19703,
+      "pnl": 19703,
+      "maj": false
+    },
+    {
+      "coin": "@107",
+      "dir": "Sell",
+      "date": "2024-11-29",
+      "not": 17459,
+      "pnl": 17459,
+      "maj": false
+    }
+  ],
+  "top_losses": [
+    {
+      "coin": "ETH",
+      "dir": "Close Short",
+      "date": "2024-02-19",
+      "not": 251797,
+      "pnl": -724,
+      "maj": true
+    },
+    {
+      "coin": "BTC",
+      "dir": "Close Long",
+      "date": "2024-02-19",
+      "not": 361311,
+      "pnl": -478,
+      "maj": true
+    },
+    {
+      "coin": "BTC",
+      "dir": "Close Long",
+      "date": "2024-02-19",
+      "not": 361239,
+      "pnl": -478,
+      "maj": true
+    },
+    {
+      "coin": "ETH",
+      "dir": "Close Long",
+      "date": "2024-03-23",
+      "not": 95942,
+      "pnl": -223,
+      "maj": true
+    },
+    {
+      "coin": "SOL",
+      "dir": "Close Short",
+      "date": "2024-04-06",
+      "not": 152965,
+      "pnl": -218,
+      "maj": true
+    }
+  ]
+}

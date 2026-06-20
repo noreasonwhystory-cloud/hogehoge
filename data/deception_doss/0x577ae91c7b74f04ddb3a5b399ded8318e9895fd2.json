@@ -1,0 +1,134 @@
+{
+  "address": "0x577ae91c7b74f04ddb3a5b399ded8318e9895fd2",
+  "patterns": {
+    "C_dormant_burst": 5.77,
+    "H_deliberate_dip": 7.036
+  },
+  "stats": {
+    "n_closes": 13286,
+    "real_all": 10868135,
+    "real_maj": 474481,
+    "win_rate": 0.563,
+    "active_days": 35,
+    "wr_big": 0.588,
+    "wr_small": 0.537,
+    "n_big": 6643,
+    "n_small": 6643,
+    "top3_share": 0.022,
+    "size_ratio": 1.49,
+    "med_win_not": 1493,
+    "med_loss_not": 1000,
+    "max_gap_d": 17.0,
+    "burst_share": 0.82,
+    "flips": 0,
+    "coins": [
+      "ETH"
+    ]
+  },
+  "lb_alltime": 11049646,
+  "registry_position": "高頻度MM",
+  "registry_quality": null,
+  "labels": [
+    "🤓 Smart HL Perps Trader [0x577ae9]"
+  ],
+  "timeline": [
+    {
+      "m": "2026-05",
+      "win": 4519,
+      "loss": 2820,
+      "pnl": 9179813,
+      "avg_not": 6062
+    },
+    {
+      "m": "2026-06",
+      "win": 2959,
+      "loss": 2988,
+      "pnl": 1688322,
+      "avg_not": 9557
+    }
+  ],
+  "top_wins": [
+    {
+      "coin": "xyz:MU",
+      "dir": "Close Long",
+      "date": "2026-05-29",
+      "not": 207035,
+      "pnl": 82458,
+      "maj": false
+    },
+    {
+      "coin": "xyz:MU",
+      "dir": "Close Long",
+      "date": "2026-05-29",
+      "not": 199840,
+      "pnl": 80093,
+      "maj": false
+    },
+    {
+      "coin": "xyz:MU",
+      "dir": "Close Long",
+      "date": "2026-05-29",
+      "not": 200043,
+      "pnl": 79798,
+      "maj": false
+    },
+    {
+      "coin": "xyz:MU",
+      "dir": "Close Long",
+      "date": "2026-05-29",
+      "not": 197027,
+      "pnl": 78266,
+      "maj": false
+    },
+    {
+      "coin": "xyz:MU",
+      "dir": "Close Long",
+      "date": "2026-05-29",
+      "not": 192000,
+      "pnl": 76951,
+      "maj": false
+    }
+  ],
+  "top_losses": [
+    {
+      "coin": "xyz:NVDA",
+      "dir": "Close Long",
+      "date": "2026-06-05",
+      "not": 481459,
+      "pnl": -27444,
+      "maj": false
+    },
+    {
+      "coin": "xyz:LITE",
+      "dir": "Close Long",
+      "date": "2026-05-07",
+      "not": 256972,
+      "pnl": -26511,
+      "maj": false
+    },
+    {
+      "coin": "xyz:NVDA",
+      "dir": "Close Long",
+      "date": "2026-06-05",
+      "not": 422000,
+      "pnl": -25408,
+      "maj": false
+    },
+    {
+      "coin": "xyz:NVDA",
+      "dir": "Close Long",
+      "date": "2026-06-05",
+      "not": 423620,
+      "pnl": -23788,
+      "maj": false
+    },
+    {
+      "coin": "xyz:NVDA",
+      "dir": "Close Long",
+      "date": "2026-06-05",
+      "not": 423980,
+      "pnl": -23428,
+      "maj": false
+    }
+  ]
+}
