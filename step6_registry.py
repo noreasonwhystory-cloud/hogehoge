@@ -220,6 +220,17 @@ def render_html(reg, out="registry.html",
         if roi_at is None:
             roi_at = (e.get("lb_allTime") or {}).get("roi")
         roi_disp = f"{roi_at*100:,.0f}%" if isinstance(roi_at, (int, float)) else "—"
+        # HL公式 通算PnL（leaderboard allTime）。全銘柄＋funding込みの「総額」。majors損益(キャッシュ実現)とは別物。
+        lbat = e.get("lb_alltime")
+        if isinstance(lbat, (int, float)):
+            lb_disp = f"${lbat:,.0f}"
+            mj = cur.get("total_pnl")
+            if isinstance(mj, (int, float)) and lbat != 0:
+                gap = lbat - mj
+                if abs(gap) >= max(50000, abs(lbat) * 0.1):
+                    lb_disp += f"<br><span class='muted'>差${gap:,.0f}<br>(alt/funding等)</span>"
+        else:
+            lb_disp = "—"
         nf = e.get("n_fills_14d")
         if nf is None:
             nf = (e.get("hl_profile") or {}).get("n_fills_recent")
@@ -265,6 +276,7 @@ def render_html(reg, out="registry.html",
   <td>{esc(cur.get('metric_category'))}</td>
   <td>{esc(round(cur.get('win_rate',0) or 0,2))}/{esc(round(cur.get('dir_accuracy',0) or 0,2))}</td>
   <td>{esc(f"${cur.get('total_pnl',0):,.0f}" if cur.get('total_pnl') is not None else '-')}</td>
+  <td class="lbat">{lb_disp}</td>
   <td>{roi_disp}</td>
   <td>{nf_disp}</td>
   <td class="period">{period_disp}</td>
@@ -368,13 +380,14 @@ tr.inact td:first-child{{box-shadow:inset 3px 0 #6b5535}}
 <h1>{esc(title)}</h1>
 <div class="sub">更新: {esc(reg.get('updated_at',''))} ／ 累計実行 {esc(reg.get('run_count'))}回 ／ 表示 {len(wallets)} ウォレット ／
 <a href="index.html" style="color:#4ea1ff">トップ</a> ・ <a href="registry.html" style="color:#4ea1ff">インサイダー疑惑</a> ・ <a href="pros.html" style="color:#4ea1ff">プロ一覧</a></div>
+<div class="sub" style="margin-top:-8px;font-size:11.5px">💡 <b>2つの損益は別物</b>: <b>majors損益</b>＝BTC/ETH/SOL約定のclosedPnl合計（取引のみ・高頻度勢は約定膨大で<u>過小</u>）／ <b>HL公式通算</b>＝HLリーダーボードの通算純損益（全銘柄＋funding込みの<u>総額・最も信頼できる</u>）。差分は alt・spot・funding。majors実力はmajors損益、総稼ぎはHL公式で見る。</div>
 <div class="chips">{chips}</div>
 <div class="filterbar">{filterbar}
   <div style="margin-top:6px"><span id="clearf">✕ フィルタ解除</span><span id="cnt"></span>
   <span class="muted" style="font-size:11px;margin-left:8px">※複数選択はAND（すべて満たす行）</span></div>
 </div>
 <table id="reg">
-<tr><th>位置づけ</th><th>濃度</th><th>アドレス</th><th>数値分類</th><th>勝率/的中</th><th>majors損益</th><th>ROI(全期)</th><th>取引数(14日)</th><th>取引期間(HL履歴)</th><th>保有h</th><th>タグ</th><th>観測</th><th>多角判定 / 履歴(直近)</th></tr>
+<tr><th>位置づけ</th><th>濃度</th><th>アドレス</th><th>数値分類</th><th>勝率/的中</th><th>majors損益<br><span style="font-weight:400;color:#8b949e">実現(取引)</span></th><th>HL公式通算<br><span style="font-weight:400;color:#8b949e">総額(全銘柄+funding)</span></th><th>ROI(全期)</th><th>取引数(14日)</th><th>取引期間(HL履歴)</th><th>保有h</th><th>タグ</th><th>観測</th><th>多角判定 / 履歴(直近)</th></tr>
 {rows}
 </table>
 <script>
