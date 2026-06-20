@@ -1,0 +1,923 @@
+[
+ {
+  "address": "0xdd539d21ad8dca18566086d6b265dc86a82e0caa",
+  "position": "除外/低優先",
+  "cached": true,
+  "win_rate": 0.9878,
+  "majors_realized": 164115,
+  "all_realized": 150180,
+  "cache_last": "2026-06-11",
+  "active14": true,
+  "active_to": "2026-06-11",
+  "trade_days": 51,
+  "wf_quality": null,
+  "wf_copy_worthy": null,
+  "tags": [
+   "HL検証:非該当",
+   "Nansen発見",
+   "取引あり(14d)"
+  ],
+  "labels": [
+   "🤓 Smart HL Perps Trader [0xdd539d]"
+  ],
+  "notes": "【ひとことで】🤓 Nansenが『常勝(Smart Money)』認定したトレーダー。たぶんプロ、未精査。\n【正体】🤓 Smart HL Perps Trader [0xdd539d]（Nansenラベル）\n【成績】通算PnL $150,180・ROI 18%・現在残高 $0\n【補足】残高が小さい＝稼ぎを引き上げ済の可能性（出金）。"
+ },
+ {
+  "address": "0xfd5e31ef58f79ea6e5cd813d0ad1ec66c58c7971",
+  "position": "除外/低優先",
+  "cached": true,
+  "win_rate": 0.987,
+  "majors_realized": 149133,
+  "all_realized": 149103,
+  "cache_last": "2026-02-24",
+  "active14": false,
+  "active_to": "2026-02-24",
+  "trade_days": 21,
+  "wf_quality": null,
+  "wf_copy_worthy": null,
+  "tags": [
+   "HL検証:非該当",
+   "Nansen発見",
+   "取引なし(14d)"
+  ],
+  "labels": [
+   "Former Smart Trader [0xfd5e31]"
+  ],
+  "notes": "【ひとことで】🤓 Nansenが『常勝(Smart Money)』認定したトレーダー。たぶんプロ、未精査。\n【正体】Former Smart Trader [0xfd5e31]（Nansenラベル）\n【成績】通算PnL $149,103・ROI 8,730%・現在残高 $0\n【補足】残高が小さい＝稼ぎを引き上げ済の可能性（出金）。"
+ },
+ {
+  "address": "0xf25bc953a6709cc21d6f6611c9feecb493e77dbe",
+  "position": "除外/低優先",
+  "cached": true,
+  "win_rate": 0.0,
+  "majors_realized": -9818,
+  "all_realized": 745792,
+  "cache_last": "2026-06-13",
+  "active14": false,
+  "active_to": "2026-06-13",
+  "trade_days": 882,
+  "wf_quality": null,
+  "wf_copy_worthy": null,
+  "tags": [
+   "MM/HFT",
+   "Nansen発見",
+   "取引あり(14d)"
+  ],
+  "labels": [
+   "Former Smart Trader [0xf25bc9]"
+  ],
+  "notes": "【ひとことで】🤓 Nansenが『常勝(Smart Money)』認定したトレーダー。たぶんプロ、未精査。\n【正体】Former Smart Trader [0xf25bc9]（Nansenラベル）\n【成績】通算PnL $148,748・ROI 1,162%・現在残高 $0\n【補足】残高が小さい＝稼ぎを引き上げ済の可能性（出金）。"
+ },
+ {
+  "address": "0x0a8f51187b63a59f0f578c946675fe3be473d537",
+  "position": "除外/低優先",
+  "cached": true,
+  "win_rate": 0.0,
+  "majors_realized": -419,
+  "all_realized": 146645,
+  "cache_last": "2026-06-05",
+  "active14": false,
+  "active_to": "2026-06-05",
+  "trade_days": 97,
+  "wf_quality": null,
+  "wf_copy_worthy": null,
+  "tags": [
+   "HL検証:非該当",
+   "Nansen発見",
+   "取引なし(14d)"
+  ],
+  "labels": [
+   "🤓 Smart HL Perps Trader [0x0a8f51]"
+  ],
+  "notes": "【ひとことで】🤓 Nansenが『常勝(Smart Money)』認定したトレーダー。たぶんプロ、未精査。\n【正体】🤓 Smart HL Perps Trader [0x0a8f51]（Nansenラベル）\n【成績】通算PnL $146,648・ROI 727%・現在残高 $0\n【補足】残高が小さい＝稼ぎを引き上げ済の可能性（出金）。"
+ },
+ {
+  "address": "0x55e9992303ab95f824a194793d030b5991709b8d",
+  "position": "除外/低優先",
+  "cached": true,
+  "win_rate": 0.6974,
+  "majors_realized": 157625,
+  "all_realized": 177033,
+  "cache_last": "2026-02-05",
+  "active14": false,
+  "active_to": "2026-02-05",
+  "trade_days": 225,
+  "wf_quality": null,
+  "wf_copy_worthy": null,
+  "tags": [
+   "HL検証:非該当",
+   "Nansen発見",
+   "取引なし(14d)"
+  ],
+  "labels": [
+   "Former Smart Trader [0x55e999]"
+  ],
+  "notes": "【ひとことで】🤓 Nansenが『常勝(Smart Money)』認定したトレーダー。たぶんプロ、未精査。\n【正体】Former Smart Trader [0x55e999]（Nansenラベル）\n【成績】通算PnL $145,607・ROI 71,711%・現在残高 $0\n【補足】残高が小さい＝稼ぎを引き上げ済の可能性（出金）。"
+ },
+ {
+  "address": "0xd383165100047d9b3691eebcbb490f481f6ada2c",
+  "position": "除外/低優先",
+  "cached": true,
+  "win_rate": 1.0,
+  "majors_realized": 145500,
+  "all_realized": 175334,
+  "cache_last": "2026-02-03",
+  "active14": false,
+  "active_to": "2026-02-03",
+  "trade_days": 155,
+  "wf_quality": null,
+  "wf_copy_worthy": null,
+  "tags": [
+   "HL検証:非該当",
+   "Nansen発見",
+   "取引なし(14d)"
+  ],
+  "labels": [
+   "Former Smart Trader [0xd38316]"
+  ],
+  "notes": "【ひとことで】🤓 Nansenが『常勝(Smart Money)』認定したトレーダー。たぶんプロ、未精査。\n【正体】Former Smart Trader [0xd38316]（Nansenラベル）\n【成績】通算PnL $145,500・ROI 957%・現在残高 $0\n【補足】残高が小さい＝稼ぎを引き上げ済の可能性（出金）。"
+ },
+ {
+  "address": "0x984f6a8aa8584dde8f1fa9b240b09f4df3ac25e5",
+  "position": "除外/低優先",
+  "cached": true,
+  "win_rate": 0.7817,
+  "majors_realized": 175695,
+  "all_realized": 186351,
+  "cache_last": "2026-06-14",
+  "active14": true,
+  "active_to": "2026-06-14",
+  "trade_days": 256,
+  "wf_quality": null,
+  "wf_copy_worthy": null,
+  "tags": [
+   "HL検証:非該当",
+   "Nansen発見",
+   "取引あり(14d)"
+  ],
+  "labels": [
+   "🤓 Smart HL Perps Trader [0x984f6a]"
+  ],
+  "notes": "【ひとことで】🤓 Nansenが『常勝(Smart Money)』認定したトレーダー。たぶんプロ、未精査。\n【正体】🤓 Smart HL Perps Trader [0x984f6a]（Nansenラベル）\n【成績】通算PnL $145,113・ROI 2%・現在残高 $20,434\n【補足】残高が小さい＝稼ぎを引き上げ済の可能性（出金）。"
+ },
+ {
+  "address": "0xdc598915480f5168cded700b837e4fdecfc4d3b7",
+  "position": "除外/低優先",
+  "cached": true,
+  "win_rate": null,
+  "majors_realized": 0,
+  "all_realized": 130194,
+  "cache_last": "2026-06-03",
+  "active14": false,
+  "active_to": "2026-06-03",
+  "trade_days": 112,
+  "wf_quality": null,
+  "wf_copy_worthy": null,
+  "tags": [
+   "MM/HFT",
+   "Nansen発見",
+   "取引なし(14d)"
+  ],
+  "labels": [
+   "🤓 Selini Capital [0xdc5989]"
+  ],
+  "notes": "【ひとことで】🏦 著名な機関/ファンド。インサイダーでなくプロの組織。\n【正体】🤓 Selini Capital [0xdc5989]（Nansenラベル）\n【成績】通算PnL $143,469・ROI 33%・現在残高 $0\n【補足】残高が小さい＝稼ぎを引き上げ済の可能性（出金）。"
+ },
+ {
+  "address": "0x67f053dc9f2d8d642615bd870719068a9978662b",
+  "position": "除外/低優先",
+  "cached": true,
+  "win_rate": 1.0,
+  "majors_realized": 129582,
+  "all_realized": 145298,
+  "cache_last": "2026-06-04",
+  "active14": false,
+  "active_to": "2026-06-04",
+  "trade_days": 235,
+  "wf_quality": null,
+  "wf_copy_worthy": null,
+  "tags": [
+   "HL検証:非該当",
+   "Nansen発見",
+   "取引なし(14d)"
+  ],
+  "labels": [
+   "🤓 Smart HL Perps Trader [0x67f053]"
+  ],
+  "notes": "【ひとことで】🤓 Nansenが『常勝(Smart Money)』認定したトレーダー。たぶんプロ、未精査。\n【正体】🤓 Smart HL Perps Trader [0x67f053]（Nansenラベル）\n【成績】通算PnL $142,809・ROI 2,929%・現在残高 $0\n【補足】残高が小さい＝稼ぎを引き上げ済の可能性（出金）。"
+ },
+ {
+  "address": "0xb3b60225e0b7806793bc9379209d93979f686b77",
+  "position": "除外/低優先",
+  "cached": true,
+  "win_rate": null,
+  "majors_realized": 0,
+  "all_realized": 142073,
+  "cache_last": "2026-06-12",
+  "active14": true,
+  "active_to": "2026-06-12",
+  "trade_days": 144,
+  "wf_quality": null,
+  "wf_copy_worthy": null,
+  "tags": [
+   "HL検証:非該当",
+   "Nansen発見",
+   "取引あり(14d)"
+  ],
+  "labels": [
+   "🤓 Smart HL Perps Trader [0xb3b602]"
+  ],
+  "notes": "【ひとことで】🤓 Nansenが『常勝(Smart Money)』認定したトレーダー。たぶんプロ、未精査。\n【正体】🤓 Smart HL Perps Trader [0xb3b602]（Nansenラベル）\n【成績】通算PnL $142,073・ROI 1,932%・現在残高 $0\n【補足】残高が小さい＝稼ぎを引き上げ済の可能性（出金）。"
+ },
+ {
+  "address": "0x43d271c17612f8f431c7533b7827993e203e9e83",
+  "position": "除外/低優先",
+  "cached": true,
+  "win_rate": null,
+  "majors_realized": 0,
+  "all_realized": 121183,
+  "cache_last": "2026-06-15",
+  "active14": true,
+  "active_to": "2026-06-15",
+  "trade_days": 523,
+  "wf_quality": null,
+  "wf_copy_worthy": null,
+  "tags": [
+   "HL検証:非該当",
+   "Nansen発見",
+   "取引あり(14d)"
+  ],
+  "labels": [
+   "🤓 Apollo Capital [0x43d271]"
+  ],
+  "notes": "【ひとことで】🏦 著名な機関/ファンド。インサイダーでなくプロの組織。\n【正体】🤓 Apollo Capital [0x43d271]（Nansenラベル）\n【成績】通算PnL $140,934・ROI 82%・現在残高 $0\n【補足】残高が小さい＝稼ぎを引き上げ済の可能性（出金）。"
+ },
+ {
+  "address": "0x6d15b96f2e0355f4f636635b29b169625964d374",
+  "position": "除外/低優先",
+  "cached": true,
+  "win_rate": null,
+  "majors_realized": 0,
+  "all_realized": 96225,
+  "cache_last": "2026-06-11",
+  "active14": true,
+  "active_to": "2026-06-11",
+  "trade_days": 327,
+  "wf_quality": null,
+  "wf_copy_worthy": null,
+  "tags": [
+   "HL検証:非該当",
+   "Nansen発見",
+   "取引あり(14d)"
+  ],
+  "labels": [
+   "🤓 Smart HL Perps Trader [0x6d15b9]"
+  ],
+  "notes": "【ひとことで】🤓 Nansenが『常勝(Smart Money)』認定したトレーダー。たぶんプロ、未精査。\n【正体】🤓 Smart HL Perps Trader [0x6d15b9]（Nansenラベル）\n【成績】通算PnL $139,715・ROI 2%・現在残高 $0\n【補足】残高が小さい＝稼ぎを引き上げ済の可能性（出金）。"
+ },
+ {
+  "address": "0x8bd30fc805e672e1d978138ecbedcb48479ce275",
+  "position": "除外/低優先",
+  "cached": true,
+  "win_rate": null,
+  "majors_realized": 0,
+  "all_realized": 140465,
+  "cache_last": "2026-06-18",
+  "active14": true,
+  "active_to": "2026-06-18",
+  "trade_days": 7,
+  "wf_quality": null,
+  "wf_copy_worthy": null,
+  "tags": [
+   "HL検証:非該当",
+   "Nansen発見",
+   "取引あり(14d)"
+  ],
+  "labels": [
+   "Former Smart Trader [0x8bd30f]"
+  ],
+  "notes": "【ひとことで】🤓 Nansenが『常勝(Smart Money)』認定したトレーダー。たぶんプロ、未精査。\n【正体】Former Smart Trader [0x8bd30f]（Nansenラベル）\n【成績】通算PnL $138,570・ROI 12%・現在残高 $0\n【補足】残高が小さい＝稼ぎを引き上げ済の可能性（出金）。"
+ },
+ {
+  "address": "0x2c6e17b561a7e01c2e8904590125bf049697bc51",
+  "position": "除外/低優先",
+  "cached": true,
+  "win_rate": null,
+  "majors_realized": 0,
+  "all_realized": 5761,
+  "cache_last": "2026-05-12",
+  "active14": false,
+  "active_to": "2026-05-12",
+  "trade_days": 92,
+  "wf_quality": null,
+  "wf_copy_worthy": null,
+  "tags": [
+   "HL履歴なし",
+   "Nansen発見",
+   "取引なし(14d)"
+  ],
+  "labels": [
+   "🤓 Smart HL Perps Trader [0x2c6e17]"
+  ],
+  "notes": "【ひとことで】🤓 Nansenが『常勝(Smart Money)』認定したトレーダー。たぶんプロ、未精査。\n【正体】🤓 Smart HL Perps Trader [0x2c6e17]（Nansenラベル）\n【成績】通算PnL $137,791・ROI 15%・現在残高 $0\n【補足】残高が小さい＝稼ぎを引き上げ済の可能性（出金）。"
+ },
+ {
+  "address": "0x67870e072059b30eb06530cabebe2a8b50fecb04",
+  "position": "除外/低優先",
+  "cached": true,
+  "win_rate": null,
+  "majors_realized": 0,
+  "all_realized": 128432,
+  "cache_last": "2026-06-09",
+  "active14": true,
+  "active_to": "2026-06-09",
+  "trade_days": 33,
+  "wf_quality": null,
+  "wf_copy_worthy": null,
+  "tags": [
+   "HL履歴なし",
+   "Nansen発見",
+   "取引あり(14d)"
+  ],
+  "labels": [
+   "🤓 Smart HL Perps Trader [0x67870e]"
+  ],
+  "notes": "【ひとことで】🤓 Nansenが『常勝(Smart Money)』認定したトレーダー。たぶんプロ、未精査。\n【正体】🤓 Smart HL Perps Trader [0x67870e]（Nansenラベル）\n【成績】通算PnL $134,893・ROI 196%・現在残高 $0\n【補足】残高が小さい＝稼ぎを引き上げ済の可能性（出金）。"
+ },
+ {
+  "address": "0x689f15b91f1df16794177056982376721da16965",
+  "position": "除外/低優先",
+  "cached": true,
+  "win_rate": 0.5969,
+  "majors_realized": 138133,
+  "all_realized": 134869,
+  "cache_last": "2026-06-19",
+  "active14": true,
+  "active_to": "2026-06-19",
+  "trade_days": 165,
+  "wf_quality": null,
+  "wf_copy_worthy": null,
+  "tags": [
+   "HL検証:非該当",
+   "Nansen発見",
+   "取引あり(14d)"
+  ],
+  "labels": [
+   "🤓 Smart HL Perps Trader [0x689f15]"
+  ],
+  "notes": "【ひとことで】🤓 Nansenが『常勝(Smart Money)』認定したトレーダー。たぶんプロ、未精査。\n【正体】🤓 Smart HL Perps Trader [0x689f15]（Nansenラベル）\n【成績】通算PnL $134,881・ROI 9%・現在残高 $0\n【補足】残高が小さい＝稼ぎを引き上げ済の可能性（出金）。"
+ },
+ {
+  "address": "0xdfee2d4f729723aed67eed4bfb7a998dbb4294c0",
+  "position": "除外/低優先",
+  "cached": true,
+  "win_rate": 0.9524,
+  "majors_realized": 64541,
+  "all_realized": 216845,
+  "cache_last": "2026-06-15",
+  "active14": true,
+  "active_to": "2026-06-15",
+  "trade_days": 300,
+  "wf_quality": null,
+  "wf_copy_worthy": null,
+  "tags": [
+   "HL検証:非該当",
+   "Nansen発見",
+   "取引あり(14d)"
+  ],
+  "labels": [
+   "🤓 Smart HL Perps Trader [0xdfee2d]"
+  ],
+  "notes": "【ひとことで】🤓 Nansenが『常勝(Smart Money)』認定したトレーダー。たぶんプロ、未精査。\n【正体】🤓 Smart HL Perps Trader [0xdfee2d]（Nansenラベル）\n【成績】通算PnL $134,715・ROI 0%・現在残高 $22,131\n【補足】残高が小さい＝稼ぎを引き上げ済の可能性（出金）。"
+ },
+ {
+  "address": "0x1174c19e08d5dbf3444c6376d6583b2d4f91cb65",
+  "position": "除外/低優先",
+  "cached": true,
+  "win_rate": 0.358,
+  "majors_realized": -22646,
+  "all_realized": 133458,
+  "cache_last": "2026-06-19",
+  "active14": false,
+  "active_to": "2026-06-19",
+  "trade_days": 106,
+  "wf_quality": null,
+  "wf_copy_worthy": null,
+  "tags": [
+   "MM/HFT",
+   "Nansen発見",
+   "取引あり(14d)"
+  ],
+  "labels": [
+   "Former Smart Trader [0x1174c1]"
+  ],
+  "notes": "【ひとことで】🤓 Nansenが『常勝(Smart Money)』認定したトレーダー。たぶんプロ、未精査。\n【正体】Former Smart Trader [0x1174c1]（Nansenラベル）\n【成績】通算PnL $132,603・ROI 1%・現在残高 $36,733\n【補足】残高が小さい＝稼ぎを引き上げ済の可能性（出金）。"
+ },
+ {
+  "address": "0xeb47e64c3d12add1a175517619ede29fbc4a9f1d",
+  "position": "除外/低優先",
+  "cached": true,
+  "win_rate": 0.8667,
+  "majors_realized": 225621,
+  "all_realized": 252865,
+  "cache_last": "2026-06-05",
+  "active14": false,
+  "active_to": "2026-06-05",
+  "trade_days": 822,
+  "wf_quality": null,
+  "wf_copy_worthy": null,
+  "tags": [
+   "HL検証:非該当",
+   "Nansen発見",
+   "取引なし(14d)"
+  ],
+  "labels": [
+   "🤓 Smart HL Perps Trader [0xeb47e6]"
+  ],
+  "notes": "【ひとことで】🤓 Nansenが『常勝(Smart Money)』認定したトレーダー。たぶんプロ、未精査。\n【正体】🤓 Smart HL Perps Trader [0xeb47e6]（Nansenラベル）\n【成績】通算PnL $132,350・ROI 109%・現在残高 $19,685\n【補足】残高が小さい＝稼ぎを引き上げ済の可能性（出金）。"
+ },
+ {
+  "address": "0x35c60b52f146d971f2d7ed456c8f3d4893682a92",
+  "position": "除外/低優先",
+  "cached": true,
+  "win_rate": 1.0,
+  "majors_realized": 30281,
+  "all_realized": 113163,
+  "cache_last": "2026-03-12",
+  "active14": false,
+  "active_to": "2026-03-12",
+  "trade_days": 263,
+  "wf_quality": null,
+  "wf_copy_worthy": null,
+  "tags": [
+   "MM/HFT",
+   "Nansen発見",
+   "取引なし(14d)"
+  ],
+  "labels": [
+   "​​Cobo: Former Smart Trader [0x35c60b]"
+  ],
+  "notes": "【ひとことで】🤓 Nansenが『常勝(Smart Money)』認定したトレーダー。たぶんプロ、未精査。\n【正体】​​Cobo: Former Smart Trader [0x35c60b]（Nansenラベル）\n【成績】通算PnL $130,034・ROI 82%・現在残高 $0\n【補足】残高が小さい＝稼ぎを引き上げ済の可能性（出金）。"
+ },
+ {
+  "address": "0xf94b346387ae5f1ae84bf10e36008cb552ca82d5",
+  "position": "除外/低優先",
+  "cached": true,
+  "win_rate": 0.5391,
+  "majors_realized": 76337,
+  "all_realized": 538592,
+  "cache_last": "2026-06-16",
+  "active14": true,
+  "active_to": "2026-06-16",
+  "trade_days": 787,
+  "wf_quality": null,
+  "wf_copy_worthy": null,
+  "tags": [
+   "MM/HFT",
+   "Nansen発見",
+   "取引あり(14d)"
+  ],
+  "labels": [
+   "🤓 Smart HL Perps Trader [0xf94b34]"
+  ],
+  "notes": "【ひとことで】🤓 Nansenが『常勝(Smart Money)』認定したトレーダー。たぶんプロ、未精査。\n【正体】🤓 Smart HL Perps Trader [0xf94b34]（Nansenラベル）\n【成績】通算PnL $128,274・ROI 13%・現在残高 $924\n【補足】残高が小さい＝稼ぎを引き上げ済の可能性（出金）。"
+ },
+ {
+  "address": "0x37c863a6573e1ca327716e69ece305268b160098",
+  "position": "除外/低優先",
+  "cached": true,
+  "win_rate": 0.0,
+  "majors_realized": -39841,
+  "all_realized": 380106,
+  "cache_last": "2026-03-04",
+  "active14": false,
+  "active_to": "2026-03-04",
+  "trade_days": 267,
+  "wf_quality": null,
+  "wf_copy_worthy": null,
+  "tags": [
+   "HL検証:非該当",
+   "Nansen発見",
+   "取引なし(14d)"
+  ],
+  "labels": [
+   "Former Smart Trader [0x37c863]"
+  ],
+  "notes": "【ひとことで】🤓 Nansenが『常勝(Smart Money)』認定したトレーダー。たぶんプロ、未精査。\n【正体】Former Smart Trader [0x37c863]（Nansenラベル）\n【成績】通算PnL $127,407・ROI 72%・現在残高 $0\n【補足】残高が小さい＝稼ぎを引き上げ済の可能性（出金）。"
+ },
+ {
+  "address": "0x3a8b43ed08e1997e27adb7063d97551dabb53f48",
+  "position": "除外/低優先",
+  "cached": true,
+  "win_rate": 0.9658,
+  "majors_realized": 222728,
+  "all_realized": 214968,
+  "cache_last": "2026-02-05",
+  "active14": false,
+  "active_to": "2026-02-05",
+  "trade_days": 324,
+  "wf_quality": null,
+  "wf_copy_worthy": null,
+  "tags": [
+   "HL検証:非該当",
+   "Nansen発見",
+   "取引なし(14d)"
+  ],
+  "labels": [
+   "Former Smart Trader [0x3a8b43]"
+  ],
+  "notes": "【ひとことで】🤓 Nansenが『常勝(Smart Money)』認定したトレーダー。たぶんプロ、未精査。\n【正体】Former Smart Trader [0x3a8b43]（Nansenラベル）\n【成績】通算PnL $121,856・ROI 1,523,204%・現在残高 $0\n【補足】残高が小さい＝稼ぎを引き上げ済の可能性（出金）。"
+ },
+ {
+  "address": "0xa7e5acf5d7e5d50389cec5932e2751b7956f14ae",
+  "position": "除外/低優先",
+  "cached": true,
+  "win_rate": 0.4432,
+  "majors_realized": 303003,
+  "all_realized": 379662,
+  "cache_last": "2026-06-11",
+  "active14": false,
+  "active_to": "2026-06-11",
+  "trade_days": 433,
+  "wf_quality": null,
+  "wf_copy_worthy": null,
+  "tags": [
+   "HL検証:非該当",
+   "Nansen発見",
+   "取引あり(14d)"
+  ],
+  "labels": [
+   "Former Smart Trader [0xa7e5ac]"
+  ],
+  "notes": "【ひとことで】🤓 Nansenが『常勝(Smart Money)』認定したトレーダー。たぶんプロ、未精査。\n【正体】Former Smart Trader [0xa7e5ac]（Nansenラベル）\n【成績】通算PnL $117,462・ROI 13%・現在残高 $0\n【補足】残高が小さい＝稼ぎを引き上げ済の可能性（出金）。"
+ },
+ {
+  "address": "0x449c736640a876685819c021896fe2e905906997",
+  "position": "除外/低優先",
+  "cached": true,
+  "win_rate": 0.5,
+  "majors_realized": 130880,
+  "all_realized": 351335,
+  "cache_last": "2026-06-06",
+  "active14": true,
+  "active_to": "2026-06-06",
+  "trade_days": 825,
+  "wf_quality": null,
+  "wf_copy_worthy": null,
+  "tags": [
+   "HL検証:非該当",
+   "Nansen発見",
+   "取引あり(14d)"
+  ],
+  "labels": [
+   "🤓 Smart HL Perps Trader [0x449c73]"
+  ],
+  "notes": "【ひとことで】🤓 Nansenが『常勝(Smart Money)』認定したトレーダー。たぶんプロ、未精査。\n【正体】🤓 Smart HL Perps Trader [0x449c73]（Nansenラベル）\n【成績】通算PnL $116,870・ROI 1,155%・現在残高 $0\n【補足】残高が小さい＝稼ぎを引き上げ済の可能性（出金）。"
+ },
+ {
+  "address": "0x4221ae35dd1c468fea6fa034ffcd6360100f0eaa",
+  "position": "除外/低優先",
+  "cached": true,
+  "win_rate": 0.8137,
+  "majors_realized": 117128,
+  "all_realized": 118193,
+  "cache_last": "2026-06-18",
+  "active14": true,
+  "active_to": "2026-06-18",
+  "trade_days": 469,
+  "wf_quality": null,
+  "wf_copy_worthy": null,
+  "tags": [
+   "HL履歴なし",
+   "Nansen発見",
+   "取引あり(14d)"
+  ],
+  "labels": [
+   "🤓 Smart HL Perps Trader [0x4221ae]"
+  ],
+  "notes": "【ひとことで】🤓 Nansenが『常勝(Smart Money)』認定したトレーダー。たぶんプロ、未精査。\n【正体】🤓 Smart HL Perps Trader [0x4221ae]（Nansenラベル）\n【成績】通算PnL $115,218・ROI 54%・現在残高 $17,189\n【補足】残高が小さい＝稼ぎを引き上げ済の可能性（出金）。"
+ },
+ {
+  "address": "0x6707013459fa40ab655710bb08690693d539b113",
+  "position": "除外/低優先",
+  "cached": true,
+  "win_rate": 1.0,
+  "majors_realized": 27069,
+  "all_realized": 73973,
+  "cache_last": "2026-04-05",
+  "active14": false,
+  "active_to": "2026-04-05",
+  "trade_days": 81,
+  "wf_quality": null,
+  "wf_copy_worthy": null,
+  "tags": [
+   "MM/HFT",
+   "Nansen発見",
+   "取引なし(14d)"
+  ],
+  "labels": [
+   "🤓 Smart HL Perps Trader [0x670701]"
+  ],
+  "notes": "【ひとことで】🤓 Nansenが『常勝(Smart Money)』認定したトレーダー。たぶんプロ、未精査。\n【正体】🤓 Smart HL Perps Trader [0x670701]（Nansenラベル）\n【成績】通算PnL $111,969・ROI 102%・現在残高 $0\n【補足】残高が小さい＝稼ぎを引き上げ済の可能性（出金）。"
+ },
+ {
+  "address": "0x34c6d41c5f78f7ccdf1b05ef7cb7c868ac5a6b0c",
+  "position": "除外/低優先",
+  "cached": true,
+  "win_rate": 0.4094,
+  "majors_realized": -65993,
+  "all_realized": 398180,
+  "cache_last": "2026-06-18",
+  "active14": false,
+  "active_to": "2026-06-18",
+  "trade_days": 306,
+  "wf_quality": null,
+  "wf_copy_worthy": null,
+  "tags": [
+   "HL検証:非該当",
+   "Nansen発見",
+   "取引あり(14d)"
+  ],
+  "labels": [
+   "🤓 Smart HL Perps Trader [0x34c6d4]"
+  ],
+  "notes": "【ひとことで】🤓 Nansenが『常勝(Smart Money)』認定したトレーダー。たぶんプロ、未精査。\n【正体】🤓 Smart HL Perps Trader [0x34c6d4]（Nansenラベル）\n【成績】通算PnL $111,761・ROI 5%・現在残高 $0\n【補足】残高が小さい＝稼ぎを引き上げ済の可能性（出金）。"
+ },
+ {
+  "address": "0xdc5289909be4f3ce2604806bdd1448fd307f19f5",
+  "position": "除外/低優先",
+  "cached": true,
+  "win_rate": 0.5146,
+  "majors_realized": 155969,
+  "all_realized": 123151,
+  "cache_last": "2026-06-11",
+  "active14": true,
+  "active_to": "2026-06-11",
+  "trade_days": 236,
+  "wf_quality": null,
+  "wf_copy_worthy": null,
+  "tags": [
+   "HL検証:非該当",
+   "Nansen発見",
+   "取引あり(14d)"
+  ],
+  "labels": [
+   "Former Smart Trader [0xdc5289]"
+  ],
+  "notes": "【ひとことで】🤓 Nansenが『常勝(Smart Money)』認定したトレーダー。たぶんプロ、未精査。\n【正体】Former Smart Trader [0xdc5289]（Nansenラベル）\n【成績】通算PnL $110,615・ROI 0%・現在残高 $0\n【補足】残高が小さい＝稼ぎを引き上げ済の可能性（出金）。"
+ },
+ {
+  "address": "0x71f060a388589f2917df5e6b79a1e43baad1b611",
+  "position": "除外/低優先",
+  "cached": true,
+  "win_rate": 0.5556,
+  "majors_realized": -11619,
+  "all_realized": 29095,
+  "cache_last": "2025-06-16",
+  "active14": false,
+  "active_to": "2025-06-16",
+  "trade_days": 153,
+  "wf_quality": null,
+  "wf_copy_worthy": null,
+  "tags": [
+   "MM/HFT",
+   "Nansen発見",
+   "取引なし(14d)"
+  ],
+  "labels": [
+   "Former Smart Trader [0x71f060]"
+  ],
+  "notes": "【ひとことで】🤓 Nansenが『常勝(Smart Money)』認定したトレーダー。たぶんプロ、未精査。\n【正体】Former Smart Trader [0x71f060]（Nansenラベル）\n【成績】通算PnL $109,862・ROI 55%・現在残高 $0\n【補足】残高が小さい＝稼ぎを引き上げ済の可能性（出金）。"
+ },
+ {
+  "address": "0x221284041f07f1e9af30beadbd08bb14f5e5838c",
+  "position": "除外/低優先",
+  "cached": true,
+  "win_rate": 0.5707,
+  "majors_realized": -157339,
+  "all_realized": 208245,
+  "cache_last": "2026-06-18",
+  "active14": false,
+  "active_to": "2026-06-18",
+  "trade_days": 391,
+  "wf_quality": null,
+  "wf_copy_worthy": null,
+  "tags": [
+   "MM/HFT",
+   "Nansen発見",
+   "取引あり(14d)"
+  ],
+  "labels": [
+   "Former Smart Trader [0x221284]"
+  ],
+  "notes": "【ひとことで】🤓 Nansenが『常勝(Smart Money)』認定したトレーダー。たぶんプロ、未精査。\n【正体】Former Smart Trader [0x221284]（Nansenラベル）\n【成績】通算PnL $107,500・ROI 0%・現在残高 $0\n【補足】残高が小さい＝稼ぎを引き上げ済の可能性（出金）。"
+ },
+ {
+  "address": "0xb4eac34db4f9d1270d078495d367cb2e587cf6e8",
+  "position": "除外/低優先",
+  "cached": true,
+  "win_rate": 0.457,
+  "majors_realized": -9386,
+  "all_realized": 294160,
+  "cache_last": "2026-06-10",
+  "active14": false,
+  "active_to": "2026-06-10",
+  "trade_days": 477,
+  "wf_quality": null,
+  "wf_copy_worthy": null,
+  "tags": [
+   "HL検証:非該当",
+   "Nansen発見",
+   "取引あり(14d)"
+  ],
+  "labels": [
+   "🤓 Smart HL Perps Trader [0xb4eac3]"
+  ],
+  "notes": "【ひとことで】🤓 Nansenが『常勝(Smart Money)』認定したトレーダー。たぶんプロ、未精査。\n【正体】🤓 Smart HL Perps Trader [0xb4eac3]（Nansenラベル）\n【成績】通算PnL $106,774・ROI 32%・現在残高 $0\n【補足】残高が小さい＝稼ぎを引き上げ済の可能性（出金）。"
+ },
+ {
+  "address": "0x5d8265f9f86d0b354d24ce76146aa7b6054001f8",
+  "position": "除外/低優先",
+  "cached": true,
+  "win_rate": 0.9989,
+  "majors_realized": 32949,
+  "all_realized": -29717,
+  "cache_last": "2026-06-18",
+  "active14": true,
+  "active_to": "2026-06-18",
+  "trade_days": 68,
+  "wf_quality": null,
+  "wf_copy_worthy": null,
+  "tags": [
+   "HL検証:非該当",
+   "Nansen発見",
+   "取引あり(14d)"
+  ],
+  "labels": [
+   "🤓 Smart HL Perps Trader [0x5d8265]"
+  ],
+  "notes": "【ひとことで】🤓 Nansenが『常勝(Smart Money)』認定したトレーダー。たぶんプロ、未精査。\n【正体】🤓 Smart HL Perps Trader [0x5d8265]（Nansenラベル）\n【成績】通算PnL $106,185・ROI 0%・現在残高 $30,724\n【補足】残高が小さい＝稼ぎを引き上げ済の可能性（出金）。"
+ },
+ {
+  "address": "0x19f5c3bc2e0978d9a1da389d7d4cfe33cd770fe9",
+  "position": "除外/低優先",
+  "cached": true,
+  "win_rate": 1.0,
+  "majors_realized": 70,
+  "all_realized": 118089,
+  "cache_last": "2026-06-16",
+  "active14": false,
+  "active_to": "2026-06-16",
+  "trade_days": 203,
+  "wf_quality": null,
+  "wf_copy_worthy": null,
+  "tags": [
+   "HL履歴なし",
+   "Nansen発見",
+   "取引あり(14d)"
+  ],
+  "labels": [
+   "Former Smart Trader [0x19f5c3]"
+  ],
+  "notes": "【ひとことで】🤓 Nansenが『常勝(Smart Money)』認定したトレーダー。たぶんプロ、未精査。\n【正体】Former Smart Trader [0x19f5c3]（Nansenラベル）\n【成績】通算PnL $106,152・ROI 0%・現在残高 $17,559\n【補足】残高が小さい＝稼ぎを引き上げ済の可能性（出金）。"
+ },
+ {
+  "address": "0x02aa6015d2ba9992b88596d36bad706eeef41806",
+  "position": "除外/低優先",
+  "cached": true,
+  "win_rate": 0.7634,
+  "majors_realized": 72805,
+  "all_realized": 105465,
+  "cache_last": "2026-06-10",
+  "active14": true,
+  "active_to": "2026-06-10",
+  "trade_days": 121,
+  "wf_quality": null,
+  "wf_copy_worthy": null,
+  "tags": [
+   "HL履歴なし",
+   "Nansen発見",
+   "取引あり(14d)"
+  ],
+  "labels": [
+   "Former Smart Trader [0x02aa60]"
+  ],
+  "notes": "【ひとことで】🤓 Nansenが『常勝(Smart Money)』認定したトレーダー。たぶんプロ、未精査。\n【正体】Former Smart Trader [0x02aa60]（Nansenラベル）\n【成績】通算PnL $105,748・ROI 157%・現在残高 $0\n【補足】残高が小さい＝稼ぎを引き上げ済の可能性（出金）。"
+ },
+ {
+  "address": "0x0d8d5b2d87d36b99d28c321ff7a4a6d206a9c2aa",
+  "position": "alt主体プロ",
+  "cached": true,
+  "win_rate": 0.6613,
+  "majors_realized": 219496,
+  "all_realized": 674231,
+  "cache_last": "2026-01-15",
+  "active14": false,
+  "active_to": "2026-01-15",
+  "trade_days": 226,
+  "wf_quality": null,
+  "wf_copy_worthy": null,
+  "tags": [
+   "HL検証済プロ",
+   "Nansen発見",
+   "Tier-C",
+   "取引なし(14d)"
+  ],
+  "labels": [
+   "Former Smart Trader [0x0d8d5b]"
+  ],
+  "notes": "【ひとことで】🟢 多数の取引で安定して稼ぎ、急変直前の先行建玉は検出されず＝実力のプロ（HL行動で確認）。\n【HL実測】実現益$219,496・勝率0.6613・方向的中率0.0・急変先行$0\n【活動期間】2025-06-02〜2025-12-27（majors 954約定）\n【正体(Nansen)】Former Smart Trader [0x0d8d5b]"
+ },
+ {
+  "address": "0x0949d8893c5a82030ad361499377a7d4f30af52a",
+  "position": "除外/低優先",
+  "cached": true,
+  "win_rate": 0.2139,
+  "majors_realized": -205055,
+  "all_realized": -100708,
+  "cache_last": "2026-06-12",
+  "active14": false,
+  "active_to": "2026-06-12",
+  "trade_days": 291,
+  "wf_quality": null,
+  "wf_copy_worthy": null,
+  "tags": [
+   "MM/HFT",
+   "Nansen発見",
+   "取引あり(14d)"
+  ],
+  "labels": [
+   "Former Smart Trader [0x0949d8]"
+  ],
+  "notes": "【ひとことで】🤓 Nansenが『常勝(Smart Money)』認定したトレーダー。たぶんプロ、未精査。\n【正体】Former Smart Trader [0x0949d8]（Nansenラベル）\n【成績】通算PnL $104,683・ROI 896%・現在残高 $0\n【補足】残高が小さい＝稼ぎを引き上げ済の可能性（出金）。"
+ },
+ {
+  "address": "0x3999dfa662fd548950bbcb7d9fabedeba39456e6",
+  "position": "除外/低優先",
+  "cached": true,
+  "win_rate": 0.1429,
+  "majors_realized": -1004,
+  "all_realized": 142668,
+  "cache_last": "2026-06-01",
+  "active14": false,
+  "active_to": "2026-06-01",
+  "trade_days": 468,
+  "wf_quality": null,
+  "wf_copy_worthy": null,
+  "tags": [
+   "HL検証:非該当",
+   "Nansen発見",
+   "取引なし(14d)"
+  ],
+  "labels": [
+   "Former Smart Trader [0x3999df]"
+  ],
+  "notes": "【ひとことで】🤓 Nansenが『常勝(Smart Money)』認定したトレーダー。たぶんプロ、未精査。\n【正体】Former Smart Trader [0x3999df]（Nansenラベル）\n【成績】通算PnL $104,351・ROI 6%・現在残高 $0\n【補足】残高が小さい＝稼ぎを引き上げ済の可能性（出金）。"
+ },
+ {
+  "address": "0x36e6dab460411e402aed071915a21f5c2ff9f223",
+  "position": "除外/低優先",
+  "cached": true,
+  "win_rate": 1.0,
+  "majors_realized": 3193,
+  "all_realized": 125990,
+  "cache_last": "2026-06-18",
+  "active14": false,
+  "active_to": "2026-06-18",
+  "trade_days": 293,
+  "wf_quality": null,
+  "wf_copy_worthy": null,
+  "tags": [
+   "HL検証:非該当",
+   "Nansen発見",
+   "取引あり(14d)"
+  ],
+  "labels": [
+   "🤓 Smart HL Perps Trader [0x36e6da]"
+  ],
+  "notes": "【ひとことで】🤓 Nansenが『常勝(Smart Money)』認定したトレーダー。たぶんプロ、未精査。\n【正体】🤓 Smart HL Perps Trader [0x36e6da]（Nansenラベル）\n【成績】通算PnL $102,502・ROI 56%・現在残高 $2,060\n【補足】残高が小さい＝稼ぎを引き上げ済の可能性（出金）。"
+ },
+ {
+  "address": "0x9d1792626cc8bfb29acc7e5e7a2f706bb6ada290",
+  "position": "除外/低優先",
+  "cached": true,
+  "win_rate": 1.0,
+  "majors_realized": 703,
+  "all_realized": 37344,
+  "cache_last": "2026-06-15",
+  "active14": false,
+  "active_to": "2026-06-15",
+  "trade_days": 152,
+  "wf_quality": null,
+  "wf_copy_worthy": null,
+  "tags": [
+   "HL検証:非該当",
+   "Nansen発見",
+   "取引あり(14d)"
+  ],
+  "labels": [
+   "🤓 Smart HL Perps Trader [0x9d1792]"
+  ],
+  "notes": "【ひとことで】🤓 Nansenが『常勝(Smart Money)』認定したトレーダー。たぶんプロ、未精査。\n【正体】🤓 Smart HL Perps Trader [0x9d1792]（Nansenラベル）\n【成績】通算PnL $101,405・ROI 0%・現在残高 $40,603\n【補足】残高が小さい＝稼ぎを引き上げ済の可能性（出金）。"
+ }
+]

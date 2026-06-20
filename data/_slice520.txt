@@ -1,0 +1,463 @@
+==== idx 520 ====
+addr 0xd7a678fcf72c1b602850ef2f3e2d668ec41fa0ed
+position=プロトレーダー(本物) | cached=True | wf_quality=堅実 | copy_worthy=False
+win_rate=1.0 | majors_realized=4117206 | all_realized=4190469
+active14=False | active_to=2026-01-31 | trade_days=428
+tags=['HL検証済プロ', 'Nansen発見', 'Tier-A', '取引なし(14d)', '質:堅実(WF検証)']
+labels=['"yantngz" on OpenSea']
+notes=【ひとことで】🟢 多数の取引で安定して稼ぎ、急変直前の先行建玉は検出されず＝実力のプロ（HL行動で確認）。
+【HL実測】実現益$4,190,469・勝率1.0・方向的中率0.1269・急変先行$0
+【活動期間】2025-10-06〜2026-01-31（majors 2222約定）
+【正体(Nansen)】"yantngz" on OpenSea [0xd7a678]
+
+==== idx 521 ====
+addr 0xb632c6580173a16154f17cdafc6eb27e95cf73b7
+position=除外/低優先 | cached=True | wf_quality=None | copy_worthy=None
+win_rate=0.4132 | majors_realized=2617274 | all_realized=5495320
+active14=False | active_to=2026-06-06 | trade_days=220
+tags=['HL履歴なし', 'Nansen発見', '取引あり(14d)']
+labels=['HL Perps Majors Trader [0xb632c6]']
+notes=【ひとことで】⚪ HL行動では insider/pro を確定できず（保留）。
+【HL実測】実現益$3,485,763・勝率0.4055・方向的中率0.0・急変先行$0
+【活動期間】2025-10-28〜2026-04-29（majors 13644約定）
+【正体(Nansen)】HL Perps Majors Trader [0xb632c6]
+
+==== idx 522 ====
+addr 0x24eeb5249ce20cfb667e26b463c0ef394588d65f
+position=除外/低優先 | cached=True | wf_quality=None | copy_worthy=None
+win_rate=0.5645 | majors_realized=-262532 | all_realized=3372842
+active14=False | active_to=2026-02-11 | trade_days=436
+tags=['HL履歴なし', 'Nansen発見', '取引なし(14d)']
+labels=['High Balance [0x24eeb5]']
+notes=【ひとことで】⚪ HL行動では insider/pro を確定できず（保留）。
+【HL実測】実現益$3,372,842・勝率0.5645・方向的中率0.0・急変先行$0
+【活動期間】2024-12-03〜2025-02-03（majors 552約定）
+【正体(Nansen)】High Balance [0x24eeb5]
+
+==== idx 523 ====
+addr 0x258886f9a27d38743ab45b8658871a37e2c3f51a
+position=プロトレーダー(本物) | cached=True | wf_quality=履歴薄/評価不能 | copy_worthy=False
+win_rate=0.9911 | majors_realized=3369362 | all_realized=3369362
+active14=False | active_to=2026-02-05 | trade_days=79
+tags=['HL検証済プロ', 'Nansen発見', 'Tier-A', '取引なし(14d)', '質:履歴薄(評価不能)']
+labels=['[0x258886]']
+notes=【ひとことで】🟢 多数の取引で安定して稼ぎ、急変直前の先行建玉は検出されず＝実力のプロ（HL行動で確認）。
+【HL実測】実現益$3,359,608・勝率0.991・方向的中率0.0・急変先行$0
+【活動期間】2025-11-18〜2026-02-05（majors 4623約定）
+【正体(Nansen)】[0x258886]
+
+==== idx 524 ====
+addr 0x41206f8efb51e5039e5b46e04e7866a4849f72d2
+position=プロトレーダー(本物) | cached=True | wf_quality=エリート | copy_worthy=True
+win_rate=0.7003 | majors_realized=8723731 | all_realized=8845459
+active14=False | active_to=2026-02-03 | trade_days=409
+tags=['HL検証済プロ', 'Nansen発見', 'Tier-S', '取引なし(14d)', '質:エリート(WF検証)']
+labels=['High Activity']
+notes=【ひとことで】🟢 多数の取引で安定して稼ぎ、急変直前の先行建玉は検出されず＝実力のプロ（HL行動で確認）。
+【HL実測】実現益$2,154,796・勝率0.7003・方向的中率0.0488・急変先行$0
+【活動期間】2024-12-20〜2026-01-27（majors 22506約定）
+【正体(Nansen)】: Boros Trader [0x41206f]
+
+==== idx 525 ====
+addr 0x6979dde2781dc4ec843641b10b2a2f2e0f4bda62
+position=プロトレーダー(本物) | cached=True | wf_quality=プロ格下げ | copy_worthy=False
+win_rate=0.9876 | majors_realized=1902418 | all_realized=1902418
+active14=False | active_to=2026-05-30 | trade_days=242
+tags=['HL検証済プロ', 'Nansen発見', 'Tier-B', '取引なし(14d)', '質:格下げ相当(MM/窓)']
+labels=['HL Perps Whale [0x6979dd]']
+notes=【ひとことで】🟢 多数の取引で安定して稼ぎ、急変直前の先行建玉は検出されず＝実力のプロ（HL行動で確認）。
+【HL実測】実現益$1,902,418・勝率1.0・方向的中率0.0・急変先行$0
+【活動期間】2025-09-30〜2026-01-20（majors 2000約定）
+【正体(Nansen)】HL Perps Whale [0x6979dd]
+
+==== idx 526 ====
+addr 0xcefd7652228a8619d0af5b95389cd49387cd30e0
+position=alt主体プロ | cached=True | wf_quality=プロ格下げ | copy_worthy=False
+win_rate=0.6196 | majors_realized=-77162 | all_realized=1612233
+active14=False | active_to=2026-06-05 | trade_days=552
+tags=['HL検証済プロ', 'Nansen発見', 'Tier-B', '取引なし(14d)', '質:格下げ相当(alt偏重)']
+labels=['HL Perps Day Trader [0xcefd76]']
+notes=【ひとことで】🟢 多数の取引で安定して稼ぎ、急変直前の先行建玉は検出されず＝実力のプロ（HL行動で確認）。
+【HL実測】実現益$1,612,233・勝率0.6196・方向的中率0.382・急変先行$0
+【活動期間】2025-04-22〜2026-03-18（majors 1616約定）
+【正体(Nansen)】HL Perps Day Trader [0xcefd76]
+
+==== idx 527 ====
+addr 0x3b11267dfc4b9ebe8427e8f557056b4b6ce98112
+position=プロトレーダー(本物) | cached=True | wf_quality=履歴薄/評価不能 | copy_worthy=False
+win_rate=0.9976 | majors_realized=541155 | all_realized=1807649
+active14=True | active_to=2026-06-16 | trade_days=112
+tags=['HL検証済プロ', 'Nansen発見', 'Tier-B', '取引あり(14d)', '質:履歴薄(評価不能)']
+labels=['High Balance']
+notes=【ひとことで】🟢 多数の取引で安定して稼ぎ、急変直前の先行建玉は検出されず＝実力のプロ（HL行動で確認）。
+【HL実測】実現益$1,448,890・勝率0.9973・方向的中率0.8487・急変先行$0
+【活動期間】2026-03-15〜2026-06-10（majors 940約定）
+【正体(Nansen)】🤓 9015.eth* [0x3b1126]
+
+==== idx 528 ====
+addr 0x5638484ba2d2f1d1d35020572b0aa439a9869192
+position=プロトレーダー(本物) | cached=True | wf_quality=堅実 | copy_worthy=False
+win_rate=1.0 | majors_realized=1088295 | all_realized=1224633
+active14=False | active_to=2026-03-26 | trade_days=709
+tags=['HL検証済プロ', 'Nansen発見', 'Tier-B', '取引なし(14d)', '質:堅実(WF検証)']
+labels=['ASTEROID Whale', 'High Activity', 'High Balance', 'stayawayfromridiculouslyprettygirls.eca.eth', 'stayawayfromridiculouslyprettygirls.eca.eth*']
+notes=【ひとことで】🟢 多数の取引で安定して稼ぎ、急変直前の先行建玉は検出されず＝実力のプロ（HL行動で確認）。
+【HL実測】実現益$1,224,633・勝率1.0・方向的中率0.1381・急変先行$0
+【活動期間】2025-10-16〜2026-01-14（majors 3065約定）
+【正体(Nansen)】👤 Dxrant [0x563848]
+
+==== idx 529 ====
+addr 0x4b4bdd734b87bc48683d24f1dc6159e3ab6d6409
+position=プロトレーダー(本物) | cached=True | wf_quality=高頻度MM | copy_worthy=False
+win_rate=0.9406 | majors_realized=919099 | all_realized=1097035
+active14=False | active_to=2026-06-01 | trade_days=124
+tags=['HL検証済プロ', 'Nansen発見', 'Tier-B', '取引なし(14d)', '質:高頻度MM(WF)']
+labels=['HL Perps Whale [0x4b4bdd]']
+notes=【ひとことで】🟢 多数の取引で安定して稼ぎ、急変直前の先行建玉は検出されず＝実力のプロ（HL行動で確認）。
+【HL実測】実現益$1,094,901・勝率1.0・方向的中率0.1287・急変先行$0
+【活動期間】2026-05-22〜2026-05-31（majors 1740約定）
+【正体(Nansen)】HL Perps Whale [0x4b4bdd]
+
+==== idx 530 ====
+addr 0x1e5b1efd99c89d39b59b28a19e6b42bbeb98433b
+position=プロトレーダー(本物) | cached=True | wf_quality=履歴薄/評価不能 | copy_worthy=False
+win_rate=1.0 | majors_realized=1026143 | all_realized=1025999
+active14=False | active_to=2026-01-30 | trade_days=121
+tags=['HL検証済プロ', 'Nansen発見', 'Tier-B', '取引なし(14d)', '質:履歴薄(評価不能)']
+labels=['\u200b\u200bYield Farmer [0x1e5b1e]']
+notes=【ひとことで】🟢 多数の取引で安定して稼ぎ、急変直前の先行建玉は検出されず＝実力のプロ（HL行動で確認）。
+【HL実測】実現益$1,025,999・勝率1.0・方向的中率0.0・急変先行$0
+【活動期間】2025-09-30〜2026-01-30（majors 575約定）
+【正体(Nansen)】​​Yield Farmer [0x1e5b1e]
+
+==== idx 531 ====
+addr 0x7de07bb8a43c1953a019906cf2c8287dae478be9
+position=プロトレーダー(本物) | cached=True | wf_quality=ムラあり | copy_worthy=False
+win_rate=0.6887 | majors_realized=1016225 | all_realized=1016230
+active14=False | active_to=2026-02-03 | trade_days=559
+tags=['HL検証済プロ', 'Nansen発見', 'Tier-B', '取引なし(14d)', '塩漬け:7日以上', '質:ムラあり(WF検証)']
+labels=['Token Millionaire']
+notes=【ひとことで】🟢 多数の取引で安定して稼ぎ、急変直前の先行建玉は検出されず＝実力のプロ（HL行動で確認）。
+【HL実測】実現益$1,016,230・勝率0.6887・方向的中率0.0・急変先行$0
+【活動期間】2024-12-06〜2026-02-03（majors 1455約定）
+【正体(Nansen)】Token Millionaire [0x7de07b]
+
+==== idx 532 ====
+addr 0xc604faf510aa5b617c9fb1556d02d6d22c9644be
+position=プロトレーダー(本物) | cached=True | wf_quality=履歴薄/評価不能 | copy_worthy=False
+win_rate=1.0 | majors_realized=911248 | all_realized=911248
+active14=False | active_to=2026-03-14 | trade_days=225
+tags=['HL検証済プロ', 'Nansen発見', 'Tier-C', '取引なし(14d)', '質:履歴薄(評価不能)']
+labels=['[0xc604fa]']
+notes=【ひとことで】🟢 多数の取引で安定して稼ぎ、急変直前の先行建玉は検出されず＝実力のプロ（HL行動で確認）。
+【HL実測】実現益$911,248・勝率1.0・方向的中率0.0・急変先行$0
+【活動期間】2025-07-31〜2026-03-14（majors 452約定）
+【正体(Nansen)】[0xc604fa]
+
+==== idx 533 ====
+addr 0x7c9063122c01837fe83da2521056e10c9b6dd129
+position=alt主体プロ | cached=True | wf_quality=None | copy_worthy=None
+win_rate=0.0 | majors_realized=-41 | all_realized=823517
+active14=False | active_to=2026-06-15 | trade_days=221
+tags=['Nansen発見', 'Tier-C', '取引あり(14d)', '稼ぎ確認・先行不明(要精査)']
+labels=['Token Millionaire']
+notes=【判定】実力で安定黒字・majors先行なし＝プロ確定
+【HL実測】実現益$745,231・勝率0.7667・majors比0.01・急変先行$0
+【資金源】🤖 Across Protocol: Spoke Pool [0xe35e98] ＝ ブリッジ/サービス(隠蔽)
+【注】alt中心ゆえBTC/ETH/SOLのインサイダー検証は限定的。alt側は未検証。
+
+==== idx 534 ====
+addr 0xae551d73161bac3315c5ade0e2d499a44ebe2236
+position=alt主体プロ | cached=True | wf_quality=None | copy_worthy=None
+win_rate=0.9338 | majors_realized=98108 | all_realized=713720
+active14=True | active_to=2026-06-14 | trade_days=831
+tags=['HL検証済プロ', 'Nansen発見', 'Tier-C', '取引あり(14d)', '塩漬け:7日以上']
+labels=['HL Perps Perma-Bull [0xae551d]']
+notes=【ひとことで】🟢 多数の取引で安定して稼ぎ、急変直前の先行建玉は検出されず＝実力のプロ（HL行動で確認）。
+【HL実測】実現益$713,720・勝率0.9338・方向的中率0.2・急変先行$0
+【活動期間】2024-03-05〜2026-06-14（majors 286約定）
+【正体(Nansen)】HL Perps Perma-Bull [0xae551d]
+
+==== idx 535 ====
+addr 0x0d9654172413fa8bcd2f5738a7b2fa6d19864125
+position=プロトレーダー(本物) | cached=True | wf_quality=履歴薄/評価不能 | copy_worthy=False
+win_rate=1.0 | majors_realized=731926 | all_realized=731926
+active14=False | active_to=2026-02-27 | trade_days=8
+tags=['HL検証済プロ', 'Nansen発見', 'Tier-C', '取引なし(14d)', '質:履歴薄(評価不能)']
+labels=['[0x0d9654]']
+notes=【ひとことで】🟢 多数の取引で安定して稼ぎ、急変直前の先行建玉は検出されず＝実力のプロ（HL行動で確認）。
+【HL実測】実現益$710,350・勝率1.0・方向的中率0.5112・急変先行$0
+【活動期間】2026-02-19〜2026-02-25（majors 8579約定）
+【正体(Nansen)】[0x0d9654]
+
+==== idx 536 ====
+addr 0x9b804150c9a4f6db44ba4fd67704eadb5be360c1
+position=プロトレーダー(本物) | cached=True | wf_quality=履歴薄/評価不能 | copy_worthy=False
+win_rate=1.0 | majors_realized=700722 | all_realized=700722
+active14=False | active_to=2026-03-08 | trade_days=1
+tags=['HL検証済プロ', 'Nansen発見', 'Tier-C', '取引なし(14d)', '質:履歴薄(評価不能)']
+labels=['[0x9b8041]']
+notes=【ひとことで】🟢 多数の取引で安定して稼ぎ、急変直前の先行建玉は検出されず＝実力のプロ（HL行動で確認）。
+【HL実測】実現益$700,722・勝率1.0・方向的中率0.0・急変先行$0
+【活動期間】2026-03-07〜2026-03-08（majors 1109約定）
+【正体(Nansen)】[0x9b8041]
+
+==== idx 537 ====
+addr 0xf3362789cecf25c6a31288d172880d7ad9b81801
+position=プロトレーダー(本物) | cached=True | wf_quality=履歴薄/評価不能 | copy_worthy=False
+win_rate=0.607 | majors_realized=658338 | all_realized=679129
+active14=False | active_to=2026-04-16 | trade_days=99
+tags=['HL検証済プロ', 'Nansen発見', 'Tier-C', '取引なし(14d)', '塩漬け:7日以上', '質:履歴薄(評価不能)']
+labels=[': Boros Trader [0xf33627]']
+notes=【ひとことで】🟢 多数の取引で安定して稼ぎ、急変直前の先行建玉は検出されず＝実力のプロ（HL行動で確認）。
+【HL実測】実現益$679,129・勝率0.607・方向的中率0.5708・急変先行$0
+【活動期間】2026-01-07〜2026-04-16（majors 6601約定）
+【正体(Nansen)】: Boros Trader [0xf33627]
+
+==== idx 538 ====
+addr 0x69b05701f8175c276ecd0138387a197948e240bb
+position=プロトレーダー(本物) | cached=True | wf_quality=エリート | copy_worthy=True
+win_rate=0.5656 | majors_realized=396581 | all_realized=641300
+active14=True | active_to=2026-06-18 | trade_days=378
+tags=['Nansen発見', 'Tier-C', '取引あり(14d)', '稼ぎ確認・先行不明(要精査)', '質:エリート(WF検証)']
+labels=[]
+notes=【判定】実力で安定黒字・majors先行なし＝プロ確定
+【HL実測】実現益$641,300・勝率0.5914・majors比0.45・急変先行$0
+【資金源】[0x7ac157] ＝ 別ウォレット
+
+==== idx 539 ====
+addr 0x5198eff88dea32108605bcdb109a99dc397190d8
+position=プロトレーダー(本物) | cached=True | wf_quality=履歴薄/評価不能 | copy_worthy=False
+win_rate=1.0 | majors_realized=613832 | all_realized=613832
+active14=False | active_to=2026-05-03 | trade_days=142
+tags=['HL検証済プロ', 'Nansen発見', 'Tier-C', '取引なし(14d)', '質:履歴薄(評価不能)']
+labels=['[0x5198ef]']
+notes=【ひとことで】🟢 多数の取引で安定して稼ぎ、急変直前の先行建玉は検出されず＝実力のプロ（HL行動で確認）。
+【HL実測】実現益$613,832・勝率1.0・方向的中率1.0・急変先行$0
+【活動期間】2025-12-12〜2026-05-03（majors 232約定）
+【正体(Nansen)】[0x5198ef]
+
+==== idx 540 ====
+addr 0xa906355beaf1d69a5fe73ce55899c49c6e67916c
+position=除外/低優先 | cached=True | wf_quality=None | copy_worthy=None
+win_rate=0.6912 | majors_realized=-108570 | all_realized=565284
+active14=False | active_to=2025-08-29 | trade_days=33
+tags=['MM/HFT', 'Nansen発見', '取引なし(14d)']
+labels=['HL Perps Day Trader [0xa90635]']
+notes=【ひとことで】⚪ HL行動では insider/pro を確定できず（保留）。
+【HL実測】実現益$565,284・勝率0.4986・方向的中率0.0398・急変先行$0
+【活動期間】2025-07-29〜2026-01-20（majors 3755約定）
+【正体(Nansen)】HL Perps Day Trader [0xa90635]
+
+==== idx 541 ====
+addr 0xdb79fe310ea2972137d2a23658db0234902b517d
+position=プロトレーダー(本物) | cached=True | wf_quality=堅実 | copy_worthy=True
+win_rate=0.733 | majors_realized=402300 | all_realized=551893
+active14=False | active_to=2026-05-08 | trade_days=486
+tags=['HL検証済プロ', 'Nansen発見', 'Tier-C', '取引なし(14d)', '質:堅実(WF検証)']
+labels=['HL Perps Altcoin Trader [0xdb79fe]']
+notes=【ひとことで】🟢 多数の取引で安定して稼ぎ、急変直前の先行建玉は検出されず＝実力のプロ（HL行動で確認）。
+【HL実測】実現益$551,893・勝率0.733・方向的中率0.1298・急変先行$0
+【活動期間】2025-03-14〜2026-05-08（majors 1496約定）
+【正体(Nansen)】HL Perps Altcoin Trader [0xdb79fe]
+
+==== idx 542 ====
+addr 0x8250a7f9fca9c33e68eead8c05c1d58c8fd70d13
+position=除外/低優先 | cached=True | wf_quality=None | copy_worthy=None
+win_rate=0.475 | majors_realized=6353 | all_realized=-41213
+active14=False | active_to=2024-02-01 | trade_days=84
+tags=['Nansen発見', 'Tier-B', '再監査:真の実現赤字', '取引なし(14d)', '稼ぎ確認・先行不明(要精査)']
+labels=[]
+notes=【真の実現損益で再監査(2026-06-19)】キャッシュ約定の実現益合計は全銘柄$-41,213・majors$6,353＝<b>通算赤字</b>。台帳の記録PnLは過大/誤りだった。黒字前提の分類から除外へ降格。
+―――
+【判定】実力で安定黒字・majors先行なし＝プロ確定
+【HL実測】実現益$540,966・勝率0.6422・majors比0.13・急変先行$0
+【資金源】🏦 Bybit:
+
+==== idx 543 ====
+addr 0x3adaa1d2d0598c9b661a746649d20e1e8aad9b3a
+position=プロトレーダー(本物) | cached=True | wf_quality=履歴薄/評価不能 | copy_worthy=False
+win_rate=1.0 | majors_realized=540758 | all_realized=540758
+active14=False | active_to=2026-01-14 | trade_days=54
+tags=['HL検証済プロ', 'Nansen発見', 'Tier-C', '取引なし(14d)', '質:履歴薄(評価不能)']
+labels=['[0x3adaa1]']
+notes=【ひとことで】🟢 多数の取引で安定して稼ぎ、急変直前の先行建玉は検出されず＝実力のプロ（HL行動で確認）。
+【HL実測】実現益$540,758・勝率1.0・方向的中率0.0・急変先行$0
+【活動期間】2025-11-21〜2026-01-14（majors 307約定）
+【正体(Nansen)】[0x3adaa1]
+
+==== idx 544 ====
+addr 0x8a48dcaffdf71c547cd0fd0434ae40fa57bcbf0f
+position=プロトレーダー(本物) | cached=True | wf_quality=堅実 | copy_worthy=False
+win_rate=1.0 | majors_realized=402850 | all_realized=523699
+active14=False | active_to=2026-05-19 | trade_days=482
+tags=['HL検証済プロ', 'Nansen発見', 'Tier-C', '取引なし(14d)', '質:堅実(WF検証)']
+labels=[': Boros Trader [0x8a48dc]']
+notes=【ひとことで】🟢 多数の取引で安定して稼ぎ、急変直前の先行建玉は検出されず＝実力のプロ（HL行動で確認）。
+【HL実測】実現益$523,699・勝率1.0・方向的中率0.2066・急変先行$0
+【活動期間】2025-10-27〜2026-02-18（majors 805約定）
+【正体(Nansen)】: Boros Trader [0x8a48dc]
+
+==== idx 545 ====
+addr 0xbf49647d017805fcc576ac10f33a788e636f4258
+position=除外/低優先 | cached=True | wf_quality=None | copy_worthy=None
+win_rate=0.4996 | majors_realized=-1713912 | all_realized=-2169070
+active14=False | active_to=2026-06-17 | trade_days=563
+tags=['Nansen発見', '取引あり(14d)', '未照会発掘', '遅効シグナルだがmajors赤字']
+labels=[]
+notes=【補正】遅効エッジ(補正72h正)を検出したが、majors実現損益が＄-1,713,912(黒字でない)。建玉後に順方向へ動いても早期利確/反転/清算/alt偏重で利益化できていない＝実力/情報優位でなく偽陽性。除外へ。
+―――
+【未照会層から遅効エッジ発掘(2026-06-18)】台帳に未登録だった層をリーダーボードから抽出し複数地平線で精査。4h方向的中はコイン投げだが補正後リターンが 24
+
+==== idx 546 ====
+addr 0x8bcf7a888c66f635ac4a2caf42a8dd12a3b20b14
+position=除外/低優先 | cached=True | wf_quality=None | copy_worthy=None
+win_rate=0.5507 | majors_realized=-14610 | all_realized=1187178
+active14=False | active_to=2025-12-22 | trade_days=285
+tags=['Nansen発見', '取引なし(14d)', '未照会発掘', '遅効シグナルだがmajors赤字']
+labels=[]
+notes=【補正】遅効エッジ(補正72h正)を検出したが、majors実現損益が＄-14,610(黒字でない)。建玉後に順方向へ動いても早期利確/反転/清算/alt偏重で利益化できていない＝実力/情報優位でなく偽陽性。除外へ。
+―――
+【未照会層から遅効エッジ発掘(2026-06-18)】台帳に未登録だった層をリーダーボードから抽出し複数地平線で精査。4h方向的中はコイン投げだが補正後リターンが 24h+0
+
+==== idx 547 ====
+addr 0x885989fd94d30c150e6eaf897090509bce4f6aa8
+position=除外/低優先 | cached=True | wf_quality=None | copy_worthy=None
+win_rate=0.69 | majors_realized=263157 | all_realized=853466
+active14=False | active_to=2026-06-13 | trade_days=511
+tags=['Nansen発見', 'alt主体(対象外):主銘柄HYPE', '取引あり(14d)', '未照会発掘']
+labels=[]
+notes=【majors先物に焦点を絞り対象外(2026-06-19)】利益の主体がHYPE等のalt/ミームでmajors先物率31%<60%。BTC/ETH/SOL先物のインサイダー探索の対象外として除外へ。
+―――
+【未照会層から遅効エッジ発掘(2026-06-18)】台帳に未登録だった層をリーダーボードから抽出し複数地平線で精査。4h方向的中はコイン投げだが補正後リターンが 24h+0.030/72
+
+==== idx 548 ====
+addr 0x3d643dabed5e1675ffc6a4608d095c11943ef551
+position=除外/低優先 | cached=True | wf_quality=None | copy_worthy=None
+win_rate=0.5091 | majors_realized=7990 | all_realized=325277
+active14=True | active_to=2026-06-18 | trade_days=1078
+tags=['Nansen発見', '取引あり(14d)', '未照会発掘', '遅効シグナルだがmajors赤字']
+labels=[]
+notes=【補正】遅効エッジ(補正72h正)を検出したが、majors実現損益が＄7,990(黒字でない)。建玉後に順方向へ動いても早期利確/反転/清算/alt偏重で利益化できていない＝実力/情報優位でなく偽陽性。除外へ。
+―――
+【未照会層から遅効エッジ発掘(2026-06-18)】台帳に未登録だった層をリーダーボードから抽出し複数地平線で精査。4h方向的中はコイン投げだが補正後リターンが 24h+0.0
+
+==== idx 549 ====
+addr 0x5a7a6b69c6382000fd35711fd28440f415417318
+position=除外/低優先 | cached=True | wf_quality=None | copy_worthy=None
+win_rate=0.3907 | majors_realized=-616388 | all_realized=593954
+active14=False | active_to=2026-06-14 | trade_days=885
+tags=['Nansen発見', '取引あり(14d)', '未照会発掘', '遅効シグナルだがmajors赤字']
+labels=['"p1xel" on OpenSea', 'High Activity', 'ifq.eth*', 'ijb.eth*', 'ijx.eth*', 'ikw.eth*', 'izh.eth*', 'kqe.eth*', 'lgq.eth*', 'lqt.eth*', 'lqu.eth*', 'lrw.eth*', 'nrq.eth*', 'ozb.eth*', 'pqm.eth*', 'pqz.eth*', 'qds.eth*', 'qdw.eth*', 'qge.eth*', 'qhl.eth*', 'qht.eth*', 'qhw.eth*', 'qkv.eth*', 'qrv.eth*', 'dqw.eth*', 'fqo.eth*', 'fqv.eth*', 'fzh.eth*', 'gqo.eth*', 'gvy.eth*', 'gwl.eth*', 'hne.eth*']
+notes=【補正】遅効エッジ(補正72h正)を検出したが、majors実現損益が＄-616,388(黒字でない)。建玉後に順方向へ動いても早期利確/反転/清算/alt偏重で利益化できていない＝実力/情報優位でなく偽陽性。除外へ。
+―――
+【未照会層から遅効エッジ発掘(2026-06-18)】台帳に未登録だった層をリーダーボードから抽出し複数地平線で精査。4h方向的中はコイン投げだが補正後リターンが 24h+
+
+==== idx 550 ====
+addr 0x294fd17c700331aad5cc480400050e1005d2c531
+position=除外/低優先 | cached=True | wf_quality=None | copy_worthy=None
+win_rate=0.4638 | majors_realized=-2628 | all_realized=356124
+active14=False | active_to=2026-03-17 | trade_days=824
+tags=['Nansen発見', '取引なし(14d)', '未照会発掘', '遅効シグナルだがmajors赤字']
+labels=['High Activity']
+notes=【補正】遅効エッジ(補正72h正)を検出したが、majors実現損益が＄-2,628(黒字でない)。建玉後に順方向へ動いても早期利確/反転/清算/alt偏重で利益化できていない＝実力/情報優位でなく偽陽性。除外へ。
+―――
+【未照会層から遅効エッジ発掘(2026-06-18)】台帳に未登録だった層をリーダーボードから抽出し複数地平線で精査。4h方向的中はコイン投げだが補正後リターンが 24h+0.
+
+==== idx 551 ====
+addr 0xccf135ab352d561a15eb7be2a243cc4fcb7f0ab1
+position=弱い疑惑(監視継続) | cached=True | wf_quality=None | copy_worthy=None
+win_rate=0.6858 | majors_realized=1312009 | all_realized=1144661
+active14=False | active_to=2026-06-17 | trade_days=550
+tags=['Nansen発見', '取引あり(14d)', '局所検証済(真の遅効エッジ)', '未照会発掘', '遅効エッジ(24-72h)']
+labels=[]
+notes=【未照会層から遅効エッジ発掘(2026-06-18)】台帳に未登録だった層をリーダーボードから抽出し複数地平線で精査。4h方向的中はコイン投げだが補正後リターンが 24h+0.048/72h+0.093 と市場ドリフト超。9ヶ月・銘柄['ETH', 'BTC']・short率0.83に分散しN=1/regimeでは説明困難。HL実測: 勝率0.6858・実現$1,312,009・537日・口座$1
+
+==== idx 552 ====
+addr 0x5aa6a1d420bf8fa45d141af73e9230e1e8c3dc16
+position=除外/低優先 | cached=True | wf_quality=None | copy_worthy=None
+win_rate=0.1094 | majors_realized=-104489 | all_realized=-169929
+active14=False | active_to=2026-04-14 | trade_days=885
+tags=['Nansen発見', '取引なし(14d)', '未照会発掘', '遅効シグナルだがmajors赤字']
+labels=['"MiddyNFT" on OpenSea', '0xmiddy.eth', 'gigasigma.eth', 'midd.eth*', 'middy.eth']
+notes=【補正】遅効エッジ(補正72h正)を検出したが、majors実現損益が＄-104,489(黒字でない)。建玉後に順方向へ動いても早期利確/反転/清算/alt偏重で利益化できていない＝実力/情報優位でなく偽陽性。除外へ。
+―――
+【未照会層から遅効エッジ発掘(2026-06-18)】台帳に未登録だった層をリーダーボードから抽出し複数地平線で精査。4h方向的中はコイン投げだが補正後リターンが 24h+
+
+==== idx 553 ====
+addr 0x75083975c88cff9f8186551a28608e8a353116bb
+position=除外/低優先 | cached=True | wf_quality=None | copy_worthy=None
+win_rate=0.5495 | majors_realized=-63151 | all_realized=908443
+active14=False | active_to=2025-11-24 | trade_days=564
+tags=['Nansen発見', '取引なし(14d)', '未照会発掘', '遅効シグナルだがmajors赤字']
+labels=['"slim_NFT" on OpenSea', 'farmore.eth', 'farmore.eth*']
+notes=【補正】遅効エッジ(補正72h正)を検出したが、majors実現損益が＄-63,151(黒字でない)。建玉後に順方向へ動いても早期利確/反転/清算/alt偏重で利益化できていない＝実力/情報優位でなく偽陽性。除外へ。
+―――
+【未照会層から遅効エッジ発掘(2026-06-18)】台帳に未登録だった層をリーダーボードから抽出し複数地平線で精査。4h方向的中はコイン投げだが補正後リターンが 24h+0
+
+==== idx 554 ====
+addr 0xda0950da3882ef1ae1e41e99ebe31e6b3324c17f
+position=除外/低優先 | cached=True | wf_quality=None | copy_worthy=None
+win_rate=0.934 | majors_realized=586795 | all_realized=1212478
+active14=False | active_to=2026-06-07 | trade_days=380
+tags=['Nansen発見', 'alt主体(対象外):主銘柄HYPE', '取引あり(14d)', '未照会発掘']
+labels=[]
+notes=【majors先物に焦点を絞り対象外(2026-06-19)】利益の主体がHYPE等のalt/ミームでmajors先物率48%<60%。BTC/ETH/SOL先物のインサイダー探索の対象外として除外へ。
+―――
+【未照会層から遅効エッジ発掘(2026-06-18)】台帳に未登録だった層をリーダーボードから抽出し複数地平線で精査。4h方向的中はコイン投げだが補正後リターンが 24h+0.021/72
+
+==== idx 555 ====
+addr 0x001aba7087f49a135ffb121a40684416824e9c34
+position=除外/低優先 | cached=True | wf_quality=None | copy_worthy=None
+win_rate=0.6731 | majors_realized=5187 | all_realized=-66471
+active14=False | active_to=2026-06-10 | trade_days=887
+tags=['Nansen発見', '取引あり(14d)', '未照会発掘', '遅効シグナルだがmajors赤字']
+labels=['"CowboyCowboyCowboy" on OpenSea', '07-20-1969.eth', '11-22-1963.eth', 'ap3c0in.eth', 'apecointrillionaire.eth', 'bluebeams.eth*', 'cowboycowboycowboy.eth', 'drdrepe.eth', 'l1z4rdk1ng.eth', 'lougreed.eth', 'ogcheesesteak.eth']
+notes=【補正】遅効エッジ(補正72h正)を検出したが、majors実現損益が＄5,187(黒字でない)。建玉後に順方向へ動いても早期利確/反転/清算/alt偏重で利益化できていない＝実力/情報優位でなく偽陽性。除外へ。
+―――
+【未照会層から遅効エッジ発掘(2026-06-18)】台帳に未登録だった層をリーダーボードから抽出し複数地平線で精査。4h方向的中はコイン投げだが補正後リターンが 24h+0.0
+
+==== idx 556 ====
+addr 0x64dd467d1e5c2cf2be87fea20713159dbc12ca76
+position=除外/低優先 | cached=True | wf_quality=None | copy_worthy=None
+win_rate=0.5796 | majors_realized=28292 | all_realized=163862
+active14=False | active_to=2026-06-16 | trade_days=865
+tags=['Nansen発見', '取引あり(14d)', '未照会発掘', '遅効シグナルだがmajors赤字']
+labels=[]
+notes=【補正】遅効エッジ(補正72h正)を検出したが、majors実現損益が＄28,292(黒字でない)。建玉後に順方向へ動いても早期利確/反転/清算/alt偏重で利益化できていない＝実力/情報優位でなく偽陽性。除外へ。
+―――
+【未照会層から遅効エッジ発掘(2026-06-18)】台帳に未登録だった層をリーダーボードから抽出し複数地平線で精査。4h方向的中はコイン投げだが補正後リターンが 24h+0.
+
+==== idx 557 ====
+addr 0x61b35e240c404399b8197468aeaecac51d4f86fe
+position=除外/低優先 | cached=True | wf_quality=None | copy_worthy=None
+win_rate=0.2286 | majors_realized=-82415 | all_realized=352418
+active14=True | active_to=2026-06-17 | trade_days=732
+tags=['Nansen発見', '取引あり(14d)', '未照会発掘', '遅効シグナルだがmajors赤字']
+labels=[]
+notes=【補正】遅効エッジ(補正72h正)を検出したが、majors実現損益が＄-82,415(黒字でない)。建玉後に順方向へ動いても早期利確/反転/清算/alt偏重で利益化できていない＝実力/情報優位でなく偽陽性。除外へ。
+―――
+【未照会層から遅効エッジ発掘(2026-06-18)】台帳に未登録だった層をリーダーボードから抽出し複数地平線で精査。4h方向的中はコイン投げだが補正後リターンが 24h+0
+
+==== idx 558 ====
+addr 0xaf0fdd39e5d92499b0ed9f68693da99c0ec1e92e
+position=除外/低優先 | cached=True | wf_quality=None | copy_worthy=None
+win_rate=0.7136 | majors_realized=1201713 | all_realized=3410084
+active14=False | active_to=2026-03-13 | trade_days=250
+tags=['Nansen発見', 'alt主体(対象外):主銘柄HYPE', '取引なし(14d)', '未照会発掘']
+labels=['High Activity']
+notes=【majors先物に焦点を絞り対象外(2026-06-19)】利益の主体がHYPE等のalt/ミームでmajors先物率35%<60%。BTC/ETH/SOL先物のインサイダー探索の対象外として除外へ。
+―――
+【未照会層から遅効エッジ発掘(2026-06-19)】台帳に未登録だった層をリーダーボードから抽出し複数地平線で精査。4h方向的中はコイン投げだが補正後リターンが 24h+0.012/72
+
+==== idx 559 ====
+addr 0x3fb5da839710949169d716d95800ff6316b3286f
+position=除外/低優先 | cached=True | wf_quality=None | copy_worthy=None
+win_rate=0.4224 | majors_realized=100389 | all_realized=1135844
+active14=False | active_to=2026-06-18 | trade_days=697
+tags=['Nansen発見', 'alt主体(対象外):主銘柄@107', '取引あり(14d)', '未照会発掘']
+labels=[]
+notes=【majors先物に焦点を絞り対象外(2026-06-19)】利益の主体が@107等のalt/ミームでmajors先物率9%<60%。BTC/ETH/SOL先物のインサイダー探索の対象外として除外へ。
+―――
+【未照会層から遅効エッジ発掘(2026-06-19)】台帳に未登録だった層をリーダーボードから抽出し複数地平線で精査。4h方向的中はコイン投げだが補正後リターンが 24h+0.029/72h
+

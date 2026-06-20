@@ -1,0 +1,708 @@
+{
+  "batches": [
+    {
+      "range": "wallets[0:40]",
+      "checked": 40,
+      "anomalies": [
+        {
+          "address": "0xd05808946809c180d190608e13f473db30aa8524",
+          "issue": "position=偽陽性(数値疑惑→否定)という確定的な否定分類なのに、notesは『🤓 Nansenが常勝認定…たぶんプロ、未精査』で『未精査』と明言。否定の根拠(debunk理由)がnotesに一切なく更新漏れ。しかも majors_realized=$472,780・win_rate=0.9965・trade_days=25・active14=true は典型的なインサイダー疑惑プロファイルそのもの。否定根拠ゼロのままこの高勝率・短期・majors大黒字ウォレットを偽陽性に埋めるのは誤分類リスクが極めて高い。",
+          "severity": "高",
+          "recommendation": "position を『弱い疑惑(監視継続)』へ一旦戻すか、最低限notesに偽陽性と断じた検証ログ(なぜシロか)を追記。25日で勝率99.65%・majors$472k黒字は再精査必須。検証できないなら未精査として保留位置へ。"
+        },
+        {
+          "address": "0x72988778525f0ce15c5ac1804ac460606a987d6c",
+          "issue": "position=偽陽性(数値疑惑→否定)の確定否定なのに、notesは『たぶんプロ、未精査』で未精査と矛盾。否定理由がnotesに無く更新漏れ。win_rate=1.0・majors_realized=$485,103・trade_days=325 で、偽陽性と断じる根拠が記録上見当たらない。",
+          "severity": "高",
+          "recommendation": "偽陽性判定の検証ログをnotesに追記するか、根拠が無いなら『弱い疑惑(監視継続)』へ戻す。否定分類とnotesの『未精査』表記の不整合を解消。"
+        },
+        {
+          "address": "0xfe4dec8543b0b9cec0c897a689f7af7bddb02192",
+          "issue": "position=偽陽性(数値疑惑→否定)なのにnotesは『たぶんプロ、未精査』。否定の確定分類と『未精査』表記が矛盾し、debunk理由の記載が無い更新漏れ。majors_realized=-7,973(majors赤字)・all_realized=+292,373で実態はalt寄りだが、偽陽性とする検証記録が欠落。",
+          "severity": "中",
+          "recommendation": "notesに偽陽性根拠を追記。majors赤字・alt黒字の実態を踏まえ、偽陽性ではなく『alt主体プロ』寄りの可能性も再評価。"
+        },
+        {
+          "address": "0x230963164d9637a4c536270a06b4e3636d44a2d9",
+          "issue": "tagsに『取引あり(14d)』が付くが active14=false(active_to=2026-06-07)。14日取引フラグとactive14が矛盾。さらにtagsに『塩漬け:5日』もあり鮮度タグが古い記録のまま残存している疑い。",
+          "severity": "中",
+          "recommendation": "active14=falseに合わせ『取引あり(14d)』→『取引なし(14d)』へタグ修正。塩漬け日数タグもキャッシュ日基準で再計算。"
+        },
+        {
+          "address": "0x5aadb434293b4e1b8fb2e84007e567506fe65a96",
+          "issue": "position=alt主体プロ(質:格下げ相当・wf_quality=プロ格下げ)なのに、notesは『🟢 ちゃんと実力で勝っている本物のプロ』と本物のプロと記載=格下げ判定と矛盾(自動生成noteの更新漏れ)。加えてtagsに『取引あり(14d)』が付くが active14=false(active_to=2026-06-15)。majors_realized=29,684・all_realized=592,289でalt偏重は妥当。",
+          "severity": "中",
+          "recommendation": "notes冒頭の『本物のプロ』をalt偏重で格下げ相当の表現へ更新。『取引あり(14d)』タグをactive14=falseに合わせ『取引なし(14d)』へ修正。"
+        },
+        {
+          "address": "0x8463d6ffcbfb56bf20ab2e1111f9a0e8359533f2",
+          "issue": "position=alt主体プロ・wf_quality=プロ格下げ・tag『質:格下げ相当(alt偏重)』なのに、notes冒頭は『🟢 ちゃんと実力で勝っている本物のプロ』で格下げ判定と矛盾(自動noteの更新漏れ)。majors_realized=-14,406(majors赤字)/all_realized=+372,785はalt主体プロとして数値整合は取れている。",
+          "severity": "低",
+          "recommendation": "notes冒頭の『本物のプロ』表記をalt偏重・majors赤字の実態に合わせて更新(格下げ相当へ)。"
+        },
+        {
+          "address": "0xdd08886cb92c689c7d89c88f048028293296ead1",
+          "issue": "position=プロトレーダー(本物)で wf_quality=ムラあり・wf_copy_worthy=false とWF検証済の確定分類なのに、notesは『🔵 たぶんプロ。まだ詳しく調べていない』で未精査表記=確定本物分類と矛盾(自動noteの更新漏れ)。",
+          "severity": "低",
+          "recommendation": "WF検証済(ムラあり・copy不可)の所見をnotesに反映し、『まだ詳しく調べていない』の旧文言を更新。"
+        }
+      ]
+    },
+    {
+      "range": "wallets[40:80]",
+      "checked": 40,
+      "anomalies": [
+        {
+          "address": "0x2f01afc9f9437c4fcb8f2e8612c57bf522bcc81d",
+          "issue": "位置=除外/低優先 だが majors_realized $313,395・win_rate 95.73%・trade_days 260・all_realized($313,406)≒majors=ほぼ純majorsトレーダー、という『エリート級のmajors実測黒字＋長期実績＋超高勝率』。notesは空で除外の根拠が一切なく、WF:debunked等の否定タグも無い。検査2(位置が真の実現益と不整合:本来プロトレーダー(本物)候補が無根拠で除外)＋検査1(更新漏れ)。",
+          "severity": "高",
+          "recommendation": "位置を『プロトレーダー(本物)』候補へ昇格しWF精査キューに載せる。除外を維持するなら必ず debunk 根拠(先行0件/コインフリップ等)をnotesに記載。空notesのまま巨額黒字を除外する運用を是正。"
+        },
+        {
+          "address": "0x8c96e5a2d770f9f2c9d2464ce4e741df0b2bca57",
+          "issue": "位置=除外/低優先 だが majors_realized $694,388・win_rate 83.9%・trade_days 133、all_realized($698,333)≒majors。高勝率＋大型majors実測黒字なのに notes 空・否定タグ無しで除外。検査2(除外なのに巨額のmajors黒字で本来本物寄り)。",
+          "severity": "高",
+          "recommendation": "プロトレーダー(本物)候補として再精査。除外維持なら debunk 根拠をnotesに明記。51と同じ『高勝率・大型majors黒字を無根拠除外』パターンとして一括見直し。"
+        },
+        {
+          "address": "0xeff7fe671d9a7acf86f48994bc5d5161042415b6",
+          "issue": "位置=プロトレーダー(本物)と断定しているが wf_quality=『履歴薄/評価不能』・タグ『Tier-D』『質:履歴薄(評価不能)』・wf_copy_worthy=false。『本物(確定)』という位置と『評価不能/最下位ティア』という質が矛盾。検査4(wf_qualityと位置の不整合)。",
+          "severity": "中",
+          "recommendation": "位置を『プロトレーダー(本物・暫定)』または『要再精査』に格下げ表記。trade_days 45で履歴薄のため、majors黒字$235kは認めつつ確定断定を避け、履歴蓄積後に再評価する旨をnotesへ追記。"
+        },
+        {
+          "address": "0x99b1098d9d50aa076f78bd26ab22e6abd3710729",
+          "issue": "active14=false だが active_to=cache_last=2026-06-19(最終取引日=キャッシュ日)で論理矛盾。さらにタグに『取引あり(14d)』と『塩漬け:7日以上』が同居し、取引ありフラグと整合しない。検査5(active14とactive_toの矛盾)＋検査3(取引あり/塩漬けタグ衝突)。position=プロトレーダー(本物)の主要監視対象であり影響大。",
+          "severity": "中",
+          "recommendation": "active14を再計算(最終取引日=キャッシュ日なら true)。『塩漬け:7日以上』タグが古い場合は撤去。取引あり(14d)タグとactive14フィールドの生成ロジックを同一基準に統一。"
+        },
+        {
+          "address": "0xfe8c8076596dd917a20a31007ced69ce339129a1",
+          "issue": "active14=false だが active_to=cache_last=2026-06-19(最終取引日=キャッシュ当日)で自己矛盾、かつタグ『取引あり(14d)』とフィールドactive14=false が衝突。majors_realized $108,969 の黒字ウォレットで活性判定が誤れば監視優先度を誤る。検査5＋検査3。",
+          "severity": "中",
+          "recommendation": "active14を true に再計算。タグとactive14の生成基準を統一。majors黒字$109kのため、活性確定後は除外妥当性も再確認。"
+        },
+        {
+          "address": "0x35c0f299a35f927069521e0c3abfb5ee4cbb4c72",
+          "issue": "active14=false だが active_to=cache_last=2026-06-18 で最終取引日=キャッシュ日=直近、論理矛盾。タグ『取引あり(14d)』とactive14=false も衝突。検査5＋検査3。",
+          "severity": "低",
+          "recommendation": "active14を true に再計算。タグとフィールドの整合チェックをバッチで実施。"
+        },
+        {
+          "address": "0x29c792a175627a15c60f5288e55d1cf7d95f2157",
+          "issue": "active14=false だが active_to=cache_last=2026-06-19(最終取引日=キャッシュ当日)で矛盾。タグ『取引あり(14d)』とactive14=false が不整合。検査5＋検査3。",
+          "severity": "低",
+          "recommendation": "active14を true に再計算。タグ生成とactive14生成の基準統一。"
+        },
+        {
+          "address": "0x8e6f0cd563201cae5095795d691cda21d1fbed09",
+          "issue": "active14=false だが active_to=cache_last=2026-06-14(キャッシュ当日が最終取引日)。タグ『取引あり(14d)』とactive14=false が衝突。検査5＋検査3。majors_realized $12 のほぼゼロでall_realized $25k=alt寄りのため除外自体は妥当。",
+          "severity": "低",
+          "recommendation": "active14とタグの整合のみ修正。除外位置は維持で可。"
+        },
+        {
+          "address": "0x3d356173b633d4390ac31dff045c4e20234ebbbd",
+          "issue": "active14=false だが active_to=cache_last=2026-06-15。タグ『取引あり(14d)』とactive14=false が衝突。win_rate=null・majors_realized=0(majors未約定)で除外妥当だが活性フラグが不整合。検査5＋検査3。",
+          "severity": "低",
+          "recommendation": "active14とタグの整合を修正。majors=0のため除外位置は維持。"
+        },
+        {
+          "address": "0x8be0b9c4dbfb90f47fb94e8968dce08d3152326c",
+          "issue": "active14=false だが active_to=cache_last=2026-06-15。タグ『取引あり(14d)』とactive14=false が衝突。検査5＋検査3。majors_realized -$7,255 の赤字で除外妥当。",
+          "severity": "低",
+          "recommendation": "active14とタグの整合のみ修正。除外位置は維持。"
+        },
+        {
+          "address": "0xc6758a779bccee1ef0190dbe8292fdf44076795d",
+          "issue": "active14=false だが active_to=cache_last=2026-06-15(キャッシュ当日が最終取引日)で矛盾、タグ『取引あり(14d)』とactive14=false も衝突。加えて majors_realized $2,166,998・all_realized $3,610,767 という巨額黒字を notes空・否定タグ無しで除外しており、検査2(除外なのに巨額黒字)の更新漏れ疑い。win_rate 47.4%で大型/MM気味だが根拠未記載。",
+          "severity": "中",
+          "recommendation": "active14を再計算。$2.16M majors黒字につき除外の妥当性を再判定し、サイズ/MM等の除外根拠をnotesへ明記するか本物候補へ昇格。"
+        }
+      ]
+    },
+    {
+      "range": "wallets[80:120]",
+      "checked": 40,
+      "anomalies": [
+        {
+          "address": "0x9a377ec81c1bd51d31170bf8d7a7b6c5fbaded9b",
+          "issue": "position=プロトレーダー(本物)・wf_quality=エリート・copy_worthy=true（majors_realized=+292,192で本物分類自体は妥当）だが、notesが『💰🟢稼いで引き上げたが…実力プロが出金しただけ』という除外系の汎用テンプレのまま。さらにHL実測欄が『実現益$52,247・的中0.0・majors1255約定・取引期間2025-01-09〜2025-04-16』とエリート判定の根拠($292k)とも値が食い違い、active14=true(active_to=2026-06-19)なのに取引期間が2025-04で止まっている＝notesの更新漏れ。エリート/copy-worthy最有力なのに所見が『出金しただけ』で全否定しており矛盾。",
+          "severity": "高",
+          "recommendation": "notesをエリート(WF検証)判定の実所見に書き換える。HL実測の実現益をmajors_realized=+292,192/all=506,609と整合させ、的中0.0と取引期間2025-04止まりは再キャッシュで最新化。汎用『出金しただけ』テンプレを除去。"
+        },
+        {
+          "address": "0xf211dd718de25bcad861e53a7b10dd5b3b9d5c6c",
+          "issue": "position=プロトレーダー(本物)なのに wf_quality=プロ格下げ・copy_worthy=false・tags=質:格下げ相当(MM/窓)・Tier-D。win_rate=0.389と低くMM/窓(マーケットメイク的)と評価されており、『本物(コピー価値あり)』という位置と質評価が不整合。majors_realized=+75,580は黒字だが、格下げ相当の質を『本物』位置に置いたままは更新漏れ。",
+          "severity": "中",
+          "recommendation": "位置を『alt主体プロ』ではなくMM/窓系の格下げ実態に合わせ『除外/低優先』へ降格するか、本物を維持するなら質タグ(格下げ相当MM/窓・Tier-D)を見直す。位置と質の一方を訂正して整合させる。"
+        },
+        {
+          "address": "0xb123cd952875d8014efc7a9160a7531a5fe8f5ca",
+          "issue": "position=alt主体プロ(majors_realized=-5568のmajors赤字は分類と整合)だが、notesが『💰🟢稼いで引き上げたが…実力プロが出金しただけ』。直後のHL実測は『実現益$-5,568(赤字)』であり、冒頭の『🟢稼いで引き上げた/実力プロ』という黒字・優良前提の表現が自身の赤字実測と矛盾(汎用テンプレ残り)。",
+          "severity": "低",
+          "recommendation": "notes冒頭の汎用『🟢稼いで引き上げた/実力プロが出金しただけ』を、majors赤字・alt偏重(all=+112,972はalt由来)の実態説明に置換。位置・タグ自体は妥当なので所見文のみ修正。"
+        }
+      ]
+    },
+    {
+      "range": "wallets[120:160] (ファイル絶対index 120〜159、40件)",
+      "checked": 40,
+      "anomalies": [
+        {
+          "address": "0x5b5f798b94f54d33ba316c8b1c837e930c90c052 (idx128)",
+          "issue": "notesと真の実現益が矛盾。notesは『🤓 Nansenが常勝(Smart Money)認定…たぶんプロ』『通算PnL $633,408』と肯定的に書くが、キャッシュ実測は majors_realized=-53,948・all_realized=-76,854・win_rate=0.2279 で全銘柄/majorsとも明確に赤字。同区間の idx122(0x2f04ed)は同じ真の実現赤字に対し『再監査:真の実現赤字』タグ+降格noteを付けて整理済みなのに、本ウォレットはその再監査が未適用で旧Nansenラベルの賛辞noteが残存。位置(除外)は正しいが所見が実測と逆向き=更新漏れ。",
+          "severity": "中",
+          "recommendation": "idx122と同様に『再監査:真の実現赤字』タグを付与し、notes冒頭に『真の実現損益で再監査: majors$-53,948/all$-76,854=通算赤字、Nansen常勝ラベルは旧PnLに基づく過大評価』の降格注記を追記。賛辞のひとこと文は撤去または打消し。"
+        },
+        {
+          "address": "0xbe494a5e3a719a78a45a47ab453b7b0199b9d101 (idx120) / 0xfeec88b13fc0be31695069f02bac18538a154e9c (idx126)",
+          "issue": "位置=プロトレーダー(本物)なのにnotesが除外系テンプレ。両者とも wf_quality=高頻度MM・copy_worthy=false で、ひとこと文が『💰🟢稼いで引き上げたが、多数取引で安定・先行なし＝実力プロが出金しただけ』=idx124(alt主体プロ)やidx122(除外降格前)と同一の“出金しただけ”テンプレ。一方、他の本物ウォレット(idx138/142/154/156)は『🟢多数の取引で安定して稼ぎ…実力のプロ(HL行動で確認)』テンプレ。本物分類なのにnotesは除外寄りの言い回しで、テンプレ適用が位置と不整合。",
+          "severity": "中",
+          "recommendation": "本物継続なら本物用テンプレ(『実力のプロ・HL行動で確認』)へ書き換え。逆にcopy_worthy=false・高頻度MMで“出金しただけ”評価が実態なら、位置をプロ(本物)から格下げ(除外/低優先 or MM枠)へ。位置とnotesテンプレのどちらを正とするか確定し片方に揃える。"
+        },
+        {
+          "address": "0x5d2f4460ac3514ada79f5d9838916e508ab39bb7 (idx136)",
+          "issue": "位置=除外/低優先なのに majors_realized=$42,901,596(cached=true=検証済の真の実現益)・win_rate=0.7287 で、本区間40件中で群を抜く最大の実測majors黒字。にもかかわらずnotesは『たぶんプロ、未精査』のままで、検証済巨額黒字が除外に埋もれている。EXCL_BIGPROFIT群の他(idx138/147/150/153/155/157)は数百万規模だが、本件は4,290万ドルと桁違いで“未精査のまま除外放置”は分類運用上のトリアージ漏れ。",
+          "severity": "中",
+          "recommendation": "除外に留め置かず WF検証(急変先行・kill集中度)の優先キューへ昇格。実測majors黒字が桁外れに大きい点をnotesに明記し、検証完了までは『除外』ではなく『要精査(高優先)』相当のタグへ変更。"
+        }
+      ]
+    },
+    {
+      "range": "wallets[160:200]",
+      "checked": 40,
+      "anomalies": [
+        {
+          "address": "0xbcc7fd5f27cba04dca862b94509133c453dde764",
+          "issue": "タグ撤去漏れ(観点3)。position=除外/低優先・notesは『debunked(確度0.06)・インサイダーではない』と結論済みだが、tagsに『HL先行検出』が残存。WF:debunkedと矛盾するシグナルタグが共存しており、スクリーニング時に誤って先行検出ありの監視対象として拾われる恐れ。",
+          "severity": "中",
+          "recommendation": "『HL先行検出』タグを除去し、debunked結論と整合させる。majors比0.81/急変先行$1,430,714の旧記録はnotesの『従前の記録』節に既に退避済みなのでタグのみクリーンアップで足りる。"
+        },
+        {
+          "address": "0x99b3ba1c1b7ad83d0164d996e3d271ae8c842551",
+          "issue": "位置の根拠薄弱(観点1/4)。position=プロトレーダー(本物)・notes冒頭は『プロ確定』と断定だが、wf_quality=履歴薄/評価不能・trade_days=4・Tier-C・wf_copy_worthy=falseで実質評価不能。さらにnotesのHL実測majors比0.83(majors主体)なのにmajors_realized=183193とall_realized=423145で乖離、notes本文の実現益$933,423とも食い違い。4日・評価不能で『本物確定』は過大。",
+          "severity": "中",
+          "recommendation": "positionを『要精査』相当へ格下げ、またはnotes冒頭の『プロ確定』断定を『履歴薄につき暫定・評価不能』に修正。majors_realized/all_realizedとnotes記載額($933,423)の乖離も再キャッシュで突合。"
+        },
+        {
+          "address": "0x143c28ae5b8642f58c98b8a6f82a0f314d23f6ab",
+          "issue": "notesと数値の軽微な不整合(観点2/5)。alt主体プロでmajors_realized=0は整合だが、notes本文の実現益$923,593とall_realized=994366が約7万ドル乖離。判定自体(alt主体・majors先行なし)は妥当なので分類影響は小。",
+          "severity": "低",
+          "recommendation": "all_realized(994366)とnotes記載($923,593)の差異を再キャッシュで突合し、片方へ統一。分類(alt主体プロ)は維持で可。"
+        }
+      ]
+    },
+    {
+      "range": "wallets[200:240]",
+      "checked": 40,
+      "anomalies": [
+        {
+          "address": "0xb58e1eb8256689e47f589ba6f6a28657d997bf2f",
+          "issue": "position=プロトレーダー(本物) なのに wf_quality=プロ格下げ・タグ『質:格下げ相当(MM/窓)』が付与されており、品質判定が『格下げ相当』(MM/窓ぎわの偶発的勝ち)を示すのに位置だけ『本物』のまま。win_rate=1.0 だが方向的中率0.4768=コイン投げ相当で、notesも『多数の取引で安定して稼ぎ』と肯定的に書いたまま格下げ事実が反映されていない(更新漏れ)。check#4(quality⇔位置)+check#1(notes⇔位置)の矛盾。",
+          "severity": "高",
+          "recommendation": "位置を『プロトレーダー(本物)』→『除外/低優先』もしくは『偽陽性』相当へ格下げ整合させる。notesの『安定して稼ぎ＝実力のプロ』表現を『MM/窓ぎわ・的中率0.48でエッジ薄→格下げ』に書き換え、wf_qualityタグと一致させる。"
+        },
+        {
+          "address": "0xd866a2d14a6dc92bdb1fdeac32c0f8ec322b3605",
+          "issue": "position=プロトレーダー(本物) なのに wf_quality=履歴薄/評価不能・タグ『質:履歴薄(評価不能)』で、trade_days=8・active_to 2026-06-04(取引なし14d)。notes自身が『活動8日と短期』と認めており、評価不能なのに最上位の『本物』認定は過大。check#4(quality『評価不能』⇔位置『本物』)の不整合。",
+          "severity": "中",
+          "recommendation": "位置を『本物』から『要精査/保留』または『除外/低優先』へ落とすか、最低でもTier表記を保留にする。8日・majors比0.32の薄い実績で『本物』断定しない旨をnotesに明記。"
+        },
+        {
+          "address": "0x3a122449de235a40481689442271c0731b805d69",
+          "issue": "position=除外/低優先 だが majors_realized=$1,546,431(キャッシュ実測の巨額黒字)・active14=true(2026-06-16)・取引あり(14d)。それでもnotesは『Nansen常勝認定・たぶんプロ・未精査』の生ボイラープレートのまま。majors先物で150万ドル超の実測黒字かつ現役なのに未精査で除外放置は、監視対象として取りこぼしの恐れ。check#2(除外⇔巨額majors黒字)。",
+          "severity": "中",
+          "recommendation": "majors実測$1.5M黒字+現役を踏まえ『除外/低優先』から『要精査』へ繰り上げ、WF検証(急変先行の有無)を実施。notesの未精査ボイラープレートを実測値ベースに更新。"
+        },
+        {
+          "address": "0x8554501f855388039f2bc86110462adfbbde46dc",
+          "issue": "position=除外/低優先 だが majors_realized=$752,271(majors実測の大黒字)・active14=true(2026-06-18)・取引あり(14d)で現役。notesは生ボイラープレートのまま未精査。majors先物中心の実測大黒字+現役なのに除外低優先のまま放置=check#2(除外⇔majors大黒字)。",
+          "severity": "中",
+          "recommendation": "majors実測$752k黒字+現役を理由に『要精査』へ引き上げ、急変先行チェックを実施。notes更新。"
+        },
+        {
+          "address": "0x60a8c761f39696b3b419f31dcda20b405cb685f6",
+          "issue": "all_realized=-$35,067(赤字)・majors_realized=0・現在残高$117 なのに、notesが『Nansenが常勝(Smart Money)認定…残高が小さい＝稼ぎを引き上げ済の可能性(出金)』と黒字前提の定型文を付けている。実測は赤字で『出金で稼ぎ引き上げ』の解釈と矛盾(check#1のnotes定型文の誤適用)。位置=除外自体は妥当。",
+          "severity": "低",
+          "recommendation": "notesの『稼ぎを引き上げ済(出金)』定型句を削除し、『実測all_realized赤字($-35k)・majors実績なし』へ訂正。赤字ウォレットに黒字前提テンプレを貼らないようガード。"
+        }
+      ]
+    },
+    {
+      "range": "wallets[240:280] (240〜279の40件)",
+      "checked": 40,
+      "anomalies": [
+        {
+          "address": "複数(systemic): 0x9fb1750da6266a05601855bb62767ebc742707b1(240), 0x79399dac99daa4a77d2bcd8ef6f5abf5966468e7(244), 0xbb9f0315243db63fc34c51f96ad5bb7ce6e275e2(248), 0x747932275df815ae819944e57ebb5b3e115ad68b(250), 0x039405fa4636364e6023df1e06b085a462b9cdc9(251), 0x98d0e60828e17d1deba5b3924536909fe1387830(253), 0x807ddb66768050ee457165ad6d21cc1275a896ac(260), 0x4b563051258ade30122940b80f575363baa4445b(261), 0x5049695d6faacffd34f2d24f3f0ff8c64d88f71c(262), 0x8383b9a512f1c0e57cd015b076372b2844859e57(264), 0x9aca58e24ff5845f245e7c2c897fef1bc59b3555(271)",
+          "issue": "タグ『取引あり(14d)』が付いているのに構造化フィールド active14=false（かつ active_to==cache_last で active14 側が正、タグが陳腐化）。11件で一貫して発生。criterion3(タグの矛盾)。例: 240は active_to=2026-06-19/active14=false なのにタグ『取引あり(14d)』。タグだけ見て『直近アクティブ』と誤判定するリスク。",
+          "severity": "中",
+          "recommendation": "active14 を真とみなし、これら11件のタグを『取引なし(14d)』へ一括置換。根本対策としてタグ生成ロジックを active14 フィールドから自動導出するようにし、手動タグの二重管理を廃止。"
+        },
+        {
+          "address": "0x9fb1750da6266a05601855bb62767ebc742707b1 (240)",
+          "issue": "position=除外/低優先 だが majors_realized=564,549（本区間で検証済 majors 実現益が最大級）、win_rate=0.63、trade_days=549、cached=true・cache_last=2026-06-19 と新鮮。にもかかわらず notes は『たぶんプロ、未精査』で WF精査が未実施のまま除外に格納。criterion2(位置×真の実現益の不整合)。巨額の majors 黒字が未精査のまま低優先に埋もれている。",
+          "severity": "高",
+          "recommendation": "除外/低優先から引き上げて WF精査キューへ。majors先行(インサイダー)/MM判定を実測。精査結果が出るまで position は『未精査(要WF)』等の中立ラベルにし、notes も精査ステータスを反映。タグ『MM/HFT』が暫定なら根拠を notes に明記。"
+        },
+        {
+          "address": "0x5049695d6faacffd34f2d24f3f0ff8c64d88f71c (262)",
+          "issue": "position=プロトレーダー(本物) だが wf_quality=『プロ格下げ』・wf_copy_worthy=false・タグ『質:格下げ相当(MM/窓)』。『本物』配置と『格下げ』品質評価が同一行内で矛盾。criterion4(wf_quality×位置の不整合)。majors_realized=332,299 は黒字で実力自体は否定されないが、格下げ=コピー非推奨を『本物』棚に置くと優良トレーダーと誤認される。",
+          "severity": "中",
+          "recommendation": "位置を『プロ(格下げ/MM・窓ぎわ)』等のサブ区分へ移すか、本物棚に残すなら notes 冒頭に『格下げ=コピー非推奨(MM/窓ぎわ挙動)』を明記して 250/260 の堅実プロと区別。wf_copy_worthy=false を位置側にも反映。"
+        },
+        {
+          "address": "0x79399dac99daa4a77d2bcd8ef6f5abf5966468e7 (244)",
+          "issue": "position=alt主体プロ、タグ『HL検証済プロ』『取引あり(14d)』だが notes の活動期間が『2025-02-03〜2025-02-03』(単日)で majors 99約定・win_rate=1.0・方向的中率0.0。単日・的中率0でwin_rate1.0は手仕舞いのみ計上の疑い(サンプル過小)。majors_realized=20,933 と小さく alt主体プロ位置自体は妥当だが、『HL検証済プロ』タグの根拠が単日サンプルで脆弱。criterion3寄り(タグの妥当性)。",
+          "severity": "低",
+          "recommendation": "『HL検証済プロ』タグの根拠が単日99約定である旨を notes に明記するか、サンプル不足として『要再検証(単日)』タグに格下げ。active14=false なのでタグ『取引あり(14d)』も上記systemic修正で除去。"
+        }
+      ]
+    },
+    {
+      "range": "wallets[280:320]",
+      "checked": 40,
+      "anomalies": [
+        {
+          "address": "0x2322f8e13d25e1c997b060bc5cebc9634f8a895a / 0x3e6805e8694bb2b717a828c1bfa32df5d6580cc9 / 0xf2500dbc34617daf22b5186a1bfb9f5f3a33ae13 / 0x7ab80d2c05e5ed068454f4a7553047c8d0ff8136 / 0x6788e111b25a244e7168847fe19bb1456a8398d4 / 0x549e6dd8453ed87fccdcf4f8b37162b10edc0533 / 0x0aac6955688dc1cd3cafd52ebcade334fb1c9c3b / 0x14246f4bbafb87ccebac17609054c6a188ed8cfd / 0x01b7e73cdad95d407e8696e04194a75f19744801 / 0xf5e7ffe523d0491709958490b4877e1d9de6c6f7 / 0x987163b6b482c30c2f5f3aa2760109668eb0091d (idx 285,291,293,294,295,300,308,311,312,318,319)",
+          "issue": "active14=false なのに タグ『取引あり(14d)』が付いており矛盾(基準5/3)。さらに active_to はいずれも今日2026-06-20から gap 2〜11日=14日以内で、active14=false 自体が active_to と内部矛盾している。active_to が新しい以上、本来 active14=true であるべき。区間で11件に共通する系統的なフラグ陳腐化バグ(active14がcache_last時点で固定され再計算されていない疑い)。",
+          "severity": "中",
+          "recommendation": "active14 を active_to から再計算するロジックに修正(active_to が基準日-14日以内なら true)。修正後、true になる行はタグ『取引あり(14d)』のまま整合。逆に active_to が古い行は『取引なし(14d)』へ統一。区間一括の再生成を推奨。"
+        },
+        {
+          "address": "0x24a44aef48aeb27c7708dabfccda14b41fbf0ae1 (idx 282)",
+          "issue": "win_rate フィールド=0.9432 だが notes の【HL実測】勝率=0.9432 …は一致するが、本文『勝率0.9432』とフィールドは一致する一方、notes『方向的中率』表記なし。問題は (a) position=alt主体プロ なのに タグに『HL検証済プロ』(本物相当タグ)が混在、(b) majors_realized=-16,053(majors赤字)で alt主体プロ自体は妥当だが、notes が『実力のプロ＝majors先行検出されず』と majors を肯定的に締めており、alt主体(majors未検証)という位置づけと notes の力点がややズレる。タグ『HL検証済プロ』は alt主体プロ位置と不整合(基準3)。",
+          "severity": "中",
+          "recommendation": "alt主体プロに整合させるならタグ『HL検証済プロ』を外し『質:格下げ相当(alt偏重)』等へ寄せる。または majors検証が十分で本物相当ならpositionをプロトレーダー(本物)へ昇格。どちらか一方に統一。"
+        },
+        {
+          "address": "0x3e6805e8694bb2b717a828c1bfa32df5d6580cc9 (idx 291)",
+          "issue": "win_rate フィールド=0.5766 だが notes【HL実測】は『勝率0.7432』と記載され不一致(基準5)。また notes 実現益$591,463 は all_realized であり majors_realized=7,487 とは別物だが本文が majors先行判定の文脈で all を引用しているため誤読を招く。wf_quality=プロ格下げ / copy_worthy=false で position=alt主体プロ は整合。",
+          "severity": "中",
+          "recommendation": "notes の勝率を実測フィールド値(0.5766)に合わせて更新するか、フィールド側をHL実測値に更新して一本化。実現益の表記を majors と all で明示分離。"
+        },
+        {
+          "address": "0x7ee069137842a195d06b533d714ba507290a3956 (idx 310)",
+          "issue": "position=プロトレーダー(本物)・Tier-A だが、wf_quality=プロ格下げ かつ タグ『質:格下げ相当(MM/窓)』・wf_copy_worthy=false で、品質判定と位置が不整合(基準4)。また win_rate フィールド=1.0 に対し notes【HL実測】勝率=0.9391 で不一致(基準5)。notes 末尾『alt中心ゆえmajors検証は限定的』は majors_realized=149,923(majors黒字)・本物位置づけと論調がズレる(基準1)。",
+          "severity": "中",
+          "recommendation": "格下げ(MM/窓)が確定なら position を本物から格下げ系へ降格、または格下げ根拠が誤りなら品質タグ/wf_qualityを撤去して本物Tier-Aに統一。win_rateフィールドをHL実測0.9391へ補正。notes末尾のalt限定文を majors黒字の実態に合わせ修正。"
+        },
+        {
+          "address": "0x01b7e73cdad95d407e8696e04194a75f19744801 (idx 312)",
+          "issue": "position=プロトレーダー(本物)で wf_quality=プロ格下げ・copy_worthy=false・タグ『質:格下げ相当(MM/窓)』が併存(基準4)。加えて notes【活動期間】が2025-05-23〜2025-06-22 と1年前で終わっており、cache_last/active_to=2026-06-10 と乖離=notes活動期間が陳腐化(基準1/5)。タグ『取引あり(14d)』だが active14=false(上記系統バグに含む)。",
+          "severity": "中",
+          "recommendation": "本物のまま残すなら格下げ系タグ/wf_qualityの整合(注記併記)を明確化。notes の活動期間を最新の約定日レンジへ更新(2025年表記は誤り/古い)。"
+        },
+        {
+          "address": "0x077a25d1f579574fe168bbaa924e40c9bfa57ccc (idx 314)",
+          "issue": "majors_realized=505,526(区間最大級のmajors黒字)・win_rate0.7054・active_to=2026-06-09 と優良指標だが position=除外/低優先 のまま、notes も定型『未精査』(基準2)。巨額majors黒字を除外に置いたままで精査昇格漏れの疑い。",
+          "severity": "中",
+          "recommendation": "HL実測のmajors先行/急変先行を精査し、先行なしならプロトレーダー(本物)候補、先行ありなら疑惑系へ昇格。少なくとも『要精査』へ格上げし定型未精査notesを更新。"
+        },
+        {
+          "address": "0xf5e7ffe523d0491709958490b4877e1d9de6c6f7 (idx 318) / 0xc7e85b25f71a1cf9872c4c74efb6a79c814c72f1 (idx 307) / 0x2290661dd55d8698599f63ea0f9e46b52e1f80d2 (idx 306) / 0xb3b60a1fd4d8241bfd7b285c3560d75135350582 (idx 286)",
+          "issue": "majors_realized が大幅黒字(251,208 / 282,691 / 316,460 / 318,923)で勝率も高い(0.57〜0.95)にもかかわらず position=除外/低優先、notes は全件同一の定型『未精査・出金疑い』テンプレ(基準2/1)。majors黒字の高勝率群を一律除外テンプレで放置=トリアージ漏れの可能性。",
+          "severity": "低",
+          "recommendation": "majors黒字×高勝率の閾値で抽出し、HL先行検証で本物/疑惑へ振り分けるバッチ精査を実施。定型notesのまま除外固定にしない。"
+        },
+        {
+          "address": "0xb190075e8027cc2df5d3b7749e4548fa8e56fa18 (idx 304)",
+          "issue": "all_realized=8,765,102(区間突出の870万ドル)だが majors_realized=0、position=除外/低優先・定型未精査notes(基準2)。majors=0なので majors監視台帳としては除外は妥当だが、桁外れのalt実現益が定型テンプレで埋もれており、alt主体プロ等への分類検討の痕跡がない。",
+          "severity": "低",
+          "recommendation": "majors=0確認のうえ、alt主体プロ候補として別枠記録するか、majors台帳のスコープ外として明示的に『alt専業・majors対象外』とnotesへ記載(定型未精査のままにしない)。"
+        },
+        {
+          "address": "0xbd1ea540f5192d75af91a1c94f473cc24da662d5 (idx 296)",
+          "issue": "majors_realized=-164,641・all_realized=-105,547(majors/all とも赤字)・win_rate0.4198 で実損トレーダーだが、notes は定型『常勝(Smart Money)認定・たぶんプロ』のまま(基準1)。Nansenラベル由来の定型文と実測赤字が矛盾。同様に idx288(majors-167,622)・idx301(majors-93,082,win0.0)・idx280(all-239,256)も実測赤字に定型『常勝/たぶんプロ』。",
+          "severity": "低",
+          "recommendation": "cached実測が明確赤字の行は定型『常勝/たぶんプロ』文を外し、『Nansen過去ラベルだが実測は赤字=現状非該当』へnotes更新。position=除外は維持で可。"
+        }
+      ]
+    },
+    {
+      "range": "wallets[320:360] (indices 320-359, 40件)",
+      "checked": 40,
+      "anomalies": [
+        {
+          "address": "0x7cc0b0049faddc405da8494ac67737975c757480",
+          "issue": "重大な内部矛盾。notesは『【判定】実力で安定黒字・majors先行なし＝プロ確定』『【HL実測】実現益$562,804・勝率0.8967』とエリート級の確定判定を書くが、キャッシュ実測は majors_realized=0 / all_realized=39,489 / win_rate=null / trade_days=0 と完全に乖離。さらに wf_quality='プロ格下げ' かつタグ '質:格下げ相当(alt偏重)' '稼ぎ確認・先行不明(要精査)' なのに、notesは『プロ確定』(精査済の断定)で更新漏れ。cache_last=2025-11-15で約7ヶ月stale。位置 alt主体プロ と notes本文(majorsプロ確定)も整合しない。",
+          "severity": "高",
+          "recommendation": "notesを実測値に再生成し『プロ確定』断定を撤回。$562,804の出所(別データ源/旧計測)を検証しall_realized=39,489と突き合わせ。trade_days=0/win_rate=nullなら『検証不能・要再キャッシュ』としwf_quality判定も保留。notes冒頭を wf_quality='プロ格下げ'・タグ'要精査'と整合する『先行不明・格下げ』表現に修正。"
+        },
+        {
+          "address": "0x203f4c410f3c35cead9f35b6de2f66e773d7f26e",
+          "issue": "タグ矛盾と位置/notes不整合。active14=false かつタグに '取引なし(14d)' が無く '取引あり(14d)' と '塩漬け:7日以上' が併存(active_to=2026-06-12)。また position=alt主体プロ だが notes本文は『🟢 …実力のプロ（HL行動で確認）』『majors 838約定』とmajors中心の本物プロ文面で、altプロの位置付けと文面トーンが噛み合わない。majors_realized=-27051(赤字)はalt主体プロとしては整合だが、notesの『安定して稼ぎ』はmajors実測赤字と矛盾気味。",
+          "severity": "中",
+          "recommendation": "タグの '取引あり(14d)' を active14=false に合わせ '取引なし(14d)' へ修正(または active14再計算)。notesに『majorsは小幅赤字、稼ぎはalt側』である旨を明記し、alt主体プロの位置と文面を一致させる。'塩漬け:7日以上' の根拠を確認。"
+        },
+        {
+          "address": "0x8b04b421a9e80a26c4f411a92f17cd3d39798bd5 ほか系統的(0x6abc11,0xdcf8a8,0x61f2bb,0x7cbe85,0x1750dd,0x64f4e1,0x80bcb0,0x2b8cd2,0xbb9775,0xb56a8e)",
+          "issue": "タグ '取引あり(14d)' と active14=false が広範に矛盾(本区間で12件)。active_to が cache_last と同じ日付なのに14日活動フラグがfalse=タグ生成時点とactive14算出基準日のズレ(キャッシュ更新ラグ)による不整合。投資判断への影響は除外/低優先群が大半で限定的だが、台帳の鮮度フィルタ(active14)が信用できなくなる。",
+          "severity": "中",
+          "recommendation": "active14 を cache_last 基準で一括再計算するか、タグ '取引あり/なし(14d)' を active14 から自動生成して二重管理を廃止。少なくとも両者の算出基準日を統一し、本区間12件のタグを実態に合わせて再付与。"
+        }
+      ]
+    },
+    {
+      "range": "wallets[360:400]",
+      "checked": 40,
+      "anomalies": [
+        {
+          "address": "0xd74916aecd93ca55deb392dfad4c3ae43951ea49",
+          "issue": "notes が『🏦 著名な機関/ファンド。インサイダーでなくプロの組織』『通算PnL $154,716』とプロの本物ファンドとして肯定的に記述。しかしキャッシュ実測は majors_realized=-332,222・all_realized=-308,171 と majors先物・通算とも大赤字。位置は除外/低優先。notesのトーン(本物プロ/ファンド)と実測の大赤字、および除外という位置が三者で不整合。majors大赤字なら『本物プロ』の根拠が崩れ、notesの通算プラスPnL($154k)も実測のマイナスと矛盾。",
+          "severity": "中",
+          "recommendation": "notesを実測ベースに更新: majors先物では-33万ドルの大赤字でmajors監視対象として除外が妥当である旨を明記。Nansenラベルの『Funded/ファンド』と通算PnLは外部参照値である旨を注記し、majors実測赤字と区別。位置=除外/低優先は維持で可だが理由をmajors赤字に書き換え。"
+        },
+        {
+          "address": "0x66f463866512fc337c89bad2032acbe38ee38836",
+          "issue": "notes が『🤓 Nansenが常勝(Smart Money)認定…たぶんプロ』『通算PnL $174,972』と肯定的・常勝。しかしキャッシュ実測は majors_realized=-1,872,331・all_realized=-2,229,542 と majors・通算とも約-187万/-223万ドルの壊滅的赤字。常勝という記述が実測と真逆。tags に MM/HFT。位置=除外/低優先は結果的に妥当だが、notesが実測の巨額損失を全く反映していない更新漏れ。",
+          "severity": "中",
+          "recommendation": "notesの『常勝/たぶんプロ』表現を削除し、実測で約-187万ドル(majors)の大幅赤字=Nansenラベルと実損益が乖離している旨に更新。通算PnL表示はNansen由来の外部値と注記。除外/低優先は維持。"
+        },
+        {
+          "address": "0x02e4cc8575e3b493f04e924e2c775009b22f5955",
+          "issue": "majors_realized=-503,434(majors先物は約-50万ドルの大赤字)に対し all_realized=+1,433,384(通算は約+143万ドルの大黒字)。利益はalt由来でmajorsは大幅赤字という典型的なalt主体プロのプロファイル。しかし位置=除外/低優先で、notesも汎用『常勝・未精査』のままこの非対称(majors赤/alt黒)を捉えていない。alt主体プロへの分類検討漏れの可能性。",
+          "severity": "低",
+          "recommendation": "majors赤字・alt大黒字の非対称をnotesに明記。majors監視台帳としては除外/低優先で妥当だが、alt主体プロのタグ付け要否を一度検討し、notesに『利益はalt由来・majorsは赤字』と追記。"
+        },
+        {
+          "address": "0x3e1992da09489b64c35685ba407bbd9b110565e0",
+          "issue": "notes記載の ROI が 125,174% と非現実的な異常値。win_rate=0.8319・majors_realized=+157,454と数字自体は整合的だが、ROI表示が桁外れで値の信頼性に疑義。データ取得/分母(投下証拠金)の異常を示唆。",
+          "severity": "低",
+          "recommendation": "ROI算出の分母(初期残高/証拠金)を再確認し、125,174%表示が計算バグかを検証。異常ならnotesのROI行を訂正または非表示に。位置・損益分類への影響はないため低優先。"
+        },
+        {
+          "address": "0x093f2e026bf3d52f5ba02306976255782ffbf712",
+          "issue": "notes補足が『残高が小さい＝稼ぎを引き上げ済の可能性(出金)』とあるが、本文の現在残高は $13,602 と小さくない。テンプレート由来の機械的補足が実残高と矛盾(同様の不整合は0xc28e23=$8,729、0xae58db=$19,548でも発生)。",
+          "severity": "低",
+          "recommendation": "残高が一定額以上(例: >$5,000)の場合は『出金済の可能性』補足を自動的に抑止するようnotes生成テンプレートを条件分岐。該当3件のnotesを実残高表示に合わせて訂正。"
+        }
+      ]
+    },
+    {
+      "range": "wallets[400:440]",
+      "checked": 40,
+      "anomalies": [
+        {
+          "address": "0xdc598915480f5168cded700b837e4fdecfc4d3b7",
+          "issue": "notes(所見)と位置が矛盾。notesは『🏦 著名な機関/ファンド。インサイダーでなくプロの組織』(Selini Capital=実在の著名マーケットメイク機関)と明言しているのに、position=除外/低優先で wf_quality=null・未精査扱い。majors_realized=0/all_realized=$130,194 でalt主体の挙動。本来『alt主体プロ』相当で、除外/低優先のままでは台帳上プロ機関が埋もれる。",
+          "severity": "中",
+          "recommendation": "position を『alt主体プロ』へ更新(majors_realized=0=majorsエッジ無しのため本物プロ枠ではなくalt主体)。タグに『HL検証済プロ/機関』を付与し、notesの『未精査』ニュアンスを実態(著名機関と判明済)に合わせて修正。"
+        },
+        {
+          "address": "0x43d271c17612f8f431c7533b7827993e203e9e83",
+          "issue": "notesと位置が矛盾。notesは『🏦 著名な機関/ファンド。インサイダーでなくプロの組織』(Apollo Capital)と断定しているのに position=除外/低優先・wf_quality=null。majors_realized=0/all_realized=$121,183 のalt主体プロ挙動。機関と判明済なのに低優先のまま更新漏れ。",
+          "severity": "中",
+          "recommendation": "position を『alt主体プロ』へ。majors_realized=0なので majors本物枠ではない点を明記。著名機関ラベルに合わせ notes の『未精査』表現を除去し『機関と確認済』へ更新。"
+        },
+        {
+          "address": "0x0d8d5b2d87d36b99d28c321ff7a4a6d206a9c2aa",
+          "issue": "位置が真の実現益と不整合の疑い。position=alt主体プロ かつ tags『HL検証済プロ/Tier-C』だが、majors_realized=$219,496 とmajorsで大黒字(all_realized $674,231のうち約3分の1がmajors)。notesも『多数の取引で安定して稼ぐ実力のプロ(HL行動で確認)・majors 954約定』とmajors実績を裏付け。majorsで20万ドル超の安定黒字なら『プロトレーダー(本物)』に格上げ検討すべき水準で、alt主体プロ枠は過小評価。",
+          "severity": "中",
+          "recommendation": "majors_realized $219,496・majors 954約定・勝率0.6613を踏まえ『プロトレーダー(本物)』への昇格を再評価。alt主体プロのままにするなら、majorsが本物水準である根拠/留保(方向的中率0.0等)をnotesに明示して整合を取る。"
+        },
+        {
+          "address": "0x5d8265f9f86d0b354d24ce76146aa7b6054001f8",
+          "issue": "値の異常。win_rate=0.9989(99.89%)と異常な高勝率なのに all_realized=-$29,717(通算実現益マイナス)。majors_realized=+$32,949はプラスだが全体は赤字で、勝率と実現益の符号が乖離。MM/HFT的な多数小勝・少数大負けか、勝率指標の集計対象が実現益と整合していない可能性。判断材料としてそのままでは誤読を招く。",
+          "severity": "中",
+          "recommendation": "win_rateの定義(majors限定か全体か、約定ベースかポジションベースか)を確認し、all_realized=赤字との関係をnotesに注記。データ起因(キャッシュ集計ズレ)なら再計算、実態(大負け1発)なら『高勝率でも総実現益マイナス』と明記して低優先据え置き。"
+        },
+        {
+          "address": "0x0949d8893c5a82030ad361499377a7d4f30af52a",
+          "issue": "notesと実測の矛盾。cached実測は win_rate=0.2139・majors_realized=-$205,055・all_realized=-$100,708 と全面赤字なのに、notesは『🤓 Nansenが常勝(Smart Money)認定したトレーダー。たぶんプロ』『通算PnL $104,683』と黒字・常勝を主張。position=除外/低優先自体は妥当だが、notesの定型文が実測の大幅赤字と正面から矛盾しており更新漏れ。",
+          "severity": "低",
+          "recommendation": "notesの定型『常勝・通算PnL $104,683』を実測値(majors -$205k/all -$100k)に置き換え、『Nansenラベルは過去のもの・現在は大幅赤字で除外』と明記。除外位置は維持で可。"
+        }
+      ]
+    },
+    {
+      "range": "wallets[440:480]",
+      "checked": 40,
+      "anomalies": [
+        {
+          "address": "0x7dd6af227362f4115e060f39c00791ffcf4230d8",
+          "issue": "タグ「遅効シグナルだがmajors赤字」とnotesが『majors実現損益が＄27,797(黒字でない)』と書くが、majors_realized=+27,797 は明確な黒字(プラス)。実際は遅効エッジ補正正(24h+0.026/72h+0.037)を検出しつつmajorsもプラスなので、本来は『監視継続(遅効エッジ黒字)』候補。『majors赤字』『黒字でない』は事実誤認で除外根拠が崩れている。",
+          "severity": "高",
+          "recommendation": "タグを「遅効シグナルでmajors黒字」等に修正し、位置を『弱い疑惑(監視継続=遅効エッジ黒字)』へ昇格再検討。notesの『＄27,797(黒字でない)→偽陽性で除外』の論理を、majors黒字を踏まえて書き直す。"
+        },
+        {
+          "address": "0x1847dc422b9dea349e8af7d02cb3a136cd81f441",
+          "issue": "win_rate=1(100%)なのに all_realized=-32,157(全体は赤字)。majors_realized=+85,942 とmajorsは黒字なのに全体が赤字=alt等で巨額損失=勝率100%と論理矛盾(勝率と実現損益の不整合)。キャッシュ実測の符号が成績整合しない。",
+          "severity": "高",
+          "recommendation": "win_rate算出ロジック(majors限定 vs 全体)を確認し符号を再計算。majors黒字/全体赤字の内訳をnotesに明記。win_rate=1は誤キャッシュの可能性が高く再取得を推奨。"
+        },
+        {
+          "address": "0xd91f2df982c453b23a37d16a2e5bd8964fda7ad6",
+          "issue": "win_rate=0(0%)なのに all_realized=+315,375 の巨額黒字。majors_realized=-8,992。勝率0%で実現益+31万ドルは整合しない=win_rateフィールドの欠損/誤値。",
+          "severity": "中",
+          "recommendation": "win_rate=0 は null/未取得の誤記の可能性。再取得しnull化 or 正値補正。除外判断自体(majors赤字)は妥当だが値の信頼性をnotesに注記。"
+        },
+        {
+          "address": "0x749af60aeddb86cd0aa41e50f546097528ec9cd9",
+          "issue": "win_rate=0(0%)なのに all_realized=+65,823 の黒字。majors_realized=0。勝率0%と黒字が不整合(値異常)。",
+          "severity": "中",
+          "recommendation": "win_rate=0をnull扱いに補正 or 再取得。majors=0なので除外位置は妥当。"
+        },
+        {
+          "address": "0x957dc4212c332bf45fb31e0f1a77436d7ca81d8f",
+          "issue": "win_rate=0(0%)なのに all_realized=+152,486 の黒字。majors_realized=-15,729。勝率0%で大幅黒字は不整合(値異常)。",
+          "severity": "中",
+          "recommendation": "win_rate=0をnull/再取得で補正。majors赤字のため除外位置は妥当。"
+        },
+        {
+          "address": "0xd51b48fa7b9c4e408aa42eb7ad0b87ce73110d9e",
+          "issue": "win_rate=0(0%)なのに all_realized=+80,070 の黒字。majors_realized=0かつtag『HL履歴なし』。勝率0%と黒字が不整合(値異常)。",
+          "severity": "低",
+          "recommendation": "win_rate=0をnull化。HL履歴なし+majors=0で除外妥当、値の信頼性のみ注記。"
+        },
+        {
+          "address": "0x774f28fc243d6aa8787506869643fb4698bd2133",
+          "issue": "win_rate=0(0%)・majors_realized=-10,071・all_realized=-8,012(全赤字)なのにtagが『HL履歴なし』かつ『取引あり(14d)』。HL履歴なしと実測赤字(majors/all集計済)が共存=分類根拠が矛盾。notesは通算PnL+$99,573の常勝認定をうたうが実測は全赤字で乖離。",
+          "severity": "中",
+          "recommendation": "『HL履歴なし』タグの撤去漏れか実測ソース不一致を確認。notesの『常勝(Smart Money)』テンプレ文を実測赤字に合わせて更新(出金前の旧成績である旨を明記)。"
+        },
+        {
+          "address": "0x33d68bcb87103a7e2bef224d44d62a0da08a0293",
+          "issue": "win_rate=0.9222(92%)・majors_realized=+325,557・all_realized=+341,543 とエリート級の実測黒字なのに位置『除外/低優先』。notesのROI=83,860%は極端。本来『プロトレーダー(本物)』候補だが除外理由が不明(更新漏れ/取引なし14dによる優先度低下のみ)。",
+          "severity": "中",
+          "recommendation": "majors+32万ドル/勝率92%は本物候補。active_to=2026-04-14で休眠ゆえ低優先は理解できるが、position理由をnotesに明記(『高成績だが2ヶ月超休眠で監視優先度低』等)。誤って恒久除外しないよう注記。"
+        },
+        {
+          "address": "0xc0c0bf18b2b5cb27dc25054be25f977e0c330393",
+          "issue": "win_rate=1(100%)・majors_realized=+202,481・all_realized=+268,942 とエリート実測なのに位置『除外/低優先』。notes ROI=875,095%は分母極小の異常値。cache_last=2026-01-04と古い。高成績本物候補が機械的に除外されている疑い。",
+          "severity": "中",
+          "recommendation": "majors+20万/勝率100%は本物候補。休眠(active_to 1/4)による低優先なら理由をnotesに明記。ROI異常値は分母極小由来の注記を付す。"
+        },
+        {
+          "address": "0xfb187eeacb952079b99f1acf6d5e9a97d0c5892f",
+          "issue": "notesテンプレが『🤓 常勝(Smart Money)認定・たぶんプロ』とうたうが、実測は majors_realized=-256,654・all_realized=-175,330・win_rate=0.1378 と全面的に大損(勝率14%)。notesと実測が完全乖離(更新漏れ)。",
+          "severity": "中",
+          "recommendation": "テンプレnotesを実測に合わせ『過去の通算PnLは黒字だが直近キャッシュ実測はmajors-25万/勝率14%で大損、現状プロと言えず』へ書換え。除外位置は妥当。"
+        },
+        {
+          "address": "0x2ed2bdcd9a550564242a8ef31c17a1bff1d5a75d",
+          "issue": "notesテンプレが『常勝(Smart Money)・たぶんプロ』だが実測 majors_realized=-94,557・all_realized=-526,609 と全体50万ドル超の大損。notesと実測が乖離(更新漏れ)。",
+          "severity": "低",
+          "recommendation": "テンプレnotesを実測大損に合わせ更新。除外位置は妥当。"
+        },
+        {
+          "address": "0x8505b64e66e1efd7129eb9b364b2c73abdd01821",
+          "issue": "notesテンプレが『常勝・たぶんプロ』だが all_realized=-233,435 と全体23万ドル損(majorsは-654でほぼ均衡, win_rate0.5556)。通算PnL+$83,478をうたうnotesと実測全赤字が乖離。",
+          "severity": "低",
+          "recommendation": "notesを実測(全体大赤字)に合わせ更新。除外位置妥当。"
+        }
+      ]
+    },
+    {
+      "anomalies": [
+        {
+          "address": "0x8dae4b174dba18b3825b530d22c3141aefc93dfe",
+          "issue": "tags に「取引あり(14d)」が付くのに active14=False。active_to=2026-06-16 は基準日(2026-06-20)から14日以内であり、本来 active14=True であるべき。active14フラグとタグが食い違っており、活動判定が信用できない。",
+          "severity": "中",
+          "recommendation": "active14 を True に再計算するか、active_to を再取得。整合後に「取引あり(14d)」タグの再付与を自動化(同一バッチで active14 とタグを同源計算する)。"
+        },
+        {
+          "address": "0x40ebad3d5648f1e542376c0e7152bd4018c9ce35",
+          "issue": "「取引あり(14d)」タグ付きだが active14=False(active_to=2026-06-10、14d以内)。active14フラグの更新漏れ。同パターンが 0x019d42(481,active_to=06-10)・0x5c90ce(491,06-08)・0x6e9989(500,06-17)・0xf4bfb4(502,06-17)・0xd46979(506,06-18)・0x402cf0(513,06-11) にも横断的に発生。",
+          "severity": "中",
+          "recommendation": "active14 を active_to から再導出するバッチを一括適用。active14=True 群は全て「取引あり」と整合しているため、フラグ計算ロジックではなくキャッシュ更新タイミングのズレが原因と推定。再計算で一括是正。"
+        },
+        {
+          "address": "0x1fcfc47ca84bdbf6d3a5e860cee32ecb9427c323",
+          "issue": "notes記載の ROI 1,762,284% が非現実的(通算PnL $63,442・残高$0と乖離)。元手がほぼ0扱いの除算でROIが破綻しており、成績指標として無意味。0xefacc3(489,ROI172,854%)・0x5c90ce(491,52,902%)・0x6581c9(494,798%)も同種のROI暴走。",
+          "severity": "低",
+          "recommendation": "ROI算出時に最小元手フロア(例:初期入金 or ピーク残高)を設定し、分母≈0のケースは「ROI計測不能」と表示。除外/低優先の判定には majors_realized を主指標にしているため投資判断影響は小だが、notesの数値は誤解を招くので表記修正。"
+        },
+        {
+          "address": "0x84990aecbe554193a2ca27b9ad03a02f584c249a",
+          "issue": "win_rate=None かつ majors_realized=0 で生の勝率・majors実績が欠損。notesでは「Nansen常勝認定・たぶんプロ」と書くが、majors先物の検証根拠が存在しない(majors_realized=0)。majors焦点の台帳で評価不能のまま『プロ』示唆が残る。0xd50557(498)・0x0210691(501,Funded)・0x7c3d04(504,Funded)・0x9ede7d(512,Selini)も同様にwin_rate=None&majors=0。",
+          "severity": "低",
+          "recommendation": "majors_realized=0 かつ win_rate=None の群は「majors検証不能(alt主体の可能性)」と notes を明示。位置は除外/低優先で妥当だが、定型notesの『たぶんプロ』断定をトーンダウン。"
+        },
+        {
+          "address": "0xe41aa443bad860e6b584060cc365b58dc34caf92",
+          "issue": "win_rate=0.0 かつ majors_realized=-47,544(majors赤字)なのに、notesは定型で「Nansen常勝(Smart Money)認定・たぶんプロ」と称揚。majors実測が完全敗北・赤字でラベルもFormer(陥落)である実態と notes が真逆。",
+          "severity": "中",
+          "recommendation": "majors_realized<0 かつ win_rate=0 の実測を反映し notes を『majors先物では赤字・常勝ラベルは過去/alt由来』に更新。除外位置自体は妥当だが定型notesが誤情報を残しているため上書き。"
+        },
+        {
+          "address": "0xac45086d25bdb4e25a9db3ded7ad36d3044e6c33",
+          "issue": "all_realized=-365,977(通算大赤字)なのに notesは「通算PnL $52,371」と黒字を記載し『常勝認定・たぶんプロ』と矜持。キャッシュ実測(all_realized)と notes本文の通算PnLが符号レベルで矛盾。majors_realized=+32,095 とも整合が取れていない。",
+          "severity": "中",
+          "recommendation": "notesの通算PnL表記をキャッシュ実測(all_realized)に同期。大赤字の実態を反映し『常勝』定型文を撤回。除外位置は妥当。"
+        },
+        {
+          "address": "0x1e6db0fdf1a0f6edb78753184eb0fe5485c2eef2",
+          "issue": "position=プロトレーダー(本物)・wf_quality=プロ格下げ・tagに「質:格下げ相当(MM/窓)」が同居。『本物』認定と『格下げ』判定が同一レコードに併存し、最終判断が曖昧。さらに「取引あり(14d)」タグ付きだが active14=False(active_to=2026-06-10)。",
+          "severity": "中",
+          "recommendation": "格下げ確定なら position を『alt主体プロ/監視低優先』等へ引き下げ、または『本物だが要件付き(格下げ相当)』と一本化。copy=False と整合させる。active14 も再計算。majors_realized=+328,868 は黒字なので赤字矛盾はないが、品質ラベルの二重化を解消。"
+        },
+        {
+          "address": "0x4eebd8d39e82efb958e0fa9f694435c910c8518f",
+          "issue": "position=プロトレーダー(本物)だが wf_quality=履歴薄/評価不能・tag「質:履歴薄(評価不能)」。評価不能なのに『本物』と断定。majors_realized=$5.8M は黒字で実績はあるが、品質が評価不能のまま最上位分類になっている整合不足。",
+          "severity": "中",
+          "recommendation": "『本物』断定を保留し『高実績だが履歴薄=要追検証』に格付けを明示。copy=False とは整合済だが、position表記を品質ラベルに合わせて緩める(例:暫定プロ)。"
+        }
+      ],
+      "range": "wallets[480:520]",
+      "checked": 40
+    },
+    {
+      "range": "wallets[520:560] (idx 520-559, 40件)",
+      "checked": 40,
+      "anomalies": [
+        {
+          "address": "0x7c9063122c01837fe83da2521056e10c9b6dd129",
+          "issue": "値の異常/notes矛盾。win_rate フィールド=0.0 だが notes には『勝率0.7667』と記載。all_realized=$823,517 の黒字で『実力で安定黒字＝プロ確定』と書いておきながら win_rate=0.0 は内部矛盾。位置=alt主体プロでmajors_realized=-41(ほぼゼロ)も整合するが、win_rate値が明らかに誤り(notesの0.7667が真値の可能性大)。",
+          "severity": "中",
+          "recommendation": "win_rate を notes実測の 0.7667 に修正(または再キャッシュ)。0.0は集計バグの疑い。majors=-41≒0なのでalt主体プロ位置は維持で可。"
+        },
+        {
+          "address": "0x69b05701f8175c276ecd0138387a197948e240bb",
+          "issue": "タグとwf_qualityの不整合。wf_quality=エリート・copy_worthy=True(コピー推奨の最上位)に昇格しているのに、tagsには 'HL検証済プロ' が無く、代わりに '稼ぎ確認・先行不明(要精査)' が残存。『要精査』タグはエリート/コピー推奨判定と矛盾。notesも【判定】プロ確定の旧テンプレで、エリート昇格の根拠が反映されていない。",
+          "severity": "中",
+          "recommendation": "エリート/copy_worthy=True が確定なら '稼ぎ確認・先行不明(要精査)' を撤去し 'HL検証済プロ'+'質:エリート(WF検証)' を付与。逆に先行不明が未解消なら copy_worthy を見直し。"
+        },
+        {
+          "address": "0x41206f8efb51e5039e5b46e04e7866a4849f72d2",
+          "issue": "notesとキャッシュ値の数値乖離。notesの【HL実測】実現益=$2,154,796 に対し、キャッシュ実測 all_realized=$8,845,459 / majors_realized=$8,723,731 と約4倍の差。Tier-S・エリート・copy_worthy=True の最上位案件で、notes記載益とキャッシュ真値が大きく食い違うのは規模/確信度判断に影響。labelも『Boros Trader』(金利/funding系)で、majors実現益の解釈に注意。",
+          "severity": "中",
+          "recommendation": "notesのHL実測益をキャッシュ真値($8.72M majors)に更新。Boros(funding)由来の益が majors_realized に混入していないか内訳確認の上、copy_worthy/サイズ判断を再評価。"
+        },
+        {
+          "address": "0xa906355beaf1d69a5fe73ce55899c49c6e67916c",
+          "issue": "値の異常(active_to が陳腐化)。active14=False は妥当だが active_to=2025-08-29 なのに notes の活動期間は『2025-07-29〜2026-01-20』で終端が約5ヶ月ズレている。active_to がキャッシュ更新漏れ。位置=除外なので投資影響は小だが台帳の鮮度整合性の問題。",
+          "severity": "低",
+          "recommendation": "active_to を notes活動終端(2026-01-20)に同期。再キャッシュで自動補正されるなら次回バッチで解消。"
+        },
+        {
+          "address": "0x8250a7f9fca9c33e68eead8c05c1d58c8fd70d13",
+          "issue": "タグの撤去漏れ。2026-06-19の真の実現損益再監査で all=$-41,213/majors=$6,353=通算赤字と判明し『除外へ降格』済(notes・position整合)。しかしtagsに旧『黒字前提』時代の 'Tier-B' と '稼ぎ確認・先行不明(要精査)' が残存。除外案件にTier-B/要精査タグは不適合。",
+          "severity": "低",
+          "recommendation": "'Tier-B' '稼ぎ確認・先行不明(要精査)' を撤去し '再監査:真の実現赤字' のみ残す等、除外位置に合わせてタグを整理。"
+        },
+        {
+          "address": "0xae551d73161bac3315c5ade0e2d499a44ebe2236",
+          "issue": "位置とnotes/タグの軽微な不整合。position=alt主体プロだが、tagsに 'HL検証済プロ' があり notes は『多数の取引で安定して稼ぎ…実力のプロ(HL行動で確認)』とmajors本物プロのテンプレ。majors_realized=+$98,108(黒字)・majors比は不記載だがall=$713,720に対しaltが主体。alt主体プロ位置自体は妥当だが、本物プロ用テンプレ文言・HL検証済プロタグとの間に表現の食い違い。",
+          "severity": "低",
+          "recommendation": "alt主体プロのまま notes を『alt中心・majors補助的』の旨に更新。majors先物率を明記し、HL検証済プロタグの要否(majors率<60%なら対象外寄り)を確認。"
+        }
+      ]
+    },
+    {
+      "range": "wallets[560:566]",
+      "checked": 6,
+      "anomalies": [
+        {
+          "address": "0xac38a7473c31a1989a999c0a5da9a4e0d57f2574",
+          "issue": "active14=false なのに active_to=2026-06-18(基準日2026-06-20の2日前=14d以内)であり、さらにタグに『取引あり(14d)』が付与されている。active14 フラグが active_to とタグの両方と矛盾している(更新漏れ/算出ミス)。位置=除外/低優先・alt主体(majors率11%)は notes/タグ/実現益と整合しており、矛盾はこのフラグ1点のみ。",
+          "severity": "低",
+          "recommendation": "active14 を true に修正(active_to が2日前のため14d内アクティブ)するか、active14 の算出基準日を再確認。位置=除外判断は alt主体率で正当なので分類自体は変更不要。"
+        },
+        {
+          "address": "0xe24166173f1e956845a0660c8b26db334dced71a",
+          "issue": "active14=false なのに active_to=2026-06-18(基準日の2日前=14d以内)で、タグも『取引あり(14d)』。560と同型の active14 フラグ矛盾。位置=除外/低優先・alt主体(主銘柄xyz:NVDA, majors率35%)は notes/実現益/タグと整合。",
+          "severity": "低",
+          "recommendation": "active14 を true に再計算(active_to=06-18は14d以内)。タグ『取引あり(14d)』と整合させる。除外分類は majors率<60% により妥当なため維持。"
+        }
+      ]
+    }
+  ],
+  "synthesis": {
+    "total_anomalies": 60,
+    "by_severity": {
+      "高": 9,
+      "中": 33,
+      "低": 18
+    },
+    "by_type": [
+      {
+        "type": "notes⇔位置/分類の不整合(自動note更新漏れ)",
+        "count": 16
+      },
+      {
+        "type": "active14⇔active_to/タグの矛盾(鮮度フラグ陳腐化)",
+        "count": 13
+      },
+      {
+        "type": "除外なのに巨額majors黒字(トリアージ漏れ・検査2)",
+        "count": 9
+      },
+      {
+        "type": "wf_quality⇔位置の不整合(格下げ相当を本物棚に放置・検査4)",
+        "count": 9
+      },
+      {
+        "type": "win_rate/ROI等の値異常・notesと数値乖離",
+        "count": 9
+      },
+      {
+        "type": "偽陽性/否定分類の根拠欠落(debunk理由未記載)",
+        "count": 3
+      },
+      {
+        "type": "タグ撤去漏れ(HL先行検出/HL検証済プロ/Tier等が結論と矛盾)",
+        "count": 5
+      }
+    ],
+    "top_fixes": [
+      {
+        "address": "0xd05808946809c180d190608e13f473db30aa8524",
+        "issue": "position=偽陽性(数値疑惑→否定)の確定分類なのにnotesは『未精査』。否定根拠(debunk理由)が皆無で、25日・win_rate 99.65%・majors $472,780黒字・active14=trueという典型的インサイダー疑惑プロファイルを根拠ゼロで偽陽性に埋めている。誤分類リスク極大。",
+        "recommendation": "positionを『弱い疑惑(監視継続)』へ戻すか、最低限notesに偽陽性と断じた検証ログ(なぜシロか)を追記。検証不能なら未精査の保留位置へ。"
+      },
+      {
+        "address": "0x72988778525f0ce15c5ac1804ac460606a987d6c",
+        "issue": "position=偽陽性の確定否定なのにnotesは『たぶんプロ、未精査』と矛盾。win_rate=1.0・majors $485,103黒字・trade_days 325で偽陽性とする根拠が記録上見当たらない。",
+        "recommendation": "偽陽性判定の検証ログをnotesに追記、または根拠不在なら『弱い疑惑(監視継続)』へ戻す。否定分類とnotes表記の不整合を解消。"
+      },
+      {
+        "address": "0x2f01afc9f9437c4fcb8f2e8612c57bf522bcc81d",
+        "issue": "位置=除外/低優先だが majors $313,395・win_rate 95.73%・trade_days 260・all≒majorsのほぼ純majorsエリート黒字。notes空・否定タグ無しで除外放置(検査2+検査1)。",
+        "recommendation": "『プロトレーダー(本物)』候補へ昇格しWF精査キューへ。除外維持ならdebunk根拠(先行0件/コインフリップ等)をnotesに必須記載。"
+      },
+      {
+        "address": "0x8c96e5a2d770f9f2c9d2464ce4e741df0b2bca57",
+        "issue": "位置=除外/低優先だが majors $694,388・win_rate 83.9%・trade_days 133・all≒majors。高勝率+大型majors黒字をnotes空・否定タグ無しで除外。",
+        "recommendation": "プロトレーダー(本物)候補として再精査。除外維持ならdebunk根拠を明記。同一パターンの無根拠除外を一括見直し。"
+      },
+      {
+        "address": "0x9a377ec81c1bd51d31170bf8d7a7b6c5fbaded9b",
+        "issue": "position=プロ(本物)・wf_quality=エリート・copy_worthy=trueでmajors $292,192黒字と分類は妥当だが、notesが除外系『出金しただけ』テンプレのまま。HL実測欄も実現益$52,247・取引期間2025-04止まりで本体値と乖離(active14=trueと矛盾)=更新漏れ。",
+        "recommendation": "notesをエリート(WF検証)の実所見へ書き換え、HL実測益をmajors $292,192/all 506,609に整合。取引期間/的中0.0は再キャッシュで最新化し汎用テンプレを除去。"
+      },
+      {
+        "address": "0xb58e1eb8256689e47f589ba6f6a28657d997bf2f",
+        "issue": "position=プロ(本物)だがwf_quality=プロ格下げ・タグ『質:格下げ相当(MM/窓)』。win_rate=1.0でも方向的中率0.4768=コイン投げ相当、notesは『安定して稼ぎ』と肯定的なまま(検査4+検査1)。",
+        "recommendation": "位置を『除外/低優先』または『偽陽性』相当へ格下げ整合。notesを『MM/窓ぎわ・的中率0.48でエッジ薄→格下げ』へ書き換えwf_qualityタグと一致させる。"
+      },
+      {
+        "address": "0x9fb1750da6266a05601855bb62767ebc742707b1",
+        "issue": "position=除外/低優先だが majors $564,549(区間最大級・cached=true)・win_rate 0.63・trade_days 549・cache_last新鮮。notesは『たぶんプロ、未精査』でWF未実施のまま除外に埋没(検査2)。",
+        "recommendation": "除外から引き上げWF精査キューへ。majors先行(インサイダー)/MM判定を実測。精査までpositionは『未精査(要WF)』中立ラベルにしnotesへ反映。"
+      },
+      {
+        "address": "0x7cc0b0049faddc405da8494ac67737975c757480",
+        "issue": "notesは『majors先行なし=プロ確定』『実現益$562,804・勝率0.8967』と断定だが、実測は majors=0/all=39,489/win_rate=null/trade_days=0と完全乖離。wf_quality=プロ格下げ・タグ『要精査』とも矛盾し、cache_lastは約7ヶ月stale。",
+        "recommendation": "notesを実測値で再生成し『プロ確定』断定を撤回。$562,804の出所を検証しall=39,489と突合。trade_days=0なら『検証不能・要再キャッシュ』としwf_quality判定も保留。"
+      },
+      {
+        "address": "0x7dd6af227362f4115e060f39c00791ffcf4230d8",
+        "issue": "タグ『遅効シグナルだがmajors赤字』とnotesが『$27,797(黒字でない)→偽陽性で除外』と書くが、majors_realized=+27,797は明確な黒字。遅効エッジ補正も正(24h+0.026/72h+0.037)で、事実誤認により除外根拠が崩壊。",
+        "recommendation": "タグを『遅効シグナルでmajors黒字』へ修正し、位置を『弱い疑惑(監視継続=遅効エッジ黒字)』へ昇格再検討。notesの除外ロジックをmajors黒字前提で書き直す。"
+      },
+      {
+        "address": "0x1847dc422b9dea349e8af7d02cb3a136cd81f441",
+        "issue": "win_rate=1(100%)なのにall_realized=-32,157(全体赤字)。majors=+85,942は黒字でも全体赤字=勝率100%と論理矛盾。キャッシュ符号が成績と整合しない。",
+        "recommendation": "win_rate算出ロジック(majors限定vs全体)を確認し符号を再計算。majors黒字/全体赤字の内訳をnotesに明記。win_rate=1は誤キャッシュ濃厚で再取得を推奨。"
+      }
+    ],
+    "headline": [
+      "台帳の分類(position)・損益(majors/all_realized)は概ね整合しており、構造的に致命的な誤りは少ない。異常60件中『高』は9件で、大半は自動生成notes・タグの更新ラグに起因する表示の不整合に集約される。",
+      "最大の系統的問題は『自動生成noteの更新漏れ』。position/wf_qualityが格下げ・偽陽性・本物に再分類された後もnotes冒頭が旧テンプレ(『本物のプロ』『たぶんプロ未精査』『稼いで出金しただけ』『常勝認定』)のまま残り、分類と所見が逆向きになる事例が全区間横断で16件。note生成をposition/wf_qualityから自動再生成する仕組みが必要。",
+      "第二の系統バグは『active14フラグの陳腐化』で13件超(特定区間では11〜12件単位で一斉発生)。active_to==cache_last=直近なのにactive14=falseのままタグ『取引あり(14d)』が残存し、鮮度フィルタが信用できない。active14をactive_to/cache_last基準で一括再計算し、タグをactive14から自動導出して二重管理を廃止すべき。",
+      "第三は『検査2:除外なのに巨額majors黒字』のトリアージ漏れ(9件)。majors $30万〜$4,290万・高勝率・現役のウォレットがnotes空のまま除外/低優先に放置され、WF精査キューへの昇格が漏れている。最大は0x5d2f44のmajors $4,290万。閾値抽出→WF一括精査で本物/疑惑へ振り分け、除外維持時はdebunk根拠の必須記載をルール化すべき。",
+      "第四は『偽陽性/否定分類の根拠欠落』(3件・高2件)。否定確定なのにdebunk理由が皆無で、高勝率・短期・majors大黒字の疑惑プロファイルを根拠ゼロで偽陽性に埋めており誤分類リスクが最も高い。否定分類には検証ログの添付を必須化すべき。",
+      "その他、win_rate=0/1やROI数十万%等の値異常(分母≈0・集計対象ズレ)とnotes記載額のキャッシュ乖離が散見される。投資判断はmajors_realizedを主指標とするため影響は限定的だが、ROIに最小元手フロアを設け、win_rateの定義(majors限定/全体)を統一し再計算することで台帳の信頼性が向上する。"
+    ]
+  }
+}

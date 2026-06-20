@@ -1,0 +1,478 @@
+IDX 480
+  addr 0x8dae4b174dba18b3825b530d22c3141aefc93dfe
+  position=除外/低優先 | cached=True | wf_quality=None | copy=None
+  win_rate=0.5 | majors_realized=-7 | all_realized=128777
+  active14=False | active_to=2026-06-16 | trade_days=431 | cache_last=2026-06-16
+  tags=["HL検証:非該当", "Nansen発見", "取引あり(14d)"]
+  labels=["🤓 Smart HL Perps Trader [0x8dae4b]"]
+  notes=【ひとことで】🤓 Nansenが『常勝(Smart Money)』認定したトレーダー。たぶんプロ、未精査。
+【正体】🤓 Smart HL Perps Trader [0x8dae4b]（Nansenラベル）
+【成績】通算PnL $67,904・ROI 2,034%・現在残高 $3,197
+【補足】残高が小さい＝稼ぎを引き上げ済の可能性（出金）。
+
+IDX 481
+  addr 0x019d4248690664e2a87a4aa2a26f83c8e63de7c4
+  position=除外/低優先 | cached=True | wf_quality=None | copy=None
+  win_rate=0.9996 | majors_realized=872376 | all_realized=1075347
+  active14=False | active_to=2026-06-10 | trade_days=309 | cache_last=2026-06-10
+  tags=["MM/HFT", "Nansen発見", "取引あり(14d)"]
+  labels=["🤓 Smart HL Perps Trader [0x019d42]"]
+  notes=【ひとことで】🤓 Nansenが『常勝(Smart Money)』認定したトレーダー。たぶんプロ、未精査。
+【正体】🤓 Smart HL Perps Trader [0x019d42]（Nansenラベル）
+【成績】通算PnL $66,079・ROI 17%・現在残高 $0
+【補足】残高が小さい＝稼ぎを引き上げ済の可能性（出金）。
+
+IDX 482
+  addr 0x081ec17d9700ca25f7b9473d068853f4de2764e6
+  position=除外/低優先 | cached=True | wf_quality=None | copy=None
+  win_rate=0.817 | majors_realized=22119 | all_realized=27055
+  active14=False | active_to=2025-07-26 | trade_days=5 | cache_last=2025-07-26
+  tags=["HL検証:非該当", "Nansen発見", "取引なし(14d)"]
+  labels=["Former Smart Trader [0x081ec1]"]
+  notes=【ひとことで】🤓 Nansenが『常勝(Smart Money)』認定したトレーダー。たぶんプロ、未精査。
+【正体】Former Smart Trader [0x081ec1]（Nansenラベル）
+【成績】通算PnL $66,063・ROI 167%・現在残高 $0
+【補足】残高が小さい＝稼ぎを引き上げ済の可能性（出金）。
+
+IDX 483
+  addr 0xc162762278a1d8fa55ee59a07a711f94a9949148
+  position=除外/低優先 | cached=True | wf_quality=None | copy=None
+  win_rate=0.6652 | majors_realized=151624 | all_realized=150692
+  active14=True | active_to=2026-06-13 | trade_days=294 | cache_last=2026-06-13
+  tags=["HL検証:非該当", "Nansen発見", "取引あり(14d)"]
+  labels=["🤓 Smart HL Perps Trader [0xc16276]"]
+  notes=【ひとことで】🤓 Nansenが『常勝(Smart Money)』認定したトレーダー。たぶんプロ、未精査。
+【正体】🤓 Smart HL Perps Trader [0xc16276]（Nansenラベル）
+【成績】通算PnL $65,315・ROI 665%・現在残高 $0
+【補足】残高が小さい＝稼ぎを引き上げ済の可能性（出金）。
+
+IDX 484
+  addr 0x5c90517b85ae5a59a49072b0ce09e7af4b2b44ce
+  position=除外/低優先 | cached=True | wf_quality=None | copy=None
+  win_rate=1.0 | majors_realized=47029 | all_realized=163327
+  active14=False | active_to=2026-06-04 | trade_days=252 | cache_last=2026-06-04
+  tags=["HL検証:非該当", "Nansen発見", "取引なし(14d)"]
+  labels=["🤓 Smart HL Perps Trader [0x5c9051]"]
+  notes=【ひとことで】🤓 Nansenが『常勝(Smart Money)』認定したトレーダー。たぶんプロ、未精査。
+【正体】🤓 Smart HL Perps Trader [0x5c9051]（Nansenラベル）
+【成績】通算PnL $65,143・ROI 581%・現在残高 $0
+【補足】残高が小さい＝稼ぎを引き上げ済の可能性（出金）。
+
+IDX 485
+  addr 0xe41aa443bad860e6b584060cc365b58dc34caf92
+  position=除外/低優先 | cached=True | wf_quality=None | copy=None
+  win_rate=0.0 | majors_realized=-47544 | all_realized=362858
+  active14=False | active_to=2026-05-05 | trade_days=298 | cache_last=2026-05-05
+  tags=["HL検証:非該当", "Nansen発見", "取引なし(14d)"]
+  labels=["Former Smart Trader [0xe41aa4]"]
+  notes=【ひとことで】🤓 Nansenが『常勝(Smart Money)』認定したトレーダー。たぶんプロ、未精査。
+【正体】Former Smart Trader [0xe41aa4]（Nansenラベル）
+【成績】通算PnL $64,298・ROI 3%・現在残高 $11,482
+【補足】残高が小さい＝稼ぎを引き上げ済の可能性（出金）。
+
+IDX 486
+  addr 0x39c7d05e24cf5ee0e24ed687783b55a3b1620e4f
+  position=除外/低優先 | cached=True | wf_quality=None | copy=None
+  win_rate=0.3435 | majors_realized=25008 | all_realized=69315
+  active14=False | active_to=2026-06-04 | trade_days=37 | cache_last=2026-06-04
+  tags=["HL検証:非該当", "Nansen発見", "取引なし(14d)"]
+  labels=["Former Smart Trader [0x39c7d0]"]
+  notes=【ひとことで】🤓 Nansenが『常勝(Smart Money)』認定したトレーダー。たぶんプロ、未精査。
+【正体】Former Smart Trader [0x39c7d0]（Nansenラベル）
+【成績】通算PnL $63,804・ROI 0%・現在残高 $0
+【補足】残高が小さい＝稼ぎを引き上げ済の可能性（出金）。
+
+IDX 487
+  addr 0x40ebad3d5648f1e542376c0e7152bd4018c9ce35
+  position=除外/低優先 | cached=True | wf_quality=None | copy=None
+  win_rate=0.5205 | majors_realized=7718 | all_realized=421264
+  active14=False | active_to=2026-06-10 | trade_days=436 | cache_last=2026-06-10
+  tags=["HL検証:非該当", "Nansen発見", "取引あり(14d)"]
+  labels=["🤓 Smart HL Perps Trader [0x40ebad]"]
+  notes=【ひとことで】🤓 Nansenが『常勝(Smart Money)』認定したトレーダー。たぶんプロ、未精査。
+【正体】🤓 Smart HL Perps Trader [0x40ebad]（Nansenラベル）
+【成績】通算PnL $63,626・ROI 8%・現在残高 $23,527
+【補足】残高が小さい＝稼ぎを引き上げ済の可能性（出金）。
+
+IDX 488
+  addr 0x1fcfc47ca84bdbf6d3a5e860cee32ecb9427c323
+  position=除外/低優先 | cached=True | wf_quality=None | copy=None
+  win_rate=1.0 | majors_realized=131525 | all_realized=176727
+  active14=False | active_to=2026-01-05 | trade_days=107 | cache_last=2026-01-05
+  tags=["HL検証:非該当", "Nansen発見", "取引なし(14d)"]
+  labels=["Former Smart Trader [0x1fcfc4]"]
+  notes=【ひとことで】🤓 Nansenが『常勝(Smart Money)』認定したトレーダー。たぶんプロ、未精査。
+【正体】Former Smart Trader [0x1fcfc4]（Nansenラベル）
+【成績】通算PnL $63,442・ROI 1,762,284%・現在残高 $0
+【補足】残高が小さい＝稼ぎを引き上げ済の可能性（出金）。
+
+IDX 489
+  addr 0xefacc3909fa29463f44180a4c174359338c72c3a
+  position=除外/低優先 | cached=True | wf_quality=None | copy=None
+  win_rate=1.0 | majors_realized=223750 | all_realized=223751
+  active14=False | active_to=2026-04-17 | trade_days=321 | cache_last=2026-04-17
+  tags=["HL検証:非該当", "Nansen発見", "取引なし(14d)"]
+  labels=["Former Smart Trader [0xefacc3]"]
+  notes=【ひとことで】🤓 Nansenが『常勝(Smart Money)』認定したトレーダー。たぶんプロ、未精査。
+【正体】Former Smart Trader [0xefacc3]（Nansenラベル）
+【成績】通算PnL $63,256・ROI 172,854%・現在残高 $0
+【補足】残高が小さい＝稼ぎを引き上げ済の可能性（出金）。
+
+IDX 490
+  addr 0x84990aecbe554193a2ca27b9ad03a02f584c249a
+  position=除外/低優先 | cached=True | wf_quality=None | copy=None
+  win_rate=None | majors_realized=0 | all_realized=197553
+  active14=False | active_to=2026-02-15 | trade_days=215 | cache_last=2026-02-15
+  tags=["HL検証:非該当", "Nansen発見", "取引なし(14d)"]
+  labels=["Former Smart Trader [0x84990a]"]
+  notes=【ひとことで】🤓 Nansenが『常勝(Smart Money)』認定したトレーダー。たぶんプロ、未精査。
+【正体】Former Smart Trader [0x84990a]（Nansenラベル）
+【成績】通算PnL $63,161・ROI 70%・現在残高 $0
+【補足】残高が小さい＝稼ぎを引き上げ済の可能性（出金）。
+
+IDX 491
+  addr 0x5c90ce5f9d84b6011385ae01366c5726c39bf23a
+  position=除外/低優先 | cached=True | wf_quality=None | copy=None
+  win_rate=0.9231 | majors_realized=10596 | all_realized=175578
+  active14=False | active_to=2026-06-08 | trade_days=876 | cache_last=2026-06-08
+  tags=["HL検証:非該当", "Nansen発見", "取引あり(14d)"]
+  labels=["🤓 Smart HL Perps Trader [0x5c90ce]"]
+  notes=【ひとことで】🤓 Nansenが『常勝(Smart Money)』認定したトレーダー。たぶんプロ、未精査。
+【正体】🤓 Smart HL Perps Trader [0x5c90ce]（Nansenラベル）
+【成績】通算PnL $62,424・ROI 52,902%・現在残高 $0
+【補足】残高が小さい＝稼ぎを引き上げ済の可能性（出金）。
+
+IDX 492
+  addr 0xb38c019835898de512f2c10a7f22432eb6db1484
+  position=除外/低優先 | cached=True | wf_quality=None | copy=None
+  win_rate=0.6958 | majors_realized=8413 | all_realized=56978
+  active14=True | active_to=2026-06-18 | trade_days=844 | cache_last=2026-06-18
+  tags=["HL検証:非該当", "Nansen発見", "取引あり(14d)"]
+  labels=["Funded @MikeRizz On Friendtech [0xb38c01]"]
+  notes=【ひとことで】🏦 著名な機関/ファンド。インサイダーでなくプロの組織。
+【正体】Funded @MikeRizz On Friendtech [0xb38c01]（Nansenラベル）
+【成績】通算PnL $62,058・ROI 6%・現在残高 $0
+【補足】残高が小さい＝稼ぎを引き上げ済の可能性（出金）。
+
+IDX 493
+  addr 0x57da9c7174b5776ce6dd28f1b8a7608ee0f18c61
+  position=除外/低優先 | cached=True | wf_quality=None | copy=None
+  win_rate=0.3157 | majors_realized=101304 | all_realized=89595
+  active14=False | active_to=2026-04-06 | trade_days=74 | cache_last=2026-04-06
+  tags=["HL検証:非該当", "Nansen発見", "取引なし(14d)"]
+  labels=["Former Smart Trader [0x57da9c]"]
+  notes=【ひとことで】🤓 Nansenが『常勝(Smart Money)』認定したトレーダー。たぶんプロ、未精査。
+【正体】Former Smart Trader [0x57da9c]（Nansenラベル）
+【成績】通算PnL $61,903・ROI 2%・現在残高 $0
+【補足】残高が小さい＝稼ぎを引き上げ済の可能性（出金）。
+
+IDX 494
+  addr 0x6581c99e278c12b74e25051a49fd8eda307be75b
+  position=除外/低優先 | cached=True | wf_quality=None | copy=None
+  win_rate=0.2102 | majors_realized=61063 | all_realized=202561
+  active14=False | active_to=2026-01-31 | trade_days=169 | cache_last=2026-01-31
+  tags=["HL履歴なし", "Nansen発見", "取引なし(14d)"]
+  labels=["Former Smart Trader [0x6581c9]"]
+  notes=【ひとことで】🤓 Nansenが『常勝(Smart Money)』認定したトレーダー。たぶんプロ、未精査。
+【正体】Former Smart Trader [0x6581c9]（Nansenラベル）
+【成績】通算PnL $61,063・ROI 798%・現在残高 $0
+【補足】残高が小さい＝稼ぎを引き上げ済の可能性（出金）。
+
+IDX 495
+  addr 0xce50bd5c2f4319e186da50e3ad8952bba2b50d08
+  position=除外/低優先 | cached=True | wf_quality=None | copy=None
+  win_rate=0.4581 | majors_realized=14721 | all_realized=48172
+  active14=False | active_to=2025-04-07 | trade_days=94 | cache_last=2025-04-07
+  tags=["HL履歴なし", "Nansen発見", "取引なし(14d)"]
+  labels=["🤓 Smart HL Perps Trader [0xce50bd]"]
+  notes=【ひとことで】🤓 Nansenが『常勝(Smart Money)』認定したトレーダー。たぶんプロ、未精査。
+【正体】🤓 Smart HL Perps Trader [0xce50bd]（Nansenラベル）
+【成績】通算PnL $59,140・ROI 33%・現在残高 $0
+【補足】残高が小さい＝稼ぎを引き上げ済の可能性（出金）。
+
+IDX 496
+  addr 0x0e0e4a5f087ffc897ade063f2d19b6fe9125471b
+  position=除外/低優先 | cached=True | wf_quality=None | copy=None
+  win_rate=0.6177 | majors_realized=172750 | all_realized=-26799
+  active14=False | active_to=2026-04-13 | trade_days=412 | cache_last=2026-04-13
+  tags=["HL検証:非該当", "Nansen発見", "取引なし(14d)"]
+  labels=["Former Smart Trader [0x0e0e4a]"]
+  notes=【ひとことで】🤓 Nansenが『常勝(Smart Money)』認定したトレーダー。たぶんプロ、未精査。
+【正体】Former Smart Trader [0x0e0e4a]（Nansenラベル）
+【成績】通算PnL $58,295・ROI 0%・現在残高 $0
+【補足】残高が小さい＝稼ぎを引き上げ済の可能性（出金）。
+
+IDX 497
+  addr 0x9db82c502472d76742fdd69609dfcc6e01327401
+  position=除外/低優先 | cached=True | wf_quality=None | copy=None
+  win_rate=0.6667 | majors_realized=37 | all_realized=90401
+  active14=False | active_to=2026-06-19 | trade_days=126 | cache_last=2026-06-19
+  tags=["MM/HFT", "Nansen発見", "取引あり(14d)"]
+  labels=["Former Smart Trader [0x9db82c]"]
+  notes=【ひとことで】🤓 Nansenが『常勝(Smart Money)』認定したトレーダー。たぶんプロ、未精査。
+【正体】Former Smart Trader [0x9db82c]（Nansenラベル）
+【成績】通算PnL $56,114・ROI 1%・現在残高 $13,880
+【補足】残高が小さい＝稼ぎを引き上げ済の可能性（出金）。
+
+IDX 498
+  addr 0xd50557a9b9289bec1893a40655c2a5a7014b7337
+  position=除外/低優先 | cached=True | wf_quality=None | copy=None
+  win_rate=None | majors_realized=0 | all_realized=56070
+  active14=False | active_to=2026-05-08 | trade_days=38 | cache_last=2026-05-08
+  tags=["HL検証:非該当", "Nansen発見", "取引なし(14d)"]
+  labels=["Former Smart Trader [0xd50557]"]
+  notes=【ひとことで】🤓 Nansenが『常勝(Smart Money)』認定したトレーダー。たぶんプロ、未精査。
+【正体】Former Smart Trader [0xd50557]（Nansenラベル）
+【成績】通算PnL $56,070・ROI 40%・現在残高 $0
+【補足】残高が小さい＝稼ぎを引き上げ済の可能性（出金）。
+
+IDX 499
+  addr 0xb90598c673fc368e1ec34fdeda2320b83fa1a6e5
+  position=除外/低優先 | cached=True | wf_quality=None | copy=None
+  win_rate=0.4392 | majors_realized=-39580 | all_realized=101301
+  active14=True | active_to=2026-06-18 | trade_days=104 | cache_last=2026-06-18
+  tags=["HL検証:非該当", "Nansen発見", "取引あり(14d)"]
+  labels=["Former Smart Trader [0xb90598]"]
+  notes=【ひとことで】🤓 Nansenが『常勝(Smart Money)』認定したトレーダー。たぶんプロ、未精査。
+【正体】Former Smart Trader [0xb90598]（Nansenラベル）
+【成績】通算PnL $56,029・ROI 1%・現在残高 $7,177
+【補足】残高が小さい＝稼ぎを引き上げ済の可能性（出金）。
+
+IDX 500
+  addr 0x6e9989debf991affd8dfe4a73efcbfc8cb658473
+  position=除外/低優先 | cached=True | wf_quality=None | copy=None
+  win_rate=0.4201 | majors_realized=127934 | all_realized=395490
+  active14=False | active_to=2026-06-17 | trade_days=362 | cache_last=2026-06-17
+  tags=["MM/HFT", "Nansen発見", "取引あり(14d)"]
+  labels=["Former Smart Trader [0x6e9989]"]
+  notes=【ひとことで】🤓 Nansenが『常勝(Smart Money)』認定したトレーダー。たぶんプロ、未精査。
+【正体】Former Smart Trader [0x6e9989]（Nansenラベル）
+【成績】通算PnL $55,675・ROI 0%・現在残高 $20,283
+【補足】残高が小さい＝稼ぎを引き上げ済の可能性（出金）。
+
+IDX 501
+  addr 0x0210691ee9444a4b349673e2c791dab920a5e4ea
+  position=除外/低優先 | cached=True | wf_quality=None | copy=None
+  win_rate=None | majors_realized=0 | all_realized=51689
+  active14=False | active_to=2026-06-04 | trade_days=156 | cache_last=2026-06-04
+  tags=["MM/HFT", "Nansen発見", "取引なし(14d)"]
+  labels=["Funded @louis1118111 On Friendtech [0x021069]"]
+  notes=【ひとことで】🏦 著名な機関/ファンド。インサイダーでなくプロの組織。
+【正体】Funded @louis1118111 On Friendtech [0x021069]（Nansenラベル）
+【成績】通算PnL $55,627・ROI 1%・現在残高 $0
+【補足】残高が小さい＝稼ぎを引き上げ済の可能性（出金）。
+
+IDX 502
+  addr 0xf4bfb4a49a7ec689df9f213f533dd3e1ee828201
+  position=除外/低優先 | cached=True | wf_quality=None | copy=None
+  win_rate=0.9402 | majors_realized=14542 | all_realized=84620
+  active14=False | active_to=2026-06-17 | trade_days=789 | cache_last=2026-06-17
+  tags=["HL検証:非該当", "Nansen発見", "取引あり(14d)"]
+  labels=["Funded @jev13307 On Friendtech [0xf4bfb4]"]
+  notes=【ひとことで】🏦 著名な機関/ファンド。インサイダーでなくプロの組織。
+【正体】Funded @jev13307 On Friendtech [0xf4bfb4]（Nansenラベル）
+【成績】通算PnL $55,135・ROI 0%・現在残高 $2,648
+【補足】残高が小さい＝稼ぎを引き上げ済の可能性（出金）。
+
+IDX 503
+  addr 0x9d0ea1d445f09d7382440d142571aab2c5f8ba56
+  position=除外/低優先 | cached=True | wf_quality=None | copy=None
+  win_rate=0.8723 | majors_realized=4771 | all_realized=54542
+  active14=False | active_to=2026-02-06 | trade_days=7 | cache_last=2026-02-06
+  tags=["HL履歴なし", "Nansen発見", "取引なし(14d)"]
+  labels=["Former Smart Trader [0x9d0ea1]"]
+  notes=【ひとことで】🤓 Nansenが『常勝(Smart Money)』認定したトレーダー。たぶんプロ、未精査。
+【正体】Former Smart Trader [0x9d0ea1]（Nansenラベル）
+【成績】通算PnL $54,521・ROI 21%・現在残高 $0
+【補足】残高が小さい＝稼ぎを引き上げ済の可能性（出金）。
+
+IDX 504
+  addr 0x7c3d0402278366a3e1ed3f2b997005b7ca0e1ebe
+  position=除外/低優先 | cached=True | wf_quality=None | copy=None
+  win_rate=None | majors_realized=0 | all_realized=53447
+  active14=False | active_to=2026-04-02 | trade_days=47 | cache_last=2026-04-02
+  tags=["HL履歴なし", "Nansen発見", "取引なし(14d)"]
+  labels=["Funded @2023Lions On Friendtech [0x7c3d04]"]
+  notes=【ひとことで】🏦 著名な機関/ファンド。インサイダーでなくプロの組織。
+【正体】Funded @2023Lions On Friendtech [0x7c3d04]（Nansenラベル）
+【成績】通算PnL $53,447・ROI 35%・現在残高 $0
+【補足】残高が小さい＝稼ぎを引き上げ済の可能性（出金）。
+
+IDX 505
+  addr 0x8bd097df5ae353adc890ff704d360d8916220cee
+  position=除外/低優先 | cached=True | wf_quality=None | copy=None
+  win_rate=1.0 | majors_realized=114 | all_realized=138435
+  active14=False | active_to=2026-01-11 | trade_days=234 | cache_last=2026-01-11
+  tags=["HL検証:非該当", "Nansen発見", "取引なし(14d)"]
+  labels=["Former Smart Trader [0x8bd097]"]
+  notes=【ひとことで】🤓 Nansenが『常勝(Smart Money)』認定したトレーダー。たぶんプロ、未精査。
+【正体】Former Smart Trader [0x8bd097]（Nansenラベル）
+【成績】通算PnL $52,969・ROI 2%・現在残高 $0
+【補足】残高が小さい＝稼ぎを引き上げ済の可能性（出金）。
+
+IDX 506
+  addr 0xd46979f07f5d1e86ae2dcc5e6e0f3af5fe270471
+  position=除外/低優先 | cached=True | wf_quality=None | copy=None
+  win_rate=0.625 | majors_realized=1806 | all_realized=133085
+  active14=False | active_to=2026-06-18 | trade_days=284 | cache_last=2026-06-18
+  tags=["HL検証:非該当", "Nansen発見", "取引あり(14d)"]
+  labels=["🤓 Smart HL Perps Trader [0xd46979]"]
+  notes=【ひとことで】🤓 Nansenが『常勝(Smart Money)』認定したトレーダー。たぶんプロ、未精査。
+【正体】🤓 Smart HL Perps Trader [0xd46979]（Nansenラベル）
+【成績】通算PnL $52,634・ROI 3%・現在残高 $0
+【補足】残高が小さい＝稼ぎを引き上げ済の可能性（出金）。
+
+IDX 507
+  addr 0xe4227d5d418d2a8be327a6470f66837ac9e49fdb
+  position=除外/低優先 | cached=True | wf_quality=None | copy=None
+  win_rate=0.9713 | majors_realized=14003 | all_realized=114977
+  active14=False | active_to=2026-03-26 | trade_days=76 | cache_last=2026-03-26
+  tags=["HL検証:非該当", "Nansen発見", "取引なし(14d)"]
+  labels=["Former Smart Trader [0xe4227d]"]
+  notes=【ひとことで】🤓 Nansenが『常勝(Smart Money)』認定したトレーダー。たぶんプロ、未精査。
+【正体】Former Smart Trader [0xe4227d]（Nansenラベル）
+【成績】通算PnL $52,546・ROI 0%・現在残高 $0
+【補足】残高が小さい＝稼ぎを引き上げ済の可能性（出金）。
+
+IDX 508
+  addr 0xdc7be236c4b1ee77d16758451a198275ec9839b6
+  position=除外/低優先 | cached=True | wf_quality=None | copy=None
+  win_rate=0.8843 | majors_realized=418126 | all_realized=429616
+  active14=False | active_to=2026-01-31 | trade_days=164 | cache_last=2026-01-31
+  tags=["HL検証:非該当", "Nansen発見", "取引なし(14d)"]
+  labels=["Former Smart Trader [0xdc7be2]"]
+  notes=【ひとことで】🤓 Nansenが『常勝(Smart Money)』認定したトレーダー。たぶんプロ、未精査。
+【正体】Former Smart Trader [0xdc7be2]（Nansenラベル）
+【成績】通算PnL $52,399・ROI 20%・現在残高 $11,486
+【補足】残高が小さい＝稼ぎを引き上げ済の可能性（出金）。
+
+IDX 509
+  addr 0xac45086d25bdb4e25a9db3ded7ad36d3044e6c33
+  position=除外/低優先 | cached=True | wf_quality=None | copy=None
+  win_rate=0.899 | majors_realized=32095 | all_realized=-365977
+  active14=True | active_to=2026-06-18 | trade_days=269 | cache_last=2026-06-18
+  tags=["HL検証:非該当", "Nansen発見", "取引あり(14d)"]
+  labels=["Former Smart Trader [0xac4508]"]
+  notes=【ひとことで】🤓 Nansenが『常勝(Smart Money)』認定したトレーダー。たぶんプロ、未精査。
+【正体】Former Smart Trader [0xac4508]（Nansenラベル）
+【成績】通算PnL $52,371・ROI 1%・現在残高 $2,915
+【補足】残高が小さい＝稼ぎを引き上げ済の可能性（出金）。
+
+IDX 510
+  addr 0x1e6db0fdf1a0f6edb78753184eb0fe5485c2eef2
+  position=プロトレーダー(本物) | cached=True | wf_quality=プロ格下げ | copy=False
+  win_rate=1.0 | majors_realized=328868 | all_realized=6015763
+  active14=False | active_to=2026-06-10 | trade_days=558 | cache_last=2026-06-10
+  tags=["HL検証済プロ", "Nansen発見", "Tier-S", "取引あり(14d)", "質:格下げ相当(MM/窓)"]
+  labels=["Token Millionaire"]
+  notes=【ひとことで】🟢 多数の取引で安定して稼ぎ、急変直前の先行建玉は検出されず＝実力のプロ（HL行動で確認）。
+【HL実測】実現益$328,868・勝率1.0・方向的中率0.0・急変先行$0
+【活動期間】2025-02-27〜2025-06-07（majors 346約定）
+【正体(Nansen)】🤓 Smart HL Perps Trader [0x1e6db0]
+
+IDX 511
+  addr 0x55999a9124b976d05a7fd98d414e185d95e9e940
+  position=除外/低優先 | cached=True | wf_quality=None | copy=None
+  win_rate=0.4281 | majors_realized=1892 | all_realized=-110260
+  active14=True | active_to=2026-06-17 | trade_days=477 | cache_last=2026-06-17
+  tags=["MM/HFT", "Nansen発見", "取引あり(14d)"]
+  labels=["Former Smart Trader [0x55999a]"]
+  notes=【ひとことで】🤓 Nansenが『常勝(Smart Money)』認定したトレーダー。たぶんプロ、未精査。
+【正体】Former Smart Trader [0x55999a]（Nansenラベル）
+【成績】通算PnL $51,572・ROI 5%・現在残高 $18,297
+【補足】残高が小さい＝稼ぎを引き上げ済の可能性（出金）。
+
+IDX 512
+  addr 0x9ede7d6c60c40755352f9f84e146eb9f0ee25327
+  position=除外/低優先 | cached=True | wf_quality=None | copy=None
+  win_rate=None | majors_realized=0 | all_realized=6328
+  active14=False | active_to=2026-06-02 | trade_days=22 | cache_last=2026-06-02
+  tags=["HL検証:非該当", "Nansen発見", "取引なし(14d)"]
+  labels=["🤓 Selini Capital [0x9ede7d]"]
+  notes=【ひとことで】🏦 著名な機関/ファンド。インサイダーでなくプロの組織。
+【正体】🤓 Selini Capital [0x9ede7d]（Nansenラベル）
+【成績】通算PnL $51,428・ROI 2%・現在残高 $0
+【補足】残高が小さい＝稼ぎを引き上げ済の可能性（出金）。
+
+IDX 513
+  addr 0x402cf0cac36c6faa342b8379d77111e158fe75d0
+  position=除外/低優先 | cached=True | wf_quality=None | copy=None
+  win_rate=0.6381 | majors_realized=110748 | all_realized=203907
+  active14=False | active_to=2026-06-11 | trade_days=396 | cache_last=2026-06-11
+  tags=["HL検証:非該当", "Nansen発見", "取引あり(14d)"]
+  labels=["Former Smart Trader [0x402cf0]"]
+  notes=【ひとことで】🤓 Nansenが『常勝(Smart Money)』認定したトレーダー。たぶんプロ、未精査。
+【正体】Former Smart Trader [0x402cf0]（Nansenラベル）
+【成績】通算PnL $50,371・ROI 2%・現在残高 $0
+【補足】残高が小さい＝稼ぎを引き上げ済の可能性（出金）。
+
+IDX 514
+  addr 0x74da055d4ccf9dca3f15789c603e1a88a1d2d81f
+  position=除外/低優先 | cached=True | wf_quality=None | copy=None
+  win_rate=0.7072 | majors_realized=1467576 | all_realized=2190821
+  active14=False | active_to=2026-02-04 | trade_days=13 | cache_last=2026-02-04
+  tags=["HL先行検出", "Nansen発見", "WF:debunked", "取引なし(14d)"]
+  labels=[]
+  notes=【別視点再精査(WF2 2026-06-17)】debunked（確度0.08）→ 除外/低優先
+先行はlead_unique_events全tier=0・実質N=1の単一BTCボラ episode・$13.4M先行は同一hash重複の水増しで、内部矛盾(取引停止後の誤結合)まで抱える。無害に説明しきれるため除外。
+―――（以下は従前の記録）―――
+【workflowレッドチーム検証】weak-s
+
+IDX 515
+  addr 0xbdd243d77a59a3b38d21bf61e78a6ba4702f2bbc
+  position=除外/低優先 | cached=True | wf_quality=None | copy=None
+  win_rate=None | majors_realized=0 | all_realized=341331
+  active14=False | active_to=2026-01-25 | trade_days=38 | cache_last=2026-01-25
+  tags=["HL先行検出", "Nansen発見", "公共サービス資金源(協調でない)", "取引なし(14d)"]
+  labels=[]
+  notes=【判定】偽陽性濃厚(的中9%=先行は出来高由来の偶然)
+【資金源】🤖 DLN: DlnDestination [0xe7351f]＝Gas.zip/deBridge等の公共サービス（誰でも使う共用ハブ）。同一イベント同時刻の取引も無く、協調の証拠は無い。独立した先行トレーダーとして要監視。
+【的中率】0.0918
+
+IDX 516
+  addr 0xb19e03768f72cb1b47fcd68f7fb99460b1e789b9
+  position=除外/低優先 | cached=True | wf_quality=None | copy=None
+  win_rate=0.6089 | majors_realized=147382 | all_realized=1161795
+  active14=False | active_to=2026-06-05 | trade_days=271 | cache_last=2026-06-05
+  tags=["HL先行検出", "Nansen発見", "WF:debunked", "公共サービス資金源(協調でない)", "取引なし(14d)"]
+  labels=["High Balance"]
+  notes=【workflowレッドチーム検証】debunked（確度0.08）
+【支持根拠】唯一インサイダー寄りに見えるのは「BTC short $100,001 を -3.32% 急変(2026-04-02 00:00)の約5.4h前(04-01 18:38)に建てた」先行例と、+$985,536 の実現益・High Balance ラベル。event_lead_usd は $300,002 と一定規模に
+
+IDX 517
+  addr 0x6f7d75c18e8ca7f486eb4d2690abf7b329087062
+  position=除外/低優先 | cached=True | wf_quality=None | copy=None
+  win_rate=0.9048 | majors_realized=3646262 | all_realized=3646262
+  active14=False | active_to=2026-04-01 | trade_days=191 | cache_last=2026-04-01
+  tags=["HL先行検出", "Nansen発見", "WF:debunked", "取引なし(14d)"]
+  labels=["High Activity"]
+  notes=【別視点再精査(WF2 2026-06-17)】debunked（確度0.05）→ 除外/低優先
+先行は同一イベントのN=1分割約定に化け、資金源は公然と追跡可能な普通のDeFiユーザー。インサイダーの根拠は全レンズで崩壊し、無害に説明しきれる。
+―――（以下は従前の記録）―――
+【workflowレッドチーム検証】weak-suspect（確度0.2）
+【支持根拠】私的ウォレット資金源（[0x2
+
+IDX 518
+  addr 0x4eebd8d39e82efb958e0fa9f694435c910c8518f
+  position=プロトレーダー(本物) | cached=True | wf_quality=履歴薄/評価不能 | copy=False
+  win_rate=1.0 | majors_realized=5802013 | all_realized=5802013
+  active14=False | active_to=2026-02-06 | trade_days=102 | cache_last=2026-02-06
+  tags=["HL検証済プロ", "Nansen発見", "Tier-S", "取引なし(14d)", "質:履歴薄(評価不能)"]
+  labels=["[0x4eebd8]"]
+  notes=【ひとことで】🟢 多数の取引で安定して稼ぎ、急変直前の先行建玉は検出されず＝実力のプロ（HL行動で確認）。
+【HL実測】実現益$5,802,013・勝率1.0・方向的中率0.0・急変先行$0
+【活動期間】2025-10-26〜2026-02-06（majors 1098約定）
+【正体(Nansen)】[0x4eebd8]
+
+IDX 519
+  addr 0x8cfe4bc352deb10ed41c5f0f89bc57674cee1e22
+  position=プロトレーダー(本物) | cached=True | wf_quality=堅実 | copy=True
+  win_rate=0.9629 | majors_realized=4829823 | all_realized=4829823
+  active14=False | active_to=2026-03-13 | trade_days=253 | cache_last=2026-03-13
+  tags=["HL検証済プロ", "Nansen発見", "Tier-A", "プロ実績未確認(約定取得不能)", "取引なし(14d)", "質:堅実(WF検証)"]
+  labels=["HL Perps Position Trader [0x8cfe4b]"]
+  notes=【ひとことで】🟢 多数の取引で安定して稼ぎ、急変直前の先行建玉は検出されず＝実力のプロ（HL行動で確認）。
+【HL実測】実現益$4,809,094・勝率0.9628・方向的中率0.1203・急変先行$0
+【活動期間】2025-07-02〜2026-03-13（majors 6074約定）
+【正体(Nansen)】HL Perps Position Trader [0x8cfe4b]
+
