@@ -178,13 +178,13 @@ def esc(x):
 
 # ポジション表示順と色
 POS_ORDER = ["インサイダー疑惑(要監視)", "弱い疑惑(監視継続)", "💸 出金疑い(要監視)",
-             "プロトレーダー(本物)", "alt主体プロ", "プロトレーダー(未精査)",
+             "プロトレーダー(本物)", "alt主体プロ", "高頻度MM", "プロトレーダー(未精査)",
              "偽陽性(数値疑惑→否定)", "除外/低優先"]
 POS_COLOR = {
     "インサイダー疑惑(要監視)": "#ff5d6c", "弱い疑惑(監視継続)": "#ffb454",
     "💸 出金疑い(要監視)": "#f59e0b",
     "プロトレーダー(本物)": "#3fb950", "alt主体プロ": "#56b6c2",
-    "プロトレーダー(未精査)": "#4ea1ff",
+    "高頻度MM": "#a78bfa", "プロトレーダー(未精査)": "#4ea1ff",
     "偽陽性(数値疑惑→否定)": "#7a8390", "除外/低優先": "#5c636d",
 }
 HL_ADDR = "https://app.hyperliquid.xyz/explorer/address/{a}"
@@ -425,6 +425,8 @@ def render_all(reg):
                 drop=PRO_POSITIONS | CANDIDATE_POSITIONS | EXCLUDED_POSITIONS)
     render_html(reg, out="pros.html",
                 title="プロ一覧（HL行動で検証した実力層・Vault運用者）", only=PRO_POSITIONS)
+    render_html(reg, out="mm.html",
+                title="高頻度MM / HFT（薄利多売・方向性でない・コピー不能）", only={"高頻度MM"})
     render_html(reg, out="excluded.html",
                 title="除外・低優先（MM/ノイズ/履歴なし/偽陽性）", only=EXCLUDED_POSITIONS)
 
