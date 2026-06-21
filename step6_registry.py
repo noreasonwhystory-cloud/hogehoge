@@ -234,6 +234,9 @@ def render_html(reg, out="registry.html",
                     lb_disp += f"<br><span class='muted'>差${gap:,.0f}<br>(alt/funding等)</span>"
         else:
             lb_disp = "—"
+        # 全実現損益（キャッシュ全銘柄closedPnl合計）。旧Tierはこの金額のバケットだった→数値そのものを表示。
+        ta = e.get("true_realized_all")
+        ta_disp = f"${ta:,.0f}" if isinstance(ta, (int, float)) else "—"
         nf = e.get("n_fills_14d")
         if nf is None:
             nf = (e.get("hl_profile") or {}).get("n_fills_recent")
@@ -245,8 +248,12 @@ def render_html(reg, out="registry.html",
             period_disp = f"{esc(af)}〜{esc(at2)}<br><span class='muted'>{mo}</span>"
         else:
             period_disp = "—"
-        # 表示タグ = オートタグ + 手動/クラスタタグ（funder: は冗長なので除外）
-        all_tags = list(e.get("auto_tags", [])) + [t for t in e.get("tags", []) if not t.startswith("funder:")]
+        # 表示タグ = オートタグ + 手動/クラスタタグ（funder: は冗長／Tier-は全実現損益列へ置換ゆえ除外）
+        all_tags = list(e.get("auto_tags", [])) + [t for t in e.get("tags", [])
+                                                   if not t.startswith("funder:") and not t.startswith("Tier-")]
+        # 品質(wf_quality)をタグ化＝フィルタ可能に（質:エリート/堅実/中堅…）
+        if e.get("wf_quality") and f"質:{e['wf_quality']}" not in all_tags:
+            all_tags.append(f"質:{e['wf_quality']}")
         tags = "".join(
             f"<span class='tag' style='--tc:{tagging.tag_color(t)}'>{esc(t)}</span>"
             for t in all_tags
@@ -280,6 +287,7 @@ def render_html(reg, out="registry.html",
   <td>{esc(round(cur.get('win_rate',0) or 0,2))}/{esc(round(cur.get('dir_accuracy',0) or 0,2))}</td>
   <td>{esc(f"${cur.get('total_pnl',0):,.0f}" if cur.get('total_pnl') is not None else '-')}</td>
   <td class="lbat">{lb_disp}</td>
+  <td class="lbat">{ta_disp}</td>
   <td>{roi_disp}</td>
   <td>{nf_disp}</td>
   <td class="period">{period_disp}</td>
@@ -302,9 +310,13 @@ def render_html(reg, out="registry.html",
     # フィルタバー: 全タグをカテゴリ別に集計して clickable chip 化
     tagcount = Counter()
     for e in wallets:
-        for t in list(e.get("auto_tags", [])) + [x for x in e.get("tags", []) if not x.startswith("funder:")]:
+        at = list(e.get("auto_tags", [])) + [x for x in e.get("tags", [])
+                                             if not x.startswith("funder:") and not x.startswith("Tier-")]
+        if e.get("wf_quality") and f"質:{e['wf_quality']}" not in at:
+            at.append(f"質:{e['wf_quality']}")
+        for t in at:
             tagcount[t] += 1
-    CAT_ORDER = ["位置", "Tier", "活動", "ROI:", "PnL:", "頻度:", "保有:", "方向:",
+    CAT_ORDER = ["位置", "品質", "活動", "ROI:", "PnL:", "頻度:", "保有:", "方向:",
                  "レバ:", "銘柄:", "ID:", "検証", "資金/出金", "区分", "他"]
     AXIS = ["ROI:", "PnL:", "頻度:", "保有:", "方向:", "レバ:", "銘柄:", "ID:"]
     def cat_of(t):
@@ -332,7 +344,7 @@ def render_html(reg, out="registry.html",
     for t, c in tagcount.items():
         groups.setdefault(cat_of(t), []).append((t, c))
     groups["位置"] = [(p, pos[p]) for p in POS_ORDER if pos.get(p)]
-    GLABEL = {"位置": "位置づけ", "Tier": "Tier(プロ格)", "活動": "活動(14日)",
+    GLABEL = {"位置": "位置づけ", "品質": "品質(WF精査)", "活動": "活動(14日)",
               "ROI:": "ROI", "PnL:": "PnL", "頻度:": "頻度", "保有:": "保有",
               "方向:": "方向", "レバ:": "レバ", "銘柄:": "銘柄", "ID:": "正体",
               "検証": "検証/疑い", "資金/出金": "資金/出金", "区分": "区分", "他": "他"}
@@ -390,7 +402,7 @@ tr.inact td:first-child{{box-shadow:inset 3px 0 #6b5535}}
   <span class="muted" style="font-size:11px;margin-left:8px">※複数選択はAND（すべて満たす行）</span></div>
 </div>
 <table id="reg">
-<tr><th>位置づけ</th><th>濃度</th><th>アドレス</th><th>数値分類</th><th>勝率/的中</th><th>majors損益<br><span style="font-weight:400;color:#8b949e">実現(取引)</span></th><th>HL公式通算<br><span style="font-weight:400;color:#8b949e">総額(全銘柄+funding)</span></th><th>ROI(全期)</th><th>取引数(14日)</th><th>取引期間(HL履歴)</th><th>保有h</th><th>タグ</th><th>観測</th><th>多角判定 / 履歴(直近)</th></tr>
+<tr><th>位置づけ</th><th>濃度</th><th>アドレス</th><th>数値分類</th><th>勝率/的中</th><th>majors損益<br><span style="font-weight:400;color:#8b949e">実現(取引)</span></th><th>HL公式通算<br><span style="font-weight:400;color:#8b949e">総額(全銘柄+funding)</span></th><th>全実現損益<br><span style="font-weight:400;color:#8b949e">全銘柄closedPnl(旧Tier)</span></th><th>ROI(全期)</th><th>取引数(14日)</th><th>取引期間(HL履歴)</th><th>保有h</th><th>タグ</th><th>観測</th><th>多角判定 / 履歴(直近)</th></tr>
 {rows}
 </table>
 <script>
