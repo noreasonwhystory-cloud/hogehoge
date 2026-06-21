@@ -45,11 +45,15 @@ def true_realized(addr):
     t0 = min(int(f["time"]) for f in maj) if maj else None
     t1 = max(int(f["time"]) for f in maj) if maj else None
     now = int(__import__("time").time() * 1000)
+    cut = now - 14 * 86400000
+    rec = [f for f in fl if int(f["time"]) >= cut]       # 直近14日の約定(キャッシュ真値)
     return {"real_all": round(real_all), "real_maj": round(real_maj),
             "win_rate": round(wins / len(closes_maj), 4) if closes_maj else None,
             "n_closes": len(closes_maj), "n_fills": len(fl),
+            "n_fills_14d": len(rec),
+            "n_fills_14d_maj": sum(1 for f in rec if f.get("coin") in config.COINS),
             "active_days": round((t1 - t0) / 86400000, 1) if t0 else None,
-            "active14": (now - t1) <= 14 * 86400000 if t1 else None,
+            "active14": bool(rec),
             "n_pos_months": len(pos_m),
             "top_month_share": round(max(pos_m.values()) / tot_pos, 2) if tot_pos else None}
 
@@ -82,6 +86,8 @@ def main():
         e["true_realized_all"] = t["real_all"]
         e["true_realized_maj"] = t["real_maj"]
         e["n_closes"] = t["n_closes"]
+        e["n_fills_14d"] = t["n_fills_14d"]            # 取引数(14日)もキャッシュ真値に統一
+        e["n_fills_14d_maj"] = t["n_fills_14d_maj"]
         e["active_days"] = t["active_days"]
         if t["active14"] is not None:
             e["active14"] = t["active14"]

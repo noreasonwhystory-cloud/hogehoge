@@ -58,10 +58,15 @@ def main():
         summary = " ".join(s for s in nj[:3] if not s.startswith("―"))[:240]
         tags = "".join(f"<span class='tag'>{esc(t)}</span>" for t in e.get("tags", [])
                        if not t.startswith("funder:"))
+        nf = e.get("n_fills_14d")
+        nfd = f"{nf:,}" if isinstance(nf, (int, float)) else "—"
+        nfm = e.get("n_fills_14d_maj")
+        nfsub = f"<div class='sub2'>majors {nfm:,}</div>" if isinstance(nfm, (int, float)) else ""
         rows += f"""<tr>
 <td><b>{esc(reason(e))}</b><div class="pos">{esc(e['position'])}</div></td>
 <td><code>{esc(a[:18])}…</code><div class="lnk"><a href="{HLX.format(a=a)}" target="_blank">HL</a></div></td>
 <td class="num">{rmd}</td><td class="num">{lbd}</td><td class="num">{wrd}</td>
+<td class="num">{nfd}{nfsub}</td>
 <td class="per">{esc(e.get('active_from'))}〜{esc(e.get('active_to'))}</td>
 <td class="sm">{tags}<div class="note">{esc(summary)}</div></td>
 </tr>"""
@@ -76,7 +81,7 @@ th,td{{border:1px solid #232a34;padding:8px 10px;text-align:left;vertical-align:
 .pos{{color:#8b949e;font-size:11px;margin-top:3px}} code{{background:#0b0f14;padding:1px 5px;border-radius:4px;font-size:11px}}
 .lnk a{{font-size:10px}} .num{{text-align:right;white-space:nowrap}} .per{{font-size:11px;color:#9aa3ad;white-space:nowrap}}
 .sm{{max-width:520px}} .tag{{display:inline-block;background:#16201c;border:1px solid #2a4636;color:#7fd6a8;border-radius:9px;font-size:10px;padding:1px 7px;margin:1px}}
-.note{{font-size:11px;color:#9aa3ad;margin-top:5px;line-height:1.55}}
+.note{{font-size:11px;color:#9aa3ad;margin-top:5px;line-height:1.55}} .sub2{{font-size:10px;color:#8b949e}}
 .kpi{{display:flex;gap:12px;margin:12px 0}} .kc{{background:#171b22;border:1px solid #232a34;border-radius:9px;padding:10px 16px}}
 .kc .v{{font-size:22px;font-weight:700;color:#ffb454}} .kc .l{{font-size:11px;color:#8b949e}}
 </style></head><body>
@@ -85,7 +90,7 @@ th,td{{border:1px solid #232a34;padding:8px 10px;text-align:left;vertical-align:
 リアルタイムの建玉・新規アクションは <a href="live.html">📡 ライブ監視</a>。 <a href="index.html">トップ</a></div>
 <div class="kpi"><div class="kc"><div class="v">{len(items)}</div><div class="l">監視対象 合計</div></div></div>
 <table>
-<tr><th>監視理由</th><th>アドレス</th><th>majors実現</th><th>HL公式通算</th><th>勝率</th><th>取引期間</th><th>タグ / 精査メモ</th></tr>
+<tr><th>監視理由</th><th>アドレス</th><th>majors実現</th><th>HL公式通算</th><th>勝率</th><th>取引数(14日)</th><th>取引期間</th><th>タグ / 精査メモ</th></tr>
 {rows}</table>
 <div class="sub" style="margin-top:14px;font-size:11.5px">※ いずれも「確証」ではなく人間レビュー用の残存疑い。遅効エッジ＝4h固定では見えぬ24-72hの局所検証済の黒字スイング、
 欺瞞要監視＝隠蔽手口8軸の裁定で良性説に解消しきれなかった残疑、単一銘柄アルファ＝特定銘柄(@107等)への情報優位の可能性。</div>
