@@ -255,7 +255,7 @@ def render_html(reg, out="registry.html",
         if e.get("wf_quality") and f"質:{e['wf_quality']}" not in all_tags:
             all_tags.append(f"質:{e['wf_quality']}")
         tags = "".join(
-            f"<span class='tag' style='--tc:{tagging.tag_color(t)}'>{esc(t[2:] if t.startswith('質:') else t)}</span>"
+            f"<span class='tag' style='--tc:{tagging.tag_color(t)}'>{esc(t.split(':',1)[1] if (t.startswith('質:') or t.startswith('HFT:')) else t)}</span>"
             for t in all_tags
         )
         data_tags = esc(" ".join(all_tags) + " " + e["position"])
@@ -317,7 +317,7 @@ def render_html(reg, out="registry.html",
         for t in at:
             tagcount[t] += 1
     # 全件キャッシュ真値で揃う軸のみ表示（ROI/保有/レバ/方向は旧スキャン/ライブ依存で全件揃わぬため除外）
-    CAT_ORDER = ["位置", "品質", "活動", "PnL:", "頻度:", "銘柄:", "ID:",
+    CAT_ORDER = ["位置", "品質", "HFT", "活動", "PnL:", "頻度:", "銘柄:", "ID:",
                  "検証", "資金/出金", "区分", "他"]
     AXIS = ["ROI:", "PnL:", "頻度:", "保有:", "方向:", "レバ:", "銘柄:", "ID:"]
     def cat_of(t):
@@ -325,6 +325,8 @@ def render_html(reg, out="registry.html",
             return "Tier"
         if t.startswith("質:"):
             return "品質"
+        if t.startswith("HFT:"):
+            return "HFT"
         if t.startswith("取引あり") or t.startswith("取引なし"):
             return "活動"
         for c in AXIS:
@@ -346,14 +348,14 @@ def render_html(reg, out="registry.html",
     for t, c in tagcount.items():
         groups.setdefault(cat_of(t), []).append((t, c))
     groups["位置"] = [(p, pos[p]) for p in POS_ORDER if pos.get(p)]
-    GLABEL = {"位置": "位置づけ", "品質": "品質", "活動": "活動(14日)",
+    GLABEL = {"位置": "位置づけ", "品質": "品質", "HFT": "HFT回転速度", "活動": "活動(14日)",
               "ROI:": "ROI", "PnL:": "PnL", "頻度:": "頻度", "保有:": "保有",
               "方向:": "方向", "レバ:": "レバ", "銘柄:": "銘柄", "ID:": "正体",
               "検証": "検証/疑い", "資金/出金": "資金/出金", "区分": "区分", "他": "他"}
     # チップの並びは「人数順」でなく「良い→悪い／高→低」の意味順。未知タグは人数で補助。
     GOOD_ORDER = (POS_ORDER + [
         "質:エリート", "質:堅実", "質:中堅", "質:ムラあり", "質:履歴薄/評価不能", "質:alt主体",
-        "質:超高速HFT(10k+/月)", "質:高速(3k-10k/月)", "質:標準(1.5k-3k/月)", "質:低速(〜1.5k/月)",
+        "HFT:超高速(10k+/月)", "HFT:高速(3k-10k/月)", "HFT:標準(1.5k-3k/月)", "HFT:低速(〜1.5k/月)",
         "取引あり(14d)", "取引なし(14d)",
         "ROI:超高(>1000%)", "ROI:高(100-1000%)", "ROI:中(10-100%)", "ROI:低(<10%)", "ROI:赤字",
         "PnL:メガ(>$10M)", "PnL:大($1-10M)", "PnL:中($100k-1M)", "PnL:小(<$100k)", "PnL:赤字",
@@ -369,7 +371,7 @@ def render_html(reg, out="registry.html",
             continue
         items = sorted(groups[c], key=lambda x: (RANK.get(x[0], 9999), -x[1]))
         chipshtml = "".join(
-            f"<span class='ft' style='--tc:{tagging.tag_color(t if c!='位置' else t)}' data-t=\"{esc(t)}\">{esc(t[2:] if t.startswith('質:') else t)} ({n})</span>"
+            f"<span class='ft' style='--tc:{tagging.tag_color(t if c!='位置' else t)}' data-t=\"{esc(t)}\">{esc(t.split(':',1)[1] if (t.startswith('質:') or t.startswith('HFT:')) else t)} ({n})</span>"
             for t, n in items
         )
         filterbar += f"<div class='grp'><span class='glabel'>{GLABEL.get(c,c)}</span>{chipshtml}</div>"

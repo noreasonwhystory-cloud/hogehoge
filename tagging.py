@@ -141,6 +141,8 @@ TIER_COLOR = {"Tier-S": "#ffd24a", "Tier-A": "#3fb950", "Tier-B": "#4ea1ff",
 def tag_color(tag):
     if tag in TIER_COLOR:
         return TIER_COLOR[tag]
+    if tag.startswith("HFT:"):
+        return "#a78bfa"            # 紫=HFT回転速度(MM)
     # 品質(workflow精査) は良→悪でグラデーション
     if tag.startswith("質:"):
         if "エリート" in tag:
