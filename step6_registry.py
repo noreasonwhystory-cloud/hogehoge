@@ -255,7 +255,7 @@ def render_html(reg, out="registry.html",
         if e.get("wf_quality") and f"質:{e['wf_quality']}" not in all_tags:
             all_tags.append(f"質:{e['wf_quality']}")
         tags = "".join(
-            f"<span class='tag' style='--tc:{tagging.tag_color(t)}'>{esc(t)}</span>"
+            f"<span class='tag' style='--tc:{tagging.tag_color(t)}'>{esc(t[2:] if t.startswith('質:') else t)}</span>"
             for t in all_tags
         )
         data_tags = esc(" ".join(all_tags) + " " + e["position"])
@@ -367,7 +367,7 @@ def render_html(reg, out="registry.html",
             continue
         items = sorted(groups[c], key=lambda x: (RANK.get(x[0], 9999), -x[1]))
         chipshtml = "".join(
-            f"<span class='ft' style='--tc:{tagging.tag_color(t if c!='位置' else t)}' data-t=\"{esc(t)}\">{esc(t)} ({n})</span>"
+            f"<span class='ft' style='--tc:{tagging.tag_color(t if c!='位置' else t)}' data-t=\"{esc(t)}\">{esc(t[2:] if t.startswith('質:') else t)} ({n})</span>"
             for t, n in items
         )
         filterbar += f"<div class='grp'><span class='glabel'>{GLABEL.get(c,c)}</span>{chipshtml}</div>"
