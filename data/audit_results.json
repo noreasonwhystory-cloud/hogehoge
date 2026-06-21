@@ -1,0 +1,258 @@
+{
+  "dimension_summaries": [
+    {
+      "dimension": "data_integrity",
+      "summary": "構造化数値層は極めて健全。全567件を cache(data/fills)の closedPnl 再計算と突合した結果、current.total_pnl(=majors実現)・true_realized_all・true_realized_maj・win_rate・n_closes は全件で誤差±1以内に一致(乖離0件)。無作為22件の明示突合でも全件OK。reaudit_realized.py のロジック(majors=BTC/ETH/SOL、closedPnl>1e-9のみclose扱い、win_rate=majors close勝ち/全close)が registry に正しく反映されており、捏造・計算ミス・古い値は構造化フィールドには無い。lb_alltime と true_realized_all の大乖離(例: lb=$114.8M vs true=-$1.76M、lb=-$5.24M vs true=+$0.97M)は funding/alt/未実現損益/履歴全期間という出所差で説明可能で、矛盾ではない。検出された問題は全て『表示テキスト(notes_jp)の再生成漏れ』と『時間窓スナップショットの鮮度』に限局する。最重要は notes_jp ヘッダの majors実現額が再正規化後の true_realized_maj と87/450件で不一致、うち7件は符号反転(損失を利益と表示)。これは step6_registry が notes_jp を逐語描画するためHTMLにそのまま出る。",
+      "raw_count": 5
+    },
+    {
+      "dimension": "classification",
+      "summary": "567件全ウォレットの true_realized_all / true_realized_maj は data/fills の closedPnl 合計と完全一致(>2%乖離=0件)で、数値の捏造・幻覚は無い。生分類(プロ/弱い疑惑)で true_realized_all 赤字=0件、reaudit_realized.py の「生分類×真の実現赤字→除外」不変条件は守られている。MM102件は全件が絶対閾値(closes>1500 or fills>3000)を満たし分類は妥当。弱い疑惑6件・偽陽性7件も概ね根拠を持つ。ただし重大な問題を複数検出: (1)欺瞞判定で primary_explanation=insider_camouflage・「406W/0L→295W/0L のゼロ負け月(cache実測で確認)はskill/MM/運で再現不能=foreknowledge級」と最強級に名指しされた 0x7c6b383a03 が registry では『除外/低優先』(同じ要監視でも低スコア0.18の0x5efcは弱い疑惑)。(2)position_of のロジック欠陥で、alt多角判定が agreement=agree・「格上げ:本物」と認めた稼ぐトレーダー2件($1.18M/$292k)が機械的に『偽陽性』へ。(3)summary.html の品質内訳がregistry実値と不整合(stale)。(4)notes_jp の majors実現額がreaudit正規化後のフィールドと89件で乖離(最大$2.9M)。",
+      "raw_count": 6
+    },
+    {
+      "dimension": "methodology",
+      "summary": "「確証ある個人インサイダーゼロ」は真の陰性ではなく、検知パイプラインの構造的盲点に強く依存している。データ整合性そのものは健全(registry の true_realized_all は data/fills の closedPnl 合計と 567件全件で完全一致、誤差0)。しかし偽陰性リスクは複数の実証済み経路で重大: (1) deception_scan は 2033 パターンヒットを生成するのに、裁定 workflow が見たのは 89件(4.4%)のみ。単一パターンは prep_deception_review.py で各 8件程度に切り詰められ、$3.46M の dormant-burst 容疑(0xa87a233e8a7d, max_gap 82.7日・win 0.32)や $9M 級の deliberate-dip が「スコア順位が低い」だけで一度も精査されず、しかもこの $3.46M ウォレットは台帳にすら未登録。(2) 一次インサイダー分類 classify() が win_rate≥0.80 を必須にしており、プロジェクト自身が pattern B で「インサイダーの隠蔽署名」と定義する低勝率・高PnL層(≥$500k かつ win<0.55 が実在37件、最大 $10.9M)を構造的に insider_suspect から除外。一次分類が自分で文書化した欺瞞に対して盲目。(3) pattern G(出金規律)はdocstringに定義されながら patterns() に未実装=8軸ではなく実質7軸。(4) pattern E(新鮮ウォレット単発大当たり)は実装済みだが候補プールがリーダーボード生存者に偏り、3844キャッシュ中フレッシュ profile は22件・$100k 到達ゼロ=survivorship bias で hit-and-run 型を構造的に取りこぼす。(5) insider_multihorizon の「遅効カタリスト」フィルタは 4h 価格ルックアップのアーティファクト(4h だけ 1h/12h 双方より0.3超低い実装不能パターンが47候補中7件、detrended では4hエッジ実質ゼロ)に汚染され、かつ surfaced した47候補中44件が裁定 workflow 未投入。",
+      "raw_count": 7
+    },
+    {
+      "dimension": "fabrication",
+      "summary": "中核数値の捏造・幻覚は検出されなかった。全567ウォレットで registry の true_realized_all / true_realized_maj / current.total_pnl が data/fills の closedPnl 合計と完全一致（誤差0件）。win_rate も cache の majors クローズから正しく算出（例: 0x729887 は 22/22=1.0 が実在、塩漬け由来である旨も正しくフラグ）。labels / first_funders / counterparties は Nansen API の実データ（nansen_candidates.json・ten_ref_nansen.json 由来、実在の取引所/プロトコルラベル179件・現実的なタイムスタンプ）であり、ダミー埋め・幻覚ではない。HTML の断定表現も「断定せずフラグ」原則に整合（偽陰性リスク0.05-0.08を明記、確証ゼロを断定でなく収束として記述）。存在しない関数・カラム参照も無し。ただし、(1) 表示用の日付系フィールド（active_to / last_fill / notes_jp「最終取引」）が cache 更新に追随しておらず、実際は昨日まで取引中のウォレットを「2024年で取引停止」と表示する重大な鮮度欠陥（213/567件・うち>30日ずれ59件）、(2) summary.html / index.html の品質カウント（エリート5・堅実14等）が現registry（wf_quality: エリート4・堅実28等）と不一致＝HTML未再生成による陳腐化、(3) index.html「本物プロ49」が実際48、(4) notes_jp の Nansen通算PnL/ROI/残高が leaderboard と別スナップショットで内部不整合（ROI 107% vs roi_alltime 73%）、を検出。いずれも捏造ではなくパイプラインの更新漏れ・スナップショット混在に起因する整合性問題。",
+      "raw_count": 5
+    },
+    {
+      "dimension": "page_consistency",
+      "summary": "データ生成ページ(registry.html / pros.html / mm.html / excluded.html)は registry と完全整合だった。ページ分割は 弱い疑惑6 + プロ70(本物48+alt22) + MM102 + 除外389(除外382+偽陽性7) = 567 で総数と一致し、ウォレットの欠落・二重表示・リンク切れはゼロ。フィルタチップ件数(エリート4/堅実14/中堅17/ムラあり9/履歴薄11/alt主体15=70)も実データ通り。cache突合(closedPnl合計)も registry の total_pnl(=true_realized_maj)・true_realized_all と一致し算出ロジックは健全。問題は「手書き数値の解説/集計ページ」に集中している: (1) index.html・summary.html・methods.html・methodology.html に古いハードコード数値が多数残存(プロ本物49/84、エリート5、MM101、出金疑い4 等が現状48/4/102/0と乖離)。(2) registry の notes_jp に埋め込まれた『majors実現$X』が reaudit_realized 正規化前の値のまま 450件中87件で現在値と不一致(符号反転・$0→実額の重大例含む)で、これが全データページにそのまま描画されている。(3) 監視対象の件数が summary 内・ページ間で 6/7 と矛盾。いずれも実在の不整合で、誇張なし。",
+      "raw_count": 7
+    },
+    {
+      "dimension": "coverage",
+      "summary": "台帳567件の内部数値整合(true_realized_all/maj)はcacheと完全一致し、データ整合は堅牢。しかし「網羅性」の観点で重大な抜けが複数実在する。最大の問題は、3844件のcacheに対し台帳化されたのは567件のみで、3277件が一度も分類判定を受けていないこと。そのうち「majors実現損益>50万ドルかつ2026-06-01以降アクティブ」という台帳自身のスコープに完全合致する個体が64件、majors>100万ドルが44件も未トリアージで放置されている(最大はmajors $10.87M、active 2026-06-18)。これらはlate_edge_finalの広域スキャン(3281件)に含まれていたが、台帳に昇格したのは6件のみで、残りはタイミング特化フィルタ(detr72)を通らなかっただけで、本来の「プロ/スキル分類器」には一度も掛けられていない。加えて欺瞞scanは8軸を謳うがパターンG(出金規律)が未実装、Eは0ヒットで、実質6軸しか裁定材料を生んでいない。さらに欺瞞裁定(deception_verdicts)はパターン毎上位30件・multi上位40件に絞った89件のみを判定対象としており、C_dormant_burst 799件/H_deliberate_dip 1095件のヒット母集団の大半は裁定されていない。「確証ある個人インサイダーゼロ」という結論はこの絞り込み後の89件に対する判定に過ぎない。監視継続6件は全件insider_likelihood=Noneで分類根拠フィールドが欠落し、うち1件はNansen未照会・素性/last_fill全欠損。",
+      "raw_count": 9
+    }
+  ],
+  "total_findings": 39,
+  "confirmed_count": 22,
+  "confirmed": [
+    {
+      "dimension": "data_integrity",
+      "title": "notes_jpヘッダの『majors実現$X』が再正規化後の真値と87件で不一致(7件は符号反転=損失を利益表示)",
+      "severity": "high",
+      "category": "データ整合性",
+      "evidence": "notes_jp先頭行『【現在の分類: … / majors実現$X / …】』の埋込額を true_realized_maj と突合すると450件中87件が不一致。最悪例 0x2f394ae1ca45071bc222e7124b5d125637942be2: ヘッダ表示『majors実現$210,517』(利益)に対し true_realized_maj=-323,436・current.total_pnl=-323,436(大幅損失)で符号反転。他の符号反転6件: 0xcc89d2eb…(disp=+253,304 / true=-17,529)、0xa9c3d444…(+5,366/-127,292)、0x8250a7f9…(+6,353/-70,045)、0xe2f86fec…(+848/-18,002)、0x55999a91…(+1,892/-3,678)、0xa92fb6dd…(+461/-86)。大乖離例 0xfce053a5…(disp=$15,468 / true=$2,910,061・差$2.89M)、0x74da055d…(disp=$1,467,576 / true=$95,739)。step6_registry.py:276 が e['notes_jp'] を加工なしで描画するため、この古い数字がHTMLレポートにそのまま表示される。同ヘッダ内の『最終取引』日付は active_to と0件不一致=同期されているのに、PnL額だけ再生成漏れ。",
+      "location": "data/wallet_registry.json 各wallet['notes_jp']先頭行 / step6_registry.py:276 / reaudit_realized.py:85(total_pnlは更新するがnotes_jpヘッダは再生成しない)",
+      "fix": "reaudit_realized.py で current.total_pnl/true_realized_maj を再正規化する際、notes_jp 先頭の『現在の分類』ヘッダ行(majors実現額・最終取引日・分類)を構造化値から毎回再生成して差し替える。最低限、符号反転7件は即時修正(損失を利益と表示するのはレポートの信頼性を直接損なう)。",
+      "verify_note": "実データで再現・本物のデータ整合性バグと確認。ground truthはHyperliquid約定キャッシュ(data/fills/{addr}.json の closedPnl)。\n\n検算結果(data/wallet_registry.json wallets=567件):\n- notes_jp先頭行『majors実現$X』を正規表現で抽出し true_realized_maj と突合 → 566件比較中113件が不一致(audit主張87件は過少。実際はもっと多い)、うち符号反転15件(audit主張7件も過少)。\n- true_realized_maj が真値であることをキャッシュで裏取り済。例: 0x2f394ae1… → キャッシュ majors closedPnl合計=-323,435.65、true_realized_maj=-323,436、current.total_pnl=-323,436 で完全一致。一方ヘッダ表示=+210,517(利益)。損失を利益として表示する符号反転を確定。\n- audit列挙の符号反転7件すべてキャッシュ突合で確認: 0xcc89d2eb(disp+253,304/true-17,529/cache_maj-17,529.43)、0xa9c3d444(+5,366/-127,292/-127,292.45)、0x8250a7f9(+6,353/-70,045/-70,044.90)、0xe2f86fec(+848/-18,002/-18,001.93)、0x55999a91(+1,892/-3,678/-3,678.46)、0xa92fb6dd(+461/-86/-85.99)。全てtrue値=cache値=current.total_pnlで三者一致、ヘッダのみ乖離。\n- 大乖離例も確認: 0xfce053a5(disp$15,468/true$2,910,061/cache_maj2,910,061.33・差$2.89M)、0x74da055d(disp$1,467,576/true$95,739/cache95,738.69)。\n- 『最終取引』日付は active_to と566件比較で0件不一致=完全同期。日付だけ同期しPnL額が再生成漏れというaudit指摘の非対称性も確認。\n\nコード箇所も確認:\n- reaudit_realized.py:83-87 が cur['total_pnl']/true_realized_all/true_realized_maj をキャッシュ真値へ更新するが、一般正規化パスでは notes_jp ヘッダを再生成しない(notes_jp書換は losers+--apply分岐のみ)。\n- step6_registry.py:276-279 が e['notes_jp'] を esc()→\\n置換のみで加工なし描画。$記号はescされず残る。\n\nHTML実害も実証: 現行 registry.html(6ウォレットの絞り込みビュー)を grep したところ majors実現$ ヘッダが生描画されており、うち 0x5efc5eaa… が disp$183,391 / true$151,179 とSTALE値をそのままHTML出力。downstream実害あり。\n\n結論: 仕様通り/誤検知ではない。再現可能な本物のデータ整合性バグ。深刻度は症状(損失→利益の符号反転をレポート表示)を踏まえ high で妥当。ただしaudit自己申告の件数(87/7)は実測(113/15)より過少なので、件数のみ要訂正。"
+    },
+    {
+      "dimension": "classification",
+      "title": "position_of の偽陽性ロジック欠陥: alt多角判定が『本物・格上げ・agreement=agree』としたトレーダーを機械的に偽陽性へ降格",
+      "severity": "high",
+      "category": "手法(偽陰性)",
+      "evidence": "step6_registry.py position_of(): metric_cat=='insider_suspect' かつ likelihood is not None なら agreement/alt_verdict を一切見ずに無条件で ' 偽陽性(数値疑惑→否定)' を返す(L51-52)。結果、registryで偽陽性7件のうち 0xd058089468(agreement=agree, alt_verdict='格上げ: 利確規律で稼ぐ本物(現在フラット)', true_realized_all $1,176,161)と 0xfe4dec8543(agreement=agree, alt_verdict='維持〜微格上げ: 執行優位ありの本物', true_realized_all $292,373)が偽陽性扱い。多角レンズ自身が『インサイダーではないが本物のプロ』と肯定しているのに、偽陽性=否定バケットに入り pros.html に載らず excluded.html へ埋没。",
+      "location": "step6_registry.py position_of() L50-55 / wallet_registry.json wallets['0xd058089468...'], wallets['0xfe4dec8543...']",
+      "fix": "metric_cat=='insider_suspect' の分岐で agreement=='agree' かつ alt_verdict に『格上げ/本物』を含む場合は『プロトレーダー(本物)』(または未精査pro)へ振り分けるよう position_of を修正。偽陽性バケットは『インサイダーでもなく価値も無い』ケースに限定し、『インサイダーではないが本物』を混ぜない。",
+      "verify_note": "実データで全項目を検算し、指摘どおり再現した。本物の論理欠陥である。\n\n【コード】step6_registry.py position_of() L50-52: `if likelihood is not None:` ブロック内で `metric_cat=='insider_suspect'` なら agreement/alt_verdict を一切参照せず無条件に '偽陽性(数値疑惑→否定)' を返す。pro_trader分岐(L54)は agreement=='disagree' を見るのに、insider_suspect分岐はagreementを完全に無視している(引数で受け取りながら未使用)。\n\n【再現】position_of('insider_suspect', 0.12, [...], agreement='agree', cashout_ratio=None) を実呼び出し → 両ウォレットとも '偽陽性(数値疑惑→否定)' を返した。\n\n【registry実データ】\n0xd05808946809...: position='偽陽性(数値疑惑→否定)', metric_category='insider_suspect', insider_likelihood=0.12, agreement='agree', alt_verdict='格上げ: 利確規律で稼ぐ本物(現在フラット)', true_realized_all=1,176,161\n0xfe4dec8543b0...: position='偽陽性(数値疑惑→否定)', metric_category='insider_suspect', insider_likelihood=0.12, agreement='agree', alt_verdict='維持〜微格上げ: 執行優位ありの本物', true_realized_all=292,373\n\n【alt_assessment.json 出所確認】両件とも多角レンズが genuine-edge / disciplined-pro と判定し agreement='agree'・likelihood=0.12(=否定どころか肯定的)。reasoningも「利確規律で稼ぐ本物」「執行優位ありの本物」と明記。つまり多角分析は『インサイダーではないが本物のプロ』と肯定しているのに、位置づけ側がそれを捨てている。\n\n【cache突合(検算)】data/fills/{addr}.json の closedPnl 合計をPythonで再計算 → 0xd058:n_fills=2562, sum_closedPnl=1,176,161(registryのtrue_realized_all と1ドル差なく一致) / 0xfe4d:n_fills=2940, sum_closedPnl=292,373(同じく完全一致)。数値は偽装でなく実在。\n\n【影響の実地検証】生成済みHTMLを grep: pros.html に両アドレス0件、excluded.html に各1件、registry.html(インサイダー)に0件。多角レンズの『本物プロ』判定が excluded.html へ埋没し pros.html に載らないという指摘の最終影響まで再現した。\n\n【件数framing確認】偽陽性バケット計7件、うち agreement=='agree'(=肯定的に本物判定)は正確に2件で、指摘の『7件のうち2件』と一致。\n\n結論: 偽陰性(本物プロの取りこぼし)を生むロジック欠陥として実データで完全再現。insider_suspect分岐がagreement/alt_verdictを見ずに機械降格している。深刻度high妥当(高勝率・百万ドル級の本物プロをプロ一覧から落とす方法上の欠陥)。修正方向はpro_trader分岐と同様に agreement=='agree'(かつ肯定的alt_verdict)の場合は偽陽性へ降格せずプロ枠へ昇格させること。"
+    },
+    {
+      "dimension": "page_consistency",
+      "title": "methods.html の現位置分布が全面的に旧データ(プロ84/出金4/除外456、MM・alt・偽陽性枠が欠落)",
+      "severity": "high",
+      "category": "ページ整合性",
+      "evidence": "methods.html L23 『現位置分布: プロ本物 84 ／ 弱い疑惑 6 ／ 出金疑い(hit-and-run) 4 ／ 除外 456』、L22『hit-and-run候補4件』、L27 手法⑫『出金疑い12件から4件を抽出』。実データ: プロ本物48・出金疑い(hit-and-run)0(summary L29で確証0・registry に hit-and-run position 不在)・除外382。MM102/alt22/偽陽性7 の3枠が分布記述に存在しない。日付は『更新 2026-06-18』。",
+      "location": "c:\\Users\\Matsuya131\\.gemini\\antigravity\\scratch\\nansen\\methods.html L18,L22,L23,L27",
+      "fix": "L23 の分布を現行 6分類(プロ48/alt22/MM102/弱い疑惑6/偽陽性7/除外382)に更新。出金疑い(hit-and-run)が現在0件である事実を手法⑫・結論boxに反映(『候補抽出したが最終分類では0件に収束』等)。",
+      "verify_note": "実データで再現確認。data/wallet_registry.json(567件)のposition分布を検算: 除外/低優先382, 高頻度MM102, プロトレーダー(本物)48, alt主体プロ22, 偽陽性(数値疑惑→否定)7, 弱い疑惑(監視継続)6, 出金疑い(hit-and-run)0 (合計567)。hit-and-runにタグ付けされたpositionは0件(tags/auto_tags横断検索も0)。summary.html(同じ更新2026-06-18・正本)もこの分布と一致し、L31で出金疑い『0』を明示。対してmethods.html L23は『プロ本物84／弱い疑惑6／出金疑い(hit-and-run)4／除外456』(合計550=旧549/550台帳)で、(1)プロ本物84≠実48 (2)出金疑い4≠実0 (3)除外456≠実382 (4)MM102/alt22/偽陽性7の3枠が分布文から完全欠落。さらにL22『hit-and-run候補4件』・L27手法⑫『出金疑い12件から4件を抽出』も現registryの0件と矛盾。cache整合性検算(data/fills/{addr}.jsonのclosedPnl合計 vs registry true_realized_all)は567/567件が2%以内一致=registryが正・methods.htmlが陳腐化側で確定。両ファイルとも『更新2026-06-18』のため草稿差分の言い訳は不成立。箇所: c:\\Users\\Matsuya131\\.gemini\\antigravity\\scratch\\nansen\\methods.html L22,L23,L27。深刻度highは妥当(正本summaryと矛盾する数値が手法カタログ正本に残存し読者を誤誘導)。"
+    },
+    {
+      "dimension": "coverage",
+      "title": "欺瞞裁定はヒット母集団の上位89件のみを判定。799+1095件規模のパターンヒットの大半は未裁定",
+      "severity": "high",
+      "category": "手法(偽陰性)",
+      "evidence": "deception_scan.py L202 で各パターン上位30件のみを candidates に、L206 で multi_pattern 上位40件のみ保持。deception_verdicts.json は total=89, all=89, confirmed=0, watch=2, false_positive_count=87。一方 summary では C_dormant_burst=799件・H_deliberate_dip=1095件がヒット。すなわち裁定されたのは絞り込み後89件だけで、『確証ある個人インサイダーゼロ』結論はこの89件への判定に過ぎず、数百〜千件のパターンヒット個体は判定対象外。",
+      "location": "deception_scan.py L199-206(上位30/40件のみ保持) / data/deception_verdicts.json(total=89) / data/deception_candidates.json summary",
+      "fix": "ヒット母集団のうち高実現損益帯は全件裁定する、もしくはスコアしきい値で母集団を限定し『判定対象N件/全ヒットM件』を結論に明記して網羅率を開示する。",
+      "verify_note": "実データで再現確認。deception_scan.py L199-206 で各パターン上位30件(lst[:30])+ multi_pattern 上位40件(multi[:40])のみを deception_candidates.json に保存。data/deception_candidates.json の summary は C_dormant_burst=799, H_deliberate_dip=1095, F_decoy_flip=30, D_controlled_loss=60, B_asymmetric=42, A_size_conditional=7(合計ヒット行=2033)だが、candidates 配下は各30件キャップ(A は7件のみ)で multi 40件込みでも distinct アドレスは161件に縮約。deception_verdicts.json は total=89/confirmed=0/watch=2/false_positive_count=87、all の distinct アドレス=89。検算: 89裁定アドレスは全て候補161の部分集合(89 within, 0 outside)で、絞り込み後候補のうち72アドレスすら未裁定。さらに raw fills(3844件)から features/patterns を独立再計算した結果、deception パターン該当の distinct ウォレットは1474件(再計算 summary: C=833, H=1139, D=61, B=36, F=35, A=6 / 合計行2110)。すなわち数百〜千超のパターン該当個体のうち実際に多角裁定されたのは89件のみで、『確証ある個人インサイダー ゼロ』結論はこの上位スライス89件への判定に過ぎず、残り約1385件(1474-89)は裁定対象外=偽陰性の構造的リスクは本物。データ健全性も確認(wallet_registry の 0x7c6b... true_realized_all=181800 が fills の closedPnl 合計181800 と完全一致)。指摘の根拠(L202/L206、verdicts total=89、summary 799/1095)は全て実データで裏取りでき、深刻度 high のまま confirmed=true。"
+    },
+    {
+      "dimension": "classification",
+      "title": "欺瞞判定 insider_camouflage(2ヶ月ゼロ負け・cache実測確認)の最強疑惑ウォレットが『除外/低優先』に埋もれている",
+      "severity": "medium",
+      "category": "手法(偽陰性)",
+      "evidence": "data/deception_verdicts.json watch[1]=0x7c6b383a03aea03b3d29685d983f27835303a6bd: deception_score 0.55, primary_explanation='insider_camouflage', key_evidence='2026-01=425W/17L, 2026-02=295W/0L … A zero-loss month over 295 closes … is not producible by skill, MM, or luck — foreknowledge-grade'. cache実測(data/fills/0x7c6b…json)でmajors(BTC/ETH/SOL)は 2026-01:406W/0L($63,607)・2026-02:295W/0L($111,769)=701クローズ連続ゼロ負けを確認(捏造でなく実在)。それにもかかわらず wallet_registry.json では position='除外/低優先'・wf_quality=None・insider_likelihood=None。registry.html(インサイダー監視ページ)には非掲載(grep -c=0)、excluded.html/deception.htmlのみ。一方より低スコア(0.18)の watch[0]=0x5efc5eaa41 は position='弱い疑惑(監視継続)'。判定の整合性が逆転している。",
+      "location": "data/deception_verdicts.json (watch配列) / data/wallet_registry.json wallets['0x7c6b383a03aea03b3d29685d983f27835303a6bd'].position / step6_registry.py render_all(0x7c6bはEXCLUDED_POSITIONSでregistry.htmlからdrop)",
+      "fix": "二本柱定義(不自然エッジ∧隠蔽)で『隠蔽レイヤー弱い』を理由に除外するのは、edgeレッグが『STRONGLY met』の本件では過小評価。最低でも position を『弱い疑惑(監視継続)』へ格上げし registry.html / 監視台帳に載せる(現dormant・残高$0は notes で注記)。0.18スコアの0x5efcが弱い疑惑である以上、0.55の本件を除外に置く順序は説明不能なので統一基準を明文化せよ。",
+      "verify_note": "実データで全事実は再現した。data/deception_verdicts.json の watch[1]=0x7c6b383a03aea03b3d29685d983f27835303a6bd は deception_score 0.55 / insider_camouflage、key_evidence は指摘文と逐語一致。cache(data/fills/0x7c6b…json, 2348 fills)を closedPnl で再集計: majors(BTC/ETH/SOL) 2026-01=406W/0L($63,607)・2026-02=295W/0L($111,769)=連続701ゼロ負け、全銘柄では 2026-01=425W/17L(+$64,428)・2026-02=295W/0L(+$111,769)。捏造でなく実在。全銘柄実現益合計 $181,800 は registry の true_realized_all=181800 と完全一致。wallet_registry.json で当該は position='除外/低優先'(EXCLUDED_POSITIONS)で、step6_registry.py L473 の drop により registry.html から除外(grep: registry.html=0, excluded.html=1)。一方 0x5efc(dec_score 0.18 / normal_trader)は '弱い疑惑(監視継続)' で registry.html に掲載(=1)。ここまで指摘どおり。\n\nただし指摘の『判定が逆転』という枠付けは過大。deception_score はワークフローの第1判定であり、最終評価は反証後の residual_suspicion で、0x7c6b=0.32 vs 0x5efc=0.34 とほぼ同値(0x5efc が僅かに高い)。両者とも tag '欺瞞精査:要監視' を保持し、プロジェクトの確定結論(MEMORY/deception.html: 確証ある欺瞞インサイダーはゼロ・要監視は残疑のみ)で意図的に両方ダウングレード済み。したがって『最強疑惑が埋もれている』は誇張。\n\nそれでも本物の不整合は実在する: (1)残存疑いがほぼ同値で同一タグの2件が registry 上で正反対の tier(除外/低優先 vs 弱い疑惑)に分かれる、(2)0x7c6b の '除外/低優先' は古い 'HL履歴なし' タグ起因(step6 nansen-pro+WFなし経路 L55/61)だが、同レコード内に n_closes=930・trade_days=55・active 2025-12-12〜2026-02-06・cache 2348 fills が存在し 'HL履歴なし' は明白に陳腐化、(3)step_deception.py は deception.html を出すだけで registry position へ書き戻さないため、欺瞞精査の '要監視' 判定が分類に反映されない。再現可能なパイプライン不整合のため confirmed=true。ただしインサイダー隠蔽の決定打ではなく、最終 residual は拮抗するため severity は high→medium に調整。"
+    },
+    {
+      "dimension": "fabrication",
+      "title": "active_to/last_fill/notes_jp「最終取引」が陳腐化し、現在取引中のウォレットを「2024年停止」と誤表示",
+      "severity": "medium",
+      "category": "データ整合性",
+      "evidence": "reaudit_realized.py は true_realized と active14/n_fills_14d を最新cacheから再計算するが active_to/last_fill/active_from を更新しない（これらは mark_activity.py のみが設定）。結果、0x5c3f8fdc: registry active_to=2024-08-14・notes_jp「最終取引2024-08-14」だが cache(fetched_at 2026-06-21)の最終fill=2026-06-20。0x5a5ed308: registry/notes=2024-07-24 vs cache実際=2026-06-18。true_realized_all(36353/168509)は新cacheと完全一致＝PnLは再計算済なのに日付だけ取り残し。全567中213件で active_to がcache最終fillと不一致、うち59件は>30日ずれ。救い: active14フラグ自体は cache-recent 358件すべてTrueで正確（誤inactive=0件）。",
+      "location": "reaudit_realized.py:78-94（active_to/last_fill/active_fromを更新対象に含めていない）, mark_activity.py:26-38, data/wallet_registry.json の active_to/last_fill/notes_jp「最終取引」",
+      "fix": "reaudit_realized.true_realized() に t1(=max fill time)を返させ、e['last_fill']/e['active_to']/notes_jp の最終取引日も同時更新する。または step6 描画前に mark_activity を必ず通す。",
+      "verify_note": "実データで全主張を再検算し、完全に再現した。【根本原因(コード)】reaudit_realized.py:83-94 は current.total_pnl/true_realized_all/active_days/active14 等をcache真値へ更新するが active_to/active_from/last_fill を更新対象に含めない。これらは mark_activity.py:36-37 のみが設定。よって reaudit が PnL等を最新cache(fetched_at 2026-06-21)で再計算しても日付メタだけ過去のまま取り残される。【名指し2件】0x5c3f8fdc...e67a24: registry active_to=2024-08-14・notes_jp「最終取引2024-08-14」だが data/fills のcache最終fill=2026-06-20(ts1781968230840)。closedPnl合計=36353=true_realized_all と完全一致(=PnLは再計算済)。0x5a5ed308...132538: active_to/notes=2024-07-24 vs cache最終fill=2026-06-18、closedPnl合計=168509=true_realized_all 完全一致。両件とも metric_normalized=2026-06-21・active14=True。【集計】cache有567件全件突合: active_to != cache最終fill が 213件、うち >30日ずれ 59件(例 0xdd5415...=431日, 0x5a5ed308=694日)。さらに active_to がpre-06-07なのに直近14日に実取引ありが41件=ユーザー向け矛盾の実体。【救い(主張も正)】reaudit流(now-14d ms精度)で active14=True は 358件、registry active14 とほぼ完全一致(差1=無害)、cache-recentで active14=False の誤inactive=0件。つまり取引判断ロジック/PnL/active14は正確で、欠陥は派生メタ(active_to/last_fill/notes「最終取引」)の陳腐化のみ。実害は『現在取引中のwalletを2024/2025停止と誤表示』する表示誤りで、分析シグナル自体は健全。自己申告high→PnL等の判断核は汚染されておらず影響は表示ラベル限定のため medium に調整。"
+    },
+    {
+      "dimension": "fabrication",
+      "title": "index.html の「本物プロ49」がregistry実数48と不一致",
+      "severity": "medium",
+      "category": "ページ整合性",
+      "evidence": "index.html=「本物プロ49＋alt主体プロ」。registry の position=='プロトレーダー(本物)' は実数48（summary.html は正しく48と表示）。index.html のみハードコード/旧値が残存。",
+      "location": "index.html「本物プロ49」 vs data/wallet_registry.json(position集計48), summary.html(48)",
+      "fix": "index.html の固定文言「49」を48へ修正、または動的生成に統一。",
+      "verify_note": "実データで再現確認。data/wallet_registry.json の wallets(dict,計567件)で position=='プロトレーダー(本物)' を集計→48件(コード検算: alt主体プロ22, 高頻度MM102, 除外382 等)。index.html 29行目は『本物プロ49＋alt主体プロ22』とハードコード(本物プロ49は1箇所、index内に48の文字列は0)。一方 summary.html は一貫して48(26行目の大数値48, 77行目『本物プロ48』, 101行目テーブル12/48)、pros.html 詳細も『本物): 48』。生成系の検証: index.html を 'w' で書く .py は存在せず、文字列『本物プロ49』を出力するスクリプトも皆無。step9_summary.py は summary.html を動的変数 {n_pro}=48 で生成。よって index.html は手動保守の静的ファイルで、本物プロのみ旧値49が残存(alt主体プロ22は正しい=registry一致)。off-by-one。データ整合性自体は健全で、fills キャッシュ突合も健全(例 0x23096316 closedPnl合計628291 == true_realized_all 628291、0xdd08886c 165946一致、0xeff7fe67 235718一致)。本不整合は表示文字列1箇所の陳腐化のみで分析ロジック/数値の誤りではないため深刻度 medium 据え置き。修正は index.html 29行目を48へ。"
+    },
+    {
+      "dimension": "fabrication",
+      "title": "notes_jp のNansen通算指標が leaderboard と別スナップショットで内部不整合（ROI 107% vs roi_alltime 73%）",
+      "severity": "medium",
+      "category": "データ整合性",
+      "evidence": "0x729887 の notes_jp:「通算PnL $1,369,273・ROI 107%・現在残高 $113,263」は nansen_candidates.json(2026-06-16取得, pnl 1369272/roi 1.065/account 113263)由来。一方 同registryの lb_alltime=1,386,996・roi_alltime=0.7334・leaderboard accountValue=1,941,847 と大きく食い違う（残高は約17倍差）。2系統の異時点スナップショットを並記しており、読者は同一時点の値と誤認しうる。捏造ではないが時点表記が欠落。",
+      "location": "data/wallet_registry.json 0x72988778... notes_jp / roi_alltime / lb_alltime, data/nansen_candidates.json vs data/leaderboard.json",
+      "fix": "notes_jp に各数値の取得時点を併記、またはNansen通算とleaderboard通算を同一スナップショットへ統一。",
+      "verify_note": "実データで全数値を再検算し、指摘は完全に再現できた。【notes_jpの出所】wallet_registry.json 0x72988778... の notes_jp 「通算PnL $1,369,273・ROI 107%・現在残高 $113,263」は nansen_candidates.json (pnl=1369272.99→1,369,273 / roi=1.0651→107% / account_value=113263.08→113,263) と一致。【同registryの別系統フィールド】roi_alltime=0.7334553(=73.35%)、lb_alltime=1,386,996、これは leaderboard.json allTime (pnl=1386995.89 / roi=0.7334553) 由来。leaderboard.json accountValue=1,941,847.71。【不整合の検算】ROI 107% vs 73.35%(約34pt差)、残高 113,263 vs 1,941,847(=17.1倍差)、PnL差=17,723。2つは別時点の真正スナップショット(候補スクリーニング時点 vs リーダーボード時点)で、捏造ではない。【データ健全性の裏取り】fills/0x72988778....json の closedPnl 合計を自分で集計: ALL=560,993.59 ≒ registry true_realized_all=560,994、majors(BTC/ETH/SOL)=485,103.10 ≒ true_realized_maj=485,103 で完全一致 → 元データ・パイプラインは正常。問題は notes_jp の数値プロ-ズに時点表記/出典注記が無く、構造化フィールド(roi_alltime/lb_alltime)と無言で食い違う点(provenance/presentation欠落)。深刻度はmedium妥当: ソース・オブ・トゥルース(fills)は完全に整合し、registryは既に「⚫偽陽性(否定)」verdictで見出しを上書き済みのため、誤認リスクは履歴部分に限定される。confirmed=true / 仕様通りや誤検知ではないため is_false_alarm=false。"
+    },
+    {
+      "dimension": "page_consistency",
+      "title": "index.html のカード数値が registry と乖離(プロ49/MM101/エリート5)",
+      "severity": "medium",
+      "category": "ページ整合性",
+      "evidence": "index.html L29 『本物プロ49＋alt主体プロ22』『エリート5』、L30 『マーケットメイク/HFT 101件』、L23/L24 『黒字5件』『真のエリート5件に純化』。実データ: registry position プロトレーダー(本物)=48, 高頻度MM=102, wf_quality エリート=4(pros.html チップも『エリート (4)』と動的表示)。弱い疑惑(監視継続)=6(5遅効+1単一銘柄)。index は 49/101/5 で全て stale。",
+      "location": "c:\\Users\\Matsuya131\\.gemini\\antigravity\\scratch\\nansen\\index.html L23,L24,L29,L30",
+      "fix": "index.html のハードコード数値を registry から動的生成するか、48/102/4/6 に更新。step6_registry.py の render_all に index 生成を追加し件数を埋め込むのが恒久対策。",
+      "verify_note": "実データ data/wallet_registry.json(wallets=567, dict)で再検算。position別: プロトレーダー(本物)=48, 高頻度MM=102, alt主体プロ=22, 弱い疑惑(監視継続)=6, 偽陽性=7, 除外/低優先=382。wf_quality別: エリート=4, 堅実=28, 中堅=25, ムラあり=34, alt主体=15, 履歴薄=66。これに対し index.html は L29「本物プロ49」「エリート5」、L30「マーケットメイク/HFT 101件」、L23「黒字5件」、L24「真のエリート5件」と、4つの数値が全て registry と1件ずつ乖離(49≠48, 101≠102, 5≠4, 5≠6)。alt主体プロ22のみ一致。pros.html はチップを動的描画し「エリート (4)」と表示しており、同一サイト内で既に index と矛盾(index=5 vs pros=4)。キャッシュ突合: エリート4件全てで data/fills/{addr}.json の closedPnl 合計が registry の true_realized_all と完全一致(0x9a377ec8=506609, 0xe4d83945=2031004, 0x41206f8e=8845459, 0x69b05701=641300)→registry が実fills由来の正値で、乖離は index 側が stale。指摘は実データで完全再現。深刻度は high→medium に調整(誤データ表示で整合性問題は事実だが、すべて±1件のオフバイワン的ズレで分類ロジック自体の破綻でなく静的テキストの未更新。投資判断を誤らせる規模ではないが要修正)。location: c:\\\\Users\\\\Matsuya131\\\\.gemini\\\\antigravity\\\\scratch\\\\nansen\\\\index.html L23,L24,L29,L30。"
+    },
+    {
+      "dimension": "page_consistency",
+      "title": "summary.html の監視対象KPI(7)が自身の表(6)・registryと矛盾",
+      "severity": "medium",
+      "category": "ページ整合性",
+      "evidence": "summary.html L25 KPI『7 監視対象(残疑)』、L79-81 H2『監視対象（7件）= 遅効エッジ5＋欺瞞要監視2』。だが同ページ L31 の表は『弱い疑惑 6』、registry の position 弱い疑惑(監視継続)=6。検算: deception_verdicts.json の要監視2件は 0x5efc5eaa41(registry=弱い疑惑、=6の一部で二重計上)と 0x7c6b383a03(registry=除外/低優先、監視層でない)。よって『7』は 0x5efc を重複計上し、除外分類の 0x7c6b を監視に混入させた誤集計。正は6。",
+      "location": "c:\\Users\\Matsuya131\\.gemini\\antigravity\\scratch\\nansen\\summary.html L25, L79-82",
+      "fix": "KPI『7』を『6』に修正し、内訳を『遅効エッジ5＋単一銘柄アルファ1(=欺瞞要監視と重複)』と明記。欺瞞要監視のもう1件(0x7c6b)は除外分類である旨を注記して二重カウントを解消。",
+      "verify_note": "実データで再現確認。registry(data/wallet_registry.json, 567件)のposition集計: 弱い疑惑(監視継続)=6, 偽陽性=7, プロ=48, alt主体プロ=22, 高頻度MM=102, 除外/低優先=382。summary.html L31の表・L91/L98の関係表は全て『弱い疑惑=6』で一致するが、L25のKPI『7 監視対象(残疑)』とL79-81のH2『監視対象（7件）=遅効エッジ5＋欺瞞要監視2』だけが7で自己矛盾。deception_verdicts.jsonのwatch2件を実照合: (1)0x5efc5eaa41 → registry position=弱い疑惑(監視継続) で、弱い疑惑6件の構成は『summary L56-60記載の遅効エッジ5件(0xccf135ab/0x3662dd1d/0xef91b28f/0x8ff1d5d5/0x9a568bfe)＋0x5efc』であることを実証。よって5(遅効)+2(欺瞞)では0x5efcが二重計上。(2)0x7c6b383a03 → registry position=除外/低優先(metric_category=nansen-pro, Former Smart Trader)で監視層に非属。distinct集計=6が正。指摘の検算どおり『正は6』。データ整合性も裏取り: fillsのclosedPnl合計はregistryと完全一致(0x5efc all=601246/maj=151179, 0x7c6b all=181800/maj=181581=true_realized_all/maj)で、源泉データは健全、欠陥はsummaryページのKPIロールアップのみ。レジストリ・分類ロジック・コア結論(確証インサイダー0件)に影響しない表示専用の不整合のため、自己申告highは過大、mediumに調整。"
+    },
+    {
+      "dimension": "page_consistency",
+      "title": "registry の notes_jp に埋め込まれた majors実現額が87件で現在値と不一致(全データページに描画)",
+      "severity": "medium",
+      "category": "データ整合性",
+      "evidence": "wallet_registry.json の notes_jp 内『majors実現$X』を true_realized_maj/current.total_pnl と突合: 450件中87件が不一致。重大例 0x103e9d15f8 note=$0 vs current=$195,875、0xdb799415fd note=$0 vs current=-$36,344(符号反転)、0x10b6f072fa note=$358,215 vs current=$449,205、0x5efc5eaa41 note=$183,391 vs current=$151,179。pros.html/mm.html/excluded.html は notes_jp をそのまま描画(現在の分類: …件数を確認、majors実現 という文字列が pros 70件・mm 102件・excluded 389件分出力)ため、ユーザーには古い額が表示される。",
+      "location": "c:\\Users\\Matsuya131\\.gemini\\antigravity\\scratch\\nansen\\data\\wallet_registry.json (notes_jp), 描画先 pros.html/mm.html/excluded.html",
+      "fix": "step8_notes.py/reaudit_realized.py 後に notes_jp 内の『majors実現$X』を true_realized_maj で再生成する後処理を追加するか、notes に額をハードコードせず描画時に current 値を差し込む。最低限 reaudit 実行後に notes 再生成を必須化。",
+      "verify_note": "実データで再現確認。本物のデータ整合性不具合。\n\n検算結果(data/wallet_registry.json, 全567ウォレット):\n- notes_jp の『majors実現$X』正規表現抽出 vs current.total_pnl(=true_realized_maj)突合 → 113件不一致(指摘の87件より多い。指摘の母数450もズレ。深刻度は指摘より大きいが、判定核は変わらない)。うち note_val==0 が11件、符号反転15件。\n- 指摘の重大例4件すべて完全再現:\n  0x103e9d15f8…: note=$0 / current=$195,875\n  0xdb799415fd…: note=$0 / current=-$36,344(符号反転)\n  0x10b6f072fa…: note=$358,215 / current=$449,205\n  0x5efc5eaa41…: note=$183,391 / current=$151,179\n\n現在値が正しいことを fills キャッシュで裏取り(指示通り):\ndata/fills/{addr}.json の closedPnl を BTC/ETH/SOL で合計 → 4件すべて true_realized_maj/current.total_pnl と完全一致(例 0x103e9d15f8 maj合計=195,875、all合計=878,091=true_realized_all)。つまり current が真値、notes_jp が陳腐化。\n\nHTML描画の確認:\npros.html=70 / mm.html=102 / excluded.html=389 件で『majors実現』文字列が出力(=notes_jp を notejp verdict セルにそのまま描画)。陳腐化値が実際に published HTML にレンダリングされている(例 excluded.html の 0x103e9d15f8 notejpセルに『majors実現$0』、0x10b6f072fa に『$358,215』をそのまま表示)。不一致113件中112件が pros/mm/excluded のいずれかに出現=ユーザー可視。\n\n深刻度をhigh→mediumに下げた理由: 同じ行の専用PnL列(<td>)は live の current.total_pnl($195,875等の正値)を描画しており、メインの数値表示は正しい。陳腐化は verdict 解説文(notejp)内の埋め込み文字列に限定。誤った数値がユーザーに見える点で実害はあるが、主要KPI列は正確なため致命的(critical/high)ではなく medium が妥当。location: data/wallet_registry.json の notes_jp 生成ロジック(再生成時に majors実現額をリフレッシュしていない)、描画先 pros.html/mm.html/excluded.html の notejp セル。"
+    },
+    {
+      "dimension": "coverage",
+      "title": "欺瞞8軸のうちパターンG(出金規律)が未実装・Eは0ヒット。実質6軸しか裁定材料を生んでいない",
+      "severity": "medium",
+      "category": "偽装(捏造/幻覚)",
+      "evidence": "deception_scan.py の docstring(L7-15)は A〜H の8軸を列挙し『勝ち逃げ・出金規律(G)』を含むが、patterns()(L142-171)に G_ の判定は一切存在しない(grep で G_ ヒット0)。E_fresh_hit は実装(L164)されるが deception_candidates.json の summary に E は不在=0ヒット。実際の summary は C_dormant_burst:799, H_deliberate_dip:1095, F_decoy_flip:30, D_controlled_loss:60, B_asymmetric:42, A_size_conditional:7 の6軸のみ。『欺瞞8軸workflow裁定』の表現は実装と乖離。",
+      "location": "deception_scan.py L7-15(docstring 8軸)とL142-171(patterns実装7軸, G欠落) / data/deception_candidates.json summary(6軸のみ)",
+      "fix": "G(大勝直後の出金前引き上げ)を実装するか、軸数の記載を実装に合わせて『7軸(うちE未発火)』等に修正する。結論レポートの『8軸』表記も是正する。",
+      "verify_note": "実データで完全再現。検算結果: (1) deception_scan.py docstring L7-15 はA〜Hの8軸を列挙し、L14に『G 出金規律(大勝直後にDD前出金)』を含む。(2) patterns() L142-171 の実装キーは A_size_conditional / B_asymmetric / C_dormant_burst / D_controlled_loss / E_fresh_hit(L164) / F_decoy_flip / H_deliberate_dip の7つのみ。`G_` をファイル全体に grep してヒット0 → Gは完全未実装(docstring 8軸 vs 実装7軸で乖離)。(3) data/deception_candidates.json の summary は実測で {C_dormant_burst:799, H_deliberate_dip:1095, F_decoy_flip:30, D_controlled_loss:60, B_asymmetric:42, A_size_conditional:7} の6軸ちょうど(指摘の数値と完全一致)。E_fresh_hit と G_ は summary/candidates/multi_pattern を含むJSON全文に一切出現せず('E_fresh_hit' in JSON = False, 'G_' in JSON = False)。summary は by_pat(1件以上発火した全パターンを登録)から生成されるため、E不在=このコーパスで0ヒット確定。よって実質6軸しか裁定材料を生んでいないという指摘は正しい。指摘との唯一の差異: 指摘は『E_fresh_hit は実装(L164)されるが…0ヒット』としており、Gの未実装とEの0ヒットを区別している点は正確(Eは実装あり/Gは実装なし)。深刻度はhighからmediumへ下方修正: 不整合は実在するが、(a)出力された数値データ自体は本物で捏造ではなく、(b)問題の本質はdocstring/『8軸裁定』という表現が実装スコープ(7軸実装・実質6軸稼働)を上回る誇張、および経験的に空のE軸であって、結果の改ざんではない。ドキュメント/スコープ過大表示として中程度。"
+    },
+    {
+      "dimension": "coverage",
+      "title": "監視継続(最高優先)の1件がNansen未照会・素性/活動データ全欠損で放置",
+      "severity": "medium",
+      "category": "漏れ(見逃し)",
+      "evidence": "0x5efc5eaa41ebfefcc122e7600d3ac81549b6dd8d は position='弱い疑惑(監視継続)' だが nansen_checked=None, labels=None, first_funders=None, last_fill=None。true_realized_maj=151179 と損益はあるのに正体も鮮度も未取得。監視対象に挙げながら最低限の素性照会が未実施。",
+      "location": "data/wallet_registry.json 0x5efc5eaa41ebfefcc122e7600d3ac81549b6dd8d",
+      "fix": "監視継続層は Nansen 照会必須とし、未照会個体を抽出して first_funders/labels/last_fill を補完する。少なくとも本個体を照会キューに登録。",
+      "verify_note": "実データで完全再現。wallet 0x5efc5eaa41ebfefcc122e7600d3ac81549b6dd8d は position='弱い疑惑(監視継続)'、true_realized_maj=151179 だが nansen_checked/labels/first_funders/last_fill が全て欠落(.get()=None)。これらは実在スキーマ項目で、他6件の監視継続ピアは全て2026-06-17〜06-19にNansen照会済み・全項目populated。本wallet のみ未取得。nansen_errors=None かつ hl_checked/wf2_checked/mh_checked/counterparties も全None=失敗ではなく未着手。first_seen=metric_normalized=2026-06-21(本日)で新規追加され enrichment 工程が走っていない。キャッシュ突合: data/fills/{addr}.json は 33,976 fills、closedPnl合計=601245.73 で registry true_realized_all=601246 と一致、true_realized_maj=151179=current.total_pnl で損益データは健全=純粋に素性/鮮度照会の漏れ。最高優先バケットで唯一の全欠損だが、PnLは整合し単一新規walletのため critical/high ではなく medium が妥当。"
+    },
+    {
+      "dimension": "data_integrity",
+      "title": "registry top-level updated_at が4日古く(2026-06-17)、実際の正規化日(2026-06-21)と矛盾",
+      "severity": "low",
+      "category": "データ整合性",
+      "evidence": "wallet_registry.json の updated_at='2026-06-17T18:57:53Z' だが、ファイルmtime=2026-06-21 19:16、かつ全567件の metric_normalized='2026-06-21'(reauditが本日実行され n_fills_14d 等を書込み済)。つまり台帳は本日更新されているのに top-level の更新時刻だけ4日前で凍結。レポート閲覧者・後続スクリプトが鮮度を誤認する。reaudit_realized.py は reg['updated_at'] を更新していない。",
+      "location": "data/wallet_registry.json: updated_at / reaudit_realized.py(--apply時に reg['updated_at']を更新していない)",
+      "fix": "reaudit の --apply 時(および全write経路)で reg['updated_at']=now を必ず更新する。",
+      "verify_note": "実データで再現確認。data/wallet_registry.json: mtime=2026-06-21 19:16:53(本日書込)に対し top-level updated_at='2026-06-17T18:57:53Z' で凍結。全567件が metric_normalized='2026-06-21' かつ n_fills_14d 記入済=reaudit本日実行を裏付け。キャッシュ突合: data/fills/{addr}.json の closedPnl 合計が registry の true_realized_all と5件全件完全一致(例 0x72988778=560994/560994, 0x23096316=628291/628291)→台帳は本日の真値で更新済なのに更新時刻だけ古い。コード根拠も確定: reaudit_realized.py は L94 で metric_normalized=today を書き L117 で reg をdump L119 で reg6.render_all(reg) を呼ぶが reg['updated_at'] は一切代入しない。reg['updated_at'] の代入は step6_registry.py の main()(L158)のみで、reaudit が呼ぶ render_all()(L468)はHTML生成専用で更新時刻を触らない。よって台帳本日更新でも updated_at は4日前で凍結する=指摘通り再現。registry.html L414 が reg.updated_at を直接表示するため閲覧者/後続スクリプトが鮮度を誤認する実害あり(本物のデータ整合性欠陥)。ただし指標データ自体は正確かつ最新で、ズレているのは鮮度メタデータのみ=表示上の誤認に留まりデータ破損ではないため medium ではなく low に調整。なお『4日古い』は日付差(06-17→06-21)では4だが実経過は約3日15時間で厳密には3日強。修正案: reaudit の --apply 内 json.dump 前に reg['updated_at']=now を追加。"
+    },
+    {
+      "dimension": "data_integrity",
+      "title": "active_to が cache最新約定より古い個体が213件(全件cache側が新しい=台帳側が遅延)",
+      "severity": "low",
+      "category": "ページ整合性",
+      "evidence": "active_to を data/fills の全銘柄最新約定日と突合すると 567件中213件で不一致、方向は全て『registry < cache』(台帳のactive_toがcacheの最新fillより古い、台帳がcacheを追い越す例は0件)。例: 0x230963164…(active_to=2026-06-07 / cache最新=2026-06-20)、0xdd54150be…(2025-04-15 / 2026-06-08)。reaudit_realized.py は active_days/active14/n_fills_14d は更新するが active_from/active_to を更新しないため、cache再取得後に乖離。注: active_from は全銘柄初回約定と0件不一致で正しい(majorsスパンとは別軸=仕様)。これは捏造でなく更新漏れ(方向が一貫して台帳が遅れる側)。",
+      "location": "data/wallet_registry.json 各wallet['active_to'] / reaudit_realized.py(active_to未更新)",
+      "fix": "reaudit で active_to を cache最新約定日から再計算して更新する(active_from と同基準の全銘柄スパンに統一)。",
+      "verify_note": "実データで完全再現。data/wallet_registry.json(567件)の active_to を data/fills/{addr}.json の全約定最新time(全銘柄)と突合した結果、不一致=213件、方向は全件 registry<cache(台帳が古い)、逆方向(reg>cache)=0件。監査の具体例も一致: 0x230963164d→active_to=2026-06-07/cache最新=2026-06-20、0xdd54150be→2025-04-15/2026-06-08(cache=2026-06-20)。\n\n根本原因も確定。reaudit_realized.py(L82-94)は cur[total_pnl]/true_realized_all/n_closes/n_fills_14d/active_days/active14/metric_normalized を更新するが active_from/active_to/last_fill を一切書き換えない。213件全てが metric_normalized=2026-06-21(reaudit実行済)かつ registryの last_fill が cacheの last_time と全件相違(213/213)→ cache再取得後に活動spanだけ凍結。同一実行で closedPnl合計は新鮮(true_realized_all=cache closedPnl合計 8/8一致, 例 0x230963164d=628291で完全一致)なのに span終端だけ古い、という内部不整合。\n\n仕様/別軸の弁明は成立しない。active_from は全銘柄初回約定と0件不一致(majors初回とは262件相違=全方向 af>maj)→span境界は『全銘柄』基準が正。よって active_to も全銘柄最新であるべきで、majors最新との突合では方向が割れる(reg>maj=226, reg<maj=110)ことが逆に『majorsスパン仕様』説を否定し、全銘柄基準での片方向staleが真の更新漏れであることを裏付ける。なお監査メモの『active_from=majorsスパン=仕様』は事実誤認(実際は全銘柄一致)だが、結論(active_to更新漏れ)は強化される。\n\n深刻度はlowへ下方修正。捏造でなく単純な派生フィールド更新漏れで、方向が常に台帳側が遅れる側に一貫(過大評価の危険なし)、PnL等の判定核指標は新鮮、表示日付が数日〜古いものは最大1年ズレるが分類ロジックは active_days/active14/n_fills_14d(更新済)依存のため判定結果への影響は限定的。修正は reaudit_realized.py に active_from/active_to/last_fill の再計算代入を追加するだけ(true_realized で t0_all/t1_all を取り e へ書き戻す)。"
+    },
+    {
+      "dimension": "data_integrity",
+      "title": "n_fills_14d / active14 は滑走14日窓のスナップショットで76件ドリフト(全件registry≥現値=窓前進による経時劣化)",
+      "severity": "low",
+      "category": "手法(偽陰性)",
+      "evidence": "n_fills_14d を『現在-14日』で再計算すると75〜76件で不一致、方向は registry≥再計算が76件・registry<再計算が0件で完全に一方向。例 0xe392e9008…: registry=650 だが now基準=601(now-6h基準で650に一致)、0x8c783a3877…: registry=456 / now=325。これは reaudit実行時刻の窓に基づくスナップショットが、時間経過で古いfillが窓外に出て実値が下がる仕様上の経時劣化。active14は1件のみ不一致。バグではないが、updated_at が古い(上記)ため閲覧者が古い活動数を最新と誤認するリスクと結合する。",
+      "location": "data/wallet_registry.json 各wallet['n_fills_14d','active14'] / reaudit_realized.py:73-77(cut=now-14d)",
+      "fix": "n_fills_14d 等の時間相対指標には基準時刻(=metric_normalized)をHTML表示に併記し、『2026-06-21時点』と明示する。レポート鮮度の自動再計算 or 古さ警告を入れる。",
+      "verify_note": "実データ(567キャッシュ有ウォレット)で再検算し全主張を確認。(1) n_fills_14d を now-14d で再計算: registry>再計算=81件、registry<再計算=0件で完全一方向(監査は76件だが、これは執筆後に時間が経過し窓ドリフトが単調増加したため。メカニズム上正しい挙動)。(2) スナップショット機構を実証: 0xe392e9008(reg=650)は now-12h cut で656、0x8c783a3877(reg=456)は now-12h cut で456に厳密一致・now-6hで454。registry値は reaudit実行時(現在より過去のwall-clock)の窓に対応し、時間経過で古いfillが窓外→再計算が下がる=reg>=recalc が常に成立。reaudit_realized.py:48 cut=now-14*86400000、:89 で保存。(3) active14不一致は厳密に1件(0x1e921e6c99: reg=True/now=False)で監査通り。(4) cache突合: true_realized_all は data/fills/*.json の closedPnl 合計と567件全件で完全一致(差異0)=registryはキャッシュ忠実派生でデータ破損ではなく、純粋にスナップショットのtimestamp効果。結論: 実在し再現可能な本物の現象だが、reaudit時刻に基づく滑走窓スナップショットという仕様内の経時劣化であり、コードのバグではない(監査自身も『バグではない』と明記)。分類=手法/偽陰性、深刻度lowが妥当。updated_at陳腐化との結合で閲覧者が古い活動数を最新と誤認するリスクは残るため、none/false_alarmではなくconfirmed=true・low据え置き。"
+    },
+    {
+      "dimension": "data_integrity",
+      "title": "cache が backfill上限(max_pages=40→約8万件)付近の大型約定数ウォレットで旧期約定の取りこぼしリスク",
+      "severity": "low",
+      "category": "抜け(網羅性)",
+      "evidence": "registry対象cacheで fill数≥4万が13件、最大 0xa4dedda59f…=99,998件(span 2024-11-19→2026-06-18)。hl_fills_cache.py:39-53/64 の backfill は max_pages=40×PAGE2000=8万件上限。新規一括取得で真の履歴が上限超のウォレットは最古側closedPnlが欠落し true_realized_all を過小化し得る。該当13件は全て高頻度MM/除外/低優先でインサイダー判定の核ではないため実害は限定的だが、closedPnl合計を『真値』と称する前提に対する網羅性の注記が必要。n!=len(fills)の内部不整合は0件で、cache自体の整合性は健全。",
+      "location": "hl_fills_cache.py:64(max_pages=40), :39-53(_fetch) / data/fills/0xa4dedda59f2908b92ae192cfd494839373bcb3c4.json(n=99998)",
+      "fix": "fill数が上限近傍(例≥7万)のcacheに『履歴上限到達の可能性=closedPnl合計が下限値』フラグを付け、true_realized_all を確定値でなく下限として扱う。重要候補は max_pages を引き上げ再取得。",
+      "verify_note": "実データで全項目を再検算し、指摘は本物と確認(誤検知ではない)。なお自己申告深刻度 low は妥当。\n\n【裏取りした事実】\n1. fills>=40000 のregistry対象cacheは正確に13件。最大は data/fills/0xa4dedda59f2908b92ae192cfd494839373bcb3c4.json で n=99998、span 2024-11-19→2026-06-18。指摘の数値と完全一致。\n2. n!=len(fills) の内部不整合は13件中0件、cache整合性は健全(指摘通り)。\n3. hl_fills_cache.py:21 PAGE=2000、:64 max_pages=40 を確認 → 単一一括取得の上限=8万件(指摘通り)。\n4. true_realized_all が closedPnl 合計そのものであることを実証: 0xa4dedda のfills closedPnl合計=7,820,565.68、registry true_realized_all=7,820,566 で一致。「closedPnl合計を真値と称する」前提も実在。\n\n【指摘より深刻な再現事実(検算で発見)】\n0xa4dedda の時系列に435日の巨大ギャップが存在(2025-04-08→2026-06-17)。ギャップ前=97,998件(closedPnl $7,912,948)、ギャップ後=ちょうど2,000件(closedPnl -$92,382)。この「2000件だけ孤立した末尾」は hl_fills_cache.py:74 の _recent()(userFills最新2000)が前置されたまま、前方backfillが recent ブロックと tid 重複に到達できず max_pages で停止した署名。結果、約14か月分の約定が丸ごと欠落し、true_realized_all $7,820,566 はその欠落期間を含まない。HFTで「取引あり(14d)」タグの口座が14か月完全休止は不合理なので、これは真の履歴ではなくcache取りこぼし。なお欠落箇所は指摘の「最古側」ではなく中盤〜近過去側(最古側は present)で、指摘の方向説明だけ不正確だが、現象(上限超大型口座でtrue_realized_allが過小/不整合化)は再現。\n\n【スコープ】同署名(>30日gap+末尾ちょうど2000件)はregistry全567中29件で出現するが、80k上限を実際に超過するのは0xa4dedda(n=99998)のみで、cap起因の確実な切り捨てはこの1件。他は n<80k のため真の休眠+再開の可能性が高く誤検知混在。\n\n【実害が限定的=深刻度low の裏取り】13件は全て HFT(>3000約定)。分類は excluded/nansen-pro/hl-verified/pro_trader が大半で、唯一の insider_suspect(0x5875d72130, n=41747)も notes_jp に「高頻度MM/HFT…コピー不能」「wf_quality=履歴薄/評価不能」と明記されインサイダー判定の核ではない。cap起因truncationが確実な0xa4ddedも metric_category=excluded。よってインサイダー結論への影響なし。結論: 網羅性の注記が必要という指摘は正当、深刻度 low 維持。"
+    },
+    {
+      "dimension": "classification",
+      "title": "notes_jp の『majors実現$N』表示が reaudit 正規化後フィールドと89件で乖離(最大$2.9M)— HTML上の人間可読値が真値と矛盾",
+      "severity": "low",
+      "category": "データ整合性",
+      "evidence": "notes_jp 中の『majors実現$N』を true_realized_maj と突合し >2%乖離が89件。例: 0xfce053a5e4 note$15,468 vs field$2,910,061(差-289万); 0xbfc79c444c note$0 vs field$1,140,773; 0xbdd243d77a note$0 vs field$659,202; 0x99b3ba1c1b note$183,193 vs field$894,681。生分類でも 0x5efc5eaa41(弱い疑惑) note$183,391 vs field$151,179、0xf211dd718d(プロ本物) note$75,580 vs field$77,353。notes はreaudit_realized.py正規化前のスナップショットのままで、registry.html/各HTMLが描画する『majors実現』文言が authoritative な true_realized_maj と食い違う。",
+      "location": "wallet_registry.json wallets[*].notes_jp(『majors実現$…』文言) vs same.true_realized_maj / step6_registry.py render_html(note_jpをそのまま表示)",
+      "fix": "notes_jp 内のキャッシュ依存数値(majors実現/最終取引)を reaudit 後に再生成するか、表示時は notes の数値を使わず true_realized_maj フィールドを参照するようテンプレートを修正。少なくとも生分類(弱い疑惑/プロ)の乖離は優先修正。",
+      "verify_note": "実データで再現確認済み。data/wallet_registry.json で notes_jp 内の正規表現 `majors実現\\$([\\d,\\-]+)` を true_realized_maj と突合 → >2%乖離が89件で完全一致。引用例も全一致(0xfce053a5e4 note$15,468 vs field$2,910,061、0xbfc79c444c note$0 vs $1,140,773、0xbdd243d77a note$0 vs $659,202、0x99b3ba1c1b note$183,193 vs $894,681 等)。どちらが真値かを独立検算: data/fills/{addr}.json の生 fills から closedPnl(coin∈COINS)を自前合計したところ、6アドレス全てで true_realized_maj および描画される total_pnl 列(step6_registry.py L288)と完全一致 → true_realized_maj が authoritative、note ヘッダが古いスナップショットで誤り、で確定。原因も特定: 現行スクリプトに `【現在の分類: …/ majors実現$N】` を生成する箇所は皆無(step8_notes.py は別フォーマット、reaudit_realized.py はフィールド/列だけ更新しヘッダ行を再生成しない)。step6 L279 が notes_jp を逐語描画するため、同一行に列(真値)とヘッダ(古値)が矛盾表示され得る。ここまでは指摘どおり本物の整合性欠陥。ただし深刻度は medium → low に下方修正: 89件のうち現行 registry.html に実際に描画されているのは1件のみ(0x5efc5eaa41 ヘッダ$183,391 vs 真値$151,179)。テーブルはフィルタ/上限で絞られ、567 noted ウォレット中 HTML 到達は6件、乖離分は実質1件。指摘文の『registry.html/各HTMLが描画する』はHTML露出を過大表現(89件はほぼ JSON 内のみで人間可読HTMLに出ない)。データ層の不整合は実在・再現可能だが人間可読UIへの実害は1件。"
+    },
+    {
+      "dimension": "methodology",
+      "title": "欺瞞scanの2033ヒット中わずか89件(4.4%)しか裁定されず、$3.46M超の単一パターン容疑が未精査・未登録で消失",
+      "severity": "low",
+      "category": "手法(偽陰性)",
+      "evidence": "deception_scan.py summary の合計ヒット=2033 (C_dormant_burst 799 / H_deliberate_dip 1095 / D 60 / B 42 / F 30 / A 7)。だが deception_candidates.json は各パターン上位30+multi40=ユニーク161件に切り詰め、deception_verdicts.json の all は89件のみ(confirmed 0/watch 2/fp 87)。prep_deception_review.py L88 take={C:8,H:8,...} で単一パターンは各8件前後しか dossier 化されない。C_dormant_burst で実際に review送りされた top8 の PnL は概ね $54k〜$118k(+1件$4.15M)なのに、ランク9-30で $3,464,637 / $955,849 / $920,309 がドロップ。さらにランク31-799 は完全に欠落。検算: 0xa87a233e8a7d は real_all $3,464,637・max_gap_d 82.7・win_rate 0.319・n 4351 で C ヒットwhile registry position=None(台帳未登録)。",
+      "location": "deception_scan.py:202 (lst[:30]) / prep_deception_review.py:88 (take dict, C/H=8) / data/deception_verdicts.json (all=89件)",
+      "fix": "単一パターンの裁定対象を「スコア上位N件」ではなく「real_all 上位 + スコア上位」の和集合に変更し、最低でも real_all>=300k の全ヒットを dossier 化する。burst_share*log10(PnL) のスコアは高PnLを優遇しないため、PnL 閾値ゲートを別建てで必須化せよ。",
+      "verify_note": "実データで全数検算した。【確認できた事実】(1) summary合計=2033 (C799/H1095/F30/D60/B42/A7) 一致。(2) deception_scan.py:202 lst[:30] により candidates.json は各パターン上位30件のみ保持→Cランク31-799・Hランク31-1095は下流に一切残らない(C stored=30/799, H stored=30/1095 を実測確認)。(3) deception_verdicts.json all=89 (confirmed 0/watch[要監視] 2/fp[偽陽性] 87)、89/2033=4.4% 一致。(4) prep_deception_review.py:88 take C/H=8 のため stored30件のCのうち裁定到達は10件のみ。(5) 真にドロップされ未裁定・未登録の高PnL C_dormant_burst が実在: cache closedPnl合計で $955,849(rank12) / $920,309(rank28) / $869,598(rank11) / $756,916(rank17) / $551,924(rank27) を実測、いずれも dossier/verdict/registry のどこにも不在。→サンプリング上限による偽陰性の『機構』は本物で再現可。【指摘の重大な誤り】旗艦証拠 0xa87a233e8a7d は実は未精査でない。cache closedPnl合計=$3,464,637(完全一致), win_rate0.319/max_gap82.7/n_closes4351 も一致だが、これは C_dormant_burst rank15 で落ちる一方 B_asymmetric rank1 として prep に拾われ、フル裁定済み(judge primary=regime_luck, refute=偽陽性)。よって『$3.46M容疑が未精査・未登録で消失』は当該ウォレットに関して虚偽。registry position=None は技術的には真(567件のregistryに不在)だが『未精査』を含意する点で誤誘導。【緩和要因】コードは C/H を明示的にノイズ多と文書化('ノイズ多のC/Hは上位のみ' prep L86-87)、top-N切り詰めは設計意図。裁定実績は confirmed 0 / 89中87が偽陽性で、プロジェクトの収束結論(2026-06-18 全件debunked・個人インサイダー0件)と整合。ドロップ群が真陽性である証拠はゼロで、追加の偽陽性である蓋然性が高い。結論: 偽陰性機構は confirmed=true(false alarmではない)だが、旗艦例の事実誤認と『critical/$3.46M消失』の過大評価により severity は critical→low に下方修正。"
+    },
+    {
+      "dimension": "page_consistency",
+      "title": "methodology.html の遅効エッジ件数・出金疑い定義・除外勝率件数が現状と微乖離",
+      "severity": "low",
+      "category": "ページ整合性",
+      "evidence": "methodology.html L123『遅効エッジ…6件を🟠弱い疑惑』(registry の弱い疑惑6件は遅効5+単一銘柄1で、『遅効6』は不正確)。L143 で💸出金疑いを分類定義として掲載するが現在該当0件(summary L29)。L134『除外には勝率0.9以上が61件』→ 実測 65件(registry 除外382のうち current.win_rate>=0.9 が65件)。",
+      "location": "c:\\Users\\Matsuya131\\.gemini\\antigravity\\scratch\\nansen\\methodology.html L123,L134,L143",
+      "fix": "L123 を『遅効エッジ5＋単一銘柄アルファ1=計6』と精緻化、L134 を65件に更新、L143 出金疑い定義に『現状該当0件』の注記を付す。",
+      "verify_note": "実データで3点を独立検算。authoritative分類はregistryの `position` フィールド（summary.html L31の件数=6/0/0/48/22/102/7/382 と一致）。\n\n[1] L123「遅効エッジ…6件を🟠弱い疑惑」→ 微不正確で確認。position=='弱い疑惑(監視継続)'は6件だが、tag内訳は遅効エッジ(局所検証済/遅効エッジ24-72h)=5件、単一銘柄アルファ@107=1件。6件全てが「遅効エッジを満たした」わけではない。summary.html自身もL53-54で遅効を「5件」と明記し、カテゴリ名も「弱い疑惑(遅効/単一銘柄)」。step10_methodology.py L135でハードコード「6件」が遅効=5と乖離。\n\n[2] L134「除外…勝率0.9以上が61件」→ 不正確で確認。位置='除外/低優先'(382件、リンク先registryの除外と一致)のうち current.win_rate>=0.9 は実測65件(==1.0が39件)。step10 L146のハードコード「61件」は実データ65件と4件乖離。指摘の65が正しい。\n\n[3] L143「💸出金疑い」定義掲載→誤検知(false alarm相当だが全体判定は混在)。これは第8章「分類の定義（閾値）」の定義表であり現在件数の主張ではない。同表は🔴インサイダー疑惑(現0件)も並記しており、0件カテゴリの閾値定義掲載は設計通り。閾値も {C.CASHOUT_RATIO}=10 で動的。これを不整合とするのは指摘の誤読。\n\nデータ層の健全性も確認: data/fills/{addr}.json の closedPnl合計が registry.true_realized_all と完全一致(0x3662dd1d=1494303, 0x5efc5eaa=601246)。問題はstep10_methodology.pyのハードコード値がdata駆動のpositionフィールドから乖離した表示のみで、データ整合性への影響なし。よって深刻度lowを維持。3点中2点(遅効6→実質5、除外61→実65)は再現する本物の不整合のためconfirmed=true。"
+    },
+    {
+      "dimension": "page_consistency",
+      "title": "deception.html 偽陽性内訳の見出し件数(87)が表合計(89)と不一致",
+      "severity": "low",
+      "category": "データ整合性",
+      "evidence": "deception.html L46 見出し『偽陽性87件の良性説明の内訳』だが、直下の表(L47)の合計は 地合28+MM20+損小利大19+普通14+スケールイン5+欺瞞疑い3 = 89。表は容疑者89件全体(うち欺瞞疑い3=要監視2+境界)を含むため、見出し『87件』とラベル不整合。deception_verdicts.json は total=89/fp=87/watch=2。",
+      "location": "c:\\Users\\Matsuya131\\.gemini\\antigravity\\scratch\\nansen\\deception.html L46-47",
+      "fix": "見出しを『容疑者89件の第1判定内訳』に変更するか、表から欺瞞疑い3件を分離して偽陽性87件のみ合計が合うよう整理。",
+      "verify_note": "実データ検算で指摘の核は再現。deception.html L46見出し「偽陽性87件の良性説明の内訳」に対し、直下L47の表合計=28(地合)+20(MM)+19(損小利大)+14(普通)+5(スケールイン)+3(欺瞞疑い)=89。deception_verdicts.json は total=89 / false_positive_count=87、refute.verdict Counter={偽陽性:87, 要監視:2}。よって見出し『87件』≠表合計89は確かに不整合。原因: 表は全89容疑者を judge.primary_explanation(地合便乗=regime_luck28/market_maker20/trend_following19/normal_trader14/scaling5/insider_camouflage3、合計89)で集計したもので、第2段(refute.verdict)で偽陽性に確定した87件の内訳ではない。実際に偽陽性87件のみを primary_explanation で集計すると normal_trader=13(表は14)、insider_camouflage=2(表は3)で合計87になる(クロス集計: insider_camouflage→偽陽性2/要監視1、normal_trader→偽陽性13/要監視1)。つまり要監視2件は normal_trader1 + insider_camouflage1 由来。なお監査の補足『欺瞞疑い3=要監視2+境界』はクロス集計と不一致(要監視2件のうち欺瞞疑い由来は1件のみ)で誤りだが、主張の本体(見出し87 vs 表89のラベル不整合)は正しく再現可能。JSON自体は内部整合(total89/fp87/watch2)でデータ破損はなく、影響はサマリー表示上のラベル/スコープ取り違えに限定されるため深刻度low据え置き。closedPnl×registry突合は本指摘(ラベル整合性)には非該当のため未実施。箇所: c:\\Users\\Matsuya131\\.gemini\\antigravity\\scratch\\nansen\\deception.html L46-47。"
+    },
+    {
+      "dimension": "coverage",
+      "title": "台帳メタの updated_at が実データ更新と不一致(2026-06-17 だが last_fill は 2026-06-21 まで存在)",
+      "severity": "low",
+      "category": "データ整合性",
+      "evidence": "wallet_registry.json の updated_at='2026-06-17T18:57:53Z' / run_count=11。一方ファイル mtime は 2026-06-21 19:16、内部の last_fill には 1781669770083(=2026-06-21相当)等が多数。最終書き込み時に updated_at が更新されておらず、台帳の鮮度表示が実態より4日古い。",
+      "location": "data/wallet_registry.json top-level updated_at / 各wallet last_fill",
+      "fix": "registry 書き込み処理で updated_at を必ず現在時刻に更新する。レポートに表示する鮮度はこの値に依存するため要修正。",
+      "verify_note": "実データで再検算。data/wallet_registry.json の updated_at=2026-06-17T18:57:53Z / run_count=11 に対し、ファイル mtime=2026-06-21 19:16:53 (epoch 1782037013)。566件中149件の last_fill が updated_at より後(最大 last_fill=1781893022230=2026-06-19 18:17 UTC)。さらに data/fills/*.json の fills[].time の全体最大は 1782014740563=2026-06-21 04:05 UTC で、台帳本体は updated_at をbumpせず06-19〜06-21分まで書き込まれている。よって「最終書き込み時に updated_at が更新されず、鮮度表示が実態より古い」は本物・再現可。ただし指摘の根拠値には誤りあり: 引用された last_fill=1781669770083 は『2026-06-21相当』ではなく実際は 2026-06-17 04:16:10 UTC であり、registry内の last_fill が06-21に達するものは存在しない(06-21はfillsキャッシュ側のみ)。データ整合性自体は健全: 全567件で true_realized_all とキャッシュの closedPnl 合計が |diff|<=1.5 で完全一致(mismatch=0件)、total_pnl 改ざんや欠損なし。影響は鮮度メタ表示のみで実害なし、深刻度 low が妥当。"
+    }
+  ]
+}

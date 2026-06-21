@@ -1,0 +1,20 @@
+fill files: 3844
+=== non-registry majors>500k & last>=2026-06-01 ===
+count: 64
+count >1M: 30
+count >500k any-last (non-reg): 86
+--- top 10 ---
+0x71dfc07de32c2ebf1c4801f4b1c9e40b76d4a23d maj=$10,868,721 all=$11,141,022 last=2026-06-18 in_reg=False
+0x0ddf9bae2af4b874b96d287a5ad42eb47138a902 maj=$10,182,794 all=$10,177,388 last=2026-06-21 in_reg=False
+0xb798aef79972ce8f73d47b9ebbcda6bbb7ec4fbf maj=$6,802,785 all=$7,811,039 last=2026-06-16 in_reg=False
+0x218a65e21eddeece7a9df38c6bbdd89f692b7da2 maj=$5,935,074 all=$5,935,074 last=2026-06-07 in_reg=False
+0x7c930969fcf3e5a5c78bcf2e1cefda3f53e3c8fd maj=$4,949,189 all=$3,792,599 last=2026-06-20 in_reg=False
+0x6df99d59cdada18ade521e05edd5e6a2ec91b734 maj=$3,989,007 all=$3,989,030 last=2026-06-14 in_reg=False
+0xf899937184168b1d9dee75acbaa3fef0f52888db maj=$3,790,726 all=$3,790,726 last=2026-06-11 in_reg=False
+0x9c16bc8f1104e4d2f72267eb981fa12de7cc4a6f maj=$3,512,089 all=$3,510,565 last=2026-06-19 in_reg=False
+0xcac1f1c3e4599e044dc2a9d38a9b6ef1af1bdae8 maj=$3,358,703 all=$3,303,117 last=2026-06-19 in_reg=False
+0xf62edeee17968d4c55d1c74936d2110333342f30 maj=$3,095,952 all=$3,552,582 last=2026-06-20 in_reg=False
+--- cited addresses ---
+0x71dfc07de32c2ebf1c4801f4b1c9e40b76d4a23d maj=$10,868,721 all=$11,141,022 last=2026-06-18 in_reg=False
+0x0ddf9bae2af4b874b96d287a5ad42eb47138a902 maj=$10,182,794 all=$10,177,388 last=2026-06-21 in_reg=False
+0xb798aef79972ce8f73d47b9ebbcda6bbb7ec4fbf maj=$6,802,785 all=$7,811,039 last=2026-06-16 in_reg=False
