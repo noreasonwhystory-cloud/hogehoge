@@ -39,7 +39,7 @@ b.red{color:#ff8893}
 <b>同一資金元×同時刻×大口の先行ショート</b>を検出し、真の疑惑を2件に絞り込んだ。確信度は中程度に留めるべき。</div>
 
 <h2>最重要の所見</h2>
-<div class="box"><ul><li>最高スコアのinsider_suspect 0x72988778(score0.8)は事実上の偽陽性。event_lead=0で先行性ゼロ、19クローズの小N、ETHショート含み益+814kは下げ相場の方向ベット＋勝ち建玉のみクローズによる勝率100%水増し。red-team(debunked0.82)・risk(disciplined-pro)・trend(mixed)の3レンズが既存高評価を否定。スコアは的中率のみ由来で格下げ妥当。</li><li>真の先行性疑惑は0xefcaceと0x10b6f0の2件に集約。4レンズ全てが指摘し、決め手はメトリクスに無い『協調レンズ』——両者+0xa351dbが同一Monad資金供給元(0xdf747918)から2026-11-24の同一67分窓に着金し、6/3 BTC急落前17:44/17:51の7分差で大口BTCショートを独立先行。単独では『下落ベータ便乗』で消せるが、同funder×同時刻×大口の三重一致はトレンドだけでは説明不能。</li><li>insider_suspect 8件中5件(128fae/e392/83b00/9b5ae/bde04)は全て無害説明で完全に消える偽インサイダー。小N(5〜93クローズ)・スカルプ(avg_hold0.1〜1.7h)・MM残滓(vlm$601Mに対しpnl$43k)・下げ相場ショート偏重の組合せで、勝率100%は『勝ち建玉のみクローズ』アーティファクト。先行性証拠は全件ゼロ。</li><li>格上げ候補は既存pro_trader内のトレンド非依存組。0x8463d6/0x72a783/0xd05808は14日全面下落(BTC-6.4%)の中でdir&lt;下落ベータ(~0.85)にもかかわらず高勝率・黒字で、逆張りBTCロング含み益を保持＝方向当てでなく執行/利確規律で稼ぐ本物。0x5aadb4/0xa72dc2は両方向スカルパーでベータ非依存。trend+riskの2レンズが一致して規律的優位を支持。</li><li>メトリクスが『excluded』に落とした中にも別視点で重要なものが存在。0xa351dbは協調クラスタAの一員(資金網先行)として、0x0c349dは下落トレンド下で逆張りBTCロングを集中先行(event-timing)した点で、いずれも単一メトリクス(MM判定/勝率0%)では捨てられない先行性シグナルを持つ。</li><li>高レバ一点張りの『偽の勝者』を識別。0x2a934d(9.5倍ETHショート・クローズ0件)等の巨額含み益はレバが下落ベータを増幅しただけで実現実績・規律の痕跡ゼロ。excludedは結果的に正しいが、理由は『サンプル不足』でなく『無謀リスクの博打』であり、含み益の大きさをインサイダー性と誤認しない歯止めになった。</li></ul></div>
+<div class="box"><ul><li>最高スコアのinsider_suspect 0x72988778(score0.8)は事実上の偽陽性。event_lead=0で先行性ゼロ、19クローズの小N、ETHショート含み益+814kは下げ相場の方向ベット＋勝ち建玉のみクローズによる勝率100%水増し。red-team(debunked0.82)・risk(disciplined-pro)・trend(mixed)の3レンズが既存高評価を否定。スコアは的中率のみ由来で除外妥当。</li><li>真の先行性疑惑は0xefcaceと0x10b6f0の2件に集約。4レンズ全てが指摘し、決め手はメトリクスに無い『協調レンズ』——両者+0xa351dbが同一Monad資金供給元(0xdf747918)から2026-11-24の同一67分窓に着金し、6/3 BTC急落前17:44/17:51の7分差で大口BTCショートを独立先行。単独では『下落ベータ便乗』で消せるが、同funder×同時刻×大口の三重一致はトレンドだけでは説明不能。</li><li>insider_suspect 8件中5件(128fae/e392/83b00/9b5ae/bde04)は全て無害説明で完全に消える偽インサイダー。小N(5〜93クローズ)・スカルプ(avg_hold0.1〜1.7h)・MM残滓(vlm$601Mに対しpnl$43k)・下げ相場ショート偏重の組合せで、勝率100%は『勝ち建玉のみクローズ』アーティファクト。先行性証拠は全件ゼロ。</li><li>格上げ候補は既存pro_trader内のトレンド非依存組。0x8463d6/0x72a783/0xd05808は14日全面下落(BTC-6.4%)の中でdir&lt;下落ベータ(~0.85)にもかかわらず高勝率・黒字で、逆張りBTCロング含み益を保持＝方向当てでなく執行/利確規律で稼ぐ本物。0x5aadb4/0xa72dc2は両方向スカルパーでベータ非依存。trend+riskの2レンズが一致して規律的優位を支持。</li><li>メトリクスが『excluded』に落とした中にも別視点で重要なものが存在。0xa351dbは協調クラスタAの一員(資金網先行)として、0x0c349dは下落トレンド下で逆張りBTCロングを集中先行(event-timing)した点で、いずれも単一メトリクス(MM判定/勝率0%)では捨てられない先行性シグナルを持つ。</li><li>高レバ一点張りの『偽の勝者』を識別。0x2a934d(9.5倍ETHショート・クローズ0件)等の巨額含み益はレバが下落ベータを増幅しただけで実現実績・規律の痕跡ゼロ。excludedは結果的に正しいが、理由は『サンプル不足』でなく『無謀リスクの博打』であり、含み益の大きさをインサイダー性と誤認しない歯止めになった。</li></ul></div>
 
 <h2>ウォレット別 再評価（インサイダー濃度 降順）</h2>
 <div class="legend">枠色: <b style="color:#ff8893">赤=数値分類を覆した</b> / <b style="color:#ffc06b">橙=部分</b> / <b style="color:#69d98a">緑=一致</b>。数値=多角分析後のインサイダー濃度(0-1)。</div>
@@ -124,7 +124,7 @@ b.red{color:#ff8893}
     <span class="links"><a href="https://app.hyperliquid.xyz/explorer/address/0x128fae9d18a2f70d98a03c26bf17b67d97ce1f3c" target="_blank">HL</a> · <a href="https://app.nansen.ai/profiler?address=0x128fae9d18a2f70d98a03c26bf17b67d97ce1f3c" target="_blank">Nansen</a></span>
   </div>
   <div class="likbar"><span style="width:20%;background:#4ea1ff"></span></div>
-  <div class="verdict">格下げ: 偽インサイダー。逆張りBTCロング含み益はあるが先行性ゼロ</div>
+  <div class="verdict">除外: 偽インサイダー。逆張りBTCロング含み益はあるが先行性ゼロ</div>
   <div class="rmeta">指摘レンズ: red_team, trend_vs_edge</div>
   <div class="reason">event_lead=0・43クローズ・保有はBTCロング+42k。red-teamがdebunked(0.78)。trendは逆張りロングを評価(genuine-edge0.55)するが過去の的中はベータ混入と自認。先行エントリ証拠が無く、win/dir100%は勝ち建玉選択+下げ相場の産物。優位は限定的でインサイダーではない。</div>
 </div>
@@ -166,7 +166,7 @@ b.red{color:#ff8893}
     <span class="links"><a href="https://app.hyperliquid.xyz/explorer/address/0x1aa1d90df49c3e5a67888798c16e73c4b4c323fc" target="_blank">HL</a> · <a href="https://app.nansen.ai/profiler?address=0x1aa1d90df49c3e5a67888798c16e73c4b4c323fc" target="_blank">Nansen</a></span>
   </div>
   <div class="likbar"><span style="width:18%;background:#4ea1ff"></span></div>
-  <div class="verdict">格下げ: 博打的サイジング。pro_trader格付けは過大</div>
+  <div class="verdict">除外: 博打的サイジング。pro_trader格付けは過大</div>
   <div class="rmeta">指摘レンズ: risk_profile, trend_vs_edge</div>
   <div class="reason">既存pro_traderだがriskが9.83倍SOLショート単独へ全資産集中(pv147万/av15万)・勝率60%/dir59%と平凡でconcentrated-bet(0.78)。trendもmixed(0.5)でSOLショート=一部トレンド便乗。優位というより過大レバの一点張り。pro格付けは過大評価。</div>
 </div>
@@ -180,7 +180,7 @@ b.red{color:#ff8893}
     <span class="links"><a href="https://app.hyperliquid.xyz/explorer/address/0x83b00972aafcc3d06d45b1b823079f9a414da46e" target="_blank">HL</a> · <a href="https://app.nansen.ai/profiler?address=0x83b00972aafcc3d06d45b1b823079f9a414da46e" target="_blank">Nansen</a></span>
   </div>
   <div class="likbar"><span style="width:15%;background:#4ea1ff"></span></div>
-  <div class="verdict">格下げ: 偽インサイダー(小N・ポジ構築中)</div>
+  <div class="verdict">除外: 偽インサイダー(小N・ポジ構築中)</div>
   <div class="rmeta">指摘レンズ: red_team, trend_vs_edge</div>
   <div class="reason">クローズ30・open56でポジ構築中、ETHショート保有。event_lead=0。ETH-10%の最大下落をショートで取った下落便乗+小サンプルで勝率100%が発生。red-teamがdebunked(0.74)、trendもtrend-rider(0.6)で2レンズが便乗と判定。</div>
 </div>
@@ -208,7 +208,7 @@ b.red{color:#ff8893}
     <span class="links"><a href="https://app.hyperliquid.xyz/explorer/address/0x72988778525f0ce15c5ac1804ac460606a987d6c" target="_blank">HL</a> · <a href="https://app.nansen.ai/profiler?address=0x72988778525f0ce15c5ac1804ac460606a987d6c" target="_blank">Nansen</a></span>
   </div>
   <div class="likbar"><span style="width:12%;background:#4ea1ff"></span></div>
-  <div class="verdict">格下げ: 偽インサイダー(下げ相場の規律的ベータ便乗)。インサイダー性ほぼ無し、優良トレーダーではある</div>
+  <div class="verdict">除外: 偽インサイダー(下げ相場の規律的ベータ便乗)。インサイダー性ほぼ無し、優良トレーダーではある</div>
   <div class="rmeta">指摘レンズ: trend_vs_edge, risk_profile, red_team</div>
   <div class="reason">既存score0.8(最上位)はdir_accuracy=1.0のみ由来でevent_lead=0。red-teamがdebunked(0.82)、riskがdisciplined-pro(低レバ0.8倍両建て・口座196万$)、trendがmixedと3レンズ一致で先行性を否定。ETHショート含み益+814kは下落便乗+勝ち建玉選択クローズの典型。リスク管理は規律的だが情報優位の証拠なし。</div>
 </div>
@@ -222,7 +222,7 @@ b.red{color:#ff8893}
     <span class="links"><a href="https://app.hyperliquid.xyz/explorer/address/0xe392e9008c49e7f82e7927a741fcb12799ebdb2b" target="_blank">HL</a> · <a href="https://app.nansen.ai/profiler?address=0xe392e9008c49e7f82e7927a741fcb12799ebdb2b" target="_blank">Nansen</a></span>
   </div>
   <div class="likbar"><span style="width:12%;background:#4ea1ff"></span></div>
-  <div class="verdict">格下げ: MM/HFT残滓。インサイダー性無し</div>
+  <div class="verdict">除外: MM/HFT残滓。インサイダー性無し</div>
   <div class="rmeta">指摘レンズ: red_team, trend_vs_edge</div>
   <div class="reason">allTime vlm$601Mに対し実現損益$43k・largest_win$4,468の超薄利高回転=流動性供給系プロファイル。event_lead=0。red-teamがdebunked(0.8)。trendは逆張りロング含み益+14kを一応評価するが、vlm/pnl比がMM的で先読み根拠は薄い。</div>
 </div>
@@ -236,7 +236,7 @@ b.red{color:#ff8893}
     <span class="links"><a href="https://app.hyperliquid.xyz/explorer/address/0x9b5ae497fd1bf885a40d6f99d0c57245761e053c" target="_blank">HL</a> · <a href="https://app.nansen.ai/profiler?address=0x9b5ae497fd1bf885a40d6f99d0c57245761e053c" target="_blank">Nansen</a></span>
   </div>
   <div class="likbar"><span style="width:12%;background:#4ea1ff"></span></div>
-  <div class="verdict">格下げ: 偽インサイダー(スカルパー・見かけ倒しROI)</div>
+  <div class="verdict">除外: 偽インサイダー(スカルパー・見かけ倒しROI)</div>
   <div class="rmeta">指摘レンズ: red_team, trend_vs_edge</div>
   <div class="reason">avg_hold1.73hのスキャルパー・41クローズ・event_lead=0、month ROI258xは極小ベースの見かけ倒し。red-teamがdebunked(0.79)、trendもtrend-rider(0.55)。短時間スカルプ+下げ相場で勝率100%は容易に発生し先読み証拠なし。</div>
 </div>
@@ -306,7 +306,7 @@ b.red{color:#ff8893}
     <span class="links"><a href="https://app.hyperliquid.xyz/explorer/address/0xbde047d965a1b13fe37d11e5df31ed110ffbb92b" target="_blank">HL</a> · <a href="https://app.nansen.ai/profiler?address=0xbde047d965a1b13fe37d11e5df31ed110ffbb92b" target="_blank">Nansen</a></span>
   </div>
   <div class="likbar"><span style="width:5%;background:#4ea1ff"></span></div>
-  <div class="verdict">格下げ(最強): 統計的に無意味な微小サンプル。完全に偽陽性</div>
+  <div class="verdict">除外(最強): 統計的に無意味な微小サンプル。完全に偽陽性</div>
   <div class="rmeta">指摘レンズ: red_team, trend_vs_edge</div>
   <div class="reason">クローズわずか5件・avg_hold0.1h(6分)のマイクロスキャルプ・実現$622・largest_win$205。event_lead=0。red-teamがdebunked(0.88)で全レンズ中最も強く偽陽性と断定。勝率100%は偶然レベル。insider_suspectに入っていること自体が分類器の閾値欠陥。</div>
 </div>
