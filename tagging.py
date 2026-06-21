@@ -141,6 +141,21 @@ TIER_COLOR = {"Tier-S": "#ffd24a", "Tier-A": "#3fb950", "Tier-B": "#4ea1ff",
 def tag_color(tag):
     if tag in TIER_COLOR:
         return TIER_COLOR[tag]
+    # 品質(workflow精査) は良→悪でグラデーション
+    if tag.startswith("質:"):
+        if "エリート" in tag:
+            return "#ffd24a"        # 金=最上位
+        if "堅実" in tag:
+            return "#3fb950"        # 緑=良
+        if "中堅" in tag:
+            return "#4ea1ff"        # 青=中位
+        if "ムラ" in tag:
+            return "#ffb454"        # 橙=波あり
+        if "履歴薄" in tag or "評価不能" in tag:
+            return "#9aa3ad"        # 灰=判定不能
+        if "MM" in tag:
+            return "#a78bfa"        # 紫=MM
+        return "#8b949e"
     if tag.startswith("取引あり"):
         return "#3fb950"
     if tag.startswith("取引なし"):
@@ -153,7 +168,7 @@ def tag_color(tag):
         # 検証/疑い
         "WF:": "#a78bfa", "HL先行検出": "#ff5d6c", "HL検証済プロ": "#3fb950",
         "遅効エッジ": "#2dd4bf", "遅効シグナルだがmajors赤字": "#6e7681",
-        "稼ぎ確認": "#a78bfa",
+        "稼ぎ確認": "#a78bfa", "疑惑否定済": "#3fb950", "欺瞞精査:要監視": "#ffb454",
         # 資金/出金（疑い系は橙赤、塩漬けは赤、正当出金は灰）
         "hit-and-run候補": "#ff5d6c", "塩漬け:": "#e0697a",
         "出金済(分散=正当)": "#6e7681", "出金": "#ff9e64", "資金": "#ff9e64",

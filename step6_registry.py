@@ -349,11 +349,23 @@ def render_html(reg, out="registry.html",
               "ROI:": "ROI", "PnL:": "PnL", "頻度:": "頻度", "保有:": "保有",
               "方向:": "方向", "レバ:": "レバ", "銘柄:": "銘柄", "ID:": "正体",
               "検証": "検証/疑い", "資金/出金": "資金/出金", "区分": "区分", "他": "他"}
+    # チップの並びは「人数順」でなく「良い→悪い／高→低」の意味順。未知タグは人数で補助。
+    GOOD_ORDER = (POS_ORDER + [
+        "質:エリート", "質:堅実", "質:中堅", "質:ムラあり", "質:履歴薄/評価不能", "質:高頻度MM",
+        "取引あり(14d)", "取引なし(14d)",
+        "ROI:超高(>1000%)", "ROI:高(100-1000%)", "ROI:中(10-100%)", "ROI:低(<10%)", "ROI:赤字",
+        "PnL:メガ(>$10M)", "PnL:大($1-10M)", "PnL:中($100k-1M)", "PnL:小(<$100k)", "PnL:赤字",
+        "頻度:少(<50)", "頻度:中(50+)", "頻度:多(500+)", "頻度:HFT(>3000)",
+        "保有:スキャルプ(<2h)", "保有:短期(<12h)", "保有:スイング(<48h)", "保有:長期(>48h)",
+        "レバ:低(<3x)", "レバ:中(3-10x)", "レバ:高(>10x)",
+        "方向:ロング", "方向:ショート", "方向:混在", "方向:無/フラット",
+    ])
+    RANK = {t: i for i, t in enumerate(GOOD_ORDER)}
     filterbar = ""
     for c in CAT_ORDER:
         if c not in groups:
             continue
-        items = sorted(groups[c], key=lambda x: -x[1])
+        items = sorted(groups[c], key=lambda x: (RANK.get(x[0], 9999), -x[1]))
         chipshtml = "".join(
             f"<span class='ft' style='--tc:{tagging.tag_color(t if c!='位置' else t)}' data-t=\"{esc(t)}\">{esc(t)} ({n})</span>"
             for t, n in items
