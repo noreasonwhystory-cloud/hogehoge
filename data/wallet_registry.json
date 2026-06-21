@@ -1382,7 +1382,7 @@
         "保有:スキャルプ(<2h)",
         "方向:無/フラット"
       ],
-      "notes_jp": "【現在の分類: 🔵alt主体プロ / 質:格付け過大 / majors実現$29,684 / 最終取引2026-06-15】\n【WF再精査】質=格付け過大・○コピー価値あり(確度0.78)\n  強み: 18ヶ月の長期履歴・黒字月率0.72・worst_month僅か-11,291・ROI8.91と、運/MM/塩漬け/窓アーティファクトのいずれも否定できる持続的実力。leaderboard_allTime 573,831 ≒ realize\n  懸念: 致命的なalt偏重。realized_maj 29,684は通算約592,289のわずか約5%で、エッジの大半はHYPE 336,952(57%)とXPL/ZEC/SKR等のalt由来。majors先物の実力としては薄く、HYPEはHLエコ\n―――（履歴）―――\n【ひとことで】🟢 ちゃんと実力で勝っている本物のプロ。\n【正体】名前は分からない（匿名）。\n【お金はどこから？】名前付きの個人財布（kwerty.eth [0x71056c]）から\n【よく取引する相手】High Balance [0xe1f57f]、🤖 Hyperliquid: Bridge 2 [0x2df1c5]、🤖 Circle: CCTP TokenMinterV2 [0xfd78ee]\n【詳しい判定】格上げ: 両方向スカルパー(ベータ非依存)",
+      "notes_jp": "【現在の分類: 🔵alt主体プロ / 質:プロ / majors実現$29,684 / 最終取引2026-06-15】\n【WF再精査】質=プロ・○コピー価値あり(確度0.78)\n  強み: 18ヶ月の長期履歴・黒字月率0.72・worst_month僅か-11,291・ROI8.91と、運/MM/塩漬け/窓アーティファクトのいずれも否定できる持続的実力。leaderboard_allTime 573,831 ≒ realize\n  懸念: 致命的なalt偏重。realized_maj 29,684は通算約592,289のわずか約5%で、エッジの大半はHYPE 336,952(57%)とXPL/ZEC/SKR等のalt由来。majors先物の実力としては薄く、HYPEはHLエコ\n―――（履歴）―――\n【ひとことで】🟢 ちゃんと実力で勝っている本物のプロ。\n【正体】名前は分からない（匿名）。\n【お金はどこから？】名前付きの個人財布（kwerty.eth [0x71056c]）から\n【よく取引する相手】High Balance [0xe1f57f]、🤖 Hyperliquid: Bridge 2 [0x2df1c5]、🤖 Circle: CCTP TokenMinterV2 [0xfd78ee]\n【詳しい判定】格上げ: 両方向スカルパー(ベータ非依存)",
       "roi_alltime": 8.9143407607,
       "roi_month": 1.9444922072,
       "n_fills_14d": 1281,
@@ -1408,7 +1408,7 @@
       "pro_pf": 20.8,
       "wf_copy_worthy": true,
       "wf_confidence": 0.78,
-      "wf_quality": "格付け過大",
+      "wf_quality": "プロ",
       "lb_alltime": 573831,
       "n_fills_14d_maj": 0
     },
@@ -1825,7 +1825,7 @@
         "銘柄:BTC専",
         "ID:ENS有"
       ],
-      "notes_jp": "【現在の分類: 🟣高頻度MM / 質:格付け過大 / majors実現$-14,406 / 最終取引2026-06-19】\n【高頻度MM/HFT】回転1906closes/月の薄利多売。全銘柄実現$372,785。方向性でなくコピー不能。majorsもスプレッド/執行依存。\n―――（履歴）―――\n【ひとことで】🟢 ちゃんと実力で勝っている本物のプロ。\n【正体】\"homerfan33\" on OpenSea、High Activity、coolwaterxyz-hf.eth*、homerfan33.eth、squigglesherpa.eth、stimmyfund.eth（Nansenが付けた名前/ラベル）\n【お金はどこから？】別の財布（[0x9574d6]）から\n【よく取引する相手】🤖 Hyperliquid: Bridge 2 [0x2df1c5]、🏦 Kraken: Deposit [0xbe5afd]、​​🤖 USDC Bridge [0xc6868e]\n【詳しい判定】格上げ: トレンド非依存の規律型本物。最優良候補",
+      "notes_jp": "【現在の分類: 🟣高頻度MM / 質:プロ / majors実現$-14,406 / 最終取引2026-06-19】\n【高頻度MM/HFT】回転1906closes/月の薄利多売。全銘柄実現$372,785。方向性でなくコピー不能。majorsもスプレッド/執行依存。\n―――（履歴）―――\n【ひとことで】🟢 ちゃんと実力で勝っている本物のプロ。\n【正体】\"homerfan33\" on OpenSea、High Activity、coolwaterxyz-hf.eth*、homerfan33.eth、squigglesherpa.eth、stimmyfund.eth（Nansenが付けた名前/ラベル）\n【お金はどこから？】別の財布（[0x9574d6]）から\n【よく取引する相手】🤖 Hyperliquid: Bridge 2 [0x2df1c5]、🏦 Kraken: Deposit [0xbe5afd]、​​🤖 USDC Bridge [0xc6868e]\n【詳しい判定】格上げ: トレンド非依存の規律型本物。最優良候補",
       "roi_alltime": 37.7674856312,
       "n_fills_14d": 2000,
       "pro_score": 0.283,
@@ -1849,7 +1849,7 @@
       "pro_pf": 5.6,
       "wf_copy_worthy": false,
       "wf_confidence": 0.82,
-      "wf_quality": "格付け過大",
+      "wf_quality": "プロ",
       "trade_days": 211,
       "mm_cpm": 1906,
       "mm_realized_all": 372785,
@@ -8010,9 +8010,9 @@
       "pro_pf": 1.7,
       "wf_copy_worthy": false,
       "wf_confidence": 0.82,
-      "wf_quality": "格付け過大",
+      "wf_quality": "プロ",
       "trade_days": 284,
-      "notes_jp": "【現在の分類: 🟢プロ(本物) / 質:格付け過大 / majors実現$75,580 / 最終取引2026-06-18】\n【WF再精査】質=格付け過大・×コピー非推奨(確度0.82)\n  強み: BTC中心の純粋メジャー先物で指標は信頼可能\n  懸念: worst_month -47,376 が通算PnL +67,232 の約70%を一発で吹き飛ばす規模=ドローダウン管理が壊滅的。pos_month_rate 0.38(月の62%が赤字)、profit_factor 1.7(利益が損失を辛",
+      "notes_jp": "【現在の分類: 🟢プロ(本物) / 質:プロ / majors実現$75,580 / 最終取引2026-06-18】\n【WF再精査】質=プロ・×コピー非推奨(確度0.82)\n  強み: BTC中心の純粋メジャー先物で指標は信頼可能\n  懸念: worst_month -47,376 が通算PnL +67,232 の約70%を一発で吹き飛ばす規模=ドローダウン管理が壊滅的。pos_month_rate 0.38(月の62%が赤字)、profit_factor 1.7(利益が損失を辛",
       "lb_alltime": 67232,
       "n_fills_14d_maj": 372
     },
@@ -12802,7 +12802,7 @@
         "方向:無/フラット",
         "資金:出金疑い(10x+)"
       ],
-      "notes_jp": "【現在の分類: 🟢プロ(本物) / 質:格付け過大 / majors実現$6,340,810 / 最終取引2026-06-10】\n【WF再精査】質=格付け過大・×コピー非推奨(確度0.4)\n  強み: 実現PnL約$6.3Mがrealized_maj・realized_cache_all・leaderboard_allTime($6.38M)で三者整合し、キャッシュ窓アーティファクトではない。PnLの約99.7%がETH/BTCのメジャー\n  懸念: データの好成績指標(profit_factor=2128.7・win_rate=0.973・worst_month=わずか-2,975)は『実現約定のみ』の集計で塩漬けを隠している。ライブのポートフォリオでは現在LITショート(5xクロス・\n―――（履歴）―――\n【判定】実力で安定黒字・majors先行なし＝プロ確定\n【HL実測】実現益$6,329,149・勝率0.9728・majors比0.87・急変先行$0\n【資金源】[0xc0778a] ＝ 別ウォレット",
+      "notes_jp": "【現在の分類: 🟢プロ(本物) / 質:プロ / majors実現$6,340,810 / 最終取引2026-06-10】\n【WF再精査】質=プロ・×コピー非推奨(確度0.4)\n  強み: 実現PnL約$6.3Mがrealized_maj・realized_cache_all・leaderboard_allTime($6.38M)で三者整合し、キャッシュ窓アーティファクトではない。PnLの約99.7%がETH/BTCのメジャー\n  懸念: データの好成績指標(profit_factor=2128.7・win_rate=0.973・worst_month=わずか-2,975)は『実現約定のみ』の集計で塩漬けを隠している。ライブのポートフォリオでは現在LITショート(5xクロス・\n―――（履歴）―――\n【判定】実力で安定黒字・majors先行なし＝プロ確定\n【HL実測】実現益$6,329,149・勝率0.9728・majors比0.87・急変先行$0\n【資金源】[0xc0778a] ＝ 別ウォレット",
       "current": {
         "date": "2026-06-17",
         "metric_category": "nansen-pro",
@@ -12904,7 +12904,7 @@
       "pro_pf": 2128.7,
       "wf_copy_worthy": false,
       "wf_confidence": 0.4,
-      "wf_quality": "格付け過大",
+      "wf_quality": "プロ",
       "lb_alltime": 6383012,
       "n_fills_14d": 219,
       "n_fills_14d_maj": 151
@@ -12945,7 +12945,7 @@
         "PnL:大($1-10M)",
         "方向:無/フラット"
       ],
-      "notes_jp": "【現在の分類: 🟢プロ(本物) / 質:格付け過大 / majors実現$2,175,232 / 最終取引2026-04-27】\n【WF再精査】質=格付け過大・×コピー非推奨(確度0.3)\n  強み: realized_maj(2.17M)がrealized_cache_all(2.17M)とほぼ一致しETH先物主体(top_coins ETH 2,174,967、alt偏重ではない)。closes_per_month=408で高頻度MM\n  懸念: 上記\n―――（履歴）―――\n【ひとことで】🟢 多数の取引で安定して稼ぎ、急変直前の先行建玉は検出されず＝実力のプロ（HL行動で確認）。\n【HL実測】実現益$2,150,195・勝率0.9928・方向的中率0.0956・急変先行$0\n【活動期間】2025-12-10〜2026-04-27（majors 4084約定）\n【正体(Nansen)】Former Smart Trader [0xed41a1]",
+      "notes_jp": "【現在の分類: 🟢プロ(本物) / 質:プロ / majors実現$2,175,232 / 最終取引2026-04-27】\n【WF再精査】質=プロ・×コピー非推奨(確度0.3)\n  強み: realized_maj(2.17M)がrealized_cache_all(2.17M)とほぼ一致しETH先物主体(top_coins ETH 2,174,967、alt偏重ではない)。closes_per_month=408で高頻度MM\n  懸念: 上記\n―――（履歴）―――\n【ひとことで】🟢 多数の取引で安定して稼ぎ、急変直前の先行建玉は検出されず＝実力のプロ（HL行動で確認）。\n【HL実測】実現益$2,150,195・勝率0.9928・方向的中率0.0956・急変先行$0\n【活動期間】2025-12-10〜2026-04-27（majors 4084約定）\n【正体(Nansen)】Former Smart Trader [0xed41a1]",
       "current": {
         "date": "2026-06-17",
         "metric_category": "hl-verified",
@@ -13071,7 +13071,7 @@
       "pro_pf": 99,
       "wf_copy_worthy": false,
       "wf_confidence": 0.3,
-      "wf_quality": "格付け過大",
+      "wf_quality": "プロ",
       "lb_alltime": 6968199,
       "n_fills_14d_maj": 0
     },
@@ -15101,7 +15101,7 @@
         "PnL:大($1-10M)",
         "方向:無/フラット"
       ],
-      "notes_jp": "【現在の分類: 🟢プロ(本物) / 質:格付け過大 / majors実現$1,928,778 / 最終取引2026-04-07】\n【WF再精査】質=格付け過大・×コピー非推奨(確度0.72)\n  強み: 利益が本物と確認できる: realized_cache_all(1,928,778)とleaderboard_allTime(1,939,703)がほぼ完全一致(乖離0.6%)→キャッシュ窓が負け月を隠している『窓アーティファクト』ではなく\n  懸念: ラベルが『Former Smart Trader』=Nansenが既にSmart Trader格付けを剥奪、かつactive14=false(14日以上非アクティブ)で実質引退/休眠の疑い→ライブシグナルとして現在コピー不能。加えてshor\n―――（履歴）―――\n【ひとことで】🟢 多数の取引で安定して稼ぎ、急変直前の先行建玉は検出されず＝実力のプロ（HL行動で確認）。\n【HL実測】実現益$1,928,778・勝率0.75・方向的中率0.0905・急変先行$0\n【活動期間】2025-08-26〜2026-04-07（majors 5804約定）\n【正体(Nansen)】Former Smart Trader [0xb1694d]",
+      "notes_jp": "【現在の分類: 🟢プロ(本物) / 質:プロ / majors実現$1,928,778 / 最終取引2026-04-07】\n【WF再精査】質=プロ・×コピー非推奨(確度0.72)\n  強み: 利益が本物と確認できる: realized_cache_all(1,928,778)とleaderboard_allTime(1,939,703)がほぼ完全一致(乖離0.6%)→キャッシュ窓が負け月を隠している『窓アーティファクト』ではなく\n  懸念: ラベルが『Former Smart Trader』=Nansenが既にSmart Trader格付けを剥奪、かつactive14=false(14日以上非アクティブ)で実質引退/休眠の疑い→ライブシグナルとして現在コピー不能。加えてshor\n―――（履歴）―――\n【ひとことで】🟢 多数の取引で安定して稼ぎ、急変直前の先行建玉は検出されず＝実力のプロ（HL行動で確認）。\n【HL実測】実現益$1,928,778・勝率0.75・方向的中率0.0905・急変先行$0\n【活動期間】2025-08-26〜2026-04-07（majors 5804約定）\n【正体(Nansen)】Former Smart Trader [0xb1694d]",
       "current": {
         "date": "2026-06-17",
         "metric_category": "hl-verified",
@@ -15145,7 +15145,7 @@
       "pro_pf": 99,
       "wf_copy_worthy": false,
       "wf_confidence": 0.72,
-      "wf_quality": "格付け過大",
+      "wf_quality": "プロ",
       "lb_alltime": 1939703,
       "n_fills_14d_maj": 0
     },
@@ -16321,7 +16321,7 @@
         "PnL:大($1-10M)",
         "方向:無/フラット"
       ],
-      "notes_jp": "【現在の分類: 🟢プロ(本物) / 質:格付け過大 / majors実現$1,423,967 / 最終取引2026-06-14】\n【WF再精査】質=格付け過大・×コピー非推奨(確度0.28)\n  強み: PnLはmajors完全主導(realized_maj 1.42M ≒ cache 1.44M、top_coin BTC 1.42M)でalt偏重ではない。先物の対象はBTCに集中しており、銘柄選択リスクは小さい。\n  懸念: short_ratio=0.02の実質ロング専で高win_rateは上昇局面ベータ依存・下落耐性未証明。Nansenが既にFormer Smart Traderへ格下げ。allTime(1.03M)<直近cache窓(1.44M)で過去に値\n―――（履歴）―――\n【ひとことで】🟢 多数の取引で安定して稼ぎ、急変直前の先行建玉は検出されず＝実力のプロ（HL行動で確認）。\n【HL実測】実現益$1,423,967・勝率0.9967・方向的中率0.0155・急変先行$0\n【活動期間】2026-04-08〜2026-06-04（majors 5228約定）\n【正体(Nansen)】Former Smart Trader [0xa3d843]",
+      "notes_jp": "【現在の分類: 🟢プロ(本物) / 質:プロ / majors実現$1,423,967 / 最終取引2026-06-14】\n【WF再精査】質=プロ・×コピー非推奨(確度0.28)\n  強み: PnLはmajors完全主導(realized_maj 1.42M ≒ cache 1.44M、top_coin BTC 1.42M)でalt偏重ではない。先物の対象はBTCに集中しており、銘柄選択リスクは小さい。\n  懸念: short_ratio=0.02の実質ロング専で高win_rateは上昇局面ベータ依存・下落耐性未証明。Nansenが既にFormer Smart Traderへ格下げ。allTime(1.03M)<直近cache窓(1.44M)で過去に値\n―――（履歴）―――\n【ひとことで】🟢 多数の取引で安定して稼ぎ、急変直前の先行建玉は検出されず＝実力のプロ（HL行動で確認）。\n【HL実測】実現益$1,423,967・勝率0.9967・方向的中率0.0155・急変先行$0\n【活動期間】2026-04-08〜2026-06-04（majors 5228約定）\n【正体(Nansen)】Former Smart Trader [0xa3d843]",
       "current": {
         "date": "2026-06-17",
         "metric_category": "hl-verified",
@@ -16447,7 +16447,7 @@
       "pro_pf": 15.7,
       "wf_copy_worthy": false,
       "wf_confidence": 0.28,
-      "wf_quality": "格付け過大",
+      "wf_quality": "プロ",
       "lb_alltime": 1031470,
       "n_fills_14d_maj": 0
     },
@@ -16631,7 +16631,7 @@
         "PnL:中($100k-1M)",
         "方向:無/フラット"
       ],
-      "notes_jp": "【現在の分類: 🔵alt主体プロ / 質:格付け過大 / majors実現$0 / 最終取引2026-06-18】\n【WF再精査】質=格付け過大・×コピー非推奨(確度0.25)\n  強み: 通算 leaderboard_allTime 798k はキャッシュ窓 994k と整合し、履歴は本物(7ヶ月・約3889約定)。win_rate 0.764 と単月 xyz:MU(Micron株perp)で +780k を取った一発の地合\n  懸念: realized_maj=0 で BTC/ETH/SOL majors の実力がゼロ。利益の約78%が単一銘柄 xyz:MU(株perp)集中で、HYPE/xyz:SKHX/xyz:GOLD と合わせ完全に株・コモディティ・altの方向ベッ\n―――（履歴）―――\n【判定】実力で安定黒字・majors先行なし＝プロ確定\n【HL実測】実現益$923,593・勝率0.7484・majors比0.0・急変先行$0\n【資金源】Relay Protocol: EOA Bridge [0xf70da9] ＝ ブリッジ/サービス(隠蔽)\n【注】alt中心ゆえBTC/ETH/SOLのインサイダー検証は限定的。alt側は未検証。",
+      "notes_jp": "【現在の分類: 🔵alt主体プロ / 質:プロ / majors実現$0 / 最終取引2026-06-18】\n【WF再精査】質=プロ・×コピー非推奨(確度0.25)\n  強み: 通算 leaderboard_allTime 798k はキャッシュ窓 994k と整合し、履歴は本物(7ヶ月・約3889約定)。win_rate 0.764 と単月 xyz:MU(Micron株perp)で +780k を取った一発の地合\n  懸念: realized_maj=0 で BTC/ETH/SOL majors の実力がゼロ。利益の約78%が単一銘柄 xyz:MU(株perp)集中で、HYPE/xyz:SKHX/xyz:GOLD と合わせ完全に株・コモディティ・altの方向ベッ\n―――（履歴）―――\n【判定】実力で安定黒字・majors先行なし＝プロ確定\n【HL実測】実現益$923,593・勝率0.7484・majors比0.0・急変先行$0\n【資金源】Relay Protocol: EOA Bridge [0xf70da9] ＝ ブリッジ/サービス(隠蔽)\n【注】alt中心ゆえBTC/ETH/SOLのインサイダー検証は限定的。alt側は未検証。",
       "current": {
         "date": "2026-06-17",
         "metric_category": "nansen-pro",
@@ -16685,7 +16685,7 @@
       "pro_pf": 3.0,
       "wf_copy_worthy": false,
       "wf_confidence": 0.25,
-      "wf_quality": "格付け過大",
+      "wf_quality": "プロ",
       "lb_alltime": 798326,
       "n_fills_14d": 1230,
       "n_fills_14d_maj": 0
@@ -18736,7 +18736,7 @@
         "PnL:中($100k-1M)",
         "方向:無/フラット"
       ],
-      "notes_jp": "【現在の分類: 🟢プロ(本物) / 質:格付け過大 / majors実現$248,595 / 最終取引2026-04-19】\n【WF再精査】質=格付け過大・×コピー非推奨(確度0.3)\n  強み: 通算leaderboard 71万ドルはキャッシュ窓50万を上回り損失も反映した実数。3ヶ月中2ヶ月黒字・win_rate0.785で短期的に機能した痕跡はある。\n  懸念: worst_month -318,372ドルが致命的:通算50万に対し単月で32万溶かしており、profit_factorも2.6と低い=小勝ち多数+稀に巨大負けの負スキュー(ドローダウン耐性ゼロ)。さらにrealized_maj 24.9\n―――（履歴）―――\n【ひとことで】🟢 多数の取引で安定して稼ぎ、急変直前の先行建玉は検出されず＝実力のプロ（HL行動で確認）。\n【HL実測】実現益$248,595・勝率1.0・方向的中率0.4768・急変先行$0\n【活動期間】2026-03-23〜2026-03-28（majors 1398約定）\n【正体(Nansen)】Former Smart Trader [0xb58e1e]",
+      "notes_jp": "【現在の分類: 🟢プロ(本物) / 質:プロ / majors実現$248,595 / 最終取引2026-04-19】\n【WF再精査】質=プロ・×コピー非推奨(確度0.3)\n  強み: 通算leaderboard 71万ドルはキャッシュ窓50万を上回り損失も反映した実数。3ヶ月中2ヶ月黒字・win_rate0.785で短期的に機能した痕跡はある。\n  懸念: worst_month -318,372ドルが致命的:通算50万に対し単月で32万溶かしており、profit_factorも2.6と低い=小勝ち多数+稀に巨大負けの負スキュー(ドローダウン耐性ゼロ)。さらにrealized_maj 24.9\n―――（履歴）―――\n【ひとことで】🟢 多数の取引で安定して稼ぎ、急変直前の先行建玉は検出されず＝実力のプロ（HL行動で確認）。\n【HL実測】実現益$248,595・勝率1.0・方向的中率0.4768・急変先行$0\n【活動期間】2026-03-23〜2026-03-28（majors 1398約定）\n【正体(Nansen)】Former Smart Trader [0xb58e1e]",
       "current": {
         "date": "2026-06-17",
         "metric_category": "hl-verified",
@@ -18862,7 +18862,7 @@
       "pro_pf": 2.6,
       "wf_copy_worthy": false,
       "wf_confidence": 0.3,
-      "wf_quality": "格付け過大",
+      "wf_quality": "プロ",
       "lb_alltime": 710238,
       "n_fills_14d_maj": 0
     },
@@ -20665,7 +20665,7 @@
         "PnL:中($100k-1M)",
         "方向:無/フラット"
       ],
-      "notes_jp": "【現在の分類: 🔵alt主体プロ / 質:格付け過大 / majors実現$0 / 最終取引2026-05-26】\n【WF再精査】質=格付け過大・×コピー非推奨(確度0.15)\n  強み: 通算規模は実在(leaderboard_allTime 559k ≈ realized_cache_all 502kで整合)。約定頻度440/月でMMではなく、win_rate 0.891も表面上は高い。\n  懸念: realized_maj=0でBTC/ETH/SOL先物の実現益はゼロ。top_coinsはxyz:CL/BRENTOIL/SILVER等の原油・銀コモディティ合成銘柄に100%集中し、majors先物の実力ではない。さらにprofit_f\n―――（履歴）―――\n【判定】実力で安定黒字・majors先行なし＝プロ確定\n【HL実測】実現益$502,220・勝率0.8885・majors比0.0・急変先行$0\n【資金源】🏦 Binance: Wallet [0x1b5b4e] ＝ CEX(身元割れる)\n【注】alt中心ゆえBTC/ETH/SOLのインサイダー検証は限定的。alt側は未検証。",
+      "notes_jp": "【現在の分類: 🔵alt主体プロ / 質:プロ / majors実現$0 / 最終取引2026-05-26】\n【WF再精査】質=プロ・×コピー非推奨(確度0.15)\n  強み: 通算規模は実在(leaderboard_allTime 559k ≈ realized_cache_all 502kで整合)。約定頻度440/月でMMではなく、win_rate 0.891も表面上は高い。\n  懸念: realized_maj=0でBTC/ETH/SOL先物の実現益はゼロ。top_coinsはxyz:CL/BRENTOIL/SILVER等の原油・銀コモディティ合成銘柄に100%集中し、majors先物の実力ではない。さらにprofit_f\n―――（履歴）―――\n【判定】実力で安定黒字・majors先行なし＝プロ確定\n【HL実測】実現益$502,220・勝率0.8885・majors比0.0・急変先行$0\n【資金源】🏦 Binance: Wallet [0x1b5b4e] ＝ CEX(身元割れる)\n【注】alt中心ゆえBTC/ETH/SOLのインサイダー検証は限定的。alt側は未検証。",
       "current": {
         "date": "2026-06-17",
         "metric_category": "nansen-pro",
@@ -20767,7 +20767,7 @@
       "pro_pf": 99,
       "wf_copy_worthy": false,
       "wf_confidence": 0.15,
-      "wf_quality": "格付け過大",
+      "wf_quality": "プロ",
       "lb_alltime": 559535,
       "n_fills_14d": 0,
       "n_fills_14d_maj": 0
@@ -22280,7 +22280,7 @@
         "PnL:中($100k-1M)",
         "方向:無/フラット"
       ],
-      "notes_jp": "【現在の分類: 🟢プロ(本物) / 質:格付け過大 / majors実現$332,299 / 最終取引2026-06-19】\n【WF再精査】質=格付け過大・×コピー非推奨(確度0.62)\n  強み: 12ヶ月・4051約定の十分なサンプルで実力の信頼性は高い。PF15.6・worst_month -17.4k(通算759kの約2.3%)とドローダウン管理が堅実で、win_rate0.621と過剰でなく塩漬け徴候なし。closes/mon\n  懸念: Nansenラベルが「Former Smart Trader」=過去にSmart Trader認定→格下げされた強い劣化シグナル。active14=falseで直近14日無稼働(休眠/エッジ消失の疑い)。コピートレードは稼働中ウォレットが前\n―――（履歴）―――\n【ひとことで】🟢 多数の取引で安定して稼ぎ、急変直前の先行建玉は検出されず＝実力のプロ（HL行動で確認）。\n【HL実測】実現益$332,299・勝率0.7043・方向的中率0.2341・急変先行$0\n【活動期間】2025-07-21〜2026-04-18（majors 927約定）\n【正体(Nansen)】Former Smart Trader [0x504969]",
+      "notes_jp": "【現在の分類: 🟢プロ(本物) / 質:プロ / majors実現$332,299 / 最終取引2026-06-19】\n【WF再精査】質=プロ・×コピー非推奨(確度0.62)\n  強み: 12ヶ月・4051約定の十分なサンプルで実力の信頼性は高い。PF15.6・worst_month -17.4k(通算759kの約2.3%)とドローダウン管理が堅実で、win_rate0.621と過剰でなく塩漬け徴候なし。closes/mon\n  懸念: Nansenラベルが「Former Smart Trader」=過去にSmart Trader認定→格下げされた強い劣化シグナル。active14=falseで直近14日無稼働(休眠/エッジ消失の疑い)。コピートレードは稼働中ウォレットが前\n―――（履歴）―――\n【ひとことで】🟢 多数の取引で安定して稼ぎ、急変直前の先行建玉は検出されず＝実力のプロ（HL行動で確認）。\n【HL実測】実現益$332,299・勝率0.7043・方向的中率0.2341・急変先行$0\n【活動期間】2025-07-21〜2026-04-18（majors 927約定）\n【正体(Nansen)】Former Smart Trader [0x504969]",
       "current": {
         "date": "2026-06-17",
         "metric_category": "hl-verified",
@@ -22398,7 +22398,7 @@
       "pro_pf": 15.6,
       "wf_copy_worthy": false,
       "wf_confidence": 0.62,
-      "wf_quality": "格付け過大",
+      "wf_quality": "プロ",
       "lb_alltime": 758737,
       "n_fills_14d_maj": 0
     },
@@ -24246,7 +24246,7 @@
         "方向:無/フラット",
         "資金:出金疑い(10x+)"
       ],
-      "notes_jp": "【現在の分類: 🔵alt主体プロ / 質:格付け過大 / majors実現$7,487 / 最終取引2026-06-16】\n【WF再精査】質=格付け過大・×コピー非推奨(確度0.82)\n  強み: 23ヶ月という本データ最長の履歴で黒字月率0.87、最大負け月わずか-4,559、profit_factor70.2(=99の窓アーティファクトでなく実際に複数の負け月を内包)。closes_per_month142でMMでない純粋な方向性\n  懸念: realized_majがわずか7,487(全realized591kの約1%)。利益の源泉はPUMP/EIGEN/ENA/WLDのalt中心で、BTC/ETH/SOL先物の実力はほぼゼロ。本スクリーニングの対象であるmajors perp\n―――（履歴）―――\n【判定】実力で安定黒字・majors先行なし＝プロ確定\n【HL実測】実現益$591,463・勝率0.7432・majors比0.03・急変先行$0\n【資金源】🏦 Coinbase [0x3dd1d1] ＝ CEX(身元割れる)\n【注】alt中心ゆえBTC/ETH/SOLのインサイダー検証は限定的。alt側は未検証。",
+      "notes_jp": "【現在の分類: 🔵alt主体プロ / 質:プロ / majors実現$7,487 / 最終取引2026-06-16】\n【WF再精査】質=プロ・×コピー非推奨(確度0.82)\n  強み: 23ヶ月という本データ最長の履歴で黒字月率0.87、最大負け月わずか-4,559、profit_factor70.2(=99の窓アーティファクトでなく実際に複数の負け月を内包)。closes_per_month142でMMでない純粋な方向性\n  懸念: realized_majがわずか7,487(全realized591kの約1%)。利益の源泉はPUMP/EIGEN/ENA/WLDのalt中心で、BTC/ETH/SOL先物の実力はほぼゼロ。本スクリーニングの対象であるmajors perp\n―――（履歴）―――\n【判定】実力で安定黒字・majors先行なし＝プロ確定\n【HL実測】実現益$591,463・勝率0.7432・majors比0.03・急変先行$0\n【資金源】🏦 Coinbase [0x3dd1d1] ＝ CEX(身元割れる)\n【注】alt中心ゆえBTC/ETH/SOLのインサイダー検証は限定的。alt側は未検証。",
       "current": {
         "date": "2026-06-17",
         "metric_category": "nansen-pro",
@@ -24328,7 +24328,7 @@
       "pro_pf": 70.2,
       "wf_copy_worthy": false,
       "wf_confidence": 0.82,
-      "wf_quality": "格付け過大",
+      "wf_quality": "プロ",
       "lb_alltime": 783561,
       "n_fills_14d": 864,
       "n_fills_14d_maj": 0
@@ -25427,7 +25427,7 @@
         "PnL:中($100k-1M)",
         "方向:無/フラット"
       ],
-      "notes_jp": "【現在の分類: 🟢プロ(本物) / 質:格付け過大 / majors実現$149,923 / 最終取引2026-03-23】\n【WF再精査】質=格付け過大・×コピー非推奨(確度0.2)\n  強み: 9ヶ月・pos_month_rate=1.0・win_rate=0.939・n_closes=3990とサンプルは一定数あり、worst_monthも-ではなく一貫した黒字曲線を描いている（少なくとも記録期間内では一度も月次マイナスを出して\n  懸念: (1) alt偏重が決定的: realized_maj(BTC/ETH/SOL)はわずか149,923に対しrealized_cache_all=2,338,551、利益の88%(@107=2,064,098)が単一の非メジャー指数/bui\n―――（履歴）―――\n【判定】実力で安定黒字・majors先行なし＝プロ確定\n【HL実測】実現益$2,338,551・勝率0.9391・majors比0.08・急変先行$0\n【資金源】不明 ＝ 不明\n【注】alt中心ゆえBTC/ETH/SOLのインサイダー検証は限定的。alt側は未検証。",
+      "notes_jp": "【現在の分類: 🟢プロ(本物) / 質:プロ / majors実現$149,923 / 最終取引2026-03-23】\n【WF再精査】質=プロ・×コピー非推奨(確度0.2)\n  強み: 9ヶ月・pos_month_rate=1.0・win_rate=0.939・n_closes=3990とサンプルは一定数あり、worst_monthも-ではなく一貫した黒字曲線を描いている（少なくとも記録期間内では一度も月次マイナスを出して\n  懸念: (1) alt偏重が決定的: realized_maj(BTC/ETH/SOL)はわずか149,923に対しrealized_cache_all=2,338,551、利益の88%(@107=2,064,098)が単一の非メジャー指数/bui\n―――（履歴）―――\n【判定】実力で安定黒字・majors先行なし＝プロ確定\n【HL実測】実現益$2,338,551・勝率0.9391・majors比0.08・急変先行$0\n【資金源】不明 ＝ 不明\n【注】alt中心ゆえBTC/ETH/SOLのインサイダー検証は限定的。alt側は未検証。",
       "current": {
         "date": "2026-06-17",
         "metric_category": "nansen-pro",
@@ -25461,7 +25461,7 @@
       "pro_pf": 99,
       "wf_copy_worthy": false,
       "wf_confidence": 0.2,
-      "wf_quality": "格付け過大",
+      "wf_quality": "プロ",
       "last_fill": 1774263975101,
       "n_fills_14d": 0,
       "n_fills_14d_maj": 0
@@ -25560,7 +25560,7 @@
         "PnL:中($100k-1M)",
         "方向:無/フラット"
       ],
-      "notes_jp": "【現在の分類: 🟢プロ(本物) / 質:格付け過大 / majors実現$77,256 / 最終取引2026-06-10】\n【WF再精査】質=格付け過大・×コピー非推奨(確度0.62)\n  強み: 11ヶ月・黒字月率82%・closes_per_month69の低頻度ポジショントレーダー。profit_factor17.3(99でない)で負け月(worst -40,418)もデータに写っており、運/MM/窓アーティファクト/塩漬けのい\n  懸念: 利益のmajors(BTC/ETH/SOL)寄与はrealized_maj 77,256で全体658,339の約12%のみ。エンジンはHYPE 271k・@1指数143k・UNI 96kのalt/HYPE偏重で、BTC/ETH/SOL先物の\n―――（履歴）―――\n【ひとことで】🟢 多数の取引で安定して稼ぎ、急変直前の先行建玉は検出されず＝実力のプロ（HL行動で確認）。\n【HL実測】実現益$77,256・勝率1.0・方向的中率0.0・急変先行$0\n【活動期間】2025-05-23〜2025-06-22（majors 185約定）\n【正体(Nansen)】🤓 Smart HL Perps Trader [0x01b7e7]",
+      "notes_jp": "【現在の分類: 🟢プロ(本物) / 質:プロ / majors実現$77,256 / 最終取引2026-06-10】\n【WF再精査】質=プロ・×コピー非推奨(確度0.62)\n  強み: 11ヶ月・黒字月率82%・closes_per_month69の低頻度ポジショントレーダー。profit_factor17.3(99でない)で負け月(worst -40,418)もデータに写っており、運/MM/窓アーティファクト/塩漬けのい\n  懸念: 利益のmajors(BTC/ETH/SOL)寄与はrealized_maj 77,256で全体658,339の約12%のみ。エンジンはHYPE 271k・@1指数143k・UNI 96kのalt/HYPE偏重で、BTC/ETH/SOL先物の\n―――（履歴）―――\n【ひとことで】🟢 多数の取引で安定して稼ぎ、急変直前の先行建玉は検出されず＝実力のプロ（HL行動で確認）。\n【HL実測】実現益$77,256・勝率1.0・方向的中率0.0・急変先行$0\n【活動期間】2025-05-23〜2025-06-22（majors 185約定）\n【正体(Nansen)】🤓 Smart HL Perps Trader [0x01b7e7]",
       "current": {
         "date": "2026-06-17",
         "metric_category": "hl-verified",
@@ -25622,7 +25622,7 @@
       "pro_pf": 17.3,
       "wf_copy_worthy": false,
       "wf_confidence": 0.62,
-      "wf_quality": "格付け過大",
+      "wf_quality": "プロ",
       "n_fills_14d_maj": 0
     },
     "0xf2efcd0bedf771dc63eb655d395c15a9d753550a": {
@@ -27240,7 +27240,7 @@
         "PnL:中($100k-1M)",
         "方向:無/フラット"
       ],
-      "notes_jp": "【現在の分類: 🔵alt主体プロ / 質:格付け過大 / majors実現$0 / 最終取引2025-11-15】\n【WF再精査】質=格付け過大・×コピー非推奨(確度0.05)\n  強み: なし(表面的な高win_rate/PFは単月の窓アーティファクトに過ぎず実力の証拠にならない)\n  懸念: あらゆる懐疑軸で同時失格。(1)キャッシュ窓アーティファクト: months=1・PF=99・worst_month正値で負け月が一切写っていない。(2)規模不在: leaderboard_allTime=null で通算規模が検証不能、r\n―――（履歴）―――\n【判定】実力で安定黒字・majors先行なし＝プロ確定\n【HL実測】実現益$562,804・勝率0.8967・majors比0.0・急変先行$0\n【資金源】不明 ＝ 不明\n【注】alt中心ゆえBTC/ETH/SOLのインサイダー検証は限定的。alt側は未検証。",
+      "notes_jp": "【現在の分類: 🔵alt主体プロ / 質:プロ / majors実現$0 / 最終取引2025-11-15】\n【WF再精査】質=プロ・×コピー非推奨(確度0.05)\n  強み: なし(表面的な高win_rate/PFは単月の窓アーティファクトに過ぎず実力の証拠にならない)\n  懸念: あらゆる懐疑軸で同時失格。(1)キャッシュ窓アーティファクト: months=1・PF=99・worst_month正値で負け月が一切写っていない。(2)規模不在: leaderboard_allTime=null で通算規模が検証不能、r\n―――（履歴）―――\n【判定】実力で安定黒字・majors先行なし＝プロ確定\n【HL実測】実現益$562,804・勝率0.8967・majors比0.0・急変先行$0\n【資金源】不明 ＝ 不明\n【注】alt中心ゆえBTC/ETH/SOLのインサイダー検証は限定的。alt側は未検証。",
       "current": {
         "date": "2026-06-17",
         "metric_category": "nansen-pro",
@@ -27275,7 +27275,7 @@
       "pro_pf": 99,
       "wf_copy_worthy": false,
       "wf_confidence": 0.05,
-      "wf_quality": "格付け過大",
+      "wf_quality": "プロ",
       "n_fills_14d": 0,
       "n_fills_14d_maj": 0
     },
@@ -37349,7 +37349,7 @@
         "PnL:小(<$100k)",
         "方向:無/フラット"
       ],
-      "notes_jp": "【現在の分類: 🟢プロ(本物) / 質:格付け過大 / majors実現$328,868 / 最終取引2026-06-10】\n【WF再精査】質=格付け過大・×コピー非推奨(確度0.2)\n  強み: leaderboard_allTime 935万ドルと通算規模は本物で大きく、closes_per_month 478で高頻度MMではない中頻度。realized_cache_all 601万も巨額。\n  懸念: 利益の94.5%(568万ドル)が単一alt銘柄@107(HYPE系内部表記の疑い)に集中し、majors(BTC/ETH/SOL)実力はBTCの32.9万ドルのみ=通算比3.5%の極端なalt偏重。さらにwin_rate=1.0・prof\n―――（履歴）―――\n【ひとことで】🟢 多数の取引で安定して稼ぎ、急変直前の先行建玉は検出されず＝実力のプロ（HL行動で確認）。\n【HL実測】実現益$328,868・勝率1.0・方向的中率0.0・急変先行$0\n【活動期間】2025-02-27〜2025-06-07（majors 346約定）\n【正体(Nansen)】🤓 Smart HL Perps Trader [0x1e6db0]",
+      "notes_jp": "【現在の分類: 🟢プロ(本物) / 質:プロ / majors実現$328,868 / 最終取引2026-06-10】\n【WF再精査】質=プロ・×コピー非推奨(確度0.2)\n  強み: leaderboard_allTime 935万ドルと通算規模は本物で大きく、closes_per_month 478で高頻度MMではない中頻度。realized_cache_all 601万も巨額。\n  懸念: 利益の94.5%(568万ドル)が単一alt銘柄@107(HYPE系内部表記の疑い)に集中し、majors(BTC/ETH/SOL)実力はBTCの32.9万ドルのみ=通算比3.5%の極端なalt偏重。さらにwin_rate=1.0・prof\n―――（履歴）―――\n【ひとことで】🟢 多数の取引で安定して稼ぎ、急変直前の先行建玉は検出されず＝実力のプロ（HL行動で確認）。\n【HL実測】実現益$328,868・勝率1.0・方向的中率0.0・急変先行$0\n【活動期間】2025-02-27〜2025-06-07（majors 346約定）\n【正体(Nansen)】🤓 Smart HL Perps Trader [0x1e6db0]",
       "current": {
         "date": "2026-06-17",
         "metric_category": "hl-verified",
@@ -37392,7 +37392,7 @@
       "pro_pf": 99,
       "wf_copy_worthy": false,
       "wf_confidence": 0.2,
-      "wf_quality": "格付け過大",
+      "wf_quality": "プロ",
       "last_fill": 1781103880551,
       "lb_alltime": 9354362,
       "n_fills_14d_maj": 0
@@ -38536,7 +38536,7 @@
       "roi_alltime": 6453.490607829462,
       "n_fills_14d": 0,
       "nansen_checked": "2026-06-17",
-      "notes_jp": "【現在の分類: 🟢プロ(本物) / 質:格付け過大 / majors実現$1,902,418 / 最終取引2026-05-30】\n【WF再精査】質=格付け過大・×コピー非推奨(確度0.28)\n  強み: realized_maj=realized_cache_all で100% BTC(majors純度100%・alt偏重ではない)。win_rate 0.988 と profit_factor 99 の見かけ上の安定。\n  懸念: 同上\n―――（履歴）―――\n【ひとことで】🟢 多数の取引で安定して稼ぎ、急変直前の先行建玉は検出されず＝実力のプロ（HL行動で確認）。\n【HL実測】実現益$1,902,418・勝率1.0・方向的中率0.0・急変先行$0\n【活動期間】2025-09-30〜2026-01-20（majors 2000約定）\n【正体(Nansen)】HL Perps Whale [0x6979dd]",
+      "notes_jp": "【現在の分類: 🟢プロ(本物) / 質:プロ / majors実現$1,902,418 / 最終取引2026-05-30】\n【WF再精査】質=プロ・×コピー非推奨(確度0.28)\n  強み: realized_maj=realized_cache_all で100% BTC(majors純度100%・alt偏重ではない)。win_rate 0.988 と profit_factor 99 の見かけ上の安定。\n  懸念: 同上\n―――（履歴）―――\n【ひとことで】🟢 多数の取引で安定して稼ぎ、急変直前の先行建玉は検出されず＝実力のプロ（HL行動で確認）。\n【HL実測】実現益$1,902,418・勝率1.0・方向的中率0.0・急変先行$0\n【活動期間】2025-09-30〜2026-01-20（majors 2000約定）\n【正体(Nansen)】HL Perps Whale [0x6979dd]",
       "current": {
         "date": "2026-06-17",
         "metric_category": "hl-verified",
@@ -38571,7 +38571,7 @@
       "pro_pf": 99,
       "wf_copy_worthy": false,
       "wf_confidence": 0.28,
-      "wf_quality": "格付け過大",
+      "wf_quality": "プロ",
       "n_fills_14d_maj": 0
     },
     "0xcefd7652228a8619d0af5b95389cd49387cd30e0": {
@@ -38596,7 +38596,7 @@
       "roi_alltime": 0.07890574668268768,
       "n_fills_14d": 0,
       "nansen_checked": "2026-06-17",
-      "notes_jp": "【現在の分類: 🔵alt主体プロ / 質:格付け過大 / majors実現$-77,162 / 最終取引2026-06-05】\n【WF再精査】質=格付け過大・×コピー非推奨(確度0.78)\n  強み: 18ヶ月の長期履歴・黒字月率72%・profit_factor8.9(窓アーティファクトでない健全な数値)・leaderboard_allTime 2.8Mがキャッシュ規模と整合し、通算では本物の収益性。closes_per_month 3\n  懸念: 本研究の対象であるBTC/ETH/SOL(majors)でrealized_maj=-77,162と実は赤字。収益の84%が単一alt/index perp @107(+HYPE 284k)由来でalt偏重・long偏重(short_rat\n―――（履歴）―――\n【ひとことで】🟢 多数の取引で安定して稼ぎ、急変直前の先行建玉は検出されず＝実力のプロ（HL行動で確認）。\n【HL実測】実現益$1,612,233・勝率0.6196・方向的中率0.382・急変先行$0\n【活動期間】2025-04-22〜2026-03-18（majors 1616約定）\n【正体(Nansen)】HL Perps Day Trader [0xcefd76]",
+      "notes_jp": "【現在の分類: 🔵alt主体プロ / 質:プロ / majors実現$-77,162 / 最終取引2026-06-05】\n【WF再精査】質=プロ・×コピー非推奨(確度0.78)\n  強み: 18ヶ月の長期履歴・黒字月率72%・profit_factor8.9(窓アーティファクトでない健全な数値)・leaderboard_allTime 2.8Mがキャッシュ規模と整合し、通算では本物の収益性。closes_per_month 3\n  懸念: 本研究の対象であるBTC/ETH/SOL(majors)でrealized_maj=-77,162と実は赤字。収益の84%が単一alt/index perp @107(+HYPE 284k)由来でalt偏重・long偏重(short_rat\n―――（履歴）―――\n【ひとことで】🟢 多数の取引で安定して稼ぎ、急変直前の先行建玉は検出されず＝実力のプロ（HL行動で確認）。\n【HL実測】実現益$1,612,233・勝率0.6196・方向的中率0.382・急変先行$0\n【活動期間】2025-04-22〜2026-03-18（majors 1616約定）\n【正体(Nansen)】HL Perps Day Trader [0xcefd76]",
       "current": {
         "date": "2026-06-17",
         "metric_category": "hl-verified",
@@ -38639,7 +38639,7 @@
       "pro_pf": 8.9,
       "wf_copy_worthy": false,
       "wf_confidence": 0.78,
-      "wf_quality": "格付け過大",
+      "wf_quality": "プロ",
       "lb_alltime": 2807792,
       "n_fills_14d_maj": 0
     },
