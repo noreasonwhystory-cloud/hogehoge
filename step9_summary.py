@@ -208,7 +208,7 @@ a{{color:#4ea1ff}} ul{{margin:6px 0;padding-left:20px}} li{{margin-bottom:5px}}
 
 <h2>3. プロ側もworkflowで再精査 → 真のエリートは{n_elite}件</h2>
 <div class="box">
-Nansen/leaderboardが「プロ」と示した層を<b>窓アーティファクト/高頻度MM/塩漬け/alt偏重/運</b>の軸で多角検証し、品質を6段階(エリート{n_elite}・堅実{wq.get('堅実',0)}・プロ{wq.get('プロ',0)}・ムラあり{wq.get('ムラあり',0)}・履歴薄{wq.get('履歴薄/評価不能',0)}・高頻度MM{wq.get('高頻度MM',0)})に整理。
+Nansen/leaderboardが「プロ」と示した層を<b>窓アーティファクト/高頻度MM/塩漬け/alt偏重/運</b>の軸で多角検証し、品質を6段階(エリート{n_elite}・堅実{wq.get('堅実',0)}・中堅{wq.get('中堅',0)}・ムラあり{wq.get('ムラあり',0)}・履歴薄{wq.get('履歴薄/評価不能',0)}・高頻度MM{wq.get('高頻度MM',0)})に整理。
 13〜19ヶ月の長期・黒字月率80%+・PF実数(負け月込み)・majors裏付けを満たす<b class="g">真のエリート{n_elite}件</b>(<code>0x41206f8e</code> majors$8.72M/15ヶ月 等)のみ確定。
 最頻の失格は<b class="r">PF=99のキャッシュ窓アーティファクト(負け月が写っていないだけ)</b>と<b class="r">alt偏重</b>。
 現在は<b>本物プロ{n_pro}・alt主体プロ{n_alt}・高頻度MM{n_mm}</b>に再編。MMは薄利多売でコピー不能ゆえ<a href="mm.html">専用ページ</a>へ分離した。</div>
