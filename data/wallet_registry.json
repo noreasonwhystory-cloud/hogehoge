@@ -659,7 +659,7 @@
       "lb_alltime": 101355,
       "n_fills_14d": 650,
       "n_fills_14d_maj": 490,
-      "wf_quality": null
+      "wf_quality": "中堅"
     },
     "0x83b00972aafcc3d06d45b1b823079f9a414da46e": {
       "address": "0x83b00972aafcc3d06d45b1b823079f9a414da46e",
@@ -1504,7 +1504,7 @@
       "mm_realized_all": 104468,
       "lb_alltime": 213349,
       "n_fills_14d_maj": 327,
-      "wf_quality": null
+      "wf_quality": "履歴薄/評価不能"
     },
     "0xa72dc2d42398e54634fc28e6769f8ce3ae011807": {
       "address": "0xa72dc2d42398e54634fc28e6769f8ce3ae011807",
@@ -1664,7 +1664,7 @@
       "pro_pf": 10.0,
       "wf_copy_worthy": false,
       "wf_confidence": 0.08,
-      "wf_quality": null,
+      "wf_quality": "履歴薄/評価不能",
       "mm_cpm": 3041,
       "mm_realized_all": 79229,
       "lb_alltime": 85529,
@@ -1798,7 +1798,7 @@
       "pro_pf": 5.6,
       "wf_copy_worthy": false,
       "wf_confidence": 0.82,
-      "wf_quality": null,
+      "wf_quality": "中堅",
       "trade_days": 211,
       "mm_cpm": 1952,
       "mm_realized_all": 372785,
@@ -2459,7 +2459,7 @@
       "mm_realized_all": 1472350,
       "lb_alltime": 1015547,
       "n_fills_14d_maj": 4573,
-      "wf_quality": null
+      "wf_quality": "履歴薄/評価不能"
     },
     "0x2a934d40944e2b686ee9cdce74a3f67d32cd0347": {
       "address": "0x2a934d40944e2b686ee9cdce74a3f67d32cd0347",
@@ -3582,7 +3582,7 @@
       "lb_alltime": 163869,
       "n_fills_14d": 3976,
       "n_fills_14d_maj": 965,
-      "wf_quality": null
+      "wf_quality": "履歴薄/評価不能"
     },
     "0x8d6427d95427d2af0c3e9a4c80e0e0e604299230": {
       "address": "0x8d6427d95427d2af0c3e9a4c80e0e0e604299230",
@@ -4128,7 +4128,7 @@
       "mm_realized_all": 126455,
       "lb_alltime": 350188,
       "n_fills_14d_maj": 781,
-      "wf_quality": null
+      "wf_quality": "中堅"
     },
     "0x97b1419998d4c804336c6c22519d28277bacebd7": {
       "address": "0x97b1419998d4c804336c6c22519d28277bacebd7",
@@ -4605,7 +4605,7 @@
       "mm_realized_all": 123018,
       "lb_alltime": 107991,
       "n_fills_14d_maj": 118,
-      "wf_quality": null
+      "wf_quality": "中堅"
     },
     "0x2f01afc9f9437c4fcb8f2e8612c57bf522bcc81d": {
       "address": "0x2f01afc9f9437c4fcb8f2e8612c57bf522bcc81d",
@@ -4813,7 +4813,7 @@
       "lb_alltime": 124495,
       "n_fills_14d": 41,
       "n_fills_14d_maj": 0,
-      "wf_quality": null
+      "wf_quality": "履歴薄/評価不能"
     },
     "0xfe8c8076596dd917a20a31007ced69ce339129a1": {
       "address": "0xfe8c8076596dd917a20a31007ced69ce339129a1",
@@ -4886,7 +4886,7 @@
       "mm_realized_all": 183463,
       "lb_alltime": 138391,
       "n_fills_14d_maj": 0,
-      "wf_quality": null
+      "wf_quality": "中堅"
     },
     "0x79f2bb1fc86a1f0592fb30aa6a369a24a7fd2361": {
       "address": "0x79f2bb1fc86a1f0592fb30aa6a369a24a7fd2361",
@@ -5299,7 +5299,7 @@
       "lb_alltime": 1408915,
       "n_fills_14d": 36694,
       "n_fills_14d_maj": 1032,
-      "wf_quality": null
+      "wf_quality": "履歴薄/評価不能"
     },
     "0x0c349d9b92fbd172bbb5a17a9db0a673a6a10ad3": {
       "address": "0x0c349d9b92fbd172bbb5a17a9db0a673a6a10ad3",
@@ -6334,7 +6334,7 @@
       "mm_realized_all": 1027419,
       "lb_alltime": 1422156,
       "n_fills_14d_maj": 1878,
-      "wf_quality": null
+      "wf_quality": "履歴薄/評価不能"
     },
     "0xd67ca2c6f8bc84acf4fa4472b82a8740dc0a53ff": {
       "address": "0xd67ca2c6f8bc84acf4fa4472b82a8740dc0a53ff",
@@ -6491,7 +6491,7 @@
       "mm_realized_all": 498535,
       "lb_alltime": 3076844,
       "n_fills_14d_maj": 2496,
-      "wf_quality": null
+      "wf_quality": "ムラあり"
     },
     "0x91f564e80ed5e98eb22fde0857e1a87047f2df13": {
       "address": "0x91f564e80ed5e98eb22fde0857e1a87047f2df13",
@@ -6918,7 +6918,7 @@
       "pro_pf": 99,
       "wf_copy_worthy": false,
       "wf_confidence": 0.55,
-      "wf_quality": null,
+      "wf_quality": "履歴薄/評価不能",
       "mm_cpm": 8911,
       "mm_realized_all": 2107985,
       "lb_alltime": 26458745,
@@ -7093,7 +7093,7 @@
       "mm_realized_all": 246554,
       "lb_alltime": 226606,
       "n_fills_14d_maj": 55,
-      "wf_quality": null
+      "wf_quality": "履歴薄/評価不能"
     },
     "0xb123cd952875d8014efc7a9160a7531a5fe8f5ca": {
       "address": "0xb123cd952875d8014efc7a9160a7531a5fe8f5ca",
@@ -8023,7 +8023,7 @@
       "mm_realized_all": 724712,
       "lb_alltime": 983412,
       "n_fills_14d_maj": 1062,
-      "wf_quality": null
+      "wf_quality": "履歴薄/評価不能"
     },
     "0x48b1a8f92e403bc9dc7500b9cbcc4cadf35c7ac0": {
       "address": "0x48b1a8f92e403bc9dc7500b9cbcc4cadf35c7ac0",
@@ -8417,7 +8417,7 @@
       "mm_realized_all": 639632,
       "lb_alltime": 468302,
       "n_fills_14d_maj": 0,
-      "wf_quality": null
+      "wf_quality": "履歴薄/評価不能"
     },
     "0x935729ae51eef975ccdeb481d513c75986227bfd": {
       "address": "0x935729ae51eef975ccdeb481d513c75986227bfd",
@@ -9645,7 +9645,7 @@
       "mm_realized_all": 120277,
       "lb_alltime": 101813,
       "n_fills_14d_maj": 76,
-      "wf_quality": null
+      "wf_quality": "履歴薄/評価不能"
     },
     "0x20cf6f56ef057157ab8a48c82ed97258148c403c": {
       "address": "0x20cf6f56ef057157ab8a48c82ed97258148c403c",
@@ -9884,7 +9884,7 @@
       "mm_realized_all": 6558755,
       "lb_alltime": 21391840,
       "n_fills_14d_maj": 308,
-      "wf_quality": null
+      "wf_quality": "堅実"
     },
     "0xc7ebe10d3568c52b3f43dc50320167db9d10ce4f": {
       "address": "0xc7ebe10d3568c52b3f43dc50320167db9d10ce4f",
@@ -9983,7 +9983,7 @@
       "mm_realized_all": 626571,
       "lb_alltime": 1233653,
       "n_fills_14d_maj": 0,
-      "wf_quality": null
+      "wf_quality": "履歴薄/評価不能"
     },
     "0x08bf75d17046412ae08c95b6106993f714487872": {
       "address": "0x08bf75d17046412ae08c95b6106993f714487872",
@@ -10356,7 +10356,7 @@
       "pro_pf": 99,
       "wf_copy_worthy": false,
       "wf_confidence": 0.2,
-      "wf_quality": null,
+      "wf_quality": "堅実",
       "trade_days": 129,
       "mm_cpm": 2001,
       "mm_realized_all": 1519708,
@@ -10423,7 +10423,7 @@
       "mm_realized_all": 208194,
       "lb_alltime": 242963,
       "n_fills_14d_maj": 116,
-      "wf_quality": null
+      "wf_quality": "中堅"
     },
     "0x2f04ed87b5ac8b703565469311341b0b44e315d7": {
       "address": "0x2f04ed87b5ac8b703565469311341b0b44e315d7",
@@ -10857,7 +10857,7 @@
       "mm_realized_all": 247376,
       "lb_alltime": 468059,
       "n_fills_14d_maj": 0,
-      "wf_quality": null
+      "wf_quality": "ムラあり"
     },
     "0xfeec88b13fc0be31695069f02bac18538a154e9c": {
       "address": "0xfeec88b13fc0be31695069f02bac18538a154e9c",
@@ -11011,7 +11011,7 @@
       "pro_pf": 99,
       "wf_copy_worthy": false,
       "wf_confidence": 0.78,
-      "wf_quality": null,
+      "wf_quality": "履歴薄/評価不能",
       "mm_cpm": 3762,
       "mm_realized_all": 1393922,
       "lb_alltime": 11384547,
@@ -11077,7 +11077,7 @@
       "mm_realized_all": 268887,
       "lb_alltime": 133038,
       "n_fills_14d_maj": 9082,
-      "wf_quality": null
+      "wf_quality": "履歴薄/評価不能"
     },
     "0x5b5f798b94f54d33ba316c8b1c837e930c90c052": {
       "address": "0x5b5f798b94f54d33ba316c8b1c837e930c90c052",
@@ -11799,7 +11799,7 @@
       "lb_alltime": 65749681,
       "n_fills_14d": 0,
       "n_fills_14d_maj": 0,
-      "wf_quality": null
+      "wf_quality": "堅実"
     },
     "0x8e096995c3e4a3f0bc5b3ea1cba94de2aa4d70c9": {
       "address": "0x8e096995c3e4a3f0bc5b3ea1cba94de2aa4d70c9",
@@ -11880,7 +11880,7 @@
       "pro_pf": 14.3,
       "wf_copy_worthy": true,
       "wf_confidence": 0.82,
-      "wf_quality": null,
+      "wf_quality": "中堅",
       "mm_cpm": 3546,
       "mm_realized_all": 12050996,
       "lb_alltime": 59631082,
@@ -11944,7 +11944,7 @@
       "mm_realized_all": 3076741,
       "n_fills_14d": 5130,
       "n_fills_14d_maj": 0,
-      "wf_quality": null
+      "wf_quality": "履歴薄/評価不能"
     },
     "0x577ae91c7b74f04ddb3a5b399ded8318e9895fd2": {
       "address": "0x577ae91c7b74f04ddb3a5b399ded8318e9895fd2",
@@ -12005,7 +12005,7 @@
       "lb_alltime": 11049646,
       "n_fills_14d": 2903,
       "n_fills_14d_maj": 426,
-      "wf_quality": null
+      "wf_quality": "履歴薄/評価不能"
     },
     "0xbcd420d13362532756c968f663f96ba95e240dd2": {
       "address": "0xbcd420d13362532756c968f663f96ba95e240dd2",
@@ -12066,7 +12066,7 @@
       "lb_alltime": 6822257,
       "n_fills_14d": 26073,
       "n_fills_14d_maj": 385,
-      "wf_quality": null
+      "wf_quality": "履歴薄/評価不能"
     },
     "0xfce053a5e461683454bf37ad66d20344c0e3f4c0": {
       "address": "0xfce053a5e461683454bf37ad66d20344c0e3f4c0",
@@ -12726,7 +12726,7 @@
       "lb_alltime": 4335740,
       "n_fills_14d": 0,
       "n_fills_14d_maj": 0,
-      "wf_quality": null
+      "wf_quality": "履歴薄/評価不能"
     },
     "0xc1471df385b1b039aae2000678e0b8bd905b3aef": {
       "address": "0xc1471df385b1b039aae2000678e0b8bd905b3aef",
@@ -12787,7 +12787,7 @@
       "lb_alltime": 4759715,
       "n_fills_14d": 0,
       "n_fills_14d_maj": 0,
-      "wf_quality": null
+      "wf_quality": "堅実"
     },
     "0x8bae3527e5a33fa0cf184f37bc112d071463ab6d": {
       "address": "0x8bae3527e5a33fa0cf184f37bc112d071463ab6d",
@@ -12907,7 +12907,7 @@
       "lb_alltime": 10248329,
       "n_fills_14d": 1068,
       "n_fills_14d_maj": 0,
-      "wf_quality": null
+      "wf_quality": "履歴薄/評価不能"
     },
     "0x015354106478dda69c4aae3c0cf801290b738052": {
       "address": "0x015354106478dda69c4aae3c0cf801290b738052",
@@ -13159,7 +13159,7 @@
       "lb_alltime": 7643101,
       "n_fills_14d": 1217,
       "n_fills_14d_maj": 4,
-      "wf_quality": null
+      "wf_quality": "堅実"
     },
     "0x16bf84af3f85f8c8a97597bf2be549dfe0dee637": {
       "address": "0x16bf84af3f85f8c8a97597bf2be549dfe0dee637",
@@ -13220,7 +13220,7 @@
       "lb_alltime": 5155209,
       "n_fills_14d": 0,
       "n_fills_14d_maj": 0,
-      "wf_quality": null
+      "wf_quality": "堅実"
     },
     "0xd8c5228c515db3043dfa0c8cd6f22450ee9a99b0": {
       "address": "0xd8c5228c515db3043dfa0c8cd6f22450ee9a99b0",
@@ -13281,7 +13281,7 @@
       "lb_alltime": 4112557,
       "n_fills_14d": 6229,
       "n_fills_14d_maj": 0,
-      "wf_quality": null
+      "wf_quality": "履歴薄/評価不能"
     },
     "0x570b09e27a87f9acbce49f85056745d29b3ee3c6": {
       "address": "0x570b09e27a87f9acbce49f85056745d29b3ee3c6",
@@ -13342,7 +13342,7 @@
       "lb_alltime": 7511160,
       "n_fills_14d": 0,
       "n_fills_14d_maj": 0,
-      "wf_quality": null
+      "wf_quality": "堅実"
     },
     "0x56cd86d6ef24a3f51ce6992b7f1db751b0a0276a": {
       "address": "0x56cd86d6ef24a3f51ce6992b7f1db751b0a0276a",
@@ -13661,7 +13661,7 @@
       "lb_alltime": 4312976,
       "n_fills_14d": 0,
       "n_fills_14d_maj": 0,
-      "wf_quality": null
+      "wf_quality": "ムラあり"
     },
     "0x906d31b2ee92c4bc720232112274a0e1ffb0ad6e": {
       "address": "0x906d31b2ee92c4bc720232112274a0e1ffb0ad6e",
@@ -13889,7 +13889,7 @@
       "lb_alltime": 6088737,
       "n_fills_14d": 2020,
       "n_fills_14d_maj": 0,
-      "wf_quality": null
+      "wf_quality": "履歴薄/評価不能"
     },
     "0xac03fc4c21902e4e934b4367cb1a6c6e3f0d8037": {
       "address": "0xac03fc4c21902e4e934b4367cb1a6c6e3f0d8037",
@@ -14133,7 +14133,7 @@
       "lb_alltime": 2217051,
       "n_fills_14d": 1811,
       "n_fills_14d_maj": 442,
-      "wf_quality": null
+      "wf_quality": "履歴薄/評価不能"
     },
     "0xdbcc96bcada067864902aad14e029fe7c422f147": {
       "address": "0xdbcc96bcada067864902aad14e029fe7c422f147",
@@ -14194,7 +14194,7 @@
       "lb_alltime": 1777174,
       "n_fills_14d": 0,
       "n_fills_14d_maj": 0,
-      "wf_quality": null
+      "wf_quality": "履歴薄/評価不能"
     },
     "0x179c17d04be626561b0355a248d6055a80456aa5": {
       "address": "0x179c17d04be626561b0355a248d6055a80456aa5",
@@ -14314,7 +14314,7 @@
       "lb_alltime": 2117156,
       "n_fills_14d": 0,
       "n_fills_14d_maj": 0,
-      "wf_quality": null
+      "wf_quality": "履歴薄/評価不能"
     },
     "0xe2f86feccb1207710a442bc4e27a0701a290275a": {
       "address": "0xe2f86feccb1207710a442bc4e27a0701a290275a",
@@ -14843,7 +14843,7 @@
       "lb_alltime": 2142981,
       "n_fills_14d": 0,
       "n_fills_14d_maj": 0,
-      "wf_quality": null
+      "wf_quality": "履歴薄/評価不能"
     },
     "0x7e4e766d0ae5ea9cded0c694669194db92800107": {
       "address": "0x7e4e766d0ae5ea9cded0c694669194db92800107",
@@ -15086,7 +15086,7 @@
       "lb_alltime": 1406291,
       "n_fills_14d": 2001,
       "n_fills_14d_maj": 38,
-      "wf_quality": null
+      "wf_quality": "履歴薄/評価不能"
     },
     "0x90326fa293578c6c9ef945aaab0b57f886aca6ec": {
       "address": "0x90326fa293578c6c9ef945aaab0b57f886aca6ec",
@@ -15204,7 +15204,7 @@
       "lb_alltime": 1123092,
       "n_fills_14d": 14117,
       "n_fills_14d_maj": 195,
-      "wf_quality": null
+      "wf_quality": "履歴薄/評価不能"
     },
     "0xba0495c92ab69b1151ecf422851a06b602cea764": {
       "address": "0xba0495c92ab69b1151ecf422851a06b602cea764",
@@ -15475,7 +15475,7 @@
       "pro_pf": 99,
       "wf_copy_worthy": false,
       "wf_confidence": 0.2,
-      "wf_quality": null,
+      "wf_quality": "履歴薄/評価不能",
       "mm_cpm": 2926,
       "mm_realized_all": 423145,
       "lb_alltime": 1096399,
@@ -16535,7 +16535,7 @@
       "lb_alltime": 1535448,
       "n_fills_14d": 980,
       "n_fills_14d_maj": 0,
-      "wf_quality": null
+      "wf_quality": "履歴薄/評価不能"
     },
     "0x8b0be882a693ad3849f9bfde6951ec36489f30be": {
       "address": "0x8b0be882a693ad3849f9bfde6951ec36489f30be",
@@ -17038,7 +17038,7 @@
       "lb_alltime": 17340802,
       "n_fills_14d": 2,
       "n_fills_14d_maj": 0,
-      "wf_quality": null
+      "wf_quality": "中堅"
     },
     "0x6fa6f42d2e41327e27fe7f416a823cef7050825e": {
       "address": "0x6fa6f42d2e41327e27fe7f416a823cef7050825e",
@@ -17099,7 +17099,7 @@
       "lb_alltime": 1561239,
       "n_fills_14d": 1,
       "n_fills_14d_maj": 0,
-      "wf_quality": null
+      "wf_quality": "堅実"
     },
     "0x60a8c761f39696b3b419f31dcda20b405cb685f6": {
       "address": "0x60a8c761f39696b3b419f31dcda20b405cb685f6",
@@ -17597,7 +17597,7 @@
       "mm_realized_all": 776160,
       "lb_alltime": 740723,
       "n_fills_14d_maj": 0,
-      "wf_quality": null
+      "wf_quality": "履歴薄/評価不能"
     },
     "0x44a3e107c375c1abfa28c1ac5e92bc85f0b435dd": {
       "address": "0x44a3e107c375c1abfa28c1ac5e92bc85f0b435dd",
@@ -17828,7 +17828,7 @@
       "lb_alltime": 311244,
       "n_fills_14d": 2000,
       "n_fills_14d_maj": 0,
-      "wf_quality": null
+      "wf_quality": "履歴薄/評価不能"
     },
     "0x484bc1608211d0604bf70bae72792a56884562f8": {
       "address": "0x484bc1608211d0604bf70bae72792a56884562f8",
@@ -17889,7 +17889,7 @@
       "lb_alltime": 4318603,
       "n_fills_14d": 5043,
       "n_fills_14d_maj": 0,
-      "wf_quality": null
+      "wf_quality": "履歴薄/評価不能"
     },
     "0x3c363e96d22c056d748f199fb728fc80d70e461a": {
       "address": "0x3c363e96d22c056d748f199fb728fc80d70e461a",
@@ -17950,7 +17950,7 @@
       "lb_alltime": 2663048,
       "n_fills_14d": 2,
       "n_fills_14d_maj": 0,
-      "wf_quality": null
+      "wf_quality": "ムラあり"
     },
     "0xc7accfe2b643330ff8f091e4e5f3f044f560bec9": {
       "address": "0xc7accfe2b643330ff8f091e4e5f3f044f560bec9",
@@ -19277,7 +19277,7 @@
       "lb_alltime": 2223725,
       "n_fills_14d": 2340,
       "n_fills_14d_maj": 1982,
-      "wf_quality": null
+      "wf_quality": "堅実"
     },
     "0x1c77041452e75939105981a914f138eb9634463c": {
       "address": "0x1c77041452e75939105981a914f138eb9634463c",
@@ -19337,7 +19337,7 @@
       "mm_realized_all": 548931,
       "n_fills_14d": 1665,
       "n_fills_14d_maj": 0,
-      "wf_quality": null
+      "wf_quality": "履歴薄/評価不能"
     },
     "0xc48b1ad3415e6cf85c4f733fe7fb3085bedf88b1": {
       "address": "0xc48b1ad3415e6cf85c4f733fe7fb3085bedf88b1",
@@ -19514,7 +19514,7 @@
       "lb_alltime": 1135459,
       "n_fills_14d": 0,
       "n_fills_14d_maj": 0,
-      "wf_quality": null
+      "wf_quality": "堅実"
     },
     "0x3a122449de235a40481689442271c0731b805d69": {
       "address": "0x3a122449de235a40481689442271c0731b805d69",
@@ -19575,7 +19575,7 @@
       "lb_alltime": 1397899,
       "n_fills_14d": 131,
       "n_fills_14d_maj": 51,
-      "wf_quality": null
+      "wf_quality": "堅実"
     },
     "0x298629982613bf36c48d0b31afd2fe7d1b4604dc": {
       "address": "0x298629982613bf36c48d0b31afd2fe7d1b4604dc",
@@ -19811,7 +19811,7 @@
       "lb_alltime": 593480,
       "n_fills_14d": 1730,
       "n_fills_14d_maj": 419,
-      "wf_quality": null
+      "wf_quality": "中堅"
     },
     "0x6a7a17046df7d3e746ce97d67dc1c6c55e27ce75": {
       "address": "0x6a7a17046df7d3e746ce97d67dc1c6c55e27ce75",
@@ -20098,7 +20098,7 @@
       "lb_alltime": 1513799,
       "n_fills_14d": 3341,
       "n_fills_14d_maj": 0,
-      "wf_quality": null
+      "wf_quality": "堅実"
     },
     "0x66d3b80a7c6dc33801414dd22cde23f25d3de4d6": {
       "address": "0x66d3b80a7c6dc33801414dd22cde23f25d3de4d6",
@@ -20356,7 +20356,7 @@
       "mm_realized_all": 486794,
       "n_fills_14d": 5491,
       "n_fills_14d_maj": 0,
-      "wf_quality": null
+      "wf_quality": "履歴薄/評価不能"
     },
     "0x79399dac99daa4a77d2bcd8ef6f5abf5966468e7": {
       "address": "0x79399dac99daa4a77d2bcd8ef6f5abf5966468e7",
@@ -20586,7 +20586,7 @@
       "lb_alltime": 1013572,
       "n_fills_14d": 0,
       "n_fills_14d_maj": 0,
-      "wf_quality": null
+      "wf_quality": "中堅"
     },
     "0xa4beb4fbe651b00bc16d472e2e1aa1c26b3d90aa": {
       "address": "0xa4beb4fbe651b00bc16d472e2e1aa1c26b3d90aa",
@@ -20704,7 +20704,7 @@
       "mm_realized_all": 461417,
       "n_fills_14d": 52,
       "n_fills_14d_maj": 0,
-      "wf_quality": null
+      "wf_quality": "履歴薄/評価不能"
     },
     "0xfc783912f9a70a537d9ef23fb230d2c4d32d7e77": {
       "address": "0xfc783912f9a70a537d9ef23fb230d2c4d32d7e77",
@@ -20765,7 +20765,7 @@
       "lb_alltime": -186618,
       "n_fills_14d": 0,
       "n_fills_14d_maj": 0,
-      "wf_quality": null
+      "wf_quality": "中堅"
     },
     "0x747932275df815ae819944e57ebb5b3e115ad68b": {
       "address": "0x747932275df815ae819944e57ebb5b3e115ad68b",
@@ -21002,7 +21002,7 @@
       "lb_alltime": 1908008,
       "n_fills_14d": 424,
       "n_fills_14d_maj": 0,
-      "wf_quality": null
+      "wf_quality": "中堅"
     },
     "0xd28aec1f84668999fef0d884bd21aeff5fdea225": {
       "address": "0xd28aec1f84668999fef0d884bd21aeff5fdea225",
@@ -21120,7 +21120,7 @@
       "mm_realized_all": 191109,
       "n_fills_14d": 379,
       "n_fills_14d_maj": 0,
-      "wf_quality": null
+      "wf_quality": "履歴薄/評価不能"
     },
     "0x999510ad3dd8c94a6659d6401d983137565283e3": {
       "address": "0x999510ad3dd8c94a6659d6401d983137565283e3",
@@ -23316,7 +23316,7 @@
       "lb_alltime": 554122,
       "n_fills_14d": 4444,
       "n_fills_14d_maj": 91,
-      "wf_quality": null
+      "wf_quality": "中堅"
     },
     "0x2322f8e13d25e1c997b060bc5cebc9634f8a895a": {
       "address": "0x2322f8e13d25e1c997b060bc5cebc9634f8a895a",
@@ -24019,7 +24019,7 @@
       "lb_alltime": 381848,
       "n_fills_14d": 891,
       "n_fills_14d_maj": 0,
-      "wf_quality": null
+      "wf_quality": "中堅"
     },
     "0xbd1ea540f5192d75af91a1c94f473cc24da662d5": {
       "address": "0xbd1ea540f5192d75af91a1c94f473cc24da662d5",
@@ -24310,7 +24310,7 @@
       "lb_alltime": -5241356,
       "n_fills_14d": 403,
       "n_fills_14d_maj": 0,
-      "wf_quality": null
+      "wf_quality": "履歴薄/評価不能"
     },
     "0xbb8d8e9428b4ad06b1f6de7cba830ae13a86bd13": {
       "address": "0xbb8d8e9428b4ad06b1f6de7cba830ae13a86bd13",
@@ -24545,7 +24545,7 @@
       "lb_alltime": 13030418,
       "n_fills_14d": 0,
       "n_fills_14d_maj": 0,
-      "wf_quality": null
+      "wf_quality": "履歴薄/評価不能"
     },
     "0x28452e9f6733e73e2b85cefa936cec15ea700bac": {
       "address": "0x28452e9f6733e73e2b85cefa936cec15ea700bac",
@@ -24664,7 +24664,7 @@
       "lb_alltime": 809241,
       "n_fills_14d": 0,
       "n_fills_14d_maj": 0,
-      "wf_quality": null
+      "wf_quality": "中堅"
     },
     "0xc7e85b25f71a1cf9872c4c74efb6a79c814c72f1": {
       "address": "0xc7e85b25f71a1cf9872c4c74efb6a79c814c72f1",
@@ -25477,7 +25477,7 @@
       "lb_alltime": 5176003,
       "n_fills_14d": 363,
       "n_fills_14d_maj": 0,
-      "wf_quality": null
+      "wf_quality": "中堅"
     },
     "0x6559e0678d8b33de20dacafc36182fb643a9d297": {
       "address": "0x6559e0678d8b33de20dacafc36182fb643a9d297",
@@ -25654,7 +25654,7 @@
       "lb_alltime": 102228,
       "n_fills_14d": 0,
       "n_fills_14d_maj": 0,
-      "wf_quality": null
+      "wf_quality": "ムラあり"
     },
     "0x83dbc7524ece5a0ce2c8233c93745d6c58cdf50b": {
       "address": "0x83dbc7524ece5a0ce2c8233c93745d6c58cdf50b",
@@ -25830,7 +25830,7 @@
       "lb_alltime": 535312,
       "n_fills_14d": 2539,
       "n_fills_14d_maj": 0,
-      "wf_quality": null
+      "wf_quality": "履歴薄/評価不能"
     },
     "0xdf783e48b2ebd7d35ba44c83315f6b3dbaa38fea": {
       "address": "0xdf783e48b2ebd7d35ba44c83315f6b3dbaa38fea",
@@ -25891,7 +25891,7 @@
       "lb_alltime": 1690722,
       "n_fills_14d": 950,
       "n_fills_14d_maj": 20,
-      "wf_quality": null
+      "wf_quality": "中堅"
     },
     "0x757bb286acc54032172594e2ae11f02442d7c6ea": {
       "address": "0x757bb286acc54032172594e2ae11f02442d7c6ea",
@@ -26354,7 +26354,7 @@
       "lb_alltime": 246609,
       "n_fills_14d": 13527,
       "n_fills_14d_maj": 239,
-      "wf_quality": null
+      "wf_quality": "履歴薄/評価不能"
     },
     "0x32ec8541bb748d7e23d3ec2f24cd06054c13a4ec": {
       "address": "0x32ec8541bb748d7e23d3ec2f24cd06054c13a4ec",
@@ -26530,7 +26530,7 @@
       "lb_alltime": 203900,
       "n_fills_14d": 3384,
       "n_fills_14d_maj": 751,
-      "wf_quality": null
+      "wf_quality": "履歴薄/評価不能"
     },
     "0x61f2bb695d81ac9fce0b1d01fd45cc6b2925a571": {
       "address": "0x61f2bb695d81ac9fce0b1d01fd45cc6b2925a571",
@@ -27258,7 +27258,7 @@
       "lb_alltime": 222199,
       "n_fills_14d": 318,
       "n_fills_14d_maj": 247,
-      "wf_quality": null
+      "wf_quality": "中堅"
     },
     "0x814115ba7215324b68c67f6b2cae7a65a7e51c71": {
       "address": "0x814115ba7215324b68c67f6b2cae7a65a7e51c71",
@@ -27319,7 +27319,7 @@
       "lb_alltime": 684982,
       "n_fills_14d": 3187,
       "n_fills_14d_maj": 22,
-      "wf_quality": null
+      "wf_quality": "中堅"
     },
     "0xcdf68bda82c7f75bd7e1bd3991848b65fd2830b9": {
       "address": "0xcdf68bda82c7f75bd7e1bd3991848b65fd2830b9",
@@ -27555,7 +27555,7 @@
       "lb_alltime": 5854809,
       "n_fills_14d": 0,
       "n_fills_14d_maj": 0,
-      "wf_quality": null
+      "wf_quality": "ムラあり"
     },
     "0x5b53358eca5790fa4c268ad6813386b3a86549c7": {
       "address": "0x5b53358eca5790fa4c268ad6813386b3a86549c7",
@@ -27674,7 +27674,7 @@
       "mm_realized_all": 184732,
       "n_fills_14d": 0,
       "n_fills_14d_maj": 0,
-      "wf_quality": null
+      "wf_quality": "履歴薄/評価不能"
     },
     "0x7c6b383a03aea03b3d29685d983f27835303a6bd": {
       "address": "0x7c6b383a03aea03b3d29685d983f27835303a6bd",
@@ -27851,7 +27851,7 @@
       "lb_alltime": 352486,
       "n_fills_14d": 62,
       "n_fills_14d_maj": 0,
-      "wf_quality": null
+      "wf_quality": "中堅"
     },
     "0x3c868417d2981ef278b8a01011487d7e80aee547": {
       "address": "0x3c868417d2981ef278b8a01011487d7e80aee547",
@@ -28664,7 +28664,7 @@
       "lb_alltime": 188370,
       "n_fills_14d": 865,
       "n_fills_14d_maj": 0,
-      "wf_quality": null
+      "wf_quality": "中堅"
     },
     "0x093f2e026bf3d52f5ba02306976255782ffbf712": {
       "address": "0x093f2e026bf3d52f5ba02306976255782ffbf712",
@@ -29649,7 +29649,7 @@
       "lb_alltime": 299459,
       "n_fills_14d": 2,
       "n_fills_14d_maj": 0,
-      "wf_quality": null
+      "wf_quality": "中堅"
     },
     "0x8ff1d5d5e2df31a4139662f4beae247ad8ccab24": {
       "address": "0x8ff1d5d5e2df31a4139662f4beae247ad8ccab24",
@@ -30473,7 +30473,7 @@
       "lb_alltime": 814207,
       "n_fills_14d": 5,
       "n_fills_14d_maj": 0,
-      "wf_quality": null
+      "wf_quality": "履歴薄/評価不能"
     },
     "0x0a8f51187b63a59f0f578c946675fe3be473d537": {
       "address": "0x0a8f51187b63a59f0f578c946675fe3be473d537",
@@ -30762,7 +30762,7 @@
       "mm_realized_all": 130194,
       "n_fills_14d": 0,
       "n_fills_14d_maj": 0,
-      "wf_quality": null
+      "wf_quality": "履歴薄/評価不能"
     },
     "0x67f053dc9f2d8d642615bd870719068a9978662b": {
       "address": "0x67f053dc9f2d8d642615bd870719068a9978662b",
@@ -31053,7 +31053,7 @@
       "lb_alltime": 132183,
       "n_fills_14d": 21147,
       "n_fills_14d_maj": 0,
-      "wf_quality": null
+      "wf_quality": "履歴薄/評価不能"
     },
     "0x2c6e17b561a7e01c2e8904590125bf049697bc51": {
       "address": "0x2c6e17b561a7e01c2e8904590125bf049697bc51",
@@ -31171,7 +31171,7 @@
       "mm_realized_all": 128432,
       "n_fills_14d": 3504,
       "n_fills_14d_maj": 0,
-      "wf_quality": null
+      "wf_quality": "履歴薄/評価不能"
     },
     "0x689f15b91f1df16794177056982376721da16965": {
       "address": "0x689f15b91f1df16794177056982376721da16965",
@@ -31348,7 +31348,7 @@
       "lb_alltime": 132278,
       "n_fills_14d": 1413,
       "n_fills_14d_maj": 0,
-      "wf_quality": null
+      "wf_quality": "中堅"
     },
     "0xeb47e64c3d12add1a175517619ede29fbc4a9f1d": {
       "address": "0xeb47e64c3d12add1a175517619ede29fbc4a9f1d",
@@ -31468,7 +31468,7 @@
       "lb_alltime": 273006,
       "n_fills_14d": 0,
       "n_fills_14d_maj": 0,
-      "wf_quality": null
+      "wf_quality": "中堅"
     },
     "0xf94b346387ae5f1ae84bf10e36008cb552ca82d5": {
       "address": "0xf94b346387ae5f1ae84bf10e36008cb552ca82d5",
@@ -31529,7 +31529,7 @@
       "lb_alltime": 640030,
       "n_fills_14d": 3,
       "n_fills_14d_maj": 0,
-      "wf_quality": null
+      "wf_quality": "中堅"
     },
     "0x37c863a6573e1ca327716e69ece305268b160098": {
       "address": "0x37c863a6573e1ca327716e69ece305268b160098",
@@ -32113,7 +32113,7 @@
       "lb_alltime": 114385,
       "n_fills_14d": 554,
       "n_fills_14d_maj": 0,
-      "wf_quality": null
+      "wf_quality": "中堅"
     },
     "0xb4eac34db4f9d1270d078495d367cb2e587cf6e8": {
       "address": "0xb4eac34db4f9d1270d078495d367cb2e587cf6e8",
@@ -33518,7 +33518,7 @@
       "lb_alltime": 1220735,
       "n_fills_14d": 0,
       "n_fills_14d_maj": 0,
-      "wf_quality": null
+      "wf_quality": "中堅"
     },
     "0xc9257e15609fd24a2334b991756652fbd52f48b5": {
       "address": "0xc9257e15609fd24a2334b991756652fbd52f48b5",
@@ -34332,7 +34332,7 @@
       "lb_alltime": 183435,
       "n_fills_14d": 55,
       "n_fills_14d_maj": 0,
-      "wf_quality": null
+      "wf_quality": "中堅"
     },
     "0x7dd6af227362f4115e060f39c00791ffcf4230d8": {
       "address": "0x7dd6af227362f4115e060f39c00791ffcf4230d8",
@@ -34580,7 +34580,7 @@
       "lb_alltime": 1089644,
       "n_fills_14d": 307,
       "n_fills_14d_maj": 0,
-      "wf_quality": null
+      "wf_quality": "履歴薄/評価不能"
     },
     "0xfb187eeacb952079b99f1acf6d5e9a97d0c5892f": {
       "address": "0xfb187eeacb952079b99f1acf6d5e9a97d0c5892f",
@@ -35104,7 +35104,7 @@
       "lb_alltime": 1698166,
       "n_fills_14d": 5977,
       "n_fills_14d_maj": 0,
-      "wf_quality": null
+      "wf_quality": "中堅"
     },
     "0x081ec17d9700ca25f7b9473d068853f4de2764e6": {
       "address": "0x081ec17d9700ca25f7b9473d068853f4de2764e6",
@@ -36203,7 +36203,7 @@
       "lb_alltime": 581675,
       "n_fills_14d": 563,
       "n_fills_14d_maj": 0,
-      "wf_quality": null
+      "wf_quality": "ムラあり"
     },
     "0x0210691ee9444a4b349673e2c791dab920a5e4ea": {
       "address": "0x0210691ee9444a4b349673e2c791dab920a5e4ea",
@@ -37086,7 +37086,7 @@
         "銘柄:マルチ",
         "取引なし(14d)"
       ],
-      "wf_quality": null
+      "wf_quality": "中堅"
     },
     "0xbdd243d77a59a3b38d21bf61e78a6ba4702f2bbc": {
       "address": "0xbdd243d77a59a3b38d21bf61e78a6ba4702f2bbc",
@@ -37761,7 +37761,7 @@
         "銘柄:マルチ",
         "取引なし(14d)"
       ],
-      "wf_quality": null
+      "wf_quality": "中堅"
     },
     "0x24eeb5249ce20cfb667e26b463c0ef394588d65f": {
       "address": "0x24eeb5249ce20cfb667e26b463c0ef394588d65f",
@@ -38522,7 +38522,7 @@
       "pro_pf": 99,
       "wf_copy_worthy": false,
       "wf_confidence": 0.3,
-      "wf_quality": null,
+      "wf_quality": "履歴薄/評価不能",
       "mm_cpm": 1696,
       "mm_realized_all": 1097035,
       "lb_alltime": 1070649,
@@ -39108,7 +39108,7 @@
       "pro_pf": 99,
       "wf_copy_worthy": false,
       "wf_confidence": 0.08,
-      "wf_quality": null,
+      "wf_quality": "履歴薄/評価不能",
       "mm_cpm": 3261,
       "mm_realized_all": 731926,
       "lb_alltime": 682644,
@@ -39467,7 +39467,7 @@
         "銘柄:マルチ",
         "取引なし(14d)"
       ],
-      "wf_quality": null
+      "wf_quality": "中堅"
     },
     "0xdb79fe310ea2972137d2a23658db0234902b517d": {
       "address": "0xdb79fe310ea2972137d2a23658db0234902b517d",
@@ -40558,7 +40558,7 @@
       "lb_alltime": 1435700,
       "n_fills_14d": 0,
       "n_fills_14d_maj": 0,
-      "wf_quality": null
+      "wf_quality": "ムラあり"
     },
     "0xda0950da3882ef1ae1e41e99ebe31e6b3324c17f": {
       "address": "0xda0950da3882ef1ae1e41e99ebe31e6b3324c17f",
