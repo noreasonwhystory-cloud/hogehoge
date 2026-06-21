@@ -191,7 +191,7 @@ HL_ADDR = "https://app.hyperliquid.xyz/explorer/address/{a}"
 NANSEN = "https://app.nansen.ai/profiler?address={a}"
 HYPERDASH = "https://hyperdash.info/trader/{a}"        # トレーダープロフィール(PnL/建玉)
 HYPURRSCAN = "https://hypurrscan.io/address/{a}"       # 建玉/約定/残高ビュー
-ASXN = "https://hyperliquid.asxn.xyz/portfolio?address={a}"  # ASXN ポートフォリオ/PnL分析
+ASXN = "https://hyperscreener.asxn.xyz/portfolio?address={a}"  # ASXN(hyperscreener) ポートフォリオ/PnL分析
 
 
 def render_html(reg, out="registry.html",

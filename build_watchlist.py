@@ -13,7 +13,7 @@ H = config.HERE
 HLX = "https://app.hyperliquid.xyz/explorer/address/{a}"
 HD = "https://hyperdash.info/trader/{a}"
 HS = "https://hypurrscan.io/address/{a}"
-AX = "https://hyperliquid.asxn.xyz/portfolio?address={a}"
+AX = "https://hyperscreener.asxn.xyz/portfolio?address={a}"
 
 
 def esc(x):
