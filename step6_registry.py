@@ -189,6 +189,8 @@ POS_COLOR = {
 }
 HL_ADDR = "https://app.hyperliquid.xyz/explorer/address/{a}"
 NANSEN = "https://app.nansen.ai/profiler?address={a}"
+HYPERDASH = "https://hyperdash.info/trader/{a}"        # トレーダープロフィール(PnL/建玉)
+HYPURRSCAN = "https://hypurrscan.io/address/{a}"       # 建玉/約定/残高ビュー
 
 
 def render_html(reg, out="registry.html",
@@ -272,7 +274,7 @@ def render_html(reg, out="registry.html",
 <tr data-tags="{data_tags}" class="{rowcls}">
   <td><span class="pos" style="--c:{color}">{esc(e['position'])}</span></td>
   <td class="lik">{liks}</td>
-  <td><code>{esc(a[:16])}…</code><div class="lnk"><a href="{HL_ADDR.format(a=a)}" target="_blank">HL</a> <a href="{NANSEN.format(a=a)}" target="_blank">N</a></div></td>
+  <td><code>{esc(a[:16])}…</code><div class="lnk"><a href="{HL_ADDR.format(a=a)}" target="_blank">HL</a> <a href="{HYPERDASH.format(a=a)}" target="_blank" title="Hyperdash トレーダープロフィール">HD📊</a> <a href="{HYPURRSCAN.format(a=a)}" target="_blank" title="Hypurrscan 建玉/約定">HS</a> <a href="{NANSEN.format(a=a)}" target="_blank">N</a></div></td>
   <td>{esc(cur.get('metric_category'))}</td>
   <td>{esc(round(cur.get('win_rate',0) or 0,2))}/{esc(round(cur.get('dir_accuracy',0) or 0,2))}</td>
   <td>{esc(f"${cur.get('total_pnl',0):,.0f}" if cur.get('total_pnl') is not None else '-')}</td>

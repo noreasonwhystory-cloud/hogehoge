@@ -11,6 +11,8 @@ import config
 
 H = config.HERE
 HLX = "https://app.hyperliquid.xyz/explorer/address/{a}"
+HD = "https://hyperdash.info/trader/{a}"
+HS = "https://hypurrscan.io/address/{a}"
 
 
 def esc(x):
@@ -64,7 +66,7 @@ def main():
         nfsub = f"<div class='sub2'>majors {nfm:,}</div>" if isinstance(nfm, (int, float)) else ""
         rows += f"""<tr>
 <td><b>{esc(reason(e))}</b><div class="pos">{esc(e['position'])}</div></td>
-<td><code>{esc(a[:18])}…</code><div class="lnk"><a href="{HLX.format(a=a)}" target="_blank">HL</a></div></td>
+<td><code>{esc(a[:18])}…</code><div class="lnk"><a href="{HLX.format(a=a)}" target="_blank">HL</a> <a href="{HD.format(a=a)}" target="_blank" title="Hyperdash">HD📊</a> <a href="{HS.format(a=a)}" target="_blank" title="Hypurrscan">HS</a></div></td>
 <td class="num">{rmd}</td><td class="num">{lbd}</td><td class="num">{wrd}</td>
 <td class="num">{nfd}{nfsub}</td>
 <td class="per">{esc(e.get('active_from'))}〜{esc(e.get('active_to'))}</td>
