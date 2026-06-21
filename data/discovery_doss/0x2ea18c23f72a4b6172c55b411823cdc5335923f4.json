@@ -1,0 +1,99 @@
+{
+  "address": "0x2ea18c23f72a4b6172c55b411823cdc5335923f4",
+  "patterns": {
+    "H_deliberate_dip": 7.614
+  },
+  "rmaj": 41186066,
+  "rall": 41147021,
+  "position": "高頻度MM",
+  "wf_quality": "履歴薄/評価不能",
+  "lb_alltime": 106341325,
+  "timeline": [
+    {
+      "m": "2025-08",
+      "w": 29378,
+      "l": 7938,
+      "pnl": 34932880
+    },
+    {
+      "m": "2025-10",
+      "w": 2000,
+      "l": 0,
+      "pnl": 6214142
+    }
+  ],
+  "top_wins": [
+    {
+      "coin": "ETH",
+      "dir": "Close Short",
+      "date": "2025-10-10",
+      "pnl": 780763,
+      "not": 4516967
+    },
+    {
+      "coin": "ETH",
+      "dir": "Close Short",
+      "date": "2025-10-10",
+      "pnl": 691185,
+      "not": 4497758
+    },
+    {
+      "coin": "ETH",
+      "dir": "Close Short",
+      "date": "2025-10-10",
+      "pnl": 677906,
+      "not": 4503690
+    },
+    {
+      "coin": "ETH",
+      "dir": "Close Short",
+      "date": "2025-10-10",
+      "pnl": 403339,
+      "not": 2757546
+    },
+    {
+      "coin": "ETH",
+      "dir": "Close Short",
+      "date": "2025-10-10",
+      "pnl": 322144,
+      "not": 2166918
+    }
+  ],
+  "top_losses": [
+    {
+      "coin": "@142",
+      "dir": "Sell",
+      "date": "2025-08-21",
+      "pnl": -279,
+      "not": 87142
+    },
+    {
+      "coin": "@142",
+      "dir": "Sell",
+      "date": "2025-08-21",
+      "pnl": -226,
+      "not": 52976
+    },
+    {
+      "coin": "@142",
+      "dir": "Sell",
+      "date": "2025-08-21",
+      "pnl": -220,
+      "not": 68911
+    },
+    {
+      "coin": "@142",
+      "dir": "Sell",
+      "date": "2025-08-21",
+      "pnl": -197,
+      "not": 64844
+    },
+    {
+      "coin": "@142",
+      "dir": "Sell",
+      "date": "2025-08-21",
+      "pnl": -195,
+      "not": 55779
+    }
+  ]
+}

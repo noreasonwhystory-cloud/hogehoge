@@ -1,0 +1,94 @@
+{
+  "address": "0x082e843a431aef031264dc232693dd710aedca88",
+  "patterns": {
+    "C_dormant_burst": 14.6,
+    "H_deliberate_dip": 5.964
+  },
+  "rmaj": 0,
+  "rall": 920309,
+  "position": "高頻度MM",
+  "wf_quality": "履歴薄/評価不能",
+  "lb_alltime": 44936224,
+  "timeline": [
+    {
+      "m": "2025-11",
+      "w": 8013,
+      "l": 2464,
+      "pnl": 920309
+    }
+  ],
+  "top_wins": [
+    {
+      "coin": "STRK",
+      "dir": "Close Long",
+      "date": "2025-11-21",
+      "pnl": 11851,
+      "not": 27184
+    },
+    {
+      "coin": "STRK",
+      "dir": "Close Long",
+      "date": "2025-11-21",
+      "pnl": 11589,
+      "not": 27935
+    },
+    {
+      "coin": "STRK",
+      "dir": "Close Long",
+      "date": "2025-11-21",
+      "pnl": 11163,
+      "not": 27925
+    },
+    {
+      "coin": "STRK",
+      "dir": "Close Long",
+      "date": "2025-11-21",
+      "pnl": 6302,
+      "not": 14979
+    },
+    {
+      "coin": "STRK",
+      "dir": "Close Long",
+      "date": "2025-11-21",
+      "pnl": 5928,
+      "not": 13758
+    }
+  ],
+  "top_losses": [
+    {
+      "coin": "PURR",
+      "dir": "Close Long",
+      "date": "2025-11-21",
+      "pnl": -12245,
+      "not": 17270
+    },
+    {
+      "coin": "XPL",
+      "dir": "Close Long",
+      "date": "2025-11-04",
+      "pnl": -11086,
+      "not": 35141
+    },
+    {
+      "coin": "XPL",
+      "dir": "Close Long",
+      "date": "2025-11-04",
+      "pnl": -10533,
+      "not": 27620
+    },
+    {
+      "coin": "XPL",
+      "dir": "Close Long",
+      "date": "2025-11-04",
+      "pnl": -6654,
+      "not": 21428
+    },
+    {
+      "coin": "PURR",
+      "dir": "Close Long",
+      "date": "2025-11-22",
+      "pnl": -5440,
+      "not": 7537
+    }
+  ]
+}

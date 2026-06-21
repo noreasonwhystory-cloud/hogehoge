@@ -1,0 +1,100 @@
+{
+  "address": "0x7dacca323e44f168494c779bb5e7483c468ef410",
+  "patterns": {
+    "C_dormant_burst": 7.502,
+    "H_deliberate_dip": 6.391
+  },
+  "rmaj": 0,
+  "rall": 2457673,
+  "position": "高頻度MM",
+  "wf_quality": "履歴薄/評価不能",
+  "lb_alltime": 61902398,
+  "timeline": [
+    {
+      "m": "2026-04",
+      "w": 6,
+      "l": 6167,
+      "pnl": -427180
+    },
+    {
+      "m": "2026-05",
+      "w": 3263,
+      "l": 0,
+      "pnl": 2884853
+    }
+  ],
+  "top_wins": [
+    {
+      "coin": "@107",
+      "dir": "Sell",
+      "date": "2026-05-20",
+      "pnl": 2363,
+      "not": 2744
+    },
+    {
+      "coin": "@107",
+      "dir": "Sell",
+      "date": "2026-05-20",
+      "pnl": 2308,
+      "not": 2682
+    },
+    {
+      "coin": "@107",
+      "dir": "Sell",
+      "date": "2026-05-20",
+      "pnl": 2291,
+      "not": 2672
+    },
+    {
+      "coin": "@107",
+      "dir": "Sell",
+      "date": "2026-05-20",
+      "pnl": 2280,
+      "not": 2661
+    },
+    {
+      "coin": "@107",
+      "dir": "Sell",
+      "date": "2026-05-20",
+      "pnl": 2279,
+      "not": 2652
+    }
+  ],
+  "top_losses": [
+    {
+      "coin": "HYPE",
+      "dir": "Close Short",
+      "date": "2026-04-11",
+      "pnl": -222,
+      "not": 2154
+    },
+    {
+      "coin": "HYPE",
+      "dir": "Close Short",
+      "date": "2026-04-11",
+      "pnl": -222,
+      "not": 2155
+    },
+    {
+      "coin": "HYPE",
+      "dir": "Close Short",
+      "date": "2026-04-11",
+      "pnl": -222,
+      "not": 2154
+    },
+    {
+      "coin": "HYPE",
+      "dir": "Close Short",
+      "date": "2026-04-11",
+      "pnl": -221,
+      "not": 2154
+    },
+    {
+      "coin": "HYPE",
+      "dir": "Close Short",
+      "date": "2026-04-11",
+      "pnl": -220,
+      "not": 2153
+    }
+  ]
+}

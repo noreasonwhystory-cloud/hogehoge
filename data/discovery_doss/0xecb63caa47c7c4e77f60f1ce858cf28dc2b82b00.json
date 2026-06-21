@@ -1,0 +1,93 @@
+{
+  "address": "0xecb63caa47c7c4e77f60f1ce858cf28dc2b82b00",
+  "patterns": {
+    "H_deliberate_dip": 5.575
+  },
+  "rmaj": 172717,
+  "rall": 375567,
+  "position": "高頻度MM",
+  "wf_quality": "履歴薄/評価不能",
+  "lb_alltime": 218545074,
+  "timeline": [
+    {
+      "m": "2026-06",
+      "w": 22028,
+      "l": 18324,
+      "pnl": 375567
+    }
+  ],
+  "top_wins": [
+    {
+      "coin": "ZEC",
+      "dir": "Close Short",
+      "date": "2026-06-18",
+      "pnl": 4596,
+      "not": 50339
+    },
+    {
+      "coin": "ETH",
+      "dir": "Close Short",
+      "date": "2026-06-19",
+      "pnl": 4512,
+      "not": 300327
+    },
+    {
+      "coin": "ETH",
+      "dir": "Close Short",
+      "date": "2026-06-19",
+      "pnl": 4405,
+      "not": 300325
+    },
+    {
+      "coin": "ETH",
+      "dir": "Close Short",
+      "date": "2026-06-19",
+      "pnl": 4297,
+      "not": 300324
+    },
+    {
+      "coin": "ETH",
+      "dir": "Close Short",
+      "date": "2026-06-19",
+      "pnl": 4244,
+      "not": 300329
+    }
+  ],
+  "top_losses": [
+    {
+      "coin": "BTC",
+      "dir": "Close Long",
+      "date": "2026-06-18",
+      "pnl": -6228,
+      "not": 500530
+    },
+    {
+      "coin": "BTC",
+      "dir": "Close Long",
+      "date": "2026-06-18",
+      "pnl": -2997,
+      "not": 239139
+    },
+    {
+      "coin": "BTC",
+      "dir": "Close Long",
+      "date": "2026-06-18",
+      "pnl": -1871,
+      "not": 150157
+    },
+    {
+      "coin": "MET",
+      "dir": "Close Short",
+      "date": "2026-06-21",
+      "pnl": -1394,
+      "not": 10012
+    },
+    {
+      "coin": "BTC",
+      "dir": "Close Long",
+      "date": "2026-06-18",
+      "pnl": -1130,
+      "not": 75078
+    }
+  ]
+}

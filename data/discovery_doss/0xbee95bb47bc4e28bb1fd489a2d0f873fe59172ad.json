@@ -1,0 +1,130 @@
+{
+  "address": "0xbee95bb47bc4e28bb1fd489a2d0f873fe59172ad",
+  "patterns": {
+    "C_dormant_burst": 4.123,
+    "H_deliberate_dip": 5.147
+  },
+  "rmaj": -4137,
+  "rall": 140293,
+  "position": "高頻度MM",
+  "wf_quality": "堅実",
+  "lb_alltime": 48076919,
+  "timeline": [
+    {
+      "m": "2024-04",
+      "w": 1088,
+      "l": 862,
+      "pnl": 2878
+    },
+    {
+      "m": "2024-05",
+      "w": 35,
+      "l": 91,
+      "pnl": -4863
+    },
+    {
+      "m": "2024-06",
+      "w": 160,
+      "l": 150,
+      "pnl": 3709
+    },
+    {
+      "m": "2024-07",
+      "w": 555,
+      "l": 584,
+      "pnl": 39325
+    },
+    {
+      "m": "2024-12",
+      "w": 879,
+      "l": 224,
+      "pnl": 95437
+    },
+    {
+      "m": "2025-05",
+      "w": 0,
+      "l": 5,
+      "pnl": -551
+    },
+    {
+      "m": "2026-06",
+      "w": 130,
+      "l": 0,
+      "pnl": 4357
+    }
+  ],
+  "top_wins": [
+    {
+      "coin": "PURR/USDC",
+      "dir": "Sell",
+      "date": "2024-07-26",
+      "pnl": 7985,
+      "not": 39850
+    },
+    {
+      "coin": "PURR/USDC",
+      "dir": "Sell",
+      "date": "2024-07-15",
+      "pnl": 7919,
+      "not": 22819
+    },
+    {
+      "coin": "PURR/USDC",
+      "dir": "Sell",
+      "date": "2024-07-15",
+      "pnl": 7297,
+      "not": 21301
+    },
+    {
+      "coin": "PURR/USDC",
+      "dir": "Sell",
+      "date": "2024-07-18",
+      "pnl": 4998,
+      "not": 19926
+    },
+    {
+      "coin": "HYPE",
+      "dir": "Close Long",
+      "date": "2024-12-18",
+      "pnl": 4444,
+      "not": 120000
+    }
+  ],
+  "top_losses": [
+    {
+      "coin": "SOL",
+      "dir": "Close Long",
+      "date": "2024-07-04",
+      "pnl": -5863,
+      "not": 141806
+    },
+    {
+      "coin": "ETH",
+      "dir": "Close Long",
+      "date": "2024-04-15",
+      "pnl": -3883,
+      "not": 87507
+    },
+    {
+      "coin": "SOL",
+      "dir": "Close Long",
+      "date": "2024-07-04",
+      "pnl": -2422,
+      "not": 58585
+    },
+    {
+      "coin": "BTC",
+      "dir": "Close Long",
+      "date": "2024-04-13",
+      "pnl": -2358,
+      "not": 78037
+    },
+    {
+      "coin": "PANDORA",
+      "dir": "Close Long",
+      "date": "2024-04-16",
+      "pnl": -1496,
+      "not": 2246
+    }
+  ]
+}

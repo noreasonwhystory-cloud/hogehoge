@@ -1,0 +1,106 @@
+{
+  "address": "0x03b3e2069830dd3bd1a5b5e45dad60a770227ed7",
+  "patterns": {
+    "C_dormant_burst": 5.151,
+    "H_deliberate_dip": 5.462
+  },
+  "rmaj": 0,
+  "rall": 289673,
+  "position": "高頻度MM",
+  "wf_quality": "履歴薄/評価不能",
+  "lb_alltime": 46496367,
+  "timeline": [
+    {
+      "m": "2024-11",
+      "w": 1,
+      "l": 0,
+      "pnl": 0
+    },
+    {
+      "m": "2024-12",
+      "w": 1,
+      "l": 12,
+      "pnl": -244
+    },
+    {
+      "m": "2025-06",
+      "w": 1750,
+      "l": 5111,
+      "pnl": 289916
+    }
+  ],
+  "top_wins": [
+    {
+      "coin": "HYPE",
+      "dir": "Close Long",
+      "date": "2025-06-11",
+      "pnl": 33885,
+      "not": 411500
+    },
+    {
+      "coin": "HYPE",
+      "dir": "Close Long",
+      "date": "2025-06-11",
+      "pnl": 33484,
+      "not": 406632
+    },
+    {
+      "coin": "HYPE",
+      "dir": "Close Long",
+      "date": "2025-06-11",
+      "pnl": 32265,
+      "not": 391829
+    },
+    {
+      "coin": "@107",
+      "dir": "Sell",
+      "date": "2025-06-19",
+      "pnl": 30002,
+      "not": 48990
+    },
+    {
+      "coin": "HYPE",
+      "dir": "Close Long",
+      "date": "2025-06-16",
+      "pnl": 24194,
+      "not": 304049
+    }
+  ],
+  "top_losses": [
+    {
+      "coin": "HYPE",
+      "dir": "Close Long",
+      "date": "2025-06-19",
+      "pnl": -29260,
+      "not": 319063
+    },
+    {
+      "coin": "HYPE",
+      "dir": "Close Long",
+      "date": "2025-06-19",
+      "pnl": -14945,
+      "not": 171407
+    },
+    {
+      "coin": "HYPE",
+      "dir": "Close Long",
+      "date": "2025-06-19",
+      "pnl": -12760,
+      "not": 163177
+    },
+    {
+      "coin": "HYPE",
+      "dir": "Close Long",
+      "date": "2025-06-19",
+      "pnl": -8399,
+      "not": 188545
+    },
+    {
+      "coin": "HYPE",
+      "dir": "Close Long",
+      "date": "2025-06-13",
+      "pnl": -7478,
+      "not": 341718
+    }
+  ]
+}

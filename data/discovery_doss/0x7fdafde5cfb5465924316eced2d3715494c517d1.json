@@ -1,0 +1,93 @@
+{
+  "address": "0x7fdafde5cfb5465924316eced2d3715494c517d1",
+  "patterns": {
+    "H_deliberate_dip": 5.703
+  },
+  "rmaj": -70015,
+  "rall": 504807,
+  "position": "高頻度MM",
+  "wf_quality": "履歴薄/評価不能",
+  "lb_alltime": 176639074,
+  "timeline": [
+    {
+      "m": "2026-06",
+      "w": 22065,
+      "l": 16973,
+      "pnl": 504807
+    }
+  ],
+  "top_wins": [
+    {
+      "coin": "AVAX",
+      "dir": "Close Short",
+      "date": "2026-06-21",
+      "pnl": 2533,
+      "not": 2278
+    },
+    {
+      "coin": "AVAX",
+      "dir": "Close Short",
+      "date": "2026-06-18",
+      "pnl": 2483,
+      "not": 2478
+    },
+    {
+      "coin": "AVAX",
+      "dir": "Close Short",
+      "date": "2026-06-18",
+      "pnl": 2334,
+      "not": 2367
+    },
+    {
+      "coin": "AVAX",
+      "dir": "Close Short",
+      "date": "2026-06-18",
+      "pnl": 1814,
+      "not": 1827
+    },
+    {
+      "coin": "AVAX",
+      "dir": "Close Short",
+      "date": "2026-06-21",
+      "pnl": 1728,
+      "not": 1555
+    }
+  ],
+  "top_losses": [
+    {
+      "coin": "xyz:SILVER",
+      "dir": "Close Long",
+      "date": "2026-06-19",
+      "pnl": -671,
+      "not": 7997
+    },
+    {
+      "coin": "xyz:SILVER",
+      "dir": "Close Long",
+      "date": "2026-06-19",
+      "pnl": -665,
+      "not": 8165
+    },
+    {
+      "coin": "xyz:SILVER",
+      "dir": "Close Long",
+      "date": "2026-06-19",
+      "pnl": -663,
+      "not": 8166
+    },
+    {
+      "coin": "xyz:SILVER",
+      "dir": "Close Long",
+      "date": "2026-06-19",
+      "pnl": -632,
+      "not": 7748
+    },
+    {
+      "coin": "xyz:SILVER",
+      "dir": "Close Long",
+      "date": "2026-06-18",
+      "pnl": -622,
+      "not": 8327
+    }
+  ]
+}
