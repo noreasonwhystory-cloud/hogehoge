@@ -36,7 +36,7 @@ def today():
     return datetime.now(timezone.utc).strftime("%Y-%m-%d")
 
 
-def position_of(metric_cat, likelihood, tags, agreement=None, cashout_ratio=None):
+def position_of(metric_cat, likelihood, tags, agreement=None, cashout_ratio=None, alt_verdict=None):
     """ウォレットの「位置づけ」を個体ごとの独立評価で決める。
     協調クラスタ所属は position に使わず tags に留める（個別の素性で判定）。"""
     # 強いインサイダー疑惑は最優先
@@ -49,6 +49,10 @@ def position_of(metric_cat, likelihood, tags, agreement=None, cashout_ratio=None
         return "💸 出金疑い(要監視)"
     if likelihood is not None:                 # 多角分析で再評価済み
         if metric_cat == "insider_suspect":
+            # 多角レンズが『インサイダーでなく本物のプロ』と肯定したものは偽陽性でなく本物へ。
+            # 偽陽性は『インサイダーでもなく価値も無い』ケースに限定する。
+            if agreement == "agree" and alt_verdict and ("本物" in alt_verdict or "格上げ" in alt_verdict):
+                return "プロトレーダー(本物)"
             return "偽陽性(数値疑惑→否定)"
         if metric_cat == "pro_trader":
             return "プロ格付け過大(要再検証)" if agreement == "disagree" else "プロトレーダー(本物)"
@@ -132,7 +136,8 @@ def main():
             entry["lenses_hit"] = a.get("lenses_hit", [])
             entry["alt_reasoning"] = a.get("reasoning")
         entry["position"] = position_of(w.get("category"), likelihood, entry["tags"],
-                                        entry.get("agreement"), w.get("cashout_ratio"))
+                                        entry.get("agreement"), w.get("cashout_ratio"),
+                                        entry.get("alt_verdict"))
         # 多軸オートタグ
         win = w.get("lb_windows", {}) or {}
         at = win.get("allTime") or {}

@@ -2079,7 +2079,7 @@
         "risk_profile"
       ],
       "alt_reasoning": "dir=0.59<ベータなのに勝率0.98(128クローズ)・realized+87k。現在建玉0でキャッシュ化済み。trendがgenuine-edge(0.72)、riskがdisciplined-pro(0.6)。利確/損切り規律型で2レンズ一致。トレンド便乗でなく管理型の優位。",
-      "position": "偽陽性(数値疑惑→否定)",
+      "position": "プロトレーダー(本物)",
       "current": {
         "date": "2026-06-17",
         "metric_category": "insider_suspect",
@@ -2103,7 +2103,7 @@
         "銘柄:マルチ",
         "取引あり(14d)"
       ],
-      "notes_jp": "【現在の分類: ⚫偽陽性 / majors実現$472,780 / 最終取引2026-06-18】\n―――（履歴）―――\n【ひとことで】🤓 Nansenが『常勝(Smart Money)』認定したトレーダー。たぶんプロ、未精査。\n【正体】🤓 Smart HL Perps Trader [0xd05808]（Nansenラベル）\n【成績】通算PnL $1,018,471・ROI 53%・現在残高 $0\n【補足】残高が小さい＝稼ぎを引き上げ済の可能性（出金）。",
+      "notes_jp": "【再分類(監査)】多角レンズがagree・格上げ: 利確規律で稼ぐ本物(現在フラット)と本物認定→偽陽性から本物プロへ訂正。\n【現在の分類: ⚫偽陽性 / majors実現$472,780 / 最終取引2026-06-18】\n―――（履歴）―――\n【ひとことで】🤓 Nansenが『常勝(Smart Money)』認定したトレーダー。たぶんプロ、未精査。\n【正体】🤓 Smart HL Perps Trader [0xd05808]（Nansenラベル）\n【成績】通算PnL $1,018,471・ROI 53%・現在残高 $0\n【補足】残高が小さい＝稼ぎを引き上げ済の可能性（出金）。",
       "roi_alltime": 3.7434227834,
       "roi_month": 3.7434227834,
       "n_fills_14d": 492,
@@ -2118,7 +2118,8 @@
       "last_fill": 1781800431564,
       "trade_days": 25,
       "lb_alltime": 1020903,
-      "n_fills_14d_maj": 110
+      "n_fills_14d_maj": 110,
+      "wf_quality": "履歴薄/評価不能"
     },
     "0xfe4dec8543b0b9cec0c897a689f7af7bddb02192": {
       "address": "0xfe4dec8543b0b9cec0c897a689f7af7bddb02192",
@@ -2161,7 +2162,7 @@
         "trend_vs_edge"
       ],
       "alt_reasoning": "dir=0.69<ベータなのに勝率0.84(125クローズ)黒字。trendがgenuine-edge(0.62)。方向一辺倒でなく執行優位。pro_trader維持が妥当で大きな再評価不要。",
-      "position": "偽陽性(数値疑惑→否定)",
+      "position": "プロトレーダー(本物)",
       "current": {
         "date": "2026-06-17",
         "metric_category": "insider_suspect",
@@ -2211,7 +2212,7 @@
         "銘柄:マルチ",
         "取引あり(14d)"
       ],
-      "notes_jp": "【現在の分類: ⚫偽陽性 / majors実現$-7,973 / 最終取引2026-06-19】\n―――（履歴）―――\n【ひとことで】🤓 Nansenが『常勝(Smart Money)』認定したトレーダー。たぶんプロ、未精査。\n【正体】🤓 Smart HL Perps Trader [0xfe4dec]（Nansenラベル）\n【成績】通算PnL $913,852・ROI 239%・現在残高 $0\n【補足】残高が小さい＝稼ぎを引き上げ済の可能性（出金）。",
+      "notes_jp": "【再分類(監査)】多角レンズがagree・維持〜微格上げ: 執行優位ありの本物と本物認定→偽陽性から本物プロへ訂正。\n【現在の分類: ⚫偽陽性 / majors実現$-7,973 / 最終取引2026-06-19】\n―――（履歴）―――\n【ひとことで】🤓 Nansenが『常勝(Smart Money)』認定したトレーダー。たぶんプロ、未精査。\n【正体】🤓 Smart HL Perps Trader [0xfe4dec]（Nansenラベル）\n【成績】通算PnL $913,852・ROI 239%・現在残高 $0\n【補足】残高が小さい＝稼ぎを引き上げ済の可能性（出金）。",
       "roi_alltime": 8.7686522249,
       "roi_month": 3.4973318795,
       "n_fills_14d": 1967,
@@ -2226,7 +2227,8 @@
       "last_fill": 1781805759631,
       "trade_days": 41,
       "lb_alltime": 909449,
-      "n_fills_14d_maj": 426
+      "n_fills_14d_maj": 426,
+      "wf_quality": "履歴薄/評価不能"
     },
     "0x5b1efd32c62000cbeba7cccbc49fabdc57b2eb80": {
       "address": "0x5b1efd32c62000cbeba7cccbc49fabdc57b2eb80",
@@ -27698,7 +27700,7 @@
         }
       ],
       "last_seen": "2026-06-17",
-      "position": "除外/低優先",
+      "position": "弱い疑惑(監視継続)",
       "metric_category": "nansen-pro",
       "labels": [
         "Former Smart Trader [0x7c6b38]"
@@ -27711,7 +27713,7 @@
         "銘柄:マルチ",
         "取引なし(14d)"
       ],
-      "notes_jp": "【現在の分類: ⚫除外/低優先 / majors実現$181,581 / 最終取引2026-02-06】\n【欺瞞精査(2026-06)】要監視・残存疑い0.32（確証なし）: 欺瞞の二本柱(隠蔽レイヤー)は良性で説明可能。D_controlled_loss(14.1, size_ratio2.68/med_win1064>med_loss398)はスケールアウト痕跡または「勝ち伸ばし・負け小さく切る」規律で完全に説明でき、dossier自身も弱い/曖昧と認めている。H_deliberate_dip(5.26)のDec altクラスター(MEW/2Z/ZETA・notio\n―――\n―――（履歴）―――\n【ひとことで】🤓 Nansenが『常勝(Smart Money)』認定したトレーダー。たぶんプロ、未精査。\n【正体】Former Smart Trader [0x7c6b38]（Nansenラベル）\n【成績】通算PnL $183,826・ROI 90%・現在残高 $0\n【補足】残高が小さい＝稼ぎを引き上げ済の可能性（出金）。",
+      "notes_jp": "【再分類(監査)】欺瞞8軸でdeception_score0.55・insider_camouflage(2026-01/02で連続701クローズゼロ負け=実測)。隠蔽レッグは弱いがエッジ過強ゆえ除外でなく監視継続へ。現dormant。\n【現在の分類: ⚫除外/低優先 / majors実現$181,581 / 最終取引2026-02-06】\n【欺瞞精査(2026-06)】要監視・残存疑い0.32（確証なし）: 欺瞞の二本柱(隠蔽レイヤー)は良性で説明可能。D_controlled_loss(14.1, size_ratio2.68/med_win1064>med_loss398)はスケールアウト痕跡または「勝ち伸ばし・負け小さく切る」規律で完全に説明でき、dossier自身も弱い/曖昧と認めている。H_deliberate_dip(5.26)のDec altクラスター(MEW/2Z/ZETA・notio\n―――\n―――（履歴）―――\n【ひとことで】🤓 Nansenが『常勝(Smart Money)』認定したトレーダー。たぶんプロ、未精査。\n【正体】Former Smart Trader [0x7c6b38]（Nansenラベル）\n【成績】通算PnL $183,826・ROI 90%・現在残高 $0\n【補足】残高が小さい＝稼ぎを引き上げ済の可能性（出金）。",
       "current": {
         "date": "2026-06-17",
         "metric_category": "nansen-pro",
