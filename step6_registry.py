@@ -329,7 +329,8 @@ def render_html(reg, out="registry.html",
         for c in AXIS:
             if t.startswith(c):
                 return c
-        if (t.startswith("WF:") or t.startswith("遅効エッジ")
+        if (t.startswith("WF:") or t.startswith("遅効エッジ") or t == "疑惑否定済"
+                or t == "欺瞞精査:要監視"
                 or t in ("HL先行検出", "HL検証済プロ", "稼ぎ確認・先行不明(要精査)",
                          "遅効シグナルだがmajors赤字")):
             return "検証"
@@ -344,7 +345,7 @@ def render_html(reg, out="registry.html",
     for t, c in tagcount.items():
         groups.setdefault(cat_of(t), []).append((t, c))
     groups["位置"] = [(p, pos[p]) for p in POS_ORDER if pos.get(p)]
-    GLABEL = {"位置": "位置づけ", "品質": "品質(WF精査)", "活動": "活動(14日)",
+    GLABEL = {"位置": "位置づけ", "品質": "品質", "活動": "活動(14日)",
               "ROI:": "ROI", "PnL:": "PnL", "頻度:": "頻度", "保有:": "保有",
               "方向:": "方向", "レバ:": "レバ", "銘柄:": "銘柄", "ID:": "正体",
               "検証": "検証/疑い", "資金/出金": "資金/出金", "区分": "区分", "他": "他"}

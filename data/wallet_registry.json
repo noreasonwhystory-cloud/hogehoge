@@ -101,9 +101,9 @@
       "first_seen": "2026-06-16",
       "times_seen": 4,
       "tags": [
-        "WF:debunked",
         "funder:0xdf747918",
-        "取引あり(14d)"
+        "取引あり(14d)",
+        "疑惑否定済"
       ],
       "notes": "",
       "history": [
@@ -211,9 +211,9 @@
       "first_seen": "2026-06-16",
       "times_seen": 11,
       "tags": [
-        "WF:debunked",
         "funder:0xdf747918",
         "取引あり(14d)",
+        "疑惑否定済",
         "除外だが大型majors黒字(要再精査)"
       ],
       "notes": "",
@@ -5505,8 +5505,8 @@
       "first_seen": "2026-06-16",
       "times_seen": 11,
       "tags": [
-        "WF:debunked",
-        "取引あり(14d)"
+        "取引あり(14d)",
+        "疑惑否定済"
       ],
       "notes": "",
       "history": [
@@ -6470,10 +6470,10 @@
       "first_seen": "2026-06-16",
       "times_seen": 4,
       "tags": [
-        "WF:debunked",
         "funder:0xdf747918",
         "取引あり(14d)",
         "回転:3k-10k/月",
+        "疑惑否定済",
         "高頻度MM/HFT"
       ],
       "notes": "",
@@ -7192,8 +7192,8 @@
       "first_seen": "2026-06-17",
       "times_seen": 7,
       "tags": [
-        "WF:debunked",
         "取引あり(14d)",
+        "疑惑否定済",
         "除外だが大型majors黒字(要再精査)"
       ],
       "notes": "",
@@ -14147,9 +14147,9 @@
       "tags": [
         "HL先行検出",
         "Nansen発見",
-        "WF:debunked",
         "公共サービス資金源(協調でない)",
         "取引あり(14d)",
+        "疑惑否定済",
         "除外だが大型majors黒字(要再精査)"
       ],
       "notes": "",
@@ -16517,8 +16517,8 @@
       "tags": [
         "HL先行検出",
         "Nansen発見",
-        "WF:debunked",
         "取引なし(14d)",
+        "疑惑否定済",
         "除外だが大型majors黒字(要再精査)"
       ],
       "notes": "",
@@ -17326,9 +17326,9 @@
       "tags": [
         "HL先行検出",
         "Nansen発見",
-        "WF:debunked",
         "公共サービス資金源(協調でない)",
         "取引あり(14d)",
+        "疑惑否定済",
         "除外だが大型majors黒字(要再精査)"
       ],
       "notes": "",
@@ -37576,9 +37576,9 @@
       "times_seen": 1,
       "tags": [
         "Nansen発見",
-        "WF:debunked",
         "取引なし(14d)",
         "回転:1.5k-3k/月",
+        "疑惑否定済",
         "高頻度MM/HFT"
       ],
       "notes": "",
@@ -37838,9 +37838,9 @@
       "tags": [
         "HL先行検出",
         "Nansen発見",
-        "WF:debunked",
         "公共サービス資金源(協調でない)",
-        "取引なし(14d)"
+        "取引なし(14d)",
+        "疑惑否定済"
       ],
       "notes": "",
       "history": [],
@@ -37949,8 +37949,8 @@
       "tags": [
         "HL先行検出",
         "Nansen発見",
-        "WF:debunked",
         "取引なし(14d)",
+        "疑惑否定済",
         "除外だが大型majors黒字(要再精査)"
       ],
       "notes": "",
