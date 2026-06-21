@@ -65,9 +65,10 @@ def main():
 <div class="wr2"><b>反証後</b>: {esc(r['refute_reason'])}</div></div>"""
     watch_html = "".join(watchcard(x) for x in ver["watch"]) or "<p>なし</p>"
 
-    # 説明内訳
+    # 説明内訳（偽陽性=反証で良性と判定された件のみ。見出しの偽陽性件数と一致させる）
     from collections import Counter
-    expl = Counter(a["judge"]["primary_explanation"] for a in ver["all"])
+    expl = Counter(a["judge"]["primary_explanation"] for a in ver["all"]
+                   if (a.get("refute") or {}).get("verdict") == "偽陽性")
     EXJP = {"trend_following_riskmgmt": "損小利大の規律(良いトレード)", "regime_luck": "地合便乗・運",
             "market_maker": "MM/HFT(薄利多売)", "normal_trader": "普通のトレーダー",
             "scaling_strategy": "スケールイン(分割建て)", "insider_camouflage": "欺瞞疑い(第1判定)",
