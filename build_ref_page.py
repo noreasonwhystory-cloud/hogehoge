@@ -31,6 +31,9 @@ LOOKUP = [
 ]
 HL = "https://app.hyperliquid.xyz/explorer/address/{a}"
 NS = "https://app.nansen.ai/profiler?address={a}"
+HD = "https://hyperdash.info/trader/{a}"                # Hyperdash トレーダープロフィール
+HS = "https://hypurrscan.io/address/{a}"               # Hypurrscan 建玉/約定
+AX = "https://hyperscreener.asxn.xyz/profile/{a}"      # ASXN プロフィール
 
 
 def esc(x):
@@ -152,7 +155,7 @@ def main():
             cards += f"""
 <div class="case">
   <div class="ct"><code>{esc(a)}</code>
-    <span class="lnk"><a href="{HL.format(a=a)}" target="_blank">HL</a> · <a href="{NS.format(a=a)}" target="_blank">Nansen</a></span></div>
+    <span class="lnk"><a href="{HL.format(a=a)}" target="_blank">HL</a> · <a href="{HD.format(a=a)}" target="_blank" title="Hyperdash">HD📊</a> · <a href="{HS.format(a=a)}" target="_blank" title="Hypurrscan">HS</a> · <a href="{AX.format(a=a)}" target="_blank" title="ASXN プロフィール">AX📈</a> · <a href="{NS.format(a=a)}" target="_blank">Nansen</a></span></div>
   <div class="vd" style="--c:{vcol}">▶ {esc(vtxt)}</div>
   <div class="kv">
     <span>正体ラベル</span><b>{esc('、'.join(labels) or '—（匿名）')}</b>
