@@ -40933,6 +40933,31 @@
       "active_to": "2026-02-07",
       "last_fill": 1770432640912,
       "lb_alltime": 665377
+    },
+    "0x5efc5eaa41ebfefcc122e7600d3ac81549b6dd8d": {
+      "address": "0x5efc5eaa41ebfefcc122e7600d3ac81549b6dd8d",
+      "first_seen": "2026-06-21",
+      "last_seen": "2026-06-21",
+      "times_seen": 1,
+      "position": "弱い疑惑(監視継続)",
+      "tags": [
+        "Nansen発見",
+        "単一銘柄アルファ@107",
+        "欺瞞精査:要監視"
+      ],
+      "lb_alltime": 1156870,
+      "active_from": "2024-04-16",
+      "active_to": "2026-03-18",
+      "active14": null,
+      "current": {
+        "win_rate": 0.607,
+        "dir_accuracy": null,
+        "total_pnl": 183391,
+        "metric_category": "deception_scan",
+        "avg_hold_h": null
+      },
+      "history": [],
+      "notes_jp": "【現在の分類: 🟠弱い疑惑(遅効/単一銘柄アルファ) / majors実現$183,391 / 最終取引2026-03-18】\n【欺瞞精査(2026-06)】要監視・残存疑い0.34（確証なし）: 欺瞞(デコイ・カモフラージュ)インサイダーという枠組みは反証される。(1)カモフラージュの核であるはずのF_decoy_flip=36.844は実体としてflips=7/14,775closesでありほぼ統計ノイズ。majors(BTC/ETH/SOL)はsize_ratio1.33・med_win1998/med_loss1503・WR0.607・top3_share0.212と完全にMM/規律的裁量トレードのプロファイルで、損小利大"
     }
   },
   "updated_at": "2026-06-17T18:57:53.443226+00:00"

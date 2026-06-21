@@ -31,6 +31,8 @@ def watch_set(mode):
         tags = e.get("tags", [])
         if "局所検証済(真の遅効エッジ)" in tags:
             sel.append((k, "🟠遅効エッジ", e))
+        elif "欺瞞精査:要監視" in tags:
+            sel.append((k, "🎭欺瞞要監視", e))
         elif pos == "プロトレーダー(本物)" and wq == "エリート":
             sel.append((k, "🟢エリート", e))
         elif pos == "プロトレーダー(本物)" and wq == "堅実" and mode != "min":

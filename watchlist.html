@@ -1,0 +1,66 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>現在の監視対象（集約）</title><style>
+body{font-family:system-ui,"Segoe UI",sans-serif;background:#0e1116;color:#e6edf3;margin:0;padding:26px;font-size:13px}
+h1{font-size:21px;margin:0 0 5px} .sub{color:#8b949e;font-size:13px;margin-bottom:16px} a{color:#4ea1ff;text-decoration:none}
+table{border-collapse:collapse;width:100%;max-width:1180px}
+th,td{border:1px solid #232a34;padding:8px 10px;text-align:left;vertical-align:top} th{background:#10151c;font-size:11px}
+.pos{color:#8b949e;font-size:11px;margin-top:3px} code{background:#0b0f14;padding:1px 5px;border-radius:4px;font-size:11px}
+.lnk a{font-size:10px} .num{text-align:right;white-space:nowrap} .per{font-size:11px;color:#9aa3ad;white-space:nowrap}
+.sm{max-width:520px} .tag{display:inline-block;background:#16201c;border:1px solid #2a4636;color:#7fd6a8;border-radius:9px;font-size:10px;padding:1px 7px;margin:1px}
+.note{font-size:11px;color:#9aa3ad;margin-top:5px;line-height:1.55}
+.kpi{display:flex;gap:12px;margin:12px 0} .kc{background:#171b22;border:1px solid #232a34;border-radius:9px;padding:10px 16px}
+.kc .v{font-size:22px;font-weight:700;color:#ffb454} .kc .l{font-size:11px;color:#8b949e}
+</style></head><body>
+<h1>🎯 現在の監視対象（集約名簿）</h1>
+<div class="sub">各ページに散在する監視対象を横断で集約。確証インサイダーは未検出ゆえ、残るのは「残存疑い」層のみ。
+リアルタイムの建玉・新規アクションは <a href="live.html">📡 ライブ監視</a>。 <a href="index.html">トップ</a></div>
+<div class="kpi"><div class="kc"><div class="v">7</div><div class="l">監視対象 合計</div></div></div>
+<table>
+<tr><th>監視理由</th><th>アドレス</th><th>majors実現</th><th>HL公式通算</th><th>勝率</th><th>取引期間</th><th>タグ / 精査メモ</th></tr>
+<tr>
+<td><b>遅効エッジ(局所検証済)</b><div class="pos">弱い疑惑(監視継続)</div></td>
+<td><code>0xccf135ab352d561a…</code><div class="lnk"><a href="https://app.hyperliquid.xyz/explorer/address/0xccf135ab352d561a15eb7be2a243cc4fcb7f0ab1" target="_blank">HL</a></div></td>
+<td class="num">$1,312,009</td><td class="num">$1,786,034</td><td class="num">0.69</td>
+<td class="per">2024-12-13〜2026-06-17</td>
+<td class="sm"><span class='tag'>Nansen発見</span><span class='tag'>取引あり(14d)</span><span class='tag'>局所検証済(真の遅効エッジ)</span><span class='tag'>未照会発掘</span><span class='tag'>遅効エッジ(24-72h)</span><div class="note">【現在の分類: 🟠弱い疑惑(遅効エッジ) / majors実現$1,312,009 / 最終取引2026-06-17】 【未照会層から遅効エッジ発掘(2026-06-18)】台帳に未登録だった層をリーダーボードから抽出し複数地平線で精査。4h方向的中はコイン投げだが補正後リターンが 24h+0.048/72h+0.093 と市場ドリフト超。9ヶ月・銘柄[&#x27;ETH&#x27;, &#x27;BTC&#x27;]・short率0.83に分散しN=1/regimeでは説明困難。HL実測: 勝率0.6858・実現</div></td>
+</tr><tr>
+<td><b>遅効エッジ(局所検証済)</b><div class="pos">弱い疑惑(監視継続)</div></td>
+<td><code>0x3662dd1d493d1d3c…</code><div class="lnk"><a href="https://app.hyperliquid.xyz/explorer/address/0x3662dd1d493d1d3cf6a65cb8e4ce2bfb01f63b3c" target="_blank">HL</a></div></td>
+<td class="num">$952,119</td><td class="num">$1,347,293</td><td class="num">0.83</td>
+<td class="per">2024-04-16〜2026-06-12</td>
+<td class="sm"><span class='tag'>HL履歴なし</span><span class='tag'>Nansen発見</span><span class='tag'>取引あり(14d)</span><span class='tag'>局所検証済(真の遅効エッジ)</span><span class='tag'>遅効エッジ(24-72h)</span><div class="note">【現在の分類: 🟠弱い疑惑(遅効エッジ) / majors実現$952,119 / 最終取引2026-06-12】 【遅効エッジ検出(複数地平線, 2026-06-18)】4h方向的中はコイン投げだが、トレンド補正後の順方向リターンが 24h+0.049/72h+0.065 と市場ドリフトを超える。複数月・3銘柄・両方向に分散しN=1/regime便乗では説明困難。Nansen=「🤓 Smart HL Perps Trader [0x3662dd]」 資金源=HL Perps</div></td>
+</tr><tr>
+<td><b>遅効エッジ(局所検証済)</b><div class="pos">弱い疑惑(監視継続)</div></td>
+<td><code>0xef91b28f5763b498…</code><div class="lnk"><a href="https://app.hyperliquid.xyz/explorer/address/0xef91b28f5763b49812f39154d0db15a01ca1506a" target="_blank">HL</a></div></td>
+<td class="num">$278,085</td><td class="num">—</td><td class="num">0.62</td>
+<td class="per">2025-08-26〜2026-06-03</td>
+<td class="sm"><span class='tag'>HL検証:非該当</span><span class='tag'>Nansen発見</span><span class='tag'>取引なし(14d)</span><span class='tag'>局所検証済(真の遅効エッジ)</span><span class='tag'>遅効エッジ(24-72h)</span><div class="note">【現在の分類: 🟠弱い疑惑(遅効エッジ) / majors実現$278,085 / 最終取引2026-06-03】 【遅効エッジ検出(複数地平線, 2026-06-18)】4h方向的中はコイン投げだが、トレンド補正後の順方向リターンが 24h+0.016/72h+0.040 と市場ドリフトを超える。複数月・3銘柄・両方向に分散しN=1/regime便乗では説明困難。Nansen=「🤓 Smart HL Perps Trader [0xef91b2]」 資金源=​​🤖 Rela</div></td>
+</tr><tr>
+<td><b>遅効エッジ(局所検証済)</b><div class="pos">弱い疑惑(監視継続)</div></td>
+<td><code>0x8ff1d5d5e2df31a4…</code><div class="lnk"><a href="https://app.hyperliquid.xyz/explorer/address/0x8ff1d5d5e2df31a4139662f4beae247ad8ccab24" target="_blank">HL</a></div></td>
+<td class="num">$227,863</td><td class="num">$424,384</td><td class="num">0.93</td>
+<td class="per">2025-12-10〜2026-05-03</td>
+<td class="sm"><span class='tag'>HL検証:非該当</span><span class='tag'>Nansen発見</span><span class='tag'>取引なし(14d)</span><span class='tag'>局所検証済(真の遅効エッジ)</span><span class='tag'>遅効エッジ(24-72h)</span><div class="note">【現在の分類: 🟠弱い疑惑(遅効エッジ) / majors実現$227,863 / 最終取引2026-05-03】 【遅効エッジ検出(複数地平線, 2026-06-18)】4h方向的中はコイン投げだが、トレンド補正後の順方向リターンが 24h+0.008/72h+0.031 と市場ドリフトを超える。複数月・3銘柄・両方向に分散しN=1/regime便乗では説明困難。Nansen=「Former Smart Trader [0x8ff1d5]」 資金源=🤖 CoW Protoc</div></td>
+</tr><tr>
+<td><b>欺瞞精査で残疑 / 単一銘柄アルファ</b><div class="pos">弱い疑惑(監視継続)</div></td>
+<td><code>0x5efc5eaa41ebfefc…</code><div class="lnk"><a href="https://app.hyperliquid.xyz/explorer/address/0x5efc5eaa41ebfefcc122e7600d3ac81549b6dd8d" target="_blank">HL</a></div></td>
+<td class="num">$183,391</td><td class="num">$1,156,870</td><td class="num">0.61</td>
+<td class="per">2024-04-16〜2026-03-18</td>
+<td class="sm"><span class='tag'>Nansen発見</span><span class='tag'>単一銘柄アルファ@107</span><span class='tag'>欺瞞精査:要監視</span><div class="note">【現在の分類: 🟠弱い疑惑(遅効/単一銘柄アルファ) / majors実現$183,391 / 最終取引2026-03-18】 【欺瞞精査(2026-06)】要監視・残存疑い0.34（確証なし）: 欺瞞(デコイ・カモフラージュ)インサイダーという枠組みは反証される。(1)カモフラージュの核であるはずのF_decoy_flip=36.844は実体としてflips=7/14,775closesでありほぼ統計ノイズ。majors(BTC/ETH/SOL)はsize_ratio1.3</div></td>
+</tr><tr>
+<td><b>欺瞞精査で残疑</b><div class="pos">除外/低優先</div></td>
+<td><code>0x7c6b383a03aea03b…</code><div class="lnk"><a href="https://app.hyperliquid.xyz/explorer/address/0x7c6b383a03aea03b3d29685d983f27835303a6bd" target="_blank">HL</a></div></td>
+<td class="num">$181,581</td><td class="num">—</td><td class="num">0.84</td>
+<td class="per">2025-12-12〜2026-02-06</td>
+<td class="sm"><span class='tag'>HL履歴なし</span><span class='tag'>Nansen発見</span><span class='tag'>取引なし(14d)</span><span class='tag'>欺瞞精査:要監視</span><div class="note">【欺瞞精査(2026-06)】要監視・残存疑い0.32（確証なし）: 欺瞞の二本柱(隠蔽レイヤー)は良性で説明可能。D_controlled_loss(14.1, size_ratio2.68/med_win1064&gt;med_loss398)はスケールアウト痕跡または「勝ち伸ばし・負け小さく切る」規律で完全に説明でき、dossier自身も弱い/曖昧と認めている。H_deliberate_dip(5.26)のDec altクラスター(MEW/2Z/ZETA・notio 【現在の</div></td>
+</tr><tr>
+<td><b>遅効エッジ(局所検証済)</b><div class="pos">弱い疑惑(監視継続)</div></td>
+<td><code>0x9a568bfeb8cb19e4…</code><div class="lnk"><a href="https://app.hyperliquid.xyz/explorer/address/0x9a568bfeb8cb19e4bafcb57ee69498d57d9591ca" target="_blank">HL</a></div></td>
+<td class="num">$157,364</td><td class="num">$3,255,961</td><td class="num">0.61</td>
+<td class="per">2025-05-22〜2026-06-14</td>
+<td class="sm"><span class='tag'>Nansen発見</span><span class='tag'>取引あり(14d)</span><span class='tag'>局所検証済(真の遅効エッジ)</span><span class='tag'>未照会発掘</span><span class='tag'>遅効エッジ(24-72h)</span><div class="note">【現在の分類: 🟠弱い疑惑(遅効エッジ) / majors実現$157,364 / 最終取引2026-06-14】 【未照会層から遅効エッジ発掘(2026-06-19)】台帳に未登録だった層をリーダーボードから抽出し複数地平線で精査。4h方向的中はコイン投げだが補正後リターンが 24h+0.025/72h+0.030 と市場ドリフト超。12ヶ月・銘柄[&#x27;ETH&#x27;, &#x27;BTC&#x27;, &#x27;SOL&#x27;]・short率0.4に分散しN=1/regimeでは説明困難。HL実測: 勝率0.61</div></td>
+</tr></table>
+<div class="sub" style="margin-top:14px;font-size:11.5px">※ いずれも「確証」ではなく人間レビュー用の残存疑い。遅効エッジ＝4h固定では見えぬ24-72hの局所検証済の黒字スイング、
+欺瞞要監視＝隠蔽手口8軸の裁定で良性説に解消しきれなかった残疑、単一銘柄アルファ＝特定銘柄(@107等)への情報優位の可能性。</div>
+</body></html>
