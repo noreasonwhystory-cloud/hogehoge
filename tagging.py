@@ -153,6 +153,8 @@ def tag_color(tag):
             return "#ffb454"        # 橙=波あり
         if "履歴薄" in tag or "評価不能" in tag:
             return "#9aa3ad"        # 灰=判定不能
+        if "alt主体" in tag:
+            return "#56b6c2"        # 水色=alt主体(positionと同色)
         if "MM" in tag:
             return "#a78bfa"        # 紫=MM
         return "#8b949e"

@@ -316,8 +316,9 @@ def render_html(reg, out="registry.html",
             at.append(f"質:{e['wf_quality']}")
         for t in at:
             tagcount[t] += 1
-    CAT_ORDER = ["位置", "品質", "活動", "ROI:", "PnL:", "頻度:", "保有:", "方向:",
-                 "レバ:", "銘柄:", "ID:", "検証", "資金/出金", "区分", "他"]
+    # 全件キャッシュ真値で揃う軸のみ表示（ROI/保有/レバ/方向は旧スキャン/ライブ依存で全件揃わぬため除外）
+    CAT_ORDER = ["位置", "品質", "活動", "PnL:", "頻度:", "銘柄:", "ID:",
+                 "検証", "資金/出金", "区分", "他"]
     AXIS = ["ROI:", "PnL:", "頻度:", "保有:", "方向:", "レバ:", "銘柄:", "ID:"]
     def cat_of(t):
         if t.startswith("Tier-"):
@@ -351,7 +352,7 @@ def render_html(reg, out="registry.html",
               "検証": "検証/疑い", "資金/出金": "資金/出金", "区分": "区分", "他": "他"}
     # チップの並びは「人数順」でなく「良い→悪い／高→低」の意味順。未知タグは人数で補助。
     GOOD_ORDER = (POS_ORDER + [
-        "質:エリート", "質:堅実", "質:中堅", "質:ムラあり", "質:履歴薄/評価不能", "質:高頻度MM",
+        "質:エリート", "質:堅実", "質:中堅", "質:ムラあり", "質:履歴薄/評価不能", "質:alt主体", "質:高頻度MM",
         "取引あり(14d)", "取引なし(14d)",
         "ROI:超高(>1000%)", "ROI:高(100-1000%)", "ROI:中(10-100%)", "ROI:低(<10%)", "ROI:赤字",
         "PnL:メガ(>$10M)", "PnL:大($1-10M)", "PnL:中($100k-1M)", "PnL:小(<$100k)", "PnL:赤字",
@@ -361,8 +362,6 @@ def render_html(reg, out="registry.html",
         "方向:ロング", "方向:ショート", "方向:混在", "方向:無/フラット",
     ])
     RANK = {t: i for i, t in enumerate(GOOD_ORDER)}
-    # 1ウォレット1タグが原則のカテゴリ＝合計が総数に一致すべき。残余は「該当なし」で明示。
-    ORDINAL = {"位置", "品質", "活動", "ROI:", "PnL:", "頻度:", "保有:", "レバ:", "方向:"}
     filterbar = ""
     for c in CAT_ORDER:
         if c not in groups:
@@ -372,10 +371,6 @@ def render_html(reg, out="registry.html",
             f"<span class='ft' style='--tc:{tagging.tag_color(t if c!='位置' else t)}' data-t=\"{esc(t)}\">{esc(t[2:] if t.startswith('質:') else t)} ({n})</span>"
             for t, n in items
         )
-        if c in ORDINAL:
-            resid = len(wallets) - sum(n for _, n in items)
-            if resid > 0:
-                chipshtml += f"<span class='ftnone'>該当なし ({resid})</span>"
         filterbar += f"<div class='grp'><span class='glabel'>{GLABEL.get(c,c)}</span>{chipshtml}</div>"
 
     html_doc = f"""<!doctype html><html lang="ja"><head><meta charset="utf-8">
