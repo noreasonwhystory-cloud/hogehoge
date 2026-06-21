@@ -361,6 +361,8 @@ def render_html(reg, out="registry.html",
         "方向:ロング", "方向:ショート", "方向:混在", "方向:無/フラット",
     ])
     RANK = {t: i for i, t in enumerate(GOOD_ORDER)}
+    # 1ウォレット1タグが原則のカテゴリ＝合計が総数に一致すべき。残余は「該当なし」で明示。
+    ORDINAL = {"位置", "品質", "活動", "ROI:", "PnL:", "頻度:", "保有:", "レバ:", "方向:"}
     filterbar = ""
     for c in CAT_ORDER:
         if c not in groups:
@@ -370,6 +372,10 @@ def render_html(reg, out="registry.html",
             f"<span class='ft' style='--tc:{tagging.tag_color(t if c!='位置' else t)}' data-t=\"{esc(t)}\">{esc(t[2:] if t.startswith('質:') else t)} ({n})</span>"
             for t, n in items
         )
+        if c in ORDINAL:
+            resid = len(wallets) - sum(n for _, n in items)
+            if resid > 0:
+                chipshtml += f"<span class='ftnone'>該当なし ({resid})</span>"
         filterbar += f"<div class='grp'><span class='glabel'>{GLABEL.get(c,c)}</span>{chipshtml}</div>"
 
     html_doc = f"""<!doctype html><html lang="ja"><head><meta charset="utf-8">
@@ -386,6 +392,7 @@ h1{{font-size:20px;margin:0 0 4px}}
 .filterbar{{background:#10151c;border:1px solid #232a34;border-radius:8px;padding:10px 12px;margin-bottom:14px}}
 .filterbar .ft{{cursor:pointer;display:inline-block;border-radius:10px;font-size:11px;padding:2px 9px;margin:3px;border:1px solid color-mix(in srgb,var(--tc) 45%,#0b0f14);color:var(--tc);background:#0b0f14;user-select:none}}
 .filterbar .ft.on{{background:var(--tc);color:#0b0f14;font-weight:700}}
+.filterbar .ftnone{{display:inline-block;border-radius:10px;font-size:11px;padding:2px 9px;margin:3px;border:1px dashed #30363d;color:#6e7681;background:#0b0f14}}
 .filterbar .grp{{margin:4px 0}} .filterbar .glabel{{color:#8b949e;font-size:11px;margin-right:6px;display:inline-block;width:54px}}
 #clearf{{cursor:pointer;color:#ff8893;font-size:11px;margin-left:8px;text-decoration:underline}}
 #cnt{{color:#8b949e;font-size:12px;margin-left:8px}}
