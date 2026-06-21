@@ -155,8 +155,8 @@ def tag_color(tag):
             return "#9aa3ad"        # 灰=判定不能
         if "alt主体" in tag:
             return "#56b6c2"        # 水色=alt主体(positionと同色)
-        if "MM" in tag:
-            return "#a78bfa"        # 紫=MM
+        if "MM" in tag or "HFT" in tag or "速" in tag:
+            return "#a78bfa"        # 紫=MM/回転速度グレード
         return "#8b949e"
     if tag.startswith("取引あり"):
         return "#3fb950"
