@@ -332,8 +332,6 @@ async def main():
         runner = web.AppRunner(app)
         await runner.setup()
         await web.TCPSite(runner, "0.0.0.0", PORT).start()
-        await discord(session, HOOKS.get("insider"), "🚀 HLリアルタイム監視 起動",
-                      f"監視{len(WATCH)}件 / 通知{sum(1 for w in WATCH.values() if w.get('notify'))}件 / ポジション単位通知・建玉履歴・MM通知オフ", 0x4ea1ff)
         print(f"started: watch={len(WATCH)} port={PORT}")
         await asyncio.gather(ws_loop(session), poll_loop(session))
 
