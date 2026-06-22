@@ -28,6 +28,7 @@ PORT = int(os.environ.get("PORT", "8080"))
 POLL_SEC = int(os.environ.get("POLL_SEC", "60"))
 CLOSES_TTL = int(os.environ.get("CLOSES_TTL", "1800"))        # 直近クローズの再取得間隔(秒)
 CLOSES_PER_CYCLE = int(os.environ.get("CLOSES_PER_CYCLE", "20"))  # 1巡あたりのクローズ取得上限(レート制御)
+SEED_TTL = int(os.environ.get("SEED_TTL", "1800"))            # 建玉ライフサイクルの全履歴再復元間隔(秒)
 
 HOOKS = {
     "insider": os.environ.get("HOOK_INSIDER", ""),
@@ -299,17 +300,29 @@ async def poll_loop(session):
                 acct = float(st.get("marginSummary", {}).get("accountValue", 0) or 0)
                 held = [ap.get("position", {}) for ap in st.get("assetPositions", [])
                         if abs(float(ap.get("position", {}).get("szi", 0) or 0)) >= 1e-9]
-                # プロ/弱い疑惑で建玉履歴が未復元(WS窓より古い建玉)なら全約定から復元
+                # プロ/弱い疑惑の建玉ライフサイクルを全約定から権威的に復元(TTL毎に再復元)。
+                # WSスナップショットは最古2000件しか種にできず初回/最新追加/最終約定がズレるため、
+                # 全履歴(complete=True)を真実とし上書きする。open_ts有無でゲートしない(=必ず再復元)。
                 w = WATCH.get(a, {})
-                if w.get("notify") and held and (time.time() - SEEDED.get(a, 0) > 3600):
-                    if any(TRACK.get((a, p.get("coin")), {}).get("open_ts") is None for p in held):
-                        full, complete = await fetch_fills_full(session, a)
-                        # 全履歴を取り切れた時だけ復元(打ち切り=高頻度勢は過去状態ゆえ使わずWS最新に委ねる)
-                        if complete:
-                            lc = compute_lifecycle(full)
-                            for coin, stt in lc.items():
-                                TRACK[(a, coin)] = stt
+                if w.get("notify") and held and (time.time() - SEEDED.get(a, 0) > SEED_TTL):
+                    full, complete = await fetch_fills_full(session, a)
+                    if complete:
+                        lc = compute_lifecycle(full)
+                        for p in held:
+                            coin = p.get("coin")
+                            stt = lc.get(coin)
+                            if not stt:
+                                continue
+                            # 既存(WSで進んだ最新)と統合: 日時系はmaxで後退防止、net/初回/回数は全履歴を採用
+                            ex = TRACK.get((a, coin), {})
+                            for k in ("lf", "lol", "los", "last_ts"):
+                                if ex.get(k) and (not stt.get(k) or ex[k] > stt[k]):
+                                    stt[k] = ex[k]
+                            TRACK[(a, coin)] = stt
                         SEEDED[a] = time.time()
+                    else:
+                        # 全履歴を取り切れない時は短時間で再挑戦(WS最新に委ねつつ)
+                        SEEDED[a] = time.time() - SEED_TTL + 300
                 ps = []
                 for p in held:
                     szi = float(p.get("szi", 0) or 0)
