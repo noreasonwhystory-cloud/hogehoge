@@ -69,8 +69,11 @@ async def discord(session, hook, title, desc, color):
         pass
 
 
+JST = 9 * 3600  # 日本時間オフセット
+
+
 def fmt(ts):
-    return time.strftime("%m-%d %H:%M", time.gmtime(ts / 1000)) if ts else "—"
+    return time.strftime("%m-%d %H:%M", time.gmtime(ts / 1000 + JST)) if ts else "—"
 
 
 def _apply(st, f):
@@ -276,11 +279,17 @@ def render_page():
     held.sort(key=lambda x: (order.index(WATCH[x[0]]["position"]) if WATCH[x[0]]["position"] in order else 9,
                              -sum(abs(p["notional"]) for p in x[1]["pos"])))
     rows = ""
+    facet_pos, facet_q = {}, {}      # 出現したファセット→件数
     for a, d in held:
         w = WATCH[a]
         col = PCOL.get(w["position"], "#8b949e")
         q = w.get("wf_quality")
         qtag = f"<span class=qt>質:{esc(q)}</span>" if q else ""
+        dirs = set("ロング" if p["long"] else "ショート" for p in d["pos"])
+        facet_pos[w["position"]] = facet_pos.get(w["position"], 0) + 1
+        if q:
+            facet_q[q] = facet_q.get(q, 0) + 1
+        ftok = f"区分:{w['position']} " + (f"質:{q} " if q else "") + " ".join("方向:" + x for x in dirs)
         plist = ""
         for p in d["pos"]:
             sd = "🟩ロング" if p["long"] else "🟥ショート"
@@ -288,17 +297,30 @@ def render_page():
                     f" ／ 最新追加 {fmt(p.get('last_ts'))}</div>") if p.get("open_ts") else "<div class=hist>建玉履歴: WS取得待ち</div>"
             plist += (f"<div class='p {'l' if p['long'] else 's'}'><b>{esc(p['coin'])} {sd}</b> ${p['notional']:,}"
                       f" 含み<span class={'g' if p['upnl']>=0 else 'r'}>{p['upnl']:+,}</span>{hist}</div>")
-        rows += (f"<tr><td><b style='color:{col}'>{esc(w['position'])}</b><br>{qtag}</td>"
+        rows += (f"<tr data-f=\"{esc(ftok)}\"><td><b style='color:{col}'>{esc(w['position'])}</b><br>{qtag}</td>"
                  f"<td>{esc(w['label'])}<br><code>{esc(a[:14])}…</code>"
                  f"<div class=lnk><a href='{ASXN.format(a=a)}' target=_blank>ASXN</a> "
                  f"<a href='https://app.hyperliquid.xyz/explorer/address/{a}' target=_blank>HL</a></div></td>"
                  f"<td>${d['acct']:,}</td><td>{plist}</td></tr>")
+    # フィルタチップ（区分・品質・方向）
+    def chips(items, prefix):
+        return "".join(f"<span class=ft data-t=\"{prefix}:{esc(k)}\">{esc(k)} ({v})</span>"
+                       for k, v in sorted(items.items(), key=lambda x: -x[1]))
+    posbar = chips(facet_pos, "区分")
+    qbar = chips(facet_q, "質")
+    dbar = ("<span class=ft data-t=\"方向:ロング\">ロング</span>"
+            "<span class=ft data-t=\"方向:ショート\">ショート</span>")
     return f"""<!doctype html><html lang=ja><head><meta charset=utf-8>
 <meta name=viewport content="width=device-width,initial-scale=1"><meta http-equiv=refresh content=30>
 <title>HL リアルタイム監視</title><style>
 body{{font-family:system-ui,sans-serif;background:#0e1116;color:#e6edf3;margin:0;padding:20px;font-size:13px}}
 h1{{font-size:19px;margin:0 0 4px}} h2{{font-size:15px;margin:18px 0 8px;color:#cbd5e1}}
-.sub{{color:#8b949e;font-size:12px;margin-bottom:12px}}
+.sub{{color:#8b949e;font-size:12px;margin-bottom:10px}}
+.fb{{background:#10151c;border:1px solid #232a34;border-radius:8px;padding:8px 10px;margin-bottom:12px;max-width:1180px}}
+.fb .gl{{color:#8b949e;font-size:11px;margin-right:6px;display:inline-block;width:42px}}
+.ft{{cursor:pointer;display:inline-block;border-radius:10px;font-size:11px;padding:2px 9px;margin:2px;border:1px solid #30363d;color:#cbd5e1;background:#0b0f14;user-select:none}}
+.ft.on{{background:#1f6feb;color:#fff;font-weight:700;border-color:#1f6feb}}
+#cf{{cursor:pointer;color:#ff8893;font-size:11px;margin-left:8px;text-decoration:underline}} #cnt{{color:#8b949e;font-size:11px;margin-left:8px}}
 table{{border-collapse:collapse;width:100%;max-width:1180px}} th,td{{border:1px solid #232a34;padding:6px 9px;text-align:left;vertical-align:top}}
 th{{background:#10151c;font-size:11px}} code{{font-size:10px;color:#8b949e}}
 .qt{{display:inline-block;background:#16201c;border:1px solid #2a4636;color:#7fd6a8;border-radius:8px;font-size:10px;padding:1px 6px}}
@@ -307,10 +329,24 @@ th{{background:#10151c;font-size:11px}} code{{font-size:10px;color:#8b949e}}
 .hist{{color:#9aa3ad;font-size:10px;margin-top:2px}} .g{{color:#69d98a}} .r{{color:#ff8893}}</style></head><body>
 <h1>📡 HL リアルタイム監視（現在の建玉）</h1>
 <div class="sub">WS={esc(STATE['ws'])} ／ 監視{len(WATCH)}件(通知{sum(1 for w in WATCH.values() if w.get('notify'))}) ／
-通知{STATE['events']} ／ 最終巡回 {time.strftime('%H:%M:%S',time.gmtime(STATE['last_poll'])) if STATE['last_poll'] else '-'}UTC ／ 30秒自動更新
-／ 各ポジションに 初回保有/追加回数/最新追加 を併記。エントリー/クローズ/ドテンはDiscordへ即通知(MM除く)。</div>
+通知{STATE['events']} ／ 最終巡回 {time.strftime('%m-%d %H:%M:%S',time.gmtime(STATE['last_poll'] + JST)) if STATE['last_poll'] else '-'} JST ／ 30秒自動更新
+／ 日時は日本時間(JST)。エントリー/クローズ/ドテンはDiscordへ即通知(MM除く)。</div>
+<div class="fb">
+  <div><span class=gl>区分</span>{posbar}</div>
+  <div><span class=gl>品質</span>{qbar}</div>
+  <div><span class=gl>方向</span>{dbar}<span id=cf>✕ 解除</span><span id=cnt></span></div>
+</div>
 <h2>📊 現在の建玉（{len(held)}件保有）</h2>
-<table><tr><th>区分/品質</th><th>ウォレット</th><th>口座</th><th>建玉（ロング/ショート・含み損益・初回/追加回数/最新追加）</th></tr>{rows or '<tr><td colspan=4>建玉なし</td></tr>'}</table>
+<table id=tbl><tr><th>区分/品質</th><th>ウォレット</th><th>口座</th><th>建玉（ロング/ショート・含み損益・初回/追加回数/最新追加）</th></tr>{rows or '<tr><td colspan=4>建玉なし</td></tr>'}</table>
+<script>
+const sel=new Set(JSON.parse(localStorage.getItem('hlfilt')||'[]'));
+const rows=[...document.querySelectorAll('#tbl tr[data-f]')];
+const cnt=document.getElementById('cnt');
+function apply(){{let s=0;rows.forEach(r=>{{const f=r.getAttribute('data-f');const ok=[...sel].every(t=>f.includes(t));r.style.display=ok?'':'none';if(ok)s++;}});cnt.textContent=sel.size?`絞込: ${{s}}/${{rows.length}}`:'';}}
+document.querySelectorAll('.ft').forEach(c=>{{const t=c.getAttribute('data-t');if(sel.has(t))c.classList.add('on');c.onclick=()=>{{if(sel.has(t)){{sel.delete(t);c.classList.remove('on');}}else{{sel.add(t);c.classList.add('on');}}localStorage.setItem('hlfilt',JSON.stringify([...sel]));apply();}};}});
+document.getElementById('cf').onclick=()=>{{sel.clear();localStorage.removeItem('hlfilt');document.querySelectorAll('.ft.on').forEach(x=>x.classList.remove('on'));apply();}};
+apply();
+</script>
 </body></html>"""
 
 
