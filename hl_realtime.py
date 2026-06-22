@@ -41,6 +41,7 @@ INSIDER_POS = {"弱い疑惑(監視継続)", "インサイダー疑惑(要監視
 WATCH = {}
 POSITIONS = {}
 TRACK = {}   # (addr,coin) -> {net, open_ts, adds, last_ts}
+SEEDED = {}  # addr -> last full-history seed ts(sec)  (プロ/弱い疑惑の建玉履歴を全約定から復元済)
 STATE = {"started": int(time.time()), "ws": "init", "last_poll": 0, "events": 0}
 
 
@@ -72,32 +73,78 @@ def fmt(ts):
     return time.strftime("%m-%d %H:%M", time.gmtime(ts / 1000)) if ts else "—"
 
 
-def update_track(a, f):
-    """WS約定で (addr,coin) の建玉ライフサイクルを更新（昇順で渡すこと）。"""
-    coin, dirv = f.get("coin"), f.get("dir", "")
+def _apply(st, f):
+    """約定1件を建玉状態に適用して新状態を返す（純関数・昇順で適用）。"""
+    dirv = f.get("dir", "")
     try:
         sz = float(f.get("sz", 0) or 0)
     except Exception:
-        return
+        return st
     t = int(f.get("time", 0))
     delta = sz if dirv in ("Open Long", "Close Short") else (-sz if dirv in ("Open Short", "Close Long") else 0)
     if delta == 0:
-        return
-    key = (a, coin)
-    st = TRACK.get(key, {"net": 0.0, "open_ts": None, "adds": 0, "last_ts": None})
+        return st
     net = st["net"]
     new = net + delta
     if abs(net) < 1e-9 and abs(new) > 1e-9:
-        st = {"net": new, "open_ts": t, "adds": 1, "last_ts": t}
-    elif abs(new) < 1e-9:
-        st = {"net": 0.0, "open_ts": None, "adds": 0, "last_ts": None}
-    elif (net > 0) != (new > 0):
-        st = {"net": new, "open_ts": t, "adds": 1, "last_ts": t}
-    elif abs(new) > abs(net):
-        st = {"net": new, "open_ts": st["open_ts"] or t, "adds": st["adds"] + 1, "last_ts": t}
-    else:
-        st["net"] = new
-    TRACK[key] = st
+        return {"net": new, "open_ts": t, "adds": 1, "last_ts": t}
+    if abs(new) < 1e-9:
+        return {"net": 0.0, "open_ts": None, "adds": 0, "last_ts": None}
+    if (net > 0) != (new > 0):
+        return {"net": new, "open_ts": t, "adds": 1, "last_ts": t}
+    if abs(new) > abs(net):
+        return {"net": new, "open_ts": st["open_ts"] or t, "adds": st["adds"] + 1, "last_ts": t}
+    st = dict(st)
+    st["net"] = new
+    return st
+
+
+def update_track(a, f):
+    """WS約定で (addr,coin) の建玉ライフサイクルを更新（昇順で渡すこと）。"""
+    coin = f.get("coin")
+    key = (a, coin)
+    TRACK[key] = _apply(TRACK.get(key, {"net": 0.0, "open_ts": None, "adds": 0, "last_ts": None}), f)
+
+
+async def fetch_fills_full(session, addr, max_pages=60):
+    """userFillsByTime を 0 から前方ページングして全約定を取得（古い建玉の開始点まで遡る）。"""
+    out, cur, now = [], 0, int(time.time() * 1000)
+    for _ in range(max_pages):
+        try:
+            async with session.post(INFO_URL, json={"type": "userFillsByTime", "user": addr,
+                                                    "startTime": cur, "endTime": now},
+                                    timeout=aiohttp.ClientTimeout(total=20)) as r:
+                ch = await r.json()
+        except Exception:
+            break
+        if not ch:
+            break
+        out.extend(ch)
+        if len(ch) < 2000:
+            break
+        last = int(ch[-1]["time"])
+        if last <= cur:
+            break
+        cur = last + 1
+    seen, ded = set(), []
+    for f in out:
+        tid = f.get("tid")
+        if tid in seen:
+            continue
+        seen.add(tid)
+        ded.append(f)
+    return ded
+
+
+def compute_lifecycle(fills):
+    """全約定から現在保有中の各建玉のライフサイクルを復元。coin->state(net>0のみ)。"""
+    fills = sorted(fills, key=lambda f: int(f.get("time", 0)))
+    state = {}
+    for f in fills:
+        coin = f.get("coin")
+        st = state.get(coin, {"net": 0.0, "open_ts": None, "adds": 0, "last_ts": None})
+        state[coin] = _apply(st, f)
+    return {c: s for c, s in state.items() if abs(s["net"]) > 1e-9}
 
 
 def transition(pre_net, post_net):
@@ -188,12 +235,19 @@ async def poll_loop(session):
                                         timeout=aiohttp.ClientTimeout(total=15)) as r:
                     st = await r.json()
                 acct = float(st.get("marginSummary", {}).get("accountValue", 0) or 0)
+                held = [ap.get("position", {}) for ap in st.get("assetPositions", [])
+                        if abs(float(ap.get("position", {}).get("szi", 0) or 0)) >= 1e-9]
+                # プロ/弱い疑惑で建玉履歴が未復元(WS窓より古い建玉)なら全約定から復元
+                w = WATCH.get(a, {})
+                if w.get("notify") and held and (time.time() - SEEDED.get(a, 0) > 3600):
+                    if any(TRACK.get((a, p.get("coin")), {}).get("open_ts") is None for p in held):
+                        lc = compute_lifecycle(await fetch_fills_full(session, a))
+                        for coin, stt in lc.items():
+                            TRACK[(a, coin)] = stt
+                        SEEDED[a] = time.time()
                 ps = []
-                for ap in st.get("assetPositions", []):
-                    p = ap.get("position", {})
+                for p in held:
                     szi = float(p.get("szi", 0) or 0)
-                    if abs(szi) < 1e-9:
-                        continue
                     coin = p.get("coin")
                     tr = TRACK.get((a, coin), {})
                     ps.append({"coin": coin, "long": szi > 0, "notional": round(float(p.get("positionValue", 0) or 0)),
