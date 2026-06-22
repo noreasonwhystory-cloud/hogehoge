@@ -1,0 +1,6 @@
+total_wallets 3281
+wallets_with_builder 1580
+wallets_builder_dominant_pnl(>50%,>10k) 278
+builder_dex_prefixes {'xyz:*': 3908751, 'km:*': 64518, 'cash:*': 196556, 'vntl:*': 70518, 'hyna:*': 71661, 'flx:*': 55824, 'para:*': 1471}
+distinct_builder_coins 166
+top_builder_coins [('xyz:XYZ100', 522176), ('xyz:CL', 504968), ('xyz:SPCX', 290572), ('xyz:BRENTOIL', 239892), ('xyz:SP500', 229788), ('xyz:SILVER', 225084), ('xyz:MU', 221422), ('xyz:SKHX', 166457), ('xyz:NVDA', 162755), ('xyz:GOLD', 132887), ('xyz:SNDK', 105045), ('xyz:INTC', 79662), ('xyz:GOOGL', 73835), ('xyz:TSLA', 70451), ('xyz:CRCL', 68606)]
