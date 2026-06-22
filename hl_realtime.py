@@ -29,6 +29,7 @@ POLL_SEC = int(os.environ.get("POLL_SEC", "60"))
 CLOSES_TTL = int(os.environ.get("CLOSES_TTL", "1800"))        # 直近クローズの再取得間隔(秒)
 CLOSES_PER_CYCLE = int(os.environ.get("CLOSES_PER_CYCLE", "20"))  # 1巡あたりのクローズ取得上限(レート制御)
 SEED_TTL = int(os.environ.get("SEED_TTL", "1800"))            # 建玉ライフサイクルの全履歴再復元間隔(秒)
+SEED_PER_CYCLE = int(os.environ.get("SEED_PER_CYCLE", "8"))   # 1巡あたりの全履歴復元上限(レート制御)
 
 HOOKS = {
     "insider": os.environ.get("HOOK_INSIDER", ""),
@@ -291,6 +292,7 @@ async def ws_loop(session):
 async def poll_loop(session):
     while True:
         closes_budget = CLOSES_PER_CYCLE     # 1巡あたりの直近クローズ再取得上限
+        seed_budget = SEED_PER_CYCLE         # 1巡あたりの全履歴復元上限
         now_s = time.time()
         for a in list(WATCH.keys()):
             try:
@@ -304,7 +306,9 @@ async def poll_loop(session):
                 # WSスナップショットは最古2000件しか種にできず初回/最新追加/最終約定がズレるため、
                 # 全履歴(complete=True)を真実とし上書きする。open_ts有無でゲートしない(=必ず再復元)。
                 w = WATCH.get(a, {})
-                if w.get("notify") and held and (time.time() - SEEDED.get(a, 0) > SEED_TTL):
+                if (w.get("notify") and held and seed_budget > 0
+                        and time.time() - SEEDED.get(a, 0) > SEED_TTL):
+                    seed_budget -= 1
                     full, complete = await fetch_fills_full(session, a)
                     if complete:
                         lc = compute_lifecycle(full)
