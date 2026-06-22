@@ -77,29 +77,36 @@ def fmt(ts):
 
 
 def _apply(st, f):
-    """約定1件を建玉状態に適用して新状態を返す（純関数・昇順で適用）。"""
+    """約定1件を建玉状態に適用して新状態を返す（純関数・昇順で適用）。
+    lol/los = 方向別の最新Open時刻(net再構成に依らずdirで確実に記録)。最新追加表示に使う。"""
     dirv = f.get("dir", "")
     try:
         sz = float(f.get("sz", 0) or 0)
     except Exception:
         return st
     t = int(f.get("time", 0))
+    lol, los = st.get("lol"), st.get("los")
+    if dirv == "Open Long":
+        lol = max(lol or 0, t)
+    elif dirv == "Open Short":
+        los = max(los or 0, t)
     delta = sz if dirv in ("Open Long", "Close Short") else (-sz if dirv in ("Open Short", "Close Long") else 0)
-    if delta == 0:
-        return st
     net = st["net"]
-    new = net + delta
-    if abs(net) < 1e-9 and abs(new) > 1e-9:
-        return {"net": new, "open_ts": t, "adds": 1, "last_ts": t}
-    if abs(new) < 1e-9:
-        return {"net": 0.0, "open_ts": None, "adds": 0, "last_ts": None}
-    if (net > 0) != (new > 0):
-        return {"net": new, "open_ts": t, "adds": 1, "last_ts": t}
-    if abs(new) > abs(net):
-        return {"net": new, "open_ts": st["open_ts"] or t, "adds": st["adds"] + 1, "last_ts": t}
-    st = dict(st)
-    st["net"] = new
-    return st
+    new = net + delta if delta else net
+    if delta and abs(net) < 1e-9 and abs(new) > 1e-9:
+        base = {"net": new, "open_ts": t, "adds": 1, "last_ts": t}
+    elif delta and abs(new) < 1e-9:
+        base = {"net": 0.0, "open_ts": None, "adds": 0, "last_ts": None, "lol": None, "los": None}
+        return base                              # クローズで方向別Openもリセット
+    elif delta and (net > 0) != (new > 0):
+        base = {"net": new, "open_ts": t, "adds": 1, "last_ts": t}
+    elif delta and abs(new) > abs(net):
+        base = {"net": new, "open_ts": st.get("open_ts") or t, "adds": st.get("adds", 0) + 1, "last_ts": t}
+    else:
+        base = dict(st)
+        base["net"] = new
+    base["lol"], base["los"] = lol, los
+    return base
 
 
 def update_track(a, f):
@@ -187,10 +194,11 @@ async def notify_event(session, a, coin, trans, pre_net, post_net, cfills):
         notion = abs(post_net) * px
         st = TRACK.get((a, coin), {})
         verb = "ドテン" if trans == "flip" else "エントリー"
+        last_add = (st.get("lol") if is_long else st.get("los")) or st.get("last_ts")
         title = f"{'🔄' if trans=='flip' else '🟢'} {side} {verb} — {lbl}"
         desc = (f"**{coin} を{('ロング' if is_long else 'ショート')}{verb}**  ${notion:,.0f}\n区分: {pos}"
                 + (f"／質:{q}" if q else "")
-                + f"\n建玉: 初回 {fmt(st.get('open_ts'))} ／ 追加{st.get('adds',1)}回 ／ 最新 {fmt(st.get('last_ts'))}\n`{a}`")
+                + f"\n建玉: 初回 {fmt(st.get('open_ts'))} ／ 追加{st.get('adds',1)}回 ／ 最新 {fmt(last_add)}\n`{a}`")
         color = (0x3fb950 if is_long else 0xff5d6c)
     STATE["events"] += 1
     await discord(session, hook, title, desc, color)
@@ -260,9 +268,10 @@ async def poll_loop(session):
                     szi = float(p.get("szi", 0) or 0)
                     coin = p.get("coin")
                     tr = TRACK.get((a, coin), {})
+                    last_add = (tr.get("lol") if szi > 0 else tr.get("los")) or tr.get("last_ts")
                     ps.append({"coin": coin, "long": szi > 0, "notional": round(float(p.get("positionValue", 0) or 0)),
                                "upnl": round(float(p.get("unrealizedPnl", 0) or 0)), "entry": p.get("entryPx"),
-                               "open_ts": tr.get("open_ts"), "adds": tr.get("adds"), "last_ts": tr.get("last_ts")})
+                               "open_ts": tr.get("open_ts"), "adds": tr.get("adds"), "last_ts": last_add})
                 POSITIONS[a] = {"acct": round(acct), "pos": ps, "t": int(time.time())}
             except Exception:
                 pass
