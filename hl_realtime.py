@@ -86,6 +86,7 @@ def _apply(st, f):
         return st
     t = int(f.get("time", 0))
     lol, los = st.get("lol"), st.get("los")
+    lf = max(st.get("lf") or 0, t)               # 最終約定(売買問わず)
     if dirv == "Open Long":
         lol = max(lol or 0, t)
     elif dirv == "Open Short":
@@ -96,8 +97,8 @@ def _apply(st, f):
     if delta and abs(net) < 1e-9 and abs(new) > 1e-9:
         base = {"net": new, "open_ts": t, "adds": 1, "last_ts": t}
     elif delta and abs(new) < 1e-9:
-        base = {"net": 0.0, "open_ts": None, "adds": 0, "last_ts": None, "lol": None, "los": None}
-        return base                              # クローズで方向別Openもリセット
+        return {"net": 0.0, "open_ts": None, "adds": 0, "last_ts": None,
+                "lol": None, "los": None, "lf": lf}   # クローズで建玉系リセット(最終約定は保持)
     elif delta and (net > 0) != (new > 0):
         base = {"net": new, "open_ts": t, "adds": 1, "last_ts": t}
     elif delta and abs(new) > abs(net):
@@ -105,7 +106,7 @@ def _apply(st, f):
     else:
         base = dict(st)
         base["net"] = new
-    base["lol"], base["los"] = lol, los
+    base["lol"], base["los"], base["lf"] = lol, los, lf
     return base
 
 
@@ -168,7 +169,10 @@ def transition(pre_net, post_net):
         return "close"
     if abs(pre_net) > 1e-9 and abs(post_net) > 1e-9 and (pre_net > 0) != (post_net > 0):
         return "flip"
-    return None      # 追加/一部利確は通知しない（ポジション単位に集約）
+    # 同方向で40%以上縮小＝大幅な部分クローズは通知（単なる追加/小幅利確は通知しない）
+    if abs(pre_net) > 1e-9 and 1e-9 < abs(post_net) <= abs(pre_net) * 0.6:
+        return "reduce"
+    return None
 
 
 async def notify_event(session, a, coin, trans, pre_net, post_net, cfills):
@@ -188,6 +192,16 @@ async def notify_event(session, a, coin, trans, pre_net, post_net, cfills):
         desc = (f"**{coin} の{('ロング' if is_long else 'ショート')}を全クローズ**\n区分: {pos}"
                 + (f"／質:{q}" if q else "") + f"\n決済PnL ${realized:+,.0f}\n`{a}`")
         color = 0x8b949e
+    elif trans == "reduce":
+        is_long = post_net > 0
+        side = "🟩ロング" if is_long else "🟥ショート"
+        realized = sum(float(f.get("closedPnl", 0) or 0) for f in cfills)
+        pct = (1 - abs(post_net) / abs(pre_net)) * 100 if pre_net else 0
+        remain = abs(post_net) * px
+        title = f"🟠 {side} 縮小 {pct:.0f}% — {lbl}"
+        desc = (f"**{coin} の{('ロング' if is_long else 'ショート')}を{pct:.0f}%縮小**（残 ${remain:,.0f}）\n区分: {pos}"
+                + (f"／質:{q}" if q else "") + f"\n決済PnL ${realized:+,.0f}\n`{a}`")
+        color = 0xffb454
     else:
         is_long = post_net > 0
         side = "🟩ロング" if is_long else "🟥ショート"
@@ -271,7 +285,8 @@ async def poll_loop(session):
                     last_add = (tr.get("lol") if szi > 0 else tr.get("los")) or tr.get("last_ts")
                     ps.append({"coin": coin, "long": szi > 0, "notional": round(float(p.get("positionValue", 0) or 0)),
                                "upnl": round(float(p.get("unrealizedPnl", 0) or 0)), "entry": p.get("entryPx"),
-                               "open_ts": tr.get("open_ts"), "adds": tr.get("adds"), "last_ts": last_add})
+                               "open_ts": tr.get("open_ts"), "adds": tr.get("adds"),
+                               "last_ts": last_add, "last_fill": tr.get("lf")})
                 POSITIONS[a] = {"acct": round(acct), "pos": ps, "t": int(time.time())}
             except Exception:
                 pass
@@ -310,7 +325,7 @@ def render_page():
         for p in d["pos"]:
             sd = "🟩ロング" if p["long"] else "🟥ショート"
             hist = (f"<div class=hist>初回 {fmt(p.get('open_ts'))} ／ 追加 {p.get('adds') if p.get('adds') is not None else '—'}回"
-                    f" ／ 最新追加 {fmt(p.get('last_ts'))}</div>") if p.get("open_ts") else "<div class=hist>建玉履歴: WS取得待ち</div>"
+                    f" ／ 最新追加 {fmt(p.get('last_ts'))} ／ 最終約定 {fmt(p.get('last_fill'))}</div>") if p.get("open_ts") else f"<div class=hist>建玉履歴: WS取得待ち ／ 最終約定 {fmt(p.get('last_fill'))}</div>"
             plist += (f"<div class='p {'l' if p['long'] else 's'}'><b>{esc(p['coin'])} {sd}</b> ${p['notional']:,}"
                       f" 含み<span class={'g' if p['upnl']>=0 else 'r'}>{p['upnl']:+,}</span>{hist}</div>")
         rows += (f"<tr data-f=\"{esc(ftok)}\"><td><b style='color:{col}'>{esc(w['position'])}</b><br>{qtag}</td>"
