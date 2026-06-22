@@ -2,14 +2,10 @@
 
 監視対象(プロ/MM/弱い疑惑)のポジション エントリー/クローズを HL WebSocket で即検知し、
 カテゴリ別の Discord チャンネルへ通知。現在の建玉は定期ポーリングしてライブページ(:PORT)で確認。
+WS約定ストリームから各建玉のライフサイクル(最初に持った日時/追加回数/最新追加日時)も追跡する。
 
-通知ルーティング(env):
- HOOK_INSIDER … 弱い疑惑/インサイダー/出金疑い
- HOOK_ELITE/SOLID/MID/MURA/THIN/ALT … wf_quality(エリート/堅実/中堅/ムラあり/履歴薄/alt主体)別
-通知方針:
- - 本物/alt主体プロ・弱い疑惑 … WS userFills を購読し Open/Close を即通知(方向ロング/ショート明示)
- - 高頻度MM … 約定膨大ゆえ毎fill通知せず、ポーリングで大口ポジ変動(>MM_NOTIFY_MIN)のみ通知
-
+通知ルーティング(env): HOOK_INSIDER / HOOK_ELITE / HOOK_SOLID / HOOK_MID / HOOK_MURA / HOOK_THIN / HOOK_ALT
+通知方針: 本物/alt/弱い疑惑=WS userFillsでOpen/Close即通知(方向明示) ／ MM=大口ポジ変動(>MM_NOTIFY_MIN)のみ
 その他env: WATCH_PATH / PORT / POLL_SEC / MM_NOTIFY_MIN
 """
 import os
@@ -25,12 +21,12 @@ from aiohttp import web
 
 WS_URL = "wss://api.hyperliquid.xyz/ws"
 INFO_URL = "https://api.hyperliquid.xyz/info"
+ASXN = "https://hyperscreener.asxn.xyz/profile/{a}"
 WATCH_PATH = os.environ.get("WATCH_PATH", os.path.join(os.path.dirname(__file__), "data", "watch_addresses.json"))
 PORT = int(os.environ.get("PORT", "8080"))
 POLL_SEC = int(os.environ.get("POLL_SEC", "60"))
 MM_NOTIFY_MIN = float(os.environ.get("MM_NOTIFY_MIN", "500000"))
 
-# カテゴリ別 Discord webhook
 HOOKS = {
     "insider": os.environ.get("HOOK_INSIDER", ""),
     "エリート": os.environ.get("HOOK_ELITE", ""),
@@ -46,6 +42,7 @@ WATCH = {}
 POSITIONS = {}
 FEED = []
 PREV = {}
+TRACK = {}   # (addr,coin) -> {net, open_ts, adds, last_ts}  建玉ライフサイクル(WS約定から)
 STATE = {"started": int(time.time()), "ws": "init", "last_poll": 0, "events": 0}
 
 
@@ -58,7 +55,6 @@ def load_watch():
 
 
 def hook_for(w):
-    """ウォレットの分類から通知先チャンネルを決める。"""
     if w.get("position") in INSIDER_POS:
         return HOOKS.get("insider")
     return HOOKS.get(w.get("wf_quality"))
@@ -80,16 +76,39 @@ def label_of(a):
 
 
 def side_jp(dirv):
-    """dir(例 'Open Long'/'Close Short')→ (アクション, 方向, 絵文字, 色)。"""
     action = "エントリー" if dirv.startswith("Open") else "クローズ"
     is_long = "Long" in dirv
-    side = "🟩ロング" if is_long else "🟥ショート"
-    # 色: エントリー=方向色 / クローズ=灰
-    if action == "エントリー":
-        color = 0x3fb950 if is_long else 0xff5d6c
-    else:
-        color = 0x8b949e
-    return action, side, color
+    color = (0x3fb950 if is_long else 0xff5d6c) if action == "エントリー" else 0x8b949e
+    return action, is_long, color
+
+
+def update_track(a, f):
+    """WS約定で (addr,coin) の建玉ライフサイクルを更新。fillは時系列昇順で渡すこと。"""
+    coin = f.get("coin")
+    dirv = f.get("dir", "")
+    try:
+        sz = float(f.get("sz", 0) or 0)
+    except Exception:
+        return
+    t = int(f.get("time", 0))
+    delta = sz if dirv in ("Open Long", "Close Short") else (-sz if dirv in ("Open Short", "Close Long") else 0)
+    if delta == 0:
+        return
+    key = (a, coin)
+    st = TRACK.get(key, {"net": 0.0, "open_ts": None, "adds": 0, "last_ts": None})
+    net = st["net"]
+    new = net + delta
+    if abs(net) < 1e-9 and abs(new) > 1e-9:                       # 新規オープン
+        st = {"net": new, "open_ts": t, "adds": 1, "last_ts": t}
+    elif abs(new) < 1e-9:                                          # クローズ
+        st = {"net": 0.0, "open_ts": None, "adds": 0, "last_ts": None}
+    elif (net > 0) != (new > 0):                                   # ドテン
+        st = {"net": new, "open_ts": t, "adds": 1, "last_ts": t}
+    elif abs(new) > abs(net):                                      # 同方向に追加
+        st = {"net": new, "open_ts": st["open_ts"] or t, "adds": st["adds"] + 1, "last_ts": t}
+    else:                                                          # 一部利確(縮小)
+        st["net"] = new
+    TRACK[key] = st
 
 
 async def emit_fill(session, a, f):
@@ -104,15 +123,19 @@ async def emit_fill(session, a, f):
     coin, sz, px = f.get("coin"), f.get("sz"), f.get("px")
     pnl = float(f.get("closedPnl", 0) or 0)
     notion = abs(float(sz or 0) * float(px or 0))
-    action, side, color = side_jp(dirv)
-    is_long = "Long" in dirv
+    action, is_long, color = side_jp(dirv)
+    side = "🟩ロング" if is_long else "🟥ショート"
+    st = TRACK.get((a, coin), {})
+    hist = ""
+    if st.get("open_ts"):
+        hist = f"\n建玉: 初回 {fmt(st['open_ts'])} ／ 追加{st.get('adds',1)}回 ／ 最新追加 {fmt(st.get('last_ts'))}"
     title = f"{'🟢' if action=='エントリー' else '🔴'} {side} {action} — {lbl}"
-    desc = (f"**{coin} を {side.replace('🟩','').replace('🟥','')} {action}**  ${notion:,.0f}\n"
-            f"区分: {pos}\nsz {sz} @ {px}"
-            + (f"  決済PnL ${pnl:+,.0f}" if abs(pnl) > 1e-9 else "") + f"\n`{a}`")
+    desc = (f"**{coin} を {('ロング' if is_long else 'ショート')} {action}**  ${notion:,.0f}\n"
+            f"区分: {pos}" + (f"／質:{w.get('wf_quality')}" if w.get('wf_quality') else "")
+            + f"\nsz {sz} @ {px}" + (f"  決済PnL ${pnl:+,.0f}" if abs(pnl) > 1e-9 else "")
+            + hist + f"\n`{a}`")
     FEED.insert(0, {"t": int(f.get("time", 0)), "label": lbl, "pos": pos, "action": action,
-                    "side": "ロング" if is_long else "ショート", "long": is_long,
-                    "coin": coin, "notion": round(notion), "pnl": round(pnl)})
+                    "long": is_long, "coin": coin, "notion": round(notion), "pnl": round(pnl)})
     del FEED[300:]
     STATE["events"] += 1
     await discord(session, hook, title, desc, color)
@@ -133,10 +156,12 @@ async def ws_loop(session):
                         continue
                     d = m.get("data", {})
                     a = (d.get("user") or "").lower()
-                    if d.get("isSnapshot"):
-                        continue
-                    for f in d.get("fills", []):
-                        await emit_fill(session, a, f)
+                    fills = sorted(d.get("fills", []), key=lambda f: int(f.get("time", 0)))  # 昇順
+                    snap = d.get("isSnapshot")
+                    for f in fills:
+                        update_track(a, f)          # 建玉ライフサイクルは snapshot も含めて反映
+                        if not snap:
+                            await emit_fill(session, a, f)
         except Exception as e:
             STATE["ws"] = f"reconnecting: {type(e).__name__}"
             await asyncio.sleep(5)
@@ -158,8 +183,10 @@ async def poll_loop(session):
                         continue
                     notion = float(p.get("positionValue", 0) or 0)
                     coin = p.get("coin")
+                    tr = TRACK.get((a, coin), {})
                     ps.append({"coin": coin, "long": szi > 0, "notional": round(notion),
-                               "upnl": round(float(p.get("unrealizedPnl", 0) or 0)), "entry": p.get("entryPx")})
+                               "upnl": round(float(p.get("unrealizedPnl", 0) or 0)), "entry": p.get("entryPx"),
+                               "open_ts": tr.get("open_ts"), "adds": tr.get("adds"), "last_ts": tr.get("last_ts")})
                     cur[coin] = notion if szi > 0 else -notion
                 POSITIONS[a] = {"acct": round(acct), "pos": ps, "t": int(time.time())}
                 w = WATCH.get(a, {})
@@ -183,6 +210,10 @@ def esc(x):
     return html.escape(str(x)) if x is not None else ""
 
 
+def fmt(ts):
+    return time.strftime("%m-%d %H:%M", time.gmtime(ts / 1000)) if ts else "—"
+
+
 PCOL = {"プロトレーダー(本物)": "#3fb950", "alt主体プロ": "#56b6c2", "高頻度MM": "#a78bfa",
         "弱い疑惑(監視継続)": "#ffb454", "💸 出金疑い(要監視)": "#f59e0b", "インサイダー疑惑(要監視)": "#ff5d6c"}
 
@@ -197,13 +228,20 @@ def render_page():
     for a, d in held:
         w = WATCH[a]
         col = PCOL.get(w["position"], "#8b949e")
-        pos_html = " ".join(
-            f"<span class='p {'l' if p['long'] else 's'}'>{esc(p['coin'])} {'🟩ロング' if p['long'] else '🟥ショート'} ${p['notional']:,}"
-            f"(<span class={'g' if p['upnl']>=0 else 'r'}>{p['upnl']:+,}</span>)</span>" for p in d["pos"])
-        rows += (f"<tr><td><b style='color:{col}'>{esc(w['position'])}</b>"
-                 + (f"<br><span class=mut>質:{esc(w.get('wf_quality'))}</span>" if w.get('wf_quality') else "")
-                 + f"</td><td>{esc(w['label'])}<br><code>{esc(a[:14])}…</code></td>"
-                 f"<td>${d['acct']:,}</td><td>{pos_html}</td></tr>")
+        q = w.get("wf_quality")
+        qtag = f"<span class=qt>質:{esc(q)}</span>" if q else ""
+        plist = ""
+        for p in d["pos"]:
+            sd = "🟩ロング" if p["long"] else "🟥ショート"
+            hist = (f"<div class=hist>初回 {fmt(p.get('open_ts'))} ／ 追加 {p.get('adds') if p.get('adds') is not None else '—'}回"
+                    f" ／ 最新追加 {fmt(p.get('last_ts'))}</div>") if p.get("open_ts") else "<div class=hist>履歴: WS取得待ち</div>"
+            plist += (f"<div class='p {'l' if p['long'] else 's'}'>{esc(p['coin'])} {sd} ${p['notional']:,}"
+                      f"(<span class={'g' if p['upnl']>=0 else 'r'}>{p['upnl']:+,}</span>){hist}</div>")
+        rows += (f"<tr><td><b style='color:{col}'>{esc(w['position'])}</b><br>{qtag}</td>"
+                 f"<td>{esc(w['label'])}<br><code>{esc(a[:14])}…</code>"
+                 f"<div class=lnk><a href='{ASXN.format(a=a)}' target=_blank>ASXN</a> "
+                 f"<a href='https://app.hyperliquid.xyz/explorer/address/{a}' target=_blank>HL</a></div></td>"
+                 f"<td>${d['acct']:,}</td><td>{plist}</td></tr>")
     feed = ""
     for e in FEED[:60]:
         em = "🟢" if e["action"] == "エントリー" else "🔴"
@@ -217,17 +255,19 @@ def render_page():
 body{{font-family:system-ui,sans-serif;background:#0e1116;color:#e6edf3;margin:0;padding:20px;font-size:13px}}
 h1{{font-size:19px;margin:0 0 4px}} h2{{font-size:15px;margin:20px 0 8px;color:#cbd5e1}}
 .sub{{color:#8b949e;font-size:12px;margin-bottom:12px}}
-table{{border-collapse:collapse;width:100%;max-width:1100px}} th,td{{border:1px solid #232a34;padding:6px 9px;text-align:left;vertical-align:top}}
-th{{background:#10151c;font-size:11px}} code{{font-size:10px;color:#8b949e}} .mut{{color:#8b949e;font-size:10px}}
-.p{{display:inline-block;border-radius:8px;padding:1px 7px;margin:1px;font-size:11px}} .p.l{{background:#0f2a1a}} .p.s{{background:#2a1015}}
-.g{{color:#69d98a}} .r{{color:#ff8893}}</style></head><body>
+table{{border-collapse:collapse;width:100%;max-width:1180px}} th,td{{border:1px solid #232a34;padding:6px 9px;text-align:left;vertical-align:top}}
+th{{background:#10151c;font-size:11px}} code{{font-size:10px;color:#8b949e}}
+.qt{{display:inline-block;background:#16201c;border:1px solid #2a4636;color:#7fd6a8;border-radius:8px;font-size:10px;padding:1px 6px}}
+.lnk a{{color:#4ea1ff;text-decoration:none;font-size:10px;margin-right:6px}}
+.p{{border-radius:8px;padding:3px 7px;margin:2px 0;font-size:11px}} .p.l{{background:#0f2a1a}} .p.s{{background:#2a1015}}
+.hist{{color:#9aa3ad;font-size:10px;margin-top:2px}} .g{{color:#69d98a}} .r{{color:#ff8893}}</style></head><body>
 <h1>📡 HL リアルタイム監視（現在ポジション）</h1>
 <div class="sub">WS={esc(STATE['ws'])} ／ 監視{len(WATCH)}件(通知{sum(1 for w in WATCH.values() if w.get('notify'))}) ／
 通知{STATE['events']} ／ 最終巡回 {time.strftime('%H:%M:%S',time.gmtime(STATE['last_poll'])) if STATE['last_poll'] else '-'}UTC ／ 30秒自動更新</div>
 <h2>🔔 最近のエントリー/クローズ（直近60）</h2>
 <table><tr><th>時刻</th><th>ウォレット</th><th>方向/動作</th><th>銘柄</th><th>規模</th><th>決済PnL</th></tr>{feed or '<tr><td colspan=6>まだイベントなし(WS購読中)</td></tr>'}</table>
-<h2>📊 現在の建玉（{len(held)}件が保有中・ロング/ショート明示）</h2>
-<table><tr><th>区分</th><th>ウォレット</th><th>口座</th><th>建玉(含み損益)</th></tr>{rows or '<tr><td colspan=4>建玉なし</td></tr>'}</table>
+<h2>📊 現在の建玉（{len(held)}件保有・品質/ASXN/建玉履歴つき）</h2>
+<table><tr><th>区分/品質</th><th>ウォレット</th><th>口座</th><th>建玉(含み損益・初回/追加回数/最新追加)</th></tr>{rows or '<tr><td colspan=4>建玉なし</td></tr>'}</table>
 </body></html>"""
 
 
@@ -250,7 +290,7 @@ async def main():
         await runner.setup()
         await web.TCPSite(runner, "0.0.0.0", PORT).start()
         await discord(session, HOOKS.get("insider"), "🚀 HLリアルタイム監視 起動",
-                      f"監視{len(WATCH)}件 / 通知対象{sum(1 for w in WATCH.values() if w.get('notify'))}件 / ロング・ショート明示・カテゴリ別通知", 0x4ea1ff)
+                      f"監視{len(WATCH)}件 / 通知{sum(1 for w in WATCH.values() if w.get('notify'))}件 / 品質タグ・ASXN・建玉履歴・カテゴリ別通知", 0x4ea1ff)
         print(f"started: watch={len(WATCH)} port={PORT}")
         await asyncio.gather(ws_loop(session), poll_loop(session))
 

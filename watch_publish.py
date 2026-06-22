@@ -23,7 +23,7 @@ def main():
         labels = e.get("labels") or []
         label = (labels[0] if labels else "") or pos
         out.append({"address": k, "label": str(label)[:40], "position": pos,
-                    "notify": pos in NOTIFY})
+                    "wf_quality": e.get("wf_quality"), "notify": pos in NOTIFY})
     out.sort(key=lambda w: (not w["notify"], w["position"]))
     json.dump(out, open(f"{config.DATA_DIR}/watch_addresses.json", "w", encoding="utf-8"),
               ensure_ascii=False, indent=2)
