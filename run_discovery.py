@@ -1,11 +1,11 @@
-"""Task Scheduler / cron 用ランナー: 自動発掘(決定的部分)を実行し、結果をGitHub Pagesへpushする。
+"""Task Scheduler / cron / GCP CE 用ランナー: 自動発掘(決定的部分)を実行し GitHub Pages へ push する。
 
-Claude不要・完全headless・無料。新規アドレスの発掘→既存基準で分類(MM/本物/alt/除外)→台帳化→再描画→push。
+Claude不要・headless・無料。git pull(最新台帳取得)→新規発掘→分類→台帳追記→watch_publish→再描画→push。
 欺瞞候補(要精査)は data/discovery_flagged.json に貯まり、後でworkflow裁定する(Claude起動時)。
 
 使い方: python run_discovery.py [--min 500000] [--cap 150]
-Windowsタスクスケジューラ例(毎週月曜09:07):
-  schtasks /create /tn "hl-discovery" /sc weekly /d MON /st 09:07 /tr "python C:\\...\\nansen\\run_discovery.py"
+GCP CE で日本時間0時(=UTC15:00)に実行する cron 例:
+  0 15 * * * cd ~/repo && /usr/bin/python3 run_discovery.py --min 500000 --cap 150 >> ~/discovery.log 2>&1
 """
 import sys
 import subprocess
@@ -13,15 +13,28 @@ from datetime import datetime, timezone
 
 import config
 
+HERE = config.HERE
+
+
+def git(*args):
+    return subprocess.run(["git", *args], cwd=HERE)
+
 
 def main():
     extra = sys.argv[1:]
-    subprocess.run([sys.executable, "discover_and_classify.py", *extra], cwd=config.HERE)
+    # 最新の台帳を取得してから発掘（複数環境からの編集と協調）
+    git("pull", "--rebase", "--autostash", "origin", "main")
+    subprocess.run([sys.executable, "discover_and_classify.py", *extra], cwd=HERE)
+    # 監視リストも最新化（リアルタイム監視デーモンが次回読込で拾えるよう）
+    subprocess.run([sys.executable, "watch_publish.py"], cwd=HERE)
     ts = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M")
-    subprocess.run(["git", "add", "-A"], cwd=config.HERE)
-    r = subprocess.run(["git", "commit", "-q", "-m", f"chore: 自動発掘サイクル {ts}UTC [skip ci]"], cwd=config.HERE)
+    git("add", "-A")
+    r = git("commit", "-q", "-m", f"chore: 自動発掘サイクル {ts}UTC [skip ci]")
     if r.returncode == 0:
-        subprocess.run(["git", "push", "-q"], cwd=config.HERE)
+        # 競合時は一度だけ rebase してから再push
+        if git("push", "-q").returncode != 0:
+            git("pull", "--rebase", "--autostash", "origin", "main")
+            git("push", "-q")
         print("push完了")
     else:
         print("新規追加なし(commitなし)")
