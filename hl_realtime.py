@@ -34,8 +34,8 @@ WATCH_PATH = os.environ.get("WATCH_PATH", os.path.join(os.path.dirname(__file__)
 PORT = int(os.environ.get("PORT", "8080"))
 POLL_SEC = int(os.environ.get("POLL_SEC", "60"))
 LIFE_TTL = int(os.environ.get("LIFE_TTL", "900"))            # ライフサイクル/クローズの再取得間隔(秒)
-LIFE_PER_CYCLE = int(os.environ.get("LIFE_PER_CYCLE", "10"))  # 1巡あたりのuserFills取得上限(レート制御)
-MM_LEARN_PER_CYCLE = int(os.environ.get("MM_LEARN_PER_CYCLE", "5"))  # 非notify(MM)のdex一回学習の1巡上限
+LIFE_PER_CYCLE = int(os.environ.get("LIFE_PER_CYCLE", "16"))  # 1巡あたりのuserFills取得上限(レート制御)
+MM_LEARN_PER_CYCLE = int(os.environ.get("MM_LEARN_PER_CYCLE", "14"))  # 非notify(MM)のdex一回学習の1巡上限
 
 HOOKS = {
     "insider": os.environ.get("HOOK_INSIDER", ""),
@@ -57,6 +57,27 @@ LIFE_FETCH = {}   # addr -> 最後にuserFillsでLIFE/CLOSESを更新したts(se
 WALLET_DEXS = {}  # addr -> set(builder perp dex接頭辞)  HIP-3ビルダーperp(例 xyz:SPCX)の建玉照会用
 LAST_EVT = {}     # (addr,coin) -> 最後に通知したts(sec)  WS/poll間のclose二重通知防止
 STATE = {"started": int(time.time()), "ws": "init", "last_poll": 0, "events": 0}
+
+DEX_STORE = os.path.join(os.path.dirname(__file__), "data", "wallet_dexs.json")  # 学習済dexの永続化(再起動で消えない)
+
+
+def load_dexs():
+    """前回までに学習した使用dexを読み込む。再起動直後でも建玉あり/なしを即断定でき『取得中』の氾濫を防ぐ。"""
+    try:
+        d = json.load(open(DEX_STORE, encoding="utf-8"))
+        for a, dx in d.items():
+            WALLET_DEXS[a] = set(dx or [])
+    except Exception:
+        pass
+
+
+def save_dexs():
+    try:
+        os.makedirs(os.path.dirname(DEX_STORE), exist_ok=True)
+        json.dump({a: sorted(dx) for a, dx in WALLET_DEXS.items()},
+                  open(DEX_STORE, "w", encoding="utf-8"), ensure_ascii=False)
+    except Exception:
+        pass
 
 
 def load_watch():
@@ -307,8 +328,8 @@ async def poll_loop(session):
                 if w.get("notify") and life_budget > 0 and now_s - LIFE_FETCH.get(a, 0) > LIFE_TTL:
                     do_uf = True
                     life_budget -= 1
-                elif (not w.get("notify")) and a not in LIFE_FETCH and learn_budget > 0:
-                    do_uf = True            # MMは初回のみdex学習(ビルダー建玉を表示に乗せる)
+                elif (not w.get("notify")) and a not in WALLET_DEXS and learn_budget > 0:
+                    do_uf = True            # MMは未学習(永続化にも無い)の時だけdex学習(ビルダー建玉を表示に乗せる)
                     learn_budget -= 1
                 if do_uf:
                     try:
@@ -330,8 +351,8 @@ async def poll_loop(session):
                     except Exception:
                         pass
                     await asyncio.sleep(0.05)
-                # 初回userFills取得(=dex学習)まで「建玉ゼロ」を断定できない(ビルダー建玉未確認)
-                dex_checked = a in LIFE_FETCH
+                # dex学習済(今回 or 永続化ロード)なら建玉ゼロを断定可。未学習のみ「取得中」表示。
+                dex_checked = a in WALLET_DEXS
                 POSITIONS[a] = {"acct": round(acct), "pos": ps, "t": int(time.time()), "dex_checked": dex_checked}
                 # szi差分: 建玉の消滅/反転を検知(fills無きADL/清算の安全網)。WS直近通知が無ければclose通知。
                 prev_coins = {c: v for (aa, c), v in PREV_SZI.items() if aa == a}
@@ -361,6 +382,7 @@ async def poll_loop(session):
                 pass   # last-known-good: 一時失敗で POSITIONS を消さない(tも更新しない=鮮度で古さが見える)
             await asyncio.sleep(0.12)
         STATE["last_poll"] = int(time.time())
+        save_dexs()      # 学習済dexを永続化(再起動で「取得中」が氾濫しないように)
         await asyncio.sleep(POLL_SEC)
 
 
@@ -527,6 +549,7 @@ async def handle_health(request):
 async def main():
     global WATCH
     WATCH = load_watch()
+    load_dexs()          # 学習済dexを復元→再起動直後でも建玉あり/なしを即断定
     async with aiohttp.ClientSession() as session:
         app = web.Application()
         app.router.add_get("/", handle_index)

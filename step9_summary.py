@@ -167,19 +167,20 @@ a{{color:#4ea1ff}} ul{{margin:6px 0;padding-left:20px}} li{{margin-bottom:5px}}
 </div>
 <table style="max-width:380px"><tr><th style="text-align:left">カテゴリ</th><th>件数</th></tr>{dist_rows}</table>
 
-<div class="box" style="border:1px solid #f0a020;background:#251c0a">
-<b class="big" style="color:#f0a020">⚠ 重要な限界（2026-06-22 perp取得監査で判明・再検証中）</b><br>
-本ページの「方向先読み（往復/的中率/完璧エントリ）」系の結論は <b>majors(BTC/ETH/SOL)に限定</b>して算出されていた。
-HLには複数のperp DEX（メイン＋ビルダー配備 xyz/flx/vntl 等）があり、<b>個別株perp(NVDA/TSLA等)・プレIPO perp(OPENAI/ANTHROPIC等)＝情報優位が最も出やすい新興/薄商い銘柄</b>を、
-これら7系統は<b class="r">一度も方向先読みで走査していなかった</b>（約定キャッシュには全dexのfillが蓄積済だが下流がmajorsで足切り）。
-よって下記「確証ゼロ」は<b>「majors範囲では未検出」までが妥当で、全perpを含めた全体結論は未確定</b>。現在ビルダーperpを含めて再走査中。
-（規模・PnL系の分類分布は全perp実現益ベースで概ね妥当。）
+<div class="box" style="border:1px solid #3fb950;background:#0c1f14">
+<b class="big" style="color:#3fb950">✅ ビルダーperp再走査 完了（2026-06-22 perp取得監査→拡張裁定）</b><br>
+当初この結論は <b>majors(BTC/ETH/SOL)限定</b>で、HLのビルダー配備perp（個別株NVDA/TSLA・半導体AMD/AVGO/MU・プレIPO SPCX/SPACEX・商品等＝情報優位が最も出やすい新興/薄商い銘柄）を走査していなかった。
+そこで全perpのfillを通し、<b>ビルダーperpで黒字×往復選別性のある24候補を majors と同じ厳格往復＋敵対裁定</b>で精査した結果——
+<b class="r">確証ある個人インサイダーは builder でも検出されず</b>（24件全件が 高頻度MM9／セクターβ5／薄商いN=1=7／トレンド保有3 へ収束、insider 認定ゼロ）。
+むしろ薄商いperpは <b>一方向スクイーズ(SPCX等のN=1)・IPO/セクターβ・商品マクロ</b>で majors より偽陽性を生みやすいことが実証された。
+（「builder実現益」と見えた額の多くは実は HYPE/ZEC/ETH 等 majors の誤帰属だった。）
+→ <b>全perp(majors+builder)を含めても個人インサイダー未検出で確定</b>。要監視は 0x74fc5e…c939 の1件のみ（低優先・差分監視）。
 </div>
 
-<h2>2. 核心：majors(BTC/ETH/SOL)範囲では確証ある個人インサイダーはゼロ（全体は再検証中）</h2>
+<h2>2. 核心：全perp(majors＋ビルダー株/IPO含む)で確証ある個人インサイダーはゼロに収束</h2>
 <div class="box no">
-<b class="big">majors を見る7系統（往復・反復／6定義／複数地平線／欺瞞8軸）は同じ結論に収束した。</b>
-<span style="color:#f0a020">※ただし7系統とも走査対象が majors に限定されていたため、これは「独立7検証」ではなく<b>同一の銘柄スコープを共有</b>していた点に留意（上記限界）。</span><br>
+<b class="big">majors を見る7系統（往復・反復／6定義／複数地平線／欺瞞8軸）＋ビルダーperp拡張裁定が、同じ結論に収束した。</b>
+<span style="color:#8b949e">※ 当初7系統は majors スコープを共有していたが、上記の通りビルダーperp(株/IPO/半導体)も別途厳格裁定し同結論を確認済。</span><br>
 「急変前に大口で建てた（先行）」と出たウォレットを精査すると<b class="r">ことごとく N=1（1注文の分割約定）</b>に化け、別イベントで反復して当てる本物の挙動は majors では<b>ゼロ</b>。
 旧疑惑10件も別視点workflowで<b class="r">全件 debunked（本物確度0.05〜0.08）</b>。
 🔴インサイダー疑惑 {n_ins}件・確証インサイダー（majors範囲）<b>ゼロ</b>。残るのは断定しない監視対象のみ。

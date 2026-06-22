@@ -16,3 +16,8 @@ data/*.log
 Thumbs.db
 data/fills/
 data/monitor_state.json
+data/candles/
+data/wallet_dexs.json
+data/builder_adjudicate.json
+data/builder_shortlist.json
+data/insider_multihorizon_allperp.json
