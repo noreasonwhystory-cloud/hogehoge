@@ -46110,7 +46110,3449 @@
         "取引なし(14d)"
       ],
       "notes_jp": "【現在の分類: 🔵alt主体プロ / 質:alt主体 / majors実現$0 / 最終取引2025-05-24】\n【自動発掘(2026-06-21)】HLリーダーボード(allTime $37,139,700)から発掘し既存基準で分類。回転159closes/月・黒字月率100%・履歴1ヶ月。"
+    },
+    "0xbde2ddc49a2e6827300faa6afc93d572114a60b1": {
+      "address": "0xbde2ddc49a2e6827300faa6afc93d572114a60b1",
+      "first_seen": "2026-06-22",
+      "last_seen": "2026-06-22",
+      "times_seen": 1,
+      "position": "プロトレーダー(本物)",
+      "wf_quality": "中堅",
+      "metric_category": "auto_discovered",
+      "tags": [
+        "欺瞞候補:要精査",
+        "自動発掘(2026-06-22)"
+      ],
+      "mm_cpm": null,
+      "roi_alltime": 43.3280616195,
+      "lb_alltime": 97508581,
+      "true_realized_all": 1728118,
+      "true_realized_maj": 796659,
+      "n_closes": 1801,
+      "current": {
+        "win_rate": null,
+        "total_pnl": 796659,
+        "dir_accuracy": null,
+        "metric_category": "auto_discovered"
+      },
+      "active_from": "2025-01-28",
+      "active_to": "2025-11-14",
+      "active14": false,
+      "n_fills_14d": 0,
+      "n_fills_14d_maj": 0,
+      "history": [],
+      "auto_tags": [
+        "PnL:大($1-10M)",
+        "頻度:多(500+)",
+        "銘柄:マルチ",
+        "取引なし(14d)"
+      ],
+      "notes_jp": "【現在の分類: 🟢プロ(本物) / 質:中堅 / majors実現$796,659 / 最終取引2025-11-14】\n【自動発掘(2026-06-22)】HLリーダーボード(allTime $97,508,581)から発掘し既存基準で分類。回転360closes/月・黒字月率80%・履歴5ヶ月。欺瞞8軸該当: C_dormant_burst,H_deliberate_dip→要精査。"
+    },
+    "0xa312114b5795dff9b8db50474dd57701aa78ad1e": {
+      "address": "0xa312114b5795dff9b8db50474dd57701aa78ad1e",
+      "first_seen": "2026-06-22",
+      "last_seen": "2026-06-22",
+      "times_seen": 1,
+      "position": "高頻度MM",
+      "wf_quality": "履歴薄/評価不能",
+      "metric_category": "auto_discovered",
+      "tags": [
+        "HFT:高速(3k-10k/月)",
+        "欺瞞候補:要精査",
+        "自動発掘(2026-06-22)"
+      ],
+      "mm_cpm": 7865,
+      "roi_alltime": 3.341212321,
+      "lb_alltime": 95916160,
+      "true_realized_all": 259115,
+      "true_realized_maj": 0,
+      "n_closes": 7865,
+      "current": {
+        "win_rate": null,
+        "total_pnl": 0,
+        "dir_accuracy": null,
+        "metric_category": "auto_discovered"
+      },
+      "active_from": "2026-06-18",
+      "active_to": "2026-06-22",
+      "active14": true,
+      "n_fills_14d": 17373,
+      "n_fills_14d_maj": 0,
+      "history": [],
+      "auto_tags": [
+        "PnL:中($100k-1M)",
+        "頻度:HFT(>3000)",
+        "銘柄:マルチ",
+        "取引あり(14d)"
+      ],
+      "notes_jp": "【現在の分類: 🟣高頻度MM / 質:履歴薄/評価不能 / majors実現$0 / 最終取引2026-06-22】\n【自動発掘(2026-06-22)】HLリーダーボード(allTime $95,916,160)から発掘し既存基準で分類。回転7865closes/月・黒字月率100%・履歴1ヶ月。欺瞞8軸該当: H_deliberate_dip→要精査。"
+    },
+    "0x56498e5f90c14060499b62b6f459b3e3fb9280c5": {
+      "address": "0x56498e5f90c14060499b62b6f459b3e3fb9280c5",
+      "first_seen": "2026-06-22",
+      "last_seen": "2026-06-22",
+      "times_seen": 1,
+      "position": "高頻度MM",
+      "wf_quality": "ムラあり",
+      "metric_category": "auto_discovered",
+      "tags": [
+        "HFT:高速(3k-10k/月)",
+        "欺瞞候補:要精査",
+        "自動発掘(2026-06-22)"
+      ],
+      "mm_cpm": 3167,
+      "roi_alltime": 8.5925728568,
+      "lb_alltime": 38668733,
+      "true_realized_all": -417208,
+      "true_realized_maj": 839276,
+      "n_closes": 12668,
+      "current": {
+        "win_rate": null,
+        "total_pnl": 839276,
+        "dir_accuracy": null,
+        "metric_category": "auto_discovered"
+      },
+      "active_from": "2025-08-31",
+      "active_to": "2025-11-14",
+      "active14": false,
+      "n_fills_14d": 0,
+      "n_fills_14d_maj": 0,
+      "history": [],
+      "auto_tags": [
+        "PnL:赤字",
+        "頻度:HFT(>3000)",
+        "銘柄:マルチ",
+        "取引なし(14d)"
+      ],
+      "notes_jp": "【現在の分類: 🟣高頻度MM / 質:ムラあり / majors実現$839,276 / 最終取引2025-11-14】\n【自動発掘(2026-06-22)】HLリーダーボード(allTime $38,668,733)から発掘し既存基準で分類。回転3167closes/月・黒字月率0%・履歴4ヶ月。欺瞞8軸該当: D_controlled_loss→要精査。"
+    },
+    "0x856c35038594767646266bc7fd68dc26480e910d": {
+      "address": "0x856c35038594767646266bc7fd68dc26480e910d",
+      "first_seen": "2026-06-22",
+      "last_seen": "2026-06-22",
+      "times_seen": 1,
+      "position": "高頻度MM",
+      "wf_quality": "履歴薄/評価不能",
+      "metric_category": "auto_discovered",
+      "tags": [
+        "HFT:超高速(10k+/月)",
+        "自動発掘(2026-06-22)"
+      ],
+      "mm_cpm": 11136,
+      "roi_alltime": 0.5030104542,
+      "lb_alltime": 36803333,
+      "true_realized_all": -812055,
+      "true_realized_maj": 0,
+      "n_closes": 11136,
+      "current": {
+        "win_rate": null,
+        "total_pnl": 0,
+        "dir_accuracy": null,
+        "metric_category": "auto_discovered"
+      },
+      "active_from": "2026-06-13",
+      "active_to": "2026-06-21",
+      "active14": true,
+      "n_fills_14d": 14047,
+      "n_fills_14d_maj": 0,
+      "history": [],
+      "auto_tags": [
+        "PnL:赤字",
+        "頻度:HFT(>3000)",
+        "銘柄:マルチ",
+        "取引あり(14d)"
+      ],
+      "notes_jp": "【現在の分類: 🟣高頻度MM / 質:履歴薄/評価不能 / majors実現$0 / 最終取引2026-06-21】\n【自動発掘(2026-06-22)】HLリーダーボード(allTime $36,803,333)から発掘し既存基準で分類。回転11136closes/月・黒字月率0%・履歴1ヶ月。"
+    },
+    "0xc59498175d6d317642aeb97f895a7ce1aa992191": {
+      "address": "0xc59498175d6d317642aeb97f895a7ce1aa992191",
+      "first_seen": "2026-06-22",
+      "last_seen": "2026-06-22",
+      "times_seen": 1,
+      "position": "高頻度MM",
+      "wf_quality": "堅実",
+      "metric_category": "auto_discovered",
+      "tags": [
+        "HFT:標準(1.5k-3k/月)",
+        "欺瞞候補:要精査",
+        "自動発掘(2026-06-22)"
+      ],
+      "mm_cpm": 2578,
+      "roi_alltime": 7.1510102051,
+      "lb_alltime": 35911662,
+      "true_realized_all": 23141731,
+      "true_realized_maj": 1055176,
+      "n_closes": 23206,
+      "current": {
+        "win_rate": null,
+        "total_pnl": 1055176,
+        "dir_accuracy": null,
+        "metric_category": "auto_discovered"
+      },
+      "active_from": "2024-11-11",
+      "active_to": "2026-06-15",
+      "active14": true,
+      "n_fills_14d": 127,
+      "n_fills_14d_maj": 0,
+      "history": [],
+      "auto_tags": [
+        "PnL:メガ(>$10M)",
+        "頻度:HFT(>3000)",
+        "銘柄:マルチ",
+        "取引あり(14d)"
+      ],
+      "notes_jp": "【現在の分類: 🟣高頻度MM / 質:堅実 / majors実現$1,055,176 / 最終取引2026-06-15】\n【自動発掘(2026-06-22)】HLリーダーボード(allTime $35,911,662)から発掘し既存基準で分類。回転2578closes/月・黒字月率89%・履歴9ヶ月。欺瞞8軸該当: C_dormant_burst,D_controlled_loss,H_deliberate_dip→要精査。"
+    },
+    "0x4a207d289fd49e60502451099771127bcf35b961": {
+      "address": "0x4a207d289fd49e60502451099771127bcf35b961",
+      "first_seen": "2026-06-22",
+      "last_seen": "2026-06-22",
+      "times_seen": 1,
+      "position": "高頻度MM",
+      "wf_quality": "履歴薄/評価不能",
+      "metric_category": "auto_discovered",
+      "tags": [
+        "HFT:低速(〜1.5k/月)",
+        "自動発掘(2026-06-22)"
+      ],
+      "mm_cpm": 1330,
+      "roi_alltime": 2.9741035325,
+      "lb_alltime": 35154178,
+      "true_realized_all": -471257,
+      "true_realized_maj": -301403,
+      "n_closes": 1330,
+      "current": {
+        "win_rate": null,
+        "total_pnl": -301403,
+        "dir_accuracy": null,
+        "metric_category": "auto_discovered"
+      },
+      "active_from": "2025-07-20",
+      "active_to": "2025-11-23",
+      "active14": false,
+      "n_fills_14d": 0,
+      "n_fills_14d_maj": 0,
+      "history": [],
+      "auto_tags": [
+        "PnL:赤字",
+        "頻度:HFT(>3000)",
+        "銘柄:マルチ",
+        "取引なし(14d)"
+      ],
+      "notes_jp": "【現在の分類: 🟣高頻度MM / 質:履歴薄/評価不能 / majors実現$-301,403 / 最終取引2025-11-23】\n【自動発掘(2026-06-22)】HLリーダーボード(allTime $35,154,178)から発掘し既存基準で分類。回転1330closes/月・黒字月率0%・履歴1ヶ月。"
+    },
+    "0x82d8dc80190e6bc1d92b048f9fc7e85e5e1e32ff": {
+      "address": "0x82d8dc80190e6bc1d92b048f9fc7e85e5e1e32ff",
+      "first_seen": "2026-06-22",
+      "last_seen": "2026-06-22",
+      "times_seen": 1,
+      "position": "高頻度MM",
+      "wf_quality": "履歴薄/評価不能",
+      "metric_category": "auto_discovered",
+      "tags": [
+        "HFT:標準(1.5k-3k/月)",
+        "自動発掘(2026-06-22)"
+      ],
+      "mm_cpm": 2000,
+      "roi_alltime": 1.2454598547,
+      "lb_alltime": 33111243,
+      "true_realized_all": 7022671,
+      "true_realized_maj": 0,
+      "n_closes": 2000,
+      "current": {
+        "win_rate": null,
+        "total_pnl": 0,
+        "dir_accuracy": null,
+        "metric_category": "auto_discovered"
+      },
+      "active_from": "2026-03-23",
+      "active_to": "2026-03-24",
+      "active14": false,
+      "n_fills_14d": 0,
+      "n_fills_14d_maj": 0,
+      "history": [],
+      "auto_tags": [
+        "PnL:大($1-10M)",
+        "頻度:多(500+)",
+        "銘柄:@107専",
+        "取引なし(14d)"
+      ],
+      "notes_jp": "【現在の分類: 🟣高頻度MM / 質:履歴薄/評価不能 / majors実現$0 / 最終取引2026-03-24】\n【自動発掘(2026-06-22)】HLリーダーボード(allTime $33,111,243)から発掘し既存基準で分類。回転2000closes/月・黒字月率100%・履歴1ヶ月。"
+    },
+    "0xff4cd3826ecee12acd4329aada4a2d3419fc463c": {
+      "address": "0xff4cd3826ecee12acd4329aada4a2d3419fc463c",
+      "first_seen": "2026-06-22",
+      "last_seen": "2026-06-22",
+      "times_seen": 1,
+      "position": "高頻度MM",
+      "wf_quality": "履歴薄/評価不能",
+      "metric_category": "auto_discovered",
+      "tags": [
+        "HFT:高速(3k-10k/月)",
+        "自動発掘(2026-06-22)"
+      ],
+      "mm_cpm": 3957,
+      "roi_alltime": 0.472679021,
+      "lb_alltime": 32856564,
+      "true_realized_all": 370,
+      "true_realized_maj": 374,
+      "n_closes": 7914,
+      "current": {
+        "win_rate": null,
+        "total_pnl": 374,
+        "dir_accuracy": null,
+        "metric_category": "auto_discovered"
+      },
+      "active_from": "2026-05-22",
+      "active_to": "2026-06-09",
+      "active14": true,
+      "n_fills_14d": 8,
+      "n_fills_14d_maj": 0,
+      "history": [],
+      "auto_tags": [
+        "PnL:小(<$100k)",
+        "頻度:HFT(>3000)",
+        "銘柄:マルチ",
+        "取引あり(14d)"
+      ],
+      "notes_jp": "【現在の分類: 🟣高頻度MM / 質:履歴薄/評価不能 / majors実現$374 / 最終取引2026-06-09】\n【自動発掘(2026-06-22)】HLリーダーボード(allTime $32,856,564)から発掘し既存基準で分類。回転3957closes/月・黒字月率50%・履歴2ヶ月。"
+    },
+    "0xa464abbf049fb75585484addcbc00169062e813a": {
+      "address": "0xa464abbf049fb75585484addcbc00169062e813a",
+      "first_seen": "2026-06-22",
+      "last_seen": "2026-06-22",
+      "times_seen": 1,
+      "position": "高頻度MM",
+      "wf_quality": "堅実",
+      "metric_category": "auto_discovered",
+      "tags": [
+        "HFT:低速(〜1.5k/月)",
+        "自動発掘(2026-06-22)"
+      ],
+      "mm_cpm": 1372,
+      "roi_alltime": 347.8251291654,
+      "lb_alltime": 31669190,
+      "true_realized_all": 1182780,
+      "true_realized_maj": 3958,
+      "n_closes": 31571,
+      "current": {
+        "win_rate": null,
+        "total_pnl": 3958,
+        "dir_accuracy": null,
+        "metric_category": "auto_discovered"
+      },
+      "active_from": "2024-08-13",
+      "active_to": "2026-06-21",
+      "active14": true,
+      "n_fills_14d": 763,
+      "n_fills_14d_maj": 0,
+      "history": [],
+      "auto_tags": [
+        "PnL:大($1-10M)",
+        "頻度:HFT(>3000)",
+        "銘柄:マルチ",
+        "取引あり(14d)"
+      ],
+      "notes_jp": "【現在の分類: 🟣高頻度MM / 質:堅実 / majors実現$3,958 / 最終取引2026-06-21】\n【自動発掘(2026-06-22)】HLリーダーボード(allTime $31,669,190)から発掘し既存基準で分類。回転1372closes/月・黒字月率74%・履歴23ヶ月。"
+    },
+    "0x807a2e2e469df84b299da5f90f15dda4380daca1": {
+      "address": "0x807a2e2e469df84b299da5f90f15dda4380daca1",
+      "first_seen": "2026-06-22",
+      "last_seen": "2026-06-22",
+      "times_seen": 1,
+      "position": "高頻度MM",
+      "wf_quality": "堅実",
+      "metric_category": "auto_discovered",
+      "tags": [
+        "HFT:低速(〜1.5k/月)",
+        "欺瞞候補:要精査",
+        "自動発掘(2026-06-22)"
+      ],
+      "mm_cpm": 346,
+      "roi_alltime": 9.3220700296,
+      "lb_alltime": 31219340,
+      "true_realized_all": 5393292,
+      "true_realized_maj": -4,
+      "n_closes": 3810,
+      "current": {
+        "win_rate": null,
+        "total_pnl": -4,
+        "dir_accuracy": null,
+        "metric_category": "auto_discovered"
+      },
+      "active_from": "2024-11-29",
+      "active_to": "2026-06-18",
+      "active14": true,
+      "n_fills_14d": 113,
+      "n_fills_14d_maj": 0,
+      "history": [],
+      "auto_tags": [
+        "PnL:大($1-10M)",
+        "頻度:HFT(>3000)",
+        "銘柄:マルチ",
+        "取引あり(14d)"
+      ],
+      "notes_jp": "【現在の分類: 🟣高頻度MM / 質:堅実 / majors実現$-4 / 最終取引2026-06-18】\n【自動発掘(2026-06-22)】HLリーダーボード(allTime $31,219,340)から発掘し既存基準で分類。回転346closes/月・黒字月率82%・履歴11ヶ月。欺瞞8軸該当: C_dormant_burst→要精査。"
+    },
+    "0x156115e100141e9330620c253225cc5ee598a31a": {
+      "address": "0x156115e100141e9330620c253225cc5ee598a31a",
+      "first_seen": "2026-06-22",
+      "last_seen": "2026-06-22",
+      "times_seen": 1,
+      "position": "高頻度MM",
+      "wf_quality": "堅実",
+      "metric_category": "auto_discovered",
+      "tags": [
+        "HFT:低速(〜1.5k/月)",
+        "欺瞞候補:要精査",
+        "自動発掘(2026-06-22)"
+      ],
+      "mm_cpm": 449,
+      "roi_alltime": 8.0971669314,
+      "lb_alltime": 31013212,
+      "true_realized_all": 5914791,
+      "true_realized_maj": 0,
+      "n_closes": 5389,
+      "current": {
+        "win_rate": null,
+        "total_pnl": 0,
+        "dir_accuracy": null,
+        "metric_category": "auto_discovered"
+      },
+      "active_from": "2024-06-05",
+      "active_to": "2026-06-01",
+      "active14": false,
+      "n_fills_14d": 0,
+      "n_fills_14d_maj": 0,
+      "history": [],
+      "auto_tags": [
+        "PnL:大($1-10M)",
+        "頻度:HFT(>3000)",
+        "銘柄:マルチ",
+        "取引なし(14d)"
+      ],
+      "notes_jp": "【現在の分類: 🟣高頻度MM / 質:堅実 / majors実現$0 / 最終取引2026-06-01】\n【自動発掘(2026-06-22)】HLリーダーボード(allTime $31,013,212)から発掘し既存基準で分類。回転449closes/月・黒字月率83%・履歴12ヶ月。欺瞞8軸該当: C_dormant_burst,H_deliberate_dip→要精査。"
+    },
+    "0xd4c1f7e8d876c4749228d515473d36f919583d1d": {
+      "address": "0xd4c1f7e8d876c4749228d515473d36f919583d1d",
+      "first_seen": "2026-06-22",
+      "last_seen": "2026-06-22",
+      "times_seen": 1,
+      "position": "高頻度MM",
+      "wf_quality": "履歴薄/評価不能",
+      "metric_category": "auto_discovered",
+      "tags": [
+        "HFT:超高速(10k+/月)",
+        "自動発掘(2026-06-22)"
+      ],
+      "mm_cpm": 20135,
+      "roi_alltime": 2.2215234119,
+      "lb_alltime": 30954901,
+      "true_realized_all": -40690,
+      "true_realized_maj": -134834,
+      "n_closes": 20135,
+      "current": {
+        "win_rate": null,
+        "total_pnl": -134834,
+        "dir_accuracy": null,
+        "metric_category": "auto_discovered"
+      },
+      "active_from": "2026-06-21",
+      "active_to": "2026-06-22",
+      "active14": true,
+      "n_fills_14d": 24120,
+      "n_fills_14d_maj": 15603,
+      "history": [],
+      "auto_tags": [
+        "PnL:赤字",
+        "頻度:HFT(>3000)",
+        "銘柄:マルチ",
+        "取引あり(14d)"
+      ],
+      "notes_jp": "【現在の分類: 🟣高頻度MM / 質:履歴薄/評価不能 / majors実現$-134,834 / 最終取引2026-06-22】\n【自動発掘(2026-06-22)】HLリーダーボード(allTime $30,954,901)から発掘し既存基準で分類。回転20135closes/月・黒字月率0%・履歴1ヶ月。"
+    },
+    "0xb0a55f13d22f66e6d495ac98113841b2326e9540": {
+      "address": "0xb0a55f13d22f66e6d495ac98113841b2326e9540",
+      "first_seen": "2026-06-22",
+      "last_seen": "2026-06-22",
+      "times_seen": 1,
+      "position": "高頻度MM",
+      "wf_quality": "履歴薄/評価不能",
+      "metric_category": "auto_discovered",
+      "tags": [
+        "HFT:高速(3k-10k/月)",
+        "欺瞞候補:要精査",
+        "自動発掘(2026-06-22)"
+      ],
+      "mm_cpm": 7702,
+      "roi_alltime": 1.6720691667,
+      "lb_alltime": 30593059,
+      "true_realized_all": 8184950,
+      "true_realized_maj": 7907818,
+      "n_closes": 15405,
+      "current": {
+        "win_rate": null,
+        "total_pnl": 7907818,
+        "dir_accuracy": null,
+        "metric_category": "auto_discovered"
+      },
+      "active_from": "2025-09-22",
+      "active_to": "2025-10-10",
+      "active14": false,
+      "n_fills_14d": 0,
+      "n_fills_14d_maj": 0,
+      "history": [],
+      "auto_tags": [
+        "PnL:大($1-10M)",
+        "頻度:HFT(>3000)",
+        "銘柄:マルチ",
+        "取引なし(14d)"
+      ],
+      "notes_jp": "【現在の分類: 🟣高頻度MM / 質:履歴薄/評価不能 / majors実現$7,907,818 / 最終取引2025-10-10】\n【自動発掘(2026-06-22)】HLリーダーボード(allTime $30,593,059)から発掘し既存基準で分類。回転7702closes/月・黒字月率100%・履歴2ヶ月。欺瞞8軸該当: C_dormant_burst→要精査。"
+    },
+    "0x17a4ce9320bec0ac79420f0af19848044a469d8d": {
+      "address": "0x17a4ce9320bec0ac79420f0af19848044a469d8d",
+      "first_seen": "2026-06-22",
+      "last_seen": "2026-06-22",
+      "times_seen": 1,
+      "position": "高頻度MM",
+      "wf_quality": "中堅",
+      "metric_category": "auto_discovered",
+      "tags": [
+        "HFT:低速(〜1.5k/月)",
+        "欺瞞候補:要精査",
+        "自動発掘(2026-06-22)"
+      ],
+      "mm_cpm": 964,
+      "roi_alltime": 9.333716369,
+      "lb_alltime": 30087218,
+      "true_realized_all": 7871760,
+      "true_realized_maj": 2028,
+      "n_closes": 12543,
+      "current": {
+        "win_rate": null,
+        "total_pnl": 2028,
+        "dir_accuracy": null,
+        "metric_category": "auto_discovered"
+      },
+      "active_from": "2024-04-21",
+      "active_to": "2026-06-22",
+      "active14": true,
+      "n_fills_14d": 8564,
+      "n_fills_14d_maj": 0,
+      "history": [],
+      "auto_tags": [
+        "PnL:大($1-10M)",
+        "頻度:HFT(>3000)",
+        "銘柄:マルチ",
+        "取引あり(14d)"
+      ],
+      "notes_jp": "【現在の分類: 🟣高頻度MM / 質:中堅 / majors実現$2,028 / 最終取引2026-06-22】\n【自動発掘(2026-06-22)】HLリーダーボード(allTime $30,087,218)から発掘し既存基準で分類。回転964closes/月・黒字月率69%・履歴13ヶ月。欺瞞8軸該当: H_deliberate_dip→要精査。"
+    },
+    "0x0aadc54a9e78cfe2e971aa8edcedea9c6df01f46": {
+      "address": "0x0aadc54a9e78cfe2e971aa8edcedea9c6df01f46",
+      "first_seen": "2026-06-22",
+      "last_seen": "2026-06-22",
+      "times_seen": 1,
+      "position": "高頻度MM",
+      "wf_quality": "ムラあり",
+      "metric_category": "auto_discovered",
+      "tags": [
+        "HFT:低速(〜1.5k/月)",
+        "自動発掘(2026-06-22)"
+      ],
+      "mm_cpm": 558,
+      "roi_alltime": 4.5623711305,
+      "lb_alltime": 29407602,
+      "true_realized_all": -348566,
+      "true_realized_maj": -13921,
+      "n_closes": 4465,
+      "current": {
+        "win_rate": null,
+        "total_pnl": -13921,
+        "dir_accuracy": null,
+        "metric_category": "auto_discovered"
+      },
+      "active_from": "2024-07-03",
+      "active_to": "2026-05-27",
+      "active14": false,
+      "n_fills_14d": 0,
+      "n_fills_14d_maj": 0,
+      "history": [],
+      "auto_tags": [
+        "PnL:赤字",
+        "頻度:HFT(>3000)",
+        "銘柄:マルチ",
+        "取引なし(14d)"
+      ],
+      "notes_jp": "【現在の分類: 🟣高頻度MM / 質:ムラあり / majors実現$-13,921 / 最終取引2026-05-27】\n【自動発掘(2026-06-22)】HLリーダーボード(allTime $29,407,602)から発掘し既存基準で分類。回転558closes/月・黒字月率50%・履歴8ヶ月。"
+    },
+    "0x1da722cfa8b0dfda57cf8d787689039c7a63f049": {
+      "address": "0x1da722cfa8b0dfda57cf8d787689039c7a63f049",
+      "first_seen": "2026-06-22",
+      "last_seen": "2026-06-22",
+      "times_seen": 1,
+      "position": "除外/低優先",
+      "wf_quality": null,
+      "metric_category": "auto_discovered",
+      "tags": [
+        "自動発掘(2026-06-22)"
+      ],
+      "mm_cpm": null,
+      "roi_alltime": 104.1794685002,
+      "lb_alltime": 29242260,
+      "true_realized_all": -314945,
+      "true_realized_maj": -463124,
+      "n_closes": 1049,
+      "current": {
+        "win_rate": null,
+        "total_pnl": -463124,
+        "dir_accuracy": null,
+        "metric_category": "auto_discovered"
+      },
+      "active_from": "2024-04-13",
+      "active_to": "2025-05-15",
+      "active14": false,
+      "n_fills_14d": 0,
+      "n_fills_14d_maj": 0,
+      "history": [],
+      "auto_tags": [
+        "PnL:赤字",
+        "頻度:多(500+)",
+        "銘柄:マルチ",
+        "取引なし(14d)"
+      ],
+      "notes_jp": "【現在の分類: ⚫除外/低優先 / majors実現$-463,124 / 最終取引2025-05-15】\n【自動発掘(2026-06-22)】HLリーダーボード(allTime $29,242,260)から発掘し既存基準で分類。回転149closes/月・黒字月率43%・履歴7ヶ月。"
+    },
+    "0x8bff50aad8b4e06c5e148eaeb9d7aef69e26cdc3": {
+      "address": "0x8bff50aad8b4e06c5e148eaeb9d7aef69e26cdc3",
+      "first_seen": "2026-06-22",
+      "last_seen": "2026-06-22",
+      "times_seen": 1,
+      "position": "高頻度MM",
+      "wf_quality": "履歴薄/評価不能",
+      "metric_category": "auto_discovered",
+      "tags": [
+        "HFT:超高速(10k+/月)",
+        "自動発掘(2026-06-22)"
+      ],
+      "mm_cpm": 14956,
+      "roi_alltime": 16.7044353809,
+      "lb_alltime": 28681086,
+      "true_realized_all": -399644,
+      "true_realized_maj": -1428745,
+      "n_closes": 29912,
+      "current": {
+        "win_rate": null,
+        "total_pnl": -1428745,
+        "dir_accuracy": null,
+        "metric_category": "auto_discovered"
+      },
+      "active_from": "2025-08-25",
+      "active_to": "2026-01-01",
+      "active14": false,
+      "n_fills_14d": 0,
+      "n_fills_14d_maj": 0,
+      "history": [],
+      "auto_tags": [
+        "PnL:赤字",
+        "頻度:HFT(>3000)",
+        "銘柄:マルチ",
+        "取引なし(14d)"
+      ],
+      "notes_jp": "【現在の分類: 🟣高頻度MM / 質:履歴薄/評価不能 / majors実現$-1,428,745 / 最終取引2026-01-01】\n【自動発掘(2026-06-22)】HLリーダーボード(allTime $28,681,086)から発掘し既存基準で分類。回転14956closes/月・黒字月率50%・履歴2ヶ月。"
+    },
+    "0xe4178ba889ac1c931861533b98bb86cb9d4858c7": {
+      "address": "0xe4178ba889ac1c931861533b98bb86cb9d4858c7",
+      "first_seen": "2026-06-22",
+      "last_seen": "2026-06-22",
+      "times_seen": 1,
+      "position": "高頻度MM",
+      "wf_quality": "ムラあり",
+      "metric_category": "auto_discovered",
+      "tags": [
+        "HFT:低速(〜1.5k/月)",
+        "欺瞞候補:要精査",
+        "自動発掘(2026-06-22)"
+      ],
+      "mm_cpm": 210,
+      "roi_alltime": 3.7692343511,
+      "lb_alltime": 28269229,
+      "true_realized_all": 12540983,
+      "true_realized_maj": -47208,
+      "n_closes": 840,
+      "current": {
+        "win_rate": null,
+        "total_pnl": -47208,
+        "dir_accuracy": null,
+        "metric_category": "auto_discovered"
+      },
+      "active_from": "2025-04-07",
+      "active_to": "2025-09-03",
+      "active14": false,
+      "n_fills_14d": 0,
+      "n_fills_14d_maj": 0,
+      "history": [],
+      "auto_tags": [
+        "PnL:メガ(>$10M)",
+        "頻度:HFT(>3000)",
+        "銘柄:マルチ",
+        "取引なし(14d)"
+      ],
+      "notes_jp": "【現在の分類: 🟣高頻度MM / 質:ムラあり / majors実現$-47,208 / 最終取引2025-09-03】\n【自動発掘(2026-06-22)】HLリーダーボード(allTime $28,269,229)から発掘し既存基準で分類。回転210closes/月・黒字月率50%・履歴4ヶ月。欺瞞8軸該当: H_deliberate_dip→要精査。"
+    },
+    "0xfc667adba8d4837586078f4fdcdc29804337ca06": {
+      "address": "0xfc667adba8d4837586078f4fdcdc29804337ca06",
+      "first_seen": "2026-06-22",
+      "last_seen": "2026-06-22",
+      "times_seen": 1,
+      "position": "高頻度MM",
+      "wf_quality": "履歴薄/評価不能",
+      "metric_category": "auto_discovered",
+      "tags": [
+        "HFT:高速(3k-10k/月)",
+        "自動発掘(2026-06-22)"
+      ],
+      "mm_cpm": 6441,
+      "roi_alltime": 0.2759817563,
+      "lb_alltime": 27789724,
+      "true_realized_all": 4989,
+      "true_realized_maj": -7515,
+      "n_closes": 6441,
+      "current": {
+        "win_rate": null,
+        "total_pnl": -7515,
+        "dir_accuracy": null,
+        "metric_category": "auto_discovered"
+      },
+      "active_from": "2026-06-18",
+      "active_to": "2026-06-22",
+      "active14": true,
+      "n_fills_14d": 12000,
+      "n_fills_14d_maj": 1774,
+      "history": [],
+      "auto_tags": [
+        "PnL:小(<$100k)",
+        "頻度:HFT(>3000)",
+        "銘柄:マルチ",
+        "取引あり(14d)"
+      ],
+      "notes_jp": "【現在の分類: 🟣高頻度MM / 質:履歴薄/評価不能 / majors実現$-7,515 / 最終取引2026-06-22】\n【自動発掘(2026-06-22)】HLリーダーボード(allTime $27,789,724)から発掘し既存基準で分類。回転6441closes/月・黒字月率100%・履歴1ヶ月。"
+    },
+    "0xbbbc35dfac3a00a03a8fde3540eca4f0e15c5e64": {
+      "address": "0xbbbc35dfac3a00a03a8fde3540eca4f0e15c5e64",
+      "first_seen": "2026-06-22",
+      "last_seen": "2026-06-22",
+      "times_seen": 1,
+      "position": "高頻度MM",
+      "wf_quality": "ムラあり",
+      "metric_category": "auto_discovered",
+      "tags": [
+        "HFT:低速(〜1.5k/月)",
+        "欺瞞候補:要精査",
+        "自動発掘(2026-06-22)"
+      ],
+      "mm_cpm": 1177,
+      "roi_alltime": 14.8069724188,
+      "lb_alltime": 27624943,
+      "true_realized_all": 5799243,
+      "true_realized_maj": -341192,
+      "n_closes": 8239,
+      "current": {
+        "win_rate": null,
+        "total_pnl": -341192,
+        "dir_accuracy": null,
+        "metric_category": "auto_discovered"
+      },
+      "active_from": "2024-11-23",
+      "active_to": "2026-06-16",
+      "active14": true,
+      "n_fills_14d": 796,
+      "n_fills_14d_maj": 0,
+      "history": [],
+      "auto_tags": [
+        "PnL:大($1-10M)",
+        "頻度:HFT(>3000)",
+        "銘柄:マルチ",
+        "取引あり(14d)"
+      ],
+      "notes_jp": "【現在の分類: 🟣高頻度MM / 質:ムラあり / majors実現$-341,192 / 最終取引2026-06-16】\n【自動発掘(2026-06-22)】HLリーダーボード(allTime $27,624,943)から発掘し既存基準で分類。回転1177closes/月・黒字月率71%・履歴7ヶ月。欺瞞8軸該当: C_dormant_burst→要精査。"
+    },
+    "0x6859da14835424957a1e6b397d8026b1d9ff7e1e": {
+      "address": "0x6859da14835424957a1e6b397d8026b1d9ff7e1e",
+      "first_seen": "2026-06-22",
+      "last_seen": "2026-06-22",
+      "times_seen": 1,
+      "position": "高頻度MM",
+      "wf_quality": "履歴薄/評価不能",
+      "metric_category": "auto_discovered",
+      "tags": [
+        "HFT:高速(3k-10k/月)",
+        "欺瞞候補:要精査",
+        "自動発掘(2026-06-22)"
+      ],
+      "mm_cpm": 4288,
+      "roi_alltime": 3.3279451809,
+      "lb_alltime": 26426042,
+      "true_realized_all": 278370,
+      "true_realized_maj": 302755,
+      "n_closes": 8576,
+      "current": {
+        "win_rate": null,
+        "total_pnl": 302755,
+        "dir_accuracy": null,
+        "metric_category": "auto_discovered"
+      },
+      "active_from": "2026-05-28",
+      "active_to": "2026-06-21",
+      "active14": true,
+      "n_fills_14d": 8003,
+      "n_fills_14d_maj": 217,
+      "history": [],
+      "auto_tags": [
+        "PnL:中($100k-1M)",
+        "頻度:HFT(>3000)",
+        "銘柄:マルチ",
+        "取引あり(14d)"
+      ],
+      "notes_jp": "【現在の分類: 🟣高頻度MM / 質:履歴薄/評価不能 / majors実現$302,755 / 最終取引2026-06-21】\n【自動発掘(2026-06-22)】HLリーダーボード(allTime $26,426,042)から発掘し既存基準で分類。回転4288closes/月・黒字月率100%・履歴2ヶ月。欺瞞8軸該当: H_deliberate_dip→要精査。"
+    },
+    "0x7fe8cfe481ec2f702692a9152e3f002f3e417ac6": {
+      "address": "0x7fe8cfe481ec2f702692a9152e3f002f3e417ac6",
+      "first_seen": "2026-06-22",
+      "last_seen": "2026-06-22",
+      "times_seen": 1,
+      "position": "高頻度MM",
+      "wf_quality": "ムラあり",
+      "metric_category": "auto_discovered",
+      "tags": [
+        "HFT:高速(3k-10k/月)",
+        "自動発掘(2026-06-22)"
+      ],
+      "mm_cpm": 4117,
+      "roi_alltime": 6.2729712287,
+      "lb_alltime": 25896968,
+      "true_realized_all": -338179,
+      "true_realized_maj": -1108793,
+      "n_closes": 20586,
+      "current": {
+        "win_rate": null,
+        "total_pnl": -1108793,
+        "dir_accuracy": null,
+        "metric_category": "auto_discovered"
+      },
+      "active_from": "2025-11-23",
+      "active_to": "2026-05-04",
+      "active14": false,
+      "n_fills_14d": 0,
+      "n_fills_14d_maj": 0,
+      "history": [],
+      "auto_tags": [
+        "PnL:赤字",
+        "頻度:HFT(>3000)",
+        "銘柄:マルチ",
+        "取引なし(14d)"
+      ],
+      "notes_jp": "【現在の分類: 🟣高頻度MM / 質:ムラあり / majors実現$-1,108,793 / 最終取引2026-05-04】\n【自動発掘(2026-06-22)】HLリーダーボード(allTime $25,896,968)から発掘し既存基準で分類。回転4117closes/月・黒字月率20%・履歴5ヶ月。"
+    },
+    "0xf517639a8872e756ac98d3c65507d2ebc25cc032": {
+      "address": "0xf517639a8872e756ac98d3c65507d2ebc25cc032",
+      "first_seen": "2026-06-22",
+      "last_seen": "2026-06-22",
+      "times_seen": 1,
+      "position": "高頻度MM",
+      "wf_quality": "履歴薄/評価不能",
+      "metric_category": "auto_discovered",
+      "tags": [
+        "HFT:超高速(10k+/月)",
+        "自動発掘(2026-06-22)"
+      ],
+      "mm_cpm": 15841,
+      "roi_alltime": 34.1265710543,
+      "lb_alltime": 25349947,
+      "true_realized_all": -1302425,
+      "true_realized_maj": -46408,
+      "n_closes": 15841,
+      "current": {
+        "win_rate": null,
+        "total_pnl": -46408,
+        "dir_accuracy": null,
+        "metric_category": "auto_discovered"
+      },
+      "active_from": "2026-06-08",
+      "active_to": "2026-06-21",
+      "active14": true,
+      "n_fills_14d": 30911,
+      "n_fills_14d_maj": 3841,
+      "history": [],
+      "auto_tags": [
+        "PnL:赤字",
+        "頻度:HFT(>3000)",
+        "銘柄:マルチ",
+        "取引あり(14d)"
+      ],
+      "notes_jp": "【現在の分類: 🟣高頻度MM / 質:履歴薄/評価不能 / majors実現$-46,408 / 最終取引2026-06-21】\n【自動発掘(2026-06-22)】HLリーダーボード(allTime $25,349,947)から発掘し既存基準で分類。回転15841closes/月・黒字月率0%・履歴1ヶ月。"
+    },
+    "0x99967871e6c4f9a5185abc57edede9e9540191f6": {
+      "address": "0x99967871e6c4f9a5185abc57edede9e9540191f6",
+      "first_seen": "2026-06-22",
+      "last_seen": "2026-06-22",
+      "times_seen": 1,
+      "position": "高頻度MM",
+      "wf_quality": "ムラあり",
+      "metric_category": "auto_discovered",
+      "tags": [
+        "HFT:低速(〜1.5k/月)",
+        "自動発掘(2026-06-22)"
+      ],
+      "mm_cpm": 239,
+      "roi_alltime": 6.8329068342,
+      "lb_alltime": 24726093,
+      "true_realized_all": -1251207,
+      "true_realized_maj": 0,
+      "n_closes": 1679,
+      "current": {
+        "win_rate": null,
+        "total_pnl": 0,
+        "dir_accuracy": null,
+        "metric_category": "auto_discovered"
+      },
+      "active_from": "2024-11-29",
+      "active_to": "2026-06-16",
+      "active14": true,
+      "n_fills_14d": 904,
+      "n_fills_14d_maj": 0,
+      "history": [],
+      "auto_tags": [
+        "PnL:赤字",
+        "頻度:HFT(>3000)",
+        "銘柄:マルチ",
+        "取引あり(14d)"
+      ],
+      "notes_jp": "【現在の分類: 🟣高頻度MM / 質:ムラあり / majors実現$0 / 最終取引2026-06-16】\n【自動発掘(2026-06-22)】HLリーダーボード(allTime $24,726,093)から発掘し既存基準で分類。回転239closes/月・黒字月率57%・履歴7ヶ月。"
+    },
+    "0xe86b057f5eb764c9738d6b0d38170befd0723664": {
+      "address": "0xe86b057f5eb764c9738d6b0d38170befd0723664",
+      "first_seen": "2026-06-22",
+      "last_seen": "2026-06-22",
+      "times_seen": 1,
+      "position": "高頻度MM",
+      "wf_quality": "履歴薄/評価不能",
+      "metric_category": "auto_discovered",
+      "tags": [
+        "HFT:標準(1.5k-3k/月)",
+        "自動発掘(2026-06-22)"
+      ],
+      "mm_cpm": 1860,
+      "roi_alltime": 0.9878042049,
+      "lb_alltime": 24705434,
+      "true_realized_all": -13080,
+      "true_realized_maj": -33146,
+      "n_closes": 1860,
+      "current": {
+        "win_rate": null,
+        "total_pnl": -33146,
+        "dir_accuracy": null,
+        "metric_category": "auto_discovered"
+      },
+      "active_from": "2026-06-17",
+      "active_to": "2026-06-22",
+      "active14": true,
+      "n_fills_14d": 4000,
+      "n_fills_14d_maj": 606,
+      "history": [],
+      "auto_tags": [
+        "PnL:赤字",
+        "頻度:HFT(>3000)",
+        "銘柄:マルチ",
+        "取引あり(14d)"
+      ],
+      "notes_jp": "【現在の分類: 🟣高頻度MM / 質:履歴薄/評価不能 / majors実現$-33,146 / 最終取引2026-06-22】\n【自動発掘(2026-06-22)】HLリーダーボード(allTime $24,705,434)から発掘し既存基準で分類。回転1860closes/月・黒字月率0%・履歴1ヶ月。"
+    },
+    "0xdcac85ecae7148886029c20e661d848a4de99ce2": {
+      "address": "0xdcac85ecae7148886029c20e661d848a4de99ce2",
+      "first_seen": "2026-06-22",
+      "last_seen": "2026-06-22",
+      "times_seen": 1,
+      "position": "高頻度MM",
+      "wf_quality": "中堅",
+      "metric_category": "auto_discovered",
+      "tags": [
+        "HFT:低速(〜1.5k/月)",
+        "自動発掘(2026-06-22)"
+      ],
+      "mm_cpm": 1225,
+      "roi_alltime": 0.7703347601,
+      "lb_alltime": 24699142,
+      "true_realized_all": 9185,
+      "true_realized_maj": 0,
+      "n_closes": 6127,
+      "current": {
+        "win_rate": null,
+        "total_pnl": 0,
+        "dir_accuracy": null,
+        "metric_category": "auto_discovered"
+      },
+      "active_from": "2026-01-10",
+      "active_to": "2026-06-20",
+      "active14": true,
+      "n_fills_14d": 26,
+      "n_fills_14d_maj": 0,
+      "history": [],
+      "auto_tags": [
+        "PnL:小(<$100k)",
+        "頻度:HFT(>3000)",
+        "銘柄:マルチ",
+        "取引あり(14d)"
+      ],
+      "notes_jp": "【現在の分類: 🟣高頻度MM / 質:中堅 / majors実現$0 / 最終取引2026-06-20】\n【自動発掘(2026-06-22)】HLリーダーボード(allTime $24,699,142)から発掘し既存基準で分類。回転1225closes/月・黒字月率80%・履歴5ヶ月。"
+    },
+    "0x123dbca6a27005a3c4ce10cb66ee8ece8fc13bff": {
+      "address": "0x123dbca6a27005a3c4ce10cb66ee8ece8fc13bff",
+      "first_seen": "2026-06-22",
+      "last_seen": "2026-06-22",
+      "times_seen": 1,
+      "position": "高頻度MM",
+      "wf_quality": "履歴薄/評価不能",
+      "metric_category": "auto_discovered",
+      "tags": [
+        "HFT:標準(1.5k-3k/月)",
+        "自動発掘(2026-06-22)"
+      ],
+      "mm_cpm": 1878,
+      "roi_alltime": 1.3361680053,
+      "lb_alltime": 24426197,
+      "true_realized_all": -4336,
+      "true_realized_maj": 0,
+      "n_closes": 1878,
+      "current": {
+        "win_rate": null,
+        "total_pnl": 0,
+        "dir_accuracy": null,
+        "metric_category": "auto_discovered"
+      },
+      "active_from": "2026-06-21",
+      "active_to": "2026-06-22",
+      "active14": true,
+      "n_fills_14d": 2000,
+      "n_fills_14d_maj": 0,
+      "history": [],
+      "auto_tags": [
+        "PnL:赤字",
+        "頻度:多(500+)",
+        "銘柄:WLD主",
+        "取引あり(14d)"
+      ],
+      "notes_jp": "【現在の分類: 🟣高頻度MM / 質:履歴薄/評価不能 / majors実現$0 / 最終取引2026-06-22】\n【自動発掘(2026-06-22)】HLリーダーボード(allTime $24,426,197)から発掘し既存基準で分類。回転1878closes/月・黒字月率0%・履歴1ヶ月。"
+    },
+    "0x3300eebeea8239b90a435e403b130a853a0d7dff": {
+      "address": "0x3300eebeea8239b90a435e403b130a853a0d7dff",
+      "first_seen": "2026-06-22",
+      "last_seen": "2026-06-22",
+      "times_seen": 1,
+      "position": "高頻度MM",
+      "wf_quality": "ムラあり",
+      "metric_category": "auto_discovered",
+      "tags": [
+        "HFT:低速(〜1.5k/月)",
+        "欺瞞候補:要精査",
+        "自動発掘(2026-06-22)"
+      ],
+      "mm_cpm": 533,
+      "roi_alltime": 0.7003978378,
+      "lb_alltime": 24011312,
+      "true_realized_all": 646034,
+      "true_realized_maj": 2,
+      "n_closes": 6397,
+      "current": {
+        "win_rate": null,
+        "total_pnl": 2,
+        "dir_accuracy": null,
+        "metric_category": "auto_discovered"
+      },
+      "active_from": "2024-02-14",
+      "active_to": "2026-03-01",
+      "active14": false,
+      "n_fills_14d": 0,
+      "n_fills_14d_maj": 0,
+      "history": [],
+      "auto_tags": [
+        "PnL:中($100k-1M)",
+        "頻度:HFT(>3000)",
+        "銘柄:マルチ",
+        "取引なし(14d)"
+      ],
+      "notes_jp": "【現在の分類: 🟣高頻度MM / 質:ムラあり / majors実現$2 / 最終取引2026-03-01】\n【自動発掘(2026-06-22)】HLリーダーボード(allTime $24,011,312)から発掘し既存基準で分類。回転533closes/月・黒字月率50%・履歴12ヶ月。欺瞞8軸該当: H_deliberate_dip→要精査。"
+    },
+    "0x598f9efb3164ec216b4eff33c2b239605be5af8e": {
+      "address": "0x598f9efb3164ec216b4eff33c2b239605be5af8e",
+      "first_seen": "2026-06-22",
+      "last_seen": "2026-06-22",
+      "times_seen": 1,
+      "position": "高頻度MM",
+      "wf_quality": "ムラあり",
+      "metric_category": "auto_discovered",
+      "tags": [
+        "HFT:高速(3k-10k/月)",
+        "欺瞞候補:要精査",
+        "自動発掘(2026-06-22)"
+      ],
+      "mm_cpm": 3311,
+      "roi_alltime": 90.1935348134,
+      "lb_alltime": 23908867,
+      "true_realized_all": 74148,
+      "true_realized_maj": -24868,
+      "n_closes": 19871,
+      "current": {
+        "win_rate": null,
+        "total_pnl": -24868,
+        "dir_accuracy": null,
+        "metric_category": "auto_discovered"
+      },
+      "active_from": "2024-12-05",
+      "active_to": "2025-11-28",
+      "active14": false,
+      "n_fills_14d": 0,
+      "n_fills_14d_maj": 0,
+      "history": [],
+      "auto_tags": [
+        "PnL:小(<$100k)",
+        "頻度:HFT(>3000)",
+        "銘柄:マルチ",
+        "取引なし(14d)"
+      ],
+      "notes_jp": "【現在の分類: 🟣高頻度MM / 質:ムラあり / majors実現$-24,868 / 最終取引2025-11-28】\n【自動発掘(2026-06-22)】HLリーダーボード(allTime $23,908,867)から発掘し既存基準で分類。回転3311closes/月・黒字月率33%・履歴6ヶ月。欺瞞8軸該当: C_dormant_burst→要精査。"
+    },
+    "0x0a8494f70031623c9c0043aff4d40f334b458b11": {
+      "address": "0x0a8494f70031623c9c0043aff4d40f334b458b11",
+      "first_seen": "2026-06-22",
+      "last_seen": "2026-06-22",
+      "times_seen": 1,
+      "position": "高頻度MM",
+      "wf_quality": "中堅",
+      "metric_category": "auto_discovered",
+      "tags": [
+        "HFT:低速(〜1.5k/月)",
+        "欺瞞候補:要精査",
+        "自動発掘(2026-06-22)"
+      ],
+      "mm_cpm": 478,
+      "roi_alltime": 0.6564098596,
+      "lb_alltime": 23806210,
+      "true_realized_all": 1272889,
+      "true_realized_maj": 0,
+      "n_closes": 2394,
+      "current": {
+        "win_rate": null,
+        "total_pnl": 0,
+        "dir_accuracy": null,
+        "metric_category": "auto_discovered"
+      },
+      "active_from": "2025-08-28",
+      "active_to": "2026-06-17",
+      "active14": true,
+      "n_fills_14d": 248,
+      "n_fills_14d_maj": 0,
+      "history": [],
+      "auto_tags": [
+        "PnL:大($1-10M)",
+        "頻度:HFT(>3000)",
+        "銘柄:マルチ",
+        "取引あり(14d)"
+      ],
+      "notes_jp": "【現在の分類: 🟣高頻度MM / 質:中堅 / majors実現$0 / 最終取引2026-06-17】\n【自動発掘(2026-06-22)】HLリーダーボード(allTime $23,806,210)から発掘し既存基準で分類。回転478closes/月・黒字月率60%・履歴5ヶ月。欺瞞8軸該当: H_deliberate_dip→要精査。"
+    },
+    "0x6dbde1a1e0f199b0252e593a422b9340af03075a": {
+      "address": "0x6dbde1a1e0f199b0252e593a422b9340af03075a",
+      "first_seen": "2026-06-22",
+      "last_seen": "2026-06-22",
+      "times_seen": 1,
+      "position": "高頻度MM",
+      "wf_quality": "堅実",
+      "metric_category": "auto_discovered",
+      "tags": [
+        "HFT:低速(〜1.5k/月)",
+        "欺瞞候補:要精査",
+        "自動発掘(2026-06-22)"
+      ],
+      "mm_cpm": 362,
+      "roi_alltime": 162.5076766152,
+      "lb_alltime": 23720276,
+      "true_realized_all": 6390116,
+      "true_realized_maj": 17943,
+      "n_closes": 6533,
+      "current": {
+        "win_rate": null,
+        "total_pnl": 17943,
+        "dir_accuracy": null,
+        "metric_category": "auto_discovered"
+      },
+      "active_from": "2023-06-27",
+      "active_to": "2026-06-03",
+      "active14": false,
+      "n_fills_14d": 0,
+      "n_fills_14d_maj": 0,
+      "history": [],
+      "auto_tags": [
+        "PnL:大($1-10M)",
+        "頻度:HFT(>3000)",
+        "銘柄:マルチ",
+        "取引なし(14d)"
+      ],
+      "notes_jp": "【現在の分類: 🟣高頻度MM / 質:堅実 / majors実現$17,943 / 最終取引2026-06-03】\n【自動発掘(2026-06-22)】HLリーダーボード(allTime $23,720,276)から発掘し既存基準で分類。回転362closes/月・黒字月率78%・履歴18ヶ月。欺瞞8軸該当: C_dormant_burst→要精査。"
+    },
+    "0x7717a7a245d9f950e586822b8c9b46863ed7bd7e": {
+      "address": "0x7717a7a245d9f950e586822b8c9b46863ed7bd7e",
+      "first_seen": "2026-06-22",
+      "last_seen": "2026-06-22",
+      "times_seen": 1,
+      "position": "高頻度MM",
+      "wf_quality": "履歴薄/評価不能",
+      "metric_category": "auto_discovered",
+      "tags": [
+        "HFT:超高速(10k+/月)",
+        "自動発掘(2026-06-22)"
+      ],
+      "mm_cpm": 28474,
+      "roi_alltime": 1.1298787848,
+      "lb_alltime": 23056182,
+      "true_realized_all": 80486,
+      "true_realized_maj": -2953,
+      "n_closes": 28474,
+      "current": {
+        "win_rate": null,
+        "total_pnl": -2953,
+        "dir_accuracy": null,
+        "metric_category": "auto_discovered"
+      },
+      "active_from": "2026-06-18",
+      "active_to": "2026-06-22",
+      "active14": true,
+      "n_fills_14d": 53431,
+      "n_fills_14d_maj": 3556,
+      "history": [],
+      "auto_tags": [
+        "PnL:小(<$100k)",
+        "頻度:HFT(>3000)",
+        "銘柄:マルチ",
+        "取引あり(14d)"
+      ],
+      "notes_jp": "【現在の分類: 🟣高頻度MM / 質:履歴薄/評価不能 / majors実現$-2,953 / 最終取引2026-06-22】\n【自動発掘(2026-06-22)】HLリーダーボード(allTime $23,056,182)から発掘し既存基準で分類。回転28474closes/月・黒字月率100%・履歴1ヶ月。"
+    },
+    "0x1c020f03305acd09994c1910d440646e4a5f91b0": {
+      "address": "0x1c020f03305acd09994c1910d440646e4a5f91b0",
+      "first_seen": "2026-06-22",
+      "last_seen": "2026-06-22",
+      "times_seen": 1,
+      "position": "高頻度MM",
+      "wf_quality": "ムラあり",
+      "metric_category": "auto_discovered",
+      "tags": [
+        "HFT:低速(〜1.5k/月)",
+        "欺瞞候補:要精査",
+        "自動発掘(2026-06-22)"
+      ],
+      "mm_cpm": 191,
+      "roi_alltime": 0.7077583681,
+      "lb_alltime": 22834012,
+      "true_realized_all": 11654507,
+      "true_realized_maj": 0,
+      "n_closes": 764,
+      "current": {
+        "win_rate": null,
+        "total_pnl": 0,
+        "dir_accuracy": null,
+        "metric_category": "auto_discovered"
+      },
+      "active_from": "2025-06-17",
+      "active_to": "2025-12-23",
+      "active14": false,
+      "n_fills_14d": 0,
+      "n_fills_14d_maj": 0,
+      "history": [],
+      "auto_tags": [
+        "PnL:メガ(>$10M)",
+        "頻度:HFT(>3000)",
+        "銘柄:マルチ",
+        "取引なし(14d)"
+      ],
+      "notes_jp": "【現在の分類: 🟣高頻度MM / 質:ムラあり / majors実現$0 / 最終取引2025-12-23】\n【自動発掘(2026-06-22)】HLリーダーボード(allTime $22,834,012)から発掘し既存基準で分類。回転191closes/月・黒字月率50%・履歴4ヶ月。欺瞞8軸該当: C_dormant_burst→要精査。"
+    },
+    "0x8cc94dc843e1ea7a19805e0cca43001123512b6a": {
+      "address": "0x8cc94dc843e1ea7a19805e0cca43001123512b6a",
+      "first_seen": "2026-06-22",
+      "last_seen": "2026-06-22",
+      "times_seen": 1,
+      "position": "高頻度MM",
+      "wf_quality": "履歴薄/評価不能",
+      "metric_category": "auto_discovered",
+      "tags": [
+        "HFT:超高速(10k+/月)",
+        "自動発掘(2026-06-22)"
+      ],
+      "mm_cpm": 10630,
+      "roi_alltime": 1.0351407111,
+      "lb_alltime": 22644670,
+      "true_realized_all": -55649,
+      "true_realized_maj": 0,
+      "n_closes": 10630,
+      "current": {
+        "win_rate": null,
+        "total_pnl": 0,
+        "dir_accuracy": null,
+        "metric_category": "auto_discovered"
+      },
+      "active_from": "2026-06-17",
+      "active_to": "2026-06-22",
+      "active14": true,
+      "n_fills_14d": 21836,
+      "n_fills_14d_maj": 472,
+      "history": [],
+      "auto_tags": [
+        "PnL:赤字",
+        "頻度:HFT(>3000)",
+        "銘柄:マルチ",
+        "取引あり(14d)"
+      ],
+      "notes_jp": "【現在の分類: 🟣高頻度MM / 質:履歴薄/評価不能 / majors実現$0 / 最終取引2026-06-22】\n【自動発掘(2026-06-22)】HLリーダーボード(allTime $22,644,670)から発掘し既存基準で分類。回転10630closes/月・黒字月率0%・履歴1ヶ月。"
+    },
+    "0x519c721de735f7c9e6146d167852e60d60496a47": {
+      "address": "0x519c721de735f7c9e6146d167852e60d60496a47",
+      "first_seen": "2026-06-22",
+      "last_seen": "2026-06-22",
+      "times_seen": 1,
+      "position": "高頻度MM",
+      "wf_quality": "中堅",
+      "metric_category": "auto_discovered",
+      "tags": [
+        "HFT:高速(3k-10k/月)",
+        "欺瞞候補:要精査",
+        "自動発掘(2026-06-22)"
+      ],
+      "mm_cpm": 3766,
+      "roi_alltime": 0.8438229535,
+      "lb_alltime": 22251276,
+      "true_realized_all": 4924787,
+      "true_realized_maj": 83799,
+      "n_closes": 15064,
+      "current": {
+        "win_rate": null,
+        "total_pnl": 83799,
+        "dir_accuracy": null,
+        "metric_category": "auto_discovered"
+      },
+      "active_from": "2026-02-26",
+      "active_to": "2026-06-22",
+      "active14": true,
+      "n_fills_14d": 4638,
+      "n_fills_14d_maj": 0,
+      "history": [],
+      "auto_tags": [
+        "PnL:大($1-10M)",
+        "頻度:HFT(>3000)",
+        "銘柄:マルチ",
+        "取引あり(14d)"
+      ],
+      "notes_jp": "【現在の分類: 🟣高頻度MM / 質:中堅 / majors実現$83,799 / 最終取引2026-06-22】\n【自動発掘(2026-06-22)】HLリーダーボード(allTime $22,251,276)から発掘し既存基準で分類。回転3766closes/月・黒字月率75%・履歴4ヶ月。欺瞞8軸該当: H_deliberate_dip→要精査。"
+    },
+    "0xb62aba8182bcd9d86c1cf85f995d6078663fba78": {
+      "address": "0xb62aba8182bcd9d86c1cf85f995d6078663fba78",
+      "first_seen": "2026-06-22",
+      "last_seen": "2026-06-22",
+      "times_seen": 1,
+      "position": "高頻度MM",
+      "wf_quality": "中堅",
+      "metric_category": "auto_discovered",
+      "tags": [
+        "HFT:高速(3k-10k/月)",
+        "欺瞞候補:要精査",
+        "自動発掘(2026-06-22)"
+      ],
+      "mm_cpm": 3026,
+      "roi_alltime": 5.1784940241,
+      "lb_alltime": 22121361,
+      "true_realized_all": 125846,
+      "true_realized_maj": 0,
+      "n_closes": 12107,
+      "current": {
+        "win_rate": null,
+        "total_pnl": 0,
+        "dir_accuracy": null,
+        "metric_category": "auto_discovered"
+      },
+      "active_from": "2025-12-24",
+      "active_to": "2026-06-02",
+      "active14": false,
+      "n_fills_14d": 0,
+      "n_fills_14d_maj": 0,
+      "history": [],
+      "auto_tags": [
+        "PnL:中($100k-1M)",
+        "頻度:HFT(>3000)",
+        "銘柄:@107主",
+        "取引なし(14d)"
+      ],
+      "notes_jp": "【現在の分類: 🟣高頻度MM / 質:中堅 / majors実現$0 / 最終取引2026-06-02】\n【自動発掘(2026-06-22)】HLリーダーボード(allTime $22,121,361)から発掘し既存基準で分類。回転3026closes/月・黒字月率75%・履歴4ヶ月。欺瞞8軸該当: C_dormant_burst→要精査。"
+    },
+    "0x0c46eb73fae2816f219fcf11f50d6d3c59b5819e": {
+      "address": "0x0c46eb73fae2816f219fcf11f50d6d3c59b5819e",
+      "first_seen": "2026-06-22",
+      "last_seen": "2026-06-22",
+      "times_seen": 1,
+      "position": "除外/低優先",
+      "wf_quality": null,
+      "metric_category": "auto_discovered",
+      "tags": [
+        "自動発掘(2026-06-22)"
+      ],
+      "mm_cpm": null,
+      "roi_alltime": 1.8194996739,
+      "lb_alltime": 21838819,
+      "true_realized_all": 0,
+      "true_realized_maj": 0,
+      "n_closes": 1,
+      "current": {
+        "win_rate": null,
+        "total_pnl": 0,
+        "dir_accuracy": null,
+        "metric_category": "auto_discovered"
+      },
+      "active_from": "2026-01-16",
+      "active_to": "2026-01-16",
+      "active14": false,
+      "n_fills_14d": 0,
+      "n_fills_14d_maj": 0,
+      "history": [],
+      "auto_tags": [
+        "PnL:小(<$100k)",
+        "頻度:少(<50)",
+        "銘柄:@107専",
+        "取引なし(14d)"
+      ],
+      "notes_jp": "【現在の分類: ⚫除外/低優先 / majors実現$0 / 最終取引2026-01-16】\n【自動発掘(2026-06-22)】HLリーダーボード(allTime $21,838,819)から発掘し既存基準で分類。回転1closes/月・黒字月率0%・履歴1ヶ月。"
+    },
+    "0xa16e0fd908d5da6f37590d6005f15b5cb6a91688": {
+      "address": "0xa16e0fd908d5da6f37590d6005f15b5cb6a91688",
+      "first_seen": "2026-06-22",
+      "last_seen": "2026-06-22",
+      "times_seen": 1,
+      "position": "alt主体プロ",
+      "wf_quality": "alt主体",
+      "metric_category": "auto_discovered",
+      "tags": [
+        "欺瞞候補:要精査",
+        "自動発掘(2026-06-22)"
+      ],
+      "mm_cpm": null,
+      "roi_alltime": 3.267452687,
+      "lb_alltime": 21549821,
+      "true_realized_all": 472960,
+      "true_realized_maj": -1792,
+      "n_closes": 1967,
+      "current": {
+        "win_rate": null,
+        "total_pnl": -1792,
+        "dir_accuracy": null,
+        "metric_category": "auto_discovered"
+      },
+      "active_from": "2024-04-25",
+      "active_to": "2025-12-04",
+      "active14": false,
+      "n_fills_14d": 0,
+      "n_fills_14d_maj": 0,
+      "history": [],
+      "auto_tags": [
+        "PnL:中($100k-1M)",
+        "頻度:多(500+)",
+        "銘柄:マルチ",
+        "取引なし(14d)"
+      ],
+      "notes_jp": "【現在の分類: 🔵alt主体プロ / 質:alt主体 / majors実現$-1,792 / 最終取引2025-12-04】\n【自動発掘(2026-06-22)】HLリーダーボード(allTime $21,549,821)から発掘し既存基準で分類。回転196closes/月・黒字月率70%・履歴10ヶ月。欺瞞8軸該当: C_dormant_burst,H_deliberate_dip→要精査。"
+    },
+    "0xb041569b6ffac3b2cb6d289e85458e90b62d6ecb": {
+      "address": "0xb041569b6ffac3b2cb6d289e85458e90b62d6ecb",
+      "first_seen": "2026-06-22",
+      "last_seen": "2026-06-22",
+      "times_seen": 1,
+      "position": "高頻度MM",
+      "wf_quality": "ムラあり",
+      "metric_category": "auto_discovered",
+      "tags": [
+        "HFT:標準(1.5k-3k/月)",
+        "自動発掘(2026-06-22)"
+      ],
+      "mm_cpm": 2351,
+      "roi_alltime": 2.2008941594,
+      "lb_alltime": 21544746,
+      "true_realized_all": -3999519,
+      "true_realized_maj": -101856,
+      "n_closes": 16461,
+      "current": {
+        "win_rate": null,
+        "total_pnl": -101856,
+        "dir_accuracy": null,
+        "metric_category": "auto_discovered"
+      },
+      "active_from": "2025-07-17",
+      "active_to": "2026-02-09",
+      "active14": false,
+      "n_fills_14d": 0,
+      "n_fills_14d_maj": 0,
+      "history": [],
+      "auto_tags": [
+        "PnL:赤字",
+        "頻度:HFT(>3000)",
+        "銘柄:マルチ",
+        "取引なし(14d)"
+      ],
+      "notes_jp": "【現在の分類: 🟣高頻度MM / 質:ムラあり / majors実現$-101,856 / 最終取引2026-02-09】\n【自動発掘(2026-06-22)】HLリーダーボード(allTime $21,544,746)から発掘し既存基準で分類。回転2351closes/月・黒字月率43%・履歴7ヶ月。"
+    },
+    "0xa9b95f2a2e7ef219021efc5c04c32761b8553bbd": {
+      "address": "0xa9b95f2a2e7ef219021efc5c04c32761b8553bbd",
+      "first_seen": "2026-06-22",
+      "last_seen": "2026-06-22",
+      "times_seen": 1,
+      "position": "高頻度MM",
+      "wf_quality": "履歴薄/評価不能",
+      "metric_category": "auto_discovered",
+      "tags": [
+        "HFT:低速(〜1.5k/月)",
+        "欺瞞候補:要精査",
+        "自動発掘(2026-06-22)"
+      ],
+      "mm_cpm": 439,
+      "roi_alltime": 3.6570815763,
+      "lb_alltime": 21506016,
+      "true_realized_all": 173312,
+      "true_realized_maj": 173213,
+      "n_closes": 1317,
+      "current": {
+        "win_rate": null,
+        "total_pnl": 173213,
+        "dir_accuracy": null,
+        "metric_category": "auto_discovered"
+      },
+      "active_from": "2026-03-18",
+      "active_to": "2026-06-21",
+      "active14": true,
+      "n_fills_14d": 3,
+      "n_fills_14d_maj": 0,
+      "history": [],
+      "auto_tags": [
+        "PnL:中($100k-1M)",
+        "頻度:HFT(>3000)",
+        "銘柄:マルチ",
+        "取引あり(14d)"
+      ],
+      "notes_jp": "【現在の分類: 🟣高頻度MM / 質:履歴薄/評価不能 / majors実現$173,213 / 最終取引2026-06-21】\n【自動発掘(2026-06-22)】HLリーダーボード(allTime $21,506,016)から発掘し既存基準で分類。回転439closes/月・黒字月率100%・履歴3ヶ月。欺瞞8軸該当: C_dormant_burst→要精査。"
+    },
+    "0xffa8198c62adb1e811629bd54c9b646d726deef7": {
+      "address": "0xffa8198c62adb1e811629bd54c9b646d726deef7",
+      "first_seen": "2026-06-22",
+      "last_seen": "2026-06-22",
+      "times_seen": 1,
+      "position": "除外/低優先",
+      "wf_quality": null,
+      "metric_category": "auto_discovered",
+      "tags": [
+        "自動発掘(2026-06-22)"
+      ],
+      "mm_cpm": null,
+      "roi_alltime": 1.7172793841,
+      "lb_alltime": 21344820,
+      "true_realized_all": 0,
+      "true_realized_maj": 0,
+      "n_closes": 0,
+      "current": {
+        "win_rate": null,
+        "total_pnl": 0,
+        "dir_accuracy": null,
+        "metric_category": "auto_discovered"
+      },
+      "active_from": "2026-01-12",
+      "active_to": "2026-01-12",
+      "active14": false,
+      "n_fills_14d": 0,
+      "n_fills_14d_maj": 0,
+      "history": [],
+      "auto_tags": [
+        "PnL:小(<$100k)",
+        "頻度:少(<50)",
+        "銘柄:@107専",
+        "取引なし(14d)"
+      ],
+      "notes_jp": "【現在の分類: ⚫除外/低優先 / majors実現$0 / 最終取引2026-01-12】\n【自動発掘(2026-06-22)】HLリーダーボード(allTime $21,344,820)から発掘し既存基準で分類。回転0closes/月・黒字月率0%・履歴0ヶ月。"
+    },
+    "0x9e8b1e51c642f4c8b87c6ba11c53d516a218afc4": {
+      "address": "0x9e8b1e51c642f4c8b87c6ba11c53d516a218afc4",
+      "first_seen": "2026-06-22",
+      "last_seen": "2026-06-22",
+      "times_seen": 1,
+      "position": "高頻度MM",
+      "wf_quality": "ムラあり",
+      "metric_category": "auto_discovered",
+      "tags": [
+        "HFT:超高速(10k+/月)",
+        "欺瞞候補:要精査",
+        "自動発掘(2026-06-22)"
+      ],
+      "mm_cpm": 13090,
+      "roi_alltime": 60.7901059709,
+      "lb_alltime": 20960839,
+      "true_realized_all": 2438865,
+      "true_realized_maj": -1127797,
+      "n_closes": 65451,
+      "current": {
+        "win_rate": null,
+        "total_pnl": -1127797,
+        "dir_accuracy": null,
+        "metric_category": "auto_discovered"
+      },
+      "active_from": "2025-09-01",
+      "active_to": "2026-06-17",
+      "active14": true,
+      "n_fills_14d": 2000,
+      "n_fills_14d_maj": 0,
+      "history": [],
+      "auto_tags": [
+        "PnL:大($1-10M)",
+        "頻度:HFT(>3000)",
+        "銘柄:マルチ",
+        "取引あり(14d)"
+      ],
+      "notes_jp": "【現在の分類: 🟣高頻度MM / 質:ムラあり / majors実現$-1,127,797 / 最終取引2026-06-17】\n【自動発掘(2026-06-22)】HLリーダーボード(allTime $20,960,839)から発掘し既存基準で分類。回転13090closes/月・黒字月率60%・履歴5ヶ月。欺瞞8軸該当: H_deliberate_dip→要精査。"
+    },
+    "0x34971bc50eb4484505e4a24516c8db843fbef162": {
+      "address": "0x34971bc50eb4484505e4a24516c8db843fbef162",
+      "first_seen": "2026-06-22",
+      "last_seen": "2026-06-22",
+      "times_seen": 1,
+      "position": "高頻度MM",
+      "wf_quality": "履歴薄/評価不能",
+      "metric_category": "auto_discovered",
+      "tags": [
+        "HFT:高速(3k-10k/月)",
+        "欺瞞候補:要精査",
+        "自動発掘(2026-06-22)"
+      ],
+      "mm_cpm": 8119,
+      "roi_alltime": 2.7726303502,
+      "lb_alltime": 20691906,
+      "true_realized_all": 962109,
+      "true_realized_maj": 476113,
+      "n_closes": 8119,
+      "current": {
+        "win_rate": null,
+        "total_pnl": 476113,
+        "dir_accuracy": null,
+        "metric_category": "auto_discovered"
+      },
+      "active_from": "2025-01-21",
+      "active_to": "2025-01-27",
+      "active14": false,
+      "n_fills_14d": 0,
+      "n_fills_14d_maj": 0,
+      "history": [],
+      "auto_tags": [
+        "PnL:中($100k-1M)",
+        "頻度:HFT(>3000)",
+        "銘柄:マルチ",
+        "取引なし(14d)"
+      ],
+      "notes_jp": "【現在の分類: 🟣高頻度MM / 質:履歴薄/評価不能 / majors実現$476,113 / 最終取引2025-01-27】\n【自動発掘(2026-06-22)】HLリーダーボード(allTime $20,691,906)から発掘し既存基準で分類。回転8119closes/月・黒字月率100%・履歴1ヶ月。欺瞞8軸該当: H_deliberate_dip→要精査。"
+    },
+    "0x5c02f2dfcb6537b83929596fe8a3278e237e3e7c": {
+      "address": "0x5c02f2dfcb6537b83929596fe8a3278e237e3e7c",
+      "first_seen": "2026-06-22",
+      "last_seen": "2026-06-22",
+      "times_seen": 1,
+      "position": "高頻度MM",
+      "wf_quality": "履歴薄/評価不能",
+      "metric_category": "auto_discovered",
+      "tags": [
+        "HFT:高速(3k-10k/月)",
+        "自動発掘(2026-06-22)"
+      ],
+      "mm_cpm": 7497,
+      "roi_alltime": 20.1020614081,
+      "lb_alltime": 19688889,
+      "true_realized_all": -249224,
+      "true_realized_maj": -197535,
+      "n_closes": 22491,
+      "current": {
+        "win_rate": null,
+        "total_pnl": -197535,
+        "dir_accuracy": null,
+        "metric_category": "auto_discovered"
+      },
+      "active_from": "2024-10-01",
+      "active_to": "2026-02-01",
+      "active14": false,
+      "n_fills_14d": 0,
+      "n_fills_14d_maj": 0,
+      "history": [],
+      "auto_tags": [
+        "PnL:赤字",
+        "頻度:HFT(>3000)",
+        "銘柄:マルチ",
+        "取引なし(14d)"
+      ],
+      "notes_jp": "【現在の分類: 🟣高頻度MM / 質:履歴薄/評価不能 / majors実現$-197,535 / 最終取引2026-02-01】\n【自動発掘(2026-06-22)】HLリーダーボード(allTime $19,688,889)から発掘し既存基準で分類。回転7497closes/月・黒字月率0%・履歴3ヶ月。"
+    },
+    "0x97bfcf95b940e46990a42fdc21812be84442ef74": {
+      "address": "0x97bfcf95b940e46990a42fdc21812be84442ef74",
+      "first_seen": "2026-06-22",
+      "last_seen": "2026-06-22",
+      "times_seen": 1,
+      "position": "alt主体プロ",
+      "wf_quality": "alt主体",
+      "metric_category": "auto_discovered",
+      "tags": [
+        "欺瞞候補:要精査",
+        "自動発掘(2026-06-22)"
+      ],
+      "mm_cpm": null,
+      "roi_alltime": 3.0106745763,
+      "lb_alltime": 19006387,
+      "true_realized_all": 456911,
+      "true_realized_maj": 0,
+      "n_closes": 1785,
+      "current": {
+        "win_rate": null,
+        "total_pnl": 0,
+        "dir_accuracy": null,
+        "metric_category": "auto_discovered"
+      },
+      "active_from": "2025-08-03",
+      "active_to": "2026-04-27",
+      "active14": false,
+      "n_fills_14d": 0,
+      "n_fills_14d_maj": 0,
+      "history": [],
+      "auto_tags": [
+        "PnL:中($100k-1M)",
+        "頻度:多(500+)",
+        "銘柄:FARTCOIN主",
+        "取引なし(14d)"
+      ],
+      "notes_jp": "【現在の分類: 🔵alt主体プロ / 質:alt主体 / majors実現$0 / 最終取引2026-04-27】\n【自動発掘(2026-06-22)】HLリーダーボード(allTime $19,006,387)から発掘し既存基準で分類。回転595closes/月・黒字月率33%・履歴3ヶ月。欺瞞8軸該当: C_dormant_burst→要精査。"
+    },
+    "0x2d23b731e5f04996a2dfdbe434c7d922afdb5e00": {
+      "address": "0x2d23b731e5f04996a2dfdbe434c7d922afdb5e00",
+      "first_seen": "2026-06-22",
+      "last_seen": "2026-06-22",
+      "times_seen": 1,
+      "position": "高頻度MM",
+      "wf_quality": "ムラあり",
+      "metric_category": "auto_discovered",
+      "tags": [
+        "HFT:低速(〜1.5k/月)",
+        "欺瞞候補:要精査",
+        "自動発掘(2026-06-22)"
+      ],
+      "mm_cpm": 158,
+      "roi_alltime": 2.8653222449,
+      "lb_alltime": 18976289,
+      "true_realized_all": 344558,
+      "true_realized_maj": 133857,
+      "n_closes": 948,
+      "current": {
+        "win_rate": null,
+        "total_pnl": 133857,
+        "dir_accuracy": null,
+        "metric_category": "auto_discovered"
+      },
+      "active_from": "2023-06-04",
+      "active_to": "2026-06-17",
+      "active14": true,
+      "n_fills_14d": 1,
+      "n_fills_14d_maj": 0,
+      "history": [],
+      "auto_tags": [
+        "PnL:中($100k-1M)",
+        "頻度:HFT(>3000)",
+        "銘柄:マルチ",
+        "取引あり(14d)"
+      ],
+      "notes_jp": "【現在の分類: 🟣高頻度MM / 質:ムラあり / majors実現$133,857 / 最終取引2026-06-17】\n【自動発掘(2026-06-22)】HLリーダーボード(allTime $18,976,289)から発掘し既存基準で分類。回転158closes/月・黒字月率50%・履歴6ヶ月。欺瞞8軸該当: H_deliberate_dip→要精査。"
+    },
+    "0x33631426077c380edb2fee05effae4e8f481b648": {
+      "address": "0x33631426077c380edb2fee05effae4e8f481b648",
+      "first_seen": "2026-06-22",
+      "last_seen": "2026-06-22",
+      "times_seen": 1,
+      "position": "高頻度MM",
+      "wf_quality": "ムラあり",
+      "metric_category": "auto_discovered",
+      "tags": [
+        "HFT:低速(〜1.5k/月)",
+        "自動発掘(2026-06-22)"
+      ],
+      "mm_cpm": 308,
+      "roi_alltime": 86.5034286313,
+      "lb_alltime": 18908673,
+      "true_realized_all": 19527,
+      "true_realized_maj": 140,
+      "n_closes": 3706,
+      "current": {
+        "win_rate": null,
+        "total_pnl": 140,
+        "dir_accuracy": null,
+        "metric_category": "auto_discovered"
+      },
+      "active_from": "2024-10-09",
+      "active_to": "2025-11-08",
+      "active14": false,
+      "n_fills_14d": 0,
+      "n_fills_14d_maj": 0,
+      "history": [],
+      "auto_tags": [
+        "PnL:小(<$100k)",
+        "頻度:HFT(>3000)",
+        "銘柄:マルチ",
+        "取引なし(14d)"
+      ],
+      "notes_jp": "【現在の分類: 🟣高頻度MM / 質:ムラあり / majors実現$140 / 最終取引2025-11-08】\n【自動発掘(2026-06-22)】HLリーダーボード(allTime $18,908,673)から発掘し既存基準で分類。回転308closes/月・黒字月率33%・履歴12ヶ月。"
+    },
+    "0x3fc56e944aa7b1594c85861b2d46a07f82a2c0c1": {
+      "address": "0x3fc56e944aa7b1594c85861b2d46a07f82a2c0c1",
+      "first_seen": "2026-06-22",
+      "last_seen": "2026-06-22",
+      "times_seen": 1,
+      "position": "高頻度MM",
+      "wf_quality": "履歴薄/評価不能",
+      "metric_category": "auto_discovered",
+      "tags": [
+        "HFT:超高速(10k+/月)",
+        "自動発掘(2026-06-22)"
+      ],
+      "mm_cpm": 16610,
+      "roi_alltime": 1.5554919906,
+      "lb_alltime": 18896363,
+      "true_realized_all": -6773,
+      "true_realized_maj": 0,
+      "n_closes": 16610,
+      "current": {
+        "win_rate": null,
+        "total_pnl": 0,
+        "dir_accuracy": null,
+        "metric_category": "auto_discovered"
+      },
+      "active_from": "2026-06-08",
+      "active_to": "2026-06-22",
+      "active14": true,
+      "n_fills_14d": 33117,
+      "n_fills_14d_maj": 0,
+      "history": [],
+      "auto_tags": [
+        "PnL:赤字",
+        "頻度:HFT(>3000)",
+        "銘柄:マルチ",
+        "取引あり(14d)"
+      ],
+      "notes_jp": "【現在の分類: 🟣高頻度MM / 質:履歴薄/評価不能 / majors実現$0 / 最終取引2026-06-22】\n【自動発掘(2026-06-22)】HLリーダーボード(allTime $18,896,363)から発掘し既存基準で分類。回転16610closes/月・黒字月率0%・履歴1ヶ月。"
+    },
+    "0x9ff588d01f8948c25b3dd8a36fc583b019fd4a61": {
+      "address": "0x9ff588d01f8948c25b3dd8a36fc583b019fd4a61",
+      "first_seen": "2026-06-22",
+      "last_seen": "2026-06-22",
+      "times_seen": 1,
+      "position": "alt主体プロ",
+      "wf_quality": "alt主体",
+      "metric_category": "auto_discovered",
+      "tags": [
+        "欺瞞候補:要精査",
+        "自動発掘(2026-06-22)"
+      ],
+      "mm_cpm": null,
+      "roi_alltime": 19.31696324,
+      "lb_alltime": 18690026,
+      "true_realized_all": 3556769,
+      "true_realized_maj": 0,
+      "n_closes": 1587,
+      "current": {
+        "win_rate": null,
+        "total_pnl": 0,
+        "dir_accuracy": null,
+        "metric_category": "auto_discovered"
+      },
+      "active_from": "2024-12-11",
+      "active_to": "2025-03-09",
+      "active14": false,
+      "n_fills_14d": 0,
+      "n_fills_14d_maj": 0,
+      "history": [],
+      "auto_tags": [
+        "PnL:大($1-10M)",
+        "頻度:多(500+)",
+        "銘柄:@107専",
+        "取引なし(14d)"
+      ],
+      "notes_jp": "【現在の分類: 🔵alt主体プロ / 質:alt主体 / majors実現$0 / 最終取引2025-03-09】\n【自動発掘(2026-06-22)】HLリーダーボード(allTime $18,690,026)から発掘し既存基準で分類。回転529closes/月・黒字月率100%・履歴3ヶ月。欺瞞8軸該当: C_dormant_burst→要精査。"
+    },
+    "0x2263b62fec062260e2ce72fa2e3b8a89d6bc062e": {
+      "address": "0x2263b62fec062260e2ce72fa2e3b8a89d6bc062e",
+      "first_seen": "2026-06-22",
+      "last_seen": "2026-06-22",
+      "times_seen": 1,
+      "position": "高頻度MM",
+      "wf_quality": "堅実",
+      "metric_category": "auto_discovered",
+      "tags": [
+        "HFT:低速(〜1.5k/月)",
+        "欺瞞候補:要精査",
+        "自動発掘(2026-06-22)"
+      ],
+      "mm_cpm": 816,
+      "roi_alltime": 7.5053717668,
+      "lb_alltime": 18474614,
+      "true_realized_all": 3796770,
+      "true_realized_maj": 29440,
+      "n_closes": 6535,
+      "current": {
+        "win_rate": null,
+        "total_pnl": 29440,
+        "dir_accuracy": null,
+        "metric_category": "auto_discovered"
+      },
+      "active_from": "2023-12-04",
+      "active_to": "2026-01-07",
+      "active14": false,
+      "n_fills_14d": 0,
+      "n_fills_14d_maj": 0,
+      "history": [],
+      "auto_tags": [
+        "PnL:大($1-10M)",
+        "頻度:HFT(>3000)",
+        "銘柄:マルチ",
+        "取引なし(14d)"
+      ],
+      "notes_jp": "【現在の分類: 🟣高頻度MM / 質:堅実 / majors実現$29,440 / 最終取引2026-01-07】\n【自動発掘(2026-06-22)】HLリーダーボード(allTime $18,474,614)から発掘し既存基準で分類。回転816closes/月・黒字月率75%・履歴8ヶ月。欺瞞8軸該当: C_dormant_burst,H_deliberate_dip→要精査。"
+    },
+    "0xd9225c2b6383f6e532c01c34d7588b1106b9e30b": {
+      "address": "0xd9225c2b6383f6e532c01c34d7588b1106b9e30b",
+      "first_seen": "2026-06-22",
+      "last_seen": "2026-06-22",
+      "times_seen": 1,
+      "position": "高頻度MM",
+      "wf_quality": "ムラあり",
+      "metric_category": "auto_discovered",
+      "tags": [
+        "HFT:低速(〜1.5k/月)",
+        "自動発掘(2026-06-22)"
+      ],
+      "mm_cpm": 1029,
+      "roi_alltime": 513.3586230159,
+      "lb_alltime": 18409933,
+      "true_realized_all": -176600,
+      "true_realized_maj": 33362,
+      "n_closes": 12356,
+      "current": {
+        "win_rate": null,
+        "total_pnl": 33362,
+        "dir_accuracy": null,
+        "metric_category": "auto_discovered"
+      },
+      "active_from": "2024-01-26",
+      "active_to": "2026-06-02",
+      "active14": false,
+      "n_fills_14d": 0,
+      "n_fills_14d_maj": 0,
+      "history": [],
+      "auto_tags": [
+        "PnL:赤字",
+        "頻度:HFT(>3000)",
+        "銘柄:マルチ",
+        "取引なし(14d)"
+      ],
+      "notes_jp": "【現在の分類: 🟣高頻度MM / 質:ムラあり / majors実現$33,362 / 最終取引2026-06-02】\n【自動発掘(2026-06-22)】HLリーダーボード(allTime $18,409,933)から発掘し既存基準で分類。回転1029closes/月・黒字月率50%・履歴12ヶ月。"
+    },
+    "0x6555e1cc97d3cba6eaddebbcd7ca51d75771e0b8": {
+      "address": "0x6555e1cc97d3cba6eaddebbcd7ca51d75771e0b8",
+      "first_seen": "2026-06-22",
+      "last_seen": "2026-06-22",
+      "times_seen": 1,
+      "position": "高頻度MM",
+      "wf_quality": "ムラあり",
+      "metric_category": "auto_discovered",
+      "tags": [
+        "HFT:低速(〜1.5k/月)",
+        "欺瞞候補:要精査",
+        "自動発掘(2026-06-22)"
+      ],
+      "mm_cpm": 1307,
+      "roi_alltime": 0.9897981465,
+      "lb_alltime": 18296969,
+      "true_realized_all": 8053786,
+      "true_realized_maj": 155425,
+      "n_closes": 11769,
+      "current": {
+        "win_rate": null,
+        "total_pnl": 155425,
+        "dir_accuracy": null,
+        "metric_category": "auto_discovered"
+      },
+      "active_from": "2025-04-10",
+      "active_to": "2026-06-15",
+      "active14": true,
+      "n_fills_14d": 1,
+      "n_fills_14d_maj": 0,
+      "history": [],
+      "auto_tags": [
+        "PnL:大($1-10M)",
+        "頻度:HFT(>3000)",
+        "銘柄:マルチ",
+        "取引あり(14d)"
+      ],
+      "notes_jp": "【現在の分類: 🟣高頻度MM / 質:ムラあり / majors実現$155,425 / 最終取引2026-06-15】\n【自動発掘(2026-06-22)】HLリーダーボード(allTime $18,296,969)から発掘し既存基準で分類。回転1307closes/月・黒字月率56%・履歴9ヶ月。欺瞞8軸該当: C_dormant_burst→要精査。"
+    },
+    "0x280e93b4d5e7dc852332a41e93c3329052d40e8f": {
+      "address": "0x280e93b4d5e7dc852332a41e93c3329052d40e8f",
+      "first_seen": "2026-06-22",
+      "last_seen": "2026-06-22",
+      "times_seen": 1,
+      "position": "高頻度MM",
+      "wf_quality": "ムラあり",
+      "metric_category": "auto_discovered",
+      "tags": [
+        "HFT:低速(〜1.5k/月)",
+        "自動発掘(2026-06-22)"
+      ],
+      "mm_cpm": 1281,
+      "roi_alltime": 3.377053568,
+      "lb_alltime": 17960426,
+      "true_realized_all": -644136,
+      "true_realized_maj": -590973,
+      "n_closes": 7689,
+      "current": {
+        "win_rate": null,
+        "total_pnl": -590973,
+        "dir_accuracy": null,
+        "metric_category": "auto_discovered"
+      },
+      "active_from": "2024-12-04",
+      "active_to": "2026-06-16",
+      "active14": true,
+      "n_fills_14d": 17,
+      "n_fills_14d_maj": 0,
+      "history": [],
+      "auto_tags": [
+        "PnL:赤字",
+        "頻度:HFT(>3000)",
+        "銘柄:マルチ",
+        "取引あり(14d)"
+      ],
+      "notes_jp": "【現在の分類: 🟣高頻度MM / 質:ムラあり / majors実現$-590,973 / 最終取引2026-06-16】\n【自動発掘(2026-06-22)】HLリーダーボード(allTime $17,960,426)から発掘し既存基準で分類。回転1281closes/月・黒字月率50%・履歴6ヶ月。"
+    },
+    "0x580809c0dfe56287e933f99e347cd5385a645ee3": {
+      "address": "0x580809c0dfe56287e933f99e347cd5385a645ee3",
+      "first_seen": "2026-06-22",
+      "last_seen": "2026-06-22",
+      "times_seen": 1,
+      "position": "高頻度MM",
+      "wf_quality": "ムラあり",
+      "metric_category": "auto_discovered",
+      "tags": [
+        "HFT:低速(〜1.5k/月)",
+        "欺瞞候補:要精査",
+        "自動発掘(2026-06-22)"
+      ],
+      "mm_cpm": 787,
+      "roi_alltime": 8.1226032431,
+      "lb_alltime": 17770637,
+      "true_realized_all": 230511,
+      "true_realized_maj": 0,
+      "n_closes": 3935,
+      "current": {
+        "win_rate": null,
+        "total_pnl": 0,
+        "dir_accuracy": null,
+        "metric_category": "auto_discovered"
+      },
+      "active_from": "2025-01-25",
+      "active_to": "2026-05-21",
+      "active14": false,
+      "n_fills_14d": 0,
+      "n_fills_14d_maj": 0,
+      "history": [],
+      "auto_tags": [
+        "PnL:中($100k-1M)",
+        "頻度:HFT(>3000)",
+        "銘柄:マルチ",
+        "取引なし(14d)"
+      ],
+      "notes_jp": "【現在の分類: 🟣高頻度MM / 質:ムラあり / majors実現$0 / 最終取引2026-05-21】\n【自動発掘(2026-06-22)】HLリーダーボード(allTime $17,770,637)から発掘し既存基準で分類。回転787closes/月・黒字月率40%・履歴5ヶ月。欺瞞8軸該当: C_dormant_burst,H_deliberate_dip→要精査。"
+    },
+    "0x5db201ae15f9702f0a0ff9f00b8c1c18355373d0": {
+      "address": "0x5db201ae15f9702f0a0ff9f00b8c1c18355373d0",
+      "first_seen": "2026-06-22",
+      "last_seen": "2026-06-22",
+      "times_seen": 1,
+      "position": "高頻度MM",
+      "wf_quality": "中堅",
+      "metric_category": "auto_discovered",
+      "tags": [
+        "HFT:低速(〜1.5k/月)",
+        "欺瞞候補:要精査",
+        "自動発掘(2026-06-22)"
+      ],
+      "mm_cpm": 778,
+      "roi_alltime": 102.2828401021,
+      "lb_alltime": 17353522,
+      "true_realized_all": 308338,
+      "true_realized_maj": 158071,
+      "n_closes": 12462,
+      "current": {
+        "win_rate": null,
+        "total_pnl": 158071,
+        "dir_accuracy": null,
+        "metric_category": "auto_discovered"
+      },
+      "active_from": "2025-03-25",
+      "active_to": "2026-06-14",
+      "active14": true,
+      "n_fills_14d": 2,
+      "n_fills_14d_maj": 0,
+      "history": [],
+      "auto_tags": [
+        "PnL:中($100k-1M)",
+        "頻度:HFT(>3000)",
+        "銘柄:マルチ",
+        "取引あり(14d)"
+      ],
+      "notes_jp": "【現在の分類: 🟣高頻度MM / 質:中堅 / majors実現$158,071 / 最終取引2026-06-14】\n【自動発掘(2026-06-22)】HLリーダーボード(allTime $17,353,522)から発掘し既存基準で分類。回転778closes/月・黒字月率69%・履歴16ヶ月。欺瞞8軸該当: H_deliberate_dip→要精査。"
+    },
+    "0x31dea2516beee92135b96f464eeec3cf292a13f2": {
+      "address": "0x31dea2516beee92135b96f464eeec3cf292a13f2",
+      "first_seen": "2026-06-22",
+      "last_seen": "2026-06-22",
+      "times_seen": 1,
+      "position": "高頻度MM",
+      "wf_quality": "履歴薄/評価不能",
+      "metric_category": "auto_discovered",
+      "tags": [
+        "HFT:超高速(10k+/月)",
+        "自動発掘(2026-06-22)"
+      ],
+      "mm_cpm": 20554,
+      "roi_alltime": 2.0378846825,
+      "lb_alltime": 17332935,
+      "true_realized_all": -29646,
+      "true_realized_maj": -21345,
+      "n_closes": 20554,
+      "current": {
+        "win_rate": null,
+        "total_pnl": -21345,
+        "dir_accuracy": null,
+        "metric_category": "auto_discovered"
+      },
+      "active_from": "2026-06-18",
+      "active_to": "2026-06-22",
+      "active14": true,
+      "n_fills_14d": 39471,
+      "n_fills_14d_maj": 17365,
+      "history": [],
+      "auto_tags": [
+        "PnL:赤字",
+        "頻度:HFT(>3000)",
+        "銘柄:マルチ",
+        "取引あり(14d)"
+      ],
+      "notes_jp": "【現在の分類: 🟣高頻度MM / 質:履歴薄/評価不能 / majors実現$-21,345 / 最終取引2026-06-22】\n【自動発掘(2026-06-22)】HLリーダーボード(allTime $17,332,935)から発掘し既存基準で分類。回転20554closes/月・黒字月率0%・履歴1ヶ月。"
+    },
+    "0x8decc13b6e83873a78126e99036f9442019fd0b5": {
+      "address": "0x8decc13b6e83873a78126e99036f9442019fd0b5",
+      "first_seen": "2026-06-22",
+      "last_seen": "2026-06-22",
+      "times_seen": 1,
+      "position": "高頻度MM",
+      "wf_quality": "履歴薄/評価不能",
+      "metric_category": "auto_discovered",
+      "tags": [
+        "HFT:高速(3k-10k/月)",
+        "欺瞞候補:要精査",
+        "自動発掘(2026-06-22)"
+      ],
+      "mm_cpm": 4666,
+      "roi_alltime": 1.3173197211,
+      "lb_alltime": 17195096,
+      "true_realized_all": 18173456,
+      "true_realized_maj": 18840114,
+      "n_closes": 9332,
+      "current": {
+        "win_rate": null,
+        "total_pnl": 18840114,
+        "dir_accuracy": null,
+        "metric_category": "auto_discovered"
+      },
+      "active_from": "2025-09-22",
+      "active_to": "2025-10-10",
+      "active14": false,
+      "n_fills_14d": 0,
+      "n_fills_14d_maj": 0,
+      "history": [],
+      "auto_tags": [
+        "PnL:メガ(>$10M)",
+        "頻度:HFT(>3000)",
+        "銘柄:マルチ",
+        "取引なし(14d)"
+      ],
+      "notes_jp": "【現在の分類: 🟣高頻度MM / 質:履歴薄/評価不能 / majors実現$18,840,114 / 最終取引2025-10-10】\n【自動発掘(2026-06-22)】HLリーダーボード(allTime $17,195,096)から発掘し既存基準で分類。回転4666closes/月・黒字月率50%・履歴2ヶ月。欺瞞8軸該当: D_controlled_loss,H_deliberate_dip→要精査。"
+    },
+    "0x0cbf655b0d22ae71fba3a674b0e1c0c7e7f975af": {
+      "address": "0x0cbf655b0d22ae71fba3a674b0e1c0c7e7f975af",
+      "first_seen": "2026-06-22",
+      "last_seen": "2026-06-22",
+      "times_seen": 1,
+      "position": "除外/低優先",
+      "wf_quality": null,
+      "metric_category": "auto_discovered",
+      "tags": [
+        "自動発掘(2026-06-22)"
+      ],
+      "mm_cpm": null,
+      "roi_alltime": 1.9854392933,
+      "lb_alltime": 17174301,
+      "true_realized_all": -4,
+      "true_realized_maj": -4,
+      "n_closes": 6,
+      "current": {
+        "win_rate": null,
+        "total_pnl": -4,
+        "dir_accuracy": null,
+        "metric_category": "auto_discovered"
+      },
+      "active_from": "2024-07-12",
+      "active_to": "2026-05-20",
+      "active14": false,
+      "n_fills_14d": 0,
+      "n_fills_14d_maj": 0,
+      "history": [],
+      "auto_tags": [
+        "PnL:赤字",
+        "頻度:多(500+)",
+        "銘柄:マルチ",
+        "取引なし(14d)"
+      ],
+      "notes_jp": "【現在の分類: ⚫除外/低優先 / majors実現$-4 / 最終取引2026-05-20】\n【自動発掘(2026-06-22)】HLリーダーボード(allTime $17,174,301)から発掘し既存基準で分類。回転3closes/月・黒字月率50%・履歴2ヶ月。"
+    },
+    "0x045bad6ba93375aab642f502c2c89851488c129f": {
+      "address": "0x045bad6ba93375aab642f502c2c89851488c129f",
+      "first_seen": "2026-06-22",
+      "last_seen": "2026-06-22",
+      "times_seen": 1,
+      "position": "高頻度MM",
+      "wf_quality": "ムラあり",
+      "metric_category": "auto_discovered",
+      "tags": [
+        "HFT:標準(1.5k-3k/月)",
+        "自動発掘(2026-06-22)"
+      ],
+      "mm_cpm": 2996,
+      "roi_alltime": 3.5865124523,
+      "lb_alltime": 17115965,
+      "true_realized_all": -5226534,
+      "true_realized_maj": -1780844,
+      "n_closes": 26966,
+      "current": {
+        "win_rate": null,
+        "total_pnl": -1780844,
+        "dir_accuracy": null,
+        "metric_category": "auto_discovered"
+      },
+      "active_from": "2024-12-09",
+      "active_to": "2026-06-01",
+      "active14": false,
+      "n_fills_14d": 0,
+      "n_fills_14d_maj": 0,
+      "history": [],
+      "auto_tags": [
+        "PnL:赤字",
+        "頻度:HFT(>3000)",
+        "銘柄:マルチ",
+        "取引なし(14d)"
+      ],
+      "notes_jp": "【現在の分類: 🟣高頻度MM / 質:ムラあり / majors実現$-1,780,844 / 最終取引2026-06-01】\n【自動発掘(2026-06-22)】HLリーダーボード(allTime $17,115,965)から発掘し既存基準で分類。回転2996closes/月・黒字月率44%・履歴9ヶ月。"
+    },
+    "0x0aa989625dedaee97b1996edd964bbb1bf52184d": {
+      "address": "0x0aa989625dedaee97b1996edd964bbb1bf52184d",
+      "first_seen": "2026-06-22",
+      "last_seen": "2026-06-22",
+      "times_seen": 1,
+      "position": "高頻度MM",
+      "wf_quality": "中堅",
+      "metric_category": "auto_discovered",
+      "tags": [
+        "HFT:低速(〜1.5k/月)",
+        "自動発掘(2026-06-22)"
+      ],
+      "mm_cpm": 600,
+      "roi_alltime": 1.4347113265,
+      "lb_alltime": 17114644,
+      "true_realized_all": 6170954,
+      "true_realized_maj": 0,
+      "n_closes": 4800,
+      "current": {
+        "win_rate": null,
+        "total_pnl": 0,
+        "dir_accuracy": null,
+        "metric_category": "auto_discovered"
+      },
+      "active_from": "2024-11-29",
+      "active_to": "2025-08-27",
+      "active14": false,
+      "n_fills_14d": 0,
+      "n_fills_14d_maj": 0,
+      "history": [],
+      "auto_tags": [
+        "PnL:大($1-10M)",
+        "頻度:HFT(>3000)",
+        "銘柄:マルチ",
+        "取引なし(14d)"
+      ],
+      "notes_jp": "【現在の分類: 🟣高頻度MM / 質:中堅 / majors実現$0 / 最終取引2025-08-27】\n【自動発掘(2026-06-22)】HLリーダーボード(allTime $17,114,644)から発掘し既存基準で分類。回転600closes/月・黒字月率62%・履歴8ヶ月。"
+    },
+    "0xaa7577a7a27aa7fcf6d0ec481b87df3ad0f6a88e": {
+      "address": "0xaa7577a7a27aa7fcf6d0ec481b87df3ad0f6a88e",
+      "first_seen": "2026-06-22",
+      "last_seen": "2026-06-22",
+      "times_seen": 1,
+      "position": "高頻度MM",
+      "wf_quality": "履歴薄/評価不能",
+      "metric_category": "auto_discovered",
+      "tags": [
+        "HFT:低速(〜1.5k/月)",
+        "自動発掘(2026-06-22)"
+      ],
+      "mm_cpm": 497,
+      "roi_alltime": 10.0808339504,
+      "lb_alltime": 16969020,
+      "true_realized_all": 577030,
+      "true_realized_maj": 553181,
+      "n_closes": 1991,
+      "current": {
+        "win_rate": null,
+        "total_pnl": 553181,
+        "dir_accuracy": null,
+        "metric_category": "auto_discovered"
+      },
+      "active_from": "2024-12-04",
+      "active_to": "2026-06-11",
+      "active14": true,
+      "n_fills_14d": 735,
+      "n_fills_14d_maj": 0,
+      "history": [],
+      "auto_tags": [
+        "PnL:中($100k-1M)",
+        "頻度:HFT(>3000)",
+        "銘柄:マルチ",
+        "取引あり(14d)"
+      ],
+      "notes_jp": "【現在の分類: 🟣高頻度MM / 質:履歴薄/評価不能 / majors実現$553,181 / 最終取引2026-06-11】\n【自動発掘(2026-06-22)】HLリーダーボード(allTime $16,969,020)から発掘し既存基準で分類。回転497closes/月・黒字月率100%・履歴4ヶ月。"
+    },
+    "0x7839e2f2c375dd2935193f2736167514efff9916": {
+      "address": "0x7839e2f2c375dd2935193f2736167514efff9916",
+      "first_seen": "2026-06-22",
+      "last_seen": "2026-06-22",
+      "times_seen": 1,
+      "position": "高頻度MM",
+      "wf_quality": "中堅",
+      "metric_category": "auto_discovered",
+      "tags": [
+        "HFT:標準(1.5k-3k/月)",
+        "自動発掘(2026-06-22)"
+      ],
+      "mm_cpm": 1800,
+      "roi_alltime": 2.2011995918,
+      "lb_alltime": 16734708,
+      "true_realized_all": 18625,
+      "true_realized_maj": 7956,
+      "n_closes": 9004,
+      "current": {
+        "win_rate": null,
+        "total_pnl": 7956,
+        "dir_accuracy": null,
+        "metric_category": "auto_discovered"
+      },
+      "active_from": "2025-11-01",
+      "active_to": "2026-06-18",
+      "active14": true,
+      "n_fills_14d": 81,
+      "n_fills_14d_maj": 0,
+      "history": [],
+      "auto_tags": [
+        "PnL:小(<$100k)",
+        "頻度:HFT(>3000)",
+        "銘柄:マルチ",
+        "取引あり(14d)"
+      ],
+      "notes_jp": "【現在の分類: 🟣高頻度MM / 質:中堅 / majors実現$7,956 / 最終取引2026-06-18】\n【自動発掘(2026-06-22)】HLリーダーボード(allTime $16,734,708)から発掘し既存基準で分類。回転1800closes/月・黒字月率80%・履歴5ヶ月。"
+    },
+    "0xd07c845339b07d98c62f4c6b898a54b0c1baa992": {
+      "address": "0xd07c845339b07d98c62f4c6b898a54b0c1baa992",
+      "first_seen": "2026-06-22",
+      "last_seen": "2026-06-22",
+      "times_seen": 1,
+      "position": "高頻度MM",
+      "wf_quality": "履歴薄/評価不能",
+      "metric_category": "auto_discovered",
+      "tags": [
+        "HFT:高速(3k-10k/月)",
+        "自動発掘(2026-06-22)"
+      ],
+      "mm_cpm": 3194,
+      "roi_alltime": 9.9668921346,
+      "lb_alltime": 16658098,
+      "true_realized_all": 1491289,
+      "true_realized_maj": 0,
+      "n_closes": 3194,
+      "current": {
+        "win_rate": null,
+        "total_pnl": 0,
+        "dir_accuracy": null,
+        "metric_category": "auto_discovered"
+      },
+      "active_from": "2024-12-12",
+      "active_to": "2024-12-24",
+      "active14": false,
+      "n_fills_14d": 0,
+      "n_fills_14d_maj": 0,
+      "history": [],
+      "auto_tags": [
+        "PnL:大($1-10M)",
+        "頻度:HFT(>3000)",
+        "銘柄:@107主",
+        "取引なし(14d)"
+      ],
+      "notes_jp": "【現在の分類: 🟣高頻度MM / 質:履歴薄/評価不能 / majors実現$0 / 最終取引2024-12-24】\n【自動発掘(2026-06-22)】HLリーダーボード(allTime $16,658,098)から発掘し既存基準で分類。回転3194closes/月・黒字月率100%・履歴1ヶ月。"
+    },
+    "0xaeae3319f670f1f7aa18b42f9d5f3452f4ee69e6": {
+      "address": "0xaeae3319f670f1f7aa18b42f9d5f3452f4ee69e6",
+      "first_seen": "2026-06-22",
+      "last_seen": "2026-06-22",
+      "times_seen": 1,
+      "position": "除外/低優先",
+      "wf_quality": null,
+      "metric_category": "auto_discovered",
+      "tags": [
+        "自動発掘(2026-06-22)"
+      ],
+      "mm_cpm": null,
+      "roi_alltime": 12.4252594372,
+      "lb_alltime": 16413007,
+      "true_realized_all": -12377,
+      "true_realized_maj": 0,
+      "n_closes": 1998,
+      "current": {
+        "win_rate": null,
+        "total_pnl": 0,
+        "dir_accuracy": null,
+        "metric_category": "auto_discovered"
+      },
+      "active_from": "2026-05-22",
+      "active_to": "2026-06-15",
+      "active14": true,
+      "n_fills_14d": 1731,
+      "n_fills_14d_maj": 0,
+      "history": [],
+      "auto_tags": [
+        "PnL:赤字",
+        "頻度:多(500+)",
+        "銘柄:@107主",
+        "取引あり(14d)"
+      ],
+      "notes_jp": "【現在の分類: ⚫除外/低優先 / majors実現$0 / 最終取引2026-06-15】\n【自動発掘(2026-06-22)】HLリーダーボード(allTime $16,413,007)から発掘し既存基準で分類。回転999closes/月・黒字月率0%・履歴2ヶ月。"
+    },
+    "0xbb780de916dde665445f673495426c5273389dad": {
+      "address": "0xbb780de916dde665445f673495426c5273389dad",
+      "first_seen": "2026-06-22",
+      "last_seen": "2026-06-22",
+      "times_seen": 1,
+      "position": "高頻度MM",
+      "wf_quality": "ムラあり",
+      "metric_category": "auto_discovered",
+      "tags": [
+        "HFT:標準(1.5k-3k/月)",
+        "自動発掘(2026-06-22)"
+      ],
+      "mm_cpm": 1770,
+      "roi_alltime": 19.1555552514,
+      "lb_alltime": 16386204,
+      "true_realized_all": 1771262,
+      "true_realized_maj": -633376,
+      "n_closes": 7081,
+      "current": {
+        "win_rate": null,
+        "total_pnl": -633376,
+        "dir_accuracy": null,
+        "metric_category": "auto_discovered"
+      },
+      "active_from": "2024-12-01",
+      "active_to": "2025-03-02",
+      "active14": false,
+      "n_fills_14d": 0,
+      "n_fills_14d_maj": 0,
+      "history": [],
+      "auto_tags": [
+        "PnL:大($1-10M)",
+        "頻度:HFT(>3000)",
+        "銘柄:マルチ",
+        "取引なし(14d)"
+      ],
+      "notes_jp": "【現在の分類: 🟣高頻度MM / 質:ムラあり / majors実現$-633,376 / 最終取引2025-03-02】\n【自動発掘(2026-06-22)】HLリーダーボード(allTime $16,386,204)から発掘し既存基準で分類。回転1770closes/月・黒字月率25%・履歴4ヶ月。"
+    },
+    "0xa2d1dd0f09239349354b662f75fbd81f3dbc824e": {
+      "address": "0xa2d1dd0f09239349354b662f75fbd81f3dbc824e",
+      "first_seen": "2026-06-22",
+      "last_seen": "2026-06-22",
+      "times_seen": 1,
+      "position": "高頻度MM",
+      "wf_quality": "中堅",
+      "metric_category": "auto_discovered",
+      "tags": [
+        "HFT:低速(〜1.5k/月)",
+        "欺瞞候補:要精査",
+        "自動発掘(2026-06-22)"
+      ],
+      "mm_cpm": 642,
+      "roi_alltime": 5.8292468137,
+      "lb_alltime": 16342380,
+      "true_realized_all": 303523,
+      "true_realized_maj": 1362,
+      "n_closes": 7065,
+      "current": {
+        "win_rate": null,
+        "total_pnl": 1362,
+        "dir_accuracy": null,
+        "metric_category": "auto_discovered"
+      },
+      "active_from": "2025-02-05",
+      "active_to": "2026-06-14",
+      "active14": true,
+      "n_fills_14d": 66,
+      "n_fills_14d_maj": 0,
+      "history": [],
+      "auto_tags": [
+        "PnL:中($100k-1M)",
+        "頻度:HFT(>3000)",
+        "銘柄:マルチ",
+        "取引あり(14d)"
+      ],
+      "notes_jp": "【現在の分類: 🟣高頻度MM / 質:中堅 / majors実現$1,362 / 最終取引2026-06-14】\n【自動発掘(2026-06-22)】HLリーダーボード(allTime $16,342,380)から発掘し既存基準で分類。回転642closes/月・黒字月率64%・履歴11ヶ月。欺瞞8軸該当: C_dormant_burst,H_deliberate_dip→要精査。"
+    },
+    "0x372c7f69d0ecc14f73f89bd8a7dfb41bdf29857c": {
+      "address": "0x372c7f69d0ecc14f73f89bd8a7dfb41bdf29857c",
+      "first_seen": "2026-06-22",
+      "last_seen": "2026-06-22",
+      "times_seen": 1,
+      "position": "alt主体プロ",
+      "wf_quality": "alt主体",
+      "metric_category": "auto_discovered",
+      "tags": [
+        "欺瞞候補:要精査",
+        "自動発掘(2026-06-22)"
+      ],
+      "mm_cpm": null,
+      "roi_alltime": 0.9224969257,
+      "lb_alltime": 16300214,
+      "true_realized_all": 66905,
+      "true_realized_maj": 0,
+      "n_closes": 278,
+      "current": {
+        "win_rate": null,
+        "total_pnl": 0,
+        "dir_accuracy": null,
+        "metric_category": "auto_discovered"
+      },
+      "active_from": "2025-05-16",
+      "active_to": "2026-05-20",
+      "active14": false,
+      "n_fills_14d": 0,
+      "n_fills_14d_maj": 0,
+      "history": [],
+      "auto_tags": [
+        "PnL:小(<$100k)",
+        "頻度:多(500+)",
+        "銘柄:マルチ",
+        "取引なし(14d)"
+      ],
+      "notes_jp": "【現在の分類: 🔵alt主体プロ / 質:alt主体 / majors実現$0 / 最終取引2026-05-20】\n【自動発掘(2026-06-22)】HLリーダーボード(allTime $16,300,214)から発掘し既存基準で分類。回転25closes/月・黒字月率55%・履歴11ヶ月。欺瞞8軸該当: C_dormant_burst→要精査。"
+    },
+    "0xd87a9fc25130c68c3ea25437c34e0b9317cd7a3d": {
+      "address": "0xd87a9fc25130c68c3ea25437c34e0b9317cd7a3d",
+      "first_seen": "2026-06-22",
+      "last_seen": "2026-06-22",
+      "times_seen": 1,
+      "position": "alt主体プロ",
+      "wf_quality": "alt主体",
+      "metric_category": "auto_discovered",
+      "tags": [
+        "自動発掘(2026-06-22)"
+      ],
+      "mm_cpm": null,
+      "roi_alltime": 1.4396284205,
+      "lb_alltime": 16236019,
+      "true_realized_all": 109,
+      "true_realized_maj": 0,
+      "n_closes": 2,
+      "current": {
+        "win_rate": null,
+        "total_pnl": 0,
+        "dir_accuracy": null,
+        "metric_category": "auto_discovered"
+      },
+      "active_from": "2025-01-09",
+      "active_to": "2025-08-16",
+      "active14": false,
+      "n_fills_14d": 0,
+      "n_fills_14d_maj": 0,
+      "history": [],
+      "auto_tags": [
+        "PnL:小(<$100k)",
+        "頻度:少(<50)",
+        "銘柄:マルチ",
+        "取引なし(14d)"
+      ],
+      "notes_jp": "【現在の分類: 🔵alt主体プロ / 質:alt主体 / majors実現$0 / 最終取引2025-08-16】\n【自動発掘(2026-06-22)】HLリーダーボード(allTime $16,236,019)から発掘し既存基準で分類。回転2closes/月・黒字月率100%・履歴1ヶ月。"
+    },
+    "0x142a1aad965db6b3d2ad63b174419a3095bfa4c0": {
+      "address": "0x142a1aad965db6b3d2ad63b174419a3095bfa4c0",
+      "first_seen": "2026-06-22",
+      "last_seen": "2026-06-22",
+      "times_seen": 1,
+      "position": "高頻度MM",
+      "wf_quality": "堅実",
+      "metric_category": "auto_discovered",
+      "tags": [
+        "HFT:低速(〜1.5k/月)",
+        "欺瞞候補:要精査",
+        "自動発掘(2026-06-22)"
+      ],
+      "mm_cpm": 654,
+      "roi_alltime": 0.8058996406,
+      "lb_alltime": 16184638,
+      "true_realized_all": 7472216,
+      "true_realized_maj": 0,
+      "n_closes": 6544,
+      "current": {
+        "win_rate": null,
+        "total_pnl": 0,
+        "dir_accuracy": null,
+        "metric_category": "auto_discovered"
+      },
+      "active_from": "2024-11-29",
+      "active_to": "2025-08-27",
+      "active14": false,
+      "n_fills_14d": 0,
+      "n_fills_14d_maj": 0,
+      "history": [],
+      "auto_tags": [
+        "PnL:大($1-10M)",
+        "頻度:HFT(>3000)",
+        "銘柄:マルチ",
+        "取引なし(14d)"
+      ],
+      "notes_jp": "【現在の分類: 🟣高頻度MM / 質:堅実 / majors実現$0 / 最終取引2025-08-27】\n【自動発掘(2026-06-22)】HLリーダーボード(allTime $16,184,638)から発掘し既存基準で分類。回転654closes/月・黒字月率70%・履歴10ヶ月。欺瞞8軸該当: C_dormant_burst→要精査。"
+    },
+    "0xb69fbfd47bcc51c2deb0587bd88f52e1c40238e5": {
+      "address": "0xb69fbfd47bcc51c2deb0587bd88f52e1c40238e5",
+      "first_seen": "2026-06-22",
+      "last_seen": "2026-06-22",
+      "times_seen": 1,
+      "position": "alt主体プロ",
+      "wf_quality": "alt主体",
+      "metric_category": "auto_discovered",
+      "tags": [
+        "自動発掘(2026-06-22)"
+      ],
+      "mm_cpm": null,
+      "roi_alltime": 4.5926097052,
+      "lb_alltime": 15857459,
+      "true_realized_all": 5459301,
+      "true_realized_maj": 0,
+      "n_closes": 871,
+      "current": {
+        "win_rate": null,
+        "total_pnl": 0,
+        "dir_accuracy": null,
+        "metric_category": "auto_discovered"
+      },
+      "active_from": "2024-11-21",
+      "active_to": "2026-06-16",
+      "active14": true,
+      "n_fills_14d": 868,
+      "n_fills_14d_maj": 0,
+      "history": [],
+      "auto_tags": [
+        "PnL:大($1-10M)",
+        "頻度:多(500+)",
+        "銘柄:@107主",
+        "取引あり(14d)"
+      ],
+      "notes_jp": "【現在の分類: 🔵alt主体プロ / 質:alt主体 / majors実現$0 / 最終取引2026-06-16】\n【自動発掘(2026-06-22)】HLリーダーボード(allTime $15,857,459)から発掘し既存基準で分類。回転290closes/月・黒字月率67%・履歴3ヶ月。"
+    },
+    "0xd282232463d50d54ccbccf0edc5c7562ae47c1e7": {
+      "address": "0xd282232463d50d54ccbccf0edc5c7562ae47c1e7",
+      "first_seen": "2026-06-22",
+      "last_seen": "2026-06-22",
+      "times_seen": 1,
+      "position": "高頻度MM",
+      "wf_quality": "履歴薄/評価不能",
+      "metric_category": "auto_discovered",
+      "tags": [
+        "HFT:低速(〜1.5k/月)",
+        "欺瞞候補:要精査",
+        "自動発掘(2026-06-22)"
+      ],
+      "mm_cpm": 1330,
+      "roi_alltime": 0.8638374054,
+      "lb_alltime": 15790763,
+      "true_realized_all": 6857495,
+      "true_realized_maj": 0,
+      "n_closes": 3991,
+      "current": {
+        "win_rate": null,
+        "total_pnl": 0,
+        "dir_accuracy": null,
+        "metric_category": "auto_discovered"
+      },
+      "active_from": "2024-12-12",
+      "active_to": "2025-10-15",
+      "active14": false,
+      "n_fills_14d": 0,
+      "n_fills_14d_maj": 0,
+      "history": [],
+      "auto_tags": [
+        "PnL:大($1-10M)",
+        "頻度:HFT(>3000)",
+        "銘柄:マルチ",
+        "取引なし(14d)"
+      ],
+      "notes_jp": "【現在の分類: 🟣高頻度MM / 質:履歴薄/評価不能 / majors実現$0 / 最終取引2025-10-15】\n【自動発掘(2026-06-22)】HLリーダーボード(allTime $15,790,763)から発掘し既存基準で分類。回転1330closes/月・黒字月率100%・履歴3ヶ月。欺瞞8軸該当: C_dormant_burst→要精査。"
+    },
+    "0xea1feb9a9a006a7fc253c6ca87349be0da072f25": {
+      "address": "0xea1feb9a9a006a7fc253c6ca87349be0da072f25",
+      "first_seen": "2026-06-22",
+      "last_seen": "2026-06-22",
+      "times_seen": 1,
+      "position": "alt主体プロ",
+      "wf_quality": "alt主体",
+      "metric_category": "auto_discovered",
+      "tags": [
+        "欺瞞候補:要精査",
+        "自動発掘(2026-06-22)"
+      ],
+      "mm_cpm": null,
+      "roi_alltime": 28.1903229763,
+      "lb_alltime": 15582757,
+      "true_realized_all": 346711,
+      "true_realized_maj": 0,
+      "n_closes": 343,
+      "current": {
+        "win_rate": null,
+        "total_pnl": 0,
+        "dir_accuracy": null,
+        "metric_category": "auto_discovered"
+      },
+      "active_from": "2024-04-18",
+      "active_to": "2026-06-01",
+      "active14": false,
+      "n_fills_14d": 0,
+      "n_fills_14d_maj": 0,
+      "history": [],
+      "auto_tags": [
+        "PnL:中($100k-1M)",
+        "頻度:多(500+)",
+        "銘柄:マルチ",
+        "取引なし(14d)"
+      ],
+      "notes_jp": "【現在の分類: 🔵alt主体プロ / 質:alt主体 / majors実現$0 / 最終取引2026-06-01】\n【自動発掘(2026-06-22)】HLリーダーボード(allTime $15,582,757)から発掘し既存基準で分類。回転34closes/月・黒字月率70%・履歴10ヶ月。欺瞞8軸該当: C_dormant_burst,H_deliberate_dip→要精査。"
+    },
+    "0xb9c0283968744b80aef904455bb3dfc7ffd6801e": {
+      "address": "0xb9c0283968744b80aef904455bb3dfc7ffd6801e",
+      "first_seen": "2026-06-22",
+      "last_seen": "2026-06-22",
+      "times_seen": 1,
+      "position": "高頻度MM",
+      "wf_quality": "履歴薄/評価不能",
+      "metric_category": "auto_discovered",
+      "tags": [
+        "HFT:低速(〜1.5k/月)",
+        "自動発掘(2026-06-22)"
+      ],
+      "mm_cpm": 456,
+      "roi_alltime": 151390.117,
+      "lb_alltime": 15139012,
+      "true_realized_all": 14128221,
+      "true_realized_maj": 0,
+      "n_closes": 456,
+      "current": {
+        "win_rate": null,
+        "total_pnl": 0,
+        "dir_accuracy": null,
+        "metric_category": "auto_discovered"
+      },
+      "active_from": "2025-08-24",
+      "active_to": "2025-08-28",
+      "active14": false,
+      "n_fills_14d": 0,
+      "n_fills_14d_maj": 0,
+      "history": [],
+      "auto_tags": [
+        "PnL:メガ(>$10M)",
+        "頻度:HFT(>3000)",
+        "銘柄:XPL主",
+        "取引なし(14d)"
+      ],
+      "notes_jp": "【現在の分類: 🟣高頻度MM / 質:履歴薄/評価不能 / majors実現$0 / 最終取引2025-08-28】\n【自動発掘(2026-06-22)】HLリーダーボード(allTime $15,139,012)から発掘し既存基準で分類。回転456closes/月・黒字月率100%・履歴1ヶ月。"
+    },
+    "0x7a6d5fc57f6906f337c48fe2763c3a501304f79c": {
+      "address": "0x7a6d5fc57f6906f337c48fe2763c3a501304f79c",
+      "first_seen": "2026-06-22",
+      "last_seen": "2026-06-22",
+      "times_seen": 1,
+      "position": "高頻度MM",
+      "wf_quality": "履歴薄/評価不能",
+      "metric_category": "auto_discovered",
+      "tags": [
+        "HFT:標準(1.5k-3k/月)",
+        "欺瞞候補:要精査",
+        "自動発掘(2026-06-22)"
+      ],
+      "mm_cpm": 1712,
+      "roi_alltime": 3.5238781011,
+      "lb_alltime": 14875990,
+      "true_realized_all": 105986,
+      "true_realized_maj": -89667,
+      "n_closes": 3425,
+      "current": {
+        "win_rate": null,
+        "total_pnl": -89667,
+        "dir_accuracy": null,
+        "metric_category": "auto_discovered"
+      },
+      "active_from": "2026-05-02",
+      "active_to": "2026-06-04",
+      "active14": false,
+      "n_fills_14d": 0,
+      "n_fills_14d_maj": 0,
+      "history": [],
+      "auto_tags": [
+        "PnL:中($100k-1M)",
+        "頻度:HFT(>3000)",
+        "銘柄:マルチ",
+        "取引なし(14d)"
+      ],
+      "notes_jp": "【現在の分類: 🟣高頻度MM / 質:履歴薄/評価不能 / majors実現$-89,667 / 最終取引2026-06-04】\n【自動発掘(2026-06-22)】HLリーダーボード(allTime $14,875,990)から発掘し既存基準で分類。回転1712closes/月・黒字月率50%・履歴2ヶ月。欺瞞8軸該当: H_deliberate_dip→要精査。"
+    },
+    "0xcbcbc9e34f050489c812d742df5ca77b48c11064": {
+      "address": "0xcbcbc9e34f050489c812d742df5ca77b48c11064",
+      "first_seen": "2026-06-22",
+      "last_seen": "2026-06-22",
+      "times_seen": 1,
+      "position": "プロトレーダー(本物)",
+      "wf_quality": "履歴薄/評価不能",
+      "metric_category": "auto_discovered",
+      "tags": [
+        "自動発掘(2026-06-22)"
+      ],
+      "mm_cpm": null,
+      "roi_alltime": 1.7417579709,
+      "lb_alltime": 14786778,
+      "true_realized_all": 484,
+      "true_realized_maj": 364,
+      "n_closes": 11,
+      "current": {
+        "win_rate": null,
+        "total_pnl": 364,
+        "dir_accuracy": null,
+        "metric_category": "auto_discovered"
+      },
+      "active_from": "2024-12-19",
+      "active_to": "2025-01-09",
+      "active14": false,
+      "n_fills_14d": 0,
+      "n_fills_14d_maj": 0,
+      "history": [],
+      "auto_tags": [
+        "PnL:小(<$100k)",
+        "頻度:少(<50)",
+        "銘柄:マルチ",
+        "取引なし(14d)"
+      ],
+      "notes_jp": "【現在の分類: 🟢プロ(本物) / 質:履歴薄/評価不能 / majors実現$364 / 最終取引2025-01-09】\n【自動発掘(2026-06-22)】HLリーダーボード(allTime $14,786,778)から発掘し既存基準で分類。回転5closes/月・黒字月率100%・履歴2ヶ月。"
+    },
+    "0xf28e1b06e00e8774c612e31ab3ac35d5a720085f": {
+      "address": "0xf28e1b06e00e8774c612e31ab3ac35d5a720085f",
+      "first_seen": "2026-06-22",
+      "last_seen": "2026-06-22",
+      "times_seen": 1,
+      "position": "高頻度MM",
+      "wf_quality": "履歴薄/評価不能",
+      "metric_category": "auto_discovered",
+      "tags": [
+        "HFT:高速(3k-10k/月)",
+        "自動発掘(2026-06-22)"
+      ],
+      "mm_cpm": 5922,
+      "roi_alltime": 1.2185952185,
+      "lb_alltime": 14603946,
+      "true_realized_all": 30524,
+      "true_realized_maj": 31,
+      "n_closes": 5922,
+      "current": {
+        "win_rate": null,
+        "total_pnl": 31,
+        "dir_accuracy": null,
+        "metric_category": "auto_discovered"
+      },
+      "active_from": "2026-06-21",
+      "active_to": "2026-06-22",
+      "active14": true,
+      "n_fills_14d": 19222,
+      "n_fills_14d_maj": 8,
+      "history": [],
+      "auto_tags": [
+        "PnL:小(<$100k)",
+        "頻度:HFT(>3000)",
+        "銘柄:マルチ",
+        "取引あり(14d)"
+      ],
+      "notes_jp": "【現在の分類: 🟣高頻度MM / 質:履歴薄/評価不能 / majors実現$31 / 最終取引2026-06-22】\n【自動発掘(2026-06-22)】HLリーダーボード(allTime $14,603,946)から発掘し既存基準で分類。回転5922closes/月・黒字月率100%・履歴1ヶ月。"
+    },
+    "0xceec48581b3145a575508719f45da07dc57fa7ce": {
+      "address": "0xceec48581b3145a575508719f45da07dc57fa7ce",
+      "first_seen": "2026-06-22",
+      "last_seen": "2026-06-22",
+      "times_seen": 1,
+      "position": "高頻度MM",
+      "wf_quality": "ムラあり",
+      "metric_category": "auto_discovered",
+      "tags": [
+        "HFT:標準(1.5k-3k/月)",
+        "自動発掘(2026-06-22)"
+      ],
+      "mm_cpm": 2277,
+      "roi_alltime": 5.1661751489,
+      "lb_alltime": 14570493,
+      "true_realized_all": -5842913,
+      "true_realized_maj": 191845,
+      "n_closes": 25048,
+      "current": {
+        "win_rate": null,
+        "total_pnl": 191845,
+        "dir_accuracy": null,
+        "metric_category": "auto_discovered"
+      },
+      "active_from": "2025-08-28",
+      "active_to": "2026-06-19",
+      "active14": true,
+      "n_fills_14d": 234,
+      "n_fills_14d_maj": 0,
+      "history": [],
+      "auto_tags": [
+        "PnL:赤字",
+        "頻度:HFT(>3000)",
+        "銘柄:マルチ",
+        "取引あり(14d)"
+      ],
+      "notes_jp": "【現在の分類: 🟣高頻度MM / 質:ムラあり / majors実現$191,845 / 最終取引2026-06-19】\n【自動発掘(2026-06-22)】HLリーダーボード(allTime $14,570,493)から発掘し既存基準で分類。回転2277closes/月・黒字月率18%・履歴11ヶ月。"
+    },
+    "0x89c645ecbd07825b194e3b98300eb3497aaba406": {
+      "address": "0x89c645ecbd07825b194e3b98300eb3497aaba406",
+      "first_seen": "2026-06-22",
+      "last_seen": "2026-06-22",
+      "times_seen": 1,
+      "position": "高頻度MM",
+      "wf_quality": "ムラあり",
+      "metric_category": "auto_discovered",
+      "tags": [
+        "HFT:標準(1.5k-3k/月)",
+        "自動発掘(2026-06-22)"
+      ],
+      "mm_cpm": 1514,
+      "roi_alltime": 4.1366790546,
+      "lb_alltime": 14483755,
+      "true_realized_all": -758,
+      "true_realized_maj": 0,
+      "n_closes": 7573,
+      "current": {
+        "win_rate": null,
+        "total_pnl": 0,
+        "dir_accuracy": null,
+        "metric_category": "auto_discovered"
+      },
+      "active_from": "2025-10-27",
+      "active_to": "2026-04-03",
+      "active14": false,
+      "n_fills_14d": 0,
+      "n_fills_14d_maj": 0,
+      "history": [],
+      "auto_tags": [
+        "PnL:赤字",
+        "頻度:HFT(>3000)",
+        "銘柄:マルチ",
+        "取引なし(14d)"
+      ],
+      "notes_jp": "【現在の分類: 🟣高頻度MM / 質:ムラあり / majors実現$0 / 最終取引2026-04-03】\n【自動発掘(2026-06-22)】HLリーダーボード(allTime $14,483,755)から発掘し既存基準で分類。回転1514closes/月・黒字月率60%・履歴5ヶ月。"
+    },
+    "0x2ba553d9f990a3b66b03b2dc0d030dfc1c061036": {
+      "address": "0x2ba553d9f990a3b66b03b2dc0d030dfc1c061036",
+      "first_seen": "2026-06-22",
+      "last_seen": "2026-06-22",
+      "times_seen": 1,
+      "position": "高頻度MM",
+      "wf_quality": "履歴薄/評価不能",
+      "metric_category": "auto_discovered",
+      "tags": [
+        "HFT:高速(3k-10k/月)",
+        "自動発掘(2026-06-22)"
+      ],
+      "mm_cpm": 5416,
+      "roi_alltime": 1.0693930968,
+      "lb_alltime": 14296978,
+      "true_realized_all": -88818,
+      "true_realized_maj": 132921,
+      "n_closes": 10833,
+      "current": {
+        "win_rate": null,
+        "total_pnl": 132921,
+        "dir_accuracy": null,
+        "metric_category": "auto_discovered"
+      },
+      "active_from": "2026-02-01",
+      "active_to": "2026-03-17",
+      "active14": false,
+      "n_fills_14d": 0,
+      "n_fills_14d_maj": 0,
+      "history": [],
+      "auto_tags": [
+        "PnL:赤字",
+        "頻度:HFT(>3000)",
+        "銘柄:マルチ",
+        "取引なし(14d)"
+      ],
+      "notes_jp": "【現在の分類: 🟣高頻度MM / 質:履歴薄/評価不能 / majors実現$132,921 / 最終取引2026-03-17】\n【自動発掘(2026-06-22)】HLリーダーボード(allTime $14,296,978)から発掘し既存基準で分類。回転5416closes/月・黒字月率0%・履歴2ヶ月。"
+    },
+    "0xb2ee477ced8d69afdb5707b31170c782f5f26f5b": {
+      "address": "0xb2ee477ced8d69afdb5707b31170c782f5f26f5b",
+      "first_seen": "2026-06-22",
+      "last_seen": "2026-06-22",
+      "times_seen": 1,
+      "position": "alt主体プロ",
+      "wf_quality": "alt主体",
+      "metric_category": "auto_discovered",
+      "tags": [
+        "自動発掘(2026-06-22)"
+      ],
+      "mm_cpm": null,
+      "roi_alltime": 8.7875132057,
+      "lb_alltime": 14185550,
+      "true_realized_all": 9984,
+      "true_realized_maj": -2517,
+      "n_closes": 921,
+      "current": {
+        "win_rate": null,
+        "total_pnl": -2517,
+        "dir_accuracy": null,
+        "metric_category": "auto_discovered"
+      },
+      "active_from": "2024-01-22",
+      "active_to": "2025-06-16",
+      "active14": false,
+      "n_fills_14d": 0,
+      "n_fills_14d_maj": 0,
+      "history": [],
+      "auto_tags": [
+        "PnL:小(<$100k)",
+        "頻度:多(500+)",
+        "銘柄:マルチ",
+        "取引なし(14d)"
+      ],
+      "notes_jp": "【現在の分類: 🔵alt主体プロ / 質:alt主体 / majors実現$-2,517 / 最終取引2025-06-16】\n【自動発掘(2026-06-22)】HLリーダーボード(allTime $14,185,550)から発掘し既存基準で分類。回転76closes/月・黒字月率50%・履歴12ヶ月。"
+    },
+    "0xb82359e0fdf3095dd8471df3f3c26aba5b369763": {
+      "address": "0xb82359e0fdf3095dd8471df3f3c26aba5b369763",
+      "first_seen": "2026-06-22",
+      "last_seen": "2026-06-22",
+      "times_seen": 1,
+      "position": "高頻度MM",
+      "wf_quality": "ムラあり",
+      "metric_category": "auto_discovered",
+      "tags": [
+        "HFT:低速(〜1.5k/月)",
+        "自動発掘(2026-06-22)"
+      ],
+      "mm_cpm": 225,
+      "roi_alltime": 24.1673319502,
+      "lb_alltime": 14173984,
+      "true_realized_all": -1130240,
+      "true_realized_maj": 68757,
+      "n_closes": 3610,
+      "current": {
+        "win_rate": null,
+        "total_pnl": 68757,
+        "dir_accuracy": null,
+        "metric_category": "auto_discovered"
+      },
+      "active_from": "2024-04-16",
+      "active_to": "2026-05-22",
+      "active14": false,
+      "n_fills_14d": 0,
+      "n_fills_14d_maj": 0,
+      "history": [],
+      "auto_tags": [
+        "PnL:赤字",
+        "頻度:HFT(>3000)",
+        "銘柄:マルチ",
+        "取引なし(14d)"
+      ],
+      "notes_jp": "【現在の分類: 🟣高頻度MM / 質:ムラあり / majors実現$68,757 / 最終取引2026-05-22】\n【自動発掘(2026-06-22)】HLリーダーボード(allTime $14,173,984)から発掘し既存基準で分類。回転225closes/月・黒字月率62%・履歴16ヶ月。"
+    },
+    "0xb3e475368ed0fa0ad23c04de0423d48a0758806f": {
+      "address": "0xb3e475368ed0fa0ad23c04de0423d48a0758806f",
+      "first_seen": "2026-06-22",
+      "last_seen": "2026-06-22",
+      "times_seen": 1,
+      "position": "高頻度MM",
+      "wf_quality": "ムラあり",
+      "metric_category": "auto_discovered",
+      "tags": [
+        "HFT:標準(1.5k-3k/月)",
+        "自動発掘(2026-06-22)"
+      ],
+      "mm_cpm": 2134,
+      "roi_alltime": 2.0200053164,
+      "lb_alltime": 14128580,
+      "true_realized_all": -799203,
+      "true_realized_maj": -456287,
+      "n_closes": 10673,
+      "current": {
+        "win_rate": null,
+        "total_pnl": -456287,
+        "dir_accuracy": null,
+        "metric_category": "auto_discovered"
+      },
+      "active_from": "2026-02-09",
+      "active_to": "2026-06-21",
+      "active14": true,
+      "n_fills_14d": 2938,
+      "n_fills_14d_maj": 0,
+      "history": [],
+      "auto_tags": [
+        "PnL:赤字",
+        "頻度:HFT(>3000)",
+        "銘柄:マルチ",
+        "取引あり(14d)"
+      ],
+      "notes_jp": "【現在の分類: 🟣高頻度MM / 質:ムラあり / majors実現$-456,287 / 最終取引2026-06-21】\n【自動発掘(2026-06-22)】HLリーダーボード(allTime $14,128,580)から発掘し既存基準で分類。回転2134closes/月・黒字月率20%・履歴5ヶ月。"
+    },
+    "0x7bfee91193d9df2ac0bfe90191d40f23c773c060": {
+      "address": "0x7bfee91193d9df2ac0bfe90191d40f23c773c060",
+      "first_seen": "2026-06-22",
+      "last_seen": "2026-06-22",
+      "times_seen": 1,
+      "position": "高頻度MM",
+      "wf_quality": "履歴薄/評価不能",
+      "metric_category": "auto_discovered",
+      "tags": [
+        "HFT:超高速(10k+/月)",
+        "自動発掘(2026-06-22)"
+      ],
+      "mm_cpm": 12043,
+      "roi_alltime": 18.4005916809,
+      "lb_alltime": 14034807,
+      "true_realized_all": -6146,
+      "true_realized_maj": -44,
+      "n_closes": 12043,
+      "current": {
+        "win_rate": null,
+        "total_pnl": -44,
+        "dir_accuracy": null,
+        "metric_category": "auto_discovered"
+      },
+      "active_from": "2026-06-14",
+      "active_to": "2026-06-21",
+      "active14": true,
+      "n_fills_14d": 18701,
+      "n_fills_14d_maj": 711,
+      "history": [],
+      "auto_tags": [
+        "PnL:赤字",
+        "頻度:HFT(>3000)",
+        "銘柄:マルチ",
+        "取引あり(14d)"
+      ],
+      "notes_jp": "【現在の分類: 🟣高頻度MM / 質:履歴薄/評価不能 / majors実現$-44 / 最終取引2026-06-21】\n【自動発掘(2026-06-22)】HLリーダーボード(allTime $14,034,807)から発掘し既存基準で分類。回転12043closes/月・黒字月率0%・履歴1ヶ月。"
+    },
+    "0xff8850989681b1163cbaf0b0f6b719c1c663dc25": {
+      "address": "0xff8850989681b1163cbaf0b0f6b719c1c663dc25",
+      "first_seen": "2026-06-22",
+      "last_seen": "2026-06-22",
+      "times_seen": 1,
+      "position": "高頻度MM",
+      "wf_quality": "履歴薄/評価不能",
+      "metric_category": "auto_discovered",
+      "tags": [
+        "HFT:高速(3k-10k/月)",
+        "自動発掘(2026-06-22)"
+      ],
+      "mm_cpm": 9529,
+      "roi_alltime": 1.434092968,
+      "lb_alltime": 13951903,
+      "true_realized_all": 40775,
+      "true_realized_maj": -11907,
+      "n_closes": 9529,
+      "current": {
+        "win_rate": null,
+        "total_pnl": -11907,
+        "dir_accuracy": null,
+        "metric_category": "auto_discovered"
+      },
+      "active_from": "2025-06-01",
+      "active_to": "2026-04-30",
+      "active14": false,
+      "n_fills_14d": 0,
+      "n_fills_14d_maj": 0,
+      "history": [],
+      "auto_tags": [
+        "PnL:小(<$100k)",
+        "頻度:HFT(>3000)",
+        "銘柄:マルチ",
+        "取引なし(14d)"
+      ],
+      "notes_jp": "【現在の分類: 🟣高頻度MM / 質:履歴薄/評価不能 / majors実現$-11,907 / 最終取引2026-04-30】\n【自動発掘(2026-06-22)】HLリーダーボード(allTime $13,951,903)から発掘し既存基準で分類。回転9529closes/月・黒字月率100%・履歴1ヶ月。"
+    },
+    "0xddb408b95e515eea9933c0d461efcf77c89c32a0": {
+      "address": "0xddb408b95e515eea9933c0d461efcf77c89c32a0",
+      "first_seen": "2026-06-22",
+      "last_seen": "2026-06-22",
+      "times_seen": 1,
+      "position": "高頻度MM",
+      "wf_quality": "中堅",
+      "metric_category": "auto_discovered",
+      "tags": [
+        "HFT:低速(〜1.5k/月)",
+        "自動発掘(2026-06-22)"
+      ],
+      "mm_cpm": 626,
+      "roi_alltime": 2.3124408892,
+      "lb_alltime": 13891300,
+      "true_realized_all": 2771897,
+      "true_realized_maj": 159145,
+      "n_closes": 2507,
+      "current": {
+        "win_rate": null,
+        "total_pnl": 159145,
+        "dir_accuracy": null,
+        "metric_category": "auto_discovered"
+      },
+      "active_from": "2025-06-22",
+      "active_to": "2026-06-05",
+      "active14": false,
+      "n_fills_14d": 0,
+      "n_fills_14d_maj": 0,
+      "history": [],
+      "auto_tags": [
+        "PnL:大($1-10M)",
+        "頻度:HFT(>3000)",
+        "銘柄:マルチ",
+        "取引なし(14d)"
+      ],
+      "notes_jp": "【現在の分類: 🟣高頻度MM / 質:中堅 / majors実現$159,145 / 最終取引2026-06-05】\n【自動発掘(2026-06-22)】HLリーダーボード(allTime $13,891,300)から発掘し既存基準で分類。回転626closes/月・黒字月率75%・履歴4ヶ月。"
+    },
+    "0x6d8db35bc58c9cc930b0a65282e96c69d9715e06": {
+      "address": "0x6d8db35bc58c9cc930b0a65282e96c69d9715e06",
+      "first_seen": "2026-06-22",
+      "last_seen": "2026-06-22",
+      "times_seen": 1,
+      "position": "除外/低優先",
+      "wf_quality": null,
+      "metric_category": "auto_discovered",
+      "tags": [
+        "自動発掘(2026-06-22)"
+      ],
+      "mm_cpm": null,
+      "roi_alltime": 15.02766127,
+      "lb_alltime": 13849865,
+      "true_realized_all": 0,
+      "true_realized_maj": 0,
+      "n_closes": 0,
+      "current": {
+        "win_rate": null,
+        "total_pnl": 0,
+        "dir_accuracy": null,
+        "metric_category": "auto_discovered"
+      },
+      "active_from": "2024-11-29",
+      "active_to": "2024-11-29",
+      "active14": false,
+      "n_fills_14d": 0,
+      "n_fills_14d_maj": 0,
+      "history": [],
+      "auto_tags": [
+        "PnL:小(<$100k)",
+        "頻度:少(<50)",
+        "銘柄:@107専",
+        "取引なし(14d)"
+      ],
+      "notes_jp": "【現在の分類: ⚫除外/低優先 / majors実現$0 / 最終取引2024-11-29】\n【自動発掘(2026-06-22)】HLリーダーボード(allTime $13,849,865)から発掘し既存基準で分類。回転0closes/月・黒字月率0%・履歴0ヶ月。"
+    },
+    "0xcdb4b5f351974fd86106e2f2e02e09d17ea65476": {
+      "address": "0xcdb4b5f351974fd86106e2f2e02e09d17ea65476",
+      "first_seen": "2026-06-22",
+      "last_seen": "2026-06-22",
+      "times_seen": 1,
+      "position": "高頻度MM",
+      "wf_quality": "ムラあり",
+      "metric_category": "auto_discovered",
+      "tags": [
+        "HFT:低速(〜1.5k/月)",
+        "自動発掘(2026-06-22)"
+      ],
+      "mm_cpm": 307,
+      "roi_alltime": 27.7115207164,
+      "lb_alltime": 13772460,
+      "true_realized_all": -337305,
+      "true_realized_maj": 34285,
+      "n_closes": 1843,
+      "current": {
+        "win_rate": null,
+        "total_pnl": 34285,
+        "dir_accuracy": null,
+        "metric_category": "auto_discovered"
+      },
+      "active_from": "2023-11-25",
+      "active_to": "2026-01-19",
+      "active14": false,
+      "n_fills_14d": 0,
+      "n_fills_14d_maj": 0,
+      "history": [],
+      "auto_tags": [
+        "PnL:赤字",
+        "頻度:HFT(>3000)",
+        "銘柄:マルチ",
+        "取引なし(14d)"
+      ],
+      "notes_jp": "【現在の分類: 🟣高頻度MM / 質:ムラあり / majors実現$34,285 / 最終取引2026-01-19】\n【自動発掘(2026-06-22)】HLリーダーボード(allTime $13,772,460)から発掘し既存基準で分類。回転307closes/月・黒字月率83%・履歴6ヶ月。"
+    },
+    "0x4a96036fb1529561fa3eeeb2781fad2d4f25500e": {
+      "address": "0x4a96036fb1529561fa3eeeb2781fad2d4f25500e",
+      "first_seen": "2026-06-22",
+      "last_seen": "2026-06-22",
+      "times_seen": 1,
+      "position": "高頻度MM",
+      "wf_quality": "履歴薄/評価不能",
+      "metric_category": "auto_discovered",
+      "tags": [
+        "HFT:高速(3k-10k/月)",
+        "欺瞞候補:要精査",
+        "自動発掘(2026-06-22)"
+      ],
+      "mm_cpm": 4250,
+      "roi_alltime": 2.7318009177,
+      "lb_alltime": 13631989,
+      "true_realized_all": 1166664,
+      "true_realized_maj": -84087,
+      "n_closes": 8500,
+      "current": {
+        "win_rate": null,
+        "total_pnl": -84087,
+        "dir_accuracy": null,
+        "metric_category": "auto_discovered"
+      },
+      "active_from": "2026-01-05",
+      "active_to": "2026-06-19",
+      "active14": true,
+      "n_fills_14d": 689,
+      "n_fills_14d_maj": 0,
+      "history": [],
+      "auto_tags": [
+        "PnL:大($1-10M)",
+        "頻度:HFT(>3000)",
+        "銘柄:マルチ",
+        "取引あり(14d)"
+      ],
+      "notes_jp": "【現在の分類: 🟣高頻度MM / 質:履歴薄/評価不能 / majors実現$-84,087 / 最終取引2026-06-19】\n【自動発掘(2026-06-22)】HLリーダーボード(allTime $13,631,989)から発掘し既存基準で分類。回転4250closes/月・黒字月率50%・履歴2ヶ月。欺瞞8軸該当: H_deliberate_dip→要精査。"
+    },
+    "0xe4c6ae25959d7fc66cf2dd5965fb78c5e09c4048": {
+      "address": "0xe4c6ae25959d7fc66cf2dd5965fb78c5e09c4048",
+      "first_seen": "2026-06-22",
+      "last_seen": "2026-06-22",
+      "times_seen": 1,
+      "position": "高頻度MM",
+      "wf_quality": "ムラあり",
+      "metric_category": "auto_discovered",
+      "tags": [
+        "HFT:低速(〜1.5k/月)",
+        "自動発掘(2026-06-22)"
+      ],
+      "mm_cpm": 307,
+      "roi_alltime": 4.1772129932,
+      "lb_alltime": 13613035,
+      "true_realized_all": -430504,
+      "true_realized_maj": 109227,
+      "n_closes": 1535,
+      "current": {
+        "win_rate": null,
+        "total_pnl": 109227,
+        "dir_accuracy": null,
+        "metric_category": "auto_discovered"
+      },
+      "active_from": "2024-08-02",
+      "active_to": "2026-06-05",
+      "active14": false,
+      "n_fills_14d": 0,
+      "n_fills_14d_maj": 0,
+      "history": [],
+      "auto_tags": [
+        "PnL:赤字",
+        "頻度:HFT(>3000)",
+        "銘柄:マルチ",
+        "取引なし(14d)"
+      ],
+      "notes_jp": "【現在の分類: 🟣高頻度MM / 質:ムラあり / majors実現$109,227 / 最終取引2026-06-05】\n【自動発掘(2026-06-22)】HLリーダーボード(allTime $13,613,035)から発掘し既存基準で分類。回転307closes/月・黒字月率80%・履歴5ヶ月。"
+    },
+    "0x94dac1facdc4afd2614c3119447187b4143bc449": {
+      "address": "0x94dac1facdc4afd2614c3119447187b4143bc449",
+      "first_seen": "2026-06-22",
+      "last_seen": "2026-06-22",
+      "times_seen": 1,
+      "position": "高頻度MM",
+      "wf_quality": "履歴薄/評価不能",
+      "metric_category": "auto_discovered",
+      "tags": [
+        "HFT:標準(1.5k-3k/月)",
+        "欺瞞候補:要精査",
+        "自動発掘(2026-06-22)"
+      ],
+      "mm_cpm": 1996,
+      "roi_alltime": 1.8556809258,
+      "lb_alltime": 13534908,
+      "true_realized_all": 383896,
+      "true_realized_maj": 837,
+      "n_closes": 5989,
+      "current": {
+        "win_rate": null,
+        "total_pnl": 837,
+        "dir_accuracy": null,
+        "metric_category": "auto_discovered"
+      },
+      "active_from": "2026-04-20",
+      "active_to": "2026-06-22",
+      "active14": true,
+      "n_fills_14d": 955,
+      "n_fills_14d_maj": 0,
+      "history": [],
+      "auto_tags": [
+        "PnL:中($100k-1M)",
+        "頻度:HFT(>3000)",
+        "銘柄:マルチ",
+        "取引あり(14d)"
+      ],
+      "notes_jp": "【現在の分類: 🟣高頻度MM / 質:履歴薄/評価不能 / majors実現$837 / 最終取引2026-06-22】\n【自動発掘(2026-06-22)】HLリーダーボード(allTime $13,534,908)から発掘し既存基準で分類。回転1996closes/月・黒字月率100%・履歴3ヶ月。欺瞞8軸該当: H_deliberate_dip→要精査。"
     }
   },
-  "updated_at": "2026-06-21T13:52:33.511871+00:00"
+  "updated_at": "2026-06-22T01:07:06.236729+00:00"
 }
