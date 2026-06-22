@@ -110,8 +110,9 @@ def update_track(a, f):
 
 
 async def fetch_fills_full(session, addr, max_pages=60):
-    """userFillsByTime を 0 から前方ページングして全約定を取得（古い建玉の開始点まで遡る）。"""
-    out, cur, now = [], 0, int(time.time() * 1000)
+    """userFillsByTime を 0 から前方ページングして全約定を取得。
+    戻り値 (fills, complete)。complete=False は max_pages で打ち切り＝全履歴未到達(高頻度勢)。"""
+    out, cur, now, complete = [], 0, int(time.time() * 1000), False
     for _ in range(max_pages):
         try:
             async with session.post(INFO_URL, json={"type": "userFillsByTime", "user": addr,
@@ -121,12 +122,15 @@ async def fetch_fills_full(session, addr, max_pages=60):
         except Exception:
             break
         if not ch:
+            complete = True
             break
         out.extend(ch)
         if len(ch) < 2000:
+            complete = True
             break
         last = int(ch[-1]["time"])
         if last <= cur:
+            complete = True
             break
         cur = last + 1
     seen, ded = set(), []
@@ -136,7 +140,7 @@ async def fetch_fills_full(session, addr, max_pages=60):
             continue
         seen.add(tid)
         ded.append(f)
-    return ded
+    return ded, complete
 
 
 def compute_lifecycle(fills):
@@ -244,9 +248,12 @@ async def poll_loop(session):
                 w = WATCH.get(a, {})
                 if w.get("notify") and held and (time.time() - SEEDED.get(a, 0) > 3600):
                     if any(TRACK.get((a, p.get("coin")), {}).get("open_ts") is None for p in held):
-                        lc = compute_lifecycle(await fetch_fills_full(session, a))
-                        for coin, stt in lc.items():
-                            TRACK[(a, coin)] = stt
+                        full, complete = await fetch_fills_full(session, a)
+                        # 全履歴を取り切れた時だけ復元(打ち切り=高頻度勢は過去状態ゆえ使わずWS最新に委ねる)
+                        if complete:
+                            lc = compute_lifecycle(full)
+                            for coin, stt in lc.items():
+                                TRACK[(a, coin)] = stt
                         SEEDED[a] = time.time()
                 ps = []
                 for p in held:
