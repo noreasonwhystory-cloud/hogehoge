@@ -22,6 +22,7 @@ import math
 import statistics as st
 
 import config
+import hl_fills_cache as fc
 
 FILLS = os.path.join(config.DATA_DIR, "fills")
 MAJ = set(config.COINS)
@@ -53,6 +54,7 @@ def features(addr, fills):
     nots = [notional(f) for f in closes]
     real_all = sum(pnls)
     real_maj = sum(cpnl(f) for f in closes if f.get("coin") in MAJ)
+    real_perp = sum(cpnl(f) for f in closes if fc.is_perp_coin(f.get("coin")))  # majors+builder(spot除外)
     wins = [p for p in pnls if p > 0]
     losses = [p for p in pnls if p < 0]
     win_rate = len(wins) / n
@@ -122,7 +124,9 @@ def features(addr, fills):
 
     return {
         "address": addr, "n_closes": n, "n_closes_maj": sum(1 for f in closes if f.get("coin") in MAJ),
-        "real_all": round(real_all), "real_maj": round(real_maj), "win_rate": round(win_rate, 3),
+        "n_closes_perp": sum(1 for f in closes if fc.is_perp_coin(f.get("coin"))),
+        "real_all": round(real_all), "real_maj": round(real_maj), "real_perp": round(real_perp),
+        "win_rate": round(win_rate, 3),
         "active_days": active_days, "last_time": t1,
         "wr_big": round(wr_big, 3) if wr_big is not None else None,
         "wr_small": round(wr_small, 3) if wr_small is not None else None,
@@ -135,20 +139,23 @@ def features(addr, fills):
         "flips": flips, "dip_then_new": dip_then_new,
         "avg_loss": round(st.mean(losses)) if losses else 0,
         "avg_win": round(st.mean(wins)) if wins else 0,
-        "coins": sorted({f.get("coin") for f in closes if f.get("coin") in MAJ}),
+        "coins": sorted({f.get("coin") for f in closes if fc.is_perp_coin(f.get("coin"))}),
     }
 
 
 def patterns(F):
     """各特徴量から欺瞞パターン該当を判定（複数該当可）。スコア付き。"""
     hits = {}
+    # rp = perp実現益(majors+builder, spot除外)。A/D/F は majors限定の rm でなく rp でゲートし
+    #     ビルダーperp主体のインサイダー的挙動も拾う(perp取得監査 2026-06-22)。
     rm, ra, n = F["real_maj"], F["real_all"], F["n_closes"]
+    rp = F.get("real_perp", rm)
     # A サイズ条件付きスキル
     if (F["wr_big"] is not None and F["wr_small"] is not None
             and F["n_big"] >= 10 and F["n_small"] >= 10
             and F["wr_big"] >= 0.6 and F["wr_small"] <= 0.45
-            and F["sum_big"] > 0 and rm > 30000):
-        hits["A_size_conditional"] = round((F["wr_big"] - F["wr_small"]) * math.log10(max(rm, 10)), 3)
+            and F["sum_big"] > 0 and rp > 30000):
+        hits["A_size_conditional"] = round((F["wr_big"] - F["wr_small"]) * math.log10(max(rp, 10)), 3)
     # B 非対称ペイオフ
     if F["win_rate"] <= 0.45 and ra >= 100000 and F["top3_share"] >= 0.5 and n >= 15:
         hits["B_asymmetric"] = round(ra * F["top3_share"] / 1e6, 3)
@@ -156,15 +163,15 @@ def patterns(F):
     if F["max_gap_d"] >= 14 and F["burst_share"] >= 0.4 and ra >= 50000:
         hits["C_dormant_burst"] = round(F["burst_share"] * math.log10(max(ra, 10)), 3)
     # D 制御された負け
-    if (F["size_ratio"] >= 2.5 and len(F["coins"]) >= 1 and rm > 50000
+    if (F["size_ratio"] >= 2.5 and len(F["coins"]) >= 1 and rp > 50000
             and F["med_loss_not"] > 0 and n >= 20):
-        hits["D_controlled_loss"] = round(F["size_ratio"] * math.log10(max(rm, 10)), 3)
+        hits["D_controlled_loss"] = round(F["size_ratio"] * math.log10(max(rp, 10)), 3)
     # E 新鮮ウォレット単発大当たり
     if F["active_days"] <= 21 and n <= 15 and ra >= 100000:
         hits["E_fresh_hit"] = round(ra / max(n, 1) / 1e5, 3)
     # F デコイ→本命フリップ
-    if F["flips"] >= 3 and rm > 30000:
-        hits["F_decoy_flip"] = round(F["flips"] * math.log10(max(rm, 10)), 3)
+    if F["flips"] >= 3 and rp > 30000:
+        hits["F_decoy_flip"] = round(F["flips"] * math.log10(max(rp, 10)), 3)
     # H 勝ち逃げ後の意図的低調
     if F["dip_then_new"] and ra >= 100000 and n >= 30:
         hits["H_deliberate_dip"] = round(math.log10(max(ra, 10)), 3)

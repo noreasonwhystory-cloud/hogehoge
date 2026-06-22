@@ -14,6 +14,8 @@ from collections import defaultdict
 
 import config
 import hl_client
+import hl_fills_cache as fc
+import hl_candle_cache as cc
 
 MS_H = 3600 * 1000
 LEAD = config.LEAD_WINDOW_H * MS_H        # 動く前 6h
@@ -33,10 +35,13 @@ def open_dir(d):
     return None
 
 
-def build_events(lo, hi):
+def build_events(coins, lo, hi):
     evs = []
-    for coin in config.COINS:
-        c = hl_client.candles(coin, "4h", lo, hi)
+    for coin in coins:
+        try:
+            c = cc.get_candles(coin, "4h", lo, hi)   # 永続candleキャッシュ(builderperp含む)
+        except Exception:
+            c = []
         s = sorted([(int(x["t"]), float(x["c"])) for x in (c or [])])
         for i in range(len(s) - 1):
             p0, p1 = s[i][1], s[i + 1][1]
@@ -51,14 +56,16 @@ def build_events(lo, hi):
 TIERS = [("strict", 6, 12, 100_000), ("medium", 12, 24, 50_000), ("loose", 24, 48, 25_000)]
 
 
-def analyze(addr, events):
-    fills = hl_client.user_fills_by_time(addr, 0, int(time.time() * 1000))
-    maj = [f for f in fills if f.get("coin") in config.COINS]
-    if not maj:
+def analyze(addr, events, fills=None):
+    if fills is None:
+        fills = fc.get_fills(addr)
+    coins = fc.scan_coins(fills)             # 実取引coin ∪ majors（builderperp含む）
+    rel = [f for f in fills if f.get("coin") in coins]
+    if not rel:
         return None
     opens = defaultdict(list)   # (coin,dir) -> [(t, notional)]
     closes = defaultdict(list)  # coin -> [(t, reduce_dir)]
-    for f in maj:
+    for f in rel:
         t = int(f["time"]); coin = f["coin"]; px = float(f["px"]); sz = float(f["sz"])
         d = open_dir(f.get("dir"))
         dd = (f.get("dir") or "")
@@ -105,8 +112,9 @@ def analyze(addr, events):
         norm = round(rt / nclust, 4) if nclust else 0
         tiers[name] = {"rt": rt, "lead_only": lo, "large_clusters": nclust,
                        "norm_rate": norm, "detail": det}
-    return {"address": addr, "majors": len(maj), "tiers": tiers,
-            "rt_events": tiers["strict"]["rt"]}  # 後方互換
+    return {"address": addr, "majors": len(rel), "n_fills": len(rel),
+            "coins": sorted({f.get("coin") for f in rel if f.get("coin")})[:12], "tiers": tiers,
+            "rt_events": tiers["strict"]["rt"]}  # 後方互換(majors=判定対象fill数)
 
 
 def main():
@@ -115,13 +123,23 @@ def main():
                if e.get("position") in TARGET_POS and "MM/HFT" not in e.get("tags", [])]
     print(f"個人インサイダー v2 検出対象: {len(targets)} 件")
     now = int(time.time() * 1000)
-    events = build_events(now - 560 * 24 * MS_H, now)
+    # 各対象のfill(永続キャッシュ)を集め、走査対象 coin universe(builderperp含む)を作る
+    wallet_fills, all_coins = {}, set(config.COINS)
+    for a in targets:
+        try:
+            fl = fc.get_fills(a)
+        except Exception:
+            fl = []
+        wallet_fills[a] = fl
+        all_coins |= fc.scan_coins(fl)      # perp限定(スポット除外)・majors含む
+    print(f"走査対象coin(majors+builder): {len(all_coins)} 銘柄")
+    events = build_events(all_coins, now - 560 * 24 * MS_H, now)
     print(f"急変イベント: {len(events)} 件")
 
     out = []
     for i, a in enumerate(targets, 1):
         try:
-            r = analyze(a, events)
+            r = analyze(a, events, fills=wallet_fills.get(a))
         except Exception:
             r = None
         if r:

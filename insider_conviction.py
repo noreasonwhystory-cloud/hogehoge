@@ -18,6 +18,8 @@ from collections import defaultdict
 
 import config
 import hl_client
+import hl_fills_cache as fc
+import hl_candle_cache as cc
 
 MS_H = 3600 * 1000
 NOW = int(time.time() * 1000)
@@ -81,10 +83,11 @@ def baseline(series, H):
 
 def analyze(addr, max_pages, candle, base_cache, horizons):
     fills = fetch_fills(addr, max_pages)
+    coins = fc.scan_coins(fills)          # 実取引perp coin ∪ majors（builder含む）
     entries = []
     for f in fills:
         coin = f.get("coin")
-        if coin not in config.COINS:
+        if coin not in coins:
             continue
         d = open_dir(f.get("dir"))
         if d not in ("long", "short"):
@@ -98,13 +101,15 @@ def analyze(addr, max_pages, candle, base_cache, horizons):
     for H in horizons:
         det = []
         for e in entries:
-            series = candle[e["coin"]]
+            series = candle.get(e["coin"])
+            if not series:
+                continue
             p0 = price_at(series, e["t"]); p1 = price_at(series, e["t"] + H * MS_H)
             if not p0 or not p1:
                 continue
             raw = (p1 - p0) / p0
             sgn = 1 if e["dir"] == "long" else -1
-            detr = sgn * (raw - base_cache[(e["coin"], H)])   # トレンド補正後・順方向
+            detr = sgn * (raw - base_cache.get((e["coin"], H), 0.0))   # トレンド補正後・順方向(builderはbase=0)
             det.append((e["notional"], detr))
         if len(det) < 8:
             continue
@@ -146,16 +151,26 @@ def main():
         targets = targets[:args.limit]
     print(f"conviction lift 解析対象: {len(targets)} 件 / horizons={horizons}")
 
+    # 走査対象 coin universe(perp・builder含む)を対象のfillから収集し、足を永続キャッシュで先読み
+    all_coins = set(config.COINS)
+    for a in targets:
+        try:
+            all_coins |= fc.scan_coins(fc.get_fills(a))
+        except Exception:
+            pass
     candle = {}
     base_cache = {}
     start = NOW - CAND_DAYS * 24 * MS_H
-    for coin in config.COINS:
-        c = hl_client.candles(coin, "1h", start, NOW) or []
+    for coin in all_coins:
+        try:
+            c = cc.get_candles(coin, "1h", start, NOW) or []
+        except Exception:
+            c = []
         candle[coin] = sorted([(int(x["t"]), float(x["c"])) for x in c])
         for H in horizons:
             base_cache[(coin, H)] = baseline(candle[coin], H)
-    print("足:", ", ".join(f"{k}={len(v)}" for k, v in candle.items()),
-          "| baseline:", {k: round(v, 4) for k, v in base_cache.items()})
+    print(f"足: {len(candle)}銘柄(majors+builder) | majors baseline:",
+          {k: round(base_cache.get((k, horizons[0]), 0), 4) for k in config.COINS})
 
     out = []
     for i, a in enumerate(targets, 1):

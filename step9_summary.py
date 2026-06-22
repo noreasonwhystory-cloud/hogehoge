@@ -163,16 +163,26 @@ a{{color:#4ea1ff}} ul{{margin:6px 0;padding-left:20px}} li{{margin-bottom:5px}}
 <div class="kc"><div class="v" style="color:#3fb950">{n_pro}</div><div class="l">プロ(本物)</div></div>
 <div class="kc"><div class="v" style="color:#56b6c2">{n_alt}</div><div class="l">alt主体プロ</div></div>
 <div class="kc"><div class="v" style="color:#a78bfa">{n_mm}</div><div class="l">高頻度MM</div></div>
-<div class="kc"><div class="v" style="color:#ff5d6c">0</div><div class="l">確証インサイダー</div></div>
+<div class="kc"><div class="v" style="color:#ff5d6c">0</div><div class="l">確証インサイダー<br><span style="font-size:10px;color:#8b949e">(majors範囲)</span></div></div>
 </div>
 <table style="max-width:380px"><tr><th style="text-align:left">カテゴリ</th><th>件数</th></tr>{dist_rows}</table>
 
-<h2>2. 核心：確証ある個人インサイダーはゼロに収束</h2>
+<div class="box" style="border:1px solid #f0a020;background:#251c0a">
+<b class="big" style="color:#f0a020">⚠ 重要な限界（2026-06-22 perp取得監査で判明・再検証中）</b><br>
+本ページの「方向先読み（往復/的中率/完璧エントリ）」系の結論は <b>majors(BTC/ETH/SOL)に限定</b>して算出されていた。
+HLには複数のperp DEX（メイン＋ビルダー配備 xyz/flx/vntl 等）があり、<b>個別株perp(NVDA/TSLA等)・プレIPO perp(OPENAI/ANTHROPIC等)＝情報優位が最も出やすい新興/薄商い銘柄</b>を、
+これら7系統は<b class="r">一度も方向先読みで走査していなかった</b>（約定キャッシュには全dexのfillが蓄積済だが下流がmajorsで足切り）。
+よって下記「確証ゼロ」は<b>「majors範囲では未検出」までが妥当で、全perpを含めた全体結論は未確定</b>。現在ビルダーperpを含めて再走査中。
+（規模・PnL系の分類分布は全perp実現益ベースで概ね妥当。）
+</div>
+
+<h2>2. 核心：majors(BTC/ETH/SOL)範囲では確証ある個人インサイダーはゼロ（全体は再検証中）</h2>
 <div class="box no">
-<b class="big">7系統の独立した物差し（往復・反復／6定義／複数地平線／欺瞞8軸）が、すべて同じ結論に収束した。</b><br>
-「急変前に大口で建てた（先行）」と出たウォレットを精査すると<b class="r">ことごとく N=1（1注文の分割約定）</b>に化け、別イベントで反復して当てる本物の挙動は<b>ゼロ</b>。
+<b class="big">majors を見る7系統（往復・反復／6定義／複数地平線／欺瞞8軸）は同じ結論に収束した。</b>
+<span style="color:#f0a020">※ただし7系統とも走査対象が majors に限定されていたため、これは「独立7検証」ではなく<b>同一の銘柄スコープを共有</b>していた点に留意（上記限界）。</span><br>
+「急変前に大口で建てた（先行）」と出たウォレットを精査すると<b class="r">ことごとく N=1（1注文の分割約定）</b>に化け、別イベントで反復して当てる本物の挙動は majors では<b>ゼロ</b>。
 旧疑惑10件も別視点workflowで<b class="r">全件 debunked（本物確度0.05〜0.08）</b>。
-🔴インサイダー疑惑 {n_ins}件・確証インサイダー<b>ゼロ</b>。残るのは断定しない監視対象のみ。
+🔴インサイダー疑惑 {n_ins}件・確証インサイダー（majors範囲）<b>ゼロ</b>。残るのは断定しない監視対象のみ。
 </div>
 <div class="box no">
 <b class="big">「往復定義が厳しすぎただけでは？」を6つの別定義で検証 → すべて同結論。</b>

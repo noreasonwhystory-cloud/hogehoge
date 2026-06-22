@@ -43,7 +43,7 @@ def watch_set(mode):
 
 
 def positions(addr):
-    st = hl_client.clearinghouse_state(addr) or {}
+    st = hl_client.clearinghouse_state_all(addr) or {}   # メイン+ビルダーperp dex合算
     acct = float(st.get("marginSummary", {}).get("accountValue", 0) or 0)
     out = []
     for ap in st.get("assetPositions", []):

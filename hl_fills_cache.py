@@ -110,6 +110,24 @@ def _fetch_page(addr, start):
                                  "startTime": start, "endTime": now}) or []
 
 
+def is_perp_coin(coin):
+    """perp銘柄か。メインperp('BTC')とビルダーperp('xyz:SPCX')は True。
+    スポット(@123 や 'PURR/USDC')は False（本プロジェクトはperpのみ対象）。"""
+    if not coin:
+        return False
+    if coin.startswith("@") or "/" in coin:
+        return False
+    return True
+
+
+def scan_coins(fills):
+    """検出器の走査対象 coin universe = そのウォレットが実取引した全perp coin ∪ majors(config.COINS)。
+    ビルダーperp('xyz:SPCX'等)を含め方向先読みを評価する母集団。スポットは除外・majorsは常に含む。"""
+    s = {f.get("coin") for f in (fills or []) if is_perp_coin(f.get("coin"))}
+    s.update(config.COINS)
+    return s
+
+
 def stats():
     if not os.path.isdir(CACHE_DIR):
         return {"wallets": 0, "fills": 0}

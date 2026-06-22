@@ -17,6 +17,7 @@ from datetime import datetime, timezone
 import config
 import hl_client
 import hl_fills_cache as fc
+import hl_candle_cache as cc
 
 MS_H = 3600 * 1000
 NOW = int(time.time() * 1000)
@@ -34,7 +35,7 @@ def get_ser(coin):
     if coin in _missing:
         return None
     try:
-        c = hl_client.candles(coin, "1h", NOW - CAND_DAYS * 24 * MS_H, NOW) or []
+        c = cc.get_candles(coin, "1h", NOW - CAND_DAYS * 24 * MS_H, NOW) or []  # 永続candleキャッシュ(builder可)
     except Exception:
         c = []
     if not c:
@@ -66,9 +67,10 @@ def open_dir(d):
 
 def analyze(addr, base_cache):
     fills = fetch_fills(addr)
+    coins = fc.scan_coins(fills)          # 実取引coin ∪ majors（builderperp含む）
     entries = []
     for f in fills:
-        if f.get("coin") not in config.COINS:
+        if f.get("coin") not in coins:
             continue
         d = open_dir(f.get("dir"))
         if d not in ("long", "short"):

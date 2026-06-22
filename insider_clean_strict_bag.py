@@ -17,6 +17,8 @@ from collections import defaultdict
 
 import config
 import hl_client
+import hl_fills_cache as fc
+import hl_candle_cache as cc
 
 MS_H = 3600 * 1000
 NOW = int(time.time() * 1000)
@@ -35,7 +37,7 @@ def get_hlc(coin):
     if coin in _missing:
         return None
     try:
-        c = hl_client.candles(coin, "1h", NOW - CAND_DAYS * 24 * MS_H, NOW) or []
+        c = cc.get_candles(coin, "1h", NOW - CAND_DAYS * 24 * MS_H, NOW) or []   # 永続candleキャッシュ(builder可)
     except Exception:
         c = []
     if not c:
@@ -167,7 +169,8 @@ def price_at(series, t):
 
 def analyze(addr):
     fills = fetch_fills(addr)
-    maj = [f for f in fills if f.get("coin") in config.COINS]
+    coins = fc.scan_coins(fills)          # perp(builder含む) ∪ majors
+    maj = [f for f in fills if f.get("coin") in coins]
     if not maj:
         return {"address": addr, "no_majors": True}
     closes = [f for f in maj if abs(float(f.get("closedPnl", 0) or 0)) > 1e-9]

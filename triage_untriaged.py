@@ -13,18 +13,20 @@ from datetime import datetime
 
 import config
 import hl_fills_cache as fc
+import hl_client
 
 MAJ = set(config.COINS)
 MIN_MAJ = 500_000
 
 
 def pro_grade(months, posr, pf, artifact, real_all, real_maj, worst):
-    maj_share = (real_maj / real_all) if real_all > 0 else 0
+    # maj_share(majors比)はエリート必須条件から撤廃(perp取得監査 2026-06-22)。
+    # builder主体でも長期・黒字月率・PF・規模が揃えばエリート。majors比は意味づけが逆向きだった。
     if months < 4 or artifact:
         return "履歴薄/評価不能"
     if posr < 0.6 or (real_all > 0 and abs(worst) > 0.4 * real_all):
         return "ムラあり"
-    if months >= 10 and posr >= 0.8 and pf >= 3 and real_all >= 1_000_000 and maj_share >= 0.4:
+    if months >= 10 and posr >= 0.8 and pf >= 3 and real_all >= 1_000_000:
         return "エリート"
     if months >= 6 and posr >= 0.7 and pf >= 2 and real_all > 0:
         return "堅実"
@@ -69,9 +71,13 @@ def main():
         if not fl:
             continue
         rmaj = round(sum(float(f.get("closedPnl", 0) or 0) for f in fl if f.get("coin") in MAJ))
-        if rmaj < MIN_MAJ:
+        rperp = round(sum(float(f.get("closedPnl", 0) or 0) for f in fl if fc.is_perp_coin(f.get("coin"))))
+        # perp実現益(majors+builder)で足切り=純ビルダーperpの高額層も精査キューへ(majors限定MIN_MAJの取りこぼし解消)
+        if rperp < MIN_MAJ:
             continue
         rall = round(sum(float(f.get("closedPnl", 0) or 0) for f in fl))
+        builder_dexs = sorted(hl_client.used_dexs_from_fills(fl))
+        rbuild = rperp - rmaj   # ビルダーperp実現益
         closes = [f for f in fl if abs(float(f.get("closedPnl", 0) or 0)) > 1e-9]
         ncl = len(closes)
         mon = defaultdict(float)
@@ -102,6 +108,10 @@ def main():
             pos = "alt主体プロ"
 
         tags = ["未トリアージ層(監査追加)"]
+        for dx in builder_dexs:
+            tags.append(f"ビルダーperp:{dx}")
+        if abs(rbuild) > abs(rmaj):
+            tags.append("ビルダーperp主体")   # 実現益がmajorsよりビルダーperp優勢
         wq = None
         if pos == "高頻度MM":
             tags.append(hft_tag(cpm))
@@ -112,10 +122,12 @@ def main():
             wq = "alt主体"
 
         ql = ("質:" + wq) if wq else ""
+        vtag = (f" / ビルダーperp実現${rbuild:,}({','.join(builder_dexs)})" if builder_dexs else "")
         head = (f"【現在の分類: {QLAB.get(pos, pos)}" + (f" / {ql}" if ql else "")
-                + f" / majors実現${rmaj:,} / 最終取引{at}】")
-        note = (head + f"\n【監査で追加】cacheにあったが未トリアージだった高額層(majors実現${rmaj:,}/全${rall:,})。"
-                f"既存と同じ決定的ロジックで分類。回転{cpm}closes/月・黒字月率{posr:.0%}・履歴{months}ヶ月。")
+                + f" / perp実現${rperp:,}(majors${rmaj:,}{vtag}) / 最終取引{at}】")
+        note = (head + f"\n【監査で追加】cacheにあったが未トリアージだった高額層(perp実現${rperp:,}/majors${rmaj:,}/全${rall:,})。"
+                f"既存と同じ決定的ロジックで分類。回転{cpm}closes/月・黒字月率{posr:.0%}・履歴{months}ヶ月。"
+                + ("ビルダーperp主体(majors比低=alt主体ラベルだが新興perp優位の可能性・要方向先読み精査)。" if abs(rbuild) > abs(rmaj) else ""))
 
         W[k] = {
             "address": k, "first_seen": today, "last_seen": today, "times_seen": 1,

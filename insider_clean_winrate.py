@@ -15,6 +15,8 @@ from datetime import datetime, timezone
 
 import config
 import hl_client
+import hl_fills_cache as fc
+import hl_candle_cache as cc
 
 MS_H = 3600 * 1000
 NOW = int(time.time() * 1000)
@@ -91,7 +93,8 @@ def bags_from_state(st):
 def analyze(addr, max_pages, candle):
     from collections import defaultdict
     fills = fetch_fills(addr, max_pages)
-    maj = [f for f in fills if f.get("coin") in config.COINS]
+    coins = fc.scan_coins(fills)          # perp(builder含む) ∪ majors
+    maj = [f for f in fills if f.get("coin") in coins]
     if not maj:
         return {"address": addr, "no_majors": True}
     closes = [f for f in maj if abs(float(f.get("closedPnl", 0) or 0)) > 1e-9]
@@ -108,7 +111,9 @@ def analyze(addr, max_pages, candle):
         d = open_dir(f.get("dir"))
         if d not in ("long", "short"):
             continue
-        series = candle[f["coin"]]
+        series = candle.get(f["coin"])
+        if not series:
+            continue
         t = int(f["time"]); p0 = price_at(series, t); p1 = price_at(series, t + config.HIT_HORIZON_H * MS_H)
         side[d]["o"] += 1; side[d]["n"] += float(f["px"]) * float(f["sz"])
         if not p0 or not p1:
@@ -176,9 +181,18 @@ def main():
     print(f"clean高勝率 解析対象: {len(targets)} 件 "
           f"(条件: 勝率>={WIN_MIN} 的中>={DIR_MIN} closes>={MIN_CLOSES} {MIN_DAYS}日+ 含み損<=口座{int(BAG_MAX*100)}%)")
 
+    all_coins = set(config.COINS)
+    for a in targets:
+        try:
+            all_coins |= fc.scan_coins(fc.get_fills(a))
+        except Exception:
+            pass
     candle = {}
-    for coin in config.COINS:
-        c = hl_client.candles(coin, "1h", NOW - CAND_DAYS * 24 * MS_H, NOW) or []
+    for coin in all_coins:
+        try:
+            c = cc.get_candles(coin, "1h", NOW - CAND_DAYS * 24 * MS_H, NOW) or []
+        except Exception:
+            c = []
         candle[coin] = sorted([(int(x["t"]), float(x["c"])) for x in c])
 
     out = []

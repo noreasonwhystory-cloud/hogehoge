@@ -35,6 +35,7 @@ PORT = int(os.environ.get("PORT", "8080"))
 POLL_SEC = int(os.environ.get("POLL_SEC", "60"))
 LIFE_TTL = int(os.environ.get("LIFE_TTL", "900"))            # ライフサイクル/クローズの再取得間隔(秒)
 LIFE_PER_CYCLE = int(os.environ.get("LIFE_PER_CYCLE", "10"))  # 1巡あたりのuserFills取得上限(レート制御)
+MM_LEARN_PER_CYCLE = int(os.environ.get("MM_LEARN_PER_CYCLE", "5"))  # 非notify(MM)のdex一回学習の1巡上限
 
 HOOKS = {
     "insider": os.environ.get("HOOK_INSIDER", ""),
@@ -293,16 +294,23 @@ async def poll_loop(session):
     メインperp dexに加え、各ウォレットがuserFillsで使っていると判明したHIP-3ビルダーperp dexも照会する。"""
     while True:
         life_budget = LIFE_PER_CYCLE
+        learn_budget = MM_LEARN_PER_CYCLE     # 非notify(MM)のビルダーdex一回学習用
         now_s = time.time()
         for a in list(WATCH.keys()):
             w = WATCH.get(a, {})
             try:
                 acct, ps, cur_szi = await fetch_ch(session, a)         # メインperp dex
-                # newest userFills を先に取得(notify層・TTL・巡回バジェット)→ビルダーperp dexを学習。
-                # psが空でも実行=ビルダーperp(xyz:等)しか建玉が無いウォレットを取りこぼさない。
+                # newest userFills を取得→ビルダーperp dexを学習＋LIFE/CLOSES更新。
+                # notify層: TTL毎に更新。非notify(MM)層: 未学習のものを低頻度で一度だけ学習(建玉ゼロでも実行)。
                 uf = None
+                do_uf = False
                 if w.get("notify") and life_budget > 0 and now_s - LIFE_FETCH.get(a, 0) > LIFE_TTL:
+                    do_uf = True
                     life_budget -= 1
+                elif (not w.get("notify")) and a not in LIFE_FETCH and learn_budget > 0:
+                    do_uf = True            # MMは初回のみdex学習(ビルダー建玉を表示に乗せる)
+                    learn_budget -= 1
+                if do_uf:
                     try:
                         async with session.post(INFO_URL, json={"type": "userFills", "user": a},
                                                 timeout=aiohttp.ClientTimeout(total=20)) as r2:
@@ -322,8 +330,8 @@ async def poll_loop(session):
                     except Exception:
                         pass
                     await asyncio.sleep(0.05)
-                # notify層は初回userFills取得まで「建玉ゼロ」を断定できない(ビルダー建玉未確認)
-                dex_checked = (not w.get("notify")) or (a in LIFE_FETCH)
+                # 初回userFills取得(=dex学習)まで「建玉ゼロ」を断定できない(ビルダー建玉未確認)
+                dex_checked = a in LIFE_FETCH
                 POSITIONS[a] = {"acct": round(acct), "pos": ps, "t": int(time.time()), "dex_checked": dex_checked}
                 # szi差分: 建玉の消滅/反転を検知(fills無きADL/清算の安全網)。WS直近通知が無ければclose通知。
                 prev_coins = {c: v for (aa, c), v in PREV_SZI.items() if aa == a}

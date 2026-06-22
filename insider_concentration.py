@@ -20,6 +20,8 @@ from collections import defaultdict
 
 import config
 import hl_client
+import hl_fills_cache as fc
+import hl_candle_cache as cc
 
 MS_H = 3600 * 1000
 NOW = int(time.time() * 1000)
@@ -53,9 +55,10 @@ def fetch_fills(addr, max_pages):
 
 def reconstruct_positions(fills):
     """coinごとに 建て→フラット を1トレードに復元。"""
+    coins = fc.scan_coins(fills)          # perp(builder含む) ∪ majors
     byc = defaultdict(list)
     for f in fills:
-        if f.get("coin") in config.COINS:
+        if f.get("coin") in coins:
             byc[f["coin"]].append(f)
     trades = []
     for coin, fs in byc.items():
@@ -183,13 +186,22 @@ def main():
         targets = targets[:args.limit]
     print(f"利益集中度+完璧エントリ 解析対象: {len(targets)} 件")
 
-    # 足キャッシュ(1h, 各coin)
+    # 走査対象 coin universe(perp・builder含む)を対象のfillから収集し、足を永続キャッシュで先読み
+    all_coins = set(config.COINS)
+    for a in targets:
+        try:
+            all_coins |= fc.scan_coins(fc.get_fills(a))
+        except Exception:
+            pass
     candle_cache = {}
     start = NOW - CAND_DAYS * 24 * MS_H
-    for coin in config.COINS:
-        c = hl_client.candles(coin, "1h", start, NOW) or []
+    for coin in all_coins:
+        try:
+            c = cc.get_candles(coin, "1h", start, NOW) or []
+        except Exception:
+            c = []
         candle_cache[coin] = sorted([(int(x["t"]), float(x["h"]), float(x["l"])) for x in c])
-    print(f"足キャッシュ: " + ", ".join(f"{k}={len(v)}" for k, v in candle_cache.items()))
+    print(f"足キャッシュ: {len(candle_cache)}銘柄(majors+builder)")
 
     out = []
     for i, a in enumerate(targets, 1):

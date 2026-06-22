@@ -16,6 +16,8 @@ from collections import defaultdict
 
 import config
 import hl_client
+import hl_fills_cache as fc
+import hl_candle_cache as cc
 
 MS_H = 3600 * 1000
 NOW = int(time.time() * 1000)
@@ -36,7 +38,7 @@ def get_series(coin):
     if coin in _missing:
         return None
     try:
-        c = hl_client.candles(coin, "1h", NOW - CAND_DAYS * 24 * MS_H, NOW) or []
+        c = cc.get_candles(coin, "1h", NOW - CAND_DAYS * 24 * MS_H, NOW) or []   # 永続candleキャッシュ(builder可)
     except Exception:
         c = []
     if not c:
@@ -46,33 +48,15 @@ def get_series(coin):
     return _cache[coin]
 
 
-def fetch_fills(addr, max_pages):
-    out, cur = [], 0
-    for _ in range(max_pages):
-        chunk = hl_client._post_info({"type": "userFillsByTime", "user": addr,
-                                      "startTime": cur, "endTime": NOW})
-        if not chunk:
-            break
-        out.extend(chunk)
-        if len(chunk) < 2000:
-            break
-        last = chunk[-1]["time"]
-        if last <= cur:
-            break
-        cur = last + 1
-    seen, ded = set(), []
-    for f in out:
-        if f.get("tid") in seen:
-            continue
-        seen.add(f.get("tid")); ded.append(f)
-    return ded
+def fetch_fills(addr, max_pages=40):
+    return fc.get_fills(addr, max_pages=max_pages)   # 永続キャッシュ＋最新保証(独自前方ページングの取りこぼし回避)
 
 
 def reconstruct_positions(fills):
-    """全coinで 建て→フラット を1トレードに復元。"""
+    """全perp coin(builder含む・スポット除外)で 建て→フラット を1トレードに復元。"""
     byc = defaultdict(list)
     for f in fills:
-        if f.get("coin"):
+        if fc.is_perp_coin(f.get("coin")):
             byc[f["coin"]].append(f)
     trades = []
     for coin, fs in byc.items():
@@ -164,15 +148,19 @@ def analyze(addr, max_pages):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--limit", type=int, default=0)
-    ap.add_argument("--maxpages", type=int, default=20)
-    ap.add_argument("--positions", default="プロトレーダー(本物),プロトレーダー(未精査),💸 出金疑い(要監視)")
+    ap.add_argument("--maxpages", type=int, default=40)
+    ap.add_argument("--scan-all", action="store_true", help="全positionを走査(MM/alt/builder主体含む・母集団網羅)")
+    ap.add_argument("--positions", default="プロトレーダー(本物),プロトレーダー(未精査),💸 出金疑い(要監視),alt主体プロ,高頻度MM")
     ap.add_argument("--out", default="insider_alt_scan.json")
     args = ap.parse_args()
 
     reg = json.load(open(f"{config.DATA_DIR}/wallet_registry.json", encoding="utf-8"))["wallets"]
-    poss = set(p for p in args.positions.split(",") if p)
-    targets = list(dict.fromkeys(
-        [e["address"] for e in reg.values() if e.get("position") in poss or e.get("wf2_checked")]))
+    if args.scan_all:
+        targets = list(dict.fromkeys([e["address"] for e in reg.values()]))
+    else:
+        poss = set(p for p in args.positions.split(",") if p)
+        targets = list(dict.fromkeys(
+            [e["address"] for e in reg.values() if e.get("position") in poss or e.get("wf2_checked")]))
     if args.limit:
         targets = targets[:args.limit]
     print(f"alt拡張(全perp 集中度+完璧エントリ) 解析対象: {len(targets)} 件")
