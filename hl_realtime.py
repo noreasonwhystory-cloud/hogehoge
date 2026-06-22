@@ -4,9 +4,16 @@
 カテゴリ別の Discord チャンネルへ通知（分割約定は1ポジション=1通知に集約）。
 現在の建玉は定期ポーリングしてライブページ(:PORT)で表示。各建玉に初回保有日時/追加回数/最新追加日時を併記。
 
+【設計の核心（再構成パラダイム全廃・SSOT）】
+- 建玉ネットの権威は **clearinghouseState.szi**（約定の積算再構成はしない＝ページ脱落で恒久ズレする為）。
+- 建玉ライフサイクル(初回/追加/最新追加/最終約定)の権威は **newest-first userFills**。
+  各fillが持つ `startPosition`(その約定直前の建玉)を使い、再構成せず導出(lifecycle_from_newest)。
+- 表示値(POSITIONS/LIFE)は **pollのみが書く**。WSは通知(transition)専任で表示netを書かない。
+  唯一の例外は LIFE.last_fill を WS が max() で前進させる(単調量ゆえ収束する)。
+
 通知ルーティング(env): HOOK_INSIDER / HOOK_ELITE / HOOK_SOLID / HOOK_MID / HOOK_MURA / HOOK_THIN / HOOK_ALT
 通知対象: 本物/alt/弱い疑惑(WS購読)。MMはDiscord通知せず=サイト表示のみ。
-その他env: WATCH_PATH / PORT / POLL_SEC
+その他env: WATCH_PATH / PORT / POLL_SEC / LIFE_TTL / LIFE_PER_CYCLE
 """
 import os
 import json
@@ -26,10 +33,8 @@ ASXN = "https://hyperscreener.asxn.xyz/profile/{a}"
 WATCH_PATH = os.environ.get("WATCH_PATH", os.path.join(os.path.dirname(__file__), "data", "watch_addresses.json"))
 PORT = int(os.environ.get("PORT", "8080"))
 POLL_SEC = int(os.environ.get("POLL_SEC", "60"))
-CLOSES_TTL = int(os.environ.get("CLOSES_TTL", "1800"))        # 直近クローズの再取得間隔(秒)
-CLOSES_PER_CYCLE = int(os.environ.get("CLOSES_PER_CYCLE", "20"))  # 1巡あたりのクローズ取得上限(レート制御)
-SEED_TTL = int(os.environ.get("SEED_TTL", "1800"))            # 建玉ライフサイクルの全履歴再復元間隔(秒)
-SEED_PER_CYCLE = int(os.environ.get("SEED_PER_CYCLE", "8"))   # 1巡あたりの全履歴復元上限(レート制御)
+LIFE_TTL = int(os.environ.get("LIFE_TTL", "900"))            # ライフサイクル/クローズの再取得間隔(秒)
+LIFE_PER_CYCLE = int(os.environ.get("LIFE_PER_CYCLE", "10"))  # 1巡あたりのuserFills取得上限(レート制御)
 
 HOOKS = {
     "insider": os.environ.get("HOOK_INSIDER", ""),
@@ -43,11 +48,12 @@ HOOKS = {
 INSIDER_POS = {"弱い疑惑(監視継続)", "インサイダー疑惑(要監視)", "💸 出金疑い(要監視)"}
 
 WATCH = {}
-POSITIONS = {}
-TRACK = {}   # (addr,coin) -> {net, open_ts, adds, last_ts}
-SEEDED = {}  # addr -> last full-history seed ts(sec)  (プロ/弱い疑惑の建玉履歴を全約定から復元済)
-SEED_OK = set()  # 全履歴シード(complete=True)に成功したaddr。WSスナップショット再生でTRACKを壊さない目印
-CLOSES = {}  # addr -> {"t": fetch_sec, "items":[{coin,long,pnl,time}]}  直近5クローズ
+POSITIONS = {}    # addr -> {acct, pos:[{coin,long,szi,notional,upnl,entry}], t}   pollのみが書く
+LIFE = {}         # (addr,coin) -> {net,open_ts,adds,last_add,last_fill,seeded}    pollが置換, WSはlast_fillのみmax
+CLOSES = {}       # addr -> {"t": fetch_sec, "items":[{coin,long,pnl,time}]}        直近5クローズ
+PREV_SZI = {}     # (addr,coin) -> 前回pollのszi   szi差分でのクローズ/ADL/清算検知用
+LIFE_FETCH = {}   # addr -> 最後にuserFillsでLIFE/CLOSESを更新したts(sec)
+LAST_EVT = {}     # (addr,coin) -> 最後に通知したts(sec)  WS/poll間のclose二重通知防止
 STATE = {"started": int(time.time()), "ws": "init", "last_poll": 0, "events": 0}
 
 
@@ -82,90 +88,39 @@ def fmt(ts):
     return time.strftime("%m-%d %H:%M", time.gmtime(ts / 1000 + JST)) if ts else "—"
 
 
-def _apply(st, f):
-    """約定1件を建玉状態に適用して新状態を返す（純関数・昇順で適用）。
-    lol/los = 方向別の最新Open時刻(net再構成に依らずdirで確実に記録)。最新追加表示に使う。"""
-    dirv = f.get("dir", "")
-    try:
-        sz = float(f.get("sz", 0) or 0)
-    except Exception:
-        return st
-    t = int(f.get("time", 0))
-    lol, los = st.get("lol"), st.get("los")
-    lf = max(st.get("lf") or 0, t)               # 最終約定(売買問わず)
-    if dirv == "Open Long":
-        lol = max(lol or 0, t)
-    elif dirv == "Open Short":
-        los = max(los or 0, t)
-    delta = sz if dirv in ("Open Long", "Close Short") else (-sz if dirv in ("Open Short", "Close Long") else 0)
-    net = st["net"]
-    new = net + delta if delta else net
-    if delta and abs(net) < 1e-9 and abs(new) > 1e-9:
-        base = {"net": new, "open_ts": t, "adds": 1, "last_ts": t}
-    elif delta and abs(new) < 1e-9:
-        return {"net": 0.0, "open_ts": None, "adds": 0, "last_ts": None,
-                "lol": None, "los": None, "lf": lf}   # クローズで建玉系リセット(最終約定は保持)
-    elif delta and (net > 0) != (new > 0):
-        base = {"net": new, "open_ts": t, "adds": 1, "last_ts": t}
-    elif delta and abs(new) > abs(net):
-        base = {"net": new, "open_ts": st.get("open_ts") or t, "adds": st.get("adds", 0) + 1, "last_ts": t}
-    else:
-        base = dict(st)
-        base["net"] = new
-    base["lol"], base["los"], base["lf"] = lol, los, lf
-    return base
+def _signed(f):
+    """約定の符号付きサイズ。side B(買)=+ / A(売)=-。"""
+    sz = float(f.get("sz", 0) or 0)
+    return sz if f.get("side") == "B" else -sz
 
 
-def update_track(a, f):
-    """WS約定で (addr,coin) の建玉ライフサイクルを更新（昇順で渡すこと）。"""
-    coin = f.get("coin")
-    key = (a, coin)
-    TRACK[key] = _apply(TRACK.get(key, {"net": 0.0, "open_ts": None, "adds": 0, "last_ts": None}), f)
-
-
-async def fetch_fills_full(session, addr, max_pages=60):
-    """userFillsByTime を 0 から前方ページングして全約定を取得。
-    戻り値 (fills, complete)。complete=False は max_pages で打ち切り＝全履歴未到達(高頻度勢)。"""
-    out, cur, now, complete = [], 0, int(time.time() * 1000), False
-    for _ in range(max_pages):
-        try:
-            async with session.post(INFO_URL, json={"type": "userFillsByTime", "user": addr,
-                                                    "startTime": cur, "endTime": now},
-                                    timeout=aiohttp.ClientTimeout(total=20)) as r:
-                ch = await r.json()
-        except Exception:
-            break
-        if not ch:
-            complete = True
-            break
-        out.extend(ch)
-        if len(ch) < 2000:
-            complete = True
-            break
-        last = int(ch[-1]["time"])
-        if last <= cur:
-            complete = True
-            break
-        cur = last + 1
-    seen, ded = set(), []
-    for f in out:
-        tid = f.get("tid")
-        if tid in seen:
-            continue
-        seen.add(tid)
-        ded.append(f)
-    return ded, complete
-
-
-def compute_lifecycle(fills):
-    """全約定から現在保有中の各建玉のライフサイクルを復元。coin->state(net>0のみ)。"""
-    fills = sorted(fills, key=lambda f: int(f.get("time", 0)))
-    state = {}
-    for f in fills:
-        coin = f.get("coin")
-        st = state.get(coin, {"net": 0.0, "open_ts": None, "adds": 0, "last_ts": None})
-        state[coin] = _apply(st, f)
-    return {c: s for c, s in state.items() if abs(s["net"]) > 1e-9}
+def lifecycle_from_newest(uf, coin, szi):
+    """newest-first userFills から coin の建玉ライフサイクルを startPosition 権威で導出（再構成しない）。
+    戻り: dict(net, open_ts, adds, last_add, last_fill, seeded) または None。
+    重要: APIが返すネイティブ newest-first 順をそのまま使う。time再ソートは禁止
+          (同一msに最大239件のサブ約定があり、timeソートすると startPosition 連鎖が壊れる)。"""
+    fs = [f for f in uf if f.get("coin") == coin]      # ネイティブ newest-first のまま
+    if not fs:
+        return None
+    last_fill = int(fs[0].get("time", 0))              # 最終約定 = 最新fill時刻(真値)
+    want = "Open Long" if szi > 0 else "Open Short"    # szi方向に一致する最新Open
+    last_add = next((int(f["time"]) for f in fs if f.get("dir") == want), None)
+    # 初回保有/追加回数: ネイティブ順の反転(=古い順, keyソートでない)で startPosition 連鎖を辿り
+    # 最後のゼロクロス(=現建玉の起点)を求める。窓内に起点が無ければ open_ts=None(=14日以上前から保有)。
+    chrono = fs[::-1]
+    open_ts, adds, prev_end = None, 0, None
+    for f in chrono:
+        sp = float(f.get("startPosition", 0) or 0)
+        end = sp + _signed(f)
+        if prev_end is not None and abs(sp - prev_end) > 1e-6:
+            open_ts, adds = None, 0                     # 連鎖断絶(窓境界/欠落) → 起点不明
+        if abs(sp) < 1e-9 and abs(end) > 1e-9:         # ゼロ→建玉: 新規オープン
+            open_ts, adds = int(f.get("time", 0)), 1
+        elif abs(end) > abs(sp) + 1e-12:               # 同方向に積み増し
+            adds += 1
+        prev_end = end
+    return {"net": szi, "open_ts": open_ts, "adds": (adds or None),
+            "last_add": last_add or last_fill, "last_fill": last_fill, "seeded": True}
 
 
 def extract_closes(fills, n=5):
@@ -198,6 +153,7 @@ def transition(pre_net, post_net):
 
 
 async def notify_event(session, a, coin, trans, pre_net, post_net, cfills):
+    """ポジション遷移をDiscordへ。cfills=[] の場合は poll の szi差分検知(fills無きクローズ/ADL/清算)。"""
     w = WATCH.get(a, {})
     hook = hook_for(w)
     if not hook:
@@ -205,42 +161,50 @@ async def notify_event(session, a, coin, trans, pre_net, post_net, cfills):
     lbl = w.get("label") or a[:10]
     pos = w.get("position", "")
     q = w.get("wf_quality")
-    px = float(cfills[-1].get("px", 0) or 0)
+    px = float(cfills[-1].get("px", 0) or 0) if cfills else 0.0
+    realized = sum(float(f.get("closedPnl", 0) or 0) for f in cfills) if cfills else None
+    detected = "" if cfills else "（建玉消滅を検知）"
     if trans == "close":
         is_long = pre_net > 0
         side = "🟩ロング" if is_long else "🟥ショート"
-        realized = sum(float(f.get("closedPnl", 0) or 0) for f in cfills)
         title = f"🔴 {side} クローズ — {lbl}"
-        desc = (f"**{coin} の{('ロング' if is_long else 'ショート')}を全クローズ**\n区分: {pos}"
-                + (f"／質:{q}" if q else "") + f"\n決済PnL ${realized:+,.0f}\n`{a}`")
+        desc = (f"**{coin} の{('ロング' if is_long else 'ショート')}を全クローズ**{detected}\n区分: {pos}"
+                + (f"／質:{q}" if q else "")
+                + (f"\n決済PnL ${realized:+,.0f}" if realized is not None else "")
+                + f"\n`{a}`")
         color = 0x8b949e
     elif trans == "reduce":
         is_long = post_net > 0
         side = "🟩ロング" if is_long else "🟥ショート"
-        realized = sum(float(f.get("closedPnl", 0) or 0) for f in cfills)
         pct = (1 - abs(post_net) / abs(pre_net)) * 100 if pre_net else 0
         remain = abs(post_net) * px
         title = f"🟠 {side} 縮小 {pct:.0f}% — {lbl}"
         desc = (f"**{coin} の{('ロング' if is_long else 'ショート')}を{pct:.0f}%縮小**（残 ${remain:,.0f}）\n区分: {pos}"
-                + (f"／質:{q}" if q else "") + f"\n決済PnL ${realized:+,.0f}\n`{a}`")
+                + (f"／質:{q}" if q else "")
+                + (f"\n決済PnL ${realized:+,.0f}" if realized is not None else "")
+                + f"\n`{a}`")
         color = 0xffb454
     else:
         is_long = post_net > 0
         side = "🟩ロング" if is_long else "🟥ショート"
         notion = abs(post_net) * px
-        st = TRACK.get((a, coin), {})
+        st = LIFE.get((a, coin), {})
         verb = "ドテン" if trans == "flip" else "エントリー"
-        last_add = (st.get("lol") if is_long else st.get("los")) or st.get("last_ts")
+        open_ts = st.get("open_ts") or (int(cfills[0]["time"]) if cfills else None)
+        last_add = st.get("last_add") or (int(cfills[-1]["time"]) if cfills else None)
+        adds = st.get("adds") or 1
         title = f"{'🔄' if trans=='flip' else '🟢'} {side} {verb} — {lbl}"
-        desc = (f"**{coin} を{('ロング' if is_long else 'ショート')}{verb}**  ${notion:,.0f}\n区分: {pos}"
+        desc = (f"**{coin} を{('ロング' if is_long else 'ショート')}{verb}**"
+                + (f"  ${notion:,.0f}" if notion else "") + f"\n区分: {pos}"
                 + (f"／質:{q}" if q else "")
-                + f"\n建玉: 初回 {fmt(st.get('open_ts'))} ／ 追加{st.get('adds',1)}回 ／ 最新 {fmt(last_add)}\n`{a}`")
+                + f"\n建玉: 初回 {fmt(open_ts)} ／ 追加{adds}回 ／ 最新 {fmt(last_add)}\n`{a}`")
         color = (0x3fb950 if is_long else 0xff5d6c)
     STATE["events"] += 1
     await discord(session, hook, title, desc, color)
 
 
 async def ws_loop(session):
+    """WSは通知専任。表示値(POSITIONS/LIFE.net/open_ts等)は書かない。stateless transition で判定。"""
     notify_addrs = [a for a, w in WATCH.items() if w.get("notify")]
     while True:
         try:
@@ -256,29 +220,33 @@ async def ws_loop(session):
                     d = m.get("data", {})
                     a = (d.get("user") or "").lower()
                     fills = sorted(d.get("fills", []), key=lambda f: int(f.get("time", 0)))
-                    snap = d.get("isSnapshot")
-                    if snap:
-                        # 全履歴シード済みのウォレットは最古2000件の再生でTRACKを壊さない（pollシードが権威）。
-                        # 未シード(高頻度勢)のみ暫定ベースラインとして種付け（通知しない）。
-                        if a not in SEED_OK:
-                            for f in fills:
-                                update_track(a, f)
-                        # 直近クローズはスナップショットからも安全に拾える（net再構成に依存しない）
+                    if not fills:
+                        continue
+                    if d.get("isSnapshot"):
+                        # スナップショットは状態種付けに使わない(最古2000件再生でTRACKを壊す旧バグの根)。
+                        # net非依存で安全な直近クローズの初期表示にだけ使う。
                         new_cl = extract_closes(fills)
                         if new_cl and not CLOSES.get(a, {}).get("items"):
                             CLOSES[a] = {"t": time.time(), "items": new_cl}
                         continue
-                    # ライブ: 銘柄ごとに前後ネットを比較し、ポジション単位で1通知に集約
+                    # ライブ: 銘柄ごとに startPosition から pre/post を確定(再構成・累積なし)
                     by_coin = defaultdict(list)
                     for f in fills:
                         by_coin[f.get("coin")].append(f)
                     for coin, cf in by_coin.items():
-                        pre = TRACK.get((a, coin), {}).get("net", 0.0)
-                        for f in cf:
-                            update_track(a, f)
-                        post = TRACK.get((a, coin), {}).get("net", 0.0)
+                        pre = float(cf[0].get("startPosition", 0) or 0)
+                        post = float(cf[-1].get("startPosition", 0) or 0) + _signed(cf[-1])
+                        t = int(cf[-1].get("time", 0))
+                        # 唯一の例外: LIFE.last_fill を前進(単調max)。netやopen_tsは触らない。
+                        ex = LIFE.get((a, coin))
+                        if ex:
+                            ex["last_fill"] = max(ex.get("last_fill") or 0, t)
+                        else:
+                            LIFE[(a, coin)] = {"net": post, "open_ts": None, "adds": None,
+                                               "last_add": None, "last_fill": t, "seeded": False}
                         tr = transition(pre, post)
                         if tr:
+                            LAST_EVT[(a, coin)] = time.time()
                             await notify_event(session, a, coin, tr, pre, post, cf)
                     # 直近クローズをリアルタイム反映（最大5・新しい順）
                     new_cl = extract_closes(fills)
@@ -298,67 +266,63 @@ async def ws_loop(session):
 
 
 async def poll_loop(session):
+    """表示値の単一ライター。clearinghouseStateでPOSITIONS(net=szi)、newest userFillsでLIFE/CLOSES。"""
     while True:
-        closes_budget = CLOSES_PER_CYCLE     # 1巡あたりの直近クローズ再取得上限
-        seed_budget = SEED_PER_CYCLE         # 1巡あたりの全履歴復元上限
+        life_budget = LIFE_PER_CYCLE
         now_s = time.time()
         for a in list(WATCH.keys()):
+            w = WATCH.get(a, {})
             try:
                 async with session.post(INFO_URL, json={"type": "clearinghouseState", "user": a},
                                         timeout=aiohttp.ClientTimeout(total=15)) as r:
                     st = await r.json()
                 acct = float(st.get("marginSummary", {}).get("accountValue", 0) or 0)
-                held = [ap.get("position", {}) for ap in st.get("assetPositions", [])
-                        if abs(float(ap.get("position", {}).get("szi", 0) or 0)) >= 1e-9]
-                # プロ/弱い疑惑の建玉ライフサイクルを全約定から権威的に復元(TTL毎に再復元)。
-                # WSスナップショットは最古2000件しか種にできず初回/最新追加/最終約定がズレるため、
-                # 全履歴(complete=True)を真実とし上書きする。open_ts有無でゲートしない(=必ず再復元)。
-                w = WATCH.get(a, {})
-                if (w.get("notify") and held and seed_budget > 0
-                        and time.time() - SEEDED.get(a, 0) > SEED_TTL):
-                    seed_budget -= 1
-                    full, complete = await fetch_fills_full(session, a)
-                    if complete:
-                        lc = compute_lifecycle(full)
-                        for p in held:
-                            coin = p.get("coin")
-                            stt = lc.get(coin)
-                            if not stt:
-                                continue
-                            # 既存(WSで進んだ最新)と統合: 日時系はmaxで後退防止、net/初回/回数は全履歴を採用
-                            ex = TRACK.get((a, coin), {})
-                            for k in ("lf", "lol", "los", "last_ts"):
-                                if ex.get(k) and (not stt.get(k) or ex[k] > stt[k]):
-                                    stt[k] = ex[k]
-                            TRACK[(a, coin)] = stt
-                        SEEDED[a] = time.time()
-                        SEED_OK.add(a)      # 以後スナップショット再生でこの建玉を壊さない
-                    else:
-                        # 全履歴を取り切れない時は短時間で再挑戦(WS最新に委ねつつ)
-                        SEEDED[a] = time.time() - SEED_TTL + 300
-                ps = []
-                for p in held:
+                ps, cur_szi = [], {}
+                for ap in st.get("assetPositions", []):
+                    p = ap.get("position", {})
                     szi = float(p.get("szi", 0) or 0)
+                    if abs(szi) < 1e-9:
+                        continue
                     coin = p.get("coin")
-                    tr = TRACK.get((a, coin), {})
-                    last_add = (tr.get("lol") if szi > 0 else tr.get("los")) or tr.get("last_ts")
-                    ps.append({"coin": coin, "long": szi > 0, "notional": round(float(p.get("positionValue", 0) or 0)),
-                               "upnl": round(float(p.get("unrealizedPnl", 0) or 0)), "entry": p.get("entryPx"),
-                               "open_ts": tr.get("open_ts"), "adds": tr.get("adds"),
-                               "last_ts": last_add, "last_fill": tr.get("lf")})
+                    cur_szi[coin] = szi
+                    ps.append({"coin": coin, "long": szi > 0, "szi": szi,
+                               "notional": round(float(p.get("positionValue", 0) or 0)),
+                               "upnl": round(float(p.get("unrealizedPnl", 0) or 0)), "entry": p.get("entryPx")})
                 POSITIONS[a] = {"acct": round(acct), "pos": ps, "t": int(time.time())}
-                # 直近クローズ: TTL超過のものを巡回バジェット内で更新（newest userFills 1ページ）
-                if closes_budget > 0 and now_s - CLOSES.get(a, {}).get("t", 0) > CLOSES_TTL:
-                    closes_budget -= 1
+                # szi差分: 建玉の消滅/反転を検知(fills無きADL/清算の安全網)。WS直近通知が無ければclose通知。
+                prev_coins = {c: v for (aa, c), v in PREV_SZI.items() if aa == a}
+                for coin, prev in prev_coins.items():
+                    nowv = cur_szi.get(coin, 0.0)
+                    if abs(prev) > 1e-9 and (abs(nowv) < 1e-9 or (prev > 0) != (nowv > 0)):
+                        if w.get("notify") and now_s - LAST_EVT.get((a, coin), 0) > POLL_SEC * 2:
+                            await notify_event(session, a, coin, "close", prev, nowv, [])
+                            LAST_EVT[(a, coin)] = now_s
+                        if abs(nowv) < 1e-9:
+                            LIFE.pop((a, coin), None)
+                for coin in [c for c in prev_coins if c not in cur_szi]:
+                    PREV_SZI.pop((a, coin), None)
+                for coin, szi in cur_szi.items():
+                    PREV_SZI[(a, coin)] = szi
+                # LIFE/CLOSES を newest userFills 1本で更新(notify層・建玉あり・TTL・巡回バジェット)
+                if w.get("notify") and ps and life_budget > 0 and now_s - LIFE_FETCH.get(a, 0) > LIFE_TTL:
+                    life_budget -= 1
                     try:
                         async with session.post(INFO_URL, json={"type": "userFills", "user": a},
                                                 timeout=aiohttp.ClientTimeout(total=20)) as r2:
                             uf = await r2.json()
+                        for p in ps:
+                            lc = lifecycle_from_newest(uf or [], p["coin"], p["szi"])
+                            if lc:
+                                ex = LIFE.get((a, p["coin"]))
+                                if ex and (ex.get("last_fill") or 0) > (lc["last_fill"] or 0):
+                                    lc["last_fill"] = ex["last_fill"]   # WS先行の最終約定は後退させない
+                                LIFE[(a, p["coin"])] = lc
                         CLOSES[a] = {"t": time.time(), "items": extract_closes(uf or [])}
+                        LIFE_FETCH[a] = time.time()
                     except Exception:
-                        CLOSES[a] = {"t": now_s, "items": CLOSES.get(a, {}).get("items", [])}
+                        pass
             except Exception:
-                pass
+                pass   # last-known-good: 一時失敗で POSITIONS を消さない(tも更新しない=鮮度で古さが見える)
             await asyncio.sleep(0.12)
         STATE["last_poll"] = int(time.time())
         await asyncio.sleep(POLL_SEC)
@@ -387,21 +351,44 @@ def closes_cell(a):
     return out
 
 
+def _hist_html(a, p):
+    """1建玉のライフサイクル行HTML。LIFE(poll権威)から組み立て、未取得/窓外を誠実に表示。"""
+    life = LIFE.get((a, p["coin"]))
+    lf = (life or {}).get("last_fill")
+    if not life or not life.get("seeded"):
+        return f"<div class=hist>履歴取得中 ／ 最終約定 {fmt(lf)}</div>"
+    adds = life.get("adds")
+    addtxt = f"{adds}回(直近14日)" if adds is not None else "—"
+    if life.get("open_ts"):
+        head = f"初回 {fmt(life['open_ts'])} ／ 追加 {addtxt}"
+    else:
+        head = f"14日以上前から保有 ／ 直近14日 追加 {addtxt}"
+    return (f"<div class=hist>{head} ／ 最新追加 {fmt(life.get('last_add'))}"
+            f" ／ 最終約定 {fmt(lf)}</div>")
+
+
 def render_page():
     order = ["インサイダー疑惑(要監視)", "弱い疑惑(監視継続)", "💸 出金疑い(要監視)",
              "プロトレーダー(本物)", "alt主体プロ", "高頻度MM"]
-    # 監視対象の全ウォレットを表示（建玉ゼロでも行を出す）。建玉保有を上に、各区分内は建玉notional降順。
+    # 監視対象の全ウォレットを表示。建玉保有=上, 未取得(保有可能性あり)=中, 確定建玉ゼロ=下。
+    def band(a):
+        d = POSITIONS.get(a)
+        if d is None:
+            return 1            # 未取得(取得中) — 沈めない
+        return 0 if d.get("pos") else 2
     allw = list(WATCH.keys())
     allw.sort(key=lambda a: (order.index(WATCH[a]["position"]) if WATCH[a]["position"] in order else 9,
-                             0 if POSITIONS.get(a, {}).get("pos") else 1,
+                             band(a),
                              -sum(abs(p["notional"]) for p in POSITIONS.get(a, {}).get("pos", []))))
     n_held = sum(1 for a in allw if POSITIONS.get(a, {}).get("pos"))
+    n_wait = sum(1 for a in allw if a not in POSITIONS)
     rows = ""
-    facet_pos, facet_q, facet_act = {}, {}, {}      # 出現したファセット→件数
+    facet_pos, facet_q, facet_act = {}, {}, {}
+    now_s = time.time()
     for a in allw:
         w = WATCH[a]
-        d = POSITIONS.get(a, {})
-        pos = d.get("pos", [])
+        d = POSITIONS.get(a)
+        pos = (d or {}).get("pos", [])
         col = PCOL.get(w["position"], "#8b949e")
         q = w.get("wf_quality")
         qtag = f"<span class=qt>質:{esc(q)}</span>" if q else ""
@@ -413,23 +400,31 @@ def render_page():
             facet_q[q] = facet_q.get(q, 0) + 1
         ftok = (f"区分:{w['position']} " + (f"質:{q} " if q else "")
                 + f"稼働:{act} " + " ".join("方向:" + x for x in dirs))
-        plist = ""
-        for p in pos:
-            sd = "🟩ロング" if p["long"] else "🟥ショート"
-            hist = (f"<div class=hist>初回 {fmt(p.get('open_ts'))} ／ 追加 {p.get('adds') if p.get('adds') is not None else '—'}回"
-                    f" ／ 最新追加 {fmt(p.get('last_ts'))} ／ 最終約定 {fmt(p.get('last_fill'))}</div>") if p.get("open_ts") else f"<div class=hist>建玉履歴: WS取得待ち ／ 最終約定 {fmt(p.get('last_fill'))}</div>"
-            plist += (f"<div class='p {'l' if p['long'] else 's'}'><b>{esc(p['coin'])} {sd}</b> ${p['notional']:,}"
-                      f" 含み<span class={'g' if p['upnl']>=0 else 'r'}>{p['upnl']:+,}</span>{hist}</div>")
-        if not plist:
-            plist = "<span class=muted>建玉なし</span>"
-        acct = f"${d['acct']:,}" if d.get("acct") is not None else "<span class=muted>—</span>"
+        # 建玉セル: 3状態(未取得/建玉ゼロ/保有)
+        if d is None:
+            plist = "<span class=muted>⏳ 取得中…</span>"
+            acct = "<span class=muted>⏳</span>"
+        else:
+            plist = ""
+            for p in pos:
+                sd = "🟩ロング" if p["long"] else "🟥ショート"
+                plist += (f"<div class='p {'l' if p['long'] else 's'}'><b>{esc(p['coin'])} {sd}</b> ${p['notional']:,}"
+                          f" 含み<span class={'g' if p['upnl']>=0 else 'r'}>{p['upnl']:+,}</span>{_hist_html(a, p)}</div>")
+            if not plist:
+                plist = "<span class=muted>建玉なし</span>"
+            acct = f"${d['acct']:,}"
+        # 鮮度バッジ(更新停滞)
+        stale = ""
+        if d and (now_s - d.get("t", 0) > POLL_SEC * 2):
+            mins = int((now_s - d.get("t", 0)) / 60)
+            stale = f"<span class=stale>⚠ {mins}分前</span>"
         actbadge = f"<span class='ab {'on' if w.get('active14') else 'off'}'>{act}</span>"
         rows += (f"<tr data-f=\"{esc(ftok)}\"><td><b style='color:{col}'>{esc(w['position'])}</b><br>{qtag} {actbadge}</td>"
                  f"<td>{esc(w['label'])}<br><code>{esc(a[:14])}…</code>"
                  f"<div class=lnk><a href='{ASXN.format(a=a)}' target=_blank>ASXN</a> "
                  f"<a href='https://app.hyperliquid.xyz/explorer/address/{a}' target=_blank>HL</a></div></td>"
-                 f"<td>{acct}</td><td>{plist}</td><td>{closes_cell(a)}</td></tr>")
-    # フィルタチップ（区分・品質・稼働・方向）
+                 f"<td>{acct}{stale}</td><td>{plist}</td><td>{closes_cell(a)}</td></tr>")
+
     def chips(items, prefix):
         return "".join(f"<span class=ft data-t=\"{prefix}:{esc(k)}\">{esc(k)} ({v})</span>"
                        for k, v in sorted(items.items(), key=lambda x: -x[1]))
@@ -458,18 +453,19 @@ th{{background:#10151c;font-size:11px}} code{{font-size:10px;color:#8b949e}}
 .muted{{color:#6e7681;font-size:11px}}
 .cl{{font-size:10px;color:#cbd5e1;white-space:nowrap;margin:1px 0}}
 .ab{{display:inline-block;border-radius:8px;font-size:10px;padding:1px 6px;margin-top:2px}}
-.ab.on{{background:#16201c;border:1px solid #2a4636;color:#7fd6a8}} .ab.off{{background:#1a1d22;border:1px solid #30363d;color:#8b949e}}</style></head><body>
+.ab.on{{background:#16201c;border:1px solid #2a4636;color:#7fd6a8}} .ab.off{{background:#1a1d22;border:1px solid #30363d;color:#8b949e}}
+.stale{{display:inline-block;margin-left:6px;color:#f0a020;font-size:10px}}</style></head><body>
 <h1>📡 HL リアルタイム監視（監視対象の全建玉）</h1>
-<div class="sub">WS={esc(STATE['ws'])} ／ 監視{len(WATCH)}件(通知{sum(1 for w in WATCH.values() if w.get('notify'))}) ／ 建玉保有{n_held}件 ／
+<div class="sub">WS={esc(STATE['ws'])} ／ 監視{len(WATCH)}件(通知{sum(1 for w in WATCH.values() if w.get('notify'))}) ／ 建玉保有{n_held}件 ／ 取得待ち{n_wait}件 ／
 通知{STATE['events']} ／ 最終巡回 {time.strftime('%m-%d %H:%M:%S',time.gmtime(STATE['last_poll'] + JST)) if STATE['last_poll'] else '-'} JST ／ 30秒自動更新
-／ 日時は日本時間(JST)。エントリー/クローズ/ドテンはDiscordへ即通知(MM除く)。</div>
+／ 日時は日本時間(JST)。net=clearinghouse szi・ライフサイクル=newest userFills(再構成しない)。エントリー/クローズ/ドテンはDiscordへ即通知(MM除く)。</div>
 <div class="fb">
   <div><span class=gl>区分</span>{posbar}</div>
   <div><span class=gl>品質</span>{qbar}</div>
   <div><span class=gl>稼働</span>{actbar}</div>
   <div><span class=gl>方向</span>{dbar}<span id=cf>✕ 解除</span><span id=cnt></span></div>
 </div>
-<h2>📊 監視対象 全{len(WATCH)}件（うち建玉保有 {n_held}件）</h2>
+<h2>📊 監視対象 全{len(WATCH)}件（建玉保有 {n_held}件 ／ 取得待ち {n_wait}件）</h2>
 <table id=tbl><tr><th>区分/品質/稼働</th><th>ウォレット</th><th>口座</th><th>建玉（ロング/ショート・含み損益・初回/追加回数/最新追加）</th><th>直近クローズ(5件)</th></tr>{rows or '<tr><td colspan=5>監視対象なし</td></tr>'}</table>
 <script>
 const sel=new Set(JSON.parse(localStorage.getItem('hlfilt')||'[]'));
