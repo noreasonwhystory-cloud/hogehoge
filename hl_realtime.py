@@ -46,6 +46,7 @@ WATCH = {}
 POSITIONS = {}
 TRACK = {}   # (addr,coin) -> {net, open_ts, adds, last_ts}
 SEEDED = {}  # addr -> last full-history seed ts(sec)  (プロ/弱い疑惑の建玉履歴を全約定から復元済)
+SEED_OK = set()  # 全履歴シード(complete=True)に成功したaddr。WSスナップショット再生でTRACKを壊さない目印
 CLOSES = {}  # addr -> {"t": fetch_sec, "items":[{coin,long,pnl,time}]}  直近5クローズ
 STATE = {"started": int(time.time()), "ws": "init", "last_poll": 0, "events": 0}
 
@@ -257,8 +258,15 @@ async def ws_loop(session):
                     fills = sorted(d.get("fills", []), key=lambda f: int(f.get("time", 0)))
                     snap = d.get("isSnapshot")
                     if snap:
-                        for f in fills:
-                            update_track(a, f)             # 初期種付け（通知しない）
+                        # 全履歴シード済みのウォレットは最古2000件の再生でTRACKを壊さない（pollシードが権威）。
+                        # 未シード(高頻度勢)のみ暫定ベースラインとして種付け（通知しない）。
+                        if a not in SEED_OK:
+                            for f in fills:
+                                update_track(a, f)
+                        # 直近クローズはスナップショットからも安全に拾える（net再構成に依存しない）
+                        new_cl = extract_closes(fills)
+                        if new_cl and not CLOSES.get(a, {}).get("items"):
+                            CLOSES[a] = {"t": time.time(), "items": new_cl}
                         continue
                     # ライブ: 銘柄ごとに前後ネットを比較し、ポジション単位で1通知に集約
                     by_coin = defaultdict(list)
@@ -324,6 +332,7 @@ async def poll_loop(session):
                                     stt[k] = ex[k]
                             TRACK[(a, coin)] = stt
                         SEEDED[a] = time.time()
+                        SEED_OK.add(a)      # 以後スナップショット再生でこの建玉を壊さない
                     else:
                         # 全履歴を取り切れない時は短時間で再挑戦(WS最新に委ねつつ)
                         SEEDED[a] = time.time() - SEED_TTL + 300
