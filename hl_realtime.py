@@ -53,6 +53,7 @@ LIFE = {}         # (addr,coin) -> {net,open_ts,adds,last_add,last_fill,seeded} 
 CLOSES = {}       # addr -> {"t": fetch_sec, "items":[{coin,long,pnl,time}]}        直近5クローズ
 PREV_SZI = {}     # (addr,coin) -> 前回pollのszi   szi差分でのクローズ/ADL/清算検知用
 LIFE_FETCH = {}   # addr -> 最後にuserFillsでLIFE/CLOSESを更新したts(sec)
+WALLET_DEXS = {}  # addr -> set(builder perp dex接頭辞)  HIP-3ビルダーperp(例 xyz:SPCX)の建玉照会用
 LAST_EVT = {}     # (addr,coin) -> 最後に通知したts(sec)  WS/poll間のclose二重通知防止
 STATE = {"started": int(time.time()), "ws": "init", "last_poll": 0, "events": 0}
 
@@ -265,30 +266,65 @@ async def ws_loop(session):
             await asyncio.sleep(5)
 
 
+async def fetch_ch(session, a, dex=None):
+    """clearinghouseState を取得し (acct, [position dict], {coin:szi}) を返す。dex指定でHIP-3ビルダーperp。"""
+    body = {"type": "clearinghouseState", "user": a}
+    if dex:
+        body["dex"] = dex
+    async with session.post(INFO_URL, json=body, timeout=aiohttp.ClientTimeout(total=15)) as r:
+        st = await r.json()
+    acct = float(st.get("marginSummary", {}).get("accountValue", 0) or 0)
+    ps, cur_szi = [], {}
+    for ap in st.get("assetPositions", []):
+        p = ap.get("position", {})
+        szi = float(p.get("szi", 0) or 0)
+        if abs(szi) < 1e-9:
+            continue
+        coin = p.get("coin")
+        cur_szi[coin] = szi
+        ps.append({"coin": coin, "long": szi > 0, "szi": szi,
+                   "notional": round(float(p.get("positionValue", 0) or 0)),
+                   "upnl": round(float(p.get("unrealizedPnl", 0) or 0)), "entry": p.get("entryPx")})
+    return acct, ps, cur_szi
+
+
 async def poll_loop(session):
-    """表示値の単一ライター。clearinghouseStateでPOSITIONS(net=szi)、newest userFillsでLIFE/CLOSES。"""
+    """表示値の単一ライター。clearinghouseStateでPOSITIONS(net=szi)、newest userFillsでLIFE/CLOSES。
+    メインperp dexに加え、各ウォレットがuserFillsで使っていると判明したHIP-3ビルダーperp dexも照会する。"""
     while True:
         life_budget = LIFE_PER_CYCLE
         now_s = time.time()
         for a in list(WATCH.keys()):
             w = WATCH.get(a, {})
             try:
-                async with session.post(INFO_URL, json={"type": "clearinghouseState", "user": a},
-                                        timeout=aiohttp.ClientTimeout(total=15)) as r:
-                    st = await r.json()
-                acct = float(st.get("marginSummary", {}).get("accountValue", 0) or 0)
-                ps, cur_szi = [], {}
-                for ap in st.get("assetPositions", []):
-                    p = ap.get("position", {})
-                    szi = float(p.get("szi", 0) or 0)
-                    if abs(szi) < 1e-9:
-                        continue
-                    coin = p.get("coin")
-                    cur_szi[coin] = szi
-                    ps.append({"coin": coin, "long": szi > 0, "szi": szi,
-                               "notional": round(float(p.get("positionValue", 0) or 0)),
-                               "upnl": round(float(p.get("unrealizedPnl", 0) or 0)), "entry": p.get("entryPx")})
-                POSITIONS[a] = {"acct": round(acct), "pos": ps, "t": int(time.time())}
+                acct, ps, cur_szi = await fetch_ch(session, a)         # メインperp dex
+                # newest userFills を先に取得(notify層・TTL・巡回バジェット)→ビルダーperp dexを学習。
+                # psが空でも実行=ビルダーperp(xyz:等)しか建玉が無いウォレットを取りこぼさない。
+                uf = None
+                if w.get("notify") and life_budget > 0 and now_s - LIFE_FETCH.get(a, 0) > LIFE_TTL:
+                    life_budget -= 1
+                    try:
+                        async with session.post(INFO_URL, json={"type": "userFills", "user": a},
+                                                timeout=aiohttp.ClientTimeout(total=20)) as r2:
+                            uf = await r2.json()
+                        WALLET_DEXS[a] = {c.split(":", 1)[0] for f in (uf or [])
+                                          for c in [f.get("coin", "")] if ":" in c}
+                        LIFE_FETCH[a] = time.time()
+                    except Exception:
+                        uf = None
+                # 既知のビルダーperp dex(xyz等)も照会して合算(coin名は "xyz:SPCX" で衝突しない)
+                for dex in sorted(WALLET_DEXS.get(a, ())):
+                    try:
+                        dacct, dps, dszi = await fetch_ch(session, a, dex=dex)
+                        acct += dacct
+                        ps.extend(dps)
+                        cur_szi.update(dszi)
+                    except Exception:
+                        pass
+                    await asyncio.sleep(0.05)
+                # notify層は初回userFills取得まで「建玉ゼロ」を断定できない(ビルダー建玉未確認)
+                dex_checked = (not w.get("notify")) or (a in LIFE_FETCH)
+                POSITIONS[a] = {"acct": round(acct), "pos": ps, "t": int(time.time()), "dex_checked": dex_checked}
                 # szi差分: 建玉の消滅/反転を検知(fills無きADL/清算の安全網)。WS直近通知が無ければclose通知。
                 prev_coins = {c: v for (aa, c), v in PREV_SZI.items() if aa == a}
                 for coin, prev in prev_coins.items():
@@ -303,24 +339,16 @@ async def poll_loop(session):
                     PREV_SZI.pop((a, coin), None)
                 for coin, szi in cur_szi.items():
                     PREV_SZI[(a, coin)] = szi
-                # LIFE/CLOSES を newest userFills 1本で更新(notify層・建玉あり・TTL・巡回バジェット)
-                if w.get("notify") and ps and life_budget > 0 and now_s - LIFE_FETCH.get(a, 0) > LIFE_TTL:
-                    life_budget -= 1
-                    try:
-                        async with session.post(INFO_URL, json={"type": "userFills", "user": a},
-                                                timeout=aiohttp.ClientTimeout(total=20)) as r2:
-                            uf = await r2.json()
-                        for p in ps:
-                            lc = lifecycle_from_newest(uf or [], p["coin"], p["szi"])
-                            if lc:
-                                ex = LIFE.get((a, p["coin"]))
-                                if ex and (ex.get("last_fill") or 0) > (lc["last_fill"] or 0):
-                                    lc["last_fill"] = ex["last_fill"]   # WS先行の最終約定は後退させない
-                                LIFE[(a, p["coin"])] = lc
-                        CLOSES[a] = {"t": time.time(), "items": extract_closes(uf or [])}
-                        LIFE_FETCH[a] = time.time()
-                    except Exception:
-                        pass
+                # LIFE/CLOSES を同じ userFills から算出(メイン+ビルダー全建玉が ps に揃った後)
+                if uf is not None:
+                    for p in ps:
+                        lc = lifecycle_from_newest(uf, p["coin"], p["szi"])
+                        if lc:
+                            ex = LIFE.get((a, p["coin"]))
+                            if ex and (ex.get("last_fill") or 0) > (lc["last_fill"] or 0):
+                                lc["last_fill"] = ex["last_fill"]   # WS先行の最終約定は後退させない
+                            LIFE[(a, p["coin"])] = lc
+                    CLOSES[a] = {"t": time.time(), "items": extract_closes(uf)}
             except Exception:
                 pass   # last-known-good: 一時失敗で POSITIONS を消さない(tも更新しない=鮮度で古さが見える)
             await asyncio.sleep(0.12)
@@ -411,7 +439,8 @@ def render_page():
                 plist += (f"<div class='p {'l' if p['long'] else 's'}'><b>{esc(p['coin'])} {sd}</b> ${p['notional']:,}"
                           f" 含み<span class={'g' if p['upnl']>=0 else 'r'}>{p['upnl']:+,}</span>{_hist_html(a, p)}</div>")
             if not plist:
-                plist = "<span class=muted>建玉なし</span>"
+                plist = ("<span class=muted>建玉なし</span>" if d.get("dex_checked", True)
+                         else "<span class=muted>⏳ 取得中…</span>")
             acct = f"${d['acct']:,}"
         # 鮮度バッジ(更新停滞)
         stale = ""
