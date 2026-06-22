@@ -25,8 +25,14 @@ def main():
     # 最新の台帳を取得してから発掘（複数環境からの編集と協調）
     git("pull", "--rebase", "--autostash", "origin", "main")
     subprocess.run([sys.executable, "discover_and_classify.py", *extra], cwd=HERE)
+    # 既存ウォレットを軽量差分更新（実現損益/最終取引日/active14/赤字転落の再分類）
+    subprocess.run([sys.executable, "update_existing.py"], cwd=HERE)
     # 監視リストも最新化（リアルタイム監視デーモンが次回読込で拾えるよう）
     subprocess.run([sys.executable, "watch_publish.py"], cwd=HERE)
+    # 全ページ再描画（差分更新を反映）
+    import json as _json
+    import step6_registry as _reg6
+    _reg6.render_all(_json.load(open(f"{HERE}/data/wallet_registry.json", encoding="utf-8")))
     ts = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M")
     git("add", "-A")
     r = git("commit", "-q", "-m", f"chore: 自動発掘サイクル {ts}UTC [skip ci]")
