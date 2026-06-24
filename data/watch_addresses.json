@@ -357,7 +357,7 @@
     "position": "alt主体プロ",
     "wf_quality": "alt主体",
     "notify": true,
-    "active14": false
+    "active14": true
   },
   {
     "address": "0xd487e26c62ed8c28ce3cc70b5791e501c2934982",
@@ -377,6 +377,62 @@
   },
   {
     "address": "0x9af02b863f5d404841a1166ca4dd9b810512e40f",
+    "label": "alt主体プロ",
+    "position": "alt主体プロ",
+    "wf_quality": "alt主体",
+    "notify": true,
+    "active14": true
+  },
+  {
+    "address": "0x499beed00ee60bef8ce07a68c92103bd2225b5fb",
+    "label": "alt主体プロ",
+    "position": "alt主体プロ",
+    "wf_quality": "alt主体",
+    "notify": true,
+    "active14": false
+  },
+  {
+    "address": "0x60af9fb01b2ab24b297f11755c375d24d5717741",
+    "label": "alt主体プロ",
+    "position": "alt主体プロ",
+    "wf_quality": "alt主体",
+    "notify": true,
+    "active14": false
+  },
+  {
+    "address": "0x184d7751999a90dd233589ed6fd12511baa603f7",
+    "label": "alt主体プロ",
+    "position": "alt主体プロ",
+    "wf_quality": "alt主体",
+    "notify": true,
+    "active14": true
+  },
+  {
+    "address": "0xa49e2a5ea7d2df2eaae311fed441d02339cf2759",
+    "label": "alt主体プロ",
+    "position": "alt主体プロ",
+    "wf_quality": "alt主体",
+    "notify": true,
+    "active14": false
+  },
+  {
+    "address": "0xd6e56265890b76413d1d527eb9b75e334c0c5b42",
+    "label": "alt主体プロ",
+    "position": "alt主体プロ",
+    "wf_quality": "alt主体",
+    "notify": true,
+    "active14": true
+  },
+  {
+    "address": "0x6891ed9ee6a9d0649ffac2bcee814e6899a0e075",
+    "label": "alt主体プロ",
+    "position": "alt主体プロ",
+    "wf_quality": "alt主体",
+    "notify": true,
+    "active14": false
+  },
+  {
+    "address": "0xd2d818dfd6ff0f87cc7f3a516a396c1be20deba2",
     "label": "alt主体プロ",
     "position": "alt主体プロ",
     "wf_quality": "alt主体",
@@ -880,6 +936,14 @@
     "active14": true
   },
   {
+    "address": "0xaf297dec752c909092a117a932a8ca4aaaff9795",
+    "label": "プロトレーダー(本物)",
+    "position": "プロトレーダー(本物)",
+    "wf_quality": "ムラあり",
+    "notify": true,
+    "active14": false
+  },
+  {
     "address": "0x3662dd1d493d1d3cf6a65cb8e4ce2bfb01f63b3c",
     "label": "🤓 Smart HL Perps Trader [0x3662dd]",
     "position": "弱い疑惑(監視継続)",
@@ -1165,7 +1229,7 @@
     "position": "高頻度MM",
     "wf_quality": "履歴薄/評価不能",
     "notify": false,
-    "active14": true
+    "active14": false
   },
   {
     "address": "0xbcd420d13362532756c968f663f96ba95e240dd2",
@@ -1525,7 +1589,7 @@
     "position": "高頻度MM",
     "wf_quality": "ムラあり",
     "notify": false,
-    "active14": true
+    "active14": false
   },
   {
     "address": "0x951591a9e0a24ce6607dc73d4c62ba2716a83bea",
@@ -1749,7 +1813,7 @@
     "position": "高頻度MM",
     "wf_quality": "ムラあり",
     "notify": false,
-    "active14": false
+    "active14": true
   },
   {
     "address": "0x00f8da96829820da934fc4a4cb7d39031ce7454b",
@@ -1949,7 +2013,7 @@
     "position": "高頻度MM",
     "wf_quality": "履歴薄/評価不能",
     "notify": false,
-    "active14": false
+    "active14": true
   },
   {
     "address": "0x668cec05549105e5b05bcc779a43186735d7ea2e",
@@ -2157,7 +2221,7 @@
     "position": "高頻度MM",
     "wf_quality": "中堅",
     "notify": false,
-    "active14": true
+    "active14": false
   },
   {
     "address": "0xac7bbfed474127e8683320421264d403fd2155f9",
@@ -2693,7 +2757,7 @@
     "position": "高頻度MM",
     "wf_quality": "履歴薄/評価不能",
     "notify": false,
-    "active14": true
+    "active14": false
   },
   {
     "address": "0xa464abbf049fb75585484addcbc00169062e813a",
@@ -2845,7 +2909,7 @@
     "position": "高頻度MM",
     "wf_quality": "ムラあり",
     "notify": false,
-    "active14": false
+    "active14": true
   },
   {
     "address": "0x598f9efb3164ec216b4eff33c2b239605be5af8e",
@@ -3565,7 +3629,7 @@
     "position": "高頻度MM",
     "wf_quality": "ムラあり",
     "notify": false,
-    "active14": true
+    "active14": false
   },
   {
     "address": "0x3bcae23e8c380dab4732e9a159c0456f12d866f3",
@@ -3685,7 +3749,7 @@
     "position": "高頻度MM",
     "wf_quality": "ムラあり",
     "notify": false,
-    "active14": false
+    "active14": true
   },
   {
     "address": "0xd507eeef2152d54b8c00cba499340f7b7a59c948",
@@ -3709,7 +3773,7 @@
     "position": "高頻度MM",
     "wf_quality": "堅実",
     "notify": false,
-    "active14": false
+    "active14": true
   },
   {
     "address": "0xd6ef5649200101eb44ce8949f4cfb167b0c5a07a",
@@ -3725,7 +3789,7 @@
     "position": "高頻度MM",
     "wf_quality": "履歴薄/評価不能",
     "notify": false,
-    "active14": true
+    "active14": false
   },
   {
     "address": "0xfb8c34145bdea190693325d0ab01e81120909b3f",
@@ -3741,7 +3805,7 @@
     "position": "高頻度MM",
     "wf_quality": "中堅",
     "notify": false,
-    "active14": false
+    "active14": true
   },
   {
     "address": "0xcb58b8f5ec6d47985f0728465c25a08ef9ad2c7b",
@@ -3757,7 +3821,7 @@
     "position": "高頻度MM",
     "wf_quality": "ムラあり",
     "notify": false,
-    "active14": false
+    "active14": true
   },
   {
     "address": "0x1111bbf435a2b5e0f17e97a0764c58f2ed4bf167",
@@ -3765,7 +3829,7 @@
     "position": "高頻度MM",
     "wf_quality": "履歴薄/評価不能",
     "notify": false,
-    "active14": false
+    "active14": true
   },
   {
     "address": "0x9321d8117e73b0c79035f0e87debcfd8dbb1d75a",
@@ -3797,7 +3861,7 @@
     "position": "高頻度MM",
     "wf_quality": "履歴薄/評価不能",
     "notify": false,
-    "active14": false
+    "active14": true
   },
   {
     "address": "0x8ed318c5eefd8c9b15b6ee351734c8a350b2f23a",
@@ -3813,7 +3877,7 @@
     "position": "高頻度MM",
     "wf_quality": "ムラあり",
     "notify": false,
-    "active14": false
+    "active14": true
   },
   {
     "address": "0xece80486ecf2588fe805a4af7c5898500f25b7c4",
@@ -3829,7 +3893,7 @@
     "position": "高頻度MM",
     "wf_quality": "ムラあり",
     "notify": false,
-    "active14": false
+    "active14": true
   },
   {
     "address": "0xf8f3160d4d85c92cdf5fd59846923465cc1f2671",
@@ -3837,7 +3901,7 @@
     "position": "高頻度MM",
     "wf_quality": "ムラあり",
     "notify": false,
-    "active14": false
+    "active14": true
   },
   {
     "address": "0x9cbf099ff424979439dfba03f00b5961784c06ce",
@@ -3853,7 +3917,7 @@
     "position": "高頻度MM",
     "wf_quality": "履歴薄/評価不能",
     "notify": false,
-    "active14": false
+    "active14": true
   },
   {
     "address": "0x360537542135943e8fc1562199aea6d0017f104b",
@@ -3869,7 +3933,7 @@
     "position": "高頻度MM",
     "wf_quality": "ムラあり",
     "notify": false,
-    "active14": false
+    "active14": true
   },
   {
     "address": "0xc513fbdfdcb114719753f0950e2352a0e194e9ae",
@@ -3877,7 +3941,7 @@
     "position": "高頻度MM",
     "wf_quality": "ムラあり",
     "notify": false,
-    "active14": false
+    "active14": true
   },
   {
     "address": "0xe039fd639ef7e0dc677d5261ed309c759865b788",
@@ -3885,7 +3949,7 @@
     "position": "高頻度MM",
     "wf_quality": "履歴薄/評価不能",
     "notify": false,
-    "active14": false
+    "active14": true
   },
   {
     "address": "0x4f2ce56828a20a9eea0c5ca082db2958e47f4fb8",
@@ -3893,7 +3957,7 @@
     "position": "高頻度MM",
     "wf_quality": "ムラあり",
     "notify": false,
-    "active14": false
+    "active14": true
   },
   {
     "address": "0x91531adfe1d601229918fd142f45b058aeeca26d",
@@ -3901,7 +3965,7 @@
     "position": "高頻度MM",
     "wf_quality": "堅実",
     "notify": false,
-    "active14": false
+    "active14": true
   },
   {
     "address": "0xe3021f9bcd85cda17ba8a766eed41e22076cecb0",
@@ -3909,7 +3973,7 @@
     "position": "高頻度MM",
     "wf_quality": "ムラあり",
     "notify": false,
-    "active14": false
+    "active14": true
   },
   {
     "address": "0xd9a1ed9aac149bf9bd655f9b9ddecf9bd04316b3",
@@ -3917,7 +3981,7 @@
     "position": "高頻度MM",
     "wf_quality": "履歴薄/評価不能",
     "notify": false,
-    "active14": false
+    "active14": true
   },
   {
     "address": "0xfb941d2344b72ea9101400392b818173772d0ddf",
@@ -3933,7 +3997,7 @@
     "position": "高頻度MM",
     "wf_quality": "ムラあり",
     "notify": false,
-    "active14": false
+    "active14": true
   },
   {
     "address": "0xbb10bda01f56b1604f2f024f2d18fcaf5d2b20b0",
@@ -3941,7 +4005,7 @@
     "position": "高頻度MM",
     "wf_quality": "堅実",
     "notify": false,
-    "active14": false
+    "active14": true
   },
   {
     "address": "0x67fcc46ed2a63971697dad2fc7bb0091fe89e51d",
@@ -3957,7 +4021,7 @@
     "position": "高頻度MM",
     "wf_quality": "履歴薄/評価不能",
     "notify": false,
-    "active14": false
+    "active14": true
   },
   {
     "address": "0xdf9ea6ec3b7109935ccb4fb267e15ac1fb077ab1",
@@ -3965,7 +4029,7 @@
     "position": "高頻度MM",
     "wf_quality": "履歴薄/評価不能",
     "notify": false,
-    "active14": false
+    "active14": true
   },
   {
     "address": "0x27c9fa86c91b84ddfa15de58c482ff662498d65d",
@@ -3997,7 +4061,7 @@
     "position": "高頻度MM",
     "wf_quality": "履歴薄/評価不能",
     "notify": false,
-    "active14": false
+    "active14": true
   },
   {
     "address": "0x23afa6c8b67f9dda2751254e8be260ccb950e2c0",
@@ -4005,7 +4069,7 @@
     "position": "高頻度MM",
     "wf_quality": "履歴薄/評価不能",
     "notify": false,
-    "active14": false
+    "active14": true
   },
   {
     "address": "0xc2e4a11e2816125386505637d7d025b02a9bc69c",
@@ -4013,7 +4077,7 @@
     "position": "高頻度MM",
     "wf_quality": "中堅",
     "notify": false,
-    "active14": false
+    "active14": true
   },
   {
     "address": "0xf58b673c1633ccef0ac58263cdc95ed80f817fc7",
@@ -4037,7 +4101,7 @@
     "position": "高頻度MM",
     "wf_quality": "ムラあり",
     "notify": false,
-    "active14": false
+    "active14": true
   },
   {
     "address": "0xddc7e50a83710f9c62efb558bcd0f640314ae2f8",
@@ -4045,7 +4109,7 @@
     "position": "高頻度MM",
     "wf_quality": "履歴薄/評価不能",
     "notify": false,
-    "active14": false
+    "active14": true
   },
   {
     "address": "0x3119a5bf3ce136b2ea82969a26e5f570c0319209",
@@ -4053,7 +4117,7 @@
     "position": "高頻度MM",
     "wf_quality": "ムラあり",
     "notify": false,
-    "active14": true
+    "active14": false
   },
   {
     "address": "0x643b713c5c6b86f74c0bbd77d0fe257acc772801",
@@ -4061,7 +4125,7 @@
     "position": "高頻度MM",
     "wf_quality": "中堅",
     "notify": false,
-    "active14": false
+    "active14": true
   },
   {
     "address": "0x6d7823cd5c3d9dcd63e6a8021b475e0c7c94b291",
@@ -4077,7 +4141,7 @@
     "position": "高頻度MM",
     "wf_quality": "履歴薄/評価不能",
     "notify": false,
-    "active14": false
+    "active14": true
   },
   {
     "address": "0xa555e81a2807cc02a1600a2c79f9fda6f0c52c1f",
@@ -4085,7 +4149,7 @@
     "position": "高頻度MM",
     "wf_quality": "中堅",
     "notify": false,
-    "active14": false
+    "active14": true
   },
   {
     "address": "0x4f9b096385c4e66ce3dec9a17e150795b9a02e3f",
@@ -4093,7 +4157,7 @@
     "position": "高頻度MM",
     "wf_quality": "履歴薄/評価不能",
     "notify": false,
-    "active14": false
+    "active14": true
   },
   {
     "address": "0x89453000afe81a8843ae2d1c5df0f340f8800779",
@@ -4101,7 +4165,7 @@
     "position": "高頻度MM",
     "wf_quality": "ムラあり",
     "notify": false,
-    "active14": false
+    "active14": true
   },
   {
     "address": "0xfc1ccff3fa575ce4297ac24aa00c06946bcf40da",
@@ -4116,6 +4180,406 @@
     "label": "高頻度MM",
     "position": "高頻度MM",
     "wf_quality": "ムラあり",
+    "notify": false,
+    "active14": true
+  },
+  {
+    "address": "0xa31441e058492bc7cfffda9aa7623c407ae83a81",
+    "label": "高頻度MM",
+    "position": "高頻度MM",
+    "wf_quality": "履歴薄/評価不能",
+    "notify": false,
+    "active14": true
+  },
+  {
+    "address": "0x985f02b19dbc062e565c981aac5614baf2cf501f",
+    "label": "高頻度MM",
+    "position": "高頻度MM",
+    "wf_quality": "履歴薄/評価不能",
+    "notify": false,
+    "active14": true
+  },
+  {
+    "address": "0x399965e15d4e61ec3529cc98b7f7ebb93b733336",
+    "label": "高頻度MM",
+    "position": "高頻度MM",
+    "wf_quality": "履歴薄/評価不能",
+    "notify": false,
+    "active14": true
+  },
+  {
+    "address": "0xaea8e3bd369217cc6e3e6abddf0da318fba8e59b",
+    "label": "高頻度MM",
+    "position": "高頻度MM",
+    "wf_quality": "履歴薄/評価不能",
+    "notify": false,
+    "active14": true
+  },
+  {
+    "address": "0x08e58e8a4744e06155e7e61151763a69b578f72a",
+    "label": "高頻度MM",
+    "position": "高頻度MM",
+    "wf_quality": "履歴薄/評価不能",
+    "notify": false,
+    "active14": false
+  },
+  {
+    "address": "0x4d470e0a241c3d7321b4b6c6f23f214db85bfa47",
+    "label": "高頻度MM",
+    "position": "高頻度MM",
+    "wf_quality": "ムラあり",
+    "notify": false,
+    "active14": false
+  },
+  {
+    "address": "0x666bd452aa2f7dbb1851e20e1eff78dc5113074a",
+    "label": "高頻度MM",
+    "position": "高頻度MM",
+    "wf_quality": "ムラあり",
+    "notify": false,
+    "active14": false
+  },
+  {
+    "address": "0x404ca2035b37bf2e83505134ebcf8d03babb5f03",
+    "label": "高頻度MM",
+    "position": "高頻度MM",
+    "wf_quality": "履歴薄/評価不能",
+    "notify": false,
+    "active14": true
+  },
+  {
+    "address": "0x7e14e3c4f69c13fefdeac1f795f7ff0ef973d1ad",
+    "label": "高頻度MM",
+    "position": "高頻度MM",
+    "wf_quality": "履歴薄/評価不能",
+    "notify": false,
+    "active14": false
+  },
+  {
+    "address": "0x97f8219e401f07752a60ddb0a75efda96d1389d9",
+    "label": "高頻度MM",
+    "position": "高頻度MM",
+    "wf_quality": "ムラあり",
+    "notify": false,
+    "active14": true
+  },
+  {
+    "address": "0x178d296356af8622c4405d77feccb137ecf5db1c",
+    "label": "高頻度MM",
+    "position": "高頻度MM",
+    "wf_quality": "履歴薄/評価不能",
+    "notify": false,
+    "active14": false
+  },
+  {
+    "address": "0xf5a465c928753b4c2e44230ffac714d5b590384a",
+    "label": "高頻度MM",
+    "position": "高頻度MM",
+    "wf_quality": "ムラあり",
+    "notify": false,
+    "active14": false
+  },
+  {
+    "address": "0xa59963a565d622c4bfc00e57a4add8871561490c",
+    "label": "高頻度MM",
+    "position": "高頻度MM",
+    "wf_quality": "堅実",
+    "notify": false,
+    "active14": false
+  },
+  {
+    "address": "0xb8b9e3097c8b1dddf9c5ea9d48a7ebeaf09d67d2",
+    "label": "高頻度MM",
+    "position": "高頻度MM",
+    "wf_quality": "ムラあり",
+    "notify": false,
+    "active14": false
+  },
+  {
+    "address": "0x3e10f2f45af8c7672cbd1535fc7ed8cb41a3d962",
+    "label": "高頻度MM",
+    "position": "高頻度MM",
+    "wf_quality": "履歴薄/評価不能",
+    "notify": false,
+    "active14": false
+  },
+  {
+    "address": "0xa65e486e97e22ece31c1ceb5ee27e749090ec906",
+    "label": "高頻度MM",
+    "position": "高頻度MM",
+    "wf_quality": "履歴薄/評価不能",
+    "notify": false,
+    "active14": false
+  },
+  {
+    "address": "0x477296b8f5f5525be26e5c0a82eb0dd24da3949f",
+    "label": "高頻度MM",
+    "position": "高頻度MM",
+    "wf_quality": "中堅",
+    "notify": false,
+    "active14": true
+  },
+  {
+    "address": "0xb3157e8725169aaa81540b678a7a5dfc2eb546fa",
+    "label": "高頻度MM",
+    "position": "高頻度MM",
+    "wf_quality": "履歴薄/評価不能",
+    "notify": false,
+    "active14": false
+  },
+  {
+    "address": "0x632b0a6bb6b6184b97f61a6c773077cab99d1838",
+    "label": "高頻度MM",
+    "position": "高頻度MM",
+    "wf_quality": "履歴薄/評価不能",
+    "notify": false,
+    "active14": true
+  },
+  {
+    "address": "0x47f5a6397b79deaaca5c456503e7c1a49357b942",
+    "label": "高頻度MM",
+    "position": "高頻度MM",
+    "wf_quality": "履歴薄/評価不能",
+    "notify": false,
+    "active14": true
+  },
+  {
+    "address": "0x6355f7cf36b24044cd5b089a845113327d0ee58e",
+    "label": "高頻度MM",
+    "position": "高頻度MM",
+    "wf_quality": "履歴薄/評価不能",
+    "notify": false,
+    "active14": false
+  },
+  {
+    "address": "0xd14d535a383b065cf2228963a984d0e2477bee1f",
+    "label": "高頻度MM",
+    "position": "高頻度MM",
+    "wf_quality": "堅実",
+    "notify": false,
+    "active14": false
+  },
+  {
+    "address": "0xe220cc6cc750c14e3340a74a6fff7d63e8e43d7b",
+    "label": "高頻度MM",
+    "position": "高頻度MM",
+    "wf_quality": "履歴薄/評価不能",
+    "notify": false,
+    "active14": false
+  },
+  {
+    "address": "0x4cbd339d9969bf8558af38af46bfd299a80b315f",
+    "label": "高頻度MM",
+    "position": "高頻度MM",
+    "wf_quality": "ムラあり",
+    "notify": false,
+    "active14": true
+  },
+  {
+    "address": "0x795cfd1b03eafc11c4ec958b8a94cfc9aa64a242",
+    "label": "高頻度MM",
+    "position": "高頻度MM",
+    "wf_quality": "ムラあり",
+    "notify": false,
+    "active14": false
+  },
+  {
+    "address": "0xc4d4fc1b01c94be075a51a515f991fa7b949fec4",
+    "label": "高頻度MM",
+    "position": "高頻度MM",
+    "wf_quality": "ムラあり",
+    "notify": false,
+    "active14": false
+  },
+  {
+    "address": "0x225864ad63ba66272cd6be3e65476a2eba48c215",
+    "label": "高頻度MM",
+    "position": "高頻度MM",
+    "wf_quality": "ムラあり",
+    "notify": false,
+    "active14": false
+  },
+  {
+    "address": "0x09ed24de462ccfefd71dd950b2829b3e3620a259",
+    "label": "高頻度MM",
+    "position": "高頻度MM",
+    "wf_quality": "履歴薄/評価不能",
+    "notify": false,
+    "active14": false
+  },
+  {
+    "address": "0x5284b17889e6a61f9b9dac4b85efe852b6305ae1",
+    "label": "高頻度MM",
+    "position": "高頻度MM",
+    "wf_quality": "ムラあり",
+    "notify": false,
+    "active14": false
+  },
+  {
+    "address": "0x2f7a83314829ea002450381ad181fd525bdb340d",
+    "label": "高頻度MM",
+    "position": "高頻度MM",
+    "wf_quality": "履歴薄/評価不能",
+    "notify": false,
+    "active14": false
+  },
+  {
+    "address": "0x054f7d23e621503036ba8ca7004ca20c29b6c9a1",
+    "label": "高頻度MM",
+    "position": "高頻度MM",
+    "wf_quality": "履歴薄/評価不能",
+    "notify": false,
+    "active14": false
+  },
+  {
+    "address": "0xb25c3ba8955a6fdff653ca1c678d4d452d24db9f",
+    "label": "高頻度MM",
+    "position": "高頻度MM",
+    "wf_quality": "履歴薄/評価不能",
+    "notify": false,
+    "active14": false
+  },
+  {
+    "address": "0xdae84fffb8090d2c4bbcac8e161e0034f3602d20",
+    "label": "高頻度MM",
+    "position": "高頻度MM",
+    "wf_quality": "ムラあり",
+    "notify": false,
+    "active14": false
+  },
+  {
+    "address": "0x92033525c11d06155dfbc89aea9e22a0637d06cf",
+    "label": "高頻度MM",
+    "position": "高頻度MM",
+    "wf_quality": "ムラあり",
+    "notify": false,
+    "active14": false
+  },
+  {
+    "address": "0x6afdf29ed6b63769d8433a95da68150868a7e523",
+    "label": "高頻度MM",
+    "position": "高頻度MM",
+    "wf_quality": "履歴薄/評価不能",
+    "notify": false,
+    "active14": false
+  },
+  {
+    "address": "0x1e07c233341012327ba02455a1dedc45f2b499d6",
+    "label": "高頻度MM",
+    "position": "高頻度MM",
+    "wf_quality": "ムラあり",
+    "notify": false,
+    "active14": false
+  },
+  {
+    "address": "0xed1d2ba1809d90874214093cdd5a1c2ab424610b",
+    "label": "高頻度MM",
+    "position": "高頻度MM",
+    "wf_quality": "履歴薄/評価不能",
+    "notify": false,
+    "active14": false
+  },
+  {
+    "address": "0x091144e651b334341eabdbbbfed644ad0100023e",
+    "label": "高頻度MM",
+    "position": "高頻度MM",
+    "wf_quality": "履歴薄/評価不能",
+    "notify": false,
+    "active14": true
+  },
+  {
+    "address": "0xd6e1a6f7bb47aca69aaa511210227d40926ff256",
+    "label": "高頻度MM",
+    "position": "高頻度MM",
+    "wf_quality": "ムラあり",
+    "notify": false,
+    "active14": true
+  },
+  {
+    "address": "0x1cba6c6ead0b6221b379f3ec1a56f47f798eedae",
+    "label": "高頻度MM",
+    "position": "高頻度MM",
+    "wf_quality": "ムラあり",
+    "notify": false,
+    "active14": true
+  },
+  {
+    "address": "0x4f7dd098060f64e698efde35d5e4eda655f65f07",
+    "label": "高頻度MM",
+    "position": "高頻度MM",
+    "wf_quality": "中堅",
+    "notify": false,
+    "active14": false
+  },
+  {
+    "address": "0x47a127f496d001f187ac65fc24852274dc51d080",
+    "label": "高頻度MM",
+    "position": "高頻度MM",
+    "wf_quality": "ムラあり",
+    "notify": false,
+    "active14": true
+  },
+  {
+    "address": "0x90ee80619c9758baf30466bf69015c4c5447b85f",
+    "label": "高頻度MM",
+    "position": "高頻度MM",
+    "wf_quality": "ムラあり",
+    "notify": false,
+    "active14": false
+  },
+  {
+    "address": "0x0e72d28b3e703c4612517ccd2f217d56601a9208",
+    "label": "高頻度MM",
+    "position": "高頻度MM",
+    "wf_quality": "堅実",
+    "notify": false,
+    "active14": false
+  },
+  {
+    "address": "0xc0feb2e990c8d6d3b5143a7c4a09c993222cd3a3",
+    "label": "高頻度MM",
+    "position": "高頻度MM",
+    "wf_quality": "履歴薄/評価不能",
+    "notify": false,
+    "active14": false
+  },
+  {
+    "address": "0x2fe21fc5130e953b862d4a6048cfd016ecf3974d",
+    "label": "高頻度MM",
+    "position": "高頻度MM",
+    "wf_quality": "ムラあり",
+    "notify": false,
+    "active14": true
+  },
+  {
+    "address": "0x9b09c1f83250a436278fd96f80054e414556a7dd",
+    "label": "高頻度MM",
+    "position": "高頻度MM",
+    "wf_quality": "ムラあり",
+    "notify": false,
+    "active14": false
+  },
+  {
+    "address": "0xf625aabf0c9f527697ff2d99b30dd794cfd76b93",
+    "label": "高頻度MM",
+    "position": "高頻度MM",
+    "wf_quality": "ムラあり",
+    "notify": false,
+    "active14": false
+  },
+  {
+    "address": "0x710a97572ea040680479716f5e6e657f4805f364",
+    "label": "高頻度MM",
+    "position": "高頻度MM",
+    "wf_quality": "ムラあり",
+    "notify": false,
+    "active14": false
+  },
+  {
+    "address": "0x007d76eec0ba411ce873a8819df50dd443d967a0",
+    "label": "高頻度MM",
+    "position": "高頻度MM",
+    "wf_quality": "履歴薄/評価不能",
     "notify": false,
     "active14": true
   }
