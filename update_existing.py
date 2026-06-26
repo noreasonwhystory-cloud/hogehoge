@@ -13,7 +13,7 @@
 import sys
 import json
 import time
-from datetime import datetime, timezone
+from datetime import datetime, timezone, timedelta
 
 import config
 import hl_client
@@ -111,9 +111,17 @@ def main():
             active += 1
         # 真の実現が赤字転落した生分類は除外へ
         if (e.get("true_realized_all") or 0) <= 0 and e.get("position") in LIVE:
+            today = datetime.utcnow().strftime("%Y-%m-%d")
+            from_pos, from_q = e.get("position"), e.get("wf_quality")
+            e["demoted_at"] = today                 # 降格日(構造化)
+            e["demoted_from"] = from_pos            # 降格前の区分
+            e["demoted_from_q"] = from_q            # 降格前の品質
+            demotions.append({"address": k, "date": today, "from": from_pos, "from_q": from_q,
+                              "to": "除外/低優先", "reason": f"真の実現が通算赤字(${e.get('true_realized_all'):,})に転落",
+                              "first_seen": e.get("first_seen")})
             e["position"] = "除外/低優先"
             e["wf_quality"] = None
-            e["notes_jp"] = (f"【差分更新({datetime.utcnow():%Y-%m-%d})】真の実現が通算赤字"
+            e["notes_jp"] = (f"【差分更新({today})】真の実現が通算赤字"
                              f"(${e.get('true_realized_all'):,})に転落→除外へ再分類。\n" + (e.get("notes_jp") or ""))
             demoted += 1
         # PnL/活動 auto_tags を最新化（頻度/銘柄/品質は据え置き）
@@ -127,7 +135,21 @@ def main():
 
     reg["updated_at"] = datetime.now(timezone.utc).isoformat()
     json.dump(reg, open(P, "w", encoding="utf-8"), ensure_ascii=False, indent=2)
-    print(f"既存更新: 新規約定あり {upd}件 / 14日内アクティブ {active}件 / 赤字転落除外 {demoted}件 (対象{len(items)})")
+    # 降格を data/demotions.json へ追記(既存とマージ・直近90日のみ保持・アドレス+日付でdedup)
+    DP = f"{config.DATA_DIR}/demotions.json"
+    try:
+        prev = json.load(open(DP, encoding="utf-8"))
+    except Exception:
+        prev = []
+    seen = {(r.get("address"), r.get("date")) for r in prev}
+    for r in demotions:
+        if (r["address"], r["date"]) not in seen:
+            prev.append(r)
+    cutoff = (datetime.utcnow().date() - timedelta(days=90)).isoformat()
+    prev = [r for r in prev if (r.get("date") or "") >= cutoff]
+    prev.sort(key=lambda r: r.get("date") or "", reverse=True)
+    json.dump(prev, open(DP, "w", encoding="utf-8"), ensure_ascii=False, indent=2)
+    print(f"既存更新: 新規約定あり {upd}件 / 14日内アクティブ {active}件 / 赤字転落除外 {demoted}件 (対象{len(items)}) / demotions.json {len(prev)}件")
 
 
 if __name__ == "__main__":
