@@ -1,148 +1,95 @@
 [
   {
-    "address": "0x34f4f946665d1e06c3376e2f2eee3887ec7a5868",
+    "address": "0x1e771e1b95c86491299d6e2a5c3b3842d03b552e",
     "patterns": {
-      "C_dormant_burst": 4.187,
-      "H_deliberate_dip": 5.865
+      "H_deliberate_dip": 6.573
     },
-    "rmaj": -551,
-    "rall": 732522
+    "rmaj": 167114,
+    "rall": 3742744
   },
   {
-    "address": "0x051c2e6d49cf82ebc47f08f9b85800f94fc9693c",
+    "address": "0x323f5bb64b34e259ed16ccc3f5037f4857a684df",
     "patterns": {
-      "H_deliberate_dip": 6.34
+      "H_deliberate_dip": 6.19
     },
-    "rmaj": 125083,
-    "rall": 2187403
+    "rmaj": -3049,
+    "rall": 1548275
   },
   {
-    "address": "0x8b0d15ac244f6cee45ccf32215f3c9c2e30219c6",
+    "address": "0xbc26aa64cdb55f160ccbbc4ee31aeb7e4609bde1",
     "patterns": {
-      "C_dormant_burst": 3.039
+      "C_dormant_burst": 4.645
+    },
+    "rmaj": 0,
+    "rall": 2257933
+  },
+  {
+    "address": "0xec46dd165ee2d4af460a9c3d01b5a4c9516c9c3f",
+    "patterns": {
+      "B_asymmetric": 0.654,
+      "C_dormant_burst": 2.663
+    },
+    "rmaj": 0,
+    "rall": 712174
+  },
+  {
+    "address": "0xbe2c69eb3d7b8ee35cbe3a28293472be31179d75",
+    "patterns": {
+      "H_deliberate_dip": 5.922
+    },
+    "rmaj": -13697,
+    "rall": 836177
+  },
+  {
+    "address": "0xdab9dc2263f97f1da26c285278905774491850df",
+    "patterns": {
+      "C_dormant_burst": 4.806
     },
     "rmaj": 1,
-    "rall": 1072994
+    "rall": 638145
   },
   {
-    "address": "0x51d99a4022a55cad07a3c958f0600d8bb0b39921",
+    "address": "0x31c683a67f0e3919a86fead9241d94f34679f11f",
     "patterns": {
-      "C_dormant_burst": 14.369,
-      "H_deliberate_dip": 6.699
-    },
-    "rmaj": 6592833,
-    "rall": 4996322
-  },
-  {
-    "address": "0x85ecf584f25db6f146718b86d493e33c5af72052",
-    "patterns": {
-      "A_size_conditional": 0.931,
-      "D_controlled_loss": 22.749,
-      "F_decoy_flip": 26.764,
-      "H_deliberate_dip": 5.353
-    },
-    "rmaj": 225320,
-    "rall": 225320
-  },
-  {
-    "address": "0x41668dddb717d2f58909ecc4dc37f995a4eee428",
-    "patterns": {
-      "C_dormant_burst": 5.997
+      "C_dormant_burst": 6.113,
+      "H_deliberate_dip": 5.502
     },
     "rmaj": 0,
-    "rall": 992490
+    "rall": 317880
   },
   {
-    "address": "0x4f2b5981d89a1c60bc73ea23edef2797447b3c17",
+    "address": "0x2df1e1378bee3ff4404a602f5de07017837be985",
     "patterns": {
-      "H_deliberate_dip": 5.62
+      "H_deliberate_dip": 6.752
     },
     "rmaj": 0,
-    "rall": 417302
+    "rall": 5644415
   },
   {
-    "address": "0x5766fabeba5aa4071a3e79f23dc388cfb4d5addc",
+    "address": "0xce1768475221e14f623b4353b0c4e80b4e2a87cd",
     "patterns": {
-      "C_dormant_burst": 6.168,
-      "H_deliberate_dip": 5.937
+      "C_dormant_burst": 6.827,
+      "H_deliberate_dip": 6.026
     },
-    "rmaj": -33377,
-    "rall": 864315
+    "rmaj": 37210,
+    "rall": 1061684
   },
   {
-    "address": "0x14b25601e369b40f5bcd1de0f9a53174e3c59d34",
+    "address": "0x30bdf164cdb6f4bc373a232942896d5bb49fb5a4",
     "patterns": {
-      "C_dormant_burst": 2.894,
-      "H_deliberate_dip": 6.105
+      "H_deliberate_dip": 6.595
     },
-    "rmaj": 66633,
-    "rall": 1273697
+    "rmaj": 2347818,
+    "rall": 3936597
   },
   {
-    "address": "0x669c1810b0eec5a39f81967623b4cce3d1b11910",
+    "address": "0x42b9493c505adf4b37dda028b6b47f7b5e8a5d1f",
     "patterns": {
-      "C_dormant_burst": 7.841,
-      "H_deliberate_dip": 5.419
-    },
-    "rmaj": -19762,
-    "rall": 262431
-  },
-  {
-    "address": "0x1f793d9f0368c1da329cb112212d81d521e7a9b8",
-    "patterns": {
-      "C_dormant_burst": 4.114,
-      "H_deliberate_dip": 6.428
-    },
-    "rmaj": 2749984,
-    "rall": 2678295
-  },
-  {
-    "address": "0xc613bd93c62e62bf3e583c36ae8c4118f1fb2456",
-    "patterns": {
-      "H_deliberate_dip": 6.62
-    },
-    "rmaj": 4308278,
-    "rall": 4171098
-  },
-  {
-    "address": "0x800ca5b9eb3c5321822439e4ad4581448d58861c",
-    "patterns": {
-      "H_deliberate_dip": 6.051
-    },
-    "rmaj": 48869,
-    "rall": 1124459
-  },
-  {
-    "address": "0x78794b9d622c855e9e79cd5d61f183a1405cf069",
-    "patterns": {
-      "H_deliberate_dip": 5.84
-    },
-    "rmaj": 11505,
-    "rall": 691297
-  },
-  {
-    "address": "0x30031f21e4927c7b7c8d9bdb803bc14e57388028",
-    "patterns": {
-      "F_decoy_flip": 18.934
-    },
-    "rmaj": 16949,
-    "rall": 50271
-  },
-  {
-    "address": "0x24fb6523036ebcb3cc51deff138066dccf6bed0f",
-    "patterns": {
-      "H_deliberate_dip": 5.335
-    },
-    "rmaj": 30836,
-    "rall": 216158
-  },
-  {
-    "address": "0x5506aab3ebcb313c03929904ad0ac9f82658d5ac",
-    "patterns": {
-      "C_dormant_burst": 3.224,
-      "H_deliberate_dip": 6.634
+      "B_asymmetric": 0.249,
+      "C_dormant_burst": 7.067,
+      "H_deliberate_dip": 5.461
     },
     "rmaj": 0,
-    "rall": 4309924
+    "rall": 289286
   }
 ]
