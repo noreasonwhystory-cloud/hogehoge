@@ -512,3 +512,15 @@
 {"date": "2026-06-29", "address": "0xd9b0a1568c93cea0ab03f1d3597ab1becaba400e", "position": "alt主体プロ", "wf_quality": "alt主体", "rmaj": 0, "rall": 323685, "flagged": false}
 {"date": "2026-06-29", "address": "0x24ca22a893dd37a6d0d7c7992fc6d1ea59395647", "position": "高頻度MM", "wf_quality": "履歴薄/評価不能", "rmaj": 0, "rall": -3048789, "flagged": false}
 {"date": "2026-06-29", "address": "0xa62a501f54e85c9c784c2f1f4a8fdf31115866a2", "position": "プロトレーダー(本物)", "wf_quality": "履歴薄/評価不能", "rmaj": 4098595, "rall": 4098595, "flagged": true}
+{"date": "2026-06-30", "address": "0xa03236e2daca8f5583bd4654a0f2c9d96c6702aa", "position": "高頻度MM", "wf_quality": "履歴薄/評価不能", "rmaj": 0, "rall": -74688, "flagged": false}
+{"date": "2026-06-30", "address": "0x53d140ac8f6b9e44af336d5e26d7354fc53f7b09", "position": "除外/低優先", "wf_quality": null, "rmaj": 0, "rall": 0, "flagged": false}
+{"date": "2026-06-30", "address": "0xad227f63d34e7251c1d0ab65e64eeea07aee4e44", "position": "高頻度MM", "wf_quality": "履歴薄/評価不能", "rmaj": 774491, "rall": 2436254, "flagged": true}
+{"date": "2026-06-30", "address": "0x6bb971430554e3af58fbd469bce46ab2359a2d23", "position": "alt主体プロ", "wf_quality": "alt主体", "rmaj": 0, "rall": 215575, "flagged": false}
+{"date": "2026-06-30", "address": "0xe2a0cc663acfe5d7a9cb82a743383297597a8ff3", "position": "高頻度MM", "wf_quality": "ムラあり", "rmaj": 495, "rall": -88964, "flagged": false}
+{"date": "2026-06-30", "address": "0xf191539a2c4ba0af951438bb6abfa0625c7df2ef", "position": "高頻度MM", "wf_quality": "ムラあり", "rmaj": -41277, "rall": 391517, "flagged": true}
+{"date": "2026-06-30", "address": "0x7fa77093e83c9292c2357ea799ac2c57ec138203", "position": "高頻度MM", "wf_quality": "履歴薄/評価不能", "rmaj": 1959, "rall": 257014, "flagged": true}
+{"date": "2026-06-30", "address": "0x349bd094209d50280dfaca12779576c748395c15", "position": "高頻度MM", "wf_quality": "エリート", "rmaj": 333880, "rall": 1783696, "flagged": true}
+{"date": "2026-06-30", "address": "0xe6fcc492fb5ea091bdbe2e1a9f163e5039f144bc", "position": "高頻度MM", "wf_quality": "堅実", "rmaj": 8588, "rall": 3859390, "flagged": false}
+{"date": "2026-06-30", "address": "0xc69ae428f6049e78d445f053d2c1df879c59b34c", "position": "高頻度MM", "wf_quality": "中堅", "rmaj": 37520, "rall": 86497, "flagged": false}
+{"date": "2026-06-30", "address": "0xabc9eda0988d43f9c5ca1f380e6fb2bccc5a01d2", "position": "高頻度MM", "wf_quality": "ムラあり", "rmaj": -37199, "rall": -70904, "flagged": false}
+{"date": "2026-06-30", "address": "0x3f7bac9e92818ed337685f55dfb627ef48c28027", "position": "高頻度MM", "wf_quality": "履歴薄/評価不能", "rmaj": 3763600, "rall": 3763600, "flagged": true}

@@ -1,77 +1,45 @@
 [
   {
-    "address": "0xbebbef7f6b1c3642dd5d46e2ff324022ea811dda",
+    "address": "0xad227f63d34e7251c1d0ab65e64eeea07aee4e44",
     "patterns": {
-      "C_dormant_burst": 6.766
+      "H_deliberate_dip": 6.387
     },
-    "rmaj": 0,
-    "rall": 2625932
+    "rmaj": 774491,
+    "rall": 2436254
   },
   {
-    "address": "0xff401c4aef18b8141cf9711b67e9658c1be9520c",
+    "address": "0xf191539a2c4ba0af951438bb6abfa0625c7df2ef",
     "patterns": {
-      "H_deliberate_dip": 5.436
+      "C_dormant_burst": 3.613,
+      "F_decoy_flip": 20.956,
+      "H_deliberate_dip": 5.593
     },
-    "rmaj": 2205,
-    "rall": 272962
+    "rmaj": -41277,
+    "rall": 391517
   },
   {
-    "address": "0xfd97600ac44b3c4e20ac1a5f23e3b18d10fa5912",
+    "address": "0x7fa77093e83c9292c2357ea799ac2c57ec138203",
     "patterns": {
-      "D_controlled_loss": 72.206
+      "C_dormant_burst": 3.608,
+      "H_deliberate_dip": 5.41
     },
-    "rmaj": 834410,
-    "rall": 4485935
+    "rmaj": 1959,
+    "rall": 257014
   },
   {
-    "address": "0x77746ff04a7014752ab12d81d531aa5e50775343",
+    "address": "0x349bd094209d50280dfaca12779576c748395c15",
     "patterns": {
-      "C_dormant_burst": 2.848,
-      "H_deliberate_dip": 5.729
+      "H_deliberate_dip": 6.251
     },
-    "rmaj": 0,
-    "rall": 536311
+    "rmaj": 333880,
+    "rall": 1783696
   },
   {
-    "address": "0xf3115b8641808c85544c36cac4024b7de58ef575",
+    "address": "0x3f7bac9e92818ed337685f55dfb627ef48c28027",
     "patterns": {
-      "H_deliberate_dip": 5.691
+      "H_deliberate_dip": 6.576
     },
-    "rmaj": -3880,
-    "rall": 491339
-  },
-  {
-    "address": "0x863b676e5e4fea0541062c32983dc8f84749ca6d",
-    "patterns": {
-      "C_dormant_burst": 18.563,
-      "H_deliberate_dip": 5.98
-    },
-    "rmaj": -468705,
-    "rall": 955849
-  },
-  {
-    "address": "0xdc3ec22034a6d9b6af9c194c0004aaf005847c00",
-    "patterns": {
-      "H_deliberate_dip": 5.581
-    },
-    "rmaj": 127367,
-    "rall": 381201
-  },
-  {
-    "address": "0xdd97539fe9a912166f037d81dcf35b3f0ce5c610",
-    "patterns": {
-      "H_deliberate_dip": 6.169
-    },
-    "rmaj": 1081295,
-    "rall": 1475980
-  },
-  {
-    "address": "0xa62a501f54e85c9c784c2f1f4a8fdf31115866a2",
-    "patterns": {
-      "C_dormant_burst": 7.955,
-      "D_controlled_loss": 18.052
-    },
-    "rmaj": 4098595,
-    "rall": 4098595
+    "rmaj": 3763600,
+    "rall": 3763600
   }
 ]
