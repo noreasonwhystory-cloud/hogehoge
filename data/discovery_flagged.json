@@ -1,45 +1,62 @@
 [
   {
-    "address": "0xad227f63d34e7251c1d0ab65e64eeea07aee4e44",
+    "address": "0xa4add8273d7f47318675bdfbcce3e9648cdb4509",
     "patterns": {
-      "H_deliberate_dip": 6.387
+      "D_controlled_loss": 39.364
     },
-    "rmaj": 774491,
-    "rall": 2436254
+    "rmaj": 942627,
+    "rall": 1664776
   },
   {
-    "address": "0xf191539a2c4ba0af951438bb6abfa0625c7df2ef",
+    "address": "0x9bb933d7fe63c0bbfdd92f9596ed47e25e7877a1",
     "patterns": {
-      "C_dormant_burst": 3.613,
-      "F_decoy_flip": 20.956,
-      "H_deliberate_dip": 5.593
+      "C_dormant_burst": 5.22,
+      "D_controlled_loss": 230.178
     },
-    "rmaj": -41277,
-    "rall": 391517
+    "rmaj": 0,
+    "rall": 3756407
   },
   {
-    "address": "0x7fa77093e83c9292c2357ea799ac2c57ec138203",
+    "address": "0x290ab3128a03835b8383be688bec64ea993ff539",
     "patterns": {
-      "C_dormant_burst": 3.608,
-      "H_deliberate_dip": 5.41
+      "H_deliberate_dip": 5.695
     },
-    "rmaj": 1959,
-    "rall": 257014
+    "rmaj": 34627,
+    "rall": 495440
   },
   {
-    "address": "0x349bd094209d50280dfaca12779576c748395c15",
+    "address": "0x225b79b1f34907781054680ad42902033c8adcb8",
     "patterns": {
-      "H_deliberate_dip": 6.251
+      "C_dormant_burst": 5.292
     },
-    "rmaj": 333880,
-    "rall": 1783696
+    "rmaj": 0,
+    "rall": 3287186
   },
   {
-    "address": "0x3f7bac9e92818ed337685f55dfb627ef48c28027",
+    "address": "0xc247e6bc07dc49a606a6978653bdbab7adb83357",
     "patterns": {
-      "H_deliberate_dip": 6.576
+      "C_dormant_burst": 6.793,
+      "H_deliberate_dip": 6.278
     },
-    "rmaj": 3763600,
-    "rall": 3763600
+    "rmaj": 50462,
+    "rall": 1896664
+  },
+  {
+    "address": "0xdd0c5de50d72e5eaa96816e920e41ce89c4b8888",
+    "patterns": {
+      "B_asymmetric": 0.134,
+      "H_deliberate_dip": 5.4
+    },
+    "rmaj": 10346,
+    "rall": 251233
+  },
+  {
+    "address": "0x94ab9eb9c49efb110870cfb713933bef4414b60b",
+    "patterns": {
+      "C_dormant_burst": 2.741,
+      "H_deliberate_dip": 5.396
+    },
+    "rmaj": -256719,
+    "rall": 248642
   }
 ]
