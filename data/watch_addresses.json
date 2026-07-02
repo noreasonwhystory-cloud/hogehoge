@@ -747,6 +747,24 @@
     "first_seen": "2026-07-01"
   },
   {
+    "address": "0xc9e531e0469d10435c90ded6994b710df7286416",
+    "label": "alt主体プロ",
+    "position": "alt主体プロ",
+    "wf_quality": "alt主体",
+    "notify": true,
+    "active14": false,
+    "first_seen": "2026-07-02"
+  },
+  {
+    "address": "0x299eb4081997ace30fb2dc63f57baef5a99783be",
+    "label": "alt主体プロ",
+    "position": "alt主体プロ",
+    "wf_quality": "alt主体",
+    "notify": true,
+    "active14": false,
+    "first_seen": "2026-07-02"
+  },
+  {
     "address": "0x230963164d9637a4c536270a06b4e3636d44a2d9",
     "label": "High Balance",
     "position": "プロトレーダー(本物)",
@@ -1348,6 +1366,15 @@
     "notify": true,
     "active14": true,
     "first_seen": "2026-06-29"
+  },
+  {
+    "address": "0x95cd5104e3e618f505428265eb459d5ec9363e17",
+    "label": "プロトレーダー(本物)",
+    "position": "プロトレーダー(本物)",
+    "wf_quality": "ムラあり",
+    "notify": true,
+    "active14": false,
+    "first_seen": "2026-07-02"
   },
   {
     "address": "0x3662dd1d493d1d3cf6a65cb8e4ce2bfb01f63b3c",
@@ -6856,5 +6883,50 @@
     "notify": false,
     "active14": true,
     "first_seen": "2026-07-01"
+  },
+  {
+    "address": "0xa5b0edf6b55128e0ddae8e51ac538c3188401d41",
+    "label": "高頻度MM",
+    "position": "高頻度MM",
+    "wf_quality": "ムラあり",
+    "notify": false,
+    "active14": false,
+    "first_seen": "2026-07-02"
+  },
+  {
+    "address": "0xb221a0f172694ddbb7883c7fe37459cc25f0a406",
+    "label": "高頻度MM",
+    "position": "高頻度MM",
+    "wf_quality": "ムラあり",
+    "notify": false,
+    "active14": false,
+    "first_seen": "2026-07-02"
+  },
+  {
+    "address": "0xaded86bf6e6fd72f78dca132af112fa36230809e",
+    "label": "高頻度MM",
+    "position": "高頻度MM",
+    "wf_quality": "ムラあり",
+    "notify": false,
+    "active14": false,
+    "first_seen": "2026-07-02"
+  },
+  {
+    "address": "0x98e499210ec2f4085b4bc0ca2ed93a1b26a8402b",
+    "label": "高頻度MM",
+    "position": "高頻度MM",
+    "wf_quality": "ムラあり",
+    "notify": false,
+    "active14": false,
+    "first_seen": "2026-07-02"
+  },
+  {
+    "address": "0xe3f41398c4b12305230930117d24a68a2c140369",
+    "label": "高頻度MM",
+    "position": "高頻度MM",
+    "wf_quality": "履歴薄/評価不能",
+    "notify": false,
+    "active14": false,
+    "first_seen": "2026-07-02"
   }
 ]
