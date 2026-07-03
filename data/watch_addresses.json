@@ -765,6 +765,15 @@
     "first_seen": "2026-07-02"
   },
   {
+    "address": "0x6252c94b6321701453bfdd416177360082186b0e",
+    "label": "alt主体プロ",
+    "position": "alt主体プロ",
+    "wf_quality": "alt主体",
+    "notify": true,
+    "active14": false,
+    "first_seen": "2026-07-03"
+  },
+  {
     "address": "0x230963164d9637a4c536270a06b4e3636d44a2d9",
     "label": "High Balance",
     "position": "プロトレーダー(本物)",
@@ -6928,5 +6937,23 @@
     "notify": false,
     "active14": false,
     "first_seen": "2026-07-02"
+  },
+  {
+    "address": "0x8def9f50456c6c4e37fa5d3d57f108ed23992dae",
+    "label": "高頻度MM",
+    "position": "高頻度MM",
+    "wf_quality": "履歴薄/評価不能",
+    "notify": false,
+    "active14": true,
+    "first_seen": "2026-07-03"
+  },
+  {
+    "address": "0x6315c7d325ea3508ad503f197d1671e097d0074a",
+    "label": "高頻度MM",
+    "position": "高頻度MM",
+    "wf_quality": "履歴薄/評価不能",
+    "notify": false,
+    "active14": false,
+    "first_seen": "2026-07-03"
   }
 ]

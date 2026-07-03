@@ -67048,7 +67048,194 @@
         "取引なし(14d)"
       ],
       "notes_jp": "【現在の分類: 🟣高頻度MM / 質:履歴薄/評価不能 / majors実現$0 / 最終取引2025-09-27】\n【自動発掘(2026-07-02)】HLリーダーボード(allTime $3,663,486)から発掘し既存基準で分類。回転2168closes/月・黒字月率0%・履歴1ヶ月。"
+    },
+    "0x8def9f50456c6c4e37fa5d3d57f108ed23992dae": {
+      "address": "0x8def9f50456c6c4e37fa5d3d57f108ed23992dae",
+      "first_seen": "2026-07-03",
+      "last_seen": "2026-07-03",
+      "times_seen": 1,
+      "position": "高頻度MM",
+      "wf_quality": "履歴薄/評価不能",
+      "metric_category": "auto_discovered",
+      "tags": [
+        "HFT:低速(〜1.5k/月)",
+        "自動発掘(2026-07-03)"
+      ],
+      "mm_cpm": 2,
+      "roi_alltime": 0.0456260184,
+      "lb_alltime": 4769557,
+      "true_realized_all": 45,
+      "true_realized_maj": 24,
+      "n_closes": 5,
+      "current": {
+        "win_rate": null,
+        "total_pnl": 24,
+        "dir_accuracy": null,
+        "metric_category": "auto_discovered"
+      },
+      "active_from": "2026-06-29",
+      "active_to": "2026-07-02",
+      "active14": true,
+      "n_fills_14d": 12119,
+      "n_fills_14d_maj": 12114,
+      "history": [],
+      "auto_tags": [
+        "PnL:小(<$100k)",
+        "頻度:HFT(>3000)",
+        "銘柄:マルチ",
+        "取引あり(14d)"
+      ],
+      "notes_jp": "【現在の分類: 🟣高頻度MM / 質:履歴薄/評価不能 / majors実現$24 / 最終取引2026-07-02】\n【自動発掘(2026-07-03)】HLリーダーボード(allTime $4,769,557)から発掘し既存基準で分類。回転2closes/月・黒字月率50%・履歴2ヶ月。"
+    },
+    "0x6315c7d325ea3508ad503f197d1671e097d0074a": {
+      "address": "0x6315c7d325ea3508ad503f197d1671e097d0074a",
+      "first_seen": "2026-07-03",
+      "last_seen": "2026-07-03",
+      "times_seen": 1,
+      "position": "高頻度MM",
+      "wf_quality": "履歴薄/評価不能",
+      "metric_category": "auto_discovered",
+      "tags": [
+        "HFT:低速(〜1.5k/月)",
+        "自動発掘(2026-07-03)"
+      ],
+      "mm_cpm": 0,
+      "roi_alltime": 0.3620199658,
+      "lb_alltime": 4706260,
+      "true_realized_all": 0,
+      "true_realized_maj": 0,
+      "n_closes": 0,
+      "current": {
+        "win_rate": null,
+        "total_pnl": 0,
+        "dir_accuracy": null,
+        "metric_category": "auto_discovered"
+      },
+      "active_from": "2026-06-05",
+      "active_to": "2026-06-10",
+      "active14": false,
+      "n_fills_14d": 0,
+      "n_fills_14d_maj": 0,
+      "history": [],
+      "auto_tags": [
+        "PnL:小(<$100k)",
+        "頻度:HFT(>3000)",
+        "銘柄:HYPE専",
+        "取引なし(14d)"
+      ],
+      "notes_jp": "【現在の分類: 🟣高頻度MM / 質:履歴薄/評価不能 / majors実現$0 / 最終取引2026-06-10】\n【自動発掘(2026-07-03)】HLリーダーボード(allTime $4,706,260)から発掘し既存基準で分類。回転0closes/月・黒字月率0%・履歴0ヶ月。"
+    },
+    "0x6252c94b6321701453bfdd416177360082186b0e": {
+      "address": "0x6252c94b6321701453bfdd416177360082186b0e",
+      "first_seen": "2026-07-03",
+      "last_seen": "2026-07-03",
+      "times_seen": 1,
+      "position": "alt主体プロ",
+      "wf_quality": "alt主体",
+      "metric_category": "auto_discovered",
+      "tags": [
+        "自動発掘(2026-07-03)"
+      ],
+      "mm_cpm": null,
+      "roi_alltime": 0.450556581,
+      "lb_alltime": 4137607,
+      "true_realized_all": 268,
+      "true_realized_maj": 0,
+      "n_closes": 891,
+      "current": {
+        "win_rate": null,
+        "total_pnl": 0,
+        "dir_accuracy": null,
+        "metric_category": "auto_discovered"
+      },
+      "active_from": "2025-05-19",
+      "active_to": "2025-05-19",
+      "active14": false,
+      "n_fills_14d": 0,
+      "n_fills_14d_maj": 0,
+      "history": [],
+      "auto_tags": [
+        "PnL:小(<$100k)",
+        "頻度:多(500+)",
+        "銘柄:@153主",
+        "取引なし(14d)"
+      ],
+      "notes_jp": "【現在の分類: 🔵alt主体プロ / 質:alt主体 / majors実現$0 / 最終取引2025-05-19】\n【自動発掘(2026-07-03)】HLリーダーボード(allTime $4,137,607)から発掘し既存基準で分類。回転891closes/月・黒字月率100%・履歴1ヶ月。"
+    },
+    "0x2ca69ddf1b3a838c1d37c4a55a4ab3ce4247e315": {
+      "address": "0x2ca69ddf1b3a838c1d37c4a55a4ab3ce4247e315",
+      "first_seen": "2026-07-03",
+      "last_seen": "2026-07-03",
+      "times_seen": 1,
+      "position": "除外/低優先",
+      "wf_quality": null,
+      "metric_category": "auto_discovered",
+      "tags": [
+        "自動発掘(2026-07-03)"
+      ],
+      "mm_cpm": null,
+      "roi_alltime": 1.128038773,
+      "lb_alltime": 3917860,
+      "true_realized_all": -88879,
+      "true_realized_maj": 99189,
+      "n_closes": 1343,
+      "current": {
+        "win_rate": null,
+        "total_pnl": 99189,
+        "dir_accuracy": null,
+        "metric_category": "auto_discovered"
+      },
+      "active_from": "2024-01-14",
+      "active_to": "2026-06-30",
+      "active14": true,
+      "n_fills_14d": 10,
+      "n_fills_14d_maj": 0,
+      "history": [],
+      "auto_tags": [
+        "PnL:赤字",
+        "頻度:多(500+)",
+        "銘柄:マルチ",
+        "取引あり(14d)"
+      ],
+      "notes_jp": "【現在の分類: ⚫除外/低優先 / majors実現$99,189 / 最終取引2026-06-30】\n【自動発掘(2026-07-03)】HLリーダーボード(allTime $3,917,860)から発掘し既存基準で分類。回転83closes/月・黒字月率19%・履歴16ヶ月。"
+    },
+    "0x6b5cfc3784e010a8bffabf30fda72297487707b9": {
+      "address": "0x6b5cfc3784e010a8bffabf30fda72297487707b9",
+      "first_seen": "2026-07-03",
+      "last_seen": "2026-07-03",
+      "times_seen": 1,
+      "position": "除外/低優先",
+      "wf_quality": null,
+      "metric_category": "auto_discovered",
+      "tags": [
+        "自動発掘(2026-07-03)"
+      ],
+      "mm_cpm": null,
+      "roi_alltime": 0.8861916195,
+      "lb_alltime": 3782772,
+      "true_realized_all": -1247415,
+      "true_realized_maj": 0,
+      "n_closes": 250,
+      "current": {
+        "win_rate": null,
+        "total_pnl": 0,
+        "dir_accuracy": null,
+        "metric_category": "auto_discovered"
+      },
+      "active_from": "2026-02-06",
+      "active_to": "2026-02-07",
+      "active14": false,
+      "n_fills_14d": 0,
+      "n_fills_14d_maj": 0,
+      "history": [],
+      "auto_tags": [
+        "PnL:赤字",
+        "頻度:中(50+)",
+        "銘柄:@107専",
+        "取引なし(14d)"
+      ],
+      "notes_jp": "【現在の分類: ⚫除外/低優先 / majors実現$0 / 最終取引2026-02-07】\n【自動発掘(2026-07-03)】HLリーダーボード(allTime $3,782,772)から発掘し既存基準で分類。回転250closes/月・黒字月率0%・履歴1ヶ月。"
     }
   },
-  "updated_at": "2026-07-02T15:04:12.090640+00:00"
+  "updated_at": "2026-07-03T15:02:25.291333+00:00"
 }
