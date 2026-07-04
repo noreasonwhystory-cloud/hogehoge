@@ -29,7 +29,7 @@ def _run(cmd):
 
 
 def _recent_jst(n=2):
-    now = datetime.datetime.utcnow() + datetime.timedelta(hours=9)
+    now = datetime.datetime.now(datetime.timezone.utc) + datetime.timedelta(hours=9)
     return {(now - datetime.timedelta(days=i)).strftime("%Y-%m-%d") for i in range(n)}
 
 
