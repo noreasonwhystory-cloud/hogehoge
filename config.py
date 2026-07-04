@@ -74,6 +74,23 @@ W_WIN_RATE = 0.25                        # 勝率
 W_DIR_ACCURACY = 0.25                    # 方向的中率
 W_EVENT_LEAD = 0.20                      # イベント先行度(正規化)
 
+# ---- Phase3 発掘拡張(多窓leaderboard + イベント逆引き + 新規大玉) ----
+# 発掘窓の多様化: allTime一本(掬い切ったら終わり)に week/month/day 窓を足し「最近急に勝ち出した」層を早期捕捉。
+LB_WEEK_MIN = 150_000       # week窓 PnL下限(USD・新興勝ち組)
+LB_WEEK_ROI = 0.30          # week窓 ROI下限(効率で足切り)
+LB_MONTH_MIN = 300_000      # month窓 PnL下限(USD)
+LB_DAY_MIN = 75_000         # day窓 PnL下限(USD・建てっぱなし未実現の先行者はday窓に出る)
+# イベント逆引き(S4): 急変の直前に正しく仕込んだ未登録者を探す起点
+EVENT_1H_PCT = 1.5          # 1h急変閾値(%)
+EVENT_4H_PCT = 3.0          # 4h急変閾値(%)
+EVENT_LEAD_H = 6            # イベント確定の何時間前までを「先行」とみなすか
+# 新規アドレス判定(fresh_whale): fills間引きで最古fill日は当てにならない→leaderboard窓整合でゲート
+FRESH_VLM_RATIO = 0.9       # allTime vlm ÷ month vlm がこれ以上=活動が最近に集中=真の新規
+FRESH_NOTIONAL = 200_000    # 新規アドレスが同方向・数分以内に建てた合算がこれ以上=大玉シグネチャ
+# レート予算(IP上限1200w/分・userFillsByTime=w20直列の現実に合わせ控えめ・超過分はpendingで翌日繰越)
+CAP_TOTAL = 50              # 1サイクルで fills 取得する候補の総上限
+CAP_PER_SOURCE = 30         # 1ソース(S1-S4)あたりの候補上限
+
 # ---- パス ----
 HERE = os.path.dirname(os.path.abspath(__file__))
 DATA_DIR = os.path.join(HERE, "data")
