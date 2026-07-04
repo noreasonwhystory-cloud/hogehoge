@@ -38,15 +38,42 @@ def git(*args):
     return subprocess.run(["git", *args], cwd=HERE)
 
 
+def _alert(msg):
+    """失敗を可視化。ALERT_HOOK(env)があればDiscordへ。cron側で export ALERT_HOOK=... 推奨。"""
+    print(msg)
+    hook = os.environ.get("ALERT_HOOK")
+    if hook:
+        try:
+            import urllib.request
+            import json as _j
+            urllib.request.urlopen(urllib.request.Request(
+                hook, data=_j.dumps({"content": msg[:1900]}).encode(),
+                headers={"Content-Type": "application/json"}), timeout=10)
+        except Exception:
+            pass
+
+
+def run_step(script, *extra):
+    """発掘ステップを実行し失敗(非0)なら通知して中止=壊れた/部分データを公開しない(#7)。"""
+    r = subprocess.run([sys.executable, script, *extra], cwd=HERE)
+    if r.returncode != 0:
+        _alert(f"[discovery] {script} 失敗 rc={r.returncode} @ "
+               f"{datetime.now(timezone.utc):%Y-%m-%d %H:%M}UTC → publish中止")
+        sys.exit(1)
+
+
 def main():
     extra = sys.argv[1:]
     # 最新の台帳を取得してから発掘（複数環境からの編集と協調）
-    git("pull", "--rebase", "--autostash", "origin", "main")
-    subprocess.run([sys.executable, "discover_and_classify.py", *extra], cwd=HERE)
+    if git("pull", "--rebase", "--autostash", "origin", "main").returncode != 0:
+        git("rebase", "--abort")   # 競合中断→壊れたgit状態で走らせない
+        _alert("[discovery] git pull --rebase 失敗(競合)→中止")
+        sys.exit(1)
+    run_step("discover_and_classify.py", *extra)
     # 既存ウォレットを軽量差分更新（実現損益/最終取引日/active14/赤字転落の再分類）
-    subprocess.run([sys.executable, "update_existing.py"], cwd=HERE)
+    run_step("update_existing.py")
     # 監視リストも最新化（リアルタイム監視デーモンが次回読込で拾えるよう）
-    subprocess.run([sys.executable, "watch_publish.py"], cwd=HERE)
+    run_step("watch_publish.py")
     # 全ページ再描画（差分更新を反映）
     import json as _json
     import step6_registry as _reg6
