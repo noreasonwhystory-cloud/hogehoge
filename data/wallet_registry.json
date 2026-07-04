@@ -92,7 +92,7 @@
       "trade_days": 325,
       "lb_alltime": 1386996,
       "n_fills_14d_maj": 0,
-      "upd_last_ms": 1782831984463
+      "upd_last_ms": 1783043206610
     },
     "0xefcace57934a753d66c48a31b880ba806d4c0869": {
       "address": "0xefcace57934a753d66c48a31b880ba806d4c0869",
@@ -146,7 +146,7 @@
         "insider_score": 0.733,
         "win_rate": 0.5107,
         "dir_accuracy": 1.0,
-        "total_pnl": 38826,
+        "total_pnl": 35790,
         "avg_hold_h": 33.33,
         "event_lead_notional": 2952207,
         "insider_likelihood": 0.58
@@ -183,9 +183,9 @@
       ],
       "notes_jp": "【現在の分類: ⚫除外/低優先 / majors実現$44,312 / 最終取引2026-06-18】\n―――（履歴）―――\n【別視点再精査(WF2 2026-06-17)】debunked（確度0.08）→ 除外/低優先\n3レンズ全てが強い無害説明を提示し、唯一の支持材料(Monad資金チェーン=cluster-A)も1万超アドレス向け公開エアドロップと判明して崩壊。先行は厳格tierでN=1に化け、的中率1.0は選択バイアス由来の計測アーティファクト。インサイダー認定不可、除外/低優先。\n―――（以下は従前の記録）―――\n【workflowレッドチーム検証】weak-suspect（確度0.3）\n【支持根拠】cluster-A所属の裏付けとなるMonad資金チェーンが実在: First Funder連鎖が 🤖 Distributor [0xdf7479](monad, 2025-11-24)→その親 [0xa9346f](monad)へ遡れ、cluster-A定義(同一Monad資金元の協調網)と整合する唯一の崩せない残余\n【反証(無害説明)】「インサイダー」の核心指標がほぼ全て無害に説明できる: (1)dir_accuracy/win_rate=1.0なのにrealized_pnlはわずか$114k/879日(=約$130/日)。完全先読みなら桁違いに稼げるはずで、1.0は微小ポジ/小N/下落相場のショート偏重(context明記の水増し)による計測アーティファクト。(2)lead_examplesが空=具体的な「動く前の建玉」が1件も検証できず、$2.95Mはaggreg",
       "roi_alltime": 4.2163714294,
-      "n_fills_14d": 1999,
+      "n_fills_14d": 1669,
       "active_from": "2024-01-19",
-      "active_to": "2026-06-30",
+      "active_to": "2026-07-01",
       "trade_days": 880,
       "active14": true,
       "wf_confidence": 0.3,
@@ -193,15 +193,15 @@
       "wf2_verdict": "debunked",
       "wf2_confidence": 0.08,
       "wf2_checked": "2026-06-17",
-      "true_realized_all": 192279,
-      "true_realized_maj": 38826,
-      "n_closes": 4572,
+      "true_realized_all": 189243,
+      "true_realized_maj": 35790,
+      "n_closes": 4633,
       "active_days": 814.6,
       "metric_normalized": "2026-06-21",
       "last_fill": 1781741734506,
       "lb_alltime": 870025,
-      "n_fills_14d_maj": 1892,
-      "upd_last_ms": 1782850226467
+      "n_fills_14d_maj": 1562,
+      "upd_last_ms": 1782922965405
     },
     "0x10b6f072fabe21bc72ffd77ff5d4414e6cef2980": {
       "address": "0x10b6f072fabe21bc72ffd77ff5d4414e6cef2980",
@@ -256,7 +256,7 @@
         "insider_score": 0.6556,
         "win_rate": 0.8877,
         "dir_accuracy": 1.0,
-        "total_pnl": 486183,
+        "total_pnl": 453762,
         "avg_hold_h": 15.24,
         "event_lead_notional": 670091,
         "insider_likelihood": 0.5
@@ -281,9 +281,9 @@
       "notes_jp": "【現在の分類: ⚫除外/低優先 / majors実現$449,205 / 最終取引2026-06-18】\n―――（履歴）―――\n【別視点再精査(WF2 2026-06-17)】debunked（確度0.08）→ 除外/低優先\n先行も反復もゼロで実証済みに不在、完璧スコアは選択バイアスの計測アーティファクト、資金源は公開エアドロップ+CEX給餌の汎用ハブ。インサイダーの根拠なし、除外相当。\n―――（以下は従前の記録）―――\n【workflowレッドチーム検証】weak-suspect（確度0.2）\n【支持根拠】的中率1.0/dir_accuracy1.0という完璧スコアと、active_now=trueで現在も稼働中(取引期間228日とそこそこ継続)。これがインサイダーを支持しうる唯一の材料。ただし lead_examples が空(\"個別例なし\")で、$670kの先行額は監査可能な個別建玉に裏付けられていない集計値にすぎな\n【反証(無害説明)】cluster-Aの根拠「同一Monad資金元」がオンチェーン検証で崩壊。Monad資金元 Distributor[0xdf7479] は2025-11-17デプロイの配布コントラクトで、単一日に約10,768の異なるアドレスへ1MONずつ送金した大規模エアドロップ/フォーセット。4ウォレットが共有=協調、ではなく1万超が共有する公共配布ハブ。HL資金元 High Balance[0x9aa91e] も Nexo(CEX) と同じMon",
       "roi_alltime": 4.6704985213,
       "roi_month": 2.1442328436,
-      "n_fills_14d": 424,
+      "n_fills_14d": 452,
       "active_from": "2025-10-30",
-      "active_to": "2026-06-29",
+      "active_to": "2026-07-03",
       "trade_days": 227,
       "active14": true,
       "wf_confidence": 0.2,
@@ -291,15 +291,15 @@
       "wf2_verdict": "debunked",
       "wf2_confidence": 0.08,
       "wf2_checked": "2026-06-17",
-      "true_realized_all": 486183,
-      "true_realized_maj": 486183,
-      "n_closes": 1439,
+      "true_realized_all": 453762,
+      "true_realized_maj": 453762,
+      "n_closes": 1491,
       "active_days": 230.9,
       "metric_normalized": "2026-06-21",
       "last_fill": 1781557052595,
       "lb_alltime": 366469,
-      "n_fills_14d_maj": 424,
-      "upd_last_ms": 1782703624943
+      "n_fills_14d_maj": 452,
+      "upd_last_ms": 1783117238713
     },
     "0x230963164d9637a4c536270a06b4e3636d44a2d9": {
       "address": "0x230963164d9637a4c536270a06b4e3636d44a2d9",
@@ -383,7 +383,7 @@
       ],
       "notes_jp": "【現在の分類: 🟢プロ(本物) / 質:堅実 / majors実現$418,854 / 最終取引2026-06-20】\n【WF再精査】質=堅実・○コピー価値あり(確度0.68)\n  強み: BTC主軸(realized_maj 41.9万=cache全体の67%)のトレンドフォロー型。win_rate 0.329と低いがprofit_factor 31.6=「損小利大」の非対称性で稼ぐ本物のプロファイル(塩漬けの真逆)。wor\n  懸念: months=6と中期実績にとどまり多年検証ではない。active14=false(直近14日無稼働)で現在トレード停止/ウォレット移行の可能性=ライブコピー実用性が低下。ZEC 18.2万のalt集中が副次リスク(majは堅いが第2銘柄は\n―――（履歴）―――\n【ひとことで】🔵 たぶんプロ。まだ詳しく調べていない。\n【正体】High Balance（Nansenが付けた名前/ラベル）\n【お金はどこから？】別の財布（[0x341a63]）から\n【よく取引する相手】🤖 LI.FI: Diamond Facet Bridge [0x1231de]、🤖 Hyperliquid: Bridge 2 [0x2df1c5]",
       "roi_alltime": 4.5881849966,
-      "n_fills_14d": 0,
+      "n_fills_14d": 410,
       "pro_score": 0.401,
       "pro_realized": 339822,
       "pro_span_days": 387,
@@ -418,8 +418,8 @@
       "wf_confidence": 0.68,
       "wf_quality": "堅実",
       "lb_alltime": 933333,
-      "n_fills_14d_maj": 0,
-      "upd_last_ms": 1782831984463
+      "n_fills_14d_maj": 159,
+      "upd_last_ms": 1782238924616
     },
     "0x128fae9d18a2f70d98a03c26bf17b67d97ce1f3c": {
       "address": "0x128fae9d18a2f70d98a03c26bf17b67d97ce1f3c",
@@ -524,8 +524,8 @@
       "notes_jp": "【現在の分類: ⚫偽陽性 / majors実現$116,072 / 最終取引2026-06-09】\n―――（履歴）―――\n【ひとことで】⚪ 数字だけ見ると怪しかったが、調べたらシロだった。\n【正体】名前は分からない（匿名）。\n【お金はどこから？】別の財布（Token Millionaire）から\n【よく取引する相手】sbeGMX、sbGMX、sbfGMX\n【詳しい判定】除外: 偽インサイダー。逆張りBTCロング含み益はあるが先行性ゼロ",
       "roi_alltime": 0.9263269916,
       "roi_month": 1.4898440374,
-      "n_fills_14d": 94,
-      "active_to": "2026-06-25",
+      "n_fills_14d": 255,
+      "active_to": "2026-07-03",
       "active_from": "2025-11-19",
       "active14": true,
       "true_realized_all": 103716,
@@ -536,8 +536,8 @@
       "last_fill": 1781017691921,
       "trade_days": 202,
       "lb_alltime": 129686,
-      "n_fills_14d_maj": 94,
-      "upd_last_ms": 1782424206976
+      "n_fills_14d_maj": 106,
+      "upd_last_ms": 1783109290644
     },
     "0xe392e9008c49e7f82e7927a741fcb12799ebdb2b": {
       "address": "0xe392e9008c49e7f82e7927a741fcb12799ebdb2b",
@@ -665,7 +665,18 @@
       "n_fills_14d": 1214,
       "n_fills_14d_maj": 1069,
       "wf_quality": "ムラあり",
-      "upd_last_ms": 1782872412145
+      "upd_last_ms": 1782872412145,
+      "alpha": {
+        "alpha24h": -56.6,
+        "n": 14,
+        "wr": 42.9,
+        "p24h": 0.9867,
+        "ewma": -62.4,
+        "streak": 0,
+        "n_clusters": 14,
+        "tag": null,
+        "updated": 1783152153361
+      }
     },
     "0x83b00972aafcc3d06d45b1b823079f9a414da46e": {
       "address": "0x83b00972aafcc3d06d45b1b823079f9a414da46e",
@@ -1517,7 +1528,18 @@
       "lb_alltime": 213349,
       "n_fills_14d_maj": 1073,
       "wf_quality": "履歴薄/評価不能",
-      "upd_last_ms": 1782916933669
+      "upd_last_ms": 1782916933669,
+      "alpha": {
+        "alpha24h": 14.5,
+        "n": 13,
+        "wr": 61.5,
+        "p24h": 0.3355,
+        "ewma": 26.1,
+        "streak": 1,
+        "n_clusters": 17,
+        "tag": null,
+        "updated": 1783152153361
+      }
     },
     "0xa72dc2d42398e54634fc28e6769f8ce3ae011807": {
       "address": "0xa72dc2d42398e54634fc28e6769f8ce3ae011807",
@@ -2137,7 +2159,18 @@
       "lb_alltime": 1020903,
       "n_fills_14d_maj": 98,
       "wf_quality": "履歴薄/評価不能",
-      "upd_last_ms": 1782868407127
+      "upd_last_ms": 1782868407127,
+      "alpha": {
+        "alpha24h": 144.8,
+        "n": 6,
+        "wr": 83.3,
+        "p24h": 0.0066,
+        "ewma": 119.5,
+        "streak": 0,
+        "n_clusters": 7,
+        "tag": null,
+        "updated": 1783152153361
+      }
     },
     "0xfe4dec8543b0b9cec0c897a689f7af7bddb02192": {
       "address": "0xfe4dec8543b0b9cec0c897a689f7af7bddb02192",
@@ -2247,7 +2280,18 @@
       "lb_alltime": 909449,
       "n_fills_14d_maj": 842,
       "wf_quality": "履歴薄/評価不能",
-      "upd_last_ms": 1782894811966
+      "upd_last_ms": 1782894811966,
+      "alpha": {
+        "alpha24h": 158.8,
+        "n": 1,
+        "wr": 100.0,
+        "p24h": null,
+        "ewma": 158.8,
+        "streak": 1,
+        "n_clusters": 1,
+        "tag": null,
+        "updated": 1783152153361
+      }
     },
     "0x5b1efd32c62000cbeba7cccbc49fabdc57b2eb80": {
       "address": "0x5b1efd32c62000cbeba7cccbc49fabdc57b2eb80",
@@ -2375,7 +2419,8 @@
         "頻度:HFT(>3000)",
         "銘柄:マルチ",
         "PnL:中($100k-1M)",
-        "取引あり(14d)"
+        "取引あり(14d)",
+        "タイミング:逆指標"
       ],
       "notes_jp": "【現在の分類: 🟢プロ(本物) / 質:ムラあり / majors実現$146,571 / 最終取引2026-06-20】\n【WF再精査】質=ムラあり・×コピー非推奨(確度0.72)\n  強み: BTC主軸の本物の方向性トレーダー。realized_maj=146.6k(全体の88%)がmajorsでaltでない、closes/月=545でMMでない、months=9・profit_factor=7.0(=99でなく負け月を実計上)\n  懸念: 持続性が弱い。pos_month_rate=0.33(黒字月3/9)で少数の大勝月に依存し、worst_month=-20.2k(通算113kに対し大)を抱える。win_rate0.661と黒字月率0.33の乖離は、月内で勝ち多数でも時折の\n―――（履歴）―――\n【ひとことで】🔵 たぶんプロ。まだ詳しく調べていない。\n【正体】名前は分からない（匿名）。\n【お金はどこから？】不明。",
       "roi_alltime": 1.8537510935,
@@ -2407,7 +2452,18 @@
       "wf_quality": "ムラあり",
       "lb_alltime": 112790,
       "n_fills_14d_maj": 2531,
-      "upd_last_ms": 1782915040074
+      "upd_last_ms": 1782915040074,
+      "alpha": {
+        "alpha24h": -34.5,
+        "n": 35,
+        "wr": 45.7,
+        "p24h": 0.9502,
+        "ewma": -63.2,
+        "streak": 0,
+        "n_clusters": 41,
+        "tag": "逆指標",
+        "updated": 1783152153361
+      }
     },
     "0x5875d72130981b18692a3d29545e4038f7eb0c38": {
       "address": "0x5875d72130981b18692a3d29545e4038f7eb0c38",
@@ -2483,7 +2539,18 @@
       "lb_alltime": 1015547,
       "n_fills_14d_maj": 2551,
       "wf_quality": "履歴薄/評価不能",
-      "upd_last_ms": 1782074387710
+      "upd_last_ms": 1782074387710,
+      "alpha": {
+        "alpha24h": 5.1,
+        "n": 15,
+        "wr": 60.0,
+        "p24h": 0.495,
+        "ewma": 32.5,
+        "streak": 0,
+        "n_clusters": 17,
+        "tag": null,
+        "updated": 1783152153361
+      }
     },
     "0x2a934d40944e2b686ee9cdce74a3f67d32cd0347": {
       "address": "0x2a934d40944e2b686ee9cdce74a3f67d32cd0347",
@@ -3620,7 +3687,18 @@
       "n_fills_14d": 8664,
       "n_fills_14d_maj": 2249,
       "wf_quality": "履歴薄/評価不能",
-      "upd_last_ms": 1782918279482
+      "upd_last_ms": 1782918279482,
+      "alpha": {
+        "alpha24h": -23.1,
+        "n": 8,
+        "wr": 50.0,
+        "p24h": 0.7143,
+        "ewma": 2.9,
+        "streak": 0,
+        "n_clusters": 8,
+        "tag": null,
+        "updated": 1783152153361
+      }
     },
     "0x8d6427d95427d2af0c3e9a4c80e0e0e604299230": {
       "address": "0x8d6427d95427d2af0c3e9a4c80e0e0e604299230",
@@ -4174,7 +4252,18 @@
       "lb_alltime": 350188,
       "n_fills_14d_maj": 1727,
       "wf_quality": "ムラあり",
-      "upd_last_ms": 1782916514753
+      "upd_last_ms": 1782916514753,
+      "alpha": {
+        "alpha24h": -17.3,
+        "n": 24,
+        "wr": 62.5,
+        "p24h": 0.6246,
+        "ewma": 19.1,
+        "streak": 2,
+        "n_clusters": 25,
+        "tag": null,
+        "updated": 1783152153361
+      }
     },
     "0x97b1419998d4c804336c6c22519d28277bacebd7": {
       "address": "0x97b1419998d4c804336c6c22519d28277bacebd7",
@@ -4658,7 +4747,18 @@
       "lb_alltime": 107991,
       "n_fills_14d_maj": 81,
       "wf_quality": "中堅",
-      "upd_last_ms": 1782916327756
+      "upd_last_ms": 1782916327756,
+      "alpha": {
+        "alpha24h": -9.8,
+        "n": 2,
+        "wr": 50.0,
+        "p24h": null,
+        "ewma": -9.8,
+        "streak": 0,
+        "n_clusters": 2,
+        "tag": null,
+        "updated": 1783152153361
+      }
     },
     "0x2f01afc9f9437c4fcb8f2e8612c57bf522bcc81d": {
       "address": "0x2f01afc9f9437c4fcb8f2e8612c57bf522bcc81d",
@@ -4943,7 +5043,18 @@
       "lb_alltime": 138391,
       "n_fills_14d_maj": 30,
       "wf_quality": "ムラあり",
-      "upd_last_ms": 1782252655904
+      "upd_last_ms": 1782252655904,
+      "alpha": {
+        "alpha24h": -31.0,
+        "n": 7,
+        "wr": 57.1,
+        "p24h": 0.8372,
+        "ewma": 7.2,
+        "streak": 0,
+        "n_clusters": 7,
+        "tag": null,
+        "updated": 1783152153361
+      }
     },
     "0x79f2bb1fc86a1f0592fb30aa6a369a24a7fd2361": {
       "address": "0x79f2bb1fc86a1f0592fb30aa6a369a24a7fd2361",
@@ -5362,7 +5473,18 @@
       "n_fills_14d": 16000,
       "n_fills_14d_maj": 533,
       "wf_quality": "履歴薄/評価不能",
-      "upd_last_ms": 1782187926953
+      "upd_last_ms": 1782187926953,
+      "alpha": {
+        "alpha24h": -23.7,
+        "n": 18,
+        "wr": 50.0,
+        "p24h": 0.6944,
+        "ewma": -33.7,
+        "streak": 3,
+        "n_clusters": 18,
+        "tag": null,
+        "updated": 1783152153361
+      }
     },
     "0x0c349d9b92fbd172bbb5a17a9db0a673a6a10ad3": {
       "address": "0x0c349d9b92fbd172bbb5a17a9db0a673a6a10ad3",
@@ -6024,7 +6146,18 @@
       "trade_days": 45,
       "lb_alltime": 222425,
       "n_fills_14d_maj": 694,
-      "upd_last_ms": 1782914198656
+      "upd_last_ms": 1782914198656,
+      "alpha": {
+        "alpha24h": 16.9,
+        "n": 24,
+        "wr": 50.0,
+        "p24h": 0.3488,
+        "ewma": 4.9,
+        "streak": 0,
+        "n_clusters": 28,
+        "tag": null,
+        "updated": 1783152153361
+      }
     },
     "0x535191d6d49922d69cc7829dbb73e48694840db7": {
       "address": "0x535191d6d49922d69cc7829dbb73e48694840db7",
@@ -6409,7 +6542,18 @@
       "lb_alltime": 1422156,
       "n_fills_14d_maj": 1108,
       "wf_quality": "履歴薄/評価不能",
-      "upd_last_ms": 1782917837027
+      "upd_last_ms": 1782917837027,
+      "alpha": {
+        "alpha24h": -61.7,
+        "n": 4,
+        "wr": 25.0,
+        "p24h": 0.7508,
+        "ewma": -182.8,
+        "streak": 0,
+        "n_clusters": 6,
+        "tag": null,
+        "updated": 1783152153361
+      }
     },
     "0xd67ca2c6f8bc84acf4fa4472b82a8740dc0a53ff": {
       "address": "0xd67ca2c6f8bc84acf4fa4472b82a8740dc0a53ff",
@@ -6567,7 +6711,18 @@
       "lb_alltime": 3076844,
       "n_fills_14d_maj": 0,
       "wf_quality": "ムラあり",
-      "upd_last_ms": 1782831984463
+      "upd_last_ms": 1782831984463,
+      "alpha": {
+        "alpha24h": 26.1,
+        "n": 2,
+        "wr": 100.0,
+        "p24h": null,
+        "ewma": 26.1,
+        "streak": 1,
+        "n_clusters": 2,
+        "tag": null,
+        "updated": 1783152153361
+      }
     },
     "0x91f564e80ed5e98eb22fde0857e1a87047f2df13": {
       "address": "0x91f564e80ed5e98eb22fde0857e1a87047f2df13",
@@ -7809,7 +7964,18 @@
       "notes_jp": "【現在の分類: 🟢プロ(本物) / 質:中堅 / majors実現$77,353 / 最終取引2026-06-20】\n【WF再精査】質=中堅・×コピー非推奨(確度0.82)\n  強み: BTC中心の純粋メジャー先物で指標は信頼可能\n  懸念: worst_month -47,376 が通算PnL +67,232 の約70%を一発で吹き飛ばす規模=ドローダウン管理が壊滅的。pos_month_rate 0.38(月の62%が赤字)、profit_factor 1.7(利益が損失を辛",
       "lb_alltime": 67232,
       "n_fills_14d_maj": 447,
-      "upd_last_ms": 1782869949126
+      "upd_last_ms": 1782869949126,
+      "alpha": {
+        "alpha24h": 66.6,
+        "n": 6,
+        "wr": 66.7,
+        "p24h": 0.2159,
+        "ewma": -31.8,
+        "streak": 3,
+        "n_clusters": 6,
+        "tag": null,
+        "updated": 1783152153361
+      }
     },
     "0x5421e7c6ce37b6c5a6a428018a451071a6fd3ab2": {
       "address": "0x5421e7c6ce37b6c5a6a428018a451071a6fd3ab2",
@@ -8116,7 +8282,18 @@
       "lb_alltime": 983412,
       "n_fills_14d_maj": 726,
       "wf_quality": "履歴薄/評価不能",
-      "upd_last_ms": 1782913673516
+      "upd_last_ms": 1782913673516,
+      "alpha": {
+        "alpha24h": -117.4,
+        "n": 3,
+        "wr": 33.3,
+        "p24h": 0.7575,
+        "ewma": -61.1,
+        "streak": 0,
+        "n_clusters": 4,
+        "tag": null,
+        "updated": 1783152153361
+      }
     },
     "0x48b1a8f92e403bc9dc7500b9cbcc4cadf35c7ac0": {
       "address": "0x48b1a8f92e403bc9dc7500b9cbcc4cadf35c7ac0",
@@ -10001,7 +10178,18 @@
       "lb_alltime": 21391840,
       "n_fills_14d_maj": 1240,
       "wf_quality": "堅実",
-      "upd_last_ms": 1782236169997
+      "upd_last_ms": 1782236169997,
+      "alpha": {
+        "alpha24h": 0.6,
+        "n": 2,
+        "wr": 50.0,
+        "p24h": null,
+        "ewma": 0.6,
+        "streak": 1,
+        "n_clusters": 2,
+        "tag": null,
+        "updated": 1783152153361
+      }
     },
     "0xc7ebe10d3568c52b3f43dc50320167db9d10ce4f": {
       "address": "0xc7ebe10d3568c52b3f43dc50320167db9d10ce4f",
@@ -10484,7 +10672,18 @@
       "mm_realized_all": 1519708,
       "lb_alltime": 2896056,
       "n_fills_14d_maj": 564,
-      "upd_last_ms": 1782793852957
+      "upd_last_ms": 1782793852957,
+      "alpha": {
+        "alpha24h": 2.2,
+        "n": 6,
+        "wr": 50.0,
+        "p24h": 0.0299,
+        "ewma": 3.1,
+        "streak": 0,
+        "n_clusters": 8,
+        "tag": null,
+        "updated": 1783152153361
+      }
     },
     "0x39b07015ca813075bbce6f475767d5b4b9d518b0": {
       "address": "0x39b07015ca813075bbce6f475767d5b4b9d518b0",
@@ -11207,7 +11406,18 @@
       "lb_alltime": 133038,
       "n_fills_14d_maj": 4000,
       "wf_quality": "履歴薄/評価不能",
-      "upd_last_ms": 1782137129782
+      "upd_last_ms": 1782137129782,
+      "alpha": {
+        "alpha24h": 0.7,
+        "n": 27,
+        "wr": 48.1,
+        "p24h": 0.4751,
+        "ewma": 9.3,
+        "streak": 1,
+        "n_clusters": 27,
+        "tag": null,
+        "updated": 1783152153361
+      }
     },
     "0x5b5f798b94f54d33ba316c8b1c837e930c90c052": {
       "address": "0x5b5f798b94f54d33ba316c8b1c837e930c90c052",
@@ -12209,7 +12419,18 @@
       "n_fills_14d": 16000,
       "n_fills_14d_maj": 4231,
       "wf_quality": "履歴薄/評価不能",
-      "upd_last_ms": 1782913443962
+      "upd_last_ms": 1782913443962,
+      "alpha": {
+        "alpha24h": 6.8,
+        "n": 8,
+        "wr": 50.0,
+        "p24h": 0.4884,
+        "ewma": -73.7,
+        "streak": 3,
+        "n_clusters": 10,
+        "tag": null,
+        "updated": 1783152153361
+      }
     },
     "0xfce053a5e461683454bf37ad66d20344c0e3f4c0": {
       "address": "0xfce053a5e461683454bf37ad66d20344c0e3f4c0",
@@ -13059,7 +13280,18 @@
       "n_fills_14d": 0,
       "n_fills_14d_maj": 0,
       "wf_quality": "履歴薄/評価不能",
-      "upd_last_ms": 1781572706903
+      "upd_last_ms": 1781572706903,
+      "alpha": {
+        "alpha24h": 73.3,
+        "n": 1,
+        "wr": 100.0,
+        "p24h": null,
+        "ewma": 73.3,
+        "streak": 1,
+        "n_clusters": 1,
+        "tag": null,
+        "updated": 1783152153361
+      }
     },
     "0x015354106478dda69c4aae3c0cf801290b738052": {
       "address": "0x015354106478dda69c4aae3c0cf801290b738052",
@@ -13314,7 +13546,18 @@
       "n_fills_14d": 2786,
       "n_fills_14d_maj": 220,
       "wf_quality": "堅実",
-      "upd_last_ms": 1782875006627
+      "upd_last_ms": 1782875006627,
+      "alpha": {
+        "alpha24h": -68.2,
+        "n": 14,
+        "wr": 14.3,
+        "p24h": 0.691,
+        "ewma": -3.5,
+        "streak": 0,
+        "n_clusters": 18,
+        "tag": null,
+        "updated": 1783152153361
+      }
     },
     "0x16bf84af3f85f8c8a97597bf2be549dfe0dee637": {
       "address": "0x16bf84af3f85f8c8a97597bf2be549dfe0dee637",
@@ -13376,7 +13619,18 @@
       "n_fills_14d": 1699,
       "n_fills_14d_maj": 1007,
       "wf_quality": "堅実",
-      "upd_last_ms": 1782874461954
+      "upd_last_ms": 1782874461954,
+      "alpha": {
+        "alpha24h": 151.5,
+        "n": 2,
+        "wr": 100.0,
+        "p24h": null,
+        "ewma": 134.1,
+        "streak": 2,
+        "n_clusters": 2,
+        "tag": null,
+        "updated": 1783152153361
+      }
     },
     "0xd8c5228c515db3043dfa0c8cd6f22450ee9a99b0": {
       "address": "0xd8c5228c515db3043dfa0c8cd6f22450ee9a99b0",
@@ -14364,7 +14618,18 @@
       "n_fills_14d": 1372,
       "n_fills_14d_maj": 162,
       "wf_quality": "履歴薄/評価不能",
-      "upd_last_ms": 1782899157288
+      "upd_last_ms": 1782899157288,
+      "alpha": {
+        "alpha24h": -165.1,
+        "n": 1,
+        "wr": 0.0,
+        "p24h": null,
+        "ewma": -165.1,
+        "streak": 0,
+        "n_clusters": 1,
+        "tag": null,
+        "updated": 1783152153361
+      }
     },
     "0x179c17d04be626561b0355a248d6055a80456aa5": {
       "address": "0x179c17d04be626561b0355a248d6055a80456aa5",
@@ -15389,7 +15654,18 @@
       "n_fills_14d": 13411,
       "n_fills_14d_maj": 473,
       "wf_quality": "履歴薄/評価不能",
-      "upd_last_ms": 1782874361944
+      "upd_last_ms": 1782874361944,
+      "alpha": {
+        "alpha24h": -135.7,
+        "n": 3,
+        "wr": 0.0,
+        "p24h": 0.5781,
+        "ewma": -132.8,
+        "streak": 0,
+        "n_clusters": 3,
+        "tag": null,
+        "updated": 1783152153361
+      }
     },
     "0xba0495c92ab69b1151ecf422851a06b602cea764": {
       "address": "0xba0495c92ab69b1151ecf422851a06b602cea764",
@@ -17522,7 +17798,18 @@
       "wf_quality": "堅実",
       "lb_alltime": 790955,
       "n_fills_14d_maj": 0,
-      "upd_last_ms": 1782868375709
+      "upd_last_ms": 1782868375709,
+      "alpha": {
+        "alpha24h": -109.7,
+        "n": 2,
+        "wr": 0.0,
+        "p24h": null,
+        "ewma": -109.7,
+        "streak": 0,
+        "n_clusters": 2,
+        "tag": null,
+        "updated": 1783152153361
+      }
     },
     "0x500bea59133e20dc63b7e88913b30348494b84ba": {
       "address": "0x500bea59133e20dc63b7e88913b30348494b84ba",
@@ -19509,7 +19796,18 @@
       "n_fills_14d": 3207,
       "n_fills_14d_maj": 1389,
       "wf_quality": "ムラあり",
-      "upd_last_ms": 1782322914301
+      "upd_last_ms": 1782322914301,
+      "alpha": {
+        "alpha24h": 106.5,
+        "n": 1,
+        "wr": 100.0,
+        "p24h": null,
+        "ewma": 106.5,
+        "streak": 1,
+        "n_clusters": 1,
+        "tag": null,
+        "updated": 1783152153361
+      }
     },
     "0x1c77041452e75939105981a914f138eb9634463c": {
       "address": "0x1c77041452e75939105981a914f138eb9634463c",
@@ -19812,7 +20110,18 @@
       "n_fills_14d": 281,
       "n_fills_14d_maj": 195,
       "wf_quality": "堅実",
-      "upd_last_ms": 1782766443917
+      "upd_last_ms": 1782766443917,
+      "alpha": {
+        "alpha24h": -299.4,
+        "n": 3,
+        "wr": 0.0,
+        "p24h": 0.4784,
+        "ewma": -244.9,
+        "streak": 0,
+        "n_clusters": 3,
+        "tag": null,
+        "updated": 1783152153361
+      }
     },
     "0x298629982613bf36c48d0b31afd2fe7d1b4604dc": {
       "address": "0x298629982613bf36c48d0b31afd2fe7d1b4604dc",
@@ -20050,7 +20359,18 @@
       "n_fills_14d": 3957,
       "n_fills_14d_maj": 762,
       "wf_quality": "ムラあり",
-      "upd_last_ms": 1782245709325
+      "upd_last_ms": 1782245709325,
+      "alpha": {
+        "alpha24h": 1.2,
+        "n": 3,
+        "wr": 33.3,
+        "p24h": 0.495,
+        "ewma": 69.8,
+        "streak": 0,
+        "n_clusters": 3,
+        "tag": null,
+        "updated": 1783152153361
+      }
     },
     "0x6a7a17046df7d3e746ce97d67dc1c6c55e27ce75": {
       "address": "0x6a7a17046df7d3e746ce97d67dc1c6c55e27ce75",
@@ -25799,7 +26119,18 @@
       "n_fills_14d": 347,
       "n_fills_14d_maj": 0,
       "wf_quality": "ムラあり",
-      "upd_last_ms": 1782916214653
+      "upd_last_ms": 1782916214653,
+      "alpha": {
+        "alpha24h": 16.9,
+        "n": 1,
+        "wr": 100.0,
+        "p24h": null,
+        "ewma": 16.9,
+        "streak": 1,
+        "n_clusters": 1,
+        "tag": null,
+        "updated": 1783152153361
+      }
     },
     "0x6559e0678d8b33de20dacafc36182fb643a9d297": {
       "address": "0x6559e0678d8b33de20dacafc36182fb643a9d297",
@@ -38285,7 +38616,18 @@
         "取引あり(14d)"
       ],
       "wf_quality": "中堅",
-      "upd_last_ms": 1782908798552
+      "upd_last_ms": 1782908798552,
+      "alpha": {
+        "alpha24h": 65.0,
+        "n": 1,
+        "wr": 100.0,
+        "p24h": null,
+        "ewma": 65.0,
+        "streak": 1,
+        "n_clusters": 1,
+        "tag": null,
+        "updated": 1783152153361
+      }
     },
     "0x24eeb5249ce20cfb667e26b463c0ef394588d65f": {
       "address": "0x24eeb5249ce20cfb667e26b463c0ef394588d65f",
@@ -39891,7 +40233,18 @@
         "PnL:中($100k-1M)",
         "取引あり(14d)"
       ],
-      "upd_last_ms": 1782765084449
+      "upd_last_ms": 1782765084449,
+      "alpha": {
+        "alpha24h": -136.0,
+        "n": 5,
+        "wr": 40.0,
+        "p24h": 0.897,
+        "ewma": -121.5,
+        "streak": 1,
+        "n_clusters": 5,
+        "tag": null,
+        "updated": 1783152153361
+      }
     },
     "0x5198eff88dea32108605bcdb109a99dc397190d8": {
       "address": "0x5198eff88dea32108605bcdb109a99dc397190d8",
@@ -41114,7 +41467,18 @@
       "n_fills_14d": 7209,
       "n_fills_14d_maj": 2233,
       "wf_quality": "ムラあり",
-      "upd_last_ms": 1782882398046
+      "upd_last_ms": 1782882398046,
+      "alpha": {
+        "alpha24h": -25.8,
+        "n": 3,
+        "wr": 33.3,
+        "p24h": 0.6412,
+        "ewma": -25.1,
+        "streak": 0,
+        "n_clusters": 3,
+        "tag": null,
+        "updated": 1783152153361
+      }
     },
     "0xda0950da3882ef1ae1e41e99ebe31e6b3324c17f": {
       "address": "0xda0950da3882ef1ae1e41e99ebe31e6b3324c17f",
@@ -42208,7 +42572,18 @@
         "PnL:大($1-10M)",
         "取引あり(14d)"
       ],
-      "upd_last_ms": 1782916752034
+      "upd_last_ms": 1782916752034,
+      "alpha": {
+        "alpha24h": -23.1,
+        "n": 4,
+        "wr": 50.0,
+        "p24h": 0.3854,
+        "ewma": -43.9,
+        "streak": 0,
+        "n_clusters": 4,
+        "tag": null,
+        "updated": 1783152153361
+      }
     },
     "0x05936f6a5ea9abfbfcc690f1a6140d97e80640f9": {
       "address": "0x05936f6a5ea9abfbfcc690f1a6140d97e80640f9",
@@ -42319,7 +42694,18 @@
         "PnL:大($1-10M)",
         "取引あり(14d)"
       ],
-      "upd_last_ms": 1782906405273
+      "upd_last_ms": 1782906405273,
+      "alpha": {
+        "alpha24h": -28.5,
+        "n": 1,
+        "wr": 0.0,
+        "p24h": null,
+        "ewma": -28.5,
+        "streak": 0,
+        "n_clusters": 1,
+        "tag": null,
+        "updated": 1783152153361
+      }
     },
     "0x0cacfc8c96b84bc5698fcdcb5ffd536b4a246170": {
       "address": "0x0cacfc8c96b84bc5698fcdcb5ffd536b4a246170",
@@ -42539,7 +42925,18 @@
         "PnL:大($1-10M)",
         "取引あり(14d)"
       ],
-      "upd_last_ms": 1782831984463
+      "upd_last_ms": 1782831984463,
+      "alpha": {
+        "alpha24h": 14.5,
+        "n": 2,
+        "wr": 50.0,
+        "p24h": null,
+        "ewma": 14.5,
+        "streak": 1,
+        "n_clusters": 2,
+        "tag": null,
+        "updated": 1783152153361
+      }
     },
     "0x15b325660a1c4a9582a7d834c31119c0cb9e3a42": {
       "address": "0x15b325660a1c4a9582a7d834c31119c0cb9e3a42",
@@ -42613,7 +43010,18 @@
         "PnL:大($1-10M)",
         "取引あり(14d)"
       ],
-      "upd_last_ms": 1782875262475
+      "upd_last_ms": 1782875262475,
+      "alpha": {
+        "alpha24h": 170.8,
+        "n": 1,
+        "wr": 100.0,
+        "p24h": null,
+        "ewma": 170.8,
+        "streak": 1,
+        "n_clusters": 1,
+        "tag": null,
+        "updated": 1783152153361
+      }
     },
     "0x218a65e21eddeece7a9df38c6bbdd89f692b7da2": {
       "address": "0x218a65e21eddeece7a9df38c6bbdd89f692b7da2",
@@ -42650,7 +43058,18 @@
         "PnL:大($1-10M)",
         "取引あり(14d)"
       ],
-      "upd_last_ms": 1782669650706
+      "upd_last_ms": 1782669650706,
+      "alpha": {
+        "alpha24h": -207.5,
+        "n": 1,
+        "wr": 0.0,
+        "p24h": null,
+        "ewma": -207.5,
+        "streak": 0,
+        "n_clusters": 1,
+        "tag": null,
+        "updated": 1783152153361
+      }
     },
     "0x2bee414493be72c747edf347d42b198494fb0ba9": {
       "address": "0x2bee414493be72c747edf347d42b198494fb0ba9",
@@ -42723,7 +43142,18 @@
         "PnL:中($100k-1M)",
         "取引あり(14d)"
       ],
-      "upd_last_ms": 1782829883267
+      "upd_last_ms": 1782829883267,
+      "alpha": {
+        "alpha24h": 17.5,
+        "n": 6,
+        "wr": 50.0,
+        "p24h": 0.4784,
+        "ewma": 49.5,
+        "streak": 0,
+        "n_clusters": 6,
+        "tag": null,
+        "updated": 1783152153361
+      }
     },
     "0x3440f23a87f1950e7a88cd248fd270e92d1132c5": {
       "address": "0x3440f23a87f1950e7a88cd248fd270e92d1132c5",
@@ -42760,7 +43190,18 @@
         "PnL:大($1-10M)",
         "取引あり(14d)"
       ],
-      "upd_last_ms": 1782919314485
+      "upd_last_ms": 1782919314485,
+      "alpha": {
+        "alpha24h": -1.8,
+        "n": 33,
+        "wr": 48.5,
+        "p24h": 0.4585,
+        "ewma": 7.9,
+        "streak": 0,
+        "n_clusters": 36,
+        "tag": null,
+        "updated": 1783152153361
+      }
     },
     "0x350e33a777d510616fbdb483d1de3b50d1edfcfb": {
       "address": "0x350e33a777d510616fbdb483d1de3b50d1edfcfb",
@@ -42797,7 +43238,18 @@
         "PnL:大($1-10M)",
         "取引あり(14d)"
       ],
-      "upd_last_ms": 1782836708577
+      "upd_last_ms": 1782836708577,
+      "alpha": {
+        "alpha24h": -19.7,
+        "n": 18,
+        "wr": 44.4,
+        "p24h": 0.7475,
+        "ewma": -51.2,
+        "streak": 0,
+        "n_clusters": 18,
+        "tag": null,
+        "updated": 1783152153361
+      }
     },
     "0x413c2724b62975c18b1415650f998a8f0a67886c": {
       "address": "0x413c2724b62975c18b1415650f998a8f0a67886c",
@@ -42871,7 +43323,18 @@
         "PnL:大($1-10M)",
         "取引あり(14d)"
       ],
-      "upd_last_ms": 1782918386628
+      "upd_last_ms": 1782918386628,
+      "alpha": {
+        "alpha24h": -3.1,
+        "n": 98,
+        "wr": 49.0,
+        "p24h": 0.5847,
+        "ewma": 0.4,
+        "streak": 1,
+        "n_clusters": 111,
+        "tag": null,
+        "updated": 1783152153361
+      }
     },
     "0x42b6d907f36255d48f70db8b4a2684088a162634": {
       "address": "0x42b6d907f36255d48f70db8b4a2684088a162634",
@@ -42982,7 +43445,18 @@
         "PnL:大($1-10M)",
         "取引あり(14d)"
       ],
-      "upd_last_ms": 1782855060464
+      "upd_last_ms": 1782855060464,
+      "alpha": {
+        "alpha24h": 63.5,
+        "n": 11,
+        "wr": 81.8,
+        "p24h": 0.1595,
+        "ewma": 63.2,
+        "streak": 1,
+        "n_clusters": 12,
+        "tag": null,
+        "updated": 1783152153361
+      }
     },
     "0x4aab8988462923ca3cbaa7e94df0cc523817cd64": {
       "address": "0x4aab8988462923ca3cbaa7e94df0cc523817cd64",
@@ -43019,7 +43493,18 @@
         "PnL:大($1-10M)",
         "取引あり(14d)"
       ],
-      "upd_last_ms": 1782488794815
+      "upd_last_ms": 1782488794815,
+      "alpha": {
+        "alpha24h": -28.0,
+        "n": 1,
+        "wr": 0.0,
+        "p24h": null,
+        "ewma": -28.0,
+        "streak": 0,
+        "n_clusters": 1,
+        "tag": null,
+        "updated": 1783152153361
+      }
     },
     "0x4e14fc11f58b64740e66e4b1aa188a4b007c0eab": {
       "address": "0x4e14fc11f58b64740e66e4b1aa188a4b007c0eab",
@@ -43093,7 +43578,18 @@
         "PnL:大($1-10M)",
         "取引あり(14d)"
       ],
-      "upd_last_ms": 1781759350516
+      "upd_last_ms": 1781759350516,
+      "alpha": {
+        "alpha24h": 42.1,
+        "n": 4,
+        "wr": 50.0,
+        "p24h": 0.0532,
+        "ewma": -7.6,
+        "streak": 1,
+        "n_clusters": 9,
+        "tag": null,
+        "updated": 1783152153361
+      }
     },
     "0x5559da6ec434c5723d0ce9c4da7f29e3f8a3d43b": {
       "address": "0x5559da6ec434c5723d0ce9c4da7f29e3f8a3d43b",
@@ -43167,7 +43663,18 @@
         "PnL:中($100k-1M)",
         "取引あり(14d)"
       ],
-      "upd_last_ms": 1782783541429
+      "upd_last_ms": 1782783541429,
+      "alpha": {
+        "alpha24h": 16.4,
+        "n": 14,
+        "wr": 50.0,
+        "p24h": 0.3588,
+        "ewma": 120.5,
+        "streak": 3,
+        "n_clusters": 15,
+        "tag": null,
+        "updated": 1783152153361
+      }
     },
     "0x565a65432ca44a999eb7217815d58594a559ccb2": {
       "address": "0x565a65432ca44a999eb7217815d58594a559ccb2",
@@ -43352,7 +43859,18 @@
         "PnL:メガ(>$10M)",
         "取引あり(14d)"
       ],
-      "upd_last_ms": 1782883817257
+      "upd_last_ms": 1782883817257,
+      "alpha": {
+        "alpha24h": 213.8,
+        "n": 1,
+        "wr": 100.0,
+        "p24h": null,
+        "ewma": 213.8,
+        "streak": 1,
+        "n_clusters": 1,
+        "tag": null,
+        "updated": 1783152153361
+      }
     },
     "0x72655b3926db3afbe914a53b0604905af7ce11a5": {
       "address": "0x72655b3926db3afbe914a53b0604905af7ce11a5",
@@ -43463,7 +43981,18 @@
         "PnL:小(<$100k)",
         "取引あり(14d)"
       ],
-      "upd_last_ms": 1782873910267
+      "upd_last_ms": 1782873910267,
+      "alpha": {
+        "alpha24h": 15.3,
+        "n": 2,
+        "wr": 50.0,
+        "p24h": null,
+        "ewma": 15.3,
+        "streak": 1,
+        "n_clusters": 2,
+        "tag": null,
+        "updated": 1783152153361
+      }
     },
     "0x7be1cba648ebe1ab8084244d23f28d68a86480d8": {
       "address": "0x7be1cba648ebe1ab8084244d23f28d68a86480d8",
@@ -43537,7 +44066,18 @@
         "PnL:大($1-10M)",
         "取引あり(14d)"
       ],
-      "upd_last_ms": 1782705101444
+      "upd_last_ms": 1782705101444,
+      "alpha": {
+        "alpha24h": 25.3,
+        "n": 41,
+        "wr": 53.7,
+        "p24h": 0.1163,
+        "ewma": -1.6,
+        "streak": 0,
+        "n_clusters": 45,
+        "tag": null,
+        "updated": 1783152153361
+      }
     },
     "0x7c976f00e84db0b44f945fc6d7fad34b43150a1a": {
       "address": "0x7c976f00e84db0b44f945fc6d7fad34b43150a1a",
@@ -43611,7 +44151,18 @@
         "PnL:大($1-10M)",
         "取引あり(14d)"
       ],
-      "upd_last_ms": 1782908706143
+      "upd_last_ms": 1782908706143,
+      "alpha": {
+        "alpha24h": 115.3,
+        "n": 1,
+        "wr": 100.0,
+        "p24h": null,
+        "ewma": 115.3,
+        "streak": 1,
+        "n_clusters": 1,
+        "tag": null,
+        "updated": 1783152153361
+      }
     },
     "0x8607a7d180de23645db594d90621d837749408d5": {
       "address": "0x8607a7d180de23645db594d90621d837749408d5",
@@ -43721,7 +44272,18 @@
         "PnL:大($1-10M)",
         "取引あり(14d)"
       ],
-      "upd_last_ms": 1782510513716
+      "upd_last_ms": 1782510513716,
+      "alpha": {
+        "alpha24h": 46.0,
+        "n": 3,
+        "wr": 66.7,
+        "p24h": 0.3355,
+        "ewma": -4.5,
+        "streak": 1,
+        "n_clusters": 3,
+        "tag": null,
+        "updated": 1783152153361
+      }
     },
     "0x9475e4bfdfadb5cf4ce7cf805044c0db5a8a6f8e": {
       "address": "0x9475e4bfdfadb5cf4ce7cf805044c0db5a8a6f8e",
@@ -43758,7 +44320,18 @@
         "PnL:中($100k-1M)",
         "取引あり(14d)"
       ],
-      "upd_last_ms": 1782847130275
+      "upd_last_ms": 1782847130275,
+      "alpha": {
+        "alpha24h": 275.1,
+        "n": 1,
+        "wr": 100.0,
+        "p24h": null,
+        "ewma": 275.1,
+        "streak": 1,
+        "n_clusters": 1,
+        "tag": null,
+        "updated": 1783152153361
+      }
     },
     "0x9c16bc8f1104e4d2f72267eb981fa12de7cc4a6f": {
       "address": "0x9c16bc8f1104e4d2f72267eb981fa12de7cc4a6f",
@@ -43795,7 +44368,18 @@
         "PnL:大($1-10M)",
         "取引あり(14d)"
       ],
-      "upd_last_ms": 1782506289942
+      "upd_last_ms": 1782506289942,
+      "alpha": {
+        "alpha24h": 74.9,
+        "n": 4,
+        "wr": 75.0,
+        "p24h": 0.3854,
+        "ewma": -35.8,
+        "streak": 1,
+        "n_clusters": 4,
+        "tag": null,
+        "updated": 1783152153361
+      }
     },
     "0x9cc53c5af67fb83a16cc41f61e242bade875ab3d": {
       "address": "0x9cc53c5af67fb83a16cc41f61e242bade875ab3d",
@@ -43832,7 +44416,18 @@
         "PnL:大($1-10M)",
         "取引あり(14d)"
       ],
-      "upd_last_ms": 1782886977740
+      "upd_last_ms": 1782886977740,
+      "alpha": {
+        "alpha24h": -9.0,
+        "n": 49,
+        "wr": 49.0,
+        "p24h": 0.691,
+        "ewma": -5.5,
+        "streak": 0,
+        "n_clusters": 50,
+        "tag": null,
+        "updated": 1783152153361
+      }
     },
     "0x9dea4d13ac1c469b7fe9049d43835df1be143ec0": {
       "address": "0x9dea4d13ac1c469b7fe9049d43835df1be143ec0",
@@ -44017,7 +44612,18 @@
         "PnL:大($1-10M)",
         "取引あり(14d)"
       ],
-      "upd_last_ms": 1782831984463
+      "upd_last_ms": 1782831984463,
+      "alpha": {
+        "alpha24h": 6.8,
+        "n": 19,
+        "wr": 47.4,
+        "p24h": 0.4983,
+        "ewma": -16.8,
+        "streak": 1,
+        "n_clusters": 19,
+        "tag": null,
+        "updated": 1783152153361
+      }
     },
     "0xa5ee12ffed6a53622c11ea5f678ccea19b8b243f": {
       "address": "0xa5ee12ffed6a53622c11ea5f678ccea19b8b243f",
@@ -44313,7 +44919,18 @@
         "PnL:大($1-10M)",
         "取引あり(14d)"
       ],
-      "upd_last_ms": 1782852237442
+      "upd_last_ms": 1782852237442,
+      "alpha": {
+        "alpha24h": -182.1,
+        "n": 1,
+        "wr": 0.0,
+        "p24h": null,
+        "ewma": -182.1,
+        "streak": 0,
+        "n_clusters": 1,
+        "tag": null,
+        "updated": 1783152153361
+      }
     },
     "0xb2957062a8d7e35ef8e1d58259355ae864cc123b": {
       "address": "0xb2957062a8d7e35ef8e1d58259355ae864cc123b",
@@ -44387,7 +45004,18 @@
         "PnL:大($1-10M)",
         "取引あり(14d)"
       ],
-      "upd_last_ms": 1782647321428
+      "upd_last_ms": 1782647321428,
+      "alpha": {
+        "alpha24h": 39.7,
+        "n": 5,
+        "wr": 80.0,
+        "p24h": 0.3455,
+        "ewma": 18.7,
+        "streak": 2,
+        "n_clusters": 5,
+        "tag": null,
+        "updated": 1783152153361
+      }
     },
     "0xb83de012dba672c76a7dbbbf3e459cb59d7d6e36": {
       "address": "0xb83de012dba672c76a7dbbbf3e459cb59d7d6e36",
@@ -44461,7 +45089,18 @@
         "PnL:赤字",
         "取引あり(14d)"
       ],
-      "upd_last_ms": 1782831984463
+      "upd_last_ms": 1782831984463,
+      "alpha": {
+        "alpha24h": -73.7,
+        "n": 2,
+        "wr": 50.0,
+        "p24h": null,
+        "ewma": -73.7,
+        "streak": 0,
+        "n_clusters": 4,
+        "tag": null,
+        "updated": 1783152153361
+      }
     },
     "0xbe4e91ae63090eeb4165dfcfc35db3a4eb76e75e": {
       "address": "0xbe4e91ae63090eeb4165dfcfc35db3a4eb76e75e",
@@ -44498,7 +45137,18 @@
         "PnL:大($1-10M)",
         "取引あり(14d)"
       ],
-      "upd_last_ms": 1782748945234
+      "upd_last_ms": 1782748945234,
+      "alpha": {
+        "alpha24h": 347.9,
+        "n": 1,
+        "wr": 100.0,
+        "p24h": null,
+        "ewma": 347.9,
+        "streak": 1,
+        "n_clusters": 1,
+        "tag": null,
+        "updated": 1783152153361
+      }
     },
     "0xbf732ea04197942783e34730ed6e0f6099575d58": {
       "address": "0xbf732ea04197942783e34730ed6e0f6099575d58",
@@ -44535,7 +45185,18 @@
         "PnL:大($1-10M)",
         "取引あり(14d)"
       ],
-      "upd_last_ms": 1782916393844
+      "upd_last_ms": 1782916393844,
+      "alpha": {
+        "alpha24h": 6.2,
+        "n": 8,
+        "wr": 62.5,
+        "p24h": 0.3821,
+        "ewma": 0.5,
+        "streak": 2,
+        "n_clusters": 8,
+        "tag": null,
+        "updated": 1783152153361
+      }
     },
     "0xc2cb60662017a1da2562e9cccea9df74d9d8edf9": {
       "address": "0xc2cb60662017a1da2562e9cccea9df74d9d8edf9",
@@ -44609,7 +45270,18 @@
         "PnL:大($1-10M)",
         "取引あり(14d)"
       ],
-      "upd_last_ms": 1782919391946
+      "upd_last_ms": 1782919391946,
+      "alpha": {
+        "alpha24h": -21.4,
+        "n": 33,
+        "wr": 42.4,
+        "p24h": 0.8073,
+        "ewma": -97.3,
+        "streak": 1,
+        "n_clusters": 43,
+        "tag": null,
+        "updated": 1783152153361
+      }
     },
     "0xcac1f1c3e4599e044dc2a9d38a9b6ef1af1bdae8": {
       "address": "0xcac1f1c3e4599e044dc2a9d38a9b6ef1af1bdae8",
@@ -44868,7 +45540,18 @@
         "PnL:大($1-10M)",
         "取引あり(14d)"
       ],
-      "upd_last_ms": 1782771410791
+      "upd_last_ms": 1782771410791,
+      "alpha": {
+        "alpha24h": -62.4,
+        "n": 5,
+        "wr": 40.0,
+        "p24h": 0.7475,
+        "ewma": -207.1,
+        "streak": 0,
+        "n_clusters": 8,
+        "tag": null,
+        "updated": 1783152153361
+      }
     },
     "0xd831409a48d8b21d59245c12b1540a0820446203": {
       "address": "0xd831409a48d8b21d59245c12b1540a0820446203",
@@ -44977,7 +45660,18 @@
         "PnL:大($1-10M)",
         "取引あり(14d)"
       ],
-      "upd_last_ms": 1782916495042
+      "upd_last_ms": 1782916495042,
+      "alpha": {
+        "alpha24h": -252.5,
+        "n": 1,
+        "wr": 0.0,
+        "p24h": null,
+        "ewma": -252.5,
+        "streak": 0,
+        "n_clusters": 1,
+        "tag": null,
+        "updated": 1783152153361
+      }
     },
     "0xe170ed9d77792397271d564c7161351d69fe9300": {
       "address": "0xe170ed9d77792397271d564c7161351d69fe9300",
@@ -45014,7 +45708,18 @@
         "PnL:赤字",
         "取引あり(14d)"
       ],
-      "upd_last_ms": 1782458914014
+      "upd_last_ms": 1782458914014,
+      "alpha": {
+        "alpha24h": -11.0,
+        "n": 1,
+        "wr": 0.0,
+        "p24h": null,
+        "ewma": -11.0,
+        "streak": 0,
+        "n_clusters": 1,
+        "tag": null,
+        "updated": 1783152153361
+      }
     },
     "0xe82bc65677e46b6626a8e779ac263221db039c2d": {
       "address": "0xe82bc65677e46b6626a8e779ac263221db039c2d",
@@ -45162,7 +45867,18 @@
         "PnL:大($1-10M)",
         "取引あり(14d)"
       ],
-      "upd_last_ms": 1782709513947
+      "upd_last_ms": 1782709513947,
+      "alpha": {
+        "alpha24h": -0.5,
+        "n": 2,
+        "wr": 50.0,
+        "p24h": null,
+        "ewma": -0.5,
+        "streak": 0,
+        "n_clusters": 2,
+        "tag": null,
+        "updated": 1783152153361
+      }
     },
     "0xf899937184168b1d9dee75acbaa3fef0f52888db": {
       "address": "0xf899937184168b1d9dee75acbaa3fef0f52888db",
@@ -45199,7 +45915,18 @@
         "PnL:大($1-10M)",
         "取引あり(14d)"
       ],
-      "upd_last_ms": 1782192445494
+      "upd_last_ms": 1782192445494,
+      "alpha": {
+        "alpha24h": 38.9,
+        "n": 1,
+        "wr": 100.0,
+        "p24h": null,
+        "ewma": 38.9,
+        "streak": 1,
+        "n_clusters": 1,
+        "tag": null,
+        "updated": 1783152153361
+      }
     },
     "0xfbc9638938262f15cc1b3a751a54d538559da361": {
       "address": "0xfbc9638938262f15cc1b3a751a54d538559da361",
@@ -45236,7 +45963,18 @@
         "PnL:中($100k-1M)",
         "取引あり(14d)"
       ],
-      "upd_last_ms": 1782510434938
+      "upd_last_ms": 1782510434938,
+      "alpha": {
+        "alpha24h": 46.0,
+        "n": 3,
+        "wr": 66.7,
+        "p24h": 0.309,
+        "ewma": -4.5,
+        "streak": 1,
+        "n_clusters": 3,
+        "tag": null,
+        "updated": 1783152153361
+      }
     },
     "0xfcb01354e18ca1cc0eee89ca3459ef84daa2e0b6": {
       "address": "0xfcb01354e18ca1cc0eee89ca3459ef84daa2e0b6",
@@ -45310,7 +46048,18 @@
         "PnL:中($100k-1M)",
         "取引あり(14d)"
       ],
-      "upd_last_ms": 1782916790861
+      "upd_last_ms": 1782916790861,
+      "alpha": {
+        "alpha24h": -19.7,
+        "n": 9,
+        "wr": 33.3,
+        "p24h": 0.7076,
+        "ewma": -51.4,
+        "streak": 0,
+        "n_clusters": 9,
+        "tag": null,
+        "updated": 1783152153361
+      }
     },
     "0x4ec8fe22a531a96c8a846aaf5cbef73202649a80": {
       "address": "0x4ec8fe22a531a96c8a846aaf5cbef73202649a80",
@@ -45388,7 +46137,18 @@
         "取引あり(14d)"
       ],
       "notes_jp": "【現在の分類: 🟣高頻度MM / 質:履歴薄/評価不能 / majors実現$172,717 / 最終取引2026-06-21】\n【自動発掘(2026-06-21)】HLリーダーボード(allTime $218,545,074)から発掘し既存基準で分類。回転40352closes/月・黒字月率100%・履歴1ヶ月。欺瞞8軸該当: H_deliberate_dip→要精査。",
-      "upd_last_ms": 1782919503294
+      "upd_last_ms": 1782919503294,
+      "alpha": {
+        "alpha24h": 1.8,
+        "n": 57,
+        "wr": 49.1,
+        "p24h": 0.4751,
+        "ewma": 9.4,
+        "streak": 1,
+        "n_clusters": 131,
+        "tag": null,
+        "updated": 1783152153361
+      }
     },
     "0x5b5d51203a0f9079f8aeb098a6523a13f298c060": {
       "address": "0x5b5d51203a0f9079f8aeb098a6523a13f298c060",
@@ -45427,7 +46187,18 @@
         "取引あり(14d)"
       ],
       "notes_jp": "【現在の分類: 🟣高頻度MM / 質:履歴薄/評価不能 / majors実現$-451,495 / 最終取引2026-06-19】\n【自動発掘(2026-06-21)】HLリーダーボード(allTime $178,576,194)から発掘し既存基準で分類。回転14739closes/月・黒字月率0%・履歴1ヶ月。",
-      "upd_last_ms": 1782874219242
+      "upd_last_ms": 1782874219242,
+      "alpha": {
+        "alpha24h": 44.2,
+        "n": 2,
+        "wr": 50.0,
+        "p24h": null,
+        "ewma": -70.3,
+        "streak": 1,
+        "n_clusters": 3,
+        "tag": null,
+        "updated": 1783152153361
+      }
     },
     "0x7fdafde5cfb5465924316eced2d3715494c517d1": {
       "address": "0x7fdafde5cfb5465924316eced2d3715494c517d1",
@@ -45467,7 +46238,18 @@
         "取引あり(14d)"
       ],
       "notes_jp": "【現在の分類: 🟣高頻度MM / 質:履歴薄/評価不能 / majors実現$-70,015 / 最終取引2026-06-21】\n【自動発掘(2026-06-21)】HLリーダーボード(allTime $176,639,074)から発掘し既存基準で分類。回転39038closes/月・黒字月率100%・履歴1ヶ月。欺瞞8軸該当: H_deliberate_dip→要精査。",
-      "upd_last_ms": 1782918410426
+      "upd_last_ms": 1782918410426,
+      "alpha": {
+        "alpha24h": 22.2,
+        "n": 29,
+        "wr": 51.7,
+        "p24h": 0.1262,
+        "ewma": 4.2,
+        "streak": 0,
+        "n_clusters": 40,
+        "tag": null,
+        "updated": 1783152153361
+      }
     },
     "0xfae95f601f3a25ace60d19dbb929f2a5c57e3571": {
       "address": "0xfae95f601f3a25ace60d19dbb929f2a5c57e3571",
@@ -46093,7 +46875,18 @@
         "取引あり(14d)"
       ],
       "notes_jp": "【現在の分類: 🟣高頻度MM / 質:履歴薄/評価不能 / majors実現$-47,366 / 最終取引2026-06-21】\n【自動発掘(2026-06-21)】HLリーダーボード(allTime $63,384,828)から発掘し既存基準で分類。回転7493closes/月・黒字月率100%・履歴1ヶ月。",
-      "upd_last_ms": 1782919561527
+      "upd_last_ms": 1782919561527,
+      "alpha": {
+        "alpha24h": 22.7,
+        "n": 39,
+        "wr": 48.7,
+        "p24h": 0.1927,
+        "ewma": 14.8,
+        "streak": 0,
+        "n_clusters": 62,
+        "tag": null,
+        "updated": 1783152153361
+      }
     },
     "0x7dacca323e44f168494c779bb5e7483c468ef410": {
       "address": "0x7dacca323e44f168494c779bb5e7483c468ef410",
@@ -46408,7 +47201,18 @@
         "取引あり(14d)"
       ],
       "notes_jp": "【現在の分類: 🟣高頻度MM / 質:履歴薄/評価不能 / majors実現$-189 / 最終取引2026-06-21】\n【自動発掘(2026-06-21)】HLリーダーボード(allTime $46,247,267)から発掘し既存基準で分類。回転6198closes/月・黒字月率0%・履歴1ヶ月。",
-      "upd_last_ms": 1782919582387
+      "upd_last_ms": 1782919582387,
+      "alpha": {
+        "alpha24h": 81.9,
+        "n": 6,
+        "wr": 66.7,
+        "p24h": 0.0332,
+        "ewma": 22.5,
+        "streak": 0,
+        "n_clusters": 269,
+        "tag": null,
+        "updated": 1783152153361
+      }
     },
     "0x082e843a431aef031264dc232693dd710aedca88": {
       "address": "0x082e843a431aef031264dc232693dd710aedca88",
@@ -46487,7 +47291,18 @@
         "取引あり(14d)"
       ],
       "notes_jp": "【現在の分類: 🟣高頻度MM / 質:ムラあり / majors実現$414,391 / 最終取引2026-06-17】\n【自動発掘(2026-06-21)】HLリーダーボード(allTime $44,498,052)から発掘し既存基準で分類。回転861closes/月・黒字月率29%・履歴31ヶ月。",
-      "upd_last_ms": 1782820000720
+      "upd_last_ms": 1782820000720,
+      "alpha": {
+        "alpha24h": -26.6,
+        "n": 12,
+        "wr": 50.0,
+        "p24h": 0.6645,
+        "ewma": 19.2,
+        "streak": 0,
+        "n_clusters": 14,
+        "tag": null,
+        "updated": 1783152153361
+      }
     },
     "0x0e8bf301805df4e6ba7151297e5f7dfedc1eaab9": {
       "address": "0x0e8bf301805df4e6ba7151297e5f7dfedc1eaab9",
@@ -46722,7 +47537,18 @@
         "取引あり(14d)"
       ],
       "notes_jp": "【現在の分類: 🟣高頻度MM / 質:履歴薄/評価不能 / majors実現$-16 / 最終取引2026-06-21】\n【自動発掘(2026-06-21)】HLリーダーボード(allTime $37,437,705)から発掘し既存基準で分類。回転32734closes/月・黒字月率0%・履歴1ヶ月。",
-      "upd_last_ms": 1782919626980
+      "upd_last_ms": 1782919626980,
+      "alpha": {
+        "alpha24h": 51.9,
+        "n": 5,
+        "wr": 60.0,
+        "p24h": 0.0831,
+        "ewma": 11.7,
+        "streak": 1,
+        "n_clusters": 284,
+        "tag": null,
+        "updated": 1783152153361
+      }
     },
     "0x0f991873aab3e14191978946d48f30f624ae9867": {
       "address": "0x0f991873aab3e14191978946d48f30f624ae9867",
@@ -46879,7 +47705,18 @@
         "取引あり(14d)"
       ],
       "notes_jp": "【現在の分類: 🟣高頻度MM / 質:履歴薄/評価不能 / majors実現$0 / 最終取引2026-06-22】\n【自動発掘(2026-06-22)】HLリーダーボード(allTime $95,916,160)から発掘し既存基準で分類。回転7865closes/月・黒字月率100%・履歴1ヶ月。欺瞞8軸該当: H_deliberate_dip→要精査。",
-      "upd_last_ms": 1782887670656
+      "upd_last_ms": 1782887670656,
+      "alpha": {
+        "alpha24h": -44.9,
+        "n": 1,
+        "wr": 0.0,
+        "p24h": null,
+        "ewma": -44.9,
+        "streak": 0,
+        "n_clusters": 1,
+        "tag": null,
+        "updated": 1783152153361
+      }
     },
     "0x56498e5f90c14060499b62b6f459b3e3fb9280c5": {
       "address": "0x56498e5f90c14060499b62b6f459b3e3fb9280c5",
@@ -46958,7 +47795,18 @@
         "取引あり(14d)"
       ],
       "notes_jp": "【現在の分類: 🟣高頻度MM / 質:履歴薄/評価不能 / majors実現$0 / 最終取引2026-06-21】\n【自動発掘(2026-06-22)】HLリーダーボード(allTime $36,803,333)から発掘し既存基準で分類。回転11136closes/月・黒字月率0%・履歴1ヶ月。",
-      "upd_last_ms": 1782919386110
+      "upd_last_ms": 1782919386110,
+      "alpha": {
+        "alpha24h": -79.7,
+        "n": 1,
+        "wr": 0.0,
+        "p24h": null,
+        "ewma": -79.7,
+        "streak": 0,
+        "n_clusters": 1,
+        "tag": null,
+        "updated": 1783152153361
+      }
     },
     "0xc59498175d6d317642aeb97f895a7ce1aa992191": {
       "address": "0xc59498175d6d317642aeb97f895a7ce1aa992191",
@@ -47273,7 +48121,18 @@
         "取引あり(14d)"
       ],
       "notes_jp": "【現在の分類: 🟣高頻度MM / 質:履歴薄/評価不能 / majors実現$-134,834 / 最終取引2026-06-22】\n【自動発掘(2026-06-22)】HLリーダーボード(allTime $30,954,901)から発掘し既存基準で分類。回転20135closes/月・黒字月率0%・履歴1ヶ月。",
-      "upd_last_ms": 1782912240678
+      "upd_last_ms": 1782912240678,
+      "alpha": {
+        "alpha24h": 0.3,
+        "n": 54,
+        "wr": 42.6,
+        "p24h": 0.4153,
+        "ewma": -10.7,
+        "streak": 0,
+        "n_clusters": 62,
+        "tag": null,
+        "updated": 1783152153361
+      }
     },
     "0xb0a55f13d22f66e6d495ac98113841b2326e9540": {
       "address": "0xb0a55f13d22f66e6d495ac98113841b2326e9540",
@@ -47548,7 +48407,18 @@
         "取引あり(14d)"
       ],
       "notes_jp": "【現在の分類: 🟣高頻度MM / 質:履歴薄/評価不能 / majors実現$-7,515 / 最終取引2026-06-22】\n【自動発掘(2026-06-22)】HLリーダーボード(allTime $27,789,724)から発掘し既存基準で分類。回転6441closes/月・黒字月率100%・履歴1ヶ月。",
-      "upd_last_ms": 1782916434073
+      "upd_last_ms": 1782916434073,
+      "alpha": {
+        "alpha24h": -13.1,
+        "n": 28,
+        "wr": 50.0,
+        "p24h": 0.6512,
+        "ewma": 15.7,
+        "streak": 0,
+        "n_clusters": 32,
+        "tag": null,
+        "updated": 1783152153361
+      }
     },
     "0xbbbc35dfac3a00a03a8fde3540eca4f0e15c5e64": {
       "address": "0xbbbc35dfac3a00a03a8fde3540eca4f0e15c5e64",
@@ -47628,7 +48498,18 @@
         "取引あり(14d)"
       ],
       "notes_jp": "【現在の分類: 🟣高頻度MM / 質:履歴薄/評価不能 / majors実現$302,755 / 最終取引2026-06-21】\n【自動発掘(2026-06-22)】HLリーダーボード(allTime $26,426,042)から発掘し既存基準で分類。回転4288closes/月・黒字月率100%・履歴2ヶ月。欺瞞8軸該当: H_deliberate_dip→要精査。",
-      "upd_last_ms": 1782916012878
+      "upd_last_ms": 1782916012878,
+      "alpha": {
+        "alpha24h": -24.8,
+        "n": 22,
+        "wr": 36.4,
+        "p24h": 0.6944,
+        "ewma": -14.7,
+        "streak": 0,
+        "n_clusters": 22,
+        "tag": null,
+        "updated": 1783152153361
+      }
     },
     "0x7fe8cfe481ec2f702692a9152e3f002f3e417ac6": {
       "address": "0x7fe8cfe481ec2f702692a9152e3f002f3e417ac6",
@@ -47706,7 +48587,18 @@
         "取引あり(14d)"
       ],
       "notes_jp": "【現在の分類: 🟣高頻度MM / 質:履歴薄/評価不能 / majors実現$-46,408 / 最終取引2026-06-21】\n【自動発掘(2026-06-22)】HLリーダーボード(allTime $25,349,947)から発掘し既存基準で分類。回転15841closes/月・黒字月率0%・履歴1ヶ月。",
-      "upd_last_ms": 1782831984463
+      "upd_last_ms": 1782831984463,
+      "alpha": {
+        "alpha24h": 53.9,
+        "n": 11,
+        "wr": 45.5,
+        "p24h": 0.206,
+        "ewma": 18.2,
+        "streak": 0,
+        "n_clusters": 13,
+        "tag": null,
+        "updated": 1783152153361
+      }
     },
     "0x99967871e6c4f9a5185abc57edede9e9540191f6": {
       "address": "0x99967871e6c4f9a5185abc57edede9e9540191f6",
@@ -47784,7 +48676,18 @@
         "取引あり(14d)"
       ],
       "notes_jp": "【現在の分類: 🟣高頻度MM / 質:履歴薄/評価不能 / majors実現$-33,146 / 最終取引2026-06-22】\n【自動発掘(2026-06-22)】HLリーダーボード(allTime $24,705,434)から発掘し既存基準で分類。回転1860closes/月・黒字月率0%・履歴1ヶ月。",
-      "upd_last_ms": 1782458764642
+      "upd_last_ms": 1782458764642,
+      "alpha": {
+        "alpha24h": -0.8,
+        "n": 113,
+        "wr": 51.3,
+        "p24h": 0.608,
+        "ewma": 12.3,
+        "streak": 0,
+        "n_clusters": 120,
+        "tag": null,
+        "updated": 1783152153361
+      }
     },
     "0xdcac85ecae7148886029c20e661d848a4de99ce2": {
       "address": "0xdcac85ecae7148886029c20e661d848a4de99ce2",
@@ -48061,7 +48964,18 @@
         "取引あり(14d)"
       ],
       "notes_jp": "【現在の分類: 🟣高頻度MM / 質:履歴薄/評価不能 / majors実現$-2,953 / 最終取引2026-06-22】\n【自動発掘(2026-06-22)】HLリーダーボード(allTime $23,056,182)から発掘し既存基準で分類。回転28474closes/月・黒字月率100%・履歴1ヶ月。",
-      "upd_last_ms": 1782919747367
+      "upd_last_ms": 1782919747367,
+      "alpha": {
+        "alpha24h": -11.6,
+        "n": 29,
+        "wr": 48.3,
+        "p24h": 0.6711,
+        "ewma": 4.8,
+        "streak": 3,
+        "n_clusters": 131,
+        "tag": null,
+        "updated": 1783152153361
+      }
     },
     "0x1c020f03305acd09994c1910d440646e4a5f91b0": {
       "address": "0x1c020f03305acd09994c1910d440646e4a5f91b0",
@@ -49006,7 +49920,18 @@
         "取引あり(14d)"
       ],
       "notes_jp": "【現在の分類: 🟣高頻度MM / 質:履歴薄/評価不能 / majors実現$-21,345 / 最終取引2026-06-22】\n【自動発掘(2026-06-22)】HLリーダーボード(allTime $17,332,935)から発掘し既存基準で分類。回転20554closes/月・黒字月率0%・履歴1ヶ月。",
-      "upd_last_ms": 1782919808740
+      "upd_last_ms": 1782919808740,
+      "alpha": {
+        "alpha24h": -73.7,
+        "n": 4,
+        "wr": 50.0,
+        "p24h": 0.8738,
+        "ewma": -42.0,
+        "streak": 1,
+        "n_clusters": 9,
+        "tag": null,
+        "updated": 1783152153361
+      }
     },
     "0x8decc13b6e83873a78126e99036f9442019fd0b5": {
       "address": "0x8decc13b6e83873a78126e99036f9442019fd0b5",
@@ -49786,7 +50711,18 @@
         "取引あり(14d)"
       ],
       "notes_jp": "【現在の分類: 🟣高頻度MM / 質:履歴薄/評価不能 / majors実現$31 / 最終取引2026-06-22】\n【自動発掘(2026-06-22)】HLリーダーボード(allTime $14,603,946)から発掘し既存基準で分類。回転5922closes/月・黒字月率100%・履歴1ヶ月。",
-      "upd_last_ms": 1782910175138
+      "upd_last_ms": 1782910175138,
+      "alpha": {
+        "alpha24h": 257.9,
+        "n": 1,
+        "wr": 100.0,
+        "p24h": null,
+        "ewma": 257.9,
+        "streak": 1,
+        "n_clusters": 3,
+        "tag": null,
+        "updated": 1783152153361
+      }
     },
     "0xceec48581b3145a575508719f45da07dc57fa7ce": {
       "address": "0xceec48581b3145a575508719f45da07dc57fa7ce",
@@ -50058,7 +50994,18 @@
         "取引あり(14d)"
       ],
       "notes_jp": "【現在の分類: 🟣高頻度MM / 質:履歴薄/評価不能 / majors実現$-44 / 最終取引2026-06-21】\n【自動発掘(2026-06-22)】HLリーダーボード(allTime $14,034,807)から発掘し既存基準で分類。回転12043closes/月・黒字月率0%・履歴1ヶ月。",
-      "upd_last_ms": 1781740309038
+      "upd_last_ms": 1781740309038,
+      "alpha": {
+        "alpha24h": -8.2,
+        "n": 2,
+        "wr": 50.0,
+        "p24h": null,
+        "ewma": -8.2,
+        "streak": 0,
+        "n_clusters": 4,
+        "tag": null,
+        "updated": 1783152153361
+      }
     },
     "0xff8850989681b1163cbaf0b0f6b719c1c663dc25": {
       "address": "0xff8850989681b1163cbaf0b0f6b719c1c663dc25",
@@ -50529,7 +51476,18 @@
         "取引あり(14d)"
       ],
       "notes_jp": "【現在の分類: 🟣高頻度MM / 質:中堅 / majors実現$11,441,352 / 最終取引2026-06-22】\n【自動発掘(2026-06-22)】HLリーダーボード(allTime $13,127,613)から発掘し既存基準で分類。回転2966closes/月・黒字月率75%・履歴4ヶ月。欺瞞8軸該当: C_dormant_burst,H_deliberate_dip→要精査。",
-      "upd_last_ms": 1782919734300
+      "upd_last_ms": 1782919734300,
+      "alpha": {
+        "alpha24h": -5.2,
+        "n": 8,
+        "wr": 50.0,
+        "p24h": 0.196,
+        "ewma": -10.4,
+        "streak": 1,
+        "n_clusters": 11,
+        "tag": null,
+        "updated": 1783152153361
+      }
     },
     "0x462e3f2ce774b4dbba10662a2155e4823d4c820f": {
       "address": "0x462e3f2ce774b4dbba10662a2155e4823d4c820f",
@@ -50646,7 +51604,18 @@
         "取引あり(14d)"
       ],
       "notes_jp": "【現在の分類: 🟣高頻度MM / 質:履歴薄/評価不能 / majors実現$0 / 最終取引2026-06-22】\n【自動発掘(2026-06-22)】HLリーダーボード(allTime $12,828,209)から発掘し既存基準で分類。回転16571closes/月・黒字月率0%・履歴1ヶ月。",
-      "upd_last_ms": 1782261489560
+      "upd_last_ms": 1782261489560,
+      "alpha": {
+        "alpha24h": 0.0,
+        "n": 2,
+        "wr": 50.0,
+        "p24h": null,
+        "ewma": 0.0,
+        "streak": 0,
+        "n_clusters": 2,
+        "tag": null,
+        "updated": 1783152153361
+      }
     },
     "0x06cecfbac34101ae41c88ebc2450f8602b3d164b": {
       "address": "0x06cecfbac34101ae41c88ebc2450f8602b3d164b",
@@ -50686,7 +51655,18 @@
         "取引あり(14d)"
       ],
       "notes_jp": "【現在の分類: 🟣高頻度MM / 質:堅実 / majors実現$1,553,245 / 最終取引2026-06-18】\n【自動発掘(2026-06-22)】HLリーダーボード(allTime $12,812,128)から発掘し既存基準で分類。回転332closes/月・黒字月率75%・履歴8ヶ月。欺瞞8軸該当: H_deliberate_dip→要精査。",
-      "upd_last_ms": 1782839485063
+      "upd_last_ms": 1782839485063,
+      "alpha": {
+        "alpha24h": -199.7,
+        "n": 1,
+        "wr": 0.0,
+        "p24h": null,
+        "ewma": -199.7,
+        "streak": 0,
+        "n_clusters": 1,
+        "tag": null,
+        "updated": 1783152153361
+      }
     },
     "0xc845a0feaff2905000f8bd2c80be8cf429f012e5": {
       "address": "0xc845a0feaff2905000f8bd2c80be8cf429f012e5",
@@ -51503,7 +52483,18 @@
         "取引あり(14d)"
       ],
       "notes_jp": "【現在の分類: 🟣高頻度MM / 質:堅実 / majors実現$31,555 / 最終取引2026-06-12】\n【自動発掘(2026-06-22)】HLリーダーボード(allTime $11,366,455)から発掘し既存基準で分類。回転525closes/月・黒字月率70%・履歴10ヶ月。欺瞞8軸該当: H_deliberate_dip→要精査。",
-      "upd_last_ms": 1782868368403
+      "upd_last_ms": 1782868368403,
+      "alpha": {
+        "alpha24h": 114.9,
+        "n": 6,
+        "wr": 66.7,
+        "p24h": 0.0698,
+        "ewma": 110.6,
+        "streak": 0,
+        "n_clusters": 6,
+        "tag": null,
+        "updated": 1783152153361
+      }
     },
     "0xe0665019fcf5ffa4a5aea5cf65f84016fcbe78da": {
       "address": "0xe0665019fcf5ffa4a5aea5cf65f84016fcbe78da",
@@ -51620,7 +52611,18 @@
         "取引あり(14d)"
       ],
       "notes_jp": "【現在の分類: 🟣高頻度MM / 質:ムラあり / majors実現$-857,992 / 最終取引2026-06-16】\n【自動発掘(2026-06-22)】HLリーダーボード(allTime $11,249,340)から発掘し既存基準で分類。回転1950closes/月・黒字月率44%・履歴9ヶ月。",
-      "upd_last_ms": 1782919384109
+      "upd_last_ms": 1782919384109,
+      "alpha": {
+        "alpha24h": -226.3,
+        "n": 2,
+        "wr": 0.0,
+        "p24h": null,
+        "ewma": -270.4,
+        "streak": 0,
+        "n_clusters": 2,
+        "tag": null,
+        "updated": 1783152153361
+      }
     },
     "0x13d032655aca891fad353e19424d2a087eccfa8a": {
       "address": "0x13d032655aca891fad353e19424d2a087eccfa8a",
@@ -52559,7 +53561,18 @@
         "取引あり(14d)"
       ],
       "notes_jp": "【現在の分類: 🟣高頻度MM / 質:ムラあり / majors実現$33,279 / 最終取引2026-06-06】\n【自動発掘(2026-06-22)】HLリーダーボード(allTime $10,235,935)から発掘し既存基準で分類。回転1513closes/月・黒字月率53%・履歴19ヶ月。欺瞞8軸該当: H_deliberate_dip→要精査。",
-      "upd_last_ms": 1782756511264
+      "upd_last_ms": 1782756511264,
+      "alpha": {
+        "alpha24h": 0.0,
+        "n": 2,
+        "wr": 50.0,
+        "p24h": null,
+        "ewma": 0.0,
+        "streak": 0,
+        "n_clusters": 2,
+        "tag": null,
+        "updated": 1783152153361
+      }
     },
     "0x183d0567c33e7591c22540e45d2f74730b42a0ca": {
       "address": "0x183d0567c33e7591c22540e45d2f74730b42a0ca",
@@ -52715,7 +53728,18 @@
         "取引あり(14d)"
       ],
       "notes_jp": "【現在の分類: 🟣高頻度MM / 質:履歴薄/評価不能 / majors実現$111,353 / 最終取引2026-06-22】\n【自動発掘(2026-06-22)】HLリーダーボード(allTime $10,095,153)から発掘し既存基準で分類。回転15616closes/月・黒字月率0%・履歴1ヶ月。",
-      "upd_last_ms": 1782695467134
+      "upd_last_ms": 1782695467134,
+      "alpha": {
+        "alpha24h": 8.9,
+        "n": 35,
+        "wr": 51.4,
+        "p24h": 0.206,
+        "ewma": 9.5,
+        "streak": 1,
+        "n_clusters": 47,
+        "tag": null,
+        "updated": 1783152153361
+      }
     },
     "0xee5c571813227fe7bbeef6fdd9f3e0592aca4799": {
       "address": "0xee5c571813227fe7bbeef6fdd9f3e0592aca4799",
@@ -52872,7 +53896,18 @@
         "取引あり(14d)"
       ],
       "notes_jp": "【現在の分類: 🟣高頻度MM / 質:履歴薄/評価不能 / majors実現$48,608 / 最終取引2026-06-22】\n【自動発掘(2026-06-22)】HLリーダーボード(allTime $9,918,953)から発掘し既存基準で分類。回転4247closes/月・黒字月率67%・履歴3ヶ月。",
-      "upd_last_ms": 1782919310944
+      "upd_last_ms": 1782919310944,
+      "alpha": {
+        "alpha24h": 47.9,
+        "n": 4,
+        "wr": 50.0,
+        "p24h": 0.402,
+        "ewma": -129.9,
+        "streak": 2,
+        "n_clusters": 4,
+        "tag": null,
+        "updated": 1783152153361
+      }
     },
     "0x5b19d6fd96fcbfd34f7c14cc581a470144ff4ecc": {
       "address": "0x5b19d6fd96fcbfd34f7c14cc581a470144ff4ecc",
@@ -53067,7 +54102,18 @@
         "取引あり(14d)"
       ],
       "notes_jp": "【現在の分類: 🟣高頻度MM / 質:中堅 / majors実現$36,168 / 最終取引2026-06-22】\n【自動発掘(2026-06-22)】HLリーダーボード(allTime $9,473,765)から発掘し既存基準で分類。回転1032closes/月・黒字月率60%・履歴5ヶ月。欺瞞8軸該当: C_dormant_burst,H_deliberate_dip→要精査。",
-      "upd_last_ms": 1782742839766
+      "upd_last_ms": 1782742839766,
+      "alpha": {
+        "alpha24h": 99.4,
+        "n": 2,
+        "wr": 100.0,
+        "p24h": null,
+        "ewma": 99.4,
+        "streak": 1,
+        "n_clusters": 3,
+        "tag": null,
+        "updated": 1783152153361
+      }
     },
     "0xaac84e8df34f86edeafe037826c0d4a833237013": {
       "address": "0xaac84e8df34f86edeafe037826c0d4a833237013",
@@ -53301,7 +54347,18 @@
         "取引あり(14d)"
       ],
       "notes_jp": "【現在の分類: 🟣高頻度MM / 質:履歴薄/評価不能 / majors実現$4,129 / 最終取引2026-06-23】\n【自動発掘(2026-06-23)】HLリーダーボード(allTime $10,920,658)から発掘し既存基準で分類。回転10970closes/月・黒字月率100%・履歴1ヶ月。欺瞞8軸該当: H_deliberate_dip→要精査。",
-      "upd_last_ms": 1782919256643
+      "upd_last_ms": 1782919256643,
+      "alpha": {
+        "alpha24h": -2.5,
+        "n": 83,
+        "wr": 45.8,
+        "p24h": 0.6844,
+        "ewma": 6.3,
+        "streak": 0,
+        "n_clusters": 91,
+        "tag": null,
+        "updated": 1783152153361
+      }
     },
     "0xf822fa0fd364c573fcdb7009fcf47601bc8be01a": {
       "address": "0xf822fa0fd364c573fcdb7009fcf47601bc8be01a",
@@ -53340,7 +54397,18 @@
         "取引あり(14d)"
       ],
       "notes_jp": "【現在の分類: 🟣高頻度MM / 質:履歴薄/評価不能 / majors実現$21,101 / 最終取引2026-06-23】\n【自動発掘(2026-06-23)】HLリーダーボード(allTime $10,636,229)から発掘し既存基準で分類。回転385closes/月・黒字月率100%・履歴1ヶ月。",
-      "upd_last_ms": 1782919974048
+      "upd_last_ms": 1782919974048,
+      "alpha": {
+        "alpha24h": -15.3,
+        "n": 52,
+        "wr": 44.2,
+        "p24h": 0.7176,
+        "ewma": -27.1,
+        "streak": 1,
+        "n_clusters": 53,
+        "tag": null,
+        "updated": 1783152153361
+      }
     },
     "0xf85624f780cd7affe0e2f6d7015184ee61ba386a": {
       "address": "0xf85624f780cd7affe0e2f6d7015184ee61ba386a",
@@ -53656,7 +54724,18 @@
         "取引あり(14d)"
       ],
       "notes_jp": "【現在の分類: 🟣高頻度MM / 質:履歴薄/評価不能 / majors実現$846 / 最終取引2026-06-22】\n【自動発掘(2026-06-23)】HLリーダーボード(allTime $8,997,265)から発掘し既存基準で分類。回転1699closes/月・黒字月率100%・履歴2ヶ月。欺瞞8軸該当: H_deliberate_dip→要精査。",
-      "upd_last_ms": 1782777600028
+      "upd_last_ms": 1782777600028,
+      "alpha": {
+        "alpha24h": -138.6,
+        "n": 1,
+        "wr": 0.0,
+        "p24h": null,
+        "ewma": -138.6,
+        "streak": 0,
+        "n_clusters": 1,
+        "tag": null,
+        "updated": 1783152153361
+      }
     },
     "0x96de02546bde61e6a62e3f242ea4c55265311445": {
       "address": "0x96de02546bde61e6a62e3f242ea4c55265311445",
@@ -53934,7 +55013,18 @@
         "取引あり(14d)"
       ],
       "notes_jp": "【現在の分類: 🟣高頻度MM / 質:エリート / majors実現$320,545 / 最終取引2026-06-18】\n【自動発掘(2026-06-23)】HLリーダーボード(allTime $8,694,959)から発掘し既存基準で分類。回転2223closes/月・黒字月率83%・履歴12ヶ月。欺瞞8軸該当: C_dormant_burst,H_deliberate_dip→要精査。",
-      "upd_last_ms": 1782752197927
+      "upd_last_ms": 1782752197927,
+      "alpha": {
+        "alpha24h": 8.7,
+        "n": 6,
+        "wr": 50.0,
+        "p24h": 0.5282,
+        "ewma": -68.0,
+        "streak": 2,
+        "n_clusters": 6,
+        "tag": null,
+        "updated": 1783152153361
+      }
     },
     "0x936cf4fb95c30ce83f658b5bbb247e4bb381bb0f": {
       "address": "0x936cf4fb95c30ce83f658b5bbb247e4bb381bb0f",
@@ -53973,7 +55063,18 @@
         "取引あり(14d)"
       ],
       "notes_jp": "【現在の分類: 🟣高頻度MM / 質:履歴薄/評価不能 / majors実現$-109,288 / 最終取引2026-06-23】\n【自動発掘(2026-06-23)】HLリーダーボード(allTime $8,647,715)から発掘し既存基準で分類。回転7204closes/月・黒字月率0%・履歴1ヶ月。",
-      "upd_last_ms": 1782919999838
+      "upd_last_ms": 1782919999838,
+      "alpha": {
+        "alpha24h": 24.7,
+        "n": 45,
+        "wr": 48.9,
+        "p24h": 0.2492,
+        "ewma": 31.5,
+        "streak": 0,
+        "n_clusters": 53,
+        "tag": null,
+        "updated": 1783152153361
+      }
     },
     "0x523852be2db1a76a0e088ecbff32e849544054e5": {
       "address": "0x523852be2db1a76a0e088ecbff32e849544054e5",
@@ -54013,7 +55114,18 @@
         "取引あり(14d)"
       ],
       "notes_jp": "【現在の分類: 🟣高頻度MM / 質:履歴薄/評価不能 / majors実現$39,608 / 最終取引2026-06-23】\n【自動発掘(2026-06-23)】HLリーダーボード(allTime $8,606,724)から発掘し既存基準で分類。回転9120closes/月・黒字月率67%・履歴3ヶ月。欺瞞8軸該当: H_deliberate_dip→要精査。",
-      "upd_last_ms": 1782222511581
+      "upd_last_ms": 1782222511581,
+      "alpha": {
+        "alpha24h": 15.1,
+        "n": 3,
+        "wr": 66.7,
+        "p24h": 0.1429,
+        "ewma": 15.1,
+        "streak": 1,
+        "n_clusters": 4,
+        "tag": null,
+        "updated": 1783152153361
+      }
     },
     "0xc4180d58e4980ae6b39c133ab3a9389ae62e8706": {
       "address": "0xc4180d58e4980ae6b39c133ab3a9389ae62e8706",
@@ -54715,7 +55827,18 @@
         "取引あり(14d)"
       ],
       "notes_jp": "【現在の分類: 🔵alt主体プロ / 質:alt主体 / majors実現$957 / 最終取引2026-06-22】\n【自動発掘(2026-06-23)】HLリーダーボード(allTime $7,827,980)から発掘し既存基準で分類。回転1232closes/月・黒字月率100%・履歴1ヶ月。",
-      "upd_last_ms": 1782874640098
+      "upd_last_ms": 1782874640098,
+      "alpha": {
+        "alpha24h": 42.1,
+        "n": 1,
+        "wr": 100.0,
+        "p24h": null,
+        "ewma": 42.1,
+        "streak": 1,
+        "n_clusters": 1,
+        "tag": null,
+        "updated": 1783152153361
+      }
     },
     "0xe3021f9bcd85cda17ba8a766eed41e22076cecb0": {
       "address": "0xe3021f9bcd85cda17ba8a766eed41e22076cecb0",
@@ -55107,7 +56230,18 @@
         "取引あり(14d)"
       ],
       "notes_jp": "【現在の分類: 🟣高頻度MM / 質:履歴薄/評価不能 / majors実現$-78,119 / 最終取引2026-06-23】\n【自動発掘(2026-06-23)】HLリーダーボード(allTime $7,506,449)から発掘し既存基準で分類。回転8141closes/月・黒字月率0%・履歴1ヶ月。",
-      "upd_last_ms": 1782920055283
+      "upd_last_ms": 1782920055283,
+      "alpha": {
+        "alpha24h": 4.1,
+        "n": 42,
+        "wr": 50.0,
+        "p24h": 0.3754,
+        "ewma": 18.3,
+        "streak": 0,
+        "n_clusters": 49,
+        "tag": null,
+        "updated": 1783152153361
+      }
     },
     "0x0748e296e5a350ec36c8487a1cea406e1b57d4b2": {
       "address": "0x0748e296e5a350ec36c8487a1cea406e1b57d4b2",
@@ -55345,7 +56479,18 @@
         "取引あり(14d)"
       ],
       "notes_jp": "【現在の分類: 🟣高頻度MM / 質:履歴薄/評価不能 / majors実現$13,871 / 最終取引2026-06-23】\n【自動発掘(2026-06-23)】HLリーダーボード(allTime $7,391,821)から発掘し既存基準で分類。回転9960closes/月・黒字月率100%・履歴1ヶ月。",
-      "upd_last_ms": 1782408107028
+      "upd_last_ms": 1782408107028,
+      "alpha": {
+        "alpha24h": -59.0,
+        "n": 17,
+        "wr": 35.3,
+        "p24h": 0.9867,
+        "ewma": -47.4,
+        "streak": 0,
+        "n_clusters": 18,
+        "tag": null,
+        "updated": 1783152153361
+      }
     },
     "0xcccf42c120fa1a7ad953665500c1bd4f6307b34b": {
       "address": "0xcccf42c120fa1a7ad953665500c1bd4f6307b34b",
@@ -58284,7 +59429,18 @@
         "取引あり(14d)"
       ],
       "notes_jp": "【現在の分類: 🟣高頻度MM / 質:ムラあり / majors実現$-6,417 / 最終取引2026-06-23】\n【自動発掘(2026-06-24)】HLリーダーボード(allTime $5,879,708)から発掘し既存基準で分類。回転119closes/月・黒字月率42%・履歴12ヶ月。",
-      "upd_last_ms": 1782878078940
+      "upd_last_ms": 1782878078940,
+      "alpha": {
+        "alpha24h": -9.0,
+        "n": 9,
+        "wr": 55.6,
+        "p24h": 0.4419,
+        "ewma": 9.8,
+        "streak": 1,
+        "n_clusters": 9,
+        "tag": null,
+        "updated": 1783152153361
+      }
     },
     "0x9b09c1f83250a436278fd96f80054e414556a7dd": {
       "address": "0x9b09c1f83250a436278fd96f80054e414556a7dd",
@@ -58480,7 +59636,18 @@
         "取引あり(14d)"
       ],
       "notes_jp": "【現在の分類: 🟣高頻度MM / 質:履歴薄/評価不能 / majors実現$-169,040 / 最終取引2026-06-24】\n【自動発掘(2026-06-24)】HLリーダーボード(allTime $5,828,475)から発掘し既存基準で分類。回転2320closes/月・黒字月率0%・履歴2ヶ月。",
-      "upd_last_ms": 1782896238129
+      "upd_last_ms": 1782896238129,
+      "alpha": {
+        "alpha24h": -22.9,
+        "n": 3,
+        "wr": 66.7,
+        "p24h": 0.3023,
+        "ewma": 27.0,
+        "streak": 1,
+        "n_clusters": 3,
+        "tag": null,
+        "updated": 1783152153361
+      }
     },
     "0x9dcf1c87b82a35519a430457c1157f21e68f302d": {
       "address": "0x9dcf1c87b82a35519a430457c1157f21e68f302d",
@@ -58559,7 +59726,18 @@
         "取引あり(14d)"
       ],
       "notes_jp": "【現在の分類: 🟣高頻度MM / 質:履歴薄/評価不能 / majors実現$21,970 / 最終取引2026-06-25】\n【自動発掘(2026-06-25)】HLリーダーボード(allTime $7,691,738)から発掘し既存基準で分類。回転10069closes/月・黒字月率100%・履歴1ヶ月。欺瞞8軸該当: H_deliberate_dip→要精査。",
-      "upd_last_ms": 1782826824072
+      "upd_last_ms": 1782826824072,
+      "alpha": {
+        "alpha24h": 3.4,
+        "n": 103,
+        "wr": 50.5,
+        "p24h": 0.3688,
+        "ewma": 27.5,
+        "streak": 1,
+        "n_clusters": 110,
+        "tag": null,
+        "updated": 1783152153361
+      }
     },
     "0x757df2c060ec6c7ba898fa6570aa98c1f46294ba": {
       "address": "0x757df2c060ec6c7ba898fa6570aa98c1f46294ba",
@@ -58598,7 +59776,18 @@
         "取引あり(14d)"
       ],
       "notes_jp": "【現在の分類: 🟣高頻度MM / 質:ムラあり / majors実現$-115,816 / 最終取引2026-06-22】\n【自動発掘(2026-06-25)】HLリーダーボード(allTime $6,805,299)から発掘し既存基準で分類。回転602closes/月・黒字月率55%・履歴11ヶ月。",
-      "upd_last_ms": 1782831984463
+      "upd_last_ms": 1782831984463,
+      "alpha": {
+        "alpha24h": 218.8,
+        "n": 1,
+        "wr": 100.0,
+        "p24h": null,
+        "ewma": 218.8,
+        "streak": 1,
+        "n_clusters": 1,
+        "tag": null,
+        "updated": 1783152153361
+      }
     },
     "0x2312b5480f7e3d1894ed046af15b23186ff0f53c": {
       "address": "0x2312b5480f7e3d1894ed046af15b23186ff0f53c",
@@ -58952,7 +60141,18 @@
         "取引あり(14d)"
       ],
       "notes_jp": "【現在の分類: 🟣高頻度MM / 質:履歴薄/評価不能 / majors実現$0 / 最終取引2026-06-25】\n【自動発掘(2026-06-25)】HLリーダーボード(allTime $5,797,326)から発掘し既存基準で分類。回転0closes/月・黒字月率0%・履歴0ヶ月。",
-      "upd_last_ms": 1782479097844
+      "upd_last_ms": 1782479097844,
+      "alpha": {
+        "alpha24h": 63.6,
+        "n": 10,
+        "wr": 70.0,
+        "p24h": 0.1196,
+        "ewma": -45.8,
+        "streak": 2,
+        "n_clusters": 11,
+        "tag": null,
+        "updated": 1783152153361
+      }
     },
     "0xb0fbfefc6c325964d0ffc3f909bdda80b8421326": {
       "address": "0xb0fbfefc6c325964d0ffc3f909bdda80b8421326",
@@ -59854,7 +61054,18 @@
         "取引あり(14d)"
       ],
       "notes_jp": "【現在の分類: 🟣高頻度MM / 質:ムラあり / majors実現$64,074 / 最終取引2026-06-25】\n【自動発掘(2026-06-25)】HLリーダーボード(allTime $5,404,592)から発掘し既存基準で分類。回転1384closes/月・黒字月率58%・履歴12ヶ月。欺瞞8軸該当: H_deliberate_dip→要精査。",
-      "upd_last_ms": 1782917071373
+      "upd_last_ms": 1782917071373,
+      "alpha": {
+        "alpha24h": -19.6,
+        "n": 1,
+        "wr": 0.0,
+        "p24h": null,
+        "ewma": -19.6,
+        "streak": 0,
+        "n_clusters": 1,
+        "tag": null,
+        "updated": 1783152153361
+      }
     },
     "0x49c3feafddaefc3bed06f4ff87ce86610c2c1076": {
       "address": "0x49c3feafddaefc3bed06f4ff87ce86610c2c1076",
@@ -60286,7 +61497,18 @@
         "取引あり(14d)"
       ],
       "notes_jp": "【現在の分類: 🟣高頻度MM / 質:履歴薄/評価不能 / majors実現$4,690 / 最終取引2026-06-25】\n【自動発掘(2026-06-25)】HLリーダーボード(allTime $5,240,756)から発掘し既存基準で分類。回転4823closes/月・黒字月率100%・履歴2ヶ月。欺瞞8軸該当: F_decoy_flip,H_deliberate_dip→要精査。",
-      "upd_last_ms": 1782920067935
+      "upd_last_ms": 1782920067935,
+      "alpha": {
+        "alpha24h": -50.0,
+        "n": 10,
+        "wr": 30.0,
+        "p24h": 0.6777,
+        "ewma": 95.9,
+        "streak": 0,
+        "n_clusters": 10,
+        "tag": null,
+        "updated": 1783152153361
+      }
     },
     "0x862dd8e68f30693e3d3c9daa42a440bc6d2a1f0c": {
       "address": "0x862dd8e68f30693e3d3c9daa42a440bc6d2a1f0c",
@@ -60522,7 +61744,18 @@
         "取引あり(14d)"
       ],
       "notes_jp": "【現在の分類: 🟣高頻度MM / 質:履歴薄/評価不能 / majors実現$-773,921 / 最終取引2026-06-25】\n【自動発掘(2026-06-25)】HLリーダーボード(allTime $5,092,110)から発掘し既存基準で分類。回転6618closes/月・黒字月率50%・履歴2ヶ月。",
-      "upd_last_ms": 1782916685261
+      "upd_last_ms": 1782916685261,
+      "alpha": {
+        "alpha24h": 0.6,
+        "n": 2,
+        "wr": 50.0,
+        "p24h": null,
+        "ewma": 0.6,
+        "streak": 1,
+        "n_clusters": 2,
+        "tag": null,
+        "updated": 1783152153361
+      }
     },
     "0x8bfbb36bf3ccf465b6e042eb8a7e0dd245405f8b": {
       "address": "0x8bfbb36bf3ccf465b6e042eb8a7e0dd245405f8b",
@@ -60639,7 +61872,18 @@
         "取引あり(14d)"
       ],
       "notes_jp": "【現在の分類: 🟢プロ(本物) / 質:ムラあり / majors実現$139,119 / 最終取引2026-04-20】\n【自動発掘(2026-06-25)】HLリーダーボード(allTime $5,062,379)から発掘し既存基準で分類。回転35closes/月・黒字月率33%・履歴6ヶ月。欺瞞8軸該当: C_dormant_burst,D_controlled_loss,H_deliberate_dip→要精査。",
-      "upd_last_ms": 1782831984463
+      "upd_last_ms": 1782831984463,
+      "alpha": {
+        "alpha24h": -119.4,
+        "n": 1,
+        "wr": 0.0,
+        "p24h": null,
+        "ewma": -119.4,
+        "streak": 0,
+        "n_clusters": 1,
+        "tag": null,
+        "updated": 1783152153361
+      }
     },
     "0x67f2d1e12bcd20f07e14f716bf5453e91cf42318": {
       "address": "0x67f2d1e12bcd20f07e14f716bf5453e91cf42318",
@@ -60837,7 +62081,18 @@
         "取引あり(14d)"
       ],
       "notes_jp": "【現在の分類: 🟣高頻度MM / 質:ムラあり / majors実現$-16 / 最終取引2026-06-26】\n【自動発掘(2026-06-26)】HLリーダーボード(allTime $5,819,620)から発掘し既存基準で分類。回転1350closes/月・黒字月率40%・履歴5ヶ月。",
-      "upd_last_ms": 1782920311208
+      "upd_last_ms": 1782920311208,
+      "alpha": {
+        "alpha24h": -249.1,
+        "n": 1,
+        "wr": 0.0,
+        "p24h": null,
+        "ewma": -249.1,
+        "streak": 0,
+        "n_clusters": 1,
+        "tag": null,
+        "updated": 1783152153361
+      }
     },
     "0xf605cd3adabbc3110bc3efb85ebe7be57590a527": {
       "address": "0xf605cd3adabbc3110bc3efb85ebe7be57590a527",
@@ -61187,7 +62442,18 @@
         "取引あり(14d)"
       ],
       "notes_jp": "【現在の分類: 🟣高頻度MM / 質:ムラあり / majors実現$-8,455 / 最終取引2026-06-26】\n【自動発掘(2026-06-26)】HLリーダーボード(allTime $5,068,148)から発掘し既存基準で分類。回転192closes/月・黒字月率58%・履歴12ヶ月。欺瞞8軸該当: C_dormant_burst,H_deliberate_dip→要精査。",
-      "upd_last_ms": 1782914684016
+      "upd_last_ms": 1782914684016,
+      "alpha": {
+        "alpha24h": -34.6,
+        "n": 21,
+        "wr": 47.6,
+        "p24h": 0.8339,
+        "ewma": -114.9,
+        "streak": 0,
+        "n_clusters": 22,
+        "tag": null,
+        "updated": 1783152153361
+      }
     },
     "0xae6446c95cc4e455e9cf56f28757ab728d88e81e": {
       "address": "0xae6446c95cc4e455e9cf56f28757ab728d88e81e",
@@ -61421,7 +62687,18 @@
         "取引あり(14d)"
       ],
       "notes_jp": "【現在の分類: 🟣高頻度MM / 質:ムラあり / majors実現$-1,052,023 / 最終取引2026-06-25】\n【自動発掘(2026-06-26)】HLリーダーボード(allTime $4,948,357)から発掘し既存基準で分類。回転516closes/月・黒字月率72%・履歴29ヶ月。",
-      "upd_last_ms": 1782693569866
+      "upd_last_ms": 1782693569866,
+      "alpha": {
+        "alpha24h": 8.1,
+        "n": 5,
+        "wr": 60.0,
+        "p24h": 0.5249,
+        "ewma": 28.0,
+        "streak": 1,
+        "n_clusters": 5,
+        "tag": null,
+        "updated": 1783152153361
+      }
     },
     "0xe02e420ec55b4e03924d77c7b342c012541ba2d3": {
       "address": "0xe02e420ec55b4e03924d77c7b342c012541ba2d3",
@@ -62203,7 +63480,18 @@
         "取引あり(14d)"
       ],
       "notes_jp": "【現在の分類: 🟣高頻度MM / 質:ムラあり / majors実現$-35,267 / 最終取引2026-06-25】\n【自動発掘(2026-06-26)】HLリーダーボード(allTime $4,622,117)から発掘し既存基準で分類。回転1011closes/月・黒字月率33%・履歴6ヶ月。",
-      "upd_last_ms": 1782854941424
+      "upd_last_ms": 1782854941424,
+      "alpha": {
+        "alpha24h": -33.0,
+        "n": 2,
+        "wr": 50.0,
+        "p24h": null,
+        "ewma": -33.0,
+        "streak": 0,
+        "n_clusters": 2,
+        "tag": null,
+        "updated": 1783152153361
+      }
     },
     "0xa40ee97b4352307b7745a2cb12bb475b80faef13": {
       "address": "0xa40ee97b4352307b7745a2cb12bb475b80faef13",
@@ -62985,7 +64273,18 @@
         "取引あり(14d)"
       ],
       "notes_jp": "【現在の分類: 🔵alt主体プロ / 質:alt主体 / majors実現$0 / 最終取引2026-06-25】\n【自動発掘(2026-06-27)】HLリーダーボード(allTime $4,458,451)から発掘し既存基準で分類。回転84closes/月・黒字月率60%・履歴5ヶ月。",
-      "upd_last_ms": 1782578682447
+      "upd_last_ms": 1782578682447,
+      "alpha": {
+        "alpha24h": -49.8,
+        "n": 1,
+        "wr": 0.0,
+        "p24h": null,
+        "ewma": -49.8,
+        "streak": 0,
+        "n_clusters": 1,
+        "tag": null,
+        "updated": 1783152153361
+      }
     },
     "0xc15ab8dd7daeea5f1aa3b56507cac8a877e21b15": {
       "address": "0xc15ab8dd7daeea5f1aa3b56507cac8a877e21b15",
@@ -63420,7 +64719,18 @@
         "取引あり(14d)"
       ],
       "notes_jp": "【現在の分類: 🟣高頻度MM / 質:堅実 / majors実現$16,949 / 最終取引2026-06-27】\n【自動発掘(2026-06-27)】HLリーダーボード(allTime $4,314,757)から発掘し既存基準で分類。回転967closes/月・黒字月率75%・履歴8ヶ月。欺瞞8軸該当: F_decoy_flip→要精査。",
-      "upd_last_ms": 1782919395493
+      "upd_last_ms": 1782919395493,
+      "alpha": {
+        "alpha24h": 5.8,
+        "n": 1,
+        "wr": 100.0,
+        "p24h": null,
+        "ewma": 5.8,
+        "streak": 1,
+        "n_clusters": 1,
+        "tag": null,
+        "updated": 1783152153361
+      }
     },
     "0x24fb6523036ebcb3cc51deff138066dccf6bed0f": {
       "address": "0x24fb6523036ebcb3cc51deff138066dccf6bed0f",
@@ -63460,7 +64770,18 @@
         "取引あり(14d)"
       ],
       "notes_jp": "【現在の分類: 🟣高頻度MM / 質:履歴薄/評価不能 / majors実現$30,836 / 最終取引2026-06-27】\n【自動発掘(2026-06-27)】HLリーダーボード(allTime $4,307,950)から発掘し既存基準で分類。回転5649closes/月・黒字月率100%・履歴2ヶ月。欺瞞8軸該当: H_deliberate_dip→要精査。",
-      "upd_last_ms": 1782870734569
+      "upd_last_ms": 1782870734569,
+      "alpha": {
+        "alpha24h": 81.9,
+        "n": 8,
+        "wr": 75.0,
+        "p24h": 0.0166,
+        "ewma": 54.4,
+        "streak": 2,
+        "n_clusters": 8,
+        "tag": null,
+        "updated": 1783152153361
+      }
     },
     "0x5506aab3ebcb313c03929904ad0ac9f82658d5ac": {
       "address": "0x5506aab3ebcb313c03929904ad0ac9f82658d5ac",
@@ -63539,7 +64860,18 @@
         "取引あり(14d)"
       ],
       "notes_jp": "【現在の分類: 🟣高頻度MM / 質:履歴薄/評価不能 / majors実現$300 / 最終取引2026-06-27】\n【自動発掘(2026-06-27)】HLリーダーボード(allTime $4,292,185)から発掘し既存基準で分類。回転7079closes/月・黒字月率100%・履歴1ヶ月。",
-      "upd_last_ms": 1782920412067
+      "upd_last_ms": 1782920412067,
+      "alpha": {
+        "alpha24h": -18.2,
+        "n": 17,
+        "wr": 47.1,
+        "p24h": 0.6346,
+        "ewma": -10.8,
+        "streak": 1,
+        "n_clusters": 59,
+        "tag": null,
+        "updated": 1783152153361
+      }
     },
     "0x888e000c78b8f1aada5b3c99f880794907b76d77": {
       "address": "0x888e000c78b8f1aada5b3c99f880794907b76d77",
@@ -63578,7 +64910,18 @@
         "取引あり(14d)"
       ],
       "notes_jp": "【現在の分類: 🟣高頻度MM / 質:履歴薄/評価不能 / majors実現$-113,066 / 最終取引2026-06-27】\n【自動発掘(2026-06-27)】HLリーダーボード(allTime $4,280,847)から発掘し既存基準で分類。回転6695closes/月・黒字月率50%・履歴2ヶ月。",
-      "upd_last_ms": 1782919296334
+      "upd_last_ms": 1782919296334,
+      "alpha": {
+        "alpha24h": -0.9,
+        "n": 2,
+        "wr": 50.0,
+        "p24h": null,
+        "ewma": -45.0,
+        "streak": 1,
+        "n_clusters": 2,
+        "tag": null,
+        "updated": 1783152153361
+      }
     },
     "0x61387d7e85508811de339276e013e0517f3782ad": {
       "address": "0x61387d7e85508811de339276e013e0517f3782ad",
@@ -64010,7 +65353,18 @@
         "取引あり(14d)"
       ],
       "notes_jp": "【現在の分類: 🟣高頻度MM / 質:ムラあり / majors実現$-13,697 / 最終取引2026-06-28】\n【自動発掘(2026-06-28)】HLリーダーボード(allTime $4,177,796)から発掘し既存基準で分類。回転350closes/月・黒字月率56%・履歴32ヶ月。欺瞞8軸該当: H_deliberate_dip→要精査。",
-      "upd_last_ms": 1782867172293
+      "upd_last_ms": 1782867172293,
+      "alpha": {
+        "alpha24h": -7.2,
+        "n": 2,
+        "wr": 50.0,
+        "p24h": null,
+        "ewma": -7.2,
+        "streak": 0,
+        "n_clusters": 2,
+        "tag": null,
+        "updated": 1783152153361
+      }
     },
     "0xdab9dc2263f97f1da26c285278905774491850df": {
       "address": "0xdab9dc2263f97f1da26c285278905774491850df",
@@ -64166,7 +65520,18 @@
         "取引あり(14d)"
       ],
       "notes_jp": "【現在の分類: 🟣高頻度MM / 質:ムラあり / majors実現$-269,597 / 最終取引2026-06-26】\n【自動発掘(2026-06-28)】HLリーダーボード(allTime $4,154,179)から発掘し既存基準で分類。回転3180closes/月・黒字月率0%・履歴4ヶ月。",
-      "upd_last_ms": 1782804422077
+      "upd_last_ms": 1782804422077,
+      "alpha": {
+        "alpha24h": 35.6,
+        "n": 3,
+        "wr": 100.0,
+        "p24h": 0.1495,
+        "ewma": 49.6,
+        "streak": 2,
+        "n_clusters": 3,
+        "tag": null,
+        "updated": 1783152153361
+      }
     },
     "0x0ce048fe42c170e41740ee392e187f19515f339d": {
       "address": "0x0ce048fe42c170e41740ee392e187f19515f339d",
@@ -64205,7 +65570,18 @@
         "取引あり(14d)"
       ],
       "notes_jp": "【現在の分類: 🟣高頻度MM / 質:ムラあり / majors実現$-88,062 / 最終取引2026-06-27】\n【自動発掘(2026-06-28)】HLリーダーボード(allTime $4,142,708)から発掘し既存基準で分類。回転2455closes/月・黒字月率43%・履歴14ヶ月。",
-      "upd_last_ms": 1782920038869
+      "upd_last_ms": 1782920038869,
+      "alpha": {
+        "alpha24h": -16.1,
+        "n": 20,
+        "wr": 55.0,
+        "p24h": 0.6013,
+        "ewma": -72.1,
+        "streak": 0,
+        "n_clusters": 21,
+        "tag": null,
+        "updated": 1783152153361
+      }
     },
     "0x31c683a67f0e3919a86fead9241d94f34679f11f": {
       "address": "0x31c683a67f0e3919a86fead9241d94f34679f11f",
@@ -65340,7 +66716,18 @@
         "取引あり(14d)"
       ],
       "notes_jp": "【現在の分類: 🟣高頻度MM / 質:ムラあり / majors実現$37,197 / 最終取引2026-06-29】\n【自動発掘(2026-06-29)】HLリーダーボード(allTime $3,837,552)から発掘し既存基準で分類。回転767closes/月・黒字月率50%・履歴4ヶ月。",
-      "upd_last_ms": 1782916085691
+      "upd_last_ms": 1782916085691,
+      "alpha": {
+        "alpha24h": -197.8,
+        "n": 3,
+        "wr": 0.0,
+        "p24h": 0.402,
+        "ewma": -231.7,
+        "streak": 0,
+        "n_clusters": 6,
+        "tag": null,
+        "updated": 1783152153361
+      }
     },
     "0xd9b0a1568c93cea0ab03f1d3597ab1becaba400e": {
       "address": "0xd9b0a1568c93cea0ab03f1d3597ab1becaba400e",
@@ -65573,7 +66960,18 @@
         "取引あり(14d)"
       ],
       "notes_jp": "【現在の分類: 🟣高頻度MM / 質:履歴薄/評価不能 / majors実現$774,491 / 最終取引2026-06-30】\n【自動発掘(2026-06-30)】HLリーダーボード(allTime $3,936,841)から発掘し既存基準で分類。回転14011closes/月・黒字月率100%・履歴2ヶ月。欺瞞8軸該当: H_deliberate_dip→要精査。",
-      "upd_last_ms": 1782321641087
+      "upd_last_ms": 1782321641087,
+      "alpha": {
+        "alpha24h": 72.2,
+        "n": 2,
+        "wr": 100.0,
+        "p24h": null,
+        "ewma": 72.2,
+        "streak": 1,
+        "n_clusters": 3,
+        "tag": null,
+        "updated": 1783152153361
+      }
     },
     "0x6bb971430554e3af58fbd469bce46ab2359a2d23": {
       "address": "0x6bb971430554e3af58fbd469bce46ab2359a2d23",
@@ -66439,7 +67837,18 @@
         "取引あり(14d)"
       ],
       "notes_jp": "【現在の分類: 🟣高頻度MM / 質:堅実 / majors実現$10,346 / 最終取引2026-07-01】\n【自動発掘(2026-07-01)】HLリーダーボード(allTime $3,721,619)から発掘し既存基準で分類。回転2697closes/月・黒字月率71%・履歴7ヶ月。欺瞞8軸該当: B_asymmetric,H_deliberate_dip→要精査。",
-      "upd_last_ms": 1782919994365
+      "upd_last_ms": 1782919994365,
+      "alpha": {
+        "alpha24h": -77.3,
+        "n": 3,
+        "wr": 33.3,
+        "p24h": 0.0997,
+        "ewma": -77.3,
+        "streak": 0,
+        "n_clusters": 3,
+        "tag": null,
+        "updated": 1783152153361
+      }
     },
     "0x9e7b4f487bbec27b10d8af662a1ff4633df7944a": {
       "address": "0x9e7b4f487bbec27b10d8af662a1ff4633df7944a",
@@ -67237,5 +68646,5 @@
       "notes_jp": "【現在の分類: ⚫除外/低優先 / majors実現$0 / 最終取引2026-02-07】\n【自動発掘(2026-07-03)】HLリーダーボード(allTime $3,782,772)から発掘し既存基準で分類。回転250closes/月・黒字月率0%・履歴1ヶ月。"
     }
   },
-  "updated_at": "2026-07-03T15:02:25.291333+00:00"
+  "updated_at": "2026-07-04T08:09:45.438813+00:00"
 }

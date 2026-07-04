@@ -322,12 +322,14 @@ def render_html(reg, out="registry.html",
         for t in at:
             tagcount[t] += 1
     # 全件キャッシュ真値で揃う軸のみ表示（ROI/保有/レバ/方向は旧スキャン/ライブ依存で全件揃わぬため除外）
-    CAT_ORDER = ["位置", "品質", "HFT", "活動", "PnL:", "頻度:", "銘柄:", "ID:",
+    CAT_ORDER = ["位置", "タイミング:", "品質", "HFT", "活動", "PnL:", "頻度:", "銘柄:", "ID:",
                  "検証", "資金/出金", "区分", "他"]
-    AXIS = ["ROI:", "PnL:", "頻度:", "保有:", "方向:", "レバ:", "銘柄:", "ID:"]
+    AXIS = ["ROI:", "PnL:", "頻度:", "保有:", "方向:", "レバ:", "銘柄:", "ID:", "タイミング:"]
     def cat_of(t):
         if t.startswith("Tier-"):
             return "Tier"
+        if t.startswith("タイミング:"):
+            return "タイミング:"
         if t.startswith("質:"):
             return "品質"
         if t.startswith("HFT:"):
@@ -353,12 +355,13 @@ def render_html(reg, out="registry.html",
     for t, c in tagcount.items():
         groups.setdefault(cat_of(t), []).append((t, c))
     groups["位置"] = [(p, pos[p]) for p in POS_ORDER if pos.get(p)]
-    GLABEL = {"位置": "位置づけ", "品質": "品質", "HFT": "HFT回転速度", "活動": "活動(14日)",
+    GLABEL = {"位置": "位置づけ", "タイミング:": "タイミング", "品質": "品質", "HFT": "HFT回転速度", "活動": "活動(14日)",
               "ROI:": "ROI", "PnL:": "PnL", "頻度:": "頻度", "保有:": "保有",
               "方向:": "方向", "レバ:": "レバ", "銘柄:": "銘柄", "ID:": "正体",
               "検証": "検証/疑い", "資金/出金": "資金/出金", "区分": "区分", "他": "他"}
     # チップの並びは「人数順」でなく「良い→悪い／高→低」の意味順。未知タグは人数で補助。
     GOOD_ORDER = (POS_ORDER + [
+        "タイミング:妙手", "タイミング:暫定妙手", "タイミング:逆指標",
         "質:エリート", "質:堅実", "質:中堅", "質:ムラあり", "質:履歴薄/評価不能", "質:alt主体",
         "HFT:超高速(10k+/月)", "HFT:高速(3k-10k/月)", "HFT:標準(1.5k-3k/月)", "HFT:低速(〜1.5k/月)",
         "取引あり(14d)", "取引なし(14d)",
@@ -376,7 +379,7 @@ def render_html(reg, out="registry.html",
             continue
         items = sorted(groups[c], key=lambda x: (RANK.get(x[0], 9999), -x[1]))
         chipshtml = "".join(
-            f"<span class='ft' style='--tc:{tagging.tag_color(t if c!='位置' else t)}' data-t=\"{esc(t)}\">{esc(t.split(':',1)[1] if (t.startswith('質:') or t.startswith('HFT:')) else t)} ({n})</span>"
+            f"<span class='ft' style='--tc:{tagging.tag_color(t if c!='位置' else t)}' data-t=\"{esc(t)}\">{esc(t.split(':',1)[1] if (t.startswith('質:') or t.startswith('HFT:') or t.startswith('タイミング:')) else t)} ({n})</span>"
             for t, n in items
         )
         filterbar += f"<div class='grp'><span class='glabel'>{GLABEL.get(c,c)}</span>{chipshtml}</div>"

@@ -22,9 +22,11 @@ def main():
             continue
         labels = e.get("labels") or []
         label = (labels[0] if labels else "") or pos
+        al = e.get("alpha") or {}
         out.append({"address": k, "label": str(label)[:40], "position": pos,
                     "wf_quality": e.get("wf_quality"), "notify": pos in NOTIFY,
-                    "active14": bool(e.get("active14")), "first_seen": e.get("first_seen")})
+                    "active14": bool(e.get("active14")), "first_seen": e.get("first_seen"),
+                    "alpha_tag": al.get("tag"), "alpha24h": al.get("alpha24h")})
     out.sort(key=lambda w: (not w["notify"], w["position"]))
     json.dump(out, open(f"{config.DATA_DIR}/watch_addresses.json", "w", encoding="utf-8"),
               ensure_ascii=False, indent=2)

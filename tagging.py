@@ -141,6 +141,10 @@ TIER_COLOR = {"Tier-S": "#ffd24a", "Tier-A": "#3fb950", "Tier-B": "#4ea1ff",
 def tag_color(tag):
     if tag in TIER_COLOR:
         return TIER_COLOR[tag]
+    if tag.startswith("タイミング:"):       # 前方リターン採点=先読み技能
+        if "逆指標" in tag:
+            return "#ff5d6c"        # 赤=逆張り指標(恒常マイナス)
+        return "#00d488"            # 明緑=妙手/暫定妙手(タイミングが上手い)
     if tag.startswith("HFT:"):
         return "#a78bfa"            # 紫=HFT回転速度(MM)
     # 品質(workflow精査) は良→悪でグラデーション

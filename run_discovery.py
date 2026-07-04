@@ -72,6 +72,8 @@ def main():
     run_step("discover_and_classify.py", *extra)
     # 既存ウォレットを軽量差分更新（実現損益/最終取引日/active14/赤字転落の再分類）
     run_step("update_existing.py")
+    # ローカルalpha_score.pyが生成した採点(git pullで取得済)を台帳へ反映(alpha_merge自身は常にexit0=発掘を止めない)
+    run_step("alpha_merge.py")
     # 監視リストも最新化（リアルタイム監視デーモンが次回読込で拾えるよう）
     run_step("watch_publish.py")
     # 全ページ再描画（差分更新を反映）
