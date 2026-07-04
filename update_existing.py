@@ -77,6 +77,7 @@ def main():
     cut = now - 14 * DAY
     items = list(W.items())[:limit] if limit else list(W.items())
     upd = demoted = active = 0
+    demotions = []   # この巡で降格した記録(data/demotions.jsonへ)
     for i, (k, e) in enumerate(items):
         if i % 100 == 0:
             print(f"  {i}/{len(items)} 更新中…")
@@ -113,16 +114,17 @@ def main():
         if (e.get("true_realized_all") or 0) <= 0 and e.get("position") in LIVE:
             today = datetime.utcnow().strftime("%Y-%m-%d")
             from_pos, from_q = e.get("position"), e.get("wf_quality")
+            tra = e.get("true_realized_all") or 0   # None安全(f-stringの:,がNoneでTypeError)
             e["demoted_at"] = today                 # 降格日(構造化)
             e["demoted_from"] = from_pos            # 降格前の区分
             e["demoted_from_q"] = from_q            # 降格前の品質
             demotions.append({"address": k, "date": today, "from": from_pos, "from_q": from_q,
-                              "to": "除外/低優先", "reason": f"真の実現が通算赤字(${e.get('true_realized_all'):,})に転落",
+                              "to": "除外/低優先", "reason": f"真の実現が通算赤字(${tra:,})に転落",
                               "first_seen": e.get("first_seen")})
             e["position"] = "除外/低優先"
             e["wf_quality"] = None
             e["notes_jp"] = (f"【差分更新({today})】真の実現が通算赤字"
-                             f"(${e.get('true_realized_all'):,})に転落→除外へ再分類。\n" + (e.get("notes_jp") or ""))
+                             f"(${tra:,})に転落→除外へ再分類。\n" + (e.get("notes_jp") or ""))
             demoted += 1
         # PnL/活動 auto_tags を最新化（頻度/銘柄/品質は据え置き）
         at = [t for t in e.get("auto_tags", [])
