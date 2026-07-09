@@ -44,7 +44,8 @@ UF_CONC = int(os.environ.get("UF_CONC", "1"))                # userFills(weight2
 W_CH = 2     # clearinghouseState weight
 W_UF = 20    # userFills weight
 W_CANDLE = 4  # candleSnapshot weight
-CANDLE_TTL = int(os.environ.get("CANDLE_TTL", "8"))   # チャート足のインメモリ共有キャッシュTTL(秒)
+CANDLE_TTL = int(os.environ.get("CANDLE_TTL", "8"))   # チャート足のインメモリ共有キャッシュTTL(秒)=サーバ掃引/再取得周期
+CANDLE_POLL = int(os.environ.get("CANDLE_POLL", "4"))  # フロントのローソク再取得間隔(秒)=増分描画ゆえ短くても軽い(E2E遅延短縮)
 CANDLE_DAYS = float(os.environ.get("CANDLE_DAYS", "3"))   # ローソク遡及日数(7→3で軽量化・1mは~5000本上限/高い足で更に遡及可)
 CHART_COINS = ["BTC"]                                 # チャート対象(現在はBTCのみ・["BTC","ETH","SOL"]で復帰可)
 CHART_INTERVALS = ["1m", "5m", "15m", "1h"]
@@ -759,6 +760,9 @@ async def fetch_cvd(session, interval, unit="coin"):
                 series.append(prev[label])
                 continue
             bars = []
+        # 各社のページング差で窓外まで返す社(OKXの逆ページングは粗い足で1ページ300本=窓を大幅超過)を
+        # fstart でクリップ=全社の左端を揃える。tick-ruleは日次リセットゆえ窓開始=CVD_DAYS前0時で正。
+        bars = [b for b in bars if b[0] >= fstart]
         series.append({"label": label, "color": color, "data": _cvd_tickrule(bars, unit)})
     CVD_MEM[(interval, unit)] = {"t": time.time(), "series": series}
     return series
@@ -1273,6 +1277,7 @@ async def alert_loop(session):
 
 
 NOTIFY_DEDUP = 90       # poll/WS間のイベント二重通知防止窓(秒)
+NOTIFY_BIG_USD = int(os.environ.get("NOTIFY_BIG_USD", "100000"))  # %閾値(40%)未満でも建玉変化のnotionalがこれ以上なら通知(大口の部分決済/建て増しを拾う・MMはnotify=Falseで除外)
 POLL_SEM = None         # clearinghouse同時inflight上限(main で生成)
 UF_SEM = None           # userFills直列化(HLが並行を429にするため・main で生成)
 FLOW_SEM = None         # flow専用userFills直列化(pollのUF_SEMと分離・同時userFillsは最大2)
@@ -1326,6 +1331,11 @@ async def poll_one(session, a, life_b, learn_b):
                 prev = prev_coins.get(coin, 0.0)
                 nowv = cur_szi.get(coin, 0.0)
                 tr = transition(prev, nowv)   # open/close/flip/reduce(40%減)/add(40%増)。WS経路と同一ロジック
+                if not tr and abs(nowv - prev) > 1e-9 and w.get("notify"):
+                    # %閾値未満でも建玉変化のnotionalが大きい部分決済/建て増しは notify層のみ通知(大口の意味ある動き)。
+                    pxm = _mark(a, coin)
+                    if pxm > 0 and abs(nowv - prev) * pxm >= NOTIFY_BIG_USD:
+                        tr = "add" if abs(nowv) > abs(prev) else "reduce"
                 _le = LAST_EVT.get((a, coin))
                 fresh = (not _le) or now_s - _le[0] > NOTIFY_DEDUP or _le[1] != tr  # 同一transの窓内再配信(WS+poll二重)のみ抑制。open→close→open等の別遷移は窓内でも通す=実イベント取りこぼし防止
                 if tr and seen and w.get("notify") and fresh:
@@ -1677,6 +1687,12 @@ let FLOWSEL; try{{FLOWSEL=JSON.parse(localStorage.getItem('flowsel'))||{{g:[],p:
 let needFit=true;                          // 初回/足切替時に直近120本へ表示を合わせる
 let candleMarkers=null;                    // 将来の建玉重ね(createSeriesMarkers)用ハンドル
 let CANDLES=[];                            // 最新ローソク(オーバーレイ計算用)
+// ── 描画増分化: 毎tickの全置換setData(ローソク+EMA/BB全点)を末尾update主体に。全置換は初回/足切替/多本ギャップ/定期回収のみ ──
+const IVSEC={{'1m':60,'5m':300,'15m':900,'1h':3600}};
+function ivsec(){{return IVSEC[IV]||60;}}
+let needFullCandle=true;                   // 足切替/初回で全置換を強制
+let prevLastT=null, tickN=0;               // ローソク末尾time / tick計数(定期full用)
+function safeUpd(s,bar){{ try{{ s.update(bar); return true; }}catch(e){{ return false; }} }}  // time<lastはthrow→false→呼元がfull退避
 // ── EMA(4本)+ボリンジャーバンド(±1〜3σ) オーバーレイ(pane0・サイトから設定/個別ON/OFF) ──
 const EMA_COLORS=['#f5e441','#f0a13a','#f0564e','#a23bc4'];  // EMA1黄/EMA2橙/EMA3赤/EMA4紫
 // ボリバン: 上バンド(+)=赤系で同色・下バンド(-)=緑系で同色。σが外側ほど透過(濃→淡)。
@@ -1759,14 +1775,30 @@ async function load(){{
   try{{
     const r=await fetch('/candles?coin='+COIN+'&interval='+IV);
     const j=await r.json(); const d=j.candles||[];
-    if(d.length){{ candle.setData(d); CANDLES=d; renderOverlays();
-      if(needFit){{ needFit=false;   // 初回/足切替時のみ: 直近120本に合わせる(全期間ズームで直近が潰れるのを防ぎ描画も軽い)
-        try{{ chart.timeScale().setVisibleLogicalRange({{from:Math.max(0,d.length-120), to:d.length+6}}); }}catch(e){{}}
+    if(!d.length) return;
+    tickN++;
+    const ims=ivsec(); const last=d[d.length-1];
+    // 描画モード判定: 末尾足の時刻前進量 k で分岐(長さ差では窓スライドを検知不能ゆえ時刻基準)
+    let mode='full';
+    if(!needFullCandle && CANDLES.length>=2 && prevLastT!=null && (tickN%15!==0)){{
+      const hasPrev=d.length>=2 && (d[d.length-2].time===prevLastT || last.time===prevLastT);
+      if(hasPrev){{ const k=Math.round((last.time-prevLastT)/ims);
+        if(k<=0) mode='tick';          // 同足内tick: 現在足のみ更新
+        else if(k===1) mode='roll';    // ロール直後: 確定した旧足in-place + 新足append
+        // k>=2(多本ギャップ) は full のまま(中間足はupdate到達不能)
       }}
-      const last=d[d.length-1]; const px=document.getElementById('px_'+COIN);
-      px.textContent='$'+last.close.toLocaleString(); px.style.color=last.close>=last.open?'#69d98a':'#ff8893';
-      // 将来: candleMarkers=LWC.createSeriesMarkers(candle,[{{time,position,color,shape,text}}]);
     }}
+    let ok=true;
+    if(mode==='tick') ok=safeUpd(candle,last);
+    else if(mode==='roll') ok=safeUpd(candle,d[d.length-2])&&safeUpd(candle,last);
+    if(mode==='full'||!ok){{ candle.setData(d); mode='full'; }}   // 初回/足切替/ギャップ/update失敗の退避
+    CANDLES=d; prevLastT=last.time; needFullCandle=false;
+    renderOverlays(mode);                                          // 分岐外で無条件(凍結防止)
+    if(needFit){{ needFit=false;   // 初回/足切替時のみ: 直近120本に合わせる
+      try{{ chart.timeScale().setVisibleLogicalRange({{from:Math.max(0,d.length-120), to:d.length+6}}); }}catch(e){{}}
+    }}
+    const px=document.getElementById('px_'+COIN);                 // ライブ現値は毎poll無条件更新
+    if(px){{ px.textContent='$'+last.close.toLocaleString(); px.style.color=last.close>=last.open?'#69d98a':'#ff8893'; }}
   }}catch(e){{}}
 }}
 async function loadCVD(){{
@@ -1830,19 +1862,27 @@ function onFlowChange(e){{
   localStorage.setItem('flowsel',JSON.stringify(FLOWSEL));
   loadFlow();
 }}
-function setIV(iv){{IV=iv;localStorage.setItem('chartiv',iv); needFit=true;
+function setIV(iv){{IV=iv;localStorage.setItem('chartiv',iv); needFit=true; needFullCandle=true; prevLastT=null;  // 足切替=時間軸総入替→ローソク/オーバーレイ全置換
   document.querySelectorAll('.iv').forEach(b=>b.classList.toggle('on',b.dataset.iv===iv));
   load(); loadCVD(); loadFlow();}}
 function setUN(un){{UN=un;localStorage.setItem('cvdunit',un);
   document.querySelectorAll('.un').forEach(b=>b.classList.toggle('on',b.dataset.un===un));
   loadCVD(); loadFlow();}}
-// オーバーレイ(EMA/BB)を現在のCANDLESと設定から再計算して反映
-function renderOverlays(){{
+// オーバーレイ(EMA/BB)を現在のCANDLESから毎回**全再計算**(チェーン状態を持たない=ドリフト源を断つ)し、
+// mode で反映方式を切替: full=setData全点 / roll=末尾2点update(旧足確定+新足) / tick=末尾1点update。
+// 過去足のEMA/BBは過去closeのみ依存で不変ゆえ末尾以外は触れなくてよい。mode省略/'full'は全置換(トグル時)。
+function renderOverlays(mode){{
   if(!CANDLES.length||!emaS.length) return;
-  const times=CANDLES.map(c=>c.time), closes=CANDLES.map(c=>c.close);
+  mode=mode||'full';
+  const times=CANDLES.map(c=>c.time), closes=CANDLES.map(c=>c.close); const n=times.length;
+  // v: 値配列(null可)。full=null除去setData / roll,tick=末尾のみsafeUpd(null点は触らない・BB先頭p-1本のnull対策)
+  const apply=(s,v)=>{{
+    if(mode==='full'){{ const data=[]; for(let i=0;i<n;i++) if(v[i]!=null) data.push({{time:times[i],value:v[i]}}); s.setData(data); return; }}
+    if(mode==='roll'&&n>=2&&v[n-2]!=null) safeUpd(s,{{time:times[n-2],value:v[n-2]}});
+    if(v[n-1]!=null) safeUpd(s,{{time:times[n-1],value:v[n-1]}});
+  }};
   OVL.ema.forEach((e,i)=>{{ const s=emaS[i]; if(!s) return;
-    if(e.on){{ const v=emaCalc(closes,e.p);
-      s.setData(times.map((t,j)=>({{time:t,value:v[j]}}))); s.applyOptions({{visible:true,title:'EMA'+e.p}}); }}
+    if(e.on){{ apply(s,emaCalc(closes,e.p)); s.applyOptions({{visible:true,title:'EMA'+e.p}}); }}
     else s.applyOptions({{visible:false}});
   }});
   const p1=OVL.ema[0].p;                      // BBは全てEMA1の期間: 中央=EMA1、σ窓もEMA1期間
@@ -1850,8 +1890,7 @@ function renderOverlays(){{
   const {{sd}}=bbCalc(closes,p1);
   const BBL={{u1:'+1σ',l1:'-1σ',u2:'+2σ',l2:'-2σ',u3:'+3σ',l3:'-3σ'}};
   const bline=(key,mult,on)=>{{ const s=bbS[key]; if(!s) return;
-    if(on){{ const data=[]; for(let i=0;i<times.length;i++) if(sd[i]!=null) data.push({{time:times[i],value:ema1[i]+mult*sd[i]}});
-      s.setData(data); s.applyOptions({{visible:true,title:BBL[key]}}); }}
+    if(on){{ const v=times.map((t,i)=>(sd[i]!=null)?(ema1[i]+mult*sd[i]):null); apply(s,v); s.applyOptions({{visible:true,title:BBL[key]}}); }}
     else s.applyOptions({{visible:false}});
   }};
   bline('u1',1,OVL.bb.s1); bline('l1',-1,OVL.bb.s1);
@@ -1890,7 +1929,7 @@ document.getElementById('cvdtagbtn').onclick=()=>{{ CVDTAGS=!CVDTAGS;
   localStorage.setItem('cvdtags',CVDTAGS?'1':'0'); applyCvdTags(); }};
 document.querySelectorAll('.un').forEach(b=>b.classList.toggle('on',b.dataset.un===UN));
 setIV(IV);
-setInterval(load, {CANDLE_TTL}*1000);
+setInterval(load, {CANDLE_POLL}*1000);
 setInterval(loadCVD, {CVD_TTL}*1000);
 setInterval(loadFlow, {FLOW_TTL}*1000);
 </script></body></html>"""
