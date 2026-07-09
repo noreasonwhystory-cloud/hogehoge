@@ -84,11 +84,17 @@ def main():
     git("add", "-A")
     r = git("commit", "-q", "-m", f"chore: 自動発掘サイクル {ts}UTC [skip ci]")
     if r.returncode == 0:
-        # 競合時は一度だけ rebase してから再push
         if git("push", "-q").returncode != 0:
-            git("pull", "--rebase", "--autostash", "origin", "main")
-            git("push", "-q")
-        print("push完了")
+            # 競合時は一度だけ rebase してから再push(戻り値を検査=偽「push完了」を出さない・L-9)
+            if git("pull", "--rebase", "--autostash", "origin", "main").returncode != 0:
+                git("rebase", "--abort")
+                _alert("[discovery] push後のpull --rebase失敗(競合)→中止。次サイクルで自己回復")
+            elif git("push", "-q").returncode != 0:
+                _alert("[discovery] 再pushも失敗→当日分未公開。次サイクルで自己回復")
+            else:
+                print("push完了(rebase後)")
+        else:
+            print("push完了")
     else:
         print("新規追加なし(commitなし)")
     prune_cache()      # VMのディスク累積防止（DISCOVERY_PRUNE=1の時のみ）

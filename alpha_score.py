@@ -154,20 +154,25 @@ class Prices:
         return coin in self.times
 
     def open_at(self, coin, t_ms):
-        """t_ms 以降で最初に始まる15分足のopen(採点開始価格)。無ければNone。"""
+        """t_ms 以降で最初に始まる15分足のopen(採点開始価格)。近接ガード=GRID*2以上先の足しか無ければNone
+        (ローソク欠損コインで数時間〜数日先の陳腐な足を採点端点に採る歪みを防ぐ・L-1)。"""
         ts = self.times.get(coin)
         if ts is None:
             return None
         i = int(np.searchsorted(ts, t_ms, side="left"))
-        return float(self.opens[coin][i]) if i < len(ts) else None
+        if i >= len(ts) or ts[i] - t_ms >= GRID * 2:
+            return None
+        return float(self.opens[coin][i])
 
     def close_at(self, coin, t_ms):
-        """t_ms 時点で確定済みの最終15分足close。無ければNone。"""
+        """t_ms 時点で確定済みの最終15分足close。近接ガード=GRID*2以上前の足しか無ければNone(欠損対策・L-1)。"""
         ts = self.times.get(coin)
         if ts is None:
             return None
         i = int(np.searchsorted(ts, t_ms, side="right")) - 1
-        return float(self.closes[coin][i]) if 0 <= i < len(ts) else None
+        if not (0 <= i < len(ts)) or t_ms - ts[i] >= GRID * 2:
+            return None
+        return float(self.closes[coin][i])
 
     def fwd_ret(self, coin, t_ms, horizon_ms, now_ms):
         """検知t_ms→次足open基準で horizon_ms 先までの signed でない生リターン(bps)。
@@ -275,44 +280,60 @@ def market_baseline(prices, coin, horizon_ms, now_ms):
 
 # ─────────────────────────── 採点 + 円環シフト置換 ───────────────────────────
 
-def score_wallet(clusters, prices, baselines, now_ms, span, n_perm, probe_compat):
+def score_wallet(clusters, prices, baselines, now_ms, t0, n_perm, probe_compat):
     """1ウォレットの signed 市場調整済み前方リターンを地平線別に集計し、円環シフト置換でp値を出す。
-    戻り: {horizon: {mean, n, wr, p}} + 全クラスタ時刻(shift用)。"""
+    戻り: {horizon: {mean, n, wr, p(上側=妙手), p_lo(下側=逆指標)}}。
+
+    【H-1修正】置換は『採点可能窓 [t0(=全アーカイブ開始), now-地平線-GRID]』内で円環シフトする。
+    シフト後の時刻も必ず採点可能ゆえ、観測と置換が**同一クラスタ集合・同一標本数**で比較でき、
+    後発/バースト型ウォレットで大半の置換が右打切りで空になり分母固定のまま反保守化する欠陥を根絶。
+    分母は有効置換数 M で適応化(空置換は算入しない)。市場baselineは(coin,地平線)の定数ゆえシフト不変。"""
     per_h = {}
-    times = np.array([c["t"] for c in clusters], dtype=np.int64)
     for h, ms in HORIZONS.items():
-        obs = []
+        hi = now_ms - ms - GRID          # これ以降に始まるクラスタは地平線終端が未確定=採点不能
+        # obs=採点可能クラスタ(t<=hi かつ 価格取得可)のみ。置換もこの同一集合を使う。
+        oc, osign, obase, ot, obs = [], [], [], [], []
         for c in clusters:
+            if c["t"] > hi:
+                continue
             r = prices.fwd_ret(c["coin"], c["t"], ms, now_ms)
-            if r is None:
+            if r is None:                # 価格欠損(打切りではない)
                 continue
             base = 0.0 if probe_compat else baselines.get((c["coin"], h), 0.0)
             obs.append(c["sign"] * (r - base))
+            oc.append(c["coin"]); osign.append(c["sign"]); obase.append(base); ot.append(c["t"])
         if not obs:
             continue
         obs = np.array(obs)
         mean, n = float(obs.mean()), len(obs)
         wr = float((obs > 0).mean() * 100)
-        p = None
-        if not probe_compat and n >= 3 and span > 0:
-            # 円環シフト: 全クラスタ時刻に共通オフセットδを加えmod span→間隔/オーバーラップ構造を保存
-            ge = 1   # +1 = 観測自身(保守的p下限=1/(N+1))
-            base_arr = np.array([baselines.get((c["coin"], h), 0.0) for c in clusters])
-            signs = np.array([c["sign"] for c in clusters])
-            coins = [c["coin"] for c in clusters]
-            t0 = int(times.min())
+        p = p_lo = None
+        win = hi - t0
+        if not probe_compat and n >= 3 and win > 0:
+            times = np.array(ot, dtype=np.int64)
+            signs = np.array(osign)
+            base_arr = np.array(obase)
+            ge = le = 1   # 観測自身を両側に計上(下限 1/(M+1) を保証)
+            M = 0         # 有効置換数(空でない置換のみ分母に算入)
             for _ in range(n_perm):
-                delta = int(np.random.randint(0, span))
-                sh = t0 + ((times - t0 + delta) % span)
+                delta = int(np.random.randint(0, win))
+                sh = t0 + ((times - t0 + delta) % win)   # 必ず[t0,hi)内=採点可能
                 vals = []
-                for k in range(len(clusters)):
-                    r = prices.fwd_ret(coins[k], int(sh[k]), ms, now_ms)
+                for k in range(n):
+                    r = prices.fwd_ret(oc[k], int(sh[k]), ms, now_ms)
                     if r is not None:
                         vals.append(signs[k] * (r - base_arr[k]))
-                if vals and np.mean(vals) >= mean:
+                if not vals:
+                    continue
+                M += 1
+                m = np.mean(vals)
+                if m >= mean:
                     ge += 1
-            p = ge / (n_perm + 1)
-        per_h[h] = {"mean": round(mean, 1), "n": n, "wr": round(wr, 1), "p": p}
+                if m <= mean:
+                    le += 1
+            p = ge / (M + 1)       # 上側(妙手): #{perm平均>=観測}
+            p_lo = le / (M + 1)    # 下側(逆指標): #{perm平均<=観測}=正しい下側p値(1-p_upperの近似を廃す)
+        per_h[h] = {"mean": round(mean, 1), "n": n, "wr": round(wr, 1), "p": p, "p_lo": p_lo}
     return per_h
 
 
@@ -417,7 +438,7 @@ def main():
     scores = {}
     wallet_meta = {}
     for a, cl in by_wallet.items():
-        per_h = score_wallet(cl, prices, baselines, now_ms, span, n_perm, probe_compat)
+        per_h = score_wallet(cl, prices, baselines, now_ms, t0, n_perm, probe_compat)
         if not per_h:
             continue
         ewma, streak = (None, 0) if probe_compat else ewma_streak(cl, prices, baselines, now_ms)
@@ -470,9 +491,9 @@ def main():
                     tag = "妙手"
                 elif ARCHIVE_YOUNG and h24["n"] >= 10 and idx in sig10:
                     tag = "暫定妙手"
-            # 逆指標(下裾): 恒常マイナス×ewma<0。片側p→1-pで下裾近似(暫定)
-            elif h24["mean"] < 0 and s.get("ewma") and s["ewma"] < 0 and \
-                    h24["n"] >= (10 if ARCHIVE_YOUNG else 20) and (1 - h24["p"]) <= (0.10 if ARCHIVE_YOUNG else 0.05):
+            # 逆指標(下裾): 恒常マイナス×ewma<0。正しい下側p値 p_lo=#{perm平均<=観測}/(M+1) で判定(M-1修正)
+            elif h24["mean"] < 0 and s.get("ewma") and s["ewma"] < 0 and h24.get("p_lo") is not None and \
+                    h24["n"] >= (10 if ARCHIVE_YOUNG else 20) and h24["p_lo"] <= (0.10 if ARCHIVE_YOUNG else 0.05):
                 tag = "逆指標"
         p24 = round(h24["p"], 4) if h24.get("p") is not None else None
         out[a] = {"alpha24h": h24["mean"], "n": h24["n"], "wr": h24["wr"], "p24h": p24,
@@ -481,7 +502,9 @@ def main():
         if tag:
             counts[tag] += 1
 
-    meta = {"generated_ms": now_ms, "span_days": round(span_days, 1), "n_events": len(events),
+    meta = {"generated_ms": now_ms, "latest_event_ms": t1,           # M-3: データ鮮度=最新イベント時刻
+            "archive_age_h": round((now_ms - t1) / 3600000, 1),      # now-t1=アーカイブ陳腐度(sync欠落で増える)
+            "span_days": round(span_days, 1), "n_events": len(events),
             "n_clusters": len(clusters), "n_flips_merged": n_flips, "n_dedup": n_dedup,
             "n_px_dropped": n_px, "regime": "young" if ARCHIVE_YOUNG else "mature",
             "perm": n_perm, "mm_negcontrol_fdr10": mm_fdr10, "mm_wallets": len(mm_scores),

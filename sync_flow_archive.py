@@ -41,7 +41,7 @@ def _date_of(basename):
 
 
 def _read_lines(path):
-    """行を読む(.gzは自動解凍)。ファイル無し/読取失敗は空。"""
+    """行を読む(.gzは自動解凍)。ファイル無し=[](正常に空)/ 読取失敗=None(既存を壊さないため区別・L-8)。"""
     if not os.path.exists(path):
         return []
     op = gzip.open if path.endswith(".gz") else open
@@ -50,14 +50,22 @@ def _read_lines(path):
             return [line.rstrip("\n") for line in f]
     except Exception as e:
         print("  read err", os.path.basename(path), str(e)[:80])
-        return []
+        return None
 
 
 def _merge_day(local_merged, vm_tmp):
     """既存local + VM を行dedup+時刻昇順でマージ。VM側のパース不能行(torn)のみ捨て、
     既存localは温存。行数が既存を下回るなら破損疑いで書換え中止。原子的に置換。"""
+    local_lines = _read_lines(local_merged)
+    vm_lines = _read_lines(vm_tmp)
+    if local_lines is None:      # 既存localの読取失敗=上書きすると履歴消失→中止して温存(L-8)
+        print(f"  ⚠ 既存 {os.path.basename(local_merged)} 読取失敗→温存(書換え中止)")
+        return None
+    if vm_lines is None:         # VM側読取失敗=マージ材料無し→中止(既存は無傷)
+        print(f"  ⚠ VM {os.path.basename(vm_tmp)} 読取失敗→スキップ")
+        return None
     seen, rows, old_count = set(), [], 0
-    for line in _read_lines(local_merged):        # 既存local(必ず温存)
+    for line in local_lines:                      # 既存local(必ず温存)
         if not line or line in seen:
             continue
         seen.add(line)
@@ -67,7 +75,7 @@ def _merge_day(local_merged, vm_tmp):
         except Exception:
             t = 0
         rows.append((t, line))
-    for line in _read_lines(vm_tmp):              # VM側(torn行はjson.loadsで弾く)
+    for line in vm_lines:                          # VM側(torn行はjson.loadsで弾く)
         if not line or line in seen:
             continue
         try:

@@ -28,6 +28,13 @@ def main():
     if not os.path.exists(local):
         print("alpha_scores.json が生成されていない")
         sys.exit(1)
+    try:                                    # M-3: アーカイブ陳腐度を可視化(sync欠落を検知)
+        import json
+        age = json.load(open(local, encoding="utf-8")).get("meta", {}).get("archive_age_h")
+        if age is not None:
+            print(f"archive_age_h={age}" + ("  ⚠古い(sync欠落?)採点データ陳腐化" if age > 36 else ""))
+    except Exception:
+        pass
     scp = f'gcloud compute scp "{local}" "{VM}:/home/Matsuya131/repo/data/alpha_scores.json" --zone {ZONE}'
     r2 = run(scp, shell=True)   # gcloudは.cmd/.ps1ラッパゆえshell経由(sync_flow_archive.pyと同流儀)
     if r2.returncode != 0:
