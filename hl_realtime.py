@@ -46,6 +46,8 @@ W_UF = 20    # userFills weight
 W_CANDLE = 4  # candleSnapshot weight
 CANDLE_TTL = int(os.environ.get("CANDLE_TTL", "8"))   # チャート足のインメモリ共有キャッシュTTL(秒)=サーバ掃引/再取得周期
 CANDLE_POLL = int(os.environ.get("CANDLE_POLL", "4"))  # フロントのローソク再取得間隔(秒)=増分描画ゆえ短くても軽い(E2E遅延短縮)
+LWC_PATH = os.environ.get("LWC_PATH", os.path.expanduser("~/hl/lwc.js"))  # lightweight-charts自前配信(unpkg CDN単一障害点を排除)。無ければunpkgへフォールバック
+LWC_CDN = "https://unpkg.com/lightweight-charts@5.0.7/dist/lightweight-charts.standalone.production.js"
 CANDLE_DAYS = float(os.environ.get("CANDLE_DAYS", "3"))   # ローソク遡及日数(7→3で軽量化・1mは~5000本上限/高い足で更に遡及可)
 CHART_COINS = ["BTC"]                                 # チャート対象(現在はBTCのみ・["BTC","ETH","SOL"]で復帰可)
 CHART_INTERVALS = ["1m", "5m", "15m", "1h"]
@@ -1644,7 +1646,7 @@ def render_charts():
     return f"""<!doctype html><html lang=ja><head><meta charset=utf-8>
 <meta name=viewport content="width=device-width,initial-scale=1">
 <title>HL チャート {'/'.join(CHART_COINS)}</title>
-<script src="https://unpkg.com/lightweight-charts@5.0.7/dist/lightweight-charts.standalone.production.js"></script>
+<script src="/lib/lwc.js"></script>
 <style>
 body{{font-family:system-ui,sans-serif;background:#0e1116;color:#e6edf3;margin:0;padding:16px;font-size:13px}}
 h1{{font-size:18px;margin:0 0 6px}} a{{color:#4ea1ff;text-decoration:none}}
@@ -1935,6 +1937,21 @@ setInterval(loadFlow, {FLOW_TTL}*1000);
 </script></body></html>"""
 
 
+_LWC_CACHE = None
+async def handle_lwc(request):
+    """lightweight-charts を自前配信(unpkg CDN依存=単一障害点を排除)。
+    ~/hl/lwc.js を起動後一度だけ読んでメモリ配信。ファイル無ければ unpkg へ302フォールバック=常に描画可。"""
+    global _LWC_CACHE
+    if _LWC_CACHE is None:
+        try:
+            with open(LWC_PATH, encoding="utf-8") as f:
+                _LWC_CACHE = f.read()
+        except Exception:
+            raise web.HTTPFound(LWC_CDN)   # 自前ファイル欠落時は従来通りunpkgへ(壊さない)
+    return web.Response(text=_LWC_CACHE, content_type="application/javascript",
+                        headers={"Cache-Control": "public, max-age=604800"})   # 1週間ブラウザキャッシュ
+
+
 async def handle_charts(request):
     return web.Response(text=render_charts(), content_type="text/html")
 
@@ -2117,6 +2134,7 @@ async def main():
         app.router.add_get("/", handle_index)
         app.router.add_get("/health", handle_health)
         app.router.add_get("/candles", handle_candles)
+        app.router.add_get("/lib/lwc.js", handle_lwc)   # lightweight-charts自前配信
         app.router.add_get("/charts", handle_charts)
         app.router.add_get("/cvd", handle_cvd)
         app.router.add_get("/flow", handle_flow)
