@@ -35,3 +35,4 @@
 {"address": "0x41c684cbde3e449cc67c70aacb6132e3eb25b06d", "date": "2026-07-10", "kind": "deception", "patterns": {"C_dormant_burst": 4.535}, "rmaj": 3948, "rall": 53613, "source": "S2_week"}
 {"address": "0x04cc3147bc87999e5a6b75373daa6ff8f12b38d1", "date": "2026-07-10", "kind": "deception", "patterns": {"H_deliberate_dip": 5.005}, "rmaj": -219645, "rall": 101113, "source": "S4_day"}
 {"address": "0x3e7a0eca8b624b75034ad820fa291425f21f1589", "date": "2026-07-10", "kind": "deception", "patterns": {"H_deliberate_dip": 6.062}, "rmaj": 1748765, "rall": 1153565, "source": "S4_day"}
+{"address": "0x12f7aea21eed5461d30212ea771c4441656b8750", "date": "2026-07-11", "kind": "deception", "patterns": {"H_deliberate_dip": 5.332}, "rmaj": 1794, "rall": 214761, "source": "S2_week"}
