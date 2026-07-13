@@ -36,3 +36,5 @@
 {"address": "0x04cc3147bc87999e5a6b75373daa6ff8f12b38d1", "date": "2026-07-10", "kind": "deception", "patterns": {"H_deliberate_dip": 5.005}, "rmaj": -219645, "rall": 101113, "source": "S4_day"}
 {"address": "0x3e7a0eca8b624b75034ad820fa291425f21f1589", "date": "2026-07-10", "kind": "deception", "patterns": {"H_deliberate_dip": 6.062}, "rmaj": 1748765, "rall": 1153565, "source": "S4_day"}
 {"address": "0x12f7aea21eed5461d30212ea771c4441656b8750", "date": "2026-07-11", "kind": "deception", "patterns": {"H_deliberate_dip": 5.332}, "rmaj": 1794, "rall": 214761, "source": "S2_week"}
+{"address": "0xfa0f450d61acd11bc0f6a986260fc25c1758ccb9", "date": "2026-07-13", "kind": "deception", "patterns": {"C_dormant_burst": 6.478, "H_deliberate_dip": 6.004}, "rmaj": 0, "rall": 1008554, "source": "S3_month"}
+{"address": "0x065612c177776f3c635dff181edf170f9c196a05", "date": "2026-07-13", "kind": "deception", "patterns": {"D_controlled_loss": 20.948, "H_deliberate_dip": 5.319}, "rmaj": 0, "rall": 208600, "source": "S2_week"}
