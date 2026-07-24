@@ -1,6 +1,15 @@
 [
   {
     "address": "0x720a68bf0813853cd3ed74d2fd0f54edfc7a43e1",
+    "date": "2026-07-24",
+    "rall": 51560,
+    "rmaj": -157369,
+    "demoted_from": null,
+    "source": null,
+    "first_seen": "2026-06-22"
+  },
+  {
+    "address": "0x720a68bf0813853cd3ed74d2fd0f54edfc7a43e1",
     "date": "2026-07-23",
     "rall": 51560,
     "rmaj": -157369,
