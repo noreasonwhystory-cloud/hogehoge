@@ -16,7 +16,7 @@
     "position": "alt主体プロ",
     "wf_quality": "alt主体",
     "notify": true,
-    "active14": true,
+    "active14": false,
     "first_seen": "2026-06-16",
     "alpha_tag": null,
     "alpha24h": null
@@ -709,7 +709,7 @@
     "position": "alt主体プロ",
     "wf_quality": "alt主体",
     "notify": true,
-    "active14": true,
+    "active14": false,
     "first_seen": "2026-06-26",
     "alpha_tag": null,
     "alpha24h": null
@@ -1288,17 +1288,6 @@
   },
   {
     "address": "0x11eee2e0a613af4f636e23ff295e2dac6a191d1d",
-    "label": "alt主体プロ",
-    "position": "alt主体プロ",
-    "wf_quality": "alt主体",
-    "notify": true,
-    "active14": true,
-    "first_seen": "2026-07-22",
-    "alpha_tag": null,
-    "alpha24h": null
-  },
-  {
-    "address": "0x2cff35b62aa18287a4b866e8c0a5ab6f8781e8a3",
     "label": "alt主体プロ",
     "position": "alt主体プロ",
     "wf_quality": "alt主体",
@@ -2233,6 +2222,17 @@
     "alpha24h": null
   },
   {
+    "address": "0x6ff1e4736edaa770114d46fd41b110bc30b18575",
+    "label": "プロトレーダー(本物)",
+    "position": "プロトレーダー(本物)",
+    "wf_quality": "履歴薄/評価不能",
+    "notify": true,
+    "active14": true,
+    "first_seen": "2026-07-26",
+    "alpha_tag": null,
+    "alpha24h": null
+  },
+  {
     "address": "0x3662dd1d493d1d3cf6a65cb8e4ce2bfb01f63b3c",
     "label": "🤓 Smart HL Perps Trader [0x3662dd]",
     "position": "弱い疑惑(監視継続)",
@@ -2403,7 +2403,7 @@
     "position": "高頻度MM",
     "wf_quality": "履歴薄/評価不能",
     "notify": false,
-    "active14": false,
+    "active14": true,
     "first_seen": "2026-06-16",
     "alpha_tag": null,
     "alpha24h": null
@@ -2942,7 +2942,7 @@
     "position": "高頻度MM",
     "wf_quality": "ムラあり",
     "notify": false,
-    "active14": true,
+    "active14": false,
     "first_seen": "2026-06-17",
     "alpha_tag": null,
     "alpha24h": 30.0
@@ -7155,7 +7155,7 @@
     "position": "高頻度MM",
     "wf_quality": "ムラあり",
     "notify": false,
-    "active14": true,
+    "active14": false,
     "first_seen": "2026-06-24",
     "alpha_tag": null,
     "alpha24h": null
