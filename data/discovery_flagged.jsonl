@@ -98,3 +98,7 @@
 {"address": "0x480409bb2b4842fb0a22d58d6dd3458d7260091a", "date": "2026-07-28", "kind": "deception", "patterns": {"D_controlled_loss": 24.26}, "rmaj": 0, "rall": 87299, "source": "S2_week"}
 {"address": "0x02c792bb17ce731d3a7dd6209db9aedbb78b756c", "date": "2026-07-28", "kind": "deception", "patterns": {"C_dormant_burst": 3.699, "D_controlled_loss": 24.586, "H_deliberate_dip": 5.447}, "rmaj": 194515, "rall": 279892, "source": "S3_month"}
 {"address": "0x2f80a52f4f4cc773182b0c2182b6e06451dbf203", "date": "2026-07-28", "kind": "fills_missing_lead", "source": "S4_day", "coin": "ETH", "dir": "down", "notional": 2272881, "event_t0": 1785189600000}
+{"address": "0xe1d39d2b30da977d470e0652239372b7ad4b7766", "date": "2026-07-29", "kind": "deception", "patterns": {"H_deliberate_dip": 5.199}, "rmaj": 0, "rall": 157972, "source": "S2_week"}
+{"address": "0xd65ac35cd234c8718b876ab304fa56c8995e387f", "date": "2026-07-29", "kind": "deception", "patterns": {"H_deliberate_dip": 5.564}, "rmaj": 0, "rall": 366275, "source": "S2_week"}
+{"address": "0xc960268269bf656f3b97162638e1a94638cf382c", "date": "2026-07-29", "kind": "deception", "patterns": {"C_dormant_burst": 2.384}, "rmaj": 0, "rall": 90453, "source": "S2_week"}
+{"address": "0x0d50ae451f12b6af1b110a82b32efcc05ec21014", "date": "2026-07-29", "kind": "deception", "patterns": {"H_deliberate_dip": 5.388}, "rmaj": -4839, "rall": 244189, "source": "S2_week"}
