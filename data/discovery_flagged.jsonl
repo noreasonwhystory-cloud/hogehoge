@@ -102,3 +102,10 @@
 {"address": "0xd65ac35cd234c8718b876ab304fa56c8995e387f", "date": "2026-07-29", "kind": "deception", "patterns": {"H_deliberate_dip": 5.564}, "rmaj": 0, "rall": 366275, "source": "S2_week"}
 {"address": "0xc960268269bf656f3b97162638e1a94638cf382c", "date": "2026-07-29", "kind": "deception", "patterns": {"C_dormant_burst": 2.384}, "rmaj": 0, "rall": 90453, "source": "S2_week"}
 {"address": "0x0d50ae451f12b6af1b110a82b32efcc05ec21014", "date": "2026-07-29", "kind": "deception", "patterns": {"H_deliberate_dip": 5.388}, "rmaj": -4839, "rall": 244189, "source": "S2_week"}
+{"address": "0x5f9662b63e040b98fb21d0fae268ccf34737d6ca", "date": "2026-07-30", "kind": "deception", "patterns": {"C_dormant_burst": 5.341}, "rmaj": 0, "rall": 203822, "source": "S2_week"}
+{"address": "0xaa53412d2249fe47c5d2790ab5728b3c564dd265", "date": "2026-07-30", "kind": "deception", "patterns": {"D_controlled_loss": 20.197}, "rmaj": -35300, "rall": 67420, "source": "S4_day"}
+{"address": "0x28f33d9cfb55f71232d586f9a413a58df850c315", "date": "2026-07-30", "kind": "deception", "patterns": {"C_dormant_burst": 4.334}, "rmaj": 0, "rall": 348100, "source": "S2_week"}
+{"address": "0xf79ff138ad12140c6d2d7ee8bae563addcc7ee09", "date": "2026-07-30", "kind": "deception", "patterns": {"C_dormant_burst": 4.881}, "rmaj": 0, "rall": 367531, "source": "S2_week"}
+{"address": "0xb344e06680b6d21b502eed58272b8abfeef548eb", "date": "2026-07-30", "kind": "deception", "patterns": {"H_deliberate_dip": 5.324}, "rmaj": 0, "rall": 210753, "source": "S2_week"}
+{"address": "0xbbf7fbc7fa97a88c83c1b8a825692f84ef9d4b13", "date": "2026-07-30", "kind": "deception", "patterns": {"H_deliberate_dip": 5.847}, "rmaj": 195797, "rall": 702740, "source": "S3_month"}
+{"address": "0x1095734e174ed0fa5ddb96c537504ad94e2125c3", "date": "2026-07-30", "kind": "deception", "patterns": {"H_deliberate_dip": 5.143}, "rmaj": 0, "rall": 139041, "source": "S2_week"}
