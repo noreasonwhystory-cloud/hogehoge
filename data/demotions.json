@@ -1,5 +1,41 @@
 [
   {
+    "address": "0x2312b5480f7e3d1894ed046af15b23186ff0f53c",
+    "date": "2026-07-31",
+    "from": "alt主体プロ",
+    "from_q": "alt主体",
+    "to": "除外/低優先",
+    "reason": "真の実現が通算赤字($-730,569)に転落",
+    "first_seen": "2026-06-25"
+  },
+  {
+    "address": "0x54c65c7bdc72cf97a6d7a9cb6b13e53e09d10059",
+    "date": "2026-07-31",
+    "from": "alt主体プロ",
+    "from_q": "alt主体",
+    "to": "除外/低優先",
+    "reason": "真の実現が通算赤字($-1,194,132)に転落",
+    "first_seen": "2026-07-07"
+  },
+  {
+    "address": "0x82d8d2ce7dc74f613b66a7fc2c6fc05948f6eff8",
+    "date": "2026-07-31",
+    "from": "alt主体プロ",
+    "from_q": "alt主体",
+    "to": "除外/低優先",
+    "reason": "真の実現が通算赤字($-247,249)に転落",
+    "first_seen": "2026-07-29"
+  },
+  {
+    "address": "0xb5b3f3caf9d778b1293e5cd29f32e84b04c67a08",
+    "date": "2026-07-31",
+    "from": "alt主体プロ",
+    "from_q": "alt主体",
+    "to": "除外/低優先",
+    "reason": "真の実現が通算赤字($-16,872)に転落",
+    "first_seen": "2026-07-30"
+  },
+  {
     "address": "0x58f0bf4307c61bc7a5fe11e24fe36e64300b0d20",
     "date": "2026-07-28",
     "from": "alt主体プロ",
