@@ -115,3 +115,9 @@
 {"address": "0xe7847b84cb42fdb352cb64265a787bbb9da5ed82", "date": "2026-07-31", "kind": "deception", "patterns": {"H_deliberate_dip": 5.352}, "rmaj": 0, "rall": 225073, "source": "S2_week"}
 {"address": "0x7672bbb64595e5c2ae3bc65ffe385ee1ab8ea306", "date": "2026-07-31", "kind": "deception", "patterns": {"C_dormant_burst": 4.416}, "rmaj": 0, "rall": 69599, "source": "S2_week"}
 {"address": "0x7cad42d924212b07e9b299004c1f0b1098b809b5", "date": "2026-08-01", "kind": "deception", "patterns": {"D_controlled_loss": 13.305}, "rmaj": 0, "rall": 43448, "source": "S4_day"}
+{"address": "0xd129d392e5db2bb3bd6db5c2580c9634ac570aa6", "date": "2026-08-02", "kind": "deception", "patterns": {"C_dormant_burst": 2.537, "H_deliberate_dip": 5.125}, "rmaj": 0, "rall": 133268, "source": "S4_day"}
+{"address": "0xbc3fc3edfc56fcef9361b30078658a2a1d4d691b", "date": "2026-08-02", "kind": "deception", "patterns": {"C_dormant_burst": 7.533, "F_decoy_flip": 580.303}, "rmaj": 75484, "rall": 74064, "source": "S4_day"}
+{"address": "0x70b37757f0344b28ef207d86eada7ca051138153", "date": "2026-08-02", "kind": "deception", "patterns": {"C_dormant_burst": 4.793, "H_deliberate_dip": 5.25}, "rmaj": -28505, "rall": 177663, "source": "S4_day"}
+{"address": "0x9a991732cd4cf14712b07fbeb8c5d87de90dd21a", "date": "2026-08-02", "kind": "deception", "patterns": {"C_dormant_burst": 15.628, "H_deliberate_dip": 5.393}, "rmaj": -311898, "rall": 247014, "source": "S2_week"}
+{"address": "0xe2321c8324c1da7b3ba790627d0e4ee444188a23", "date": "2026-08-02", "kind": "deception", "patterns": {"C_dormant_burst": 6.879, "H_deliberate_dip": 5.153}, "rmaj": 64388, "rall": 142088, "source": "S3_month"}
+{"address": "0xa94b5e2af974818bbc63a4f4b3661cbc951c8e06", "date": "2026-08-02", "kind": "deception", "patterns": {"C_dormant_burst": 2.872}, "rmaj": 0, "rall": 65814, "source": "S3_month"}
