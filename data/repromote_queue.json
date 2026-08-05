@@ -1,6 +1,24 @@
 [
   {
     "address": "0x720a68bf0813853cd3ed74d2fd0f54edfc7a43e1",
+    "date": "2026-08-05",
+    "rall": 43276,
+    "rmaj": -162768,
+    "demoted_from": null,
+    "source": null,
+    "first_seen": "2026-06-22"
+  },
+  {
+    "address": "0x58f0bf4307c61bc7a5fe11e24fe36e64300b0d20",
+    "date": "2026-08-05",
+    "rall": 31948,
+    "rmaj": -1497,
+    "demoted_from": "alt主体プロ",
+    "source": "S4_day",
+    "first_seen": "2026-07-11"
+  },
+  {
+    "address": "0x720a68bf0813853cd3ed74d2fd0f54edfc7a43e1",
     "date": "2026-08-04",
     "rall": 43276,
     "rmaj": -162768,
