@@ -990,3 +990,6 @@
 {"date": "2026-08-09", "address": "0xb40da15b8cc492fff87d9b1e06bb45769d7e75d9", "position": "高頻度MM", "wf_quality": "中堅", "source": "S2_week", "rmaj": 10276, "rall": 512789, "fresh": false, "event_lead": false, "flagged": true}
 {"date": "2026-08-09", "address": "0x3a23b10845e911b6944d9dc2f1f480fca3af35d6", "position": "高頻度MM", "wf_quality": "ムラあり", "source": "S2_week", "rmaj": -41915, "rall": -201786, "fresh": false, "event_lead": false, "flagged": false}
 {"date": "2026-08-09", "address": "0xa0b31efd7c2b988efb0fedad43144a621ee96839", "position": "高頻度MM", "wf_quality": "ムラあり", "source": "S2_week", "rmaj": 0, "rall": -98580, "fresh": false, "event_lead": false, "flagged": false}
+{"date": "2026-08-10", "address": "0x032456ce7beac3bc30c3b13ac0a3c2e65dd43711", "position": "高頻度MM", "wf_quality": "履歴薄/評価不能", "source": "S2_week", "rmaj": 0, "rall": -77309, "fresh": false, "event_lead": false, "flagged": false}
+{"date": "2026-08-10", "address": "0x498216a21f5b028797c1d3d4250e14d09c9959e6", "position": "alt主体プロ", "wf_quality": "alt主体", "source": "S4_day", "rmaj": 0, "rall": 35, "fresh": true, "event_lead": false, "flagged": false}
+{"date": "2026-08-10", "address": "0x7ee9808efaac101bf1af55228d9f388a573a12b1", "position": "高頻度MM", "wf_quality": "履歴薄/評価不能", "source": "S4_day", "rmaj": 30019, "rall": 306198, "fresh": false, "event_lead": false, "flagged": false}
