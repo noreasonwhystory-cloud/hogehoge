@@ -1,5 +1,14 @@
 [
   {
+    "address": "0x6b237a7296bd297132660da3cbe6d85bc485af54",
+    "date": "2026-08-17",
+    "from": "alt主体プロ",
+    "from_q": "alt主体",
+    "to": "除外/低優先",
+    "reason": "真の実現が通算赤字($-46,612)に転落",
+    "first_seen": "2026-07-17"
+  },
+  {
     "address": "0x18c560f30e96c72083282b5fb7b4a07ccfbfaa83",
     "date": "2026-08-05",
     "from": "alt主体プロ",
