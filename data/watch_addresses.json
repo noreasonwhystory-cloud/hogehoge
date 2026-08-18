@@ -753,7 +753,7 @@
     "position": "alt主体プロ",
     "wf_quality": "alt主体",
     "notify": true,
-    "active14": false,
+    "active14": true,
     "first_seen": "2026-06-27",
     "alpha_tag": null,
     "alpha24h": 53.6
@@ -940,7 +940,7 @@
     "position": "alt主体プロ",
     "wf_quality": "alt主体",
     "notify": true,
-    "active14": true,
+    "active14": false,
     "first_seen": "2026-07-05",
     "alpha_tag": null,
     "alpha24h": null
@@ -1105,7 +1105,7 @@
     "position": "alt主体プロ",
     "wf_quality": "alt主体",
     "notify": true,
-    "active14": true,
+    "active14": false,
     "first_seen": "2026-07-16",
     "alpha_tag": null,
     "alpha24h": null
@@ -1628,6 +1628,17 @@
     "alpha24h": null
   },
   {
+    "address": "0x73ff9df51d8ee19766ad26d83e3c9db4cc951fb0",
+    "label": "alt主体プロ",
+    "position": "alt主体プロ",
+    "wf_quality": "alt主体",
+    "notify": true,
+    "active14": true,
+    "first_seen": "2026-08-18",
+    "alpha_tag": null,
+    "alpha24h": null
+  },
+  {
     "address": "0x230963164d9637a4c536270a06b4e3636d44a2d9",
     "label": "High Balance",
     "position": "プロトレーダー(本物)",
@@ -2040,7 +2051,7 @@
     "position": "プロトレーダー(本物)",
     "wf_quality": "履歴薄/評価不能",
     "notify": true,
-    "active14": true,
+    "active14": false,
     "first_seen": "2026-06-17",
     "alpha_tag": null,
     "alpha24h": -17.4
@@ -2618,13 +2629,24 @@
     "alpha24h": null
   },
   {
-    "address": "0x30afce2f6842bf183c7e3fe7162e279ff0b6393e",
+    "address": "0xacb66d1996501bcc82a0e7819c9e041599f5efbd",
+    "label": "プロトレーダー(本物)",
+    "position": "プロトレーダー(本物)",
+    "wf_quality": "履歴薄/評価不能",
+    "notify": true,
+    "active14": false,
+    "first_seen": "2026-08-18",
+    "alpha_tag": null,
+    "alpha24h": null
+  },
+  {
+    "address": "0x89e8de070e9ab38b8361624ce39c3835c246c33f",
     "label": "プロトレーダー(本物)",
     "position": "プロトレーダー(本物)",
     "wf_quality": "履歴薄/評価不能",
     "notify": true,
     "active14": true,
-    "first_seen": "2026-08-17",
+    "first_seen": "2026-08-18",
     "alpha_tag": null,
     "alpha24h": null
   },
@@ -4141,7 +4163,7 @@
     "position": "高頻度MM",
     "wf_quality": "堅実",
     "notify": false,
-    "active14": false,
+    "active14": true,
     "first_seen": "2026-06-21",
     "alpha_tag": null,
     "alpha24h": 87.0
@@ -4207,7 +4229,7 @@
     "position": "高頻度MM",
     "wf_quality": "ムラあり",
     "notify": false,
-    "active14": false,
+    "active14": true,
     "first_seen": "2026-06-21",
     "alpha_tag": null,
     "alpha24h": -123.4
@@ -4361,7 +4383,7 @@
     "position": "高頻度MM",
     "wf_quality": "ムラあり",
     "notify": false,
-    "active14": false,
+    "active14": true,
     "first_seen": "2026-06-21",
     "alpha_tag": null,
     "alpha24h": 311.9
@@ -4658,7 +4680,7 @@
     "position": "高頻度MM",
     "wf_quality": "履歴薄/評価不能",
     "notify": false,
-    "active14": false,
+    "active14": true,
     "first_seen": "2026-06-21",
     "alpha_tag": null,
     "alpha24h": 61.2
@@ -5846,7 +5868,7 @@
     "position": "高頻度MM",
     "wf_quality": "ムラあり",
     "notify": false,
-    "active14": true,
+    "active14": false,
     "first_seen": "2026-06-22",
     "alpha_tag": null,
     "alpha24h": null
@@ -6000,7 +6022,7 @@
     "position": "高頻度MM",
     "wf_quality": "ムラあり",
     "notify": false,
-    "active14": false,
+    "active14": true,
     "first_seen": "2026-06-22",
     "alpha_tag": null,
     "alpha24h": null
@@ -6220,7 +6242,7 @@
     "position": "高頻度MM",
     "wf_quality": "ムラあり",
     "notify": false,
-    "active14": false,
+    "active14": true,
     "first_seen": "2026-06-22",
     "alpha_tag": null,
     "alpha24h": null
@@ -7760,7 +7782,7 @@
     "position": "高頻度MM",
     "wf_quality": "履歴薄/評価不能",
     "notify": false,
-    "active14": true,
+    "active14": false,
     "first_seen": "2026-06-25",
     "alpha_tag": null,
     "alpha24h": null
@@ -8090,7 +8112,7 @@
     "position": "高頻度MM",
     "wf_quality": "ムラあり",
     "notify": false,
-    "active14": false,
+    "active14": true,
     "first_seen": "2026-06-25",
     "alpha_tag": null,
     "alpha24h": 329.2
@@ -10070,7 +10092,7 @@
     "position": "高頻度MM",
     "wf_quality": "履歴薄/評価不能",
     "notify": false,
-    "active14": true,
+    "active14": false,
     "first_seen": "2026-07-06",
     "alpha_tag": null,
     "alpha24h": 114.1
@@ -10565,7 +10587,7 @@
     "position": "高頻度MM",
     "wf_quality": "履歴薄/評価不能",
     "notify": false,
-    "active14": true,
+    "active14": false,
     "first_seen": "2026-07-10",
     "alpha_tag": null,
     "alpha24h": 272.7
@@ -11489,7 +11511,7 @@
     "position": "高頻度MM",
     "wf_quality": "履歴薄/評価不能",
     "notify": false,
-    "active14": true,
+    "active14": false,
     "first_seen": "2026-07-18",
     "alpha_tag": null,
     "alpha24h": null
@@ -11555,7 +11577,7 @@
     "position": "高頻度MM",
     "wf_quality": "履歴薄/評価不能",
     "notify": false,
-    "active14": true,
+    "active14": false,
     "first_seen": "2026-07-18",
     "alpha_tag": null,
     "alpha24h": null
@@ -12050,7 +12072,7 @@
     "position": "高頻度MM",
     "wf_quality": "履歴薄/評価不能",
     "notify": false,
-    "active14": true,
+    "active14": false,
     "first_seen": "2026-07-23",
     "alpha_tag": null,
     "alpha24h": null
@@ -12776,7 +12798,7 @@
     "position": "高頻度MM",
     "wf_quality": "履歴薄/評価不能",
     "notify": false,
-    "active14": true,
+    "active14": false,
     "first_seen": "2026-08-04",
     "alpha_tag": null,
     "alpha24h": null
@@ -13515,6 +13537,72 @@
     "notify": false,
     "active14": true,
     "first_seen": "2026-08-17",
+    "alpha_tag": null,
+    "alpha24h": null
+  },
+  {
+    "address": "0xba5d9cc840745aeeeeedac5712e32f13ab8ea352",
+    "label": "高頻度MM",
+    "position": "高頻度MM",
+    "wf_quality": "履歴薄/評価不能",
+    "notify": false,
+    "active14": true,
+    "first_seen": "2026-08-18",
+    "alpha_tag": null,
+    "alpha24h": null
+  },
+  {
+    "address": "0x1aac9f8452b29f6254c06b47f0ee10233abe2455",
+    "label": "高頻度MM",
+    "position": "高頻度MM",
+    "wf_quality": "履歴薄/評価不能",
+    "notify": false,
+    "active14": true,
+    "first_seen": "2026-08-18",
+    "alpha_tag": null,
+    "alpha24h": null
+  },
+  {
+    "address": "0xce8dc17143bbf35a10bc686b902e30ce7a81a5d4",
+    "label": "高頻度MM",
+    "position": "高頻度MM",
+    "wf_quality": "履歴薄/評価不能",
+    "notify": false,
+    "active14": true,
+    "first_seen": "2026-08-18",
+    "alpha_tag": null,
+    "alpha24h": null
+  },
+  {
+    "address": "0x34ea1e25034eb9d49f23c5c55483c84a9d642f47",
+    "label": "高頻度MM",
+    "position": "高頻度MM",
+    "wf_quality": "履歴薄/評価不能",
+    "notify": false,
+    "active14": true,
+    "first_seen": "2026-08-18",
+    "alpha_tag": null,
+    "alpha24h": null
+  },
+  {
+    "address": "0x736850ee773ac6170fcaeda596514269b863ee56",
+    "label": "高頻度MM",
+    "position": "高頻度MM",
+    "wf_quality": "履歴薄/評価不能",
+    "notify": false,
+    "active14": true,
+    "first_seen": "2026-08-18",
+    "alpha_tag": null,
+    "alpha24h": null
+  },
+  {
+    "address": "0xd064904fd346096e968f596b6037dc3b246f3893",
+    "label": "高頻度MM",
+    "position": "高頻度MM",
+    "wf_quality": "履歴薄/評価不能",
+    "notify": false,
+    "active14": true,
+    "first_seen": "2026-08-18",
     "alpha_tag": null,
     "alpha24h": null
   }
