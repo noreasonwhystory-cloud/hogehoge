@@ -1,6 +1,15 @@
 [
   {
     "address": "0x58f0bf4307c61bc7a5fe11e24fe36e64300b0d20",
+    "date": "2026-08-20",
+    "rall": 159843,
+    "rmaj": -1497,
+    "demoted_from": "alt主体プロ",
+    "source": "S4_day",
+    "first_seen": "2026-07-11"
+  },
+  {
+    "address": "0x58f0bf4307c61bc7a5fe11e24fe36e64300b0d20",
     "date": "2026-08-19",
     "rall": 112720,
     "rmaj": -1497,
