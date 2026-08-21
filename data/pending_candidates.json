@@ -17225,5 +17225,509 @@
     "source": "S1_allTime",
     "date": "2026-08-20",
     "reason": "rate_cap繰越"
+  },
+  {
+    "address": "0xdb3a56575b99abf9a58e3dcbd9227d45f203cf3b",
+    "source": "S4_day",
+    "date": "2026-08-21",
+    "reason": "rall<=0($0)→翌日再評価",
+    "rall": 0
+  },
+  {
+    "address": "0x18ed0f81334d32027da587f92eab8c53a87eacbd",
+    "source": "S3_month",
+    "date": "2026-08-21",
+    "reason": "rall<=0($0)→翌日再評価",
+    "rall": 0
+  },
+  {
+    "address": "0xf02d028ffeddc120a3ec59602a6617303ca55eb3",
+    "source": "S4_day",
+    "date": "2026-08-21",
+    "reason": "rall<=0($0)→翌日再評価",
+    "rall": 0
+  },
+  {
+    "address": "0xddb85e692bf8cac12b3e6766ab23b8e8e29781bb",
+    "source": "S4_day",
+    "date": "2026-08-21",
+    "reason": "rall<=0($-10,575)→翌日再評価",
+    "rall": -10575
+  },
+  {
+    "address": "0xbeef000000414d106d6456ac030ad0ab918ceb75",
+    "source": "S3_month",
+    "date": "2026-08-21",
+    "reason": "rall<=0($-11)→翌日再評価",
+    "rall": -11
+  },
+  {
+    "address": "0xad0135af20fa82e106607257143d0060a7eb5cbf",
+    "source": "S2_week",
+    "date": "2026-08-21",
+    "reason": "rall<=0($-10,236,573)→翌日再評価",
+    "rall": -10236573
+  },
+  {
+    "address": "0xbef6920628acd0f92d6ae204bebd55aa8f7704d2",
+    "source": "S2_week",
+    "date": "2026-08-21",
+    "reason": "rall<=0($0)→翌日再評価",
+    "rall": 0
+  },
+  {
+    "address": "0xb75a08e82a1bf0fcceb89bbdaf9aae00be8ca29a",
+    "source": "S4_day",
+    "date": "2026-08-21",
+    "reason": "rall<=0($0)→翌日再評価",
+    "rall": 0
+  },
+  {
+    "address": "0x175bd0e31ea1d99270521e9bf578a0c155b2c824",
+    "source": "S3_month",
+    "date": "2026-08-21",
+    "reason": "rall<=0($-164,244)→翌日再評価",
+    "rall": -164244
+  },
+  {
+    "address": "0x638f189825aaa4d5f85fd2e3fe38620df2f7f5f0",
+    "source": "S2_week",
+    "date": "2026-08-21",
+    "reason": "rall<=0($-207,261)→翌日再評価",
+    "rall": -207261
+  },
+  {
+    "address": "0x87dc009c5c7781e4f5e5d5aa3ee043ec38ce461d",
+    "source": "S4_day",
+    "date": "2026-08-21",
+    "reason": "rall<=0($0)→翌日再評価",
+    "rall": 0
+  },
+  {
+    "address": "0x418c343c68d1704b777dffe4eaf5deed91abba38",
+    "source": "S3_month",
+    "date": "2026-08-21",
+    "reason": "rall<=0($0)→翌日再評価",
+    "rall": 0
+  },
+  {
+    "address": "0xaddda509a703cede7f3509cd47e79e23e8e54988",
+    "source": "S3_month",
+    "date": "2026-08-21",
+    "reason": "rate_cap繰越"
+  },
+  {
+    "address": "0xfec495e7432264678175bea68c4d7678944f6635",
+    "source": "S1_allTime",
+    "date": "2026-08-21",
+    "reason": "rate_cap繰越"
+  },
+  {
+    "address": "0x8414017d3c6c11a100ea951678f590e4ee8b9bfe",
+    "source": "S4_day",
+    "date": "2026-08-21",
+    "reason": "rate_cap繰越"
+  },
+  {
+    "address": "0x90b5e0c5ca3b0c0c47b575b0f62c07eb8b39b010",
+    "source": "S2_week",
+    "date": "2026-08-21",
+    "reason": "rate_cap繰越"
+  },
+  {
+    "address": "0x6fadc31ce2fd163b1aeecbd43ef1293e5150430d",
+    "source": "S3_month",
+    "date": "2026-08-21",
+    "reason": "rate_cap繰越"
+  },
+  {
+    "address": "0xef406d8e729b6de82852912289f8b70bbdc49956",
+    "source": "S1_allTime",
+    "date": "2026-08-21",
+    "reason": "rate_cap繰越"
+  },
+  {
+    "address": "0x82c4426b73929c9b2a373b3a902ae7471abf0914",
+    "source": "S4_day",
+    "date": "2026-08-21",
+    "reason": "rate_cap繰越"
+  },
+  {
+    "address": "0x78a12b19e6aa81b8a8dbb15de160bf5cf4c24c6f",
+    "source": "S2_week",
+    "date": "2026-08-21",
+    "reason": "rate_cap繰越"
+  },
+  {
+    "address": "0xc916baeea46bbbb8f65ef07a7ebc46420e141954",
+    "source": "S3_month",
+    "date": "2026-08-21",
+    "reason": "rate_cap繰越"
+  },
+  {
+    "address": "0x2ee6bef5b7b63aeefc9059f1436dabe259c34d1c",
+    "source": "S1_allTime",
+    "date": "2026-08-21",
+    "reason": "rate_cap繰越"
+  },
+  {
+    "address": "0x8c028b7c65d86d9721874c87819c6196e6cdb73f",
+    "source": "S4_day",
+    "date": "2026-08-21",
+    "reason": "rate_cap繰越"
+  },
+  {
+    "address": "0x8e9c5b74a5c0eda6942a632cc7ba93fcaa66a0c0",
+    "source": "S2_week",
+    "date": "2026-08-21",
+    "reason": "rate_cap繰越"
+  },
+  {
+    "address": "0xf33b8b3c2559930ed028ef2591d85be57620d163",
+    "source": "S3_month",
+    "date": "2026-08-21",
+    "reason": "rate_cap繰越"
+  },
+  {
+    "address": "0xe44bd27c9f10fa2f89fdb3ab4b4f0e460da29ea8",
+    "source": "S1_allTime",
+    "date": "2026-08-21",
+    "reason": "rate_cap繰越"
+  },
+  {
+    "address": "0x45c33bb8f7ebe4fc4a0f00302f4c3900c93bc1e6",
+    "source": "S4_day",
+    "date": "2026-08-21",
+    "reason": "rate_cap繰越"
+  },
+  {
+    "address": "0x8bd03a3d492cd39586e60ab6c0840c78f0a37831",
+    "source": "S2_week",
+    "date": "2026-08-21",
+    "reason": "rate_cap繰越"
+  },
+  {
+    "address": "0xa6a1140c06c35619038823f58a54f25eb33c29eb",
+    "source": "S3_month",
+    "date": "2026-08-21",
+    "reason": "rate_cap繰越"
+  },
+  {
+    "address": "0x71f0019cc7fa79e4f42587fb7b9a817d8d2429ec",
+    "source": "S1_allTime",
+    "date": "2026-08-21",
+    "reason": "rate_cap繰越"
+  },
+  {
+    "address": "0x9bf9d46627c21fe2a35df37b1f0c417fa2088b13",
+    "source": "S4_day",
+    "date": "2026-08-21",
+    "reason": "rate_cap繰越"
+  },
+  {
+    "address": "0x982be5105a4d1e7062281e80ec780b8b151e4606",
+    "source": "S2_week",
+    "date": "2026-08-21",
+    "reason": "rate_cap繰越"
+  },
+  {
+    "address": "0x170519f69ef4bf7940eb8f9f16b1d60c50b92d79",
+    "source": "S3_month",
+    "date": "2026-08-21",
+    "reason": "rate_cap繰越"
+  },
+  {
+    "address": "0xd0e2842e830f2107f151ec0bd307c5871a3b4018",
+    "source": "S1_allTime",
+    "date": "2026-08-21",
+    "reason": "rate_cap繰越"
+  },
+  {
+    "address": "0x7b7f72a28fe109fa703eeed7984f2a8a68fedee2",
+    "source": "S4_day",
+    "date": "2026-08-21",
+    "reason": "rate_cap繰越"
+  },
+  {
+    "address": "0x64df55e6b56cfcc8b07965b53604b41f592eaf0e",
+    "source": "S2_week",
+    "date": "2026-08-21",
+    "reason": "rate_cap繰越"
+  },
+  {
+    "address": "0xd5dd9140ac1ec2d8c2c7c24430522224fad45e4b",
+    "source": "S3_month",
+    "date": "2026-08-21",
+    "reason": "rate_cap繰越"
+  },
+  {
+    "address": "0x0d0707963952f2fba59dd06f2b425ace40b492fe",
+    "source": "S1_allTime",
+    "date": "2026-08-21",
+    "reason": "rate_cap繰越"
+  },
+  {
+    "address": "0x655b62e1a4ca9cfe5c761b8dc3defda98be41e9f",
+    "source": "S4_day",
+    "date": "2026-08-21",
+    "reason": "rate_cap繰越"
+  },
+  {
+    "address": "0x9eb4348964d9943fc8579734d1a6e2fb2d88c83e",
+    "source": "S2_week",
+    "date": "2026-08-21",
+    "reason": "rate_cap繰越"
+  },
+  {
+    "address": "0x2873e8dd873ae23c408d6dd6156c279ba9b36645",
+    "source": "S3_month",
+    "date": "2026-08-21",
+    "reason": "rate_cap繰越"
+  },
+  {
+    "address": "0xf992aa323ec183733213f874b6322b8bd1aad625",
+    "source": "S1_allTime",
+    "date": "2026-08-21",
+    "reason": "rate_cap繰越"
+  },
+  {
+    "address": "0x6910c590d8503a1f3ef5ea9b64a5d7c7f3b5feda",
+    "source": "S4_day",
+    "date": "2026-08-21",
+    "reason": "rate_cap繰越"
+  },
+  {
+    "address": "0x36cc6ef64c86474e2acae9b1579739c16c7268a1",
+    "source": "S2_week",
+    "date": "2026-08-21",
+    "reason": "rate_cap繰越"
+  },
+  {
+    "address": "0xf47237079aeec748370d5ac827747f490e8f5d8b",
+    "source": "S3_month",
+    "date": "2026-08-21",
+    "reason": "rate_cap繰越"
+  },
+  {
+    "address": "0xa3af593d2d6b5537a8e5a1dea656e77fc2b698b0",
+    "source": "S1_allTime",
+    "date": "2026-08-21",
+    "reason": "rate_cap繰越"
+  },
+  {
+    "address": "0xf7f0162a355e311f6cc02c26237f0886ae431069",
+    "source": "S4_day",
+    "date": "2026-08-21",
+    "reason": "rate_cap繰越"
+  },
+  {
+    "address": "0xee8eaf4bcd2342342bf3b1405325c8a5649c0dd8",
+    "source": "S2_week",
+    "date": "2026-08-21",
+    "reason": "rate_cap繰越"
+  },
+  {
+    "address": "0x40ddc73ddd148c54abad4b7461da2e1dd10f1bc5",
+    "source": "S3_month",
+    "date": "2026-08-21",
+    "reason": "rate_cap繰越"
+  },
+  {
+    "address": "0xe787dd1347a29e6807d164c4fa43105b64048556",
+    "source": "S1_allTime",
+    "date": "2026-08-21",
+    "reason": "rate_cap繰越"
+  },
+  {
+    "address": "0x0e4a09041da78af520eb37cc66d8832ebaf5b2cd",
+    "source": "S4_day",
+    "date": "2026-08-21",
+    "reason": "rate_cap繰越"
+  },
+  {
+    "address": "0x3cb50e608866225a8804d1b61efb6507c56c6617",
+    "source": "S2_week",
+    "date": "2026-08-21",
+    "reason": "rate_cap繰越"
+  },
+  {
+    "address": "0x80f2e5f37b047d875c5685a67450965417b90c3a",
+    "source": "S3_month",
+    "date": "2026-08-21",
+    "reason": "rate_cap繰越"
+  },
+  {
+    "address": "0xf9693821d9235a3c08b1c5abfd8dd6d908ee9e12",
+    "source": "S1_allTime",
+    "date": "2026-08-21",
+    "reason": "rate_cap繰越"
+  },
+  {
+    "address": "0xe828ff6d5a15d3715dc732971a32d32efc87edc4",
+    "source": "S4_day",
+    "date": "2026-08-21",
+    "reason": "rate_cap繰越"
+  },
+  {
+    "address": "0xa0a1a22538ca412d9e66588676ace18e231971dd",
+    "source": "S2_week",
+    "date": "2026-08-21",
+    "reason": "rate_cap繰越"
+  },
+  {
+    "address": "0x3d0c8d5184b27e2c3d36354d684da521fa1760d2",
+    "source": "S3_month",
+    "date": "2026-08-21",
+    "reason": "rate_cap繰越"
+  },
+  {
+    "address": "0x4f8613500222a4b6e7f570c23ec59c7d936977f1",
+    "source": "S1_allTime",
+    "date": "2026-08-21",
+    "reason": "rate_cap繰越"
+  },
+  {
+    "address": "0x7823c552f54f0ba55bdd49f02d4cb370ba0f1ede",
+    "source": "S4_day",
+    "date": "2026-08-21",
+    "reason": "rate_cap繰越"
+  },
+  {
+    "address": "0x933089b27dd17c12d18c317f56d10057b36b8aee",
+    "source": "S2_week",
+    "date": "2026-08-21",
+    "reason": "rate_cap繰越"
+  },
+  {
+    "address": "0x0c3de5d897de35dcf1e758a104f6de6ea7bb13a9",
+    "source": "S3_month",
+    "date": "2026-08-21",
+    "reason": "rate_cap繰越"
+  },
+  {
+    "address": "0x5c28f772c43b12d5e4bcddfca52d8ea663d46ca6",
+    "source": "S1_allTime",
+    "date": "2026-08-21",
+    "reason": "rate_cap繰越"
+  },
+  {
+    "address": "0x0399976a0e0c504da1c07fedb91c30edfd7e4395",
+    "source": "S4_day",
+    "date": "2026-08-21",
+    "reason": "rate_cap繰越"
+  },
+  {
+    "address": "0xbc52b01b4bd45d7a87d7ed000048d64ebab1f3ab",
+    "source": "S2_week",
+    "date": "2026-08-21",
+    "reason": "rate_cap繰越"
+  },
+  {
+    "address": "0xab09b1f92211e828081200fe0390c3d422dbe403",
+    "source": "S3_month",
+    "date": "2026-08-21",
+    "reason": "rate_cap繰越"
+  },
+  {
+    "address": "0xb6a498c99e2a9a3bfed7d5d7499329f79bb91d47",
+    "source": "S1_allTime",
+    "date": "2026-08-21",
+    "reason": "rate_cap繰越"
+  },
+  {
+    "address": "0x9cc10bd3c7e2486c0ae4623e4f7cc3ff143fac56",
+    "source": "S4_day",
+    "date": "2026-08-21",
+    "reason": "rate_cap繰越"
+  },
+  {
+    "address": "0x5928eeea04b3e5708fe2e7c54209b5758fa17d4b",
+    "source": "S2_week",
+    "date": "2026-08-21",
+    "reason": "rate_cap繰越"
+  },
+  {
+    "address": "0x747dea361bbe965764a34dd9acc7dda788607b9c",
+    "source": "S3_month",
+    "date": "2026-08-21",
+    "reason": "rate_cap繰越"
+  },
+  {
+    "address": "0x931dee7d984fdf3a6984937a153580a0bd5492c5",
+    "source": "S1_allTime",
+    "date": "2026-08-21",
+    "reason": "rate_cap繰越"
+  },
+  {
+    "address": "0xeb0f432beecf10dcc828fc1e36a3386caf634637",
+    "source": "S4_day",
+    "date": "2026-08-21",
+    "reason": "rate_cap繰越"
+  },
+  {
+    "address": "0xee2b489196431a9442f73c52b2363436fdabd67e",
+    "source": "S2_week",
+    "date": "2026-08-21",
+    "reason": "rate_cap繰越"
+  },
+  {
+    "address": "0xf122a6129d27fcf6d72d971376544665bc104593",
+    "source": "S3_month",
+    "date": "2026-08-21",
+    "reason": "rate_cap繰越"
+  },
+  {
+    "address": "0x423d7f725ae7056f03f7ef57f9d0303f91c62e06",
+    "source": "S1_allTime",
+    "date": "2026-08-21",
+    "reason": "rate_cap繰越"
+  },
+  {
+    "address": "0x5d0bde4017530ed43370e332a5d30194941f73c6",
+    "source": "S4_day",
+    "date": "2026-08-21",
+    "reason": "rate_cap繰越"
+  },
+  {
+    "address": "0x16b02c23253b8cb9bfc37c44361feafa25f4ca73",
+    "source": "S2_week",
+    "date": "2026-08-21",
+    "reason": "rate_cap繰越"
+  },
+  {
+    "address": "0x4099d1765fe640154a47d33ad58efd9ed12e50c8",
+    "source": "S3_month",
+    "date": "2026-08-21",
+    "reason": "rate_cap繰越"
+  },
+  {
+    "address": "0x16a4814e8eb502c56cebd73f9c8ac7fdee29c042",
+    "source": "S1_allTime",
+    "date": "2026-08-21",
+    "reason": "rate_cap繰越"
+  },
+  {
+    "address": "0x3b9a5c0cdd1d7c5c659fb8c6106997161c44308a",
+    "source": "S4_day",
+    "date": "2026-08-21",
+    "reason": "rate_cap繰越"
+  },
+  {
+    "address": "0x605357ef6892c6e1dacdcb68c99a1bc8936f0312",
+    "source": "S2_week",
+    "date": "2026-08-21",
+    "reason": "rate_cap繰越"
+  },
+  {
+    "address": "0x6ee9fd015f9e3bb6bfc569e46fa54eecb6a908bc",
+    "source": "S3_month",
+    "date": "2026-08-21",
+    "reason": "rate_cap繰越"
+  },
+  {
+    "address": "0x556d2bbd04cc98c6eb9b626c9d829dd5fec5605e",
+    "source": "S1_allTime",
+    "date": "2026-08-21",
+    "reason": "rate_cap繰越"
   }
 ]

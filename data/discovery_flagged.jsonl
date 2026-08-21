@@ -162,3 +162,10 @@
 {"address": "0xbbfb6566ad064c233af6314aeb1eee4c26a5f921", "date": "2026-08-20", "kind": "deception", "patterns": {"H_deliberate_dip": 5.529}, "rmaj": -51933, "rall": 337838, "source": "S2_week"}
 {"address": "0x8c94949ef16f7e5711cb1dd1eec44f69bba173b0", "date": "2026-08-20", "kind": "deception", "patterns": {"D_controlled_loss": 16.347, "H_deliberate_dip": 5.988}, "rmaj": 1088941, "rall": 972660, "source": "S2_week"}
 {"address": "0x7178cc2d79160d524858c843e350ed8207de0854", "date": "2026-08-20", "kind": "deception", "patterns": {"H_deliberate_dip": 5.535}, "rmaj": -156248, "rall": 342444, "source": "S2_week"}
+{"address": "0x5a79e8ec9e79fdc4b1dafba71d7d02a60e3952b6", "date": "2026-08-21", "kind": "deception", "patterns": {"H_deliberate_dip": 5.765}, "rmaj": 635954, "rall": 581595, "source": "S4_day"}
+{"address": "0xf71521e7978560424ff72f4e6e1a1c0abdccdaed", "date": "2026-08-21", "kind": "deception", "patterns": {"C_dormant_burst": 7.729}, "rmaj": 0, "rall": 143342, "source": "S3_month"}
+{"address": "0x54d545bf04f84265112153d8ade19f791f24deb2", "date": "2026-08-21", "kind": "deception", "patterns": {"H_deliberate_dip": 5.248}, "rmaj": -5535, "rall": 177154, "source": "S4_day"}
+{"address": "0x68cee3e57bae218780274fb22248f35528b94b6c", "date": "2026-08-21", "kind": "deception", "patterns": {"C_dormant_burst": 5.221}, "rmaj": -4657, "rall": 101432, "source": "S3_month"}
+{"address": "0xa6e2808a49109bd48911b4531f680ae400cce803", "date": "2026-08-21", "kind": "deception", "patterns": {"C_dormant_burst": 2.572, "H_deliberate_dip": 5.653}, "rmaj": 0, "rall": 449583, "source": "S3_month"}
+{"address": "0x6b9ef7a334e61551209ddc3a78e5bb774a09085e", "date": "2026-08-21", "kind": "deception", "patterns": {"C_dormant_burst": 7.473, "H_deliberate_dip": 5.133}, "rmaj": -1236, "rall": 135758, "source": "S4_day"}
+{"address": "0xf3b80ca39e5ba6d112f862c801fc23e53f612ae0", "date": "2026-08-21", "kind": "deception", "patterns": {"C_dormant_burst": 5.407, "H_deliberate_dip": 5.472}, "rmaj": 314485, "rall": 296782, "source": "S4_day"}
