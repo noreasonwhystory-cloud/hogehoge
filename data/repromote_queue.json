@@ -1,5 +1,50 @@
 [
   {
+    "address": "0x8196e0648cb16e9151c2920618a58605706b5836",
+    "date": "2026-08-22",
+    "rall": 989559,
+    "rmaj": 0,
+    "demoted_from": null,
+    "source": null,
+    "first_seen": "2026-06-21"
+  },
+  {
+    "address": "0xae6446c95cc4e455e9cf56f28757ab728d88e81e",
+    "date": "2026-08-22",
+    "rall": 32,
+    "rmaj": 32,
+    "demoted_from": null,
+    "source": null,
+    "first_seen": "2026-06-26"
+  },
+  {
+    "address": "0xa9ff08af55b24bb5d064d776a078e8a292b8dfe2",
+    "date": "2026-08-22",
+    "rall": 32307,
+    "rmaj": -8,
+    "demoted_from": null,
+    "source": null,
+    "first_seen": "2026-07-02"
+  },
+  {
+    "address": "0x58f0bf4307c61bc7a5fe11e24fe36e64300b0d20",
+    "date": "2026-08-22",
+    "rall": 290394,
+    "rmaj": -1497,
+    "demoted_from": "alt主体プロ",
+    "source": "S4_day",
+    "first_seen": "2026-07-11"
+  },
+  {
+    "address": "0x5d9f164e9d873f54bd950c6f9c0233c2ac2ccbee",
+    "date": "2026-08-22",
+    "rall": 28641,
+    "rmaj": 0,
+    "demoted_from": "alt主体プロ",
+    "source": "S2_week",
+    "first_seen": "2026-07-12"
+  },
+  {
     "address": "0x58f0bf4307c61bc7a5fe11e24fe36e64300b0d20",
     "date": "2026-08-20",
     "rall": 159843,
